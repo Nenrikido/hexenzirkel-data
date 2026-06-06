@@ -1,33 +1,33 @@
 {
-  "weapon_key": "14416",
+  "weapon_key": "11425",
   "display_name": "Finale of the Deep",
   "base_stats_json": {
-    "baseAtk": 509.605949,
-    "subStatKey": "eleMas",
-    "subStatValue": 165.38400000000001
+    "baseAtk": 564.7837244,
+    "subStatKey": "atk_",
+    "subStatValue": 0.27564
   },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
-        "conditionKey": "skill_hit",
         "source": "FinaleOfTheDeep",
-        "description": "After using Elemental Skill (before it hits): ATK +24% for 15s..",
         "states": {
           "active": {
             "atk_": 0.24
           }
-        }
+        },
+        "description": "After using Elemental Skill (before it hits): ATK +24% for 15s..",
+        "conditionKey": "skill_hit"
       },
       {
-        "conditionKey": "bond_cleared",
         "source": "FinaleOfTheDeep",
-        "description": "After bond cleared, 300 atk for 15s",
         "states": {
           "active": {
             "atk": 300
           }
-        }
+        },
+        "description": "After bond cleared, 300 atk for 15s",
+        "conditionKey": "bond_cleared"
       }
     ],
     "team_modifiers_json": {},

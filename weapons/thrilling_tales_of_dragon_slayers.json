@@ -1,21 +1,25 @@
 {
-  "weapon_key": "10265",
+  "weapon_key": "14302",
   "display_name": "Thrilling Tales of Dragon Slayers",
-  "base_stats_json": {},
+  "base_stats_json": {
+    "baseAtk": 401.2935898,
+    "subStatKey": "hp_",
+    "subStatValue": 0.35190040000000006
+  },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "ThrillingTalesR5_atk",
         "source": "ThrillingTalesOfDragonSlayers",
-        "description": "R5 passive: After switching, +48% ATK to the on field party member for 10s",
         "states": {
           "active": {
             "atk_": 0.48
           }
-        }
+        },
+        "description": "R5 passive: After switching, +48% ATK to the on field party member for 10s",
+        "conditionKey": "ThrillingTalesR5_atk"
       }
     ]
   }

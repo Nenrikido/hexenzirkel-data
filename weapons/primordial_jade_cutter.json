@@ -1,13 +1,15 @@
 {
-  "weapon_key": "15508",
-  "display_name": "Aqua Simulacra",
+  "weapon_key": "11505",
+  "display_name": "Primordial Jade Cutter",
   "base_stats_json": {
     "baseAtk": 541.829758,
-    "subStatKey": "critDMG_",
-    "subStatValue": 0.882048
+    "subStatKey": "critRate_",
+    "subStatValue": 0.441024
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "hp_": 0.2
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
