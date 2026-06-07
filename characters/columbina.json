@@ -3,6 +3,7 @@
   "go_key": "Columbina",
   "avatar_id": 10000125,
   "character_key": "avatar_10000125",
+  "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 14695.093175999998,
     "baseAtk": 95.67135200000001,

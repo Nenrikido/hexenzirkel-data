@@ -10,6 +10,20 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "Off field buff",
+        "source": "avatar_10000073",
+        "description": "Burst active: grants 40 EM to the team.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "eleMas": 40.0
+            }
+          }
+        ]
+      }
+    ]
   }
 }

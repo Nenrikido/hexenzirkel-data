@@ -3,6 +3,7 @@
   "go_key": "Illuga",
   "avatar_id": 10000127,
   "character_key": "avatar_10000127",
+  "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 11962.4064649,
     "baseAtk": 191.15747280000002,

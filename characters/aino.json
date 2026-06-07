@@ -3,6 +3,7 @@
   "go_key": "Aino",
   "avatar_id": 10000121,
   "character_key": "avatar_10000121",
+  "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 11201.1621003,
     "baseAtk": 242.13280088,

@@ -3,6 +3,7 @@
   "go_key": "Lauma",
   "avatar_id": 10000119,
   "character_key": "avatar_10000119",
+  "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 10653.9424276,
     "baseAtk": 254.96415188000003,

@@ -110,6 +110,174 @@
           }
         ]
       },
+      "normal1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "normal2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "normal3": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p2_mult"
+          }
+        ]
+      },
+      "normal4": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          }
+        ]
+      },
+      "normal5": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p4_mult"
+          }
+        ]
+      },
+      "normal1Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "normal2Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "normal3Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p2_mult"
+          }
+        ]
+      },
+      "normal4Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          }
+        ]
+      },
+      "normal5Dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p4_mult"
+          }
+        ]
+      },
+      "charged1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
+          }
+        ]
+      },
+      "charged2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p6_mult"
+          }
+        ]
+      },
       "hit1Dmg": {
         "element": "physical",
         "dmgBonusKeys": [
@@ -205,6 +373,20 @@
           {
             "scalingKey": "atk",
             "multKey": "p6_mult"
+          }
+        ]
+      },
+      "0": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
           }
         ]
       }
@@ -451,6 +633,113 @@
             "multKey": "p1_mult"
           }
         ]
+      },
+      "slash": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "finalSlash": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "initial": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "final": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p2_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "dmg1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      },
+      "dmg2": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      }
+    },
+    "constellation1": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
+      }
+    },
+    "reaction": {
+      "overloaded": {
+        "specialType": "overloaded_reaction"
       }
     }
   },
@@ -481,6 +770,13 @@
       "p9_mult": 1.26378,
       "p10_mult": 2.527025,
       "p11_mult": 3.15639
+    },
+    "charged": {
+      "p0_mult": 1.3243,
+      "p1_mult": 1.5181
+    },
+    "constellation1": {
+      "p0_mult": 1.512
     },
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",

@@ -3,6 +3,7 @@
   "go_key": "Ineffa",
   "avatar_id": 10000116,
   "character_key": "avatar_10000116",
+  "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 12613.288084400001,
     "baseAtk": 330.06616240000005,

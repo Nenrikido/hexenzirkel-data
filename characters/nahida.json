@@ -124,26 +124,60 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {
-      "eleMas": {
-        "formulaRef": "nahida.c4.stacking_elemas"
-      }
-    },
+    "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
-    "team_modifiers_json": {
-      "eleMas": {
-        "formulaRef": "nahida.burst.team_elemas"
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "nahidaBurstActive",
+        "source": "avatar_10000073",
+        "description": "Burst active: grants 250 EM to team.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "eleMas": 250.0
+            }
+          }
+        ]
       },
-      "lunarbloom_dmg_": {
-        "formulaRef": "nahida.ascendant_gleam.lunarbloom_dmg_bonus"
+      {
+        "conditionKey": "nahidaC2BloomBuff",
+        "source": "avatar_10000073",
+        "description": "C2 Bloom buff: Lunar Bloom and Bloom-family reactions gain crit stats.",
+        "gating": { "constellationMin": 2 },
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "lunarbloom_critRate_": 0.1,
+              "lunarbloom_critDMG_": 0.2,
+              "bloom_reaction_critRate_": 0.2,
+              "bloom_reaction_critDMG_": 1.0,
+              "hyperbloom_reaction_critRate_": 0.2,
+              "hyperbloom_reaction_critDMG_": 1.0,
+              "burgeon_reaction_critRate_": 0.2,
+              "burgeon_reaction_critDMG_": 1.0,
+              "burning_reaction_critRate_": 0.2,
+              "burning_reaction_critDMG_": 1.0
+            }
+          }
+        ]
       },
-      "lunarbloom_critRate_": {
-        "formulaRef": "nahida.c2.lunarbloom_crit_rate"
-      },
-      "lunarbloom_critDMG_": {
-        "formulaRef": "nahida.c2.lunarbloom_crit_dmg"
+      {
+        "conditionKey": "nahidaC2QuickenBuff",
+        "source": "avatar_10000073",
+        "description": "C2 Quicken buff: 30% enemy DEF shred.",
+        "gating": { "constellationMin": 2 },
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "enemy_def_shred_": 0.3
+            }
+          }
+        ]
       }
-    },
-    "team_conditional_modifiers_json": []
+    ]
   }
 }

@@ -3,6 +3,7 @@
   "go_key": "Nefer",
   "avatar_id": 10000122,
   "character_key": "avatar_10000122",
+  "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 12703.9082338,
     "baseAtk": 344.4168692,

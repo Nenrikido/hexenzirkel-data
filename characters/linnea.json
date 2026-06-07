@@ -3,6 +3,7 @@
   "go_key": "Linnea",
   "avatar_id": 10000130,
   "character_key": "avatar_10000130",
+  "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 9894.69552967,
     "baseAtk": 143.50702800000002,

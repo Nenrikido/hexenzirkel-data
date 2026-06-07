@@ -887,13 +887,21 @@
           {
             "value": "no_hexerei",
             "modifiers": {
-              "pyro_enemyRes_": -0.2
+              "pyro_enemyRes_": -0.2,
+              "electro_enemyRes_": -0.2,
+              "dendro_enemyRes_": -0.2,
+              "geo_enemyRes_": -0.2,
+              "anemo_enemyRes_": -0.2
             }
           },
           {
             "value": "hexerei",
             "modifiers": {
-              "pyro_enemyRes_": -0.35
+              "pyro_enemyRes_": -0.35,
+              "electro_enemyRes_": -0.35,
+              "dendro_enemyRes_": -0.35,
+              "geo_enemyRes_": -0.35,
+              "anemo_enemyRes_": -0.35
             }
           }
         ]
