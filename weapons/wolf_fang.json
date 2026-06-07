@@ -18,16 +18,16 @@
         "description": "When Elemental Skill hits an opponent: CRIT Rate increases up to 4 stacks.",
         "states": {
           "1": {
-            "critRate_": 0.04
+            "skill_critRate_": 0.04
           },
           "2": {
-            "critRate_": 0.08
+            "skill_critRate_": 0.08
           },
           "3": {
-            "critRate_": 0.12
+            "skill_critRate_": 0.12
           },
           "4": {
-            "critRate_": 0.16
+            "skill_critRate_": 0.16
           }
         }
       },
@@ -37,16 +37,16 @@
         "description": "When Elemental Burst hits an opponent: CRIT Rate increases up to 4 stacks.",
         "states": {
           "1": {
-            "critRate_": 0.04
+            "burst_critRate_": 0.04
           },
           "2": {
-            "critRate_": 0.08
+            "burst_critRate_": 0.08
           },
           "3": {
-            "critRate_": 0.12
+            "burst_critRate_": 0.12
           },
           "4": {
-            "critRate_": 0.16
+            "burst_critRate_": 0.16
           }
         }
       }
