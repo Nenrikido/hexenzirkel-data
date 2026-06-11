@@ -12,6 +12,11 @@
     "ascStatValue": 115.2
   },
   "hit_definitions_json": {
+    "basic": {
+      "eleMas": {
+        "statKey": "eleMas"
+      }
+    },
     "normal": {
       "hit1Dmg": {
         "element": "dendro",
@@ -113,6 +118,20 @@
           }
         ]
       },
+      "hold1Dmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
       "hold2Dmg": {
         "specialType": "direct_lunarbloom",
         "element": "dendro",
@@ -133,6 +152,24 @@
           {
             "scalingKey": "eleMas",
             "multKey": "p2_mult"
+          }
+        ]
+      },
+      "frostgroveDmg": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "p4_mult"
           }
         ]
       },
