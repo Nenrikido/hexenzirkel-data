@@ -3,6 +3,8 @@
   "go_key": "Iansan",
   "avatar_id": 10000110,
   "character_key": "avatar_10000110",
+  "weapon_type": "polearm",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {
     "baseHp": 10657.416864800001,
     "baseAtk": 257.00060032,

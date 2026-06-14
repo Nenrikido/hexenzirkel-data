@@ -3,6 +3,8 @@
   "go_key": "Durin",
   "avatar_id": 10000123,
   "character_key": "avatar_10000123",
+  "weapon_type": "sword",
+  "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {
     "baseHp": 12429.5994322,
     "baseAtk": 346.808651,

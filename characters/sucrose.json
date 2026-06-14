@@ -3,6 +3,8 @@
   "go_key": "Sucrose",
   "avatar_id": 10000043,
   "character_key": "avatar_10000043",
+  "weapon_type": "catalyst",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {
     "baseHp": 9243.67751666,
     "baseAtk": 169.9177536,

@@ -3,6 +3,8 @@
   "go_key": "Bennett",
   "avatar_id": 10000032,
   "character_key": "avatar_10000032",
+  "weapon_type": "sword",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {
     "baseHp": 12397.4035882,
     "baseAtk": 191.15747280000002,

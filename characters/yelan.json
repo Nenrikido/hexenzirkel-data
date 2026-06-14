@@ -3,6 +3,8 @@
   "go_key": "Yelan",
   "avatar_id": 10000060,
   "character_key": "avatar_10000060",
+  "weapon_type": "bow",
+  "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {
     "baseHp": 14450.174906400001,
     "baseAtk": 243.96194960000003,

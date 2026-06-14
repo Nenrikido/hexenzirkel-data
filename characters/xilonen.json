@@ -3,6 +3,8 @@
   "go_key": "Xilonen",
   "avatar_id": 10000103,
   "character_key": "avatar_10000103",
+  "weapon_type": "sword",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "base_stats_json": {
     "baseHp": 12405.10724307,
     "baseAtk": 275.05513700000006,

@@ -3,6 +3,8 @@
   "go_key": "Furina",
   "avatar_id": 10000089,
   "character_key": "avatar_10000089",
+  "weapon_type": "sword",
+  "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {
     "baseHp": 15307.388350000001,
     "baseAtk": 243.96194960000003,

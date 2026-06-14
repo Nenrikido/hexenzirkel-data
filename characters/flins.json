@@ -3,6 +3,8 @@
   "go_key": "Flins",
   "avatar_id": 10000120,
   "character_key": "avatar_10000120",
+  "weapon_type": "polearm",
+  "constellation_talent_boosts": {"skill": 5, "burst": 3},
   "base_stats_json": {
     "baseHp": 12490.8290496,
     "baseAtk": 351.5922196,

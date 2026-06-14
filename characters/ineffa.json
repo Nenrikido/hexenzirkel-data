@@ -3,6 +3,8 @@
   "go_key": "Ineffa",
   "avatar_id": 10000116,
   "character_key": "avatar_10000116",
+  "weapon_type": "polearm",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
   "nation": "nod_krai",
   "base_stats_json": {
     "baseHp": 12613.288084400001,
