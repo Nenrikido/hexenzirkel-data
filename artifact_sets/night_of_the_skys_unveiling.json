@@ -11,20 +11,14 @@
         "source": "NightOfTheSkysUnveiling",
         "description": "4pc Night of the Sky's Unveiling active window.",
         "modifiers": {
-          "critRate_": 0.3
+          "critRate_": 0.3,
+          "lunarbloom_dmg_": 0.1,
+          "lunarcharged_dmg_": 0.1,
+          "lunarcrystallize_dmg_": 0.1
         }
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
-      {
-        "conditionKey": "4pc_when_nearby_party_members_trigger_lunar_reactions_if_the_equ",
-        "source": "NightOfTheSkysUnveiling",
-        "description": "4pc: When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
-        "modifiers": {
-          "critRate_": 0.3
-        }
-      }
-    ]
+    "team_conditional_modifiers_json": []
   }
 }
