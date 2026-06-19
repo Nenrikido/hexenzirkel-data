@@ -7,9 +7,43 @@
     "subStatValue": 0.661536
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "atk_": 0.12
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SymphonistOfScents",
+        "conditionKey": "off_field",
+        "description": "R1 Seasoned Symphony: when the equipping character is off-field, ATK is increased by an additional 12%.",
+        "states": {
+          "active": {
+            "atk_": 0.12
+          }
+        }
+      },
+      {
+        "source": "SymphonistOfScents",
+        "conditionKey": "sweet_echoes",
+        "description": "R1 Seasoned Symphony: after initiating healing, the equipping and healed character(s) gain Sweet Echoes: ATK +32% for 3s.",
+        "states": {
+          "active": {
+            "atk_": 0.32
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "source": "SymphonistOfScents",
+        "conditionKey": "sweet_echoes",
+        "description": "R1 Seasoned Symphony: after initiating healing, the equipping and healed character(s) gain Sweet Echoes: ATK +32% for 3s.",
+        "states": {
+          "active": {
+            "atk_": 0.32
+          }
+        }
+      }
+    ]
   }
 }

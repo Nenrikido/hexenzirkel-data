@@ -1,0 +1,69 @@
+{
+  "display_name": "Kaedehara Kazuha",
+  "go_key": "KaedeharaKazuha",
+  "avatar_id": 10000047,
+  "character_key": "avatar_10000047",
+  "weapon_type": "sword",
+  "nation": "inazuma",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "base_stats_json": {
+    "baseHp": 13348.0428,
+    "baseAtk": 296.5812,
+    "baseDef": 806.9821,
+    "ascStatKey": "eleMas",
+    "ascStatValue": 115.2
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]},
+      "1": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]},
+      "2": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]},
+      "3": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]},
+      "4": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]}
+    },
+    "charged": {
+      "cyclic": {"element": "physical", "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_cyclic_mult"}]},
+      "final": {"element": "physical", "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_final_mult"}]}
+    },
+    "plunging": {
+      "plunge": {"element": "anemo", "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_plunge_mult"}]},
+      "low": {"element": "anemo", "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_plunge_low_mult"}]},
+      "high": {"element": "anemo", "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_plunge_high_mult"}]}
+    },
+    "skill": {
+      "press": {"element": "anemo", "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_press_mult"}]},
+      "hold": {"element": "anemo", "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_hold_mult"}]}
+    },
+    "burst": {
+      "slash": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_slash_mult"}]},
+      "dot": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "p_dot_mult"}]}
+    }
+  },
+  "talent_multipliers_json": {
+    "normal": {"p0_mult": 0.8891, "p1_mult": 0.8942, "p2_mult": 0.51, "p3_mult": 0.612, "p4_mult": 1.2002},
+    "charged": {"p_cyclic_mult": 0.5015, "p_final_mult": 0.85},
+    "plunging": {"p_plunge_mult": 1.617638, "p_plunge_low_mult": 3.234591, "p_plunge_high_mult": 4.040179},
+    "skill": {"p_press_mult": 3.456, "p_hold_mult": 4.6944},
+    "burst": {"p_slash_mult": 4.7232, "p_dot_mult": 2.16},
+    "source": {
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
+      "assumptions": {"constellation": 0, "characterLevel": 90, "autoTalentLevel": 10, "skillTalentLevel": 10, "burstTalentLevel": 10},
+      "goCharacterKey": "KaedeharaKazuha"
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "poeticsOfFuubutsu",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu: triggering a Swirl reaction grants party members +0.04% Elemental DMG Bonus to the Swirled element per point of Kazuha's Elemental Mastery for 8s. Counted here at 1000 EM = +40% Pyro/Hydro/Cryo/Electro DMG.",
+        "states": [
+          {"value": "on", "modifiers": {"pyro_dmg_": 0.40, "hydro_dmg_": 0.40, "cryo_dmg_": 0.40, "electro_dmg_": 0.40}}
+        ]
+      }
+    ]
+  }
+}

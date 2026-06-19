@@ -8,7 +8,14 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SacrificialJade",
+        "conditionKey": "off_field",
+        "description": "R5 Jade Circulation: when not on the field for more than 5s, Max HP +64% and Elemental Mastery +80 (canceled after 10s on-field).",
+        "states": {"active": {"hp_": 0.64, "eleMas": 80}}
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

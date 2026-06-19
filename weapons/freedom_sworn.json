@@ -1,0 +1,22 @@
+{
+  "weapon_key": "11503",
+  "display_name": "Freedom-Sworn",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "eleMas",
+    "subStatValue": 198.4608
+  },
+  "buffs": {
+    "self_modifiers_json": {"all_dmg_": 0.10},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "source": "FreedomSworn",
+        "conditionKey": "millennial_movement",
+        "description": "R1 Revolutionary Chorale: consuming 2 Sigils of Rebellion grants all nearby party members Millennial Movement: Song of Resistance for 12s — Normal/Charged/Plunging Attack DMG +16% and ATK +20%.",
+        "states": {"active": {"normal_dmg_": 0.16, "charged_dmg_": 0.16, "plunging_dmg_": 0.16, "atk_": 0.20}}
+      }
+    ]
+  }
+}

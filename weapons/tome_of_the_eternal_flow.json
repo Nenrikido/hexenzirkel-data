@@ -7,8 +7,19 @@
     "subStatValue": 0.882048
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {"hp_": 0.16},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "TomeOfTheEternalFlow",
+        "conditionKey": "aeon_wave",
+        "description": "R1 Aeon Wave: when current HP increases or decreases, Charged Attack DMG +14% for 4s, max 3 stacks. Select active stacks.",
+        "states": {
+          "1": {"charged_dmg_": 0.14},
+          "2": {"charged_dmg_": 0.28},
+          "3": {"charged_dmg_": 0.42}
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
