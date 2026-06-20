@@ -131,13 +131,13 @@
       "p_plunge_high_mult": 3.15639
     },
     "skill": {
-      "p0_mult": 2.625599,
-      "p1_mult": 2.368134,
-      "p2_mult": 1.49685,
-      "p3_mult": 1.49685,
-      "p4_mult": 1.59205,
-      "p5_mult": 1.59205,
-      "p_charged_mult": 3.886761
+      "p0_mult": 2.810935,
+      "p1_mult": 2.535296,
+      "p2_mult": 1.60251,
+      "p3_mult": 1.60251,
+      "p4_mult": 1.70443,
+      "p5_mult": 1.70443,
+      "p_charged_mult": 4.161121
     },
     "burst": {
       "p0_mult": 2.20968,
@@ -149,11 +149,11 @@
         "constellation": 0,
         "characterLevel": 90,
         "autoTalentLevel": 10,
-        "skillTalentLevel": 10,
+        "skillTalentLevel": 11,
         "burstTalentLevel": 10
       },
       "goCharacterKey": "Skirk",
-      "notes": "skill section holds the Seven-Phase Flash (Havoc: Warp) enhanced Normal Attack chain; burst.ruin = Havoc: Ruin, burst.extinction = Havoc: Extinction."
+      "notes": "skill section holds the Seven-Phase Flash (Havoc: Warp) enhanced Normal Attack chain; burst.ruin = Havoc: Ruin, burst.extinction = Havoc: Extinction. skill multipliers are at Lv11: the Mutual Weapons Mentorship passive grants +1 Elemental Skill level (no level scaling exists at eval time, so the Lv11 values are baked in). normal/charged/plunge stay Lv10 (auto talent) and burst stays Lv10 (burst talent)."
     }
   },
   "buffs": {

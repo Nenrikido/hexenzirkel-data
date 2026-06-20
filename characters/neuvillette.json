@@ -37,7 +37,7 @@
         "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p_charged_mult"}]
       },
-      "equitableJudgment": {
+      "judgmentDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "hp", "multKey": "p_equitable_mult"}]
@@ -61,17 +61,27 @@
       }
     },
     "skill": {
-      "dmg": {
+      "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
+      },
+      "spiritbreathThornDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "hp", "multKey": "p_spiritbreath_mult"}]
       }
     },
     "burst": {
-      "dmg": {
+      "skillDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+        "components": [{"scalingKey": "hp", "multKey": "p0_mult"}]
+      },
+      "waterfallDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "hp", "multKey": "p_waterfall_mult"}]
       }
     }
   },
@@ -91,10 +101,12 @@
       "p_plunge_high_mult": 2.80568
     },
     "skill": {
-      "p0_mult": 0.231552
+      "p0_mult": 0.231552,
+      "p_spiritbreath_mult": 0.3744
     },
     "burst": {
-      "p0_mult": 0.400641
+      "p0_mult": 0.400641,
+      "p_waterfall_mult": 0.1639
     },
     "source": {
       "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
@@ -112,11 +124,31 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
+        "conditionKey": "a1BaseCABuffStacks",
+        "source": "avatar_10000087",
+        "gating": {"constellationMin": 2},
+        "description": "A1 improve base dmg from CA",
+        "states": [
+          {"value": "1", "modifiers": {"charged_base_dmg_": 0.10}},
+          {"value": "2", "modifiers": {"charged_base_dmg_": 0.25}},
+          {"value": "3", "modifiers": {"charged_base_dmg_": 0.60}}
+        ]
+      },
+      {
         "conditionKey": "supremeArbitration",
         "source": "avatar_10000087",
         "description": "A4 Discipline of the Supreme Arbitration: +0.6% Hydro DMG for each 1% of current HP above 30% of Max HP, up to +30% (full value at high HP).",
         "states": [
-          {"value": "on", "modifiers": {"hydro_dmg_": 0.30}}
+          {"value": "35% HP", "modifiers": {"hydro_dmg_": 3.0}},
+          {"value": "40% HP", "modifiers": {"hydro_dmg_": 6.0}},
+          {"value": "45% HP", "modifiers": {"hydro_dmg_": 9.0}},
+          {"value": "50% HP", "modifiers": {"hydro_dmg_": 12.0}},
+          {"value": "55% HP", "modifiers": {"hydro_dmg_": 15.0}},
+          {"value": "60% HP", "modifiers": {"hydro_dmg_": 18.0}},
+          {"value": "65% HP", "modifiers": {"hydro_dmg_": 21.0}},
+          {"value": "70% HP", "modifiers": {"hydro_dmg_": 24.0}},
+          {"value": "75% HP", "modifiers": {"hydro_dmg_": 27.0}},
+          {"value": "80% HP", "modifiers": {"hydro_dmg_": 30.0}}
         ]
       },
       {
