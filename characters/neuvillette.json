@@ -126,7 +126,6 @@
       {
         "conditionKey": "a1BaseCABuffStacks",
         "source": "avatar_10000087",
-        "gating": {"constellationMin": 2},
         "description": "A1 improve base dmg from CA",
         "states": [
           {"value": "1", "modifiers": {"charged_base_dmg_": 0.10}},
@@ -139,16 +138,16 @@
         "source": "avatar_10000087",
         "description": "A4 Discipline of the Supreme Arbitration: +0.6% Hydro DMG for each 1% of current HP above 30% of Max HP, up to +30% (full value at high HP).",
         "states": [
-          {"value": "35% HP", "modifiers": {"hydro_dmg_": 3.0}},
-          {"value": "40% HP", "modifiers": {"hydro_dmg_": 6.0}},
-          {"value": "45% HP", "modifiers": {"hydro_dmg_": 9.0}},
-          {"value": "50% HP", "modifiers": {"hydro_dmg_": 12.0}},
-          {"value": "55% HP", "modifiers": {"hydro_dmg_": 15.0}},
-          {"value": "60% HP", "modifiers": {"hydro_dmg_": 18.0}},
-          {"value": "65% HP", "modifiers": {"hydro_dmg_": 21.0}},
-          {"value": "70% HP", "modifiers": {"hydro_dmg_": 24.0}},
-          {"value": "75% HP", "modifiers": {"hydro_dmg_": 27.0}},
-          {"value": "80% HP", "modifiers": {"hydro_dmg_": 30.0}}
+          {"value": "35% HP", "modifiers": {"hydro_dmg_": 0.3}},
+          {"value": "40% HP", "modifiers": {"hydro_dmg_": 0.6}},
+          {"value": "45% HP", "modifiers": {"hydro_dmg_": 0.9}},
+          {"value": "50% HP", "modifiers": {"hydro_dmg_": 0.12}},
+          {"value": "55% HP", "modifiers": {"hydro_dmg_": 0.15}},
+          {"value": "60% HP", "modifiers": {"hydro_dmg_": 0.18}},
+          {"value": "65% HP", "modifiers": {"hydro_dmg_": 0.21}},
+          {"value": "70% HP", "modifiers": {"hydro_dmg_": 0.24}},
+          {"value": "75% HP", "modifiers": {"hydro_dmg_": 0.27}},
+          {"value": "80% HP", "modifiers": {"hydro_dmg_": 0.30}}
         ]
       },
       {
