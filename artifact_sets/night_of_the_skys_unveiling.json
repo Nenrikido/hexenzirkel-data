@@ -19,6 +19,17 @@
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_gleaming_moon_intent_active",
+        "source": "NightOfTheSkysUnveiling",
+        "description": "4pc Night of the Sky's Unveiling active window.",
+        "modifiers": {
+          "lunarbloom_dmg_": 0.1,
+          "lunarcharged_dmg_": 0.1,
+          "lunarcrystallize_dmg_": 0.1
+        }
+      }
+    ]
   }
 }

@@ -452,7 +452,7 @@
       "lunarbloom_baseDmg_": {
         "formulaRef": "nefer.a0.lunarbloom_base_dmg"
       },
-      "lunarbloom_dmg_": 0.1
+      "lunarbloom_dmg_": 0.14
     },
     "team_conditional_modifiers_json": [
       {

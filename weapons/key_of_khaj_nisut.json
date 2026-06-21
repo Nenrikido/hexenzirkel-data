@@ -7,9 +7,39 @@
     "subStatValue": 0.661536
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "hp_": 0.20
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillHitsStacks",
+        "source": "KeyOfKhajNisut",
+        "description": "assume 75k HP, so 0.12% per stack = 90",
+        "states": {
+          "1 stack": {
+            "eleMas": 90
+          },
+          "2 stack": {
+            "eleMas": 180
+          },
+          "3 stack": {
+            "eleMas": 270
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillHitsFullStacks",
+        "source": "KeyOfKhajNisut",
+        "description": "assume 75k HP, 0.2% at 3 stack = 150",
+        "states": {
+          "active": {
+            "eleMas": 150
+          }
+        }
+      }
+    ]
   }
 }

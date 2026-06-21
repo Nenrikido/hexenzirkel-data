@@ -16,50 +16,86 @@
   "hit_definitions_json": {
     "normal": {
       "hit1Dmg": {
-        "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p0_mult"
-          }
-        ]
+        "element": "hydro",
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+      },
+      "hit2Dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+      },
+      "hit3Dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+      }
+    },
+    "charged": {
+      "dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "dmg_mult"}]
+      },
+      "dewDmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "dew_mult"}]
       }
     },
     "skill": {
       "skillDmg": {
-        "element": "cryo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p0_mult"
-          }
-        ]
+        "element": "hydro",
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+      },
+      "continuousDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
+      },
+      "lunarchargedDmg": {
+        "specialType": "direct_lunar_charged",
+        "element": "electro",
+        "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
+      },
+      "lunarbloomDmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
+      },
+      "lunarcrystallizeDmg": {
+        "specialType": "direct_lunar_crystallization",
+        "element": "geo",
+        "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
       }
     },
     "burst": {
-      "hit1": {
-        "element": "cryo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "cryo_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p0_mult"
-          }
-        ]
+      "skillDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
+      }
+    },
+    "reaction": {
+      "bloom": {
+        "specialType": "bloomreaction",
+        "element": "dendro",
+        "dmgBonusKeys": ["reaction_dmg_", "all_dmg_"]
+      },
+      "lunarcharged": {
+        "specialType": "lunar_charged_reaction",
+        "element": "electro",
+        "dmgBonusKeys": ["lunarcharged_dmg_", "reaction_dmg_", "all_dmg_"]
+      },
+      "lunarcrystallize": {
+        "specialType": "lunar_crystallization_reaction",
+        "element": "geo",
+        "dmgBonusKeys": ["lunarcrystallize_dmg_", "reaction_dmg_", "all_dmg_"]
       }
     }
   },
@@ -93,6 +129,10 @@
       "p6_mult": 1.12336,
       "p7_mult": 2.246244,
       "p8_mult": 2.80568
+    },
+    "charged": {
+      "dmg_mult": 2.08944,
+      "dew_mult": 0.081606
     },
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
@@ -146,21 +186,15 @@
         ]
       },
       {
-        "conditionKey": "a1MoonsignPassive",
+        "conditionKey": "lunacy",
         "source": "avatar_10000125",
         "gating": {
-          "ascMin": 1,
-          "requiresMoonsign": true
+          "ascMin": 1
         },
         "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "critRate_": {
-                "formulaRef": "columbina.a1.moonsign.crit_rate"
-              }
-            }
-          }
+          {"value": "1", "modifiers": {"critRate_": 0.05}},
+          {"value": "2", "modifiers": {"critRate_": 0.10}},
+          {"value": "3", "modifiers": {"critRate_": 0.15}}
         ]
       }
     ],

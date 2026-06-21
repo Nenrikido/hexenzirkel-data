@@ -206,7 +206,7 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {
       "lunarcharged_baseDmg_": {
-        "formulaRef": "flins.a4.lunarcharged_base_dmg"
+        "formulaRef": "flins.a1.lunarcharged_base_dmg"
       },
       "electro_enemyRes_": {
         "formulaRef": "flins.c2.shift_mode_electro_res"
