@@ -134,9 +134,7 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {
-      "lunarcharged_baseDmg_": {
-        "formulaRef": "ineffa.a0.lunarcharged_base_dmg"
-      }
+      "lunarcharged_baseDmg_": 0.14
     },
     "team_conditional_modifiers_json": [
       {
