@@ -75,17 +75,17 @@
       }
     },
     "skill": {
-      "directive": {
+      "sigilDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       },
-      "spike": {
+      "spikeDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
       },
-      "cleave": {
+      "finalDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]

@@ -8,7 +8,27 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "13512",
+        "conditionKey": "bond_of_life",
+        "description": "R1: a Charged Attack hit grants a Bond of Life worth 25% of Max HP (once / 14s). While holding a Bond of Life, gain +12% DMG Bonus; if the Bond is >= 30% of Max HP, gain an additional +24% (36% total).",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "all_dmg_": 0.12
+            }
+          },
+          {
+            "value": "ge30",
+            "modifiers": {
+              "all_dmg_": 0.36
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
