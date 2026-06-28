@@ -1,0 +1,76 @@
+{
+  "display_name": "Clorinde",
+  "go_key": "Clorinde",
+  "avatar_id": 10000098,
+  "character_key": "avatar_10000098",
+  "element": "electro",
+  "weapon_type": "sword",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "nation": "fontaine",
+  "base_stats_json": {
+    "baseHp": 12956.173074,
+    "baseAtk": 337.241514,
+    "baseDef": 783.925457,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit1_mult"}]},
+      "hit2Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit2_mult"}]},
+      "hit3Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit3_mult"}]},
+      "hit4Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit4_mult"}]},
+      "hit5Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit5_mult"}]}
+    },
+    "charged": {
+      "dmg": {"element": "physical", "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "charged_mult"}]}
+    },
+    "plunging": {
+      "plunge": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plunge_mult"}]},
+      "plungeLow": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeLow_mult"}]},
+      "plungeHigh": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeHigh_mult"}]}
+    },
+    "skill": {
+      "normalDmg": {"element": "electro", "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "normalDmg_mult"}]},
+      "piercingDmg": {"element": "electro", "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "piercingDmg_mult"}]},
+      "thrust1Dmg": {"element": "electro", "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "thrust1Dmg_mult"}]},
+      "thrust2Dmg": {"element": "electro", "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "thrust2Dmg_mult"}]},
+      "thrust3Dmg": {"element": "electro", "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "thrust3Dmg_mult"}]},
+      "bladeDmg": {"element": "electro", "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "bladeDmg_mult"}]}
+    },
+    "burst": {
+      "skillDmg": {"element": "electro", "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "skillDmg_mult"}]}
+    }
+  },
+  "talent_multipliers_json": {
+    "normal": {
+      "hit1_mult": 1.06862,
+      "hit2_mult": 1.020561,
+      "hit3_mult": 0.67575,
+      "hit4_mult": 0.4573,
+      "hit5_mult": 1.779271
+    },
+    "charged": {"charged_mult": 2.533},
+    "plunging": {"plunge_mult": 1.26378, "plungeLow_mult": 2.527025, "plungeHigh_mult": 3.15639},
+    "skill": {
+      "normalDmg_mult": 0.52904,
+      "piercingDmg_mult": 0.7667,
+      "thrust1Dmg_mult": 0.65178,
+      "thrust2Dmg_mult": 0.86904,
+      "thrust3Dmg_mult": 0.4964,
+      "bladeDmg_mult": 0.7776
+    },
+    "burst": {"skillDmg_mult": 2.28384},
+    "source": {
+      "provider": "GenshinOptimizer+ProjectAmber",
+      "goSheet": "libs/gi/sheets/src/Characters/Clorinde",
+      "assumptions": {"constellation": 0, "characterLevel": 90, "autoTalentLevel": 10, "skillTalentLevel": 10, "burstTalentLevel": 10}
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

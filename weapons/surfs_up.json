@@ -7,8 +7,22 @@
     "subStatValue": 0.882048
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "hp_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "14516",
+        "conditionKey": "stacks",
+        "description": "R1: gain stacks (via Nightsoul points / bites): Normal Attack DMG +12% per stack, max 4 stacks.",
+        "states": [
+          {"value": "1", "modifiers": {"normal_dmg_": 0.12}},
+          {"value": "2", "modifiers": {"normal_dmg_": 0.24}},
+          {"value": "3", "modifiers": {"normal_dmg_": 0.36}},
+          {"value": "4", "modifiers": {"normal_dmg_": 0.48}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

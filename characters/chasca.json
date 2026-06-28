@@ -1,0 +1,78 @@
+{
+  "display_name": "Chasca",
+  "go_key": "Chasca",
+  "avatar_id": 10000104,
+  "character_key": "avatar_10000104",
+  "element": "anemo",
+  "weapon_type": "bow",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "nation": "natlan",
+  "base_stats_json": {
+    "baseHp": 9796.728784,
+    "baseAtk": 346.808651,
+    "baseDef": 614.843496,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit1_mult"}]},
+      "hit2Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit2_mult"}]},
+      "hit3Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit3_mult"}]},
+      "hit4Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit4_mult"}]}
+    },
+    "charged": {
+      "aimed": {"element": "physical", "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "aimed_mult"}]},
+      "fullyAimed": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "fullyAimed_mult"}]}
+    },
+    "plunging": {
+      "plunge": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plunge_mult"}]},
+      "plungeLow": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeLow_mult"}]},
+      "plungeHigh": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeHigh_mult"}]}
+    },
+    "skill": {
+      "activationDmg": {"element": "anemo", "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "activationDmg_mult"}]},
+      "pressDmg": {"element": "anemo", "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "pressDmg_mult"}]},
+      "shellDmg": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "shellDmg_mult"}]},
+      "shiningShellDmg": {"element": "anemo", "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "shiningShellDmg_mult"}]}
+    },
+    "burst": {
+      "galeSplittingDmg": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "galeSplittingDmg_mult"}]},
+      "shellDmg": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "burstShellDmg_mult"}]},
+      "radiantDmg": {"element": "anemo", "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "radiantDmg_mult"}]}
+    }
+  },
+  "talent_multipliers_json": {
+    "normal": {
+      "hit1_mult": 0.948991,
+      "hit2_mult": 0.881399,
+      "hit3_mult": 0.587044,
+      "hit4_mult": 0.503421
+    },
+    "charged": {"aimed_mult": 0.867, "fullyAimed_mult": 2.232},
+    "plunging": {"plunge_mult": 1.12336, "plungeLow_mult": 2.246244, "plungeHigh_mult": 2.80568},
+    "skill": {
+      "activationDmg_mult": 1.08,
+      "pressDmg_mult": 0.648,
+      "shellDmg_mult": 0.8784,
+      "shiningShellDmg_mult": 2.998296
+    },
+    "burst": {
+      "galeSplittingDmg_mult": 1.584,
+      "burstShellDmg_mult": 1.8612,
+      "radiantDmg_mult": 3.7224
+    },
+    "source": {
+      "provider": "GenshinOptimizer+ProjectAmber",
+      "goSheet": "libs/gi/sheets/src/Characters/Chasca",
+      "notes": "Shell/ShiningShell/Radiant hits modelled as base Anemo. In-game Shining Shells convert to an absorbed element (pyro/hydro/electro/cryo) when 2+ such party members are present; per-element variants can be added if needed.",
+      "assumptions": {"constellation": 0, "characterLevel": 90, "autoTalentLevel": 10, "skillTalentLevel": 10, "burstTalentLevel": 10}
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

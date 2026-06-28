@@ -1,0 +1,69 @@
+{
+  "display_name": "Mualani",
+  "go_key": "Mualani",
+  "avatar_id": 10000102,
+  "character_key": "avatar_10000102",
+  "element": "hydro",
+  "weapon_type": "catalyst",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "nation": "natlan",
+  "base_stats_json": {
+    "baseHp": 15184.929315,
+    "baseAtk": 181.775567,
+    "baseDef": 570.267343,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {"element": "hydro", "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit1_mult"}]},
+      "hit2Dmg": {"element": "hydro", "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit2_mult"}]},
+      "hit3Dmg": {"element": "hydro", "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit3_mult"}]}
+    },
+    "charged": {
+      "dmg": {"element": "hydro", "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "charged_mult"}]}
+    },
+    "plunging": {
+      "plunge": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plunge_mult"}]},
+      "plungeLow": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeLow_mult"}]},
+      "plungeHigh": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeHigh_mult"}]}
+    },
+    "skill": {
+      "basicDmg": {"element": "hydro", "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "hp", "multKey": "basicDmg_mult"}]},
+      "stack1Dmg": {"element": "hydro", "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "hp", "multKey": "stack1Dmg_mult"}]},
+      "stack2Dmg": {"element": "hydro", "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "hp", "multKey": "stack2Dmg_mult"}]},
+      "surgingDmg": {"element": "hydro", "dmgBonusKeys": ["normal_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "hp", "multKey": "surgingDmg_mult"}]}
+    },
+    "burst": {
+      "dmg": {"element": "hydro", "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"], "components": [{"scalingKey": "hp", "multKey": "burstDmg_mult"}]}
+    }
+  },
+  "talent_multipliers_json": {
+    "normal": {
+      "hit1_mult": 0.925128,
+      "hit2_mult": 0.803261,
+      "hit3_mult": 1.260619
+    },
+    "charged": {"charged_mult": 2.57184},
+    "plunging": {"plunge_mult": 1.12336, "plungeLow_mult": 2.246244, "plungeHigh_mult": 2.80568},
+    "skill": {
+      "basicDmg_mult": 0.15624,
+      "stack1Dmg_mult": 0.23436,
+      "stack2Dmg_mult": 0.31248,
+      "surgingDmg_mult": 0.7812
+    },
+    "burst": {"burstDmg_mult": 1.051906},
+    "source": {
+      "provider": "GenshinOptimizer+ProjectAmber",
+      "goSheet": "libs/gi/sheets/src/Characters/Mualani",
+      "notes": "Skill (Sharky bites) scale on Max HP and benefit from Normal Attack DMG bonus. stack1/stack2 = basic + 1x/2x wave bonus (0.07812 HP each); surgingDmg = basic + 3x wave + surging bonus (0.3906 HP).",
+      "assumptions": {"constellation": 0, "characterLevel": 90, "autoTalentLevel": 10, "skillTalentLevel": 10, "burstTalentLevel": 10}
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

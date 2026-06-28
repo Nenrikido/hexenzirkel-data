@@ -8,7 +8,25 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "15514",
+        "conditionKey": "afterSwirl",
+        "description": "R1: after the wielder triggers a Swirl reaction, ATK +24% for 12s.",
+        "states": [
+          {"value": "on", "modifiers": {"atk_": 0.24}}
+        ]
+      },
+      {
+        "source": "15514",
+        "conditionKey": "otherElementMembers",
+        "description": "R1: based on the number of party members whose Elemental Type differs from the wielder. 1 member: Charged Attack DMG +20%, Elemental Burst DMG +10%. 2+ members: Charged Attack DMG +48%, Elemental Burst DMG +24%.",
+        "states": [
+          {"value": "1 member", "modifiers": {"charged_dmg_": 0.2, "burst_dmg_": 0.1}},
+          {"value": "2+ members", "modifiers": {"charged_dmg_": 0.48, "burst_dmg_": 0.24}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

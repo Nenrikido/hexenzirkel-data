@@ -7,8 +7,21 @@
     "subStatValue": 0.441024
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "critDMG_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "11515",
+        "conditionKey": "bondStacks",
+        "description": "R1: when the wielder's Bond of Life amount changes, gain 1 stack: all DMG +16% per stack for 6s, max 3 stacks.",
+        "states": [
+          {"value": "1", "modifiers": {"all_dmg_": 0.16}},
+          {"value": "2", "modifiers": {"all_dmg_": 0.32}},
+          {"value": "3", "modifiers": {"all_dmg_": 0.48}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -1,0 +1,70 @@
+{
+  "display_name": "Emilie",
+  "go_key": "Emilie",
+  "avatar_id": 10000099,
+  "character_key": "avatar_10000099",
+  "element": "dendro",
+  "weapon_type": "polearm",
+  "constellation_talent_boosts": {"skill": 3, "burst": 5},
+  "nation": "fontaine",
+  "base_stats_json": {
+    "baseHp": 13568.469685,
+    "baseAtk": 334.849732,
+    "baseDef": 730.126652,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "hit1Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit1_mult"}]},
+      "hit2Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit2_mult"}]},
+      "hit3Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit3_mult"}]},
+      "hit4Dmg": {"element": "physical", "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "hit4_mult"}]}
+    },
+    "charged": {
+      "dmg": {"element": "physical", "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "charged_mult"}]}
+    },
+    "plunging": {
+      "plunge": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plunge_mult"}]},
+      "plungeLow": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeLow_mult"}]},
+      "plungeHigh": {"element": "physical", "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "plungeHigh_mult"}]}
+    },
+    "skill": {
+      "skillDmg": {"element": "dendro", "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "skillDmg_mult"}]},
+      "level1Dmg": {"element": "dendro", "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "level1Dmg_mult"}]},
+      "level2Dmg": {"element": "dendro", "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "level2Dmg_mult"}]},
+      "thornDmg": {"element": "dendro", "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "thornDmg_mult"}]}
+    },
+    "burst": {
+      "level3Dmg": {"element": "dendro", "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"], "components": [{"scalingKey": "atk", "multKey": "level3Dmg_mult"}]}
+    }
+  },
+  "talent_multipliers_json": {
+    "normal": {
+      "hit1_mult": 0.959922,
+      "hit2_mult": 0.887468,
+      "hit3_mult": 1.172218,
+      "hit4_mult": 1.484593
+    },
+    "charged": {"charged_mult": 1.8054},
+    "plunging": {"plunge_mult": 1.26378, "plungeLow_mult": 2.527025, "plungeHigh_mult": 3.15639},
+    "skill": {
+      "skillDmg_mult": 0.84744,
+      "level1Dmg_mult": 0.7128,
+      "level2Dmg_mult": 1.512,
+      "thornDmg_mult": 0.69336
+    },
+    "burst": {"level3Dmg_mult": 3.9096},
+    "source": {
+      "provider": "GenshinOptimizer+ProjectAmber",
+      "goSheet": "libs/gi/sheets/src/Characters/Emilie",
+      "assumptions": {"constellation": 0, "characterLevel": 90, "autoTalentLevel": 10, "skillTalentLevel": 10, "burstTalentLevel": 10}
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

@@ -7,8 +7,20 @@
     "subStatValue": 0.330768
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "atk_": 0.15
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "source": "13513",
+        "conditionKey": "bertillonage",
+        "description": "R1: after the wielder's Elemental Skill hits an opponent, gain 1 stack of Bertillonage: all DMG +18% per stack for 8s, max 2 stacks.",
+        "states": [
+          {"value": "1", "modifiers": {"all_dmg_": 0.18}},
+          {"value": "2", "modifiers": {"all_dmg_": 0.36}}
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
