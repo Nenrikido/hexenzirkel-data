@@ -82,89 +82,89 @@
         "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       },
-      "sturmHit1Dmg": {
-        "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+      "na1": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
       },
-      "sturmHit2aDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+      "na21": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
       },
-      "sturmHit2bDmg": {
+      "na22": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
       },
-      "sturmHit3aDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+      "na31": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
       },
-      "sturmHit3bDmg": {
+      "na32": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
       },
-      "sturmHit4aDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+      "na41": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p7_mult"}]
       },
-      "sturmHit4bDmg": {
+      "na42": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p8_mult"}]
       },
-      "sturmHit5aDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+      "na51": {
+        "element": "pyro",
+        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p9_mult"}]
       },
-      "sturmHit5bDmg": {
+      "na52": {
         "element": "anemo",
         "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p10_mult"}]
       },
-      "sturmChargedDmg1": {
-        "element": "anemo",
-        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+      "ca1": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p11_mult"}]
       },
-      "sturmChargedDmg2": {
+      "ca2": {
         "element": "anemo",
         "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p12_mult"}]
       },
       "fourWindsAscensionDmg1": {
-        "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p13_mult"}]
       },
       "fourWindsAscensionDmg2": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p14_mult"}]
       },
-      "azureDevourDmg1": {
-        "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+      "azure1": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p15_mult"}]
       },
-      "azureDevourDmg2": {
+      "azure2": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p16_mult"}]
       }
     },
     "burst": {
-      "hit1Dmg": {
-        "element": "anemo",
-        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+      "dmg1": {
+        "element": "pyro",
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       },
-      "hit2Dmg": {
+      "dmg2": {
         "element": "anemo",
         "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
@@ -235,9 +235,8 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "anemo_dmg_": {
-        "formulaRef": "varka.a1.elemental_dmg"
-      }
+      "anemo_dmg_": 0.25,
+      "pyro_dmg_": 0.25
     },
     "self_conditional_modifiers_json": [
       {
@@ -249,8 +248,7 @@
             "value": "4",
             "modifiers": {
               "normal_dmg_": 0.3,
-              "charged_dmg_": 0.3,
-              "skill_dmg_": 0.3
+              "charged_dmg_": 0.3
             }
           }
         ]
@@ -261,19 +259,17 @@
         "description": "A1 Dawn Wind's March (2+ Anemo or 2+ same-element supports): Normal/Charged Attack, Azure Devour and Four Winds' Ascension deal 140% of their original DMG in Sturm und Drang (220% with 2 Anemo + 2 same-element). Modeled additively as +40% (default) / +120%.",
         "states": [
           {
-            "value": "140",
+            "value": "2 same PHEC element",
             "modifiers": {
-              "normal_dmg_": 0.4,
-              "charged_dmg_": 0.4,
-              "skill_dmg_": 0.4
+              "normal_base_dmg_": 0.4,
+              "charged_base_dmg_": 0.4
             }
           },
           {
-            "value": "220",
+            "value": "2 anemo + 2 PHEC",
             "modifiers": {
-              "normal_dmg_": 1.2,
-              "charged_dmg_": 1.2,
-              "skill_dmg_": 1.2
+              "normal_base_dmg_": 1.2,
+              "charged_base_dmg_": 1.2
             }
           }
         ]

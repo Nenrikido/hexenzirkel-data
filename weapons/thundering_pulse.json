@@ -1,0 +1,35 @@
+{
+  "weapon_key": "15509",
+  "display_name": "Thundering Pulse",
+  "rarity": 5,
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.661536
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.2
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "thunderEmblemStacks",
+        "source": "ThunderingPulse",
+        "description": "Rule by Thunder (R1): ATK +20% (always-on, in self_modifiers). The Thunder Emblem at 1/2/3 stacks increases Normal Attack DMG by 12%/24%/40%.",
+        "states": {
+          "1": {
+            "normal_dmg_": 0.12
+          },
+          "2": {
+            "normal_dmg_": 0.24
+          },
+          "3": {
+            "normal_dmg_": 0.4
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  }
+}

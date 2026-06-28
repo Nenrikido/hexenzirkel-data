@@ -123,7 +123,13 @@
         "source": "Sucrose",
         "states": [
           {
-            "value": "on",
+            "value": "844 EM",
+            "modifiers": {
+              "eleMas": 168.8
+            }
+          },
+          {
+            "value": "1019 EM",
             "modifiers": {
               "eleMas": 203.8
             }

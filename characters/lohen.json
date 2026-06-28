@@ -72,64 +72,49 @@
       }
     },
     "skill": {
-      "masterHit1Dmg": {
+      "0": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
       },
-      "masterHit2Dmg": {
+      "1": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
       },
-      "masterHit3aDmg": {
+      "2": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
       },
-      "masterHit3bDmg": {
-        "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
-      },
-      "masterHit3cDmg": {
-        "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
-      },
-      "masterHit4Dmg": {
+      "3": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p3_mult"}]
       },
-      "masterHit5aDmg": {
+      "4": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p4_mult"}]
       },
-      "masterHit5bDmg": {
+      "5": {
         "element": "cryo",
         "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
       },
-      "masterChargedDmg1": {
+      "chargedDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
       },
-      "masterChargedDmg2": {
-        "element": "cryo",
-        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{"scalingKey": "atk", "multKey": "p6_mult"}]
-      },
-      "etchedDmg": {
+      "etchDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p16_mult"}]
       }
     },
     "burst": {
-      "burstHit": {
+      "burstDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p0_mult"}]
@@ -150,14 +135,14 @@
       "p10_mult": 3.15639
     },
     "skill": {
-      "p0_mult": 1.600915,
-      "p1_mult": 1.67359,
-      "p2_mult": 0.753729,
-      "p3_mult": 2.230536,
-      "p4_mult": 1.092879,
-      "p5_mult": 1.639319,
-      "p6_mult": 1.9533,
-      "p16_mult": 1.08
+      "p0_mult": 1.714,
+      "p1_mult": 1.792,
+      "p2_mult": 0.807,
+      "p3_mult": 2.388,
+      "p4_mult": 1.17,
+      "p5_mult": 1.755,
+      "p6_mult": 2.091,
+      "p16_mult": 1.14
     },
     "burst": {
       "p0_mult": 2.1384
@@ -192,6 +177,20 @@
             "modifiers": {
               "normal_dmg_": 0.4,
               "charged_dmg_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "willToWin",
+        "source": "avatar_10000129",
+        "description": "if 100 consumed, dmg x1.4",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "skill_base_dmg_": 0.4,
+              "burst_base_dmg_": 0.4
             }
           }
         ]

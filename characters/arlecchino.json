@@ -158,6 +158,33 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "masqueBondOfLife",
+        "source": "avatar_10000096",
+        "description": "Masque of the Red Death: while her Bond of Life is >= 30% of Max HP, Arlecchino's Normal Attacks deal extra DMG equal to ATK x 2.38 x (current Bond of Life %) (NA talent Lv.10). Select the average Bond of Life % maintained during the rotation. Her Bond of Life cap from Blood-Debt Directives is 145% of Max HP.",
+        "states": [
+          {"value": "10%", "modifiers": {"normal_dmgIncFromAtk_": 0.238}},
+          {"value": "20%", "modifiers": {"normal_dmgIncFromAtk_": 0.476}},
+          {"value": "30%", "modifiers": {"normal_dmgIncFromAtk_": 0.714}},
+          {"value": "40%", "modifiers": {"normal_dmgIncFromAtk_": 0.952}},
+          {"value": "50%", "modifiers": {"normal_dmgIncFromAtk_": 1.19}},
+          {"value": "60%", "modifiers": {"normal_dmgIncFromAtk_": 1.428}},
+          {"value": "70%", "modifiers": {"normal_dmgIncFromAtk_": 1.666}},
+          {"value": "80%", "modifiers": {"normal_dmgIncFromAtk_": 1.904}},
+          {"value": "90%", "modifiers": {"normal_dmgIncFromAtk_": 2.142}},
+          {"value": "100%", "modifiers": {"normal_dmgIncFromAtk_": 2.38}},
+          {"value": "110%", "modifiers": {"normal_dmgIncFromAtk_": 2.618}},
+          {"value": "120%", "modifiers": {"normal_dmgIncFromAtk_": 2.856}},
+          {"value": "130%", "modifiers": {"normal_dmgIncFromAtk_": 3.094}},
+          {"value": "140%", "modifiers": {"normal_dmgIncFromAtk_": 3.332}},
+          {"value": "150%", "modifiers": {"normal_dmgIncFromAtk_": 3.57}},
+          {"value": "160%", "modifiers": {"normal_dmgIncFromAtk_": 3.808}},
+          {"value": "170%", "modifiers": {"normal_dmgIncFromAtk_": 4.046}},
+          {"value": "180%", "modifiers": {"normal_dmgIncFromAtk_": 4.284}},
+          {"value": "190%", "modifiers": {"normal_dmgIncFromAtk_": 4.522}},
+          {"value": "200%", "modifiers": {"normal_dmgIncFromAtk_": 4.76}}
+        ]
       }
     ],
     "team_modifiers_json": {},

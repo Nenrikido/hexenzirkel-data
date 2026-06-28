@@ -1,0 +1,27 @@
+{
+  "weapon_key": "14416",
+  "display_name": "Wandering Evenstar",
+  "rarity": 4,
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "eleMas",
+    "subStatValue": 165.384
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "source": "WanderingEvenstar",
+        "conditionKey": "wildlingNightstar",
+        "description": "Wildling Nightstar (R1): every 10s the wielder gains 24% of their Elemental Mastery as bonus ATK for 12s; nearby party members gain 30% of that buff. Modeled as a flat +60.75 ATK team buff assuming the wielder has 844 EM (0.30 x 0.24 x 844).",
+        "states": {
+          "active": {
+            "atk": 60.75
+          }
+        }
+      }
+    ]
+  }
+}
