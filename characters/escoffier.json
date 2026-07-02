@@ -114,14 +114,12 @@
       {
         "conditionKey": "a1HydroCryoTeam",
         "source": "Escoffier",
+        "description": "A1 Low-Temperature Cooking: for 1/2/3/4 Hydro or Cryo party members (counting Escoffier), enemies hit by her Elemental Skill or Burst have their Cryo RES and Hydro RES decreased by 5%/10%/15%/55% for 12s.",
         "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "hydro_enemyRes_": -0.55,
-              "cryo_enemyRes_": -0.55
-            }
-          }
+          {"value": "1 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.05, "cryo_enemyRes_": -0.05}},
+          {"value": "2 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.10, "cryo_enemyRes_": -0.10}},
+          {"value": "3 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.15, "cryo_enemyRes_": -0.15}},
+          {"value": "4 cryo/hydro", "modifiers": {"hydro_enemyRes_": -0.55, "cryo_enemyRes_": -0.55}}
         ]
       }
     ]

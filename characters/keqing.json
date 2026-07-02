@@ -619,7 +619,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p0_mult"
+            "multKey": "p1_mult"
           }
         ]
       },
@@ -633,7 +633,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p1_mult"
+            "multKey": "p2_mult"
           }
         ]
       },
@@ -647,7 +647,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p0_mult"
+            "multKey": "p1_mult"
           }
         ]
       },
@@ -661,7 +661,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p1_mult"
+            "multKey": "p2_mult"
           }
         ]
       },
@@ -748,16 +748,16 @@
   },
   "talent_multipliers_json": {
     "burst": {
-      "p0_mult": 1.584,
-      "p1_mult": 0.432,
-      "p2_mult": 3.3984,
+      "p0_mult": 1.87,
+      "p1_mult": 0.51,
+      "p2_mult": 4.012,
       "p3_mult": 12.0,
       "p4_mult": 40.0
     },
     "skill": {
-      "p0_mult": 0.9072,
-      "p1_mult": 3.024,
-      "p2_mult": 1.512,
+      "p0_mult": 1.071,
+      "p1_mult": 3.57,
+      "p2_mult": 1.785,
       "p3_mult": 7.5
     },
     "normal": {

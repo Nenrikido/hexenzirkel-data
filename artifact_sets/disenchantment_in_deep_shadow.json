@@ -9,9 +9,10 @@
       {
         "conditionKey": "4pc_superconduct_active",
         "source": "DisenchantmentInDeepShadow",
-        "description": "4pc: Superconduct Reaction DMG +80%; when attacking Superconduct-affected opponents, CRIT Rate +16%",
+        "description": "4pc: Superconduct Reaction DMG +80%; Stellar Conduct Reaction DMG + 40%; when attacking Superconduct-affected opponents, CRIT Rate +16%",
         "modifiers": {
-          "reaction_dmg_": 0.8,
+          "superconduct_dmg_": 0.8,
+          "stellarconduct_dmg_": 0.4,
           "critRate_": 0.16
         }
       }

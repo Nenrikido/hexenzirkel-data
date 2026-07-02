@@ -42,7 +42,7 @@
       },
       "condensedBeamStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "stellarconduct_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p5_mult"}]
       },
       "powerOverdriveDmg": {
@@ -74,7 +74,7 @@
       },
       "prismShotStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "stellarconduct_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
       }
     },
@@ -91,7 +91,7 @@
       },
       "convectiveRayStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "stellarconduct_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p2_mult"}]
       }
     }

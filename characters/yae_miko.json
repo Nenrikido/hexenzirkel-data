@@ -145,6 +145,15 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
+        "conditionKey": "c1RadianceStellarConduct",
+        "source": "avatar_10000058",
+        "gating": {"constellationMin": 1},
+        "description": "C1 (6.7 Stellar-Conduct): after Yae Miko triggers a Superconduct or Stellar-Conduct reaction, or deals Stellar-Conduct DMG, nearby party members gain +40% Electro DMG and +40% Stellar-Conduct DMG for 8s.",
+        "states": [
+          {"value": "on", "modifiers": {"electro_dmg_": 0.4, "stellarconduct_dmg_": 0.4}}
+        ]
+      },
+      {
         "conditionKey": "c4SakuraChanneling",
         "source": "avatar_10000058",
         "gating": {"constellationMin": 4},

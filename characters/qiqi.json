@@ -101,7 +101,7 @@
       },
       "stellarConductDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "stellarconduct_dmg_", "all_dmg_"],
         "components": [{"scalingKey": "atk", "multKey": "p1_mult"}]
       }
     }
@@ -164,6 +164,15 @@
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4HeraldStellarConduct",
+        "source": "avatar_10000035",
+        "description": "Witch's Revelation (A4 Radiance): while the Herald of Frost is on the field, party members' Superconduct and Stellar-Conduct Reaction DMG is increased by 50%.",
+        "states": [
+          {"value": "on", "modifiers": {"stellarconduct_dmg_": 0.5, "superconduct_dmg_": 0.5}}
+        ]
+      }
+    ]
   }
 }
