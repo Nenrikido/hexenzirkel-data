@@ -8,8 +8,27 @@
     "subStatValue": 0.441024
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "atk_": 0.28
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "vivid_notions_dawns_first_hue",
+        "source": "VividNotions",
+        "description": "After using Plunge get 28% plunge crit dmg",
+        "states": {
+          "active": {"plunging_critDMG_ ": 0.28}
+        }
+      },
+      {
+        "conditionKey": "vivid_notions_twilights_splendor",
+        "source": "VividNotions",
+        "description": "After using skill get 40% plunge crit dmg",
+        "states": {
+          "active": {"plunging_critDMG_ ": 0.40}
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

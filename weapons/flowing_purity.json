@@ -9,7 +9,17 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "flowing_purity_dmgbonus",
+        "source": "FlowingPurity",
+        "description": "after skill 16% all elemental dmg bonus, after clearing bol 40% total",
+        "states"{
+        "bol_not_cleared": {"all_dmg_": 0.16},
+        "bol_cleared": {"all_dmg_": 0.4}
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
