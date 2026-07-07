@@ -322,7 +322,7 @@
       "p2_mult": 3.15639
     },
     "constellation1": {
-      "p0_mult": 1.512
+      "p0_mult": 0.5
     },
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
