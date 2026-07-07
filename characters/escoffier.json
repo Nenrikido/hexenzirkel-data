@@ -44,10 +44,38 @@
             "multKey": "p0_mult"
           }
         ]
+      },
+      "parfaitDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
+      },
+      "bladeDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          }
+        ]
       }
     },
     "burst": {
-      "hit1": {
+      "skillDmg": {
         "element": "cryo",
         "dmgBonusKeys": [
           "burst_dmg_",
