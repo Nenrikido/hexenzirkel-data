@@ -1,0 +1,335 @@
+{
+  "display_name": "Varesa",
+  "go_key": "Varesa",
+  "avatar_id": 10000111,
+  "character_key": "avatar_10000111",
+  "element": "electro",
+  "weapon_type": "catalyst",
+  "constellation_talent_boosts": {"burst": 3, "auto": 5},
+  "base_stats_json": {
+    "baseHp": 12699.01,
+    "baseAtk": 356.38,
+    "baseDef": 781.62,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0" : {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"0_mult"
+        ]
+      },
+      "1" : {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"1_mult"
+        ]
+      },
+      "2" : {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"2_mult"
+        ]
+      },
+      "fp0" : {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fp0_mult"
+        ]
+      },
+      "fp1" : {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fp1_mult"
+        ]
+      },
+      "fp2" : {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fp2_mult"
+        ]
+      }
+    },
+    "charged": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"dmg_mult"
+        ]
+      },
+      "fpDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fpDmg_mult"
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"dmg_mult"
+        ]
+      },
+      "low": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"low_mult"
+        ]
+      },
+      "high": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"high_mult"
+        ]
+      },
+      "fpdmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fpdmg_mult"
+        ]
+      },
+      "fplow": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fplow_mult"
+        ]
+      },
+      "fphigh": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fphigh_mult"
+        ]
+      }
+    },
+    "skill": {
+      "rushDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"rushDmg_mult"
+        ]
+      },
+      "fpRushDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fpRushDmg_mult"
+        ]
+      }
+    },
+    "burst": {
+      "kickDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"kickDmg_mult"
+        ]
+      },
+      "fpKickDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"fpKickDmg_mult"
+        ]
+      },
+      "volcanoDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          "scalingKey":"atk",
+          "multKey":"volcanoDmg_mult"
+        ]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "normal": {
+      "0_mult": 0.842011,
+      "1_mult": 0.720504,
+      "2_mult": 1.01363,
+      "fp0_mult": 0.97933,
+      "fp1_mult": 0.936518,
+      "fp2_mult": 1.324555
+    },
+    "charged": {
+      "dmg_mult": 1.60704,
+      "sta_cost":50,
+      "fpDmg_mult": 1.66752,
+      "fpSta_cost": 50
+    },
+    "plunging": {
+      "dmg": 1.47441,
+      "low": 2.948195,
+      "high": 3.682455,
+      "fpdmg": 1.47441,
+      "fplow": 4.422293,
+      "fphigh": 5.523683
+    },
+    "skill": {
+      "rushDmg_mult": 1.34064,
+      "fpRushDmg_mult": 1.9152,
+      "follow_s_dur": 5,
+      "np_limit": 40,
+      "cd": 9
+    },
+    "burst": {
+      "kickDmg_mult": 6.21216,
+      "fpKickDmg_mult": 10.3536,
+      "cd": 18,
+      "e_cost": 70,
+      "volcanoDmg_mult": 7.24752,
+      "v_e_cost": 30.0
+    },
+    "source": {
+      "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "burstTalentLevel": 10,
+        "skillTalentLevel": 10
+      },
+      "goAllStatFile": "libs/gi/stats/src/allStat_gen.json"
+    },
+    "passive1": {
+      "a1Rainbow_impact_dmgInc": 0.5,
+      "a1Rainbow_fpImpact_dmgInc": 1.8
+    },
+    "constellation4": {
+      "c4Diligent_impact_dmgInc": 5
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1afterskill",
+        "source": "avatar_10000111",
+        "description": "A1: 5s after skill, additional plunging multiplier (50% atk, 180% atk fp) (added manually in config)"
+      {
+        "conditionKey": "a4NSBurst_stacks",
+        "source": "avatar_10000111",
+        "description": "A4: 35% atk per stack",
+        "states": [
+          {"value": "1", "modifiers": {"atk_": 0.35}},
+          {"value": "2", "modifiers": {"atk_": 0.7}},
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+      }
+    ]
+  }
+}
