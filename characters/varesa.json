@@ -310,12 +310,12 @@
       "fpSta_cost": 50
     },
     "plunging": {
-      "dmg": 1.47441,
-      "low": 2.948195,
-      "high": 3.682455,
-      "fpdmg": 1.47441,
-      "fplow": 4.422293,
-      "fphigh": 5.523683
+      "dmg_mult": 1.47441,
+      "low_mult": 2.948195,
+      "high_mult": 3.682455,
+      "fpdmg_mult": 1.47441,
+      "fplow_mult": 4.422293,
+      "fphigh_mult": 5.523683
     },
     "skill": {
       "rushDmg_mult": 1.34064,

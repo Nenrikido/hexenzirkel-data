@@ -10,9 +10,28 @@
         "conditionKey": "4pc_after_the_equipping_character_s_plunging_attack_charged_atta",
         "source": "LongNightsOath",
         "description": "4pc: After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks, or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15% increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently.",
-        "modifiers": {
-          "plunging_dmg_": 0.15
-        }
+        "states": [
+          {
+            "value": "1",
+            "modifiers": {"plunging_dmg_": 0.15}
+          },
+          {
+            "value": "2",
+            "modifiers": {"plunging_dmg_": 0.30}
+          },
+          {
+            "value": "3",
+            "modifiers": {"plunging_dmg_": 0.45}
+          },
+          {
+            "value": "4",
+            "modifiers": {"plunging_dmg_": 0.6}
+          },
+          {
+            "value": "5",
+            "modifiers": {"plunging_dmg_": 0.75}
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},

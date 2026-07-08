@@ -8,12 +8,37 @@
     "subStatValue": 0.55128
   },
   "buffs": {
-    "self_modifiers_json": {
-      "atk_": 0.2,
-      "all_dmg_": 0.16,
-      "eleMas": 80.0
-    },
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "widisith_em",
+        "source": "TheWidsith",
+        "description": "full em buff from widsith",
+        "modifiers": {"em": 480}
+      },
+      {
+        "conditionKey": "widisith_atk",
+        "source": "TheWidsith",
+        "description": "full atk buff from widsith",
+        "modifiers": {"atk_": 1.2}
+      },
+      {
+        "conditionKey": "widisith_dmg",
+        "source": "TheWidsith",
+        "description": "full elemental dmg bonus buff from widsith",
+        "modifiers": {"all_dmg_": 0.96}
+      },
+      {
+        "conditionKey": "widsith_averaged",
+        "source": "TheWidsith",
+        "description": "averaged each buff with every 2nd rot, 1/3 chance",
+        "modifiers": {
+          "atk_": 0.2,
+          "all_dmg_": 0.16,
+          "eleMas": 80.0
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
