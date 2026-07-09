@@ -154,7 +154,7 @@
       "cloudstriderDmg": {
         "element": "pyro",
         "dmgBonusKeys": [
-          "skill_dmg_",
+          "plunging_dmg_",
           "pyro_dmg_",
           "all_dmg_"
         ],
@@ -243,7 +243,7 @@
         "gating": {"constellationMin": 6},
         "description": "C6 To Tame All Beasts: Plunging Attack: Charmed Cloudstrider CRIT Rate is increased by 20% and CRIT DMG by 40% (attack radius increase not modeled). Applied as skill_critRate_/skill_critDMG_ since cloudstriderDmg is Gaming's only skill hit.",
         "states": [
-          {"value": "on", "modifiers": {"skill_critRate_": 0.20, "skill_critDMG_": 0.40}}
+          {"value": "on", "modifiers": {"plunging_critRate_": 0.20, "plunging_critDMG_": 0.40}}
         ]
       }
     ],
