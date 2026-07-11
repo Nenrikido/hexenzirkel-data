@@ -222,6 +222,25 @@
             "multKey": "boxDmg_mult"
           }
         ]
+      },
+      "shotDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "shotDmg_mult"
+          }
+        ]
+      }
+    },
+    "reaction": {
+      "pyroSwirl": {
+        "specialType": "pyroSwirl_reaction"
       }
     }
   },
@@ -248,7 +267,8 @@
     },
     "burst": {
       "dmg_mult": 1.768,
-      "boxDmg_mult": 1.088
+      "boxDmg_mult": 1.088,
+      "shotDmg_mult": 0.969
     },
     "source": {
       "goCharacterKey": "Lynette",
