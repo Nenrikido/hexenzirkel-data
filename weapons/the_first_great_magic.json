@@ -8,8 +8,29 @@
     "subStatValue": 0.661536
   },
   "buffs": {
-    "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {
+      "charged_dmg_": 0.16
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "TFGMgimmickStacks",
+        "source": "TheFirstGreatMagic",
+        "states": [
+          {
+            "value": 1,
+            "modifiers": {"atk_": 0.16}
+          },
+          {
+            "value": 2,
+            "modifiers": {"atk_": 0.32}
+          },
+          {
+            "value": 3,
+            "modifiers": {"atk_": 0.48}
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

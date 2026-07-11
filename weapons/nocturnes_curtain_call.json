@@ -11,10 +11,7 @@
     "self_modifiers_json": {
       "hp_": 0.1
     },
-    "self_conditional_modifiers_json": [],
-    "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
-
+    "self_conditional_modifiers_json": [
       {
         "conditionKey": "bountiful sea sacred wine",
         "source": "NocturneCurtainCall",
@@ -26,6 +23,8 @@
           "lunarcrystallize_critDMG_": 0.6
         }
       }
-    ]
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
   }
 }

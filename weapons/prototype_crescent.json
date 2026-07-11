@@ -9,7 +9,15 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "CrescentCAweakPointHit",
+        "source": "PrototypeCrescent",
+        "modifiers":{
+          "atk_": 0.72
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

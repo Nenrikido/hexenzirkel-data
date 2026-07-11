@@ -237,7 +237,24 @@
           }
         ]
       }
+    },
+  {
+    "weapon:SkywardHarp": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
     }
+  }
   },
   "talent_multipliers_json": {
     "normal": {
@@ -265,6 +282,9 @@
       "dmg_mult": 2.772,
       "fireworkDmg_mult": 7.452
     },
+    "weapon:SkywardHarp": {
+        "dmg_mult": 0.125
+    },
     "source": {
       "goCharacterKey": "Lyney",
       "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['charged.hatHp: skipped (helper/cond formula)', 'charged.hpCost: skipped (helper/cond formula)', 'skill.hpRegen: skipped (helper/cond formula)'].",
@@ -279,7 +299,26 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4AffectedByPyro",
+        "source": "Lyney",
+        "states": [
+          {
+            "value": 0,
+            "modifiers": {"pyro_dmg_": 0.6}
+          },
+          {
+            "value": 1,
+            "modifiers": {"pyro_dmg_": 0.8}
+          },
+          {
+            "value": 2,
+            "modifiers": {"pyro_dmg_": 1.0}
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
