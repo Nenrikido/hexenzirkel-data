@@ -20,10 +20,10 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -34,10 +34,10 @@
         ]
       },
       "1": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -48,10 +48,10 @@
         ]
       },
       "2": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -62,10 +62,10 @@
         ]
       },
       "3": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -76,10 +76,10 @@
         ]
       },
       "4": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -92,10 +92,10 @@
     },
     "charged": {
       "dmg1": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -106,10 +106,10 @@
         ]
       },
       "dmg2": {
-        "element": "physical",
+        "element": "anemo",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "anemo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -264,9 +264,54 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4BurstInfused",
+        "source": "Lynette",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {"burst_dmg_": 0.15}
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6SkillInfusion",
+        "source": "Lynette",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "anemo_dmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1AfterBurst",
+        "source": "Lynette",
+        "states":[
+          {
+            "value": 1, "modifiers": {"atk_": 0.08}
+          },
+          {
+            "value": 2, "modifiers": {"atk_": 0.12}
+          },
+          {
+            "value": 3, "modifiers": {"atk_": 0.16}
+          },
+          {
+            "value": 4, "modifiers": {"atk_": 0.20}
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

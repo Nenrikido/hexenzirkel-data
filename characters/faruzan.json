@@ -238,6 +238,42 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "BurstPrayerfulWind",
+        "source": "Faruzan",
+        "states":[
+          {
+            "value": "on",
+            "modifiers": {"anemo_dmg_": 0.383, "anemo_enemyRes_": -0.3}
+          }
+        ]
+      },
+      {
+        "conditionKey": "a4HurricaneGuard",
+        "source": "Faruzan",
+        "states": [
+          {
+            "value": "fav",
+            "modifiers": {"normal_dmgInc": 208, "charged_dmgInc": 208, "plunging_dmgInc": 208, "skill_dmgInc": 208, "burst_dmgInc": 208}
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6PrayerfulWinds",
+        "source": "Faruzan",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "anemo_critDMG_": 0.4
+            }
+          }
+        ]
+      }
+    ]
   }
 }

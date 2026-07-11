@@ -5,7 +5,18 @@
     "self_modifiers_json": {
       "anemo_dmg_": 0.15
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "DPCafterCharged",
+        "Source": "DesertPavilionChronicle",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {"normal_dmg_": 0.4, "charged_dmg_": 0.4, "plunging_dmg_": 0.4}
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }
