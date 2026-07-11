@@ -283,7 +283,7 @@
       "fireworkDmg_mult": 7.452
     },
     "weapon:SkywardHarp": {
-        "dmg_mult": 0.125
+        "dmg_mult": 1.25
     },
     "source": {
       "goCharacterKey": "Lyney",
