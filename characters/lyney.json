@@ -92,10 +92,10 @@
         ]
       },
       "fullyAimed": {
-        "element": "physical",
+        "element": "pyro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "pyro_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -106,10 +106,10 @@
         ]
       },
       "prop": {
-        "element": "physical",
+        "element": "pyro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "pyro_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -120,10 +120,10 @@
         ]
       },
       "pyrotechnic": {
-        "element": "physical",
+        "element": "pyro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "pyro_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -321,6 +321,32 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "SkillPropStackIncrease",
+        "source": "Lyney",
+        "states": {
+          {
+            "value": "1",
+            "modifiers": {"skill_dmgIncFromAtk": 0.958}
+          },
+          {
+            "value": "2",
+            "modifiers": {"skill_dmgIncFromAtk": 1.916}
+          },
+          {
+            "value": "3",
+            "modifiers": {"skill_dmgIncFromAtk": 2.874}
+          },
+          {
+            "value": "4",
+            "modifiers": {"skill_dmgIncFromAtk": 3.832}
+          },
+          {
+            "value": "5",
+            "modifiers": {"skill_dmgIncFromAtk": 4.790}
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

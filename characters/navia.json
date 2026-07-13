@@ -212,6 +212,21 @@
           }
         ]
       }
+    },
+    "nicole": {
+      "burstArcaneProjectionDmg": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "burstArcaneProjectionDmg_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -237,6 +252,9 @@
     "burst": {
       "skillDmg_mult": 1.3536,
       "supportDmg_mult": 0.7767
+    },
+    "nicole": {
+      "burstArcaneProjectionDmg_mult": 1.8
     },
     "source": {
       "goCharacterKey": "Navia",
