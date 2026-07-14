@@ -328,23 +328,23 @@
         "states": [
           {
             "value": "1",
-            "modifiers": {"skill_dmgIncFromAtk": 0.958}
+            "modifiers": {"skill_dmgIncFromAtk_": 0.958}
           },
           {
             "value": "2",
-            "modifiers": {"skill_dmgIncFromAtk": 1.916}
+            "modifiers": {"skill_dmgIncFromAtk_": 1.916}
           },
           {
             "value": "3",
-            "modifiers": {"skill_dmgIncFromAtk": 2.874}
+            "modifiers": {"skill_dmgIncFromAtk_": 2.874}
           },
           {
             "value": "4",
-            "modifiers": {"skill_dmgIncFromAtk": 3.832}
+            "modifiers": {"skill_dmgIncFromAtk_": 3.832}
           },
           {
             "value": "5",
-            "modifiers": {"skill_dmgIncFromAtk": 4.790}
+            "modifiers": {"skill_dmgIncFromAtk_": 4.790}
           }
         ]
       }
