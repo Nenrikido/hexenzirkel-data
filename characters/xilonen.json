@@ -126,7 +126,8 @@
               "pyro_enemyRes_": -0.36,
               "hydro_enemyRes_": -0.36,
               "electro_enemyRes_": -0.36,
-              "cryo_enemyRes_": -0.36
+              "cryo_enemyRes_": -0.36,
+              "geo_enemyRes_": -0.36
             }
           }
         ]
