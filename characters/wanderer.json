@@ -153,6 +153,21 @@
           }
         ]
       }
+    },
+    "passive2": {
+      "dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -175,6 +190,9 @@
     "burst": {
       "dmg_mult": 2.6496
     },
+    "passive2": {
+      "dmg_mult": 0.35
+    },
     "source": {
       "goCharacterKey": "Wanderer",
       "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
@@ -189,7 +207,37 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "windfavoredState",
+        "source": "Wanderer",
+        "modifiers": {
+          "normal_base_dmg_": 1.5372,
+          "charged_base_dmg_": 1.42976
+        }
+      },
+      {
+        "conditionKey": "infusedPyro",
+        "source": "Wanderer",
+        "modifiers": {
+          "atk_": 0.3
+        }
+      },
+      {
+        "conditionKey": "infusedCryo",
+        "source": "Wanderer",
+        "modifiers": {
+          "critRate_": 0.2
+        }
+      },
+      {
+        "conditionKey": "c1WindarrowIncrease",
+        "source": "Wanderer",
+        "modifiers": {
+          "passive2_dmgIncFromAtk_": 0.25
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},

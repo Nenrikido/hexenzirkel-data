@@ -215,7 +215,61 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "XiaoYakshaMask",
+        "source": "Xiao",
+        "modifiers": {
+          "normal_dmg_": 0.952,
+          "charged_dmg_": 0.952,
+          "plunging_dmg_": 0.952
+        }
+      },
+      {
+        "conditionKey": "XiaoBurstDmgBonusOverTime",
+        "source": "Xiao",
+        "states": [
+          {
+            "value": 1,
+            "modifiers": {"all_dmg_": 0.05}
+          },
+          {
+            "value": 2,
+            "modifiers": {"all_dmg_": 0.10}
+          },
+          {
+            "value": 3,
+            "modifiers": {"all_dmg_": 0.15}
+          },
+          {
+            "value": 4,
+            "modifiers": {"all_dmg_": 0.20}
+          },
+          {
+            "value": 5,
+            "modifiers": {"all_dmg_": 0.25}
+          }
+        ]
+      },
+      {
+        "conditionKey": "XiaoSkillDmgStacks",
+        "source": "Xiao",
+        "states": [
+          {
+            "value": 1,
+            "modifiers": {"skill_dmg_": 0.15}
+          },
+          {
+            "value": 2,
+            "modifiers": {"skill_dmg_": 0.30}
+          },
+          {
+            "value": 3,
+            "modifiers": {"skill_dmg_": 0.45}
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
