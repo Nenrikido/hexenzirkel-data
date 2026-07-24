@@ -101,6 +101,52 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "c2GuidanceEnhance",
+        "source": "Nicole",
+        "description": "C2: when a party member's Grace of Kenosis upgrades to Guidance of Theosis (via Nicole's Elemental Skill), they gain an additional 300 ATK, and nearby opponents' Elemental RES is decreased by 25%. The +300 ATK stacks on top of the base Grace of Kenosis/Guidance of Theosis ATK (nicoleSwordOfCassiopeia).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk": 300,
+              "pyro_enemyRes_": -0.25,
+              "hydro_enemyRes_": -0.25,
+              "electro_enemyRes_": -0.25,
+              "cryo_enemyRes_": -0.25,
+              "anemo_enemyRes_": -0.25,
+              "geo_enemyRes_": -0.25,
+              "dendro_enemyRes_": -0.25,
+              "physical_enemyRes_": -0.25
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4PathfindersBlessing",
+        "source": "Nicole",
+        "description": "C4: when a party member upgrades to Guidance of Theosis, Nicole grants them Pathfinder's Blessing for 20s (once every 16s per character): Normal/Charged/Plunging Attack, Elemental Skill, and Elemental Burst DMG increased by 70% of Nicole's ATK. This scales off Nicole's own ATK (the source), not the receiving teammate's, so it's approximated as a flat DMG add (all_dmgInc) at a few representative Nicole ATK values — pick the state closest to this leaderboard's Nicole build.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          { "value": "nicole_atk_1500", "modifiers": { "all_dmgInc": 1050.0 } },
+          { "value": "nicole_atk_2000", "modifiers": { "all_dmgInc": 1400.0 } },
+          { "value": "nicole_atk_2500", "modifiers": { "all_dmgInc": 1750.0 } }
+        ]
+      },
+      {
+        "conditionKey": "c6TheosisDefIgnore",
+        "source": "Nicole",
+        "description": "C6: all nearby party members' Grace of Kenosis permanently upgrades to Guidance of Theosis (no longer reverts). Characters with Guidance of Theosis ignore 40% of opponents' DEF.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [{ "value": "on", "modifiers": { "defIgnore_": 0.4 } }]
       }
     ]
   }

@@ -89,10 +89,33 @@
           { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
         ]
       },
-      "c2MuzzleDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "c2Muzzle_mult" }]
+      "shiningShellDmg_pyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
+        ]
+      },
+      "shiningShellDmg_hydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
+        ]
+      },
+      "shiningShellDmg_electro": {
+        "element": "electro",
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
+        ]
+      },
+      "shiningShellDmg_cryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
+        ]
       }
     },
     "burst": {
@@ -113,10 +136,106 @@
         "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "radiantDmg_mult" }]
       },
-      "c4SparksDmg": {
+      "radiantDmg_pyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "radiantDmg_mult" }]
+      },
+      "radiantDmg_hydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "radiantDmg_mult" }]
+      },
+      "radiantDmg_electro": {
+        "element": "electro",
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "radiantDmg_mult" }]
+      },
+      "radiantDmg_cryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "radiantDmg_mult" }]
+      }
+    },
+    "constellation2": {
+      "anemo": {
         "element": "anemo",
         "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "c4Sparks_mult" }]
+        "components": [{ "scalingKey": "atk", "multKey": "c2_mult" }]
+      },
+      "pyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c2_mult" }]
+      },
+      "hydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c2_mult" }]
+      },
+      "electro": {
+        "element": "electro",
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c2_mult" }]
+      },
+      "cryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c2_mult" }]
+      }
+    },
+    "constellation4": {
+      "anemo": {
+        "element": "anemo",
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c4_mult" }]
+      },
+      "pyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c4_mult" }]
+      },
+      "hydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c4_mult" }]
+      },
+      "electro": {
+        "element": "electro",
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c4_mult" }]
+      },
+      "cryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c4_mult" }]
+      }
+    },
+    "passive2": {
+      "anemo": {
+        "element": "anemo",
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "passive2Anemo_mult" }]
+      },
+      "pyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "passive2Elem_mult" }]
+      },
+      "hydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "passive2Elem_mult" }]
+      },
+      "electro": {
+        "element": "electro",
+        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "passive2Elem_mult" }]
+      },
+      "cryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "passive2Elem_mult" }]
       }
     }
   },
@@ -137,19 +256,27 @@
       "activationDmg_mult": 1.08,
       "pressDmg_mult": 0.648,
       "shellDmg_mult": 0.8784,
-      "shiningShellDmg_mult": 2.998296,
-      "c2Muzzle_mult": 4.0
+      "shiningShellDmg_mult": 2.998296
     },
     "burst": {
       "galeSplittingDmg_mult": 1.584,
       "burstShellDmg_mult": 1.8612,
-      "radiantDmg_mult": 3.7224,
-      "c4Sparks_mult": 4.0
+      "radiantDmg_mult": 3.7224
+    },
+    "constellation2": {
+      "c2_mult": 4.0
+    },
+    "constellation4": {
+      "c4_mult": 4.0
+    },
+    "passive2": {
+      "passive2Anemo_mult": 1.3176,
+      "passive2Elem_mult": 4.497444
     },
     "source": {
       "provider": "GenshinOptimizer+ProjectAmber",
       "goSheet": "libs/gi/sheets/src/Characters/Chasca",
-      "notes": "Shell/ShiningShell/Radiant hits modelled as base Anemo. In-game Shining Shells convert to an absorbed element (pyro/hydro/electro/cryo) when 2+ such party members are present; per-element variants can be added if needed. 2026-07: added C2 'Muzzle, the Searing Smoke' (skill.c2MuzzleDmg) and C4 'Sparks, the Sudden Shot' (burst.c4SparksDmg) -- each is a separate 400% ATK AoE elemental-DMG instance (counted as Charged Attack DMG) triggered once per Multitarget Fire / Soul Reaper's Fatal Round use respectively. Modelled as base Anemo like the other Shell hits pending a per-element variant. These require Chasca to actually be at C2/C4 -- there's no in-file constellation gate on hit_definitions, so only include these rotation targets in leaderboards that assume the matching constellation.",
+      "notes": "Shell/ShiningShell/Radiant hits modelled as base Anemo, with per-element variants (_pyro/_hydro/_electro/_cryo) added 2026-07-24 to match GO's objKeyMap(absorbableEle,...) sheet structure and the rotation paths several existing local leaderboards already reference (skill.shiningShellDmg_<elem>, burst.radiantDmg_<elem>) -- these were previously unresolvable (0 dmg). Also added per GO's sheet: constellation2/constellation4 sections (C2 'Muzzle, the Searing Smoke' / C4 'Sparks, the Sudden Shot', each atk x4.0, anemo + 4 elemental variants, 'charged' dmg type per GO -- supersedes the old anemo-only skill.c2MuzzleDmg/burst.c4SparksDmg keys, which no leaderboard referenced) and a passive2 section (A4 'Intent to Cover': fires a Burning Shadowhunt Shot dealing 150% of the triggering Shell/Shining Shell's DMG -- shellDmg_mult x1.5 for anemo, shiningShellDmg_mult x1.5 for the elemental variants). C2/C4/A4 require the matching unlock -- there's no in-file constellation/ascension gate on hit_definitions, so only include these rotation targets in leaderboards that assume the matching unlock.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -165,7 +292,7 @@
       {
         "conditionKey": "a1BulletTrickShiningShell",
         "source": "Chasca",
-        "description": "A1 Bullet Trick (approximated): while charging Multitarget Fire, for each distinct eligible elemental type among nearby party members, Chasca has a chance to convert the 3rd shell into a Shining Shadowhunt Shell of that type and gains a stack of Spirit of the Radiant Shadow, raising Shining Shadowhunt Shell DMG by 15%/35%/65% for 1/2/3 stacks (max 3). No bespoke bonus key isolates skill.shellDmg/shiningShellDmg from the other charged-tagged hits (aimed/fullyAimed/c2Muzzle/c4Sparks) in hit_definitions_json, so this is applied via charged_dmg_ and will also slightly over-buff those other hits. Pick the state matching the team's elemental diversity.",
+        "description": "A1 Bullet Trick (approximated): while charging Multitarget Fire, for each distinct eligible elemental type among nearby party members, Chasca has a chance to convert the 3rd shell into a Shining Shadowhunt Shell of that type and gains a stack of Spirit of the Radiant Shadow, raising Shining Shadowhunt Shell DMG by 15%/35%/65% for 1/2/3 stacks (max 3). No bespoke bonus key isolates skill.shellDmg/shiningShellDmg from the other charged-tagged hits (aimed/fullyAimed/constellation2/constellation4/passive2) in hit_definitions_json, so this is applied via charged_dmg_ and will also slightly over-buff those other hits. Pick the state matching the team's elemental diversity.",
         "states": [
           { "value": "1_type", "modifiers": { "charged_dmg_": 0.15 } },
           { "value": "2_types", "modifiers": { "charged_dmg_": 0.35 } },

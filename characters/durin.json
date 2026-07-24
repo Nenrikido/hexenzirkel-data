@@ -743,6 +743,27 @@
     },
     "self_conditional_modifiers_json": [
       {
+        "conditionKey": "c1DarknessBurstBonus",
+        "source": "avatar_10000123",
+        "description": "C1: Adamah's Redemption (Darkness form) — after casting his Elemental Burst as Principle of Darkness: As the Stars Smolder, Durin gains 20 stacks of Cycle of Enlightenment for 20s; each Elemental Burst DMG instance he deals consumes 2 stacks to increase that DMG by 150% of his own ATK. Approximated as a flat +150% ATK burst DMG bonus (burst_dmgIncFromAtk_) assuming the 20-stack pool from a prior burst covers this burst's hits — does not model stack depletion across a very long rotation. Only applies to the Darkness-form burst; use durin's own ATK since this scales off himself.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [{ "value": "on", "modifiers": { "burst_dmgIncFromAtk_": 1.5 } }]
+      },
+      {
+        "conditionKey": "c6BurstDefIgnore",
+        "source": "avatar_10000123",
+        "description": "C6: Dual Birth — Durin's Elemental Burst DMG ignores 30% of opponents' DEF; Elemental Burst DMG from Principle of Darkness: As the Stars Smolder/Dragon of Dark Decay ignores an additional 40% (70% total). Applied as defIgnore_ (affects all of Durin's hits, matching the existing defIgnore_ convention used elsewhere in this codebase, e.g. Raiden/Yae Miko C6). Pick the state matching which burst form the rotation uses.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          { "value": "purity_form", "modifiers": { "defIgnore_": 0.3 } },
+          { "value": "darkness_form", "modifiers": { "defIgnore_": 0.7 } }
+        ]
+      },
+      {
         "conditionKey": "c4EmanareSourceBurstDmg",
         "source": "avatar_10000123",
         "description": "C4: Emanare's Source — Durin's Elemental Burst DMG is increased by 40%.",
@@ -774,6 +795,28 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c1PurityTeamBonus",
+        "source": "avatar_10000123",
+        "description": "C1: Adamah's Redemption (Purity form) — after casting his Elemental Burst as Principle of Purity: As the Light Shifts, all OTHER nearby party members gain 20 stacks of Cycle of Enlightenment for 20s; their Normal/Charged/Plunging Attack, Elemental Skill, or Elemental Burst DMG consumes 1 stack to increase that DMG by 60% of Durin's ATK. This scales off Durin's ATK (the source), not the receiving teammate's, so it's approximated as a flat DMG add (all_dmgInc) at a few representative Durin ATK values — pick the state closest to this leaderboard's Durin build (or leave off if the rotation assumes Darkness form instead).",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          { "value": "durin_atk_2200", "modifiers": { "all_dmgInc": 1320.0 } },
+          { "value": "durin_atk_2600", "modifiers": { "all_dmgInc": 1560.0 } },
+          { "value": "durin_atk_3000", "modifiers": { "all_dmgInc": 1800.0 } }
+        ]
+      },
+      {
+        "conditionKey": "c6WhiteFlameDefShred",
+        "source": "avatar_10000123",
+        "description": "C6: Dual Birth — after Principle of Purity: As the Light Shifts/Dragon of White Flame hits an opponent, that opponent's DEF is decreased by 30% for 6s (team-wide, while White Flame is active).",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [{ "value": "on", "modifiers": { "enemy_def_shred_": 0.3 } }]
+      },
       {
         "conditionKey": "c2UngroundVisions",
         "source": "avatar_10000123",

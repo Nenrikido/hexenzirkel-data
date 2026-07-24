@@ -4,8 +4,7 @@
   "buffs": {
     "self_modifiers_json": {
       "normal_dmg_": 0.15,
-      "charged_dmg_": 0.15,
-      "plunging_dmg_": 0.15
+      "charged_dmg_": 0.15
     },
     "self_conditional_modifiers_json": [
       {

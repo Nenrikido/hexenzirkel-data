@@ -255,7 +255,7 @@
       {
         "conditionKey": "a4ShadowSamaritanCritRate",
         "source": "Rosaria",
-        "description": "A4 Shadow Samaritan: casting Rites of Termination (Elemental Burst) increases the CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s, capped at 15%. Approximated at the 15% cap (reached once Rosaria's own CRIT Rate is at or above 100%, a common target for a battery/support Rosaria build); admin can override via the LB builder UI if Rosaria's CRIT Rate is lower.",
+        "description": "A4 Shadow Samaritan: casting Rites of Termination (Elemental Burst) increases the CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s, capped at 15%. Defaults to the 15% cap (reached once Rosaria's own CRIT Rate is at or above 100%, a common target for a battery/support Rosaria build). The LB builder UI also lets the admin type Rosaria's actual CRIT Rate % directly (min(0.15 * enteredCritRate / 100, 0.15)) instead of relying on the cap approximation.",
         "states": [{ "value": "on", "modifiers": { "critRate_": 0.15 } }]
       }
     ]

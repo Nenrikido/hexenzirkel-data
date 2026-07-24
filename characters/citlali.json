@@ -100,6 +100,20 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
+        "conditionKey": "c6CifraSelfDmg",
+        "source": "Citlali",
+        "description": "C6: Teoiztac's Secret Pact — each Nightsoul point Itzpapa consumes (while permanently in Opal Fire state) grants Citlali 1 'Cifra of the Secret Law' point (max 40), each increasing Citlali's own DMG by 2.5%. Approximated with a few representative stack-count states — pick the one matching this rotation's expected average stack count.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          { "value": "10_stacks", "modifiers": { "all_dmg_": 0.25 } },
+          { "value": "20_stacks", "modifiers": { "all_dmg_": 0.5 } },
+          { "value": "30_stacks", "modifiers": { "all_dmg_": 0.75 } },
+          { "value": "40_stacks_max", "modifiers": { "all_dmg_": 1.0 } }
+        ]
+      },
+      {
         "conditionKey": "c2SelfElemMastery",
         "source": "Citlali",
         "description": "C2: Heart Devourer's Travail — Citlali herself gains 125 Elemental Mastery (separate from the +250 EM granted to shielded/followed allies).",
@@ -118,6 +132,33 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c1StellarBladeTeamDmg",
+        "source": "Citlali",
+        "description": "C1: Radiant Blades of Centzon Mimixcoah — while Itzpapa is on the field (Opalstar Vestments), Citlali gains 10 Stellar Blades (+3 more after nearby party members trigger Frozen/Melt). When a nearby active character other than Citlali deals DMG via Normal/Charged/Plunging Attack, Elemental Skill, or Elemental Burst, 1 Blade is consumed to increase that DMG by 200% of Citlali's Elemental Mastery. This scales off Citlali's own EM (the source), not the receiving teammate's, so it's approximated as a flat DMG add (all_dmgInc) at a few representative Citlali EM values — pick the state closest to this leaderboard's Citlali build.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          { "value": "citlali_em_800", "modifiers": { "all_dmgInc": 1600.0 } },
+          { "value": "citlali_em_1000", "modifiers": { "all_dmgInc": 2000.0 } },
+          { "value": "citlali_em_1200", "modifiers": { "all_dmgInc": 2400.0 } }
+        ]
+      },
+      {
+        "conditionKey": "c6CifraTeamDmg",
+        "source": "Citlali",
+        "description": "C6: Teoiztac's Secret Pact — each 'Cifra of the Secret Law' point (max 40, see c6CifraSelfDmg) grants all nearby party members a 1.5% Pyro and Hydro DMG Bonus. Approximated with a few representative stack-count states — pick the one matching this rotation's expected average stack count (should match c6CifraSelfDmg's chosen state).",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          { "value": "10_stacks", "modifiers": { "pyro_dmg_": 0.15, "hydro_dmg_": 0.15 } },
+          { "value": "20_stacks", "modifiers": { "pyro_dmg_": 0.3, "hydro_dmg_": 0.3 } },
+          { "value": "30_stacks", "modifiers": { "pyro_dmg_": 0.45, "hydro_dmg_": 0.45 } },
+          { "value": "40_stacks_max", "modifiers": { "pyro_dmg_": 0.6, "hydro_dmg_": 0.6 } }
+        ]
+      },
       {
         "conditionKey": "a1FrozenOrMelted",
         "source": "Citlali",
