@@ -227,7 +227,6 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {
       "lunarbloom_baseDmg_": 0.14,
-      "lunarbloom_dmg_": 0.1,
       "lunarbloom_critRate_": 0.1,
       "lunarbloom_critDMG_": 0.2
     },

@@ -155,19 +155,6 @@
     },
     "self_conditional_modifiers_json": [
       {
-        "conditionKey": "burstActive",
-        "source": "avatar_10000125",
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "isMoonsign": 1,
-              "lunar_special_": 0.4
-            }
-          }
-        ]
-      },
-      {
         "conditionKey": "lunacy",
         "source": "avatar_10000125",
         "gating": {
@@ -192,9 +179,9 @@
           {
             "value": "on",
             "modifiers": {
-              "lunar_baseDmg_": {
-                "formulaRef": "columbina.a4.lunar_base_dmg"
-              }
+              "lunarbloom_baseDmg_": 0.07,
+              "lunarcharged_baseDmg_": 0.07,
+              "lunarcrystallize_baseDmg_": 0.07
             }
           }
         ]
