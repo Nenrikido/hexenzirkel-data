@@ -14,6 +14,7 @@
     "ascStatValue": 0.192
   },
   "hit_definitions_json": {
+    "note": "2026-07-26: split skill.prismShotDmg into prismShotDmg1/prismShotDmg2 to match GO's actual sheet (libs/gi/sheets/src/Characters/Sandrone/index.tsx) -- Prism Shot fires two separate damage instances off the same p0_mult talent value. GO's 2nd hit additionally gets an A1 'Decoding' bonus multiplier (dm.passive1.prismAddlMult, gated on an on/off condition + ascension >=1) which is NOT modeled here yet -- both hits are currently identical, so this is a structural split only, not a buff.",
     "normal": {
       "hit1Dmg": {
         "element": "physical",
@@ -67,7 +68,12 @@
       }
     },
     "skill": {
-      "prismShotDmg": {
+      "prismShotDmg1": {
+        "element": "cryo",
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
+      },
+      "prismShotDmg2": {
         "element": "cryo",
         "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
