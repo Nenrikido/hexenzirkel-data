@@ -14,7 +14,7 @@
     "ascStatValue": 0.192
   },
   "hit_definitions_json": {
-    "note": "2026-07-26: split skill.prismShotDmg into prismShotDmg1/prismShotDmg2 to match GO's actual sheet (libs/gi/sheets/src/Characters/Sandrone/index.tsx) -- Prism Shot fires two separate damage instances off the same p0_mult talent value. GO's 2nd hit additionally gets an A1 'Decoding' bonus multiplier (dm.passive1.prismAddlMult, gated on an on/off condition + ascension >=1) which is NOT modeled here yet -- both hits are currently identical, so this is a structural split only, not a buff.",
+    "note": "2026-07-26: restructured to match GO's actual sheet (libs/gi/sheets/src/Characters/Sandrone/index.tsx dmgFormulas) -- moved the 4 Charged Attack hits (sweepDmg/beamDmg/beamStellarDmg/overdriveDmg) and the 3 plunge hits out of 'normal' into their own 'charged'/'plunging' sections (matching every other character's convention and giving them the correct C/P rotation badges instead of N), and renamed every hit key to GO's literal identifier (sweepDmg, beamDmg, beamStellarDmg, overdriveDmg, prismDmg1/2, prismStellarDmg, bombardDmg, rayDmg, rayStellarDmg) instead of invented descriptive names. talent_multipliers_json.p3-p9_mult moved to the matching new charged/plunging sections alongside this -- same numeric values, just relocated so resolve_talent_section_mults(path[0]) still finds them. GO's 2nd Prism Shot hit (prismDmg2) additionally gets an A1 'Decoding' bonus multiplier (dm.passive1.prismAddlMult, gated on an on/off condition + ascension >=1) which is NOT modeled here yet -- both hits are currently identical, so this is a structural/naming fix only, not a buff.",
     "normal": {
       "hit1Dmg": {
         "element": "physical",
@@ -30,28 +30,32 @@
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
-      },
-      "sweepingFireDmg": {
+      }
+    },
+    "charged": {
+      "sweepDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
-      "condensedBeamDmg": {
+      "beamDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
-      "condensedBeamStellarDmg": {
+      "beamStellarDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
-      "powerOverdriveDmg": {
+      "overdriveDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
-      },
-      "plungeDmg": {
+      }
+    },
+    "plunging": {
+      "plunge": {
         "element": "physical",
         "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
@@ -68,34 +72,34 @@
       }
     },
     "skill": {
-      "prismShotDmg1": {
+      "prismDmg1": {
         "element": "cryo",
         "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
-      "prismShotDmg2": {
+      "prismDmg2": {
         "element": "cryo",
         "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
-      "prismShotStellarDmg": {
+      "prismStellarDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     },
     "burst": {
-      "bombardmentDmg": {
+      "bombardDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
-      "convectiveRayDmg": {
+      "rayDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
-      "convectiveRayStellarDmg": {
+      "rayStellarDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
@@ -106,11 +110,15 @@
     "normal": {
       "p0_mult": 1.507985,
       "p1_mult": 1.328312,
-      "p2_mult": 2.032163,
+      "p2_mult": 2.032163
+    },
+    "charged": {
       "p3_mult": 0.85,
       "p4_mult": 2.4225,
       "p5_mult": 1.615,
-      "p6_mult": 0.85,
+      "p6_mult": 0.85
+    },
+    "plunging": {
       "p7_mult": 1.47441,
       "p8_mult": 2.948195,
       "p9_mult": 3.682455
