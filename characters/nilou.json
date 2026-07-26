@@ -243,10 +243,31 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {
-      "eleMas": 100.0,
-      "bloom_dmg_": 4.0
+      "eleMas": 100.0
     },
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "bountifulCores",
+        "source": "avatar_10000125",
+        "gating": {
+          "ascMin": 1
+        },
+        "states": [
+          {
+            "value": "65k HP",
+            "modifiers": {
+              "bloom_dmg_": 3.15
+            }
+          },
+          {
+            "value": "Max HP cap",
+            "modifiers": {
+              "bloom_dmg_": 4.0
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }
