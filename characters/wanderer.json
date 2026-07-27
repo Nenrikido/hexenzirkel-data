@@ -138,7 +138,7 @@
       "2_mult": 0.9418
     },
     "charged": {
-      "dmg_mult": 0.9418
+      "dmg_mult": 2.37744
     },
     "plunging": {
       "dmg_mult": 50.0,
@@ -195,7 +195,7 @@
         "conditionKey": "c1WindarrowIncrease",
         "source": "Wanderer",
         "modifiers": {
-          "passive2_dmgIncFromAtk_": 0.25
+          "passive2_dmg_dmgIncFromAtk_": 0.25
         }
       }
     ],
