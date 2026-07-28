@@ -11,10 +11,7 @@
         "source": "NightOfTheSkysUnveiling",
         "description": "4pc Night of the Sky's Unveiling active window.",
         "modifiers": {
-          "critRate_": 0.3,
-          "lunarbloom_dmg_": 0.1,
-          "lunarcharged_dmg_": 0.1,
-          "lunarcrystallize_dmg_": 0.1
+          "critRate_": 0.3
         }
       }
     ],
