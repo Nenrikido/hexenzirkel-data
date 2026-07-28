@@ -60,23 +60,33 @@
       }
     },
     "charged": {
-      "charged_1": {
-        "element": "hydro",
-        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "p4_mult"
-          }
-        ]
-      },
-      "charged_aimed": {
+      "aimed": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p4_mult"
+            "multKey": "aimed_mult"
+          }
+        ]
+      },
+      "aimedCharged": {
+        "element": "hydro",
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "ca_mult"
+          }
+        ]
+      },
+      "barb": {
+        "element": "hydro",
+        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "barb_mult"
           }
         ]
       }
@@ -114,7 +124,7 @@
       }
     },
     "skill": {
-      "breakthrough_barb": {
+      "dmg": {
         "element": "hydro",
         "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
@@ -126,23 +136,23 @@
       }
     },
     "burst": {
-      "burst_1": {
+      "pressDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",
-            "multKey": "p0_mult"
+            "multKey": "press_mult"
           }
         ]
       },
-      "exquisite_throw": {
+      "throwDmg": {
         "element": "hydro",
         "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "hp",
-            "multKey": "p1_mult"
+            "multKey": "throw_mult"
           }
         ]
       }
@@ -150,8 +160,8 @@
   },
   "talent_multipliers_json": {
     "burst": {
-      "p0_mult": 0.131544,
-      "p1_mult": 0.087696,
+      "press_mult": 0.131544,
+      "throw_mult": 0.087696,
       "p2_mult": 15.0,
       "p3_mult": 18.0,
       "p4_mult": 70.0
@@ -174,6 +184,18 @@
       "p8_mult": 2.246244,
       "p9_mult": 2.80568
     },
+    "charged": {
+      "aimed_mult": 0.867,
+      "ca_mult": 0.232,
+      "barb_mult": 0.208368
+    },
+    "passive": {},
+    "constellation": {},
+    "plunging": {
+      "p6_mult": 1.12336,
+      "p7_mult": 2.246244,
+      "p8_mult": 2.80568
+    },
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
       "assumptions": {
@@ -186,16 +208,6 @@
       "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
       "goCharacterKey": "Yelan",
       "note": "2026-07: charged/plunging multipliers were missing (resolved to 0). charged p4 = fully-charged aimed shot 223.2% (GO charged.aimedCharged lv10); plunging = standard bow values."
-    },
-    "passive": {},
-    "constellation": {},
-    "charged": {
-      "p4_mult": 2.232
-    },
-    "plunging": {
-      "p6_mult": 1.12336,
-      "p7_mult": 2.246244,
-      "p8_mult": 2.80568
     }
   },
   "buffs": {
