@@ -122,6 +122,7 @@
       "dmg": {
         "element": "anemo",
         "dmgBonusKeys": ["anemo_dmg_", "all_dmg_"],
+        "flatDmgIncFromAtkRatioKeys": ["passive2_dmg_dmgIncFromAtk_"],
         "components": [
           {
             "scalingKey": "atk",
