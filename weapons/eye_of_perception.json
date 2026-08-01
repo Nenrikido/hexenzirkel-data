@@ -13,11 +13,11 @@
       {
         "source": "EyeOfPerception",
         "conditionKey": "eye_of_perception_bolt",
-        "description": "R5 Echo: Normal/Charged Attack hits have a 50% chance (CD 8s) to fire a Bolt of Perception dealing 360% ATK DMG, which can bounce to up to 4 additional opponents; approximated as bonus Normal/Charged Attack DMG on the primary target (bounce DMG to other targets not modeled).",
+        "description": "R5 Echo: Normal/Charged Attack hits have a 50% chance (CD 8s) to fire a Bolt of Perception dealing 360% ATK DMG, which can bounce to up to 4 additional opponents; modeled as a supplementary hit attached to Normal/Charged Attacks on the primary target (scales with ATK and CRIT only — no DMG% bonuses) (bounce DMG to other targets not modeled).",
         "states": {
           "active": {
-            "normal_dmgIncFromAtk_": 3.6,
-            "charged_dmgIncFromAtk_": 3.6
+            "normal_extraHitFromAtk_": 3.6,
+            "charged_extraHitFromAtk_": 3.6
           }
         }
       }

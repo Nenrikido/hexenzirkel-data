@@ -15,10 +15,10 @@
       {
         "source": "LuxuriousSeaLord",
         "conditionKey": "luxurious_sea_lord_tuna_rush",
-        "description": "R5 Oceanic Victory: when Elemental Burst hits opponents, 100% chance to summon a tuna dealing 200% ATK AoE DMG (once per 15s); approximated as bonus Burst DMG on the primary target.",
+        "description": "R5 Oceanic Victory: when Elemental Burst hits opponents, 100% chance to summon a tuna dealing 200% ATK AoE DMG (once per 15s); modeled as a supplementary hit attached to Burst hits on the primary target (scales with ATK and CRIT only — no DMG% bonuses).",
         "states": {
           "active": {
-            "burst_dmgIncFromAtk_": 2.0
+            "burst_extraHitFromAtk_": 2.0
           }
         }
       }

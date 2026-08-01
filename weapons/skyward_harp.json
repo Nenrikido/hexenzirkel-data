@@ -11,7 +11,18 @@
     "self_modifiers_json": {
       "critDMG_": 0.2
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SkywardHarp",
+        "conditionKey": "skyward_harp_echoing_ballad",
+        "description": "Echoing Ballad (R1): hits have a 60% chance to inflict a small AoE attack dealing 125% Physical ATK DMG (once every 4s). Modeled as a supplementary hit at the full proc value on any attack (scales with ATK and CRIT only — no DMG% bonuses). The flat CRIT DMG +20% part is modeled separately as an unconditional self modifier.",
+        "states": {
+          "active": {
+            "all_extraHitFromAtk_": 1.25
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

@@ -15,12 +15,12 @@
       {
         "source": "KagotsurubeIsshin",
         "conditionKey": "kagotsurube_isshin_hewing_gale",
-        "description": "Isshin Art Clarity: Normal/Charged/Plunging Attack hits trigger a Hewing Gale (CD 8s) dealing AoE DMG equal to 180% of ATK; approximated as bonus Normal/Charged/Plunging Attack DMG. Amber's API only exposes a single unscaled tier for this affix (no per-refinement breakdown), so this value is used directly as the R5 approximation.",
+        "description": "Isshin Art Clarity: Normal/Charged/Plunging Attack hits trigger a Hewing Gale (CD 8s) dealing AoE DMG equal to 180% of ATK; modeled as a supplementary hit attached to Normal/Charged/Plunging Attacks (scales with ATK and CRIT only — no DMG% bonuses). Amber's API only exposes a single unscaled tier for this affix (no per-refinement breakdown), so this value is used directly as the R5 approximation.",
         "states": {
           "active": {
-            "normal_dmgIncFromAtk_": 1.8,
-            "charged_dmgIncFromAtk_": 1.8,
-            "plunging_dmgIncFromAtk_": 1.8
+            "normal_extraHitFromAtk_": 1.8,
+            "charged_extraHitFromAtk_": 1.8,
+            "plunging_extraHitFromAtk_": 1.8
           }
         }
       }
