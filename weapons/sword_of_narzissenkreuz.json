@@ -13,7 +13,7 @@
       {
         "source": "SwordOfNarzissenkreuz",
         "conditionKey": "sword_of_narzissenkreuz_heros_blade",
-        "description": "R5 Hero's Blade (equipping character has no Arkhe, the common case): Normal/Charged/Plunging Attack hits unleash a Pneuma or Ousia energy blast dealing 320% ATK as DMG (once every 12s); modeled as a supplementary hit attached to Normal/Charged/Plunging Attacks (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "R5 Hero's Blade (equipping character has no Arkhe, the common case): Normal/Charged/Plunging Attack hits unleash a Pneuma or Ousia energy blast dealing 320% ATK as DMG (once every 12s); modeled as a supplementary hit — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit + weapon/plungingExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 3.2,

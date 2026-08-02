@@ -13,7 +13,7 @@
       {
         "source": "PrototypeArchaic",
         "conditionKey": "prototype_archaic_crush_proc",
-        "description": "Crush (R5): Normal or Charged Attack hits have a 50% chance to deal an additional 480% ATK DMG to opponents in a small AoE. Can only occur once every 15s; modeled as a supplementary hit attached to Normal/Charged Attacks at the full proc value (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "Crush (R5): Normal or Charged Attack hits have a 50% chance to deal an additional 480% ATK DMG to opponents in a small AoE. Can only occur once every 15s; modeled as a supplementary hit at the full proc value — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 4.8,

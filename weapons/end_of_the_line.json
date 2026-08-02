@@ -13,7 +13,7 @@
       {
         "source": "EndOfTheLine",
         "conditionKey": "end_of_the_line_flowrider",
-        "description": "R5 Net Snapper: after using an Elemental Skill, triggers the Flowrider effect (CD 12s) — the next attacks to hit an opponent deal 160% ATK as AoE DMG, up to 3 instances (at most 1 every 2s) within 15s; modeled as a supplementary hit attached to any attack (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "R5 Net Snapper: after using an Elemental Skill, triggers the Flowrider effect (CD 12s) — the next attacks to hit an opponent deal 160% ATK as AoE DMG, up to 3 instances (at most 1 every 2s) within 15s; modeled as a supplementary hit — its own rotation target (weapon/extraHit), weight = how many times it procs (up to 3); physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "all_extraHitFromAtk_": 1.6

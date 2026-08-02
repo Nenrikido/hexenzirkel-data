@@ -13,7 +13,7 @@
       {
         "source": "CrescentPike",
         "conditionKey": "crescent_pike_orb_pickup",
-        "description": "R5 Infusion Needle: after picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 40% of ATK for 5s. Modeled as a supplementary hit (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "R5 Infusion Needle: after picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 40% of ATK for 5s. Modeled as a supplementary hit — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 0.4,

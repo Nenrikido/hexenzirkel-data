@@ -13,7 +13,7 @@
       {
         "source": "TheViridescentHunt",
         "conditionKey": "the_viridescent_hunt_cyclone_tick",
-        "description": "R5 Verdant Wind: Normal/Charged Attack hits have a 50% chance to generate a Cyclone that deals 80% ATK DMG per tick (every 0.5s for 4s) to drawn-in opponents; can only occur once every 10s. Modeled as a supplementary hit (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "R5 Verdant Wind: Normal/Charged Attack hits have a 50% chance to generate a Cyclone that deals 80% ATK DMG per tick (every 0.5s for 4s) to drawn-in opponents; can only occur once every 10s. Modeled as a supplementary hit per tick — its own rotation target (weapon/extraHit), weight = how many ticks the rotation catches; physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "all_extraHitFromAtk_": 0.8

@@ -13,7 +13,7 @@
       {
         "source": "TheFlute",
         "conditionKey": "the_flute_harmonic_burst",
-        "description": "R5 Chord: Gaining 5 Harmonics (from Normal/Charged Attack hits) triggers a burst dealing 200% ATK DMG to surrounding opponents. Modeled as a supplementary hit (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "R5 Chord: Gaining 5 Harmonics (from Normal/Charged Attack hits) triggers a burst dealing 200% ATK DMG to surrounding opponents. Modeled as a supplementary hit — its own rotation target (weapon/extraHit), weight = how many Chord bursts the rotation triggers; physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "all_extraHitFromAtk_": 2.0

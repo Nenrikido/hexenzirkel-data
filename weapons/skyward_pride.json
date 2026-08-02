@@ -15,7 +15,7 @@
       {
         "source": "SkywardPride",
         "conditionKey": "skyward_pride_vacuum_blade",
-        "description": "Sky-ripping Dragon Spine (R1): after using Elemental Burst, Normal or Charged Attack hits create a vacuum blade dealing 80% of ATK as DMG (lasts 20s or 8 blades). Modeled as a supplementary hit of 80% ATK attached to Normal/Charged hits while active (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "Sky-ripping Dragon Spine (R1): after using Elemental Burst, Normal or Charged Attack hits create a vacuum blade dealing 80% of ATK as DMG (lasts 20s or 8 blades). Modeled as a supplementary hit of 80% ATK — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many blades land while active (max 8); physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 0.8,

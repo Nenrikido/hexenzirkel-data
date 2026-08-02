@@ -13,7 +13,7 @@
       {
         "source": "DragonspineSpear",
         "conditionKey": "dragonspine_spear_icicle",
-        "description": "R5 Frost Burial: Normal/Charged Attack hits have a 100% chance (CD 10s) to drop an Everfrost Icicle dealing AoE DMG equal to 140% of ATK (360% instead against Cryo-affected opponents, not modeled here — using the baseline 140% value); modeled as a supplementary hit attached to Normal/Charged Attacks (scales with ATK and CRIT only — no DMG% bonuses).",
+        "description": "R5 Frost Burial: Normal/Charged Attack hits have a 100% chance (CD 10s) to drop an Everfrost Icicle dealing AoE DMG equal to 140% of ATK (360% instead against Cryo-affected opponents, not modeled here — using the baseline 140% value); modeled as a supplementary hit — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses.",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 1.4,
