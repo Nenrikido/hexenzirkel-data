@@ -8,21 +8,82 @@
     "subStatValue": 0.165384
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "atk_": 0.12
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "heptades_buff",
+        "conditionKey": "heptades_buff_pyro",
         "source": "AngelosHeptades",
-        "description": "Team ATK bonus from passive.",
+        "description": "R1 Crown of the Final Scion: after the equipping character creates a Shield, the active party member's DMG is increased by 10% per 1,000 ATK the wielder has, up to 26% ('on field'); a Hexerei character who is off-field instead gets 50% of that increase ('hexerei off field', 13%). The passive itself is a universal DMG bonus, but it is authored per element so a leaderboard can scope it to the elements its rotation actually deals — enable one condition per element the scored rotation hits. This one grants Pyro DMG Bonus.",
         "states": {
-          "on field": {
-            "all_dmg_": 0.26
-          },
-          "hexerei off field": {
-            "all_dmg_": 0.13
-          }
+          "on field": { "pyro_dmg_": 0.26 },
+          "hexerei off field": { "pyro_dmg_": 0.13 }
+        }
+      },
+      {
+        "conditionKey": "heptades_buff_hydro",
+        "source": "AngelosHeptades",
+        "description": "R1 Crown of the Final Scion, Hydro share: 26% on field / 13% for an off-field Hexerei character. Enable one condition per element the scored rotation hits.",
+        "states": {
+          "on field": { "hydro_dmg_": 0.26 },
+          "hexerei off field": { "hydro_dmg_": 0.13 }
+        }
+      },
+      {
+        "conditionKey": "heptades_buff_electro",
+        "source": "AngelosHeptades",
+        "description": "R1 Crown of the Final Scion, Electro share: 26% on field / 13% for an off-field Hexerei character. Enable one condition per element the scored rotation hits.",
+        "states": {
+          "on field": { "electro_dmg_": 0.26 },
+          "hexerei off field": { "electro_dmg_": 0.13 }
+        }
+      },
+      {
+        "conditionKey": "heptades_buff_cryo",
+        "source": "AngelosHeptades",
+        "description": "R1 Crown of the Final Scion, Cryo share: 26% on field / 13% for an off-field Hexerei character. Enable one condition per element the scored rotation hits.",
+        "states": {
+          "on field": { "cryo_dmg_": 0.26 },
+          "hexerei off field": { "cryo_dmg_": 0.13 }
+        }
+      },
+      {
+        "conditionKey": "heptades_buff_dendro",
+        "source": "AngelosHeptades",
+        "description": "R1 Crown of the Final Scion, Dendro share: 26% on field / 13% for an off-field Hexerei character. Enable one condition per element the scored rotation hits.",
+        "states": {
+          "on field": { "dendro_dmg_": 0.26 },
+          "hexerei off field": { "dendro_dmg_": 0.13 }
+        }
+      },
+      {
+        "conditionKey": "heptades_buff_anemo",
+        "source": "AngelosHeptades",
+        "description": "R1 Crown of the Final Scion, Anemo share: 26% on field / 13% for an off-field Hexerei character. Enable one condition per element the scored rotation hits.",
+        "states": {
+          "on field": { "anemo_dmg_": 0.26 },
+          "hexerei off field": { "anemo_dmg_": 0.13 }
+        }
+      },
+      {
+        "conditionKey": "heptades_buff_geo",
+        "source": "AngelosHeptades",
+        "description": "R1 Crown of the Final Scion, Geo share: 26% on field / 13% for an off-field Hexerei character. Enable one condition per element the scored rotation hits.",
+        "states": {
+          "on field": { "geo_dmg_": 0.26 },
+          "hexerei off field": { "geo_dmg_": 0.13 }
+        }
+      },
+      {
+        "conditionKey": "heptades_buff_physical",
+        "source": "AngelosHeptades",
+        "description": "R1 Crown of the Final Scion, Physical share: 26% on field / 13% for an off-field Hexerei character. The passive is a universal DMG bonus, so a rotation with Physical hits (an un-infused Normal Attack string) needs this one alongside its elemental conditions.",
+        "states": {
+          "on field": { "physical_dmg_": 0.26 },
+          "hexerei off field": { "physical_dmg_": 0.13 }
         }
       }
     ]

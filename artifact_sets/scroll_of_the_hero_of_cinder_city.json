@@ -7,19 +7,66 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "4pc_after_the_equipping_character_triggers_a_reaction_related_to",
+        "conditionKey": "4pc_cinder_city_pyro",
         "source": "ScrollOfTheHeroOfCinderCity",
-        "description": "4pc: After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack.",
-        "modifiers": {
-          "all_dmg_": 0.12
+        "description": "4pc: After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the reaction for 15s; if the equipping character was in the Nightsoul's Blessing state, they gain an additional 28% (40% total) for 20s. The bonus is per element, so enable one condition per Elemental Type involved in the reaction. This one grants Pyro DMG Bonus. The equipping character can trigger the effect off-field, and same-named sets do not stack.",
+        "states": {
+          "reaction (12%)": { "pyro_dmg_": 0.12 },
+          "reaction + Nightsoul (40%)": { "pyro_dmg_": 0.4 }
         }
       },
       {
-        "conditionKey": "4pc_cinder_city_nightsoul_extra",
+        "conditionKey": "4pc_cinder_city_hydro",
         "source": "ScrollOfTheHeroOfCinderCity",
-        "description": "4pc: Nightsoul-enhanced extra Elemental DMG Bonus for reaction elements (+28%)",
-        "modifiers": {
-          "all_dmg_": 0.28
+        "description": "4pc: Hydro DMG Bonus for the Elemental Types involved in the reaction — 12%, or 40% when the equipping character triggered it in the Nightsoul's Blessing state. Enable one condition per element involved.",
+        "states": {
+          "reaction (12%)": { "hydro_dmg_": 0.12 },
+          "reaction + Nightsoul (40%)": { "hydro_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_cinder_city_electro",
+        "source": "ScrollOfTheHeroOfCinderCity",
+        "description": "4pc: Electro DMG Bonus for the Elemental Types involved in the reaction — 12%, or 40% when the equipping character triggered it in the Nightsoul's Blessing state. Enable one condition per element involved.",
+        "states": {
+          "reaction (12%)": { "electro_dmg_": 0.12 },
+          "reaction + Nightsoul (40%)": { "electro_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_cinder_city_cryo",
+        "source": "ScrollOfTheHeroOfCinderCity",
+        "description": "4pc: Cryo DMG Bonus for the Elemental Types involved in the reaction — 12%, or 40% when the equipping character triggered it in the Nightsoul's Blessing state. Enable one condition per element involved.",
+        "states": {
+          "reaction (12%)": { "cryo_dmg_": 0.12 },
+          "reaction + Nightsoul (40%)": { "cryo_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_cinder_city_dendro",
+        "source": "ScrollOfTheHeroOfCinderCity",
+        "description": "4pc: Dendro DMG Bonus for the Elemental Types involved in the reaction — 12%, or 40% when the equipping character triggered it in the Nightsoul's Blessing state. Enable one condition per element involved.",
+        "states": {
+          "reaction (12%)": { "dendro_dmg_": 0.12 },
+          "reaction + Nightsoul (40%)": { "dendro_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_cinder_city_anemo",
+        "source": "ScrollOfTheHeroOfCinderCity",
+        "description": "4pc: Anemo DMG Bonus for the Elemental Types involved in the reaction — 12%, or 40% when the equipping character triggered it in the Nightsoul's Blessing state. Enable one condition per element involved.",
+        "states": {
+          "reaction (12%)": { "anemo_dmg_": 0.12 },
+          "reaction + Nightsoul (40%)": { "anemo_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_cinder_city_geo",
+        "source": "ScrollOfTheHeroOfCinderCity",
+        "description": "4pc: Geo DMG Bonus for the Elemental Types involved in the reaction — 12%, or 40% when the equipping character triggered it in the Nightsoul's Blessing state. Enable one condition per element involved.",
+        "states": {
+          "reaction (12%)": { "geo_dmg_": 0.12 },
+          "reaction + Nightsoul (40%)": { "geo_dmg_": 0.4 }
         }
       }
     ]
