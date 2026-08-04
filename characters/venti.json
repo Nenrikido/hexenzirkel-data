@@ -219,7 +219,12 @@
     "burst": {
       "base": {
         "element": "anemo",
-        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_",
+          "stormeye_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -244,7 +249,12 @@
       },
       "absorb": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_",
+          "stormeye_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -322,7 +332,9 @@
         "conditionKey": "hexereiStormeyeBonus",
         "source": "avatar_10000022",
         "description": "Witch's Eve Rite: Temporal Wind's Eulogy (Hexerei: Secret Rite, requires >=2 Hexerei party members): while Stormeye is active, Venti's Stormeye deals 135% of its original DMG (+35%). 'X% of its original DMG' is a base-DMG multiplier, so it is applied as stormeye_base_dmg_ (scaling the talent base before DMG% bonuses), scoped to the stormeye hit via the stormeye_dmg_ key in its dmgBonusKeys.",
-        "states": [{ "value": "on", "modifiers": { "stormeye_base_dmg_": 0.35 } }]
+        "states": [
+          { "value": "on", "modifiers": { "stormeye_base_dmg_": 0.35 } }
+        ]
       }
     ],
     "team_modifiers_json": {},

@@ -84,35 +84,60 @@
       },
       "shiningShellDmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "shiningshell_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
         ]
       },
       "shiningShellDmg_pyro": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "shiningshell_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
         ]
       },
       "shiningShellDmg_hydro": {
         "element": "hydro",
-        "dmgBonusKeys": ["charged_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "shiningshell_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
         ]
       },
       "shiningShellDmg_electro": {
         "element": "electro",
-        "dmgBonusKeys": ["charged_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "shiningshell_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
         ]
       },
       "shiningShellDmg_cryo": {
         "element": "cryo",
-        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "shiningshell_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           { "scalingKey": "atk", "multKey": "shiningShellDmg_mult" }
         ]
@@ -276,7 +301,7 @@
     "source": {
       "provider": "GenshinOptimizer+ProjectAmber",
       "goSheet": "libs/gi/sheets/src/Characters/Chasca",
-      "notes": "Shell/ShiningShell/Radiant hits modelled as base Anemo, with per-element variants (_pyro/_hydro/_electro/_cryo) added 2026-07-24 to match GO's objKeyMap(absorbableEle,...) sheet structure and the rotation paths several existing local leaderboards already reference (skill.shiningShellDmg_<elem>, burst.radiantDmg_<elem>) -- these were previously unresolvable (0 dmg). Also added per GO's sheet: constellation2/constellation4 sections (C2 'Muzzle, the Searing Smoke' / C4 'Sparks, the Sudden Shot', each atk x4.0, anemo + 4 elemental variants, 'charged' dmg type per GO -- supersedes the old anemo-only skill.c2MuzzleDmg/burst.c4SparksDmg keys, which no leaderboard referenced) and a passive2 section (A4 'Intent to Cover': fires a Burning Shadowhunt Shot dealing 150% of the triggering Shell/Shining Shell's DMG -- shellDmg_mult x1.5 for anemo, shiningShellDmg_mult x1.5 for the elemental variants). C2/C4/A4 require the matching unlock -- there's no in-file constellation/ascension gate on hit_definitions, so only include these rotation targets in leaderboards that assume the matching unlock.",
+      "notes": "Shell/ShiningShell/Radiant hits modelled as base Anemo, with per-element variants (_pyro/_hydro/_electro/_cryo) added 2026-07-24 to match GO's objKeyMap(absorbableEle,...) sheet structure and the rotation paths several existing local leaderboards already reference (skill.shiningShellDmg_<elem>, burst.radiantDmg_<elem>) -- these were previously unresolvable (0 dmg). Also added per GO's sheet: constellation2/constellation4 sections (C2 'Muzzle, the Searing Smoke' / C4 'Sparks, the Sudden Shot', each atk x4.0, anemo + 4 elemental variants, 'charged' dmg type per GO -- supersedes the old anemo-only skill.c2MuzzleDmg/burst.c4SparksDmg keys, which no leaderboard referenced) and a passive2 section (A4 'Intent to Cover': fires a Burning Shadowhunt Shot dealing 150% of the triggering Shell/Shining Shell's DMG -- shellDmg_mult x1.5 for anemo, shiningShellDmg_mult x1.5 for the elemental variants). C2/C4/A4 require the matching unlock -- there's no in-file constellation/ascension gate on hit_definitions, so only include these rotation targets in leaderboards that assume the matching unlock. 2026-08-04: the skill.shiningShellDmg* hits also carry a bespoke `shiningshell_dmg_` bonus key so A1 (Bullet Trick) can buff the Shining Shadowhunt Shell alone -- every other hit here tagged 'charged' (aimed/fullyAimed, constellation2, constellation4, passive2) is a Charged Attack but NOT a Shining Shell, and must not carry that key.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -292,11 +317,11 @@
       {
         "conditionKey": "a1BulletTrickShiningShell",
         "source": "Chasca",
-        "description": "A1 Bullet Trick (approximated): while charging Multitarget Fire, for each distinct eligible elemental type among nearby party members, Chasca has a chance to convert the 3rd shell into a Shining Shadowhunt Shell of that type and gains a stack of Spirit of the Radiant Shadow, raising Shining Shadowhunt Shell DMG by 15%/35%/65% for 1/2/3 stacks (max 3). No bespoke bonus key isolates skill.shellDmg/shiningShellDmg from the other charged-tagged hits (aimed/fullyAimed/constellation2/constellation4/passive2) in hit_definitions_json, so this is applied via charged_dmg_ and will also slightly over-buff those other hits. Pick the state matching the team's elemental diversity.",
+        "description": "A1 Bullet Trick: while charging Multitarget Fire, for each distinct eligible elemental type among nearby party members, Chasca has a chance to convert the 3rd shell into a Shining Shadowhunt Shell of that type and gains a stack of Spirit of the Radiant Shadow, raising Shining Shadowhunt Shell DMG by 15%/35%/65% for 1/2/3 stacks (max 3). It buffs the Shining Shadowhunt Shell specifically, NOT Charged Attacks in general, so it is applied via the bespoke `shiningshell_dmg_` key carried only by the skill.shiningShellDmg* hits. The other charged-tagged hits (aimed/fullyAimed, the C2/C4 shots and the A4 Burning Shadowhunt Shot) are Charged Attacks for scaling purposes but are NOT Shining Shells, so they do not get it — until 2026-08-04 this was approximated with charged_dmg_ and over-buffed every one of them. Pick the state matching the team's elemental diversity.",
         "states": [
-          { "value": "1_type", "modifiers": { "charged_dmg_": 0.15 } },
-          { "value": "2_types", "modifiers": { "charged_dmg_": 0.35 } },
-          { "value": "3_types", "modifiers": { "charged_dmg_": 0.65 } }
+          { "value": "1_type", "modifiers": { "shiningshell_dmg_": 0.15 } },
+          { "value": "2_types", "modifiers": { "shiningshell_dmg_": 0.35 } },
+          { "value": "3_types", "modifiers": { "shiningshell_dmg_": 0.65 } }
         ]
       }
     ],
