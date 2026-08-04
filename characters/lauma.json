@@ -247,6 +247,7 @@
       {
         "conditionKey": "burstPaleHymn",
         "source": "avatar_10000119",
+        "description": "Burst Pale Hymn: when nearby party members deal Bloom, Hyperbloom, Burgeon or Lunar-Bloom DMG, a Pale Hymn stack is consumed and that DMG is increased based on LAUMA's own Elemental Mastery — 499.968% of it for Bloom/Hyperbloom/Burgeon and 400.032% for Lunar-Bloom (talent params at Lv10). The 'on' state below hardcodes those for a representative 1500 EM; the LB builder lets an admin type Lauma's actual EM instead, which is resolved through the real ratios (LAUMA_PALE_HYMN_* in leaderboard_builder_service.py). Same shape as Sucrose's A4.",
         "states": [
           {
             "value": "on",
