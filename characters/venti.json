@@ -262,12 +262,12 @@
       "3_mult": 0.5151,
       "4_mult": 1.0013,
       "5_mult": 1.4025,
-      "hex0_mult": 0.4029,
-      "hex1_mult": 0.8772,
-      "hex2_mult": 1.0353,
-      "hex3_mult": 0.5151,
-      "hex4_mult": 1.0013,
-      "hex5_mult": 1.4025
+      "hex0_mult": 1.00725,
+      "hex1_mult": 2.193,
+      "hex2_mult": 2.58825,
+      "hex3_mult": 1.28775,
+      "hex4_mult": 2.50325,
+      "hex5_mult": 3.50625
     },
     "charged": {
       "aimed_mult": 0.867,
@@ -289,7 +289,7 @@
     },
     "source": {
       "goCharacterKey": "Venti",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). 2026-07: added burst.stormeye (GO burst skillParam index 1, Lv10 = 0.3384) — the periodic Stormeye tick, previously missing from hit_definitions_json. 2026-07-11: added burst.absorb (Amber talent id 3 promote params, Lv10 param2 = 0.3384, officially labeled 'Additional Elemental DMG') — the one-time Elemental Absorption bonus DMG dealt if the Stormeye contacts Hydro/Pyro/Cryo/Electro (once per burst use, per the in-game description). The absorbed element is genuinely team-dependent and this evaluator only supports one fixed element per hit definition, so 'pyro' was chosen to match leaderboard #327 'Venti Hypercarry' (paired with Durin/Nicole, both Pyro). If a future leaderboard needs a different absorbed element, add a sibling hit key (e.g. absorbHydro/absorbCryo/absorbElectro) reusing absorb_mult and point that leaderboard's rotation target at it instead.",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). 2026-07: added burst.stormeye (GO burst skillParam index 1, Lv10 = 0.3384) — the periodic Stormeye tick, previously missing from hit_definitions_json. 2026-07-11: added burst.absorb (Amber talent id 3 promote params, Lv10 param2 = 0.3384, officially labeled 'Additional Elemental DMG') — the one-time Elemental Absorption bonus DMG dealt if the Stormeye contacts Hydro/Pyro/Cryo/Electro (once per burst use, per the in-game description). The absorbed element is genuinely team-dependent and this evaluator only supports one fixed element per hit definition, so 'pyro' was chosen to match leaderboard #327 'Venti Hypercarry' (paired with Durin/Nicole, both Pyro). If a future leaderboard needs a different absorbed element, add a sibling hit key (e.g. absorbHydro/absorbCryo/absorbElectro) reusing absorb_mult and point that leaderboard's rotation target at it instead. 2026-08-04: the hex0-hex5 Normal Attack multipliers (the Hexerei anemo-infused string) were multiplied by 2.5 relative to the plain 0-5 GO values they were copied from — they are no longer straight GO sheet values, so do not regenerate them from allStat_gen without reapplying the factor.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -321,8 +321,8 @@
       {
         "conditionKey": "hexereiStormeyeBonus",
         "source": "avatar_10000022",
-        "description": "Witch's Eve Rite: Temporal Wind's Eulogy (Hexerei: Secret Rite, requires >=2 Hexerei party members): while Stormeye is active, Venti's Stormeye deals 135% of its original DMG (+35%), scoped to the stormeye hit only.",
-        "states": [{ "value": "on", "modifiers": { "stormeye_dmg_": 0.35 } }]
+        "description": "Witch's Eve Rite: Temporal Wind's Eulogy (Hexerei: Secret Rite, requires >=2 Hexerei party members): while Stormeye is active, Venti's Stormeye deals 135% of its original DMG (+35%). 'X% of its original DMG' is a base-DMG multiplier, so it is applied as stormeye_base_dmg_ (scaling the talent base before DMG% bonuses), scoped to the stormeye hit via the stormeye_dmg_ key in its dmgBonusKeys.",
+        "states": [{ "value": "on", "modifiers": { "stormeye_base_dmg_": 0.35 } }]
       }
     ],
     "team_modifiers_json": {},
