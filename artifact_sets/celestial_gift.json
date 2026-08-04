@@ -9,16 +9,66 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "4pc_lights_guidance_team",
+        "conditionKey": "4pc_lights_guidance_pyro",
         "source": "CelestialGift",
-        "description": "4pc: Light's Guidance \u2014 nearby party members gain elemental DMG Bonus matching the wearer's element (+20%; upgraded to Mortal Hymn +40% with Hexerei)",
+        "description": "4pc: Light's Guidance — after the equipping character uses an Elemental Skill (off-field allowed), all nearby party members gain a 20% Elemental DMG Bonus for the equipping character's Elemental Type; with Hexerei: Secret Rite active it upgrades to Mortal Hymn, 40% for both the equipping character's and the active character's Elemental Type. The bonus is per element, so enable one condition per Elemental Type it covers. This one grants Pyro DMG Bonus.",
         "states": {
-          "guidance": {
-            "all_dmg_": 0.2
-          },
-          "mortal_hymn": {
-            "all_dmg_": 0.4
-          }
+          "guidance": { "pyro_dmg_": 0.2 },
+          "mortal_hymn": { "pyro_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_lights_guidance_hydro",
+        "source": "CelestialGift",
+        "description": "4pc: Light's Guidance / Mortal Hymn, Hydro share — 20% for the equipping character's Elemental Type, 40% for the equipping character's and the active character's Elemental Type with Hexerei. Enable one condition per Elemental Type covered.",
+        "states": {
+          "guidance": { "hydro_dmg_": 0.2 },
+          "mortal_hymn": { "hydro_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_lights_guidance_electro",
+        "source": "CelestialGift",
+        "description": "4pc: Light's Guidance / Mortal Hymn, Electro share — 20% for the equipping character's Elemental Type, 40% for the equipping character's and the active character's Elemental Type with Hexerei. Enable one condition per Elemental Type covered.",
+        "states": {
+          "guidance": { "electro_dmg_": 0.2 },
+          "mortal_hymn": { "electro_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_lights_guidance_cryo",
+        "source": "CelestialGift",
+        "description": "4pc: Light's Guidance / Mortal Hymn, Cryo share — 20% for the equipping character's Elemental Type, 40% for the equipping character's and the active character's Elemental Type with Hexerei. Enable one condition per Elemental Type covered.",
+        "states": {
+          "guidance": { "cryo_dmg_": 0.2 },
+          "mortal_hymn": { "cryo_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_lights_guidance_dendro",
+        "source": "CelestialGift",
+        "description": "4pc: Light's Guidance / Mortal Hymn, Dendro share — 20% for the equipping character's Elemental Type, 40% for the equipping character's and the active character's Elemental Type with Hexerei. Enable one condition per Elemental Type covered.",
+        "states": {
+          "guidance": { "dendro_dmg_": 0.2 },
+          "mortal_hymn": { "dendro_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_lights_guidance_anemo",
+        "source": "CelestialGift",
+        "description": "4pc: Light's Guidance / Mortal Hymn, Anemo share — 20% for the equipping character's Elemental Type, 40% for the equipping character's and the active character's Elemental Type with Hexerei. Enable one condition per Elemental Type covered.",
+        "states": {
+          "guidance": { "anemo_dmg_": 0.2 },
+          "mortal_hymn": { "anemo_dmg_": 0.4 }
+        }
+      },
+      {
+        "conditionKey": "4pc_lights_guidance_geo",
+        "source": "CelestialGift",
+        "description": "4pc: Light's Guidance / Mortal Hymn, Geo share — 20% for the equipping character's Elemental Type, 40% for the equipping character's and the active character's Elemental Type with Hexerei. Enable one condition per Elemental Type covered.",
+        "states": {
+          "guidance": { "geo_dmg_": 0.2 },
+          "mortal_hymn": { "geo_dmg_": 0.4 }
         }
       }
     ]
