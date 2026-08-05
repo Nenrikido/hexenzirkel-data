@@ -131,14 +131,22 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "def_": {
-        "formulaRef": "linnea.c4.moondrift.def"
-      },
       "eleMas_from_def_": 0.05,
       "lunarcrystallize_baseDmg_from_def_": 0.00007,
       "lunarcrystallize_baseDmg_from_def_cap_": 0.14
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4Moondrift",
+        "source": "avatar_10000130",
+        "description": "C4 (upgrades C2): while Moondrift Harmony is active and her Moonsign is at Ascendant Gleam, Linnea's DEF is increased by 25%.",
+        "gating": {
+          "constellationMin": 4,
+          "requiresMoonsign": true
+        },
+        "states": [{ "value": "on", "modifiers": { "def_": 0.25 } }]
+      }
+    ],
     "team_modifiers_json": {},
     "others_conditional_modifiers_json": [
       {
@@ -181,19 +189,12 @@
       {
         "conditionKey": "c6Gleam",
         "source": "avatar_10000130",
+        "description": "C6 (Ascendant Gleam): the party's Lunar-Crystallize DMG Bonus is increased by 25% while Linnea's Moonsign is at Ascendant Gleam.",
         "gating": {
-          "constellationMin": 6
+          "constellationMin": 6,
+          "requiresMoonsign": true
         },
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "lunarcrystallize_dmg_": {
-                "formulaRef": "linnea.c6.gleam.lunarcrystallize_dmg"
-              }
-            }
-          }
-        ]
+        "states": [{ "value": "on", "modifiers": { "lunarcrystallize_dmg_": 0.25 } }]
       }
     ]
   }

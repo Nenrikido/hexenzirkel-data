@@ -243,150 +243,75 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "isMoonsign": 1,
-      "lunarbloom_directDmg_": {
-        "formulaRef": "nefer.c1.lunarbloom.direct_dmg"
-      }
+      "isMoonsign": 1
     },
     "self_conditional_modifiers_json": [
       {
+        "conditionKey": "c1LunarbloomDirectDmg",
+        "source": "Nefer",
+        "description": "C1: Nefer's Lunar-Bloom DMG gains an additional +60% direct (additive) multiplier. Unconditional in-game once C1 is unlocked — the constellation gate is the entry's `gating`.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [{ "value": "on", "modifiers": { "lunarbloom_directDmg_": 0.6 } }]
+      },
+      {
         "conditionKey": "a1VeilStacks",
         "source": "Nefer",
+        "description": "A1 veil stacks (Moonsign required): each stack adds +8% to the Pyre-Petal multiplier (pp_mult_, base 1), and 3+ stacks also grant +100 EM (+200 at 5 stacks with C2). Stacks cap at 3 below C2, hence the per-state constellation gates on 4 and 5.",
         "gating": {
           "ascMin": 1,
           "requiresMoonsign": true
         },
         "states": [
-          {
-            "value": "1",
-            "modifiers": {
-              "pp_mult_": {
-                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
-              }
-            }
-          },
-          {
-            "value": "2",
-            "modifiers": {
-              "pp_mult_": {
-                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
-              }
-            }
-          },
-          {
-            "value": "3",
-            "modifiers": {
-              "pp_mult_": {
-                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
-              },
-              "eleMas": {
-                "formulaRef": "nefer.a1.veil_stacks.eleMas"
-              }
-            }
-          },
+          { "value": "1", "modifiers": { "pp_mult_": 1.08 } },
+          { "value": "2", "modifiers": { "pp_mult_": 1.16 } },
+          { "value": "3", "modifiers": { "pp_mult_": 1.24, "eleMas": 100.0 } },
           {
             "value": "4",
-            "modifiers": {
-              "pp_mult_": {
-                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
-              },
-              "eleMas": {
-                "formulaRef": "nefer.a1.veil_stacks.eleMas"
-              }
-            },
-            "gating": {
-              "constellationMin": 2
-            }
+            "modifiers": { "pp_mult_": 1.32, "eleMas": 100.0 },
+            "gating": { "constellationMin": 2 }
           },
           {
             "value": "5",
-            "modifiers": {
-              "pp_mult_": {
-                "formulaRef": "nefer.a1.veil_stacks.pp_mult"
-              },
-              "eleMas": {
-                "formulaRef": "nefer.a1.veil_stacks.eleMas"
-              }
-            },
-            "gating": {
-              "constellationMin": 2
-            }
+            "modifiers": { "pp_mult_": 1.4, "eleMas": 200.0 },
+            "gating": { "constellationMin": 2 }
           }
         ]
       },
       {
         "conditionKey": "burstVeilsAbsorbed",
         "source": "Nefer",
+        "description": "Burst veils absorbed (Moonsign required): +40% Burst DMG per veil absorbed. Absorption caps at 3 veils below C2, hence the per-state constellation gates on 4 and 5.",
         "gating": {
           "ascMin": 1,
           "requiresMoonsign": true
         },
         "states": [
-          {
-            "value": "1",
-            "modifiers": {
-              "burst_dmg_": {
-                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
-              }
-            }
-          },
-          {
-            "value": "2",
-            "modifiers": {
-              "burst_dmg_": {
-                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
-              }
-            }
-          },
-          {
-            "value": "3",
-            "modifiers": {
-              "burst_dmg_": {
-                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
-              }
-            }
-          },
+          { "value": "1", "modifiers": { "burst_dmg_": 0.4 } },
+          { "value": "2", "modifiers": { "burst_dmg_": 0.8 } },
+          { "value": "3", "modifiers": { "burst_dmg_": 1.2 } },
           {
             "value": "4",
-            "modifiers": {
-              "burst_dmg_": {
-                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
-              }
-            },
-            "gating": {
-              "constellationMin": 2
-            }
+            "modifiers": { "burst_dmg_": 1.6 },
+            "gating": { "constellationMin": 2 }
           },
           {
             "value": "5",
-            "modifiers": {
-              "burst_dmg_": {
-                "formulaRef": "nefer.burst.veils_absorbed.burst_dmg"
-              }
-            },
-            "gating": {
-              "constellationMin": 2
-            }
+            "modifiers": { "burst_dmg_": 2.0 },
+            "gating": { "constellationMin": 2 }
           }
         ]
       },
       {
         "conditionKey": "c6Gleam",
         "source": "Nefer",
+        "description": "C6 (Ascendant Gleam): Nefer's Lunar-Bloom DMG is elevated by an additional 15% while her Moonsign is at Ascendant Gleam.",
         "gating": {
           "constellationMin": 6,
           "requiresMoonsign": true
         },
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "lunarbloom_specialDmg_": {
-                "formulaRef": "nefer.c6.gleam.lunarbloom_special_dmg"
-              }
-            }
-          }
-        ]
+        "states": [{ "value": "on", "modifiers": { "lunarbloom_specialDmg_": 0.15 } }]
       }
     ],
     "team_modifiers_json": {

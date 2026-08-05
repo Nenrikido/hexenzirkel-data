@@ -214,17 +214,31 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "skill_dmg_": {
-        "formulaRef": "lauma.a4.skill_dmg.from_elemas"
-      },
-      "lunarbloom_dmg_": {
-        "formulaRef": "lauma.c2.ascendant.lunarbloom_dmg"
-      },
-      "lunarbloom_specialDmg_": {
-        "formulaRef": "lauma.c6.ascendant.lunarbloom_special_dmg"
-      }
+      "skill_dmg_from_eleMas": 0.0004,
+      "skill_dmg_from_eleMas_cap_": 0.32
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2AscendantGleam",
+        "source": "avatar_10000119",
+        "description": "C2 (Ascendant Gleam): Lauma's own Lunar-Bloom DMG Bonus +40% while her Moonsign is at Ascendant Gleam.",
+        "gating": {
+          "constellationMin": 2,
+          "requiresMoonsign": true
+        },
+        "states": [{ "value": "on", "modifiers": { "lunarbloom_dmg_": 0.4 } }]
+      },
+      {
+        "conditionKey": "c6AscendantGleam",
+        "source": "avatar_10000119",
+        "description": "C6 (Ascendant Gleam): Lauma's Lunar-Bloom DMG is elevated by an additional 25% while her Moonsign is at Ascendant Gleam.",
+        "gating": {
+          "constellationMin": 6,
+          "requiresMoonsign": true
+        },
+        "states": [{ "value": "on", "modifiers": { "lunarbloom_specialDmg_": 0.25 } }]
+      }
+    ],
     "team_modifiers_json": {
       "lunarbloom_baseDmg_": 0.14,
       "lunarbloom_critRate_": 0.1,

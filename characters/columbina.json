@@ -148,12 +148,17 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {
-      "lunar_special_": {
-        "formulaRef": "columbina.c6.lunar_special_dmg"
-      }
-    },
+    "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6LunarSpecialDmg",
+        "source": "avatar_10000125",
+        "description": "C6: all Lunar-reaction DMG is elevated by an additional 7% (lunar_special_ applies to every *_specialDmg_ bucket). Unconditional in-game once C6 is unlocked — the constellation gate is the entry's `gating`.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [{ "value": "on", "modifiers": { "lunar_special_": 0.07 } }]
+      },
       {
         "conditionKey": "lunacy",
         "source": "avatar_10000125",
@@ -170,11 +175,8 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "a4Passive",
+        "conditionKey": "lunarBaseDmgPassive",
         "source": "avatar_10000125",
-        "gating": {
-          "ascMin": 4
-        },
         "states": [
           {
             "value": "on",

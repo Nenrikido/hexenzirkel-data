@@ -194,22 +194,33 @@
   "buffs": {
     "self_modifiers_json": {
       "lunarcharged_dmg_": 0.2,
-      "lunarcharged_baseDmg_": 0.14,
-      "eleMas_from_atk_": 0.08,
-      "lunarcharged_specialDmg_": {
-        "formulaRef": "flins.c6.lunarcharged_special_dmg"
-      }
+      "eleMas_from_atk_": 0.08
     },
-    "self_conditional_modifiers_json": [],
-    "team_modifiers_json": {
-      "lunarcharged_baseDmg_": {
-        "formulaRef": "flins.a1.lunarcharged_base_dmg"
-      },
-      "electro_enemyRes_": {
-        "formulaRef": "flins.c2.shift_mode_electro_res"
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c6AscendantSelf",
+        "source": "avatar_10000120",
+        "description": "C6 Songs and Dances of Death, Flins' own share: his Lunar-Charged DMG is elevated by 35%. Unlike the team-wide 10% (c6Ascendant) this half is not Moonsign-gated in GO; the two stack when he is the scored character, matching GO's premod + teamBuff split.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [{ "value": "on", "modifiers": { "lunarcharged_specialDmg_": 0.35 } }]
       }
+    ],
+    "team_modifiers_json": {
+      "lunarcharged_baseDmg_": 0.14
     },
     "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2AfterElectro",
+        "source": "avatar_10000120",
+        "description": "C2 The Devil's Wall (Ascendant Gleam): after Flins' on-field Electro hits an opponent, that opponent's Electro RES is decreased by 25%.",
+        "gating": {
+          "constellationMin": 2,
+          "requiresMoonsign": true
+        },
+        "states": [{ "value": "on", "modifiers": { "electro_enemyRes_": -0.25 } }]
+      },
       {
         "conditionKey": "c6Ascendant",
         "source": "avatar_10000120",

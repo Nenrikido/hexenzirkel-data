@@ -100,9 +100,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "burst_dmg_": {
-        "formulaRef": "aino.a4.burst_dmg.from_elemas"
-      }
+      "burst_dmgIncFromEleMas_": 0.5
     },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},

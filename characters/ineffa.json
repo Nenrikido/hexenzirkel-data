@@ -163,15 +163,15 @@
       {
         "conditionKey": "c1AfterShield",
         "source": "avatar_10000116",
-        "description": "C1 Rectifying Processor: after activating the Optical Flow Shield Barrier, party gains Carrier Flow Composite: +2.5% Lunar-Charged DMG per 100 ATK, capped at 50%.",
+        "description": "C1 Rectifying Processor: after activating the Optical Flow Shield Barrier, party gains Carrier Flow Composite: +2.5% Lunar-Charged DMG per 100 ATK, capped at 50%. This scales off INEFFA's ATK (the source), not the receiving character's, so it is tabulated at a few representative Ineffa ATK values — pick the state closest to this leaderboard's Ineffa build. The cap is reached at 2000 ATK.",
         "gating": {
           "constellationMin": 1
         },
-        "modifiers": {
-          "lunarcharged_dmg_": {
-            "formulaRef": "ineffa.c1.after_shield.lunarcharged_dmg"
-          }
-        }
+        "states": [
+          { "value": "ineffa_atk_1200", "modifiers": { "lunarcharged_dmg_": 0.3 } },
+          { "value": "ineffa_atk_1600", "modifiers": { "lunarcharged_dmg_": 0.4 } },
+          { "value": "ineffa_atk_2000_capped", "modifiers": { "lunarcharged_dmg_": 0.5 } }
+        ]
       }
     ]
   }

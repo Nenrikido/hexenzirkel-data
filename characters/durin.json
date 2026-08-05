@@ -736,11 +736,7 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {
-      "durin_a4_periodic_base_mult_": {
-        "formulaRef": "durin.a4.periodic_dragon_dmg_bonus"
-      }
-    },
+    "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
         "conditionKey": "c1DarknessBurstBonus",
