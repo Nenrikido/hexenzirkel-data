@@ -157,6 +157,19 @@
           }
         ]
       }
+    },
+    "passive2": {
+      "dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "triggerCritRateScaled": true
+      }
     }
   },
   "talent_multipliers_json": {
@@ -183,9 +196,12 @@
     "burst": {
       "dmg_mult": 3.876
     },
+    "passive2": {
+      "dmg_mult": 0.8
+    },
     "source": {
       "goCharacterKey": "Yanfei",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). 2026-08-07: A4 Blazing Eye added as its own rotation target passive2/dmg (ATK x 80%, Pyro, counted as Charged Attack DMG so it takes charged_dmg_/pyro_dmg_ and her C2 charged CRIT Rate). It is a separate damage instance that fires only when a Charged Attack CRITs, so the hit def carries triggerCritRateScaled and the evaluator multiplies it by the capped crit rate under avgHit — GO models it identically as passive2.probabilistic_dmg. This replaces the old a4BlazingEye conditional, which folded charged_dmgIncFromAtk_ 0.8 into every Charged Attack hit: that both ignored the CRIT requirement and multiplied the proc by the CA target's rotation weight.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -210,19 +226,15 @@
         ]
       },
       {
-        "conditionKey": "a4BlazingEye",
-        "source": "Yanfei",
-        "description": "A4 Blazing Eye: when Yanfei's Charged Attack scores a CRIT Hit, she deals an additional AoE Pyro DMG instance equal to 80% of her ATK, counted as Charged Attack DMG. Approximated as an ATK-ratio bonus folded onto her Charged Attack hits (applies to whichever charge-level hit is used in the rotation, since dmgIncFromAtk cannot be scoped to a single named hit without editing hit_definitions_json).",
-        "states": [
-          { "value": "on", "modifiers": { "charged_dmgIncFromAtk_": 0.8 } }
-        ]
-      },
-      {
         "conditionKey": "c2RightOfFinalInterpretation",
         "source": "Yanfei",
-        "description": "C2 Right of Final Interpretation: increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
+        "description": "C2 Right of Final Interpretation: increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP. Since the opponent is only under that threshold for part of a rotation, the partial-uptime states pro-rate the 20% by the share of the rotation spent below 50% HP.",
         "gating": { "constellationMin": 2 },
-        "states": [{ "value": "on", "modifiers": { "charged_critRate_": 0.2 } }]
+        "states": [
+          { "value": "on (100% uptime)", "modifiers": { "charged_critRate_": 0.2 } },
+          { "value": "50% uptime", "modifiers": { "charged_critRate_": 0.1 } },
+          { "value": "30% uptime", "modifiers": { "charged_critRate_": 0.06 } }
+        ]
       }
     ],
     "team_modifiers_json": {},

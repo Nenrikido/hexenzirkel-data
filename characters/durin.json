@@ -794,9 +794,15 @@
       {
         "conditionKey": "c1PurityTeamBonus",
         "source": "avatar_10000123",
-        "description": "C1: Adamah's Redemption (Purity form) — after casting his Elemental Burst as Principle of Purity: As the Light Shifts, all OTHER nearby party members gain 20 stacks of Cycle of Enlightenment for 20s; their Normal/Charged/Plunging Attack, Elemental Skill, or Elemental Burst DMG consumes 1 stack to increase that DMG by 60% of Durin's ATK. This scales off Durin's ATK (the source), not the receiving teammate's, so it's approximated as a flat DMG add (all_dmgInc) at a few representative Durin ATK values — pick the state closest to this leaderboard's Durin build (or leave off if the rotation assumes Darkness form instead).",
+        "description": "C1: Adamah's Redemption (Purity form) — after casting his Elemental Burst as Principle of Purity: As the Light Shifts, all OTHER nearby party members gain 20 stacks of Cycle of Enlightenment for 20s; their Normal/Charged/Plunging Attack, Elemental Skill, or Elemental Burst DMG consumes 1 stack to increase that DMG by 60% of Durin's ATK. This scales off Durin's ATK (the source), not the receiving teammate's, so type this leaderboard's Durin ATK into the input for an exact value; leaving it blank assumes 2600 ATK. The three preset states are kept as coarse fallbacks. Leave the condition off entirely if the rotation assumes Darkness form instead.",
         "gating": {
           "constellationMin": 1
+        },
+        "statInput": {
+          "stat": "atk",
+          "default": 2600,
+          "max": 8000,
+          "ratesPerUnit": { "all_dmgInc": 0.6 }
         },
         "states": [
           { "value": "durin_atk_2200", "modifiers": { "all_dmgInc": 1320.0 } },
@@ -816,11 +822,65 @@
       {
         "conditionKey": "c2UngroundVisions",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — for 20s after Durin uses his Elemental Burst, nearby party members who trigger Vaporize/Melt/Burning/Overloaded/Pyro Swirl/Pyro Crystallize (or deal Pyro/Dendro DMG to a Burning-affected opponent) gain +50% Pyro DMG for 6s (the matching secondary-reaction-element DMG bonus this also grants is not modeled here — pick the state manually per team comp if needed).",
+        "description": "C2: Unground Visions — for 20s after Durin uses his Elemental Burst, once nearby party members trigger Vaporize/Melt/Burning/Overloaded/Pyro Swirl/Pyro Crystallize (or deal Pyro/Dendro DMG to a Burning-affected opponent), all nearby party members gain +50% Pyro DMG *and* +50% DMG Bonus for the other element involved in that reaction, for 6s. The bonus is per element, so enable one condition per element involved — this one grants the Pyro half, which every listed trigger provides.",
         "gating": {
           "constellationMin": 2
         },
         "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5 } }]
+      },
+      {
+        "conditionKey": "c2UngroundVisionsHydro",
+        "source": "avatar_10000123",
+        "description": "C2: Unground Visions — the Hydro half of the +50% Elemental DMG Bonus, i.e. when the triggering reaction is Vaporize. Enable one condition per element involved in the reaction (see c2UngroundVisions, the Pyro entry).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [{ "value": "on", "modifiers": { "hydro_dmg_": 0.5 } }]
+      },
+      {
+        "conditionKey": "c2UngroundVisionsCryo",
+        "source": "avatar_10000123",
+        "description": "C2: Unground Visions — the Cryo half of the +50% Elemental DMG Bonus, i.e. when the triggering reaction is Melt. Enable one condition per element involved in the reaction (see c2UngroundVisions, the Pyro entry).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [{ "value": "on", "modifiers": { "cryo_dmg_": 0.5 } }]
+      },
+      {
+        "conditionKey": "c2UngroundVisionsElectro",
+        "source": "avatar_10000123",
+        "description": "C2: Unground Visions — the Electro half of the +50% Elemental DMG Bonus, i.e. when the triggering reaction is Overloaded. Enable one condition per element involved in the reaction (see c2UngroundVisions, the Pyro entry).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [{ "value": "on", "modifiers": { "electro_dmg_": 0.5 } }]
+      },
+      {
+        "conditionKey": "c2UngroundVisionsDendro",
+        "source": "avatar_10000123",
+        "description": "C2: Unground Visions — the Dendro half of the +50% Elemental DMG Bonus, i.e. when the trigger is Burning (or Pyro/Dendro DMG onto a Burning-affected opponent). Enable one condition per element involved in the reaction (see c2UngroundVisions, the Pyro entry).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [{ "value": "on", "modifiers": { "dendro_dmg_": 0.5 } }]
+      },
+      {
+        "conditionKey": "c2UngroundVisionsAnemo",
+        "source": "avatar_10000123",
+        "description": "C2: Unground Visions — the Anemo half of the +50% Elemental DMG Bonus, i.e. when the triggering reaction is Pyro Swirl. Enable one condition per element involved in the reaction (see c2UngroundVisions, the Pyro entry).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [{ "value": "on", "modifiers": { "anemo_dmg_": 0.5 } }]
+      },
+      {
+        "conditionKey": "c2UngroundVisionsGeo",
+        "source": "avatar_10000123",
+        "description": "C2: Unground Visions — the Geo half of the +50% Elemental DMG Bonus, i.e. when the triggering reaction is Pyro Crystallize. Enable one condition per element involved in the reaction (see c2UngroundVisions, the Pyro entry).",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [{ "value": "on", "modifiers": { "geo_dmg_": 0.5 } }]
       },
       {
         "conditionKey": "durinA1WhiteFlameResShred",

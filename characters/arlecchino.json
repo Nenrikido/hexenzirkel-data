@@ -36,25 +36,25 @@
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
         "components": [
           { "scalingKey": "atk", "multKey": "p3_mult" },
-          { "scalingKey": "atk", "multKey": "p4_mult" }
+          { "scalingKey": "atk", "multKey": "p3_mult" }
         ]
       },
       "4": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
       },
       "5": {
         "element": "pyro",
         "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
+        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       }
     },
     "charged": {
       "dmg": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p7_mult" }]
+        "components": [{ "scalingKey": "atk", "multKey": "p6_mult" }]
       }
     },
     "plunging": {
@@ -78,7 +78,7 @@
       "sigilDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
+        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "spikeDmg": {
         "element": "pyro",
@@ -88,7 +88,7 @@
       "finalDmg": {
         "element": "pyro",
         "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       }
     },
     "burst": {
@@ -106,11 +106,10 @@
       "p2_mult": 1.29251,
       "p3_mult": 0.734264,
       "p4_mult": 1.383358,
-      "p5_mult": 1.687709,
-      "p6_mult": 1.7952
+      "p5_mult": 1.687709
     },
     "charged": {
-      "p7_mult": 2.38
+      "p6_mult": 1.7952
     },
     "plunging": {
       "p8_mult": 1.26378,
@@ -128,6 +127,7 @@
     "source": {
       "provider": "ProjectAmber",
       "endpoint": "https://gi.yatta.moe/api/v2/en/avatar/10000096",
+      "note": "2026-08-07 corrections. (1) Charged Attack was reading p7_mult = 2.38, which is Amber auto[11] 'Masque of the Red Death Increase' (the Bond-of-Life ATK ratio, correctly used by the masqueBondOfLife conditional) and not a hit multiplier at all. The real Charged Attack DMG is auto[6] = 179.52%, so the whole normal tail was shifted by one: Amber labels 1-Hit..6-Hit as param1..param6 (= auto[0..5]) with '4-Hit DMG|{param4}+{param4}', i.e. the 4th hit strikes twice for 73.4265% each, and GO's dm.normal.hitArr likewise has 6 entries followed by charged.dmg. Hit '3' now sums p3_mult twice (was p3+p4), '4' is p4_mult (was p5), '5' is p5_mult (was p6), and charged/dmg is p6_mult. (2) skill/sigilDmg and skill/finalDmg had their multipliers swapped: Amber's skill params are [0] Spike 26.712%, [1] Cleave 240.408%, [2] Blood-Debt Directive 57.24%, and GO reads them as spikeDmg, finalDmg, sigilDmg in that order — so finalDmg is the Cleave (p0_mult) and sigilDmg the Blood-Debt Directive (p2_mult). The pN_mult names stay as originally generated (they are labels, not Amber param positions).",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
