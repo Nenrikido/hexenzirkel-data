@@ -7,9 +7,9 @@
   "weapon_type": "catalyst",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
-    "baseHp": 10287.4935768,
-    "baseAtk": 261.4512,
-    "baseDef": 614.6796,
+    "baseHp": 10286.5650232,
+    "baseAtk": 310.931894,
+    "baseDef": 614.843496,
     "ascStatKey": "pyro_dmg_",
     "ascStatValue": 0.288
   },

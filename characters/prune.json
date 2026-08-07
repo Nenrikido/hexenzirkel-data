@@ -14,7 +14,7 @@
     "baseAtk": 220.89308168000002,
     "baseDef": 580.14329625,
     "ascStatKey": "atk_",
-    "ascStatValue": 0.0
+    "ascStatValue": 0.24
   },
   "hit_definitions_json": {
     "normal": {

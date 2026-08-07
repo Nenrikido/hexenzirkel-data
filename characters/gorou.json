@@ -11,9 +11,9 @@
   },
   "nation": "inazuma",
   "base_stats_json": {
-    "baseHp": 9570.7905,
-    "baseAtk": 183.0388,
-    "baseDef": 648.4593,
+    "baseHp": 9569.9252589,
+    "baseAtk": 182.66158612,
+    "baseDef": 648.39544875,
     "ascStatKey": "geo_dmg_",
     "ascStatValue": 0.24
   },

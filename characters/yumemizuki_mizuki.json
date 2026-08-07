@@ -155,15 +155,37 @@
     },
     "skill": {
       "skillDmg_mult": 1.039392,
-      "contDmg_mult": 0.808416
+      "contDmg_mult": 0.808416,
+      "swirl_dmg_per_eleMas": 0.0045,
+      "stellarSwirl_dmg_per_eleMas": 0.00045,
+      "dreamdrifterDuration": 5.0,
+      "cooldown": 15.0
     },
     "burst": {
       "skillDmg_mult": 1.69344,
-      "shockwaveDmg_mult": 1.27008
+      "shockwaveDmg_mult": 1.27008,
+      "duration": 12.0,
+      "cooldown": 15.0,
+      "energy_cost": 60.0
+    },
+    "passive": {
+      "a4_eleMas": 100.0,
+      "passive4_enhancedAnemo_dmg_per_eleMas": 10.0,
+      "passive4_team_eleMas_share_": 0.1
+    },
+    "constellation": {
+      "c1_swirl_dmg_per_eleMas": 11.0,
+      "c1_stellarSwirl_dmg_per_eleMas": 5.5,
+      "c2_elemental_dmg_per_eleMas": 0.0004,
+      "c4_energy_per_snack": 5.0,
+      "c6_swirl_critRate_": 0.3,
+      "c6_swirl_critDMG_": 1.0,
+      "c6_stellarSwirl_critRate_": 0.1,
+      "c6_stellarSwirl_critDMG_": 0.2
     },
     "source": {
       "goCharacterKey": "YumemizukiMizuki",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, which this evaluator does not implement: the skill gained a second EM-scaling line (Stellar Swirl DMG +0.045% per EM point alongside Swirl's 0.45%), passive4 'Vast Be the Dream' gained a Radiance: Stellar Swirl clause, C1 gained a Stellar Swirl branch (+550% EM vs Swirl's +1100%), and C6 gained Stellar Swirl crit. Those values are recorded in the skill/constellation blocks above but have no hit definitions or modifiers.\n\nALSO NOT MODELLED: her core skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) needs a swirl_dmg_from_eleMas conversion that does not exist -- and it must read Mizuki's EM, not the scored character's, so it would need the statInput treatment rather than a plain conversion; C1's flat EM-scaled Swirl DMG increase; C6's fixed-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all yet); passive4's enhanced periodic Anemo DMG at 1000% EM. The two team buffs that ARE now modelled (passive4's 10% EM share and C2's per-EM elemental DMG bonus) use the statInput mechanism, since both scale off Mizuki's own EM.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -191,7 +213,52 @@
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "passive4VastBeTheDreamEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "Vast Be the Dream (Hexerei rite): while Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is increased by 10% of HER Elemental Mastery. Type Mizuki's EM into the input for an exact value; leaving it blank assumes 1000 EM.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": { "eleMas": 0.1 }
+        },
+        "states": [
+          { "value": "mizuki_em_800", "modifiers": { "eleMas": 80.0 } },
+          { "value": "mizuki_em_1000", "modifiers": { "eleMas": 100.0 } },
+          { "value": "mizuki_em_1200", "modifiers": { "eleMas": 120.0 } }
+        ]
+      },
+      {
+        "conditionKey": "c2YourEchoIMeetInDreams",
+        "source": "Yumemizuki Mizuki",
+        "description": "C2: when Mizuki enters the Dreamdrifter state, every point of HER Elemental Mastery increases all nearby party members' Pyro/Hydro/Cryo/Electro DMG Bonus by 0.04%, until the state ends. Type Mizuki's EM into the input; leaving it blank assumes 1000 EM.",
+        "gating": { "constellationMin": 2 },
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": {
+            "pyro_dmg_": 0.0004,
+            "hydro_dmg_": 0.0004,
+            "cryo_dmg_": 0.0004,
+            "electro_dmg_": 0.0004
+          }
+        },
+        "states": [
+          {
+            "value": "mizuki_em_1000",
+            "modifiers": {
+              "pyro_dmg_": 0.4,
+              "hydro_dmg_": 0.4,
+              "cryo_dmg_": 0.4,
+              "electro_dmg_": 0.4
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

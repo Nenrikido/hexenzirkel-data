@@ -158,7 +158,8 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "eleMas_from_atk_": 0.08
+      "eleMas_from_atk_": 0.08,
+      "eleMas_from_atk_cap_": 160.0
     },
     "self_conditional_modifiers_json": [
       {
