@@ -177,6 +177,32 @@ R2.
 Do **not** add `refinementStates` to a 4*/3* weapon: those are already authored
 at R5, which is the tier they are assumed to be at.
 
+**`constellationStates`** is the same idea for characters, keyed `"C<n>"`, and is
+resolved by the same helper. Use it when a buff **already applies at C0** but its
+*number* moves because a constellation raises the talent's level — not for a buff
+a constellation switches on, which is `gating.constellationMin`:
+
+```jsonc
+{
+  "conditionKey": "nicoleSwordOfCassiopeia",
+  // Grace of Kenosis ATK grant, at skill Lv10
+  "states": [
+    { "value": "off-field", "modifiers": { "atk": 600 } },
+    { "value": "on-field", "modifiers": { "atk": 900 } },
+  ],
+  // C3 takes the skill to Lv13, and the grant's cap 600 -> 708
+  "constellationStates": {
+    "C3": { "off-field": { "atk": 708 }, "on-field": { "atk": 1008 } },
+  },
+}
+```
+
+The older way to express this was a second `constellationMin`-gated entry holding
+the delta (Bennett's C1 `+238.89`, Gorou's). That still works, but it is two
+independent toggles for one buff, so an admin can enable the base and miss the
+delta. Prefer `constellationStates` for new data — the value then follows the
+constellation the builder already knows, with nothing extra to switch on.
+
 ### Artifact set (`artifact_sets/*.json`)
 
 ```jsonc
