@@ -87,6 +87,7 @@
       {
         "conditionKey": "nicoleSwordOfCassiopeia",
         "source": "Nicole",
+        "description": "Elemental Skill (Revelation: Uncreated Light) — Grace of Kenosis grants nearby party members +600 ATK (\"off-field\"). A1 Methexis upgrades it to Guidance of Theosis on a character that has been on-field 3s (or immediately for a Hexerei character), for +300 more = +900 ATK (\"on-field\"). The 600 does NOT scale with the skill's talent level: C3 raises Revelation: Uncreated Light by 3 levels, but the ATK bonus stays 600 — it does not become the 708 the Lv13 tooltip lists. Keep these states constellation-independent; do not add a C3 variant. The C2 +300 (c2GuidanceEnhance) stacks on top of this.",
         "states": [
           {
             "value": "off-field",
@@ -129,14 +130,53 @@
       {
         "conditionKey": "c4PathfindersBlessing",
         "source": "Nicole",
-        "description": "C4: when a party member upgrades to Guidance of Theosis, Nicole grants them Pathfinder's Blessing for 20s (once every 16s per character): Normal/Charged/Plunging Attack, Elemental Skill, and Elemental Burst DMG increased by 70% of Nicole's ATK. This scales off Nicole's own ATK (the source), not the receiving teammate's, so it's approximated as a flat DMG add (all_dmgInc) at a few representative Nicole ATK values — pick the state closest to this leaderboard's Nicole build.",
+        "description": "C4: when a party member upgrades to Guidance of Theosis, Nicole grants them Pathfinder's Blessing for 20s (once every 16s per character): Normal/Charged/Plunging Attack, Elemental Skill, and Elemental Burst DMG increased by 70% of Nicole's ATK. This scales off Nicole's own ATK (the source), not the receiving teammate's, so type this leaderboard's Nicole ATK into the input for an exact value; leaving it blank assumes 2000 ATK. The three preset states are kept as coarse fallbacks. Applied as the five attack-type-scoped flat DMG increases rather than all_dmgInc, since the blessing only fires on those five DMG categories — Nicole's own Arcane Projections belong to none of them and must not collect it. Not modelled: the effect is removed after 8 procs, so a very long rotation over-counts it.",
         "gating": {
           "constellationMin": 4
         },
+        "statInput": {
+          "stat": "atk",
+          "default": 2000,
+          "max": 8000,
+          "ratesPerUnit": {
+            "normal_dmgInc": 0.7,
+            "charged_dmgInc": 0.7,
+            "plunging_dmgInc": 0.7,
+            "skill_dmgInc": 0.7,
+            "burst_dmgInc": 0.7
+          }
+        },
         "states": [
-          { "value": "nicole_atk_1500", "modifiers": { "all_dmgInc": 1050.0 } },
-          { "value": "nicole_atk_2000", "modifiers": { "all_dmgInc": 1400.0 } },
-          { "value": "nicole_atk_2500", "modifiers": { "all_dmgInc": 1750.0 } }
+          {
+            "value": "nicole_atk_1500",
+            "modifiers": {
+              "normal_dmgInc": 1050.0,
+              "charged_dmgInc": 1050.0,
+              "plunging_dmgInc": 1050.0,
+              "skill_dmgInc": 1050.0,
+              "burst_dmgInc": 1050.0
+            }
+          },
+          {
+            "value": "nicole_atk_2000",
+            "modifiers": {
+              "normal_dmgInc": 1400.0,
+              "charged_dmgInc": 1400.0,
+              "plunging_dmgInc": 1400.0,
+              "skill_dmgInc": 1400.0,
+              "burst_dmgInc": 1400.0
+            }
+          },
+          {
+            "value": "nicole_atk_2500",
+            "modifiers": {
+              "normal_dmgInc": 1750.0,
+              "charged_dmgInc": 1750.0,
+              "plunging_dmgInc": 1750.0,
+              "skill_dmgInc": 1750.0,
+              "burst_dmgInc": 1750.0
+            }
+          }
         ]
       },
       {

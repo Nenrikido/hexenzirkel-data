@@ -159,6 +159,17 @@
       }
     },
     "passive2": {
+      "probabilistic_dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "triggerCritRateScaled": true
+      },
       "dmg": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
@@ -201,7 +212,7 @@
     },
     "source": {
       "goCharacterKey": "Yanfei",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). 2026-08-07: A4 Blazing Eye added as its own rotation target passive2/dmg (ATK x 80%, Pyro, counted as Charged Attack DMG so it takes charged_dmg_/pyro_dmg_ and her C2 charged CRIT Rate). It is a separate damage instance that fires only when a Charged Attack CRITs, so the hit def carries triggerCritRateScaled and the evaluator multiplies it by the capped crit rate under avgHit — GO models it identically as passive2.probabilistic_dmg. This replaces the old a4BlazingEye conditional, which folded charged_dmgIncFromAtk_ 0.8 into every Charged Attack hit: that both ignored the CRIT requirement and multiplied the proc by the CA target's rotation weight.",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). 2026-08-07: A4 Blazing Eye added as its own rotation target passive2/dmg (ATK x 80%, Pyro, counted as Charged Attack DMG so it takes charged_dmg_/pyro_dmg_ and her C2 charged CRIT Rate). It is a separate damage instance that fires only when a Charged Attack CRITs, so the hit def carries triggerCritRateScaled and the evaluator multiplies it by the capped crit rate under avgHit — GO models it identically as passive2.probabilistic_dmg. This replaces the old a4BlazingEye conditional, which folded charged_dmgIncFromAtk_ 0.8 into every Charged Attack hit: that both ignored the CRIT requirement and multiplied the proc by the CA target's rotation weight. 2026-08-08: the hit was originally keyed passive2/dmg, which broke the file's own \"hit keys match GO target paths\" rule — every hand-authored rotation copies GO and says passive2/probabilistic_dmg, and resolve_hit_definition exact-matches a character's own keys, so those targets silently scored 0. probabilistic_dmg is now the canonical key; passive2/dmg is kept as an alias so any rotation drafted against the old spelling still resolves.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
