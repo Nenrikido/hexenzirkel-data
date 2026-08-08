@@ -13,13 +13,23 @@
       {
         "source": "MemoryOfDust",
         "conditionKey": "memory_of_dust_golden_majesty",
-        "description": "Golden Majesty (R1): scoring hits on opponents increases ATK by 4% for 8s, max 5 stacks (retriggerable every 0.3s). While the wielder is protected by a shield, this ATK increase is doubled. Modeled at max stacks (unshielded +20%, shielded +40%); pick the state matching shield uptime. Shield Strength +20% is not modeled (non-combat).",
+        "description": "Golden Majesty (R1): scoring hits on opponents increases ATK by 4% for 8s, max 5 stacks (retriggerable every 0.3s). While the wielder is protected by a shield, this ATK increase is doubled. Modeled at max stacks (unshielded +20%, shielded +40%); pick the state matching shield uptime. Shield Strength +20% is not modeled (non-combat). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "unshielded": {
             "atk_": 0.2
           },
           "shielded": {
             "atk_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "unshielded": {
+              "atk_": 0.4
+            },
+            "shielded": {
+              "atk_": 0.8
+            }
           }
         }
       }

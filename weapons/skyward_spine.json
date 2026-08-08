@@ -15,11 +15,19 @@
       {
         "source": "SkywardSpine",
         "conditionKey": "skyward_spine_vacuum_blade",
-        "description": "Black Wing (R1): Normal and Charged Attack hits have a 50% chance to trigger a vacuum blade dealing 40% of ATK as AoE DMG (once every 2s max). Modeled as a supplementary hit of 40% ATK — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many blades land (the 2s ICD is treated as reliably triggered during sustained combat); physical, scales with ATK and CRIT only, no DMG% bonuses. Normal ATK SPD +12% not modeled (non-combat).",
+        "description": "Black Wing (R1): Normal and Charged Attack hits have a 50% chance to trigger a vacuum blade dealing 40% of ATK as AoE DMG (once every 2s max). Modeled as a supplementary hit of 40% ATK — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many blades land (the 2s ICD is treated as reliably triggered during sustained combat); physical, scales with ATK and CRIT only, no DMG% bonuses. Normal ATK SPD +12% not modeled (non-combat). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 0.4,
             "charged_extraHitFromAtk_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "normal_extraHitFromAtk_": 1.0,
+              "charged_extraHitFromAtk_": 1.0
+            }
           }
         }
       }

@@ -15,13 +15,23 @@
       {
         "conditionKey": "athame_artis_blade_of_the_daylight_hours",
         "source": "AthameArtis",
-        "description": "When Elemental Burst hits: ATK +40% (or +70% with Hexerei).",
+        "description": "When Elemental Burst hits: ATK +40% (or +70% with Hexerei). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.2
           },
           "hexerei": {
             "atk_": 0.35
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.4
+            },
+            "hexerei": {
+              "atk_": 0.7
+            }
           }
         }
       }
@@ -31,13 +41,23 @@
       {
         "conditionKey": "athame_artis_party_daylight_hours",
         "source": "AthameArtis",
-        "description": "Nearby active party members other than the wearer gain ATK +32% for 3s (or +56% with Hexerei).",
+        "description": "Nearby active party members other than the wearer gain ATK +32% for 3s (or +56% with Hexerei). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.16
           },
           "hexerei": {
             "atk_": 0.28
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.32
+            },
+            "hexerei": {
+              "atk_": 0.56
+            }
           }
         }
       }

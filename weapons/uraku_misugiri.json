@@ -17,11 +17,19 @@
       {
         "conditionKey": "uraku_misugiri_team_geo",
         "source": "UrakuMisugiri",
-        "description": "When nearby party members are Geo: the Normal and Elemental Skill DMG bonuses are doubled (adds +16%/+24% at R1).",
+        "description": "When nearby party members are Geo: the Normal and Elemental Skill DMG bonuses are doubled (adds +16%/+24% at R1). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "on": {
             "normal_dmg_": 0.16,
             "skill_dmg_": 0.24
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "on": {
+              "normal_dmg_": 0.32,
+              "skill_dmg_": 0.48
+            }
           }
         }
       }

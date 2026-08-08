@@ -15,8 +15,19 @@
       {
         "source": "CranesEchoingCall",
         "conditionKey": "cloudfall_axiom",
-        "description": "R1 Cloudfall Axiom: after the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attack DMG is increased by 28% for 20s. (Energy regen to the equipping character from teammates' Plunging Attacks is not modeled.)",
-        "states": { "active": { "plunging_dmg_": 0.28 } }
+        "description": "R1 Cloudfall Axiom: after the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attack DMG is increased by 28% for 20s. (Energy regen to the equipping character from teammates' Plunging Attacks is not modeled.) Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "states": {
+          "active": {
+            "plunging_dmg_": 0.28
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "plunging_dmg_": 0.8
+            }
+          }
+        }
       }
     ]
   }

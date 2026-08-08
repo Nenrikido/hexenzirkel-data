@@ -19,8 +19,15 @@
             "all_dmg_": 0.2
           }
         },
-        "description": "When opponents are nearby: DMG Bonus +20% (R1).",
-        "conditionKey": "aqua_simulacra_the_cleansing_form"
+        "description": "When opponents are nearby: DMG Bonus +20% (R1). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "conditionKey": "aqua_simulacra_the_cleansing_form",
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "all_dmg_": 0.4
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

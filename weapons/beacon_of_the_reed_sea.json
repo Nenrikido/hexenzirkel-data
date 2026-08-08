@@ -15,10 +15,17 @@
       {
         "source": "BeaconOfTheReedSea",
         "conditionKey": "beacon_of_the_reed_sea_desert_watch_atk",
-        "description": "Desert Watch (R1): ATK +20% for 8s after the wielder's Elemental Skill hits an opponent, and a further ATK +20% for 8s after the wielder takes DMG (both trigger off-field too). Modeled with both procs active simultaneously (+40%). The Max HP +32% (self_modifiers_json) assumes the wielder is not shielded, per its 'while not protected by a shield' condition.",
+        "description": "Desert Watch (R1): ATK +20% for 8s after the wielder's Elemental Skill hits an opponent, and a further ATK +20% for 8s after the wielder takes DMG (both trigger off-field too). Modeled with both procs active simultaneously (+40%). The Max HP +32% (self_modifiers_json) assumes the wielder is not shielded, per its 'while not protected by a shield' condition. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.8
+            }
           }
         }
       }

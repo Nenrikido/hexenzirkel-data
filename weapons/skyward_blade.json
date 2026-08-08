@@ -15,11 +15,19 @@
       {
         "source": "SkywardBlade",
         "conditionKey": "skyward_blade_skypiercing_might",
-        "description": "Sky-Piercing Fang (R1): after using Elemental Burst, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 12s. Movement SPD/ATK SPD bonuses not modeled (non-combat). Modeled as a supplementary hit — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses.",
+        "description": "Sky-Piercing Fang (R1): after using Elemental Burst, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 12s. Movement SPD/ATK SPD bonuses not modeled (non-combat). Modeled as a supplementary hit — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 0.2,
             "charged_extraHitFromAtk_": 0.2
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "normal_extraHitFromAtk_": 0.4,
+              "charged_extraHitFromAtk_": 0.4
+            }
           }
         }
       }

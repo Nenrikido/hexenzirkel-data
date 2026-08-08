@@ -13,20 +13,34 @@
       {
         "conditionKey": "nightweavers_looking_glass_prayer_of_the_far_north",
         "source": "NightweaversLookingGlass",
-        "description": "After Elemental Skill Hydro or Dendro DMG: Elemental Mastery +120 for 4.5s (R5 model).",
+        "description": "After Elemental Skill Hydro or Dendro DMG: Elemental Mastery +120 for 4.5s (R5 model). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 60.0
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 120.0
+            }
           }
         }
       },
       {
         "conditionKey": "nightweavers_looking_glass_new_moon_verse",
         "source": "NightweaversLookingGlass",
-        "description": "When nearby party members trigger Lunar-Bloom: Elemental Mastery +120 for 10s (R5 model).",
+        "description": "When nearby party members trigger Lunar-Bloom: Elemental Mastery +120 for 10s (R5 model). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 60.0
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 120.0
+            }
           }
         }
       }
@@ -36,13 +50,23 @@
       {
         "conditionKey": "nightweavers_looking_glass_millennial_hymn",
         "source": "NightweaversLookingGlass",
-        "description": "When both EM buffs are active: Bloom +240%, Hyperbloom/Burgeon +160%, Lunar-Bloom +80% (R5 model).",
+        "description": "When both EM buffs are active: Bloom +240%, Hyperbloom/Burgeon +160%, Lunar-Bloom +80% (R5 model). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "bloom_dmg_": 1.2,
             "hyperbloom_dmg_": 0.8,
             "burgeon_dmg_": 0.8,
             "lunarbloom_dmg_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "bloom_dmg_": 2.4,
+              "hyperbloom_dmg_": 1.6,
+              "burgeon_dmg_": 1.6,
+              "lunarbloom_dmg_": 0.8
+            }
           }
         }
       }

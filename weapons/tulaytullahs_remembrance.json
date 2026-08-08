@@ -13,10 +13,17 @@
       {
         "source": "TulaytullahsRemembrance",
         "conditionKey": "tulaytullahs_remembrance_azure_teardrop",
-        "description": "Bygone Azure Teardrop (R1): after using an Elemental Skill, Normal Attack DMG increases by 4.8% every second and by an additional 9.6% per Normal Attack hit (once every 0.3s), up to a maximum of +48% Normal Attack DMG for the 14s duration. Modeled at the capped maximum. Normal Attack SPD +10% not modeled (non-combat).",
+        "description": "Bygone Azure Teardrop (R1): after using an Elemental Skill, Normal Attack DMG increases by 4.8% every second and by an additional 9.6% per Normal Attack hit (once every 0.3s), up to a maximum of +48% Normal Attack DMG for the 14s duration. Modeled at the capped maximum. Normal Attack SPD +10% not modeled (non-combat). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "normal_dmg_": 0.48
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "normal_dmg_": 0.96
+            }
           }
         }
       }

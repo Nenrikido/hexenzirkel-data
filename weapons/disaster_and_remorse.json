@@ -13,7 +13,7 @@
       {
         "source": "13517",
         "conditionKey": "unforgivable",
-        "description": "R1: after using an Elemental Skill, gain Unforgivable: Normal and Charged Attack DMG +40% (+75% to +70% under Hexerei: Secret Rite).",
+        "description": "R1: after using an Elemental Skill, gain Unforgivable: Normal and Charged Attack DMG +40% (+75% to +70% under Hexerei: Secret Rite). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "base",
@@ -29,12 +29,24 @@
               "charged_dmg_": 0.7
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "base": {
+              "normal_dmg_": 0.8,
+              "charged_dmg_": 0.8
+            },
+            "hexerei": {
+              "normal_dmg_": 1.4,
+              "charged_dmg_": 1.4
+            }
+          }
+        }
       },
       {
         "source": "13517",
         "conditionKey": "irreparable",
-        "description": "R1: after using an Elemental Skill, gain Irreparable: Elemental Skill and Burst DMG +40% (+75% to +70% under Hexerei: Secret Rite).",
+        "description": "R1: after using an Elemental Skill, gain Irreparable: Elemental Skill and Burst DMG +40% (+75% to +70% under Hexerei: Secret Rite). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "base",
@@ -50,7 +62,19 @@
               "burst_dmg_": 0.7
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "base": {
+              "skill_dmg_": 0.8,
+              "burst_dmg_": 0.8
+            },
+            "hexerei": {
+              "skill_dmg_": 1.4,
+              "burst_dmg_": 1.4
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

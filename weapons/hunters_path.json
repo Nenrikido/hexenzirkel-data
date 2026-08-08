@@ -15,10 +15,17 @@
       {
         "source": "HuntersPath",
         "conditionKey": "hunters_path_tireless_hunt",
-        "description": "Tireless Hunt (R1): after hitting an opponent with a Charged Attack, Charged Attack DMG is increased by an amount equal to 160% of Elemental Mastery, for up to 12 Charged Attacks or 10s (1 instance every 12s). Approximated as a flat +320 Charged Attack DMG, assuming ~200 Elemental Mastery (no eval-time EM-to-flat-dmg conversion key exists).",
+        "description": "Tireless Hunt (R1): after hitting an opponent with a Charged Attack, Charged Attack DMG is increased by an amount equal to 160% of Elemental Mastery, for up to 12 Charged Attacks or 10s (1 instance every 12s). Approximated as a flat +320 Charged Attack DMG, assuming ~200 Elemental Mastery (no eval-time EM-to-flat-dmg conversion key exists). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "charged_dmgInc": 320
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "charged_dmgInc": 640
+            }
           }
         }
       }

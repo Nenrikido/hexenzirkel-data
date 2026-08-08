@@ -17,10 +17,17 @@
       {
         "source": "SongOfBrokenPines",
         "conditionKey": "song_of_broken_pines_banner_hymn",
-        "description": "Rebel's Banner-Hymn (R1): consuming 4 Sigils of Whispers (built by Normal/Charged hits) grants nearby party members ATK +20% for 12s. Normal ATK SPD +12% not modeled (non-combat).",
+        "description": "Rebel's Banner-Hymn (R1): consuming 4 Sigils of Whispers (built by Normal/Charged hits) grants nearby party members ATK +20% for 12s. Normal ATK SPD +12% not modeled (non-combat). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.2
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.4
+            }
           }
         }
       }

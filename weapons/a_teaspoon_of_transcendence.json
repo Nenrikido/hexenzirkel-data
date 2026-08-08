@@ -15,13 +15,22 @@
       {
         "conditionKey": "transcendence",
         "source": "weapon_12516",
-        "description": "R1 White Fairy's Queening: hitting an opponent with a Charged Attack grants Transcendence, increasing Stellar-Conduct DMG by 16% for 5s (max 3 stacks = +48%; stacks once every 0.2s). Stellar-Conduct is a dedicated DMG type; recorded for reference (no standard stat key). The flat 28% ATK is always-on (self_modifiers).",
+        "description": "R1 White Fairy's Queening: hitting an opponent with a Charged Attack grants Transcendence, increasing Stellar-Conduct DMG by 16% for 5s (max 3 stacks = +48%; stacks once every 0.2s). Stellar-Conduct is a dedicated DMG type; recorded for reference (no standard stat key). The flat 28% ATK is always-on (self_modifiers). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "3 stacks",
-            "modifiers": { "stellarconduct_dmg_": 0.48 }
+            "modifiers": {
+              "stellarconduct_dmg_": 0.48
+            }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "3 stacks": {
+              "stellarconduct_dmg_": 0.96
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

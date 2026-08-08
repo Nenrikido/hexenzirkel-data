@@ -8,20 +8,32 @@
     "subStatValue": 198.4608
   },
   "buffs": {
-    "self_modifiers_json": { "all_dmg_": 0.1 },
+    "self_modifiers_json": {
+      "all_dmg_": 0.1
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
         "source": "FreedomSworn",
         "conditionKey": "millennial_movement",
-        "description": "R1 Revolutionary Chorale: consuming 2 Sigils of Rebellion grants all nearby party members Millennial Movement: Song of Resistance for 12s — Normal/Charged/Plunging Attack DMG +16% and ATK +20%.",
+        "description": "R1 Revolutionary Chorale: consuming 2 Sigils of Rebellion grants all nearby party members Millennial Movement: Song of Resistance for 12s — Normal/Charged/Plunging Attack DMG +16% and ATK +20%. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "normal_dmg_": 0.16,
             "charged_dmg_": 0.16,
             "plunging_dmg_": 0.16,
             "atk_": 0.2
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "normal_dmg_": 0.32,
+              "charged_dmg_": 0.32,
+              "plunging_dmg_": 0.32,
+              "atk_": 0.4
+            }
           }
         }
       }

@@ -15,31 +15,53 @@
       {
         "conditionKey": "afterSkill",
         "source": "14521",
-        "description": "After using skill: +80 EM for 12s (R1)",
+        "description": "After using skill: +80 EM for 12s (R1) Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 80.0
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 160.0
+            }
           }
         }
       },
       {
         "conditionKey": "afterLunarBloom",
         "source": "14521",
-        "description": "After Lunarbloom hit: +24% crit DMG for 12s (R1)",
+        "description": "After Lunarbloom hit: +24% crit DMG for 12s (R1) Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "critDMG_": 0.24
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "critDMG_": 0.48
+            }
           }
         }
       },
       {
         "conditionKey": "afterSkillAndLunarBloomBoost",
         "source": "14521",
-        "description": "If both previous conditions are active, add the 1.5x bonus delta (R1)",
+        "description": "If both previous conditions are active, add the 1.5x bonus delta (R1) Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 40.0,
             "critDMG_": 0.12
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 80.0,
+              "critDMG_": 0.24
+            }
           }
         }
       }

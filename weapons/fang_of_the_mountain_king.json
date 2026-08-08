@@ -13,7 +13,7 @@
       {
         "source": "12513",
         "conditionKey": "canopys_favor",
-        "description": "R1: gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill (once / 0.5s); a nearby party member triggering Burning or Burgeon grants 3 stacks (once / 2s, works off-field). Each stack: Elemental Skill and Burst DMG +10% for 6s, max 6 stacks (+60%).",
+        "description": "R1: gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill (once / 0.5s); a nearby party member triggering Burning or Burgeon grants 3 stacks (once / 2s, works off-field). Each stack: Elemental Skill and Burst DMG +10% for 6s, max 6 stacks (+60%). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "6",
@@ -22,7 +22,15 @@
               "burst_dmg_": 0.6
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "6": {
+              "skill_dmg_": 1.2,
+              "burst_dmg_": 1.2
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

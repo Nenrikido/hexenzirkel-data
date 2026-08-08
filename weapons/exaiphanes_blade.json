@@ -13,38 +13,75 @@
       {
         "source": "11521",
         "conditionKey": "travelersPathAtk",
-        "description": "R3 Traveler's Path: after the Traveler attacks and hits an opponent, ATK +24% for 8s (5s ICD, works off-field). Traveler-only — the weapon does nothing on any other character. Modelled at R3 as requested; the weapon refines through Snezhnaya's Statues of the Seven rather than through duplicates, so R1 is not the meaningful default. The 5 Elemental Energy restore is not modelled.",
+        "description": "Traveler's Path: after the Traveler attacks and hits an opponent, ATK increases for 8s (5s ICD, works off-field). Traveler-only - the weapon does nothing on any other character. The magnitude follows the leaderboard's chosen refinement (R1 +16%, R3 +24%, R5 +40%); this weapon refines through Snezhnaya's Statues of the Seven rather than duplicates, so R3 is the realistic default and the builder's R1 default should usually be changed. The 5 Elemental Energy restore is not modelled.",
         "states": {
           "on": {
-            "atk_": 0.24
+            "atk_": 0.16
+          }
+        },
+        "refinementStates": {
+          "R3": {
+            "on": {
+              "atk_": 0.24
+            }
+          },
+          "R5": {
+            "on": {
+              "atk_": 0.4
+            }
           }
         }
       },
       {
         "source": "11521",
         "conditionKey": "travelersPathResonance",
-        "description": "R3 Traveler's Path: +6% CRIT DMG per Element the Traveler has resonated with. Pick the number of Statues of the Seven unlocked (7 elements exist). Unlocked from R2 onward, so this entry is absent at R1.",
+        "description": "Traveler's Path: +6% CRIT DMG per Element the Traveler has resonated with (7 exist). Pick the number of Statues of the Seven unlocked. This half of the passive does not exist at R1 - its param is 0 there - so the R1 tier is all zeroes and refinementStates turns it on from R2 upward at a flat 6% per Element (it does not scale further with refinement).",
         "states": {
           "1_elements": {
-            "critDMG_": 0.06
+            "critDMG_": 0.0
           },
           "2_elements": {
-            "critDMG_": 0.12
+            "critDMG_": 0.0
           },
           "3_elements": {
-            "critDMG_": 0.18
+            "critDMG_": 0.0
           },
           "4_elements": {
-            "critDMG_": 0.24
+            "critDMG_": 0.0
           },
           "5_elements": {
-            "critDMG_": 0.3
+            "critDMG_": 0.0
           },
           "6_elements": {
-            "critDMG_": 0.36
+            "critDMG_": 0.0
           },
           "7_elements": {
-            "critDMG_": 0.42
+            "critDMG_": 0.0
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "1_elements": {
+              "critDMG_": 0.06
+            },
+            "2_elements": {
+              "critDMG_": 0.12
+            },
+            "3_elements": {
+              "critDMG_": 0.18
+            },
+            "4_elements": {
+              "critDMG_": 0.24
+            },
+            "5_elements": {
+              "critDMG_": 0.3
+            },
+            "6_elements": {
+              "critDMG_": 0.36
+            },
+            "7_elements": {
+              "critDMG_": 0.42
+            }
           }
         }
       }

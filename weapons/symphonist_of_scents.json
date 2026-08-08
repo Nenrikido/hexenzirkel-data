@@ -15,20 +15,34 @@
       {
         "source": "SymphonistOfScents",
         "conditionKey": "off_field",
-        "description": "R1 Seasoned Symphony: when the equipping character is off-field, ATK is increased by an additional 12%.",
+        "description": "R1 Seasoned Symphony: when the equipping character is off-field, ATK is increased by an additional 12%. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.12
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.24
+            }
           }
         }
       },
       {
         "source": "SymphonistOfScents",
         "conditionKey": "sweet_echoes",
-        "description": "R1 Seasoned Symphony: after initiating healing, the equipping and healed character(s) gain Sweet Echoes: ATK +32% for 3s.",
+        "description": "R1 Seasoned Symphony: after initiating healing, the equipping and healed character(s) gain Sweet Echoes: ATK +32% for 3s. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.32
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.64
+            }
           }
         }
       }
@@ -38,10 +52,17 @@
       {
         "source": "SymphonistOfScents",
         "conditionKey": "sweet_echoes",
-        "description": "R1 Seasoned Symphony: after initiating healing, the equipping and healed character(s) gain Sweet Echoes: ATK +32% for 3s.",
+        "description": "R1 Seasoned Symphony: after initiating healing, the equipping and healed character(s) gain Sweet Echoes: ATK +32% for 3s. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.32
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.64
+            }
           }
         }
       }

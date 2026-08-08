@@ -13,30 +13,51 @@
       {
         "source": "SunnyMorningSleepIn",
         "conditionKey": "sunny_morning_sleep_in_swirl_em",
-        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +120 for 6s after triggering Swirl.",
+        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +120 for 6s after triggering Swirl. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 120.0
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 240.0
+            }
           }
         }
       },
       {
         "source": "SunnyMorningSleepIn",
         "conditionKey": "sunny_morning_sleep_in_skill_em",
-        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +96 for 9s after the wielder's Elemental Skill hits an opponent.",
+        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +96 for 9s after the wielder's Elemental Skill hits an opponent. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 96.0
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 192.0
+            }
           }
         }
       },
       {
         "source": "SunnyMorningSleepIn",
         "conditionKey": "sunny_morning_sleep_in_burst_em",
-        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +32 for 30s after the wielder's Elemental Burst hits an opponent.",
+        "description": "Bathhouses, Hawks, and Narukami (R1): Elemental Mastery +32 for 30s after the wielder's Elemental Burst hits an opponent. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 32.0
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 64.0
+            }
           }
         }
       }

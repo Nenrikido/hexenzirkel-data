@@ -15,13 +15,23 @@
       {
         "source": "CalamityQueller",
         "conditionKey": "calamity_queller_consummation",
-        "description": "Consummation (R1): after using an Elemental Skill, ATK increases by 3.2% every second for 20s, max 6 stacks (+19.2% while on-field). The ATK increase is doubled while the wielder is off-field (+38.4%). Modeled at max stacks; pick the state matching the wielder's field presence.",
+        "description": "Consummation (R1): after using an Elemental Skill, ATK increases by 3.2% every second for 20s, max 6 stacks (+19.2% while on-field). The ATK increase is doubled while the wielder is off-field (+38.4%). Modeled at max stacks; pick the state matching the wielder's field presence. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "on_field": {
             "atk_": 0.192
           },
           "off_field": {
             "atk_": 0.384
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "on_field": {
+              "atk_": 0.384
+            },
+            "off_field": {
+              "atk_": 0.768
+            }
           }
         }
       }

@@ -12,7 +12,7 @@
     "self_conditional_modifiers_json": [
       {
         "conditionKey": "sunset_reignites_dawn",
-        "description": "After skill or burst: CRIT DMG +20%, ATK +28% for 6s.",
+        "description": "After skill or burst: CRIT DMG +20%, ATK +28% for 6s. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "passive_only": {
             "critDMG_": 0.2,
@@ -21,6 +21,18 @@
           "nightsoul_blessing": {
             "critDMG_": 0.35,
             "atk_": 0.49
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "passive_only": {
+              "critDMG_": 0.4,
+              "atk_": 0.56
+            },
+            "nightsoul_blessing": {
+              "critDMG_": 0.7,
+              "atk_": 0.98
+            }
           }
         }
       }

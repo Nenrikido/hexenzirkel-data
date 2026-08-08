@@ -15,10 +15,17 @@
       {
         "conditionKey": "starcallers_watch_team_buff",
         "source": "StarcallersWatch",
-        "description": "Conditional team bonus damage from passive proc.",
+        "description": "Conditional team bonus damage from passive proc. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "all_dmg_": 0.28
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "all_dmg_": 0.56
+            }
           }
         }
       }

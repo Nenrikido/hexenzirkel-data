@@ -15,11 +15,31 @@
       {
         "source": "13513",
         "conditionKey": "bertillonage",
-        "description": "R1: after the wielder's Elemental Skill hits an opponent, gain 1 stack of Bertillonage: all DMG +18% per stack for 8s, max 2 stacks.",
+        "description": "R1: after the wielder's Elemental Skill hits an opponent, gain 1 stack of Bertillonage: all DMG +18% per stack for 8s, max 2 stacks. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
-          { "value": "1", "modifiers": { "all_dmg_": 0.18 } },
-          { "value": "2", "modifiers": { "all_dmg_": 0.36 } }
-        ]
+          {
+            "value": "1",
+            "modifiers": {
+              "all_dmg_": 0.18
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "all_dmg_": 0.36
+            }
+          }
+        ],
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "all_dmg_": 0.38
+            },
+            "2": {
+              "all_dmg_": 0.76
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

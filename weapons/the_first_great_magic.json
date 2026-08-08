@@ -18,17 +18,37 @@
         "states": [
           {
             "value": 1,
-            "modifiers": { "atk_": 0.16 }
+            "modifiers": {
+              "atk_": 0.16
+            }
           },
           {
             "value": 2,
-            "modifiers": { "atk_": 0.32 }
+            "modifiers": {
+              "atk_": 0.32
+            }
           },
           {
             "value": 3,
-            "modifiers": { "atk_": 0.48 }
+            "modifiers": {
+              "atk_": 0.48
+            }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "atk_": 0.32
+            },
+            "2": {
+              "atk_": 0.64
+            },
+            "3": {
+              "atk_": 0.96
+            }
+          }
+        },
+        "description": "Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1)."
       }
     ],
     "team_modifiers_json": {},

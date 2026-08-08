@@ -16,13 +16,49 @@
       {
         "conditionKey": "ashen_nightstar_stacks",
         "source": "PolarStar",
-        "description": "R1 Daylight's Augury: after a Normal/Charged/Skill/Burst hit, gain 1 stack of Ashen Nightstar (12s, tracked independently per attack type, max 4). ATK +10/20/30/48% at 1/2/3/4 stacks.",
+        "description": "R1 Daylight's Augury: after a Normal/Charged/Skill/Burst hit, gain 1 stack of Ashen Nightstar (12s, tracked independently per attack type, max 4). ATK +10/20/30/48% at 1/2/3/4 stacks. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
-          { "value": "1", "modifiers": { "atk_": 0.1 } },
-          { "value": "2", "modifiers": { "atk_": 0.2 } },
-          { "value": "3", "modifiers": { "atk_": 0.3 } },
-          { "value": "4", "modifiers": { "atk_": 0.48 } }
-        ]
+          {
+            "value": "1",
+            "modifiers": {
+              "atk_": 0.1
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "atk_": 0.2
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "atk_": 0.3
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "atk_": 0.48
+            }
+          }
+        ],
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "atk_": 0.2
+            },
+            "2": {
+              "atk_": 0.4
+            },
+            "3": {
+              "atk_": 0.6
+            },
+            "4": {
+              "atk_": 0.96
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

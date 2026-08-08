@@ -17,11 +17,19 @@
       {
         "source": "ElegyForTheEnd",
         "conditionKey": "elegy_for_the_end_farewell_song",
-        "description": "Millennial Movement: Farewell Song (R1): once 4 Sigils of Remembrance are gathered (from Skill/Burst hits, obtainable off-field), all nearby party members gain EM +100 and ATK +20% for 12s, then a 20s cooldown before Sigils can be regained. Modeled at full uptime while active; real uptime is rotation-dependent.",
+        "description": "Millennial Movement: Farewell Song (R1): once 4 Sigils of Remembrance are gathered (from Skill/Burst hits, obtainable off-field), all nearby party members gain EM +100 and ATK +20% for 12s, then a 20s cooldown before Sigils can be regained. Modeled at full uptime while active; real uptime is rotation-dependent. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 100,
             "atk_": 0.2
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 200.0,
+              "atk_": 0.4
+            }
           }
         }
       }

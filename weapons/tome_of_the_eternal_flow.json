@@ -8,16 +8,37 @@
     "subStatValue": 0.882048
   },
   "buffs": {
-    "self_modifiers_json": { "hp_": 0.16 },
+    "self_modifiers_json": {
+      "hp_": 0.16
+    },
     "self_conditional_modifiers_json": [
       {
         "source": "TomeOfTheEternalFlow",
         "conditionKey": "aeon_wave",
-        "description": "R1 Aeon Wave: when current HP increases or decreases, Charged Attack DMG +14% for 4s, max 3 stacks. Select active stacks.",
+        "description": "R1 Aeon Wave: when current HP increases or decreases, Charged Attack DMG +14% for 4s, max 3 stacks. Select active stacks. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
-          "1": { "charged_dmg_": 0.14 },
-          "2": { "charged_dmg_": 0.28 },
-          "3": { "charged_dmg_": 0.42 }
+          "1": {
+            "charged_dmg_": 0.14
+          },
+          "2": {
+            "charged_dmg_": 0.28
+          },
+          "3": {
+            "charged_dmg_": 0.42
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "charged_dmg_": 0.3
+            },
+            "2": {
+              "charged_dmg_": 0.6
+            },
+            "3": {
+              "charged_dmg_": 0.9
+            }
+          }
         }
       }
     ],

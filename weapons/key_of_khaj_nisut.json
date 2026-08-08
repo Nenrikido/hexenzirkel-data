@@ -15,7 +15,7 @@
       {
         "conditionKey": "skillHitsStacks",
         "source": "KeyOfKhajNisut",
-        "description": "assume 75k HP, so 0.12% per stack = 90",
+        "description": "assume 75k HP, so 0.12% per stack = 90 Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "1 stack": {
             "eleMas": 90
@@ -26,6 +26,19 @@
           "3 stack": {
             "eleMas": 270
           }
+        },
+        "refinementStates": {
+          "R5": {
+            "1 stack": {
+              "eleMas": 180
+            },
+            "2 stack": {
+              "eleMas": 360
+            },
+            "3 stack": {
+              "eleMas": 540
+            }
+          }
         }
       }
     ],
@@ -34,10 +47,17 @@
       {
         "conditionKey": "skillHitsFullStacks",
         "source": "KeyOfKhajNisut",
-        "description": "assume 75k HP, 0.2% at 3 stack = 150",
+        "description": "assume 75k HP, 0.2% at 3 stack = 150 Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "eleMas": 150
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas": 300
+            }
           }
         }
       }

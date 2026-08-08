@@ -13,7 +13,7 @@
       {
         "source": "12515",
         "conditionKey": "four_winds_hymn",
-        "description": "R1: gain Four Winds' Hymn stacks from Normal Attack hits / Elemental Skill / Charged Attack start; DMG dealt +7.5% per stack, max 4 (+30%). Under Hexerei: Secret Rite, each stack also grants +7.5% CRIT DMG (+30% at 4 stacks).",
+        "description": "R1: gain Four Winds' Hymn stacks from Normal Attack hits / Elemental Skill / Charged Attack start; DMG dealt +7.5% per stack, max 4 (+30%). Under Hexerei: Secret Rite, each stack also grants +7.5% CRIT DMG (+30% at 4 stacks). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "1",
@@ -43,12 +43,32 @@
               "critDMG_": 0.3
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "all_dmg_": 0.155,
+              "critDMG_": 0.155
+            },
+            "2": {
+              "all_dmg_": 0.31,
+              "critDMG_": 0.31
+            },
+            "3": {
+              "all_dmg_": 0.465,
+              "critDMG_": 0.465
+            },
+            "4": {
+              "all_dmg_": 0.62,
+              "critDMG_": 0.62
+            }
+          }
+        }
       },
       {
         "source": "12515",
         "conditionKey": "four_winds_hymn_no_hexerei",
-        "description": "R1: gain Four Winds' Hymn stacks from Normal Attack hits / Elemental Skill / Charged Attack start; DMG dealt +7.5% per stack, max 4 (+30%). Under Hexerei: Secret Rite, each stack also grants +7.5% CRIT DMG (+30% at 4 stacks).",
+        "description": "R1: gain Four Winds' Hymn stacks from Normal Attack hits / Elemental Skill / Charged Attack start; DMG dealt +7.5% per stack, max 4 (+30%). Under Hexerei: Secret Rite, each stack also grants +7.5% CRIT DMG (+30% at 4 stacks). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "1",
@@ -74,7 +94,23 @@
               "all_dmg_": 0.3
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "all_dmg_": 0.155
+            },
+            "2": {
+              "all_dmg_": 0.31
+            },
+            "3": {
+              "all_dmg_": 0.465
+            },
+            "4": {
+              "all_dmg_": 0.62
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

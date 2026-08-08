@@ -15,7 +15,7 @@
       {
         "conditionKey": "recklessCinnabar",
         "source": "StaffOfHoma",
-        "description": "Reckless Cinnabar (R1): HP +20%; ATK increased by 0.8% of Max HP. When the wielder's HP is below 50%, the ATK bonus is 1.8% of Max HP instead.",
+        "description": "Reckless Cinnabar (R1): HP +20%; ATK increased by 0.8% of Max HP. When the wielder's HP is below 50%, the ATK bonus is 1.8% of Max HP instead. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "above50",
@@ -29,7 +29,17 @@
               "atk_from_maxHp_": 0.018
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "above50": {
+              "atk_from_maxHp_": 0.016
+            },
+            "below50": {
+              "atk_from_maxHp_": 0.034
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

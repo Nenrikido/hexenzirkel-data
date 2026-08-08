@@ -140,6 +140,14 @@ Amber page, or the in-game text) in the pull-request description.
           "passive_only": { "critDMG_": 0.2, "atk_": 0.28 },
           "nightsoul_blessing": { "critDMG_": 0.35, "atk_": 0.49 },
         },
+        // Same state keys at higher refinements. The leaderboard's chosen
+        // refinement picks the highest declared tier at or below it.
+        "refinementStates": {
+          "R5": {
+            "passive_only": { "critDMG_": 0.4, "atk_": 0.56 },
+            "nightsoul_blessing": { "critDMG_": 0.7, "atk_": 0.98 },
+          },
+        },
       },
     ],
     "team_modifiers_json": {},
@@ -149,6 +157,25 @@ Amber page, or the in-game text) in the pull-request description.
 ```
 
 Weapon buffs are written at **R1** for 5* weapons and **R5** for 4* weapons.
+
+**`refinementStates`** lets a 5* weapon carry more than its R1 numbers. `states`
+is the **R1** tier; `refinementStates` maps `"R<n>"` → the *same state keys* at
+that refinement. Refinement and the admin's chosen state are independent axes —
+the state stays semantic (stack count, team composition, which half of the
+passive is up) while the tier only changes magnitudes — so the two never need to
+be multiplied out into combined state names.
+
+Resolution (`resolve_refinement_scaled_modifiers` in `build_stats_service.py`,
+used by both the leaderboard builder and the per-build stat path) picks the
+highest declared tier **at or below** the chosen refinement, so R2–R4 read R1
+rather than borrowing unauthored values; a state key missing from that tier
+falls back to `states`. An entry with no `refinementStates` behaves exactly as
+before. Tiers other than R5 are fine — Exaiphanes Blade declares R3 and R5, and
+uses an all-zero R1 tier for the half of its passive that does not exist until
+R2.
+
+Do **not** add `refinementStates` to a 4*/3* weapon: those are already authored
+at R5, which is the tier they are assumed to be at.
 
 ### Artifact set (`artifact_sets/*.json`)
 

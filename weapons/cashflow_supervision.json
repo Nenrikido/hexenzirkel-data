@@ -15,12 +15,21 @@
       {
         "source": "CashflowSupervision",
         "conditionKey": "cashflow_supervision_golden_bloodtide",
-        "description": "Golden Blood-Tide (R1): when current HP increases or decreases, Normal Attack DMG +16%, Charged Attack DMG +14%, and Stellar-Conduct DMG +14% for 4s; stacks up to 3 times (retriggerable every 0.3s). Modeled at max 3 stacks. The ATK SPD +8% at 3 stacks is not modeled (no eval-time key).",
+        "description": "Golden Blood-Tide (R1): when current HP increases or decreases, Normal Attack DMG +16%, Charged Attack DMG +14%, and Stellar-Conduct DMG +14% for 4s; stacks up to 3 times (retriggerable every 0.3s). Modeled at max 3 stacks. The ATK SPD +8% at 3 stacks is not modeled (no eval-time key). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "normal_dmg_": 0.48,
             "charged_dmg_": 0.42,
             "stellarconduct_dmg_": 0.42
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "normal_dmg_": 0.96,
+              "charged_dmg_": 0.84,
+              "stellarconduct_dmg_": 0.84
+            }
           }
         }
       }

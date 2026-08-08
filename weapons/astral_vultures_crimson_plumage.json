@@ -13,23 +13,55 @@
       {
         "source": "15514",
         "conditionKey": "afterSwirl",
-        "description": "R1: after the wielder triggers a Swirl reaction, ATK +24% for 12s.",
-        "states": [{ "value": "on", "modifiers": { "atk_": 0.24 } }]
+        "description": "R1: after the wielder triggers a Swirl reaction, ATK +24% for 12s. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.24
+            }
+          }
+        ],
+        "refinementStates": {
+          "R5": {
+            "on": {
+              "atk_": 0.48
+            }
+          }
+        }
       },
       {
         "source": "15514",
         "conditionKey": "otherElementMembers",
-        "description": "R1: based on the number of party members whose Elemental Type differs from the wielder. 1 member: Charged Attack DMG +20%, Elemental Burst DMG +10%. 2+ members: Charged Attack DMG +48%, Elemental Burst DMG +24%.",
+        "description": "R1: based on the number of party members whose Elemental Type differs from the wielder. 1 member: Charged Attack DMG +20%, Elemental Burst DMG +10%. 2+ members: Charged Attack DMG +48%, Elemental Burst DMG +24%. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "1 member",
-            "modifiers": { "charged_dmg_": 0.2, "burst_dmg_": 0.1 }
+            "modifiers": {
+              "charged_dmg_": 0.2,
+              "burst_dmg_": 0.1
+            }
           },
           {
             "value": "2+ members",
-            "modifiers": { "charged_dmg_": 0.48, "burst_dmg_": 0.24 }
+            "modifiers": {
+              "charged_dmg_": 0.48,
+              "burst_dmg_": 0.24
+            }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "1 member": {
+              "charged_dmg_": 0.4,
+              "burst_dmg_": 0.2
+            },
+            "2+ members": {
+              "charged_dmg_": 0.96,
+              "burst_dmg_": 0.48
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

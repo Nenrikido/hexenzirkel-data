@@ -13,13 +13,23 @@
       {
         "source": "SummitShaper",
         "conditionKey": "summit_shaper_golden_majesty",
-        "description": "Golden Majesty (R1): scoring hits on opponents increases ATK by 4% for 8s, up to 5 stacks (ATK +20% at max). While protected by a shield this bonus is doubled (ATK +40% at max stacks). Shield Strength +20% not modeled (non-combat).",
+        "description": "Golden Majesty (R1): scoring hits on opponents increases ATK by 4% for 8s, up to 5 stacks (ATK +20% at max). While protected by a shield this bonus is doubled (ATK +40% at max stacks). Shield Strength +20% not modeled (non-combat). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "atk_": 0.2
           },
           "shielded": {
             "atk_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.4
+            },
+            "shielded": {
+              "atk_": 0.8
+            }
           }
         }
       }

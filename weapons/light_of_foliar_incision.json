@@ -15,11 +15,19 @@
       {
         "source": "LightOfFoliarIncision",
         "conditionKey": "light_of_foliar_incision_whitemoon_bristle",
-        "description": "Whitemoon Bristle (R1): after Normal Attacks deal Elemental DMG, gain the Foliar Incision effect, increasing DMG dealt by Normal Attacks and Elemental Skills by an amount equal to 120% of Elemental Mastery, for up to 28 DMG instances or 12s (obtainable once every 12s). Approximated as a flat +240 Normal Attack and Elemental Skill DMG, assuming ~200 Elemental Mastery (no eval-time EM-to-flat-dmg conversion key exists).",
+        "description": "Whitemoon Bristle (R1): after Normal Attacks deal Elemental DMG, gain the Foliar Incision effect, increasing DMG dealt by Normal Attacks and Elemental Skills by an amount equal to 120% of Elemental Mastery, for up to 28 DMG instances or 12s (obtainable once every 12s). Approximated as a flat +240 Normal Attack and Elemental Skill DMG, assuming ~200 Elemental Mastery (no eval-time EM-to-flat-dmg conversion key exists). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "normal_dmgInc": 240,
             "skill_dmgInc": 240
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "normal_dmgInc": 480,
+              "skill_dmgInc": 480
+            }
           }
         }
       }

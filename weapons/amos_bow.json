@@ -16,11 +16,19 @@
       {
         "source": "AmosBow",
         "conditionKey": "amos_bow_sharpshooter",
-        "description": "Sharpshooter (R1): after a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air, up to 5 times. Modeled at max stacks (+40%).",
+        "description": "Sharpshooter (R1): after a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air, up to 5 times. Modeled at max stacks (+40%). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "active": {
             "normal_dmg_": 0.4,
             "charged_dmg_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "normal_dmg_": 0.8,
+              "charged_dmg_": 0.8
+            }
           }
         }
       }

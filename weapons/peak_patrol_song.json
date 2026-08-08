@@ -13,7 +13,7 @@
       {
         "conditionKey": "peak_patrol_song_ode_to_flowers",
         "source": "PeakPatrolSong",
-        "description": "After Normal/Plunging hits: full self state (2 stacks) grants DEF +16% and All DMG +20% at R1.",
+        "description": "After Normal/Plunging hits: full self state (2 stacks) grants DEF +16% and All DMG +20% at R1. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "1": {
             "def_": 0.08,
@@ -23,6 +23,18 @@
             "def_": 0.16,
             "all_dmg_": 0.2
           }
+        },
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "def_": 0.16,
+              "all_dmg_": 0.2
+            },
+            "2": {
+              "def_": 0.32,
+              "all_dmg_": 0.4
+            }
+          }
         }
       }
     ],
@@ -31,10 +43,17 @@
       {
         "conditionKey": "peak_patrol_song_peak_anthem",
         "source": "PeakPatrolSong",
-        "description": "At full passive trigger, nearby party members gain up to +25.6% All Elemental DMG Bonus at R1.",
+        "description": "At full passive trigger, nearby party members gain up to +25.6% All Elemental DMG Bonus at R1. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "full": {
             "all_dmg_": 0.256
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "full": {
+              "all_dmg_": 0.512
+            }
           }
         }
       }

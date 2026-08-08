@@ -15,7 +15,7 @@
       {
         "conditionKey": "mistsplitter_emblem_stacks",
         "source": "MistsplitterReforged",
-        "description": "Mistsplitter's Emblem stack bonus for the wielder's elemental type.",
+        "description": "Mistsplitter's Emblem stack bonus for the wielder's elemental type. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "1": {
             "all_dmg_": 0.08
@@ -25,6 +25,19 @@
           },
           "3": {
             "all_dmg_": 0.28
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "1": {
+              "all_dmg_": 0.16
+            },
+            "2": {
+              "all_dmg_": 0.32
+            },
+            "3": {
+              "all_dmg_": 0.56
+            }
           }
         }
       }

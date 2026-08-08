@@ -13,7 +13,7 @@
       {
         "source": "13512",
         "conditionKey": "bond_of_life",
-        "description": "R1: a Charged Attack hit grants a Bond of Life worth 25% of Max HP (once / 14s). While holding a Bond of Life, gain +12% DMG Bonus; if the Bond is >= 30% of Max HP, gain an additional +24% (36% total).",
+        "description": "R1: a Charged Attack hit grants a Bond of Life worth 25% of Max HP (once / 14s). While holding a Bond of Life, gain +12% DMG Bonus; if the Bond is >= 30% of Max HP, gain an additional +24% (36% total). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": [
           {
             "value": "active",
@@ -27,7 +27,17 @@
               "all_dmg_": 0.36
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "all_dmg_": 0.28
+            },
+            "ge30": {
+              "all_dmg_": 0.84
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},
