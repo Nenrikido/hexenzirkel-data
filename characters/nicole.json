@@ -85,18 +85,18 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "nicoleSwordOfCassiopeia",
+        "conditionKey": "nicoleElementalSkillAtkBuff",
         "source": "Nicole",
         "description": "Elemental Skill (Revelation: Uncreated Light) — Grace of Kenosis grants nearby party members ATK equal to 15% of Nicole's ATK, capped at 600 (\"off-field\"); the cap is what is modelled here. A1 Methexis upgrades it to Guidance of Theosis on a character that has been on-field 3s (or immediately for a Hexerei character), adding a flat +300 = 900 (\"on-field\"). The grant is talent-scaled, so C3 — which raises Revelation: Uncreated Light by 3 levels to Lv13 — takes the ratio to 17.7% and the cap to 708, hence 708 / 1008 from C3 upward (the A1's +300 is a passive constant and does not scale). That is the constellationStates block below. The C2 +300 (c2GuidanceEnhance) stacks on top of this.",
         "states": [
           {
-            "value": "off-field",
+            "value": "off-field (Grace of Kenosis)",
             "modifiers": {
               "atk": 600
             }
           },
           {
-            "value": "on-field",
+            "value": "on-field (Guidance of Theosis)",
             "modifiers": {
               "atk": 900
             }
@@ -104,15 +104,15 @@
         ],
         "constellationStates": {
           "C3": {
-            "off-field": { "atk": 708 },
-            "on-field": { "atk": 1008 }
+            "off-field (Grace of Kenosis)": { "atk": 708 },
+            "on-field (Guidance of Theosis)": { "atk": 1008 }
           }
         }
       },
       {
         "conditionKey": "c2GuidanceEnhance",
         "source": "Nicole",
-        "description": "C2: when a party member's Grace of Kenosis upgrades to Guidance of Theosis (via Nicole's Elemental Skill), they gain an additional 300 ATK, and nearby opponents' Elemental RES is decreased by 25%. The +300 ATK stacks on top of the base Grace of Kenosis/Guidance of Theosis ATK (nicoleSwordOfCassiopeia).",
+        "description": "C2: when a party member's Grace of Kenosis upgrades to Guidance of Theosis (via Nicole's Elemental Skill), they gain an additional 300 ATK, and nearby opponents' Elemental RES is decreased by 25%. The +300 ATK stacks on top of the base Grace of Kenosis/Guidance of Theosis ATK (nicoleElementalSkillAtkBuff).",
         "gating": {
           "constellationMin": 2
         },
