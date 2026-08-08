@@ -13,7 +13,7 @@
       {
         "source": "11520",
         "conditionKey": "lakeHuedLament",
-        "description": "R1 Snow Swan's Finale: each Elemental Skill hit on an opponent grants a stack of Lake-Hued Lament (+8% ATK, 8s, max 3). At 3 stacks the CRIT DMG of the wielder's Stellar Glimmer reaction DMG is increased by 50%. The energy restoration at 3 stacks is not modelled (the evaluator has no energy model). The CRIT DMG half uses stellarconduct_critDMG_, which only reaches hits marked stellarconduct_dmg_ — a Stellar-Conduct rotation. Stellar Swirl is not implemented, so a Swirl-Radiance rotation gets the ATK half only. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "description": "R1 Snow Swan's Finale: each Elemental Skill hit on an opponent grants a stack of Lake-Hued Lament (+8% ATK, 8s, max 3). At 3 stacks the CRIT DMG of the wielder's Stellar Glimmer reaction DMG is increased by 50%. The energy restoration at 3 stacks is not modelled (the evaluator has no energy model). The CRIT DMG half uses stellarglimmer_critDMG_, the umbrella crit key, so it reaches any Stellar Glimmer hit rather than Stellar-Conduct only. Stellar Swirl DMG is still unimplemented, so a Swirl-Radiance rotation currently has no hits for it to apply to. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "1_stack": {
             "atk_": 0.08
@@ -23,7 +23,7 @@
           },
           "3_stacks": {
             "atk_": 0.24,
-            "stellarconduct_critDMG_": 0.5
+            "stellarglimmer_critDMG_": 0.5
           }
         },
         "refinementStates": {
@@ -36,7 +36,7 @@
             },
             "3_stacks": {
               "atk_": 0.48,
-              "stellarconduct_critDMG_": 1.1
+              "stellarglimmer_critDMG_": 1.1
             }
           }
         }

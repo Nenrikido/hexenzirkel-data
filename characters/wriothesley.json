@@ -191,7 +191,7 @@
     "passive1": {
       "hit3": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -201,7 +201,7 @@
       },
       "hit5": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -211,7 +211,7 @@
       },
       "lusterDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [
           {
             "scalingKey": "atk",

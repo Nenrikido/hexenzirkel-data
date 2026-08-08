@@ -87,7 +87,7 @@
       },
       "codaStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "codaStellarDmg_mult" }]
       },
       "plumeDmg": {
@@ -97,7 +97,7 @@
       },
       "plumeStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "plumeStellarDmg_mult" }]
       },
       "wingDmg": {
@@ -107,12 +107,12 @@
       },
       "wingStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "wingStellarDmg_mult" }]
       },
       "c1CodaStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "c1CodaStellarDmg_mult" }]
       }
     },
@@ -129,7 +129,7 @@
       },
       "c4CoordinatedStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "c4CoordinatedStellarDmg_mult" }]
       }
     }
@@ -202,7 +202,7 @@
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000150.json",
-      "note": "Odette is not in Genshin Optimizer yet, so hit keys follow this repo's recent-character convention (hit1Dmg.. + chargedDmg + plunge*Dmg, with the Stellar variants suffixed *StellarDmg as in sandrone.json) and may need renaming once GO adds her. Melee sword, so NA/CA/plunge are physical.\n\nIMPORTANT — 'Stellar Glimmer' is the umbrella term for BOTH Stellar-Conduct and Stellar Swirl (see the in-game glossary entry Radiance: Stellar Glimmer). This evaluator only implements Stellar-Conduct, so: (a) every *StellarDmg hit definition here is the Stellar-CONDUCT variant, (b) the Stellar Swirl multipliers are recorded above as *StellarSwirlDmg_mult with no hit definition, and (c) every buff below that the game words as 'Stellar Glimmer DMG' is mapped onto stellarconduct_dmg_, which is correct in a Stellar-Conduct rotation and undercounts a Stellar Swirl one. Adding Stellar Swirl means a new reaction in the evaluator, not just seed data.\n\nNOT MODELLED: A4 Pathetique (Stellar Glimmer DMG +1.5% per 100 ATK above 1000, cap +30%) and passive3's base-DMG term (+0.7% per 100 ATK, cap +14%) both scale off Odette's own live ATK; there is no stellarconduct_dmg_from_atk_ conversion, so they are left to the admin as fixed states below. C2's 20% elemental RES shred is included; C6's 'no longer decreases' clause is a uptime statement, not a stat.",
+      "note": "Odette is not in Genshin Optimizer yet, so hit keys follow this repo's recent-character convention (hit1Dmg.. + chargedDmg + plunge*Dmg, with the Stellar variants suffixed *StellarDmg as in sandrone.json) and may need renaming once GO adds her. Melee sword, so NA/CA/plunge are physical.\n\nIMPORTANT — 'Stellar Glimmer' is the umbrella term for BOTH Stellar-Conduct and Stellar Swirl (see the in-game glossary entry Radiance: Stellar Glimmer), so the DMG% bucket is split in two: buffs the kit words 'Stellar Glimmer' use stellarglimmer_dmg_ (reaches either reaction), buffs worded 'Stellar-Conduct' use stellarconduct_dmg_. Every one of Odette's buffs below is Glimmer-worded, so they all use the umbrella. Her *StellarDmg hit definitions are the Stellar-CONDUCT variants and carry BOTH keys, so both buckets reach them. The Stellar Swirl multipliers are recorded above as *StellarSwirlDmg_mult with no hit definition: Stellar Swirl DMG is still unimplemented (its base multiplier, EM curve and DEF behaviour are unpublished — it spawns a levelling Stellar Vortex rather than resolving instantly, so Stellar-Conduct's constants cannot be reused). Adding it means new reaction constants in the evaluator, not just seed data.\n\nA4 Pathetique (Stellar Glimmer DMG +1.5% per 100 ATK above 1,000, cap +30%) is an UNCONDITIONAL self modifier using the stellarglimmer_dmg_from_atk_ / _cap_ conversion (STAT_CONVERSION_SPECS, source_offset=1000), so it reads the build's own live ATK — post-buff, and after the ATK conversions above it. It used to be three hand-picked admin states; do not re-add those, they would double-count.\n\nSTILL NOT MODELLED: passive3's base-DMG term (+0.7% per 100 ATK, cap +14%) is the same shape but it is a TEAM buff on reactions a party member triggers, scaled by ODETTE's ATK — a conversion would read the wrong character's ATK whenever she is a teammate rather than the main, so it stays a fixed-state condition. C2's 20% elemental RES shred is included; C6's 'no longer decreases' clause is an uptime statement, not a stat.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -213,30 +213,23 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "stellarglimmer_dmg_from_atk_": 0.00015,
+      "stellarglimmer_dmg_from_atk_cap_": 0.3
+    },
     "self_conditional_modifiers_json": [
-      {
-        "conditionKey": "a4PathetiqueStellarGlimmer",
-        "source": "avatar_10000150",
-        "description": "A4 Pathetique of Pateticheskaya: for every 100 ATK above 1,000, Odette's Stellar Glimmer DMG is increased by 1.5% of the original DMG, up to +30% (reached at 3,000 ATK). Pick the state matching this leaderboard's Odette ATK — it scales off her live ATK and there is no stellarconduct_dmg_from_atk_ conversion.",
-        "states": [
-          { "value": "2000 ATK (+15%)", "modifiers": { "stellarconduct_dmg_": 0.15 } },
-          { "value": "2500 ATK (+22.5%)", "modifiers": { "stellarconduct_dmg_": 0.225 } },
-          { "value": "3000+ ATK (+30%, max)", "modifiers": { "stellarconduct_dmg_": 0.3 } }
-        ]
-      },
       {
         "conditionKey": "burstSnowSwansDream",
         "source": "avatar_10000150",
         "description": "Snow Swan's Dream (gained on Elemental Burst, 20s): increases the Stellar Glimmer reaction DMG Odette deals by 50% (burst Lv10).",
-        "states": [{ "value": "on", "modifiers": { "stellarconduct_dmg_": 0.5 } }]
+        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.5 } }]
       },
       {
         "conditionKey": "c6OdetteStellarGlimmerDmg",
         "source": "avatar_10000150",
         "description": "C6: Stellar Glimmer reaction DMG dealt by Odette herself is elevated by an additional 20% (on top of the 25% all Marvelous Splendor holders get, which is the team-scope c6MarvelousSplendorStellarGlimmer entry).",
         "gating": { "constellationMin": 6 },
-        "states": [{ "value": "on", "modifiers": { "stellarconduct_dmg_": 0.2 } }]
+        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.2 } }]
       }
     ],
     "team_modifiers_json": {},
@@ -246,12 +239,12 @@
         "source": "avatar_10000150",
         "description": "A1 Spring Rite of the Chosen One: summoning the Solo Dance Double grants 4 stacks of Marvelous Splendor (6 at C1). Every active stack increases the holder's Stellar Glimmer DMG by 15%. Odette loses 1 stack/s while off-field (2/s at C1) and nearby party members gain them, so pick the average stack count the receiving character actually holds.",
         "states": [
-          { "value": "1 stack", "modifiers": { "stellarconduct_dmg_": 0.15 } },
-          { "value": "2 stacks", "modifiers": { "stellarconduct_dmg_": 0.3 } },
-          { "value": "3 stacks", "modifiers": { "stellarconduct_dmg_": 0.45 } },
-          { "value": "4 stacks", "modifiers": { "stellarconduct_dmg_": 0.6 } },
-          { "value": "5 stacks (needs C1)", "modifiers": { "stellarconduct_dmg_": 0.75 } },
-          { "value": "6 stacks (needs C1)", "modifiers": { "stellarconduct_dmg_": 0.9 } }
+          { "value": "1 stack", "modifiers": { "stellarglimmer_dmg_": 0.15 } },
+          { "value": "2 stacks", "modifiers": { "stellarglimmer_dmg_": 0.3 } },
+          { "value": "3 stacks", "modifiers": { "stellarglimmer_dmg_": 0.45 } },
+          { "value": "4 stacks", "modifiers": { "stellarglimmer_dmg_": 0.6 } },
+          { "value": "5 stacks (needs C1)", "modifiers": { "stellarglimmer_dmg_": 0.75 } },
+          { "value": "6 stacks (needs C1)", "modifiers": { "stellarglimmer_dmg_": 0.9 } }
         ]
       },
       {
@@ -289,22 +282,22 @@
         "source": "avatar_10000150",
         "description": "C4: when Odette obtains Snow Swan's Dream, Stellar Glimmer reaction DMG dealt by OTHER nearby party members is increased by 50% of Snow Swan's Dream's effect, i.e. +25% at burst Lv10.",
         "gating": { "constellationMin": 4 },
-        "states": [{ "value": "on", "modifiers": { "stellarconduct_dmg_": 0.25 } }]
+        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.25 } }]
       },
       {
         "conditionKey": "c6MarvelousSplendorStellarGlimmer",
         "source": "avatar_10000150",
         "description": "C6: characters affected by Marvelous Splendor have the Stellar Glimmer reaction DMG they deal elevated by 25%.",
         "gating": { "constellationMin": 6 },
-        "states": [{ "value": "on", "modifiers": { "stellarconduct_dmg_": 0.25 } }]
+        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.25 } }]
       },
       {
         "conditionKey": "passive3StellarJubileeBaseDmg",
         "source": "avatar_10000150",
-        "description": "Stellar Jubilee: Dance of Aurore — a party member's Superconduct or Cryo Swirl becomes a Stellar-Conduct or Stellar Swirl reaction instead, and that reaction's BASE DMG is increased by 0.7% per 100 of Odette's ATK, capped at +14% (reached at 2,000 ATK). Applied as stellarconduct_basedmg_ (a base-DMG multiplier, not a DMG% bonus) — pick the state matching this leaderboard's Odette ATK.",
+        "description": "Stellar Jubilee: Dance of Aurore — a party member's Superconduct or Cryo Swirl becomes a Stellar-Conduct or Stellar Swirl reaction instead, and that reaction's BASE DMG is increased by 0.7% per 100 of Odette's ATK, capped at +14% (reached at 2,000 ATK). Applied as stellarglimmer_basedmg_ (a base-DMG multiplier, not a DMG% bonus, and the umbrella key since the kit converts into EITHER Stellar reaction) — pick the state matching this leaderboard's Odette ATK.",
         "states": [
-          { "value": "1500 ATK (+10.5%)", "modifiers": { "stellarconduct_basedmg_": 0.105 } },
-          { "value": "2000+ ATK (+14%, max)", "modifiers": { "stellarconduct_basedmg_": 0.14 } }
+          { "value": "1500 ATK (+10.5%)", "modifiers": { "stellarglimmer_basedmg_": 0.105 } },
+          { "value": "2000+ ATK (+14%, max)", "modifiers": { "stellarglimmer_basedmg_": 0.14 } }
         ]
       }
     ],

@@ -9,7 +9,7 @@
       {
         "conditionKey": "4pc_after_stellar_swirl",
         "source": "ScarletProof",
-        "description": "4pc: for 10s after the equipping character triggers a Stellar Swirl reaction, their CRIT Rate is increased by 16% and their Stellar Swirl reaction DMG by 40%. ONLY THE CRIT RATE HALF IS MODELLED: Stellar Swirl is not implemented in the evaluator (no reaction kind, no stellarswirl_dmg_ key), and it must NOT be folded into stellarconduct_dmg_ — the kit text says Stellar Swirl specifically, not the Stellar Glimmer umbrella. A Stellar Swirl rotation is therefore undercounted by this set's second half.",
+        "description": "4pc: for 10s after the equipping character triggers a Stellar Swirl reaction, their CRIT Rate is increased by 16% and their Stellar Swirl reaction DMG by 40%. ONLY THE CRIT RATE HALF IS MODELLED: Stellar Swirl is not implemented in the evaluator (no reaction kind, no stellarswirl_dmg_ key), and it must NOT be folded into stellarconduct_dmg_ OR the stellarglimmer_dmg_ umbrella — the kit text says Stellar Swirl specifically, so it is narrower than both. A Stellar Swirl rotation is therefore undercounted by this set's second half.",
         "modifiers": {
           "critRate_": 0.16
         }

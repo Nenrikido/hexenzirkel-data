@@ -20,9 +20,9 @@
       {
         "conditionKey": "4pc_stellar_glimmer_team_dmg",
         "source": "HeartOfTheFurnace",
-        "description": "4pc: Stellar Glimmer reaction DMG dealt by all nearby party members (the wearer included) is increased by 50%. Triggers off-field, and the DMG bonus does not stack across several copies of this set in the party. Applied as stellarconduct_dmg_, this codebase's key for Stellar Glimmer DMG — correct in a Stellar-Conduct rotation, and it undercounts a Stellar Swirl one, which the evaluator does not implement.",
+        "description": "4pc: Stellar Glimmer reaction DMG dealt by all nearby party members (the wearer included) is increased by 50%. Triggers off-field, and the DMG bonus does not stack across several copies of this set in the party. Applied as stellarglimmer_dmg_, the umbrella key that reaches both Stellar-Conduct and Stellar Swirl hits, so this buff is correctly scoped for either. Stellar Swirl DMG itself is still unimplemented (no reaction constants), so a Swirl rotation has no hits for it to land on yet.",
         "modifiers": {
-          "stellarconduct_dmg_": 0.5
+          "stellarglimmer_dmg_": 0.5
         }
       }
     ]

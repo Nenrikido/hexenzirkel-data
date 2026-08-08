@@ -94,7 +94,7 @@
       },
       "javelinStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "javelinStellarDmg_mult" }]
       }
     }
@@ -203,12 +203,12 @@
       {
         "conditionKey": "c6BrumalGrimfrostStellarDmg",
         "source": "avatar_1000000505",
-        "description": "C6 Brumal Grimfrost: every Frostglow stack consumed by the Elemental Burst increases Stellar Glimmer reaction DMG dealt by OTHER party members by 5% for 15s, up to +40% (8 stacks). Only the Stellar-Conduct half is modelled — the evaluator has no Stellar Swirl reaction.",
+        "description": "C6 Brumal Grimfrost: every Frostglow stack consumed by the Elemental Burst increases Stellar Glimmer reaction DMG dealt by OTHER party members by 5% for 15s, up to +40% (8 stacks). Uses stellarglimmer_dmg_, so it is scoped to both Stellar reactions; Stellar Swirl DMG itself is still unimplemented, so there are no Swirl hits for it to land on yet.",
         "gating": { "constellationMin": 6 },
         "states": [
-          { "value": "4 stacks (20%)", "modifiers": { "stellarconduct_dmg_": 0.2 } },
-          { "value": "6 stacks (30%)", "modifiers": { "stellarconduct_dmg_": 0.3 } },
-          { "value": "8 stacks (40%, max)", "modifiers": { "stellarconduct_dmg_": 0.4 } }
+          { "value": "4 stacks (20%)", "modifiers": { "stellarglimmer_dmg_": 0.2 } },
+          { "value": "6 stacks (30%)", "modifiers": { "stellarglimmer_dmg_": 0.3 } },
+          { "value": "8 stacks (40%, max)", "modifiers": { "stellarglimmer_dmg_": 0.4 } }
         ]
       }
     ],

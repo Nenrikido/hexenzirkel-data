@@ -45,7 +45,7 @@
       },
       "beamStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "overdriveDmg": {
@@ -84,7 +84,7 @@
       },
       "prismStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     },
@@ -101,7 +101,7 @@
       },
       "rayStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       }
     }

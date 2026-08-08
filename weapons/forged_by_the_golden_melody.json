@@ -13,7 +13,7 @@
       {
         "source": "12435",
         "conditionKey": "harmonicMovement",
-        "description": "R5 Day and Night in Counterpoint: every 10s the wielder cycles to the next Harmonic Movement — +36% ATK, then +240 Elemental Mastery, then +56% Stellar Glimmer reaction DMG. Pick whichever movement the scored damage window lands in. Triggering a Stellar Glimmer reaction grants a second 12s instance of the movement that is active at that moment, stacking with it (12s ICD) — the \"_contrapuntal\" states are that doubled value. Works off-field. The Stellar Glimmer DMG movement uses stellarconduct_dmg_ (Stellar-Conduct only; Stellar Swirl is not implemented).",
+        "description": "R5 Day and Night in Counterpoint: every 10s the wielder cycles to the next Harmonic Movement — +36% ATK, then +240 Elemental Mastery, then +56% Stellar Glimmer reaction DMG. Pick whichever movement the scored damage window lands in. Triggering a Stellar Glimmer reaction grants a second 12s instance of the movement that is active at that moment, stacking with it (12s ICD) — the \"_contrapuntal\" states are that doubled value. Works off-field. The Stellar Glimmer DMG movement uses stellarglimmer_dmg_, the umbrella key covering both Stellar-Conduct and Stellar Swirl.",
         "states": {
           "atk_movement": {
             "atk_": 0.36
@@ -22,7 +22,7 @@
             "eleMas": 240
           },
           "glimmer_movement": {
-            "stellarconduct_dmg_": 0.56
+            "stellarglimmer_dmg_": 0.56
           },
           "atk_movement_contrapuntal": {
             "atk_": 0.72
@@ -31,7 +31,7 @@
             "eleMas": 480
           },
           "glimmer_movement_contrapuntal": {
-            "stellarconduct_dmg_": 1.12
+            "stellarglimmer_dmg_": 1.12
           }
         }
       }

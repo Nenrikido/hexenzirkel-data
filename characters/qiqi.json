@@ -101,7 +101,7 @@
       },
       "stellarConductDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     }

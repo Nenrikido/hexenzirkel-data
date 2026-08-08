@@ -87,7 +87,7 @@
       },
       "duststalkerBoltStarsameDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }],
         "stellarConductFlatComponents": [{ "scalingKey": "eleMas", "multKey": "p5_mult" }]
       }
@@ -95,7 +95,7 @@
     "passive1": {
       "boltStellarDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }],
         "stellarConductFlatComponents": [{ "scalingKey": "eleMas", "multKey": "p5_mult" }]
       }

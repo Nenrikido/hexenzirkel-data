@@ -23,10 +23,10 @@
       {
         "source": "11436",
         "conditionKey": "afterStellarGlimmer",
-        "description": "R5 Starfire Upon the Snowplains: triggering a Stellar Glimmer reaction increases Stellar Glimmer reaction DMG by 32% for 12s. Applied as stellarconduct_dmg_, the codebase key for Stellar Glimmer DMG — correct for a Stellar-Conduct rotation, and it undercounts a Stellar Swirl one, which the evaluator does not implement. Stacks with afterElementalReaction, since a Stellar Glimmer reaction is also an Elemental Reaction.",
+        "description": "R5 Starfire Upon the Snowplains: triggering a Stellar Glimmer reaction increases Stellar Glimmer reaction DMG by 32% for 12s. Applied as stellarglimmer_dmg_, the umbrella key that reaches both Stellar-Conduct and Stellar Swirl hits, so this buff is correctly scoped for either. Stellar Swirl DMG itself is still unimplemented (no reaction constants), so a Swirl rotation has no hits for it to land on yet. Stacks with afterElementalReaction, since a Stellar Glimmer reaction is also an Elemental Reaction.",
         "states": {
           "on": {
-            "stellarconduct_dmg_": 0.32
+            "stellarglimmer_dmg_": 0.32
           }
         }
       }
