@@ -1,0 +1,30 @@
+{
+  "set_key": "HeartOfTheFurnace",
+  "display_name": "Heart of the Furnace",
+  "buffs": {
+    "self_modifiers_json": {
+      "atk_": 0.18
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_stellar_glimmer_atk",
+        "source": "HeartOfTheFurnace",
+        "description": "4pc: the equipping character's ATK is increased by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Triggers off-field.",
+        "modifiers": {
+          "atk_": 0.12
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_stellar_glimmer_team_dmg",
+        "source": "HeartOfTheFurnace",
+        "description": "4pc: Stellar Glimmer reaction DMG dealt by all nearby party members (the wearer included) is increased by 50%. Triggers off-field, and the DMG bonus does not stack across several copies of this set in the party. Applied as stellarconduct_dmg_, this codebase's key for Stellar Glimmer DMG — correct in a Stellar-Conduct rotation, and it undercounts a Stellar Swirl one, which the evaluator does not implement.",
+        "modifiers": {
+          "stellarconduct_dmg_": 0.5
+        }
+      }
+    ]
+  }
+}
