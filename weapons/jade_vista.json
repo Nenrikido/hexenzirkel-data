@@ -1,0 +1,43 @@
+{
+  "weapon_key": "15435",
+  "rarity": 4,
+  "display_name": "Jade Vista",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.27564
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "15435",
+        "conditionKey": "candleWovenFromTheNight",
+        "description": "R5 A Candle Woven From the Night: each of the 3 other party members grants either +128 Elemental Mastery (same Elemental Type as the wielder) or +24% ATK (different type), capped at 3 stacks total with the Elemental Mastery ones applied first. Pick the state matching this leaderboard's team composition.",
+        "states": {
+          "0_same_3_different": {
+            "atk_": 0.72
+          },
+          "1_same_2_different": {
+            "eleMas": 128,
+            "atk_": 0.48
+          },
+          "2_same_1_different": {
+            "eleMas": 256,
+            "atk_": 0.24
+          },
+          "3_same_0_different": {
+            "eleMas": 384
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "6.7.54",
+    "refinementModelled": "R5",
+    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  }
+}

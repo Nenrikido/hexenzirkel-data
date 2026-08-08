@@ -1,0 +1,60 @@
+{
+  "weapon_key": "11521",
+  "rarity": 5,
+  "display_name": "Exaiphanes Blade",
+  "base_stats_json": {
+    "baseAtk": 608.0745972,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.330768
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "11521",
+        "conditionKey": "travelersPathAtk",
+        "description": "R3 Traveler's Path: after the Traveler attacks and hits an opponent, ATK +24% for 8s (5s ICD, works off-field). Traveler-only — the weapon does nothing on any other character. Modelled at R3 as requested; the weapon refines through Snezhnaya's Statues of the Seven rather than through duplicates, so R1 is not the meaningful default. The 5 Elemental Energy restore is not modelled.",
+        "states": {
+          "on": {
+            "atk_": 0.24
+          }
+        }
+      },
+      {
+        "source": "11521",
+        "conditionKey": "travelersPathResonance",
+        "description": "R3 Traveler's Path: +6% CRIT DMG per Element the Traveler has resonated with. Pick the number of Statues of the Seven unlocked (7 elements exist). Unlocked from R2 onward, so this entry is absent at R1.",
+        "states": {
+          "1_elements": {
+            "critDMG_": 0.06
+          },
+          "2_elements": {
+            "critDMG_": 0.12
+          },
+          "3_elements": {
+            "critDMG_": 0.18
+          },
+          "4_elements": {
+            "critDMG_": 0.24
+          },
+          "5_elements": {
+            "critDMG_": 0.3
+          },
+          "6_elements": {
+            "critDMG_": 0.36
+          },
+          "7_elements": {
+            "critDMG_": 0.42
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "6.7.54",
+    "refinementModelled": "R3",
+    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R3 (requested explicitly; refines via Snezhnaya Statues of the Seven, not duplicates)."
+  }
+}

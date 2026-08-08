@@ -1,0 +1,32 @@
+{
+  "weapon_key": "13436",
+  "rarity": 4,
+  "display_name": "Song of the Vigil",
+  "base_stats_json": {
+    "baseAtk": 564.7837244,
+    "subStatKey": "eleMas",
+    "subStatValue": 110.256
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "13436",
+        "conditionKey": "afterStellarGlimmer",
+        "description": "R5 Cadence of Days Gone By: triggering a Stellar Glimmer reaction grants +40% ATK for 12s. Works off-field. The 8 Elemental Energy from triggering any Elemental Reaction is not modelled.",
+        "states": {
+          "on": {
+            "atk_": 0.4
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "6.7.54",
+    "refinementModelled": "R5",
+    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  }
+}

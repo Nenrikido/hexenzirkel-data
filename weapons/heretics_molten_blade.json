@@ -1,0 +1,38 @@
+{
+  "weapon_key": "11435",
+  "rarity": 4,
+  "display_name": "Heretic's Molten Blade",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.27564
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "11435",
+        "conditionKey": "gleamOfFirstLight",
+        "description": "R5 Lone Light's Blessing: for 14s after using an Elemental Skill, ATK is increased by between 36% and 72%, re-evaluated each second from how far the wielder moved in the preceding second. Pick the state matching the assumed movement: a stationary rotation sits at the 36% floor, constant repositioning reaches the 72% ceiling. Removed when the wielder leaves the field, so this is a main-slot buff only.",
+        "states": {
+          "min_movement_36": {
+            "atk_": 0.36
+          },
+          "mid_movement_54": {
+            "atk_": 0.54
+          },
+          "max_movement_72": {
+            "atk_": 0.72
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "6.7.54",
+    "refinementModelled": "R5",
+    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  }
+}

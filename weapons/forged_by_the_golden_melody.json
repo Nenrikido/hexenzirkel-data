@@ -1,0 +1,47 @@
+{
+  "weapon_key": "12435",
+  "rarity": 4,
+  "display_name": "Forged by the Golden Melody",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.27564
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "12435",
+        "conditionKey": "harmonicMovement",
+        "description": "R5 Day and Night in Counterpoint: every 10s the wielder cycles to the next Harmonic Movement — +36% ATK, then +240 Elemental Mastery, then +56% Stellar Glimmer reaction DMG. Pick whichever movement the scored damage window lands in. Triggering a Stellar Glimmer reaction grants a second 12s instance of the movement that is active at that moment, stacking with it (12s ICD) — the \"_contrapuntal\" states are that doubled value. Works off-field. The Stellar Glimmer DMG movement uses stellarconduct_dmg_ (Stellar-Conduct only; Stellar Swirl is not implemented).",
+        "states": {
+          "atk_movement": {
+            "atk_": 0.36
+          },
+          "em_movement": {
+            "eleMas": 240
+          },
+          "glimmer_movement": {
+            "stellarconduct_dmg_": 0.56
+          },
+          "atk_movement_contrapuntal": {
+            "atk_": 0.72
+          },
+          "em_movement_contrapuntal": {
+            "eleMas": 480
+          },
+          "glimmer_movement_contrapuntal": {
+            "stellarconduct_dmg_": 1.12
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "6.7.54",
+    "refinementModelled": "R5",
+    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  }
+}

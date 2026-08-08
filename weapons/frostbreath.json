@@ -1,0 +1,32 @@
+{
+  "weapon_key": "13435",
+  "rarity": 4,
+  "display_name": "Frostbreath",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "enerRech_",
+    "subStatValue": 0.45940000000000003
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "13435",
+        "conditionKey": "afterCryoOrHydroReaction",
+        "description": "R5 A Cast Real Far: triggering a Cryo- or Hydro-related Elemental Reaction grants +40% ATK for 15s (16s ICD). The 12 Elemental Energy it restores to the rest of the party is not modelled.",
+        "states": {
+          "on": {
+            "atk_": 0.4
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "6.7.54",
+    "refinementModelled": "R5",
+    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  }
+}
