@@ -17,60 +17,92 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "0_mult" }]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "1_mult" }]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "2_mult" }]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "3_mult" }]
       },
       "4": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "4_mult" }]
       }
     },
     "charged": {
       "dmg1": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "dmg1_mult" }]
       },
       "dmg2": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "dmg2_mult" }]
+      },
+      "freezingIce1": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "dmg1_mult" },
+          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
+        ]
+      },
+      "freezingIce2": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "dmg2_mult" },
+          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
+        ]
+      },
+      "freezingIceSwirl1": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "dmg1_mult" },
+          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
+        ]
+      },
+      "freezingIceSwirl2": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [
+          { "scalingKey": "atk", "multKey": "dmg2_mult" },
+          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
+        ]
       }
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
+        "element": "cryo",
         "plungeTier": "dmg",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "dmg_mult" }]
       },
       "low": {
-        "element": "physical",
+        "element": "cryo",
         "plungeTier": "low",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "low_mult" }]
       },
       "high": {
-        "element": "physical",
+        "element": "cryo",
         "plungeTier": "high",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "high_mult" }]
       }
     },
@@ -94,8 +126,13 @@
       },
       "javelinStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "javelin_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "javelinStellarDmg_mult" }]
+      },
+      "javelinStellarSwirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "javelin_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "javelinStellarSwirlDmg_mult" }]
       }
     }
   },
@@ -109,7 +146,8 @@
     },
     "charged": {
       "dmg1_mult": 1.105,
-      "dmg2_mult": 1.2002
+      "dmg2_mult": 1.2002,
+      "freezingIceBonus_mult": 1.4
     },
     "plunging": {
       "dmg_mult": 1.26378,
@@ -155,7 +193,7 @@
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000005-5.json",
-      "note": "Cryo Traveler (skillDepotId 505). Synthetic avatar_id 1000000505 = 1000000500 + depot suffix, matching the existing per-element traveler split; both twins share this row. Hit keys follow the existing traveler_*.json convention (normal 0-4, charged dmg1/dmg2, plunging dmg/low/high) rather than a GO sheet, since GO has not added this element yet. NOTE the constellation boosts are REVERSED from the other Travelers: C3 raises the BURST (Frostbound Javelin) and C5 the SKILL (Ice Fog Piercer). NOT MODELLED: the A1 Cryo infusion is a conditional the admin must pair with an element override (the multipliers here stay physical for NA/CA/plunge, per this repo's convention of not baking infusions); Stellar Swirl variants of the burst have their multipliers recorded above but no hit definition, because the evaluator only implements Stellar-Conduct; the Frostglow per-stack DMG bonus and the passive4 Freezing Ice charged attack are stack-state mechanics with no rotation target here.",
+      "note": "Cryo Traveler (skillDepotId 505). Synthetic avatar_id 1000000505 = 1000000500 + depot suffix, matching the existing per-element traveler split; both twins share this row. Hit keys follow the existing traveler_*.json convention (normal 0-4, charged dmg1/dmg2, plunging dmg/low/high) rather than a GO sheet, since GO has not added this element yet. NOTE the constellation boosts are REVERSED from the other Travelers: C3 raises the BURST (Frostbound Javelin) and C5 the SKILL (Ice Fog Piercer). MODELLED 2026-08-09, having been listed here as gaps: (a) Frostglow's per-stack burst bonus, as the burstFrostglowStacks condition writing javelin_base_dmg_ (+5% of the javelin's base DMG per stack, 8 max) — scoped to the javelin by the javelin_dmg_ key in BASE_DMG_MULT_KEYS so it cannot leak onto Freezing Ice; (b) Charged Attack: Freezing Ice, as charged.freezingIce1/freezingIce2, each the ordinary CA multiplier PLUS freezingIceBonus_mult (1.4 x ATK) — the passive's +140% ATK applies to both CA hits — carrying only the Stellar keys, since under Radiance the attack IS a Stellar instance and the A1 +80% ATK explicitly does not apply to it (which is also why it must not carry charged_dmg_); (c) passive3 Stellar Jubilee, split self/others exactly like Odette's (see her file). A1's Cryo infusion IS baked in as of 2026-08-09 (NA, plain CA and plunge hit definitions are cryo/cryo_dmg_, not physical) — a deliberate departure from this repo's usual don't-bake-infusions rule, on the Xiao precedent: this Traveler's whole kit presumes Radiance, so a physical Normal is not a state that occurs. The a1EverKeenFrostInfusion condition therefore only carries the +80% ATK half. NOT MODELLED: there is no Cryo (non-Radiance) variant of Freezing Ice, which would need care to keep A1 off it. The Stellar SWIRL variants got their hit definitions when Stellar Swirl was implemented (2026-08-09): burst.javelinStellarSwirlDmg and charged.freezingIceSwirl1/2, the same instances under Radiance: Stellar Swirl instead of Stellar-Conduct. The swirl javelin carries javelin_dmg_ too, so burstFrostglowStacks feeds it identically — and correctly, since frostglowStellarSwirlDmgBonus_ is the same 5%-of-base per stack. Remember all three forms of an instance (Cryo / Conduct / Swirl) are mutually exclusive: never put more than one in a rotation.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -175,7 +213,7 @@
       {
         "conditionKey": "a1EverKeenFrostInfusion",
         "source": "avatar_1000000505",
-        "description": "A1 Ever-Keen Frost (Radiance: Stellar-Conduct, needs a Frostpierce Star on the field): the Traveler's Normal/Charged/Plunging Attacks are converted to Cryo DMG that cannot be overridden, and their DMG is increased by 80% of the Traveler's ATK. Enable together with a Cryo element override on the NA/CA/plunge rotation targets — the hit definitions themselves stay physical, following this repo's convention of not baking infusions into the seed data.",
+        "description": "A1 Ever-Keen Frost (Radiance: Stellar-Conduct, needs a Frostpierce Star on the field): the Traveler's Normal/Charged/Plunging Attacks are converted to Cryo DMG that cannot be overridden, and their DMG is increased by 80% of the Traveler's ATK. This toggle carries only the +80% ATK half — the Cryo conversion is baked into the NA/CA/plunge hit definitions (they are cryo, not physical), since this Traveler only ever fights inside Radiance, the same way Xiao's normals are seeded as anemo. So a rotation that scores a Normal, plain Charged or plunge target gets Cryo whether or not this condition is enabled; enable it for the ATK bonus.",
         "states": [
           {
             "value": "on",
@@ -183,6 +221,30 @@
               "normal_dmgIncFromAtk_": 0.8,
               "charged_dmgIncFromAtk_": 0.8,
               "plunging_dmgIncFromAtk_": 0.8
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "burstFrostglowStacks",
+        "source": "avatar_1000000505",
+        "description": "Frostglow stacks consumed by Frostbound Javelin (max 8): each adds 5% of the javelin's base DMG, so 8 stacks is +40%. Applied as javelin_base_dmg_, a base-DMG multiplier scoped to the javelin via its javelin_dmg_ key — Freezing Ice is a Stellar instance too and must not collect it. Consuming 8 stacks also raises the javelin from 3 to 5 DMG instances, which is a rotation weight rather than a modifier.",
+        "states": [
+          { "value": "4 stacks (+20%)", "modifiers": { "javelin_base_dmg_": 0.2 } },
+          { "value": "6 stacks (+30%)", "modifiers": { "javelin_base_dmg_": 0.3 } },
+          { "value": "8 stacks (+40%, max)", "modifiers": { "javelin_base_dmg_": 0.4 } }
+        ]
+      },
+      {
+        "conditionKey": "passive3StellarJubileeOwnAtk",
+        "source": "avatar_1000000505",
+        "description": "Stellar Jubilee: Illusory Frostmirror — when a party member triggers a Superconduct or Cryo Swirl reaction it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and that reaction's BASE DMG rises by 0.35% per 100 of the TRAVELER's ATK, capped at +7% (2,000 ATK). Same shape and same scope split as Odette's version: this is the SELF half, offered only when the Traveler is the scored character, so the stellarglimmer_basedmg_from_atk_ / _cap_ conversion reads the build's own live post-buff ATK. The OTHERS half is passive3StellarJubileeSourceAtk.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarglimmer_basedmg_from_atk_": 0.000035,
+              "stellarglimmer_basedmg_from_atk_cap_": 0.07
             }
           }
         ]
@@ -213,6 +275,19 @@
       }
     ],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "passive3StellarJubileeSourceAtk",
+        "source": "avatar_1000000505",
+        "description": "Stellar Jubilee: Illusory Frostmirror, OTHERS half — offered only when the Traveler is a teammate. The converted reaction's BASE DMG rises by 0.35% per 100 of the TRAVELER's ATK (cap +7%), and the scored build's ATK belongs to the receiving character, so type the Traveler's ATK into the input. Clamped at 2,000, exactly where the cap lands; blank assumes the capped 2,000. The SELF half is passive3StellarJubileeOwnAtk — different scopes, so the two can never both apply.",
+        "statInput": {
+          "stat": "atk",
+          "default": 2000,
+          "max": 2000,
+          "ratesPerUnit": { "stellarglimmer_basedmg_": 0.000035 }
+        },
+        "states": []
+      }
+    ]
   }
 }

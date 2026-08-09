@@ -186,27 +186,14 @@
         "conditionKey": "c6GlimpseOfMystery",
         "source": "avatar_10000035",
         "gating": { "constellationMin": 6 },
-        "description": "C6 Rite of Resurrection (Radiance: Stellar-Conduct): after Qiqi uses Adeptus Art: Preserver of Fortune she gains 4 stacks of Glimpse of Mystery for 12s; when the active character other than Qiqi deals Stellar-Conduct DMG, 1 stack is consumed and that DMG is increased by 600% of Qiqi's ATK. This scales off Qiqi's own ATK (the source), not the scored character's, so type this leaderboard's Qiqi ATK into the input for an exact value; leaving it blank assumes 1800 ATK. Remember to include her own C2 Radiance bonus (+50% ATK) in that figure if she is at C6. The three preset states are kept as coarse fallbacks. Two known simplifications: the 4-stacks-per-burst pool is not enforced, so a rotation with more than 4 Stellar-Conduct instances per burst over-counts it; and it is applied even when Qiqi herself is the scored character, though in-game the buff only reaches the other party members. The flat amount lands in the panel's 'Stellar-Conduct DMG Increase' slot — added after the DMG Bonus and Transformative brackets, not inside them.",
+        "description": "C6 Rite of Resurrection (Radiance: Stellar-Conduct): after Qiqi uses Adeptus Art: Preserver of Fortune she gains 4 stacks of Glimpse of Mystery for 12s; when the active character other than Qiqi deals Stellar-Conduct DMG, 1 stack is consumed and that DMG is increased by 600% of Qiqi's ATK. This scales off Qiqi's own ATK (the source), not the scored character's, so there are no preset states — type this leaderboard's Qiqi ATK into the input; leaving it blank assumes 1800 ATK. Remember to include her own C2 Radiance bonus (+50% ATK) in that figure, since she is at C6 here. Two known simplifications: the 4-stacks-per-burst pool is not enforced, so enabling this condition hands the flat to EVERY Stellar-Conduct instance in the rotation — a rotation with more than 4 of them should instead put the flat on exactly four rotation targets as a `bonusStats: {\"stellarconduct_dmgInc\": <600% of her ATK>}` entry and leave this condition off (that is what Cryo Traveler's Stellar-Conduct DPS board does); and it is applied even when Qiqi herself is the scored character, though in-game the buff only reaches the other party members. The flat amount lands in the panel's 'Stellar-Conduct DMG Increase' slot — added after the DMG Bonus and Transformative brackets, not inside them.",
         "statInput": {
           "stat": "atk",
           "default": 1800,
           "max": 8000,
           "ratesPerUnit": { "stellarconduct_dmgInc": 6.0 }
         },
-        "states": [
-          {
-            "value": "qiqi_atk_1400",
-            "modifiers": { "stellarconduct_dmgInc": 8400.0 }
-          },
-          {
-            "value": "qiqi_atk_1800",
-            "modifiers": { "stellarconduct_dmgInc": 10800.0 }
-          },
-          {
-            "value": "qiqi_atk_2200",
-            "modifiers": { "stellarconduct_dmgInc": 13200.0 }
-          }
-        ]
+        "states": []
       }
     ]
   }

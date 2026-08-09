@@ -184,7 +184,7 @@
     },
     "source": {
       "goCharacterKey": "YumemizukiMizuki",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, which this evaluator does not implement: the skill gained a second EM-scaling line (Stellar Swirl DMG +0.045% per EM point alongside Swirl's 0.45%), passive4 'Vast Be the Dream' gained a Radiance: Stellar Swirl clause, C1 gained a Stellar Swirl branch (+550% EM vs Swirl's +1100%), and C6 gained Stellar Swirl crit. Those values are recorded in the skill/constellation blocks above but have no hit definitions or modifiers.\n\nALSO NOT MODELLED: her core skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) needs a swirl_dmg_from_eleMas conversion that does not exist -- and it must read Mizuki's EM, not the scored character's, so it would need the statInput treatment rather than a plain conversion; C1's flat EM-scaled Swirl DMG increase; C6's fixed-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all yet); passive4's enhanced periodic Anemo DMG at 1000% EM. The two team buffs that ARE now modelled (passive4's 10% EM share and C2's per-EM elemental DMG bonus) use the statInput mechanism, since both scale off Mizuki's own EM.",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, implemented 2026-08-09. Three of her four Stellar Swirl lines are now modelled as team conditionals: the skill's +0.045% per EM point (skillStellarSwirlDmgFromEleMas), C1's +550% EM flat increase (c1TwentyThreeNightsStellarSwirlDmgInc, as stellarswirl_dmgInc), and C6's +10%/+20% Stellar Swirl crit (c6StellarSwirlCrit). All three scale off HER EM, so the first two use statInput.\n\nSTILL NOT MODELLED, all of it the ordinary-Swirl half rather than the Stellar Swirl half: her skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) has no swirl_dmg_ bucket to land in; C1's +1100% EM flat Swirl increase, same reason; C6's FIXED-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all); passive4's enhanced periodic Anemo DMG at 1000% EM, and its Radiance: Stellar Swirl clause adding a second 1000%-EM instance as Stellar Swirl DMG (that one is now expressible — it needs a hit definition with an eleMas component — but has no multiplier recorded above yet). The two team buffs that ARE now modelled (passive4's 10% EM share and C2's per-EM elemental DMG bonus) use the statInput mechanism, since both scale off Mizuki's own EM.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -213,6 +213,46 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillStellarSwirlDmgFromEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "Dreamdrifter: increases the Stellar Swirl reaction DMG nearby party members deal by 0.045% per point of HER Elemental Mastery. (The Swirl half of the same line, 0.45% per point, still has no key — swirl_dmg_ is not a modifier bucket.) Type Mizuki's EM into the input; leaving it blank assumes 1000 EM.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": { "stellarswirl_dmg_": 0.00045 }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "c1TwentyThreeNightsStellarSwirlDmgInc",
+        "source": "Yumemizuki Mizuki",
+        "description": "C1 In Mist-Like Waters: while she is in Dreamdrifter, opponents carry 'Twenty-Three Nights' Awaiting'; a Stellar Swirl triggered on an affected opponent by Anemo DMG deals DMG increased by 550% of HER Elemental Mastery (the Swirl branch of the same clause is 1,100%). A flat increase, so it uses stellarswirl_dmgInc — outside the Stellar multiplicative brackets. Type Mizuki's EM; blank assumes 1000 EM. Note the effect is consumed per application (once every 3.5s for 3s), so weight the rotation accordingly rather than assuming every instance gets it.",
+        "gating": { "constellationMin": 1 },
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": { "stellarswirl_dmgInc": 5.5 }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "c6StellarSwirlCrit",
+        "source": "Yumemizuki Mizuki",
+        "description": "C6 The Heart Lingers Long: while she is in Dreamdrifter, Stellar Swirl reaction DMG dealt by nearby party members has its CRIT Rate and CRIT DMG increased by 10% and 20%. Note this is an INCREASE, unlike the Swirl half of the same constellation which FIXES Swirl crit at 30%/100% — Stellar Swirl already crits natively, so it needs no fixed-crit mechanism. The Swirl half is still unmodellable (swirl_reaction is not in the batch evaluator's crit_kinds).",
+        "gating": { "constellationMin": 6 },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarswirl_critRate_": 0.1,
+              "stellarswirl_critDMG_": 0.2
+            }
+          }
+        ]
+      },
       {
         "conditionKey": "passive4VastBeTheDreamEleMas",
         "source": "Yumemizuki Mizuki",

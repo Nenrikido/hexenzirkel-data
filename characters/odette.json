@@ -90,6 +90,11 @@
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "codaStellarDmg_mult" }]
       },
+      "codaStellarSwirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "codaStellarSwirlDmg_mult" }]
+      },
       "plumeDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
@@ -99,6 +104,11 @@
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "plumeStellarDmg_mult" }]
+      },
+      "plumeStellarSwirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "plumeStellarSwirlDmg_mult" }]
       },
       "wingDmg": {
         "element": "cryo",
@@ -110,10 +120,20 @@
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "wingStellarDmg_mult" }]
       },
+      "wingStellarSwirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "wingStellarSwirlDmg_mult" }]
+      },
       "c1CodaStellarDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "c1CodaStellarDmg_mult" }]
+      },
+      "c1CodaStellarSwirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c1CodaStellarSwirlDmg_mult" }]
       }
     },
     "burst": {
@@ -131,6 +151,11 @@
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "c4CoordinatedStellarDmg_mult" }]
+      },
+      "c4CoordinatedStellarSwirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "c4CoordinatedStellarSwirlDmg_mult" }]
       }
     }
   },
@@ -202,7 +227,7 @@
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000150.json",
-      "note": "Odette is not in Genshin Optimizer yet, so hit keys follow this repo's recent-character convention (hit1Dmg.. + chargedDmg + plunge*Dmg, with the Stellar variants suffixed *StellarDmg as in sandrone.json) and may need renaming once GO adds her. Melee sword, so NA/CA/plunge are physical.\n\nIMPORTANT — 'Stellar Glimmer' is the umbrella term for BOTH Stellar-Conduct and Stellar Swirl (see the in-game glossary entry Radiance: Stellar Glimmer), so the DMG% bucket is split in two: buffs the kit words 'Stellar Glimmer' use stellarglimmer_dmg_ (reaches either reaction), buffs worded 'Stellar-Conduct' use stellarconduct_dmg_. Every one of Odette's buffs below is Glimmer-worded, so they all use the umbrella. Her *StellarDmg hit definitions are the Stellar-CONDUCT variants and carry BOTH keys, so both buckets reach them. The Stellar Swirl multipliers are recorded above as *StellarSwirlDmg_mult with no hit definition: Stellar Swirl DMG is still unimplemented (its base multiplier, EM curve and DEF behaviour are unpublished — it spawns a levelling Stellar Vortex rather than resolving instantly, so Stellar-Conduct's constants cannot be reused). Adding it means new reaction constants in the evaluator, not just seed data.\n\nA4 Pathetique (Stellar Glimmer DMG +1.5% per 100 ATK above 1,000, cap +30%) is an UNCONDITIONAL self modifier using the stellarglimmer_dmg_from_atk_ / _cap_ conversion (STAT_CONVERSION_SPECS, source_offset=1000), so it reads the build's own live ATK — post-buff, and after the ATK conversions above it. It used to be three hand-picked admin states; do not re-add those, they would double-count.\n\npassive3 Stellar Jubilee's base-DMG term (+0.7% per 100 ATK, cap +14%, no threshold) is the same shape and now also scales off ATK, but it is scaled by ODETTE's ATK while buffing reactions a PARTY MEMBER triggers, so a live conversion is only correct when she is herself the scored character. It is therefore split into two conditions in different scopes, and the builder offers exactly one of them: passive3StellarJubileeOwnAtk (SELF scope, so main-slot only) carries the stellarglimmer_basedmg_from_atk_ / _cap_ conversion and reads the build's live ATK; passive3StellarJubileeSourceAtk (OTHERS scope, so support-slot only) carries a statInput where the admin types Odette's ATK, clamped at 2,000 (the cap). Two scopes rather than two states on one entry: extract_entity_conditionals_for_ui gives a main character self+team and a support team+others, so double-counting is impossible by construction. C2's 20% elemental RES shred is included; C6's 'no longer decreases' clause is an uptime statement, not a stat.",
+      "note": "Odette is not in Genshin Optimizer yet, so hit keys follow this repo's recent-character convention (hit1Dmg.. + chargedDmg + plunge*Dmg, with the Stellar variants suffixed *StellarDmg as in sandrone.json) and may need renaming once GO adds her. Melee sword, so NA/CA/plunge are physical.\n\nIMPORTANT — 'Stellar Glimmer' is the umbrella term for BOTH Stellar-Conduct and Stellar Swirl (see the in-game glossary entry Radiance: Stellar Glimmer), so the DMG% bucket is split in two: buffs the kit words 'Stellar Glimmer' use stellarglimmer_dmg_ (reaches either reaction), buffs worded 'Stellar-Conduct' use stellarconduct_dmg_. Every one of Odette's buffs below is Glimmer-worded, so they all use the umbrella. Her *StellarDmg hit definitions are the Stellar-CONDUCT variants and carry BOTH keys, so both buckets reach them. Stellar Swirl was implemented 2026-08-09, so the *StellarSwirlDmg_mult multipliers now have hit definitions too (codaStellarSwirlDmg, plumeStellarSwirlDmg, wingStellarSwirlDmg, c1CodaStellarSwirlDmg, c4CoordinatedStellarSwirlDmg), carrying stellarswirl_dmg_ plus the umbrella. A hit's Conduct and Swirl forms are the SAME instance under different Radiance states — never put both in one rotation. The only assumed number is the EM-curve coefficient, which Swirl borrows from Conduct's 6.0 (see STELLAR_REACTION_EM_COEFF); it is still unpublished for either reaction.\n\nA4 Pathetique (Stellar Glimmer DMG +1.5% per 100 ATK above 1,000, cap +30%) is an UNCONDITIONAL self modifier using the stellarglimmer_dmg_from_atk_ / _cap_ conversion (STAT_CONVERSION_SPECS, source_offset=1000), so it reads the build's own live ATK — post-buff, and after the ATK conversions above it. It used to be three hand-picked admin states; do not re-add those, they would double-count.\n\npassive3 Stellar Jubilee's base-DMG term (+0.7% per 100 ATK, cap +14%, no threshold) is the same shape and now also scales off ATK, but it is scaled by ODETTE's ATK while buffing reactions a PARTY MEMBER triggers, so a live conversion is only correct when she is herself the scored character. It is therefore split into two conditions in different scopes, and the builder offers exactly one of them: passive3StellarJubileeOwnAtk (SELF scope, so main-slot only) carries the stellarglimmer_basedmg_from_atk_ / _cap_ conversion and reads the build's live ATK; passive3StellarJubileeSourceAtk (OTHERS scope, so support-slot only) carries a statInput where the admin types Odette's ATK, clamped at 2,000 (the cap). Two scopes rather than two states on one entry: extract_entity_conditionals_for_ui gives a main character self+team and a support team+others, so double-counting is impossible by construction. C2's 20% elemental RES shred is included; C6's 'no longer decreases' clause is an uptime statement, not a stat.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
