@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -52,7 +64,11 @@
     "charged": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -64,7 +80,11 @@
     "plunging": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -74,7 +94,11 @@
       },
       "low": {
         "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
       },
       "high": {
         "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -96,7 +124,11 @@
     "skill": {
       "skillDmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -106,11 +138,47 @@
       },
       "contDmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "contDmg_mult"
+          }
+        ]
+      },
+      "enhancedContDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "contDmg_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
+          }
+        ]
+      },
+      "stellarSwirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
           }
         ]
       }
@@ -118,7 +186,11 @@
     "burst": {
       "skillDmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -128,7 +200,11 @@
       },
       "shockwaveDmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -157,6 +233,7 @@
       "contDmg_mult": 0.808416,
       "swirl_dmg_per_eleMas": 0.0045,
       "stellarSwirl_dmg_per_eleMas": 0.00045,
+      "passive4_enhancedAnemo_dmg_per_eleMas": 10.0,
       "dreamdrifterDuration": 5.0,
       "cooldown": 15.0
     },
@@ -184,7 +261,7 @@
     },
     "source": {
       "goCharacterKey": "YumemizukiMizuki",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, implemented 2026-08-09. Three of her four Stellar Swirl lines are now modelled as team conditionals: the skill's +0.045% per EM point (skillStellarSwirlDmgFromEleMas), C1's +550% EM flat increase (c1TwentyThreeNightsStellarSwirlDmgInc, as stellarswirl_dmgInc), and C6's +10%/+20% Stellar Swirl crit (c6StellarSwirlCrit). All three scale off HER EM, so the first two use statInput.\n\nSTILL NOT MODELLED, all of it the ordinary-Swirl half rather than the Stellar Swirl half: her skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) has no swirl_dmg_ bucket to land in; C1's +1100% EM flat Swirl increase, same reason; C6's FIXED-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all); passive4's enhanced periodic Anemo DMG at 1000% EM, and its Radiance: Stellar Swirl clause adding a second 1000%-EM instance as Stellar Swirl DMG (that one is now expressible — it needs a hit definition with an eleMas component — but has no multiplier recorded above yet). The two team buffs that ARE now modelled (passive4's 10% EM share and C2's per-EM elemental DMG bonus) use the statInput mechanism, since both scale off Mizuki's own EM.",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, implemented 2026-08-09. Three of her four Stellar Swirl lines are now modelled as team conditionals: the skill's +0.045% per EM point (skillStellarSwirlDmgFromEleMas), C1's +550% EM flat increase (c1TwentyThreeNightsStellarSwirlDmgInc, as stellarswirl_dmgInc), and C6's +10%/+20% Stellar Swirl crit (c6StellarSwirlCrit). All three scale off HER EM, so the first two use statInput.\n\nSTILL NOT MODELLED, all of it the ordinary-Swirl half rather than the Stellar Swirl half: her skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) has no swirl_dmg_ bucket to land in; C1's +1100% EM flat Swirl increase, same reason; C6's FIXED-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all); passive4's two clauses ARE modelled since 2026-08-09, as skill.enhancedContDmg (the periodic Anemo tick plus 1,000% of her EM) and skill.stellarSwirlDmg (the extra Radiance: Stellar Swirl instance, pure 1,000% EM, carrying stellarswirl_dmg_). Both sit in the SKILL section so they can reuse contDmg_mult, which meant duplicating passive4_enhancedAnemo_dmg_per_eleMas from the passive block into it — component multKeys are resolved against the hit's OWN section only. Each fires once every 2.5s, so express the cadence as a rotation weight; the plain contDmg is the unenhanced tick. The two team buffs that ARE now modelled (passive4's 10% EM share and C2's per-EM elemental DMG bonus) use the statInput mechanism, since both scale off Mizuki's own EM.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -209,40 +286,30 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "skillStellarSwirlDmgOwnEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "Dreamdrifter, self half: Stellar Swirl reaction DMG +0.045% per point of HER Elemental Mastery. Offered only when Mizuki is the scored character, so the stellarswirl_dmg_from_eleMas conversion reads the build's own live EM (post-buff, after the EM conversions above it). The teammate half is skillStellarSwirlDmgFromEleMas in others scope — different scopes, so the two can never both apply. NOTE her C1 flat increase has no self-scope equivalent: it is a Reaction Additive Base DMG Bonus, which sits outside the Stellar brackets and so cannot use the *_dmgIncFromEleMas_ family.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarswirl_dmg_from_eleMas": 0.00045
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "skillStellarSwirlDmgFromEleMas",
-        "source": "Yumemizuki Mizuki",
-        "description": "Dreamdrifter: increases the Stellar Swirl reaction DMG nearby party members deal by 0.045% per point of HER Elemental Mastery. (The Swirl half of the same line, 0.45% per point, still has no key — swirl_dmg_ is not a modifier bucket.) Type Mizuki's EM into the input; leaving it blank assumes 1000 EM.",
-        "statInput": {
-          "stat": "eleMas",
-          "default": 1000,
-          "max": 3000,
-          "ratesPerUnit": { "stellarswirl_dmg_": 0.00045 }
-        },
-        "states": []
-      },
-      {
-        "conditionKey": "c1TwentyThreeNightsStellarSwirlDmgInc",
-        "source": "Yumemizuki Mizuki",
-        "description": "C1 In Mist-Like Waters: while she is in Dreamdrifter, opponents carry 'Twenty-Three Nights' Awaiting'; a Stellar Swirl triggered on an affected opponent by Anemo DMG deals DMG increased by 550% of HER Elemental Mastery (the Swirl branch of the same clause is 1,100%). A flat increase, so it uses stellarswirl_dmgInc — outside the Stellar multiplicative brackets. Type Mizuki's EM; blank assumes 1000 EM. Note the effect is consumed per application (once every 3.5s for 3s), so weight the rotation accordingly rather than assuming every instance gets it.",
-        "gating": { "constellationMin": 1 },
-        "statInput": {
-          "stat": "eleMas",
-          "default": 1000,
-          "max": 3000,
-          "ratesPerUnit": { "stellarswirl_dmgInc": 5.5 }
-        },
-        "states": []
-      },
-      {
         "conditionKey": "c6StellarSwirlCrit",
         "source": "Yumemizuki Mizuki",
         "description": "C6 The Heart Lingers Long: while she is in Dreamdrifter, Stellar Swirl reaction DMG dealt by nearby party members has its CRIT Rate and CRIT DMG increased by 10% and 20%. Note this is an INCREASE, unlike the Swirl half of the same constellation which FIXES Swirl crit at 30%/100% — Stellar Swirl already crits natively, so it needs no fixed-crit mechanism. The Swirl half is still unmodellable (swirl_reaction is not in the batch evaluator's crit_kinds).",
-        "gating": { "constellationMin": 6 },
+        "gating": {
+          "constellationMin": 6
+        },
         "states": [
           {
             "value": "on",
@@ -261,19 +328,38 @@
           "stat": "eleMas",
           "default": 1000,
           "max": 3000,
-          "ratesPerUnit": { "eleMas": 0.1 }
+          "ratesPerUnit": {
+            "eleMas": 0.1
+          }
         },
         "states": [
-          { "value": "mizuki_em_800", "modifiers": { "eleMas": 80.0 } },
-          { "value": "mizuki_em_1000", "modifiers": { "eleMas": 100.0 } },
-          { "value": "mizuki_em_1200", "modifiers": { "eleMas": 120.0 } }
+          {
+            "value": "mizuki_em_800",
+            "modifiers": {
+              "eleMas": 80.0
+            }
+          },
+          {
+            "value": "mizuki_em_1000",
+            "modifiers": {
+              "eleMas": 100.0
+            }
+          },
+          {
+            "value": "mizuki_em_1200",
+            "modifiers": {
+              "eleMas": 120.0
+            }
+          }
         ]
       },
       {
         "conditionKey": "c2YourEchoIMeetInDreams",
         "source": "Yumemizuki Mizuki",
         "description": "C2: when Mizuki enters the Dreamdrifter state, every point of HER Elemental Mastery increases all nearby party members' Pyro/Hydro/Cryo/Electro DMG Bonus by 0.04%, until the state ends. Type Mizuki's EM into the input; leaving it blank assumes 1000 EM.",
-        "gating": { "constellationMin": 2 },
+        "gating": {
+          "constellationMin": 2
+        },
         "statInput": {
           "stat": "eleMas",
           "default": 1000,
@@ -299,6 +385,38 @@
       }
     ],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillStellarSwirlDmgFromEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "Dreamdrifter: increases the Stellar Swirl reaction DMG nearby party members deal by 0.045% per point of HER Elemental Mastery. (The Swirl half of the same line, 0.45% per point, still has no key — swirl_dmg_ is not a modifier bucket.) Type Mizuki's EM into the input; leaving it blank assumes 1000 EM. Others scope, so this is offered only when Mizuki is a teammate; when she is the scored character the self-scope half applies instead.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": {
+            "stellarswirl_dmg_": 0.00045
+          }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "c1TwentyThreeNightsStellarSwirlDmgInc",
+        "source": "Yumemizuki Mizuki",
+        "description": "C1 In Mist-Like Waters: while she is in Dreamdrifter, opponents carry 'Twenty-Three Nights' Awaiting'; a Stellar Swirl triggered on an affected opponent by Anemo DMG deals DMG increased by 550% of HER Elemental Mastery (the Swirl branch of the same clause is 1,100%). A flat increase, so it uses stellarswirl_dmgInc — outside the Stellar multiplicative brackets. Type Mizuki's EM; blank assumes 1000 EM. Note the effect is consumed per application (once every 3.5s for 3s), so weight the rotation accordingly rather than assuming every instance gets it. Others scope, so this is offered only when Mizuki is a teammate; when she is the scored character the self-scope half applies instead.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": {
+            "stellarswirl_dmgInc": 5.5
+          }
+        },
+        "states": []
+      }
+    ]
   }
 }
