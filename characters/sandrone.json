@@ -15,7 +15,7 @@
     "ascStatValue": 0.192
   },
   "hit_definitions_json": {
-    "note": "2026-07-26: restructured to match GO's actual sheet (libs/gi/sheets/src/Characters/Sandrone/index.tsx dmgFormulas) -- moved the 4 Charged Attack hits (sweepDmg/beamDmg/beamStellarDmg/overdriveDmg) and the 3 plunge hits out of 'normal' into their own 'charged'/'plunging' sections (matching every other character's convention and giving them the correct C/P rotation badges instead of N), and renamed every hit key to GO's literal identifier (sweepDmg, beamDmg, beamStellarDmg, overdriveDmg, prismDmg1/2, prismStellarDmg, bombardDmg, rayDmg, rayStellarDmg) instead of invented descriptive names. talent_multipliers_json.p3-p9_mult moved to the matching new charged/plunging sections alongside this -- same numeric values, just relocated so resolve_talent_section_mults(path[0]) still finds them. GO's 2nd Prism Shot hit (prismDmg2) additionally gets an A1 'Decoding' bonus multiplier (dm.passive1.prismAddlMult, gated on an on/off condition + ascension >=1) which is NOT modeled here yet -- both hits are currently identical, so this is a structural/naming fix only, not a buff.",
+    "note": "2026-07-26: restructured to match GO's actual sheet (libs/gi/sheets/src/Characters/Sandrone/index.tsx dmgFormulas) -- moved the 4 Charged Attack hits (sweepDmg/beamDmg/beamStellarDmg/overdriveDmg) and the 3 plunge hits out of 'normal' into their own 'charged'/'plunging' sections (matching every other character's convention and giving them the correct C/P rotation badges instead of N), and renamed every hit key to GO's literal identifier (sweepDmg, beamDmg, beamStellarDmg, overdriveDmg, prismDmg1/2, prismStellarDmg, bombardDmg, rayDmg, rayStellarDmg) instead of invented descriptive names. talent_multipliers_json.p3-p9_mult moved to the matching new charged/plunging sections alongside this -- same numeric values, just relocated so resolve_talent_section_mults(path[0]) still finds them. GO's 2nd Prism Shot hit (prismDmg2) additionally gets an A1 'Decoding' bonus multiplier (dm.passive1.prismAddlMult, gated on an on/off condition + ascension >=1) which is NOT modeled here yet -- both hits are currently identical, so this is a structural/naming fix only, not a buff. 2026-08-10: A1 IS now modeled, as the a1DecodedPrismShot / a1RefinedTactics self-conditionals feeding the prismshot_dmg_ and inhibitionray_dmg_ base-DMG multiplier scopes; prismDmg1 and prismDmg2 are no longer identical.",
     "normal": {
       "hit1Dmg": {
         "element": "physical",
@@ -80,12 +80,12 @@
       },
       "prismDmg2": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_", "prismshot_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "prismStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "prismshot_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       }
     },
@@ -102,7 +102,7 @@
       },
       "rayStellarDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "inhibitionray_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       }
     }
@@ -145,6 +145,9 @@
       "goCharacterKey": "Sandrone"
     },
     "passive": {
+      "a1PrismShotAddlMult": 3.0,
+      "a1InhibitionRayAddlMult_perStack": 0.1,
+      "a1RefinedTacticsMaxStacks": 10,
       "a4EleMasFromAtk_per100": 8.0,
       "a4EleMasFromAtk_cap": 160.0
     },
@@ -177,6 +180,34 @@
             "value": "3 stacks",
             "modifiers": { "charged_critDMG_": 1.0 }
           }
+        ]
+      },
+      {
+        "conditionKey": "a1DecodedPrismShot",
+        "source": "avatar_10000133",
+        "description": "A1 (Radiance: Stellar Glimmer): when the Skill is cast with Fagio's Decoding Power above 50, the SECOND Prism Shot deals 400% of its original DMG (nanoka passive1 param1 = 3, i.e. +300%). Modeled as a base-DMG multiplier scoped to prismDmg2 and to its Stellar form prismStellarDmg -- they are the same instance under Radiance, and GO passes the same prism multiplier to both. Not an Elevation: GO applies it as the hit's additionalMultiplier, so it scales the talent multiplier and not the Stellar additive flat DMG. There is no ascension gate in the schema, and every Lv90 build has A1 anyway.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "prismshot_base_dmg_": 3.0 }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a1RefinedTactics",
+        "source": "avatar_10000133",
+        "description": "A1 (Refined Tactics): Fagio gains 1 stack per 10 Decoding Power lost (max 10, 60s). Casting the Burst while in Radiance clears every stack, making the Convective Inhibition Ray deal 100% + 10% per stack cleared of its original DMG (nanoka passive1 param2 = 0.1). Base-DMG multiplier scoped to burst.rayStellarDmg only.",
+        "states": [
+          { "value": "1 stack", "modifiers": { "inhibitionray_base_dmg_": 0.1 } },
+          { "value": "2 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.2 } },
+          { "value": "3 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.3 } },
+          { "value": "4 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.4 } },
+          { "value": "5 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.5 } },
+          { "value": "6 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.6 } },
+          { "value": "7 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.7 } },
+          { "value": "8 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.8 } },
+          { "value": "9 stacks", "modifiers": { "inhibitionray_base_dmg_": 0.9 } },
+          { "value": "10 stacks", "modifiers": { "inhibitionray_base_dmg_": 1.0 } }
         ]
       }
     ],
