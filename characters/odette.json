@@ -202,7 +202,7 @@
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000150.json",
-      "note": "Odette is not in Genshin Optimizer yet, so hit keys follow this repo's recent-character convention (hit1Dmg.. + chargedDmg + plunge*Dmg, with the Stellar variants suffixed *StellarDmg as in sandrone.json) and may need renaming once GO adds her. Melee sword, so NA/CA/plunge are physical.\n\nIMPORTANT — 'Stellar Glimmer' is the umbrella term for BOTH Stellar-Conduct and Stellar Swirl (see the in-game glossary entry Radiance: Stellar Glimmer), so the DMG% bucket is split in two: buffs the kit words 'Stellar Glimmer' use stellarglimmer_dmg_ (reaches either reaction), buffs worded 'Stellar-Conduct' use stellarconduct_dmg_. Every one of Odette's buffs below is Glimmer-worded, so they all use the umbrella. Her *StellarDmg hit definitions are the Stellar-CONDUCT variants and carry BOTH keys, so both buckets reach them. The Stellar Swirl multipliers are recorded above as *StellarSwirlDmg_mult with no hit definition: Stellar Swirl DMG is still unimplemented (its base multiplier, EM curve and DEF behaviour are unpublished — it spawns a levelling Stellar Vortex rather than resolving instantly, so Stellar-Conduct's constants cannot be reused). Adding it means new reaction constants in the evaluator, not just seed data.\n\nA4 Pathetique (Stellar Glimmer DMG +1.5% per 100 ATK above 1,000, cap +30%) is an UNCONDITIONAL self modifier using the stellarglimmer_dmg_from_atk_ / _cap_ conversion (STAT_CONVERSION_SPECS, source_offset=1000), so it reads the build's own live ATK — post-buff, and after the ATK conversions above it. It used to be three hand-picked admin states; do not re-add those, they would double-count.\n\npassive3 Stellar Jubilee's base-DMG term (+0.7% per 100 ATK, cap +14%, no threshold) is the same shape and now also scales off ATK, via stellarglimmer_basedmg_from_atk_ / _cap_. It stays a CONDITION rather than an unconditional self modifier because it is a TEAM buff on reactions a party member triggers, scaled by ODETTE's ATK: the conversion only reads the right character's ATK when Odette is the one being scored. That is the entry's single preset state; when she is a teammate the admin types her ATK into the entry's statInput instead and gets a flat stellarglimmer_basedmg_ (input clamped at 2,000, i.e. the cap). Presets beat statInput in _resolve_stat_input_modifiers, so the two can never both apply. C2's 20% elemental RES shred is included; C6's 'no longer decreases' clause is an uptime statement, not a stat.",
+      "note": "Odette is not in Genshin Optimizer yet, so hit keys follow this repo's recent-character convention (hit1Dmg.. + chargedDmg + plunge*Dmg, with the Stellar variants suffixed *StellarDmg as in sandrone.json) and may need renaming once GO adds her. Melee sword, so NA/CA/plunge are physical.\n\nIMPORTANT — 'Stellar Glimmer' is the umbrella term for BOTH Stellar-Conduct and Stellar Swirl (see the in-game glossary entry Radiance: Stellar Glimmer), so the DMG% bucket is split in two: buffs the kit words 'Stellar Glimmer' use stellarglimmer_dmg_ (reaches either reaction), buffs worded 'Stellar-Conduct' use stellarconduct_dmg_. Every one of Odette's buffs below is Glimmer-worded, so they all use the umbrella. Her *StellarDmg hit definitions are the Stellar-CONDUCT variants and carry BOTH keys, so both buckets reach them. The Stellar Swirl multipliers are recorded above as *StellarSwirlDmg_mult with no hit definition: Stellar Swirl DMG is still unimplemented (its base multiplier, EM curve and DEF behaviour are unpublished — it spawns a levelling Stellar Vortex rather than resolving instantly, so Stellar-Conduct's constants cannot be reused). Adding it means new reaction constants in the evaluator, not just seed data.\n\nA4 Pathetique (Stellar Glimmer DMG +1.5% per 100 ATK above 1,000, cap +30%) is an UNCONDITIONAL self modifier using the stellarglimmer_dmg_from_atk_ / _cap_ conversion (STAT_CONVERSION_SPECS, source_offset=1000), so it reads the build's own live ATK — post-buff, and after the ATK conversions above it. It used to be three hand-picked admin states; do not re-add those, they would double-count.\n\npassive3 Stellar Jubilee's base-DMG term (+0.7% per 100 ATK, cap +14%, no threshold) is the same shape and now also scales off ATK, but it is scaled by ODETTE's ATK while buffing reactions a PARTY MEMBER triggers, so a live conversion is only correct when she is herself the scored character. It is therefore split into two conditions in different scopes, and the builder offers exactly one of them: passive3StellarJubileeOwnAtk (SELF scope, so main-slot only) carries the stellarglimmer_basedmg_from_atk_ / _cap_ conversion and reads the build's live ATK; passive3StellarJubileeSourceAtk (OTHERS scope, so support-slot only) carries a statInput where the admin types Odette's ATK, clamped at 2,000 (the cap). Two scopes rather than two states on one entry: extract_entity_conditionals_for_ui gives a main character self+team and a support team+others, so double-counting is impossible by construction. C2's 20% elemental RES shred is included; C6's 'no longer decreases' clause is an uptime statement, not a stat.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -230,6 +230,20 @@
         "description": "C6: Stellar Glimmer reaction DMG dealt by Odette herself is elevated by an additional 20% (on top of the 25% all Marvelous Splendor holders get, which is the team-scope c6MarvelousSplendorStellarGlimmer entry).",
         "gating": { "constellationMin": 6 },
         "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.2 } }]
+      },
+      {
+        "conditionKey": "passive3StellarJubileeOwnAtk",
+        "source": "avatar_10000150",
+        "description": "Stellar Jubilee: Dance of Aurore — a party member's Superconduct or Cryo Swirl becomes a Stellar-Conduct or Stellar Swirl reaction instead, and that reaction's BASE DMG is increased by 0.7% per 100 of ODETTE's ATK, capped at +14% (reached at 2,000 ATK). This is the SELF-scope half, offered only when Odette is the scored character: her ATK is then the build's own ATK, so the stellarglimmer_basedmg_from_atk_ / _cap_ conversion pair reads it live (post-buff) per build and caps itself. Applied to stellarglimmer_basedmg_, a base-DMG multiplier rather than a DMG% bonus, and the umbrella key since the kit converts into EITHER Stellar reaction. When Odette is a teammate the builder offers passive3StellarJubileeSourceAtk instead, which takes her ATK as a typed input.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarglimmer_basedmg_from_atk_": 0.00007,
+              "stellarglimmer_basedmg_from_atk_cap_": 0.14
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
@@ -290,29 +304,22 @@
         "description": "C6: characters affected by Marvelous Splendor have the Stellar Glimmer reaction DMG they deal elevated by 25%.",
         "gating": { "constellationMin": 6 },
         "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.25 } }]
-      },
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
       {
-        "conditionKey": "passive3StellarJubileeBaseDmg",
+        "conditionKey": "passive3StellarJubileeSourceAtk",
         "source": "avatar_10000150",
-        "description": "Stellar Jubilee: Dance of Aurore — a party member's Superconduct or Cryo Swirl becomes a Stellar-Conduct or Stellar Swirl reaction instead, and that reaction's BASE DMG is increased by 0.7% per 100 of ODETTE's ATK, capped at +14% (reached at 2,000 ATK). Applied as stellarglimmer_basedmg_ (a base-DMG multiplier, not a DMG% bonus, and the umbrella key since the kit converts into EITHER Stellar reaction). Because it scales off the SOURCE's ATK there are two ways to pick the value, and the entry offers both: (a) leave it on the 'Odette is the scored character (live ATK)' state — she is the leaderboard's main, so the conversion pair stellarglimmer_basedmg_from_atk_ / _cap_ reads each build's own live post-buff ATK and caps itself at +14%; (b) Odette is a teammate — type her ATK into the stat input instead and the flat bonus is computed from that (the input is clamped at 2,000, which is exactly where the cap lands).",
+        "description": "Stellar Jubilee: Dance of Aurore — a party member's Superconduct or Cryo Swirl becomes a Stellar-Conduct or Stellar Swirl reaction instead, and that reaction's BASE DMG is increased by 0.7% per 100 of ODETTE's ATK, capped at +14% (reached at 2,000 ATK). This is the OTHERS-scope half, offered only when Odette is a teammate: the scored build's ATK is the receiving character's, not hers, so type Odette's ATK into the input. It is clamped at 2,000, exactly where the cap lands, and blank assumes the capped 2,000. When Odette IS the scored character the builder offers passive3StellarJubileeOwnAtk instead, which reads her live ATK — the two are in different scopes and can never both be selected.",
         "statInput": {
           "stat": "atk",
           "default": 2000,
           "max": 2000,
           "ratesPerUnit": { "stellarglimmer_basedmg_": 0.00007 }
         },
-        "states": [
-          {
-            "value": "Odette is the scored character (live ATK)",
-            "modifiers": {
-              "stellarglimmer_basedmg_from_atk_": 0.00007,
-              "stellarglimmer_basedmg_from_atk_cap_": 0.14
-            }
-          }
-        ]
+        "states": []
       }
-    ],
-    "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    ]
   }
 }
