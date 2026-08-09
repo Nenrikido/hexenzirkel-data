@@ -65,6 +65,7 @@ Amber page, or the in-game text) in the pull-request description.
   "element": "pyro",
   "weapon_type": "sword",
   "nation": "Mondstadt",               // optional
+  "enables": "moonsign",               // optional — see below
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   // ^ which constellation grants that talent +3 levels (C3 → skill, C5 → burst)
 
@@ -112,10 +113,35 @@ Amber page, or the in-game text) in the pull-request description.
         "gating": { "constellationMin": 6 },   // only exists at C6+
         "states": [ { "value": "on", "modifiers": { "pyro_dmg_": 0.15 } } ]
       }
-    ]
+    ],
+    "others_conditional_modifiers_json": []  // teammates only, never the wearer
   }
 }
 ```
+
+**`enables`** names a **team-wide mechanic this character unlocks just by being in
+the party**, rather than a buff of their own. It is one word; today `"moonsign"`
+(Moonsign: Ascendant Gleam) and `"stellar"` (Polestar Field). The app counts how
+many party slots declare each one and turns the corresponding team mechanic on —
+so it belongs on every character whose kit contributes to it, and nowhere else.
+
+### Hit definitions: the optional fields
+
+`element`, `dmgBonusKeys` and `components` cover almost every hit. The rest are
+for kits that do something the plain formula cannot express — reach for one only
+when an existing file already does the same thing.
+
+| Field | What it does |
+| --- | --- |
+| `plungeTier` | `"low"` or `"high"` — marks a hit as the ground-impact shockwave, so buffs scoped to it (Xianyun's A4/C2) find it. Only needed when the hit key isn't already named `…low…` / `…high…`; any other value (some files carry `"dmg"` for the mid-air collision hit) is simply inert. |
+| `specialType` | Routes the hit through a **transformative/lunar reaction formula** instead of the ordinary one (`"direct_lunarbloom"`, `"direct_lunar_crystallization"`, `"superconduct_reaction"`, …). |
+| `statKey` | Turns the target into a **stat readout** rather than damage: the score *is* that stat's buffed value. The whole definition is `{ "statKey": "eleMas" }` (Lauma). |
+| `mvMultiplierKeys` | Stat keys whose values **multiply the talent base DMG** (default 1.0 when absent), for "this hit deals X% of its original DMG" states. |
+| `flatDmgIncFromStat` | `[{ "statKey": "def", "ratio": 0.6 }]` — adds *ratio × stat* to the hit's flat DMG increase, for kit text like "+60% of DEF". **Only read on `specialType` (lunar/transformative) hits**; on an ordinary hit it does nothing — use a `*_dmgIncFromAtk_`-family key there instead. |
+| `flatDmgIncFromAtkRatioKeys` | **Allowlist** for hit-scoped `*_dmgIncFromAtk_` keys. Attack-type keys (`charged_dmgIncFromAtk_`) and `all_dmgIncFromAtk_` bind automatically; anything custom must be listed here or it silently reads as 0. |
+| `triggerCritRateScaled` | The hit only happens when the triggering attack crits (Yanfei's A4), so its average is scaled by CRIT Rate. |
+| `consumesStacks` | A limited pool shared across the rotation: `poolKey`, `initialStacks` / `initialStacksTalentKey`, `consumePerHit`, `consumeByTargetWeight`, and optionally a `bonusStatKey` written per hit while stacks last (Durin's A4). |
+| `stellarConductFlatComponents` | Same shape as `components`, but added **outside** every Stellar multiplicative bracket — the panel's "Stellar-Conduct DMG Increase" line (Cyno's A4). |
 
 ### Weapon (`weapons/*.json`)
 
@@ -242,6 +268,93 @@ these forms — **match whichever an existing similar entry uses**:
 - `"modifiers": { … }` — a single set of values (see Archaic Petra 4-pc).
 - `"states": [ { "value": "on", "modifiers": { … } }, … ]` — discrete toggle states.
 - `"states": { "stateName": { … }, … }` — named stacking/level states (see the weapon).
+
+#### Which bucket: `self_` vs `team_` vs `others_`
+
+The prefix decides **who the buff reaches relative to the character being
+scored**, which is not the same question as who it reaches in-game:
+
+| Bucket | Applies when… |
+| --- | --- |
+| `self_…` | the source **is** the scored character. A buff on its own wielder. |
+| `team_…` | the source is the scored character **or** a teammate. The usual choice for a party-wide buff — it works whether the buffer is being scored or is supporting. |
+| `others_…` | the source is **only** a teammate. Use it when a `self_` entry already covers the wielder's own case and a `team_` entry would double-count them. |
+
+Makhaira Aquamarine is the worked example: the wielder's own EM→ATK conversion is
+`self_` (read from their live stats), while the 30% the party receives is
+`others_`, so a scored wielder gets the real conversion once instead of both.
+
+#### `gating`
+
+Only **`constellationMin`** is enforced: the condition cannot be enabled below
+that constellation. `requiresMoonsign` and `ascMin` also appear in the data, but
+nothing reads them today — they are notes to the next author, not gates. Don't
+rely on them to keep a buff switched off.
+
+#### `statInput` — buffs that scale off the *buffer's* stat
+
+Some buffs are worth "X% of the **source's** ATK/EM" — Durin's C1 (60% of *his*
+ATK to teammates), Nicole's C4 (70% of hers), Qiqi's C6 (600% of hers). The
+evaluator only ever sees the *receiving* character's stats, so the source's real
+number is unknowable at scoring time. `statInput` lets the leaderboard admin type
+it in:
+
+```jsonc
+{
+  "conditionKey": "c6GlimpseOfMystery",
+  "gating": { "constellationMin": 6 },
+  "statInput": {
+    "stat": "atk",            // which stat the admin is typing (label only)
+    "default": 1800,          // used when the box is left blank
+    "max": 8000,              // clamp, so a typo can't inject an absurd buff
+    "ratesPerUnit": { "stellarconduct_dmgInc": 6.0 }
+    // final modifier = rate × the typed value (6.0 × 1800 = 10800)
+  },
+  "states": []
+}
+```
+
+`states` may be left empty for an input-only condition, or hold a few coarse
+presets (`"durin_atk_2600"`, …) for admins who would rather pick one. **A named
+preset always wins**: if the selected state matches a `states` entry, that entry's
+literal modifiers are used and `ratesPerUnit` is ignored — which is what makes it
+safe to add a `statInput` block to an entry that already has presets without
+changing any leaderboard already saved against one. Removing a preset later is the
+risky direction: boards pinned to it silently fall back to `default`.
+
+#### Refinement-tiered weapon conditions
+
+Two older weapon-only forms predate `refinementStates` and key `states` **by
+refinement tier** instead of by game state:
+
+- `"refinementTiered": true` with `"states": { "R1": {…}, "R3": {…}, "R5": {…} }` —
+  no admin choice at all; the weapon's chosen refinement picks the tier.
+- `"refinementTieredEmInput": true` — the same, plus the values are per-point
+  coefficients multiplied by an EM figure the admin types (blank assumes 800).
+
+Both are the Desert Pavilion family (Makhaira Aquamarine, Wandering Evenstar,
+Xiphos' Moonlight). For anything new, prefer `statInput` (for a source-scaled
+value) or `refinementStates` (for a plain magnitude change).
+
+#### Flat DMG increases: `_dmgInc` vs `_dmgIncFromAtk_`
+
+Two families that look interchangeable and are not:
+
+- **`<type>_dmgIncFromAtk_`** is a **ratio against the scored character's own ATK**.
+  Correct only for a character buffing **itself** (`self_…` buckets).
+- **`<type>_dmgInc`** is a **literal number** added to outgoing damage. This is the
+  right family for "teammates gain bonus DMG equal to X% of *my* stat" — pair it
+  with `statInput` (above) so the admin supplies the source's stat.
+
+Putting `_dmgIncFromAtk_` in a `team_`/`others_` bucket multiplies the *receiving*
+character's ATK, which is not the buff anyone wrote.
+
+Prefer the five attack-type-scoped keys (`normal_dmgInc`, `charged_dmgInc`,
+`plunging_dmgInc`, `skill_dmgInc`, `burst_dmgInc`) over `all_dmgInc` whenever the
+kit text lists attack categories. `all_dmgInc` reaches damage instances that
+belong to **no** category — coordinated attacks from summons, for instance — which
+those buffs do not actually hit. Reserve it for buffs whose text really is
+unconditional.
 
 ---
 
