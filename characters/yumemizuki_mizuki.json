@@ -261,7 +261,7 @@
     },
     "source": {
       "goCharacterKey": "YumemizukiMizuki",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, implemented 2026-08-09. Three of her four Stellar Swirl lines are now modelled as team conditionals: the skill's +0.045% per EM point (skillStellarSwirlDmgFromEleMas), C1's +550% EM flat increase (c1TwentyThreeNightsStellarSwirlDmgInc, as stellarswirl_dmgInc), and C6's +10%/+20% Stellar Swirl crit (c6StellarSwirlCrit). All three scale off HER EM, so the first two use statInput.\n\nSTILL NOT MODELLED, all of it the ordinary-Swirl half rather than the Stellar Swirl half: her skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) has no swirl_dmg_ bucket to land in; C1's +1100% EM flat Swirl increase, same reason; C6's FIXED-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all); passive4's two clauses ARE modelled since 2026-08-09, as skill.enhancedContDmg (the periodic Anemo tick plus 1,000% of her EM) and skill.stellarSwirlDmg (the extra Radiance: Stellar Swirl instance, pure 1,000% EM, carrying stellarswirl_dmg_). Both sit in the SKILL section so they can reuse contDmg_mult, which meant duplicating passive4_enhancedAnemo_dmg_per_eleMas from the passive block into it — component multKeys are resolved against the hit's OWN section only. Each fires once every 2.5s, so express the cadence as a rotation weight; the plain contDmg is the unenhanced tick. The two team buffs that ARE now modelled (passive4's 10% EM share and C2's per-EM elemental DMG bonus) use the statInput mechanism, since both scale off Mizuki's own EM.",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, implemented 2026-08-09. Three of her four Stellar Swirl lines are now modelled as team conditionals: the skill's +0.045% per EM point (skillStellarSwirlDmgFromEleMas), C1's +550% EM flat increase (c1TwentyThreeNightsStellarSwirlDmgInc, as stellarswirl_dmgInc), and C6's +10%/+20% Stellar Swirl crit (c6StellarSwirlCrit). All three scale off HER EM, so the first two use statInput.\n\nSTILL NOT MODELLED, all of it the ordinary-Swirl half rather than the Stellar Swirl half: her skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) has no swirl_dmg_ bucket to land in; C1's +1100% EM flat Swirl increase, same reason; C6's FIXED-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all); passive4's two clauses ARE modelled since 2026-08-09, as skill.enhancedContDmg (the periodic Anemo tick plus 1,000% of her EM) and skill.stellarSwirlDmg (the extra Radiance: Stellar Swirl instance, pure 1,000% EM, carrying stellarswirl_dmg_). Both sit in the SKILL section so they can reuse contDmg_mult, which meant duplicating passive4_enhancedAnemo_dmg_per_eleMas from the passive block into it — component multKeys are resolved against the hit's OWN section only. Each fires once every 2.5s, so express the cadence as a rotation weight; the plain contDmg is the unenhanced tick. passive4's 10% EM share and C2's per-EM elemental DMG bonus are split self/others like the rest of her EM-scaled buffs (2026-08-09): the self halves read her live EM through eleMas_from_eleMas_capped_ and the <element>_dmg_from_eleMas family, the others halves keep the statInput. C2's self half is inert for her own damage — it buffs Pyro/Hydro/Cryo/Electro and her kit is Anemo — and is there for correctness.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -299,6 +299,38 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "passive4VastBeTheDreamOwnEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "Vast Be the Dream, self half: while in Dreamdrifter the Elemental Mastery of nearby party characters rises by 10% of HERS — and she is one of them. Offered only when Mizuki is the scored character, so eleMas_from_eleMas_capped_ compounds off the build's own EM (no cap key, so uncapped; the cap is opt-in). Reads the pre-conversion EM snapshot, so it does not feed itself. The teammate half is passive4VastBeTheDreamEleMas in others scope.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas_from_eleMas_capped_": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2YourEchoIMeetInDreamsOwnEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "C2, self half: every point of HER Elemental Mastery gives nearby party members +0.04% Pyro/Hydro/Cryo/Electro DMG Bonus, herself included. Uses the <element>_dmg_from_eleMas conversions so it reads the build's own live EM. NOTE this buffs four elements Mizuki does not deal — her kit is Anemo — so it is inert for her own hits and exists for correctness and for any future Mizuki hit in one of those elements. The teammate half is c2YourEchoIMeetInDreams in others scope.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_dmg_from_eleMas": 0.0004,
+              "hydro_dmg_from_eleMas": 0.0004,
+              "cryo_dmg_from_eleMas": 0.0004,
+              "electro_dmg_from_eleMas": 0.0004
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
@@ -316,69 +348,6 @@
             "modifiers": {
               "stellarswirl_critRate_": 0.1,
               "stellarswirl_critDMG_": 0.2
-            }
-          }
-        ]
-      },
-      {
-        "conditionKey": "passive4VastBeTheDreamEleMas",
-        "source": "Yumemizuki Mizuki",
-        "description": "Vast Be the Dream (Hexerei rite): while Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is increased by 10% of HER Elemental Mastery. Type Mizuki's EM into the input for an exact value; leaving it blank assumes 1000 EM.",
-        "statInput": {
-          "stat": "eleMas",
-          "default": 1000,
-          "max": 3000,
-          "ratesPerUnit": {
-            "eleMas": 0.1
-          }
-        },
-        "states": [
-          {
-            "value": "mizuki_em_800",
-            "modifiers": {
-              "eleMas": 80.0
-            }
-          },
-          {
-            "value": "mizuki_em_1000",
-            "modifiers": {
-              "eleMas": 100.0
-            }
-          },
-          {
-            "value": "mizuki_em_1200",
-            "modifiers": {
-              "eleMas": 120.0
-            }
-          }
-        ]
-      },
-      {
-        "conditionKey": "c2YourEchoIMeetInDreams",
-        "source": "Yumemizuki Mizuki",
-        "description": "C2: when Mizuki enters the Dreamdrifter state, every point of HER Elemental Mastery increases all nearby party members' Pyro/Hydro/Cryo/Electro DMG Bonus by 0.04%, until the state ends. Type Mizuki's EM into the input; leaving it blank assumes 1000 EM.",
-        "gating": {
-          "constellationMin": 2
-        },
-        "statInput": {
-          "stat": "eleMas",
-          "default": 1000,
-          "max": 3000,
-          "ratesPerUnit": {
-            "pyro_dmg_": 0.0004,
-            "hydro_dmg_": 0.0004,
-            "cryo_dmg_": 0.0004,
-            "electro_dmg_": 0.0004
-          }
-        },
-        "states": [
-          {
-            "value": "mizuki_em_1000",
-            "modifiers": {
-              "pyro_dmg_": 0.4,
-              "hydro_dmg_": 0.4,
-              "cryo_dmg_": 0.4,
-              "electro_dmg_": 0.4
             }
           }
         ]
@@ -416,6 +385,69 @@
           }
         },
         "states": []
+      },
+      {
+        "conditionKey": "passive4VastBeTheDreamEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "Vast Be the Dream (Hexerei rite): while Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is increased by 10% of HER Elemental Mastery. Type Mizuki's EM into the input for an exact value; leaving it blank assumes 1000 EM. Others scope: offered only when Mizuki is a teammate, since the typed EM is hers and not the scored build's. The self half reads her live EM instead.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": {
+            "eleMas": 0.1
+          }
+        },
+        "states": [
+          {
+            "value": "mizuki_em_800",
+            "modifiers": {
+              "eleMas": 80.0
+            }
+          },
+          {
+            "value": "mizuki_em_1000",
+            "modifiers": {
+              "eleMas": 100.0
+            }
+          },
+          {
+            "value": "mizuki_em_1200",
+            "modifiers": {
+              "eleMas": 120.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2YourEchoIMeetInDreams",
+        "source": "Yumemizuki Mizuki",
+        "description": "C2: when Mizuki enters the Dreamdrifter state, every point of HER Elemental Mastery increases all nearby party members' Pyro/Hydro/Cryo/Electro DMG Bonus by 0.04%, until the state ends. Type Mizuki's EM into the input; leaving it blank assumes 1000 EM. Others scope: offered only when Mizuki is a teammate, since the typed EM is hers and not the scored build's. The self half reads her live EM instead.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 3000,
+          "ratesPerUnit": {
+            "pyro_dmg_": 0.0004,
+            "hydro_dmg_": 0.0004,
+            "cryo_dmg_": 0.0004,
+            "electro_dmg_": 0.0004
+          }
+        },
+        "states": [
+          {
+            "value": "mizuki_em_1000",
+            "modifiers": {
+              "pyro_dmg_": 0.4,
+              "hydro_dmg_": 0.4,
+              "cryo_dmg_": 0.4,
+              "electro_dmg_": 0.4
+            }
+          }
+        ]
       }
     ]
   }
