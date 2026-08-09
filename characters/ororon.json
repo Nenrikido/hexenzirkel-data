@@ -9,7 +9,6 @@
     "burst": 3,
     "skill": 5
   },
-  "nation": "natlan",
   "base_stats_json": {
     "baseHp": 9243.6775167,
     "baseAtk": 244.2567708,

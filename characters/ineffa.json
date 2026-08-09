@@ -6,7 +6,7 @@
   "element": "electro",
   "weapon_type": "polearm",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "nod_krai",
+  "enables": "moonsign",
   "base_stats_json": {
     "baseHp": 12613.288084400001,
     "baseAtk": 330.06616240000005,

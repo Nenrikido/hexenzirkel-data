@@ -9,7 +9,6 @@
     "auto": 3,
     "burst": 5
   },
-  "nation": "fontaine",
   "base_stats_json": {
     "baseHp": 13592.9609628,
     "baseAtk": 310.931894,

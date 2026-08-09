@@ -6,7 +6,6 @@
   "element": "cryo",
   "weapon_type": "bow",
   "constellation_talent_boosts": {},
-  "nation": "ranger",
   "base_stats_json": {
     "baseHp": 10898.8604972,
     "baseAtk": 233.916456,

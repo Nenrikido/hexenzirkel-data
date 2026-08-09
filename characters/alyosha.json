@@ -5,7 +5,6 @@
   "character_key": "avatar_10000148",
   "element": "electro",
   "weapon_type": "polearm",
-  "nation": "snezhnaya",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 11962.4064649,

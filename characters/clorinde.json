@@ -6,7 +6,6 @@
   "element": "electro",
   "weapon_type": "sword",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "fontaine",
   "base_stats_json": {
     "baseHp": 12956.173074,
     "baseAtk": 337.241514,

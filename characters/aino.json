@@ -9,7 +9,7 @@
     "skill": 5,
     "burst": 3
   },
-  "nation": "nod_krai",
+  "enables": "moonsign",
   "base_stats_json": {
     "baseHp": 11201.1621003,
     "baseAtk": 242.13280088,

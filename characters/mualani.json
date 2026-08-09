@@ -6,7 +6,6 @@
   "element": "hydro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "natlan",
   "base_stats_json": {
     "baseHp": 15184.929315,
     "baseAtk": 181.775567,

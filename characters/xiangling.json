@@ -6,7 +6,6 @@
   "element": "pyro",
   "weapon_type": "polearm",
   "constellation_talent_boosts": { "burst": 3, "skill": 5 },
-  "nation": "liyue",
   "base_stats_json": {
     "baseHp": 10874.9149,
     "baseAtk": 225.141022,

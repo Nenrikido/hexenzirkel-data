@@ -5,7 +5,6 @@
   "character_key": "avatar_10000047",
   "element": "anemo",
   "weapon_type": "sword",
-  "nation": "inazuma",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
   "base_stats_json": {
     "baseHp": 13348.0428,

@@ -9,7 +9,6 @@
     "burst": 3,
     "skill": 5
   },
-  "nation": "mondstadt",
   "base_stats_json": {
     "baseHp": 13225.5835584,
     "baseAtk": 342.0250874,

@@ -6,7 +6,7 @@
   "element": "hydro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "nod_krai",
+  "enables": "moonsign",
   "base_stats_json": {
     "baseHp": 14695.093175999998,
     "baseAtk": 95.67135200000001,

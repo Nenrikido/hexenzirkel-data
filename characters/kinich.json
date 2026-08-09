@@ -6,7 +6,6 @@
   "element": "dendro",
   "weapon_type": "claymore",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "natlan",
   "base_stats_json": {
     "baseHp": 12858.206654,
     "baseAtk": 332.4579502,

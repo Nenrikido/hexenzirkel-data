@@ -3,6 +3,7 @@
   "go_key": "Sandrone",
   "avatar_id": 10000133,
   "character_key": "avatar_10000133",
+  "enables": "stellar",
   "element": "cryo",
   "weapon_type": "claymore",
   "constellation_talent_boosts": { "auto": 3, "burst": 5 },

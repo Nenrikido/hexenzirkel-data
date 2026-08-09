@@ -9,7 +9,6 @@
     "skill": 3,
     "burst": 5
   },
-  "nation": "fontaine",
   "base_stats_json": {
     "baseHp": 12650.0258001,
     "baseAtk": 351.5922196,

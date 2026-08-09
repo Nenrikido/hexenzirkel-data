@@ -6,7 +6,7 @@
   "element": "dendro",
   "weapon_type": "catalyst",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "nod_krai",
+  "enables": "moonsign",
   "base_stats_json": {
     "baseHp": 12703.9082338,
     "baseAtk": 344.4168692,

@@ -5,7 +5,7 @@
   "character_key": "avatar_1000000505",
   "element": "cryo",
   "weapon_type": "sword",
-  "nation": null,
+  "enables": "stellar",
   "constellation_talent_boosts": { "burst": 3, "skill": 5 },
   "base_stats_json": {
     "baseHp": 10874.914859,

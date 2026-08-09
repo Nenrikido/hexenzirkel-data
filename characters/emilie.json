@@ -6,7 +6,6 @@
   "element": "dendro",
   "weapon_type": "polearm",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "fontaine",
   "base_stats_json": {
     "baseHp": 13568.469685,
     "baseAtk": 334.849732,

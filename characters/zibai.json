@@ -6,7 +6,7 @@
   "element": "geo",
   "weapon_type": "sword",
   "constellation_talent_boosts": { "skill": 3, "burst": 5 },
-  "nation": "nod_krai",
+  "enables": "moonsign",
   "base_stats_json": {
     "baseHp": 12919.435971400002,
     "baseAtk": 224.82766920000003,
