@@ -181,6 +181,53 @@
             "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
           }
         ]
+      },
+      "c1StellarSwirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
+          }
+        ],
+        "stellarConductFlatComponents": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "c1_stellarSwirl_dmg_per_eleMas"
+          }
+        ]
+      },
+      "c1ExtraAttackDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "c1_extraAttack_dmg_per_eleMas"
+          }
+        ]
+      },
+      "c1ExtraAttackStellarSwirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "c1_extraAttackStellarSwirl_dmg_per_eleMas"
+          }
+        ]
       }
     },
     "burst": {
@@ -235,7 +282,10 @@
       "stellarSwirl_dmg_per_eleMas": 0.00045,
       "passive4_enhancedAnemo_dmg_per_eleMas": 10.0,
       "dreamdrifterDuration": 5.0,
-      "cooldown": 15.0
+      "cooldown": 15.0,
+      "c1_stellarSwirl_dmg_per_eleMas": 5.5,
+      "c1_extraAttack_dmg_per_eleMas": 10.0,
+      "c1_extraAttackStellarSwirl_dmg_per_eleMas": 4.0
     },
     "burst": {
       "skillDmg_mult": 1.69344,
@@ -331,6 +381,25 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "c6TheHeartLingersLongOwnCrit",
+        "source": "Yumemizuki Mizuki",
+        "description": "C6 The Heart Lingers Long, second half (added in the 7.0 rework — it is in the API's descriptionBuff field, not description): every point of HER Elemental Mastery above 500 gives +0.04% CRIT Rate and +0.16% CRIT DMG, capped at +20% and +80%, so both max out at 1,000 EM. Self scope with no others half: the clause buffs her own crit only, unlike the party Swirl/Stellar-Swirl crit buff in c6StellarSwirlCrit. The conversions read her live EM, so they see the A4 team share and her weapon's Dreamdrifter EM already applied, and the cap is computed per build — no stack states to pick.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_from_eleMas_excess500_": 0.0004,
+              "critRate_from_eleMas_excess500_cap_": 0.2,
+              "critDMG_from_eleMas_excess500_": 0.0016,
+              "critDMG_from_eleMas_excess500_cap_": 0.8
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
@@ -348,6 +417,26 @@
             "modifiers": {
               "stellarswirl_critRate_": 0.1,
               "stellarswirl_critDMG_": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2YourEchoIMeetInDreamsResShred",
+        "source": "Yumemizuki Mizuki",
+        "description": "C2 Your Echo I Meet in Dreams, second half (added in the 7.0 rework — it is in the API's descriptionBuff field, not description): while she is in the Dreamdrifter state, nearby opponents have their Pyro, Hydro, Cryo, Electro and Anemo RES lowered by 20%. Team scope and a fixed value, so unlike the DMG-bonus half of the same constellation it needs no self/others split: it does not read her Elemental Mastery, and the same entry serves whether she is the scored character or a teammate. Note it shreds Anemo too, so it applies to her own hits.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_enemyRes_": -0.2,
+              "hydro_enemyRes_": -0.2,
+              "cryo_enemyRes_": -0.2,
+              "electro_enemyRes_": -0.2,
+              "anemo_enemyRes_": -0.2
             }
           }
         ]
