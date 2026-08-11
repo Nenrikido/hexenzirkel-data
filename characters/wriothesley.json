@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
     "charged": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
     "plunging": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
       },
       "low": {
         "element": "cryo",
-        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "high": {
         "element": "cryo",
-        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "enhanced_0": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
       },
       "enhanced_1": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,7 +180,11 @@
       },
       "enhanced_2": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -146,7 +194,11 @@
       },
       "enhanced_3": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -156,7 +208,11 @@
       },
       "enhanced_4": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -168,7 +224,11 @@
     "burst": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -178,7 +238,11 @@
       },
       "bladeDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -190,7 +254,11 @@
     "passive1": {
       "hit3": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -200,7 +268,11 @@
       },
       "hit5": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -210,7 +282,11 @@
       },
       "lusterDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -285,12 +361,57 @@
         "source": "Wriothesley",
         "description": "A4 There Shall Be a Reckoning for Sin: while in the Chilling Penalty state conferred by Icefang Rush (Elemental Burst), each change in Wriothesley's current HP grants a stack of Prosecution Edict (max 5 stacks), each increasing his own ATK by 6%.",
         "states": [
-          { "value": "0", "modifiers": {} },
-          { "value": "1", "modifiers": { "atk_": 0.06 } },
-          { "value": "2", "modifiers": { "atk_": 0.12 } },
-          { "value": "3", "modifiers": { "atk_": 0.18 } },
-          { "value": "4", "modifiers": { "atk_": 0.24 } },
-          { "value": "5", "modifiers": { "atk_": 0.3 } }
+          {
+            "value": "0",
+            "modifiers": {}
+          },
+          {
+            "value": "1",
+            "modifiers": {
+              "atk_": 0.06
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "atk_": 0.12
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "atk_": 0.18
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "atk_": 0.24
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "atk_": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1TerrorForTheEvildoersRadiance",
+        "source": "Wriothesley",
+        "description": "C1 Terror for the Evildoers, Radiance: Stellar-Conduct half (7.0 rework — it is in the API's descriptionBuff field, not description). Two reciprocal 5s windows: a Luster: Vaulting Fist hit makes the next Chilling-Penalty fifth Repelling Fist deal 50% increased Stellar-Conduct DMG, and a fifth Repelling Fist hit makes Luster: Vaulting Fists deal 50% increased DMG. Scoped per hit via the <hitKey>_stellarconduct_dmg_ keys so it reaches passive1.hit5 and passive1.lusterDmg only — the plain bucket would also buff passive1.hit3, which C1 does not touch. Both go in the Stellar reaction bracket beside the kit's own 'deals 30% increased Stellar-Conduct DMG' (talent 9), which is the same wording; the second bullet drops the 'Stellar-Conduct' qualifier, but under Radiance Luster IS the Stellar instance, so it is read as the same bucket. In an alternating N5/Charged combo each attack primes the other, so both windows hold for every instance after the first fifth Repelling Fist of the rotation.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hit5_stellarconduct_dmg_": 0.5,
+              "lusterdmg_stellarconduct_dmg_": 0.5
+            }
+          }
         ]
       }
     ],
