@@ -10,9 +10,10 @@
     "skill": 5
   },
   "base_stats_json": {
-    "baseHp": 10874.914859,
-    "baseAtk": 212.397192,
+    "baseHp": 10924.914859,
+    "baseAtk": 222.397192,
     "baseDef": 682.521525,
+    "baseEleMas": 15.0,
     "ascStatKey": "atk_",
     "ascStatValue": 0.24
   },
@@ -204,9 +205,21 @@
     "burst": {
       "dmg_mult": 1.4544
     },
+    "passive": {
+      "foreignResonance_anemo_critRate_": 0.1,
+      "foreignResonance_geo_def_": 0.2,
+      "foreignResonance_electro_enerRech_": 0.2,
+      "foreignResonance_dendro_eleMas": 60.0,
+      "foreignResonance_hydro_hp_": 0.2,
+      "foreignResonance_pyro_atk_": 0.2,
+      "foreignResonance_cryo_critDMG_": 0.2,
+      "foreignWindwrath_whirlwind_dmgIncFromAtk_": 0.6,
+      "foreignWindwrath_bladeWind_atkRatio": 0.5,
+      "foreignWindwrath_cooldown": 15.0
+    },
     "source": {
       "goCharacterKey": "TravelerAnemoF",
-      "note": "Traveler (anemo) — one character per element; both twins map here. Generated from Genshin Optimizer sheets + allStat_gen skillParam at Lv10. Hit keys match GO target paths; multKey = <hitKey>_mult. Enka ingestion maps avatarId 10000005/10000007 + skillDepotId to this synthetic avatar_id. Unparsed GO formulas: ['burst.absorb: skipped (helper/cond formula)', 'skill.initial_ele_dmg: skipped (helper/cond formula)', 'skill.max_ele_dmg: skipped (helper/cond formula)', 'skill.storm_ele_dmg: skipped (helper/cond formula)', 'skill.storm_ele_max: skipped (helper/cond formula)'].",
+      "note": "Traveler (anemo) — one character per element; both twins map here. Generated from Genshin Optimizer sheets + allStat_gen skillParam at Lv10. Hit keys match GO target paths; multKey = <hitKey>_mult. Enka ingestion maps avatarId 10000005/10000007 + skillDepotId to this synthetic avatar_id. Unparsed GO formulas: ['burst.absorb: skipped (helper/cond formula)', 'skill.initial_ele_dmg: skipped (helper/cond formula)', 'skill.max_ele_dmg: skipped (helper/cond formula)', 'skill.storm_ele_dmg: skipped (helper/cond formula)', 'skill.storm_ele_max: skipped (helper/cond formula)']. ADDITIONAL BUFF EFFECTS, added 2026-08-14: the quest-unlocked passive 'Foreign Windwrath' (nanoka passives[].unlock [603101]; the stat list itself lives in the in-game glossary, nanoka hyperlink.json entry 10050001, NOT in the passive's own description) grants the Traveler one permanent stat bonus PER ELEMENT THEY HAVE RESONATED WITH: Anemo +10% CRIT Rate, Geo +20% DEF, Electro +20% Energy Recharge, Dendro +60 Elemental Mastery, Hydro +20% HP, Pyro +20% ATK, Cryo +20% CRIT DMG — the same seven values are param[0..6] of every Traveler's Foreign passive. All seven are seeded unconditionally in self_modifiers_json, i.e. ASSUMING A FULLY-RESONATED ACCOUNT: Enka exposes neither the resonance list nor whether the passive is unlocked, so there is nothing to gate on. (fightPropMap does include passive stat bonuses — Kokomi's -100% CRIT Rate shows up there — but the evaluator rebuilds stats from sources via build_base_stats_from_sources and never reads fightPropMap, which is why every unconditional passive stat effect has to be seeded like this.) NOT MODELLED: the same passive's special Charged Attack: Whirlwind (+60% ATK on each CA hit, plus one 50%-ATK elemental Blade Wind per consumed Blade of the Dawn Breeze stack, once per 15s) — a separate damage instance that would need its own hit definitions. QUEST BASE-STAT BONUSES, added 2026-08-14: base_stats_json above is deliberately NOT the raw game curve value. The Traveler carries three permanent quest rewards: +3 Base ATK from Activated Canned Knowledge (Archon Quest Ch. III Act I 'Ever So Close', step 5) and +7 Base ATK / +15 Elemental Mastery / +50 Base HP from Special Training in Skirk's Story Quest (Crystallina Ch. Act I, steps 2/6/9). So baseAtk 212.397192 -> 222.397192, baseHp 10874.914859 -> 10924.914859, and baseEleMas 15 (the only character in this seed set with a non-zero base EM). Verified against Enka: over all 338 level-90 builds in the local DB, the Traveler is the ONLY character whose fightPropMap base HP differs from its seed (by exactly +50.00), whose base-ATK residual exceeds weapon mainStatValue display rounding (+9.66), or whose EM carries an unexplained +15. These are flat and level-independent, so scale_base_stats_to_level will scale them by ~1.7% too much on a level-100 board (0.17 ATK / 0.85 HP) -- not worth a special case. DO NOT 'correct' these back to the nanoka/Amber curve values: the base-stat audit script will flag all seven travelers for exactly this.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -217,8 +230,25 @@
     }
   },
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "critRate_": 0.1,
+      "def_": 0.2,
+      "enerRech_": 0.2,
+      "eleMas": 60.0,
+      "hp_": 0.2,
+      "atk_": 0.2,
+      "critDMG_": 0.2
+    },
     "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "travelerAnemoC2UprisingWhirlwind",
+        "source": "Traveler (Anemo)",
+        "description": "C2 Uprising Whirlwind: increases the Traveler's Energy Recharge by 16%. Unconditional once the constellation is owned, so it is a single always-on state gated on C2.",
+        "gating": { "constellationMin": 2 },
+        "states": [
+          { "value": "on", "modifiers": { "enerRech_": 0.16 } }
+        ]
+      },
       {
         "conditionKey": "travelerAnemoA1SlittingWind",
         "source": "Traveler (Anemo)",
@@ -229,7 +259,21 @@
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "travelerAnemoC6IntertwinedWinds",
+        "source": "Traveler (Anemo)",
+        "description": "C6 Intertwined Winds: targets that take DMG from the Elemental Burst Gust Surge have their Anemo RES decreased by 20%. The burst also decreases RES to its absorbed element by the same 20% — pick the state matching the element the vortex absorbed, since a leaderboard scenario knows which team it is run in.",
+        "gating": { "constellationMin": 6 },
+        "states": [
+          { "value": "anemo only", "modifiers": { "anemo_enemyRes_": -0.2 } },
+          { "value": "absorbed pyro", "modifiers": { "anemo_enemyRes_": -0.2, "pyro_enemyRes_": -0.2 } },
+          { "value": "absorbed hydro", "modifiers": { "anemo_enemyRes_": -0.2, "hydro_enemyRes_": -0.2 } },
+          { "value": "absorbed electro", "modifiers": { "anemo_enemyRes_": -0.2, "electro_enemyRes_": -0.2 } },
+          { "value": "absorbed cryo", "modifiers": { "anemo_enemyRes_": -0.2, "cryo_enemyRes_": -0.2 } }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }
