@@ -5,7 +5,10 @@
   "character_key": "avatar_10000148",
   "element": "electro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
+  "constellation_talent_boosts": {
+    "skill": 3,
+    "burst": 5
+  },
   "base_stats_json": {
     "baseHp": 11962.4064649,
     "baseAtk": 265.49649,
@@ -15,99 +18,216 @@
   },
   "hit_definitions_json": {
     "normal": {
-      "hit1Dmg": {
+      "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit1Dmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
       },
-      "hit2Dmg": {
+      "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit2Dmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
       },
-      "hit3aDmg": {
+      "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit3aDmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
       },
-      "hit3bDmg": {
+      "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit3bDmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
       },
-      "hit4Dmg": {
+      "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit4Dmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "4_mult"
+          }
+        ]
       }
     },
     "charged": {
-      "chargedDmg": {
+      "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "chargedDmg_mult" }]
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
       }
     },
     "plunging": {
-      "plungeDmg": {
+      "dmg": {
         "element": "physical",
         "plungeTier": "dmg",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plungeDmg_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
       },
-      "plungeLowDmg": {
+      "low": {
         "element": "physical",
         "plungeTier": "low",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plungeLowDmg_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ]
       },
-      "plungeHighDmg": {
+      "high": {
         "element": "physical",
         "plungeTier": "high",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plungeHighDmg_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ]
       }
     },
     "skill": {
       "pressDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "pressDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "pressDmg_mult"
+          }
+        ]
       },
       "holdDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "holdDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "holdDmg_mult"
+          }
+        ]
       }
     },
     "burst": {
       "fieldDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "fieldDmg_mult" }]
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "fieldDmg_mult"
+          }
+        ]
       },
       "tugarinDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "tugarinDmg_mult" }]
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "tugarinDmg_mult"
+          }
+        ]
       }
     }
   },
   "talent_multipliers_json": {
     "normal": {
-      "hit1Dmg_mult": 0.9452,
-      "hit2Dmg_mult": 0.952,
-      "hit3aDmg_mult": 0.6766,
-      "hit3bDmg_mult": 0.629,
-      "hit4Dmg_mult": 1.4994
+      "0_mult": 0.9452,
+      "1_mult": 0.952,
+      "2_mult": 0.6766,
+      "3_mult": 0.629,
+      "4_mult": 1.4994
     },
     "charged": {
-      "chargedDmg_mult": 2.1947
+      "dmg_mult": 2.1947
     },
     "plunging": {
-      "plungeDmg_mult": 1.26378,
-      "plungeLowDmg_mult": 2.527025,
-      "plungeHighDmg_mult": 3.15639
+      "dmg_mult": 1.26378,
+      "low_mult": 2.527025,
+      "high_mult": 3.15639
     },
     "skill": {
       "pressDmg_mult": 6.0928,
@@ -140,7 +260,7 @@
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000148.json",
-      "note": "Alyosha is not in Genshin Optimizer yet, so the hit keys are named to this repo's recent-character convention (hit1Dmg/hit2Dmg/hit3aDmg/hit3bDmg/hit4Dmg + chargedDmg + plungeDmg/plungeLowDmg/plungeHighDmg, cf. ineffa/flins/lohen) rather than copied from a GO sheet — they may need renaming when GO adds him. Charged/plunging live in their own sections (the sandrone convention) so the admin UI shows C/P rotation badges. Melee polearm, so NA/CA/plunge are physical. NOT MODELLED: A1 and C4 are pure healing; C1 is energy regen; C2 extends the burst duration and adds Hunter's Mark applications (a rotation-count effect, not a stat).",
+      "note": "Hit keys aligned with Genshin Optimizer (Alyosha sheet): normal 0-4, charged dmg, plunging dmg/low/high. skill (pressDmg/holdDmg) and burst (fieldDmg/tugarinDmg) already matched GO.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -148,7 +268,9 @@
         "skillTalentLevel": 13,
         "burstTalentLevel": 13,
         "note": "4-star convention: C6 assumed, so the constellation-boosted talents (C3 skill, C5 burst) are baked at Lv13 while Normal Attack stays Lv10."
-      }
+      },
+      "goAlignedAt": "2026-08-23",
+      "goRef": "frzyc/genshin-optimizer master (7.0)"
     }
   },
   "buffs": {
@@ -166,22 +288,48 @@
         "source": "avatar_10000148",
         "description": "Hunter's Precision: activating a Hunter's Mark (by re-applying the mark to an already-marked opponent, or via Tugarin) grants all nearby party members increased ATK for 15s. Skill Lv13 value. C6 lets the effect stack to 2.",
         "states": [
-          { "value": "1 stack", "modifiers": { "atk_": 0.25016 } },
-          { "value": "2 stacks (needs C6)", "modifiers": { "atk_": 0.50032 } }
+          {
+            "value": "1 stack",
+            "modifiers": {
+              "atk_": 0.25016
+            }
+          },
+          {
+            "value": "2 stacks (needs C6)",
+            "modifiers": {
+              "atk_": 0.50032
+            }
+          }
         ]
       },
       {
         "conditionKey": "c6HuntersPrecisionEleMas",
         "source": "avatar_10000148",
         "description": "C6 Standard Reclaimed: when Hunter's Precision reaches 2 stacks, currently active party members also gain +100 Elemental Mastery. Enable alongside the '2 stacks' state of huntersPrecisionAtk.",
-        "gating": { "constellationMin": 6 },
-        "states": [{ "value": "on", "modifiers": { "eleMas": 100.0 } }]
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 100.0
+            }
+          }
+        ]
       },
       {
         "conditionKey": "passive3IntoTheFrayStellarConduct",
         "source": "avatar_10000148",
         "description": "Into the Fray (Radiance: Stellar-Conduct, active while Alyosha is inside a Polestar Field): the Hunter's Precision effect gained when a Hunter's Mark is activated also increases Stellar-Conduct DMG dealt by all currently active party members by 20%.",
-        "states": [{ "value": "on", "modifiers": { "stellarconduct_dmg_": 0.2 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarconduct_dmg_": 0.2
+            }
+          }
+        ]
       }
     ],
     "others_modifiers_json": {},

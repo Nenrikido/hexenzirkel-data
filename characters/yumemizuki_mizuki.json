@@ -149,85 +149,6 @@
             "multKey": "contDmg_mult"
           }
         ]
-      },
-      "enhancedContDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "contDmg_mult"
-          },
-          {
-            "scalingKey": "eleMas",
-            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
-          }
-        ]
-      },
-      "stellarSwirlDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": [
-          "stellarswirl_dmg_",
-          "stellarglimmer_dmg_",
-          "reaction_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "eleMas",
-            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
-          }
-        ]
-      },
-      "c1StellarSwirlDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": [
-          "stellarswirl_dmg_",
-          "stellarglimmer_dmg_",
-          "reaction_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "eleMas",
-            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
-          }
-        ],
-        "stellarConductFlatComponents": [
-          {
-            "scalingKey": "eleMas",
-            "multKey": "c1_stellarSwirl_dmg_per_eleMas"
-          }
-        ]
-      },
-      "c1ExtraAttackDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": [
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "eleMas",
-            "multKey": "c1_extraAttack_dmg_per_eleMas"
-          }
-        ]
-      },
-      "c1ExtraAttackStellarSwirlDmg": {
-        "element": "anemo",
-        "dmgBonusKeys": [
-          "stellarswirl_dmg_",
-          "stellarglimmer_dmg_",
-          "reaction_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "eleMas",
-            "multKey": "c1_extraAttackStellarSwirl_dmg_per_eleMas"
-          }
-        ]
       }
     },
     "burst": {
@@ -259,6 +180,69 @@
           }
         ]
       }
+    },
+    "lockedPassive": {
+      "skillContDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "contDmg_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
+          }
+        ]
+      },
+      "skillContSsDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "passive4_enhancedAnemo_dmg_per_eleMas"
+          }
+        ]
+      }
+    },
+    "constellation1": {
+      "dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "c1_extraAttack_dmg_per_eleMas"
+          }
+        ]
+      },
+      "ssDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "c1_extraAttackStellarSwirl_dmg_per_eleMas"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -283,7 +267,6 @@
       "passive4_enhancedAnemo_dmg_per_eleMas": 10.0,
       "dreamdrifterDuration": 5.0,
       "cooldown": 15.0,
-      "c1_stellarSwirl_dmg_per_eleMas": 5.5,
       "c1_extraAttack_dmg_per_eleMas": 10.0,
       "c1_extraAttackStellarSwirl_dmg_per_eleMas": 4.0
     },
@@ -311,14 +294,24 @@
     },
     "source": {
       "goCharacterKey": "YumemizukiMizuki",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.snackHeal: skipped (helper/cond formula)', 'skill.swirl_dmg_: skipped (helper/cond formula)'].\n\n2026-08-07 re-check against nanoka 6.7.54 (https://static.nanoka.cc/gi/6.7.54/en/character/10000109.json) after her rework: base stats and EVERY Lv10 damage multiplier above are byte-identical to the live data, so the rework changed no damage numbers. What it added is Stellar Swirl, implemented 2026-08-09. Three of her four Stellar Swirl lines are now modelled as team conditionals: the skill's +0.045% per EM point (skillStellarSwirlDmgFromEleMas), C1's +550% EM flat increase (c1TwentyThreeNightsStellarSwirlDmgInc, as stellarswirl_dmgInc), and C6's +10%/+20% Stellar Swirl crit (c6StellarSwirlCrit). All three scale off HER EM, so the first two use statInput.\n\nSTILL NOT MODELLED, all of it the ordinary-Swirl half rather than the Stellar Swirl half: her skill buff 'Swirl DMG +0.45% per point of HER EM' (swirl_dmg_per_eleMas) has no swirl_dmg_ bucket to land in; C1's +1100% EM flat Swirl increase, same reason; C6's FIXED-crit Swirl (the batch evaluator's crit_kinds set excludes swirl_reaction, so a swirl rotation target cannot crit at all); passive4's two clauses ARE modelled since 2026-08-09, as skill.enhancedContDmg (the periodic Anemo tick plus 1,000% of her EM) and skill.stellarSwirlDmg (the extra Radiance: Stellar Swirl instance, pure 1,000% EM, carrying stellarswirl_dmg_). Both sit in the SKILL section so they can reuse contDmg_mult, which meant duplicating passive4_enhancedAnemo_dmg_per_eleMas from the passive block into it — component multKeys are resolved against the hit's OWN section only. Each fires once every 2.5s, so express the cadence as a rotation weight; the plain contDmg is the unenhanced tick. passive4's 10% EM share and C2's per-EM elemental DMG bonus are split self/others like the rest of her EM-scaled buffs (2026-08-09): the self halves read her live EM through eleMas_from_eleMas_capped_ and the <element>_dmg_from_eleMas family, the others halves keep the statInput. C2's self half is inert for her own damage — it buffs Pyro/Hydro/Cryo/Electro and her kit is Anemo — and is there for correctness.",
+      "note": "Targets aligned with Genshin Optimizer (YumemizukiMizuki sheet): the Revelation-enhanced continuous hits live in GO's lockedPassive section and the C1 extra attack in constellation1. c1StellarSwirlDmg dropped — GO models that as a DMG increase, already covered by the c1TwentyThreeNightsStellarSwirlDmgInc condition.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
         "autoTalentLevel": 10,
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
-      }
+      },
+      "goAlignedAt": "2026-08-23",
+      "goRef": "frzyc/genshin-optimizer master (7.0)"
+    },
+    "lockedPassive": {
+      "contDmg_mult": 0.808416,
+      "passive4_enhancedAnemo_dmg_per_eleMas": 10.0
+    },
+    "constellation1": {
+      "c1_extraAttack_dmg_per_eleMas": 10.0,
+      "c1_extraAttackStellarSwirl_dmg_per_eleMas": 4.0
     }
   },
   "buffs": {

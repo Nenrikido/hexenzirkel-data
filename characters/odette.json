@@ -6,7 +6,10 @@
   "element": "cryo",
   "weapon_type": "sword",
   "enables": "stellar",
-  "constellation_talent_boosts": { "skill": 3, "burst": 5 },
+  "constellation_talent_boosts": {
+    "skill": 3,
+    "burst": 5
+  },
   "base_stats_json": {
     "baseHp": 12980.6655888,
     "baseAtk": 334.849732,
@@ -16,193 +19,427 @@
   },
   "hit_definitions_json": {
     "normal": {
-      "hit1Dmg": {
+      "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit1Dmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
       },
-      "hit2Dmg": {
+      "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit2Dmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
       },
-      "hit3aDmg": {
+      "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit3aDmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
       },
-      "hit3bDmg": {
+      "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit3bDmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
       },
-      "hit4Dmg": {
+      "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit4Dmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "4_mult"
+          }
+        ]
       },
-      "hit5Dmg": {
+      "5": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit5Dmg_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "5_mult"
+          }
+        ]
       }
     },
     "charged": {
-      "chargedDmg": {
+      "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "chargedDmg_mult" }]
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
       }
     },
     "plunging": {
-      "plungeDmg": {
+      "dmg": {
         "element": "physical",
         "plungeTier": "dmg",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plungeDmg_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
       },
-      "plungeLowDmg": {
+      "low": {
         "element": "physical",
         "plungeTier": "low",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plungeLowDmg_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ]
       },
-      "plungeHighDmg": {
+      "high": {
         "element": "physical",
         "plungeTier": "high",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plungeHighDmg_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ]
       }
     },
     "skill": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "skillDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "skillDmg_mult"
+          }
+        ]
       },
       "codaDotDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "codaDotDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "codaDotDmg_mult"
+          }
+        ]
       },
-      "codaStellarDmg": {
+      "codaStellarconductDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "codaStellarDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "codaStellarconductDmg_mult"
+          }
+        ]
       },
-      "codaStellarSwirlDmg": {
+      "codaStellarswirlDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "codaStellarSwirlDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "codaStellarswirlDmg_mult"
+          }
+        ]
       },
       "plumeDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plumeDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plumeDmg_mult"
+          }
+        ]
       },
-      "plumeStellarDmg": {
+      "plumeStellarconductDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plumeStellarDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plumeStellarconductDmg_mult"
+          }
+        ]
       },
-      "plumeStellarSwirlDmg": {
+      "plumeStellarswirlDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "plumeStellarSwirlDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plumeStellarswirlDmg_mult"
+          }
+        ]
       },
       "wingDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "wingDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "wingDmg_mult"
+          }
+        ]
       },
-      "wingStellarDmg": {
+      "wingStellarconductDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "wingStellarDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "wingStellarconductDmg_mult"
+          }
+        ]
       },
-      "wingStellarSwirlDmg": {
+      "wingStellarswirlDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "wingStellarSwirlDmg_mult" }]
-      },
-      "c1CodaStellarDmg": {
-        "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "c1CodaStellarDmg_mult" }]
-      },
-      "c1CodaStellarSwirlDmg": {
-        "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "c1CodaStellarSwirlDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "wingStellarswirlDmg_mult"
+          }
+        ]
       }
     },
     "burst": {
       "slashDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "slashDmg_mult" }]
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "slashDmg_mult"
+          }
+        ]
       },
-      "finalSlashDmg": {
+      "finalDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "finalSlashDmg_mult" }]
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "finalDmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation1": {
+      "stellarconduct_dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "stellarconduct_dmg_mult"
+          }
+        ]
       },
-      "c4CoordinatedStellarDmg": {
+      "stellarswirl_dmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "c4CoordinatedStellarDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "stellarswirl_dmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation4": {
+      "stellarconduct_dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "stellarconduct_dmg_mult"
+          }
+        ]
       },
-      "c4CoordinatedStellarSwirlDmg": {
+      "stellarswirl_dmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "c4CoordinatedStellarSwirlDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "stellarswirl_dmg_mult"
+          }
+        ]
       }
     }
   },
   "talent_multipliers_json": {
     "normal": {
-      "hit1Dmg_mult": 1.025083,
-      "hit2Dmg_mult": 1.018232,
-      "hit3aDmg_mult": 0.64464,
-      "hit3bDmg_mult": 0.75667,
-      "hit4Dmg_mult": 1.474121,
-      "hit5Dmg_mult": 1.783266
+      "0_mult": 1.025083,
+      "1_mult": 1.018232,
+      "2_mult": 0.64464,
+      "3_mult": 0.75667,
+      "4_mult": 1.474121,
+      "5_mult": 1.783266
     },
     "charged": {
-      "chargedDmg_mult": 2.1233
+      "dmg_mult": 2.1233
     },
     "plunging": {
-      "plungeDmg_mult": 1.26378,
-      "plungeLowDmg_mult": 2.527025,
-      "plungeHighDmg_mult": 3.15639
+      "dmg_mult": 1.26378,
+      "low_mult": 2.527025,
+      "high_mult": 3.15639
     },
     "skill": {
       "skillDmg_mult": 1.94544,
       "codaDotDmg_mult": 1.72512,
-      "codaStellarDmg_mult": 5.50368,
-      "codaStellarSwirlDmg_mult": 8.25552,
       "plumeDmg_mult": 0.77472,
-      "plumeStellarDmg_mult": 0.486432,
-      "plumeStellarSwirlDmg_mult": 0.729504,
       "wingDmg_mult": 0.926352,
-      "wingStellarDmg_mult": 0.581616,
-      "wingStellarSwirlDmg_mult": 0.872352,
-      "c1CodaStellarDmg_mult": 3.0,
-      "c1CodaStellarSwirlDmg_mult": 4.5,
       "soloDanceDoubleDuration": 20.0,
       "cooldown": 15.0,
-      "codaCooldown": 15.0
+      "codaCooldown": 15.0,
+      "codaStellarconductDmg_mult": 5.50368,
+      "codaStellarswirlDmg_mult": 8.25552,
+      "plumeStellarconductDmg_mult": 0.486432,
+      "plumeStellarswirlDmg_mult": 0.729504,
+      "wingStellarconductDmg_mult": 0.581616,
+      "wingStellarswirlDmg_mult": 0.872352
     },
     "burst": {
       "slashDmg_mult": 1.983168,
-      "finalSlashDmg_mult": 3.064896,
-      "c4CoordinatedStellarDmg_mult": 0.66,
-      "c4CoordinatedStellarSwirlDmg_mult": 0.99,
       "snowSwansDreamStellarGlimmerDmg_": 0.5,
       "snowSwansDreamDuration": 20.0,
       "soloDanceDoubleDuration": 20.0,
       "cooldown": 15.0,
-      "energy_cost": 60.0
+      "energy_cost": 60.0,
+      "finalDmg_mult": 3.064896
     },
     "passive": {
       "a1_marvelousSplendor_stacks": 4.0,
@@ -227,14 +464,24 @@
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000150.json",
-      "note": "Odette is not in Genshin Optimizer yet, so hit keys follow this repo's recent-character convention (hit1Dmg.. + chargedDmg + plunge*Dmg, with the Stellar variants suffixed *StellarDmg as in sandrone.json) and may need renaming once GO adds her. Melee sword, so NA/CA/plunge are physical.\n\nIMPORTANT — 'Stellar Glimmer' is the umbrella term for BOTH Stellar-Conduct and Stellar Swirl (see the in-game glossary entry Radiance: Stellar Glimmer), so the DMG% bucket is split in two: buffs the kit words 'Stellar Glimmer' use stellarglimmer_dmg_ (reaches either reaction), buffs worded 'Stellar-Conduct' use stellarconduct_dmg_. Every one of Odette's buffs below is Glimmer-worded, so they all use the umbrella. Her *StellarDmg hit definitions are the Stellar-CONDUCT variants and carry BOTH keys, so both buckets reach them. Stellar Swirl was implemented 2026-08-09, so the *StellarSwirlDmg_mult multipliers now have hit definitions too (codaStellarSwirlDmg, plumeStellarSwirlDmg, wingStellarSwirlDmg, c1CodaStellarSwirlDmg, c4CoordinatedStellarSwirlDmg), carrying stellarswirl_dmg_ plus the umbrella. A hit's Conduct and Swirl forms are the SAME instance under different Radiance states — never put both in one rotation. The only assumed number is the EM-curve coefficient, which Swirl borrows from Conduct's 6.0 (see STELLAR_REACTION_EM_COEFF); it is still unpublished for either reaction.\n\nA4 Pathetique (Stellar Glimmer DMG +1.5% per 100 ATK above 1,000, cap +30%) is an UNCONDITIONAL self modifier using the stellarglimmer_dmg_from_atk_ / _cap_ conversion (STAT_CONVERSION_SPECS, source_offset=1000), so it reads the build's own live ATK — post-buff, and after the ATK conversions above it. It used to be three hand-picked admin states; do not re-add those, they would double-count.\n\npassive3 Stellar Jubilee's base-DMG term (+0.7% per 100 ATK, cap +14%, no threshold) is the same shape and now also scales off ATK, but it is scaled by ODETTE's ATK while buffing reactions a PARTY MEMBER triggers, so a live conversion is only correct when she is herself the scored character. It is therefore split into two conditions in different scopes, and the builder offers exactly one of them: passive3StellarJubileeOwnAtk (SELF scope, so main-slot only) carries the stellarglimmer_basedmg_from_atk_ / _cap_ conversion and reads the build's live ATK; passive3StellarJubileeSourceAtk (OTHERS scope, so support-slot only) carries a statInput where the admin types Odette's ATK, clamped at 2,000 (the cap). Two scopes rather than two states on one entry: extract_entity_conditionals_for_ui gives a main character self+team and a support team+others, so double-counting is impossible by construction. C2's 20% elemental RES shred is included; C6's 'no longer decreases' clause is an uptime statement, not a stat.",
+      "note": "Hit keys aligned with Genshin Optimizer (Odette sheet): normal 0-5, charged dmg, plunging dmg/low/high, Stellar variants spelled *Stellarconduct*/*Stellarswirl*, burst finalDmg. C1/C4 instances moved into GO's constellation1/constellation4 sections.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
         "autoTalentLevel": 10,
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
-      }
+      },
+      "goAlignedAt": "2026-08-23",
+      "goRef": "frzyc/genshin-optimizer master (7.0)"
+    },
+    "constellation1": {
+      "stellarconduct_dmg_mult": 3.0,
+      "stellarswirl_dmg_mult": 4.5
+    },
+    "constellation4": {
+      "stellarconduct_dmg_mult": 0.66,
+      "stellarswirl_dmg_mult": 0.99
     }
   },
   "buffs": {
@@ -247,14 +494,30 @@
         "conditionKey": "burstSnowSwansDream",
         "source": "avatar_10000150",
         "description": "Snow Swan's Dream (gained on Elemental Burst, 20s): increases the Stellar Glimmer reaction DMG Odette deals by 50% (burst Lv10).",
-        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c6OdetteStellarGlimmerDmg",
         "source": "avatar_10000150",
         "description": "C6: Stellar Glimmer reaction DMG dealt by Odette herself is elevated by an additional 20% (on top of the 25% all Marvelous Splendor holders get, which is the team-scope c6MarvelousSplendorStellarGlimmer entry).",
-        "gating": { "constellationMin": 6 },
-        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.2 } }]
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.2
+            }
+          }
+        ]
       },
       {
         "conditionKey": "passive3StellarJubileeOwnAtk",
@@ -264,7 +527,7 @@
           {
             "value": "on",
             "modifiers": {
-              "stellarglimmer_basedmg_from_atk_": 0.00007,
+              "stellarglimmer_basedmg_from_atk_": 7e-05,
               "stellarglimmer_basedmg_from_atk_cap_": 0.14
             }
           }
@@ -278,41 +541,111 @@
         "source": "avatar_10000150",
         "description": "A1 Spring Rite of the Chosen One: summoning the Solo Dance Double grants 4 stacks of Marvelous Splendor (6 at C1). Every active stack increases the holder's Stellar Glimmer DMG by 15%. Odette loses 1 stack/s while off-field (2/s at C1) and nearby party members gain them, so pick the average stack count the receiving character actually holds.",
         "states": [
-          { "value": "1 stack", "modifiers": { "stellarglimmer_dmg_": 0.15 } },
-          { "value": "2 stacks", "modifiers": { "stellarglimmer_dmg_": 0.3 } },
-          { "value": "3 stacks", "modifiers": { "stellarglimmer_dmg_": 0.45 } },
-          { "value": "4 stacks", "modifiers": { "stellarglimmer_dmg_": 0.6 } },
-          { "value": "5 stacks (needs C1)", "modifiers": { "stellarglimmer_dmg_": 0.75 } },
-          { "value": "6 stacks (needs C1)", "modifiers": { "stellarglimmer_dmg_": 0.9 } }
+          {
+            "value": "1 stack",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.15
+            }
+          },
+          {
+            "value": "2 stacks",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.3
+            }
+          },
+          {
+            "value": "3 stacks",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.45
+            }
+          },
+          {
+            "value": "4 stacks",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.6
+            }
+          },
+          {
+            "value": "5 stacks (needs C1)",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.75
+            }
+          },
+          {
+            "value": "6 stacks (needs C1)",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.9
+            }
+          }
         ]
       },
       {
         "conditionKey": "c2MarvelousSplendorAtk",
         "source": "avatar_10000150",
         "description": "C2: every active stack of Marvelous Splendor also increases the holder's ATK by 7%. Pick the same stack count as marvelousSplendorStellarGlimmer.",
-        "gating": { "constellationMin": 2 },
+        "gating": {
+          "constellationMin": 2
+        },
         "states": [
-          { "value": "1 stack", "modifiers": { "atk_": 0.07 } },
-          { "value": "2 stacks", "modifiers": { "atk_": 0.14 } },
-          { "value": "3 stacks", "modifiers": { "atk_": 0.21 } },
-          { "value": "4 stacks", "modifiers": { "atk_": 0.28 } },
-          { "value": "5 stacks", "modifiers": { "atk_": 0.35 } },
-          { "value": "6 stacks", "modifiers": { "atk_": 0.42 } }
+          {
+            "value": "1 stack",
+            "modifiers": {
+              "atk_": 0.07
+            }
+          },
+          {
+            "value": "2 stacks",
+            "modifiers": {
+              "atk_": 0.14
+            }
+          },
+          {
+            "value": "3 stacks",
+            "modifiers": {
+              "atk_": 0.21
+            }
+          },
+          {
+            "value": "4 stacks",
+            "modifiers": {
+              "atk_": 0.28
+            }
+          },
+          {
+            "value": "5 stacks",
+            "modifiers": {
+              "atk_": 0.35
+            }
+          },
+          {
+            "value": "6 stacks",
+            "modifiers": {
+              "atk_": 0.42
+            }
+          }
         ]
       },
       {
         "conditionKey": "c2DanceDoubleResShred",
         "source": "avatar_10000150",
         "description": "C2: while Odette is in a Radiance: Stellar Glimmer state with a Solo Dance Double on the field, opponents near the Double have the corresponding Elemental RES lowered by 20% — Cryo and Electro under Radiance: Stellar-Conduct, Cryo and Anemo under Radiance: Stellar Swirl. Pick the state matching the rotation's Radiance type.",
-        "gating": { "constellationMin": 2 },
+        "gating": {
+          "constellationMin": 2
+        },
         "states": [
           {
             "value": "Stellar-Conduct (cryo + electro)",
-            "modifiers": { "cryo_enemyRes_": -0.2, "electro_enemyRes_": -0.2 }
+            "modifiers": {
+              "cryo_enemyRes_": -0.2,
+              "electro_enemyRes_": -0.2
+            }
           },
           {
             "value": "Stellar Swirl (cryo + anemo)",
-            "modifiers": { "cryo_enemyRes_": -0.2, "anemo_enemyRes_": -0.2 }
+            "modifiers": {
+              "cryo_enemyRes_": -0.2,
+              "anemo_enemyRes_": -0.2
+            }
           }
         ]
       },
@@ -320,15 +653,33 @@
         "conditionKey": "c4TeammateSnowSwansDream",
         "source": "avatar_10000150",
         "description": "C4: when Odette obtains Snow Swan's Dream, Stellar Glimmer reaction DMG dealt by OTHER nearby party members is increased by 50% of Snow Swan's Dream's effect, i.e. +25% at burst Lv10.",
-        "gating": { "constellationMin": 4 },
-        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.25 } }]
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.25
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c6MarvelousSplendorStellarGlimmer",
         "source": "avatar_10000150",
         "description": "C6: characters affected by Marvelous Splendor have the Stellar Glimmer reaction DMG they deal elevated by 25%.",
-        "gating": { "constellationMin": 6 },
-        "states": [{ "value": "on", "modifiers": { "stellarglimmer_dmg_": 0.25 } }]
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.25
+            }
+          }
+        ]
       }
     ],
     "others_modifiers_json": {},
@@ -341,7 +692,9 @@
           "stat": "atk",
           "default": 2000,
           "max": 2000,
-          "ratesPerUnit": { "stellarglimmer_basedmg_": 0.00007 }
+          "ratesPerUnit": {
+            "stellarglimmer_basedmg_": 7e-05
+          }
         },
         "states": []
       }

@@ -6,7 +6,10 @@
   "element": "cryo",
   "weapon_type": "sword",
   "enables": "stellar",
-  "constellation_talent_boosts": { "burst": 3, "skill": 5 },
+  "constellation_talent_boosts": {
+    "burst": 3,
+    "skill": 5
+  },
   "base_stats_json": {
     "baseHp": 10924.914859,
     "baseAtk": 222.397192,
@@ -19,71 +22,102 @@
     "normal": {
       "0": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "0_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
       },
       "1": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "1_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
       },
       "2": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "2_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
       },
       "3": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "3_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
       },
       "4": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "4_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "4_mult"
+          }
+        ]
       }
     },
     "charged": {
       "dmg1": {
         "element": "cryo",
-        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "dmg1_mult" }]
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg1_mult"
+          }
+        ]
       },
       "dmg2": {
         "element": "cryo",
-        "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "dmg2_mult" }]
-      },
-      "freezingIce1": {
-        "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
-          { "scalingKey": "atk", "multKey": "dmg1_mult" },
-          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
-        ]
-      },
-      "freezingIce2": {
-        "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [
-          { "scalingKey": "atk", "multKey": "dmg2_mult" },
-          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
-        ]
-      },
-      "freezingIceSwirl1": {
-        "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [
-          { "scalingKey": "atk", "multKey": "dmg1_mult" },
-          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
-        ]
-      },
-      "freezingIceSwirl2": {
-        "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
-        "components": [
-          { "scalingKey": "atk", "multKey": "dmg2_mult" },
-          { "scalingKey": "atk", "multKey": "freezingIceBonus_mult" }
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg2_mult"
+          }
         ]
       }
     },
@@ -91,49 +125,123 @@
       "dmg": {
         "element": "cryo",
         "plungeTier": "dmg",
-        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "dmg_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
       },
       "low": {
         "element": "cryo",
         "plungeTier": "low",
-        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "low_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ]
       },
       "high": {
         "element": "cryo",
         "plungeTier": "high",
-        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "high_mult" }]
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ]
       }
     },
     "skill": {
       "skillDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "skillDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "skillDmg_mult"
+          }
+        ]
       },
-      "iceCrystalDmg": {
+      "crystalDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "iceCrystalDmg_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "crystalDmg_mult"
+          }
+        ]
       }
     },
     "burst": {
       "javelinDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "javelinDmg_mult" }]
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "javelinDmg_mult"
+          }
+        ]
       },
-      "javelinStellarDmg": {
+      "javelinStellarconductDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "javelin_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "javelinStellarDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "javelin_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "javelinStellarconductDmg_mult"
+          }
+        ]
       },
-      "javelinStellarSwirlDmg": {
+      "javelinStellarswirlDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "javelin_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "javelinStellarSwirlDmg_mult" }]
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "javelin_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "javelinStellarswirlDmg_mult"
+          }
+        ]
       }
     }
   },
@@ -147,8 +255,7 @@
     },
     "charged": {
       "dmg1_mult": 1.105,
-      "dmg2_mult": 1.2002,
-      "freezingIceBonus_mult": 1.4
+      "dmg2_mult": 1.428
     },
     "plunging": {
       "dmg_mult": 1.26378,
@@ -157,21 +264,21 @@
     },
     "skill": {
       "skillDmg_mult": 1.65024,
-      "iceCrystalDmg_mult": 0.385056,
       "cooldown": 15.0,
-      "frostpierceStarDuration": 12.0
+      "frostpierceStarDuration": 12.0,
+      "crystalDmg_mult": 0.385056
     },
     "burst": {
       "javelinDmg_mult": 0.992358,
-      "javelinStellarDmg_mult": 0.661572,
-      "javelinStellarSwirlDmg_mult": 0.992358,
       "frostglowDmgBonus_": 0.049618,
       "frostglowStellarDmgBonus_": 0.033079,
       "frostglowStellarSwirlDmgBonus_": 0.049618,
       "strikeCount": 3.0,
       "additionalStrikesAtMaxStacks": 2.0,
       "cooldown": 15.0,
-      "energy_cost": 60.0
+      "energy_cost": 60.0,
+      "javelinStellarconductDmg_mult": 0.661572,
+      "javelinStellarswirlDmg_mult": 0.992358
     },
     "passive": {
       "a1_infusion_dmgIncFromAtk_": 0.8,
@@ -184,7 +291,7 @@
       "foreignResonance_hydro_hp_": 0.2,
       "foreignResonance_pyro_atk_": 0.2,
       "foreignResonance_cryo_critDMG_": 0.2,
-      "passive3_stellar_basedmg_per_atk": 0.000035,
+      "passive3_stellar_basedmg_per_atk": 3.5e-05,
       "passive3_stellar_basedmg_cap": 0.07,
       "passive4_freezingIce_dmgIncFromAtk_": 1.4,
       "passive4_freezingIce_cooldown": 15.0,
@@ -201,7 +308,7 @@
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000005-5.json",
-      "note": "Cryo Traveler (skillDepotId 505). Synthetic avatar_id 1000000505 = 1000000500 + depot suffix, matching the existing per-element traveler split; both twins share this row. Hit keys follow the existing traveler_*.json convention (normal 0-4, charged dmg1/dmg2, plunging dmg/low/high) rather than a GO sheet, since GO has not added this element yet. NOTE the constellation boosts are REVERSED from the other Travelers: C3 raises the BURST (Frostbound Javelin) and C5 the SKILL (Ice Fog Piercer). MODELLED 2026-08-09, having been listed here as gaps: (a) Frostglow's per-stack burst bonus, as the burstFrostglowStacks condition writing javelin_base_dmg_ (+5% of the javelin's base DMG per stack, 8 max) — scoped to the javelin by the javelin_dmg_ key in BASE_DMG_MULT_KEYS so it cannot leak onto Freezing Ice; (b) Charged Attack: Freezing Ice, as charged.freezingIce1/freezingIce2, each the ordinary CA multiplier PLUS freezingIceBonus_mult (1.4 x ATK) — the passive's +140% ATK applies to both CA hits — carrying only the Stellar keys, since under Radiance the attack IS a Stellar instance and the A1 +80% ATK explicitly does not apply to it (which is also why it must not carry charged_dmg_); (c) passive3 Stellar Jubilee, split self/others exactly like Odette's (see her file). A1's Cryo infusion IS baked in as of 2026-08-09 (NA, plain CA and plunge hit definitions are cryo/cryo_dmg_, not physical) — a deliberate departure from this repo's usual don't-bake-infusions rule, on the Xiao precedent: this Traveler's whole kit presumes Radiance, so a physical Normal is not a state that occurs. The a1EverKeenFrostInfusion condition therefore only carries the +80% ATK half. NOT MODELLED: there is no Cryo (non-Radiance) variant of Freezing Ice, which would need care to keep A1 off it. The Stellar SWIRL variants got their hit definitions when Stellar Swirl was implemented (2026-08-09): burst.javelinStellarSwirlDmg and charged.freezingIceSwirl1/2, the same instances under Radiance: Stellar Swirl instead of Stellar-Conduct. The swirl javelin carries javelin_dmg_ too, so burstFrostglowStacks feeds it identically — and correctly, since frostglowStellarSwirlDmgBonus_ is the same 5%-of-base per stack. Remember all three forms of an instance (Cryo / Conduct / Swirl) are mutually exclusive: never put more than one in a rotation. ADDITIONAL BUFF EFFECTS, added 2026-08-14: the quest-unlocked passive 'Foreign Permafrost' (nanoka passives[].unlock [603101]) opens with 'every Elemental Type the Traveler has resonated with now grants an additional enhancement effect' — the effects themselves are NOT in the passive text, they live in the in-game glossary (nanoka hyperlink.json entry 10050001) and in param[0..6], identical on all seven Travelers: Anemo +10% CRIT Rate, Geo +20% DEF, Electro +20% Energy Recharge, Dendro +60 Elemental Mastery, Hydro +20% HP, Pyro +20% ATK, Cryo +20% CRIT DMG. All seven are seeded unconditionally in self_modifiers_json, i.e. ASSUMING A FULLY-RESONATED ACCOUNT: Enka exposes neither the resonance list nor whether the passive is unlocked, so there is nothing to gate on. (fightPropMap does include passive stat bonuses — Kokomi's -100% CRIT Rate shows up there — but the evaluator rebuilds stats from sources via build_base_stats_from_sources and never reads fightPropMap, which is why every unconditional passive stat effect has to be seeded like this.) The rest of Foreign Permafrost (Icepoint stacks, Charged Attack: Freezing Ice) was already modelled above. QUEST BASE-STAT BONUSES, added 2026-08-14: base_stats_json above is deliberately NOT the raw game curve value. The Traveler carries three permanent quest rewards: +3 Base ATK from Activated Canned Knowledge (Archon Quest Ch. III Act I 'Ever So Close', step 5) and +7 Base ATK / +15 Elemental Mastery / +50 Base HP from Special Training in Skirk's Story Quest (Crystallina Ch. Act I, steps 2/6/9). So baseAtk 212.397192 -> 222.397192, baseHp 10874.914859 -> 10924.914859, and baseEleMas 15 (the only character in this seed set with a non-zero base EM). Verified against Enka: over all 338 level-90 builds in the local DB, the Traveler is the ONLY character whose fightPropMap base HP differs from its seed (by exactly +50.00), whose base-ATK residual exceeds weapon mainStatValue display rounding (+9.66), or whose EM carries an unexplained +15. These are flat and level-independent, so scale_base_stats_to_level will scale them by ~1.7% too much on a level-100 board (0.17 ATK / 0.85 HP) -- not worth a special case. DO NOT 'correct' these back to the nanoka/Amber curve values: the base-stat audit script will flag all seven travelers for exactly this.",
+      "note": "Targets aligned with Genshin Optimizer (TravelerCryoF/cryo sheet): skill crystalDmg, burst javelinStellarconductDmg/javelinStellarswirlDmg. The freezingIce* charged targets were removed — GO models Ever-Keen Frost as an 80%-of-ATK DMG increase on Normal/Charged/Plunging, which this file already carries as the a1EverKeenFrostInfusion condition. charged dmg2_mult corrected 1.2002 -> 1.428 to match GO skillParam auto[6] at Lv10 (the nanoka-derived value was off; the other 11 auto/skill multipliers matched GO exactly).",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -209,7 +316,9 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10,
         "note": "5-star convention: Lv10 / C0 (Travelers are QUALITY_ORANGE)."
-      }
+      },
+      "goAlignedAt": "2026-08-23",
+      "goRef": "frzyc/genshin-optimizer master (7.0)"
     }
   },
   "buffs": {
@@ -245,9 +354,24 @@
         "source": "avatar_1000000505",
         "description": "Frostglow stacks consumed by Frostbound Javelin (max 8): each adds 5% of the javelin's base DMG, so 8 stacks is +40%. Applied as javelin_base_dmg_, a base-DMG multiplier scoped to the javelin via its javelin_dmg_ key — Freezing Ice is a Stellar instance too and must not collect it. Consuming 8 stacks also raises the javelin from 3 to 5 DMG instances, which is a rotation weight rather than a modifier.",
         "states": [
-          { "value": "4 stacks (+20%)", "modifiers": { "javelin_base_dmg_": 0.2 } },
-          { "value": "6 stacks (+30%)", "modifiers": { "javelin_base_dmg_": 0.3 } },
-          { "value": "8 stacks (+40%, max)", "modifiers": { "javelin_base_dmg_": 0.4 } }
+          {
+            "value": "4 stacks (+20%)",
+            "modifiers": {
+              "javelin_base_dmg_": 0.2
+            }
+          },
+          {
+            "value": "6 stacks (+30%)",
+            "modifiers": {
+              "javelin_base_dmg_": 0.3
+            }
+          },
+          {
+            "value": "8 stacks (+40%, max)",
+            "modifiers": {
+              "javelin_base_dmg_": 0.4
+            }
+          }
         ]
       },
       {
@@ -258,7 +382,7 @@
           {
             "value": "on",
             "modifiers": {
-              "stellarglimmer_basedmg_from_atk_": 0.000035,
+              "stellarglimmer_basedmg_from_atk_": 3.5e-05,
               "stellarglimmer_basedmg_from_atk_cap_": 0.07
             }
           }
@@ -271,21 +395,50 @@
         "conditionKey": "c2FrostfallReverberationEleMas",
         "source": "avatar_1000000505",
         "description": "C2 Frostfall Reverberation: the active character gains +60 Elemental Mastery for 5s when an opponent is hit by an ice crystal from the Elemental Skill. If that character then triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the bonus is raised to 120 for the rest of its duration.",
-        "gating": { "constellationMin": 2 },
+        "gating": {
+          "constellationMin": 2
+        },
         "states": [
-          { "value": "base (60)", "modifiers": { "eleMas": 60.0 } },
-          { "value": "stellar glimmer triggered (120)", "modifiers": { "eleMas": 120.0 } }
+          {
+            "value": "base (60)",
+            "modifiers": {
+              "eleMas": 60.0
+            }
+          },
+          {
+            "value": "stellar glimmer triggered (120)",
+            "modifiers": {
+              "eleMas": 120.0
+            }
+          }
         ]
       },
       {
         "conditionKey": "c6BrumalGrimfrostStellarDmg",
         "source": "avatar_1000000505",
         "description": "C6 Brumal Grimfrost: every Frostglow stack consumed by the Elemental Burst increases Stellar Glimmer reaction DMG dealt by OTHER party members by 5% for 15s, up to +40% (8 stacks). Uses stellarglimmer_dmg_, so it is scoped to both Stellar reactions; Stellar Swirl DMG itself is still unimplemented, so there are no Swirl hits for it to land on yet.",
-        "gating": { "constellationMin": 6 },
+        "gating": {
+          "constellationMin": 6
+        },
         "states": [
-          { "value": "4 stacks (20%)", "modifiers": { "stellarglimmer_dmg_": 0.2 } },
-          { "value": "6 stacks (30%)", "modifiers": { "stellarglimmer_dmg_": 0.3 } },
-          { "value": "8 stacks (40%, max)", "modifiers": { "stellarglimmer_dmg_": 0.4 } }
+          {
+            "value": "4 stacks (20%)",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.2
+            }
+          },
+          {
+            "value": "6 stacks (30%)",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.3
+            }
+          },
+          {
+            "value": "8 stacks (40%, max)",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.4
+            }
+          }
         ]
       }
     ],
@@ -299,7 +452,9 @@
           "stat": "atk",
           "default": 2000,
           "max": 2000,
-          "ratesPerUnit": { "stellarglimmer_basedmg_": 0.000035 }
+          "ratesPerUnit": {
+            "stellarglimmer_basedmg_": 3.5e-05
+          }
         },
         "states": []
       }
