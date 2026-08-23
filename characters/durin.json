@@ -5,7 +5,10 @@
   "character_key": "avatar_10000123",
   "element": "pyro",
   "weapon_type": "sword",
-  "constellation_talent_boosts": { "skill": 5, "burst": 3 },
+  "constellation_talent_boosts": {
+    "skill": 5,
+    "burst": 3
+  },
   "base_stats_json": {
     "baseHp": 12429.5994322,
     "baseAtk": 346.808651,
@@ -17,7 +20,11 @@
     "normal": {
       "hit_1": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -27,7 +34,11 @@
       },
       "hit_2": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -37,7 +48,11 @@
       },
       "hit_3": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -51,7 +66,11 @@
       },
       "hit_4": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,7 +80,11 @@
       },
       "normal1": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,7 +94,11 @@
       },
       "normal2": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -81,7 +108,11 @@
       },
       "normal3": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,7 +126,11 @@
       },
       "normal4": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -105,7 +140,11 @@
       },
       "charged_1": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -115,7 +154,11 @@
       },
       "plunging_dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -125,7 +168,11 @@
       },
       "hit1Dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -135,7 +182,11 @@
       },
       "hit2Dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -145,7 +196,11 @@
       },
       "hit3Dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -159,7 +214,11 @@
       },
       "hit4Dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -169,7 +228,11 @@
       },
       "chargedDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -179,7 +242,11 @@
       },
       "plungeDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -191,7 +258,11 @@
     "skill": {
       "confirmation": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -201,7 +272,11 @@
       },
       "purityDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -211,7 +286,11 @@
       },
       "denial": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -229,7 +308,11 @@
       },
       "darkDmg1": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -239,7 +322,11 @@
       },
       "darkDmg2": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -249,7 +336,11 @@
       },
       "darkDmg3": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -259,7 +350,11 @@
       },
       "transmutationConfirmationDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -269,7 +364,11 @@
       },
       "transmutationDenialDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -287,7 +386,11 @@
       },
       "transmutation_confirmation_of_purity": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -297,7 +400,11 @@
       },
       "transmutation_denial_of_darkness": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -317,7 +424,11 @@
     "burst": {
       "purity": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -335,7 +446,11 @@
       },
       "purityDmg1": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -345,7 +460,11 @@
       },
       "purityDmg2": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -355,7 +474,11 @@
       },
       "purityDmg3": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -365,7 +488,11 @@
       },
       "darkness": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -383,8 +510,14 @@
       },
       "white_flame": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -404,8 +537,14 @@
       },
       "whiteDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -425,8 +564,14 @@
       },
       "dark_decay": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -446,7 +591,11 @@
       },
       "darkDmg1": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -456,7 +605,11 @@
       },
       "darkDmg2": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -466,7 +619,11 @@
       },
       "darkDmg3": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -476,8 +633,14 @@
       },
       "decayDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -497,7 +660,11 @@
       },
       "principleOfPurityDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -515,7 +682,11 @@
       },
       "principleOfDarknessDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -533,8 +704,14 @@
       },
       "dragonOfWhiteFlameDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -554,8 +731,14 @@
       },
       "dragonOfDarkDecayDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -575,7 +758,11 @@
       },
       "principle_of_purity_as_the_light_shifts": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -593,7 +780,11 @@
       },
       "principle_of_darkness_as_the_stars_smolder": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -611,8 +802,14 @@
       },
       "dragon_of_white_flame": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -632,8 +829,14 @@
       },
       "dragon_of_dark_decay": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["durin_a4_periodic_base_mult_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "durin_a4_periodic_base_mult_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -745,7 +948,14 @@
         "gating": {
           "constellationMin": 1
         },
-        "states": [{ "value": "on", "modifiers": { "burst_dmgIncFromAtk_": 1.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "burst_dmgIncFromAtk_": 1.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c6BurstDefIgnore",
@@ -755,8 +965,18 @@
           "constellationMin": 6
         },
         "states": [
-          { "value": "purity_form", "modifiers": { "defIgnore_": 0.3 } },
-          { "value": "darkness_form", "modifiers": { "defIgnore_": 0.7 } }
+          {
+            "value": "purity_form",
+            "modifiers": {
+              "defIgnore_": 0.3
+            }
+          },
+          {
+            "value": "darkness_form",
+            "modifiers": {
+              "defIgnore_": 0.7
+            }
+          }
         ]
       },
       {
@@ -766,7 +986,14 @@
         "gating": {
           "constellationMin": 4
         },
-        "states": [{ "value": "on", "modifiers": { "burst_dmg_": 0.4 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "burst_dmg_": 0.4
+            }
+          }
+        ]
       },
       {
         "conditionKey": "durinDarkDecayMode",
@@ -850,70 +1077,126 @@
         "gating": {
           "constellationMin": 6
         },
-        "states": [{ "value": "on", "modifiers": { "enemy_def_shred_": 0.3 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "enemy_def_shred_": 0.3
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c2UngroundVisions",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — for 20s after Durin uses his Elemental Burst, once nearby party members trigger Vaporize/Melt/Burning/Overloaded/Pyro Swirl/Pyro Crystallize (or deal Pyro/Dendro DMG to a Burning-affected opponent), all nearby party members gain +50% Pyro DMG *and* +50% DMG Bonus for the other element involved in that reaction, for 6s. The Pyro half is granted by every listed trigger. Enable EXACTLY ONE c2UngroundVisions* condition: this one is the Pyro-only case, and each c2UngroundVisions<Element> entry already includes the Pyro half on top of its own element. Enabling two of them double-counts the +50% Pyro DMG.",
+        "description": "C2 Unground Visions - the Pyro half, granted whenever ANY of the qualifying reactions happens (Vaporize/Melt/Burning/Overloaded/Pyro Swirl/Pyro Crystallize, or Pyro/Dendro DMG onto a Burning target): +50% Pyro DMG to all nearby party members. Enable this once, then add one c2UngroundVisions<Element> entry per reaction the rotation actually triggers - the halves are independent now, so combining them no longer double-counts the Pyro.",
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c2UngroundVisionsHydro",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — the Vaporize case: +50% Pyro DMG (always granted) and +50% Hydro DMG. Self-contained, so do NOT also enable c2UngroundVisions or another element entry — the Pyro half would be counted twice.",
+        "description": "C2 Unground Visions - the Hydro half: +50% Hydro DMG to all nearby party members. Pair it with c2UngroundVisions, which carries the +50% Pyro that every case grants; several element entries can be enabled together when the rotation triggers several reactions.",
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5, "hydro_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hydro_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c2UngroundVisionsCryo",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — the Melt case: +50% Pyro DMG (always granted) and +50% Cryo DMG. Self-contained, so do NOT also enable c2UngroundVisions or another element entry — the Pyro half would be counted twice.",
+        "description": "C2 Unground Visions - the Cryo half: +50% Cryo DMG to all nearby party members. Pair it with c2UngroundVisions, which carries the +50% Pyro that every case grants; several element entries can be enabled together when the rotation triggers several reactions.",
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5, "cryo_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "cryo_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c2UngroundVisionsElectro",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — the Overloaded case: +50% Pyro DMG (always granted) and +50% Electro DMG. Self-contained, so do NOT also enable c2UngroundVisions or another element entry — the Pyro half would be counted twice.",
+        "description": "C2 Unground Visions - the Electro half: +50% Electro DMG to all nearby party members. Pair it with c2UngroundVisions, which carries the +50% Pyro that every case grants; several element entries can be enabled together when the rotation triggers several reactions.",
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5, "electro_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "electro_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c2UngroundVisionsDendro",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — the Burning case (including Pyro/Dendro DMG onto a Burning-affected opponent): +50% Pyro DMG (always granted) and +50% Dendro DMG. Self-contained, so do NOT also enable c2UngroundVisions or another element entry — the Pyro half would be counted twice.",
+        "description": "C2 Unground Visions - the Dendro half: +50% Dendro DMG to all nearby party members. Pair it with c2UngroundVisions, which carries the +50% Pyro that every case grants; several element entries can be enabled together when the rotation triggers several reactions.",
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5, "dendro_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "dendro_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c2UngroundVisionsAnemo",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — the Pyro Swirl case: +50% Pyro DMG (always granted) and +50% Anemo DMG. Self-contained, so do NOT also enable c2UngroundVisions or another element entry — the Pyro half would be counted twice.",
+        "description": "C2 Unground Visions - the Anemo half: +50% Anemo DMG to all nearby party members. Pair it with c2UngroundVisions, which carries the +50% Pyro that every case grants; several element entries can be enabled together when the rotation triggers several reactions.",
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5, "anemo_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "anemo_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c2UngroundVisionsGeo",
         "source": "avatar_10000123",
-        "description": "C2: Unground Visions — the Pyro Crystallize case: +50% Pyro DMG (always granted) and +50% Geo DMG. Self-contained, so do NOT also enable c2UngroundVisions or another element entry — the Pyro half would be counted twice.",
+        "description": "C2 Unground Visions - the Geo half: +50% Geo DMG to all nearby party members. Pair it with c2UngroundVisions, which carries the +50% Pyro that every case grants; several element entries can be enabled together when the rotation triggers several reactions.",
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "pyro_dmg_": 0.5, "geo_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "geo_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "durinA1WhiteFlameResShred",

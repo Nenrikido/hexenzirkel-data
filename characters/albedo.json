@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
     "charged": {
       "dmg1": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -82,7 +106,11 @@
       },
       "dmg2": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -114,7 +150,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
     "skill": {
       "dmg": {
         "element": "geo",
-        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,7 +180,11 @@
       },
       "blossom": {
         "element": "geo",
-        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "def",
@@ -148,7 +196,11 @@
     "burst": {
       "dmg": {
         "element": "geo",
-        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -158,7 +210,11 @@
       },
       "blossom": {
         "element": "geo",
-        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -207,7 +263,21 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Albedo",
+        "conditionKey": "c1FlowerOfEden",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 Flower of Eden: using Abiogenesis: Solar Isotoma increases Albedo's own DEF by 50% for 20s. Matters because his Transient Blossoms and the Hexerei passive both scale off DEF.",
+        "states": {
+          "on": {
+            "def_": 0.5
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
@@ -217,9 +287,30 @@
         "states": [
           {
             "value": "on",
-            "modifiers": { "eleMas": 125 }
+            "modifiers": {
+              "eleMas": 125
+            }
           }
         ]
+      },
+      {
+        "source": "Albedo",
+        "conditionKey": "hexBookOfBlindingLightTeam",
+        "description": "Hexerei passive Book of Blinding Light (requires Witch's Homework and 2+ Hexerei characters): after Albedo creates a Solar Isotoma, all teammates gain +4% DMG per 1000 of his DEF, capped at 12%; a Silver Isotoma additionally grants Hexerei teammates +10% per 1000 DEF, capped at 30%. States are named for the DEF assumed — both caps land at 3000 DEF. Pick 'hexerei 3000def' when the scored character is itself Hexerei, otherwise the plain entry.",
+        "states": {
+          "2000def": {
+            "all_dmg_": 0.08
+          },
+          "3000def (cap)": {
+            "all_dmg_": 0.12
+          },
+          "hexerei 2000def": {
+            "all_dmg_": 0.28
+          },
+          "hexerei 3000def (cap)": {
+            "all_dmg_": 0.42
+          }
+        }
       }
     ],
     "others_modifiers_json": {},

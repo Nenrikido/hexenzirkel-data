@@ -13,25 +13,67 @@
       {
         "source": "12435",
         "conditionKey": "harmonicMovement",
-        "description": "R5 Day and Night in Counterpoint: every 10s the wielder cycles to the next Harmonic Movement — +36% ATK, then +240 Elemental Mastery, then +56% Stellar Glimmer reaction DMG. Pick whichever movement the scored damage window lands in. Triggering a Stellar Glimmer reaction grants a second 12s instance of the movement that is active at that moment, stacking with it (12s ICD) — the \"_contrapuntal\" states are that doubled value. Works off-field. The Stellar Glimmer DMG movement uses stellarglimmer_dmg_, the umbrella key covering both Stellar-Conduct and Stellar Swirl.",
+        "description": "Day and Night in Counterpoint: every 10s the wielder cycles to the next Harmonic Movement — +18%/+36% ATK, then +120/+240 Elemental Mastery, then +28%/+56% Stellar Glimmer reaction DMG (R1/R5). Each lasts 10s and it works off-field. Triggering a Stellar Glimmer reaction grants a second 12s instance of whichever movement is active, stacking with it (12s ICD) — the \"_contrapuntal\" states are that doubled value. Pick the movement the scored damage window lands in, or \"averaged\" for a third of each, since the three cycle deterministically over 30s. Note that averaging stats is not the same as averaging damage; prefer naming the movement when the rotation is short enough to sit inside one. The Stellar Glimmer movement uses stellarglimmer_dmg_, the umbrella key covering both Stellar-Conduct and Stellar Swirl.",
         "states": {
           "atk_movement": {
-            "atk_": 0.36
+            "atk_": 0.18
           },
           "em_movement": {
-            "eleMas": 240
+            "eleMas": 120.0
           },
           "glimmer_movement": {
-            "stellarglimmer_dmg_": 0.56
+            "stellarglimmer_dmg_": 0.28
           },
           "atk_movement_contrapuntal": {
-            "atk_": 0.72
+            "atk_": 0.36
           },
           "em_movement_contrapuntal": {
-            "eleMas": 480
+            "eleMas": 240.0
           },
           "glimmer_movement_contrapuntal": {
-            "stellarglimmer_dmg_": 1.12
+            "stellarglimmer_dmg_": 0.56
+          },
+          "averaged": {
+            "atk_": 0.06,
+            "eleMas": 40.0,
+            "stellarglimmer_dmg_": 0.093333
+          },
+          "averaged_contrapuntal": {
+            "atk_": 0.12,
+            "eleMas": 80.0,
+            "stellarglimmer_dmg_": 0.186666
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "atk_movement": {
+              "atk_": 0.36
+            },
+            "em_movement": {
+              "eleMas": 240.0
+            },
+            "glimmer_movement": {
+              "stellarglimmer_dmg_": 0.56
+            },
+            "atk_movement_contrapuntal": {
+              "atk_": 0.72
+            },
+            "em_movement_contrapuntal": {
+              "eleMas": 480.0
+            },
+            "glimmer_movement_contrapuntal": {
+              "stellarglimmer_dmg_": 1.12
+            },
+            "averaged": {
+              "atk_": 0.12,
+              "eleMas": 80.0,
+              "stellarglimmer_dmg_": 0.186667
+            },
+            "averaged_contrapuntal": {
+              "atk_": 0.24,
+              "eleMas": 160.0,
+              "stellarglimmer_dmg_": 0.373334
+            }
           }
         }
       }
@@ -41,7 +83,7 @@
   },
   "source": {
     "nanokaVersion": "6.7.54",
-    "refinementModelled": "R5",
-    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+    "refinementModelled": "R1 base + R5 tier",
+    "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs authored R1-in-states with an R5 refinementStates tier (2026-08-23), so a board can pick either; a 4* still defaults to R5, so resolved values are unchanged. R1 values cross-checked against GameWith/Icy Veins and are exactly half of R5."
   }
 }

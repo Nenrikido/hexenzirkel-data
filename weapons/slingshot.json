@@ -9,8 +9,39 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Slingshot",
+        "conditionKey": "slingshot_close_range",
+        "description": "If a Normal or Charged Attack hits within 0.3s of being fired, DMG +36% (R1) / +60% (R5); otherwise DMG -10% at every refinement. Pick \"close\" for the point-blank case the weapon is built around, \"far\" for the penalty. The bonus applies to Normal and Charged Attacks only, so it is keyed to those rather than all_dmg_. Set an uptime if a rotation lands only some of its shots inside the window.",
+        "states": {
+          "close": {
+            "normal_dmg_": 0.36,
+            "charged_dmg_": 0.36
+          },
+          "far": {
+            "normal_dmg_": -0.1,
+            "charged_dmg_": -0.1
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "close": {
+              "normal_dmg_": 0.6,
+              "charged_dmg_": 0.6
+            },
+            "far": {
+              "normal_dmg_": -0.1,
+              "charged_dmg_": -0.1
+            }
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "source": {
+    "note": "Passive added 2026-08-23 — the weapon had no buffs at all."
   }
 }

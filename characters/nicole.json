@@ -20,7 +20,11 @@
     "normal": {
       "hit1Dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -32,7 +36,11 @@
     "skill": {
       "skillDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -44,7 +52,11 @@
     "burst": {
       "hit1": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,31 +116,76 @@
         ],
         "constellationStates": {
           "C3": {
-            "off-field (Grace of Kenosis)": { "atk": 708 },
-            "on-field (Guidance of Theosis)": { "atk": 1008 }
+            "off-field (Grace of Kenosis)": {
+              "atk": 708
+            },
+            "on-field (Guidance of Theosis)": {
+              "atk": 1008
+            }
           }
         }
       },
       {
         "conditionKey": "c2GuidanceEnhance",
         "source": "Nicole",
-        "description": "C2: when a party member's Grace of Kenosis upgrades to Guidance of Theosis (via Nicole's Elemental Skill), they gain an additional 300 ATK, and nearby opponents' Elemental RES is decreased by 25%. The +300 ATK stacks on top of the base Grace of Kenosis/Guidance of Theosis ATK (nicoleElementalSkillAtkBuff).",
+        "description": "C2: when a party member's Grace of Kenosis upgrades to Guidance of Theosis (via Nicole's Elemental Skill) they gain an additional 300 ATK, and nearby opponents' RES is decreased by 25% to Pyro AND to the active character's element - not to every element, which is what this used to apply. Pick the state matching the on-field character's element; 'pyro' is the mono-Pyro case where the two coincide. The +300 ATK stacks on top of the base Grace of Kenosis/Guidance of Theosis ATK.",
         "gating": {
           "constellationMin": 2
         },
         "states": [
           {
-            "value": "on",
+            "value": "pyro",
+            "modifiers": {
+              "atk": 300,
+              "pyro_enemyRes_": -0.25
+            }
+          },
+          {
+            "value": "hydro",
             "modifiers": {
               "atk": 300,
               "pyro_enemyRes_": -0.25,
-              "hydro_enemyRes_": -0.25,
-              "electro_enemyRes_": -0.25,
-              "cryo_enemyRes_": -0.25,
-              "anemo_enemyRes_": -0.25,
-              "geo_enemyRes_": -0.25,
-              "dendro_enemyRes_": -0.25,
-              "physical_enemyRes_": -0.25
+              "hydro_enemyRes_": -0.25
+            }
+          },
+          {
+            "value": "electro",
+            "modifiers": {
+              "atk": 300,
+              "pyro_enemyRes_": -0.25,
+              "electro_enemyRes_": -0.25
+            }
+          },
+          {
+            "value": "cryo",
+            "modifiers": {
+              "atk": 300,
+              "pyro_enemyRes_": -0.25,
+              "cryo_enemyRes_": -0.25
+            }
+          },
+          {
+            "value": "anemo",
+            "modifiers": {
+              "atk": 300,
+              "pyro_enemyRes_": -0.25,
+              "anemo_enemyRes_": -0.25
+            }
+          },
+          {
+            "value": "geo",
+            "modifiers": {
+              "atk": 300,
+              "pyro_enemyRes_": -0.25,
+              "geo_enemyRes_": -0.25
+            }
+          },
+          {
+            "value": "dendro",
+            "modifiers": {
+              "atk": 300,
+              "pyro_enemyRes_": -0.25,
+              "dendro_enemyRes_": -0.25
             }
           }
         ]
@@ -192,7 +249,14 @@
         "gating": {
           "constellationMin": 6
         },
-        "states": [{ "value": "on", "modifiers": { "defIgnore_": 0.4 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "defIgnore_": 0.4
+            }
+          }
+        ]
       }
     ]
   }
