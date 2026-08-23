@@ -14,9 +14,37 @@
         "source": "13505",
         "conditionKey": "max_stacks",
         "description": "R1 Eagle Spear of Justice: on hit, ATK +3.2% for 6s (max 7 stacks). At max stacks, DMG dealt +12%. Modeled at full stacks: 7 x 3.2% ATK + 12% DMG.",
-        "modifiers": {
-          "atk_": 0.224,
-          "all_dmg_": 0.12
+        "states": {
+          "on": {
+            "atk_": 0.224,
+            "all_dmg_": 0.12
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "on": {
+              "atk_": 0.273,
+              "all_dmg_": 0.15
+            }
+          },
+          "R3": {
+            "on": {
+              "atk_": 0.322,
+              "all_dmg_": 0.18
+            }
+          },
+          "R4": {
+            "on": {
+              "atk_": 0.371,
+              "all_dmg_": 0.21
+            }
+          },
+          "R5": {
+            "on": {
+              "atk_": 0.42,
+              "all_dmg_": 0.24
+            }
+          }
         }
       }
     ],

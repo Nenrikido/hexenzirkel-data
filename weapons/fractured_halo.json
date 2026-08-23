@@ -18,8 +18,32 @@
         "source": "13515",
         "conditionKey": "electrifying_edict",
         "description": "R1: after using an Elemental Skill or Burst (ATK +24%), if the equipping character creates a Shield while that effect is active, all nearby party members gain Electrifying Edict: +40% Lunar-Charged DMG for 20s.",
-        "modifiers": {
-          "lunarcharged_dmg_": 0.4
+        "states": {
+          "on": {
+            "lunarcharged_dmg_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "on": {
+              "lunarcharged_dmg_": 0.5
+            }
+          },
+          "R3": {
+            "on": {
+              "lunarcharged_dmg_": 0.6
+            }
+          },
+          "R4": {
+            "on": {
+              "lunarcharged_dmg_": 0.7
+            }
+          },
+          "R5": {
+            "on": {
+              "lunarcharged_dmg_": 0.8
+            }
+          }
         }
       }
     ]

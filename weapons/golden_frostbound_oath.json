@@ -16,9 +16,37 @@
         "conditionKey": "frostboundOathSelf",
         "source": "15516",
         "description": "Golden Frostbound Oath passive (self): +40% Geo DMG and +40% Lunar-Crystallize DMG.",
-        "modifiers": {
-          "geo_dmg_": 0.4,
-          "lunarcrystallize_dmg_": 0.4
+        "states": {
+          "on": {
+            "geo_dmg_": 0.4,
+            "lunarcrystallize_dmg_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "on": {
+              "geo_dmg_": 0.5,
+              "lunarcrystallize_dmg_": 0.5
+            }
+          },
+          "R3": {
+            "on": {
+              "geo_dmg_": 0.6,
+              "lunarcrystallize_dmg_": 0.6
+            }
+          },
+          "R4": {
+            "on": {
+              "geo_dmg_": 0.7,
+              "lunarcrystallize_dmg_": 0.7
+            }
+          },
+          "R5": {
+            "on": {
+              "geo_dmg_": 0.8,
+              "lunarcrystallize_dmg_": 0.8
+            }
+          }
         }
       }
     ],
@@ -28,9 +56,37 @@
         "conditionKey": "frostboundOathTeam",
         "source": "15516",
         "description": "Golden Frostbound Oath passive (team): +20% Geo DMG and +20% Lunar-Crystallize DMG.",
-        "modifiers": {
-          "geo_dmg_": 0.2,
-          "lunarcrystallize_dmg_": 0.2
+        "states": {
+          "on": {
+            "geo_dmg_": 0.2,
+            "lunarcrystallize_dmg_": 0.2
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "on": {
+              "geo_dmg_": 0.25,
+              "lunarcrystallize_dmg_": 0.25
+            }
+          },
+          "R3": {
+            "on": {
+              "geo_dmg_": 0.3,
+              "lunarcrystallize_dmg_": 0.3
+            }
+          },
+          "R4": {
+            "on": {
+              "geo_dmg_": 0.35,
+              "lunarcrystallize_dmg_": 0.35
+            }
+          },
+          "R5": {
+            "on": {
+              "geo_dmg_": 0.4,
+              "lunarcrystallize_dmg_": 0.4
+            }
+          }
         }
       }
     ]

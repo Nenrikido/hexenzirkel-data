@@ -16,11 +16,47 @@
         "conditionKey": "bountiful sea sacred wine",
         "source": "NocturneCurtainCall",
         "description": "after triggering lunar reaction",
-        "modifiers": {
-          "hp_": 0.14,
-          "lunarbloom_critDMG_": 0.6,
-          "lunarcharged_critDMG_": 0.6,
-          "lunarcrystallize_critDMG_": 0.6
+        "states": {
+          "on": {
+            "hp_": 0.14,
+            "lunarbloom_critDMG_": 0.6,
+            "lunarcharged_critDMG_": 0.6,
+            "lunarcrystallize_critDMG_": 0.6
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "on": {
+              "hp_": 0.16,
+              "lunarbloom_critDMG_": 0.8,
+              "lunarcharged_critDMG_": 0.8,
+              "lunarcrystallize_critDMG_": 0.8
+            }
+          },
+          "R3": {
+            "on": {
+              "hp_": 0.18,
+              "lunarbloom_critDMG_": 1.0,
+              "lunarcharged_critDMG_": 1.0,
+              "lunarcrystallize_critDMG_": 1.0
+            }
+          },
+          "R4": {
+            "on": {
+              "hp_": 0.2,
+              "lunarbloom_critDMG_": 1.2,
+              "lunarcharged_critDMG_": 1.2,
+              "lunarcrystallize_critDMG_": 1.2
+            }
+          },
+          "R5": {
+            "on": {
+              "hp_": 0.22,
+              "lunarbloom_critDMG_": 1.4,
+              "lunarcharged_critDMG_": 1.4,
+              "lunarcrystallize_critDMG_": 1.4
+            }
+          }
         }
       }
     ],
