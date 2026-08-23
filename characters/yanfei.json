@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "pyro",
-        "dmgBonusKeys": ["normal_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -52,7 +64,11 @@
     "charged": {
       "0": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -62,7 +78,11 @@
       },
       "1": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
       },
       "2": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -82,7 +106,11 @@
       },
       "3": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -92,7 +120,11 @@
       },
       "4": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
     "plunging": {
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -114,7 +150,11 @@
       },
       "low": {
         "element": "pyro",
-        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -124,7 +164,11 @@
       },
       "high": {
         "element": "pyro",
-        "dmgBonusKeys": ["plunging_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,7 +180,11 @@
     "skill": {
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -148,7 +196,11 @@
     "burst": {
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -160,7 +212,11 @@
     "passive2": {
       "probabilistic_dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -171,7 +227,11 @@
       },
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -225,25 +285,72 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
+        "source": "Yanfei",
+        "conditionKey": "burstDoneDealChargedDmg",
+        "description": "Burst Done Deal: while Brilliance is active, Yanfei's Charged Attack DMG is increased by 62.2% (burst Lv13, the level this file stores the burst at since burst is her C5-boosted talent and 4-stars assume C6). Brilliance lasts 15s on a 20s cooldown, so set an uptime on this condition for the share of the rotation it actually covers rather than leaving it at full.",
+        "states": {
+          "on": {
+            "charged_dmg_": 0.622
+          }
+        }
+      },
+      {
         "conditionKey": "a1Proviso",
         "source": "Yanfei",
         "description": "A1 Proviso: when Yanfei consumes Scarlet Seals via a Charged Attack, each Seal consumed increases her Pyro DMG Bonus by 5% for 6s (base kit max 3 Seals; the 4th-Seal state requires C6 Extra Clause).",
         "states": [
-          { "value": "1 Seal", "modifiers": { "pyro_dmg_": 0.05 } },
-          { "value": "2 Seals", "modifiers": { "pyro_dmg_": 0.1 } },
-          { "value": "3 Seals", "modifiers": { "pyro_dmg_": 0.15 } },
-          { "value": "4 Seals (needs C6)", "modifiers": { "pyro_dmg_": 0.2 } }
+          {
+            "value": "1 Seal",
+            "modifiers": {
+              "pyro_dmg_": 0.05
+            }
+          },
+          {
+            "value": "2 Seals",
+            "modifiers": {
+              "pyro_dmg_": 0.1
+            }
+          },
+          {
+            "value": "3 Seals",
+            "modifiers": {
+              "pyro_dmg_": 0.15
+            }
+          },
+          {
+            "value": "4 Seals (needs C6)",
+            "modifiers": {
+              "pyro_dmg_": 0.2
+            }
+          }
         ]
       },
       {
         "conditionKey": "c2RightOfFinalInterpretation",
         "source": "Yanfei",
         "description": "C2 Right of Final Interpretation: increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP. Since the opponent is only under that threshold for part of a rotation, the partial-uptime states pro-rate the 20% by the share of the rotation spent below 50% HP.",
-        "gating": { "constellationMin": 2 },
+        "gating": {
+          "constellationMin": 2
+        },
         "states": [
-          { "value": "on (100% uptime)", "modifiers": { "charged_critRate_": 0.2 } },
-          { "value": "50% uptime", "modifiers": { "charged_critRate_": 0.1 } },
-          { "value": "30% uptime", "modifiers": { "charged_critRate_": 0.06 } }
+          {
+            "value": "on (100% uptime)",
+            "modifiers": {
+              "charged_critRate_": 0.2
+            }
+          },
+          {
+            "value": "50% uptime",
+            "modifiers": {
+              "charged_critRate_": 0.1
+            }
+          },
+          {
+            "value": "30% uptime",
+            "modifiers": {
+              "charged_critRate_": 0.06
+            }
+          }
         ]
       }
     ],
