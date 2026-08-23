@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -70,7 +90,11 @@
       },
       "5": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -82,7 +106,11 @@
     "charged": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
     "plunging": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "low": {
         "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -114,7 +150,11 @@
       },
       "high": {
         "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
     "skill": {
       "ringDmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -138,11 +182,73 @@
     "burst": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "passive1": {
+      "pyro": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "absorbedRingDmg_mult"
+          }
+        ]
+      },
+      "hydro": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "absorbedRingDmg_mult"
+          }
+        ]
+      },
+      "electro": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "absorbedRingDmg_mult"
+          }
+        ]
+      },
+      "cryo": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "absorbedRingDmg_mult"
           }
         ]
       }
@@ -171,9 +277,12 @@
     "burst": {
       "dmg_mult": 5.12261
     },
+    "passive1": {
+      "absorbedRingDmg_mult": 1.02272
+    },
     "source": {
       "goCharacterKey": "LanYan",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill.anemoShield: skipped (helper/cond formula)', 'skill.shield: skipped (helper/cond formula)'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill.anemoShield: skipped (helper/cond formula)', 'skill.shield: skipped (helper/cond formula)']. A1 'Two-Toned Fan' absorbed-element ring hit added 2026-08-23 as hit_definitions_json.passive1.<ele>, matching Genshin Optimizer's own target names (LanYan/index.tsx dmgFormulas.passive1 = objKeyMap(absorbableEle, ele => dmgNode('atk', dm.skill.ringDmg, 'skill', hitEle[ele], percent(dm.passive1.dmg)))). It is the SKILL's ring multiplier scaled by GO skillParam passive1[0][0] = 0.5, in the absorbed element, and it keeps the skill attack-type key because GO's move is 'skill' -- so absorbedRingDmg_mult is the resolved product 2.04544 x 0.5, the same store-the-product convention as Fischl's passive1.fullyAimedOz_mult (= fullyAimed_mult x 1.527). The four keys are GO's absorbableEle (pyro/hydro/electro/cryo); beta LB 866 / local LB 417 reference passive1/pyro.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -190,7 +299,14 @@
         "conditionKey": "a4FourSealingDivinationCharms",
         "source": "Lan Yan",
         "description": "A4 Four Sealing Divination Charms: when the Swallow-Wisp Shield undergoes Elemental Absorption (contact with Hydro/Pyro/Cryo/Electro) via the Elemental Skill's dash, the Feathermoon Rings thrown afterward additionally deal Elemental DMG equal to 50% of the ring's own DMG, in the absorbed element. Approximated as a flat +50% bonus to the skill's ring-throw hit (skill_dmg_), ignoring the elemental-type change of the bonus portion for simplicity. Requires an absorbable element to be present nearby.",
-        "states": [{ "value": "on", "modifiers": { "skill_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "skill_dmg_": 0.5
+            }
+          }
+        ]
       },
       {
         "conditionKey": "a5SkyfeatherEvilSubduingCharm",
@@ -199,7 +315,10 @@
         "states": [
           {
             "value": "active",
-            "modifiers": { "skill_dmgInc": 1545, "burst_dmgInc": 3870 }
+            "modifiers": {
+              "skill_dmgInc": 1545,
+              "burst_dmgInc": 3870
+            }
           }
         ]
       }
@@ -210,8 +329,17 @@
         "conditionKey": "c4DrakefalconBloodPearls",
         "source": "Lan Yan",
         "description": "C4 With Drakefalcon's Blood-Pearls Adorned: after using Lustrous Moonrise (Elemental Burst), all nearby party members gain +60 Elemental Mastery for 12s.",
-        "gating": { "constellationMin": 4 },
-        "states": [{ "value": "on", "modifiers": { "eleMas": 60 } }]
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 60
+            }
+          }
+        ]
       }
     ],
     "others_modifiers_json": {},

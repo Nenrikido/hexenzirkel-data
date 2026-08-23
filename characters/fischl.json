@@ -18,66 +18,316 @@
   },
   "hit_definitions_json": {
     "normal": {
-      "hit1Dmg": {
+      "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p0_mult"
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      },
+      "3": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
+      },
+      "4": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "4_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "aimed": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "aimed_mult"
+          }
+        ]
+      },
+      "fullyAimed": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "fullyAimed_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "low": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ]
+      },
+      "high": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
           }
         ]
       }
     },
     "skill": {
-      "skillDmg": {
+      "ozDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p0_mult"
+            "multKey": "ozDmg_mult"
+          }
+        ]
+      },
+      "summonDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "summonDmg_mult"
           }
         ]
       }
     },
     "burst": {
-      "hit1": {
+      "dmg": {
         "element": "electro",
-        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "p0_mult"
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "passive1": {
+      "fullyAimedOz": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "fullyAimedOz_mult"
+          }
+        ]
+      }
+    },
+    "passive2": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation1": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation4": {
+      "burstAdditionalDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "burstAdditionalDmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation6": {
+      "ozActiveCharDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "ozActiveCharDmg_mult"
           }
         ]
       }
     }
   },
   "talent_multipliers_json": {
-    "burst": {
-      "p0_mult": 4.42,
-      "p1_mult": 15.0,
-      "p2_mult": 60.0
+    "normal": {
+      "0_mult": 0.8721,
+      "1_mult": 0.9248,
+      "2_mult": 1.1492,
+      "3_mult": 1.1407,
+      "4_mult": 1.4246
+    },
+    "charged": {
+      "aimed_mult": 0.867,
+      "fullyAimed_mult": 2.232
+    },
+    "plunging": {
+      "dmg_mult": 1.12336,
+      "low_mult": 2.246244,
+      "high_mult": 2.80568
     },
     "skill": {
-      "p0_mult": 1.887,
-      "p1_mult": 2.4531,
-      "p2_mult": 10.0,
-      "p3_mult": 25.0,
-      "p4_mult": 8.0
+      "ozDmg_mult": 1.887,
+      "summonDmg_mult": 2.4531
     },
-    "normal": {
-      "p0_mult": 0.8721,
-      "p1_mult": 0.9248,
-      "p2_mult": 1.1492,
-      "p3_mult": 1.1407,
-      "p4_mult": 1.4246,
-      "p5_mult": 0.867,
-      "p6_mult": 2.232,
-      "p7_mult": 1.12336,
-      "p8_mult": 2.246244,
-      "p9_mult": 2.80568
+    "burst": {
+      "dmg_mult": 4.42
+    },
+    "passive1": {
+      "fullyAimedOz_mult": 3.408264
+    },
+    "passive2": {
+      "dmg_mult": 0.8
+    },
+    "constellation1": {
+      "dmg_mult": 0.22
+    },
+    "constellation4": {
+      "burstAdditionalDmg_mult": 2.22
+    },
+    "constellation6": {
+      "ozActiveCharDmg_mult": 0.3
     },
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
@@ -89,10 +339,9 @@
         "skillTalentLevel": 13
       },
       "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
-      "goCharacterKey": "Fischl"
-    },
-    "passive": {},
-    "constellation": {}
+      "goCharacterKey": "Fischl",
+      "note": "Hit definitions rebuilt 2026-08-23 from the GO Fischl sheet: the file had only 3 of her damage instances while the multipliers for the rest were already present as an unnamed p0..p9 dump. Normals 0-4, aimed/fullyAimed, plunging, Oz + summon, burst, A1, A4 and C1/C4/C6 are now all keyed. Levels unchanged (normals Lv10, skill+burst Lv13 for skill@C3 / burst@C5). C2's +200% addition to summonDmg is NOT modelled - it changes the multiplier, not a stat."
+    }
   },
   "buffs": {
     "self_modifiers_json": {},

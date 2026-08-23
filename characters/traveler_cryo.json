@@ -243,6 +243,80 @@
           }
         ]
       }
+    },
+    "lockedPassive": {
+      "stellarconductDmg1": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_dmgInc_mult"
+          }
+        ]
+      },
+      "stellarconductDmg2": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_dmgInc_mult"
+          }
+        ]
+      },
+      "stellarswirlDmg1": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg1_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_dmgInc_mult"
+          }
+        ]
+      },
+      "stellarswirlDmg2": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg2_mult"
+          },
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_dmgInc_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -305,10 +379,16 @@
       "c6_stellar_dmg_per_stack": 0.05,
       "c6_stellar_dmg_cap": 0.4
     },
+    "lockedPassive": {
+      "dmg1_mult": 1.105,
+      "dmg2_mult": 1.428,
+      "charged_dmgInc_mult": 1.4,
+      "cooldown": 15
+    },
     "source": {
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/6.7.54/en/character/10000005-5.json",
-      "note": "Targets aligned with Genshin Optimizer (TravelerCryoF/cryo sheet): skill crystalDmg, burst javelinStellarconductDmg/javelinStellarswirlDmg. The freezingIce* charged targets were removed — GO models Ever-Keen Frost as an 80%-of-ATK DMG increase on Normal/Charged/Plunging, which this file already carries as the a1EverKeenFrostInfusion condition. charged dmg2_mult corrected 1.2002 -> 1.428 to match GO skillParam auto[6] at Lv10 (the nanoka-derived value was off; the other 11 auto/skill multipliers matched GO exactly).",
+      "note": "Targets aligned with Genshin Optimizer (TravelerCryoF/cryo sheet): skill crystalDmg, burst javelinStellarconductDmg/javelinStellarswirlDmg. The freezingIce* charged targets were removed — GO models Ever-Keen Frost as an 80%-of-ATK DMG increase on Normal/Charged/Plunging, which this file already carries as the a1EverKeenFrostInfusion condition. charged dmg2_mult corrected 1.2002 -> 1.428 to match GO skillParam auto[6] at Lv10 (the nanoka-derived value was off; the other 11 auto/skill multipliers matched GO exactly). CHARGED ATTACK: FREEZING ICE, restored 2026-08-23 under GO's own names after the 7.0 pass dropped it: GO does model it, as the `lockedPassive` section (TravelerCryoF/cryo.tsx dmgFormulas.lockedPassive), not as part of Ever-Keen Frost. Seeded here as hit_definitions_json.lockedPassive.stellarconductDmg1/2 and stellarswirlDmg1/2 = the ordinary CA multiplier (auto[5]/auto[6]) PLUS charged_dmgInc_mult 1.4 x ATK (GO skillParam lockedPassive[7][0]), carrying only the Stellar keys. That 140% is a DIFFERENT effect from A1 Ever-Keen Frost's 80% (skillParam passive1[0][0], the a1EverKeenFrostInfusion condition): GO applies the two exclusively -- its lockedPassiveData premod subtracts a1ScStar_charged_dmgInc back out, with the comment \"A1 dmg inc doesn't apply to special CA\". Conflating them is what removed these targets in the first place. Multipliers are duplicated into talent_multipliers_json.lockedPassive because component multKeys resolve against the hit's own section only. GO's non-Radiance pair (lockedPassive.dmg1/dmg2, a plain Cryo CA whose charged_dmgInc is 1.4 x ATK instead of A1's 0.8) is still NOT modelled here -- no leaderboard scores the Traveler outside Radiance.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,

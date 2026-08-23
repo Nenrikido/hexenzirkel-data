@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
     "charged": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "press": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
       },
       "hold": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -138,7 +182,11 @@
     "burst": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -148,7 +196,11 @@
       },
       "dot": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -203,20 +255,40 @@
         "conditionKey": "shenheA1DeificEmbrace",
         "source": "Shenhe",
         "description": "A1 Deific Embrace: an active character standing within the field created by Divine Maiden's Deliverance (Elemental Burst) gains a 15% Cryo DMG Bonus.",
-        "states": [{ "value": "on", "modifiers": { "cryo_dmg_": 0.15 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "cryo_dmg_": 0.15
+            }
+          }
+        ]
       },
       {
         "conditionKey": "shenheA4SpiritCommunionSeal",
         "source": "Shenhe",
-        "description": "A4 Spirit Communion Seal: after Shenhe uses Spring Spirit Summoning (Elemental Skill), all nearby party members gain one of two mutually exclusive effects depending on press type: Tap grants Elemental Skill and Elemental Burst DMG +15% for 10s; Hold grants Normal, Charged, and Plunging Attack DMG +15% for 15s.",
+        "description": "A4 Spirit Communion Seal: Press grants the team +15% Elemental Skill and Burst DMG, Hold grants +15% Normal/Charged/Plunging DMG. They are alternatives at C0 because Shenhe has one skill charge — but C1 Clarity of Heart adds a second Press charge, so a C1+ rotation can land both seals and carry all five bonuses at once. Pick 'tapAndHold' for that.",
         "states": [
           {
             "value": "tap",
-            "modifiers": { "skill_dmg_": 0.15, "burst_dmg_": 0.15 }
+            "modifiers": {
+              "skill_dmg_": 0.15,
+              "burst_dmg_": 0.15
+            }
           },
           {
             "value": "hold",
             "modifiers": {
+              "normal_dmg_": 0.15,
+              "charged_dmg_": 0.15,
+              "plunging_dmg_": 0.15
+            }
+          },
+          {
+            "value": "tapAndHold",
+            "modifiers": {
+              "skill_dmg_": 0.15,
+              "burst_dmg_": 0.15,
               "normal_dmg_": 0.15,
               "charged_dmg_": 0.15,
               "plunging_dmg_": 0.15
