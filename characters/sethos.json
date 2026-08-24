@@ -91,10 +91,10 @@
         ]
       },
       "fullyAimed": {
-        "element": "physical",
+        "element": "electro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "electro_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -105,10 +105,10 @@
         ]
       },
       "shadow": {
-        "element": "physical",
+        "element": "electro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "electro_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -185,58 +185,74 @@
     },
     "burst": {
       "dusk_0": {
-        "element": "physical",
+        "element": "electro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "electro_dmg_",
           "all_dmg_"
         ],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "dusk_0_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "duskBolt_em_mult"
           }
         ]
       },
       "dusk_1": {
-        "element": "physical",
+        "element": "electro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "electro_dmg_",
           "all_dmg_"
         ],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "dusk_1_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "duskBolt_em_mult"
           }
         ]
       },
       "dusk_2": {
-        "element": "physical",
+        "element": "electro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "electro_dmg_",
           "all_dmg_"
         ],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "dusk_2_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "duskBolt_em_mult"
           }
         ]
       },
       "dusk_3": {
-        "element": "physical",
+        "element": "electro",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "electro_dmg_",
           "all_dmg_"
         ],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "dusk_3_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "duskBolt_em_mult"
           }
         ]
       }
@@ -267,7 +283,8 @@
       "dusk_0_mult": 1.260287,
       "dusk_1_mult": 0.570002,
       "dusk_2_mult": 0.637364,
-      "dusk_3_mult": 1.772239
+      "dusk_3_mult": 1.772239,
+      "duskBolt_em_mult": 4.1684
     },
     "source": {
       "goCharacterKey": "Sethos",
@@ -287,12 +304,12 @@
       {
         "conditionKey": "a4SandKingsBoonScorchingSandshade",
         "source": "Sethos",
-        "description": "A4 The Sand King's Boon: Sethos gains the Scorching Sandshade effect, increasing the DMG dealt by Shadowpiercing Shots (the burst's dusk_0-3 hits) by 700% of his Elemental Mastery. Modelled as charged_dmgIncFromEleMas_ = 7.0, which reads the scored build's OWN EM rather than the previous fixed 1400 (a 200 EM assumption that ignored the build entirely). The dusk hits carry charged_dmg_, so the ratio reaches them; ordinary Charged Attacks share that key and also receive it, which is faithful during the burst since Charged Attacks BECOME Shadowpiercing Shots. Narrower than the physical_dmgInc it replaces, which leaked onto Sethos's Normal and Plunging attacks too.",
+        "description": "A4 The Sand King's Boon: Sethos gains the Scorching Sandshade effect, increasing the DMG dealt by Shadowpiercing Shots by 700% of his Elemental Mastery. Scoped to the Shadowpiercing Shot hit alone (charged/shadow) via shadow_dmgIncFromEleMas_. It was previously charged_dmgIncFromEleMas_, which reached every hit carrying charged_dmg_ — the ordinary Aimed Shots and, worse, the burst's Dusk Bolts, which are a different attack the passive does not name and which cannot even coexist with a Shadowpiercing Shot (the burst state forbids Aimed Shots).",
         "states": [
           {
             "value": "on",
             "modifiers": {
-              "charged_dmgIncFromEleMas_": 7.0
+              "shadow_dmgIncFromEleMas_": 7.0
             }
           }
         ]
@@ -300,7 +317,7 @@
       {
         "conditionKey": "c1SealedShrineSpiritsongCritRate",
         "source": "Sethos",
-        "description": "C1 Sealed Shrine's Spiritsong: the CRIT Rate of Shadowpiercing Shot is increased by 15%.",
+        "description": "C1 Sealed Shrine's Spiritsong: the CRIT Rate of Shadowpiercing Shot is increased by 15%. Scoped to charged/shadow; it used to sit on the burst's dusk_0-3 hits, which are Dusk Bolts, not Shadowpiercing Shots.",
         "gating": {
           "constellationMin": 1
         },
@@ -308,10 +325,7 @@
           {
             "value": "on",
             "modifiers": {
-              "dusk_0_critRate_": 0.15,
-              "dusk_1_critRate_": 0.15,
-              "dusk_2_critRate_": 0.15,
-              "dusk_3_critRate_": 0.15
+              "shadow_critRate_": 0.15
             }
           }
         ]
