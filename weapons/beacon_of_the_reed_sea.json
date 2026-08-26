@@ -8,25 +8,54 @@
     "subStatValue": 0.330768
   },
   "buffs": {
-    "self_modifiers_json": {
-      "hp_": 0.32
-    },
+    "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
         "source": "BeaconOfTheReedSea",
-        "conditionKey": "beacon_of_the_reed_sea_desert_watch_atk",
-        "description": "Desert Watch (R1): ATK +20% for 8s after the wielder's Elemental Skill hits an opponent, and a further ATK +20% for 8s after the wielder takes DMG (both trigger off-field too). Modeled with both procs active simultaneously (+40%). The Max HP +32% (self_modifiers_json) assumes the wielder is not shielded, per its 'while not protected by a shield' condition. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "conditionKey": "beacon_after_skill_atk",
+        "description": "Aegis of Abyssal Fire, first ATK proc: after the wielder's Elemental Skill hits an opponent, ATK +20% (R1) for 8s. Triggers off-field too. Independent of the take-DMG proc below - a rotation may land one, the other, or both, so they are separate toggles rather than one combined +40% (which is what this entry used to be, forcing both on together). ATK% by refinement: 20/25/30/35/40.",
         "states": {
           "active": {
-            "atk_": 0.4
+            "atk_": 0.2
           }
         },
         "refinementStates": {
-          "R5": {
-            "active": {
-              "atk_": 0.8
-            }
+          "R2": { "active": { "atk_": 0.25 } },
+          "R3": { "active": { "atk_": 0.3 } },
+          "R4": { "active": { "atk_": 0.35 } },
+          "R5": { "active": { "atk_": 0.4 } }
+        }
+      },
+      {
+        "source": "BeaconOfTheReedSea",
+        "conditionKey": "beacon_after_damage_taken_atk",
+        "description": "Aegis of Abyssal Fire, second ATK proc: after the wielder takes DMG, ATK +20% (R1) for 8s. Triggers off-field too. Stacks additively with the Elemental Skill proc above; enable both to model the old combined +40%. ATK% by refinement: 20/25/30/35/40.",
+        "states": {
+          "active": {
+            "atk_": 0.2
           }
+        },
+        "refinementStates": {
+          "R2": { "active": { "atk_": 0.25 } },
+          "R3": { "active": { "atk_": 0.3 } },
+          "R4": { "active": { "atk_": 0.35 } },
+          "R5": { "active": { "atk_": 0.4 } }
+        }
+      },
+      {
+        "source": "BeaconOfTheReedSea",
+        "conditionKey": "beacon_unshielded_max_hp",
+        "description": "Aegis of Abyssal Fire, Max HP term: while the wielder is NOT protected by a shield, Max HP +32% (R1). Conditional, not unconditional: a team running Zhongli, Layla, Xinyan or any other shielder turns it off, and it matters most for HP-scaling wielders like Dehya. This was previously an unconditional self modifier fixed at 32%, so it applied even behind a shield AND never moved with refinement. Max HP% by refinement: 32/40/48/56/64.",
+        "states": {
+          "active": {
+            "hp_": 0.32
+          }
+        },
+        "refinementStates": {
+          "R2": { "active": { "hp_": 0.4 } },
+          "R3": { "active": { "hp_": 0.48 } },
+          "R4": { "active": { "hp_": 0.56 } },
+          "R5": { "active": { "hp_": 0.64 } }
         }
       }
     ],

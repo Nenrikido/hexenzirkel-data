@@ -136,7 +136,7 @@
       },
       "fieldDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_", "fierysanctum_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -236,7 +236,92 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Dehya",
+        "conditionKey": "c1FlameIncandescent",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 The Flame Incandescent: Max HP +20%, and Dehya deals bonus DMG based on her Max HP - Molten Inferno (Elemental Skill) DMG +3.6% of Max HP, Leonine Bite (Elemental Burst) DMG +6% of Max HP. Both are FLAT DMG increases, so they use the *_dmgInc keys and are added inside the (1 + DMG%) bracket rather than as a DMG% bonus. The two *_dmgInc_from_maxHp_ conversion keys resolve against her post-buff Max HP at eval time, so an HP source like Beacon of the Reed Sea's unshielded +Max HP feeds straight into them. Unconditional once C1 is unlocked.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "hp_": 0.2,
+              "skill_dmgInc_from_maxHp_": 0.036,
+              "burst_dmgInc_from_maxHp_": 0.06
+            }
+          }
+        ]
+      },
+      {
+        "source": "Dehya",
+        "conditionKey": "c2SandBladesGlittering",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 The Sand-Blades Glittering: while a Fiery Sanctum is on the field, the DMG of its NEXT coordinated attack is increased by 50% when active characters inside the field are attacked. Scoped to the coordinated attack via fierysanctum_dmg_ (on skill.fieldDmg only) - Indomitable Flame and Ranging Flame are not coordinated attacks and must not collect it. Conditional because it needs the party to actually be taking hits inside the field, and it buffs only the next attack, so a rotation rarely has it on every field tick. The constellation's other half (+6s field duration) is a rotation weight, not a modifier.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "fierysanctum_dmg_": 0.5
+            }
+          }
+        ]
+      },
+      {
+        "source": "Dehya",
+        "conditionKey": "c6BurningClawsCritRate",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 The Burning Claws Cleaving, first half: Leonine Bite CRIT Rate +10%. Unconditional once C6 is unlocked. The stacking CRIT DMG half is a separate toggle below, because a rotation can reach any number of its stacks.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "burst_critRate_": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "source": "Dehya",
+        "conditionKey": "c6BurningClawsCritDmg",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 The Burning Claws Cleaving, second half: each Flame-Mane's Fist CRIT hit during one Blazing Lioness raises Leonine Bite CRIT DMG by 15% for the rest of it, capped at +60% (4 stacks). Pick the number of stacks the rotation actually reaches - it needs CRIT hits, so a low-CRIT build will not sit at 4.",
+        "states": [
+          {
+            "value": "1",
+            "modifiers": {
+              "burst_critDMG_": 0.15
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "burst_critDMG_": 0.3
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "burst_critDMG_": 0.45
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "burst_critDMG_": 0.6
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
