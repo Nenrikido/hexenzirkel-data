@@ -149,6 +149,15 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "cutting_mult": 2.386375,
+        "bloom_mult": 3.579562
+      },
+      "skill": {
+        "press_mult": 5.083
+      }
+    },
     "normal": {
       "0_mult": 0.903873,
       "1_mult": 0.96237,

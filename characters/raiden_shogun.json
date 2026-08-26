@@ -281,6 +281,26 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "dmg_mult": 8.517,
+        "hit1_mult": 0.935419,
+        "hit2_mult": 0.91908,
+        "hit3_mult": 1.125362,
+        "hit41_mult": 0.64584,
+        "hit42_mult": 0.64768,
+        "hit5_mult": 1.546097,
+        "charged1_mult": 1.288,
+        "charged2_mult": 1.5548,
+        "plunge_mult": 1.531404,
+        "plungeLow_mult": 3.062159,
+        "plungeHigh_mult": 3.824802
+      },
+      "skill": {
+        "dmg_mult": 2.4905,
+        "coorDmg_mult": 0.8925
+      }
+    },
     "normal": {
       "0_mult": 0.7837,
       "1_mult": 0.7854,

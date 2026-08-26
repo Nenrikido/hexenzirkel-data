@@ -214,6 +214,16 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "skillDmg_mult": 1.598,
+        "supportDmg_mult": 0.916938
+      },
+      "skill": {
+        "totalShardDmg_mult": 8.3895,
+        "bladeDmg_mult": 0.765
+      }
+    },
     "normal": {
       "0_mult": 1.848631,
       "1_mult": 1.710013,

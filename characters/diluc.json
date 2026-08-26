@@ -179,6 +179,18 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "slashDmg_mult": 4.335,
+        "dotDmg_mult": 1.275,
+        "explosionDmg_mult": 4.335
+      },
+      "skill": {
+        "firstHit_mult": 2.006,
+        "secondHit_mult": 2.074,
+        "thirdHit_mult": 2.737
+      }
+    },
     "normal": {
       "0_mult": 1.7731,
       "1_mult": 1.7323,

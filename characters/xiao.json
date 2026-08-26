@@ -137,6 +137,11 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "skill": {
+        "press_mult": 5.372
+      }
+    },
     "normal": {
       "0_mult": 0.49141,
       "1_mult": 1.01579,

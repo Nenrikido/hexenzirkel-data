@@ -161,6 +161,18 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "instanceDmg_mult": 2.584,
+        "instanceDmg_mult2": 2.0672
+      },
+      "skill": {
+        "rushDmg_mult": 4.114,
+        "rushDmg_mult2": 3.2912,
+        "mirrorDmg1_mult": 1.428,
+        "mirrorDmg1_mult2": 2.856
+      }
+    },
     "normal": {
       "0_mult": 0.978996,
       "1_mult": 1.003187,

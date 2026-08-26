@@ -169,6 +169,15 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "primaryDmg_mult": 1.181925,
+        "secondaryDmg_mult": 1.444575
+      },
+      "skill": {
+        "dmg_mult": 3.179
+      }
+    },
     "normal": {
       "0_mult": 0.8823,
       "1_mult": 0.8296,

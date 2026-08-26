@@ -170,6 +170,16 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "dmg_mult": 2.164661
+      },
+      "skill": {
+        "surgeDmg_mult": 4.0222,
+        "dewdropDmg_mult": 0.697,
+        "thornDmg_mult": 0.697
+      }
+    },
     "normal": {
       "0_mult": 0.8789,
       "1_mult": 0.8585,

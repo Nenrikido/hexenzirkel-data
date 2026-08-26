@@ -117,6 +117,19 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "skillDmg_mult": 2.6962
+      },
+      "skill": {
+        "normalDmg_mult": 0.641072,
+        "piercingDmg_mult": 0.92906,
+        "thrust1Dmg_mult": 0.789804,
+        "thrust2Dmg_mult": 1.053072,
+        "thrust3Dmg_mult": 0.60152,
+        "bladeDmg_mult": 0.918
+      }
+    },
     "normal": {
       "hit1_mult": 1.06862,
       "hit2_mult": 1.020561,

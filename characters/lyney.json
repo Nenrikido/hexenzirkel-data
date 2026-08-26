@@ -191,6 +191,30 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "normal": {
+        "0_mult": 0.92906,
+        "1_mult": 0.91052,
+        "2_mult": 0.65302,
+        "3_mult": 1.36372
+      },
+      "charged": {
+        "aimed_mult": 1.0506,
+        "fullyAimed_mult": 2.635,
+        "prop_mult": 3.672,
+        "pyrotechnic_mult": 4.505,
+        "spiritbreath_mult": 0.58548
+      },
+      "plunging": {
+        "dmg_mult": 1.361248,
+        "low_mult": 2.721919,
+        "high_mult": 3.399824
+      },
+      "burst": {
+        "dmg_mult": 3.2725,
+        "fireworkDmg_mult": 8.7975
+      }
+    },
     "normal": {
       "0_mult": 0.7667,
       "1_mult": 0.7514,

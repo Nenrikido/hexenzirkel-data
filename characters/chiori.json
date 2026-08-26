@@ -121,6 +121,12 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "bloomDmg_mult": 5.4468,
+        "bloomDmg_mult2": 6.8085
+      }
+    },
     "normal": {
       "0_mult": 0.976718,
       "1_mult": 0.925786,

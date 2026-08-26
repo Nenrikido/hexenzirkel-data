@@ -264,6 +264,17 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "base_mult": 0.799,
+        "stormeye_mult": 0.3995,
+        "absorb_mult": 0.3995
+      },
+      "skill": {
+        "press_mult": 5.865,
+        "hold_mult": 8.075
+      }
+    },
     "normal": {
       "0_mult": 0.4029,
       "1_mult": 0.8772,

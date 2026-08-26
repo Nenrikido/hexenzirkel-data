@@ -143,6 +143,14 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "skill": {
+        "pressDmg_mult": 2.091,
+        "holdDmg_mult": 2.771,
+        "karmaAtkDmg_mult": 2.193,
+        "karmaEleMasDmg_mult": 4.386
+      }
+    },
     "skill": {
       "pressDmg_mult": 1.7712,
       "holdDmg_mult": 2.3472,

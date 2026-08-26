@@ -160,6 +160,15 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "lampDmg_mult": 1.7034,
+        "explosionDmg_mult": 8.517
+      },
+      "skill": {
+        "dmg_mult": 4.896
+      }
+    },
     "normal": {
       "0_mult": 0.8789,
       "1_mult": 0.8585,

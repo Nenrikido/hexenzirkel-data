@@ -264,6 +264,19 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "galeSplittingDmg_mult": 1.87,
+        "burstShellDmg_mult": 2.19725,
+        "radiantDmg_mult": 4.3945
+      },
+      "skill": {
+        "activationDmg_mult": 1.275,
+        "pressDmg_mult": 0.765,
+        "shellDmg_mult": 1.037,
+        "shiningShellDmg_mult": 3.539655
+      }
+    },
     "normal": {
       "hit1_mult": 0.948991,
       "hit2_mult": 0.881399,

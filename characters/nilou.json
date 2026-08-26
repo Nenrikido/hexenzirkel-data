@@ -199,6 +199,21 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "skillDmg_mult": 0.39168,
+        "aeonDmg_mult": 0.47872
+      },
+      "skill": {
+        "skillDmg_mult": 0.070951,
+        "dance1Dmg_mult": 0.09674,
+        "dance2Dmg_mult": 0.10932,
+        "whirl1Dmg_mult": 0.069316,
+        "whirl2Dmg_mult": 0.08416,
+        "moonDmg_mult": 0.152337,
+        "wheelDmg_mult": 0.107559
+      }
+    },
     "normal": {
       "0_mult": 0.994449,
       "1_mult": 0.898212,

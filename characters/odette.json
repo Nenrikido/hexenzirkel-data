@@ -401,6 +401,25 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "slashDmg_mult": 2.34124,
+        "snowSwansDreamStellarGlimmerDmg_": 0.62,
+        "finalDmg_mult": 3.61828
+      },
+      "skill": {
+        "skillDmg_mult": 2.2967,
+        "codaDotDmg_mult": 2.0366,
+        "plumeDmg_mult": 0.9146,
+        "wingDmg_mult": 1.09361,
+        "codaStellarconductDmg_mult": 6.4974,
+        "codaStellarswirlDmg_mult": 9.7461,
+        "plumeStellarconductDmg_mult": 0.57426,
+        "plumeStellarswirlDmg_mult": 0.86122,
+        "wingStellarconductDmg_mult": 0.68663,
+        "wingStellarswirlDmg_mult": 1.02986
+      }
+    },
     "normal": {
       "0_mult": 1.025083,
       "1_mult": 1.018232,

@@ -246,6 +246,18 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "skillDmg_mult": 1.9992,
+        "shockwaveDmg_mult": 1.4994
+      },
+      "skill": {
+        "skillDmg_mult": 1.22706,
+        "contDmg_mult": 0.95438,
+        "swirl_dmg_per_eleMas": 0.0054,
+        "stellarSwirl_dmg_per_eleMas": 0.00054
+      }
+    },
     "normal": {
       "0_mult": 0.940982,
       "1_mult": 0.844459,

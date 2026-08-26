@@ -99,6 +99,27 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "normal": {
+        "p0_mult": 1.1378,
+        "p1_mult": 1.248113,
+        "p2_mult": 1.566218,
+        "p3_mult": 0.889755,
+        "p4_mult": 1.676304,
+        "p5_mult": 2.045106
+      },
+      "charged": {
+        "p6_mult": 2.17536
+      },
+      "plunging": {
+        "p8_mult": 1.531404,
+        "p9_mult": 3.062159,
+        "p10_mult": 3.824802
+      },
+      "burst": {
+        "p0_mult": 7.871
+      }
+    },
     "normal": {
       "p0_mult": 0.938961,
       "p1_mult": 1.029996,

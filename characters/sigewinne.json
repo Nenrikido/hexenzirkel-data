@@ -149,6 +149,15 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "spoutDmg_mult": 0.250129
+      },
+      "skill": {
+        "dmg_mult": 0.04845,
+        "bladeDmg_mult": 0.014535
+      }
+    },
     "normal": {
       "0_mult": 1.040043,
       "1_mult": 1.009545,

@@ -297,6 +297,27 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "normal": {
+        "0_mult": 1.278148,
+        "1_mult": 1.240759,
+        "2_mult": 1.61022,
+        "3_mult": 0.907935,
+        "4_mult": 2.173588
+      },
+      "charged": {
+        "dmg_mult": 3.2504
+      },
+      "plunging": {
+        "dmg_mult": 1.361248,
+        "low_mult": 2.721919,
+        "high_mult": 3.399824
+      },
+      "burst": {
+        "skillDmg_mult": 2.703,
+        "bladeDmg_mult": 0.901
+      }
+    },
     "normal": {
       "0_mult": 1.054782,
       "1_mult": 1.023927,

@@ -188,6 +188,26 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "hit1Atk_mult": 4.7736,
+        "hit2Atk_mult": 7.1604,
+        "hit1EleMas_mult": 9.5472,
+        "hit2EleMas_mult": 14.3208,
+        "dmgPerStack_mult": 0.49
+      },
+      "skill": {
+        "shade1Mv_mult": 2.04,
+        "shade2Mv_mult": 2.04,
+        "shade3Mv_mult": 2.72,
+        "nefer1Atk_mult": 0.5236,
+        "nefer2Atk_mult": 0.68068,
+        "skillDmgAtk_mult": 1.62316,
+        "nefer1EleMas_mult": 1.0472,
+        "nefer2EleMas_mult": 1.36136,
+        "skillDmgEleMas_mult": 3.24632
+      }
+    },
     "burst": {
       "hit1Atk_mult": 4.04352,
       "hit2Atk_mult": 6.06528,

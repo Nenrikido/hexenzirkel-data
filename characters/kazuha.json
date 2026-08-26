@@ -96,6 +96,16 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "p_slash_mult": 5.576,
+        "p_dot_mult": 2.55
+      },
+      "skill": {
+        "p_press_mult": 4.08,
+        "p_hold_mult": 5.542
+      }
+    },
     "normal": {
       "p0_mult": 0.8891,
       "p1_mult": 0.8942,

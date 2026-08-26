@@ -299,6 +299,26 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "meleeDmg_mult": 9.86,
+        "rangedDmg_mult": 8.041,
+        "riptideBlastDmg_mult": 2.55
+      },
+      "skill": {
+        "stanceDmg_mult": 1.53,
+        "normal1_mult": 0.93112,
+        "normal2_mult": 0.99704,
+        "normal3_mult": 1.3493,
+        "normal4_mult": 1.43582,
+        "normal5_mult": 1.32458,
+        "normal61_mult": 0.84872,
+        "normal62_mult": 0.90228,
+        "charged1_mult": 1.442,
+        "charged2_mult": 1.72422,
+        "riptideSlash_mult": 1.442
+      }
+    },
     "normal": {
       "0_mult": 0.816,
       "1_mult": 0.9146,

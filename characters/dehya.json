@@ -181,6 +181,20 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "fistDmg_mult": 2.097375,
+        "fistDmg_mult2": 0.035955,
+        "driveDmg_mult": 2.960125,
+        "driveDmg_mult2": 0.050745
+      },
+      "skill": {
+        "indomitableDmg_mult": 2.3987,
+        "rangingDmg_mult": 2.822,
+        "fieldDmg_mult": 1.27925,
+        "fieldDmg_mult2": 0.02193
+      }
+    },
     "normal": {
       "0_mult": 1.22791,
       "1_mult": 1.219852,

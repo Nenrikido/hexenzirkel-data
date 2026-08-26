@@ -320,6 +320,20 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "javelinDmg_mult": 1.171534,
+        "frostglowDmgBonus_": 0.058577,
+        "frostglowStellarDmgBonus_": 0.039051,
+        "frostglowStellarSwirlDmgBonus_": 0.058577,
+        "javelinStellarconductDmg_mult": 0.781022,
+        "javelinStellarswirlDmg_mult": 1.171534
+      },
+      "skill": {
+        "skillDmg_mult": 1.9482,
+        "crystalDmg_mult": 0.45458
+      }
+    },
     "normal": {
       "0_mult": 0.8789,
       "1_mult": 0.8585,

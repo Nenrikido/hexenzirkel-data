@@ -117,6 +117,24 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "p0_mult": 2.6979,
+        "p1_mult": 3.77706
+      },
+      "skill": {
+        "p0_mult": 3.66622,
+        "p1_mult": 2.99557,
+        "p2_mult": 0.62594,
+        "p5_mult": 1.202308,
+        "p6_mult": 1.10714,
+        "p7_mult": 0.734599,
+        "p8_mult": 0.734599,
+        "p9_mult": 1.852549,
+        "p10_mult": 1.401437,
+        "p11_mult": 1.401437
+      }
+    },
     "burst": {
       "p0_mult": 2.28528,
       "p1_mult": 3.199392,

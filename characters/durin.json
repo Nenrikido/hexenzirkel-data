@@ -857,6 +857,25 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "purity1_mult": 2.5279,
+        "purity2_mult": 2.0485,
+        "purity3_mult": 2.3766,
+        "darkness1_mult": 2.6656,
+        "darkness2_mult": 2.1624,
+        "darkness3_mult": 2.3766,
+        "dark_decay_mult": 2.7591,
+        "white_flame_mult": 2.0111
+      },
+      "skill": {
+        "denial1_mult": 1.5351,
+        "denial2_mult": 1.1305,
+        "denial3_mult": 1.3736,
+        "energy_regen": 42.0,
+        "confirmation_mult": 2.244
+      }
+    },
     "burst": {
       "cooldown": 18.0,
       "energy_cost": 70.0,

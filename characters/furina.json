@@ -97,6 +97,18 @@
     }
   },
   "talent_multipliers_json": {
+    "boosted": {
+      "burst": {
+        "p0_mult": 0.242386,
+        "p4_mult": 0.0031
+      },
+      "skill": {
+        "bubbleDmg_mult": 0.16711,
+        "usherDmg_mult": 0.12665,
+        "chevalDmg_mult": 0.06868,
+        "crabDmg_mult": 0.17612
+      }
+    },
     "burst": {
       "p0_mult": 0.205315,
       "p1_mult": 18.0,
