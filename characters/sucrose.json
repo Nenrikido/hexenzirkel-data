@@ -111,6 +111,16 @@
       },
       {
         "conditionKey": "a4MollisFavonius",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 0,
+          "max": 2000,
+          "ratesPerUnit": {
+            "eleMas": 0.2
+          },
+          "labelKey": "admin.lbSucroseA4TeamEmLabel",
+          "placeholderKey": "admin.lbSucroseA4TeamEmPlaceholder"
+        },
         "source": "Sucrose",
         "description": "Mollis Favonius: nearby party members gain EM equal to 20% of Sucrose's own EM on swirl. The LB builder UI lets the admin type Sucrose's actual EM directly (0.2 * enteredEM) instead of relying on this approximation.",
         "states": [

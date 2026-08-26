@@ -207,6 +207,19 @@
     "self_conditional_modifiers_json": [
       {
         "conditionKey": "a1CompassionIlluminatedSelf",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 0,
+          "max": 2000,
+          "ratesPerUnit": {
+            "eleMas": 0.25
+          },
+          "caps": {
+            "eleMas": 250.0
+          },
+          "labelKey": "admin.lbNahidaA1AllyEmLabel",
+          "placeholderKey": "admin.lbNahidaA1AllyEmPlaceholder"
+        },
         "source": "avatar_10000073",
         "description": "A1 Compassion Illuminated (dynamic, self): the active character in the Shrine of Maya gains EM equal to 25% of the party's highest EM, capped at 250. When Nahida is the scored character we approximate 'highest EM party member' as her own EM (the common case for an EM-support Nahida), so this scales dynamically with her build instead of always assuming the 250 cap. The LB builder UI also lets the admin type the actual highest ally EM directly (min(0.25 * allyEM, 250)) instead of relying on this approximation.",
         "states": [

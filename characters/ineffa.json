@@ -152,8 +152,16 @@
     "others_conditional_modifiers_json": [
       {
         "conditionKey": "a1Panoramic",
+        "statInput": {
+          "stat": "atk",
+          "default": 1605,
+          "max": 6000,
+          "ratesPerUnit": {
+            "eleMas": 0.06
+          }
+        },
         "source": "avatar_10000116",
-        "description": "A1 Panoramic Permutation Protocol: on Burst, party gains EM equal to 6% of Ineffa's ATK for 20s. Applied statically to teammates (flat 96.3 EM = 0.06 x assumed 2567 ATK x 20s buff / 16s rot); when Ineffa herself is scored the buff is dynamic (eleMas_from_atk_ in self_modifiers).",
+        "description": "A1 Panoramic Permutation Protocol: on Burst, party gains EM equal to 6% of INEFFA's ATK for 20s. It scales off the source, not the receiving character, so the LB builder takes Ineffa's actual ATK as a statInput (0.06 x enteredATK). Leaving the box blank reproduces the flat 96.3 EM this entry carried before the input existed, i.e. an assumed 1605 ATK - NOTE the old comment here claimed '0.06 x 2567 ATK x 20s/16s rot', which works out to 192.5, not the 96.3 that was actually stored and scored; the blank-box default preserves the scored value, not the comment. Rotation coverage belongs in this condition's uptime field, not baked into the rate. When Ineffa herself is the scored character the buff is dynamic instead (eleMas_from_atk_ in self_modifiers).",
         "modifiers": {
           "eleMas": 96.3
         }
