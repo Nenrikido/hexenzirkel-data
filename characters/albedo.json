@@ -286,6 +286,28 @@
             "def_": 0.5
           }
         }
+      },
+      {
+        "source": "Albedo",
+        "conditionKey": "hexSolarIsotomaDmgFromDef",
+        "description": "Hexerei: Secret Rite (Witch's Eve Rite: Book of Blinding Light -- needs Witch's Homework and 2+ Hexerei characters in the party). After Albedo creates a Solar Isotoma, nearby party members' Normal/Charged/Plunging Attack, Elemental Skill and Elemental Burst DMG are increased by 4% for every 1,000 DEF Albedo has, up to +12% (so it caps from 3,000 DEF). Self scope, so this only applies when Albedo is the scored character: the rate is an eval-time conversion off his own post-buff DEF, which is what makes C1, Husk of Opulent Dreams and Cinnabar Spindle feed it per build instead of every entrant sharing one assumed DEF. A support Albedo uses the others-scope twin instead.",
+        "states": {
+          "on": {
+            "all_dmg_from_def_": 4e-05,
+            "all_dmg_from_def_cap_": 0.12
+          }
+        }
+      },
+      {
+        "source": "Albedo",
+        "conditionKey": "hexSilverIsotomaDmgFromDef",
+        "description": "Hexerei: Secret Rite (Witch's Eve Rite: Book of Blinding Light). After Albedo generates a Silver Isotoma, nearby HEXEREI party members' Normal/Charged/Plunging Attack, Elemental Skill and Elemental Burst DMG are increased by 10% for every 1,000 DEF Albedo has, up to +30% (so it caps from 3,000 DEF). Stacks with the Solar Isotoma clause above; enable both only when the receiving character is itself Hexerei. Self scope, so this only applies when Albedo is the scored character: the rate is an eval-time conversion off his own post-buff DEF, which is what makes C1, Husk of Opulent Dreams and Cinnabar Spindle feed it per build instead of every entrant sharing one assumed DEF. A support Albedo uses the others-scope twin instead.",
+        "states": {
+          "on": {
+            "all_dmg_from_def_": 0.0001,
+            "all_dmg_from_def_cap_": 0.3
+          }
+        }
       }
     ],
     "team_modifiers_json": {},
@@ -302,28 +324,58 @@
             }
           }
         ]
-      },
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
       {
         "source": "Albedo",
-        "conditionKey": "hexBookOfBlindingLightTeam",
-        "description": "Hexerei passive Book of Blinding Light (requires Witch's Homework and 2+ Hexerei characters): after Albedo creates a Solar Isotoma, all teammates gain +4% DMG per 1000 of his DEF, capped at 12%; a Silver Isotoma additionally grants Hexerei teammates +10% per 1000 DEF, capped at 30%. States are named for the DEF assumed — both caps land at 3000 DEF. Pick 'hexerei 3000def' when the scored character is itself Hexerei, otherwise the plain entry.",
+        "conditionKey": "hexSolarIsotomaDmgFromDef",
+        "description": "Hexerei: Secret Rite (Witch's Eve Rite: Book of Blinding Light -- needs Witch's Homework and 2+ Hexerei characters in the party). After Albedo creates a Solar Isotoma, nearby party members' Normal/Charged/Plunging Attack, Elemental Skill and Elemental Burst DMG are increased by 4% for every 1,000 DEF Albedo has, up to +12% (so it caps from 3,000 DEF). Others scope, so this only applies when Albedo is a teammate: his DEF is not on the scored build, so the admin types it and the per-point rate is multiplied by it. The authored states stay as coarse presets for anyone who would rather pick one.",
+        "statInput": {
+          "stat": "def",
+          "default": 2500,
+          "max": 6000,
+          "ratesPerUnit": {
+            "all_dmg_": 4e-05
+          },
+          "caps": {
+            "all_dmg_": 0.12
+          }
+        },
         "states": {
           "2000def": {
             "all_dmg_": 0.08
           },
           "3000def (cap)": {
             "all_dmg_": 0.12
+          }
+        }
+      },
+      {
+        "source": "Albedo",
+        "conditionKey": "hexSilverIsotomaDmgFromDef",
+        "description": "Hexerei: Secret Rite (Witch's Eve Rite: Book of Blinding Light). After Albedo generates a Silver Isotoma, nearby HEXEREI party members' Normal/Charged/Plunging Attack, Elemental Skill and Elemental Burst DMG are increased by 10% for every 1,000 DEF Albedo has, up to +30% (so it caps from 3,000 DEF). Stacks with the Solar Isotoma clause above; enable both only when the receiving character is itself Hexerei. Others scope, so this only applies when Albedo is a teammate: his DEF is not on the scored build, so the admin types it and the per-point rate is multiplied by it. The authored states stay as coarse presets for anyone who would rather pick one.",
+        "statInput": {
+          "stat": "def",
+          "default": 2500,
+          "max": 6000,
+          "ratesPerUnit": {
+            "all_dmg_": 0.0001
           },
-          "hexerei 2000def": {
-            "all_dmg_": 0.28
+          "caps": {
+            "all_dmg_": 0.3
+          }
+        },
+        "states": {
+          "2000def": {
+            "all_dmg_": 0.2
           },
-          "hexerei 3000def (cap)": {
-            "all_dmg_": 0.42
+          "3000def (cap)": {
+            "all_dmg_": 0.3
           }
         }
       }
-    ],
-    "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    ]
   }
 }

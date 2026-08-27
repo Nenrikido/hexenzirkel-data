@@ -36,14 +36,45 @@
             }
           }
         }
-      }
-    ],
-    "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
+      },
       {
         "conditionKey": "peak_patrol_song_peak_anthem",
         "source": "PeakPatrolSong",
-        "description": "At full passive trigger, nearby party members gain up to +25.6% All Elemental DMG Bonus at R1. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "description": "Halcyon Years Unending, 2nd clause: once Ode to Flowers reaches 2 stacks (or the 2nd stack refreshes), all nearby party members gain All Elemental DMG Bonus equal to 8% for every 1,000 DEF the equipping character has, up to +25.6%, for 15s. R1 values; R5 is 16% per 1,000 DEF up to +51.2%. Both tiers cap from 3,200 DEF. Self scope, so this only applies when the wielder is the scored character: the rate is an eval-time conversion off the build's own post-buff DEF -- including this weapon's own Ode to Flowers DEF% -- rather than the flat cap every entrant used to receive. Refinement-aware through refinementStates.",
+        "states": {
+          "full": {
+            "all_dmg_from_def_": 8e-05,
+            "all_dmg_from_def_cap_": 0.256
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "full": {
+              "all_dmg_from_def_": 0.00016,
+              "all_dmg_from_def_cap_": 0.512
+            }
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "peak_patrol_song_peak_anthem",
+        "source": "PeakPatrolSong",
+        "description": "Halcyon Years Unending, 2nd clause: once Ode to Flowers reaches 2 stacks (or the 2nd stack refreshes), all nearby party members gain All Elemental DMG Bonus equal to 8% for every 1,000 DEF the equipping character has, up to +25.6%, for 15s. R1 values; R5 is 16% per 1,000 DEF up to +51.2%. Both tiers cap from 3,200 DEF. Others scope, so this only applies when a teammate holds the weapon: their DEF is not on the scored build, so the admin types it. NOTE the typed box carries the R1 rate and cap; a board that overrides this weapon to a higher refinement should pick the 'full' preset instead, which is refinement-tiered.",
+        "statInput": {
+          "stat": "def",
+          "default": 3200,
+          "max": 6000,
+          "ratesPerUnit": {
+            "all_dmg_": 8e-05
+          },
+          "caps": {
+            "all_dmg_": 0.256
+          }
+        },
         "states": {
           "full": {
             "all_dmg_": 0.256
@@ -57,6 +88,7 @@
           }
         }
       }
-    ]
+    ],
+    "others_modifiers_json": {}
   }
 }

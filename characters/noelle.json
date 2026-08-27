@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -62,7 +78,11 @@
     "charged": {
       "spinningDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
       },
       "finalDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "dmg": {
         "element": "geo",
-        "dmgBonusKeys": ["skill_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "def",
@@ -128,7 +168,11 @@
     "burst": {
       "burstDmg": {
         "element": "geo",
-        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -138,7 +182,11 @@
       },
       "skillDmg": {
         "element": "geo",
-        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -193,16 +241,30 @@
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "charged_dmg_": 0.15 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "charged_dmg_": 0.15
+            }
+          }
+        ]
       },
       {
         "conditionKey": "c6MustBeSpotlessAtkFromDef",
         "source": "Noelle",
-        "description": "C6 Must Be Spotless: while Sweeping Time is active, Noelle's ATK is additionally increased by 50% of her DEF (no atk_from_def_ eval-time conversion key exists, so this is approximated as a flat ATK add at ~3,000 total DEF, a representative fully DEF-stacked Noelle build => +1,500 ATK; admin can override via the LB builder UI for a different DEF assumption). The duration-extension-on-kill portion is not modeled.",
+        "description": "C6 Must Be Spotless: while Sweeping Time is active, Noelle's ATK is additionally increased by 50% of her DEF. Read per build off her own post-buff DEF (atk_from_def_), so a DEF-stacked Husk/Archaic Petra build is credited for the DEF it actually has; this used to be a flat +1,500 ATK standing in for an assumed 3,000 DEF. The duration-extension-on-kill portion is not modeled. NOTE her BURST's own DEF-to-ATK conversion (GO's burst.defConv) is still not modeled at all -- see the source note -- so this constellation sits on top of a base that is missing.",
         "gating": {
           "constellationMin": 6
         },
-        "states": [{ "value": "on", "modifiers": { "atk": 1500.0 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_from_def_": 0.5
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
