@@ -275,6 +275,10 @@
         "pressDmg_mult": 0.765,
         "shellDmg_mult": 1.037,
         "shiningShellDmg_mult": 3.539655
+      },
+      "passive2": {
+        "passive2Anemo_mult": 1.5555,
+        "passive2Elem_mult": 5.3094825
       }
     },
     "normal": {
@@ -309,6 +313,12 @@
     "passive2": {
       "passive2Anemo_mult": 1.3176,
       "passive2Elem_mult": 4.497444
+    },
+    "derivedFrom": {
+      "passive2": {
+        "passive2Anemo_mult": { "section": "skill", "multKey": "shellDmg_mult", "factor": 1.5 },
+        "passive2Elem_mult": { "section": "skill", "multKey": "shiningShellDmg_mult", "factor": 1.5 }
+      }
     },
     "source": {
       "provider": "GenshinOptimizer+ProjectAmber",

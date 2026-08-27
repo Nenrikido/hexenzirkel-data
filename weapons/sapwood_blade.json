@@ -9,7 +9,9 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
       {
         "source": "SapwoodBlade",
         "conditionKey": "sapwood_blade_leaf_of_consciousness",
@@ -20,8 +22,6 @@
           }
         }
       }
-    ],
-    "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    ]
   }
 }

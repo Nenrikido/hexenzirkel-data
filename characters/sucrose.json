@@ -163,6 +163,25 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "c6ChaoticEntropy",
+        "source": "Sucrose",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Chaotic Entropy: if Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the absorbed element while the skill lasts. Only one element is absorbed per cast; all four absorbable elements are listed so the leaderboard's own element is the one that lands, the same convention as Kazuha's Poetics of Fuubutsu.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_dmg_": 0.2,
+              "hydro_dmg_": 0.2,
+              "cryo_dmg_": 0.2,
+              "electro_dmg_": 0.2
+            }
+          }
+        ]
       }
     ]
   }
