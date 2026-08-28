@@ -19,10 +19,10 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -33,10 +33,10 @@
         ]
       },
       "1": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -47,10 +47,10 @@
         ]
       },
       "2": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -61,10 +61,10 @@
         ]
       },
       "3": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -77,10 +77,10 @@
     },
     "charged": {
       "spinningDmg": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -91,10 +91,10 @@
         ]
       },
       "finalDmg": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -107,10 +107,10 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -121,10 +121,10 @@
         ]
       },
       "low": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -135,10 +135,10 @@
         ]
       },
       "high": {
-        "element": "physical",
+        "element": "cryo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "cryo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -234,7 +234,7 @@
     },
     "source": {
       "goCharacterKey": "Chongyun",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill.dmg: skipped (helper/cond formula)']. Skill, A4 (Rimechaser Blade, = 100% of skill DMG) and C1 (Ice Unleashed, 50% ATK, not Skill-tagged) added 2026-08-23 from the GO Chongyun sheet; skill sits at Lv13 as the C5-boosted talent.",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill.dmg: skipped (helper/cond formula)']. Skill, A4 (Rimechaser Blade, = 100% of skill DMG) and C1 (Ice Unleashed, 50% ATK, not Skill-tagged) added 2026-08-23 from the GO Chongyun sheet; skill sits at Lv13 as the C5-boosted talent. Chongyun-specific: Spirit Blade: Chonghua's Layered Frost creates a field that infuses Sword/Claymore/Polearm wielders with Cryo, and Chongyun is a claymore user standing in his own field, so the infusion is baked into his normal/charged/plunging hits.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -256,22 +256,6 @@
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
-      {
-        "conditionKey": "c1IceUnleashedNormalDmg",
-        "source": "Chongyun",
-        "description": "C1 Ice Unleashed: the last hit of Chongyun's Normal Attack combo releases 3 ice blades, each dealing 50% of his ATK as Cryo DMG to all opponents in its path. Approximated as a flat +150% ATK bonus DMG on that Normal Attack hit rather than 3 separate crit-eligible instances.",
-        "gating": {
-          "constellationMin": 1
-        },
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "normal_dmgIncFromAtk_": 1.5
-            }
-          }
-        ]
-      },
       {
         "conditionKey": "c6RallyOfFourBladesBurstDmg",
         "source": "Chongyun",
