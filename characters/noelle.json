@@ -19,10 +19,10 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -33,10 +33,10 @@
         ]
       },
       "1": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -47,10 +47,10 @@
         ]
       },
       "2": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -61,10 +61,10 @@
         ]
       },
       "3": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "normal_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -77,10 +77,10 @@
     },
     "charged": {
       "spinningDmg": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -91,10 +91,10 @@
         ]
       },
       "finalDmg": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "charged_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -107,10 +107,10 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -121,10 +121,10 @@
         ]
       },
       "low": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -135,10 +135,10 @@
         ]
       },
       "high": {
-        "element": "physical",
+        "element": "geo",
         "dmgBonusKeys": [
           "plunging_dmg_",
-          "physical_dmg_",
+          "geo_dmg_",
           "all_dmg_"
         ],
         "components": [
@@ -194,6 +194,21 @@
           }
         ]
       }
+    },
+    "constellation4": {
+      "dmg": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -229,6 +244,9 @@
         "skillTalentLevel": 13,
         "burstTalentLevel": 13
       }
+    },
+    "constellation4": {
+      "dmg_mult": 4
     }
   },
   "buffs": {
@@ -251,20 +269,24 @@
         ]
       },
       {
-        "conditionKey": "c6MustBeSpotlessAtkFromDef",
+        "conditionKey": "burstSweepingTime",
         "source": "Noelle",
-        "description": "C6 Must Be Spotless: while Sweeping Time is active, Noelle's ATK is additionally increased by 50% of her DEF. Read per build off her own post-buff DEF (atk_from_def_), so a DEF-stacked Husk/Archaic Petra build is credited for the DEF it actually has; this used to be a flat +1,500 ATK standing in for an assumed 3,000 DEF. The duration-extension-on-kill portion is not modeled. NOTE her BURST's own DEF-to-ATK conversion (GO's burst.defConv) is still not modeled at all -- see the source note -- so this constellation sits on top of a base that is missing.",
-        "gating": {
-          "constellationMin": 6
-        },
+        "description": "Sweeping Time: Noelle's ATK is increased by 85% of her DEF (burst Lv13) and her Normal/Charged Attack DMG is converted to Geo, for 15s. C6 Must Be Spotless raises the conversion by a further 50% of DEF, to 135%.",
         "states": [
           {
             "value": "on",
             "modifiers": {
-              "atk_from_def_": 0.5
+              "atk_from_def_": 0.85
             }
           }
-        ]
+        ],
+        "constellationStates": {
+          "C6": {
+            "on": {
+              "atk_from_def_": 1.35
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

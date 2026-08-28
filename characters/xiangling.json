@@ -5,7 +5,10 @@
   "character_key": "avatar_10000023",
   "element": "pyro",
   "weapon_type": "polearm",
-  "constellation_talent_boosts": { "burst": 3, "skill": 5 },
+  "constellation_talent_boosts": {
+    "burst": 3,
+    "skill": 5
+  },
   "base_stats_json": {
     "baseHp": 10874.9149,
     "baseAtk": 225.141022,
@@ -13,14 +16,267 @@
     "ascStatKey": "eleMas",
     "ascStatValue": 96
   },
-  "hit_definitions_json": {},
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      },
+      "3": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
+      },
+      "4": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "4_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "dmg1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg1_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "low": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ]
+      },
+      "high": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ]
+      }
+    },
+    "skill": {
+      "press": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "press_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "dmg1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg1_mult"
+          }
+        ]
+      },
+      "dmg2": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg2_mult"
+          }
+        ]
+      },
+      "dmg3": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg3_mult"
+          }
+        ]
+      },
+      "dmgNado": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmgNado_mult"
+          }
+        ]
+      }
+    },
+    "constellation2": {
+      "dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    }
+  },
   "talent_multipliers_json": {
+    "normal": {
+      "0_mult": 0.8313,
+      "1_mult": 0.833,
+      "2_mult": 0.5151,
+      "3_mult": 0.2788,
+      "4_mult": 1.4042
+    },
+    "charged": {
+      "dmg1_mult": 2.4055
+    },
+    "plunging": {
+      "dmg_mult": 1.26378,
+      "low_mult": 2.527025,
+      "high_mult": 3.15639
+    },
+    "skill": {
+      "press_mult": 2.3647
+    },
+    "burst": {
+      "dmg1_mult": 1.53,
+      "dmg2_mult": 1.87,
+      "dmg3_mult": 2.329,
+      "dmgNado_mult": 2.38
+    },
+    "constellation2": {
+      "dmg_mult": 0.75
+    },
     "source": {
       "goCharacterKey": "Xiangling",
-      "note": "Support teammate: only team buffs are used by the evaluator. Combat hit definitions/multipliers can be added if a Xiangling-as-main leaderboard is ever needed. Base stats from GO allStat_gen (GROW_CURVE_HP_S4/ATTACK_S4 Lv90 = 8.349).",
+      "note": "Generated from Genshin Optimizer sheets (master) + skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. 4-star convention: talents named in constellation_talent_boosts are baked at Lv13 (C6 assumed) — skill (C5) and burst (C3) — while the Normal Attack talent, which no constellation boosts, stays Lv10. Normal/charged/plunging are physical (Xiangling has no infusion). constellation2 is C2 'Oil Meets Fire': the Implode explosion, 75% of ATK as AoE Pyro DMG, counted as Normal Attack DMG.",
       "assumptions": {
-        "constellation": 0,
-        "characterLevel": 90
+        "constellation": 6,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "skillTalentLevel": 13,
+        "burstTalentLevel": 13
       }
     }
   },
@@ -47,6 +303,22 @@
         "modifiers": {
           "pyro_enemyRes_": -0.15
         }
+      },
+      {
+        "conditionKey": "c6CondensedPyronado",
+        "source": "avatar_10000023",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Condensed Pyronado: for the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_dmg_": 0.15
+            }
+          }
+        ]
       }
     ]
   }

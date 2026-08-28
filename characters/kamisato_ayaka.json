@@ -19,8 +19,12 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -29,8 +33,12 @@
         ]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -39,8 +47,12 @@
         ]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,8 +61,12 @@
         ]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -59,8 +75,12 @@
         ]
       },
       "4": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,8 +91,12 @@
     },
     "charged": {
       "dmg1": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -83,8 +107,12 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,8 +121,12 @@
         ]
       },
       "low": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -103,8 +135,12 @@
         ]
       },
       "high": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "press": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -128,7 +168,11 @@
     "burst": {
       "cutting": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -138,7 +182,11 @@
       },
       "bloom": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -182,7 +230,7 @@
     },
     "source": {
       "goCharacterKey": "KamisatoAyaka",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Kamisato Art: Senho (alternate sprint) infuses her attacks with Cryo; this is permanent in practice, so it is baked in.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -202,7 +250,10 @@
         "states": [
           {
             "value": "on",
-            "modifiers": { "normal_dmg_": 0.3, "charged_dmg_": 0.3 }
+            "modifiers": {
+              "normal_dmg_": 0.3,
+              "charged_dmg_": 0.3
+            }
           }
         ]
       },
@@ -213,13 +264,48 @@
         "states": [
           {
             "value": "on",
-            "modifiers": { "cryo_dmg_": 0.18 }
+            "modifiers": {
+              "cryo_dmg_": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6DanceOfSuigetsu",
+        "source": "Kamisato Ayaka",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Dance of Suigetsu: Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. Cleared 0.5s after her Charged Attack hits.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "charged_dmg_": 2.98
+            }
           }
         ]
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4EbbAndFlow",
+        "source": "Kamisato Ayaka",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 Ebb and Flow: opponents damaged by Kamisato Art: Soumetsu's Frostflake Seki no To have their DEF decreased by 30% for 6s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "enemyDefShred_": 0.3
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

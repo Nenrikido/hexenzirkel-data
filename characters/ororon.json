@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -52,7 +64,11 @@
     "charged": {
       "aimed": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,8 +77,12 @@
         ]
       },
       "fullyAimed": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -74,7 +94,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -106,7 +138,11 @@
     "skill": {
       "dmg": {
         "element": "electro",
-        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -118,7 +154,11 @@
     "burst": {
       "activationDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -128,7 +168,11 @@
       },
       "soundwaveDmg": {
         "element": "electro",
-        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -182,7 +226,14 @@
         "gating": {
           "constellationMin": 2
         },
-        "states": [{ "value": "on", "modifiers": { "electro_dmg_": 0.4 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "electro_dmg_": 0.4
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
@@ -194,7 +245,14 @@
         "gating": {
           "constellationMin": 6
         },
-        "states": [{ "value": "on", "modifiers": { "atk_": 0.3 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.3
+            }
+          }
+        ]
       }
     ],
     "others_modifiers_json": {},

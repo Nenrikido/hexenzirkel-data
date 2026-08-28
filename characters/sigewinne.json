@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -52,7 +64,11 @@
     "charged": {
       "aimed": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,8 +77,12 @@
         ]
       },
       "fullyAimed": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,8 +91,12 @@
         ]
       },
       "bubble": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "hp",
@@ -126,7 +166,11 @@
       },
       "bladeDmg": {
         "element": "hydro",
-        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "hp",
@@ -138,7 +182,11 @@
     "burst": {
       "spoutDmg": {
         "element": "hydro",
-        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "hp",
@@ -199,19 +247,130 @@
         "conditionKey": "sigewinneA1RequiresAppropriateRestSelf",
         "source": "Sigewinne",
         "description": "A1 Requires Appropriate Rest: after using Rebound Hydrotherapy (Elemental Skill), Sigewinne gains the 'Semi-Strict Bedrest' effect for 18s, granting herself an 8% Hydro DMG Bonus. Approximated as always active during an on-field rotation.",
-        "states": [{ "value": "active", "modifiers": { "hydro_dmg_": 0.08 } }]
+        "states": [
+          {
+            "value": "active",
+            "modifiers": {
+              "hydro_dmg_": 0.08
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6RadiantSpiritBurstCrit",
+        "source": "Sigewinne",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6: when Sigewinne heals, Super Saturated Syringing gains CRIT Rate and CRIT DMG based on her Max HP for 15s — +0.4% CRIT Rate and +2.2% CRIT DMG per 1,000 Max HP, capped at +20% CRIT Rate and +110% CRIT DMG (both caps reached at 50,000 HP).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "burst_critRate_from_maxHp_": 4e-06,
+              "burst_critRate_from_maxHp_cap_": 0.2,
+              "burst_critDMG_from_maxHp_": 2.2e-05,
+              "burst_critDMG_from_maxHp_cap_": 1.1
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "sigewinneA1RequiresAppropriateRestTeam",
+        "conditionKey": "c2SigewinneHydroShred",
         "source": "Sigewinne",
-        "description": "A1 Requires Appropriate Rest: while 'Semi-Strict Bedrest' is active, when a nearby off-field party member's Elemental Skill deals DMG it consumes a Convalescence stack and gains flat bonus DMG: +80 per 1,000 Max HP Sigewinne has above 30,000, capped at +2,800. Approximated at 40,000 Max HP (a representative HP-stacked Sigewinne support build) => +800 flat Elemental Skill DMG; admin can override via the LB builder UI for a different HP assumption.",
-        "states": [{ "value": "active", "modifiers": { "skill_dmgInc": 800 } }]
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2: after Rebound Hydrotherapy's Bolstering Bubblebalm or Super Saturated Syringing hits an opponent, that opponent's Hydro RES is decreased by 35% for 8s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hydro_enemyRes_": -0.35
+            }
+          }
+        ]
       }
     ],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "sigewinneA1RequiresAppropriateRestOthers",
+        "source": "Sigewinne",
+        "description": "A1 Requires Appropriate Rest: after Rebound Hydrotherapy, off-field party members OTHER THAN Sigewinne have their Elemental Skill DMG increased by 80 per 1,000 of SIGEWINNE's Max HP above 30,000, capped at +2,800 (reached at 65,000 HP). Pick the bracket matching the Sigewinne you are modelling. C1 raises this to 100 per 1,000 HP, cap +3,500.",
+        "states": [
+          {
+            "value": "35,000 Max HP",
+            "modifiers": {
+              "skill_dmgInc": 400
+            }
+          },
+          {
+            "value": "40,000 Max HP",
+            "modifiers": {
+              "skill_dmgInc": 800
+            }
+          },
+          {
+            "value": "45,000 Max HP",
+            "modifiers": {
+              "skill_dmgInc": 1200
+            }
+          },
+          {
+            "value": "50,000 Max HP",
+            "modifiers": {
+              "skill_dmgInc": 1600
+            }
+          },
+          {
+            "value": "55,000 Max HP",
+            "modifiers": {
+              "skill_dmgInc": 2000
+            }
+          },
+          {
+            "value": "60,000 Max HP",
+            "modifiers": {
+              "skill_dmgInc": 2400
+            }
+          },
+          {
+            "value": "65,000+ Max HP (cap)",
+            "modifiers": {
+              "skill_dmgInc": 2800
+            }
+          }
+        ],
+        "constellationStates": {
+          "C1": {
+            "35,000 Max HP": {
+              "skill_dmgInc": 500
+            },
+            "40,000 Max HP": {
+              "skill_dmgInc": 1000
+            },
+            "45,000 Max HP": {
+              "skill_dmgInc": 1500
+            },
+            "50,000 Max HP": {
+              "skill_dmgInc": 2000
+            },
+            "55,000 Max HP": {
+              "skill_dmgInc": 2500
+            },
+            "60,000 Max HP": {
+              "skill_dmgInc": 3000
+            },
+            "65,000+ Max HP (cap)": {
+              "skill_dmgInc": 3500
+            }
+          }
+        }
+      }
+    ]
   }
 }

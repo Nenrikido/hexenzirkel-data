@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -62,7 +78,11 @@
     "charged": {
       "spinningDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
       },
       "finalDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "thrustDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
       },
       "frostDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -135,8 +179,13 @@
         ]
       },
       "level0Dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -145,8 +194,13 @@
         ]
       },
       "level1CryoDmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -156,7 +210,12 @@
       },
       "level1PhysDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -165,8 +224,13 @@
         ]
       },
       "level2CryoDmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -176,7 +240,12 @@
       },
       "level2PhysDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -185,8 +254,13 @@
         ]
       },
       "level3CryoDmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -196,7 +270,12 @@
       },
       "level3PhysDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -206,7 +285,12 @@
       },
       "level4Dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["skill_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "shatteringPressure_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -216,7 +300,11 @@
       },
       "thornDmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -228,7 +316,11 @@
     "burst": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -288,12 +380,12 @@
       {
         "conditionKey": "a4ParallelCondensersSkillDmg",
         "source": "Freminet",
-        "description": "A4 Parallel Condensers: after Freminet triggers Shatter, DMG dealt by Pressurized Floe: Shattering Pressure is increased by 40% for 5s. Modeled as a skill_dmg_ bonus (broadest available bonus key on his skill hits) since the evaluator has no bonus key scoped to only the Shattering Pressure release hits (level0Dmg/level1-3CryoDmg/level1-3PhysDmg/level4Dmg/thornDmg) excluding the initial thrustDmg/frostDmg hits, so this slightly over-applies to those two hits as an approximation.",
+        "description": "A4 Parallel Condensers: when Freminet triggers Shatter on opponents, the DMG dealt by Pressurized Floe: Shattering Pressure is increased by 40% for 5s. Scoped to the Shattering Pressure hits only — it does not buff the upward thrust, the Pers Timer frost waves or the Spiritbreath Thorn.",
         "states": [
           {
             "value": "on",
             "modifiers": {
-              "skill_dmg_": 0.4
+              "shatteringPressure_dmg_": 0.4
             }
           }
         ]
@@ -301,7 +393,7 @@
       {
         "conditionKey": "c1DreamsOfTheFoamyDeepSkillCrit",
         "source": "Freminet",
-        "description": "C1 Dreams of the Foamy Deep: CRIT Rate of Pressurized Floe: Shattering Pressure increased by 15%. Modeled as skill_critRate_ (same broad-scope approximation as the A4 passive, since no hit-scoped bonus key isolates the Shattering Pressure hits from thrustDmg/frostDmg).",
+        "description": "C1 Dreams of the Foamy Deep: the CRIT Rate of Pressurized Floe: Shattering Pressure is increased by 15%. Scoped to the Shattering Pressure hits only.",
         "gating": {
           "constellationMin": 1
         },
@@ -309,7 +401,14 @@
           {
             "value": "on",
             "modifiers": {
-              "skill_critRate_": 0.15
+              "level0dmg_critRate_": 0.15,
+              "level1cryodmg_critRate_": 0.15,
+              "level1physdmg_critRate_": 0.15,
+              "level2cryodmg_critRate_": 0.15,
+              "level2physdmg_critRate_": 0.15,
+              "level3cryodmg_critRate_": 0.15,
+              "level3physdmg_critRate_": 0.15,
+              "level4dmg_critRate_": 0.15
             }
           }
         ]

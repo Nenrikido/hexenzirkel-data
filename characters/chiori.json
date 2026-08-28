@@ -19,8 +19,12 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -29,8 +33,12 @@
         ]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -39,8 +47,12 @@
         ]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,8 +61,12 @@
         ]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,8 +77,12 @@
     },
     "charged": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -73,8 +93,12 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -83,8 +107,12 @@
         ]
       },
       "low": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,8 +121,12 @@
         ]
       },
       "high": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -106,7 +138,11 @@
     "burst": {
       "bloomDmg": {
         "element": "geo",
-        "dmgBonusKeys": ["burst_dmg_", "geo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -118,6 +154,84 @@
           }
         ]
       }
+    },
+    "skill": {
+      "turretDmg": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "turretDmg_mult"
+          },
+          {
+            "scalingKey": "def",
+            "multKey": "turretDmg_mult2"
+          }
+        ]
+      },
+      "sweepDmg": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "sweepDmg_mult"
+          },
+          {
+            "scalingKey": "def",
+            "multKey": "sweepDmg_mult2"
+          }
+        ]
+      }
+    },
+    "passive1": {
+      "dollDmg": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dollDmg_mult"
+          },
+          {
+            "scalingKey": "def",
+            "multKey": "dollDmg_mult2"
+          }
+        ]
+      }
+    },
+    "constellation2": {
+      "dollDmg": {
+        "element": "geo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "geo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dollDmg_mult"
+          },
+          {
+            "scalingKey": "def",
+            "multKey": "dollDmg_mult2"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -125,6 +239,20 @@
       "burst": {
         "bloomDmg_mult": 5.4468,
         "bloomDmg_mult2": 6.8085
+      },
+      "skill": {
+        "turretDmg_mult": 1.7442,
+        "turretDmg_mult2": 2.18025,
+        "sweepDmg_mult": 3.1722,
+        "sweepDmg_mult2": 3.96525
+      },
+      "passive1": {
+        "dollDmg_mult": 3.1722,
+        "dollDmg_mult2": 3.96525
+      },
+      "constellation2": {
+        "dollDmg_mult": 2.96514,
+        "dollDmg_mult2": 3.706425
       }
     },
     "normal": {
@@ -155,6 +283,46 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       }
+    },
+    "skill": {
+      "turretDmg_mult": 1.47744,
+      "turretDmg_mult2": 1.8468,
+      "sweepDmg_mult": 2.68704,
+      "sweepDmg_mult2": 3.3588
+    },
+    "passive1": {
+      "dollDmg_mult": 2.68704,
+      "dollDmg_mult2": 3.3588
+    },
+    "constellation2": {
+      "dollDmg_mult": 2.511648,
+      "dollDmg_mult2": 3.13956
+    },
+    "derivedFrom": {
+      "passive1": {
+        "dollDmg_mult": {
+          "section": "skill",
+          "multKey": "sweepDmg_mult",
+          "factor": 1
+        },
+        "dollDmg_mult2": {
+          "section": "skill",
+          "multKey": "sweepDmg_mult2",
+          "factor": 1
+        }
+      },
+      "constellation2": {
+        "dollDmg_mult": {
+          "section": "skill",
+          "multKey": "turretDmg_mult",
+          "factor": 1.7
+        },
+        "dollDmg_mult2": {
+          "section": "skill",
+          "multKey": "turretDmg_mult2",
+          "factor": 1.7
+        }
+      }
     }
   },
   "buffs": {
@@ -169,6 +337,22 @@
             "value": "active",
             "modifiers": {
               "geo_dmg_": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6SolePrinciplePursuit",
+        "source": "Chiori",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Sole Principle Pursuit: the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmgIncFromDef_": 2.35
             }
           }
         ]

@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
     "charged": {
       "dmg1": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -82,7 +106,11 @@
       },
       "dmg2": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -114,7 +150,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
     "skill": {
       "press1": {
         "element": "hydro",
-        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,7 +180,11 @@
       },
       "press2": {
         "element": "hydro",
-        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -148,7 +196,11 @@
     "burst": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -202,16 +254,7 @@
       {
         "conditionKey": "c4Evilsoother",
         "source": "Xingqiu",
-        "description": "C4 Evilsoother: throughout the duration of Guhua Sword: Raincutter (Elemental Skill hold form), DMG dealt by Guhua Sword: Fatal Rainscreen (Elemental Burst) is increased by 50%.",
-        "gating": { "constellationMin": 4 },
-        "states": [{ "value": "on", "modifiers": { "burst_dmg_": 0.5 } }]
-      }
-    ],
-    "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
-      {
-        "conditionKey": "c4HydroDmgBonus",
-        "source": "Xingqiu",
+        "description": "C4 Evilsoother: throughout the duration of Guhua Sword: Raincutter (Elemental Burst), the DMG dealt by Guhua Sword: Fatal Rainscreen (Elemental Skill) is increased by 50%.",
         "gating": {
           "constellationMin": 4
         },
@@ -219,17 +262,29 @@
           {
             "value": "on",
             "modifiers": {
-              "hydro_dmg_": 0.15
+              "skill_dmg_": 0.5
             }
           }
         ]
-      },
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
       {
         "conditionKey": "c2RainbowUponAzureSky",
         "source": "Xingqiu",
         "description": "C2 Rainbow Upon the Azure Sky: sword rain attacks from Guhua Sword: Raincutter decrease the Hydro RES of opponents hit by 15% for 4s.",
-        "gating": { "constellationMin": 2 },
-        "states": [{ "value": "on", "modifiers": { "hydro_enemyRes_": -0.15 } }]
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hydro_enemyRes_": -0.15
+            }
+          }
+        ]
       }
     ]
   }

@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
     "charged": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -84,7 +108,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -115,8 +151,13 @@
     },
     "skill": {
       "dmg0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "shunsuiken_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -125,8 +166,13 @@
         ]
       },
       "dmg1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "shunsuiken_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -135,8 +181,13 @@
         ]
       },
       "dmg2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "shunsuiken_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -146,7 +197,11 @@
       },
       "illusionDmg": {
         "element": "hydro",
-        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -158,7 +213,27 @@
     "burst": {
       "dmg": {
         "element": "hydro",
-        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation6": {
+      "dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -214,13 +289,119 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       }
+    },
+    "constellation6": {
+      "dmg_mult": 4.5
     }
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillNamisenStacks",
+        "source": "Kamisato Ayato",
+        "description": "Kamisato Art: Kyouka — Namisen: each stack increases the DMG dealt by Shunsuiken by 1.1091% of Ayato's Max HP (skill Lv10). Stacks are gained per Shunsuiken hit; the maximum is 4, raised to 5 by C2 World Source. Shunsuiken counts as Normal Attack DMG, so this lands on normal_dmgInc.",
+        "states": [
+          {
+            "value": "1 stacks",
+            "modifiers": {
+              "normal_dmgInc_from_maxHp_": 0.011091
+            }
+          },
+          {
+            "value": "2 stacks",
+            "modifiers": {
+              "normal_dmgInc_from_maxHp_": 0.022182
+            }
+          },
+          {
+            "value": "3 stacks",
+            "modifiers": {
+              "normal_dmgInc_from_maxHp_": 0.033273
+            }
+          },
+          {
+            "value": "4 stacks",
+            "modifiers": {
+              "normal_dmgInc_from_maxHp_": 0.044364
+            }
+          },
+          {
+            "value": "5 stacks",
+            "modifiers": {
+              "normal_dmgInc_from_maxHp_": 0.055455
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "1 stacks": {
+              "normal_dmgInc_from_maxHp_": 0.013439
+            },
+            "2 stacks": {
+              "normal_dmgInc_from_maxHp_": 0.026878
+            },
+            "3 stacks": {
+              "normal_dmgInc_from_maxHp_": 0.040317
+            },
+            "4 stacks": {
+              "normal_dmgInc_from_maxHp_": 0.053756
+            },
+            "5 stacks": {
+              "normal_dmgInc_from_maxHp_": 0.067195
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c1KyoukaFuushi",
+        "source": "Kamisato Ayato",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 Kyouka Fuushi: Shunsuiken DMG is increased by 40% against opponents with 50% HP or less. Scoped to the Shunsuiken hits only.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "shunsuiken_dmg_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2WorldSource",
+        "source": "Kamisato Ayato",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 World Source: Namisen's maximum stack count is increased to 5, and while Ayato has at least 3 Namisen stacks his Max HP is increased by 50%.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hp_": 0.5
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstSuiyuuNormalDmg",
+        "source": "Kamisato Ayato",
+        "description": "Kamisato Art: Suiyuu: while the garden of purity exists, the Normal Attack DMG of characters inside it is increased by 20%.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }

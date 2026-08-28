@@ -19,8 +19,12 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -29,8 +33,12 @@
         ]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -39,8 +47,12 @@
         ]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,8 +61,12 @@
         ]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -59,8 +75,12 @@
         ]
       },
       "4": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,8 +91,12 @@
     },
     "charged": {
       "hit": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -81,8 +105,12 @@
         ]
       },
       "full": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -91,8 +119,12 @@
         ]
       },
       "kindling": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -103,8 +135,12 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -113,8 +149,12 @@
         ]
       },
       "low": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,8 +163,12 @@
         ]
       },
       "high": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,7 +180,11 @@
     "burst": {
       "dmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -146,7 +194,11 @@
       },
       "exp": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -161,14 +213,24 @@
       "burst": {
         "dmg_mult": 2.703,
         "exp_mult": 2.5925
+      },
+      "skill": {
+        "niwabi_mult": 1.70597
+      },
+      "normal": {
+        "0_mult": 1.0847410245,
+        "1_mult": 2.0810957433,
+        "2_mult": 2.7054244663,
+        "3_mult": 1.4128417047,
+        "4_mult": 3.2220825987
       }
     },
     "normal": {
-      "0_mult": 0.63585,
-      "1_mult": 1.21989,
-      "2_mult": 1.585857,
-      "3_mult": 0.828175,
-      "4_mult": 1.88871
+      "0_mult": 1.028449224,
+      "1_mult": 1.9730988816,
+      "2_mult": 2.56502854608,
+      "3_mult": 1.339523372,
+      "4_mult": 3.0548751024
     },
     "charged": {
       "hit_mult": 0.867,
@@ -186,13 +248,45 @@
     },
     "source": {
       "goCharacterKey": "Yoimiya",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Yoimiya-specific: Niwabi Fire-Dance is her permanent playstyle -- it converts her Normal Attacks to Blazing Arrows, which are Pyro and deal 161.744% of the Normal Attack multiplier (skill.niwabi_mult, Lv10). Both are baked in: the normal hits are tagged pyro and their multipliers are the PRODUCT raw_NA_mult x niwabi_mult. `derivedFrom` re-derives them from the skill talent so C3 (+3 Niwabi levels) moves them. There is deliberately no un-infused Normal Attack variant.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
         "autoTalentLevel": 10,
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
+      }
+    },
+    "skill": {
+      "niwabi_mult": 1.61744
+    },
+    "derivedFrom": {
+      "normal": {
+        "0_mult": {
+          "section": "skill",
+          "multKey": "niwabi_mult",
+          "factor": 0.63585
+        },
+        "1_mult": {
+          "section": "skill",
+          "multKey": "niwabi_mult",
+          "factor": 1.21989
+        },
+        "2_mult": {
+          "section": "skill",
+          "multKey": "niwabi_mult",
+          "factor": 1.585857
+        },
+        "3_mult": {
+          "section": "skill",
+          "multKey": "niwabi_mult",
+          "factor": 0.828175
+        },
+        "4_mult": {
+          "section": "skill",
+          "multKey": "niwabi_mult",
+          "factor": 1.88871
+        }
       }
     }
   },
@@ -202,44 +296,168 @@
       {
         "conditionKey": "a1TricksOfTheTroubleMaker",
         "source": "Yoimiya",
-        "description": "A1 Tricks of the Trouble-Maker: during Niwabi Fire-Dance (Elemental Skill), each Normal Attack shot that hits an opponent increases Yoimiya's own Pyro DMG Bonus by 2%, for 3s, stacking up to 10 times (+20% max).",
+        "description": "A1 Tricks of the Trouble-Maker: during Niwabi Fire-Dance, each Normal Attack hit grants +2% Pyro DMG Bonus for 3s, stacking up to 10 times (max +20%).",
         "states": [
-          { "value": "0", "modifiers": {} },
-          { "value": "1", "modifiers": { "pyro_dmg_": 0.02 } },
-          { "value": "2", "modifiers": { "pyro_dmg_": 0.04 } },
-          { "value": "3", "modifiers": { "pyro_dmg_": 0.06 } },
-          { "value": "4", "modifiers": { "pyro_dmg_": 0.08 } },
-          { "value": "5", "modifiers": { "pyro_dmg_": 0.1 } },
-          { "value": "6", "modifiers": { "pyro_dmg_": 0.12 } },
-          { "value": "7", "modifiers": { "pyro_dmg_": 0.14 } },
-          { "value": "8", "modifiers": { "pyro_dmg_": 0.16 } },
-          { "value": "9", "modifiers": { "pyro_dmg_": 0.18 } },
-          { "value": "10", "modifiers": { "pyro_dmg_": 0.2 } }
+          {
+            "value": "0",
+            "modifiers": {}
+          },
+          {
+            "value": "1",
+            "modifiers": {
+              "pyro_dmg_": 0.02
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "pyro_dmg_": 0.04
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "pyro_dmg_": 0.06
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "pyro_dmg_": 0.08
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "pyro_dmg_": 0.1
+            }
+          },
+          {
+            "value": "6",
+            "modifiers": {
+              "pyro_dmg_": 0.12
+            }
+          },
+          {
+            "value": "7",
+            "modifiers": {
+              "pyro_dmg_": 0.14
+            }
+          },
+          {
+            "value": "8",
+            "modifiers": {
+              "pyro_dmg_": 0.16
+            }
+          },
+          {
+            "value": "9",
+            "modifiers": {
+              "pyro_dmg_": 0.18
+            }
+          },
+          {
+            "value": "10",
+            "modifiers": {
+              "pyro_dmg_": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2ProcessionOfBonfires",
+        "source": "Yoimiya",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 A Procession of Bonfires: when Yoimiya's Pyro DMG scores a CRIT hit, she gains +25% Pyro DMG Bonus for 6s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_dmg_": 0.25
+            }
+          }
         ]
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
       {
         "conditionKey": "a4SummerNightsDawn",
         "source": "Yoimiya",
-        "description": "A4 Summer Night's Dawn: using Ryuukin Saxifrage (Elemental Burst) grants nearby party members a 10% ATK increase for 15s, plus a further 1% ATK per stack of Yoimiya's Tricks of the Trouble-Maker (A1) she had when casting the burst (max 10 stacks, +20% total). Select the state matching the A1 stack count at burst cast time.",
+        "description": "A4 Summer Night's Dawn: using Ryuukin Saxifrage grants nearby party members (NOT Yoimiya) +10% ATK for 15s, plus a further +1% per 'Tricks of the Trouble-Maker' stack Yoimiya holds at cast (max 10 stacks, so +20% at full stacks). Pick the stack count.",
         "states": [
-          { "value": "0", "modifiers": { "atk_": 0.1 } },
-          { "value": "1", "modifiers": { "atk_": 0.11 } },
-          { "value": "2", "modifiers": { "atk_": 0.12 } },
-          { "value": "3", "modifiers": { "atk_": 0.13 } },
-          { "value": "4", "modifiers": { "atk_": 0.14 } },
-          { "value": "5", "modifiers": { "atk_": 0.15 } },
-          { "value": "6", "modifiers": { "atk_": 0.16 } },
-          { "value": "7", "modifiers": { "atk_": 0.17 } },
-          { "value": "8", "modifiers": { "atk_": 0.18 } },
-          { "value": "9", "modifiers": { "atk_": 0.19 } },
-          { "value": "10", "modifiers": { "atk_": 0.2 } }
+          {
+            "value": "0",
+            "modifiers": {
+              "atk_": 0.1
+            }
+          },
+          {
+            "value": "1",
+            "modifiers": {
+              "atk_": 0.11
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "atk_": 0.12
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "atk_": 0.13
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "atk_": 0.14
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "atk_": 0.15
+            }
+          },
+          {
+            "value": "6",
+            "modifiers": {
+              "atk_": 0.16
+            }
+          },
+          {
+            "value": "7",
+            "modifiers": {
+              "atk_": 0.17
+            }
+          },
+          {
+            "value": "8",
+            "modifiers": {
+              "atk_": 0.18
+            }
+          },
+          {
+            "value": "9",
+            "modifiers": {
+              "atk_": 0.19
+            }
+          },
+          {
+            "value": "10",
+            "modifiers": {
+              "atk_": 0.2
+            }
+          }
         ]
       }
-    ],
-    "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    ]
   }
 }

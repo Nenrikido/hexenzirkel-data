@@ -19,8 +19,12 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -29,8 +33,12 @@
         ]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -39,8 +47,12 @@
         ]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,8 +61,12 @@
         ]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -59,8 +75,12 @@
         ]
       },
       "4": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,8 +91,12 @@
     },
     "charged": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -83,8 +107,12 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,8 +121,12 @@
         ]
       },
       "low": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -103,8 +135,12 @@
         ]
       },
       "high": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "rushDmg": {
         "element": "dendro",
-        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -130,7 +170,12 @@
       },
       "mirrorDmg1": {
         "element": "dendro",
-        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "projection_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -146,7 +191,12 @@
     "burst": {
       "instanceDmg": {
         "element": "dendro",
-        "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "projection_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -200,7 +250,7 @@
     },
     "source": {
       "goCharacterKey": "Alhaitham",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Universality: An Elaboration on Form gives a non-overridable Dendro infusion while Chisel-Light Mirrors are active, which is his whole Normal-Attack playstyle, so it is baked in.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -216,11 +266,93 @@
       {
         "conditionKey": "a4MysteriesLaidBare",
         "source": "Alhaitham",
-        "description": "A4 Mysteries Laid Bare (approximated, self): each point of Elemental Mastery increases Projection Attack DMG (skill.mirrorDmg1) and Particular Field: Fetters of Phenomena DMG (burst.instanceDmg) by 0.1%, capped at +100% (reached at 1000 EM). No bespoke bonus key isolates mirrorDmg1 from rushDmg (Elemental Skill's Rush hit) in hit_definitions_json, so this is applied via skill_dmg_/burst_dmg_ and will also slightly over-buff Rush DMG. Approximated here at 250 EM (a representative EM-hybrid Alhaitham build) => +25%; admin can override via the LB builder UI for a different EM assumption.",
+        "description": "A4 Mysteries Laid Bare: each point of Alhaitham's Elemental Mastery increases the DMG dealt by Projection Attacks (the Chisel-Light Mirror hits) and by Particular Field: Fetters of Phenomena by 0.1%, up to +100% (reached at 1,000 EM). It does NOT buff the skill's own Rushing Attack, which is why the two affected hits carry the `projection_dmg_` scope key rather than plain skill_dmg_/burst_dmg_.",
         "states": [
           {
             "value": "active",
-            "modifiers": { "skill_dmg_": 0.25, "burst_dmg_": 0.25 }
+            "modifiers": {
+              "projection_dmg_from_eleMas": 0.001,
+              "projection_dmg_from_eleMas_cap_": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2Debate",
+        "source": "Alhaitham",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 Debate: generating a Chisel-Light Mirror grants Alhaitham +50 Elemental Mastery for 8s, up to 4 independent stacks (+200 EM).",
+        "states": [
+          {
+            "value": "1 stacks",
+            "modifiers": {
+              "eleMas": 50
+            }
+          },
+          {
+            "value": "2 stacks",
+            "modifiers": {
+              "eleMas": 100
+            }
+          },
+          {
+            "value": "3 stacks",
+            "modifiers": {
+              "eleMas": 150
+            }
+          },
+          {
+            "value": "4 stacks",
+            "modifiers": {
+              "eleMas": 200
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4ElucidationDendroDmg",
+        "source": "Alhaitham",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 Elucidation: each Chisel-Light Mirror GENERATED when Particular Field: Fetters of Phenomena is unleashed grants Alhaitham a 10% Dendro DMG Bonus for 15s. At C6 he always generates 3.",
+        "states": [
+          {
+            "value": "1 mirrors generated",
+            "modifiers": {
+              "dendro_dmg_": 0.1
+            }
+          },
+          {
+            "value": "2 mirrors generated",
+            "modifiers": {
+              "dendro_dmg_": 0.2
+            }
+          },
+          {
+            "value": "3 mirrors generated",
+            "modifiers": {
+              "dendro_dmg_": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6Structuration",
+        "source": "Alhaitham",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Structuration: generating Chisel-Light Mirrors while already at the maximum increases Alhaitham's CRIT Rate by 10% and CRIT DMG by 70% for 6s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_": 0.1,
+              "critDMG_": 0.7
+            }
           }
         ]
       }
@@ -228,6 +360,35 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4ElucidationTeamEm",
+        "source": "Alhaitham",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 Elucidation: each Chisel-Light Mirror CONSUMED when Particular Field: Fetters of Phenomena is unleashed increases the Elemental Mastery of all other nearby party members by 30 for 15s.",
+        "states": [
+          {
+            "value": "1 mirrors consumed",
+            "modifiers": {
+              "eleMas": 30
+            }
+          },
+          {
+            "value": "2 mirrors consumed",
+            "modifiers": {
+              "eleMas": 60
+            }
+          },
+          {
+            "value": "3 mirrors consumed",
+            "modifiers": {
+              "eleMas": 90
+            }
+          }
+        ]
+      }
+    ]
   }
 }

@@ -19,8 +19,12 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -29,8 +33,12 @@
         ]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -39,8 +47,12 @@
         ]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,8 +61,12 @@
         ]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,8 +77,12 @@
     },
     "charged": {
       "spinningDmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,8 +91,12 @@
         ]
       },
       "finalDmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -83,8 +107,12 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,8 +121,12 @@
         ]
       },
       "low": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -103,8 +135,12 @@
         ]
       },
       "high": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -116,7 +152,11 @@
     "skill": {
       "firstHit": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
       },
       "secondHit": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,7 +180,11 @@
       },
       "thirdHit": {
         "element": "pyro",
-        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -148,7 +196,11 @@
     "burst": {
       "slashDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -158,7 +210,11 @@
       },
       "dotDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -168,7 +224,11 @@
       },
       "explosionDmg": {
         "element": "pyro",
-        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -218,7 +278,7 @@
     },
     "source": {
       "goCharacterKey": "Diluc",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Dawn (Elemental Burst) grants a Pyro Infusion for 8s, extended by 4s by A4 Blessing of Phoenix; GO models it as nonOverridableSelf, so it is baked in.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -240,6 +300,54 @@
             "value": "active",
             "modifiers": {
               "pyro_dmg_": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1Conviction",
+        "source": "Diluc",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 Conviction: Diluc deals 15% more DMG to opponents whose HP is above 50%.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "all_dmg_": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4FlowingFlame",
+        "source": "Diluc",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 Flowing Flame: casting Searing Onslaught in rhythm — within 2s of the previous cast — makes the next Searing Onslaught in the combo deal 40% additional DMG.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "skill_dmg_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6FlamingSwordNemesisOfDark",
+        "source": "Diluc",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Flaming Sword, Nemesis of the Dark: after casting Searing Onslaught, the next 2 Normal Attacks within 6s deal 30% increased DMG.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmg_": 0.3
             }
           }
         ]

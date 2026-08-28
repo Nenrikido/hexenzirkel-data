@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -70,7 +90,11 @@
       },
       "5": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -80,7 +104,11 @@
       },
       "hex0": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -90,7 +118,11 @@
       },
       "hex1": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -100,7 +132,11 @@
       },
       "hex2": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -110,7 +146,11 @@
       },
       "hex3": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -120,7 +160,11 @@
       },
       "hex4": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -130,7 +174,11 @@
       },
       "hex5": {
         "element": "anemo",
-        "dmgBonusKeys": ["normal_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -142,7 +190,11 @@
     "charged": {
       "aimed": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -151,8 +203,12 @@
         ]
       },
       "fully": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -164,7 +220,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -174,7 +234,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -184,7 +248,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -196,7 +264,11 @@
     "skill": {
       "press": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -206,7 +278,11 @@
       },
       "hold": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -325,25 +401,46 @@
       {
         "conditionKey": "c1SplittingGales",
         "source": "avatar_10000022",
-        "gating": { "constellationMin": 1 },
+        "gating": {
+          "constellationMin": 1
+        },
         "description": "C1 Splitting Gales: Aimed Shot fires 2 additional arrows, each dealing 33% of the original arrow's DMG (+66% total, applied as charged_base_dmg_ to both charged hits since both share the charged_dmg_ bonus key).",
         "states": [
-          { "value": "on", "modifiers": { "charged_base_dmg_": 0.66 } }
+          {
+            "value": "on",
+            "modifiers": {
+              "charged_base_dmg_": 0.66
+            }
+          }
         ]
       },
       {
         "conditionKey": "c4HurricaneOfFreedom",
         "source": "avatar_10000022",
-        "gating": { "constellationMin": 4 },
+        "gating": {
+          "constellationMin": 4
+        },
         "description": "C4 Hurricane of Freedom: picking up an Elemental Orb/Particle grants Venti a 25% Anemo DMG Bonus for 10s.",
-        "states": [{ "value": "on", "modifiers": { "anemo_dmg_": 0.25 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "anemo_dmg_": 0.25
+            }
+          }
+        ]
       },
       {
         "conditionKey": "hexereiStormeyeBonus",
         "source": "avatar_10000022",
         "description": "Witch's Eve Rite: Temporal Wind's Eulogy (Hexerei: Secret Rite, requires >=2 Hexerei party members): while Stormeye is active, Venti's Stormeye deals 135% of its original DMG (+35%). 'X% of its original DMG' is a base-DMG multiplier, so it is applied as stormeye_base_dmg_ (scaling the talent base before DMG% bonuses), scoped to the stormeye hit via the stormeye_dmg_ key in its dmgBonusKeys.",
         "states": [
-          { "value": "on", "modifiers": { "stormeye_base_dmg_": 0.35 } }
+          {
+            "value": "on",
+            "modifiers": {
+              "stormeye_base_dmg_": 0.35
+            }
+          }
         ]
       }
     ],
@@ -352,7 +449,9 @@
       {
         "conditionKey": "c2BreezeOfReminiscence",
         "source": "avatar_10000022",
-        "gating": { "constellationMin": 2 },
+        "gating": {
+          "constellationMin": 2
+        },
         "description": "C2 Breeze of Reminiscence: Skyward Sonnet decreases opponents' Anemo RES and Physical RES by 12% for 10s; airborne targets suffer an additional 12% decrease to each (24% total) while airborne.",
         "states": [
           {
@@ -374,15 +473,31 @@
       {
         "conditionKey": "c6StormOfDefiance",
         "source": "avatar_10000022",
-        "gating": { "constellationMin": 6 },
+        "gating": {
+          "constellationMin": 6
+        },
         "description": "C6 Storm of Defiance: targets hit by Wind's Grand Ode (burst) have Anemo RES decreased by 20% (the additional -20% RES to an absorbed element, when Elemental Absorption occurs, is not modeled).",
-        "states": [{ "value": "on", "modifiers": { "anemo_enemyRes_": -0.2 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "anemo_enemyRes_": -0.2
+            }
+          }
+        ]
       },
       {
         "conditionKey": "hexereiSwirlBonus",
         "source": "avatar_10000022",
         "description": "Witch's Eve Rite: Temporal Wind's Eulogy (Hexerei: Secret Rite, requires >=2 Hexerei party members): while Stormeye is active, for 4s after a nearby active character triggers Swirl, that character's DMG is increased by 50%.",
-        "states": [{ "value": "on", "modifiers": { "all_dmg_": 0.5 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "all_dmg_": 0.5
+            }
+          }
+        ]
       }
     ],
     "others_modifiers_json": {},

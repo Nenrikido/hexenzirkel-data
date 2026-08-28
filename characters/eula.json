@@ -20,7 +20,11 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -30,7 +34,11 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -40,7 +48,11 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -50,7 +62,11 @@
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -60,7 +76,11 @@
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -72,7 +92,11 @@
     "charged": {
       "spinningDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -82,7 +106,11 @@
       },
       "finalDmg": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -94,7 +122,11 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -104,7 +136,11 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -114,7 +150,11 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -126,7 +166,11 @@
     "skill": {
       "press": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -136,7 +180,11 @@
       },
       "hold": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -146,7 +194,11 @@
       },
       "icewhirl": {
         "element": "cryo",
-        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
@@ -158,11 +210,50 @@
     "burst": {
       "dmg": {
         "element": "cryo",
-        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "lightFallSwordNew": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "physical_dmg_",
+          "lightfall_dmg_",
+          "all_dmg_"
+        ],
+        "mvMultiplierKeys": [
+          "eula_lightfallStacks_mult_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "lightFallSwordNew_mult"
+          }
+        ]
+      }
+    },
+    "passive1": {
+      "shatteredLightfallSword": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "physical_dmg_",
+          "lightfall_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "shatteredLightfallSword_mult"
           }
         ]
       }
@@ -171,12 +262,16 @@
   "talent_multipliers_json": {
     "boosted": {
       "burst": {
-        "dmg_mult": 5.219
+        "dmg_mult": 5.219,
+        "lightFallSwordNew_mult": 9.222721
       },
       "skill": {
         "press_mult": 3.111,
         "hold_mult": 5.219,
         "icewhirl_mult": 2.04
+      },
+      "passive1": {
+        "shatteredLightfallSword_mult": 4.6113605
       }
     },
     "normal": {
@@ -201,7 +296,8 @@
       "icewhirl_mult": 1.728
     },
     "burst": {
-      "dmg_mult": 4.4208
+      "dmg_mult": 4.4208,
+      "lightFallSwordNew_mult": 7.2556
     },
     "source": {
       "goCharacterKey": "Eula",
@@ -213,13 +309,165 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       }
+    },
+    "passive1": {
+      "shatteredLightfallSword_mult": 3.6278
+    },
+    "derivedFrom": {
+      "passive1": {
+        "shatteredLightfallSword_mult": {
+          "section": "burst",
+          "multKey": "lightFallSwordNew_mult",
+          "factor": 0.5
+        }
+      }
     }
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c1TidalIllusion",
+        "source": "Eula",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 Tidal Illusion: every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s (duration extended 6s per stack consumed, up to 18s).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "physical_dmg_": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "burstLightfallStacks",
+        "source": "Eula",
+        "description": "Glacial Illumination: the Lightfall Sword accumulates energy stacks from Eula's Normal Attacks, Elemental Skills and Bursts, and its Physical DMG is 725.6% of ATK plus 148.2% per stack (max 30). Pick the stack count the rotation reaches; C6 starts it at 5 stacks. This scales the Lightfall Sword hit itself, not any other burst damage.",
+        "states": [
+          {
+            "value": "0 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 1.0
+            }
+          },
+          {
+            "value": "5 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 2.021556
+            }
+          },
+          {
+            "value": "10 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 3.043112
+            }
+          },
+          {
+            "value": "13 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 3.656045
+            }
+          },
+          {
+            "value": "15 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 4.064667
+            }
+          },
+          {
+            "value": "17 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 4.47329
+            }
+          },
+          {
+            "value": "20 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 5.086223
+            }
+          },
+          {
+            "value": "25 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 6.107779
+            }
+          },
+          {
+            "value": "30 stacks",
+            "modifiers": {
+              "eula_lightfallStacks_mult_": 7.129335
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "0 stacks": {
+              "eula_lightfallStacks_mult_": 1.0
+            },
+            "5 stacks": {
+              "eula_lightfallStacks_mult_": 2.021556
+            },
+            "10 stacks": {
+              "eula_lightfallStacks_mult_": 3.043112
+            },
+            "13 stacks": {
+              "eula_lightfallStacks_mult_": 3.656045
+            },
+            "15 stacks": {
+              "eula_lightfallStacks_mult_": 4.064668
+            },
+            "17 stacks": {
+              "eula_lightfallStacks_mult_": 4.47329
+            },
+            "20 stacks": {
+              "eula_lightfallStacks_mult_": 5.086224
+            },
+            "25 stacks": {
+              "eula_lightfallStacks_mult_": 6.107779
+            },
+            "30 stacks": {
+              "eula_lightfallStacks_mult_": 7.129335
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c4ObstinacyOfOnesInferiors",
+        "source": "Eula",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 The Obstinacy of One's Inferiors: Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP. Scoped to the Lightfall Sword hits only.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lightfall_dmg_": 0.25
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillIcetideResShred",
+        "source": "Eula",
+        "description": "Icetide Vortex (Holding Mode): consuming Grimheart stacks decreases the opponent's Physical RES and Cryo RES by 25% for 7s.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "physical_enemyRes_": -0.25,
+              "cryo_enemyRes_": -0.25
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   }
