@@ -258,7 +258,28 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillIcyQuillOwnAtk",
+        "source": "Shenhe",
+        "description": "Elemental Skill (Spring Spirit Summoning), self half: the Icy Quill raises the DMG of Normal, Charged and Plunging Attacks, Elemental Skills and Elemental Bursts that deal CRYO DMG by 82.18% of Shenhe's current ATK (skill Lv10). She is one of the nearby party members it is granted to, so when SHE is the scored character it reads her own live ATK through cryo_dmgIncFromAtk_ - element-scoped, not attack-type-scoped, because the clause keys off the DMG being Cryo whatever deals it. C3 raises Spring Spirit Summoning by three levels to Lv13 and the share with it (97.02%), hence the constellationStates block. The teammate half is skillIcyQuillFromAtk in others scope, which reads her ATK off a statInput instead. NOTE the Quill is consumed per trigger - 5 charges on Press, 7 on Hold - so weight the rotation accordingly rather than assuming every Cryo hit gets it.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "cryo_dmgIncFromAtk_": 0.8218
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "on": {
+              "cryo_dmgIncFromAtk_": 0.9702
+            }
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
@@ -338,6 +359,26 @@
       }
     ],
     "others_modifiers_json": {},
-    "others_conditional_modifiers_json": []
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillIcyQuillFromAtk",
+        "source": "Shenhe",
+        "description": "Elemental Skill (Spring Spirit Summoning): the Icy Quill raises the DMG nearby party members deal with Normal, Charged and Plunging Attacks, Elemental Skills and Elemental Bursts that deal CRYO DMG by 82.18% of Shenhe's current ATK (skill Lv10), rising to 97.02% at C3, which takes the talent to Lv13 - that is the constellationRates block. An Additive Base DMG Bonus, so it lands on cryo_dmgInc. Type Shenhe's ATK into the input; leaving it blank assumes 2,400. Others scope, so this is offered only when she is a teammate; when she is the scored character the self-scope half reads her live ATK instead. NOTE the Quill is consumed per trigger - 5 charges on Press, 7 on Hold - so weight the rotation accordingly rather than assuming every Cryo hit gets it.",
+        "statInput": {
+          "stat": "atk",
+          "default": 2400,
+          "max": 6000,
+          "ratesPerUnit": {
+            "cryo_dmgInc": 0.8218
+          },
+          "constellationRates": {
+            "C3": {
+              "cryo_dmgInc": 0.9702
+            }
+          }
+        },
+        "states": []
+      }
+    ]
   }
 }
