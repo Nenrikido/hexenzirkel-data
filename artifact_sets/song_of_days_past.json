@@ -7,6 +7,44 @@
     },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "4pc_waves_of_days_past",
+        "source": "SongOfDaysPast",
+        "description": "4pc: when the equipping character heals a party member, the Yearning effect records the healing done over 6s (overflow healing included, capped at 15,000). It then becomes Waves of Days Past: the active character's Normal, Charged and Plunging Attacks, Elemental Skill and Elemental Burst deal DMG increased by 8% of the recorded healing. That is a flat Additive Base DMG Bonus, so it uses the five *_dmgInc keys (the same shape as Faruzan's A4), not a DMG% bucket. Team scope: the set is worn by a healer and the buff lands on whoever is active. The effect is removed after 5 hits or 10s, so weight the rotation accordingly rather than assuming every hit gets it. States are the recorded healing; 15,000 is the in-game cap and gives the maximum +1,200.",
+        "states": [
+          {
+            "value": "5,000 healing",
+            "modifiers": {
+              "normal_dmgInc": 400.0,
+              "charged_dmgInc": 400.0,
+              "plunging_dmgInc": 400.0,
+              "skill_dmgInc": 400.0,
+              "burst_dmgInc": 400.0
+            }
+          },
+          {
+            "value": "10,000 healing",
+            "modifiers": {
+              "normal_dmgInc": 800.0,
+              "charged_dmgInc": 800.0,
+              "plunging_dmgInc": 800.0,
+              "skill_dmgInc": 800.0,
+              "burst_dmgInc": 800.0
+            }
+          },
+          {
+            "value": "15,000 healing (cap)",
+            "modifiers": {
+              "normal_dmgInc": 1200.0,
+              "charged_dmgInc": 1200.0,
+              "plunging_dmgInc": 1200.0,
+              "skill_dmgInc": 1200.0,
+              "burst_dmgInc": 1200.0
+            }
+          }
+        ]
+      }
+    ]
   }
 }

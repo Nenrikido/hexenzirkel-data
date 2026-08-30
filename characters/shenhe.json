@@ -262,6 +262,36 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
+        "conditionKey": "burstDivineMaidensDeliveranceResShred",
+        "source": "Shenhe",
+        "description": "Elemental Burst (Divine Maiden's Deliverance): the Talisman Spirit's field lowers the Cryo RES and Physical RES of opponents inside it by 15% (burst Lv10). The value caps at 15% from Lv10 upward, so C5's +3 burst levels do not raise it and no constellationStates tier is needed. Team scope and a fixed value, so it needs no self/others split. The field lasts 12s, 18s at C2.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "cryo_enemyRes_": -0.15,
+              "physical_enemyRes_": -0.15
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2CenteredSpiritCryoCritDmg",
+        "source": "Shenhe",
+        "description": "C2 Centered Spirit: characters inside Divine Maiden's Deliverance's field have their Cryo CRIT DMG increased by 15% (the constellation's other half extends the field by 6s, which is uptime rather than a stat). Element-scoped, so it reaches every Cryo hit and nothing else.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "cryo_critDMG_": 0.15
+            }
+          }
+        ]
+      },
+      {
         "conditionKey": "shenheA1DeificEmbrace",
         "source": "Shenhe",
         "description": "A1 Deific Embrace: an active character standing within the field created by Divine Maiden's Deliverance (Elemental Burst) gains a 15% Cryo DMG Bonus.",

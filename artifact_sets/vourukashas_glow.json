@@ -9,11 +9,51 @@
       {
         "conditionKey": "4pc_elemental_skill_and_elemental_burst_dmg_will_be_increased_by",
         "source": "VourukashasGlow",
-        "description": "4pc: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.",
-        "modifiers": {
-          "skill_dmg_": 0.1,
-          "burst_dmg_": 0.1
-        }
+        "description": "4pc: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field. Each stack raises the 10% bonus by 80% of itself, i.e. +8pp per stack, so 5 stacks is +50% and not +90%: the states below are 0.1 x (1 + 0.8 x stacks). \"0 stacks\" is first so a leaderboard saved before the states existed (selectedState null resolves to the first state) keeps scoring the plain 10% it always had.",
+        "states": [
+          {
+            "value": "0 stacks",
+            "modifiers": {
+              "skill_dmg_": 0.1,
+              "burst_dmg_": 0.1
+            }
+          },
+          {
+            "value": "1 stack",
+            "modifiers": {
+              "skill_dmg_": 0.18,
+              "burst_dmg_": 0.18
+            }
+          },
+          {
+            "value": "2 stacks",
+            "modifiers": {
+              "skill_dmg_": 0.26,
+              "burst_dmg_": 0.26
+            }
+          },
+          {
+            "value": "3 stacks",
+            "modifiers": {
+              "skill_dmg_": 0.34,
+              "burst_dmg_": 0.34
+            }
+          },
+          {
+            "value": "4 stacks",
+            "modifiers": {
+              "skill_dmg_": 0.42,
+              "burst_dmg_": 0.42
+            }
+          },
+          {
+            "value": "5 stacks",
+            "modifiers": {
+              "skill_dmg_": 0.5,
+              "burst_dmg_": 0.5
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
