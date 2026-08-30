@@ -256,6 +256,14 @@
         "contDmg_mult": 0.95438,
         "swirl_dmg_per_eleMas": 0.0054,
         "stellarSwirl_dmg_per_eleMas": 0.00054
+      },
+      "lockedPassive": {
+        "contDmg_mult": 0.95438
+      }
+    },
+    "derivedFrom": {
+      "lockedPassive": {
+        "contDmg_mult": { "section": "skill", "multKey": "contDmg_mult", "factor": 1.0 }
       }
     },
     "normal": {
@@ -345,12 +353,35 @@
       {
         "conditionKey": "skillStellarSwirlDmgOwnEleMas",
         "source": "Yumemizuki Mizuki",
-        "description": "Dreamdrifter, self half: Stellar Swirl reaction DMG +0.045% per point of HER Elemental Mastery. Offered only when Mizuki is the scored character, so the stellarswirl_dmg_from_eleMas conversion reads the build's own live EM (post-buff, after the EM conversions above it). The teammate half is skillStellarSwirlDmgFromEleMas in others scope — different scopes, so the two can never both apply. NOTE her C1 flat increase has no self-scope equivalent: it is a Reaction Additive Base DMG Bonus, which sits outside the Stellar brackets and so cannot use the *_dmgIncFromEleMas_ family.",
+        "description": "Dreamdrifter, self half: Stellar Swirl reaction DMG +0.045% per point of HER Elemental Mastery. Offered only when Mizuki is the scored character, so the stellarswirl_dmg_from_eleMas conversion reads the build's own live EM (post-buff, after the EM conversions above it). The teammate half is skillStellarSwirlDmgFromEleMas in others scope — different scopes, so the two can never both apply. The rate is talent-scaled, so C3 — which raises Dreamdrifter by 3 levels to Lv13 — takes it to 0.054%; that is the constellationStates block below. The C1 flat increase on top of this is c1TwentyThreeNightsStellarSwirlDmgIncOwnEleMas.",
         "states": [
           {
             "value": "on",
             "modifiers": {
               "stellarswirl_dmg_from_eleMas": 0.00045
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "on": {
+              "stellarswirl_dmg_from_eleMas": 0.00054
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c1TwentyThreeNightsStellarSwirlDmgIncOwnEleMas",
+        "source": "Yumemizuki Mizuki",
+        "description": "C1 In Mist-Like Waters, self half: while she is in Dreamdrifter, opponents carry 'Twenty-Three Nights' Awaiting'; a Stellar Swirl triggered on an affected opponent deals DMG increased by 550% of HER Elemental Mastery (the ordinary-Swirl branch of the same clause is 1,100% and has no key — swirl_dmg_ is not a modifier bucket). A Reaction Additive Base DMG Bonus, so it goes through stellarswirl_dmgInc, which lands OUTSIDE the three Stellar multiplicative brackets. Offered only when Mizuki is the scored character, so the stellarswirl_dmgInc_from_eleMas conversion reads the build's own live EM; the teammate half is c1TwentyThreeNightsStellarSwirlDmgInc in others scope, which reads her EM off a statInput instead. Constellation value, not talent-scaled, so no constellationStates tier. NOTE the effect is consumed per application (once every 3.5s for 3s), so weight the rotation accordingly rather than assuming every instance gets it — GO applies it to every one.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarswirl_dmgInc_from_eleMas": 5.5
             }
           }
         ]
