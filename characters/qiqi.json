@@ -207,5 +207,147 @@
         "states": []
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000035",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Ancient Sword Art",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Adeptus Art: Herald of Frost",
+            "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <e:cryo>Cryo DMG</e> to surrounding opponents.\n\n<k>Herald of Frost</k>\n· On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates, with healing scaled based on Qiqi's ATK.\n· Periodically regenerates your active character's HP.\n· Follows the character around, dealing <e:cryo>Cryo DMG</e> to opponents in the character's path.\nIf your current active character hits an opponent with an attack, the Herald of Frost will perform a coordinated attack on the opponent, dealing <e:cryo>Cryo DMG</e>.\n\n<i>\"I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.\"</i>"
+          },
+          "burst": {
+            "name": "Adeptus Art: Preserver of Fortune",
+            "desc": "Qiqi releases the Adeptal power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <e:cryo>Cryo DMG</e>.\n<k>Radiance: Stellar-Conduct</k>: Deals an additional instance of <e:cryo>Cryo DMG</e> that is also considered Stellar-Conduct DMG.\n\n<k>Fortune-Preserving Talisman</k>\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\n\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\n<i>— Qiqi does not remember these words.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Life-Prolonging Methods",
+            "desc": "When a character under the effects of <k>Adeptus Art: Herald of Frost</k> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+          },
+          {
+            "name": "A Glimpse Into Arcanum",
+            "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.\n<k>Radiance: Stellar Glimmer</k>: The effect now has a 100% chance to trigger, and cooldown time is reduced to 15s."
+          },
+          {
+            "name": "Former Life Memories",
+            "desc": "Displays the location of nearby <k>resources unique to Liyue</k> on the mini-map."
+          },
+          {
+            "name": "Seven Sacred Treasures",
+            "desc": "The cooldown of the Elemental Skill <k>Adeptus Art: Herald of Frost</k> is reduced to 15s.\n<k>Radiance: Stellar Glimmer</k>: While the Herald of Frost is on the field, Qiqi's own party members will have the DMG they deal via the corresponding reactions enhanced:\n<k>Radiance: Stellar-Conduct</k>: Superconduct and Stellar-Conduct reaction DMG is increased by 50%.\n<k>Radiance: Stellar Swirl</k>: Cryo Swirl and Stellar Swirl reaction DMG dealt is increased by 50%.\nAdditionally, Qiqi will also enter the <k>Radiance: Stellar-Conduct</k> state when she is inside a <k>Polestar Field</k>, or the <k>Radiance: Stellar Swirl</k> state for 8s after a nearby party character triggers a Stellar Swirl reaction."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Ascetics of Frost",
+            "desc": "Qiqi regenerates 2 Energy when the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman.\n<k>Radiance: Stellar Glimmer</k>: Qiqi also regenerates 6 Elemental Energy when the Herald of Frost's attacks and coordinated attacks hit opponents. This effect can trigger once every 6s."
+          },
+          {
+            "level": 2,
+            "name": "Frozen to the Bone",
+            "desc": "Qiqi's Normal and Charged Attack DMG against opponents affected by <e:cryo>Cryo</e> is increased by 15%.\n<k>Radiance: Stellar Glimmer</k>: Qiqi's ATK is increased by 50%."
+          },
+          {
+            "level": 3,
+            "name": "Ascendant Praise",
+            "desc": "Increases the Level of <k>Adeptus Art: Preserver of Fortune</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Divine Suppression",
+            "desc": "Targets marked by a Fortune-Preserving Talisman have their ATK reduced by 20%.\nAdditionally, when the healing effect of Fortune-Preserving Talisman triggers, the nearby party member with the lowest HP percentage remaining will also receive an additional instance of healing for 180% of Qiqi's ATK."
+          },
+          {
+            "level": 5,
+            "name": "Crimson Lotus Bloom",
+            "desc": "Increases the Level of <k>Adeptus Art: Herald of Frost</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Rite of Resurrection",
+            "desc": "Using <k>Adeptus Art: Preserver of Fortune</k> revives all fallen party members nearby and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.\nAdditionally, after using <k>Adeptus Art: Preserver of Fortune</k>, Qiqi will also gain 4 stacks of <k>Glimpse of Mystery</k>, and when your current active character (other than Qiqi) deals Stellar-Conduct or Stellar Swirl reaction DMG with their Talent or skill, 1 stack of <k>Glimpse of Mystery</k> is consumed, and DMG dealt is increased by 600% of Qiqi's ATK. The <k>Glimpse of Mystery</k> effect lasts up to 12s, and unleashing <k>Adeptus Art: Preserver of Fortune</k> refreshes the stack count."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Escrime ancienne des nuages",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Arcane d'Adepte : Héraut de givre",
+            "desc": "Utilise un talisman infusé de glace et de sang pour invoquer un héraut de givre, infligeant des <e:cryo>DGT Cryo</e> aux ennemis proches.\n\n<k>Héraut de givre</k>\n· Les attaques normales et chargées de Qiqi restaurent les PV de vos personnages dans l'équipe ainsi que des alliés proches lorsqu'elles touchent. La quantité de PV restaurée est proportionnelle à l'ATQ de Qiqi.\n· Régénère les PV du personnage déployé à intervalles réguliers.\n· Le héraut suit le personnage déployé et inflige des <e:cryo>DGT Cryo</e> aux ennemis sur sa route.\n· Le héraut de givre déclenche une attaque coordonnée infligeant des <e:cryo>DGT Cryo</e> lorsqu'une attaque de votre personnage déployé touche un ennemi.\n\n<i>« Je l'utilise pour empêcher le réchauffement et la pourriture... des précieux ingrédients de monsieur Baizhu, bien sûr. »</i>"
+          },
+          "burst": {
+            "name": "Arcane d'Adepte : Talisman sacré",
+            "desc": "Qiqi libère le pouvoir d'Adepte scellé en elle et marque les ennemis proches d'un talisman de fortune qui leur inflige des <e:cryo>DGT Cryo</e>.\n<k>Radiance « Astroconduction »</k> : Inflige une fois supplémentaire des <e:cryo>DGT Cryo</e> considérés comme des DGT de réaction d'Astroconduction.\n\n<k>Talisman de fortune</k>\nLes personnages récupèrent des PV en infligeant des DGT aux ennemis marqués.\n\n<i>« Je suis l'envoyée de la Providence, le symbole de la renaissance. »</i>\n<i>— Qiqi est bien incapable de se rappeler de ces mots.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Survie en milieu hostile",
+            "desc": "Lorsqu'un personnage sous l'effet d'<k>Arcane d'Adepte : Héraut de givre</k> déclenche une réaction élémentaire, son bonus de soins reçus augmente de 20 % pendant 8 s."
+          },
+          {
+            "name": "Ouverture des arcanes",
+            "desc": "Les attaques normales et chargées de Qiqi ont 50 % de chances de marquer l'ennemi touché d'un talisman de fortune pendant 6 s. Cet effet peut être déclenché une fois toutes les 30 s.\n<k>Radiance astrale</k> : L'effet a maintenant 100 % de chances de se déclencher et le TdR passe à 15 s."
+          },
+          {
+            "name": "Souvenir d'une vie lointaine",
+            "desc": "Affiche l'emplacement des <k>produits de Liyue</k> sur la mini-carte."
+          },
+          {
+            "name": "Sept trésors sacrés",
+            "desc": "Diminue le TdR de la compétence élémentaire <k>Arcane d'Adepte : Héraut de givre</k> à 15 s.\n<k>Radiance astrale</k> : Les DGT des réactions correspondantes de vos personnages dans l'équipe augmentent pendant la durée du héraut de givre :\n<k>Radiance « Astroconduction »</k> : Les DGT de réaction de Supraconduction et les DGT de réaction d'Astroconduction augmentent de 50 %.\n<k>Radiance « Astrodispersion »</k> : Les DGT de réaction de Dispersion Cryo et les DGT de réaction d'Astrodispersion augmentent de 50 %.\nDe plus, Qiqi passe en <k>radiance « Astroconduction »</k> ou en <k>radiance « Astrodispersion »</k> lorsqu'elle est dans une <k>étendue polaris</k>, ou pendant 8 s lorsqu'un personnage de l'équipe a déclenché une réaction d'Astrodispersion à proximité, respectivement."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Ascèse du givre",
+            "desc": "Qiqi récupère 2 pts d'énergie élémentaire à chaque fois que son héraut de givre touche un ennemi marqué par un talisman de fortune.\n<k>Radiance astrale</k> : Qiqi récupère également 6 pts d'énergie élémentaire lorsque l'attaque ou une attaque coordonnée du héraut de givre touche un ennemi, ceci pouvant être déclenché une fois toutes les 6 s."
+          },
+          {
+            "level": 2,
+            "name": "Gelé jusqu'à l'os",
+            "desc": "Les attaques normales et chargées de Qiqi infligent 15 % de DGT supplémentaires contre les ennemis affectés par l'<e:cryo>élément Cryo</e>.\n<k>Radiance astrale</k> : L'ATQ de Qiqi augmente de 50 %."
+          },
+          {
+            "level": 3,
+            "name": "Louange vers le ciel",
+            "desc": "Niveau d'aptitude <k>Arcane d'Adepte : Talisman sacré</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Répression divine",
+            "desc": "L'ATQ des cibles marquées par un talisman de fortune diminue de 20 %.\nDe plus, déclencher l'effet de soins d'un talisman de fortune soigne également le personnage proche ayant le pourcentage de PV restant le plus bas une fois pour une valeur équivalant à 180 % de l'ATQ de Qiqi."
+          },
+          {
+            "level": 5,
+            "name": "Éclosion du lotus rouge",
+            "desc": "Niveau d'aptitude <k>Arcane d'Adepte : Héraut de givre</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Symbole de la renaissance",
+            "desc": "L'activation d'<k>Arcane d'Adepte : Talisman sacré</k> réanime tous les personnages de l'équipe à proximité et restaure 50 % de leurs PV.\nCet effet peut être déclenché une fois toutes les 15 min.\nDe plus, après l'utilisation d'<k>Arcane d'Adepte : Talisman sacré</k>, Qiqi obtient également 4 cumuls de l'effet <k>Aperçu de mystère</k>, et les DGT augmentent d'une valeur équivalant à 600 % de l'ATQ de Qiqi au prix d'un cumul d'<k>Aperçu de mystère</k> lorsque votre personnage déployé (hormis Qiqi) inflige directement des DGT de réaction d'Astroconduction ou des DGT de réaction d'Astrodispersion avec une aptitude ou une compétence. L'effet <k>Aperçu de mystère</k> dure un maximum de 12 s et utiliser <k>Arcane d'Adepte : Talisman sacré</k> réinitialise ses cumuls."
+          }
+        ]
+      }
+    }
   }
 }

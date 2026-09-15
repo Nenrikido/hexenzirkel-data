@@ -14,5 +14,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14501",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+        "passive": {
+          "name": "Wandering Clouds",
+          "refinements": {
+            "1": "Increases Elemental DMG Bonus by <r>12%</r>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <r>160%</r> ATK DMG. Can only occur once every 30s.",
+            "2": "Increases Elemental DMG Bonus by <r>15%</r>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <r>200%</r> ATK DMG. Can only occur once every 30s.",
+            "3": "Increases Elemental DMG Bonus by <r>18%</r>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <r>240%</r> ATK DMG. Can only occur once every 30s.",
+            "4": "Increases Elemental DMG Bonus by <r>21%</r>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <r>280%</r> ATK DMG. Can only occur once every 30s.",
+            "5": "Increases Elemental DMG Bonus by <r>24%</r>. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing <r>320%</r> ATK DMG. Can only occur once every 30s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un atlas représentant Dvalin et son ancien maître, l'Archon Anémo. Il décrit en détail les vents et les nuages au nord de Teyvat et renferme la puissance des cieux et des vents.",
+        "passive": {
+          "name": "Nuages vagabonds",
+          "refinements": {
+            "1": "Augmente le bonus de DGT élémentaires de <r>12 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>160 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "2": "Augmente le bonus de DGT élémentaires de <r>15 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>200 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "3": "Augmente le bonus de DGT élémentaires de <r>18 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>240 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "4": "Augmente le bonus de DGT élémentaires de <r>21 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>280 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "5": "Augmente le bonus de DGT élémentaires de <r>24 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>320 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s."
+          }
+        }
+      }
+    }
   }
 }

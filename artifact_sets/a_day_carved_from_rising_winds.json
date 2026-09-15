@@ -23,5 +23,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15044",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "A Day Carved From Rising Winds",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "After a Normal Attack, Charged Attack, Elemental Skill, or Elemental Burst hits an opponent, gain the Blessing of Pastoral Winds effect for 6s: ATK is increased by 25%. If the equipping character has completed Witch's Homework, Blessing of Pastoral Winds will be upgraded to Resolve of Pastoral Winds, which additionally increases the CRIT Rate of the equipping character by 20%. This effect can be triggered even when the character is off-field."
+        }
+      },
+      "fr": {
+        "name": "Journée sculptée par les vents ascendants",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Toucher un ennemi avec une attaque normale, une attaque chargée, une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Bénédiction des vents pastoraux pendant 6 s : augmente l'ATQ de 25 %. Si le personnage équipé de l'artéfact a terminé son devoir de la sorcière, l'effet est converti en l'effet Détermination des vents pastoraux, augmentant en plus le taux CRIT de 20 %. Les effets décrits ci-dessus peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13426",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A caduceus symbolizing the glory of alchemy, made from special alloys to match its special status. It is exceedingly rigid and heavy, and would probably hurt pretty bad if used as a cudgel.",
+        "passive": {
+          "name": "Principle of Equilibrium",
+          "refinements": {
+            "1": "When the wielder performs healing, restore <r>8</r> Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field.",
+            "2": "When the wielder performs healing, restore <r>10</r> Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field.",
+            "3": "When the wielder performs healing, restore <r>12</r> Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field.",
+            "4": "When the wielder performs healing, restore <r>14</r> Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field.",
+            "5": "When the wielder performs healing, restore <r>16</r> Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un caducée symbolisant la gloire de l'alchimie, fabriqué à partir d'alliages spéciaux qui correspondent à son statut particulier. Il est extrêmement rigide et lourd, et ferait probablement très mal s'il était utilisé comme un gourdin.",
+        "passive": {
+          "name": "Principe de l'équilibre",
+          "refinements": {
+            "1": "Effectuer des soins restaure <r>8</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Effectuer des soins restaure <r>10</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Effectuer des soins restaure <r>12</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Effectuer des soins restaure <r>14</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Effectuer des soins restaure <r>16</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

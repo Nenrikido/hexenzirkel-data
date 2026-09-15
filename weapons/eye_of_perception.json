@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14409",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A dim black glaze pearl that is said to have the power to read the purity of one's heart.",
+        "passive": {
+          "name": "Echo",
+          "refinements": {
+            "1": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <r>240%</r> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <r>12</r>s.",
+            "2": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <r>270%</r> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <r>11</r>s.",
+            "3": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <r>300%</r> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <r>10</r>s.",
+            "4": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <r>330%</r> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <r>9</r>s.",
+            "5": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing <r>360%</r> ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every <r>8</r>s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un orbe en verre sombre qui aurait le pouvoir de voir à travers le cœur des gens et de le purifier.",
+        "passive": {
+          "name": "Écho",
+          "refinements": {
+            "1": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>240 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>12</r> s.",
+            "2": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>270 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>11</r> s.",
+            "3": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>300 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>10</r> s.",
+            "4": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>330 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>9</r> s.",
+            "5": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>360 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>8</r> s."
+          }
+        }
+      }
+    }
   }
 }

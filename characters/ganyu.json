@@ -336,5 +336,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000037",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Liutian Archery",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 6 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n· Charge Level 1: Fires off an icy arrow that deals <e:cryo>Cryo DMG</e>.\n· Charge Level 2: Fires off a Frostflake Arrow that deals <e:cryo>Cryo DMG</e>. The Frostflake Arrow blooms after hitting its target, dealing <e:cryo>AoE Cryo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Trail of the Qilin",
+            "desc": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <e:cryo>AoE Cryo DMG</e>.\n\n<k>Ice Lotus</k>\n· Continuously taunts surrounding opponents, attracting them to attack it.\n· Endurance scales based on Ganyu's Max HP.\n· Blooms profusely when destroyed or once its duration ends, dealing <e:cryo>AoE Cryo DMG</e>.\n\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>"
+          },
+          "burst": {
+            "name": "Celestial Shower",
+            "desc": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <e:cryo>Cryo DMG</e>.\n\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Undivided Heart",
+            "desc": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s."
+          },
+          {
+            "name": "Harmony Between Heaven and Earth",
+            "desc": "<k>Celestial Shower</k> grants a 20% <e:cryo>Cryo DMG Bonus</e> to active party members in the AoE."
+          },
+          {
+            "name": "Preserved for the Hunt",
+            "desc": "Refunds 15% of the ore used when crafting Bow-type weapons."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Dew-Drinker",
+            "desc": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' <e:cryo>Cryo RES</e> by 15% for 6s upon hit.\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target."
+          },
+          {
+            "level": 2,
+            "name": "The Auspicious",
+            "desc": "<k>Trail of the Qilin</k> gains 1 additional charge."
+          },
+          {
+            "level": 3,
+            "name": "Cloud-Strider",
+            "desc": "Increases the Level of <k>Celestial Shower</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Westward Sojourn",
+            "desc": "Opponents standing within the AoE of <k>Celestial Shower</k> take increased DMG. This effect strengthens over time.\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\nThe effect lingers for 3s after the opponent leaves the AoE."
+          },
+          {
+            "level": 5,
+            "name": "The Merciful",
+            "desc": "Increases the Level of <k>Trail of the Qilin</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Clement",
+            "desc": "Using <k>Trail of the Qilin</k> causes the next Frostflake Arrow shot within 30s to not require charging."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Archerie Liutian",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 6 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis et infligeant davantage de DGT.\nLors du tir visé, la puissance du froid vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :\n· 1 charge : Tire une flèche glaciale qui inflige des <e:cryo>DGT Cryo</e>.\n· 2 charges : Tire une flèche de givre qui inflige des <e:cryo>DGT Cryo</e>. Le givre se répand lorsqu'il touche un ennemi, infligeant des <e:cryo>DGT Cryo de zone</e>.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Trace de Qilin",
+            "desc": "Ganyu dépose un lotus de glace qui inflige des <e:cryo>DGT Cryo de zone</e> puis part vite en retraite.\n\n<k>Lotus de glace</k>\n· Le lotus nargue les ennemis et concentre leurs attaques.\n· Ses PV sont proportionnels aux PV max de Ganyu.\n· Le lotus explose à la fin ou s'il est détruit entre temps, et inflige des <e:cryo>DGT Cryo de zone</e>.\n\n<i>« Vous m'avez aperçue ? Ça doit être une erreur, je suis restée tard au travail. »</i>"
+          },
+          "burst": {
+            "name": "Baptême céleste",
+            "desc": "Condensant les particules présentes dans l'air, Ganyu invoque une perle de glace magique qui exorcise les démons.\nTant qu'elle est active, la perle libère des éclats de glace de façon continue qui infligent des <e:cryo>DGT Cryo</e> aux ennemis dans la zone.\n\n<i>Ganyu sait bien sûr comment invoquer une bruine rafraîchissante... Mais quand il s'agit de combattre, la bruine se change en tempête de neige.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Cœur indivisible",
+            "desc": "Tirer une flèche de givre confère pendant 5 s aux flèches de givre suivantes ainsi qu'aux zones de givre ainsi créées un bonus de 20 % de taux CRIT."
+          },
+          {
+            "name": "Harmonie du ciel et de la terre",
+            "desc": "Les personnages déployés se trouvant dans la zone de <k>Baptême céleste</k> obtiennent un <e:cryo>bonus de DGT Cryo de 20 %</e> supplémentaires."
+          },
+          {
+            "name": "Arc de réserve",
+            "desc": "Lorsque vous forgez un arc, 15 % du minerai utilisé vous sera rendu."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Buveur de rosée",
+            "desc": "La <e:cryo>RÉS Cryo</e> des ennemis touchés par une flèche de givre (attaque chargée) ou par la zone de givre qui en résulte diminue de 15 % pendant 6 s.\nGanyu récupère de plus 2 pts d'énergie élémentaire lorsqu'elle touche. Ce dernier effet ne peut être déclenché qu'une fois par flèche de givre, même si la zone de givre et la flèche de givre touchent toutes les deux."
+          },
+          {
+            "level": 2,
+            "name": "Auspices",
+            "desc": "Confère une utilisation supplémentaire de <k>Trace de Qilin</k>."
+          },
+          {
+            "level": 3,
+            "name": "Mouvement des nuages",
+            "desc": "Niveau d'aptitude <k>Baptême céleste</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Chasse vers l'ouest",
+            "desc": "Les DGT subis par les ennemis se trouvant dans la zone de <k>Baptême céleste</k> augmentent ; cet effet se cumule avec le temps.\nBonus de DGT initial : 5 %. Ce bonus augmente de 5 % toutes les 3 s (cumul maximum : 25 %).\nL'effet perdure pendant 3 s après avoir quitté la zone."
+          },
+          {
+            "level": 5,
+            "name": "Miséricorde",
+            "desc": "Niveau d'aptitude <k>Trace de Qilin</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Clémence",
+            "desc": "La première flèche de givre libérée dans les 30 s suivant l'activation de <k>Trace de Qilin</k> ne requiert pas de charge."
+          }
+        ]
+      }
+    }
   }
 }

@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11303",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
+        "passive": {
+          "name": "Journey",
+          "refinements": {
+            "1": "Each Elemental Orb or Particle collected restores <r>1%</r> HP.",
+            "2": "Each Elemental Orb or Particle collected restores <r>1.25%</r> HP.",
+            "3": "Each Elemental Orb or Particle collected restores <r>1.5%</r> HP.",
+            "4": "Each Elemental Orb or Particle collected restores <r>1.75%</r> HP.",
+            "5": "Each Elemental Orb or Particle collected restores <r>2%</r> HP."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée en acier facile à manier. Une paire de ciseaux, une loupe et d'autres gadgets se trouvent dans son fourreau.",
+        "passive": {
+          "name": "Voyage",
+          "refinements": {
+            "1": "Chaque particule ou orbe élémentaires obtenus restaurent <r>1 %</r> des PV.",
+            "2": "Chaque particule ou orbe élémentaires obtenus restaurent <r>1,25 %</r> des PV.",
+            "3": "Chaque particule ou orbe élémentaires obtenus restaurent <r>1,5 %</r> des PV.",
+            "4": "Chaque particule ou orbe élémentaires obtenus restaurent <r>1,75 %</r> des PV.",
+            "5": "Chaque particule ou orbe élémentaires obtenus restaurent <r>2 %</r> des PV."
+          }
+        }
+      }
+    }
   }
 }

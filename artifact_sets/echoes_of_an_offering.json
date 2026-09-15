@@ -17,5 +17,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15024",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Echoes of an Offering",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s."
+        }
+      },
+      "fr": {
+        "name": "Échos d'une offrande",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "En touchant un ennemi, les attaques normales ont 36 % de chances de déclencher l'effet Rituel de la vallée, augmentant les DGT d'attaque normale d'une valeur équivalant à 70 % de l'ATQ. Cet effet sera dissipé 0,05 s après avoir infligé des DGT avec une attaque normale. Chaque attaque normale ne déclenchant pas l'effet augmentera les chances de le déclencher la prochaine fois de 20 %. Cet effet peut être déclenché une fois toutes les 0,2 s."
+        }
+      }
+    }
   }
 }

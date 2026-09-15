@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11406",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
+        "passive": {
+          "name": "Smashed Stone",
+          "refinements": {
+            "1": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>4%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+            "2": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>5%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+            "3": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>6%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+            "4": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>7%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
+            "5": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>8%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.3s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une ancienne épée longue trouvée à la Forge de Rochenoire, capable de pénétrer la roche comme dans du beurre.",
+        "passive": {
+          "name": "Pierre cassée",
+          "refinements": {
+            "1": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>4 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "2": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>5 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "3": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>6 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "4": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>7 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "5": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>8 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+          }
+        }
+      }
+    }
   }
 }

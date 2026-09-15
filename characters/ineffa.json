@@ -202,5 +202,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000116",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Cyclonic Duster",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to perform a spinning attack.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Cleaning Mode: Carrier Frequency",
+            "desc": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of <e:electro>AoE Electro DMG</e> to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, <k>Birgitta</k>.\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb <e:electro>Electro DMG</e> with 250% effectiveness."
+          },
+          "burst": {
+            "name": "Supreme Instruction: Cyclonic Exterminator",
+            "desc": "Through Multipurpose Smart Assistance Unit, <k>Birgitta</k>, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing <e:electro>AoE Electro DMG</e> and allowing Birgitta to remain on the field.\n\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration."
+          }
+        },
+        "passives": [
+          {
+            "name": "Overclocking Circuit",
+            "desc": "If there are thunderclouds created by Lunar-Charged reactions nearby when <k>Birgitta</k> unleashes Discharge attacks, she will initiate an additional attack, dealing <e:electro>AoE Electro DMG</e> equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
+          },
+          {
+            "name": "Panoramic Permutation Protocol",
+            "desc": "When using the Elemental Burst <k>Supreme Instruction: Cyclonic Exterminator</k>, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
+          },
+          {
+            "name": "Moonsign Benediction: Assemblage Hub",
+            "desc": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Ineffa is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Flavor Synthesis Unit",
+            "desc": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Rectifying Processor",
+            "desc": "When Ineffa activates her Optical Flow Shield Barrier, all nearby party members will gain the Carrier Flow Composite effect for 20s: Increases Lunar-Charged DMG by 2.5% for every 100 ATK that Ineffa has, up to a maximum of 50%."
+          },
+          {
+            "level": 2,
+            "name": "Support Cleaning Module",
+            "desc": "After the Elemental Burst <k>Supreme Instruction: Cyclonic Exterminator</k> hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take <e:electro>AoE Electro DMG</e> equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\nAdditionally, when the Elemental Burst <k>Supreme Instruction: Cyclonic Exterminator</k> is unleashed, nearby party members will gain Optical Flow Shield Barriers."
+          },
+          {
+            "level": 3,
+            "name": "Enhanced Emotion Emulator",
+            "desc": "Increases the Level of <k>Cleaning Mode: Carrier Frequency</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "The Edictless Path",
+            "desc": "When your own party members trigger Lunar-Charged reactions, recover 5 Elemental Energy. This effect can occur once every 4s."
+          },
+          {
+            "level": 5,
+            "name": "Mirror's Dream Transcension",
+            "desc": "Increases the Level of <k>Supreme Instruction: Cyclonic Exterminator</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "A Dawning Morn for You",
+            "desc": "When Ineffa is affected by the Carrier Flow Composite effect, she will deal <e:electro>AoE Electro DMG</e> equal to 135% of her ATK to opponents in the current active character's vicinity after nearby thunderclouds release bursts of lightning at opponents. This DMG is considered Lunar-Charged DMG. The aforementioned effect can trigger once every 3.5s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Dépoussiéreur cyclonique",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher une attaque tournoyante.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Mode purificateur : Fréquence porteuse",
+            "desc": "Ineffa active son module de nettoyage avancé, infligeant une fois des <e:electro>DGT Électro de zone</e> aux ennemis à proximité, déployant sa barrière de protection à flux optique et invoquant son unité d'assistance intelligente polyvalente, <k>Birgitta</k>.\nL'absorption de DGT de la barrière de protection à flux optique est basée sur l'ATQ d'Ineffa et cette dernière absorbe les <e:electro>DGT Électro</e> 250 % plus efficacement."
+          },
+          "burst": {
+            "name": "Commande suprême : Exterminateur cyclonique",
+            "desc": "<k>Birgitta</k>, l'unité d'assistance intelligente polyvalente, utilise un poing-fusée pour éradiquer rapidement les ennemis ! Ineffa éjecte Birgitta, infligeant des <e:electro>DGT Électro de zone</e> et lui permettant de rester sur le terrain.\n\nSi Birgitta est déjà sur le terrain, ayant été invoquée par Ineffa, elle est à la place invoquée à nouveau à l'emplacement cible et sa durée est réinitialisée."
+          }
+        },
+        "passives": [
+          {
+            "name": "Circuit de surcadençage",
+            "desc": "Si des nuages orageux créés par une réaction de Sélénocution sont à proximité de <k>Birgitta</k> lorsqu'elle déclenche une décharge électrique, elle lance une attaque supplémentaire infligeant des <e:electro>DGT Électro de zone</e> d'une valeur équivalant à 65 % de l'ATQ d'Ineffa, ces DGT étant considérés comme des DGT de réaction de Sélénocution."
+          },
+          {
+            "name": "Protocole de permutation panoramique",
+            "desc": "Utiliser le déchaînement élémentaire <k>Commande suprême : Exterminateur cyclonique</k> accorde l'effet Refactorisation des paramètres à tous vos personnages de l'équipe : augmente la maîtrise élémentaire de votre personnage déployé et d'Ineffa d'une valeur équivalant à 6 % de l'ATQ d'Ineffa pendant 20 s."
+          },
+          {
+            "name": "Bénédiction de signelune : Ensemble de moyeu",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Électrocution, elle est convertie en réaction de Sélénocution, dont les DGT de base augmentent selon l'ATQ d'Ineffa : chaque tranche de 100 pts d'ATQ augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <k>signelune</k> de l'équipe augmente d'un niveau lorsque Ineffa fait partie de l'équipe."
+          },
+          {
+            "name": "Unité de synthèse aromatique",
+            "desc": "En utilisant de la nourriture, Ineffa a 30 % de chances d'obtenir un ingrédient d'assaisonnement.\n\nDe plus, il semble que vous pourrez changer l'apparence de Birgitta par certains moyens dans Nod-Krai..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Processeur de rectification",
+            "desc": "Lorsque Ineffa déploie sa barrière de protection à flux optique, tous les personnages de l'équipe à proximité obtiennent l'effet Composite de flux porteur pendant 20 s : augmente les DGT des réactions de Sélénocution de 2,5 % pour chaque tranche de 100 pts d'ATQ qu'Ineffa possède, les DGT pouvant être augmentés d'un maximum de 50 % de cette manière."
+          },
+          {
+            "level": 2,
+            "name": "Module nettoyeur de soutien",
+            "desc": "Lorsque le déchaînement élémentaire <k>Commande suprême : Exterminateur cyclonique</k> a touché des ennemis, l'effet Édit punitif est appliqué à l'un d'eux : les ennemis proches subissent des <e:electro>DGT Électro de zone</e> d'une valeur équivalant à 300 % de l'ATQ d'Ineffa après une courte période ou lorsque l'ennemi affecté est éliminé, ces DGT étant considérés comme des DGT de réaction de Sélénocution.\nDe plus, utiliser le déchaînement élémentaire <k>Commande suprême : Exterminateur cyclonique</k> accorde des barrières de protection à flux optique aux membres de l'équipe déployés à proximité."
+          },
+          {
+            "level": 3,
+            "name": "Émulateur avancé d'émotions",
+            "desc": "Niveau d'aptitude <k>Mode purificateur : Fréquence porteuse</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Chemin sans édit",
+            "desc": "Lorsqu'un de vos personnages dans l'équipe déclenche une réaction de Sélénocution, il récupère 5 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 4 s."
+          },
+          {
+            "level": 5,
+            "name": "Transcendance du rêve du miroir",
+            "desc": "Niveau d'aptitude <k>Commande suprême : Exterminateur cyclonique</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Matin naissant pour vous",
+            "desc": "Lorsqu'elle bénéficie de l'effet Composite de flux porteur, Ineffa inflige des <e:electro>DGT Électro de zone</e> d'une valeur équivalant à 135 % de son ATQ aux ennemis proches de votre personnage déployé lorsqu'un nuage orageux à proximité a déclenché un éclair sur un ennemi, ces DGT étant considérés comme des DGT de réaction de Sélénocution. Cet effet peut être déclenché une fois toutes les 3,5 s."
+          }
+        ]
+      }
+    }
   }
 }

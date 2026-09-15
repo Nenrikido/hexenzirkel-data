@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14417",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A fruit you obtained from an Aranara tale. It holds the potential to conquer any crisis.",
+        "passive": {
+          "name": "Full Circle",
+          "refinements": {
+            "1": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining <r>24</r> Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+            "2": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining <r>27</r> Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+            "3": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining <r>30</r> Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+            "4": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining <r>33</r> Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+            "5": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining <r>36</r> Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un fruit que vous avez obtenu dans un conte d'aranara. Il a le potentiel de vaincre n'importe quelle crise.",
+        "passive": {
+          "name": "Cercle complet",
+          "refinements": {
+            "1": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>24</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>27</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>30</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>33</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>36</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

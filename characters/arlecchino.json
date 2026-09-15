@@ -269,5 +269,139 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000096",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Invitation to a Beheading",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 6 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a fixed amount of Stamina, dashing toward a nearby opponent and cleaving once.\nContinuously holding this button will cause Arlecchino to consume Stamina and engage in up to 5s of high-speed movement.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n\n<k>Masque of the Red Death</k>\nWhen Arlecchino has a Bond of Life equal to or greater than 30% of her Max HP, she will enter the \"Masque of the Red Death\" state, where her Normal, Charged, and Plunging Attacks will be converted to deal <e:pyro>Pyro DMG</e>. This cannot be overridden.\nWhen in the \"Masque of the Red Death\" state, Arlecchino's Normal Attacks will deal extra DMG to opponents on hit that scales off her ATK multiplied by a certain ratio of her current Bond of Life percentage. This will consume 7.5% of said current Bond of Life. Her Bond of Life can be consumed this way every 0.03s. When her Bond of Life is consumed in this manner, All Is Ash's CD will decrease by 0.8s."
+          },
+          "skill": {
+            "name": "All Is Ash",
+            "desc": "Summons forth Balemoon Bloodfire, dealing <e:pyro>Pyro DMG</e> to multiple nearby opponents and performing a dash-cleave against one of them, dealing <e:pyro>AoE Pyro DMG</e>.\nOpponents hit by the aforementioned attack will have a Blood-Debt Directive applied to them.\n\n<k>Blood-Debt Directive</k>\n· Lasts 30s. Every 5s, it will deal 1 instance of <e:pyro>Pyro DMG</e> to the opponent. Max 2 instances. This DMG will be considered Elemental Skill DMG.\n· When Arlecchino uses a Charged Attack or her Elemental Burst, Balemoon Rising, she will absorb and clear nearby Blood-Debt Directives. Each Directive absorbed grants her a Bond of Life worth 65% of her Max HP.\n· The maximum value of the Bond of Life she can be granted through Blood-Debt Directives within 35s after using her Elemental Skill is 145% of her Max HP. Using the Elemental Skill again during this duration will restart the count on duration and the limit on the value of Bond of Life she may gain from Blood-Debt Directives.\n\n<i>As she sees it, not every grain of wheat that falls upon the earth will grow into an ear, while those who obstruct her, once burned to ashes, can certainly be used to nourish flowers.</i>"
+          },
+          "burst": {
+            "name": "Balemoon Rising",
+            "desc": "Arlecchino's great wing of Balemoon Bloodfire beats as she absorbs and clears Blood-Debt Directives around her. She deals <e:pyro>AoE Pyro DMG</e> before clearing the CD of All Is Ash and healing herself. The healing is based on her Bond of Life value and ATK.\n\n<i>It is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology.\nShe saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Agony Alone May Be Repaid",
+            "desc": "<k>Blood-Debt Directives</k> have the following characteristics:\n· Arlecchino will be granted a Bond of Life worth 130% of her Max HP when an opponent to which she herself applied a Directive is defeated.\n· 5s after a Directive is applied, it will be upgraded to a Blood-Debt Due. When absorbed, it will instead grant Arlecchino a Bond of Life worth 130%.\nA Bond of Life created in the aforementioned ways cannot exceed the original limit on the value of Bonds of Life obtained through <k>All Is Ash</k>."
+          },
+          {
+            "name": "Strength Alone Can Defend",
+            "desc": "Arlecchino gains 1% All Elemental and Physical RES for every 100 ATK she has in excess of 1,000. The maximum RES increase she can gain this way for each is 20%."
+          },
+          {
+            "name": "The Balemoon Alone May Know",
+            "desc": "While in combat, Arlecchino gains a 40% <e:pyro>Pyro DMG Bonus</e> and can only be healed through <k>Balemoon Rising</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"All Reprisals and Arrears, Mine to Bear...\"",
+            "desc": "Masque of the Red Death is further enhanced, the value of the increase is 100%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal or Charged Attacks while affected by the Masque of the Red Death."
+          },
+          {
+            "level": 2,
+            "name": "\"All Rewards and Retribution, Mine to Bestow...\"",
+            "desc": "<k>Blood-Debt Directives</k> are now already Blood-Debt Due when first applied.\nWhen Arlecchino absorbs such a Due, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as <e:pyro>AoE Pyro DMG</e> and increasing her All Elemental RES and Physical RES by 20% for 15s. This effect can trigger once every 10s.\nYou must first unlock the Ascension Talent \"Agony Alone May Be Repaid.\""
+          },
+          {
+            "level": 3,
+            "name": "\"You Shall Become a New Member of Our Family...\"",
+            "desc": "Increases the Level of <k>Normal Attack: Invitation to a Beheading</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "\"You Shall Love and Protect Each Other Henceforth...\"",
+            "desc": "When Arlecchino successfully absorbs a Blood-Debt Directive, <k>Balemoon Rising</k>'s CD will decrease by 2s and 15 Elemental Energy will be restored to her. This effect can occur once every 10s."
+          },
+          {
+            "level": 5,
+            "name": "\"For Alone, We Are as Good as Dead...\"",
+            "desc": "Increases the Level of <k>Balemoon Rising</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "\"From This Day On, We Shall Delight in New Life Together.\"",
+            "desc": "The DMG of <k>Balemoon Rising</k> is increased by Arlecchino's ATK multiplied by 700% of Arlecchino's current Bond of Life percentage.\nFor 20s after Arlecchino uses <k>All Is Ash</k>, both her Normal Attacks and Elemental Burst gain 10% increased CRIT Rate and 70% increased CRIT DMG. This effect can be triggered up to once every 15s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Invitation au supplice",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 6 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger vers un ennemi proche et le trancher une fois.\nEn maintenant le bouton, Arlecchino consomme de l'endurance pour se déplacer rapidement pendant un maximum de 5 s.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.\n\n<k>Masque de la mort rouge</k>\nLorsque Arlecchino est sous l'effet d'un engagement vital dont la valeur est supérieure ou égale à 30 % de ses PV max, elle entre dans l'état Masque de la mort rouge et ses attaques normales, chargées et plongeantes sont imprégnées de <e:pyro>DGT Pyro</e> ne pouvant pas être enchantés.\nSous l'effet du masque de la mort rouge, toucher un ennemi avec une attaque normale augmente les DGT de l'attaque d'une valeur équivalant à un pourcentage de l'ATQ d'Arlecchino multipliée par le pourcentage de son engagement vital actuel et consomme 7,5 % de l'engagement vital actuel. Un engagement vital peut être consommé de cette manière une fois toutes les 0,03 s. Lorsqu'un engagement vital est consommé de cette manière, le TdR de la compétence élémentaire « Pulvérisation totale » diminue de 0,8 s."
+          },
+          "skill": {
+            "name": "Pulvérisation totale",
+            "desc": "Invoque le feu lunatique, infligeant des <e:pyro>DGT Pyro</e> à plusieurs ennemis proches, et charge vers un ennemi pour le trancher, infligeant des <e:pyro>DGT Pyro de zone</e>.\nLes ennemis touchés par cette attaque subissent une dette sanguinaire.\n\n<k>Dette sanguinaire</k>\n· Une dette sanguinaire dure 30 s. Toutes les 5 s, elle inflige 1 instance de <e:pyro>DGT Pyro</e> à l'ennemi, pour un maximum de 2 instances de DGT. Ces DGT sont considérés comme des DGT de compétence élémentaire.\n· Quand Arlecchino utilise une attaque chargée ou le déchaînement élémentaire « Ascension lunatique », elle absorbe et annule les dettes sanguinaires à proximité, chaque dette sanguinaire lui accordant un engagement vital d'une valeur équivalant à 65 % de ses PV max.\n· Pendant 35 s après avoir utilisé une compétence élémentaire, Arlecchino peut obtenir grâce aux dettes sanguinaires un engagement vital atteignant au maximum 145 % de ses PV max. Utiliser à nouveau une compétence élémentaire pendant cette durée réinitialise la durée et la limite d'engagement vital pouvant être obtenu grâce aux dettes sanguinaires.\n\n<i>Selon elle, tous les grains de blé qui tombent sur la terre ne se transforment pas en épi, tandis que ceux qui la dérangent, une fois réduits en cendres, peuvent certainement être utilisés pour nourrir les fleurs.</i>"
+          },
+          "burst": {
+            "name": "Ascension lunatique",
+            "desc": "Arlecchino déploie les grandes ailes du feu lunatique, absorbant et annulant les dettes sanguinaires à portée et infligeant des <e:pyro>DGT Pyro de zone</e>, avant d'annuler le TdR de la compétence élémentaire « Pulvérisation totale » et de restaurer ses PV d'une valeur dépendant de son engagement vital et de son ATQ.\n\n<i>Il est communément admis dans tout Teyvat que les phases de la lune autres que la pleine lune ne sont que de simples métaphores de mauvais augure, utilisées uniquement par ceux qui pratiquent l'alchimie et l'astrologie.\nElle a vu cette lune écarlate dans ses rêves à plusieurs reprises. Étaient-ce des présages de désastre ? En effet, c'était le cas, mais les catastrophes prévues appartenaient à ceux qui la mettaient en colère.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Seule la douleur peut rembourser",
+            "desc": "Les <k>dettes sanguinaires</k> possèdent les caractéristiques suivantes :\n· Lorsqu'un ennemi affligé d'une dette sanguinaire infligée par Arlecchino elle-même est éliminé, elle obtient immédiatement un engagement vital d'une valeur équivalant à 130 % de ses PV max.\n· 5 s après son application, une dette sanguinaire est améliorée en dette sanguinaire à échéance qui, lorsqu'elle est absorbée, accorde à la place un engagement vital de 130 % à Arlecchino.\nLa valeur des engagements vitaux obtenus de ces manières ne peut pas dépasser la limite d'origine de <k>Pulvérisation totale</k>."
+          },
+          {
+            "name": "Seule la force peut protéger",
+            "desc": "Les RÉS élémentaires et physique d'Arlecchino augmentent de 1 % pour chaque tranche de 100 pts d'ATQ qu'elle possède au-dessus de 1 000 pts. Les RÉS peuvent être augmentées d'un maximum de 20 % de cette manière."
+          },
+          {
+            "name": "Seule la lune peut savoir",
+            "desc": "Au combat, Arlecchino bénéficie d'un <e:pyro>bonus de DGT Pyro</e> de 40 % et peut uniquement récupérer des PV grâce à <k>Ascension lunatique</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "« À moi de supporter toute haine et toute dette... »",
+            "desc": "L'augmentation du masque de la mort rouge s'améliore davantage de 100 %. De plus, la RÉS à l'interruption d'Arlecchino augmente lorsqu'elle utilise une attaque normale ou chargée sous l'effet du masque de la mort rouge."
+          },
+          {
+            "level": 2,
+            "name": "« À moi d'accorder toute récompense et toute punition... »",
+            "desc": "Les <k>dettes sanguinaires</k> commencent désormais comme des dettes sanguinaires à échéance.\nLorsque Arlecchino absorbe une dette à échéance, elle envoie un feu lunatique vers l'avant, infligeant des <e:pyro>DGT Pyro de zone</e> d'une valeur équivalant à 900 % de son ATQ et augmentant ses RÉS élémentaires et physique de 20 % pendant 15 s. Cet effet peut être déclenché une fois toutes les 10 s.\nL'aptitude d'élévation « Seule la douleur peut rembourser » doit être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "« Vous deviendrez notre nouvelle famille... »",
+            "desc": "Niveau d'aptitude <k>Attaque normale : Invitation au supplice</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "« Désormais, vous devez vous aimer et vous protéger... »",
+            "desc": "Lorsque Arlecchino absorbe une dette sanguinaire, le TdR d'<k>Ascension lunatique</k> diminue de 2 s et elle récupère 15 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 10 s."
+          },
+          {
+            "level": 5,
+            "name": "« Car seuls, c'est la mort qui nous attend... »",
+            "desc": "Niveau d'aptitude <k>Ascension lunatique</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "« Désormais, nous vivrons ensemble une nouvelle vie. »",
+            "desc": "Les DGT infligés par <k>Ascension lunatique</k> augmentent d'une valeur équivalant à l'ATQ d'Arlecchino multipliée par 700 % du pourcentage de son engagement vital actuel.\nPendant 20 s après avoir utilisé <k>Pulvérisation totale</k>, le taux CRIT des attaques normales et des déchaînements élémentaires d'Arlecchino augmente de 10 % et leurs DGT CRIT de 70 %. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        ]
+      }
+    }
   }
 }

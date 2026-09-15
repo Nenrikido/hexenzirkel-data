@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15305",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+        "passive": {
+          "name": "Archer's Message",
+          "refinements": {
+            "1": "Charged Attack hits on weak points deal an additional <r>100%</r> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+            "2": "Charged Attack hits on weak points deal an additional <r>125%</r> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+            "3": "Charged Attack hits on weak points deal an additional <r>150%</r> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+            "4": "Charged Attack hits on weak points deal an additional <r>175%</r> ATK DMG as CRIT DMG. Can only occur once every 10s.",
+            "5": "Charged Attack hits on weak points deal an additional <r>200%</r> ATK DMG as CRIT DMG. Can only occur once every 10s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un simple arc en bois. On raconte qu'il était autrefois utilisé pour communiquer à distance.",
+        "passive": {
+          "name": "Message de l'archer",
+          "refinements": {
+            "1": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>100 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "2": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>125 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "3": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>150 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "4": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>175 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "5": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>200 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+          }
+        }
+      }
+    }
   }
 }

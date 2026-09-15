@@ -50,5 +50,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14502",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
+        "passive": {
+          "name": "Boundless Blessing",
+          "refinements": {
+            "1": "Increases Movement SPD by 10%. When in battle, gain an <r>8%</r> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+            "2": "Increases Movement SPD by 10%. When in battle, earn a <r>10%</r> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+            "3": "Increases Movement SPD by 10%. When in battle, gain a <r>12%</r> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+            "4": "Increases Movement SPD by 10%. When in battle, gain a <r>14%</r> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+            "5": "Increases Movement SPD by 10%. When in battle, gain a <r>16%</r> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un ouvrage religieux rédigé par les premiers serviteurs de l'Archon Anémo. L'œuvre, qui a porté le message de l'Archon et sa bienveillance à travers le millénaire, a reçu la bénédiction des vents.",
+        "passive": {
+          "name": "Bénédiction infinie",
+          "refinements": {
+            "1": "Augmente la VIT de déplacement de 10 %. Confère un bonus de DGT élémentaires de <r>8 %</r> toutes les 4 s tant que le personnage est en combat. Cet effet peut être cumulé 4 fois maximum et perdure jusqu'à ce que le personnage soit vaincu ou quitte le combat.",
+            "2": "Augmente la VIT de déplacement de 10 %. Confère un bonus de DGT élémentaires de <r>10 %</r> toutes les 4 s tant que le personnage est en combat. Cet effet peut être cumulé 4 fois maximum et perdure jusqu'à ce que le personnage soit vaincu ou quitte le combat.",
+            "3": "Augmente la VIT de déplacement de 10 %. Confère un bonus de DGT élémentaires de <r>12 %</r> toutes les 4 s tant que le personnage est en combat. Cet effet peut être cumulé 4 fois maximum et perdure jusqu'à ce que le personnage soit vaincu ou quitte le combat.",
+            "4": "Augmente la VIT de déplacement de 10 %. Confère un bonus de DGT élémentaires de <r>14 %</r> toutes les 4 s tant que le personnage est en combat. Cet effet peut être cumulé 4 fois maximum et perdure jusqu'à ce que le personnage soit vaincu ou quitte le combat.",
+            "5": "Augmente la VIT de déplacement de 10 %. Confère un bonus de DGT élémentaires de <r>16 %</r> toutes les 4 s tant que le personnage est en combat. Cet effet peut être cumulé 4 fois maximum et perdure jusqu'à ce que le personnage soit vaincu ou quitte le combat."
+          }
+        }
+      }
+    }
   }
 }

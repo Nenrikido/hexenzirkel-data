@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11304",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A perfectly ordinary iron sword, just slightly darker than most.",
+        "passive": {
+          "name": "Overloaded",
+          "refinements": {
+            "1": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <r>20%</r> for 12s.",
+            "2": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <r>25%</r> for 12s.",
+            "3": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <r>30%</r> for 12s.",
+            "4": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <r>35%</r> for 12s.",
+            "5": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <r>40%</r> for 12s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée en fer légèrement noirci.",
+        "passive": {
+          "name": "Surcapacité",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>20 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro.",
+            "2": "Augmente l'ATQ de <r>25 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro.",
+            "3": "Augmente l'ATQ de <r>30 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro.",
+            "4": "Augmente l'ATQ de <r>35 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro.",
+            "5": "Augmente l'ATQ de <r>40 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro."
+          }
+        }
+      }
+    }
   }
 }

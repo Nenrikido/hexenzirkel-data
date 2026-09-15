@@ -17,5 +17,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10007",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Instructor",
+        "bonuses": {
+          "2": "Increases Elemental Mastery by 80.",
+          "4": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s."
+        }
+      },
+      "fr": {
+        "name": "Instructeur",
+        "bonuses": {
+          "2": "Augmente la maîtrise élémentaire de 80 pts.",
+          "4": "Augmente la maîtrise élémentaire de tous les personnages de l'équipe de 120 pts pendant 8 s après avoir déclenché une réaction élémentaire."
+        }
+      }
+    }
   }
 }

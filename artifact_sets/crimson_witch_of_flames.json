@@ -35,5 +35,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15006",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Crimson Witch of Flames",
+        "bonuses": {
+          "2": "<e:pyro>Pyro</e> DMG Bonus +15%",
+          "4": "Increases Overloaded, Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+        }
+      },
+      "fr": {
+        "name": "Sorcière des flammes ardentes",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:pyro>Pyro</e> de 15 %.",
+          "4": "Augmente les DGT infligés par Surcharge, Brûlure et Bourgeonnement de 40 % et ceux d'Évaporation et de Fonte de 15 %. L'utilisation d'une compétence élémentaire augmente pendant 10 s l'effet du set de 2 pièces de 50 %. Cet effet peut être cumulé 3 fois maximum."
+        }
+      }
+    }
   }
 }

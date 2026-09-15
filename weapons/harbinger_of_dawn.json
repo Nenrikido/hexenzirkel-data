@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11302",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sword that once shone like the sun. The wielder of this sword will be blessed with a \"feel-good\" buff. The reflective material on the blade has long worn off.",
+        "passive": {
+          "name": "Vigorous",
+          "refinements": {
+            "1": "When HP is above 90%, increases CRIT Rate by <r>14%</r>.",
+            "2": "When HP is above 90%, increases CRIT Rate by <r>17.5%</r>.",
+            "3": "When HP is above 90%, increases CRIT Rate by <r>21%</r>.",
+            "4": "When HP is above 90%, increases CRIT Rate by <r>24.5%</r>.",
+            "5": "When HP is above 90%, increases CRIT Rate by <r>28%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "La lame de cette épée luisait jadis comme le soleil, mais ce n'est plus le cas aujourd'hui. Celui qui manie cette arme se sent au sommet de sa forme.",
+        "passive": {
+          "name": "Vigueur",
+          "refinements": {
+            "1": "Augmente le taux CRIT de <r>14 %</r> quand les PV sont supérieurs à 90 %.",
+            "2": "Augmente le taux CRIT de <r>17,5 %</r> quand les PV sont supérieurs à 90 %.",
+            "3": "Augmente le taux CRIT de <r>21 %</r> quand les PV sont supérieurs à 90 %.",
+            "4": "Augmente le taux CRIT de <r>24,5 %</r> quand les PV sont supérieurs à 90 %.",
+            "5": "Augmente le taux CRIT de <r>28 %</r> quand les PV sont supérieurs à 90 %."
+          }
+        }
+      }
+    }
   }
 }

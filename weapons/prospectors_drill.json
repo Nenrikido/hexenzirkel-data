@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13427",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones.",
+        "passive": {
+          "name": "Masons' Ditty",
+          "refinements": {
+            "1": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain <r>3%</r> ATK and <r>7%</r> All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "2": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain <r>4%</r> ATK and <r>8.5%</r> All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "3": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain <r>5%</r> ATK and <r>10%</r> All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "4": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain <r>6%</r> ATK and <r>11.5%</r> All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "5": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain <r>7%</r> ATK and <r>13%</r> All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une longue perceuse que l'on trouve rarement de nos jours. Elle était souvent utilisée pour creuser et sculpter des pierres.",
+        "passive": {
+          "name": "Chant-maçon",
+          "refinements": {
+            "1": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque solidaire pendant 30 s, un maximum de 3 marques solidaires pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques solidaires et accorde un effet de baroud pendant 10 s : chaque marque solidaire consommée augmente l'ATQ de <r>3 %</r> et le bonus de DGT élémentaires de <r>7 %</r>. Un effet de baroud peut être déclenché une fois toutes les 15 s, et des marques solidaires peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque solidaire pendant 30 s, un maximum de 3 marques solidaires pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques solidaires et accorde un effet de baroud pendant 10 s : chaque marque solidaire consommée augmente l'ATQ de <r>4 %</r> et le bonus de DGT élémentaires de <r>8,5 %</r>. Un effet de baroud peut être déclenché une fois toutes les 15 s, et des marques solidaires peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque solidaire pendant 30 s, un maximum de 3 marques solidaires pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques solidaires et accorde un effet de baroud pendant 10 s : chaque marque solidaire consommée augmente l'ATQ de <r>5 %</r> et le bonus de DGT élémentaires de <r>10 %</r>. Un effet de baroud peut être déclenché une fois toutes les 15 s, et des marques solidaires peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque solidaire pendant 30 s, un maximum de 3 marques solidaires pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques solidaires et accorde un effet de baroud pendant 10 s : chaque marque solidaire consommée augmente l'ATQ de <r>6 %</r> et le bonus de DGT élémentaires de <r>11,5 %</r>. Un effet de baroud peut être déclenché une fois toutes les 15 s, et des marques solidaires peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque solidaire pendant 30 s, un maximum de 3 marques solidaires pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques solidaires et accorde un effet de baroud pendant 10 s : chaque marque solidaire consommée augmente l'ATQ de <r>7 %</r> et le bonus de DGT élémentaires de <r>13 %</r>. Un effet de baroud peut être déclenché une fois toutes les 15 s, et des marques solidaires peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

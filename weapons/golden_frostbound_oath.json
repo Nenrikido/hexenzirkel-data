@@ -90,5 +90,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15516",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longbow carved from ancient whitewood, once, in ages past, wielded by the Jack Frost King of the northern lands.",
+        "passive": {
+          "name": "Dawn's Salutation Returned",
+          "refinements": {
+            "1": "Increase DEF by <r>16%</r>. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by <r>40%</r>, Lunar-Crystallize Reaction DMG increases by <r>40%</r>. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by <r>20%</r> and Lunar-Crystallize Reaction DMG increases by <r>20%</r>. This effect can be triggered even when the equipping character is off-field.",
+            "2": "Increase DEF by <r>20%</r>. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by <r>50%</r>, Lunar-Crystallize Reaction DMG increases by <r>50%</r>. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by <r>25%</r> and Lunar-Crystallize Reaction DMG increases by <r>25%</r>. This effect can be triggered even when the equipping character is off-field.",
+            "3": "Increase DEF by <r>24%</r>. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by <r>60%</r>, Lunar-Crystallize Reaction DMG increases by <r>60%</r>. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by <r>30%</r> and Lunar-Crystallize Reaction DMG increases by <r>30%</r>. This effect can be triggered even when the equipping character is off-field.",
+            "4": "Increase DEF by <r>28%</r>. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by <r>70%</r>, Lunar-Crystallize Reaction DMG increases by <r>70%</r>. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by <r>35%</r> and Lunar-Crystallize Reaction DMG increases by <r>35%</r>. This effect can be triggered even when the equipping character is off-field.",
+            "5": "Increase DEF by <r>32%</r>. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by <r>80%</r>, Lunar-Crystallize Reaction DMG increases by <r>80%</r>. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by <r>40%</r> and Lunar-Crystallize Reaction DMG increases by <r>40%</r>. This effect can be triggered even when the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc long taillé dans un bois blanc ancestral, manié jadis, en des âges révolus, par le roi des jack frost des terres du nord.",
+        "passive": {
+          "name": "L'aube du salut",
+          "refinements": {
+            "1": "Augmente la DÉF de <r>16 %</r>. Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire ou une réaction de Sélénocristallisation, il obtient l'effet Faveur de la nivéole glacée pendant 6 s : augmente ses DGT Géo de <r>40 %</r> et ses DGT de réaction de Sélénocristallisation de <r>40 %</r>. Pendant la durée de l'effet, tous les autres personnages de l'équipe à proximité obtiennent l'effet Malice de la nivéole glacée si un voile lunaire est présent à proximité du personnage équipé de l'arme : augmente les DGT Géo de <r>20 %</r> et les DGT de réaction de Sélénocristallisation de <r>20 %</r>, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Augmente la DÉF de <r>20 %</r>. Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire ou une réaction de Sélénocristallisation, il obtient l'effet Faveur de la nivéole glacée pendant 6 s : augmente ses DGT Géo de <r>50 %</r> et ses DGT de réaction de Sélénocristallisation de <r>50 %</r>. Pendant la durée de l'effet, tous les autres personnages de l'équipe à proximité obtiennent l'effet Malice de la nivéole glacée si un voile lunaire est présent à proximité du personnage équipé de l'arme : augmente les DGT Géo de <r>25 %</r> et les DGT de réaction de Sélénocristallisation de <r>25 %</r>, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Augmente la DÉF de <r>24 %</r>. Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire ou une réaction de Sélénocristallisation, il obtient l'effet Faveur de la nivéole glacée pendant 6 s : augmente ses DGT Géo de <r>60 %</r> et ses DGT de réaction de Sélénocristallisation de <r>60 %</r>. Pendant la durée de l'effet, tous les autres personnages de l'équipe à proximité obtiennent l'effet Malice de la nivéole glacée si un voile lunaire est présent à proximité du personnage équipé de l'arme : augmente les DGT Géo de <r>30 %</r> et les DGT de réaction de Sélénocristallisation de <r>30 %</r>, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Augmente la DÉF de <r>28 %</r>. Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire ou une réaction de Sélénocristallisation, il obtient l'effet Faveur de la nivéole glacée pendant 6 s : augmente ses DGT Géo de <r>70 %</r> et ses DGT de réaction de Sélénocristallisation de <r>70 %</r>. Pendant la durée de l'effet, tous les autres personnages de l'équipe à proximité obtiennent l'effet Malice de la nivéole glacée si un voile lunaire est présent à proximité du personnage équipé de l'arme : augmente les DGT Géo de <r>35 %</r> et les DGT de réaction de Sélénocristallisation de <r>35 %</r>, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Augmente la DÉF de <r>32 %</r>. Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire ou une réaction de Sélénocristallisation, il obtient l'effet Faveur de la nivéole glacée pendant 6 s : augmente ses DGT Géo de <r>80 %</r> et ses DGT de réaction de Sélénocristallisation de <r>80 %</r>. Pendant la durée de l'effet, tous les autres personnages de l'équipe à proximité obtiennent l'effet Malice de la nivéole glacée si un voile lunaire est présent à proximité du personnage équipé de l'arme : augmente les DGT Géo de <r>40 %</r> et les DGT de réaction de Sélénocristallisation de <r>40 %</r>, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

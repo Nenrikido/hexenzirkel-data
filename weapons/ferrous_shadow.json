@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12301",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
+        "passive": {
+          "name": "Unbending",
+          "refinements": {
+            "1": "When HP falls below <r>70%</r>, increases Charged Attack DMG by <r>30%</r> and Charged Attacks become harder to interrupt.",
+            "2": "When HP falls below <r>75%</r>, increases Charged Attack DMG by <r>35%</r> and Charged Attacks become harder to interrupt.",
+            "3": "When HP falls below <r>80%</r>, increases Charged Attack DMG by <r>40%</r> and Charged Attacks become harder to interrupt.",
+            "4": "When HP falls below <r>85%</r>, increases Charged Attack DMG by <r>45%</r> and Charged Attacks become harder to interrupt.",
+            "5": "When HP falls below <r>90%</r>, increases Charged Attack DMG by <r>50%</r> and Charged Attacks become harder to interrupt."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une imitation de la célèbre épée d'Arundolyn, le Lion de la Lumière. Libérez le héros légendaire qui sommeille en vous ! Remarque : Ne rêvassez pas trop.",
+        "passive": {
+          "name": "Tenace",
+          "refinements": {
+            "1": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>70 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>30 %</r>.",
+            "2": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>75 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>35 %</r>.",
+            "3": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>80 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>40 %</r>.",
+            "4": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>85 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>45 %</r>.",
+            "5": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>90 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>50 %</r>."
+          }
+        }
+      }
+    }
   }
 }

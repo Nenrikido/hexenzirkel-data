@@ -17,5 +17,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15036",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Unfinished Reverie",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
+        }
+      },
+      "fr": {
+        "name": "Rêverie incomplète",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Après avoir été hors combat pendant 3 s, les DGT infligés augmentent de 50 %. En combat, si aucun ennemi brûlé n'est à proximité pendant plus de 6 s, cette augmentation de DGT diminue de 10 % toutes les secondes, jusqu'à atteindre 0 % ; si un ennemi brûlé est à proximité, elle augmente de 10 % toutes les secondes, jusqu'à atteindre 50 %. Cet effet peut être déclenché même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

@@ -34,5 +34,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11512",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This gilded blade was made using precious white branches. It was once used to destroy countless poisons that infested the forest.",
+        "passive": {
+          "name": "Whitemoon Bristle",
+          "refinements": {
+            "1": "CRIT Rate is increased by <r>4%</r>. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by <r>120%</r> of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.",
+            "2": "CRIT Rate is increased by <r>5%</r>. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by <r>150%</r> of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.",
+            "3": "CRIT Rate is increased by <r>6%</r>. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by <r>180%</r> of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.",
+            "4": "CRIT Rate is increased by <r>7%</r>. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by <r>210%</r> of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.",
+            "5": "CRIT Rate is increased by <r>8%</r>. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by <r>240%</r> of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cette lame agrémentée de dorures a été réalisée à l'aide de branches blanches précieuses. Elle a été autrefois utilisée pour détruire les innombrables poisons qui infestaient la forêt.",
+        "passive": {
+          "name": "Soie de blanchelune",
+          "refinements": {
+            "1": "Augmente le taux CRIT de <r>4 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>120 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s.",
+            "2": "Augmente le taux CRIT de <r>5 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>150 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s.",
+            "3": "Augmente le taux CRIT de <r>6 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>180 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s.",
+            "4": "Augmente le taux CRIT de <r>7 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>210 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s.",
+            "5": "Augmente le taux CRIT de <r>8 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>240 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s."
+          }
+        }
+      }
+    }
   }
 }

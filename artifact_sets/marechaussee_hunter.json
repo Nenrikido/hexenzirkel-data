@@ -29,5 +29,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15031",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Marechaussee Hunter",
+        "bonuses": {
+          "2": "Normal and Charged Attack DMG +15%",
+          "4": "When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
+        }
+      },
+      "fr": {
+        "name": "Chasseur de la Maréchaussée",
+        "bonuses": {
+          "2": "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
+          "4": "Lorsque les PV actuels du personnage augmentent ou diminuent, son taux CRIT augmente de 12 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum."
+        }
+      }
+    }
   }
 }

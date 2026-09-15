@@ -404,5 +404,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000066",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Kamisato Art: Marobashi",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to dash forward and performs an iai.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Kamisato Art: Kyouka",
+            "desc": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state.\nAfter this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing <e:hydro>AoE Hydro DMG</e>.\n\n<k>Takimeguri Kanka</k>\nIn this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into <e:hydro>AoE Hydro DMG</e>. This cannot be overridden.\nIt also has the following properties:\n· After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends.\n· Kamisato Ayato's resistance to interruption is increased.\n· Unable to use Charged or Plunging Attacks.\n\nTakimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.\n\n<i>\"When, I wonder, did you come under the illusion that you were winning?\"</i>\n<i>— Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line.</i>"
+          },
+          "burst": {
+            "name": "Kamisato Art: Suiyuu",
+            "desc": "Unveils a garden of purity that silences the cacophony within.\nWhile this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing <e:hydro>Hydro DMG</e> and increasing the Normal Attack DMG of characters within.\n\n<i>\"I can see them, you know. The ripples of your beating heart within this realm of still waters.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+            "desc": "<k>Kamisato Art: Kyouka</k> has the following properties:\n· After it is used, Kamisato Ayato will gain 2 Namisen stacks.\n· When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible."
+          },
+          {
+            "name": "Kamisato Art: Michiyuku Hagetsu",
+            "desc": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second."
+          },
+          {
+            "name": "Kamisato Art: Daily Cooking",
+            "desc": "When Ayato cooks a dish perfectly, he has an 18% chance to receive an additional \"Suspicious\" dish of the same type."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Kyouka Fuushi",
+            "desc": "<k>Shunsuiken</k> DMG is increased by 40% against opponents with 50% HP or less."
+          },
+          {
+            "level": 2,
+            "name": "World Source",
+            "desc": "<k>Namisen</k>'s maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%."
+          },
+          {
+            "level": 3,
+            "name": "To Admire the Flowers",
+            "desc": "Increases the Level of <k>Kamisato Art: Kyouka</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Endless Flow",
+            "desc": "After using <k>Kamisato Art: Suiyuu</k>, all nearby party members will have 15% increased Normal Attack SPD for 15s."
+          },
+          {
+            "level": 5,
+            "name": "Bansui Ichiro",
+            "desc": "Increases the Level of <k>Kamisato Art: Suiyuu</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Boundless Origin",
+            "desc": "After using <k>Kamisato Art: Kyouka</k>, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.\nBoth these Shunsuiken attacks will not be affected by Namisen."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "École Kamisato : Transition",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour se propulser en avant et déclencher un iai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "École Kamisato : Beauté réfléchie",
+            "desc": "Kamisato Ayato change d'emplacement et entre dans l'état Réflexion torrentielle.\nAprès ce déplacement, il laisse une illusion aqueuse à son emplacement d'origine, qui, une fois complètement formée, explose après un certain temps ou si des ennemis sont à proximité, infligeant des <e:hydro>DGT Hydro de zone</e>.\n\n<k>Réflexion torrentielle</k>\nDans cet état, Ayato utilise son Shunsuiken pour attaquer avec une rapidité aveuglante, convertissant les DGT infligés par ses attaques normales en <e:hydro>DGT Hydro de zone</e> ne pouvant pas être enchantés.\nLes propriétés suivantes sont également appliquées :\n· Après avoir touché un ennemi avec une attaque de Shunsuiken, Ayato obtient l'effet Flash onduleux, augmentant les DGT infligés par son Shunsuiken en fonction de ses PV max actuels. Le flash onduleux peut être initialement cumulé 4 fois maximum, et 1 cumul peut être obtenu une fois toutes les 0,1 s grâce à une attaque de Shunsuiken. Cet effet prend fin quand l'état Réflexion torrentielle se termine.\n· La RÉS à l'interruption d'Ayato augmente.\n· Il est impossible d'utiliser des attaques chargées ou plongeantes.\n\nL'état Réflexion torrentielle cesse lorsque Ayato quitte le champ de bataille. Utiliser à nouveau École Kamisato : Beauté réfléchie dans l'état Réflexion torrentielle y mettra fin.\n\n<i>« Quand, je me demande, en êtes-vous arrivé à penser que vous aviez le dessus ? »</i>\n<i>Ayato est ainsi qu'il s'agisse de prouesses martiales ou d'intrigues politiques... Cependant, afin de préserver la dignité des autres Commissaires, il ne leur dit pas de telles choses en face. Ainsi, seuls Thomas, Itto et Ayaka ont déjà entendu ces mots.</i>"
+          },
+          "burst": {
+            "name": "École Kamisato : Jardin d'eau",
+            "desc": "Dévoile un jardin de pureté qui étouffe toute cacophonie en son sein.\nTant que cet espace existe, des lames de rosée pleuvent de façon continue pour attaquer les adversaires dans la zone, leur infligeant des <e:hydro>DGT Hydro</e> et augmentant les DGT des attaques normales des personnages à l'intérieur.\n\n<i>« Je peux les voir, vous savez... Les ondulations de votre cœur battant dans ce royaume aux eaux calmes. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "École Kamisato : Clarté de bruine",
+            "desc": "<k>École Kamisato : Beauté réfléchie</k> obtient les propriétés suivantes :\n· 2 cumuls de flash onduleux sont accordés lors de l'utilisation.\n· Quand une illusion aqueuse explose, Ayato obtient un effet de flash onduleux équivalant au nombre maximum de cumuls possible."
+          },
+          {
+            "name": "École Kamisato : Avènement de la pleine lune",
+            "desc": "Lorsque Kamisato Ayato fait partie de l'équipe mais n'est pas déployé, et s'il possède moins de 40 pts d'énergie élémentaire, il en récupère 2 pts toutes les secondes."
+          },
+          {
+            "name": "École Kamisato : Cuisine du jour",
+            "desc": "18 % de chances d'obtenir un plat suspect supplémentaire du même type lorsque vous cuisinez un plat parfait."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Reflet gracieux",
+            "desc": "Les DGT infligés par une attaque de <k>Shunsuiken</k> augmentent de 40 % contre les ennemis dont les PV sont inférieurs ou égaux à 50 %."
+          },
+          {
+            "level": 2,
+            "name": "Source du monde",
+            "desc": "Le <k>flash onduleux</k> peut maintenant être cumulé 5 fois maximum. Lorsque Ayato possède au moins 3 cumuls de flash onduleux, ses PV max augmentent de 50 %."
+          },
+          {
+            "level": 3,
+            "name": "Contemplation des fleurs",
+            "desc": "Niveau d'aptitude <k>École Kamisato : Beauté réfléchie</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Flux ininterrompu",
+            "desc": "Après avoir utilisé <k>École Kamisato : Jardin d'eau</k>, la VIT d'attaque des attaques normales des personnages de l'équipe à proximité augmente de 15 % pendant 15 s."
+          },
+          {
+            "level": 5,
+            "name": "Rosée de mille gouttes",
+            "desc": "Niveau d'aptitude <k>École Kamisato : Jardin d'eau</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Origine illimitée",
+            "desc": "Après avoir utilisé <k>École Kamisato : Beauté réfléchie</k>, la prochaine attaque de Shunsuiken d'Ayato déclenche 2 attaques supplémentaires de Shunsuiken en touchant un ennemi, chaque attaque supplémentaire infligeant des DGT d'une valeur équivalant à 450 % de l'ATQ d'Ayato.\nCes deux attaques supplémentaires ne seront pas affectées par l'effet Flash onduleux."
+          }
+        ]
+      }
+    }
   }
 }

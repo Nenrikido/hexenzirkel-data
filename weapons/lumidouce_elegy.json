@@ -44,5 +44,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13513",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure — and yet, not once was it ever used.",
+        "passive": {
+          "name": "Bright Dawn Overture",
+          "refinements": {
+            "1": "ATK increased by <r>15%</r>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <r>18%</r>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <r>12</r> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+            "2": "ATK increased by <r>19%</r>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <r>23%</r>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <r>13</r> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+            "3": "ATK increased by <r>23%</r>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <r>28%</r>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <r>14</r> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+            "4": "ATK increased by <r>27%</r>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <r>33%</r>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <r>15</r> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+            "5": "ATK increased by <r>31%</r>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <r>38%</r>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <r>16</r> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une magnifique lance ornée de cristal azur. Il paraît qu'il s'agissait du trésor d'une certaine duelliste mandatée légendaire. Et pourtant, elle n'a jamais été utilisée une seule fois...",
+        "passive": {
+          "name": "Prélude de l'aube blanche",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>15 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction de Brûlure sur un ennemi ou inflige des DGT Dendro à un ennemi brûlé, les DGT infligés augmentent de <r>18 %</r> pendant 8 s, cet effet pouvant être cumulé 2 fois maximum. En atteignant 2 cumuls ou lorsque la durée du 2e cumul est actualisée, <r>12</r> pts d'énergie élémentaires sont restaurés, l'énergie élémentaire pouvant être restaurée une fois toutes les 12 s de cette manière. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Augmente l'ATQ de <r>19 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction de Brûlure sur un ennemi ou inflige des DGT Dendro à un ennemi brûlé, les DGT infligés augmentent de <r>23 %</r> pendant 8 s, cet effet pouvant être cumulé 2 fois maximum. En atteignant 2 cumuls ou lorsque la durée du 2e cumul est actualisée, <r>13</r> pts d'énergie élémentaires sont restaurés, l'énergie élémentaire pouvant être restaurée une fois toutes les 12 s de cette manière. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Augmente l'ATQ de <r>23 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction de Brûlure sur un ennemi ou inflige des DGT Dendro à un ennemi brûlé, les DGT infligés augmentent de <r>28 %</r> pendant 8 s, cet effet pouvant être cumulé 2 fois maximum. En atteignant 2 cumuls ou lorsque la durée du 2e cumul est actualisée, <r>14</r> pts d'énergie élémentaires sont restaurés, l'énergie élémentaire pouvant être restaurée une fois toutes les 12 s de cette manière. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Augmente l'ATQ de <r>27 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction de Brûlure sur un ennemi ou inflige des DGT Dendro à un ennemi brûlé, les DGT infligés augmentent de <r>33 %</r> pendant 8 s, cet effet pouvant être cumulé 2 fois maximum. En atteignant 2 cumuls ou lorsque la durée du 2e cumul est actualisée, <r>15</r> pts d'énergie élémentaires sont restaurés, l'énergie élémentaire pouvant être restaurée une fois toutes les 12 s de cette manière. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Augmente l'ATQ de <r>31 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction de Brûlure sur un ennemi ou inflige des DGT Dendro à un ennemi brûlé, les DGT infligés augmentent de <r>38 %</r> pendant 8 s, cet effet pouvant être cumulé 2 fois maximum. En atteignant 2 cumuls ou lorsque la durée du 2e cumul est actualisée, <r>16</r> pts d'énergie élémentaires sont restaurés, l'énergie élémentaire pouvant être restaurée une fois toutes les 12 s de cette manière. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

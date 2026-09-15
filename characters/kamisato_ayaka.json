@@ -308,5 +308,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000002",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Kamisato Art: Kabuki",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash a flurry of sword ki.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Kamisato Art: Hyouka",
+            "desc": "Summons blooming ice to launch nearby opponents, dealing <e:cryo>AoE Cryo DMG</e>.\n\n<i>\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"</i>"
+          },
+          "burst": {
+            "name": "Kamisato Art: Soumetsu",
+            "desc": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\n\n<k>Frostflake Seki no To</k>\n· A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing <e:cryo>Cryo DMG</e>.\n· The snowstorm explodes after its duration ends, dealing <e:cryo>AoE Cryo DMG</e>.\n\n<i>\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"</i>"
+          },
+          "sprint": {
+            "name": "Kamisato Art: Senho",
+            "desc": "<k>Alternate Sprint</k>\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\n\nIn Senho form, she moves swiftly upon water.\nWhen she reappears, the following effects occur:\n· Ayaka unleashes frigid energy to apply <e:cryo>Cryo</e> on nearby opponents.\n· Coldness condenses around Ayaka's blade, infusing her attacks with <e:cryo>Cryo</e> for a brief period.\n\n<i>\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Amatsumi Kunitsumi Sanctification",
+            "desc": "After using <k>Kamisato Art: Hyouka</k>, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s."
+          },
+          {
+            "name": "Kanten Senmyou Blessing",
+            "desc": "When the Cryo application at the end of <k>Kamisato Art: Senho</k> hits an opponent, Kamisato Ayaka gains the following effects:\n· Restores 10 Stamina\n· Gains 18% <e:cryo>Cryo DMG Bonus</e> for 10s."
+          },
+          {
+            "name": "Fruits of Shinsa",
+            "desc": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Snowswept Sakura",
+            "desc": "When Kamisato Ayaka's Normal or Charged Attacks deal <e:cryo>Cryo DMG</e> to opponents, it has a 50% chance of decreasing the CD of <k>Kamisato Art: Hyouka</k> by 0.3s. This effect can occur once every 0.1s."
+          },
+          {
+            "level": 2,
+            "name": "Blizzard Blade Seki no To",
+            "desc": "When casting <k>Kamisato Art: Soumetsu</k>, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG."
+          },
+          {
+            "level": 3,
+            "name": "Frostbloom Kamifubuki",
+            "desc": "Increases the Level of <k>Kamisato Art: Soumetsu</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Ebb and Flow",
+            "desc": "Opponents damaged by <k>Kamisato Art: Soumetsu</k>'s Frostflake Seki no To will have their DEF decreased by 30% for 6s."
+          },
+          {
+            "level": 5,
+            "name": "Blossom Cloud Irutsuki",
+            "desc": "Increases the Level of <k>Kamisato Art: Hyouka</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Dance of Suigetsu",
+            "desc": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "École Kamisato : Sveltesse",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux lames du vent rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "École Kamisato : Fleur de glace",
+            "desc": "Ayaka invoque une fleur glacée qui projette les ennemis proches, leur infligeant des <e:cryo>DGT Cryo de zone</e>.\n\n<i>« Les nuages enveloppent la lune, le désir descend tel un brouillard, emplissant le cœur du voyageur. »</i>"
+          },
+          "burst": {
+            "name": "École Kamisato : Givre mortel",
+            "desc": "Ayaka adopte une posture magnifique pour libérer un tourbillon givré qui avance sans s'arrêter.\n\n<k>Tourbillon givré</k>\n· Le tourbillon givré lacère de façon continue les ennemis qui se trouvent sur sa route, infligeant des <e:cryo>DGT Cryo</e>.\n· Le tourbillon finit par exploser, infligeant des <e:cryo>DGT Cryo de zone</e>.\n\n<i>« Le blizzard dissimule les pensées du héron, au cœur rempli de pitié. »</i>"
+          },
+          "sprint": {
+            "name": "École Kamisato : Sentier de givre",
+            "desc": "<k>Sprint alternatif</k>\nAyaka consomme de l'endurance pour se déplacer rapidement au milieu d'un brouillard de glace.\n\nSous Sentier de givre, Ayaka peut se déplacer rapidement sur l'eau.\nÀ la fin de l'état, elle réapparaît, et deux choses se produisent alors simultanément :\n· Elle libère une énergie glacée qui applique aux ennemis proches l'<e:cryo>élément Cryo</e>.\n· Le froid se concentre sur son épée : les DGT qu'inflige cette dernière sont momentanément convertis en <e:cryo>DGT Cryo</e>.\n\n<i>« Volent les ailes mouillées ; le héron blanc marche sur l'eau ; d'une vision parfaite »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Sanctification de l'impur",
+            "desc": "Confère aux attaques normales et chargées d'Ayaka suivant dans les 6 s le lancement d'<k>École Kamisato : Fleur de glace</k> un bonus de 30 % de DGT."
+          },
+          {
+            "name": "Bénédiction de Kanten Senmyou",
+            "desc": "L'énergie glacée libérée à la fin du Sentier de givre d'<k>École Kamisato : Sentier de givre</k> confère à Ayaka les effets suivants lorsqu'elle touche l'ennemi :\nRégénération de 10 pts d'endurance.\n<e:cryo>Bonus de DGT Cryo</e> de 18 % pendant 10 s."
+          },
+          {
+            "name": "Fruits de Shinsa",
+            "desc": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'élévation d'arme."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Cerise givrée",
+            "desc": "Les attaques normales et chargées d'Ayaka ont 50 % de chances de réduire le TdR d'<k>École Kamisato : Fleur de glace</k> de 0,3 s lorsqu'elles infligent des <e:cryo>DGT Cryo</e> aux ennemis. Cet effet peut être déclenché une fois toutes les 0,1 s."
+          },
+          {
+            "level": 2,
+            "name": "Lame de blizzard Seki",
+            "desc": "Deux petits tourbillons givrés supplémentaires sont libérés à l'activation d'<k>École Kamisato : Givre mortel</k> ; chacun inflige 20 % des DGT du tourbillon d'origine."
+          },
+          {
+            "level": 3,
+            "name": "Confettis de fleuraison givrée",
+            "desc": "Niveau d'aptitude <k>École Kamisato : Givre mortel</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Retour prééminent",
+            "desc": "La DÉF des ennemis subissant les DGT infligés par le tourbillon givré d'<k>École Kamisato : Givre mortel</k> diminue de 30 % pendant 6 s."
+          },
+          {
+            "level": 5,
+            "name": "Lune entre les nuages",
+            "desc": "Niveau d'aptitude <k>École Kamisato : Fleur de glace</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Danse de la lune",
+            "desc": "Kamisato Ayaka s'illumine d'une gracieuseté gelée toutes les 10 s, augmentant les DGT infligés par son attaque chargée de 298 %. Cet effet s'annule 0,5 s après que l'attaque chargée d'Ayaka touche un ennemi, puis le chronomètre de cette capacité démarre."
+          }
+        ]
+      }
+    }
   }
 }

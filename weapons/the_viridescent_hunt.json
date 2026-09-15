@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15409",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A pure green hunting bow. This once belonged to a certain hunter whose home was the forest.",
+        "passive": {
+          "name": "Verdant Wind",
+          "refinements": {
+            "1": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <r>40%</r> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <r>14</r>s.",
+            "2": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <r>50%</r> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <r>13</r>s.",
+            "3": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <r>60%</r> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <r>12</r>s.",
+            "4": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <r>70%</r> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <r>11</r>s.",
+            "5": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing <r>80%</r> of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every <r>10</r>s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc noble de couleur verte qui appartenait autrefois à un chasseur.",
+        "passive": {
+          "name": "Vent verdoyant",
+          "refinements": {
+            "1": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>40 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>14</r> s.",
+            "2": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>50 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>13</r> s.",
+            "3": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>60 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>12</r> s.",
+            "4": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>70 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>11</r> s.",
+            "5": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>80 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>10</r> s."
+          }
+        }
+      }
+    }
   }
 }

@@ -190,5 +190,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000115",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Favonius Bladework - Ritual",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Immersive Ordinance",
+            "desc": "Time for a fun little trick! Summons the Sacramental Shower in different ways depending on whether you Tap or Hold it.\n\n<k>Tap</k>\nAfter a short prayer, summons the Sacramental Shower in front.\n\n<k>Hold</k>\nEngages in continuous prayer, and when done, summons forth a Sacramental Shower in the designated position.\n\n<k>Sacramental Shower</k>\nWhen opponents or nearby party members touch the Sacramental Shower, different effects will occur depending on the one who touches it:\nIf an opponent touches the Shower, it will explode and deal <e:hydro>AoE Hydro DMG</e> to nearby opponents.\nIf a nearby party member touches it, it will bounce the one who touches it high in the air.\n\nOnly 1 Sacramental Shower summoned by Dahlia himself can be on the field at once."
+          },
+          "burst": {
+            "name": "Radiant Psalter",
+            "desc": "Appeals to the divine with earnestness and song, dealing <e:hydro>AoE Hydro DMG</e> to nearby opponents and granting his party members Favonian Favor, summoning a Shield of Sacred Favor.\nThe Shield of Sacred Favor's DMG absorption is based on Dahlia's Max HP, and it will absorb <e:hydro>Hydro DMG</e> with 250% effectiveness.\n\n<k>Favonian Favor</k>\nWhile this effect is active, 1 Benison stack may be consumed to summon a new Shield of Sacred Favor when an existing Shield is broken via DMG.\n\nDahlia can obtain Benison via the following methods:\n· He will gain 1 Benison stack when his own active party member hits opponents 4 times with Normal Attacks while affected by Favonian Favor.\n· After triggering the effect of his Ascension Talent, \"The Wind's Gentle Grace\" (You must first unlock this Ascension Talent.)\nDahlia can gain a maximum of 4 Benison stacks per Favonian Favor duration."
+          }
+        },
+        "passives": [
+          {
+            "name": "The Wind's Gentle Grace",
+            "desc": "When characters affected by the Favonian Favor effect of the Elemental Burst <k>Radiant Psalter</k> trigger Frozen reactions on opponents, they will grant Dahlia 2 Benison stacks. This effect can trigger once every 8s."
+          },
+          {
+            "name": "Prayer of Well-Wrought Joy",
+            "desc": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst <k>\"Radiant Psalter,\"</k> their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%."
+          },
+          {
+            "name": "Pilgrimage Upon Returning Winds",
+            "desc": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or the Spiral Abyss. Swift Stride does not stack."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Infallible Procession",
+            "desc": "Each time Dahlia gains 1 of his Elemental Burst <k>Radiant Psalter</k>'s Benison stacks, he will regain 2.5 Elemental Energy."
+          },
+          {
+            "level": 2,
+            "name": "Revelation of Mercy",
+            "desc": "After Dahlia consumes his Elemental Burst <k>Radiant Psalter</k>'s Benison stacks to summon a Shield of Sacred Favor, the character protected by said Shield will gain 25% increased Shield Strength for 12s."
+          },
+          {
+            "level": 3,
+            "name": "Windblume Offertory",
+            "desc": "Increases the Level of <k>Radiant Psalter</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Collect of the Assembly",
+            "desc": "The Favonian Favor from Dahlia's Elemental Burst <k>Radiant Psalter</k> lasts 3 more seconds."
+          },
+          {
+            "level": 5,
+            "name": "Let It Be Subtly So",
+            "desc": "Increases the Level of <k>Immersive Ordinance</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "You Shall Go Out With Joy",
+            "desc": "The current active character affected by the Elemental Burst <k>Radiant Psalter</k>'s Favonian Favor has their ATK SPD increased by 10%.\nAdditionally, when an active character affected by Favonian Favor falls, immediately:\n· Revive them.\n· Restore their HP to 100%.\nThis effect can trigger once every 15 minutes."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Escrime de Favonius - Rituel",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Ordonnance immersive",
+            "desc": "Il est temps de faire un petit truc amusant ! Différents effets se produisent selon la méthode de déclenchement, chacun invoquant un mystère bruineux.\n\n<k>Appui simple</k>\nAprès une courte prière, invoque un mystère bruineux en face.\n\n<k>Appui long</k>\nEffectue une prière continue qui, une fois terminée, invoque un mystère bruineux à l'emplacement désigné.\n\n<k>Mystère bruineux</k>\nLorsqu'un ennemi ou un membre de l'équipe à proximité touche un mystère bruineux, différents effets se produisent selon la personne concernée :\nSi un ennemi touche un mystère bruineux, ce dernier explose et inflige des <e:hydro>DGT Hydro de zone</e> aux ennemis à proximité.\nSi un membre de l'équipe à proximité touche un mystère bruineux, il se fait projeter dans les airs.\n\nIl ne peut exister qu'un seul mystère bruineux invoqué par Dahlia à la fois."
+          },
+          "burst": {
+            "name": "Psautier radieux",
+            "desc": "Invoque le divin avec ferveur et chant, infligeant des <e:hydro>DGT Hydro de zone</e> aux ennemis proches, accordant à vos personnages dans l'équipe l'effet Faveur favonienne et invoquant un bouclier de faveur sacrée.\nL'absorption de DGT du bouclier de faveur sacrée est basée sur les PV max de Dahlia et ce dernier absorbe les <e:hydro>DGT Hydro</e> 250 % plus efficacement.\n\n<k>Faveur favonienne</k>\nPendant cet effet, Dahlia peut consommer un cumul de sacrement pour invoquer à nouveau un bouclier de faveur sacrée lorsqu'un précédent bouclier a été détruit en subissant des DGT.\n\nDahlia peut obtenir du sacrement des manières suivantes :\n· Il obtient 1 cumul de sacrement à chaque fois que votre personnage déployé touche des ennemis 4 fois avec des attaques normales tout en étant sous l'effet d'une faveur favonienne.\n· En déclenchant l'effet de l'aptitude d'élévation « La douce grâce du vent », l'aptitude en question devant être déjà débloquée.\nDahlia peut obtenir un maximum de 4 cumuls de sacrement pendant la durée une faveur favonienne."
+          }
+        },
+        "passives": [
+          {
+            "name": "La douce grâce du vent",
+            "desc": "Lorsqu'un personnage affecté par une faveur favonienne du déchaînement élémentaire <k>Psautier radieux</k> déclenche une réaction de Gel sur un ennemi, Dahlia obtient 2 cumuls de sacrement. Cet effet peut être déclenché une fois toutes les 8 s."
+          },
+          {
+            "name": "Prière de joie ingénieuse",
+            "desc": "Lorsque votre personnage déployé est affecté par une faveur favonienne du déchaînement élémentaire <k>Psautier radieux</k>, sa VIT d'attaque augmente selon les PV max de Dahlia : chaque tranche de 1 000 PV max augmente la VIT d'attaque de 0,5 %, la VIT d'attaque pouvant être augmentée d'un maximum de 20 % de cette manière."
+          },
+          {
+            "name": "Pèlerinage sur le vent de retour",
+            "desc": "La journée (06 h 00 - 18 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Procession infaillible",
+            "desc": "Chaque fois que Dahlia obtient 1 cumul de sacrement de son déchaînement élémentaire <k>Psautier radieux</k>, il récupère 2,5 pts d'énergie élémentaire."
+          },
+          {
+            "level": 2,
+            "name": "Révélation de miséricorde",
+            "desc": "Lorsque Dahlia a consommé un cumul de sacrement du déchaînement élémentaire <k>Psautier radieux</k> pour invoquer un bouclier de faveur sacrée, la force du bouclier augmente de 25 % pendant 12 s pour le personnage protégé par le bouclier en question."
+          },
+          {
+            "level": 3,
+            "name": "Offertoire des alizées",
+            "desc": "Niveau d'aptitude <k>Psautier radieux</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Collecte de l'assemblée",
+            "desc": "La durée de l'effet Faveur favonienne du déchaînement élémentaire <k>Psautier radieux</k> augmente de 3 s."
+          },
+          {
+            "level": 5,
+            "name": "Qu'il en soit subtilement ainsi",
+            "desc": "Niveau d'aptitude <k>Ordonnance immersive</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Que la joie suive",
+            "desc": "La VIT d'attaque du personnage déployé augmente de 10 % lorsqu'il est affecté par l'effet Faveur favonienne du déchaînement élémentaire <k>Psautier radieux</k>.\nDe plus, lorsqu'un personnage déployé affecté par une faveur favonienne est vaincu :\n· Dahlia le réanime immédiatement.\n· Les PV de ce personnage sont restaurés à 100 %.\nCet effet peut être déclenché une fois toutes les 15 min."
+          }
+        ]
+      }
+    }
   }
 }

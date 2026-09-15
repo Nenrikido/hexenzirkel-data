@@ -326,5 +326,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000079",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Sandstorm Assault",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes using her Claymore and her martial arts.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Molten Inferno",
+            "desc": "This art of Dehya's own invention changes its method of use depending on the combat situation.\n\n<k>Indomitable Flame</k>\nThis skill will be unleashed should there be no Fiery Sanctum field created by Dehya herself present at the time.\nDeals <e:pyro>AoE Pyro DMG</e>, and creates a field known as Fiery Sanctum.\n\n<k>Ranging Flame</k>\nThis skill will be unleashed should a Fiery Sanctum field created by Dehya herself already exist.\nDehya will perform a leaping attack, dealing <e:pyro>AoE Pyro DMG</e> before recreating a Fiery Sanctum field at her new position.\nA Fiery Sanctum field created this way will inherit the remaining duration of the previous field.\n\nRanging Flame can be used only once throughout a single Fiery Sanctum field's duration.\n\n<k>Fiery Sanctum</k>\nWhen an opponent within a Fiery Sanctum field takes DMG, the field will unleash a coordinated attack, dealing <e:pyro>AoE Pyro DMG</e> to them based on Dehya's ATK and Max HP. This effect can be triggered once every 2.5s.\nActive characters within this field have their resistance to interruption increased, and when such characters take DMG, a portion of that damage will be mitigated and flow into Redmane's Blood. Dehya will then take this DMG over 10s. When the mitigated DMG stored by Redmane's Blood reaches or goes over a certain percentage of Dehya's Max HP, she will stop mitigating DMG in this way.\n\nOnly 1 Fiery Sanctum created by Dehya herself can exist at the same time.\n\n<i>Walk this fiery ordeal with me and purge all impurity, just as a beast of flames that must descend from the blaze.</i>"
+          },
+          "burst": {
+            "name": "Leonine Bite",
+            "desc": "Unleashing her burning anger and casting her inconvenient blade aside, Dehya enters the Blazing Lioness state and increases her resistance to interruption.\nIn this state, Dehya will automatically and continuously unleash the Flame-Mane's Fists, dealing <e:pyro>Pyro DMG</e> based on her ATK and Max HP, and when its duration ends, she will unleash an Incineration Drive, dealing <e:pyro>AoE Pyro DMG</e> based on her ATK and Max HP.\nIf a Fiery Sanctum field created by Dehya's own Elemental Skill \"Molten Inferno\" exists when this ability is unleashed, Dehya will retrieve it, and then create another field once Blazing Lioness's duration expires. This field will take on the retrieved field's duration at the moment of its retrieval.\nIn this state, Dehya will be unable to cast her Elemental Skill, or perform Normal, Charged, and Plunging Attacks. \"Normal Attack: Sandstorm Assault\" and Elemental Skill \"Molten Inferno\" will be replaced by \"Roaring Barrage.\"\n\n<k>Roaring Barrage</k>\nUnleashing Roaring Barrage within 0.4s after each Flame-Mane's Fist strike will increase the speed at which the next Flame-Mane's Fist strike will be triggered.\n\n<i>Even the flowing flames must obey her rage and at her command become her fangs and claws.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Unstinting Succor",
+            "desc": "Within 6 seconds after Dehya retrieves the Fiery Sanctum field through <k>Molten Inferno: Ranging Flame</k> or <k>Leonine Bite</k>, she will take 60% less DMG when receiving DMG from Redmane's Blood. This effect can be triggered once every 2s.\nAdditionally, within 9s after Dehya unleashes <k>Molten Inferno: Indomitable Flame</k>, she will grant all party members the Gold-Forged Form state. This state will further increase a character's resistance to interruption when they are within the Fiery Sanctum field. Gold-Forged Form can be activated once every 18s."
+          },
+          {
+            "name": "Stalwart and True",
+            "desc": "When her HP is less than 40%, Dehya will recover 20% of her Max HP and will restore 6% of her Max HP every 2s for the next 10s. This effect can be triggered once every 20s."
+          },
+          {
+            "name": "The Sunlit Way",
+            "desc": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "The Flame Incandescent",
+            "desc": "Dehya's Max HP is increased by 20%, and she deals bonus DMG based on her Max HP when using the following attacks:\n· <k>Molten Inferno</k>'s DMG will be increased by 3.6% of her Max HP.\n· <k>Leonine Bite</k>'s DMG will be increased by 6% of her Max HP."
+          },
+          {
+            "level": 2,
+            "name": "The Sand-Blades Glittering",
+            "desc": "When Dehya uses <k>Molten Inferno: Ranging Flame</k>, the duration of the recreated Fiery Sanctum field will be increased by 6s.\nAdditionally, when a Fiery Sanctum exists on the field, DMG dealt by its next coordinated attack will be increased by 50% when active character(s) within the Fiery Sanctum field are attacked."
+          },
+          {
+            "level": 3,
+            "name": "A Rage Swift as Fire",
+            "desc": "Increases the Level of <k>Leonine Bite</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "An Oath Abiding",
+            "desc": "When Flame-Mane's Fist and Incineration Drive attacks unleashed during <k>Leonine Bite</k> hit opponents, they will restore 1.5 Energy for Dehya and 2.5% of her Max HP. This effect can be triggered once every 0.2s."
+          },
+          {
+            "level": 5,
+            "name": "The Alpha Unleashed",
+            "desc": "Increases the Level of <k>Molten Inferno</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Burning Claws Cleaving",
+            "desc": "The CRIT Rate of <k>Leonine Bite</k> is increased by 10%.\nAdditionally, after a Flame-Mane's Fist attack hits an opponent and deals CRIT Hits during a single Blazing Lioness state, it will cause the CRIT DMG of Leonine Bite to increase by 15% for the rest of Blazing Lioness's duration and extend that duration by 0.5s. This effect can be triggered every 0.2s. The duration can be extended for a maximum of 2s and CRIT DMG can be increased by a maximum of 60% this way."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Assaut sablé",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups mélangeant attaques avec son épée et frappes de corps.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'entailles aussi rapides que tranchantes.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Enfer en fusion",
+            "desc": "Cet art de combat, inventé par Dehya elle-même, change en fonction de la situation.\n\n<k>Flamme indomptable</k>\nSe déclenche si aucun sanctuaire ardent créé par Dehya n'est présent sur le champ de bataille.\nInflige des <e:pyro>DGT Pyro de zone</e> et crée une zone de sanctuaire ardent.\n\n<k>Champ flamboyant</k>\nSe déclenche si un sanctuaire ardent créé par Dehya est présent sur le champ de bataille.\nEffectue une attaque bondissante, infligeant des <e:pyro>DGT Pyro de zone</e>, et crée à nouveau une zone de sanctuaire ardent à l'emplacement de Dehya.\nUne zone de sanctuaire ardent créée de cette manière hérite de la durée de la zone d'origine.\n\nUn seul champ flamboyant peut être déclenché pendant la durée d'une zone de sanctuaire ardent.\n\n<k>Sanctuaire ardent</k>\nLorsqu'un ennemi dans la zone subit des DGT, le sanctuaire ardent déclenche une attaque coordonnée, lui infligeant des <e:pyro>DGT Pyro de zone</e> selon l'ATQ et les PV max de Dehya. Cet effet peut être déclenché une fois toutes les 2,5 s.\nLes personnages déployés dans la zone voient leur RÉS à l'interruption augmentée et lorsqu'ils subissent des DGT, une partie des DGT est atténuée et transférée dans le sang de crinière rouge, avant d'être subie par Dehya sur 10 s. Lorsque les DGT dans le sang de crinière rouge atteignent ou dépassent un certain pourcentage des PV max de Dehya, les DGT ne sont plus atténués.\n\nIl ne peut exister qu'un seul sanctuaire ardent créé par Dehya à la fois.\n\n<i>Marchons ensemble dans cette épreuve ardente, purifiant toute impureté, tout comme une bête de feu descendant dans les flammes !</i>"
+          },
+          "burst": {
+            "name": "Morsure léonine",
+            "desc": "Libérant sa colère brûlante et jetant sa lame sur le côté comme s'il s'agissait d'un fardeau, Dehya entre dans l'état Lionne flamboyante et augmente sa RÉS à l'interruption.\nDans cet état, Dehya déchaîne automatiquement et de façon continue ses poings de crinière enflammée pour infliger des <e:pyro>DGT Pyro</e> selon son ATQ et ses PV max, et, une fois la durée écoulée, elle utilise son pied plongeant d'incinération qui inflige des <e:pyro>DGT Pyro de zone</e>, toujours selon son ATQ et ses PV max.\nSi une zone de sanctuaire ardent créée par la compétence élémentaire de Dehya « Enfer en fusion » est présente sur le champ de bataille lorsque cette capacité est utilisée, Dehya la récupère et en crée une autre à son nouvel emplacement une fois la durée de l'état Lionne flamboyante expirée. Cette nouvelle zone hérite alors de la durée de la zone précédente au moment de sa récupération.\nDans cet état, Dehya ne peut pas utiliser de compétence élémentaire, ni effectuer d'attaque normale, chargée ou plongeante. Son « Attaque normale : Assaut sablé » et sa compétence élémentaire « Enfer en fusion » sont remplacées par Raclée rugissante.\n\n<k>Raclée rugissante</k>\nLe déclenchement d'une raclée rugissante dans les 0,4 s après un poing de crinière enflammée accélère le déclenchement du prochain poing de crinière enflammée.\n\n<i>Même les flammes qui coulent doivent obéir à sa rage et sous ses ordres deviennent ses crocs et ses griffes.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Secours sans faille",
+            "desc": "Pendant 6 s après que Dehya récupère un sanctuaire ardent en utilisant <k>Enfer en fusion : Champ flamboyant</k> ou <k>Morsure léonine</k>, les DGT que Dehya subit du sang de crinière rouge diminuent de 60 %. Cet effet peut être déclenché une fois toutes les 2 s.\nDe plus, pendant 9 s après que Dehya déclenche <k>Enfer en fusion : Flamme indomptable</k>, elle accorde l'état Forgé d'or à tous les personnages de l'équipe : augmente davantage la RÉS à l'interruption des personnages à l'intérieur d'une zone de sanctuaire ardent. L'état Forgé d'or peut être déclenché une fois toutes les 18 s."
+          },
+          {
+            "name": "Rectitude",
+            "desc": "Lorsque ses PV sont inférieurs à 40 %, Dehya les restaure d'une valeur équivalant à 20 % de ses PV max, puis 6 % de ses PV max toutes les 2 s pendant 10 s. Cet effet peut être déclenché une fois toutes les 20 s."
+          },
+          {
+            "name": "Voie ensoleillée",
+            "desc": "La journée (06 h 00 - 18 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Brillante flamme d'incandescence",
+            "desc": "Augmente les PV max de Dehya de 20 %, et augmente les DGT infligés par les attaques de Dehya citées ci-dessous en fonction de ses PV max :\n· Augmentation des DGT d'<k>Enfer en fusion</k> : 3,6 % des PV max.\n· Augmentation des DGT de <k>Morsure léonine</k> : 6 % des PV max."
+          },
+          {
+            "level": 2,
+            "name": "Scintillante lame de sable",
+            "desc": "Lors de l'utilisation d'<k>Enfer en fusion : Champ flamboyant</k>, la durée de la zone de sanctuaire ardent créée une nouvelle fois augmente de 6 s.\nDe plus, si une zone de sanctuaire ardent est présente sur le champ de bataille et si un personnage déployé subit une attaque en son sein, les DGT infligés par la prochaine attaque coordonnée du sanctuaire ardent augmentent de 50 %."
+          },
+          {
+            "level": 3,
+            "name": "Précipitante rage de feu",
+            "desc": "Niveau d'aptitude <k>Morsure léonine</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Liant serment de respect",
+            "desc": "Lorsqu'un poing de crinière enflammée ou un pied plongeant d'incinération de <k>Morsure léonine</k> touche un ennemi, Dehya récupère 1,5 pt d'énergie élémentaire et se soigne d'une valeur équivalant à 2,5 % de ses PV max. Cet effet peut être déclenché une fois toutes les 0,2 s."
+          },
+          {
+            "level": 5,
+            "name": "Désinhibant alpha de liberté",
+            "desc": "Niveau d'aptitude <k>Enfer en fusion</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Brûlante griffe de clivage",
+            "desc": "Augmente le taux CRIT de <k>Morsure léonine</k> de 10 %.\nDe plus, toucher un ennemi et infliger un coup CRIT avec un poing de crinière enflammée pendant un état Lionne flamboyante permet d'augmenter les DGT CRIT de Morsure léonine de 15 % jusqu'à la fin de la durée de l'état Lionne flamboyante et de prolonger cette durée de 0,5 s. Cet effet peut être déclenché une fois toutes les 0,2 s. La durée peut être prolongée d'un maximum de 2 s et les DGT CRIT augmentés d'un maximum de 60 % de cette manière."
+          }
+        ]
+      }
+    }
   }
 }

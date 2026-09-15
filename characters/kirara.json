@@ -257,5 +257,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000061",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Boxcutter",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 3 rapid claw strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Meow-teor Kick",
+            "desc": "<k>Press</k>\nLeaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals <e:dendro>AoE Dendro DMG</e> while creating a Shield of Safe Transport. This will also briefly <e:dendro>apply Dendro</e> to Kirara. The shield will absorb <e:dendro>Dendro DMG</e> with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will reset.\n\n<k>Hold</k>\nOut of her desire to \"deliver within half a day,\" Kirara deploys a Shield of Safe Transport identical to the one that can be created by pressing the skill. She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.\n\n<k>Urgent Neko Parcel</k>\n· Deals <e:dendro>Dendro DMG</e> to opponents she crashes into. This effect can be triggered once on each opponent every 0.5s.\n· When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.\n· When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the Press Mode will be unleashed, dealing <e:dendro>AoE Dendro DMG</e>.\n· The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD will be.\n· Sprinting or actively canceling climbing will end this state early.\n\n<i>\"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!\"</i>"
+          },
+          "burst": {
+            "name": "Secret Art: Surprise Dispatch",
+            "desc": "Smash opponents with a Special Delivery Package used for punishing parcel thieves, dealing <e:dendro>AoE Dendro DMG</e>. After the Special Delivery Package explodes, it will split up into many <k>Cat Grass Cardamoms</k> that will explode either upon contact with opponents or after a period of time, dealing <e:dendro>AoE Dendro DMG</e>.\n\n<i>\"Hehe, that's right, this stuff was made to deal with those parcel thieves! Remember to leave a 5-star rating once you've received yours!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Bewitching, Betwitching Tails",
+            "desc": "When Kirara is in the Urgent Neko Parcel state of <k>Meow-teor Kick</k>, each impact against an opponent will grant her a stack of <k>Reinforced Packaging</k>. This effect can be triggered once for each opponent hit every 0.5s. Max 3 stacks. When the Urgent Neko Parcel state ends, each stack of Reinforced Packaging will create 1 Shield of Safe Transport for Kirara. The shields that are created this way will have 20% of the DMG absorption that the Shield of Safe Transport produced by <k>Meow-teor Kick</k> would have. If Kirara is already protected by a Shield of Safe Transport created by Meow-teor Kick, its DMG absorption will stack with these shields and its duration will reset."
+          },
+          {
+            "name": "Pupillary Variance",
+            "desc": "Every 1,000 Max HP Kirara possesses will increase the DMG dealt by <k>Meow-teor Kick</k> by 0.4%, and the DMG dealt by <k>Secret Art: Surprise Dispatch</k> by 0.3%."
+          },
+          {
+            "name": "Cat's Creeping Carriage",
+            "desc": "When Kirara is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Material Circulation",
+            "desc": "Every 8,000 Max HP Kirara possesses will cause her to create 1 extra <k>Cat Grass Cardamom</k> when she uses <k>Secret Art: Surprise Dispatch</k>. A maximum of 4 extra can be created this way."
+          },
+          {
+            "level": 2,
+            "name": "Perfectly Packaged",
+            "desc": "When Kirara is in the Urgent Neko Parcel state of <k>Meow-teor Kick</k>, she will grant other party members she crashes into Critical Transport Shields.\nThe DMG absorption of Critical Transport Shield is 40% of the maximum absorption <k>Meow-teor Kick</k>'s normal Shields of Safe Transport are capable of, and will absorb <e:dendro>Dendro DMG</e> with 250% effectiveness.\nCritical Transport Shields last 12s and can be triggered once on each character every 10s."
+          },
+          {
+            "level": 3,
+            "name": "Universal Recognition",
+            "desc": "Increases the Level of <k>Meow-teor Kick</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Steed of Skanda",
+            "desc": "After active character(s) protected by <k>Shields of Safe Transport</k> or <k>Critical Transport Shields</k> hit opponents with Normal, Charged, or Plunging Attacks, Kirara will perform a coordinated attack with them using <k>Small Cat Grass Cardamoms</k>, dealing 200% of her ATK as <e:dendro>Dendro DMG</e>. DMG dealt this way is considered Elemental Burst DMG. This effect can be triggered once every 3.8s. This CD is shared between all party members."
+          },
+          {
+            "level": 5,
+            "name": "A Thousand Miles in a Day",
+            "desc": "Increases the Level of <k>Secret Art: Surprise Dispatch</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Countless Sights to See",
+            "desc": "All nearby party members gain a 12% All Elemental DMG Bonus for 15s after Kirara uses her Elemental Skill or Burst."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Ouvre-colis",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 attaques.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher trois coups de griffes rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Coup de patte miaou-téorite",
+            "desc": "<k>Appui simple</k>\nSaute dans les airs avec l'agilité d'un chat passant à travers des buissons et frappe l'ennemi avec un coup de pied volant qui inflige des <e:dendro>DGT Dendro de zone</e> tout en déployant un bouclier de transport sécurisé et en accordant à Kirara une brève <e:dendro>application Dendro</e>. Le bouclier absorbe les <e:dendro>DGT Dendro</e> 250 % plus efficacement, et son absorption de DGT est basée sur les PV max de Kirara, mais ne dépassera pas un certain pourcentage de ses PV max. L'absorption de DGT restante d'un bouclier de transport sécurisé se cumulera si un autre bouclier de transport sécurisé est obtenu en même temps, tandis que sa durée sera réinitialisée.\n\n<k>Appui long</k>\nPoussée par son envie de « finir sa livraison en une demi-journée », Kirara déploie un bouclier de transport sécurisé identique à celui créé lors d'un appui simple et se recroqueville dans un colis express spécial avant d'entrer dans l'état Neko-colis urgent afin de se déplacer et de combattre plus rapidement.\n\n<k>Neko-colis urgent</k>\n· Inflige des <e:dendro>DGT Dendro</e> aux ennemis percutés, cet effet pouvant être déclenché sur un même ennemi une fois toutes les 0,5 s.\n· Dans cet état, la VIT de déplacement, la VIT d'escalade et la capacité de saut de Kirara augmentent, mais sa consommation d'endurance lors de l'escalade augmente également.\n· Lorsque la durée prend fin ou la capacité est utilisée une nouvelle fois, un coup de rectigriffes plus puissant que lors d'un appui simple est déclenché, infligeant des <e:dendro>DGT Dendro de zone</e>.\n· L'état Neko-colis urgent a une durée maximum de 10 s. Lorsque l'état prend fin, la capacité entre en TdR. Plus Kirara passe de temps dans cet état, plus le TdR est long.\n· Le sprint ou l'annulation volontaire de l'escalade mettra fin à l'état Neko-colis urgent plus tôt.\n\n<i>« Hmm, vous voulez connaître le secret pour une livraison rapide ? Eh bien, tout est dans les jambes ! »</i>"
+          },
+          "burst": {
+            "name": "Art secret : Livraison surprise",
+            "desc": "Envoie un colis spécial en livraison recommandée aux brigands qui doivent être punis, infligeant des <e:dendro>DGT Dendro de zone</e>. Lorsque le colis spécial explose, il se divise en plusieurs <k>noix de cataire</k> qui explosent au contact d'un ennemi ou après un certain temps pour infliger des <e:dendro>DGT Dendro de zone</e>.\n\n<i>« Héhé. C'est fait tout spécialement pour faire face aux voleurs de colis ! Et n'oubliez pas de laisser une note de 5 étoiles ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Queues de mistigri",
+            "desc": "Lorsque Kirara est dans l'état Neko-colis urgent de <k>Coup de patte miaou-téorite</k>, elle obtient 1 cumul d'<k>emballage renforcé</k> chaque fois qu'elle percute un ennemi. Cet effet peut être déclenché sur un même ennemi une fois toutes les 0,5 s et cumulé 3 fois maximum. Lorsque l'état Neko-colis urgent prend fin, chaque cumul d'emballage renforcé accorde un bouclier de transport sécurisé à Kirara, dont l'absorption de DGT équivaut à 20 % de celle d'un bouclier de transport sécurisé créé par <k>Coup de patte miaou-téorite</k>. Si Kirara est déjà protégée par un bouclier de transport sécurisé créé par Coup de patte miaou-téorite, l'absorption de DGT se cumule avec ces boucliers et la durée est réinitialisée."
+          },
+          {
+            "name": "Écart pupillaire",
+            "desc": "Chaque tranche de 1 000 PV max que Kirara possède augmente les DGT infligés par <k>Coup de patte miaou-téorite</k> de 0,4 % et ceux infligés par <k>Art secret : Livraison surprise</k> de 0,3 %."
+          },
+          {
+            "name": "Foulée féline",
+            "desc": "Quand Kirara fait partie de l'équipe, vos personnages dans l'équipe n'effraient pas certains petits animaux en s'approchant, et peuvent ainsi obtenir de la volaille, de la viande crue et de la viande congelée."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Circulation d'objets",
+            "desc": "Lorsque Kirara utilise <k>Art secret : Livraison surprise</k>, chaque tranche de 8 000 PV max qu'elle possède lui permet de créer 1 <k>noix de cataire</k> supplémentaire. Un maximum de 4 noix de cataire supplémentaires peut être créé de cette manière."
+          },
+          {
+            "level": 2,
+            "name": "Emballage parfait",
+            "desc": "Lorsque Kirara est dans l'état Neko-colis urgent de <k>Coup de patte miaou-téorite</k>, elle accorde un bouclier de transport critique aux personnages de l'équipe qu'elle percute.\nLes boucliers de transport critique possèdent une absorption de DGT équivalant à 40 % de l'absorption maximum d'un bouclier de transport sécurisé de <k>Coup de patte miaou-téorite</k> et absorbent les <e:dendro>DGT Dendro</e> 250 % plus efficacement.\nLes boucliers de transport critique durent 12 s et peuvent être déclenchés sur un même personnage une fois toutes les 10 s."
+          },
+          {
+            "level": 3,
+            "name": "Connaissance des lieux",
+            "desc": "Niveau d'aptitude <k>Coup de patte miaou-téorite</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Étalon de Skanda",
+            "desc": "Lorsque l'attaque normale, chargée ou plongeante d'un personnage déployé avec un <k>bouclier de transport sécurisé</k> ou un <k>bouclier de transport critique</k> a touché un ennemi, Kirara utilise des <k>noisettes de cataire</k> pour déclencher une attaque coordonnée, infligeant des <e:dendro>DGT Dendro</e> d'une valeur équivalant à 200 % de son ATQ. Les DGT infligés de cette manière sont considérés comme des DGT de déchaînement élémentaire. Cet effet peut être déclenché une fois toutes les 3,8 s, tous les personnages de l'équipe partageant ce TdR."
+          },
+          {
+            "level": 5,
+            "name": "Mille lieues par jour",
+            "desc": "Niveau d'aptitude <k>Art secret : Livraison surprise</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Myriade de curiosités en chemin",
+            "desc": "Lorsque Kirara a utilisé une compétence ou un déchaînement élémentaires, tous les personnages de l'équipe à proximité bénéficient d'un bonus de DGT élémentaires de 12 % pendant 15 s."
+          }
+        ]
+      }
+    }
   }
 }

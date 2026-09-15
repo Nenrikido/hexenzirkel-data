@@ -55,5 +55,41 @@
       "eleMas": 40.0
     },
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14511",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This lamp illuminates the dreams that float up over a thousand nights, and in its emerald-green light flows a song of ancient days.",
+        "passive": {
+          "name": "A Thousand Nights' Dawnsong",
+          "refinements": {
+            "1": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by <r>32</r>. If not, increase the equipping character's DMG Bonus from their Elemental Type by <r>10%</r>. Each of the aforementioned effects can have up to 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by <r>40</r>. Multiple such effects from multiple such weapons can stack.",
+            "2": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by <r>40</r>. If not, increase the equipping character's DMG Bonus from their Elemental Type by <r>14%</r>. The aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by <r>42</r>. Multiple such effects from multiple such weapons can stack.",
+            "3": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by <r>48</r>. If not, increase the equipping character's DMG Bonus from their Elemental Type by <r>18%</r>. The aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by <r>44</r>. Multiple such effects from multiple such weapons can stack.",
+            "4": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by <r>56</r>. If not, increase the equipping character's DMG Bonus from their Elemental Type by <r>22%</r>. The aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by <r>46</r>. Multiple such effects from multiple such weapons can stack.",
+            "5": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by <r>64</r>. If not, increase the equipping character's DMG Bonus from their Elemental Type by <r>26%</r>. The aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by <r>48</r>. Multiple such effects from multiple such weapons can stack."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cette lampe illumine les rêves qui flottent sur mille nuits, et dans sa lumière vert émeraude s'écoule un chant des jours anciens.",
+        "passive": {
+          "name": "Chant d'aube d'un millier de nuits",
+          "refinements": {
+            "1": "Les autres personnages de l'équipe fournissent au personnage équipé de l'arme des bonus selon leur type élémentaire. En cas de type élémentaire identique à celui du personnage équipé de l'arme, la maîtrise élémentaire de ce dernier augmente de <r>32</r> pts. En cas de type élémentaire différent, le bonus de DGT élémentaires du type élémentaire du personnage équipé de l'arme augmente de <r>10 %</r>. Chacun des effets mentionnés ci-dessus peut être cumulé 3 fois maximum. De plus, la maîtrise élémentaire de tous les personnages de l'équipe à proximité autres que celui équipé de l'arme augmente de <r>40</r> pts. Plusieurs armes du même nom peuvent permettre à ce bonus de se cumuler.",
+            "2": "Les autres personnages de l'équipe fournissent au personnage équipé de l'arme des bonus selon leur type élémentaire. En cas de type élémentaire identique à celui du personnage équipé de l'arme, la maîtrise élémentaire de ce dernier augmente de <r>40</r> pts. En cas de type élémentaire différent, le bonus de DGT élémentaires du type élémentaire du personnage équipé de l'arme augmente de <r>14 %</r>. Chacun des effets mentionnés ci-dessus peut être cumulé 3 fois maximum. De plus, la maîtrise élémentaire de tous les personnages de l'équipe à proximité autres que celui équipé de l'arme augmente de <r>42</r> pts. Plusieurs armes du même nom peuvent permettre à ce bonus de se cumuler.",
+            "3": "Les autres personnages de l'équipe fournissent au personnage équipé de l'arme des bonus selon leur type élémentaire. En cas de type élémentaire identique à celui du personnage équipé de l'arme, la maîtrise élémentaire de ce dernier augmente de <r>48</r> pts. En cas de type élémentaire différent, le bonus de DGT élémentaires du type élémentaire du personnage équipé de l'arme augmente de <r>18 %</r>. Chacun des effets mentionnés ci-dessus peut être cumulé 3 fois maximum. De plus, la maîtrise élémentaire de tous les personnages de l'équipe à proximité autres que celui équipé de l'arme augmente de <r>44</r> pts. Plusieurs armes du même nom peuvent permettre à ce bonus de se cumuler.",
+            "4": "Les autres personnages de l'équipe fournissent au personnage équipé de l'arme des bonus selon leur type élémentaire. En cas de type élémentaire identique à celui du personnage équipé de l'arme, la maîtrise élémentaire de ce dernier augmente de <r>56</r> pts. En cas de type élémentaire différent, le bonus de DGT élémentaires du type élémentaire du personnage équipé de l'arme augmente de <r>22 %</r>. Chacun des effets mentionnés ci-dessus peut être cumulé 3 fois maximum. De plus, la maîtrise élémentaire de tous les personnages de l'équipe à proximité autres que celui équipé de l'arme augmente de <r>46</r> pts. Plusieurs armes du même nom peuvent permettre à ce bonus de se cumuler.",
+            "5": "Les autres personnages de l'équipe fournissent au personnage équipé de l'arme des bonus selon leur type élémentaire. En cas de type élémentaire identique à celui du personnage équipé de l'arme, la maîtrise élémentaire de ce dernier augmente de <r>64</r> pts. En cas de type élémentaire différent, le bonus de DGT élémentaires du type élémentaire du personnage équipé de l'arme augmente de <r>26 %</r>. Chacun des effets mentionnés ci-dessus peut être cumulé 3 fois maximum. De plus, la maîtrise élémentaire de tous les personnages de l'équipe à proximité autres que celui équipé de l'arme augmente de <r>48</r> pts. Plusieurs armes du même nom peuvent permettre à ce bonus de se cumuler."
+          }
+        }
+      }
+    }
   }
 }

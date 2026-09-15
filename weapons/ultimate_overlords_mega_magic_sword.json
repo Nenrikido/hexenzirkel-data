@@ -28,5 +28,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12426",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A magical sword that can only be wielded by the ultimate overlord who rules the seas. As it has been made with special water-resistant materials, it will not get ruined by water damage even after being immersed. Why, one might even call it invincible!",
+        "passive": {
+          "name": "Melussistance!",
+          "refinements": {
+            "1": "ATK increased by <r>12%</r>. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional <r>12%</r>.",
+            "2": "ATK increased by <r>15%</r>. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional <r>15%</r>.",
+            "3": "ATK increased by <r>18%</r>. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional <r>18%</r>.",
+            "4": "ATK increased by <r>21%</r>. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional <r>21%</r>.",
+            "5": "ATK increased by <r>24%</r>. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional <r>24%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée magique qui ne peut être maniée que par le suzerain ultime qui règne sur les mers. Comme elle a été fabriquée avec des matériaux spéciaux résistants à l'eau, elle ne sera pas trempée même si elle est immergée dans l'eau. On pourrait même dire qu'elle est invincible !",
+        "passive": {
+          "name": "Mélusaide !",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>12 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>12 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea.",
+            "2": "Augmente l'ATQ de <r>15 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>15 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea.",
+            "3": "Augmente l'ATQ de <r>18 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>18 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea.",
+            "4": "Augmente l'ATQ de <r>21 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>21 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea.",
+            "5": "Augmente l'ATQ de <r>24 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>24 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea."
+          }
+        }
+      }
+    }
   }
 }

@@ -250,5 +250,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000005-hydro",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Foreign Stream",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Aquacrest Saber",
+            "desc": "Unleashes a torrent that can cleanse the world.\n\n<k>Press</k>\nSends a Torrent Surge forward that will deal <e:hydro>Hydro DMG</e> to opponents it comes into contact with.\n\n<k>Hold</k>\nEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing <e:hydro>Hydro DMG</e> to opponents they hit.\nWhen the skill ends, it will send a Torrent Surge forward that will deal <e:hydro>Hydro DMG</e> to opponents it comes into contact with.\nSuffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.\n\n<k>Arkhe: Pneuma</k>\nAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned <e:hydro>Hydro DMG</e>.\n\n<i>You studied the ripples in the water with Paimon.</i>"
+          },
+          "burst": {
+            "name": "Rising Waters",
+            "desc": "Unleashes a slow-moving floating bubble that deals continuous <e:hydro>Hydro DMG</e> to nearby opponents.\n\n<i>You studied the ebb and flow of the tides with Paimon.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Spotless Waters",
+            "desc": "After the Dewdrop fired by the Hold Mode of the <k>Aquacrest Saber</k> hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most."
+          },
+          {
+            "name": "Clear Waters",
+            "desc": "If HP has been consumed via Suffusion while using the Hold Mode <k>Aquacrest Saber</k>, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000."
+          },
+          {
+            "name": "Foreign Aqualis",
+            "desc": "Draw new strength from journeys past. For every element you have resonated with, you gain additional <k>buffs</k>.\n\nAdditionally, when nearby party members' current HP increases or decreases by 5%, Traveler will receive 1 stack of Blade of Many Waters. You can gain 1 stack of Blade of Many Waters this way once every 4s, max 3 stacks. After obtaining 3 stacks of Blade of Many Waters, performing a Charged Attack will consume all stacks of Blade of Many Waters and transform into the special <k>Charged Attack: Tidebound</k>.\n\n<k>Charged Attack: Tidebound</k>\n· Each Charged Attack hit deals increased <e:hydro>Hydro DMG</e>. Increase in DMG is equal to 150% of Traveler's ATK,\n· When Traveler's HP is no less than 50%, 10% of Traveler's Max HP will be consumed to increase DMG inflicted by each Charged Attack hit by 100% of Traveler's ATK.\n· When Traveler's HP is lower than 50%, one instance of healing equal to 25% of Traveler's Max HP will be restored upon hitting an enemy.\n· <k>Charged Attack: Tidebound</k> can be triggered up to once every 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Swelling Lake",
+            "desc": "Picking up a Sourcewater Droplet will restore 2 Energy to the Traveler.\nYou must first unlock the Ascension Talent \"Spotless Waters.\""
+          },
+          {
+            "level": 2,
+            "name": "Trickling Purity",
+            "desc": "The Movement SPD of <k>Rising Waters</k>' bubble will be decreased by 30%, and its duration increased by 3s."
+          },
+          {
+            "level": 3,
+            "name": "Turbulent Ripples",
+            "desc": "Increases the Level of <k>Aquacrest Saber</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Pouring Descent",
+            "desc": "When using <k>Aquacrest Saber</k>, an Aquacrest Aegis that can absorb 10% of the Traveler's Max HP in DMG will be created and will absorb <e:hydro>Hydro DMG</e> with 250% effectiveness. It will persist until the Traveler finishes using the skill.\nOnce every 2s, after a Dewdrop hits an opponent, if the Traveler is being protected by Aquacrest Aegis, the DMG Absorption of the Aegis will be restored to 10% of the Traveler's Max HP. If the Traveler is not presently being protected by an Aegis, one will be redeployed."
+          },
+          {
+            "level": 5,
+            "name": "Churning Whirlpool",
+            "desc": "Increases the Level of <k>Rising Waters</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Tides of Justice",
+            "desc": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to a nearby party member with the lowest remaining HP percentage based on 6% of said member's Max HP."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Débordement étranger",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Sabre d'ondulation",
+            "desc": "Libère un torrent qui peut purifier le monde.\n\n<k>Appui simple</k>\nEnvoie un courant torrentiel vers l'avant, infligeant des <e:hydro>DGT Hydro</e> aux ennemis touchés.\n\n<k>Appui long</k>\nBascule en mode visée pour lancer de façon continue des gouttes de rosée dans la direction ciblée, infligeant des <e:hydro>DGT Hydro</e> aux ennemis touchés.\nLorsque le mode visée se termine, un courant torrentiel est envoyé vers l'avant, infligeant des <e:hydro>DGT Hydro</e> aux ennemis touchés.\nProfusion : lors de l'appui long, si les PV du voyageur sont supérieurs à 50 %, les DGT de ses gouttes de rosée augmentent en fonction de ses PV max et il perd une quantité fixe de PV à chaque seconde.\n\n<k>Arkhe : Pneuma</k>\nRégulièrement, après avoir envoyé un courant torrentiel, une épine d'inhalation qui transperce les ennemis est libérée pour infliger des <e:hydro>DGT Hydro</e> chargés d'énergie pneuma.\n\n<i>Paimon et vous avez étudié les ondulations qui parcourent l'eau.</i>"
+          },
+          "burst": {
+            "name": "Montée des eaux",
+            "desc": "Libère une bulle flottante lente qui inflige de façon continue des <e:hydro>DGT Hydro</e> aux ennemis proches.\n\n<i>Paimon et vous avez étudié les fluctuations qui rythment les marées...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Eau pure",
+            "desc": "Lorsqu'une goutte de rosée lancée en maintenant <k>Sabre d'ondulation</k> a touché un ennemi, une goutte d'eau de source apparaît à proximité du voyageur. En la ramassant, ce dernier récupère 7 % de PV.\nUne goutte d'eau de source peut être créée de cette manière une fois toutes les secondes, et chaque utilisation de Sabre d'ondulation permet de créer un maximum de 4 gouttes d'eau de source."
+          },
+          {
+            "name": "Eau claire",
+            "desc": "Si des PV ont été consommés lors d'une profusion en maintenant <k>Sabre d'ondulation</k>, les DGT du courant torrentiel à la fin augmentent d'une valeur équivalant à 45 % de PV consommés par le voyageur lors de la profusion en question.\nLes DGT peuvent être augmentés d'un maximum de 5 000 pts de cette manière."
+          },
+          {
+            "name": "Cristalline d'ailleurs",
+            "desc": "Permet au voyageur de puiser une force nouvelle dans ses périples passés, lui accordant un <k>effet de renforcement</k> supplémentaire pour chaque élément avec lequel il est entré en résonance.\n\nDe plus, lorsque les PV d'un personnage de l'équipe à proximité augmentent ou diminuent de 5 %, le voyageur obtient 1 lame d'eau multiple, une lame pouvant être obtenue une fois toutes les 4 s de cette manière jusqu'à un maximum de 3 lames. Avec 3 lames d'eau multiple, effectuer une attaque chargée consomme toutes les lames pour déclencher une <k>attaque chargée « Marée »</k> spéciale.\n\n<k>Attaque chargée « Marée »</k>\n· Chaque coup de l'attaque chargée inflige des <e:hydro>DGT Hydro</e> qui sont augmentés d'une valeur équivalant à 150 % de l'ATQ du voyageur.\n· Lorsque les PV du voyageur sont supérieurs ou égaux à 50 %, des PV d'une valeur équivalant à 10 % des PV max sont consommés pour augmenter davantage chaque coup de l'attaque chargée d'une valeur équivalant à 100 % de l'ATQ du voyageur.\n· Lorsque les PV du voyageur sont inférieurs à 50 %, toucher un ennemi restaure une fois les PV du voyageur pour une valeur équivalant à 25 % de ses PV max.\n· Une <k>attaque chargée « Marée »</k> peut être déclenchée une fois toutes les 15 s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Eau ondulante de lac",
+            "desc": "Ramasser une goutte d'eau de source restaure 2 pts d'énergie élémentaire au voyageur.\nL'aptitude d'élévation « Eau pure » doit être déjà débloquée."
+          },
+          {
+            "level": 2,
+            "name": "Eau ruisselante de pureté",
+            "desc": "Diminue la VIT de déplacement des bulles flottantes de <k>Montée des eaux</k> de 30 % et augmente leur durée de 3 s."
+          },
+          {
+            "level": 3,
+            "name": "Eau turbulente d'ondulation",
+            "desc": "Niveau d'aptitude <k>Sabre d'ondulation</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Eau tombante d'averse",
+            "desc": "Lors de l'utilisation de <k>Sabre d'ondulation</k>, le voyageur obtient un bouclier d'ondulations qui absorbe une quantité de DGT équivalant à 10 % de ses PV max. Le bouclier est efficace à 250 % contre les <e:hydro>DGT Hydro</e> et dure jusqu'à la fin de la capacité.\nUne fois toutes les 2 s, lorsqu'une goutte de rosée a touché un ennemi, si le voyageur est protégé par un bouclier d'ondulations, l'absorption du bouclier est restaurée à 10 % des PV max du voyageur ; si le voyageur n'est pas protégé par un bouclier d'ondulations, un tel bouclier est généré."
+          },
+          {
+            "level": 5,
+            "name": "Eau tournoyante de vortex",
+            "desc": "Niveau d'aptitude <k>Montée des eaux</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Eau montante de justice",
+            "desc": "Lorsque le voyageur récupère une goutte d'eau de source, il restaure 6 % de PV max au personnage de l'équipe à proximité ayant le pourcentage de PV le plus bas."
+          }
+        ]
+      }
+    }
   }
 }

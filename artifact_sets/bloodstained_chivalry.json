@@ -18,5 +18,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15008",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Bloodstained Chivalry",
+        "bonuses": {
+          "2": "Physical DMG +25%",
+          "4": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+        }
+      },
+      "fr": {
+        "name": "Chevalerie ensanglantée",
+        "bonuses": {
+          "2": "Augmente les DGT physiques de 25 %.",
+          "4": "L'utilisation d'attaques chargées ne consomme pas l'endurance pendant 10 s après la défaite d'un ennemi, et ces dernières infligent 50 % de DGT supplémentaires."
+        }
+      }
+    }
   }
 }

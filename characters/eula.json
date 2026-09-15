@@ -470,5 +470,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000051",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Favonius Bladework - Edel",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Icetide Vortex",
+            "desc": "Sharp frost, swift blade.\n\n<k>Press</k>\nSlashes swiftly, dealing <e:cryo>Cryo DMG</e>.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\n<k>Grimheart</k>\nIncreases Eula's resistance to interruption and DEF.\n\n<k>Hold</k>\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <e:cryo>AoE Cryo DMG</e> to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <e:cryo>Cryo RES</e> decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <e:cryo>Cryo DMG</e> to nearby opponents.\n\n<i>\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"</i>"
+          },
+          "burst": {
+            "name": "Glacial Illumination",
+            "desc": "Brandishes her greatsword, dealing <e:cryo>Cryo DMG</e> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Roiling Rime",
+            "desc": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of <k>Icetide Vortex</k>, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by <k>Glacial Illumination</k>."
+          },
+          {
+            "name": "Wellspring of War-Lust",
+            "desc": "When <k>Glacial Illumination</k> is cast, the CD of <k>Icetide Vortex</k> is reset and Eula gains 1 stack of Grimheart."
+          },
+          {
+            "name": "Aristocratic Introspection",
+            "desc": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Tidal Illusion",
+            "desc": "Every time <k>Icetide Vortex</k>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s."
+          },
+          {
+            "level": 2,
+            "name": "Lady of Seafoam",
+            "desc": "Decreases the CD of <k>Icetide Vortex</k>'s Holding Mode, rendering it identical to Press CD."
+          },
+          {
+            "level": 3,
+            "name": "Lawrence Pedigree",
+            "desc": "Increases the Level of <k>Glacial Illumination</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "The Obstinacy of One's Inferiors",
+            "desc": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP."
+          },
+          {
+            "level": 5,
+            "name": "Chivalric Quality",
+            "desc": "Increases the Level of <k>Icetide Vortex</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Noble Obligation",
+            "desc": "Lightfall Swords created by <k>Glacial Illumination</k> start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Escrime de Favonius : Aristocratie",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'entailles aussi rapides que tranchantes.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Vortex des mers glacées",
+            "desc": "Givre coupant et lame dansante.\n\n<k>Appui simple</k>\nEula exécute une frappe rapide qui inflige des <e:cryo>DGT Cryo</e>.\nSi elle touche un ennemi, Eula obtient 1 cumul de cœur de glace (jusqu'à 2 cumuls maximum). Eula peut obtenir un cumul une fois toutes les 0,3 s.\n\n<k>Cœur de glace</k>\nAméliore la RÉS à l'interruption et la DÉF d'Eula.\n\n<k>Appui long</k>\nEula consomme toutes les cumuls de cœur de glace pour faire tournoyer son épée devant elle et infliger des <e:cryo>DGT Cryo de zone</e> aux ennemis en face.\nSi des cumuls de cœur de glace sont consommés, la RÉS physique et la <e:cryo>RÉS Cryo</e> des ennemis à proximité diminuent.\nChaque cumul de cœur de glace est converti en épée vortex de glace, qui inflige des <e:cryo>DGT Cryo</e> aux ennemis proches.\n\n<i>Ainsi roula l'écume des vagues, engloutissant dans son sillage la couronne de la royauté. Et chaque embrun de cette marée glaciale étincela de sa lumineuse clarté.</i>"
+          },
+          "burst": {
+            "name": "Lame de fond",
+            "desc": "Eula brandit son épée avec fureur, infligeant des <e:cryo>DGT Cryo</e> aux ennemis proches, et crée une épée de lumière qui la suit pendant 7 s maximum.\nTant qu'elle est active, l'épée de lumière augmente la RÉS à l'interruption d'Eula. Lorsque Eula inflige des DGT à des ennemis avec son attaque normale, sa compétence ou son déchaînement élémentaires, elle obtient des cumuls d'énergie pour l'épée de lumière. Un cumul d'énergie peut être obtenu toutes les 0,1 s.\nLorsque la durée de l'épée de lumière est écoulée, elle explose violemment, infligeant des DGT physiques aux ennemis proches.\nCes DGT augmentent en fonction du nombre de cumuls d'énergie obtenus.\nL'épée explose immédiatement lorsque Eula quitte le champ de bataille.\n\n<i>Le naufrage est facile. Et pourtant, Eula insiste pour figer cette marée.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Maelström de glace",
+            "desc": "Lorsque vous consommez 2 cumuls de cœur de glace lors de l'appui long de <k>Vortex des mers glacées</k>, une brève épée de lumière est créée. Cette dernière explose immédiatement, infligeant des DGT physiques équivalant à 50 % des DGT de base de <k>Lame de fond</k>."
+          },
+          {
+            "name": "Esprit belligérant",
+            "desc": "Le TdR de <k>Vortex des mers glacées</k> est réinitialisé lors de l'utilisation de <k>Lame de fond</k>, et Eula obtient 1 cumul de cœur de glace."
+          },
+          {
+            "name": "Gratification aristocratique",
+            "desc": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'aptitude de personnage."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Illusion des marées",
+            "desc": "À chaque fois qu'un cumul de cœur de glace de <k>Vortex des mers glacées</k> est consommé, Eula gagne un bonus de DGT physiques de 30 % pendant 6 s.\nChaque cumul de cœur de glace consommé prolonge la durée de l'effet de 6 s, jusqu'à un maximum de 18 s."
+          },
+          {
+            "level": 2,
+            "name": "Fille d'écume de mer",
+            "desc": "Diminue le TdR de l'appui long de <k>Vortex des mers glacées</k> pour correspondre à celui de l'appui simple."
+          },
+          {
+            "level": 3,
+            "name": "Le sang des Lawrence",
+            "desc": "Niveau d'aptitude <k>Lame de fond</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Émergence de la plèbe",
+            "desc": "Augmente de 25 % les DGT infligés par l'épée de lumière aux ennemis dont les PV sont inférieurs à 50 %."
+          },
+          {
+            "level": 5,
+            "name": "Honneur de la chevalerie",
+            "desc": "Niveau d'aptitude <k>Vortex des mers glacées</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Obligations aristocratiques",
+            "desc": "Confère immédiatement 5 cumuls d'énergie à l'épée de lumière créée par <k>Lame de fond</k>. De plus, lorsque vous utilisez des attaques normales, la compétence ou le déchaînement élémentaires pour obtenir des cumuls, vous avez 50 % de chances d'obtenir un cumul supplémentaire."
+          }
+        ]
+      }
+    }
   }
 }

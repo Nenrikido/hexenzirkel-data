@@ -19,5 +19,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10006",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Martial Artist",
+        "bonuses": {
+          "2": "Normal and Charged Attack DMG +15%",
+          "4": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+        }
+      },
+      "fr": {
+        "name": "Artiste martial",
+        "bonuses": {
+          "2": "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
+          "4": "Augmente les DGT infligés par les attaques normales et chargées de 25 % pendant 8 s après l'utilisation d'une compétence élémentaire."
+        }
+      }
+    }
   }
 }

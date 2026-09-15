@@ -34,5 +34,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11502",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.",
+        "passive": {
+          "name": "Sky-Piercing Fang",
+          "refinements": {
+            "1": "CRIT Rate increased by <r>4%</r>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <v>10%</v>, increases ATK SPD by <v>10%</v>, and Normal and Charged hits deal additional DMG equal to <r>20%</r> of ATK. Skypiercing Might lasts for 12s.",
+            "2": "CRIT Rate increased by <r>5%</r>, Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <v>10%</v>, increases ATK SPD by <v>10%</v>, and Normal and Charged hits deal additional DMG equal to <r>25%</r> of ATK. Skypiercing Might lasts for 12s.",
+            "3": "CRIT Rate increased by <r>6%</r>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <v>10%</v>, increases ATK SPD by <v>10%</v>, and Normal and Charged hits deal additional DMG equal to <r>30%</r> of ATK. Skypiercing Might lasts for 12s.",
+            "4": "CRIT Rate increased by <r>7%</r>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <v>10%</v>, increases ATK SPD by <v>10%</v>, and Normal and Charged hits deal additional DMG equal to <r>35%</r> of ATK. Skypiercing Might lasts for 12s.",
+            "5": "CRIT Rate increased by <r>8%</r>. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by <v>10%</v>, increases ATK SPD by <v>10%</v>, and Normal and Charged hits deal additional DMG equal to <r>40%</r> of ATK. Skypiercing Might lasts for 12s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée de chevalier symbolisant l'honneur retrouvé de Dvalin. La bénédiction de l'Archon du Vent est inscrite sur le dos de la lame, lui conférant la puissance du ciel et du vent.",
+        "passive": {
+          "name": "Croc du Perceur de ciel",
+          "refinements": {
+            "1": "Augmente le taux CRIT de <r>4 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>20 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent.",
+            "2": "Augmente le taux CRIT de <r>5 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>25 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent.",
+            "3": "Augmente le taux CRIT de <r>6 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>30 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent.",
+            "4": "Augmente le taux CRIT de <r>7 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>35 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent.",
+            "5": "Augmente le taux CRIT de <r>8 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>40 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent."
+          }
+        }
+      }
+    }
   }
 }

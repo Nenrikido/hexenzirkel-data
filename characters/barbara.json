@@ -161,5 +161,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000014",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Whisper of Water",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 water splash attacks that deal <e:hydro>Hydro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to deal <e:hydro>AoE Hydro DMG</e> after a short casting time.\n\n<k>Plunging Attack</k>\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:hydro>AoE Hydro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Let the Show Begin♪",
+            "desc": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <e:hydro>Hydro DMG</e> to surrounding opponents and applying the <e:hydro>Wet</e> status to them.\n\n<k>Melody Loop</k>\n· On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\n· On hit, Barbara's Charged Attack generates 4 times the amount of healing.\n· Periodically regenerates your own active character's HP.\n· Applies the <e:hydro>Wet</e> status to the character and to opponents who come in contact with them.\n\n<i>Barbara's music is the magic that heals her companions.</i>"
+          },
+          "burst": {
+            "name": "Shining Miracle♪",
+            "desc": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\n\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Glorious Season",
+            "desc": "The Stamina Consumption of characters within <k>Let the Show Begin♪</k>'s Melody Loop is reduced by 12%."
+          },
+          {
+            "name": "Encore",
+            "desc": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <k>Let the Show Begin♪</k> is extended by 1s.\nThe maximum extension is 5s."
+          },
+          {
+            "name": "With My Whole Heart♪",
+            "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Gleeful Songs",
+            "desc": "Barbara regenerates 1 Energy every 10s."
+          },
+          {
+            "level": 2,
+            "name": "Vitality Burst",
+            "desc": "Decreases the CD of <k>Let the Show Begin♪</k> by 15%.\nDuring the ability's duration, your active character gains a 15% <e:hydro>Hydro DMG Bonus</e>."
+          },
+          {
+            "level": 3,
+            "name": "Star of Tomorrow",
+            "desc": "Increases the Level of <k>Shining Miracle♪</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Attentiveness Be My Power",
+            "desc": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
+          },
+          {
+            "level": 5,
+            "name": "The Purest Companionship",
+            "desc": "Increases the Level of <k>Let the Show Begin♪</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Dedicating Everything to You",
+            "desc": "When Barbara is in the party but not on the field, and one of your own party members falls:\n· Automatically revives the fallen character.\n· Fully restores the revived character's HP to 100%.\nThis effect can only occur once every 15 mins."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Murmure de l'eau",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 attaques d'eau qui infligent des <e:hydro>DGT Hydro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:hydro>DGT Hydro de zone</e> après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Hydro, infligeant des DGT aux ennemis en chemin et des <e:hydro>DGT Hydro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "C'est parti pour le show ♪",
+            "desc": "Invoque des gouttelettes dansantes qui forment un cercle de mélodie infligeant des <e:hydro>DGT Hydro</e> et <e:hydro>trempant</e> les ennemis proches.\n\n<k>Cercle de mélodie</k>\n· Les attaques normales de Barbara restaurent les PV de vos personnages dans l'équipe ainsi que de tous les alliés proches lorsqu'elles touchent. La quantité de PV restaurés est proportionnelle aux PV max de Barbara.\n· L'effet des soins est multiplié par 4 avec les attaques chargées.\n· Régénère les PV de votre personnage déployé à intervalles réguliers.\n· Barbara <e:hydro>trempe</e> les personnages et les ennemis avec qui elle entre en contact.\n\n<i>La musique de Barbara est une magie capable de soigner chacun.</i>"
+          },
+          "burst": {
+            "name": "Miracle brillant ♪",
+            "desc": "Restaure considérablement les PV des alliés et de vos personnages dans l'équipe, la quantité de PV restaurés étant proportionnelle aux PV max de Barbara.\n\n<i>Soigner le cœur de chacun, telle est la force du chant de Barbara.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Splendide saison",
+            "desc": "Les personnages situés dans le cercle de mélodie de <k>C'est parti pour le show ♪</k> consomment 12 % d'endurance en moins."
+          },
+          {
+            "name": "Bis repetita",
+            "desc": "Chaque particule ou orbe élémentaires obtenus par votre personnage déployé prolongent le cercle de mélodie de <k>C'est parti pour le show ♪</k> de 1 s.\nDurée max : 5 s."
+          },
+          {
+            "name": "De tout mon cœur ♪",
+            "desc": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat de soins parfait."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Joyeuse ballade",
+            "desc": "Barbara récupère 1 pt d'énergie élémentaire toutes les 10 s."
+          },
+          {
+            "level": 2,
+            "name": "Éclat de vitalité",
+            "desc": "Diminue le TdR de <k>C'est parti pour le show ♪</k> de 15 %.\nConfère un <e:hydro>bonus de DGT Hydro de 15 %</e> au personnage déployé tant que la compétence est active."
+          },
+          {
+            "level": 3,
+            "name": "Étoile du lendemain",
+            "desc": "Niveau d'aptitude <k>Miracle brillant ♪</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "L'effort est la meilleure des magies",
+            "desc": "À chaque ennemi touché par une attaque chargée, Barbara récupère 1 pt d'énergie élémentaire.\n5 pts d'énergie maximum peuvent être régénérés après chaque attaque chargée."
+          },
+          {
+            "level": 5,
+            "name": "Lien innocent",
+            "desc": "Niveau d'aptitude <k>C'est parti pour le show ♪</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Toujours le meilleur pour vous",
+            "desc": "Si Barbara fait partie de l'équipe mais n'est pas déployée, et qu'un de vos personnages dans l'équipe est vaincu :\n· Barbara le réanime immédiatement.\n· Les PV de ce personnage sont restaurés à 100 %.\nCet effet peut être déclenché une fois toutes les 15 min."
+          }
+        ]
+      }
+    }
   }
 }

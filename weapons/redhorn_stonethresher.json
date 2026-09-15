@@ -16,5 +16,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12510",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs.",
+        "passive": {
+          "name": "Gokadaiou Otogibanashi",
+          "refinements": {
+            "1": "DEF is increased by <r>28%</r>. Normal and Charged Attack DMG is increased by <r>40%</r> of DEF.",
+            "2": "DEF is increased by <r>35%</r>. Normal and Charged Attack DMG is increased by <r>50%</r> of DEF.",
+            "3": "DEF is increased by <r>42%</r>. Normal and Charged Attack DMG is increased by <r>60%</r> of DEF.",
+            "4": "DEF is increased by <r>49%</r>. Normal and Charged Attack DMG is increased by <r>70%</r> of DEF.",
+            "5": "DEF is increased by <r>56%</r>. Normal and Charged Attack DMG is increased by <r>80%</r> of DEF."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "D'après son ancien propriétaire, cette arme serait le « puissant seigneur lion doré écraseur d'or et briseur de pierres en corne rouge » pouvant faire déguerpir n'importe quel monstre sur-le-champ...",
+        "passive": {
+          "name": "Gokadaiou du Roi Otogi",
+          "refinements": {
+            "1": "Augmente la DÉF de <r>28 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>40 %</r> de la DÉF.",
+            "2": "Augmente la DÉF de <r>35 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>50 %</r> de la DÉF.",
+            "3": "Augmente la DÉF de <r>42 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>60 %</r> de la DÉF.",
+            "4": "Augmente la DÉF de <r>49 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>70 %</r> de la DÉF.",
+            "5": "Augmente la DÉF de <r>56 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>80 %</r> de la DÉF."
+          }
+        }
+      }
+    }
   }
 }

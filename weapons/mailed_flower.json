@@ -32,5 +32,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12418",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A graceful and elegant greatsword that is decorated with flowers and ribbons.",
+        "passive": {
+          "name": "Whispers of Wind and Flower",
+          "refinements": {
+            "1": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <r>12%</r> and <r>48</r> respectively.",
+            "2": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <r>15%</r> and <r>60</r> respectively.",
+            "3": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <r>18%</r> and <r>72</r> respectively.",
+            "4": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <r>21%</r> and <r>84</r> respectively.",
+            "5": "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by <r>24%</r> and <r>96</r> respectively."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une grande épée gracieuse et élégante décorée de fleurs et de rubans.",
+        "passive": {
+          "name": "Murmure des vents et des fleurs",
+          "refinements": {
+            "1": "Toucher un ennemi avec une compétence élémentaire ou déclencher une réaction élémentaire augmente pendant 8 s l'ATQ de <r>12 %</r> et la maîtrise élémentaire de <r>48</r> pts.",
+            "2": "Toucher un ennemi avec une compétence élémentaire ou déclencher une réaction élémentaire augmente pendant 8 s l'ATQ de <r>15 %</r> et la maîtrise élémentaire de <r>60</r> pts.",
+            "3": "Toucher un ennemi avec une compétence élémentaire ou déclencher une réaction élémentaire augmente pendant 8 s l'ATQ de <r>18 %</r> et la maîtrise élémentaire de <r>72</r> pts.",
+            "4": "Toucher un ennemi avec une compétence élémentaire ou déclencher une réaction élémentaire augmente pendant 8 s l'ATQ de <r>21 %</r> et la maîtrise élémentaire de <r>84</r> pts.",
+            "5": "Toucher un ennemi avec une compétence élémentaire ou déclencher une réaction élémentaire augmente pendant 8 s l'ATQ de <r>24 %</r> et la maîtrise élémentaire de <r>96</r> pts."
+          }
+        }
+      }
+    }
   }
 }

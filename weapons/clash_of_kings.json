@@ -29,5 +29,41 @@
     "nanokaVersion": "6.7.54",
     "refinementModelled": "R5",
     "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14435",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A golden box lavishly inlaid with precious jewels. It houses a game much beloved by the kings of the sands.",
+        "passive": {
+          "name": "Without Heed for Day nor Night",
+          "refinements": {
+            "1": "Using an Elemental Skill grants the equipping character \"Laws of the Board,\" which increases their ATK by <r>20%</r> and their Elemental Mastery by <r>100</r>. This effect lasts 6s and can trigger once every 12s. Does not stack. The duration of this effect will also be extended by 6s if the equipping character hits an opponent with a Charged Attack while it is active. The effect can be extended for max 6s in this way.",
+            "2": "Using an Elemental Skill grants the equipping character \"Laws of the Board,\" which increases their ATK by <r>25%</r> and their Elemental Mastery by <r>125</r>. This effect lasts 6s and can trigger once every 12s. Does not stack. The duration of this effect will also be extended by 6s if the equipping character hits an opponent with a Charged Attack while it is active. The effect can be extended for max 6s in this way.",
+            "3": "Using an Elemental Skill grants the equipping character \"Laws of the Board,\" which increases their ATK by <r>30%</r> and their Elemental Mastery by <r>150</r>. This effect lasts 6s and can trigger once every 12s. Does not stack. The duration of this effect will also be extended by 6s if the equipping character hits an opponent with a Charged Attack while it is active. The effect can be extended for max 6s in this way.",
+            "4": "Using an Elemental Skill grants the equipping character \"Laws of the Board,\" which increases their ATK by <r>35%</r> and their Elemental Mastery by <r>175</r>. This effect lasts 6s and can trigger once every 12s. Does not stack. The duration of this effect will also be extended by 6s if the equipping character hits an opponent with a Charged Attack while it is active. The effect can be extended for max 6s in this way.",
+            "5": "Using an Elemental Skill grants the equipping character \"Laws of the Board,\" which increases their ATK by <r>40%</r> and their Elemental Mastery by <r>200</r>. This effect lasts 6s and can trigger once every 12s. Does not stack. The duration of this effect will also be extended by 6s if the equipping character hits an opponent with a Charged Attack while it is active. The effect can be extended for max 6s in this way."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un coffret doré richement incrusté de pierres précieuses. Il renferme un jeu fort prisé des rois des sables.",
+        "passive": {
+          "name": "Sans se soucier du jour ni de la nuit",
+          "refinements": {
+            "1": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>20 %</r> et la maîtrise élémentaire de <r>100</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière.",
+            "2": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>25 %</r> et la maîtrise élémentaire de <r>125</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière.",
+            "3": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>30 %</r> et la maîtrise élémentaire de <r>150</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière.",
+            "4": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>35 %</r> et la maîtrise élémentaire de <r>175</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière.",
+            "5": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>40 %</r> et la maîtrise élémentaire de <r>200</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière."
+          }
+        }
+      }
+    }
   }
 }

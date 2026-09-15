@@ -302,5 +302,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000119",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Peregrination of Linnunrata",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 attacks that deal <e:dendro>Dendro DMG</e>.\n\n<k>Charged Attack</k>\nLauma undergoes Spirit Envoy Metamorphosis, transforming into an envoy of the tranquil forest and consuming Stamina to charge forward for up to 10s. While in this state, Lauma's interruption resistance is increased, and she can consume additional Stamina to perform up to two consecutive jumps.\nWhen exiting the Spirit Envoy state, Spirit Envoy Metamorphosis will enter cooldown, during which time, Lauma's Charged Attack will be transformed into Spiritcall Prayer: Consumes a certain amount of Stamina to deal <e:dendro>AoE Dendro DMG</e> to opponents in front of her after a short casting time.\n\n<k>Plunging Attack</k>\nCalling upon the might of Dendro, Lauma plunges towards the ground from mid-air, damaging all opponents in her path and dealing <e:dendro>AoE Dendro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Runo: Dawnless Rest of Karsikko",
+            "desc": "Silently incants an ancient hymn, summoning a <k>Frostgrove Sanctuary</k> with different effects depending on whether you Tap or Hold.\n\n<k>Tap</k>\nIntone a Hymn of Hunting, dealing <e:dendro>AoE Dendro DMG</e>.\n\n<k>Hold</k>\nCan be unleashed when you have at least 1 <k>Verdant Dew</k>. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of <e:dendro>AoE Dendro DMG</e> and another instance of <e:dendro>AoE Dendro DMG</e> that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of <k>Moon Song</k>. Each time you Hold to cast an Elemental Skill, a maximum of 3 Verdant Dew can be consumed in this way.\n\nAdditionally, when Lauma's Elemental Skill or attacks from Frostgrove Sanctuary hit an opponent, that opponent's <e:dendro>Dendro RES</e> and <e:hydro>Hydro RES</e> will be decreased for 10s."
+          },
+          "burst": {
+            "name": "Runo: All Hearts Become the Beating Moon",
+            "desc": "Let the wishes of all beings become as moonlight that bathes the earth. Lauma incants a sacred song of the far north, gaining 18 stacks of <k>Pale Hymn</k>.\nAdditionally, if Lauma uses her Elemental Burst while she has <k>Moon Song</k>, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 stacks of Pale Hymn for every Moon Song stack consumed. This effect can only be triggered once for each Elemental Burst used, including the 15 seconds following its use.\n\n<k>Pale Hymn</k>\nWhen nearby party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.\nThe duration for each stack of Pale Hymn is counted independently."
+          }
+        },
+        "passives": [
+          {
+            "name": "Light for the Frosty Night",
+            "desc": "For the next 20s after Lauma uses her Elemental Skill <k>Runo: Dawnless Rest of Karsikko</k>, corresponding differing buff effects will be granted depending on the party's <k>Moonsign</k>. The buffs provided by different Moonsign levels cannot stack.\n\n<k>Moonsign: Nascent Gleam</k>\nBloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\n\n<k>Moonsign: Ascendant Gleam</k>\nAll nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%."
+          },
+          {
+            "name": "Cleansing for the Spring",
+            "desc": "Each point of Elemental Mastery Lauma has will give her the following bonuses:\n· DMG dealt by her Elemental Skill is increased by 0.04%. The maximum increase obtainable this way is 32%.\n· The cooldown of her Charged Attack <k>Spirit Envoy Metamorphosis</k> is reduced by 0.02%. The maximum reduction obtainable this way is 20%."
+          },
+          {
+            "name": "Moonsign Benediction: Nature's Chorus",
+            "desc": "When a Bloom reaction is triggered by a party member, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Lauma has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.\n\nAdditionally, when Lauma is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Prayers for the Forest",
+            "desc": "Displays the location of nearby <k>resources unique to Nod-Krai</k> on the mini-map.\nAdditionally, Lauma appears to have a special affinity with some small animals affected by kuuvahki..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"O Lips, Weave Me Songs and Psalms\"",
+            "desc": "After Lauma uses her Elemental Skill <k>Runo: Dawnless Rest of Karsikko</k> or her Elemental Burst <k>Runo: All Hearts Become the Beating Moon</k>, she will gain Threads of Life for 20s.\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s."
+          },
+          {
+            "level": 2,
+            "name": "\"Twine Warnings and Tales From the North\"",
+            "desc": "The Elemental Burst <k>Runo: All Hearts Become the Beating Moon</k> is enhanced:\n· <k>Pale Hymn</k> effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\n\n<k>Moonsign: Ascendant Gleam</k>: All nearby party members' Lunar-Bloom DMG is increased by 40%."
+          },
+          {
+            "level": 3,
+            "name": "\"Seek Not to Tread the Sly Fox's Path\"",
+            "desc": "Increases the Level of <k>Runo: All Hearts Become the Beating Moon</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Nor Yearn for the Great Bear's Might\"",
+            "desc": "When attacks from the <k>Frostgrove Sanctuary</k> summoned by her Elemental Skill <k>Runo: Dawnless Rest of Karsikko</k> hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s."
+          },
+          {
+            "level": 5,
+            "name": "\"If Truth May Be Subject to Witness\"",
+            "desc": "Increases the Level of <k>Runo: Dawnless Rest of Karsikko</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "\"I Offer Blood and Tears to the Moonlight\"",
+            "desc": "When the <k>Frostgrove Sanctuary</k> attacks opponents, it will deal 1 additional instance of <e:dendro>AoE Dendro DMG</e> equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any <k>Pale Hymn</k> stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill <k>Runo: Dawnless Rest of Karsikko</k>, all Pale Hymn stacks gained in this manner will be removed.\n\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal <e:dendro>Dendro DMG</e> equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\n\n<k>Moonsign: Ascendant Gleam</k>: All nearby party members' Lunar-Bloom DMG is <k>elevated</k> by 25%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Pérégrination de la linnunrata",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques qui infligent des <e:dendro>DGT Dendro</e>.\n\n<k>Attaque chargée</k>\nLauma subit une métamorphose d'envoyée spirituelle, se transformant en envoyée de la forêt paisible et pouvant charger en avant pendant un maximum de 10 s en consommant de l'endurance. Dans cet état, sa RÉS à l'interruption augmente et elle peut consommer de l'endurance supplémentaire pour effectuer jusqu'à deux sauts consécutifs.\nLorsque Lauma quitte cet état, sa métamorphose d'envoyée spirituelle entre en TdR, période pendant laquelle son attaque chargée est convertie en prière de nécromancesprit : consomme de l'endurance pour infliger des <e:dendro>DGT Dendro de zone</e> vers l'avant après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <e:dendro>DGT Dendro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Runo : Repos sans aube de karsikko",
+            "desc": "Lauma récite silencieusement un hymne ancien, invoquant un <k>sanctuaire du givrebois</k> : différents effets se produisent selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nLauma entonne un hymne de chasse, infligeant des <e:dendro>DGT Dendro de zone</e>.\n\n<k>Appui long</k>\nUtilisable si Lauma possède au moins 1 <k>rosée verdoyante</k> : Lauma consomme toutes ses rosées verdoyantes pour entonner un hymne de repos éternel infligeant une fois des <e:dendro>DGT Dendro de zone</e> et une fois des <e:dendro>DGT Dendro de zone</e> considérés comme des DGT de réaction de Sélénofleurissement. Chaque rosée verdoyante consommée accorde à Lauma 1 cumul de <k>chant lunaire</k>. Un maximum de 3 rosées verdoyantes peut être consommé de cette manière à chaque appui long de la compétence élémentaire.\n\nDe plus, lorsque Lauma touche un ennemi avec une compétence élémentaire ou une attaque de son sanctuaire du givrebois, la <e:dendro>RÉS Dendro</e> et la <e:hydro>RÉS Hydro</e> de ce dernier diminuent pendant 10 s."
+          },
+          "burst": {
+            "name": "Runo : Cœurs devenant la lune battante",
+            "desc": "Espérant que les souhaits de tous les êtres deviennent comme le clair de lune qui baigne la terre, Lauma entonne un chant sacré du grand nord, obtenant 18 cumuls d'<k>hymne pâle</k>.\nDe plus, lorsque Lauma utilise son déchaînement élémentaire alors qu'elle possède des cumuls de <k>chant lunaire</k> ou en obtient moins de 15 s après l'utilisation de son déchaînement élémentaire, elle consomme tous ses cumuls de chant lunaire et obtient 6 cumuls d'hymne pâle par cumul de chant lunaire consommé. Cet effet peut être déclenché une fois pendant les 15 s qui suivent l'utilisation d'un déchaînement élémentaire.\n\n<k>Hymne pâle</k>\nLorsqu'un personnage de l'équipe à proximité inflige des DGT avec une réaction de Fleurissement, d'Exubérance, de Bourgeonnement ou de Sélénofleurissement, un cumul d'hymne pâle est consommé pour augmenter les DGT infligés selon la maîtrise élémentaire de Lauma. Un nombre de cumuls égal au nombre d'ennemis touchés sera consommé si ces DGT touchent plusieurs ennemis en même temps.\nLa durée de chaque cumul d'hymne pâle est calculée de façon indépendante."
+          }
+        },
+        "passives": [
+          {
+            "name": "Lumière pour la nuit glaciale",
+            "desc": "Pendant 20 s après avoir utilisé la compétence élémentaire <k>Runo : Repos sans aube de karsikko</k> de Lauma, différents bonus sont accordés selon la <k>signelune</k> de l'équipe, les bonus de différents cycles signelunaires ne pouvant pas se cumuler.\n\n<k>Signelune « Lueur naissante »</k>\nLes DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement de tous les personnages de l'équipe à proximité peuvent déclencher des coups CRIT dont le taux CRIT est fixé à 15 % et les DGT CRIT à 100 %. Le taux CRIT accordé par cet effet peut se cumuler avec le taux CRIT des effets similaires qui permettent aux réactions élémentaires de déclencher des coups CRIT.\n\n<k>Signelune « Lueur ascendante »</k>\nLorsqu'un personnage de l'équipe à proximité inflige des DGT avec une réaction de Sélénofleurissement, le taux CRIT augmente de 10 % et les DGT CRIT de 20 %."
+          },
+          {
+            "name": "Purification pour la source",
+            "desc": "Chaque point de maîtrise élémentaire de Lauma lui accorde les bonus suivants :\n· Augmente les DGT infligés par sa compétence élémentaire de 0,04 %, les DGT pouvant être augmentés d'un maximum de 32 % de cette manière.\n· Diminue le TdR de la <k>métamorphose d'envoyée spirituelle</k> de son attaque chargée de 0,02 %, ce TdR pouvant être diminué d'un maximum de 20 % de cette manière."
+          },
+          {
+            "name": "Bénédiction de signelune : Chœur de la nature",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction de Fleurissement, elle est convertie en réaction de Sélénofleurissement, dont les DGT de base augmentent selon la maîtrise élémentaire de Lauma : chaque point de maîtrise élémentaire augmente les DGT de base de 0,0175 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <k>signelune</k> de l'équipe augmente d'un niveau lorsque Lauma fait partie de l'équipe."
+          },
+          {
+            "name": "Prière pour la forêt",
+            "desc": "Affiche l'emplacement des <k>produits de Nod-Krai</k> sur la mini-carte.\nDe plus, Lauma semble avoir une affinité particulière avec certains petits animaux affectés par le kuuvahki..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "« Ô lèvres, tissez des psaumes et chantez le folklore »",
+            "desc": "Lorsque Lauma a utilisé sa compétence élémentaire <k>Runo : Repos sans aube de karsikko</k> ou son déchaînement élémentaire <k>Runo : Cœurs devenant la lune battante</k>, elle obtient l'effet Trames de la vie pendant 20 s.\nPendant la durée de cet effet, les personnages déployés à proximité récupèrent des PV pour une valeur équivalant à 500 % de la maîtrise élémentaire de Lauma lorsqu'un membre de l'équipe à proximité déclenche une réaction de Sélénofleurissement, cet effet pouvant être déclenché une fois toutes les 1,9 s.\nDe plus, l'endurance consommée par la forme d'envoyée spirituelle de Lauma diminue de 40 % et sa durée max augmente de 5 s."
+          },
+          {
+            "level": 2,
+            "name": "« Tressez les avertissements et les contes du nord »",
+            "desc": "Le déchaînement élémentaire <k>Runo : Cœurs devenant la lune battante</k> est renforcé :\n· Les effets de l'<k>hymne pâle</k> s'améliorent, augmentant davantage les DGT infligés par les réactions de Fleurissement, d'Exubérance et de Bourgeonnement de tous les personnages de l'équipe à proximité d'une valeur équivalant à 500 % de la maîtrise élémentaire de Lauma et les DGT infligés par leurs réactions de Sélénofleurissement d'une valeur équivalant à 400 % de la maîtrise élémentaire de Lauma.\n\n<k>Signelune « Lueur ascendante »</k> : les DGT des réactions de Sélénofleurissement de tous les personnages de l'équipe à proximité augmentent de 40 %."
+          },
+          {
+            "level": 3,
+            "name": "« Il ne faut point chercher le chemin du renard rusé »",
+            "desc": "Niveau d'aptitude <k>Runo : Cœurs devenant la lune battante</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "« Ni aspirer à la puissance de l'ours distingué »",
+            "desc": "Lorsque le <k>sanctuaire du givrebois</k> de sa compétence élémentaire <k>Runo : Repos sans aube de karsikko</k> touche un ennemi, Lauma récupère 4 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 5 s."
+          },
+          {
+            "level": 5,
+            "name": "« Si la vérité se dévoile devant moi »",
+            "desc": "Niveau d'aptitude <k>Runo : Repos sans aube de karsikko</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "« À la lune, j'offre mon sang et mes émois »",
+            "desc": "Lorsque le <k>sanctuaire du givrebois</k> attaque un ennemi, elle inflige une fois supplémentaire des <e:dendro>DGT Dendro de zone</e> d'une valeur équivalant à 185 % de la maîtrise élémentaire de Lauma. Ces DGT sont considérés comme des DGT de réaction de Sélénofleurissement, ne consomment pas d'<k>hymne pâle</k> et accordent au contraire 2 cumuls d'hymne pâle à Lauma, tout en actualisant la durée de l'hymne pâle obtenu de cette manière.\nCet effet peut être déclenché un maximum de 8 fois pendant la durée d'un sanctuaire du givrebois et utiliser la compétence élémentaire <k>Runo : Repos sans aube de karsikko</k> supprime tous les cumuls d'hymne pâle obtenus de cette manière.\n\nDe plus, lorsque Lauma effectue une attaque normale alors qu'elle possède de l'hymne pâle, elle en consomme un cumul pour convertir les DGT en <e:dendro>DGT Dendro</e> d'une valeur équivalant à 150 % de sa maîtrise élémentaire, ces DGT étant considérés comme des DGT de réaction de Sélénofleurissement.\n\n<k>Signelune « Lueur ascendante »</k> : les DGT infligés par les réactions de Sélénofleurissement de tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 25 %."
+          }
+        ]
+      }
+    }
   }
 }

@@ -26,5 +26,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13424",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A polearm used by those seeking to catch fish in the tundra. It lets none escape.",
+        "passive": {
+          "name": "Tales of the Tundra",
+          "refinements": {
+            "1": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by <r>120.</r>",
+            "2": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by <r>150.</r>",
+            "3": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by <r>180.</r>",
+            "4": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by <r>210.</r>",
+            "5": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by <r>240.</r>"
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance utilisée par ceux qui cherchent à attraper du poisson dans la toundra. Elle ne laisse personne s'échapper.",
+        "passive": {
+          "name": "Contes de la toundra",
+          "refinements": {
+            "1": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>120</r> pts.",
+            "2": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>150</r> pts.",
+            "3": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>180</r> pts.",
+            "4": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>210</r> pts.",
+            "5": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>240</r> pts."
+          }
+        }
+      }
+    }
   }
 }

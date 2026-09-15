@@ -238,5 +238,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000005-geo",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Foreign Rockblade",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Starfell Sword",
+            "desc": "You disgorge a meteorite from the depths of the earth, dealing <e:geo>AoE Geo DMG</e>.\nThe meteorite is considered a <e:geo>Geo Construct</e>, and can be climbed or used to block attacks.\n\n<k>Hold</k>\nThis skill's positioning may be adjusted.\n\n<i>You spoke with Paimon about the final destination of falling stars.</i>"
+          },
+          "burst": {
+            "name": "Wake of Earth",
+            "desc": "Energizing the Geo deep underground, you set off expanding shockwaves.\nLaunches surrounding opponents back and deals <e:geo>AoE Geo DMG</e>.\nA stone wall is erected at the edges of the shockwave.\nThe stone wall is considered a <e:geo>Geo Construct</e>, and may be used to block attacks.\n\n<i>You and Paimon studied the pulse of the mountains.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Shattered Darkrock",
+            "desc": "Reduces <k>Starfell Sword</k>'s CD by 2s."
+          },
+          {
+            "name": "Frenzied Rockslide",
+            "desc": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <e:geo>AoE Geo DMG</e>."
+          },
+          {
+            "name": "Foreign Adamantine",
+            "desc": "Draw new strength from journeys past. For every element you have resonated with, you gain additional <k>buffs</k>.\n\nAdditionally, when nearby party members become protected by a shield, when the shield is replaced for any reason, or when <e:geo>Geo Constructs</e> are created, the Traveler will receive 1 stack of Blade of Archaic Petra, max 3 stacks. Up to 1 stack may be obtained every second in this way. After obtaining 3 stacks of Blade of Archaic Petra, performing a Charged Attack will consume all stacks of Blade of Archaic Petra and transform into the special <k>Charged Attack: Rockfell</k>.\n\n<k>Charged Attack: Rockfell</k>\n· Each Charged Attack hit deals increased <e:geo>Geo DMG</e>. Increase in DMG is equal to 120% of Traveler's ATK.\n· For 15s after hitting an opponent, nearby party members will have their shield strength temporarily increased by 20%.\n· <k>Charged Attack: Rockfell</k> can be triggered up to once every 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Invincible Stonewall",
+            "desc": "Party members within the radius of <k>Wake of Earth</k> have their CRIT Rate increased by 10% and have increased resistance against interruption."
+          },
+          {
+            "level": 2,
+            "name": "Rockcore Meltdown",
+            "desc": "When the meteorite created by <k>Starfell Sword</k> is destroyed, it will also explode, dealing additional <e:geo>AoE Geo DMG</e> equal to the amount of damage dealt by Starfell Sword."
+          },
+          {
+            "level": 3,
+            "name": "Will of the Rock",
+            "desc": "Increases the Level of <k>Wake of Earth</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Reaction Force",
+            "desc": "The shockwave triggered by <k>Wake of Earth</k> regenerates 5 Energy for every opponent hit.\nA maximum of 25 Energy can be regenerated in this manner at any one time."
+          },
+          {
+            "level": 5,
+            "name": "Meteorite Impact",
+            "desc": "Increases the Level of <k>Starfell Sword</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Everlasting Boulder",
+            "desc": "The barrier created by <k>Wake of Earth</k> lasts 5s longer.\nThe meteorite created by <k>Starfell Sword</k> lasts 10s longer."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lame de roche",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Épée d'étoile déchue",
+            "desc": "Vous faites jaillir des profondeurs de la terre une météorite qui explose et inflige des <e:geo>DGT Géo de zone</e>.\nLa météorite est une <e:geo>construction Géo</e> qui bloque les attaques et peut être escaladée.\n\n<k>Appui long</k>\nAjuste la zone où la compétence sera lancée.\n\n<i>Vous avez parlé avec Paimon de la destination finale des étoiles filantes.</i>"
+          },
+          "burst": {
+            "name": "Réveil de la terre",
+            "desc": "Réveille les éléments Géo qu'abritent les profondeurs de la terre, provoquant une vague d'ondes de choc.\nRepousse les ennemis proches et inflige des <e:geo>DGT Géo de zone</e>.\nUn mur de roche s'érige ensuite autour des ondes de choc.\nLe mur de roche est une <e:geo>construction Géo</e> qui bloque les attaques et peut être escaladé.\n\n<i>Paimon et vous avez étudié le pouls qui anime les montagnes...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Roche brisée",
+            "desc": "Diminue le TdR d'<k>Épée d'étoile déchue</k> de 2 s."
+          },
+          {
+            "name": "Roche turbulente",
+            "desc": "Le dernier coup d'attaque normale provoque un effondrement, qui inflige une quantité de <e:geo>DGT Géo</e> équivalant à 60 % de l'ATQ aux ennemis dans la zone."
+          },
+          {
+            "name": "Adamantin d'ailleurs",
+            "desc": "Permet au voyageur de puiser une force nouvelle dans ses périples passés, lui accordant un <k>effet de renforcement</k> supplémentaire pour chaque élément avec lequel il est entré en résonance.\n\nDe plus, lorsqu'un personnage de l'équipe à proximité commence à bénéficier de la protection d'un bouclier, qu'un de leurs boucliers est remplacé pour quelque raison que ce soit ou qu'une <e:geo>construction Géo</e> est générée, le voyageur obtient 1 lame de pierre archaïque, une lame pouvant être obtenue une fois toutes les secondes de cette manière jusqu'à 3 lames. Avec au moins 3 lames de pierre archaïque, effectuer une attaque chargée consomme toutes les lames pour déclencher une <k>attaque chargée « Éboulement »</k> spéciale.\n\n<k>Attaque chargée « Éboulement »</k>\n· Chaque coup de l'attaque chargée inflige des <e:geo>DGT Géo</e> qui sont augmentés d'une valeur équivalant à 120 % de l'ATQ du voyageur.\n· Après avoir touché un ennemi, les personnages de l'équipe à proximité voient la force du bouclier augmenter de 20 % pendant 15 s.\n· Une <k>attaque chargée « Éboulement »</k> peut être déclenchée une fois toutes les 15 s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Mur de roche incassable",
+            "desc": "Le taux CRIT des personnages de l'équipe se trouvant entourés par le mur de roche de <k>Réveil de la terre</k> augmente de 10 %, leur RÉS à l'interruption augmentant également."
+          },
+          {
+            "level": 2,
+            "name": "Effondrement de lave",
+            "desc": "La météorite d'<k>Épée d'étoile déchue</k> explose lorsqu'elle est détruite, et inflige un bonus de <e:geo>DGT Géo de zone</e> équivalant aux DGT d'Épée d'étoile déchue."
+          },
+          {
+            "level": 3,
+            "name": "Volonté de roche",
+            "desc": "Niveau d'aptitude <k>Réveil de la terre</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Force de réaction",
+            "desc": "Chaque onde de choc de <k>Réveil de la terre</k> restaure 5 pts d'énergie élémentaire à chaque ennemi touché.\nUn maximum de 25 pts d'énergie élémentaire peut être restauré de cette manière."
+          },
+          {
+            "level": 5,
+            "name": "Impact de météorite",
+            "desc": "Niveau d'aptitude <k>Épée d'étoile déchue</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Roche de l'éternité",
+            "desc": "Prolonge la durée du mur de roche de <k>Réveil de la terre</k> de 5 s.\nProlonge la durée de la météorite d'<k>Épée d'étoile déchue</k> de 10 s."
+          }
+        ]
+      }
+    }
   }
 }

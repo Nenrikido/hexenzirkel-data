@@ -17,5 +17,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10002",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Brave Heart",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "Increases DMG by 30% against opponents with more than 50% HP."
+        }
+      },
+      "fr": {
+        "name": "Cœur du Brave",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Augmente les DGT infligés aux ennemis dont les PV sont supérieurs à 50 % de 30 %."
+        }
+      }
+    }
   }
 }

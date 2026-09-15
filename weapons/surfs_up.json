@@ -62,5 +62,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14516",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A commemorative item originally reserved for the champion of the \"First All-Tribe Surfing Championship.\" Since said tournament is currently in the preparatory stage, the prize is in temporary storage at the Leisurely Puffer, with the shop owner as its custodian.",
+        "passive": {
+          "name": "Aqua Remembrance",
+          "refinements": {
+            "1": "Max HP increased by <r>20%</r>. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by <r>12%</r>. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks.",
+            "2": "Max HP increased by <r>25%</r>. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by <r>15%</r>. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks.",
+            "3": "Max HP increased by <r>30%</r>. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by <r>18%</r>. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks.",
+            "4": "Max HP increased by <r>35%</r>. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by <r>21%</r>. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks.",
+            "5": "Max HP increased by <r>40%</r>. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by <r>24%</r>. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un objet commémoratif réservé à l'origine au vainqueur du Premier championnat inter-tribus de surf. Étant donné que ce tournoi est actuellement en phase préparatoire, le prix est temporairement conservé à la Bouée oisive et protégé par la propriétaire de l'établissement.",
+        "passive": {
+          "name": "Souvenir aquacolore",
+          "refinements": {
+            "1": "Augmente les PV max de <r>20 %</r>. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de <r>12 %</r>. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum.",
+            "2": "Augmente les PV max de <r>25 %</r>. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de <r>15 %</r>. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum.",
+            "3": "Augmente les PV max de <r>30 %</r>. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de <r>18 %</r>. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum.",
+            "4": "Augmente les PV max de <r>35 %</r>. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de <r>21 %</r>. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum.",
+            "5": "Augmente les PV max de <r>40 %</r>. Toutes les 15 s, l'effet suivant se produit pendant 14 s après avoir utilisé une compétence élémentaire : accorde 4 cumuls d'été flamboyant, chaque cumul augmentant les DGT des attaques normales de <r>24 %</r>. Une fois toutes les 1,5 s pendant cette durée, toucher un ennemi avec une attaque normale consomme un cumul. Une fois toutes les 1,5 s, déclencher une réaction d'Évaporation sur un ennemi rajoute un cumul. L'effet Été flamboyant peut être cumulé 4 fois maximum."
+          }
+        }
+      }
+    }
   }
 }

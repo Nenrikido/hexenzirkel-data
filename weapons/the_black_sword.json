@@ -15,5 +15,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11409",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A pitch-black longsword that thirsts for violence and conflict. It is said that this weapon can cause its user to become drunk on the red wine of slaughter.",
+        "passive": {
+          "name": "Justice",
+          "refinements": {
+            "1": "Increases DMG dealt by Normal and Charged Attacks by <r>20%</r>. Additionally, regenerates <r>60%</r> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+            "2": "Increases DMG dealt by Normal and Charged Attacks by <r>25%</r>. Additionally, regenerates <r>70%</r> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+            "3": "Increases DMG dealt by Normal and Charged Attacks by <r>30%</r>. Additionally, regenerates <r>80%</r> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+            "4": "Increases DMG dealt by Normal and Charged Attacks by <r>35%</r>. Additionally, regenerates <r>90%</r> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
+            "5": "Increases DMG dealt by Normal and Charged Attacks by <r>40%</r>. Additionally, regenerates <r>100%</r> of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée qui a soif de violence et de conflit. Cette arme aurait le pouvoir d'exciter la soif de sang de son propriétaire.",
+        "passive": {
+          "name": "Justice",
+          "refinements": {
+            "1": "Augmente les DGT infligés par les attaques normales et chargées de <r>20 %</r> et restaure <r>60 %</r> de l'ATQ sous forme de PV en cas de coup CRIT. Cet effet peut être déclenché une fois toutes les 5 s.",
+            "2": "Augmente les DGT infligés par les attaques normales et chargées de <r>25 %</r> et restaure <r>70 %</r> de l'ATQ sous forme de PV en cas de coup CRIT. Cet effet peut être déclenché une fois toutes les 5 s.",
+            "3": "Augmente les DGT infligés par les attaques normales et chargées de <r>30 %</r> et restaure <r>80 %</r> de l'ATQ en PV en cas de coup CRIT. Cet effet peut être déclenché une fois toutes les 5 s.",
+            "4": "Augmente les DGT infligés par les attaques normales et chargées de <r>35 %</r> et restaure <r>90 %</r> de l'ATQ sous forme de PV en cas de coup CRIT. Cet effet peut être déclenché une fois toutes les 5 s.",
+            "5": "Augmente les DGT infligés par les attaques normales et chargées de <r>40 %</r> et restaure <r>100 %</r> de l'ATQ sous forme de PV en cas de coup CRIT. Cet effet peut être déclenché une fois toutes les 5 s."
+          }
+        }
+      }
+    }
   }
 }

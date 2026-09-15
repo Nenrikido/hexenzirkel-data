@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11403",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+        "passive": {
+          "name": "Composed",
+          "refinements": {
+            "1": "After damaging an opponent with an Elemental Skill, the skill has a <r>40%</r> chance to end its own CD. Can only occur once every <r>30</r>s.",
+            "2": "After damaging an opponent with an Elemental Skill, the skill has a <r>50%</r> chance to end its own CD. Can only occur once every <r>26</r>s.",
+            "3": "After damaging an opponent with an Elemental Skill, the skill has a <r>60%</r> chance to end its own CD. Can only occur once every <r>22s</r>.",
+            "4": "After damaging an opponent with an Elemental Skill, the skill has a <r>70%</r> chance to end its own CD. Can only occur once every <r>19</r>s.",
+            "5": "After damaging an opponent with an Elemental Skill, the skill has a <r>80%</r> chance to end its own CD. Can only occur once every <r>16s</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée ornementale qui a été pétrifiée par le temps, dont on peut encore distinguer les décorations. Avec elle, son manieur sera capable d'affronter l'épreuve du temps.",
+        "passive": {
+          "name": "Sang-froid",
+          "refinements": {
+            "1": "Les compétences élémentaires ont <r>40 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>30</r> s.",
+            "2": "Les compétences élémentaires ont <r>50 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>26</r> s.",
+            "3": "Les compétences élémentaires ont <r>60 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>22</r> s.",
+            "4": "Les compétences élémentaires ont <r>70 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>19</r> s.",
+            "5": "Les compétences élémentaires ont <r>80 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>16</r> s."
+          }
+        }
+      }
+    }
   }
 }

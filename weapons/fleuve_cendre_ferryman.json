@@ -14,5 +14,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11426",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
+        "passive": {
+          "name": "Ironbone",
+          "refinements": {
+            "1": "Increases Elemental Skill CRIT Rate by <r>8%</r>. Additionally, increases Energy Recharge by <r>16%</r> for 5s after using an Elemental Skill.",
+            "2": "Increases Elemental Skill CRIT Rate by <r>10%</r>. Additionally, increases Energy Recharge by <r>20%</r> for 5s after using an Elemental Skill.",
+            "3": "Increases Elemental Skill CRIT Rate by <r>12%</r>. Additionally, increases Energy Recharge by <r>24%</r> for 5s after using an Elemental Skill.",
+            "4": "Increases Elemental Skill CRIT Rate by <r>14%</r>. Additionally, increases Energy Recharge by <r>28%</r> for 5s after using an Elemental Skill.",
+            "5": "Increases Elemental Skill CRIT Rate by <r>16%</r>. Additionally, increases Energy Recharge by <r>32%</r> for 5s after using an Elemental Skill."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un long morceau de tuyau en cuivre qui servait autrefois d'arme, célèbre chez certains, malfamé chez d'autres.",
+        "passive": {
+          "name": "Os de fer",
+          "refinements": {
+            "1": "Le taux CRIT des compétences élémentaires augmente de <r>8 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>16 %</r> pendant 5 s.",
+            "2": "Le taux CRIT des compétences élémentaires augmente de <r>10 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>20 %</r> pendant 5 s.",
+            "3": "Le taux CRIT des compétences élémentaires augmente de <r>12 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>24 %</r> pendant 5 s.",
+            "4": "Le taux CRIT des compétences élémentaires augmente de <r>14 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>28 %</r> pendant 5 s.",
+            "5": "Le taux CRIT des compétences élémentaires augmente de <r>16 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>32 %</r> pendant 5 s."
+          }
+        }
+      }
+    }
   }
 }

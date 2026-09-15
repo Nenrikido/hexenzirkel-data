@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14201",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A carefully compiled notebook featuring the essentials needed to pass a magic exam."
+      },
+      "fr": {
+        "flavor": "Un petit carnet rempli de notes concernant un examen de magie."
+      }
+    }
   }
 }

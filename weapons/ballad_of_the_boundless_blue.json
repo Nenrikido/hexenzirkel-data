@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14426",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An anthology of exquisite poetry. It contains quite a few poems beloved by Mondstadters, concerning the skies, dandelions, and other such topics.",
+        "passive": {
+          "name": "Azure Skies",
+          "refinements": {
+            "1": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by <r>8%</r> and Charged Attack DMG will be increased by <r>6%</r>. Max 3 stacks. This effect can be triggered once every 0.3s.",
+            "2": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by <r>10%</r> and Charged Attack DMG will be increased by <r>7.5%</r>. Max 3 stacks. This effect can be triggered once every 0.3s.",
+            "3": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by <r>12%</r> and Charged Attack DMG will be increased by <r>9%</r>. Max 3 stacks. This effect can be triggered once every 0.3s.",
+            "4": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by <r>14%</r> and Charged Attack DMG will be increased by <r>10.5%</r>. Max 3 stacks. This effect can be triggered once every 0.3s.",
+            "5": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by <r>16%</r> and Charged Attack DMG will be increased by <r>12%</r>. Max 3 stacks. This effect can be triggered once every 0.3s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un recueil de poésie exquise. Il contient de nombreux articles sur le ciel, les pissenlits et d'autres sujets chers aux Mondstadtois.",
+        "passive": {
+          "name": "Cieux azuréens",
+          "refinements": {
+            "1": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>8 %</r> et ceux infligés par les attaques chargées de <r>6 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "2": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>10 %</r> et ceux infligés par les attaques chargées de <r>7,5 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "3": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>12 %</r> et ceux infligés par les attaques chargées de <r>9 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "4": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>14 %</r> et ceux infligés par les attaques chargées de <r>10,5 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "5": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>16 %</r> et ceux infligés par les attaques chargées de <r>12 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s."
+          }
+        }
+      }
+    }
   }
 }

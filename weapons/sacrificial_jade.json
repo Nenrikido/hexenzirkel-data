@@ -19,5 +19,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14424",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An ancient jade pendant that gleams like clear water. It seems to have been used in ancient ceremonies.",
+        "passive": {
+          "name": "Jade Circulation",
+          "refinements": {
+            "1": "When not on the field for more than 5s, Max HP will be increased by <r>32%</r> and Elemental Mastery will be increased by <r>40</r>. These effects will be canceled after the wielder has been on the field for 10s.",
+            "2": "When not on the field for more than 5s, Max HP will be increased by <r>40%</r> and Elemental Mastery will be increased by <r>50</r>. These effects will be canceled after the wielder has been on the field for 10s.",
+            "3": "When not on the field for more than 5s, Max HP will be increased by <r>48%</r> and Elemental Mastery will be increased by <r>60</r>. These effects will be canceled after the wielder has been on the field for 10s.",
+            "4": "When not on the field for more than 5s, Max HP will be increased by <r>56%</r> and Elemental Mastery will be increased by <r>70</r>. These effects will be canceled after the wielder has been on the field for 10s.",
+            "5": "When not on the field for more than 5s, Max HP will be increased by <r>64%</r> and Elemental Mastery will be increased by <r>80</r>. These effects will be canceled after the wielder has been on the field for 10s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un ancien pendentif en jade qui brille comme de l'eau claire. Il semble avoir été utilisé dans des cérémonies anciennes.",
+        "passive": {
+          "name": "Circulation du jade",
+          "refinements": {
+            "1": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>32 %</r> et la maîtrise élémentaire de <r>40</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain.",
+            "2": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>40 %</r> et la maîtrise élémentaire de <r>50</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain.",
+            "3": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>48 %</r> et la maîtrise élémentaire de <r>60</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain.",
+            "4": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>56 %</r> et la maîtrise élémentaire de <r>70</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain.",
+            "5": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>64 %</r> et la maîtrise élémentaire de <r>80</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain."
+          }
+        }
+      }
+    }
   }
 }

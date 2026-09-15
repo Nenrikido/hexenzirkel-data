@@ -25,5 +25,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12430",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Bold Burkina from the Scions of the Canopy once made this weapon with the hero Tenoch's help — all for the sake of obtaining Flamegranates unmatched throughout Natlan.",
+        "passive": {
+          "name": "The Weight of Falling Branches",
+          "refinements": {
+            "1": "Increase Plunging Attack CRIT Rate by <r>16%</r>; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by <r>16%</r> for 10s.",
+            "2": "Increase Plunging Attack CRIT Rate by <r>20%</r>; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by <r>20%</r> for 10s.",
+            "3": "Increase Plunging Attack CRIT Rate by <r>24%</r>; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by <r>24%</r> for 10s.",
+            "4": "Increase Plunging Attack CRIT Rate by <r>28%</r>; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by <r>28%</r> for 10s.",
+            "5": "Increase Plunging Attack CRIT Rate by <r>32%</r>; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by <r>32%</r> for 10s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Le courageux Burkina des Êtres des canopées a autrefois construit cette arme avec l'aide du héros Tenoch... Tout cela dans le but d'obtenir des flamboigrenades sans égal dans tout Natlan.",
+        "passive": {
+          "name": "Poids des branches tombantes",
+          "refinements": {
+            "1": "Augmente le taux CRIT des attaques plongeantes de <r>16 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>16 %</r> pendant 10 s.",
+            "2": "Augmente le taux CRIT des attaques plongeantes de <r>20 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>20 %</r> pendant 10 s.",
+            "3": "Augmente le taux CRIT des attaques plongeantes de <r>24 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>24 %</r> pendant 10 s.",
+            "4": "Augmente le taux CRIT des attaques plongeantes de <r>28 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>28 %</r> pendant 10 s.",
+            "5": "Augmente le taux CRIT des attaques plongeantes de <r>32 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>32 %</r> pendant 10 s."
+          }
+        }
+      }
+    }
   }
 }

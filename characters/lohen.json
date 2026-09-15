@@ -212,5 +212,147 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000129",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Spear of Favonius — Broken Oath",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to perform a forward thrust.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Unforeseen Strike",
+            "desc": "As he searches for weaknesses, Lohen switches to <k>Masterstroke</k> mode. While in this state:\n· Lohen can actively accumulate <k>Joy</k>, using it to unleash the special Elemental Skill <k>Etched Into Bone and Soul</k>.\n· Nearby party members can accumulate <k>Will to Win</k> for Lohen, increasing the DMG dealt by <k>Etched Into Bone and Soul</k>.\nLohen can unleash <k>Etched Into Bone and Soul</k> up to 3 times while in <k>Masterstroke</k> mode, after which, he will no longer be able to accumulate <k>Joy</k>.\n\n<i>\"Chivalry? Hah, what better way to bait the trap? When an enemy dreams of an honorable victory, they inevitably fail to suspect the 'pleasant surprise' that awaits them.\"</i>"
+          },
+          "burst": {
+            "name": "Manifest Judgment",
+            "desc": "Performs a swift series of forward strikes, consuming all <k>Will to Win</k> and dealing <e:cryo>Cryo DMG</e>. This DMG will be increased based on the amount of <k>Will to Win</k> consumed. If Lohen is in <k>Masterstroke</k> mode when this is performed, the duration of <k>Masterstroke</k> will be extended by 1.65s.\n\n<i>\"So quick to cave? What a pity, I was just starting to enjoy myself...\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Moratorium on Questioning",
+            "desc": "When nearby party members accumulate <k>Will to Win</k> for Lohen by dealing DMG while he is in <k>Masterstroke</k> mode, if that DMG is not less than 3,000% of Lohen's Base ATK, it will accumulate an extra 60 <k>Will to Win</k>."
+          },
+          {
+            "name": "Flippant Masterpiece",
+            "desc": "While in <k>Masterstroke</k> mode, for 8s after another nearby party member triggers a <e:cryo>Cryo Reaction</e>, that character's ATK is increased by 15%, while Lohen's ATK is increased by 15%."
+          },
+          {
+            "name": "When the Mood Strikes",
+            "desc": "Lohen gains \"High Spirits\" for 9s after he unleashes the Elemental Skill <k>Unforeseen Strike</k>: Increases the Skill Level of <k>Unforeseen Strike</k> by 1.\nWhen unleashing an Elemental Skill, if the Level of any other party member's Normal Attack, Elemental Skill, or Elemental Burst is not lower than Lohen's Elemental Skill Level, the duration of this instance of High Spirits will be increased by an additional 6s.\nHigh Spirits can be gained once every 18s."
+          },
+          {
+            "name": "Witch's Eve Rite: Unhealing Thorn",
+            "desc": "After completing <k>Witch's Homework: Of Various Foes</k>, Lohen becomes a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\n\n<k>Hexerei: Secret Rite</k>\nWhen the special Elemental Skill <k>Etched Into Bone and Soul</k> hits an opponent or the Elemental Burst <k>Manifest Judgment</k> is unleashed, if Lohen's <k>Will to Win</k> is at 50% or more of its max limit, his Normal Attack and Charged Attack DMG will be increased by 40% for 6s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "O Breezes, That So Oft Bear Sorrowful Lament",
+            "desc": "Lohen's maximum <k>Will to Win</k> limit is increased to 300% of its original value.\nAdditionally, when other nearby party members deal DMG while Lohen is in <k>Masterstroke</k> mode, they accumulate 500% as much <k>Will to Win</k> for him as they originally would have."
+          },
+          {
+            "level": 2,
+            "name": "In Flight, I Strike Whatever Flies",
+            "desc": "When in <k>Masterstroke</k> mode, after the special Elemental Skill <k>Etched Into Bone and Soul</k> hits an opponent or the Elemental Burst <k>Manifest Judgment</k> is unleashed, Lohen gains \"Evilsbane Blade\" for 4s: The next time Lohen hits an opponent with a Normal or Charged Attack while in Masterstroke mode, he will follow up with an additional strike that deals <e:cryo>AoE Cryo DMG</e> equal to 500% of his ATK, and increase the Elemental Mastery of other nearby party members by 200 for 8s. Evilsbane Blade can be triggered once every 4s."
+          },
+          {
+            "level": 3,
+            "name": "Only the Spear That Wounds Can Heal",
+            "desc": "Increases the Level of <k>Unforeseen Strike</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Radiant Love, Laughing Death",
+            "desc": "When Lohen unleashes the Elemental Burst <k>Manifest Judgment</k> while in <k>Masterstroke</k> mode, his <k>Will to Win</k> will be maxed out, causing this instance of his Elemental Burst to gain the maximum possible DMG increase.\n\nAdditionally, when Lohen switches to <k>Masterstroke</k> mode, the following will occur depending on how much Elemental Energy he has:\n· When Elemental Energy is not full: Lohen recovers 15 Elemental Energy.\n· When Elemental Energy is full: If, during the next 15s, Lohen unleashes the Elemental Burst <k>Manifest Judgment</k>, he will recover 15 Elemental Energy."
+          },
+          {
+            "level": 5,
+            "name": "Never Ask, Nor Trouble You to Know",
+            "desc": "Increases the Level of <k>Manifest Judgment</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "To Drown, to Sink, Unconscious — Supreme Joy",
+            "desc": "Using the special Elemental Skill <k>Etched Into Bone and Soul</k> and hitting an opponent with it or, while <k>Masterstroke</k> mode is active, unleashing the Elemental Burst <k>Manifest Judgment</k>, will not consume any <k>Will to Win</k>. Instead, Lohen's <k>Joy</k> will be maxed out, and if he hits an opponent the next time he uses the special Elemental Skill <k>Etched Into Bone and Soul</k>, the duration of this instance of <k>Masterstroke</k> will be extended by 1.25s. This effect can be triggered once every 7s.\nAdditionally, the CRIT DMG of all the DMG described above is increased by 175%, and the number of times Lohen can unleash <k>Etched Into Bone and Soul</k> during this instance of <k>Masterstroke</k> is increased by 2."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance de Favonius : Serment rompu",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 attaques.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher un coup vers l'avant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Frappe imprévue",
+            "desc": "Tandis qu'il traque les points faibles, Lohen entre dans l'état <k>Coup de maître</k>, état pendant lequel :\n· Lohen peut accumuler activement de la <k>joie</k> pour déclencher sa compétence élémentaire spéciale <k>Gravé dans les os et l'âme</k>.\n· Les autres personnages de l'équipe à proximité peuvent accumuler de la <k>détermination</k> pour Lohen afin d'augmenter les DGT de <k>Gravé dans les os et l'âme</k>.\nAprès avoir utilisé <k>Gravé dans les os et l'âme</k> un maximum de 3 fois pendant l'état <k>Coup de maître</k>, Lohen ne peut plus obtenir de <k>joie</k>.\n\n<i>« La chevalerie ? Ah ! Quel meilleur moyen de tendre un piège ? Quand un ennemi rêve d'une victoire honorable, il ne se doute jamais de la « bonne surprise » qui l'attend. »</i>"
+          },
+          "burst": {
+            "name": "Jugement manifeste",
+            "desc": "Exécute une série rapide de frappes vers l'avant, consommant toute la <k>détermination</k> pour infliger des <e:cryo>DGT Cryo</e>, les DGT étant augmentés selon la quantité de <k>détermination</k> consommée. Si Lohen est dans l'état <k>Coup de maître</k> lors de l'utilisation, la durée de ce <k>Coup de maître</k> augmente de 1,65 s.\n\n<i>« Si prompt à céder ? Quel dommage, je ne faisais que commencer... »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Moratoire sur les interrogatoires",
+            "desc": "Pendant l'état <k>Coup de maître</k>, Lohen obtient 60 pts de <k>détermination</k> supplémentaires lorsqu'un autre personnage de l'équipe à proximité l'aide à cumuler de la <k>détermination</k> si les DGT infligés sont supérieurs ou égaux à 3 000 % de l'ATQ de base de Lohen."
+          },
+          {
+            "name": "Chef-d'œuvre désinvolte",
+            "desc": "Pendant l'état <k>Coup de maître</k>, lorsqu'un autre personnage de l'équipe à proximité a déclenché une <e:cryo>réaction liée à l'élément Cryo</e>, son ATQ et celle de Lohen augmentent de 15 % pendant 8 s."
+          },
+          {
+            "name": "Quand l'envie prend",
+            "desc": "Après avoir utilisé sa compétence élémentaire <k>Frappe imprévue</k>, Lohen obtient l'effet Esprit exalté pendant 9 s : augmente le niveau de <k>Frappe imprévue</k> de 1.\nSi une des attaques normales, une des compétences élémentaires ou un des déchaînements élémentaires d'un autre personnage de l'équipe n'a pas un niveau inférieur à celui de la compétence élémentaire de Lohen lors de son déclenchement, la durée de cet effet Esprit exalté est prolongée de 6 s supplémentaires.\nL'effet Esprit exalté peut être obtenu une fois toutes les 18 s."
+          },
+          {
+            "name": "Veillée de la sorcière : Épine inguérissable",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « Question d'opposition »</k>, Lohen devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\n\n<k>Hexerei : Rituel secret</k>\nEn touchant un ennemi avec sa compétence élémentaire spéciale <k>Gravé dans les os et l'âme</k> ou en utilisant son déchaînement élémentaire <k>Jugement manifeste</k>, les DGT des attaques normales et chargées de Lohen augmentent de 40 % pendant 6 s si sa <k>détermination</k> a atteint au moins 50 % de son maximum."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Ô brises, qui portez si souvent de douloureuses lamentations",
+            "desc": "La limite de <k>détermination</k> de Lohen passe à 300 % de sa valeur d'origine.\nDe plus, la <k>détermination</k> que les autres personnages de l'équipe à proximité cumulent pour Lohen augmente à 500 % de la valeur d'origine pendant l'effet <k>Coup de maître</k>."
+          },
+          {
+            "level": 2,
+            "name": "En vol, je frappe tout ce qui vole",
+            "desc": "Après avoir touché un ennemi avec sa compétence élémentaire spéciale <k>Gravé dans les os et l'âme</k> ou avoir utilisé son déchaînement élémentaire <k>Jugement manifeste</k> pendant l'état <k>Coup de maître</k>, Lohen obtient l'effet Lame purificatrice pendant 4 s : la prochaine fois qu'il touche un ennemi avec une attaque normale ou chargée pendant l'effet Coup de maître, il déclenche une attaque supplémentaire infligeant des <e:cryo>DGT Cryo de zone</e> d'une valeur équivalant à 500 % de son ATQ et augmente la maîtrise élémentaire des autres personnages de l'équipe à proximité de 200 pts pendant 8 s. L'effet Lame purificatrice peut être obtenu une fois toutes les 4 s."
+          },
+          {
+            "level": 3,
+            "name": "Seule la lance qui blesse peut guérir",
+            "desc": "Niveau d'aptitude <k>Frappe imprévue</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Amour radieux, mort riante",
+            "desc": "En utilisant son déchaînement élémentaire <k>Jugement manifeste</k> pendant l'état <k>Coup de maître</k>, Lohen cumule de la <k>détermination</k> jusqu'au maximum, ce qui permet à ce déchaînement élémentaire d'infliger le maximum de DGT possible.\n\nDe plus, différents effets se produisent lorsque Lohen passe dans l'état <k>Coup de maître</k> :\n· Si son énergie élémentaire n'est pas déjà au maximum, Lohen en récupère 15 pts.\n· Si son énergie élémentaire est déjà au maximum, Lohen récupère 15 pts d'énergie élémentaire lorsqu'il utilise son déchaînement élémentaire <k>Jugement manifeste</k> pendant les 15 prochaines secondes."
+          },
+          {
+            "level": 5,
+            "name": "Ne jamais demander, ni vous déranger pour savoir",
+            "desc": "Niveau d'aptitude <k>Jugement manifeste</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Se noyer, sombrer, inconscient : Joie suprême",
+            "desc": "Toucher un ennemi avec la compétence élémentaire spéciale <k>Gravé dans les os et l'âme</k>, et utiliser le déchaînement élémentaire <k>Jugement manifeste</k> pendant l'effet <k>Coup de maître</k>, ne consomment pas de <k>détermination</k>, mais restaurent la <k>joie</k> de Lohen jusqu'au maximum, tout en prolongeant la durée de l'état <k>Coup de maître</k> de 1,25 s si la prochaine utilisation de la compétence élémentaire spéciale <k>Gravé dans les os et l'âme</k> touche un ennemi. Cet effet peut être déclenché une fois toutes les 7 s.\nDe plus, les DGT CRIT de tous les DGT ci-dessus augmentent de 175 %, et le nombre de fois que Lohen peut utiliser <k>Gravé dans les os et l'âme</k> pendant cet effet <k>Coup de maître</k> augmente de 2."
+          }
+        ]
+      }
+    }
   }
 }

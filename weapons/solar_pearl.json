@@ -34,5 +34,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14405",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A dull, golden pearl made of an unknown substance that harbors the light of the sun and the moon and pulses with a warm strength.",
+        "passive": {
+          "name": "Solar Shine",
+          "refinements": {
+            "1": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <r>20%</r> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <r>20%</r> for 6s.",
+            "2": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <r>25%</r> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <r>25%</r> for 6s.",
+            "3": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <r>30%</r> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <r>30%</r> for 6s.",
+            "4": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <r>35%</r> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <r>35%</r> for 6s.",
+            "5": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by <r>40%</r> for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by <r>40%</r> for 6s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une précieuse perle dorée et mate abritant la lumière du soleil et de la lune, dont la matière est inconnue. Une force chaleureuse s'en dégage.",
+        "passive": {
+          "name": "Rayonnement céleste",
+          "refinements": {
+            "1": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>20 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>20 %</r> lorsqu'elles touchent.",
+            "2": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>25 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>25 %</r> lorsqu'elles touchent.",
+            "3": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>30 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>30 %</r> lorsqu'elles touchent.",
+            "4": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>35 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>35 %</r> lorsqu'elles touchent.",
+            "5": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>40 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>40 %</r> lorsqu'elles touchent."
+          }
+        }
+      }
+    }
   }
 }

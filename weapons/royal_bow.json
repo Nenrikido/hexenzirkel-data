@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15404",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+        "passive": {
+          "name": "Focus",
+          "refinements": {
+            "1": "Upon damaging an opponent, increases CRIT Rate by <r>8%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "2": "Upon damaging an opponent, increases CRIT Rate by <r>10%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "3": "Upon damaging an opponent, increases CRIT Rate by <r>12%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "4": "Upon damaging an opponent, increases CRIT Rate by <r>14%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "5": "Upon damaging an opponent, increases CRIT Rate by <r>16%</r>. Max 5 stacks. A CRIT Hit removes all stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc long qui appartenait jadis aux dirigeants de Mondstadt. Après avoir connu bien des générations, sa corde légère est toujours capable de décocher des flèches à une vitesse impressionnante.",
+        "passive": {
+          "name": "Focus",
+          "refinements": {
+            "1": "Augmente le taux CRIT de <r>8 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "2": "Augmente le taux CRIT de <r>10 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "3": "Augmente le taux CRIT de <r>12 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "4": "Augmente le taux CRIT de <r>14 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "5": "Augmente le taux CRIT de <r>16 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+          }
+        }
+      }
+    }
   }
 }

@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15101",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows."
+      },
+      "fr": {
+        "flavor": "La musique jouée par les chasseurs combine deux mélodies : la tension de l'arc et le sifflement des flèches."
+      }
+    }
   }
 }

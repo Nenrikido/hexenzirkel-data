@@ -27,5 +27,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13433",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A polearm that appears to have been crafted from a metal agricultural tool. At first glance, it could not look more ordinary, yet its discreet design hides fittings that are both lavish and undeniably exquisite.",
+        "passive": {
+          "name": "Swift and Sure",
+          "refinements": {
+            "1": "Electro-Charged DMG is increased by <r>48%</r>, and Lunar-Charged DMG is increased by <r>12%</r>. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional <r>12%</r>.",
+            "2": "Electro-Charged DMG is increased by <r>60%</r>, and Lunar-Charged DMG is increased by <r>15%</r>. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional <r>15%</r>.",
+            "3": "Electro-Charged DMG is increased by <r>72%</r>, and Lunar-Charged DMG is increased by <r>18%</r>. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional <r>18%</r>.",
+            "4": "Electro-Charged DMG is increased by <r>84%</r>, and Lunar-Charged DMG is increased by <r>21%</r>. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional <r>21%</r>.",
+            "5": "Electro-Charged DMG is increased by <r>96%</r>, and Lunar-Charged DMG is increased by <r>24%</r>. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional <r>24%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme qui semble avoir été fabriquée à partir d'un outil agricole. À première vue, elle paraît on ne peut plus ordinaire, mais sa conception discrète cache des particularités à la fois somptueuses et indéniablement raffinées.",
+        "passive": {
+          "name": "Tranchant de la décision",
+          "refinements": {
+            "1": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>48 %</r> et ceux des réactions de Sélénocution de <r>12 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>12 %</r> supplémentaires.",
+            "2": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>60 %</r> et ceux des réactions de Sélénocution de <r>15 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>15 %</r> supplémentaires.",
+            "3": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>72 %</r> et ceux des réactions de Sélénocution de <r>18 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>18 %</r> supplémentaires.",
+            "4": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>84 %</r> et ceux des réactions de Sélénocution de <r>21 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>21 %</r> supplémentaires.",
+            "5": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>96 %</r> et ceux des réactions de Sélénocution de <r>24 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>24 %</r> supplémentaires."
+          }
+        }
+      }
+    }
   }
 }

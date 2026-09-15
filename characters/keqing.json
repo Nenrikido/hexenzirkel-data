@@ -314,5 +314,139 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000042",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Yunlai Swordsmanship",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Stellar Restoration",
+            "desc": "Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.\nWhen the Stiletto hits its target, it deals <e:electro>Electro DMG</e> to opponents in a small AoE, and places a Stiletto Mark on the spot hit.\n\n<k>Hold</k>\nHold to adjust the direction in which the Stiletto shall be thrown.\nStilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.\n\n<k>Lightning Stiletto</k>\n If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:\n· If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals <e:electro>AoE Electro DMG</e>. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.\n· If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing <e:electro>AoE Electro DMG</e>.\n\n<i>\"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own.\"</i>"
+          },
+          "burst": {
+            "name": "Starward Sword",
+            "desc": "Keqing unleashes the power of lightning, dealing <e:electro>Electro DMG</e> in an AOE.\nShe then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of <e:electro>Electro DMG</e>. The final attack deals massive <e:electro>AoE Electro DMG</e>.\n\n<i>The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Thundering Penance",
+            "desc": "After recasting <k>Stellar Restoration</k> while a Lightning Stiletto is present, Keqing's weapon gains an <e:electro>Electro Infusion</e> for 5s."
+          },
+          {
+            "name": "Aristocratic Dignity",
+            "desc": "When casting <k>Starward Sword</k>, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s."
+          },
+          {
+            "name": "Land's Overseer",
+            "desc": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Thundering Might",
+            "desc": "Recasting <k>Stellar Restoration</k> while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as <e:electro>AoE Electro DMG</e> at the start point and terminus of her Blink."
+          },
+          {
+            "level": 2,
+            "name": "Keen Extraction",
+            "desc": "When Keqing's Normal and Charged Attacks hit opponents affected by <e:electro>Electro</e>, they have a 50% chance of producing an Elemental Particle.\nThis effect can only occur once every 5s."
+          },
+          {
+            "level": 3,
+            "name": "Foreseen Reformation",
+            "desc": "Increases the Level of <k>Starward Sword</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Attunement",
+            "desc": "For 10s after Keqing triggers an <e:electro>Electro-related Elemental Reaction</e>, her ATK is increased by 25%."
+          },
+          {
+            "level": 5,
+            "name": "Beckoning Stars",
+            "desc": "Increases the Level of <k>Stellar Restoration</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Tenacious Star",
+            "desc": "When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% <e:electro>Electro DMG Bonus</e> for 8s.\nEffects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Escrime des nuages",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Retour des étoiles",
+            "desc": "Keqing lance une Lame de foudre qui attaque ses ennemis avec la puissance des cieux.\nLorsqu'une Lame de foudre touche sa cible, elle inflige des <e:electro>DGT Électro de zone</e> et laisse une marque à l'endroit visé.\n\n<k>Appui long</k>\nAjuste la zone où la compétence sera lancée.\nLes Lames de foudre peuvent aussi être suspendues dans les airs, et Keqing peut activer à nouveau la compétence Retour des étoiles pour s'y téléporter.\n\n<k>Lame de foudre</k>\nLorsque la marque est active, Keqing peut utiliser à nouveau Retour des étoiles pour se téléporter ou lancer une attaque chargée et la marque disparaîtra avec les effets suivant selon le cas :\n· Réactivation de Retour des étoiles : Keqing se téléporte à l'emplacement de la marque et exécute une entaille qui inflige des <e:electro>DGT Électro de zone</e>. Keqing passe à travers tous les obstacles topographiques lorsqu'elle se téléporte.\n· Attaque chargée : une série de coups de tonnerre tranchants s'abat à l'emplacement de la marque, infligeant des <e:electro>DGT Électro de zone</e>.\n\n<i>« Les humains sont comme des papillons de nuit, attirés par la lumière des dieux et des Adeptes. Or seule la mienne guide mes ailes. »</i>"
+          },
+          "burst": {
+            "name": "Promenade céleste",
+            "desc": "Keqing fait appel à la puissance de l'éclair, et inflige des <e:electro>DGT Électro de zone</e>.\nSe fondant ensuite dans l'ombre de son épée, elle libère une série de coups tranchants rapides, infligeant aux ennemis proches des <e:electro>DGT Électro</e>. Le coup final inflige d'importants <e:electro>DGT Électro de zone</e>.\n\n<i>L'une des techniques les plus rapides de l'arsenal de Keqing, capable de faire tomber même les étoiles.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Pénitence retentissante",
+            "desc": "Keqing obtient pendant 5 s un <e:electro>enchantement Électro</e> lorsqu'une Lame de foudre est active et que <k>Retour des étoiles</k> est lancé à nouveau."
+          },
+          {
+            "name": "Trésor de l'Alioth",
+            "desc": "Keqing obtient pendant 8 s un bonus de taux CRIT et de recharge d'énergie de 15 % lorsqu'elle libère <k>Promenade céleste</k>."
+          },
+          {
+            "name": "Agencement des terres",
+            "desc": "Diminue la durée d'une expédition de 25 % lorsqu'elle se déroule à Liyue."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Force foudroyante",
+            "desc": "Lorsque Keqing libère de nouveau <k>Retour des étoiles</k> lorsqu'une Lame de foudre est active, elle inflige des <e:electro>DGT Électro de zone</e> équivalant à 50 % de son ATQ aux endroits où elle disparaît puis réapparaît."
+          },
+          {
+            "level": 2,
+            "name": "Taxation sévère",
+            "desc": "Les attaques normales et chargées de Keqing touchant un ennemi affecté par l'<e:electro>élément Électro</e> ont 50 % de chances de générer une particule élémentaire.\nCet effet peut être déclenché une fois toutes les 5 s."
+          },
+          {
+            "level": 3,
+            "name": "Formation anticipée",
+            "desc": "Niveau d'aptitude <k>Promenade céleste</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Syntonie",
+            "desc": "Lorsque Keqing déclenche une <e:electro>réaction liée à l'élément Électro</e>, son ATQ augmente de 25 % pendant 10 s."
+          },
+          {
+            "level": 5,
+            "name": "Lueur mouvante",
+            "desc": "Niveau d'aptitude <k>Retour des étoiles</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Étoile tenace",
+            "desc": "Les attaques normales, attaques chargées, compétences élémentaires et déchaînements élémentaires de Keqing lui confèrent un <e:electro>bonus de DGT Électro</e> de 6 % pendant 8 s.\nLes effets des attaques normales et chargées et des compétences et déchaînements élémentaires existent indépendamment les uns des autres."
+          }
+        ]
+      }
+    }
   }
 }

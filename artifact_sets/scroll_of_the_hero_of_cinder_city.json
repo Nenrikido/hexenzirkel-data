@@ -70,5 +70,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15037",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Scroll of the Hero of Cinder City",
+        "bonuses": {
+          "2": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
+          "4": "After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack."
+        }
+      },
+      "fr": {
+        "name": "Parchemin du héros de la Cité de braise",
+        "bonuses": {
+          "2": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, le personnage équipé de l'artéfact récupère 6 pts d'énergie élémentaire.",
+          "4": "Lorsque le personnage équipé de l'artéfact a déclenché une réaction liée à son type élémentaire, le bonus de DGT élémentaires des éléments concernés par cette réaction augmente de 12 % pendant 15 s pour tous les personnages de l'équipe à proximité. Si le personnage équipé de l'artéfact bénéficie d'une bénédiction noctâme lors du déclenchement de cet effet, le bonus de DGT élémentaires des éléments concernés par cette réaction augmente de 28 % supplémentaires pendant 20 s pour tous les personnages de l'équipe à proximité. L'effet ci-dessus peut être déclenché même si le personnage n'est pas déployé, et les effets d'augmentation des DGT accordés par les sets d'artéfacts du même nom ne se cumulent pas."
+        }
+      }
+    }
   }
 }

@@ -207,5 +207,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000068",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Marvelous Sword-Dance (Modified)",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
+            "desc": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing <e:electro>Electro DMG</e>.\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal <e:electro>Electro DMG</e>.\n\n<i>It is said that Dori can fix any problem for you... for the right price.</i>"
+          },
+          "burst": {
+            "name": "Alcazarzaray's Exactitude",
+            "desc": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\n\n<k>Jinni</k>\nConnects to a nearby character. The connected character will:\n· Continuously restore HP based on Dori's Max HP.\n· Continuously regenerate Energy.\n· Be affected by <e:electro>Electro</e>.\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of <e:electro>Electro DMG</e> to them every 0.4s.\n\nOnly one Jinni can exist at one time.\n\n<i>\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "An Eye for Gold",
+            "desc": "After a character connected to the <k>Jinni</k> triggers an Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, Electro Swirl, or Electro Crystallize reaction, the CD of <k>Spirit-Warding Lamp: Troubleshooter Cannon</k> is decreased by 1s.\nThis effect can be triggered once every 3s."
+          },
+          {
+            "name": "Compound Interest",
+            "desc": "When the Troubleshooter Shots or After-Sales Service Rounds from <k>Spirit-Warding Lamp: Troubleshooter Cannon</k> hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way."
+          },
+          {
+            "name": "Unexpected Order",
+            "desc": "Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Additional Investment",
+            "desc": "The number of After-Sales Service Rounds created by <k>Troubleshooter Shots</k> is increased by 1."
+          },
+          {
+            "level": 2,
+            "name": "Special Franchise",
+            "desc": "When you are in combat and the <k>Jinni</k> heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG."
+          },
+          {
+            "level": 3,
+            "name": "Wonders Never Cease",
+            "desc": "Increases the Level of <k>Alcazarzaray's Exactitude</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Discretionary Supplement",
+            "desc": "The character connected to the <k>Jinni</k> will obtain the following buffs based on their current HP and Energy:\n· When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\n· When their Energy is less than 50%, they gain 30% Energy Recharge."
+          },
+          {
+            "level": 5,
+            "name": "Value for Mora",
+            "desc": "Increases the Level of <k>Spirit-Warding Lamp: Troubleshooter Cannon</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Sprinkling Weight",
+            "desc": "Dori gains the following effects for 3s after using <k>Spirit-Warding Lamp: Troubleshooter Cannon</k>:\n· <e:electro>Electro Infusion</e>.\n· When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Valse des lames (modifiée)",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Lampe de protection : Canon pacificateur",
+            "desc": "Commande à une lampe de protection de déclencher un tir pacificateur sur les ennemis, infligeant des <e:electro>DGT Électro</e>.\nÀ l'impact, le tir pacificateur crée 2 obus de S.A.V. qui poursuivent automatiquement les ennemis proches pour infliger des <e:electro>DGT Électro</e>.\n\n<i>Il est dit que Dori peut résoudre n'importe lequel de vos problèmes... Pour un prix adéquat, bien sûr...</i>"
+          },
+          "burst": {
+            "name": "Méticulosité d'Alcazarzaray",
+            "desc": "Invoque le djinn à l'intérieur de la lampe pour accorder au client divers types d'aide.\n\n<k>Djinn</k>\nRelie un personnage proche, qui bénéficie alors des effets suivants :\n· Récupère des PV de façon continue selon les PV max de Dori.\n· Obtient continuellement de l'énergie élémentaire.\n· Est affecté par l'<e:electro>élément Électro</e>.\n\nLorsque le lien entre le djinn et le personnage touche un ennemi, il lui inflige des <e:electro>DGT Électro</e> une fois toutes les 0,4 s.\n\nIl ne peut exister qu'un seul djinn à la fois.\n\n<i>« Hmm ? Tu choisis cette lampe, c'est ça ? Waouh, bon goût ! Malheureusement, ce trésor n'a pas de prix... Je dirais que c'est comme cette mascotte qui traîne avec toi et que tu ne vendras jamais, même pour tous les moras du monde... »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Un œil d'or",
+            "desc": "Si le personnage relié au <k>djinn</k> a déclenché une réaction d'Électrocution, de Sélénocution, de Supraconduction, d'Astroconduction, de Surcharge, de Stimulation, de Suractivation, d'Exubérance, de Dispersion Électro ou de Cristallisation Électro, le TdR de <k>Lampe de protection : Canon pacificateur</k> diminue de 1 s.\nCet effet peut être déclenché une fois toutes les 3 s."
+          },
+          {
+            "name": "Intérêts composés",
+            "desc": "Si le tir pacificateur ou les obus de S.A.V. de <k>Lampe de protection : Canon pacificateur</k> touche un ennemi, Dori restaure 5 pts d'énergie élémentaire pour chaque tranche de 100 % de recharge d'énergie qu'elle possède.\nPour chaque utilisation de Lampe de protection : Canon pacificateur, l'énergie élémentaire peut être restaurée une fois et d'un maximum de 15 pts de cette manière."
+          },
+          {
+            "name": "Commande inattendue",
+            "desc": "Le personnage a 25 % de chances de récupérer des matériaux de synthèse lors de la synthèse de matériaux d'amélioration de personnage ou d'arme."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Investissement supplémentaire",
+            "desc": "Le nombre d'obus de S.A.V. créés après un <k>tir pacificateur</k> augmente de 1."
+          },
+          {
+            "level": 2,
+            "name": "Franchise spéciale",
+            "desc": "Au combat, lorsque le <k>djinn</k> soigne le personnage auquel il est relié, un tir djinn est déclenché à l'emplacement du personnage, infligeant des DGT équivalant à 50 % de l'ATQ de Dori."
+          },
+          {
+            "level": 3,
+            "name": "Merveilles sans fin",
+            "desc": "Niveau d'aptitude <k>Méticulosité d'Alcazarzaray</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Supplément discrétionnaire",
+            "desc": "Le personnage relié au <k>djinn</k> obtient les bonus suivants selon ses PV et son énergie élémentaire :\n· Augmente le bonus de soins reçus de 50 % si les PV sont inférieurs à 50 %.\n· Augmente la recharge d'énergie de 30 % si l'énergie élémentaire est inférieure à 50 %."
+          },
+          {
+            "level": 5,
+            "name": "Rapport qualité-mora",
+            "desc": "Niveau d'aptitude <k>Lampe de protection : Canon pacificateur</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Poids léger",
+            "desc": "Après avoir utilisé <k>Lampe de protection : Canon pacificateur</k>, Dori obtient les effets suivants pendant 3 s :\n· <e:electro>Enchantement Électro</e>.\n· Si une attaque normale touche un ennemi, tous les personnages de l'équipe à proximité récupèrent des PV d'une valeur équivalant à 4 % des PV max de Dori. Les PV peuvent être restaurés une fois toutes les 0,1 s de cette manière."
+          }
+        ]
+      }
+    }
   }
 }

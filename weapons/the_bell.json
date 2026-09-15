@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12402",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+        "passive": {
+          "name": "Rebellious Guardian",
+          "refinements": {
+            "1": "Taking DMG generates a shield which absorbs DMG up to <r>20%</r> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <v>45</v>s. While protected by a shield, the character gains <r>12%</r> increased DMG.",
+            "2": "Taking DMG generates a shield which absorbs DMG up to <r>23%</r> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <v>45</v>s. While protected by a shield, the character gains <r>15%</r> increased DMG.",
+            "3": "Taking DMG generates a shield which absorbs DMG up to <r>26%</r> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <v>45</v>s. While protected by a shield, the character gains <r>18%</r> increased DMG.",
+            "4": "Taking DMG generates a shield which absorbs DMG up to <r>29%</r> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <v>45</v>s. While protected by a shield, the character gains <r>21%</r> increased DMG.",
+            "5": "Taking DMG generates a shield which absorbs DMG up to <r>32%</r> of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every <v>45</v>s. While protected by a shield, the character gains <r>24%</r> increased DMG."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une grande épée lourde équipée d'une cloche, mais dont le mécanisme de chronométrage a été détruit il y a bien longtemps.",
+        "passive": {
+          "name": "Protecteur rebelle",
+          "refinements": {
+            "1": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>20 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>12 %</r>.",
+            "2": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>23 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>15 %</r>.",
+            "3": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>26 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>18 %</r>.",
+            "4": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>29 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>21 %</r>.",
+            "5": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>32 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>24 %</r>."
+          }
+        }
+      }
+    }
   }
 }

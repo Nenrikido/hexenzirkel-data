@@ -216,5 +216,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000092",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Stellar Rend",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Bestial Ascent",
+            "desc": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.\nAfter Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.\n\n<k>Plunging Attack: Charmed Cloudstrider</k>\nThe DMG from Plunging Attacks caused by Bestial Ascent is converted to <e:pyro>Pyro DMG</e> that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.\nCharmed Cloudstrider DMG is considered Plunging Attack DMG.\n\n<i>\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"</i>"
+          },
+          "burst": {
+            "name": "Suanni's Gilded Dance",
+            "desc": "Gaming enters Wushou Stance, briefly applying <e:pyro>Pyro</e> to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing <e:pyro>AoE Pyro DMG</e>.\nAfter bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.\nWhile Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.\nEach Gaming can only have 1 Man Chai on the field simultaneously.\nThis effect will be canceled once Gaming leaves the field.\n\n<i>\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Dance of Amity",
+            "desc": "After <k>Bestial Ascent</k>'s Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s."
+          },
+          {
+            "name": "Air of Prosperity",
+            "desc": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG."
+          },
+          {
+            "name": "The Striding Beast",
+            "desc": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Bringer of Blessing",
+            "desc": "When the Suanni Man Chai from <k>Suanni's Gilded Dance</k> meets back up with Gaming, it will heal 15% of Gaming's HP."
+          },
+          {
+            "level": 2,
+            "name": "Plum Blossoms Underfoot",
+            "desc": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s."
+          },
+          {
+            "level": 3,
+            "name": "Awakening Spirit",
+            "desc": "Increases the Level of <k>Bestial Ascent</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Soar Across Mountains",
+            "desc": "When <k>Bestial Ascent</k>'s Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s."
+          },
+          {
+            "level": 5,
+            "name": "Evil-Daunting Roar",
+            "desc": "Increases the Level of <k>Suanni's Gilded Dance</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "To Tame All Beasts",
+            "desc": "<k>Bestial Ascent</k>'s Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Déchirement stellaire",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 attaques.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Ascension bestiale",
+            "desc": "Attaque avec un bond en avant en utilisant l'art du wushou, sautant haut dans les airs après avoir touché une cible ou le terrain.\nSi Gaming utilise une attaque plongeante immédiatement après s'être élevé dans les airs grâce à sa compétence élémentaire « Ascension bestiale », il déclenche une attaque plongeante particulièrement puissante : Augure nébuleux.\n\n<k>Attaque plongeante : Augure nébuleux</k>\nLorsqu'une attaque plongeante est déclenchée en utilisant l'effet de la compétence élémentaire « Ascension bestiale », ses DGT sont convertis en <e:pyro>DGT Pyro</e> ne pouvant pas être enchantés et Gaming consomme une certaine quantité de PV à l'atterrissage. Les PV de Gaming peuvent être diminués jusqu'à 10 % de cette manière.\nLes DGT infligés par Augure nébuleux sont considérés comme des DGT d'attaque plongeante.\n\n<i>« La bête auspicieuse bondit et cueille la verdure, la prospérité tout autour résonne. Que la richesse et la santé nous parviennent... Et puissions-nous tous nous élever au firmament ! »</i>"
+          },
+          "burst": {
+            "name": "Danse de félidé enflammé",
+            "desc": "Gaming passe en posture de wushou, <e:pyro>s'appliquant l'élément Pyro</e> temporairement et récupérant une certaine quantité de ses PV, et invoque son compagnon, le suanni Man Chai, pour qu'il écrase les cibles et inflige des <e:pyro>DGT Pyro de zone</e>.\nAprès avoir écrasé ses cibles, Man Chai roule à proximité avant de se diriger vers Gaming. En rejoignant Gaming, Man Chai quitte le champ de bataille et réinitialise le TdR de la compétence élémentaire de Gaming, Ascension bestiale.\nPendant la durée de la posture de wushou, la RÉS à l'interruption de Gaming est augmentée et, lorsque son attaque plongeante « Augure nébuleux » touche le sol ou à la fin du bond en avant d'Ascension bestiale, Gaming peut invoquer à nouveau Man Chai si ses PV sont supérieurs à 50 %.\nIl ne peut exister qu'un seul Man Chai invoqué par Gaming lui-même à la fois.\nCet effet cesse lorsque Gaming quitte le champ de bataille.\n\n<i>« La bête dorée apporte fortune, lumières flamboyantes et vues brillantes ! Voilà ce qu'on appelle une vie prospère et abondante ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Danse d'entente",
+            "desc": "Après avoir touché un ennemi avec l'attaque plongeante « Augure nébuleux » d'<k>Ascension bestiale</k>, Gaming récupère des PV d'une valeur équivalant à 1,5 % de ses PV max une fois toutes les 0,2 s pendant 0,8 s."
+          },
+          {
+            "name": "Air de prospérité",
+            "desc": "Lorsque les PV de Gaming sont inférieurs à 50 %, il obtient un bonus de soins reçus de 20 %. Lorsque les PV de Gaming sont supérieurs ou égaux à 50 %, les DGT infligés par l'attaque plongeante « Augure nébuleux » augmentent de 20 %."
+          },
+          {
+            "name": "Pas de bestialité",
+            "desc": "La journée (06 h 00 - 18 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sous la bénédiction radieuse",
+            "desc": "Lorsque le suanni Man Chai de <k>Danse de félidé enflammé</k> rejoint Gaming, ce dernier récupère 15 % de PV."
+          },
+          {
+            "level": 2,
+            "name": "Sur les fleurs de prunier",
+            "desc": "Lorsque Gaming reçoit des soins et que ces derniers dépassent la limite, son ATQ augmente de 20 % pendant 5 s."
+          },
+          {
+            "level": 3,
+            "name": "Grâce à l'éveil spirituel",
+            "desc": "Niveau d'aptitude <k>Ascension bestiale</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Au-dessus des monts",
+            "desc": "Lorsque l'attaque plongeante « Augure nébuleux » d'<k>Ascension bestiale</k> touche un ennemi, Gaming récupère 2 pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 0,2 s."
+          },
+          {
+            "level": 5,
+            "name": "Par le cri intimidant les démons",
+            "desc": "Niveau d'aptitude <k>Danse de félidé enflammé</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "En apprivoisant les bêtes",
+            "desc": "Augmente le taux CRIT de l'attaque plongeante « Augure nébuleux » d'<k>Ascension bestiale</k> de 20 % et ses DGT CRIT de 40 %, et améliore sa portée d'attaque."
+          }
+        ]
+      }
+    }
   }
 }

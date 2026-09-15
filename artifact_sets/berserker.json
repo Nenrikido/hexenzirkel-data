@@ -17,5 +17,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10005",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Berserker",
+        "bonuses": {
+          "2": "CRIT Rate +12%",
+          "4": "When HP is below 70%, CRIT Rate increases by an additional 24%."
+        }
+      },
+      "fr": {
+        "name": "Berserker",
+        "bonuses": {
+          "2": "Augmente le taux CRIT de 12 %.",
+          "4": "Augmente le taux CRIT de 24 % lorsque les PV sont inférieurs à 70 %."
+        }
+      }
+    }
   }
 }

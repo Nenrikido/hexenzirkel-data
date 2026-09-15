@@ -58,5 +58,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15030",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Vourukasha's Glow",
+        "bonuses": {
+          "2": "HP +20%",
+          "4": "Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."
+        }
+      },
+      "fr": {
+        "name": "Lueur du vourukasha",
+        "bonuses": {
+          "2": "Les PV sont augmentés de 20 %.",
+          "4": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de 10 %. Lorsque le personnage équipé de l'artéfact a subi des DGT, cet effet de bonus de DGT augmente de 80 % pendant 5 s. Cet effet peut être cumulé 5 fois maximum, la durée de chaque cumul étant calculée de façon indépendante. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

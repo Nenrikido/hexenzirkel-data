@@ -28,5 +28,41 @@
     "nanokaVersion": "6.7.54",
     "refinementModelled": "R5",
     "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13435",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A spear of solid ice imbued with an icy chill. It is said that it once belonged to the Belyi Tsar who ruled Snezhnaya in the distant past.",
+        "passive": {
+          "name": "A Cast Real Far",
+          "refinements": {
+            "1": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <r>20%</r> for the next 15s, as well as regenerates <r>6</r> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+            "2": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <r>25%</r> for the next 15s, as well as regenerates <r>7.5</r> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+            "3": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <r>30%</r> for the next 15s, as well as regenerates <r>9</r> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+            "4": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <r>35%</r> for the next 15s, as well as regenerates <r>10.5</r> Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+            "5": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by <r>40%</r> for the next 15s, as well as regenerates <r>12</r> Elemental Energy for other members of their party. This effect can trigger once every 16s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance de glace pure imprégnée d'un froid glacial. On raconte qu'elle appartenait jadis au Tsar Belyi, qui régna sur Snezhnaya dans un lointain passé.",
+        "passive": {
+          "name": "Envoi lointain",
+          "refinements": {
+            "1": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>20 %</r> et les autres personnages de votre équipe récupèrent <r>6</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s.",
+            "2": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>25 %</r> et les autres personnages de votre équipe récupèrent <r>7,5</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s.",
+            "3": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>30 %</r> et les autres personnages de votre équipe récupèrent <r>9</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s.",
+            "4": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>35 %</r> et les autres personnages de votre équipe récupèrent <r>10,5</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s.",
+            "5": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>40 %</r> et les autres personnages de votre équipe récupèrent <r>12</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s."
+          }
+        }
+      }
+    }
   }
 }

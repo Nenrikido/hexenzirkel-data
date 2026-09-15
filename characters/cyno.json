@@ -342,5 +342,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000071",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Invoker's Spear",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Secret Rite: Chasmic Soulfarer",
+            "desc": "Performs a swift thrust, dealing <e:electro>Electro DMG</e> to opponents along the way.\n\nWhen Cyno is in the Pactsworn Pathclearer state, he will instead unleash a <k>Mortuary Rite</k> that deals thunderous <e:electro>AoE Electro DMG</e>. If Cyno enters the Pactsworn Pathclearer through the Elemental Burst <k>Sacred Rite: Wolf's Swiftness</k>, unleashing <k>Mortuary Rite</k> will also extend the duration of the current instance of Pactsworn Pathclearer.\n\n<i>\"This judgment brooks no choice. There is no rejection or acceptance here... We have both long been bound up in this conviction.\"</i>"
+          },
+          "burst": {
+            "name": "Sacred Rite: Wolf's Swiftness",
+            "desc": "Calls upon a divine spirit to indwell him, morphing into the Pactsworn Pathclearer.\n\n<k>Pactsworn Pathclearer</k>\nCyno's Normal, Charged, and Plunging Attacks will be converted to <e:electro>Electro DMG</e> that cannot be overridden.\n· Cyno's Elemental Mastery and resistance to interruption will increase, and he gains immunity to Electro-Charged DMG.\n\nThis effect will be canceled when Cyno leaves the field and lasts a maximum of 18s.\n\n<i>The secret rituals passed down within the ancient nation are as a final judgment to the General Mahamatra.</i>\n<i>Whether now or in the past, whether great storm or serpent, none shall shake the majesty of the law.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Featherfall Judgment",
+            "desc": "When Cyno is in the Pactsworn Pathclearer state, he will enter the Endseer stance at intervals. If he activates <k>Secret Rite: Chasmic Soulfarer</k> while affected by this stance, he will activate the Judication effect, increasing the DMG of this Secret Rite: Chasmic Soulfarer by 35%, and firing off 3 Duststalker Bolts that deal 100% of Cyno's ATK as <e:electro>Electro DMG.</e> Duststalker Bolt DMG is considered Elemental Skill DMG.\n\n<k>Radiance: Stellar-Conduct</k>: When Judication is triggered, Cyno will instead fire 3 <k>Duststalker Bolts - Starsame</k> to his front, dealing <e:electro>Electro DMG</e> at 200% of his ATK. This DMG is considered Stellar-Conduct DMG."
+          },
+          {
+            "name": "Authority Over the Nine Bows",
+            "desc": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\n· Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\n· Duststalker Bolt DMG from his Ascension Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.\n· Duststalker Bolts - Starsame from the Ascension Talent \"Featherfall Judgment\": 600% of Elemental Mastery."
+          },
+          {
+            "name": "The Gift of Silence",
+            "desc": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours."
+          },
+          {
+            "name": "A Star With Which to Start the Journey",
+            "desc": "If Cyno unleashes the Elemental Skill <k>Secret Rite: Chasmic Soulfarer</k> while not in the Pactsworn Pathclearer state, he will enter Pactsworn Pathclearer for 6s.\nAdditionally, when in a <k>Polestar Field</k>, Cyno will enter the <k>Radiance: Stellar-Conduct</k> state."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Ordinance: Unceasing Vigil",
+            "desc": "After using <k>Sacred Rite: Wolf's Swiftness</k>, Cyno's Normal Attack SPD will be increased by 20% for 10s. If the Judication effect of his Ascension Talent Featherfall Judgment is triggered during <k>Secret Rite: Chasmic Soulfarer</k>, the duration of this increase will be refreshed.\nYou must first unlock the Ascension Talent \"Featherfall Judgment.\"\n\n<k>Radiance: Stellar-Conduct</k>: When Cyno enters the Pactsworn Pathclearer state, he will also gain the <k>Together We Rise</k> effect: Elemental Mastery is increased by 200. During this time, when switching characters from Cyno on the field, the incoming active character will take on the <k>Together We Rise</k> effect for the remaining duration."
+          },
+          {
+            "level": 2,
+            "name": "Ceremony: Homecoming of Spirits",
+            "desc": "When Cyno's Normal Attacks hit opponents, his <e:electro>Electro DMG Bonus</e> will increase by 10% for 4s. This effect can be triggered once every 0.1s. Max 5 stacks.\n\nAdditionally, when characters affected by <k>Together We Rise</k> hit opponents with their Normal Attacks or Charged Attacks, their Stellar-Conduct DMG dealt is increased by 16%. This effect, which can trigger once every 0.1s, will remain active for the remaining duration of <k>Together We Rise</k>. Max 5 stacks."
+          },
+          {
+            "level": 3,
+            "name": "Precept: Lawful Enforcer",
+            "desc": "Increases the Level of <k>Sacred Rite: Wolf's Swiftness</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Austerity: Forbidding Guard",
+            "desc": "When Cyno is in the Pactsworn Pathclearer state triggered by <k>Sacred Rite: Wolf's Swiftness</k>, after he triggers an Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reaction, he will restore 3 Elemental Energy to all nearby party members (except himself). This effect can occur 5 times within one use of <k>Sacred Rite: Wolf's Swiftness</k>.\n\nWhen other characters affected by <k>Together We Rise</k> trigger the aforementioned reaction, they will also regenerate 20 Elemental Energy for Cyno. This effect can trigger once every 18s."
+          },
+          {
+            "level": 5,
+            "name": "Funerary Rite: The Passing of Starlight",
+            "desc": "Increases the Level of <k>Secret Rite: Chasmic Soulfarer</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Raiment: Just Scales",
+            "desc": "After using <k>Sacred Rite: Wolf's Swiftness</k> or triggering the Judication effect of the Ascension Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt. If Cyno is affected by <k>Together We Rise</k>, he will fire one <k>Duststalker Bolt - Starsame</k> instead.\nDay of the Jackal\" lasts for 8s. Max 8 stacks for each instance of Pactsworn Pathclearer. It will be canceled once Pactsworn Pathclearer from Sacred Rite: Wolf's Swiftness ends.\nA maximum of 1 Duststalker Bolt or 1 Duststalker Bolt - Starsame can be unleashed this way every 0.4s.\nYou must first unlock the Ascension Talent \"Featherfall Judgment.\""
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance d'invocation",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Rite : Traversée abyssale",
+            "desc": "Effectue un assaut rapide, infligeant des <e:electro>DGT Électro</e> aux ennemis en chemin.\n\nLorsque Cyno est sous l'effet d'éclaireur sermenté, il déclenche à la place un <k>rite mortuaire</k> qui inflige de tonitruants <e:electro>DGT Électro de zone</e>. Si Cyno passe en éclaireur sermenté grâce à son déchaînement élémentaire <k>Liturgie : Rapidité lupine</k>, déclencher un <k>rite mortuaire</k> prolonge également la durée cette instance d'éclaireur sermenté.\n\n<i>« Ce jugement ne tolère aucun choix. Il n'y a ici ni rejet ni acceptation... Nous sommes tous deux liés depuis longtemps à cette conviction. »</i>"
+          },
+          "burst": {
+            "name": "Liturgie : Rapidité lupine",
+            "desc": "Invoque un esprit divin pour le posséder, se transformant en éclaireur sermenté.\n\n<k>Éclaireur sermenté</k>\n· Les DGT infligés par les attaques normales, chargées et plongeantes de Cyno seront convertis en <e:electro>DGT Électro</e> ne pouvant pas être enchantés.\n· La maîtrise élémentaire et la RÉS à l'interruption de Cyno augmentent et il devient immunisé contre les DGT infligés par les réactions d'Électrocution.\n\nCes effets cessent lorsque Cyno quitte le champ de bataille ou après une durée de 18 s.\n\n<i>Les rites secrets transmis au sein de l'ancienne nation sont comme un jugement définitif pour le général mahamatra.</i>\n<i>Que ce soit maintenant ou dans le passé, qu'il s'agisse d'une tempête ou d'un serpent, personne n'ébranlera la majesté de la loi.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Jugement des plumes",
+            "desc": "Lorsque Cyno est sous l'effet d'éclaireur sermenté, il entre en posture de prophète final de façon intermittente. S'il utilise <k>Rite : Traversée abyssale</k> dans cette posture, il active l'effet Ordalie, augmentant les DGT infligés par cette utilisation de Rite : Traversée abyssale de 35 % et tirant vers l'avant 3 éclairs de sable qui infligent des <e:electro>DGT Électro</e> d'une valeur équivalant à 100 % de son ATQ. Les DGT infligés par les éclairs de sable sont considérés comme des DGT de compétence élémentaire.\n\n<k>Radiance « Astroconduction »</k> : Activer l'effet Ordalie permet à la place à Cyno de tirer 3 <k>éclairs de sable « Étoime »</k> vers l'avant pour infliger des <e:electro>DGT Électro</e> d'une valeur équivalant à 200 % de son ATQ, ces DGT étant considérés comme des DGT de réaction d'Astroconduction."
+          },
+          {
+            "name": "Autorité sur les neuf arcs",
+            "desc": "Les DGT de certaines attaques de Cyno augmentent selon sa maîtrise élémentaire :\n· Les DGT de ses attaques normales sous l'effet d'éclaireur sermenté augmentent d'une valeur équivalant à 150 % de sa maîtrise élémentaire.\n· Les DGT des éclairs de sable de son aptitude d'élévation « Jugement des plumes » augmentent d'une valeur équivalant à 250 % de sa maîtrise élémentaire.\n· Les DGT des éclairs de sable « Étoime » de son aptitude d'élévation « Jugement des plumes » augmentent d'une valeur équivalant à 600 % de sa maîtrise élémentaire."
+          },
+          {
+            "name": "Le don du silence",
+            "desc": "Augmente les récompenses d'une expédition de 20 h à Sumeru de 25 %."
+          },
+          {
+            "name": "Une étoile pour commencer le voyage",
+            "desc": "Lorsque Cyno utilise sa compétence élémentaire <k>Rite : Traversée abyssale</k> sans être dans l'état d'éclaireur sermenté, il passe en éclaireur sermenté pendant 6 s.\nDe plus, Cyno passe en <k>radiance « Astroconduction »</k> lorsqu'il est dans une <k>étendue polaris</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sacrement : Vigile incessante",
+            "desc": "Après avoir utilisé <k>Liturgie : Rapidité lupine</k>, la VIT d'attaque des attaques normales de Cyno augmente de 20 % pendant 10 s. Si l'effet Ordalie de l'aptitude d'élévation « Jugement des plumes » est déclenché pendant <k>Rite : Traversée abyssale</k>, la durée de cette augmentation est actualisée.\nL'aptitude d'élévation « Jugement des plumes » doit être déjà débloquée.\n\n<k>Radiance « Astroconduction »</k> : Lorsque Cyno se transforme en éclaireur sermenté, il obtient également l'effet <k>S'élever ensemble</k> qui augmente la maîtrise élémentaire de 200 pts. De plus, lorsque Cyno bascule pour un autre personnage pendant la durée de cet effet, ce dernier hérite de l'effet <k>S'élever ensemble</k> pendant la durée restante."
+          },
+          {
+            "level": 2,
+            "name": "Cérémonie : Retour des esprits",
+            "desc": "Lorsque l'attaque normale de Cyno a touché un ennemi, son bonus de <e:electro>DGT Électro</e> augmente de 10 % pendant 4 s. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 5 fois maximum.\n\nDe plus, lorsqu'un personnage sous l'effet <k>S'élever ensemble</k> touche un ennemi avec une attaque normale ou chargée, les DGT de réaction d'Astroconduction de ce personnage augmentent de 16 %. Cet effet dure jusqu'à la fin de l'effet <k>S'élever ensemble</k>, peut être déclenché une fois toutes les 0,1 s et cumulé 5 fois maximum."
+          },
+          {
+            "level": 3,
+            "name": "Ordonnance : Exécution légale",
+            "desc": "Niveau d'aptitude <k>Liturgie : Rapidité lupine</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Protocole : Garde d'interdiction",
+            "desc": "Sous l'effet d'éclaireur sermenté de <k>Liturgie : Rapidité lupine</k>, lorsque Cyno a déclenché une réaction d'Électrocution, de Sélénocution, de Supraconduction, d'Astroconduction, de Surcharge, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro, tous les personnages de l'équipe à proximité (hormis Cyno) récupèrent 3 pts d'énergie élémentaire.\nCet effet peut être déclenché 5 fois par utilisation de <k>Liturgie : Rapidité lupine</k>.\n\nLorsqu'un autre personnage sous l'effet de <k>S'élever ensemble</k> a déclenché une des réactions précédentes, Cyno récupère également 20 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 18 s."
+          },
+          {
+            "level": 5,
+            "name": "Funéraille : Passage de la lumière stellaire",
+            "desc": "Niveau d'aptitude <k>Rite : Traversée abyssale</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Ascension : Balance de justice",
+            "desc": "Après avoir utilisé <k>Liturgie : Rapidité lupine</k> ou déclenché l'effet Ordalie de l'aptitude d'élévation « Jugement des plumes », Cyno obtient 4 cumuls de rite charognard. En touchant un ennemi avec une attaque normale, Cyno consomme 1 cumul pour tirer un éclair de sable. Si Cyno est sous l'effet <k>S'élever ensemble</k>, il tire un <k>éclair de sable « Étoime »</k> à la place.\nL'effet Rite charognard dure 8 s, peut être cumulé 8 fois maximum lors d'un état d'éclaireur sermenté, et est annulé à la fin de l'effet d'éclaireur sermenté de « Liturgie : Rapidité lupine ».\nUn éclair de sable ou un éclair de sable « Étoime » peut être déclenché une fois toutes les 0,4 s de cette manière.\nL'aptitude d'élévation « Jugement des plumes » doit être déjà débloquée."
+          }
+        ]
+      }
+    }
   }
 }

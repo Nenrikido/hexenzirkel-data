@@ -272,5 +272,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000083",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Rapid Ritesword",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Enigmatic Feint",
+            "desc": "Flicks her mantle and executes an Enigma Thrust, dealing <e:anemo>Anemo DMG</e>.\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\nBased on whether you press or hold this ability, she will use Enigma Thrust differently.\n\n<k>Press</k>\nShe swiftly uses an Enigma Thrust.\n\n<k>Hold</k>\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\n\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\n\n<k>Arkhe: Ousia</k>\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned <e:anemo>Anemo DMG</e>.\n\n<i>\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"</i>"
+          },
+          "burst": {
+            "name": "Magic Trick: Astonishing Shift",
+            "desc": "Lynette raises her mantle high, dealing <e:anemo>AoE Anemo DMG</e>, using skillful sleight of hand to make a giant Bogglecat Box appear!\n\n<k>Bogglecat Box</k>\n· Taunts nearby opponents, attracting their attacks.\n· Deals <e:anemo>Anemo DMG</e> to nearby opponents at intervals.\n· When the Bogglecat Box comes into contact with <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, it will gain the corresponding element and additionally fire Vivid Shots that will deal DMG from that element at intervals.\nElemental Absorption of this kind will only occur once during this ability's duration.\n\n<i>\"Look this way, and look closely. This is a time for miracles, just for us.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Sophisticated Synergy",
+            "desc": "Within 10s after using <k>Magic Trick: Astonishing Shift</k>, when there are 1/2/3/4 Elemental Types in the party, all party members' ATK will be increased by 8%/12%/16%/20% respectively."
+          },
+          {
+            "name": "Props Positively Prepped",
+            "desc": "After the Bogglecat Box summoned by <k>Magic Trick: Astonishing Shift</k> performs Elemental Conversion, Lynette's Elemental Burst will deal 15% more DMG. This effect will persist until the Bogglecat Box's duration ends."
+          },
+          {
+            "name": "Loci-Based Mnemonics",
+            "desc": "Shows the location of nearby <k>Recovery Orbs</k> on the minimap. The Aquatic Stamina and HP gained from touching Orbs will be increased by 25%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "A Cold Blade Like a Shadow",
+            "desc": "When <k>Enigmatic Feint</k>'s Enigma Thrust hits an opponent with Shadowsign, a vortex will be created at that opponent's position that will pull nearby opponents in."
+          },
+          {
+            "level": 2,
+            "name": "Endless Mysteries",
+            "desc": "Whenever the Bogglecat Box summoned by <k>Magic Trick: Astonishing Shift</k> fires a Vivid Shot, it will fire an extra Vivid Shot."
+          },
+          {
+            "level": 3,
+            "name": "Cognition-Inverting Gaze",
+            "desc": "Increases the Level of <k>Magic Trick: Astonishing Shift</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Tacit Coordination",
+            "desc": "Increases <k>Enigmatic Feint</k>'s charges by 1."
+          },
+          {
+            "level": 5,
+            "name": "Obscuring Ambiguity",
+            "desc": "Increases the Level of <k>Enigmatic Feint</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Watchful Eye",
+            "desc": "When Lynette uses <k>Enigmatic Feint</k>'s Enigma Thrust, she will gain an <e:anemo>Anemo Infusion</e> and 20% <e:anemo>Anemo DMG Bonus</e> for 6s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Rapière rapide",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Feinte sibylline",
+            "desc": "Balance sa cape et déclenche une aiguille énigmatique infligeant des <e:anemo>DGT Anémo</e>.\nLorsqu'une aiguille énigmatique touche un ennemi, Lynette récupère des PV selon ses PV max, avant de perdre, pendant les 4 s qui suivent, une certaine quantité de PV à chaque seconde.\nL'aiguille énigmatique est utilisée différemment selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nUtilise rapidement une aiguille énigmatique.\n\n<k>Appui long</k>\nLynette entre dans l'état Logogriphe qui permet de se déplacer à grande vitesse, et applique une saillie sombre à un ennemi proche. Pendant ce déplacement, Lynette peut contrôler la direction de sa course et peut s'arrêter en utilisant à nouveau la compétence.\nLorsque cet état rapide prend fin, Lynette déclenche son aiguille énigmatique. Si un ennemi marqué d'une saillie sombre est à proximité, Lynette s'en approche en un éclair avant d'utiliser son aiguille énigmatique.\n\nIl ne peut y avoir qu'un seul ennemi marqué d'une saillie sombre de Lynette à la fois, et lorsqu'un ennemi ainsi marqué s'éloigne trop, la saillie s'annule.\n\n<k>Arkhe : Ousia</k>\nRégulièrement, lorsque Lynette utilise une aiguille énigmatique, elle déclenche une lame fluide pour infliger des <e:anemo>DGT Anémo</e> chargés d'énergie ousia.\n\n<i>« Tournez maintenant vos yeux vers la scène et profitez de la performance ! La prochaine fois que j'apparaîtrai, je serai là où vous vous y attendez le moins. »</i>"
+          },
+          "burst": {
+            "name": "Magie : Variation étonnante",
+            "desc": "Lynette lève sa cape en hauteur pour infliger des <e:anemo>DGT Anémo de zone</e> et utilise un tour de passe-passe pour faire apparaître une boîte minestyque géante !\n\n<k>Boîte minestyque</k>\n· Nargue les ennemis proches et attire leurs attaques.\n· Inflige des <e:anemo>DGT Anémo</e> aux ennemis proches de façon régulière.\n· Lorsqu'une boîte minestyque entre en contact avec l'élément <e:hydro>Hydro</e>, <e:pyro>Pyro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e>, elle absorbe l'élément correspondant et tire en plus des balles bariolées de façon régulière sur les ennemis proches pour infliger des DGT de cet élément.\nUne seule réaction d'absorption élémentaire peut avoir lieu par utilisation.\n\n<i>« Par ici, par ici. Regardez attentivement. C'est le moment du miracle, rien que pour nous ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Synergie ingénieuse",
+            "desc": "Si l'équipe comprend des personnages de 1/2/3/4 types élémentaires, l'ATQ de tous les personnages de l'équipe augmente respectivement de 8/12/16/20 % pendant 10 s après l'utilisation de <k>Magie : Variation étonnante</k>."
+          },
+          {
+            "name": "Apprêt d'accessoires",
+            "desc": "Lorsqu'une boîte minestyque invoquée par <k>Magie : Variation étonnante</k> a effectué une absorption élémentaire, les DGT infligés par les déchaînements élémentaires de Lynette augmentent de 15 %. Cet effet dure jusqu'à la disparition de la boîte minestyque."
+          },
+          {
+            "name": "Mnémoniques de localisation",
+            "desc": "Affiche l'emplacement des <k>globes de revitalisation</k> sur la mini-carte et permet d'augmenter l'endurance aquatique et les PV récupérés en touchant ces globes de 25 %."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Lame d'ombre frisquette",
+            "desc": "Lorsqu'une aiguille énigmatique de <k>Feinte sibylline</k> touche un ennemi marqué d'une saillie sombre, un vortex est déclenché à l'emplacement de ce dernier pour attirer les ennemis proches."
+          },
+          {
+            "level": 2,
+            "name": "Mystère de continuité infinie",
+            "desc": "Lorsqu'une boîte minestyque invoquée par <k>Magie : Variation étonnante</k> tire une balle bariolée, elle tire une balle supplémentaire."
+          },
+          {
+            "level": 3,
+            "name": "Regard de cognition inversée",
+            "desc": "Niveau d'aptitude <k>Magie : Variation étonnante</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Coordination de réponse tacite",
+            "desc": "Confère une utilisation supplémentaire de <k>Feinte sibylline</k>."
+          },
+          {
+            "level": 5,
+            "name": "Obstacle d'ambiguïté ténébreuse",
+            "desc": "Niveau d'aptitude <k>Feinte sibylline</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Œil perspicace",
+            "desc": "Lorsque Lynette utilise une aiguille énigmatique de <k>Feinte sibylline</k>, elle bénéficie d'un <e:anemo>enchantement Anémo</e> et son <e:anemo>bonus de DGT Anémo</e> augmente de 20 %, pendant 6 s."
+          }
+        ]
+      }
+    }
   }
 }

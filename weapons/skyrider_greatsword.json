@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12306",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword... for the second time.",
+        "passive": {
+          "name": "Courage",
+          "refinements": {
+            "1": "On hit, Normal or Charged Attacks increase ATK by <r>6%</r> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+            "2": "On hit, Normal or Charged Attacks increase ATK by <r>7%</r> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+            "3": "On hit, Normal or Charged Attacks increase ATK by <r>8%</r> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+            "4": "On hit, Normal or Charged Attacks increase ATK by <r>9%</r> for 6s. Max 4 stacks. Can occur once every 0.5s.",
+            "5": "On hit, Normal or Charged Attacks increase ATK by <r>10%</r> for 6s. Max 4 stacks. Can occur once every 0.5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une grande épée fiable. On raconte que quelqu'un a essayé de s'en servir comme moyen de transport en montant dessus... pour la deuxième fois.",
+        "passive": {
+          "name": "Courage",
+          "refinements": {
+            "1": "Les attaques normales et chargées augmentent l'ATQ de <r>6 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "2": "Les attaques normales et chargées augmentent l'ATQ de <r>7 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "3": "Les attaques normales et chargées augmentent l'ATQ de <r>8 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "4": "Les attaques normales et chargées augmentent l'ATQ de <r>9 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "5": "Les attaques normales et chargées augmentent l'ATQ de <r>10 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s."
+          }
+        }
+      }
+    }
   }
 }

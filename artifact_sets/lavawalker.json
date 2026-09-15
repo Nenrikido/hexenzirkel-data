@@ -17,5 +17,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14003",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Lavawalker",
+        "bonuses": {
+          "2": "<e:pyro>Pyro</e> RES increased by 40%.",
+          "4": "Increases DMG against opponents affected by <e:pyro>Pyro</e> by 35%."
+        }
+      },
+      "fr": {
+        "name": "Marcheur du feu",
+        "bonuses": {
+          "2": "Augmente la RÉS <e:pyro>Pyro</e> de 40 %.",
+          "4": "Augmente les DGT infligés aux ennemis affectés par l'élément <e:pyro>Pyro</e> de 35 %."
+        }
+      }
+    }
   }
 }

@@ -32,5 +32,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15508",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
+        "passive": {
+          "name": "The Cleansing Form",
+          "refinements": {
+            "1": "HP is increased by <r>16%</r>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <r>20%</r>. This will take effect whether the character is on-field or not.",
+            "2": "HP is increased by <r>20%</r>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <r>25%</r>. This will take effect whether the character is on-field or not.",
+            "3": "HP is increased by <r>24%</r>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <r>30%</r>. This will take effect whether the character is on-field or not.",
+            "4": "HP is increased by <r>28%</r>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <r>35%</r>. This will take effect whether the character is on-field or not.",
+            "5": "HP is increased by <r>32%</r>. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by <r>40%</r>. This will take effect whether the character is on-field or not."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "La couleur de cet arc long est imprévisible. Sous la lumière, il prend un bleu lustré et aqueux.",
+        "passive": {
+          "name": "Forme purifiante",
+          "refinements": {
+            "1": "Les PV sont augmentés de <r>16 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>20 %</r>, qu'il soit déployé ou non.",
+            "2": "Les PV sont augmentés de <r>20 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>25 %</r>, qu'il soit déployé ou non.",
+            "3": "Les PV sont augmentés de <r>24 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>30 %</r>, qu'il soit déployé ou non.",
+            "4": "Les PV sont augmentés de <r>28 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>35 %</r>, qu'il soit déployé ou non.",
+            "5": "Les PV sont augmentés de <r>32 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>40 %</r>, qu'il soit déployé ou non."
+          }
+        }
+      }
+    }
   }
 }

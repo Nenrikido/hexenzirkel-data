@@ -225,5 +225,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000044",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Dance on Fire",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Sweeping Fervor",
+            "desc": "Xinyan brandishes her instrument, dealing <e:pyro>Pyro DMG</e> on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n· Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\n· Hitting 2 opponents grants Shield Level 2: Lead-In.\n· Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <e:pyro>Pyro DMG</e> to nearby opponents.\n\nThe shield has the following special properties:\n· When unleashed, it infuses Xinyan with <e:pyro>Pyro</e>.\n· It has 250% DMG Absorption effectiveness against <e:pyro>Pyro DMG</e>.\n\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>"
+          },
+          "burst": {
+            "name": "Riff Revolution",
+            "desc": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal <e:pyro>Pyro DMG</e> to nearby opponents.\n\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "\"The Show Goes On, Even Without an Audience...\"",
+            "desc": "Decreases the number of opponents <k>Sweeping Fervor</k> must hit to trigger each level of shielding.\n· Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n· Shield Level 3: Rave requirement reduced to 2 opponents hit or more."
+          },
+          {
+            "name": "\"...Now That's Rock 'N' Roll!\"",
+            "desc": "Characters shielded by <k>Sweeping Fervor</k> deal 15% increased Physical DMG."
+          },
+          {
+            "name": "A Rad Recipe",
+            "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Fatal Acceleration",
+            "desc": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\nCan only occur once every 5s."
+          },
+          {
+            "level": 2,
+            "name": "Impromptu Opening",
+            "desc": "<k>Riff Revolution</k>'s Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast."
+          },
+          {
+            "level": 3,
+            "name": "Double-Stop",
+            "desc": "Increases the Level of <k>Sweeping Fervor</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Wildfire Rhythm",
+            "desc": "<k>Sweeping Fervor</k>'s swing DMG decreases opponent's Physical RES by 15% for 12s."
+          },
+          {
+            "level": 5,
+            "name": "Screamin' for an Encore",
+            "desc": "Increases the Level of <k>Riff Revolution</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Rockin' in a Flaming World",
+            "desc": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Danse du feu",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Jeu fervent",
+            "desc": "Xinyan brandit sa guitare, et inflige aux ennemis proches des <e:pyro>DGT Pyro</e>, et génère un bouclier grâce au soutien de l'audience.\nLe bouclier absorbe une quantité de DGT proportionnelle à la DÉF de Xinyan et aux ennemis touchés :\n· 0 à 1 ennemi touché : Bouclier Niv.1\n· 2 ennemis touchés : Bouclier Niv.2\n· 3 ennemis touchés ou plus : Bouclier Niv.3, qui inflige en plus des <e:pyro>DGT Pyro</e> aux ennemis proches de façon intermittente.\n\nLe bouclier a les effets suivants :\n· Applique au moment de sa création l'<e:pyro>élément Pyro</e> à Xinyan.\nLe bouclier est efficace à 250 % contre les <e:pyro>DGT Pyro</e>.\n\n<i>Xinyan n'insiste jamais assez sur le fait que tous ces effets sont le pinacle de l'art de la scène, et qu'ils constituent un phénomène d'ordre physique n'ayant bien sûr rien à voir avec son œil divin.</i>"
+          },
+          "burst": {
+            "name": "Riff rebelle",
+            "desc": "Grattant son instrument avec passion, Xinyan libère une vague d'ondes qui repoussent les ennemis, et infligent aux ennemis proches des DGT physiques, au plus grand plaisir du public.\nL'ambiance se réchauffe tellement que des explosions ont lieu, infligeant aux ennemis proches des <e:pyro>DGT Pyro</e>.\n\n<i>Xinyan avait autrefois pour habitude de terminer toutes ses représentations de cette manière. Ce n'est pas à cause du danger qu'elle s'est arrêtée, mais parce qu'elle n'avait pas de final encore plus épique à proposer dans le cas d'un nouveau rappel.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "« Le spectacle doit continuer, même sans audience... »",
+            "desc": "Diminue le nombre d'ennemis à toucher pour déclencher chaque niveau de bouclier de <k>Jeu fervent</k> :\n· 1 ennemi touché : Bouclier Niv.2.\n· 2 ennemis touchés ou plus : Bouclier Niv.3."
+          },
+          {
+            "name": "« ... Ça, c'est du rock ! »",
+            "desc": "Les DGT physiques infligés par les personnages sous la protection du bouclier généré par <k>Jeu fervent</k> augmentent de 15 %."
+          },
+          {
+            "name": "Recette pour un tube",
+            "desc": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat parfait qui renforce la DÉF."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Accélération fatale",
+            "desc": "La VIT des attaques normales et chargées de Xinyan augmente de 12 % pendant 5 s lorsque Xinyan inflige un coup CRIT.\nCet effet ne peut être déclenché qu'une fois toutes les 5 s."
+          },
+          {
+            "level": 2,
+            "name": "Ouverture impromptue",
+            "desc": "Le taux CRIT des DGT physiques de <k>Riff rebelle</k> augmente de 100 %. Un bouclier Niv.3 est de plus généré à l'activation."
+          },
+          {
+            "level": 3,
+            "name": "Double corde",
+            "desc": "Niveau d'aptitude <k>Jeu fervent</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Rythme irrésistible",
+            "desc": "La RÉS physique des ennemis touchés par Xinyan au début de <k>Jeu fervent</k> diminue de 15 % pendant 12 s."
+          },
+          {
+            "level": 5,
+            "name": "Rappel fervent",
+            "desc": "Niveau d'aptitude <k>Riff rebelle</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Rock infernal",
+            "desc": "Diminue la consommation d'endurance des attaques chargées de Xinyan de 30 %. Xinyan obtient de plus un bonus d'ATQ équivalant à 50 % de sa DÉF lorsqu'elle exécute une attaque chargée."
+          }
+        ]
+      }
+    }
   }
 }

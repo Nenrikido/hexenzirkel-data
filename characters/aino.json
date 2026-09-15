@@ -150,5 +150,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000121",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Bish-Bash-Bosh Repair",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Musecatcher",
+            "desc": "Aino throws a <k>Musecatcher</k> forward, dealing <e:hydro>Hydro DMG</e> and dragging her along behind it. When the dragging stops, Aino deals <e:hydro>AoE Hydro DMG</e> to nearby opponents.\nHolding the Skill will cause it to behave differently.\n\n<k>Hold</k>\nEnter Aiming Mode to adjust the Musecatcher's throwing direction."
+          },
+          "burst": {
+            "name": "Precision Hydronic Cooler",
+            "desc": "Aino deploys a custom water-spraying device, the <k>Cool Your Jets Ducky</k> to establish a <k>Focused Hydronic Cooling Zone</k>.\nWhile active, the Cool Your Jets Ducky will periodically fire water balls at nearby opponents, dealing <e:hydro>Hydro DMG</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Modular Efficiency Protocol",
+            "desc": "Aino will be granted the corresponding buff effects based on the party's <k>Moonsign</k>.\n\n<k>Moonsign: Ascendant Gleam</k>: Her Elemental Burst <k>Precision Hydronic Cooler</k> is enhanced: The <k>Cool Your Jets Ducky</k> will fire water balls more frequently, and the water balls will deal <e:hydro>AoE Hydro DMG</e> over a larger area of effect."
+          },
+          {
+            "name": "Structured Power Booster",
+            "desc": "Aino's Elemental Burst DMG is increased by 50% of her Elemental Mastery."
+          },
+          {
+            "name": "Moonsign Benediction: Force Limit Analysis",
+            "desc": "When Aino is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Miniaturized Detection Sensor",
+            "desc": "Displays the location of nearby <k>resources unique to Nod-Krai</k> on the mini-map.\nAdditionally, Aino appears to be able to alter the Cool Your Jets Ducky's appearance in some way..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "The Theory of Ash—Field Equilibrium",
+            "desc": "After Aino uses her Elemental Skill <k>Musecatcher</k> or her Elemental Burst <k>Precision Hydronic Cooler</k>, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
+          },
+          {
+            "level": 2,
+            "name": "The Principle of Transference in Gear Differentials",
+            "desc": "If Aino is off-field while the <k>Focused Hydronic Cooling Zone</k> of her Elemental Burst <k>Precision Hydronic Cooler</k> is active, when your active party member hits a nearby opponent with an attack, the <k>Cool Your Jets Ducky</k> will fire an additional water ball at that opponent, dealing <e:hydro>AoE Hydro DMG</e> equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s."
+          },
+          {
+            "level": 3,
+            "name": "Cake and the Art of Mechanism Repair",
+            "desc": "Increases the Level of <k>Precision Hydronic Cooler</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Butter and Cats and the Law of Energy Supply",
+            "desc": "When the Elemental Skill <k>Musecatcher</k> hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s."
+          },
+          {
+            "level": 5,
+            "name": "Perpetual Turbine of Metal and Light",
+            "desc": "Increases the Level of <k>Musecatcher</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Burden of Creative Genius",
+            "desc": "For the next 15s after using the Elemental Burst <k>Precision Hydronic Cooler</k>, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\n<k>Moonsign: Ascendant Gleam</k>: DMG from the aforementioned reactions will be further increased by 20%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Réparation toc-tac-toc",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Inspirateur",
+            "desc": "Aino lance un <k>inspirateur</k> vers l'avant pour infliger des <e:hydro>DGT Hydro</e> et se faire tirer en même temps, puis inflige des <e:hydro>DGT Hydro de zone</e> aux ennemis proches à la fin du déplacement.\nEn cas d'appui long, la compétence est déclenchée différemment.\n\n<k>Appui long</k>\nAino bascule en mode visée, ce qui lui permet d'ajuster la direction dans laquelle elle envoie son inspirateur."
+          },
+          "burst": {
+            "name": "Refroidisseur hydronique de précision",
+            "desc": "Aino utilise son dispositif de pulvérisation d'eau personnalisé, le <k>canardeur tranquille</k> pour déployer une <k>zone à refroidissement hydronique focalisée</k>.\nPendant sa durée, le canardeur tranquille tire des ballons d'eau de façon intermittente sur les ennemis proches, infligeant des <e:hydro>DGT Hydro</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Protocole d'efficience modulaire",
+            "desc": "Aino obtient différents bonus selon la <k>signelune</k> de l'équipe.\n\n<k>Signelune « Lueur ascendante »</k> : le déchaînement élémentaire <k>Refroidisseur hydronique de précision</k> d'Aino est renforcé, permettant au <k>canardeur tranquille</k> de tirer des ballons d'eau plus fréquemment et à ces derniers d'infliger des <e:hydro>DGT Hydro de zone</e> sur une plus large zone."
+          },
+          {
+            "name": "Amplificateur de sortie structuré",
+            "desc": "Les DGT infligés par les déchaînements élémentaires d'Aino augmentent d'une valeur équivalant à 50 % de sa maîtrise élémentaire."
+          },
+          {
+            "name": "Bénédiction de signelune : Analyse de limite de force",
+            "desc": "Lorsque Aino fait partie de l'équipe, la <k>signelune</k> de l'équipe augmente d'un niveau."
+          },
+          {
+            "name": "Capteur miniaturisé de détection",
+            "desc": "Affiche l'emplacement des <k>produits de Nod-Krai</k> sur la mini-carte.\nDe plus, Aino semble être capable de modifier l'apparence de son canardeur tranquille d'une manière ou d'une autre..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Théorie de l'équilibre cendres–champs",
+            "desc": "Lorsque Aino a utilisé sa compétence élémentaire <k>Inspirateur</k> ou son déchaînement élémentaire <k>Refroidisseur hydronique de précision</k>, sa maîtrise élémentaire et celle des autres personnages déployés à proximité augmentent de 80 pts pendant 15 s.\n\nLes effets d'augmentation de maîtrise élémentaire de cette constellation ne se cumulent pas."
+          },
+          {
+            "level": 2,
+            "name": "Principe de transfert des différentiels d'engrenages",
+            "desc": "Si Aino fait partie de l'équipe mais n'est pas déployée pendant la durée de la <k>zone à refroidissement hydronique focalisée</k> de son déchaînement élémentaire <k>Refroidisseur hydronique de précision</k>, le <k>canardeur tranquille</k> tire un ballon d'eau supplémentaire infligeant des <e:hydro>DGT Hydro de zone</e> d'une valeur équivalant à 25 % de l'ATQ d'Aino et 100 % de sa maîtrise élémentaire sur tout ennemi proche touché par une attaque de votre personnage déployé, ces DGT étant considérés comme des DGT de déchaînement élémentaire. Cet effet peut être déclenché une fois toutes les 5 s."
+          },
+          {
+            "level": 3,
+            "name": "Les gâteaux et l'art de la réparation mécanique",
+            "desc": "Niveau d'aptitude <k>Refroidisseur hydronique de précision</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Beurre, chats et loi de l'alimentation énergétique",
+            "desc": "Lorsque sa compétence élémentaire <k>Inspirateur</k> touche un ennemi, Aino récupère 10 pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 10 s de cette manière."
+          },
+          {
+            "level": 5,
+            "name": "Turbine impérissable de métal et de lumière",
+            "desc": "Niveau d'aptitude <k>Inspirateur</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Fardeau du génie créatif",
+            "desc": "Après l'utilisation du déchaînement élémentaire <k>Refroidisseur hydronique de précision</k>, les DGT infligés par les réactions d'Électrocution, de Sélénocution, de Fleurissement, de Sélénofleurissement et de Sélénocristallisation des personnages déployés à proximité augmentent de 15 % pendant 15 s.\n<k>Signelune « Lueur ascendante »</k> : les DGT infligés par ces réactions augmentent de 20 % supplémentaires."
+          }
+        ]
+      }
+    }
   }
 }

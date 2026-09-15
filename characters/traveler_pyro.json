@@ -281,5 +281,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000005-pyro",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Foreign Blaze",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Flowfire Blade",
+            "desc": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.\n\n<k>Tap</k>\nCall forth flames in a raging blaze. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Blazing Threshold that follows the current active character.\nWhen the Blazing Threshold gets close to opponents, it will deal Nightsoul-aligned <e:pyro>Pyro DMG</e> to nearby opponents at intervals.\n\n<k>Hold</k>\nUnleash fire in a composed manner, dealing Nightsoul-aligned <e:pyro>AoE Pyro DMG</e> to nearby opponents. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Scorching Threshold that follows the current active character.\nWhen the current active character within a Scorching Threshold deals DMG to opponents, the Threshold will launch a Coordinated Attack that deals Nightsoul-aligned <e:pyro>Pyro DMG</e> based on the Traveler's ATK. This effect can occur once every 3s.\n\n<k>Nightsoul's Blessing: Traveler</k>\nContinuously consumes Nightsoul points. The Traveler's Nightsoul's Blessing state lasts 12s at maximum, and when their Nightsoul points are exhausted, this state will end. If this Elemental Skill is used again while active, the Traveler's Nightsoul points will be reset to 42 points.\nBlazing and Scorching Thresholds will disappear once the Traveler's Nightsoul's Blessing state ends, and only 1 Blazing or Scorching Threshold summoned by the Traveler themselves can exist at any one time.\n\n<i>Together, you and Paimon watched the shifting colors of the flowing flames.</i>"
+          },
+          "burst": {
+            "name": "Plains Scorcher",
+            "desc": "Condense the flames into a mark, dealing Nightsoul-aligned <e:pyro>AoE Pyro DMG</e> to opponents up ahead. The Traveler restores 7 Nightsoul points per second for the next 4s.\n\n<i>Together, you and Paimon studied the principles behind an undying flame.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "True Flame of Incineration",
+            "desc": "When the Traveler has over 20 Nightsoul points, the attack AoE of the Blazing and Scorching Thresholds from the Elemental Skill <k>Flowfire Blade</k> after they hit opponents is increased."
+          },
+          {
+            "name": "Embers Unspent",
+            "desc": "After the current active character inside a <k>Blazing Threshold</k> or <k>Scorching Threshold</k> triggers a <e:pyro>Pyro-related reaction</e>, the Traveler will regain 5 Energy. This can occur once every 12s. Additionally, when a nearby party member triggers a Nightsoul Burst, the Traveler will regain 4 Energy."
+          },
+          {
+            "name": "Foreign Starfire",
+            "desc": "Draw new strength from journeys past. For every element you have resonated with, you gain additional <k>buffs</k>.\n\nAdditionally, when nearby party members trigger Nightsoul Burst, Traveler will receive 1 stack of Blade of the Sacred Flame, max 2 stacks. After obtaining 2 stacks of Blade of the Sacred Flame, performing a Charged Attack will consume all stacks of Blade of the Sacred Flame and transform into a special <k>Charged Attack: Inferno</k>.\n\n<k>Charged Attack: Inferno</k>\n· Each Charged Attack hit deals increased, Nightsoul-aligned <e:pyro>Pyro DMG</e>. Increase in DMG is equal to 200% of Traveler's ATK.\n· <k>Charged Attack: Inferno</k> can be triggered up to once every 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Starfire's Flowing Light",
+            "desc": "While <k>Blazing Threshold</k> or <k>Scorching Threshold</k> are active, the current active character deals 6% increased DMG. If said character is in the Nightsoul's Blessing state, they will deal an additional 9% DMG."
+          },
+          {
+            "level": 2,
+            "name": "Ever-Lit Candle",
+            "desc": "Within 12s of using the Elemental Skill <k>Flowfire Blade</k>, after nearby party members trigger a <e:pyro>Pyro-related reaction</e> on an opponent, the Traveler will regain 14 Nightsoul points. Each use of <k>Flowfire Blade</k> will restore at most 28 Nightsoul points in this way."
+          },
+          {
+            "level": 3,
+            "name": "Relayed Beacon",
+            "desc": "Increases the Level of <k>Flowfire Blade</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Ravaging Flame",
+            "desc": "After using the Elemental Burst <k>Plains Scorcher</k>, the Traveler gains 20% <e:pyro>Pyro DMG Bonus</e> for 9s."
+          },
+          {
+            "level": 5,
+            "name": "The Fire Inextinguishable",
+            "desc": "Increases the Level of <k>Plains Scorcher</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Sacred Flame Imperishable",
+            "desc": "While in the Nightsoul's Blessing state, the Traveler's Normal, Charged, and Plunging Attacks will be converted to Nightsoul-aligned <e:pyro>Pyro DMG</e> that cannot be overridden, and the CRIT DMG of these attacks is increased by 40%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Flammes d'ailleurs",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Fléau des flammes",
+            "desc": "Manipule une flamme brûlante qui peut incinérer la terre entière. Différents effets se produisent selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nAppelle la puissance des flammes de manière déchaînée. Après utilisation, le voyageur obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil enflammé qui suit le personnage déployé.\nEn s'approchant d'ennemis, le seuil enflammé inflige des <e:pyro>DGT Pyro</e> infusés de noctâme aux ennemis proches de façon intermittente.\n\n<k>Appui long</k>\nAppelle la puissance des flammes de manière posée pour infliger des <e:pyro>DGT Pyro de zone</e> infusés de noctâme aux ennemis proches. Après utilisation, le voyageur obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil brûlant qui suit le personnage déployé.\nLorsqu'un personnage déployé en son sein inflige des DGT à un ennemi, le seuil brûlant déclenche une attaque coordonnée infligeant des <e:pyro>DGT Pyro</e> infusés de noctâme selon l'ATQ du voyageur. Cet effet peut être déclenché une fois toutes les 3 s.\n\n<k>Bénédiction noctâme : Voyageur</k>\nLa bénédiction noctâme du voyageur consomme de façon continue ses points de noctâme, dure un maximum de 12 s et prend fin une fois les points épuisés. Utiliser à nouveau la compétence élémentaire pendant cette durée réinitialise le noctâme du voyageur à 42 pts.\nLes seuils enflammés et brûlants disparaissent lorsque la bénédiction noctâme du voyageur prend fin et il ne peut exister qu'un seul seuil enflammé ou brûlant invoqué par le voyageur à la fois.\n\n<i>Paimon et vous avez étudié les couleurs changeantes des flammes.</i>"
+          },
+          "burst": {
+            "name": "Prairie d'embrasement",
+            "desc": "Condense les flammes en une marque, infligeant des <e:pyro>DGT Pyro de zone</e> infusés de noctâme aux ennemis en face, et accorde 7 pts de noctâme au voyageur toutes les secondes pendant 4 s.\n\n<i>Paimon et vous avez étudié les principes derrières les flammes éternelles.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Feu d'incinération véritable",
+            "desc": "Si le voyageur possède plus de 20 pts de noctâme, la zone d'effet des attaques des seuils enflammés et brûlants de la compétence élémentaire <k>Fléau des flammes</k> augmente après qu'un ennemi a été touché."
+          },
+          {
+            "name": "Feu de braise imbrûlée",
+            "desc": "Lorsqu'un personnage déployé à l'intérieur d'un <k>seuil enflammé</k> ou d'un <k>seuil brûlant</k> a déclenché une <e:pyro>réaction liée à l'élément Pyro</e> sur un ennemi, le voyageur récupère 5 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 12 s. De plus, le voyageur récupère également 4 pts d'énergie élémentaire lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme."
+          },
+          {
+            "name": "Stellafeu d'ailleurs",
+            "desc": "Permet au voyageur de puiser une force nouvelle dans ses périples passés, lui accordant un <k>effet de renforcement</k> supplémentaire pour chaque élément avec lequel il est entré en résonance.\n\nDe plus, lorsqu'un personnage de l'équipe à proximité déclenche une éruption noctâme, le voyageur obtient 1 lame de feu sacré, un maximum de 2 lames pouvant être obtenu. Avec 2 lames de feu sacré, effectuer une attaque chargée consomme toutes les lames pour déclencher une <k>attaque chargée « Incinération »</k> spéciale.\n\n<k>Attaque chargée « Incinération »</k>\nChaque coup de l'attaque chargée inflige des <e:pyro>DGT Pyro</e> infusés de noctâme qui sont augmentés d'une valeur équivalant à 200 % de l'ATQ du voyageur.\n· Une <k>attaque chargée « Incinération »</k> peut être déclenchée une fois toutes les 15 s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Feu de flux stellaire",
+            "desc": "Lorsqu'un <k>seuil enflammé</k> ou un <k>seuil brûlant</k> est actif, les DGT infligés par le personnage déployé augmentent de 6 %, et de 9 % supplémentaires s'il bénéficie d'une bénédiction noctâme."
+          },
+          {
+            "level": 2,
+            "name": "Feu de chandelle pérenne",
+            "desc": "Pendant 12 s après avoir utilisé la compétence élémentaire <k>Fléau des flammes</k>, le voyageur récupère 14 pts de noctâme lorsqu'un membre de l'équipe à proximité a déclenché une <e:pyro>réaction liée à l'élément Pyro</e> sur un ennemi. Chaque utilisation de <k>Fléau des flammes</k> peut restaurer un maximum 28 pts de noctâme de cette manière."
+          },
+          {
+            "level": 3,
+            "name": "Feu de balise relayée",
+            "desc": "Niveau d'aptitude <k>Fléau des flammes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Feu de ravage flamboyant",
+            "desc": "Après avoir utilisé le déchaînement élémentaire <k>Prairie d'embrasement</k>, le voyageur bénéficie d'un <e:pyro>bonus de DGT Pyro</e> de 20 % pendant 9 s."
+          },
+          {
+            "level": 5,
+            "name": "Feu d'inextinguibilité nouvelle",
+            "desc": "Niveau d'aptitude <k>Prairie d'embrasement</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Feu d'impérissabilité sacrée",
+            "desc": "Lorsque le voyageur bénéficie d'une bénédiction noctâme, ses attaques normales, chargées et plongeantes sont converties pour infliger des <e:pyro>DGT Pyro</e> infusés de noctâme ne pouvant pas être enchantés et les DGT CRIT de ces attaques augmentent de 40 %."
+          }
+        ]
+      }
+    }
   }
 }

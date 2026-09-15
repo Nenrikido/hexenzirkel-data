@@ -38,5 +38,41 @@
     "nanokaVersion": "6.7.54",
     "refinementModelled": "R5",
     "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11436",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame.",
+        "passive": {
+          "name": "Starfire Upon the Snowplains",
+          "refinements": {
+            "1": "Triggering an Elemental Reaction increases the equipping character's ATK by <r>16%</r> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <r>16%</r> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "2": "Triggering an Elemental Reaction increases the equipping character's ATK by <r>20%</r> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <r>20%</r> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "3": "Triggering an Elemental Reaction increases the equipping character's ATK by <r>24%</r> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <r>24%</r> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "4": "Triggering an Elemental Reaction increases the equipping character's ATK by <r>28%</r> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <r>28%</r> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "5": "Triggering an Elemental Reaction increases the equipping character's ATK by <r>32%</r> for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <r>32%</r> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée longue entièrement faite de pierres précieuses, forgée, dit-on, pour la voie de la droiture. Dégainée, elle resplendit d'un éclat de flamme bleue.",
+        "passive": {
+          "name": "Stellafeu sur les neiges",
+          "refinements": {
+            "1": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>16 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>16 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>20 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>20 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>24 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>24 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>28 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>28 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>32 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>32 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

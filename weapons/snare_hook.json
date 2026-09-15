@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15433",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "The stave of this bow is comprised of metal alloy and yet remains surprisingly light. Even when faced with thick, heavy snares, the arrows it fires can pass through unhindered.",
+        "passive": {
+          "name": "Phantom Flash",
+          "refinements": {
+            "1": "Upon causing an Elemental Reaction, increases Elemental Mastery by <r>60</r> for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by <r>60</r>. This effect can be triggered even if the equipping character is off-field.",
+            "2": "Upon causing an Elemental Reaction, increases Elemental Mastery by <r>75</r> for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by <r>75</r>. This effect can be triggered even if the equipping character is off-field.",
+            "3": "Upon causing an Elemental Reaction, increases Elemental Mastery by <r>90</r> for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by <r>90</r>. This effect can be triggered even if the equipping character is off-field.",
+            "4": "Upon causing an Elemental Reaction, increases Elemental Mastery by <r>105</r> for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by <r>105</r>. This effect can be triggered even if the equipping character is off-field.",
+            "5": "Upon causing an Elemental Reaction, increases Elemental Mastery by <r>120</r> for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by <r>120</r>. This effect can be triggered even if the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "La tige de cet arc est composée d'un alliage métallique, tout en restant étonnamment légère. Même face à des pièges épais et lourds, les flèches qu'il tire passent sans encombre.",
+        "passive": {
+          "name": "Éclair fantôme",
+          "refinements": {
+            "1": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>60</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>60</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>75</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>75</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>90</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>90</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>105</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>105</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>120</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>120</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

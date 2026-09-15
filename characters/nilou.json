@@ -284,5 +284,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000070",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Dance of Samser",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive sword strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to perform a twirling slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Dance of Haftkarsvar",
+            "desc": "Enters the Pirouette state, dealing <e:hydro>Hydro DMG</e> to nearby opponents based on Nilou's Max HP.\nWhile she is in the Pirouette state, Nilou's Normal Attacks and Elemental Skill will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to <e:hydro>Hydro DMG</e> that cannot be overridden and that is considered Elemental Skill DMG.\n\nIn these stances, Nilou's third dance step will end Pirouette, and has the following effects based on the type of said dance step:\n· Sword Dance: unleashes a Luminous Illusion that deals <e:hydro>Hydro DMG</e> to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion.\n· Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals <e:hydro>AoE Hydro DMG</e> and creates a Tranquility Aura that follows your active character around and applies <e:hydro>Wet</e> to opponents within its AoE.\n\nNilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.\n\n<i>\"Daintily her toes touch the water's face, and the light that ripples forth equals even the seven heavens.\"</i>"
+          },
+          "burst": {
+            "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+            "desc": "Begins the dance of faraway dreams and springs that hear, causing a Lotus of Distant Waters to bloom, dealing <e:hydro>AoE Hydro DMG</e> based on Nilou's Max HP and applying the Lingering Aeon effect to all opponents hit.\nAfter an interval, opponents affected by Lingering Aeon will take <e:hydro>Hydro DMG</e>.\n\n<i>\"We have never witnessed that distant dream, but this dance can bring it to life.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Court of Dancing Petals",
+            "desc": "When all characters in the party are all <e:dendro>Dendro</e> or <e:hydro>Hydro</e>, and there are at least one Dendro character and one Hydro character:\nThe completion of the third dance step of Nilou's <k>Dance of Haftkarsvar</k> will grant all nearby characters the Golden Chalice's Bounty for 30s.\nCharacters under the effect of Golden Chalice's Bounty will increase the Elemental Mastery of all nearby characters by 100 for 10s whenever they are hit by <e:dendro>Dendro attacks</e>. Also, triggering the Bloom or Lunar-Bloom reaction will create Bountiful Cores instead of Dendro Cores.\nSuch Cores will burst very quickly after being created, and they have larger AoEs.\nBountiful Cores cannot trigger Hyperbloom or Burgeon, and they share an upper numerical limit with Dendro Cores. Bountiful Core DMG is considered DMG dealt by Dendro Cores produced by Bloom.\nShould the party not meet the conditions for this Ascension Talent, any existing Golden Chalice's Bounty effects will be canceled."
+          },
+          {
+            "name": "Dreamy Dance of Aeons",
+            "desc": "Every 1,000 points of Nilou's Max HP above 30,000 will cause the DMG dealt by Bountiful Cores created by characters affected by Golden Chalice's Bounty to increase by 9%.\nThe maximum increase in Bountiful Core DMG that can be achieved this way is 400%."
+          },
+          {
+            "name": "White Jade Lotus",
+            "desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Dance of the Waning Moon",
+            "desc": "<k>Dance of Haftkarsvar</k> will be enhanced as follows:\n· Luminous Illusion DMG is increased by 65%.\n· The Tranquility Aura's duration is extended by 6s."
+          },
+          {
+            "level": 2,
+            "name": "The Starry Skies Their Flowers Rain",
+            "desc": "After characters affected by the Golden Chalice's Bounty deal <e:hydro>Hydro DMG</e> to an opponent, that opponent's <e:hydro>Hydro RES</e> will be decreased by 35% for 10s. After dealing Bloom or Lunar-Bloom DMG to opponents, their <e:dendro>Dendro RES</e> will be decreased by 35% for 10s.\nYou must first unlock the Ascension Talent \"Court of Dancing Petals.\""
+          },
+          {
+            "level": 3,
+            "name": "Beguiling Shadowstep",
+            "desc": "Increases the Level of <k>Dance of Abzendegi: Distant Dreams, Listening Spring</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Fricative Pulse",
+            "desc": "After the third dance step of <k>Dance of Haftkarsvar</k>'s Pirouette hits opponents, Nilou will gain 15 Elemental Energy, and DMG from her <k>Dance of Abzendegi: Distant Dreams, Listening Spring</k> will be increased by 50% for 8s."
+          },
+          {
+            "level": 5,
+            "name": "Twirling Light",
+            "desc": "Increases the Level of <k>Dance of Haftkarsvar</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Frostbreaker's Melody",
+            "desc": "For every 1,000 points of Max HP, Nilou's CRIT Rate and CRIT DMG will increase by 0.6% and 1.2% respectively.\nThe maximum increase in CRIT Rate and CRIT DMG via this method is 30% and 60% respectively."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Danse de shamshir",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour exécuter une entaille tournoyante.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Danse des haftkarsvars",
+            "desc": "Active l'état Pirouette, infligeant des <e:hydro>DGT Hydro</e> aux ennemis proches selon les PV max de Nilou.\nDans l'état Pirouette, les attaques normales et les compétences élémentaires de Nilou la feront entrer respectivement dans les postures de Danse d'épée et de Danse de tourbillon, provoquant la conversion de ses DGT en <e:hydro>DGT Hydro</e> ne pouvant pas être enchantés et étant considérés comme des DGT de compétence élémentaire.\n\nDans ces postures, le troisième pas de danse de Nilou annule l'état Pirouette tout en ayant les effets suivants selon la posture :\n· Danse d'épée : Nilou libère une lune aqueuse qui inflige des <e:hydro>DGT Hydro</e> aux ennemis qu'elle touche et accorde à Nilou l'effet Prière lunaire. Avec cet effet, les attaques normales de Nilou sont converties en techniques de la Danse d'épée et son coup final déclenche une lune aqueuse.\n· Danse de tourbillon : Nilou déchaîne une roue à eau qui inflige des <e:hydro>DGT Hydro de zone</e> et crée une aura de tranquillité qui suit votre personnage déployé et applique de façon continue l'état <e:hydro>Trempé</e> aux ennemis à portée.\n\nNilou ne peut pas utiliser d'attaques chargées lorsqu'elle est sous les effets de pirouette ou de prière lunaire. Ces effets cessent lorsque Nilou quitte le champ de bataille.\n\n<i>« Délicatement, ses orteils touchent le visage de l'eau, et la lumière qui ondule égale même les sept cieux. »</i>"
+          },
+          "burst": {
+            "name": "Danse d'abzendegi : Ruisseau des rêves lointains",
+            "desc": "Commence la danse des rêves éloignés et des sources à l'écoute, faisant ainsi fleurir un lotus des eaux lointaines infligeant des <e:hydro>DGT Hydro de zone</e> selon les PV max de Nilou et affligeant l'effet Éon persistant aux ennemis touchés.\nAprès un court délai, les ennemis affectés par Éon persistant subissent des <e:hydro>DGT Hydro</e>.\n\n<i>« Nous n'avons jamais été témoins de ce rêve lointain, mais cette danse peut lui donner vie. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Cour des pétales dansants",
+            "desc": "Lorsque les personnages de l'équipe sont de l'élément <e:dendro>Dendro</e> ou <e:hydro>Hydro</e> et qu'il y a au moins un personnage Dendro et un personnage Hydro :\nLa complétion du troisième pas de <k>Danse des haftkarsvars</k> de Nilou accorde à tous les personnages à proximité l'effet Prime du calice d'or pendant 30 s.\nLorsqu'un personnage sous l'effet Prime du calice d'or subit une <e:dendro>attaque Dendro</e>, la maîtrise élémentaire de tous les personnages à proximité augmente de 100 pts pendant 10 s. De plus, déclencher une réaction de Fleurissement ou de Sélénofleurissement permet de créer des noyaux d'abondance au lieu de noyaux Dendro.\nComparés aux noyaux Dendro, ces noyaux d'abondance éclatent très rapidement après avoir été créés et possèdent une zone d'effet plus grande.\nLes noyaux d'abondance ne peuvent pas déclencher de réactions d'Exubérance ou de Bourgeonnement et partagent une limite avec les noyaux Dendro. Les attaques des noyaux d'abondance sont considérées comme des attaques infligées par les noyaux Dendro générés par la réaction de Fleurissement.\nQuand le type élémentaire des personnages de l'équipe ne remplit pas les conditions de cette aptitude d'élévation, tous les effets Prime du calice d'or existants sont annulés."
+          },
+          {
+            "name": "Danse onirique des éons",
+            "desc": "Pour chaque tranche de 1 000 au-dessus de 30 000 PV max que Nilou possède, les DGT infligés par les noyaux d'abondance déclenchés par les personnages sous l'effet Prime du calice d'or augmentent de 9 %.\nLes DGT des noyaux d'abondance peuvent être augmentés d'un maximum de 400 % de cette manière."
+          },
+          {
+            "name": "Lotus de jade blanc",
+            "desc": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat parfait qui a des effets sur l'exploration."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Danse de la lune décroissante",
+            "desc": "<k>Danse des haftkarsvars</k> bénéficie des améliorations suivantes :\n· Les DGT infligés par la lune aqueuse augmentent de 65 %.\n· La durée de l'aura de tranquillité augmente de 6 s."
+          },
+          {
+            "level": 2,
+            "name": "Pluie de fleurs du ciel étoilé",
+            "desc": "Lorsqu'un personnage sous l'effet Prime du calice d'or a infligé des <e:hydro>DGT Hydro</e> à un ennemi, la <e:hydro>RÉS Hydro</e> de ce dernier diminue de 35 % pendant 10 s. Lorsqu'une réaction de Fleurissement ou de Sélénofleurissement a infligé des DGT à un ennemi, la <e:dendro>RÉS Dendro</e> de ce dernier diminue de 35 % pendant 10 s.\nL'aptitude d'élévation « Cour des pétales dansants » doit être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Pas d'ombre séduisant",
+            "desc": "Niveau d'aptitude <k>Danse d'abzendegi : Ruisseau des rêves lointains</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Impulsion fricative",
+            "desc": "Lorsque le troisième pas de danse de l'état Pirouette de <k>Danse des haftkarsvars</k> a touché un ennemi, Nilou récupère 15 pts d'énergie élémentaire et les DGT qu'elle inflige en utilisant <k>Danse d'abzendegi : Ruisseau des rêves lointains</k> augmentent de 50 % pendant 8 s."
+          },
+          {
+            "level": 5,
+            "name": "Lumière tourbillonnante",
+            "desc": "Niveau d'aptitude <k>Danse des haftkarsvars</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Mélodie de brise-givre",
+            "desc": "Pour chaque tranche de 1 000 PV max, le taux CRIT de Nilou augmente de 0,6 % et ses DGT CRIT de 1,2 %.\nLe taux CRIT de Nilou peut être augmenté d'un maximum de 30 % et ses DGT CRIT d'un maximum de 60 % de cette manière."
+          }
+        ]
+      }
+    }
   }
 }

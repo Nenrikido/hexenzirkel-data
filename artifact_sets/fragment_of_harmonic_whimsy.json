@@ -25,5 +25,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15035",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Fragment of Harmonic Whimsy",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."
+        }
+      },
+      "fr": {
+        "name": "Fragment d'harmonie divergente",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Lorsque la valeur d'un engagement vital augmente ou diminue, les DGT infligés par le personnage augmentent de 18 % pendant 6 s. Cet effet peut être cumulé 3 fois maximum."
+        }
+      }
+    }
   }
 }

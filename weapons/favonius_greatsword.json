@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12401",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive.",
+        "passive": {
+          "name": "Windfall",
+          "refinements": {
+            "1": "CRIT Hits have a <r>60%</r> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <r>12</r>s.",
+            "2": "CRIT Hits have a <r>70%</r> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <r>10.5</r>s.",
+            "3": "CRIT Hits have a <r>80%</r> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <r>9</r>s.",
+            "4": "CRIT Hits have a <r>90%</r> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <r>7.5</r>s.",
+            "5": "CRIT Hits have a <r>100%</r> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <r>6</r>s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un espadon généralement manié par les chevaliers de l'Ordre de Favonius. Invoquer les éléments est un jeu d'enfant avec cette arme au pouvoir destructeur.",
+        "passive": {
+          "name": "Charge critique",
+          "refinements": {
+            "1": "Les coups CRIT des attaques ont <r>60 %</r> de chances de générer une faible quantité de particules élémentaires qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les <r>12</r> s.",
+            "2": "Les coups CRIT des attaques ont <r>70 %</r> de chances de générer une faible quantité de particules élémentaires qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les <r>10,5</r> s.",
+            "3": "Les coups CRIT des attaques ont <r>80 %</r> de chances de générer une faible quantité de particules élémentaire qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les <r>9</r> s.",
+            "4": "Les coups CRIT des attaques ont <r>90 %</r> de chances de générer une faible quantité de particules élémentaires qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les <r>7,5</r> s.",
+            "5": "Les coups CRIT des attaques ont <r>100 %</r> de chances de générer une faible quantité de particules élémentaire qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les <r>6</r> s."
+          }
+        }
+      }
+    }
   }
 }

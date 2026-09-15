@@ -317,5 +317,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000020",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Steel Fang",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Claw and Thunder",
+            "desc": "Hunts his prey using the techniques taught to him by his master and his lupical.\n\n<k>Press</k>\nSwings the Thunder Wolf Claw, dealing <e:electro>Electro DMG</e> to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n<k>Hold</k>\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive <e:electro>Electro DMG</e>, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\n\n<i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i>"
+          },
+          "burst": {
+            "name": "Lightning Fang",
+            "desc": "Summons the Wolf Within, which deals <e:electro>Electro DMG</e> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n<k>The Wolf Within</k>\n· Strikes alongside Razor's normal attacks, dealing <e:electro>Electro DMG</e>.\n· Raises Razor's ATK SPD and <e:electro>Electro RES</e>.\n· Causes Razor to be immune to DMG inflicted by the <e:electro>Electro-Charged</e> status.\n· Disables Razor's Charged Attacks.\n· Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\n\n<i>The wolf has awoken. The hunt is on.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Awakening",
+            "desc": "Decreases <k>Claw and Thunder</k>'s CD by 18%.\nUsing <k>Lightning Fang</k> resets the CD of <k>Claw and Thunder</k>."
+          },
+          {
+            "name": "Hunger",
+            "desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
+          },
+          {
+            "name": "Wolvensprint",
+            "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+          },
+          {
+            "name": "Witch's Eve Rite: Surge of Lightning",
+            "desc": "After completing <k>Witch's Homework: Of the Little Wolf Pack</k>, Razor will become a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you will gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\nAdditionally, Razor's Elemental Burst <k>Lightning Fang</k> is enhanced: <k>The Wolf Within</k>'s DMG dealt is increased by 70% of Razor's ATK.\n\n<k>Hexerei: Secret Rite</k>\nWhile the Wolf Within summoned by Razor's Elemental Burst <k>Lightning Fang</k> is active, if the Electro Sigils from Razor's Elemental Skill <k>Claw and Thunder</k> overflow, the Wolf Within will call down a lightning strike on nearby enemies, dealing AoE Electro DMG equal to 150% of Razor's ATK and restoring 7 Energy to Razor. This effect can be triggered once every 1s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Wolf's Instinct",
+            "desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s."
+          },
+          {
+            "level": 2,
+            "name": "Suppression",
+            "desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%."
+          },
+          {
+            "level": 3,
+            "name": "Soul Companion",
+            "desc": "Increases the Level of <k>Lightning Fang</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Bite",
+            "desc": "When casting <k>Claw and Thunder</k> (Press), opponents hit will have their DEF decreased by 15% for 7s."
+          },
+          {
+            "level": 5,
+            "name": "Sharpened Claws",
+            "desc": "Increases the Level of <k>Claw and Thunder</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Lupus Fulguris",
+            "desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <e:electro>Electro DMG</e>.\nWhen Razor is not using <k>Lightning Fang</k>, lightning strikes on an opponent will grant 3 Electro Sigils for his Elemental Skill <k>Claw and Thunder</k>.\nAdditionally, when Razor gains Electro Sigils through his Elemental Skill <k>Claw and Thunder</k>, he will gain 3 Sigils instead.\nFor 15s after consuming Electro Sigils, Razor's CRIT Rate is increased by 10% and CRIT DMG by 50%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Croc d'acier",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Griffe et tonnerre",
+            "desc": "Razor met à profit les enseignements de son maître et de son lupical pour chasser sa proie.\n\n<k>Appui simple</k>\nD'un coup de griffe du loup de tonnerre, il inflige des <e:electro>DGT Électro</e> aux ennemis en face.\nRazor obtient un sceau Électro lorsque cette attaque touche un ennemi, chaque sceau lui conférant un bonus de recharge d'énergie.\nRazor peut cumuler jusqu'à 3 sceaux Électro, chaque nouveau sceau réinitialisant leur durée.\n\n<k>Appui long</k>\nAmassant la puissance du tonnerre, Razor libère une explosion électrique, infligeant d'importants <e:electro>DGT Électro</e> aux ennemis proches, et supprimant tous les sceaux Électro.\nChaque sceau ainsi supprimé est converti en énergie élémentaire.\n\n<i>Parfois un malheureux peut apercevoir à la lueur de l'éclair le regard de prédateur de Razor.</i>"
+          },
+          "burst": {
+            "name": "Croc éclair",
+            "desc": "Le loup de tonnerre qui sommeille se réveille et vient à la rescousse, infligeant des <e:electro>DGT Électro</e> aux ennemis proches. Ceci supprime également tous les sceaux Électro, qui sont convertis en énergie élémentaire.\nLe loup de tonnerre combat aux côtés de Razor tant qu'il est actif.\n\n<k>Loup de tonnerre</k>\n· Attaque lorsque Razor effectue une attaque normale, et inflige des <e:electro>DGT Électro</e>.\n· Augmente la VIT d'attaque ainsi que la <e:electro>RÉS Électro</e> de Razor.\n· Razor est immunisé aux DGT d'<e:electro>Électrocution</e>.\n· Attaque chargée impossible.\n· Augmente la RÉS à l'interruption de Razor.\n\nLe loup de tonnerre disparaît lorsque Razor est vaincu ou quitte le champ de bataille.\nLe temps restant est converti en énergie élémentaire (10 pts maximum) lorsque Razor quitte le champ de bataille.\n\n<i>Le loup s'est réveillé. L'heure de la chasse a sonné.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Éveil",
+            "desc": "Diminue le TdR de <k>Griffe et tonnerre</k> de 18 %.\n<k>Croc éclair</k> réinitialise le TdR de <k>Griffe et tonnerre</k> lorsqu'il est activé."
+          },
+          {
+            "name": "Famine",
+            "desc": "Razor bénéficie d'un bonus de recharge d'énergie de 30 % lorsque son énergie élémentaire est inférieure à 50 %."
+          },
+          {
+            "name": "Vélocité lupine",
+            "desc": "Diminue la consommation d'endurance des personnages de l'équipe de 20 % lors du sprint.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
+          },
+          {
+            "name": "Veillée de la sorcière : Déferlement de foudre",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « De la petite meute »</k>, Razor devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\nDe plus, le déchaînement élémentaire <k>Croc éclair</k> de Razor est renforcé : les DGT infligés par le <k>loup de tonnerre</k> augmentent d'une valeur équivalant à 70 % de l'ATQ de Razor.\n\n<k>Hexerei : Rituel secret</k>\nSi la quantité de sceaux Électro de la compétence élémentaire <k>Griffe et tonnerre</k> dépasse la limite pendant la durée du loup de tonnerre invoqué par le déchaînement élémentaire <k>Croc éclair</k>, le loup de tonnerre déclenche un éclair sur les ennemis à proximité, infligeant des DGT Électro de zone d'une valeur équivalant à 150 % de l'ATQ de Razor et restaurant 7 pts d'énergie élémentaire à Razor. Cet effet peut être déclenché une fois toutes les secondes."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Nature du loup",
+            "desc": "Razor inflige 10 % de DGT supplémentaires pendant 8 s lorsqu'il obtient un orbe ou une particule élémentaire."
+          },
+          {
+            "level": 2,
+            "name": "Répression",
+            "desc": "Le taux CRIT de Razor augmente de 10 % quand il attaque des ennemis dont les PV sont inférieurs à 30 %."
+          },
+          {
+            "level": 3,
+            "name": "Âme de loup",
+            "desc": "Niveau d'aptitude <k>Croc éclair</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Morsure",
+            "desc": "L'appui simple de <k>Griffe et tonnerre</k> diminue la DÉF des cibles de 15 % pendant 7 s."
+          },
+          {
+            "level": 5,
+            "name": "Griffes tranchantes",
+            "desc": "Niveau d'aptitude <k>Griffe et tonnerre</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Lupus Fulguris",
+            "desc": "Toutes les 10 s, l'arme de Razor se charge d'énergie électrique pour infliger des <e:electro>DGT Électro</e> d'une valeur équivalant à 100 % de l'ATQ de Razor lors de la prochaine attaque normale.\nChaque ennemi touché confère à Razor 3 sceaux Électro de la compétence élémentaire <k>Griffe et tonnerre</k> tant que <k>Croc éclair</k> n'est pas actif.\nDe plus, lorsque Razor gagne un sceau Électro grâce à sa compétence élémentaire <k>Griffe et tonnerre</k>, il obtient 3 sceaux Électro à la place.\nPendant 15 s après avoir consommé un sceau Électro, le taux CRIT de Razor augmente de 10 % et ses DGT CRIT augmentent de 50 %."
+          }
+        ]
+      }
+    }
   }
 }

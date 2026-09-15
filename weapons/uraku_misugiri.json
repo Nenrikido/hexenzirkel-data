@@ -36,5 +36,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11514",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This famous blade was once created by the hand of Urakusai, the renowned literatus. Legend has it that it has never cut any living creature in all these hundreds of years.",
+        "passive": {
+          "name": "Brocade Bloom, Shrine Sword",
+          "refinements": {
+            "1": "Normal Attack DMG is increased by <r>16%</r> and Elemental Skill DMG is increased by <r>24%</r>. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by <r>20%</r>.",
+            "2": "Normal Attack DMG is increased by <r>20%</r> and Elemental Skill DMG is increased by <r>30%</r>. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by <r>25%</r>.",
+            "3": "Normal Attack DMG is increased by <r>24%</r> and Elemental Skill DMG is increased by <r>36%</r>. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by <r>30%</r>.",
+            "4": "Normal Attack DMG is increased by <r>28%</r> and Elemental Skill DMG is increased by <r>42%</r>. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by <r>35%</r>.",
+            "5": "Normal Attack DMG is increased by <r>32%</r> and Elemental Skill DMG is increased by <r>48%</r>. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by <r>40%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cette lame célèbre a été créée par la main d'Urakusai, le lettré renommé. La légende raconte qu'elle n'a coupé aucune créature vivante depuis ces centaines d'années.",
+        "passive": {
+          "name": "Fleur brodée et épée consacrée",
+          "refinements": {
+            "1": "Les DGT infligés par les attaques normales augmentent de <r>16 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>24 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>20 %</r>.",
+            "2": "Les DGT infligés par les attaques normales augmentent de <r>20 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>30 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>25 %</r>.",
+            "3": "Les DGT infligés par les attaques normales augmentent de <r>24 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>36 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>30 %</r>.",
+            "4": "Les DGT infligés par les attaques normales augmentent de <r>28 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>42 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>35 %</r>.",
+            "5": "Les DGT infligés par les attaques normales augmentent de <r>32 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>48 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>40 %</r>."
+          }
+        }
+      }
+    }
   }
 }

@@ -23,5 +23,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15038",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Obsidian Codex",
+        "bonuses": {
+          "2": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
+          "4": "After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second."
+        }
+      },
+      "fr": {
+        "name": "Codex d'obsidienne",
+        "bonuses": {
+          "2": "Lorsque le personnage équipé de l'artéfact bénéficie d'une bénédiction noctâme et est sur le terrain, les DGT qu'il inflige augmentent de 15 %.",
+          "4": "Lorsque le personnage équipé de l'artéfact a consommé 1 pt de noctâme sur le terrain, le taux CRIT augmente de 40 % pendant 6 s. Cet effet peut être déclenché une fois toutes les secondes."
+        }
+      }
+    }
   }
 }

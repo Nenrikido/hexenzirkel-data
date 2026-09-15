@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11306",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+        "passive": {
+          "name": "Determination",
+          "refinements": {
+            "1": "Using an Elemental Burst grants a <r>12%</r> increase in ATK and Movement SPD for 15s.",
+            "2": "Using an Elemental Burst grants a <r>15%</r> increase in ATK and Movement SPD for 15s.",
+            "3": "Using an Elemental Burst grants a <r>18%</r> increase in ATK and Movement SPD for 15s.",
+            "4": "Using an Elemental Burst grants a <r>21%</r> increase in ATK and Movement SPD for 15s.",
+            "5": "Using an Elemental Burst grants a <r>24%</r> increase in ATK and Movement SPD for 15s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une solide épée en acier. On raconte que quelqu'un a essayé de s'en servir comme moyen de transport...",
+        "passive": {
+          "name": "Détermination",
+          "refinements": {
+            "1": "Augmente l'ATQ et la VIT de déplacement de <r>12 %</r> pendant 15 s après un déchaînement élémentaire.",
+            "2": "Augmente l'ATQ et la VIT de déplacement de <r>15 %</r> pendant 15 s après un déchaînement élémentaire.",
+            "3": "Augmente l'ATQ et la VIT de déplacement de <r>18 %</r> pendant 15 s après un déchaînement élémentaire.",
+            "4": "Augmente l'ATQ et la VIT de déplacement de <r>21 %</r> pendant 15 s après un déchaînement élémentaire.",
+            "5": "Augmente l'ATQ et la VIT de déplacement de <r>24 %</r> pendant 15 s après un déchaînement élémentaire."
+          }
+        }
+      }
+    }
   }
 }

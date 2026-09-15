@@ -208,5 +208,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000082",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "The Classics of Acupuncture",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 attacks that deal <e:dendro>Dendro DMG</e> to opponents in front of him.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to deal <e:dendro>AoE Dendro DMG</e> to opponents in front of him after a short casting time.\n\n<k>Plunging Attack</k>\nCalling upon the might of Dendro, Baizhu plunges towards the ground from mid-air, damaging all opponents in his path. Deals <e:dendro>AoE Dendro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Universal Diagnosis",
+            "desc": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing <e:dendro>Dendro DMG</e>.\nAfter it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.\n\n<i>Those in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show.</i>"
+          },
+          "burst": {
+            "name": "Holistic Revivification",
+            "desc": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs <e:dendro>Dendro DMG</e> with 250% effectiveness.\nWhile in this state, Baizhu will generate a new Seamless Shield every 2.5s.\n\nThe Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing <e:dendro>Dendro DMG</e> under the following circumstances:\n· When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated.\n· When the Seamless Shield's effects expire, or when it is shattered.\n\n<i>If you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Five Fortunes Forever",
+            "desc": "Baizhu gains different effects according to the current HP of your current active character:\n· When their HP is less than 50%, Baizhu gains 20% Healing Bonus.\n· When their HP is equal to or more than 50%, Baizhu gains 25% <e:dendro>Dendro DMG Bonus</e>."
+          },
+          {
+            "name": "All Things Are of the Earth",
+            "desc": "Characters who are healed by <k>Seamless Shields</k> will gain the Year of Verdant Favor effect: Each 1,000 Max HP that Baizhu possesses that does not exceed 50,000 will increase the Burning, Bloom, Hyperbloom, and Burgeon reaction DMG dealt by these characters by 2%, their Lunar-Bloom DMG by 0.7%, and the DMG Bonus provided by Aggravate and Spread by 0.8%. This effect lasts 6s."
+          },
+          {
+            "name": "Herbal Nourishment",
+            "desc": "When Baizhu is in the party, interacting with certain harvestable items will heal your current active character for 2.5% of Baizhu's Max HP."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Attentive Observation",
+            "desc": "<k>Universal Diagnosis</k> gains 1 additional charge."
+          },
+          {
+            "level": 2,
+            "name": "Incisive Discernment",
+            "desc": "When your own active character hits a nearby opponent with their attacks, Baizhu will unleash a Gossamer Sprite: Splice.\nGossamer Sprite: Splice will initiate 1 attack before returning, dealing 250% of Baizhu's ATK as <e:dendro>Dendro DMG</e> and healing for 20% of <k>Universal Diagnosis</k>'s Gossamer Sprite's normal healing.\nDMG dealt this way is considered Elemental Skill DMG.\nThis effect can be triggered once every 5s."
+          },
+          {
+            "level": 3,
+            "name": "All Aspects Stabilized",
+            "desc": "Increases the Level of <k>Holistic Revivification</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Ancient Art of Perception",
+            "desc": "For 15s after <k>Holistic Revivification</k> is used, Baizhu will increase all nearby party members' Elemental Mastery by 80."
+          },
+          {
+            "level": 5,
+            "name": "The Hidden Ebb and Flow",
+            "desc": "Increases the Level of <k>Universal Diagnosis</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Elimination of Malicious Qi",
+            "desc": "Increases the DMG dealt by <k>Holistic Revivification</k>'s Spiritveins by 8% of Baizhu's Max HP.\nAdditionally, when a <k>Gossamer Sprite</k> or Gossamer Sprite: Splice hits opponents, there is a 100% chance of generating one of <k>Holistic Revivification</k>'s Seamless Shields. This effect can only be triggered once by each Gossamer Sprite or Gossamer Sprite: Splice."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Acupuncture dorée",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 attaques qui infligent des <e:dendro>DGT Dendro</e> vers l'avant.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:dendro>DGT Dendro de zone</e> vers l'avant après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Dendro, infligeant des DGT aux ennemis en chemin et des <e:dendro>DGT Dendro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Diagnostic universel",
+            "desc": "Contrôle un esprit de gaze qui se promène et attaque les ennemis proches, infligeant des <e:dendro>DGT Dendro</e>.\nAprès avoir effectué 3 attaques ou s'il n'y a pas d'ennemis à proximité, l'esprit revient et soigne tous les personnages de l'équipe à proximité selon les PV max de Baizhu.\n\n<i>Ceux qui, dans le domaine médical, peuvent distinguer les vrais signes de maladie des faux peuvent même guérir les gens avant que les symptômes ne se manifestent.</i>"
+          },
+          "burst": {
+            "name": "Reviviscence holistique",
+            "desc": "Entre dans l'état Ordonnance impulsive, créant un bouclier aseptique qui absorbe les <e:dendro>DGT Dendro</e> 250 % plus efficacement.\nPendant cet état, un nouveau bouclier aseptique est généré toutes les 2,5 s.\n\nDans les circonstances suivantes, le bouclier aseptique soigne votre personnage déployé selon les PV max de Baizhu et libère une veine d'aura pour attaquer les ennemis en infligeant des <e:dendro>DGT Dendro</e> :\n· Lorsqu'un personnage est sous la protection d'un bouclier aseptique et qu'un nouveau bouclier aseptique est généré.\n· Lorsque les effets du bouclier aseptique prennent fin ou lorsqu'il est détruit.\n\n<i>Si l'on peut percevoir les cieux et la terre, défendre sa sphère intérieure contre les influences extérieures et garder l'esprit clair, rien ne peut gêner.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Cinq fortunes perpétuelles",
+            "desc": "Baizhu obtient différents effets selon les PV de votre personnage déployé :\n· Si les PV de ce dernier sont inférieurs à 50 %, Baizhu obtient un bonus de soins de 20 %.\n· Si les PV de ce dernier sont supérieurs ou égaux à 50 %, Baizhu bénéficie d'un <e:dendro>bonus de DGT Dendro</e> de 25 %."
+          },
+          {
+            "name": "Terre mère",
+            "desc": "Les personnages soignés par un <k>bouclier aseptique</k> obtiennent l'effet Année de la chance boisée : pour chaque tranche de 1 000 PV max que Baizhu possède jusqu'à 50 000 PV, les DGT infligés par leurs réactions de Brûlure, de Fleurissement, d'Exubérance et de Bourgeonnement augmentent de 2 %, les DGT infligés par leurs réactions de Sélénofleurissement augmentent de 0,7 % et les augmentations de DGT accordées par leurs réactions de Suractivation et de Propagation augmentent de 0,8 %, pendant 6 s."
+          },
+          {
+            "name": "Bienfait herbacé",
+            "desc": "Lorsque Baizhu fait partie de l'équipe, interagir avec certains objets récoltables soigne votre personnage déployé d'une valeur équivalant à 2,5 % des PV max de Baizhu."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Regard attentif",
+            "desc": "Confère une utilisation supplémentaire de <k>Diagnostic universel</k>."
+          },
+          {
+            "level": 2,
+            "name": "Discernement incisif",
+            "desc": "Lorsque votre personnage déployé touche un ennemi proche avec une attaque, Baizhu libère un esprit divisé de gaze.\nL'esprit divisé de gaze effectue 1 attaque avant de revenir, infligeant des <e:dendro>DGT Dendro</e> d'une valeur équivalant à 250 % de l'ATQ de Baizhu et soignant pour 20 % du soin de l'esprit de gaze de <k>Diagnostic universel</k>.\nLes DGT infligés de cette manière sont considérés comme des DGT de compétence élémentaire.\nCet effet peut être déclenché une fois toutes les 5 s."
+          },
+          {
+            "level": 3,
+            "name": "Stabilisation complète",
+            "desc": "Niveau d'aptitude <k>Reviviscence holistique</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Perception ancienne",
+            "desc": "La maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 15 s après l'utilisation de <k>Reviviscence holistique</k>."
+          },
+          {
+            "level": 5,
+            "name": "Fluctuations déroutantes",
+            "desc": "Niveau d'aptitude <k>Diagnostic universel</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Purification du qi",
+            "desc": "Les DGT infligés par la veine d'aura de <k>Reviviscence holistique</k> augmentent d'une valeur équivalant à 8 % des PV max de Baizhu.\nDe plus, lorsque l'<k>esprit de gaze</k> ou l'esprit divisé de gaze touche un ennemi, il y a 100 % de chances de créer un bouclier aseptique de <k>Reviviscence holistique</k>. Cet effet peut être déclenché une fois par esprit de gaze ou esprit divisé de gaze."
+          }
+        ]
+      }
+    }
   }
 }

@@ -334,5 +334,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000148",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Skirmishing Spear",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes and applies the <k>Hunter's Mark</k> to the opponent hit by the final strike.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Thunderbolt Strike",
+            "desc": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the <k>Hunter's Mark</k> effect to the hit opponents.\n\n<k>Tapping</k>\nFires at opponents in front of him, dealing <e:electro>AoE Electro DMG</e>.\n\n<k>Holding</k>\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals <e:electro>Electro DMG</e> to the targeted opponents.\n\n<i>The reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.</i>"
+          },
+          "burst": {
+            "name": "Hunter's Advance",
+            "desc": "Summons his trusted companion <k>Tugarin</k> to fight alongside him on the field. This also turns an area in front of him into a <k>Fulgurite Hunting Field</k> for a short time.\n\n<k>Fulgurite Hunting Field</k>\n· Continuously taunts nearby opponents to incite them to attack.\n· Every 2s, deals an instance of <e:electro>AoE Electro DMG</e> to any opponent that enters the field.\n\n<k>Tugarin</k>\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing <k>Electro DMG</k>.\n· If an opponent affected by the <k>Hunter's Mark</k> effect is hit, the <k>Hunter's Mark</k> will also be activated.\n· Where there are multiple opponents, Tugarin will attack those affected by the <k>Hunter's Mark</k> effect first.\n\n<i>Wait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Awakened by the Baying Hounds",
+            "desc": "When <k>Tugarin</k> attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK."
+          },
+          {
+            "name": "Suffer the Winter Wheat Will",
+            "desc": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way."
+          },
+          {
+            "name": "Into the Fray",
+            "desc": "Alyosha will enter the <k>Radiance: Stellar-Conduct</k> state when inside a <k>Polestar Field</k>.\n<k>Radiance: Stellar-Conduct</k>: The <k>Hunter's Precision</k> effect obtained when the <k>Hunter's Mark</k> is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%."
+          },
+          {
+            "name": "Treetop Watch",
+            "desc": "Displays the location of nearby <k>resources unique to Snezhnaya</k> on the mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Frostvale Thunderclap",
+            "desc": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an <e:electro>Electro-related reaction</e> on an opponent. This effect can trigger once every 18s."
+          },
+          {
+            "level": 2,
+            "name": "Howl From Afar",
+            "desc": "The duration of the Elemental Burst <k>Hunter's Advance</k> is extended by 6s.\nAdditionally, each time <k>Tugarin</k> attacks the opponent, he will also apply the <k>Hunter's Mark</k> to a target. This effect does not activate existing <k>Hunter's Marks</k>."
+          },
+          {
+            "level": 3,
+            "name": "Friendly Call",
+            "desc": "Increases the Level of the Elemental Skill <k>Thunderbolt Strike</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Harvest the Spoils",
+            "desc": "When <k>Tugarin</k> attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage."
+          },
+          {
+            "level": 5,
+            "name": "When the Nightbird Falls Silent",
+            "desc": "Increases the Level of the Elemental Burst <k>Hunter's Advance</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Standard Reclaimed",
+            "desc": "The <k>Hunter's Precision</k> effect obtained from activating a <k>Hunter's Mark</k> can now stack, max 2 stacks. When the stack count reaches 2, characters affected by <k>Hunter's Precision</k> will also have their Elemental Mastery increased by 100 if they are on the field."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance d'escarmouche",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance et applique une <k>marque de broussailleur</k> à l'ennemi touché par le dernier coup.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour foncer en avant en infligeant des DGT.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Embuscade de foudre",
+            "desc": "Alyosha suit son instinct de broussailleur, différents effets se produisant selon la méthode de déclenchement, tout en appliquant une <k>marque de broussailleur</k> sur les ennemis touchés.\n\n<k>Appui simple</k>\nTire en avant pour infliger des <e:electro>DGT Électro de zone</e>.\n\n<k>Appui long</k>\nBascule en mode visée pour verrouiller les ennemis sur une certaine zone en avant, la RÉS à l'interruption d'Alyosha augmentant pendant la visée.\nÀ la fin de l'appui long, Alyosha inflige des <e:electro>DGT Électro</e> aux ennemis verrouillés.\n\n<i>Le broussailleur téméraire avait un jour saisi le tranchant de sa lance, et ce n'est qu'après avoir survécu à une leçon payée dans le sang qu'il comprit les dures réalités de la survie dans les plaines gelées.</i>"
+          },
+          "burst": {
+            "name": "Avancée du broussailleur",
+            "desc": "Alyosha invoque <k>Tugarin</k>, son partenaire de confiance, pour combattre à ses côtés et transforme temporairement la zone en avant en <k>terrain de chasse de fulgurite</k>.\n\n<k>Terrain de chasse de fulgurite</k>\n· Nargue de façon continue les ennemis proches, attirant leurs attaques.\n· Toutes les 2 s, inflige une instance de <e:electro>DGT Électro de zone</e> aux ennemis à l'intérieur.\n\n<k>Tugarin</k>\n· Si des ennemis sont à proximité, Tugarin se rapproche rapidement de l'un d'eux toutes les 2 s afin de le mordre et d'infliger des <k>DGT Électro</k>.\n· Toucher un ennemi affecté par une <k>marque de broussailleur</k> active la <k>marque de broussailleur</k>.\n· Tugari attaque en priorité les ennemis affectés par une <k>marque de broussailleur</k>.\n\n<i>Patientez. Continuez de patienter jusqu'à ce que l'impatience s'estompe. C'est alors que le pluvier à ventre roux traversera le bosquet de bouleaux et se présentera devant votre flèche.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Réveillé par les aboiements",
+            "desc": "Lorsque <k>Tugarin</k> attaque, il restaure également les PV des personnages déployés de l'équipe à proximité d'une valeur équivalant à 120 % de l'ATQ d'Alyosha."
+          },
+          {
+            "name": "Souffrir le blé d'hiver",
+            "desc": "Augmente les DGT infligés par les compétences élémentaires et les déchaînements élémentaires d'Alyosha de 0,35 % par tranche de 1 % de recharge d'énergie, les DGT pouvant être augmentés d'un maximum de 70 % de cette manière."
+          },
+          {
+            "name": "Dans la mêlée",
+            "desc": "Alyosha passe en <k>radiance « Astroconduction »</k> lorsqu'il est dans une <k>étendue polaris</k>.\n<k>Radiance « Astroconduction »</k> : La <k>précision de broussailleur</k> obtenue en activant une <k>marque de broussailleur</k> augmente également les DGT de réaction d'Astroconduction du personnage sur le terrain de 20 %."
+          },
+          {
+            "name": "Observation des cimes",
+            "desc": "Affiche l'emplacement des <k>produits de Snezhnaya</k> sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Tonnerre de vallée de givre",
+            "desc": "Alyosha récupère 15 pts d'énergie élémentaire lorsqu'un personnage de l'équipe à proximité a déclenché une <e:electro>réaction liée à l'élément Électro</e> sur un ennemi, cet effet pouvant être déclenché une fois toutes les 18 s."
+          },
+          {
+            "level": 2,
+            "name": "Hurlement de loin",
+            "desc": "La durée du déchaînement élémentaire <k>Avancée du broussailleur</k> augmente de 6 s.\nDe plus, <k>Tugarin</k> applique une <k>marque de broussailleur</k> à une cible avant chacune de ses attaques, cet effet ne pouvant cependant pas activer les <k>marques de broussailleur</k>."
+          },
+          {
+            "level": 3,
+            "name": "Appel des congénères",
+            "desc": "Niveau d'aptitude <k>Embuscade de foudre</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Butins de la chasse",
+            "desc": "Lorsque <k>Tugarin</k> attaque, il restaure également les PV du personnage à proximité ayant le pourcentage de PV restant le plus bas d'une valeur équivalant à 60 % de l'ATQ d'Alyosha."
+          },
+          {
+            "level": 5,
+            "name": "Quand les gazouillis se taisent",
+            "desc": "Niveau d'aptitude <k>Avancée du broussailleur</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Récupération d'étendard",
+            "desc": "La <k>précision de broussailleur</k> obtenue en activant une <k>marque de broussailleur</k> peut maintenant se cumuler jusqu'à 2 cumuls. Avec 2 cumuls, la maîtrise élémentaire des personnages sur le terrain sous cet effet augmente de 100 pts."
+          }
+        ]
+      }
+    }
   }
 }

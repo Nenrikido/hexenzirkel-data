@@ -32,5 +32,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11519",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A legendary sword, said to be forged from the glimmering moonlight gathered in a well by an adeptus hidden among clear springs. Its true form is revealed only at the meeting of dusk and dawn.",
+        "passive": {
+          "name": "Legacy of Lang-Gan",
+          "refinements": {
+            "1": "Increases DEF by <r>20%</r>. DMG inflicted by Lunar-Crystallize reactions increases by <r>64%</r> for 5s after the equipping character uses an Elemental Skill.",
+            "2": "Increases DEF by <r>25%</r>. DMG inflicted by Lunar-Crystallize reactions increases by <r>80%</r> for 5s after the equipping character uses an Elemental Skill.",
+            "3": "Increases DEF by <r>30%</r>. DMG inflicted by Lunar-Crystallize reactions increases by <r>96%</r> for 5s after the equipping character uses an Elemental Skill.",
+            "4": "Increases DEF by <r>35%</r>. DMG inflicted by Lunar-Crystallize reactions increases by <r>112%</r> for 5s after the equipping character uses an Elemental Skill.",
+            "5": "Increases DEF by <r>40%</r>. DMG inflicted by Lunar-Crystallize reactions increases by <r>128%</r> for 5s after the equipping character uses an Elemental Skill."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée légendaire, forgée, dit-on, à partir du clair de lune scintillant recueilli dans un puits par un Adepte caché parmi des sources limpides. Sa véritable forme ne se révèle qu'à la rencontre du crépuscule et de l'aube.",
+        "passive": {
+          "name": "Héritage de Lang-Gan",
+          "refinements": {
+            "1": "Augmente la DÉF de <r>20 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>64 %</r> pendant 5 s.",
+            "2": "Augmente la DÉF de <r>25 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>80 %</r> pendant 5 s.",
+            "3": "Augmente la DÉF de <r>30 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>96 %</r> pendant 5 s.",
+            "4": "Augmente la DÉF de <r>35 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>112 %</r> pendant 5 s.",
+            "5": "Augmente la DÉF de <r>40 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>128 %</r> pendant 5 s."
+          }
+        }
+      }
+    }
   }
 }

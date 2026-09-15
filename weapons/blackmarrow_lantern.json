@@ -15,5 +15,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14433",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A lantern that emits a faint, ghostly glow, contained by a midnight-black alloy that resembles interlocking bones. It is said to have once been revered as a precious treasure by a certain secret organization.",
+        "passive": {
+          "name": "Token of Covenant",
+          "refinements": {
+            "1": "Bloom DMG is increased by <r>48%</r>, and Lunar-Bloom DMG is increased by <r>12%</r>. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional <r>12%</r>.",
+            "2": "Bloom DMG is increased by <r>60%</r>, and Lunar-Bloom DMG is increased by <r>15%</r>. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional <r>15%</r>.",
+            "3": "Bloom DMG is increased by <r>72%</r>, and Lunar-Bloom DMG is increased by <r>18%</r>. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional <r>18%</r>.",
+            "4": "Bloom DMG is increased by <r>84%</r>, and Lunar-Bloom DMG is increased by <r>21%</r>. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional <r>21%</r>.",
+            "5": "Bloom DMG is increased by <r>96%</r>, and Lunar-Bloom DMG is increased by <r>24%</r>. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional <r>24%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lanterne émettant une faible lueur fantomatique, contenue dans un alliage noir de minuit ressemblant à des os entrelacés. On raconte qu'elle était autrefois vénérée comme un précieux trésor par une organisation secrète.",
+        "passive": {
+          "name": "Gage de pacte",
+          "refinements": {
+            "1": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>48 %</r> et ceux des réactions de Sélénofleurissement de <r>12 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>12 %</r> supplémentaires.",
+            "2": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>60 %</r> et ceux des réactions de Sélénofleurissement de <r>15 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>15 %</r> supplémentaires.",
+            "3": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>72 %</r> et ceux des réactions de Sélénofleurissement de <r>18 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>18 %</r> supplémentaires.",
+            "4": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>84 %</r> et ceux des réactions de Sélénofleurissement de <r>21 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>21 %</r> supplémentaires.",
+            "5": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>96 %</r> et ceux des réactions de Sélénofleurissement de <r>24 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>24 %</r> supplémentaires."
+          }
+        }
+      }
+    }
   }
 }

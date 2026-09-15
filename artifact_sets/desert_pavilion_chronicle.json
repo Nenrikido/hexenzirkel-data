@@ -23,5 +23,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15027",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Desert Pavilion Chronicle",
+        "bonuses": {
+          "2": "<e:anemo>Anemo</e> DMG Bonus +15%",
+          "4": "When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."
+        }
+      },
+      "fr": {
+        "name": "Chronique du Pavillon du désert",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:anemo>Anémo</e> de 15 %.",
+          "4": "Lorsqu'une attaque chargée a touché un ennemi, la VIT d'attaque normale du personnage augmente de 10 % et les DGT infligés par ses attaques normales, chargées et plongeantes augmentent de 40 %, pendant 15 s."
+        }
+      }
+    }
   }
 }

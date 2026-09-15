@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13425",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sharp spear. Only its tip remains freshly bloodstained.",
+        "passive": {
+          "name": "Tip of the Spear",
+          "refinements": {
+            "1": "When the wielder is healed, restore <r>8</r> Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field.",
+            "2": "When the wielder is healed, restore <r>10</r> Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field.",
+            "3": "When the wielder is healed, restore <r>12</r> Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field.",
+            "4": "When the wielder is healed, restore <r>14</r> Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field.",
+            "5": "When the wielder is healed, restore <r>16</r> Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance pointue, dont seule la pointe reste tachée de sang frais.",
+        "passive": {
+          "name": "Pointe de la lance",
+          "refinements": {
+            "1": "Recevoir des soins restaure <r>8</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Recevoir des soins restaure <r>10</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Recevoir des soins restaure <r>12</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Recevoir des soins restaure <r>14</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Recevoir des soins restaure <r>16</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

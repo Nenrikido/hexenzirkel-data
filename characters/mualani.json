@@ -157,5 +157,147 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000102",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Cooling Treatment",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 attacks that deal <e:hydro>Hydro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to smack a Pufferball into the air that deals <e:hydro>AoE Hydro DMG</e> upon landing.\n\n<k>Plunging Attack</k>\nGathers the power of Hydro and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:hydro>AoE Hydro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Surfshark Wavebreaker",
+            "desc": "Combining her mastery of speed and the waves and water, Mualani can surf anytime, anywhere.\nAfter using this skill, Mualani will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\n<k>Nightsoul's Blessing: Mualani</k>\nContinuously consume Nightsoul points. When they are depleted or when the skill is used again, Mualani's Nightsoul's Blessing will end. The state itself has the following traits:\n· Mualani mounts her Sharky Surfboard, increasing Mualani's Movement SPD and interruption resistance. Mualani can move on water and liquid Phlogiston while this state is active, and she will take no DMG from the latter.\n· Normal Attacks will be converted to Sharky's Bites, dealing Nightsoul-aligned <e:hydro>Hydro DMG</e> based on Mualani's Max HP. Sharky's Bites can be used in mid-air. DMG dealt this way is considered Normal Attack DMG.\n· When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained from the same opponent every 0.7s.\n\n<k>Wave Momentum and Marked as Prey</k>\nWhen Mualani uses Sharky's Bite, her DMG dealt increases based on Wave Momentum stacks. When she has 3 stacks, Sharky's Bite will be converted to Sharky's Surging Bite, further increasing her DMG and removing all her stacks when hitting an opponent.\nWhen Sharky's Bite hits an opponent Marked as Prey, that mark will be removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, decreasing at most to 72% of the original DMG when 3 opponents are targeted.\n\n<i>First off, Sharky is a freshwater shark on top of being a surfboard. Second, it's not that it wants to eat for real, just that it definitely bites for real.</i>"
+          },
+          "burst": {
+            "name": "Boomsharka-laka",
+            "desc": "Fires a Super Shark Missile that can track opponents, dealing Nightsoul-aligned <e:hydro>AoE Hydro DMG</e> based on Mualani's Max HP.\n\n<i>Mualani picked this moniker for launching her Shark Missile because it combines the warmth of explosive passion with a more chill, laid-back vibe — most hot spring-ish.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Heat-Resistant Freshwater Floater",
+            "desc": "When Sharky's Surging Bite hits an opponent, a Puffer will be generated nearby. Mualani will restore 20 Nightsoul points when she picks up a Puffer. Only 2 such Puffers can be created in this way during a single instance of being in Nightsoul's Blessing."
+          },
+          {
+            "name": "Natlan's Greatest Guide",
+            "desc": "After a nearby party member triggers a Nightsoul Burst, Mualani will gain 1 stack of Wavechaser's Exploits, which lasts for 20s. Max 3 stacks. When she uses <k>Boomsharka-laka</k>, Mualani will clear all Wavechaser's Exploits stacks and increase the DMG of this Boomsharka-laka by 15%/30%/45% of her Max HP based on the number of stacks cleared."
+          },
+          {
+            "name": "Night Realm's Gift: Crests and Troughs",
+            "desc": "After her Nightsoul points are depleted, Mualani will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water and Liquid Phlogiston during Nightsoul's Blessing is decreased by 75% while in Natlan, and her Nightsoul point consumption is decreased by 35% while doing the same outside Natlan."
+          },
+          {
+            "name": "The Trick Is to Keep Smiling!",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, 15 Phlogiston will be restored when interacting with some harvestable items. Additionally, the location of nearby <k>resources unique to Natlan</k> will appear on your mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "The Leisurely \"Meztli\"...",
+            "desc": "The DMG dealt by the first Sharky's Surging Bite after Mualani enters Nightsoul's Blessing and the Shark Missiles it triggers is increased by 66% of Mualani's Max HP. This instance of increased DMG is subject to the diminishing DMG rules of <k>Surfshark Wavebreaker</k>.\nIn addition, while out of combat, Mualani's Nightsoul's Blessing state consumes 30% less Phlogiston and Nightsoul points."
+          },
+          {
+            "level": 2,
+            "name": "Mualani, Going All Out!",
+            "desc": "Mualani gains 2 of <k>Surfshark Wavebreaker</k>'s Wave Momentum stacks when she enters Nightsoul's Blessing state. She will gain 1 stack when obtaining a Puffer.\nIn addition, whenever Mualani obtains 2 Puffers within a single instance of the Nightsoul's Blessing state, she will recover an additional 12 Nightsoul points over 2s. You must first unlock the Ascension Talent \"Heat-Resistant Freshwater Floater.\""
+          },
+          {
+            "level": 3,
+            "name": "Surfing Atop Joyous Seas",
+            "desc": "Increases the Level of <k>Surfshark Wavebreaker</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Sharky Eats Puffies",
+            "desc": "Mualani regenerates 8 Energy when obtaining a Puffer. You must first unlock the Ascension Talent \"Heat-Resistant Freshwater Floater.\"\nAdditionally, <k>Boomsharka-laka</k> deals 75% increased DMG."
+          },
+          {
+            "level": 5,
+            "name": "Same Style of Surfboard on Sale!",
+            "desc": "Increases the Level of <k>Boomsharka-laka</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Spirit of the Springs' People",
+            "desc": "The DMG increase from the Constellation \"The Leisurely 'Meztli'...\" is no longer limited to being triggered once every Nightsoul's Blessing."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Réfrigération",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques qui infligent des <e:hydro>DGT Hydro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour lancer une globi-balle qui inflige des <e:hydro>DGT Hydro de zone</e> en atterrissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Hydro, infligeant des DGT aux ennemis en chemin et des <e:hydro>DGT Hydro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Squalisurf brise-vagues",
+            "desc": "En combinant ses connaissances du contrôle de vitesse et des marées, Mualani peut surfer n'importe où, n'importe quand.\nAprès utilisation, Mualani obtient 60 pts de noctâme et entre dans l'état Bénédiction noctâme.\n\n<k>Bénédiction noctâme : Mualani</k>\nLa bénédiction noctâme de Mualani consomme de façon continue ses points de noctâme et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. L'état Bénédiction noctâme de Mualani possède les propriétés spéciales suivantes :\n· En surfant sur la planche « Requinou », Mualani augmente sa VIT de déplacement et RÉS à l'interruption et peut se déplacer sur l'eau et sur le phlogistique liquide pendant la durée de l'état sans subir de DGT à cause de ce phlogistique liquide.\n· L'attaque normale de Mualani est convertie en morsure de Requinou, infligeant des <e:hydro>DGT Hydro</e> infusés de noctâme selon les PV max de Mualani. Les morsures de Requinou peuvent être utilisées dans les airs et les DGT qu'elles infligent sont considérés comme des DGT d'attaque normale.\n· Lorsque Mualani touche un ennemi pendant cet état, elle lui applique une marque de proie et obtient 1 cumul d'élan houleux. Cet effet peut être cumulé 3 fois maximum, et un même ennemi peut accorder un cumul une fois toutes les 0,7 s.\n\n<k>Élan houleux et marque de proie</k>\nLorsque Mualani utilise une morsure de Requinou, les DGT infligés augmentent en fonction des cumuls d'élan houleux. Avec 3 cumuls, la morsure de Requinou de Mualani devient une morsure déferlante de Requinou, dont les DGT sont davantage augmentés, et qui consomme tous les cumuls d'élan houleux lorsqu'un ennemi est touché.\nLorsqu'une morsure de Requinou touche un ennemi, sa marque est annulée et des missiles de Requinou sont tirés sur un maximum de 5 ennemis à proximité avec une marque de proie, leur infligeant des dégâts d'une valeur équivalant à cette instance de morsure de Requinou et annulant leur marque. Si cette morsure de Requinou et ces missiles de Requinou ont plus d'une cible, les DGT infligés diminuent, ces DGT pouvant diminuer à une valeur minimale équivalant à 72 % des DGT d'origine lorsque 3 ennemis ou plus sont ciblés.\n\n<i>Déjà, Requinou est un requin d'eau douce en plus d'être une planche de surf. Et puis, même s'il n'a pas vraiment besoin de manger, il va quand même mordre.</i>"
+          },
+          "burst": {
+            "name": "Requin-pact boum",
+            "desc": "Tire un super missile de Requinou qui peut suivre les ennemis, infligeant des <e:hydro>DGT Hydro de zone</e> infusés de noctâme selon les PV max de Mualani.\n\n<i>Si Mualani a nommé ces missiles de Requinou ainsi, c'est à cause du mélange d'eau et de feu à l'intérieur, ce qui leur donne également un côté plus « thermal ».</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Bouée d'eau douce thermorésistante",
+            "desc": "Toucher un ennemi avec une morsure déferlante de Requinou génère une globi-bouée à proximité, et Mualani peut récupérer 20 pts de noctâme en collectant une globi-bouée. Un maximum de 2 globi-bouées peut être créé de cette manière pendant la durée d'une utilisation de la bénédiction noctâme."
+          },
+          {
+            "name": "Meilleure guide de Natlan",
+            "desc": "Lorsqu'un membre de l'équipe à proximité a déclenché une éruption noctâme, Mualani obtient un cumul d'exploit de surf pendant 20 s, cet effet pouvant être cumulé 3 fois maximum. Lorsque Mualani utilise <k>Requin-pact boum</k>, elle consomme tous ses cumuls d'exploit de surf, les cumuls augmentant les DGT infligés par cette instance de Requin-pact boum d'une valeur équivalant à 15 %/30 %/45 % des PV max de Mualani, selon le nombre de cumuls consommés."
+          },
+          {
+            "name": "Don de la nuit : Crêtes et creux",
+            "desc": "Après avoir épuisé ses points de noctâme, Mualani change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Mualani » peut être utilisée. Lorsque le personnage déployé sprinte, nage, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Mualani déclenche l'effet suivant : Mualani entre dans l'état Bénédiction noctâme et obtient 40 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\n\nDe plus, lorsque Mualani se déplace sur l'eau ou le phlogistique liquide pendant sa bénédiction noctâme, la consommation de points de noctâme et de phlogistique diminue de 75 % dans la région de Natlan et la consommation de points de noctâme de 35 % dans les régions hors de Natlan."
+          },
+          {
+            "name": "Toujours avoir le sourire !",
+            "desc": "Dans une zone de Natlan avec des mécanismes phlogistiques, interagir avec certains objets récoltables restaure 15 pts de phlogistique. De plus, l'emplacement des <k>produits de Natlan</k> est affiché sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Le Meztli oisif...",
+            "desc": "Les DGT infligés par la première morsure déferlante de Requinou après le début de la bénédiction noctâme et par les missiles de Requinou que cette morsure déclenche augmentent d'une valeur équivalant à 66 % des PV max de Mualani. Ces DGT sont cependant sujets à la règle d'atténuation des DGT de <k>Squalisurf brise-vagues</k>.\nDe plus, la consommation de points de noctâme et de phlogistique de l'état Bénédiction noctâme de Mualani diminue de 30 % lorsqu'elle n'est pas en combat."
+          },
+          {
+            "level": 2,
+            "name": "Mualani à fond !",
+            "desc": "Mualani obtient 2 cumuls d'élan houleux de <k>Squalisurf brise-vagues</k> lorsqu'elle active sa bénédiction noctâme et 1 cumul lorsqu'elle collecte une globi-bouée.\nDe plus, lorsque Mualani collecte 2 globi-bouées pendant une seule bénédiction noctâme, elle récupère 12 pts de noctâme supplémentaires pendant 2 s. L'aptitude d'élévation « Bouée d'eau douce thermorésistante » doit être déjà débloquée pour cet effet."
+          },
+          {
+            "level": 3,
+            "name": "Surf sur une mer joyeuse",
+            "desc": "Niveau d'aptitude <k>Squalisurf brise-vagues</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Requinou mange des bouées",
+            "desc": "Mualani récupère 8 pts d'énergie élémentaire lorsqu'elle collecte une globi-bouée. L'aptitude d'élévation « Bouée d'eau douce thermorésistante » doit être déjà débloquée.\nDe plus, les DGT infligés par <k>Requin-pact boum</k> augmentent de 75 %."
+          },
+          {
+            "level": 5,
+            "name": "Planche identique en promo !",
+            "desc": "Niveau d'aptitude <k>Requin-pact boum</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Esprit du Peuple des sources",
+            "desc": "L'effet d'augmentation de DGT de la constellation « Le Meztli oisif... » n'est plus limité à un seul déclenchement par bénédiction noctâme."
+          }
+        ]
+      }
+    }
   }
 }

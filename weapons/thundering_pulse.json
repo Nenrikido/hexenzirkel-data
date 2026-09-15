@@ -44,5 +44,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15509",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+        "passive": {
+          "name": "Rule by Thunder",
+          "refinements": {
+            "1": "Increases ATK by <r>20%</r> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <r>12/24/40%</r>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "2": "Increases ATK by <r>25%</r> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <r>15/30/50%</r>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "3": "Increases ATK by <r>30%</r> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <r>18/36/60%</r>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "4": "Increases ATK by <r>35%</r> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <r>21/42/70%</r>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "5": "Increases ATK by <r>40%</r> and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by <r>24/48/80%</r>. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc long qui était un cadeau de la Shogun. Il crépite d'éclairs qui ne tariront jamais.",
+        "passive": {
+          "name": "Règne du tonnerre",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>20 %</r>, et confère la puissance du sceau du tonnerre. 1/2/3 cumuls de sceau du tonnerre augmentent respectivement les DGT des attaques normales de <r>12/24/40 %</r>. Le personnage peut obtenir 1 cumul de sceau du tonnerre dans chacune des situations suivantes : si son attaque normale inflige des DGT, il obtient un cumul de 5 s ; s'il utilise sa compétence élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "2": "Augmente l'ATQ de <r>25 %</r>, et confère la puissance du sceau du tonnerre. 1/2/3 cumuls de sceau du tonnerre augmentent respectivement les DGT des attaques normales de <r>15/30/50 %</r>. Le personnage peut obtenir 1 cumul de sceau du tonnerre dans chacune des situations suivantes : si son attaque normale inflige des DGT, il obtient un cumul de 5 s ; s'il utilise sa compétence élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "3": "Augmente l'ATQ de <r>30 %</r>, et confère la puissance du sceau du tonnerre. 1/2/3 cumuls de sceau du tonnerre augmentent respectivement les DGT des attaques normales de <r>18/36/60 %</r>. Le personnage peut obtenir 1 cumul de sceau du tonnerre dans chacune des situations suivantes : si son attaque normale inflige des DGT, il obtient un cumul de 5 s ; s'il utilise sa compétence élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "4": "Augmente l'ATQ de <r>35 %</r>, et confère la puissance du sceau du tonnerre. 1/2/3 cumuls de sceau du tonnerre augmentent respectivement les DGT des attaques normales de <r>21/42/70 %</r>. Le personnage peut obtenir 1 cumul de sceau du tonnerre dans chacune des situations suivantes : si son attaque normale inflige des DGT, il obtient un cumul de 5 s ; s'il utilise sa compétence élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "5": "Augmente l'ATQ de <r>40 %</r>, et confère la puissance du sceau du tonnerre. 1/2/3 cumuls de sceau du tonnerre augmentent respectivement les DGT des attaques normales de <r>24/48/80 %</r>. Le personnage peut obtenir 1 cumul de sceau du tonnerre dans chacune des situations suivantes : si son attaque normale inflige des DGT, il obtient un cumul de 5 s ; s'il utilise sa compétence élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment."
+          }
+        }
+      }
+    }
   }
 }

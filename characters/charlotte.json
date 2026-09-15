@@ -241,5 +241,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000088",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Cool-Color Capture",
+            "desc": "<k>Normal Attack</k>\nTaking aim at targets using Monsieur Verite, her custom Kamera, Charlotte performs up to 3 consecutive attacks, dealing <e:cryo>Cryo DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a fixed amount of Stamina, and after a moment's preparation, will deploy Monsieur Verite to deal <e:cryo>AoE Cryo DMG</e>.\n\n<k>Plunging Attack</k>\nGathering the power of Cryo, Charlotte plunges toward the ground, dealing DMG to all opponents in her path and dealing <e:cryo>AoE Cryo DMG</e> upon landing.\n\n<k>Arkhe: Pneuma</k>\nAt certain intervals, upon using a Charged Attack, Charlotte will cause a Spiritbreath Thorn to descend and pierce opponents, dealing Pneuma-aligned <e:cryo>AoE Cryo DMG</e>."
+          },
+          "skill": {
+            "name": "Framing: Freezing Point Composition",
+            "desc": "Using the keen instincts of an ace reporter, Charlotte uses her photography skills to produce different effects based on whether the ability is Tapped or Held.\n\n<k>Tap</k>\nTakes a snapshot using Monsieur Verite, dealing <e:cryo>AoE Cryo DMG</e> to opponents in front of her and applying Snappy Silhouette to a maximum of 5 opponents. During this effect's duration, it will deal <e:cryo>Cryo DMG</e> to affected opponents at intervals.\n\n<k>Hold</k>\nPopping Monsieur Verite's viewfinder open, Charlotte enters Composition Mode, and during this time, the viewfinder will expand as you hold until you reach a Finisher Frame state. In this state, Charlotte can move and change direction freely.\nWhen the hold state ends, Monsieur Verite will deal <e:cryo>Cryo DMG</e> to all opponents locked on within the viewfinder, and apply the same Snappy Silhouette as Tap Mode does to them. If you unleash this ability only after reaching Finisher Frame, you will instead apply Focused Impression, which lasts longer and deals more DMG, although the Skill CD will be longer.\nComposition Mode lasts a maximum of 15s and allows a maximum of 5 opponents to be selected.\n\n<i>\"Press photography requires simple shots with exceptional theming, but most of all, you need to have a knack for capturing the moment!\"</i>"
+          },
+          "burst": {
+            "name": "Still Photo: Comprehensive Confirmation",
+            "desc": "Condensing ice to create The Steambird's signature, Charlotte creates a Newsflash Field that will deal <e:cryo>AoE Cryo DMG</e> and restores HP for all nearby party members based on Charlotte's ATK.\n<k>Newsflash Field</k>\n· While the ability is active, Monsieur Verite will deal <e:cryo>Cryo DMG</e> at intervals to opponents within its AoE.\n· Will continuously restore HP to active character(s) within its AoE based on Charlotte's ATK.\n\n<i>\"Hearing stories from multiple perspectives to recreate what really happened is key to a good report... I mean, that's how you can pick the best angle for your article!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Moment of Impact",
+            "desc": "When opponents marked by \"Focused Impression\" are defeated, <k>Framing: Freezing Point Composition</k>'s CD will be decreased by 2s. This CD decrease can be triggered 4 times every 12s."
+          },
+          {
+            "name": "Diversified Investigation",
+            "desc": "When the party contains 1/2/3 Fontainians other than herself, Charlotte gains a 5%/10%/15% Healing Bonus. When the party contains 1/2/3 non-Fontainians, Charlotte gains a 5%/10%/15% Cryo DMG Bonus."
+          },
+          {
+            "name": "First-Person Shutter",
+            "desc": "After activating the Special Analysis Zoom Lens, Charlotte's \"Framing: Freezing Point Composition\" Hold Mode cannot trigger its original effects, but instead enables her to take photos in a rather unique manner..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "A Need to Verify Facts",
+            "desc": "After <k>Still Photo: Comprehensive Confirmation</k> heals a character, it will mark them with Verification, which will heal them once every 2s for 80% of Charlotte's ATK. This effect lasts 6s."
+          },
+          {
+            "level": 2,
+            "name": "A Duty to Pursue Truth",
+            "desc": "When using <k>Framing: Freezing Point Composition</k>, when Monsieur Verite hits 1/2/3 (or more) opponents, Charlotte's own ATK will be increased by 10%/20%/30% for 12s."
+          },
+          {
+            "level": 3,
+            "name": "An Imperative to Independence",
+            "desc": "Increases the Level of <k>Still Photo: Comprehensive Confirmation</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "A Responsibility to Oversee",
+            "desc": "When <k>Still Photo: Comprehensive Confirmation</k> hits an opponent marked by Snappy Silhouette or Focused Impression, it will deal 10% more DMG and restore 2 Energy to Charlotte. This restoration can be triggered 5 times every 20s."
+          },
+          {
+            "level": 5,
+            "name": "A Principle of Conscience",
+            "desc": "Increases the Level of <k>Framing: Freezing Point Composition</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "A Summation of Interest",
+            "desc": "When the active character's Normal and Charged Attacks hit an opponent marked by <k>Framing: Freezing Point Composition</k>'s Focused Impression, Monsieur Verite will initiate a coordinated attack that deals 180% of Charlotte's ATK as <e:cryo>AoE Cryo DMG</e> and heals active character(s) within the AoE for 42% of Charlotte's ATK. This effect can be triggered once every 6s and both DMG and healing dealt in this way will be considered as having been done by Charlotte's Elemental Burst."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Phototype à froid",
+            "desc": "<k>Attaque normale</k>\nVisant ses cibles à l'aide de Monsieur Vérité, son Daguerréotype personnalisé, Charlotte enchaîne jusqu'à 3 attaques qui infligent des <e:cryo>DGT Cryo</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déployer Monsieur Vérité après un moment de préparation et infliger des <e:cryo>DGT Cryo de zone</e>.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Cryo, infligeant des DGT aux ennemis en chemin et des <e:cryo>DGT Cryo de zone</e> à l'impact.\n\n<k>Arkhe : Pneuma</k>\nRégulièrement, après avoir utilisé une attaque chargée, une épine d'inhalation qui transperce les ennemis est libérée pour infliger des <e:cryo>DGT Cryo de zone</e> chargés d'énergie pneuma."
+          },
+          "skill": {
+            "name": "Cadrage : Composition gelée",
+            "desc": "Grâce à son instinct de grande journaliste, Charlotte utilise ses compétences en photographie pour produire différents effets selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nPrend un cliché net à l'aide de Monsieur Vérité, infligeant des <e:cryo>DGT Cryo de zone</e> aux ennemis en face ainsi que l'effet Silhouette instantanée à un maximum de 5 ennemis touchés. Pendant sa durée, l'effet Silhouette instantanée inflige des <e:cryo>DGT Cryo</e> aux ennemis de façon intermittente.\n\n<k>Appui long</k>\nEn activant le mode visée de Monsieur Vérité, Charlotte entre dans l'état Composition et le viseur peut s'agrandir jusqu'à atteindre le cadre de finition en maintenant l'appui long. Dans cet état, Charlotte peut se déplacer et changer d'orientation.\nLorsque le mode visée se termine, Monsieur Vérité inflige des <e:cryo>DGT Cryo</e> aux ennemis verrouillés dans son viseur ainsi que le même effet Silhouette instantanée déclenché lors d'un appui simple. Si Charlotte met fin au mode visée après que le viseur a atteint le cadre de finition, elle inflige à la place l'effet Impression ciblée, ce dernier durant plus longtemps et infligeant plus de DGT, bien qu'il prolongera le TdR de la compétence.\nL'état Composition dure 15 s maximum et peut verrouiller un maximum de 5 ennemis.\n\n<i>« Les photos de presse nécessitent des clichés simples avec une thématique exceptionnelle, mais il faut surtout avoir le don de capturer l'instant présent ! »</i>"
+          },
+          "burst": {
+            "name": "Pose : Corroboration complète",
+            "desc": "En condensant de la glace pour créer l'emblème de L'Oiseau de vapeur, Charlotte crée un champ de flash info qui inflige des <e:cryo>DGT Cryo de zone</e> et restaure les PV de tous les personnages de l'équipe à proximité selon son ATQ.\n\n<k>Champ de flash info</k>\n· Tant qu'il est actif, Monsieur Vérité attaque les ennemis à l'intérieur de façon intermittente pour leur infliger des <e:cryo>DGT Cryo</e>.\n· Lorsque le personnage déployé est à l'intérieur du champ, ses PV sont restaurés de façon continue selon l'ATQ de Charlotte.\n\n<i>« Écouter des histoires sous plusieurs perspectives pour recréer ce qui s'est réellement passé est la clé d'un bon reportage... Je veux dire, c'est ainsi qu'on peut choisir le meilleur angle pour son article ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Moment d'impact",
+            "desc": "Lorsqu'un ennemi affligé de l'effet Impression ciblée est éliminé, le TdR de <k>Cadrage : Composition gelée</k> diminue de 2 s. Le TdR peut être diminué 4 fois toutes les 12 s de cette manière."
+          },
+          {
+            "name": "Enquête de diversité",
+            "desc": "Lorsque l'équipe contient 1, 2 ou 3 personnages fontainois (en plus de Charlotte), Charlotte obtient un bonus de soins de 5 %, 10 % ou 15 %, respectivement. Lorsque l'équipe contient 1, 2 ou 3 personnages non-fontainois, Charlotte bénéficie d'un bonus de DGT Cryo de 5 %, 10 % ou 15 %, respectivement."
+          },
+          {
+            "name": "Premier obturateur",
+            "desc": "Une fois que Charlotte a activé son zoom d'analyse spéciale, l'appui long de sa compétence élémentaire « Cadrage : Composition gelée » ne peut plus déclencher les effets d'origine, mais elle peut désormais prendre des photos d'une manière spéciale..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Une vérification des faits",
+            "desc": "Lorsque <k>Pose : Corroboration complète</k> a effectué un soin sur un personnage, ce dernier obtient une marque de vérification pendant 6 s, qui le soigne une fois toutes les 2 s d'une valeur équivalant à 80 % de l'ATQ de Charlotte."
+          },
+          {
+            "level": 2,
+            "name": "Une poursuite de la vérité",
+            "desc": "Lorsque Monsieur Vérité touche 1, 2, ou au moins 3 ennemis pendant <k>Cadrage : Composition gelée</k>, l'ATQ de Charlotte augmente respectivement de 10 %, 20 % ou 30 % pendant 12 s."
+          },
+          {
+            "level": 3,
+            "name": "Une nécessité d'indépendance",
+            "desc": "Niveau d'aptitude <k>Pose : Corroboration complète</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Une responsabilité de surveillance",
+            "desc": "Lorsque <k>Pose : Corroboration complète</k> touche un ennemi affligé de l'effet Silhouette instantanée ou de l'effet Impression ciblée, les DGT infligés augmentent de 10 % et Charlotte récupère 2 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée 5 fois toutes les 20 s de cette manière."
+          },
+          {
+            "level": 5,
+            "name": "Un principe de conscience",
+            "desc": "Niveau d'aptitude <k>Cadrage : Composition gelée</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Un résumé de pertinence",
+            "desc": "Lorsqu'une attaque normale ou chargée du personnage déployé a touché un ennemi affligé de l'effet Impression ciblée de <k>Cadrage : Composition gelée</k>, Monsieur Vérité effectue une attaque coordonnée qui inflige des <e:cryo>DGT Cryo de zone</e> d'une valeur équivalant à 180 % de l'ATQ de Charlotte et soigne les PV des personnages déployés à portée de l'attaque d'une valeur équivalant à 42 % de l'ATQ de Charlotte. Cet effet peut être déclenché une fois toutes les 6 s et les DGT et soins déclenchés de cette manière sont considérés comme provenant du déchaînement élémentaire de Charlotte."
+          }
+        ]
+      }
+    }
   }
 }

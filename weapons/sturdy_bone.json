@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11430",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon.",
+        "passive": {
+          "name": "Trapper's Pride",
+          "refinements": {
+            "1": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by <r>16%</r> of ATK. This effect expires after triggering 18 times or 7s.",
+            "2": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by <r>20%</r> of ATK. This effect expires after triggering 18 times or 7s.",
+            "3": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by <r>24%</r> of ATK. This effect expires after triggering 18 times or 7s.",
+            "4": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by <r>28%</r> of ATK. This effect expires after triggering 18 times or 7s.",
+            "5": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by <r>32%</r> of ATK. This effect expires after triggering 18 times or 7s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une longue épée en os qui n'a fait que durcir après avoir été frappée et balancée d'innombrables fois. On dit que c'était l'arme de confiance du héros Wanjiru.",
+        "passive": {
+          "name": "Orgueil du trappeur",
+          "refinements": {
+            "1": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>16 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s.",
+            "2": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>20 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s.",
+            "3": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>24 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s.",
+            "4": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>28 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s.",
+            "5": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>32 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s."
+          }
+        }
+      }
+    }
   }
 }

@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15416",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
+        "passive": {
+          "name": "Watatsumi Wavewalker",
+          "refinements": {
+            "1": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <r>0.12%</r>. A maximum of <r>40%</r> increased Elemental Burst DMG can be achieved this way.",
+            "2": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <r>0.15%</r>. A maximum of <r>50%</r> increased Elemental Burst DMG can be achieved this way.",
+            "3": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <r>0.18%</r>. A maximum of <r>60%</r> increased Elemental Burst DMG can be achieved this way.",
+            "4": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <r>0.21%</r>. A maximum of <r>70%</r> increased Elemental Burst DMG can be achieved this way.",
+            "5": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by <r>0.24%</r>. A maximum of <r>80%</r> increased Elemental Burst DMG can be achieved this way."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un élégant arc de guerre fait de coquillages et de corail. Un éclat mélancolique se répand le long de ses branches couleur clair de lune.",
+        "passive": {
+          "name": "Marchevague de Watatsumi",
+          "refinements": {
+            "1": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,12 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>40 %</r> de cette manière.",
+            "2": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,15 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>50 %</r> de cette manière.",
+            "3": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,18 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>60 %</r> de cette manière.",
+            "4": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,21 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>70 %</r> de cette manière.",
+            "5": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,24 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>80 %</r> de cette manière."
+          }
+        }
+      }
+    }
   }
 }

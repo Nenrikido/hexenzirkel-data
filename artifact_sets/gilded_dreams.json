@@ -29,5 +29,29 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15026",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Gilded Dreams",
+        "bonuses": {
+          "2": "Increases Elemental Mastery by 80.",
+          "4": "Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field."
+        }
+      },
+      "fr": {
+        "name": "Rêve doré",
+        "bonuses": {
+          "2": "Augmente la maîtrise élémentaire de 80 pts.",
+          "4": "Déclencher une réaction élémentaire confère pendant 8 s au personnage équipé de l'artéfact des bonus en fonction du nombre de types élémentaires des autres personnages de l'équipe : son ATQ augmente de 14 % pour chaque membre du même type élémentaire que le sien, et sa maîtrise élémentaire augmente de 50 pts pour chaque membre de type élémentaire différent du sien. Chacun des bonus susmentionnés compte un maximum de 3 personnages. Cet effet peut être déclenché une fois toutes les 8 s, même si le personnage équipé de l'artéfact fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

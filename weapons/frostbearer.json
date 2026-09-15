@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14412",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
+        "passive": {
+          "name": "Frost Burial",
+          "refinements": {
+            "1": "Hitting an opponent with Normal and Charged Attacks has a <r>60%</r> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <r>80%</r> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <r>200%</r> of ATK. Can only occur once every 10s.",
+            "2": "Hitting an opponent with Normal and Charged Attacks has a <r>70%</r> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <r>95%</r> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <r>240%</r> of ATK. Can only occur once every 10s.",
+            "3": "Hitting an opponent with Normal and Charged Attacks has an <r>80%</r> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <r>110%</r> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <r>280%</r> of ATK. Can only occur once every 10s.",
+            "4": "Hitting an opponent with Normal and Charged Attacks has a <r>90%</r> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <r>125%</r> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <r>320%</r> of ATK. Can only occur once every 10s.",
+            "5": "Hitting an opponent with Normal and Charged Attacks has a <r>100%</r> chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to <r>140%</r> of ATK. Opponents affected by Cryo are instead dealt DMG equal to <r>360%</r> of ATK. Can only occur once every 10s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un fruit dont s'échappe une volonté aussi étrange que gelée. Une vague impression d'agonie en émane.",
+        "passive": {
+          "name": "Deuil givré",
+          "refinements": {
+            "1": "Les attaques normales et chargées ont <r>60 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>80 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>200 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "2": "Les attaques normales et chargées ont <r>70 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>95 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>240 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "3": "Les attaques normales et chargées ont <r>80 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>110 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>280 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "4": "Les attaques normales et chargées ont <r>90 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>125 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>320 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "5": "Les attaques normales et chargées ont <r>100 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>140 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>360 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+          }
+        }
+      }
+    }
   }
 }

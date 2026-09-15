@@ -72,5 +72,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15045",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Celestial Gift",
+        "bonuses": {
+          "2": "Energy Recharge +20%.",
+          "4": "If the equipping character has completed Witch's Homework, after they use an Elemental Skill, they gain \"Light's Guidance\" for 20s: All nearby party members gain a 20% Elemental DMG Bonus corresponding to the equipping character's Elemental Type. The equipping character can trigger this effect while off-field. DMG Bonuses provided by Artifact Sets with the same name do not stack.\n· When your party has the Hexerei: Secret Rite effect, Light's Guidance is upgraded to \"Mortal Hymn\": All nearby party members gain a 40% Elemental DMG Bonus corresponding to both the equipping character and the current active party member's Elemental Type instead. If both characters have the same Elemental Type, these bonuses will not stack."
+        }
+      },
+      "fr": {
+        "name": "Don céleste",
+        "bonuses": {
+          "2": "Augmente la recharge d'énergie de 20 %.",
+          "4": "Si le personnage équipé de l'artéfact a terminé son devoir de la sorcière et a utilisé une compétence élémentaire, il obtient l'effet Guidance de la lumière : accorde un bonus de DGT de l'élément du personnage équipé de l'artéfact de 20 % pendant 20 s à tous les personnages de l'équipe à proximité. L'effet ci-dessus peut être déclenché même si le personnage équipé de l'artéfact n'est pas déployé, et les effets d'augmentation des DGT accordés par les sets d'artéfacts du même nom ne se cumulent pas.\nLorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, l'effet Guidance de la lumière est amélioré en Hymne mortel, accordant un bonus de DGT de l'élément du personnage équipé de l'artéfact et de l'élément de votre personnage déployé de 40 % à tous les personnages de l'équipe à proximité, ce bonus n'étant pas doublé si leurs éléments sont identiques."
+        }
+      }
+    }
   }
 }

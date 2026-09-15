@@ -26,5 +26,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11407",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+        "passive": {
+          "name": "Infusion Stinger",
+          "refinements": {
+            "1": "Dealing Elemental DMG increases all DMG by <r>6%</r> for 6s. Max 2 stacks. Can occur once every 1s.",
+            "2": "Dealing Elemental DMG increases all DMG by <r>7.5%</r> for 6s. Max 2 stacks. Can occur once every 1s.",
+            "3": "Dealing Elemental DMG increases all DMG by <r>9%</r> for 6s. Max 2 stacks. Can occur once every 1s.",
+            "4": "Dealing Elemental DMG increases all DMG by <r>10.5%</r> for 6s. Max 2 stacks. Can occur once every 1s.",
+            "5": "Dealing Elemental DMG increases all DMG by <r>12%</r> for 6s. Max 2 stacks. Can occur once every 1s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une longue rapière exotique qui a été introduite à Liyue par des commerçants étrangers. Légère et tranchante.",
+        "passive": {
+          "name": "Dard énergisant",
+          "refinements": {
+            "1": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>6 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes.",
+            "2": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>7,5 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes.",
+            "3": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>9 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes.",
+            "4": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>10,5 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes.",
+            "5": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>12 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes."
+          }
+        }
+      }
+    }
   }
 }

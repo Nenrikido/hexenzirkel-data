@@ -68,5 +68,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14521",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An angular box carved from gold and jade. Legend has it that it was once enshrined in a temple deep within Tulaytullah, the Sapphire City.",
+        "passive": {
+          "name": "Essence of Falsity",
+          "refinements": {
+            "1": "CRIT Rate is increased by <r>8%</r>. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by <r>80</r> for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by <r>24%</r> for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+            "2": "CRIT Rate is increased by <r>10%</r>. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by <r>100</r> for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by <r>30%</r> for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+            "3": "CRIT Rate is increased by <r>12%</r>. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by <r>120</r> for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by <r>36%</r> for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+            "4": "CRIT Rate is increased by <r>14%</r>. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by <r>140</r> for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by <r>42%</r> for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+            "5": "CRIT Rate is increased by <r>16%</r>. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by <r>160</r> for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by <r>48%</r> for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un coffret anguleux sculpté en or et en jade. La légende raconte qu'il était autrefois conservé dans un temple au cœur de Tulaytullah, la cité de saphir.",
+        "passive": {
+          "name": "Essence de la fausseté",
+          "refinements": {
+            "1": "Le taux CRIT augmente de <r>8 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>80</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>24 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %.",
+            "2": "Le taux CRIT augmente de <r>10 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>100</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>30 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %.",
+            "3": "Le taux CRIT augmente de <r>12 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>120</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>36 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %.",
+            "4": "Le taux CRIT augmente de <r>14 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>140</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>42 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %.",
+            "5": "Le taux CRIT augmente de <r>16 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>160</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>48 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %."
+          }
+        }
+      }
+    }
   }
 }

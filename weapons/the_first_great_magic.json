@@ -53,5 +53,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15512",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A stage prop once used by a past \"Great Magician.\" Its final secret was that it was also a weapon beyond the pale.",
+        "passive": {
+          "name": "Parsifal the Great",
+          "refinements": {
+            "1": "DMG dealt by Charged Attacks increased by <r>16%</r>. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by <r>16%/32%/48%</r>. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by <r>4%/7%/10%</r>.",
+            "2": "DMG dealt by Charged Attacks increased by <r>20%</r>. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by <r>20%/40%/60%</r>. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by <r>6%/9%/12%</r>.",
+            "3": "DMG dealt by Charged Attacks increased by <r>24%</r>. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by <r>24%/48%/72%</r>. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by <r>8%/11%/14%</r>.",
+            "4": "DMG dealt by Charged Attacks increased by <r>28%</r>. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by <r>28%/56%/84%</r>. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by <r>10%/13%/16%</r>.",
+            "5": "DMG dealt by Charged Attacks increased by <r>32%</r>. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by <r>32%/64%/96%</r>. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by <r>12%/15%/18%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un accessoire de scène autrefois utilisé par une « grande magicienne », l'ultime secret de cette dernière étant qu'il s'agissait en fait d'une arme.",
+        "passive": {
+          "name": "Parsifal la grande",
+          "refinements": {
+            "1": "Les DGT infligés par les attaques chargées augmentent de <r>16 %</r>. Chaque personnage de l'équipe dont le type élémentaire est le même que celui du personnage équipé de l'arme (y compris le personnage en question) accorde 1 cumul de l'effet Roublardise, tandis que chaque personnage de l'équipe dont le type élémentaire est différent accorde 1 cumul de l'effet Tragédien. Avec 1, 2 ou au minimum 3 cumuls de roublardise, l'ATQ augmente respectivement de <r>16 %, 32 % ou 48 %</r>, tandis qu'avec 1, 2 ou au minimum 3 cumuls de tragédien, la VIT de déplacement augmente respectivement de <r>4 %, 7 % ou 10 %</r>.",
+            "2": "Les DGT infligés par les attaques chargées augmentent de <r>20 %</r>. Chaque personnage de l'équipe dont le type élémentaire est le même que celui du personnage équipé de l'arme (y compris le personnage en question) accorde 1 cumul de l'effet Roublardise, tandis que chaque personnage de l'équipe dont le type élémentaire est différent accorde 1 cumul de l'effet Tragédien. Avec 1, 2 ou au minimum 3 cumuls de roublardise, l'ATQ augmente respectivement de <r>20 %, 40 % ou 60 %</r>, tandis qu'avec 1, 2 ou au minimum 3 cumuls de tragédien, la VIT de déplacement augmente respectivement de <r>6 %, 9 % ou 12 %</r>.",
+            "3": "Les DGT infligés par les attaques chargées augmentent de <r>24 %</r>. Chaque personnage de l'équipe dont le type élémentaire est le même que celui du personnage équipé de l'arme (y compris le personnage en question) accorde 1 cumul de l'effet Roublardise, tandis que chaque personnage de l'équipe dont le type élémentaire est différent accorde 1 cumul de l'effet Tragédien. Avec 1, 2 ou au minimum 3 cumuls de roublardise, l'ATQ augmente respectivement de <r>24 %, 48 % ou 72 %</r>, tandis qu'avec 1, 2 ou au minimum 3 cumuls de tragédien, la VIT de déplacement augmente respectivement de <r>8 %, 11 % ou 14 %</r>.",
+            "4": "Les DGT infligés par les attaques chargées augmentent de <r>28 %</r>. Chaque personnage de l'équipe dont le type élémentaire est le même que celui du personnage équipé de l'arme (y compris le personnage en question) accorde 1 cumul de l'effet Roublardise, tandis que chaque personnage de l'équipe dont le type élémentaire est différent accorde 1 cumul de l'effet Tragédien. Avec 1, 2 ou au minimum 3 cumuls de roublardise, l'ATQ augmente respectivement de <r>28 %, 56 % ou 84 %</r>, tandis qu'avec 1, 2 ou au minimum 3 cumuls de tragédien, la VIT de déplacement augmente respectivement de <r>10 %, 13 % ou 16 %</r>.",
+            "5": "Les DGT infligés par les attaques chargées augmentent de <r>32 %</r>. Chaque personnage de l'équipe dont le type élémentaire est le même que celui du personnage équipé de l'arme (y compris le personnage en question) accorde 1 cumul de l'effet Roublardise, tandis que chaque personnage de l'équipe dont le type élémentaire est différent accorde 1 cumul de l'effet Tragédien. Avec 1, 2 ou au minimum 3 cumuls de roublardise, l'ATQ augmente respectivement de <r>32 %, 64 % ou 96 %</r>, tandis qu'avec 1, 2 ou au minimum 3 cumuls de tragédien, la VIT de déplacement augmente respectivement de <r>12 %, 15 % ou 18 %</r>."
+          }
+        }
+      }
+    }
   }
 }

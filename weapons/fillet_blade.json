@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11305",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
+        "passive": {
+          "name": "Gash",
+          "refinements": {
+            "1": "On hit, has a 50% chance to deal <r>240%</r> ATK DMG to a single opponent. Can only occur once every <r>15</r>s.",
+            "2": "On hit, has a 50% chance to deal <r>280%</r> ATK DMG to a single opponent. Can only occur once every <r>14</r>s.",
+            "3": "On hit, has a 50% chance to deal <r>320%</r> ATK DMG to a single opponent. Can only occur once every <r>13</r>s.",
+            "4": "On hit, has a 50% chance to deal <r>360%</r> ATK DMG to a single opponent. Can only occur once every <r>12</r>s.",
+            "5": "On hit, has a 50% chance to deal <r>400%</r> ATK DMG to a single opponent. Can only occur once every <r>11</r>s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un couteau de pêche à la lame tranchante. Il est très acéré.",
+        "passive": {
+          "name": "Détermination",
+          "refinements": {
+            "1": "Les attaques ont 50 % de chances d'infliger <r>240 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>15</r> s.",
+            "2": "Les attaques ont 50 % de chances d'infliger <r>280 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>14</r> s.",
+            "3": "Les attaques ont 50 % de chances d'infliger <r>320 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>13</r> s.",
+            "4": "Les attaques ont 50 % de chances d'infliger <r>360 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>12</r> s.",
+            "5": "Les attaques ont 50 % de chances d'infliger <r>400 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>11</r> s."
+          }
+        }
+      }
+    }
   }
 }

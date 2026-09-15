@@ -27,5 +27,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15424",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An ancient longbow that is a remnant of King Deshret's ancient era. An indecipherable ancient text and solemn patterns have been carved into it.",
+        "passive": {
+          "name": "The Way of Sunfire",
+          "refinements": {
+            "1": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing <r>60%</r> ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take <r>28%</r> more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+            "2": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing <r>75%</r> ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take <r>35%</r> more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+            "3": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing <r>90%</r> ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take <r>42%</r> more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+            "4": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing <r>105%</r> ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take <r>49%</r> more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+            "5": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing <r>120%</r> ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take <r>56%</r> more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un vieil arc long qui est un vestige de l'ancienne ère du roi Deshret. Un texte ancien indéchiffrable et des motifs solennels y ont été gravés.",
+        "passive": {
+          "name": "La voie du feu solaire",
+          "refinements": {
+            "1": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>60 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>28 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s.",
+            "2": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>75 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>35 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s.",
+            "3": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>90 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>42 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s.",
+            "4": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>105 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>49 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s.",
+            "5": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>120 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>56 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s."
+          }
+        }
+      }
+    }
   }
 }

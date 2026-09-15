@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14415",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
+        "passive": {
+          "name": "People of the Faltering Light",
+          "refinements": {
+            "1": "Increases Energy Recharge by <r>24%</r> for 10s after using an Elemental Skill.",
+            "2": "Increases Energy Recharge by <r>30%</r> for 10s after using an Elemental Skill.",
+            "3": "Increases Energy Recharge by <r>36%</r> for 10s after using an Elemental Skill.",
+            "4": "Increases Energy Recharge by <r>42%</r> for 10s after using an Elemental Skill.",
+            "5": "Increases Energy Recharge by <r>48%</r> for 10s after using an Elemental Skill."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un trésor national de Byakuyakoku conservé dans le Dainichi Mikoshi. Après la venue de la divinité serpent, cet objet a été utilisé pour certifier nombre de grands serments et souhaits.",
+        "passive": {
+          "name": "Peuple des profondeurs enténébrées",
+          "refinements": {
+            "1": "Augmente la recharge d'énergie de <r>24 %</r> pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "2": "Augmente la recharge d'énergie de <r>30 %</r> pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "3": "Augmente la recharge d'énergie de <r>36 %</r> pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "4": "Augmente la recharge d'énergie de <r>42 %</r> pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "5": "Augmente la recharge d'énergie de <r>48 %</r> pendant 10 s après l'utilisation d'une compétence élémentaire."
+          }
+        }
+      }
+    }
   }
 }

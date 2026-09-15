@@ -42,5 +42,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13512",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A keen-edged weapon, luster dazzling as the crimson moon. It is said that an ancient dynasty once regarded it as a ritual object that could bridge two worlds, but none still remember the beliefs and ceremonies of that bygone age.",
+        "passive": {
+          "name": "Ashen Sun's Shadow",
+          "refinements": {
+            "1": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a <r>12%</r> DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional <r>24%</r> DMG Bonus.",
+            "2": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a <r>16%</r> DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional <r>32%</r> DMG Bonus.",
+            "3": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a <r>20%</r> DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional <r>40%</r> DMG Bonus.",
+            "4": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a <r>24%</r> DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional <r>48%</r> DMG Bonus.",
+            "5": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a <r>28%</r> DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional <r>56%</r> DMG Bonus."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme tranchante, à l'éclat éblouissant comme la lune écarlate. On raconte qu'une ancienne dynastie la considérait autrefois comme un objet rituel capable de relier deux mondes, mais personne ne se souvient des croyances et des cérémonies de cette époque révolue.",
+        "passive": {
+          "name": "Ombre du soleil cendré",
+          "refinements": {
+            "1": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>12 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>24 %</r> supplémentaires.",
+            "2": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>16 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>32 %</r> supplémentaires.",
+            "3": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>20 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>40 %</r> supplémentaires.",
+            "4": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>24 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>48 %</r> supplémentaires.",
+            "5": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>28 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>56 %</r> supplémentaires."
+          }
+        }
+      }
+    }
   }
 }

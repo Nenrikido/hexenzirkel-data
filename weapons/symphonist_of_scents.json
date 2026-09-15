@@ -67,5 +67,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13514",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An elegantly built polearm, said to have been a conductor's baton wielded by a great musician to bridge tune and taste.",
+        "passive": {
+          "name": "Seasoned Symphony",
+          "refinements": {
+            "1": "ATK is increased by <r>12%</r>. When the equipping character is off-field, ATK is increased by an additional <r>12%</r>. After initiating healing, the equipping character and the character(s) they have healed will obtain the \"Sweet Echoes\" effect, increasing their ATK by <r>32%</r> for 3s. This effect can be triggered even if the equipping character is off-field.",
+            "2": "ATK is increased by <r>15%</r>. When the equipping character is off-field, ATK is increased by an additional <r>15%</r>. After initiating healing, the equipping character and the character(s) they have healed will obtain the \"Sweet Echoes\" effect, increasing their ATK by <r>40%</r> for 3s. This effect can be triggered even if the equipping character is off-field.",
+            "3": "ATK is increased by <r>18%</r>. When the equipping character is off-field, ATK is increased by an additional <r>18%</r>. After initiating healing, the equipping character and the character(s) they have healed will obtain the \"Sweet Echoes\" effect, increasing their ATK by <r>48%</r> for 3s. This effect can be triggered even if the equipping character is off-field.",
+            "4": "ATK is increased by <r>21%</r>. When the equipping character is off-field, ATK is increased by an additional <r>21%</r>. After initiating healing, the equipping character and the character(s) they have healed will obtain the \"Sweet Echoes\" effect, increasing their ATK by <r>56%</r> for 3s. This effect can be triggered even if the equipping character is off-field.",
+            "5": "ATK is increased by <r>24%</r>. When the equipping character is off-field, ATK is increased by an additional <r>24%</r>. After initiating healing, the equipping character and the character(s) they have healed will obtain the \"Sweet Echoes\" effect, increasing their ATK by <r>64%</r> for 3s. This effect can be triggered even if the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance élégamment construite, qui aurait été un bâton de chef d'orchestre utilisé par un grand musicien pour concilier mélodie et goût.",
+        "passive": {
+          "name": "Symphonie assaisonnée",
+          "refinements": {
+            "1": "L'ATQ augmente de <r>12 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>12 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>32 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "L'ATQ augmente de <r>15 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>15 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>40 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "L'ATQ augmente de <r>18 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>18 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>48 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "L'ATQ augmente de <r>21 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>21 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>56 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "L'ATQ augmente de <r>24 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>24 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>64 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

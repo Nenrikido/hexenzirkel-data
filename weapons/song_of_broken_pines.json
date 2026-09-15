@@ -32,5 +32,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12503",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+        "passive": {
+          "name": "Rebel's Banner-Hymn",
+          "refinements": {
+            "1": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <r>16%</r>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <r>12%</r> and increases ATK by <r>20%</r>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+            "2": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <r>20%</r>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <r>15%</r> and increases ATK by <r>25%</r>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+            "3": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <r>24%</r>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <r>18%</r> and increases ATK by <r>30%</r>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+            "4": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <r>28%</r>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <r>21%</r> and increases ATK by <r>35%</r>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+            "5": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by <r>32%</r>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by <r>24%</r> and increases ATK by <r>40%</r>. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un espadon aussi léger que la brise soufflant sur l'herbe, mais aussi puissant qu'un ouragan.",
+        "passive": {
+          "name": "Hymne du drapeau rebelle",
+          "refinements": {
+            "1": "Partie du « Concert du millénaire ». Augmente l'ATQ de <r>16 %</r>, et lorsque les attaques normales ou chargées touchent un ennemi, le personnage obtient un charme des murmures, à raison d'un charme toutes les 0,3 s maximum. Une fois 4 charmes obtenus, ils sont consommés et tous les personnages de l'équipe à proximité bénéficient de l'effet « Concert du millénaire - Hymne du drapeau » pendant 12 s, ce qui augmente la VIT d'attaque normale de <r>12 %</r>, et l'ATQ de <r>20 %</r>. Il n'est plus possible d'obtenir de charmes des murmures pendant 20 s après avoir déclenché cet effet. Parmi les nombreux effets du « Concert du millénaire », les améliorations du même type ne se cumulent pas.",
+            "2": "Partie du « Concert du millénaire ». Augmente l'ATQ de <r>20 %</r>, et lorsque les attaques normales ou chargées touchent un ennemi, le personnage obtient un charme des murmures, à raison d'un charme toutes les 0,3 s maximum. Une fois 4 charmes obtenus, ils sont consommés et tous les personnages de l'équipe à proximité bénéficient de l'effet « Concert du millénaire - Hymne du drapeau » pendant 12 s, ce qui augmente la VIT d'attaque normale de <r>15 %</r>, et l'ATQ de <r>25 %</r>. Il n'est plus possible d'obtenir de charmes des murmures pendant 20 s après avoir déclenché cet effet. Parmi les nombreux effets du « Concert du millénaire », les améliorations du même type ne se cumulent pas.",
+            "3": "Partie du « Concert du millénaire ». Augmente l'ATQ de <r>24 %</r>, et lorsque les attaques normales ou chargées touchent un ennemi, le personnage obtient un charme des murmures, à raison d'un charme toutes les 0,3 s maximum. Une fois 4 charmes obtenus, ils sont consommés et tous les personnages de l'équipe à proximité bénéficient de l'effet « Concert du millénaire - Hymne du drapeau » pendant 12 s, ce qui augmente la VIT d'attaque normale de <r>18 %</r>, et l'ATQ de <r>30 %</r>. Il n'est plus possible d'obtenir de charmes des murmures pendant 20 s après avoir déclenché cet effet. Parmi les nombreux effets du « Concert du millénaire », les améliorations du même type ne se cumulent pas.",
+            "4": "Partie du « Concert du millénaire ». Augmente l'ATQ de <r>28 %</r>, et lorsque les attaques normales ou chargées touchent un ennemi, le personnage obtient un charme des murmures, à raison d'un charme toutes les 0,3 s maximum. Une fois 4 charmes obtenus, ils sont consommés et tous les personnages de l'équipe à proximité bénéficient de l'effet « Concert du millénaire - Hymne du drapeau » pendant 12 s, ce qui augmente la VIT des attaques normales de <r>21 %</r>, et l'ATQ de <r>35 %</r>. Il n'est plus possible d'obtenir de charmes des murmures pendant 20 s après avoir déclenché cet effet. Parmi les nombreux effets du « Concert du millénaire », les améliorations du même type ne se cumulent pas.",
+            "5": "Partie du « Concert du millénaire ». Augmente l'ATQ de <r>32 %</r>, et lorsque les attaques normales ou chargées touchent un ennemi, le personnage obtient un charme des murmures, à raison d'un charme toutes les 0,3 s maximum. Une fois 4 charmes obtenus, ils sont consommés et tous les personnages de l'équipe à proximité bénéficient de l'effet « Concert du millénaire - Hymne du drapeau » pendant 12 s, ce qui augmente la VIT d'attaque normale de <r>24 %</r>, et l'ATQ de <r>40 %</r>. Il n'est plus possible d'obtenir de charmes des murmures pendant 20 s après avoir déclenché cet effet. Parmi les nombreux effets du « Concert du millénaire », les améliorations du même type ne se cumulent pas."
+          }
+        }
+      }
+    }
   }
 }

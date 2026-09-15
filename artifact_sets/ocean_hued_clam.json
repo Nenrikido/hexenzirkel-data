@@ -8,5 +8,29 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15022",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Ocean-Hued Clam",
+        "bonuses": {
+          "2": "Healing Bonus +15%.",
+          "4": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as <e:electro>Electro</e>-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+        }
+      },
+      "fr": {
+        "name": "Palourde aux teintes océaniques",
+        "bonuses": {
+          "2": "Augmente le bonus de soins de 15 %.",
+          "4": "Lorsqu'un personnage équipé de ce set d'artéfacts soigne un personnage de l'équipe, une mousse marine apparaîtra pendant 3 s, accumulant la quantité de PV récupérée grâce au soin (y compris tout surplus au-dessus de 100 %). À la fin de la durée, la mousse marine explosera, infligeant des DGT aux ennemis proches d'une valeur équivalant à 90 % du soin accumulé (Ces DGT sont calculés de la même manière que les réactions d'Électrocution et de Supraconduction, mais ne sont pas affectés par la maîtrise élémentaire, les niveaux des personnages ou les bonus de DGT de réactions élémentaires). Une mousse marine peut être générée une fois toutes les 3,5 s, et chaque mousse marine peut accumuler jusqu'à 30 000 PV, incluant tout surplus au-dessus de 100 %. Il ne peut exister qu'une seule mousse marine à la fois. Cet effet peut être déclenché même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

@@ -30,5 +30,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14512",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A bell crafted of deep sapphire and sterling silver. Its echoes are as crisp as they are distant.",
+        "passive": {
+          "name": "Bygone Azure Teardrop",
+          "refinements": {
+            "1": "Normal Attack SPD is increased by <r>10%</r>. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by <r>4.8%</r> every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by <r>9.6%</r>. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is <r>48%</r>. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+            "2": "Normal Attack SPD is increased by <r>12.5%</r>. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by <r>6%</r> every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by <r>12%</r>. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is <r>60%</r>. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+            "3": "Normal Attack SPD is increased by <r>15%</r>. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by <r>7.2%</r> every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by <r>14.4%</r>. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is <r>72%</r>. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+            "4": "Normal Attack SPD is increased by <r>17.5%</r>. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by <r>8.4%</r> every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by <r>16.8%</r>. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is <r>84%</r>. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+            "5": "Normal Attack SPD is increased by <r>20%</r>. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by <r>9.6%</r> every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by <r>19.2%</r>. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is <r>96%</r>. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une cloche fabriquée en saphir et en argent, dont les échos sont aussi nets que lointains.",
+        "passive": {
+          "name": "Larme d'azur révolue",
+          "refinements": {
+            "1": "Augmente la VIT d'attaque normale de <r>10 %</r>. Après avoir utilisé une compétence élémentaire, les DGT infligés par les attaques normales augmentent de <r>4,8 %</r> toutes les secondes pendant 14 s. Après avoir touché un ennemi avec une attaque normale pendant cette durée, les DGT infligés par les attaques normales augmentent de <r>9,6 %</r>, cet effet pouvant être déclenché une fois toutes les 0,3 s. Pendant cette durée, les DGT des attaques normales peuvent être augmentés d'un maximum de <r>48 %</r> de ces manières. L'effet est annulé lorsque le personnage équipé de l'arme quitte le champ de bataille, et utiliser à nouveau la compétence élémentaire réinitialise tous les bonus de DGT.",
+            "2": "Augmente la VIT d'attaque normale de <r>12,5 %</r>. Après avoir utilisé une compétence élémentaire, les DGT infligés par les attaques normales augmentent de <r>6 %</r> toutes les secondes pendant 14 s. Après avoir touché un ennemi avec une attaque normale pendant cette durée, les DGT infligés par les attaques normales augmentent de <r>12 %</r>, cet effet pouvant être déclenché une fois toutes les 0,3 s. Pendant cette durée, les DGT des attaques normales peuvent être augmentés d'un maximum de <r>60 %</r> de ces manières. L'effet est annulé lorsque le personnage équipé de l'arme quitte le champ de bataille, et utiliser à nouveau la compétence élémentaire réinitialise tous les bonus de DGT.",
+            "3": "Augmente la VIT d'attaque normale de <r>15 %</r>. Après avoir utilisé une compétence élémentaire, les DGT infligés par les attaques normales augmentent de <r>7,2 %</r> toutes les secondes pendant 14 s. Après avoir touché un ennemi avec une attaque normale pendant cette durée, les DGT infligés par les attaques normales augmentent de <r>14,4 %</r>, cet effet pouvant être déclenché une fois toutes les 0,3 s. Pendant cette durée, les DGT des attaques normales peuvent être augmentés d'un maximum de <r>72 %</r> de ces manières. L'effet est annulé lorsque le personnage équipé de l'arme quitte le champ de bataille, et utiliser à nouveau la compétence élémentaire réinitialise tous les bonus de DGT.",
+            "4": "Augmente la VIT d'attaque normale de <r>17,5 %</r>. Après avoir utilisé une compétence élémentaire, les DGT infligés par les attaques normales augmentent de <r>8,4 %</r> toutes les secondes pendant 14 s. Après avoir touché un ennemi avec une attaque normale pendant cette durée, les DGT infligés par les attaques normales augmentent de <r>16,8 %</r>, cet effet pouvant être déclenché une fois toutes les 0,3 s. Pendant cette durée, les DGT des attaques normales peuvent être augmentés d'un maximum de <r>84 %</r> de ces manières. L'effet est annulé lorsque le personnage équipé de l'arme quitte le champ de bataille, et utiliser à nouveau la compétence élémentaire réinitialise tous les bonus de DGT.",
+            "5": "Augmente la VIT d'attaque normale de <r>20 %</r>. Après avoir utilisé une compétence élémentaire, les DGT infligés par les attaques normales augmentent de <r>9,6 %</r> toutes les secondes pendant 14 s. Après avoir touché un ennemi avec une attaque normale pendant cette durée, les DGT infligés par les attaques normales augmentent de <r>19,2 %</r>, cet effet pouvant être déclenché une fois toutes les 0,3 s. Pendant cette durée, les DGT des attaques normales peuvent être augmentés d'un maximum de <r>96 %</r> de ces manières. L'effet est annulé lorsque le personnage équipé de l'arme quitte le champ de bataille, et utiliser à nouveau la compétence élémentaire réinitialise tous les bonus de DGT."
+          }
+        }
+      }
+    }
   }
 }

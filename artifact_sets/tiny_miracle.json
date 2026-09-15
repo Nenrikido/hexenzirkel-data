@@ -17,5 +17,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10004",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Tiny Miracle",
+        "bonuses": {
+          "2": "All Elemental RES increased by 20%.",
+          "4": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+        }
+      },
+      "fr": {
+        "name": "Miracle",
+        "bonuses": {
+          "2": "Augmente toutes les RÉS élémentaires de 20 %.",
+          "4": "Les DGT élémentaires subis augmentent la RÉS à l'élément correspondant de 30 % pendant 10 s. Cet effet peut être déclenché une fois toutes les 10 s."
+        }
+      }
+    }
   }
 }

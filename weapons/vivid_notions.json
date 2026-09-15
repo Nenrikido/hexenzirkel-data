@@ -49,5 +49,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14519",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A trophy made from gemstones from the Collective of Plenty and crystals from the Flower-Feather Clan. It is said to have once belonged to a legendary wrestler.",
+        "passive": {
+          "name": "Falling Rainbow's Wish",
+          "refinements": {
+            "1": "ATK is increased by <r>28%</r>. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by <r>28%</r>. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by <r>40%</r>. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target.",
+            "2": "ATK is increased by <r>35%</r>. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by <r>35%</r>. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by <r>50%</r>. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target.",
+            "3": "ATK is increased by <r>42%</r>. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by <r>42%</r>. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by <r>60%</r>. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target.",
+            "4": "ATK is increased by <r>49%</r>. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by <r>49%</r>. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by <r>70%</r>. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target.",
+            "5": "ATK is increased by <r>56%</r>. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by <r>56%</r>. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by <r>80%</r>. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un trophée fabriqué à partir des pierres précieuses du Collectif de l'abondance et des cristaux du Clan des fleurplumes. On dit qu'il a appartenu à un lutteur légendaire.",
+        "passive": {
+          "name": "Souhait d'arc-en-ciel tombant",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>28 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>28 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>40 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche.",
+            "2": "Augmente l'ATQ de <r>35 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>35 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>50 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche.",
+            "3": "Augmente l'ATQ de <r>42 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>42 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>60 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche.",
+            "4": "Augmente l'ATQ de <r>49 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>49 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>70 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche.",
+            "5": "Augmente l'ATQ de <r>56 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>56 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>80 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche."
+          }
+        }
+      }
+    }
   }
 }

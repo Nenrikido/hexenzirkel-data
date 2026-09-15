@@ -22,5 +22,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15005",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Thundering Fury",
+        "bonuses": {
+          "2": "<e:electro>Electro</e> DMG Bonus +15%",
+          "4": "Increases the DMG caused by Overloaded, <e:electro>Electro</e>-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged and Stellar-Conduct by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
+        }
+      },
+      "fr": {
+        "name": "Colère de tonnerre",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:electro>Électro</e> de 15 %.",
+          "4": "Augmente les DGT infligés par les réactions de Surcharge, d'Électrocution, de Supraconduction et d'Exubérance de 40 %, le bonus de DGT accordé par les réactions de Suractivation de 20 % et les DGT infligés par les réactions de Sélénocution et d'Astroconduction de 20 %. Au déclenchement de ces réactions élémentaires ou d'une réaction de Stimulation, le TdR de la compétence élémentaire diminue de 1 s. Cet effet peut être déclenché une fois toutes les 0,8 s."
+        }
+      }
+    }
   }
 }

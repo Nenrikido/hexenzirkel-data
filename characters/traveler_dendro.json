@@ -262,5 +262,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000005-dendro",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Foreign Fieldcleaver",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Razorgrass Blade",
+            "desc": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal <e:dendro>Dendro DMG</e>.\n\n<i>You and Paimon observed the flowing edges of grass and leaf.</i>"
+          },
+          "burst": {
+            "name": "Surgent Manifestation",
+            "desc": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp.\nThis Lamp will deal continuous <e:dendro>Dendro DMG</e> to opponents within its AoE.\n\n<k>Lotuslight Transfiguration</k>\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with <e:hydro>Hydro</e>/<e:electro>Electro</e>/<e:pyro>Pyro</e>:\n· <e:hydro>Hydro</e>: the Lamp's AoE and the AoE of its attacks are increased.\n· <e:electro>Electro</e>: the Lamp's ATK SPD is increased.\n· <e:pyro>Pyro</e>: the Lamp will explode after a short delay and then disappear, dealing <e:dendro>AoE Dendro DMG</e>.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.\n\n<i>You and Paimon studied the sounds of plants that sprout after the rain.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Verdant Overgrowth",
+            "desc": "<k>Lea Lotus Lamp</k> will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks."
+          },
+          {
+            "name": "Verdant Luxury",
+            "desc": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by <k>Razorgrass Blade</k> by 0.15% and the DMG dealt by <k>Surgent Manifestation</k> by 0.1%."
+          },
+          {
+            "name": "Foreign Verdalume",
+            "desc": "Draw new strength from journeys past. For every element you have resonated with, you gain additional <k>buffs</k>.\n\nAdditionally, when Dendro Cores (including Bountiful Cores, Seeds of Deceit) appear nearby on the field, or when the party obtains Verdant Dew, Traveler will receive 1 stack of Blade of Verdant Viridis. These two methods can each grant the Traveler up to 1 stack of Blade of Verdant Viridis every 4s, max 3 stacks. After obtaining 3 stacks of Blade of Verdant Viridis, performing a Charged Attack will consume all stacks of Blade of Verdant Viridis and transform into the special <k>Charged Attack: Verdessence</k>.\n\n<k>Charged Attack: Verdessence</k>\n· Each Charged Attack hit deals increased <e:dendro>Dendro DMG</e>. The increase in DMG is equal to 80% of Traveler's ATK. Two <k>Vinecores</k> will also be created on the spot, which will explode after 4/8s respectively, inflicting <e:dendro>Dendro DMG</e> equal to 120% of Traveler's ATK. This DMG is considered Charged Attack DMG.\n· <k>Charged Attack: Verdessence</k> can be triggered up to once every 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Symbiotic Creeper",
+            "desc": "After <k>Razorgrass Blade</k> hits an opponent, it will regenerate 3.5 Energy for the Traveler."
+          },
+          {
+            "level": 2,
+            "name": "Green Resilience",
+            "desc": "<k>Lea Lotus Lamp</k>'s duration is increased by 3s."
+          },
+          {
+            "level": 3,
+            "name": "Whirling Weeds",
+            "desc": "Increases the Level of <k>Razorgrass Blade</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Treacle Grass",
+            "desc": "After the <k>Lea Lotus Lamp</k> triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Ascension Talent \"Verdant Overgrowth.\"\nYou must first unlock the Ascension Talent \"Verdant Overgrowth.\""
+          },
+          {
+            "level": 5,
+            "name": "Viridian Transience",
+            "desc": "Increases the Level of <k>Surgent Manifestation</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Withering Aggregation",
+            "desc": "The <e:dendro>Dendro DMG Bonus</e> of the character under the effect of Overflowing Lotuslight as created by the <k>Lea Lotus Lamp</k> is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Fendoir exotique",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Gerbe acérée",
+            "desc": "D'un coup de lame, vous libérez une gerbe de feuilles acérées comme des rasoirs en avant pour infliger des <e:dendro>DGT Dendro</e>.\n\n<i>Paimon et vous observez le tranchant des feuilles qui virevoltent...</i>"
+          },
+          "burst": {
+            "name": "Manifestation surgente",
+            "desc": "En faisant appel à la puissance de la flore autour de vous, vous créez un lotus lumineux.\nCe dernier attaque les ennemis à portée de façon continue, infligeant des <e:dendro>DGT Dendro</e>.\n\n<k>Transfiguration lotumineuse</k>\nLe lotus lumineux subit les changements suivants au contact des éléments <e:hydro>Hydro</e>, <e:electro>Électro</e> ou <e:pyro>Pyro</e> :\n· <e:hydro>Hydro</e> : la portée du lotus et la zone d'effet de ses attaques augmentent.\n· <e:electro>Électro</e> : la VIT d'attaque du lotus augmente.\n· <e:pyro>Pyro</e> : le lotus disparaît après un court délai en explosant, infligeant des <e:dendro>DGT Dendro de zone</e>.\nLe lotus lumineux ne peut faire l'objet que d'une seule transfiguration lotumineuse.\n\nLe voyageur ne peut générer qu'un seul lotus lumineux à la fois.\n\n<i>Paimon et vous avez étudié les sons des plantes qui poussent après la pluie...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Prolifération de verdure",
+            "desc": "Pendant sa durée, le <k>lotus lumineux</k> obtient 1 cumul de lumière lotiforme toutes les secondes, augmentant la maîtrise élémentaire du ou des personnages déployés dans sa zone d'effet de 6 pts. La lumière lotiforme du lotus lumineux peut être cumulée 10 fois maximum."
+          },
+          {
+            "name": "Luxe verdoyant",
+            "desc": "Chaque point de maîtrise élémentaire que le voyageur possède augmente les DGT infligés par <k>Gerbe acérée</k> de 0,15 %, et ceux de <k>Manifestation surgente</k> de 0,1 %."
+          },
+          {
+            "name": "Verlumine d'ailleurs",
+            "desc": "Permet au voyageur de puiser une force nouvelle dans ses périples passés, lui accordant un <k>effet de renforcement</k> supplémentaire pour chaque élément avec lequel il est entré en résonance.\n\nDe plus, lorsqu'un noyau Dendro (incluant les noyaux d'abondance et les graines de tromperie) apparaît sur le terrain à proximité ou que l'équipe obtient une rosée verdoyante, le voyageur obtient 1 lame de verdure verdoyante, ces deux manières permettant chacune d'accorder 1 lame toutes les 4 s maximum au voyageur jusqu'à un maximum de 3 lames. Avec 3 lames de verdure verdoyante, effectuer une attaque chargée consomme toutes les lames pour déclencher une <k>attaque chargée « Verdosité »</k> spéciale.\n\n<k>Attaque chargée « Verdosité »</k>\n· Chaque coup de l'attaque chargée inflige des <e:dendro>DGT Dendro</e> qui sont augmentés d'une valeur équivalant à 80 % de l'ATQ du voyageur et génère 2 <k>cœurs de liane</k> sur place, ces derniers explosant respectivement après 4 s et 8 s afin d'infliger des <e:dendro>DGT Dendro</e> d'une valeur équivalant à 120 % de l'ATQ du voyageur. Ces DGT sont considérés comme des DGT d'attaque chargée.\n· Une <k>attaque chargée « Verdosité »</k> peut être déclenchée une fois toutes les 15 s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Couvre-sol symbiotique",
+            "desc": "Le voyageur récupère 3,5 pts d'énergie élémentaire après avoir touché un ennemi avec <k>Gerbe acérée</k>."
+          },
+          {
+            "level": 2,
+            "name": "Résilience verte",
+            "desc": "La durée du <k>lotus lumineux</k> augmente de 3 s."
+          },
+          {
+            "level": 3,
+            "name": "Herbes tourbillonnantes",
+            "desc": "Niveau d'aptitude <k>Gerbe acérée</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Herbe de mélasse",
+            "desc": "Lorsque le <k>lotus lumineux</k> a déclenché sa transfiguration lotumineuse, il obtient 5 cumuls de lumière lotiforme de l'aptitude d'élévation « Prolifération de verdure ».\nL'aptitude d'élévation « Prolifération de verdure » doit être déjà débloquée."
+          },
+          {
+            "level": 5,
+            "name": "Viride éphémère",
+            "desc": "Niveau d'aptitude <k>Manifestation surgente</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Agrégation flétrissante",
+            "desc": "Les personnages affectés par l'effet de la lumière lotiforme du <k>lotus lumineux</k> obtiennent un <e:dendro>bonus de DGT Dendro</e> de 12 %. Si le lotus lumineux a déjà fait l'objet d'une transfiguration lotumineuse, les personnages obtiennent également un bonus de DGT de 12 % pour l'élément correspondant."
+          }
+        ]
+      }
+    }
   }
 }

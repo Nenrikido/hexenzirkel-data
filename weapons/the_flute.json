@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11402",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
+        "passive": {
+          "name": "Chord",
+          "refinements": {
+            "1": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <r>100%</r> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+            "2": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <r>125%</r> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+            "3": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <r>150%</r> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+            "4": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <r>175%</r> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
+            "5": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals <r>200%</r> ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "En dessous de la rouille se cache une lame fine ornée de somptueuses décorations. Elle est aussi légère qu'une plume.",
+        "passive": {
+          "name": "Accord",
+          "refinements": {
+            "1": "Les attaques normales et chargées confèrent une harmonie à chaque fois qu'elles touchent. Au bout de 5 harmonies, le pouvoir de la musique est libéré, et inflige <r>100 %</r> de DGT d'ATQ aux ennemis proches. Les harmonies durent jusqu'à 30 s, et une harmonie peut être obtenue une fois toutes les 0,5 s.",
+            "2": "Les attaques normales et chargées confèrent une harmonie à chaque fois qu'elles touchent. Au bout de 5 harmonies, le pouvoir de la musique est libéré, et inflige <r>125 %</r> de DGT d'ATQ aux ennemis proches. Les harmonies durent jusqu'à 30 s, et une harmonie peut être obtenue une fois toutes les 0,5 s.",
+            "3": "Les attaques normales et chargées confèrent une harmonie à chaque fois qu'elles touchent. Au bout de 5 harmonies, le pouvoir de la musique est libéré, et inflige <r>150 %</r> de DGT d'ATQ aux ennemis proches. Les harmonies durent jusqu'à 30 s, et une harmonie peut être obtenue une fois toutes les 0,5 s.",
+            "4": "Les attaques normales et chargées confèrent une harmonie à chaque fois qu'elles touchent. Au bout de 5 harmonies, le pouvoir de la musique est libéré, et inflige <r>175 %</r> de DGT d'ATQ aux ennemis proches. Les harmonies durent jusqu'à 30 s, et une harmonie peut être obtenue une fois toutes les 0,5 s.",
+            "5": "Les attaques normales et chargées confèrent une harmonie à chaque fois qu'elles touchent. Au bout de 5 harmonies, le pouvoir de la musique est libéré, et inflige <r>200 %</r> de DGT d'ATQ aux ennemis proches. Les harmonies durent jusqu'à 30 s, et une harmonie peut être obtenue une fois toutes les 0,5 s."
+          }
+        }
+      }
+    }
   }
 }

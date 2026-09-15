@@ -26,5 +26,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15040",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Finale of the Deep Galleries",
+        "bonuses": {
+          "2": "<e:cryo>Cryo</e> DMG Bonus +15%",
+          "4": "When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
+        }
+      },
+      "fr": {
+        "name": "Finale des galeries profondes",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:cryo>Cryo</e> de 15 %.",
+          "4": "Lorsque le personnage équipé de l'artéfact a 0 pt d'énergie élémentaire, les DGT infligés par les attaques normales et les déchaînements élémentaires augmentent de 60 %. Le bonus ainsi accordé aux déchaînements élémentaires s'arrête pendant 6 s après que le personnage équipé de l'artéfact inflige des DGT grâce à une attaque normale. De même, le bonus ainsi accordé aux attaques normales s'arrête pendant 6 s après que le personnage équipé de l'artéfact inflige des DGT grâce à un déchaînement élémentaire. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

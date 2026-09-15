@@ -61,5 +61,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12511",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
+        "passive": {
+          "name": "Desert Watch",
+          "refinements": {
+            "1": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <r>20%</r> for 8s. After the character takes DMG, their ATK will be increased by <r>20%</r> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <r>32%</r>.",
+            "2": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <r>25%</r> for 8s. After the character takes DMG, their ATK will be increased by <r>25%</r> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <r>40%</r>.",
+            "3": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <r>30%</r> for 8s. After the character takes DMG, their ATK will be increased by <r>30%</r> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <r>48%</r>.",
+            "4": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <r>35%</r> for 8s. After the character takes DMG, their ATK will be increased by <r>35%</r> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <r>56%</r>.",
+            "5": "After the character's Elemental Skill hits an opponent, their ATK will be increased by <r>40%</r> for 8s. After the character takes DMG, their ATK will be increased by <r>40%</r> for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by <r>64%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une grande épée à bout plat conçue pour être l'arme d'un roi d'antan ou une sorte d'instrument de cérémonie.",
+        "passive": {
+          "name": "Garde du désert",
+          "refinements": {
+            "1": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>20 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>20 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>32 %</r>.",
+            "2": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>25 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>25 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>40 %</r>.",
+            "3": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>30 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>30 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>48 %</r>.",
+            "4": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>35 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>35 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>56 %</r>.",
+            "5": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>40 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>40 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>64 %</r>."
+          }
+        }
+      }
+    }
   }
 }

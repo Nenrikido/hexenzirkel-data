@@ -90,5 +90,41 @@
       }
     ],
     "others_modifiers_json": {}
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11516",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An obsidian blade of unparalleled sharpness, light as a song. It was modified by a certain artisan to come equipped with a record-playing detachable Phlogiston Device.",
+        "passive": {
+          "name": "Halcyon Years Unending",
+          "refinements": {
+            "1": "Gain \"Ode to Flowers\" after Normal or Plunging Attacks hit an opponent: DEF increases by <r>8%</r> and gain a <r>10%</r> All Elemental DMG Bonus for 6s. Max 2 stacks. Can trigger once per 0.1s. When this effect reaches 2 stacks or the 2nd stack's duration is refreshed, increase all nearby party members' All Elemental DMG Bonus by <r>8%</r> for every 1,000 DEF the equipping character has, up to a maximum of <r>25.6%</r>, for 15s.",
+            "2": "Gain \"Ode to Flowers\" after Normal or Plunging Attacks hit an opponent: DEF increases by <r>10%</r> and gain a <r>12.5%</r> All Elemental DMG Bonus for 6s. Max 2 stacks. Can trigger once per 0.1s. When this effect reaches 2 stacks or the 2nd stack's duration is refreshed, increase all nearby party members' All Elemental DMG Bonus by <r>10%</r> for every 1,000 DEF the equipping character has, up to a maximum of <r>32%</r>, for 15s.",
+            "3": "Gain \"Ode to Flowers\" after Normal or Plunging Attacks hit an opponent: DEF increases by <r>12%</r> and gain a <r>15%</r> All Elemental DMG Bonus for 6s. Max 2 stacks. Can trigger once per 0.1s. When this effect reaches 2 stacks or the 2nd stack's duration is refreshed, increase all nearby party members' All Elemental DMG Bonus by <r>12%</r> for every 1,000 DEF the equipping character has, up to a maximum of <r>38.4%</r>, for 15s.",
+            "4": "Gain \"Ode to Flowers\" after Normal or Plunging Attacks hit an opponent: DEF increases by <r>14%</r> and gain a <r>17.5%</r> All Elemental DMG Bonus for 6s. Max 2 stacks. Can trigger once per 0.1s. When this effect reaches 2 stacks or the 2nd stack's duration is refreshed, increase all nearby party members' All Elemental DMG Bonus by <r>14%</r> for every 1,000 DEF the equipping character has, up to a maximum of <r>44.8%</r>, for 15s.",
+            "5": "Gain \"Ode to Flowers\" after Normal or Plunging Attacks hit an opponent: DEF increases by <r>16%</r> and gain a <r>20%</r> All Elemental DMG Bonus for 6s. Max 2 stacks. Can trigger once per 0.1s. When this effect reaches 2 stacks or the 2nd stack's duration is refreshed, increase all nearby party members' All Elemental DMG Bonus by <r>16%</r> for every 1,000 DEF the equipping character has, up to a maximum of <r>51.2%</r>, for 15s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lame d'obsidienne d'un tranchant incomparable, légère comme une chanson. Elle a été modifiée par une certaine personne pour être équipée d'un dispositif phlogistique amovible pour la lecture de disques.",
+        "passive": {
+          "name": "Âge d'or sans fin",
+          "refinements": {
+            "1": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>8 %</r> et accorde un bonus de DGT élémentaires de <r>10 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>8 %</r> (jusqu'à <r>25,6 %</r> maximum) pendant 15 s.",
+            "2": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>10 %</r> et accorde un bonus de DGT élémentaires de <r>12,5 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>10 %</r> (jusqu'à <r>32 %</r> maximum) pendant 15 s.",
+            "3": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>12 %</r> et accorde un bonus de DGT élémentaires de <r>15 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>12 %</r> (jusqu'à <r>38,4 %</r> maximum) pendant 15 s.",
+            "4": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>14 %</r> et accorde un bonus de DGT élémentaires de <r>17,5 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>14 %</r> (jusqu'à <r>44,8 %</r> maximum) pendant 15 s.",
+            "5": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>16 %</r> et accorde un bonus de DGT élémentaires de <r>20 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>16 %</r> (jusqu'à <r>51,2 %</r> maximum) pendant 15 s."
+          }
+        }
+      }
+    }
   }
 }

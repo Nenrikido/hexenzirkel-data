@@ -262,5 +262,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000064",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Cloud-Grazing Strike",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Opening Flourish",
+            "desc": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\n<k>Press</k>\nFlourishes her polearm in a cloud-grasping stance, dealing <e:geo>Geo DMG</e>.\n\n<k>Hold</k>\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <e:geo>Geo DMG</e>.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\n\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>"
+          },
+          "burst": {
+            "name": "Cliffbreaker's Banner",
+            "desc": "Deals <e:geo>AoE Geo DMG</e> and grants all nearby party members a Flying Cloud Flag Formation.\n\n<k>Flying Cloud Flag Formation</k>\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\n\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "True to Oneself",
+            "desc": "Using <k>Opening Flourish</k> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form."
+          },
+          {
+            "name": "Breaking Conventions",
+            "desc": "The Normal Attack DMG Bonus granted by <k>Flying Cloud Flag Formation</k> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively."
+          },
+          {
+            "name": "Light Nourishment",
+            "desc": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Thespian Gallop",
+            "desc": "<k>Opening Flourish's</k> CD is decreased by 18%."
+          },
+          {
+            "level": 2,
+            "name": "Myriad Mise-En-Scène",
+            "desc": "After <k>Cliffbreaker's Banner</k> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s."
+          },
+          {
+            "level": 3,
+            "name": "Seafaring General",
+            "desc": "Increases the Level of <k>Cliffbreaker's Banner</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Flower and a Fighter",
+            "desc": "When Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s."
+          },
+          {
+            "level": 5,
+            "name": "Famed Throughout the Land",
+            "desc": "Increases the Level of <k>Opening Flourish</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Decorous Harmony",
+            "desc": "Characters under the effects of the <k>Flying Cloud Flag Formation</k> have their Normal ATK SPD increased by 12%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Caresse des nuages",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Épanouissement ouvert",
+            "desc": "Bien que maître Yun ne fasse que jouer la comédie lors de ses combats sur scène, ses talents avec une lance sont bien réels.\n\n<k>Appui simple</k>\nBrandit sa lance pour caresser les nuages, infligeant des <e:geo>DGT Géo</e>.\n\n<k>Appui long</k>\nAdopte la posture de l'épanouissement ouvert pour se charger, formant ainsi un bouclier. L'absorption de DGT du bouclier est fonction des PV max de Yun Jin, et il est efficace à 150 % contre les DGT élémentaires et physiques. Le bouclier dure jusqu'à ce qu'elle finisse de libérer sa compétence élémentaire.\nLorsque vous relâchez la compétence, que la durée prend fin ou que le bouclier est détruit, Yun Jin libère l'énergie stockée sous forme d'attaque, infligeant des <e:geo>DGT Géo</e>.\nEn fonction du temps passé à charger, une attaque de 1e ou 2e charge sera déclenchée.\n\n<i>Pour un unique moment glorieux sur scène, une décennie de préparation en coulisses...</i>"
+          },
+          "burst": {
+            "name": "Bannière de rupture des falaises",
+            "desc": "Inflige des <e:geo>DGT Géo de zone</e> et accorde une formation de bannière de nuagerie à tous les personnages de l'équipe à proximité.\n\n<k>Formation de bannière de nuagerie</k>\nLorsque le personnage inflige des DGT d'attaque normale à un ennemi, les DGT infligés augmentent en fonction de la DÉF actuelle de Yun Jin.\n\nLes effets de la formation de bannière de nuagerie disparaissent à la fin de sa durée ou après avoir activé un certain nombre de cumuls.\nLorsqu'une attaque normale touche plusieurs ennemis en même temps, les cumuls sont consommés selon le nombre d'ennemis touchés. Les cumuls de formation de bannière de nuagerie sont calculés indépendamment pour tous les personnages de l'équipe.\n\n<i>« Alors que les tambours résonnent et que les épées et les hallebardes s'entrechoquent, la doyenne se transforme en un puissant général. »</i>\n<i>« Tandis que les instruments sur scène vibrent à l'unisson, voyons comment elle vainc ces démons ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Fidèle à soi-même",
+            "desc": "Lorsque Yun Jin utilise <k>Épanouissement ouvert</k> au moment exact où elle est attaquée, elle déclenche sa 2e charge."
+          },
+          {
+            "name": "Rejet des conventions",
+            "desc": "Lorsque l'équipe comprend des personnages de 1/2/3/4 types élémentaires, le bonus de DGT d'attaque normale accordé par une <k>formation de bannière de nuagerie</k> augmente davantage d'une valeur équivalant à 2,5 %/5 %/7,5 %/11,5 % de la DÉF de Yun Jin."
+          },
+          {
+            "name": "Nutrition optimisée",
+            "desc": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat parfait qui a des effets sur l'exploration."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Galop vaudevillesque",
+            "desc": "Diminue le TdR d'<k>Épanouissement ouvert</k> de 18 %."
+          },
+          {
+            "level": 2,
+            "name": "Myriade d'accessoires",
+            "desc": "Après avoir utilisé <k>Bannière de rupture des falaises</k>, les DGT des attaques normales de tous les personnages de l'équipe à proximité augmentent de 15 % pendant 12 s."
+          },
+          {
+            "level": 3,
+            "name": "Drapeau maritime",
+            "desc": "Niveau d'aptitude <k>Bannière de rupture des falaises</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Le tranchant d'une fleur",
+            "desc": "Lorsque Yun Jin déclenche une réaction de Cristallisation ou de Sélénocristallisation, sa DÉF augmente de 20 % pendant 12 s."
+          },
+          {
+            "level": 5,
+            "name": "Célébrité à travers les terres",
+            "desc": "Niveau d'aptitude <k>Épanouissement ouvert</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Harmonie esthétique",
+            "desc": "Lorsqu'un personnage est affecté par une <k>formation de bannière de nuagerie</k>, la VIT d'attaque de ses attaques normales augmente de 12 %."
+          }
+        ]
+      }
+    }
   }
 }

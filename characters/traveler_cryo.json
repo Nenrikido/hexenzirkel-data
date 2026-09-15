@@ -553,5 +553,147 @@
         "states": []
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000005-cryo",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Foreign Frostglint",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Ice Fog Piercer",
+            "desc": "Stabs at the opponent with the Traveler's weapon, which releases an ice-cold fog. This deals <e:cryo>Cryo DMG</e> to opponents up ahead and forms a Frostpierce Star next to the Traveler.\n\n<k>Frostpierce Star</k>\n· Follows your own party members around the field and periodically fires ice crystals at nearby opponents, dealing <e:cryo>Cryo DMG</e>.\n<k>Radiance: Stellar-Conduct</k>: The Frostpierce Star will no longer fire ice crystals at opponents at intervals but will instead fire an ice crystal at opponents in a coordinated attack when the Traveler hits an opponent with a Normal Attack, Charged Attack, or Plunging Attack. This effect can trigger once every 0.2s.\n· When an opponent is hit with an ice crystal, the Traveler gains 1 stack of <k>Frostglow</k> (max 8 stacks).\n· When not in combat, <k>Frostglow</k> expires after 30s.\n\n<i>You observed the formation of frost together with Paimon.</i>"
+          },
+          "burst": {
+            "name": "Frostbound Javelin",
+            "desc": "Generates an ice javelin with the power of Cryo, then directs it at enemies to deal multiple instances of <e:cryo>Cryo DMG</e>.\nWhen cast, the Traveler consumes all existing stacks of <k>Frostglow</k>, which in turn increases the DMG dealt by this Elemental Burst. When 8 stacks of <k>Frostglow</k> are consumed, the number of DMG instances caused by the javelins is also increased.\n\n<k>Radiance: Stellar Glimmer</k>: DMG from the current Elemental Burst is changed to <e:cryo>Cryo DMG</e> of the corresponding Stellar Glimmer reaction type.\n\n<i>You felt the keen edge of the icicles alongside Paimon.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Ever-Keen Frost",
+            "desc": "<k>Radiance: Stellar-Conduct</k>: When a <k>Frostpierce Star</k> is on the field, DMG from the Traveler's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to <e:cryo>Cryo DMG</e> that cannot be overridden by another elemental infusion, and DMG dealt is also increased by 80% of the Traveler's ATK."
+          },
+          {
+            "name": "Lucent Ice",
+            "desc": "The Traveler's Elemental Mastery is increased by 8% of their ATK. Up to 160 Elemental Mastery can be gained in this way."
+          },
+          {
+            "name": "Stellar Jubilee: Illusory Frostmirror",
+            "desc": "The Traveler will enter the <k>Radiance: Stellar-Conduct</k> state when inside a <k>Polestar Field</k>, or the <k>Radiance: Stellar Swirl</k> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way."
+          },
+          {
+            "name": "Foreign Permafrost",
+            "desc": "Draws new strength and power from their past travels: Every Elemental Type the Traveler has resonated with now grants an additional <k>enhancement effect</k>.\n\nAdditionally, when a nearby party member deals Stellar-Conduct or Stellar Swirl DMG, the Traveler gains 1 stack of \"Icepoint.\" 1 stack of Icepoint can be obtained in this way once every 2s, max 3 stacks. When the Traveler unleashes a Charged Attack at 3 stacks of Icepoint, all stacks are consumed to change the attack into a special <k>Charged Attack: Freezing Ice</k>.\n\n<k>Charged Attack: Freezing Ice</k>\n· <e:cryo>Cryo DMG</e> dealt is increased by 140% of the Traveler's ATK, and the Traveler also gains 2 stacks of <k>Frostglow</k>.\n· <k>Charged Attack: Freezing Ice</k> can be unleashed once every 15s. Additionally, the DMG Bonus from the Ascension Talent \"Ever-Keen Frost\" does not apply to <k>Charged Attack: Freezing Ice</k>.\n<k>Radiance: Stellar Glimmer</k>: DMG from <k>Charged Attack: Freezing Ice</k> is instead considered <e:cryo>Cryo DMG</e> of the corresponding Stellar Glimmer reaction type."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Somber Freeze",
+            "desc": "The Traveler regenerates 5 Elemental Energy when they deal Stellar Glimmer DMG. This effect can trigger once every 0.5s."
+          },
+          {
+            "level": 2,
+            "name": "Frostfall Reverberation",
+            "desc": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an <k>ice crystal</k> fired by the Elemental Skill <k>Ice Fog Piercer</k>.\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration."
+          },
+          {
+            "level": 3,
+            "name": "Glacial Shard",
+            "desc": "Increases the Level of the Elemental Burst <k>Frostbound Javelin</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Enduring Ice",
+            "desc": "The duration of the <k>Frostpierce Star</k> created by the Elemental Skill <k>Ice Fog Piercer</k> is increased by 25%."
+          },
+          {
+            "level": 5,
+            "name": "Bittercold Fog",
+            "desc": "Increases the Level of the Elemental Skill <k>Ice Fog Piercer</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Brumal Grimfrost",
+            "desc": "Every stack of <k>Frostglow</k> consumed when using the Elemental Burst <k>Frostbound Javelin</k> increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Givre scintillant au loin",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Percée du brouillard givrant",
+            "desc": "Poignarde l'adversaire et libère un brouillard glacial, infligeant des <e:cryo>DGT Cryo</e> devant le voyageur et formant une étoile perce-givre à ses côtés.\n\n<k>Étoile perce-givre</k>\n· Suit votre personnage dans l'équipe et tire périodiquement des cristaux de glace sur les ennemis proches, infligeant des <e:cryo>DGT Cryo</e>.\n<k>Radiance « Astroconduction »</k> : l'étoile perce-givre ne tire plus périodiquement de cristaux de glace sur les ennemis, mais en tire lors d'une attaque coordonnée lorsque le voyageur touche un ennemi avec une attaque normale, chargée ou plongeante, cet effet pouvant être déclenché une fois toutes les 0,2 s.\n· Lorsqu'un cristal de glace touche un ennemi, le voyageur obtient 1 cumul de <k>lueur givrée</k>, jusqu'à un maximum de 8 cumuls.\n· Hors combat, la <k>lueur givrée</k> prend fin après 30 s.\n\n<i>Paimon et vous avez observé la formation des cristaux de givre.</i>"
+          },
+          "burst": {
+            "name": "Javelot de congélation",
+            "desc": "Utilise l'élément Cryo pour créer un javelot de glace avant de le lancer sur les ennemis pour infliger plusieurs fois des <e:cryo>DGT Cryo</e>.\nLors de l'utilisation le voyageur consomme toute sa <k>lueur givrée</k> pour augmenter les DGT infligés par ce déchaînement élémentaire. Consommer 8 cumuls de <k>lueur givrée</k> permet également d'augmenter le nombre d'instances de DGT infligés par le javelot.\n\n<k>Radiance astrale</k> : convertit les DGT infligés en <e:cryo>DGT Cryo</e> considérés comme des DGT de réaction astrale correspondante.\n\n<i>Paimon et vous avez ressenti la morsure glacée des stalactites.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Gelée toujours vive",
+            "desc": "<k>Radiance « Astroconduction »</k> : Pendant la durée d'une <k>étoile perce-givre</k>, les attaques normales, chargées et plongeantes du voyageur sont converties pour infliger des <e:cryo>DGT Cryo</e> ne pouvant pas être enchantés, et les DGT infligés augmentent d'une valeur équivalant à 80 % de son ATQ."
+          },
+          {
+            "name": "Glace lucide",
+            "desc": "La maîtrise élémentaire du voyageur augmente d'une valeur équivalant à 8 % de son ATQ, la maîtrise élémentaire pouvant être augmentée d'un maximum de 160 pts de cette manière."
+          },
+          {
+            "name": "Jubilé stellaire : Miroir de givre illusoire",
+            "desc": "Le voyageur passe en <k>radiance « Astroconduction »</k> ou en <k>radiance « Astrodispersion »</k> pendant 8 s lorsqu'il est dans une <k>étendue polaris</k> ou lorsqu'un personnage de l'équipe a déclenché une réaction d'Astrodispersion à proximité, respectivement.\nLorsqu'un personnage de l'équipe déclenche une réaction de Supraconduction ou de Dispersion Cryo, elle est convertie en réaction d'Astroconduction ou d'Astrodispersion, dont les DGT de base augmentent selon l'ATQ du voyageur : chaque tranche de 100 pts d'ATQ augmente les DGT de base de ces réactions de 0,35 %, les DGT pouvant être augmentés d'un maximum de 7 % de cette manière."
+          },
+          {
+            "name": "Pergélisol d'ailleurs",
+            "desc": "Permet au voyageur de puiser une force nouvelle dans ses périples passés, lui accordant un <k>effet de renforcement</k> supplémentaire pour chaque élément avec lequel il est entré en résonance.\n\nDe plus, lorsqu'un personnage de l'équipe à proximité inflige des DGT de réaction d'Astroconduction ou des DGT de réaction d'Astrodispersion, le voyageur obtient 1 lame de glace condensée, une lame pouvant être obtenue une fois toutes les 2 s de cette manière jusqu'à un maximum de 3 lames. Avec 3 lames de glace condensée, effectuer une attaque chargée consomme toutes les lames pour déclencher une <k>attaque chargée « Glace givrante »</k> spéciale.\n\n<k>Attaque chargée « Glace givrante »</k>\n· Les <e:cryo>DGT Cryo</e> augmentent d'une valeur équivalant à 140 % de l'ATQ du voyageur et il obtient 2 cumuls de <k>lueur givrée</k>.\n· Une <k>attaque chargée « Glace givrante »</k> peut être déclenchée une fois toutes les 15 s. De plus, le bonus de DGT de l'aptitude d'élévation « Gelée toujours vive » ne s'applique pas à l'<k>attaque chargée « Glace givrante »</k>.\n<k>Radiance astrale</k> : Les DGT infligés par l'<k>attaque chargée « Glace givrante »</k> sont convertis pour infliger des <e:cryo>DGT Cryo</e> considérés comme des DGT de réaction astrale correspondante."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Gel sombre",
+            "desc": "Le voyageur récupère 5 pts d'énergie élémentaire en infligeant des DGT de réaction astrale, cet effet pouvant être déclenché une fois toutes les 0,5 s."
+          },
+          {
+            "level": 2,
+            "name": "Réverbération de givre",
+            "desc": "Lorsqu'un <k>cristal de glace</k> tiré par la compétence élémentaire <k>Percée du brouillard givrant</k> a touché un ennemi, la maîtrise élémentaire du personnage déployé augmente de 60 pts pendant 5 s.\nDe plus, si un personnage affecté par cet effet déclenche une réaction astrale ou inflige des DGT de réaction astrale, l'augmentation passe à 120 pts pendant la durée restante."
+          },
+          {
+            "level": 3,
+            "name": "Éclat glaciaire",
+            "desc": "Niveau d'aptitude <k>Javelot de congélation</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Glace persistante",
+            "desc": "La durée de l'<k>étoile perce-givre</k> créée par la compétence élémentaire <k>Percée du brouillard givrant</k> augmente de 25 %."
+          },
+          {
+            "level": 5,
+            "name": "Brouillard glacial",
+            "desc": "Niveau d'aptitude <k>Percée du brouillard givrant</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Givremort hivernal",
+            "desc": "Chaque cumul de <k>lueur givrée</k> consommé en utilisant le déchaînement élémentaire <k>Javelot de congélation</k> augmente les DGT de réaction astrale des autres personnages de l'équipe de 5 % pendant 15 s, les DGT pouvant être augmentés d'un maximum de 40 % de cette manière."
+          }
+        ]
+      }
+    }
   }
 }

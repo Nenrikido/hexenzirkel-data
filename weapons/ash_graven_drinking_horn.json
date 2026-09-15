@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14427",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A ritual vessel passed down amongst the Meztli. They say that this was once a treasure much-valued, yet never used, by the hero \"Giant\" Tupac.",
+        "passive": {
+          "name": "Tupac's Grip",
+          "refinements": {
+            "1": "When an attack hits an opponent, deal AoE DMG equal to <r>40%</r> of Max HP at the target location. This effect can be triggered once every 15s.",
+            "2": "When an attack hits an opponent, deal AoE DMG equal to <r>50%</r> of Max HP at the target's location. This effect can be triggered once every 15s.",
+            "3": "When an attack hits an opponent, deal AoE DMG equal to <r>60%</r> of Max HP at the target's location. This effect can be triggered once every 15s.",
+            "4": "When an attack hits an opponent, deal AoE DMG equal to <r>70%</r> of Max HP at the target's location. This effect can be triggered once every 15s.",
+            "5": "When an attack hits an opponent, deal AoE DMG equal to <r>80%</r> of Max HP at the target's location. This effect can be triggered once every 15s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un récipient rituel transmis parmi les Meztlis. Ils disent que c'était autrefois un trésor très précieux, mais jamais utilisé, du héros « géant » Tupac.",
+        "passive": {
+          "name": "Poignée de Tupac",
+          "refinements": {
+            "1": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>40 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "2": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>50 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "3": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>60 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "4": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>70 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "5": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>80 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        }
+      }
+    }
   }
 }

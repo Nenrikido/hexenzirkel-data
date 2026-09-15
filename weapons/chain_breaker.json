@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15431",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A jade-adorned longbow. The gentle winds always seem to swirl gently about its string. Legends claim that this weapon was made in a far more ancient era by a dragon artisan.",
+        "passive": {
+          "name": "Flower-Feather Song",
+          "refinements": {
+            "1": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains <r>4.8%</r> increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains <r>24</r> Elemental Mastery.",
+            "2": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains <r>6%</r> increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains <r>30</r> Elemental Mastery.",
+            "3": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains <r>7.2%</r> increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains <r>36</r> Elemental Mastery.",
+            "4": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains <r>8.4%</r> increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains <r>42</r> Elemental Mastery.",
+            "5": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains <r>9.6%</r> increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains <r>48</r> Elemental Mastery."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc long orné de jade. Les vents doux semblent toujours tourbillonner doucement autour de sa corde. Les légendes prétendent que cette arme a été fabriquée à une époque bien plus ancienne par un artisan dragon.",
+        "passive": {
+          "name": "Chant de plumes et fleurs",
+          "refinements": {
+            "1": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>4,8 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>24</r> pts.",
+            "2": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>6 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>30</r> pts.",
+            "3": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>7,2 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>36</r> pts.",
+            "4": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>8,4 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>42</r> pts.",
+            "5": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>9,6 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>48</r> pts."
+          }
+        }
+      }
+    }
   }
 }

@@ -362,5 +362,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000127",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Oathkeeper's Spear",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Dawnbearing Songbird",
+            "desc": "Summons the trusty messenger bird, \"Aedon.\" Different effects are produced depending on whether the skill is Tapped or Held.\n\n<k>Tap</k>\nAedon dashes towards enemies in front, dealing <e:geo>Geo DMG</e> to enemies it comes into contact with.\n\n<k>Hold</k>\nEnter aiming mode, and command Aedon to dash towards opponents being aimed at, dealing <e:geo>Geo DMG</e> to opponents it comes into contact with."
+          },
+          "burst": {
+            "name": "Shadowless Reflection",
+            "desc": "Light the lamp, dealing <e:geo>AoE Geo DMG</e>, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of <k>Nightingale's Song</k>. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal <e:geo>Geo DMG</e> to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.\nWhen <e:geo>Geo DMG</e> dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.\n\nAdditionally, if there are <e:geo>Geo Constructs</e> created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create <e:geo>Geo Constructs</e> while Haunted Night's Oriole-Song is active, every <e:geo>Geo Construct</e> on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.\n\nWhen all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end."
+          }
+        },
+        "passives": [
+          {
+            "name": "Torchforger's Covenant",
+            "desc": "After unleashing Elemental Skill <k>Dawnbearing Songbird</k> or Elemental Burst <k>Shadowless Reflection</k>, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For <e:geo>Geo DMG</e> dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\n\n<k>Moonsign: Ascendant Gleam</k>\nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50."
+          },
+          {
+            "name": "Demonhunter's Dusk",
+            "desc": "<k>Nightingale's Song</k>'s effects are enhanced: When there are 1/2/3 <e:hydro>Hydro</e> or <e:geo>Geo</e> characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery."
+          },
+          {
+            "name": "Moonsign Benediction: Unwithering in Winter",
+            "desc": "When Illuga is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Night Warden's Stride",
+            "desc": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.\nAdditionally, Illuga appears to be able to decipher the whispers of the Wild Hunt..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Vigilant Sentinel",
+            "desc": "After Illuga triggers a <e:geo>Geo-related Reaction</e> on the field, he will regain 12 Elemental Energy. This effect can be triggered at most once every 15s."
+          },
+          {
+            "level": 2,
+            "name": "Elk With Fanged Antlers",
+            "desc": "When Elemental Burst <k>Shadowless Reflection</k>'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of <k>Nightingale's Song</k> consumed, Illuga will summon Aedon, dealing a single instance of <e:geo>Geo DMG</e> to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG."
+          },
+          {
+            "level": 3,
+            "name": "Earthshaking Maw",
+            "desc": "Increases the Level of Elemental Burst <k>Shadowless Reflection</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Solarhunting Wolf",
+            "desc": "When Elemental Burst <k>Shadowless Reflection</k>'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200."
+          },
+          {
+            "level": 5,
+            "name": "Hurricane Steed",
+            "desc": "Increases the Level of Elemental Skill <k>Dawnbearing Songbird</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Nightmare Orioles",
+            "desc": "Enhances the Lightkeeper's Oath effect of the Ascension Talent <k>Torchforger's Covenant</k>: For <e:geo>Geo DMG</e> dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\n<k>Moonsign: Ascendant Gleam:</k>\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"<k>Torchforger's Covenant</k>.\""
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance du prosélyte",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Alouette de l'aube naissante",
+            "desc": "Invoque le fidèle oiseau messager « Aédon », différents effets se produisant selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nAédon fonce vers les ennemis en avant, infligeant des <e:geo>DGT Géo</e> aux ennemis touchés.\n\n<k>Appui long</k>\nPasse en mode visée pour que Aédon fonce sur l'ennemi ciblé, infligeant des <e:geo>DGT Géo</e> aux ennemis touchés."
+          },
+          "burst": {
+            "name": "Reflet sans ombre",
+            "desc": "Allume la lanterne, infligeant des <e:geo>DGT Géo de zone</e> et accordant l'effet Chant nocturne d'oriole pendant 20 s : pendant cette durée, Illuga obtient 21 cumuls de <k>chant de rossignol</k>. Lorsqu'un personnage déployé de l'équipe à proximité inflige des <e:geo>DGT Géo</e> à un ennemi avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, Illuga consomme 1 cumul de chant de rossignol pour augmenter les DGT selon sa maîtrise élémentaire, les DGT augmentant davantage s'ils sont le résultat d'une réaction de Sélénocristallisation.\nEn infligeant ainsi des <e:geo>DGT Géo</e> à plusieurs ennemis, le nombre de cumuls de chant de rossignol consommés dépend de la quantité d'ennemis touchés.\n\nDe plus, lorsque Illuga utilise un déchaînement élémentaire alors qu'une <e:geo>construction Géo</e> générée par un personnage de l'équipe à proximité est présente sur le champ de bataille, ou lorsqu'un personnage de l'équipe à proximité génère une <e:geo>construction Géo</e> pendant la durée de l'effet Chant nocturne d'oriole, chaque <e:geo>construction Géo</e> sur le terrain permet à Illuga d'obtenir 5 cumuls supplémentaires de chant de rossignol. Illuga peut obtenir un maximum de 15 cumuls supplémentaires de cette manière pendant les 20 s qui suivent chaque déclenchement de son déchaînement élémentaire.\n\nL'effet Chant nocturne d'oriole prend fin lorsque tous les cumuls de chant de rossignol sont épuisés ou à la fin de sa durée."
+          }
+        },
+        "passives": [
+          {
+            "name": "Pacte du forge-torche",
+            "desc": "Après avoir utilisé la compétence élémentaire <k>Alouette de l'aube naissante</k> ou le déchaînement élémentaire <k>Reflet sans ombre</k>, les autres personnages de l'équipe à proximité obtiennent l'effet Serment de ratniki pendant 20 s : augmente le taux CRIT de 5 % et les DGT CRIT de 10 % en infligeant des <e:geo>DGT Géo</e> à un ennemi.\n\n<k>Signelune « Lueur ascendante »</k>\nLa maîtrise élémentaire des personnages bénéficiant de l'effet Serment de ratniki augmente de 50 pts."
+          },
+          {
+            "name": "Crépuscule du chasseur de démons",
+            "desc": "Les effets du <k>chant de rossignol</k> sont renforcés : lorsque l'équipe contient 1/2/3 personnages <e:hydro>Hydro</e> ou <e:geo>Géo</e>, le chant de rossignol augmente davantage les DGT d'une valeur équivalant respectivement à 7 %/14 %/24 % de la maîtrise élémentaire d'Illuga, cette augmentation valant respectivement 48 %/96 %/160 % de la maîtrise élémentaire d'Illuga s'il s'agit de DGT infligés par une réaction de Sélénocristallisation."
+          },
+          {
+            "name": "Bénédiction de signelune : Inébranlable en hiver",
+            "desc": "Lorsque Illuga fait partie de l'équipe, la <k>signelune</k> de l'équipe augmente d'un niveau."
+          },
+          {
+            "name": "Foulée du veilleur de nuit",
+            "desc": "La nuit (18 h 00 - 06 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé.\nDe plus, Illuga semble capable de déchiffrer les murmures de la Chasse sauvage..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sentinelle vigilante",
+            "desc": "Lorsque Illuga a déclenché une <e:geo>réaction liée à l'élément Géo</e> sur le terrain, il récupère 12 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 15 s."
+          },
+          {
+            "level": 2,
+            "name": "Élan aux bois carnassiers",
+            "desc": "Pendant la durée de l'effet Chant nocturne d'oriole du déchaînement élémentaire <k>Reflet sans ombre</k>, Illuga invoque Aédon tous les 7 cumuls de <k>chant de rossignol</k> consommés pour infliger une fois des <e:geo>DGT Géo</e> d'une valeur équivalant à 400 % de sa maîtrise élémentaire et à 200 % de son DÉF à un ennemi proche, ces DGT étant considérés comme des DGT de déchaînement élémentaire."
+          },
+          {
+            "level": 3,
+            "name": "Ours des rugissements sismiques",
+            "desc": "Niveau d'aptitude <k>Reflet sans ombre</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Loup des aurores pourchassées",
+            "desc": "Pendant la durée de l'effet Chant nocturne d'oriole du déchaînement élémentaire <k>Reflet sans ombre</k>, la DÉF des personnages déployés de l'équipe à proximité augmente de 200 pts."
+          },
+          {
+            "level": 5,
+            "name": "Destrier des vents hurlants",
+            "desc": "Niveau d'aptitude <k>Alouette de l'aube naissante</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Oriole des nuits terrifiantes",
+            "desc": "L'effet Serment de ratniki de l'aptitude d'élévation <k>« Pacte du forge-torche »</k> est renforcé : augmente le taux CRIT de 10 % et les DGT CRIT de 30 % en infligeant des <e:geo>DGT Géo</e> à un ennemi.\n\n<k>Signelune « Lueur ascendante »</k>\nLa maîtrise élémentaire des personnages bénéficiant de l'effet Serment de ratniki augmente de 80 pts.\nL'aptitude d'élévation <k>« Pacte du forge-torche »</k> doit être déjà débloquée."
+          }
+        ]
+      }
+    }
   }
 }

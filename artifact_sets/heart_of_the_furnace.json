@@ -26,5 +26,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15048",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Heart of the Furnace",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack."
+        }
+      },
+      "fr": {
+        "name": "Cœur de la fournaise",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Pendant 12 s après que le personnage équipé de l'artéfact a déclenché une réaction astrale ou infligé des DGT de réaction astrale, son ATQ augmente de 12 % et les DGT de réaction astrale infligés par tous les personnages de l'équipe à proximité augmentent de 50 %. L'effet ci-dessus peut être déclenché même si le personnage n'est pas déployé, et les effets d'augmentation des DGT accordés par les sets d'artéfacts du même nom ne se cumulent pas."
+        }
+      }
+    }
   }
 }

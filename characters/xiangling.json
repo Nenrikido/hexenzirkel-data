@@ -321,5 +321,139 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000023",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Dough-Fu",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Guoba Attack",
+            "desc": "Summons Guoba, who will continuously breathe fire at opponents, dealing <e:pyro>AoE Pyro DMG</e>.\n\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>"
+          },
+          "burst": {
+            "name": "Pyronado",
+            "desc": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing <e:pyro>Pyro DMG</e> to all opponents in its path.\n\n<i>There will never be enough heat. Never.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Crossfire",
+            "desc": "Increases the flame range of Guoba by 20%."
+          },
+          {
+            "name": "Beware, It's Super Hot!",
+            "desc": "When <k>Guoba Attack</k>'s effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s."
+          },
+          {
+            "name": "Chef de Cuisine",
+            "desc": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Crispy Outside, Tender Inside",
+            "desc": "Opponents hit by Guoba's attacks have their <e:pyro>Pyro RES</e> reduced by 15% for 6s."
+          },
+          {
+            "level": 2,
+            "name": "Oil Meets Fire",
+            "desc": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as <e:pyro>AoE Pyro DMG</e>."
+          },
+          {
+            "level": 3,
+            "name": "Deepfry",
+            "desc": "Increases the Level of <k>Pyronado</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Slowbake",
+            "desc": "<k>Pyronado</k>'s duration is increased by 40%."
+          },
+          {
+            "level": 5,
+            "name": "Guoba Mad",
+            "desc": "Increases the Level of <k>Guoba Attack</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Condensed Pyronado",
+            "desc": "For the duration of <k>Pyronado</k>, all party members receive a 15% <e:pyro>Pyro DMG Bonus</e>."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Cuisine-fu",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Attaque Gooba",
+            "desc": "Xiangling invoque Gooba. Tant que Gooba est actif, il crache du feu sur les ennemis, leur infligeant des <e:pyro>DGT Pyro de zone</e>.\n\n<i>Gooba raffole des produits épicés... Mais même ça, c'est un peu trop pour lui.</i>"
+          },
+          "burst": {
+            "name": "Pyrotation",
+            "desc": "Démontrant à nouveau sa maîtrise du feu et des armes, Xiangling libère une tornade de feu qui tournoie autour d'elle.\nLa tornade suit le personnage tant qu'elle est active, infligeant des <e:pyro>DGT Pyro</e> aux ennemis sur sa route.\n\n<i>On n'a jamais assez d'explosif. JAMAIS.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Feux croisés",
+            "desc": "Augmente la portée des crachats de feu de Gooba de 20 %."
+          },
+          {
+            "name": "Attention, ça pique",
+            "desc": "À la fin d'<k>Attaque Gooba</k>, le gentil petit Gooba laisse un piment à son emplacement avant de disparaître. Ce piment confère un bonus de 10 % d'ATQ pendant 10 s à celui qui le ramasse."
+          },
+          {
+            "name": "Cheffe cuisinière",
+            "desc": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat parfait qui renforce l'ATQ."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Croustillant à l'extérieur, tendre à l'intérieur",
+            "desc": "La <e:pyro>RÉS Pyro</e> des ennemis touchés par Gooba diminue de 15 % pendant 6 s."
+          },
+          {
+            "level": 2,
+            "name": "L'huile sur le feu",
+            "desc": "Le dernier coup d'attaque normale inflige pendant 2 s un effet d'implosion aux ennemis. Au bout de ce délai, ils explosent, infligeant des <e:pyro>DGT Pyro de zone</e> équivalant à 75 % de l'ATQ."
+          },
+          {
+            "level": 3,
+            "name": "Sauté profond",
+            "desc": "Niveau d'aptitude <k>Pyrotation</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Douce cuisine",
+            "desc": "Prolonge la durée de <k>Pyrotation</k> de 40 %."
+          },
+          {
+            "level": 5,
+            "name": "Colère de Gooba",
+            "desc": "Niveau d'aptitude <k>Attaque Gooba</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Pyrotation condensée",
+            "desc": "Les <e:pyro>DGT Pyro</e> de tous les personnages de l'équipe augmentent de 15 % tant que <k>Pyrotation</k> est active."
+          }
+        ]
+      }
+    }
   }
 }

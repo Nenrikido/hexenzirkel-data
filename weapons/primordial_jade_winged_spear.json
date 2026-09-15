@@ -50,5 +50,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13505",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A jade polearm made by the archons, capable of slaying ancient beasts.",
+        "passive": {
+          "name": "Eagle Spear of Justice",
+          "refinements": {
+            "1": "On hit, increases ATK by <r>3.2%</r> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <r>12%</r>.",
+            "2": "On hit, increases ATK by <r>3.9%</r> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <r>15%</r>.",
+            "3": "On hit, increases ATK by <r>4.6%</r> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <r>18%</r>.",
+            "4": "On hit, increases ATK by <r>5.3%</r> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <r>21%</r>.",
+            "5": "On hit, increases ATK by <r>6%</r> for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by <r>24%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance longue et pointue en jade ensorcelé, avec laquelle vous pourriez vaincre les puissants monstres marins des temps préhistoriques.",
+        "passive": {
+          "name": "Lance d'aigle de la justice",
+          "refinements": {
+            "1": "Les ennemis touchés confèrent un bonus d'ATQ de <r>3,2 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>12 %</r>.",
+            "2": "Les ennemis touchés confèrent un bonus d'ATQ de <r>3,9 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>15 %</r>.",
+            "3": "Les ennemis touchés confèrent un bonus d'ATQ de <r>4,6 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>18 %</r>.",
+            "4": "Les ennemis touchés confèrent un bonus d'ATQ de <r>5,3 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>21 %</r>.",
+            "5": "Les ennemis touchés confèrent un bonus d'ATQ de <r>6 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>24 %</r>."
+          }
+        }
+      }
+    }
   }
 }

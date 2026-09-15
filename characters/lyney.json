@@ -313,5 +313,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000084",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Card Force Translocation",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive shots with a bow.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, flames will run across the arrowhead before being fired. Different effects will occur based on the time spent charging.\n· Charge Level 1: Fires off a Pyro-infused arrow, dealing <e:pyro>Pyro DMG</e>.\n· Charge Level 2: Fires off a Prop Arrow that deals <e:pyro>Pyro DMG</e>, and upon hit, it will summon a Grin-Malkin Hat.\nWhen firing the Prop Arrow, and when Lyney has more than 60% HP, he will consume a portion of his HP to obtain 1 Prop Surplus stack. Max 5 stacks. The effect will be removed after the character spends 30s out of combat.\nThe lowest Lyney can drop to through this method is 60% of his Max HP.\n\n<k>Grin-Malkin Hat</k>\n· Can taunt nearby opponents and attract their attacks. Each opponent can only be taunted by the Hat once every 5s.\n· The Hat will inherit a percentage of Lyney's Max HP.\n· If destroyed, or if its duration expires, it will fire off a <k>Pyrotechnic Strike</k> at 1 nearby opponent, dealing <e:pyro>Pyro DMG</e>.\nOnly 1 Hat can exist at any given time.\n\n<k>Arkhe: Pneuma</k>\nAt certain intervals, the Prop Arrow will cause a Spiritbreath Thorn to descend upon its hit location, dealing Pneuma-aligned <e:pyro>Pyro DMG</e>."
+          },
+          "skill": {
+            "name": "Bewildering Lights",
+            "desc": "Lyney does a flourish with his hat, unleashing a firework surprise!\nWhen used, he will clear all current Prop Surplus stacks and deal <e:pyro>AoE Pyro DMG</e> to opponents in front of him. DMG will be increased according to the stacks cleared, and this will also regenerate Lyney's HP based on his Max HP.\n\nWhen a Grin-Malkin Hat created by Lyney is on the field, the fireworks will cause it to explode, dealing <e:pyro>AoE Pyro DMG</e> equal to that of a Pyrotechnic Strike.\nThe DMG dealt through the Grin-Malkin Hat in this way is considered Charged Attack DMG.\n\n<i>\"Everyone knows that magicians will intentionally misdirect the audience... Ah, yes, while you were looking my way, the hat and assistant over there have both disappeared... Fascinating, is it not?\"</i>"
+          },
+          "burst": {
+            "name": "Wondrous Trick: Miracle Parade",
+            "desc": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <e:pyro>Pyro DMG</e> to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <e:pyro>AoE Pyro DMG</e>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\n\nGrin-Malkin Cat can be actively canceled.\n\n<i>\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Perilous Performance",
+            "desc": "If Lyney consumes HP when firing off a <k>Prop Arrow</k>, the Grin-Malkin hat summoned by the arrow will, upon hitting an opponent, restore 3 Energy to Lyney and increase DMG dealt by 80% of his ATK."
+          },
+          {
+            "name": "Conclusive Ovation",
+            "desc": "The DMG Lyney deals to opponents affected by <e:pyro>Pyro</e> will receive the following buffs:\n· Increases the DMG dealt by 60%.\n· Each <e:pyro>Pyro</e> party member other than Lyney will cause the DMG dealt to increase by an additional 20%.\nLyney can deal up to 100% increased DMG to opponents affected by <e:pyro>Pyro</e> in this way."
+          },
+          {
+            "name": "Trivial Observations",
+            "desc": "Displays the location of nearby <k>resources unique to Fontaine</k> on the mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Whimsical Wonders",
+            "desc": "Lyney can have 2 <k>Grin-Malkin Hats</k> present at once.\nAdditionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s."
+          },
+          {
+            "level": 2,
+            "name": "Loquacious Cajoling",
+            "desc": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field."
+          },
+          {
+            "level": 3,
+            "name": "Prestidigitation",
+            "desc": "Increases the Level of <k>Normal Attack: Card Force Translocation</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Well-Versed, Well-Rehearsed",
+            "desc": "After an opponent is hit by Lyney's <e:pyro>Pyro</e> Charged Attack, this opponent's <e:pyro>Pyro RES</e> will be decreased by 20% for 6s."
+          },
+          {
+            "level": 5,
+            "name": "To Pierce Enigmas",
+            "desc": "Increases the Level of <k>Wondrous Trick: Miracle Parade</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Guarded Smile",
+            "desc": "When Lyney fires a <k>Prop Arrow</k>, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Cartomagie",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 tirs consécutifs.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la puissance du feu vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :\n· 1 charge : Tire une flèche enflammée qui inflige des <e:pyro>DGT Pyro</e>.\n· 2 charges : Tire une flèche postiche qui inflige des <e:pyro>DGT Pyro</e> et invoque un chapeau félinois après avoir touché.\nSi Lyney tire une flèche postiche en ayant plus de 60 % de PV, il consomme une partie de ses PV pour obtenir un cumul de fantasmagorie. Cet effet peut être cumulé 5 fois maximum, et sera annulé après 30 s si Lyney quitte le combat.\nLes PV de Lyney peuvent être diminués jusqu'à 60 % de cette manière.\n\n<k>Chapeau félinois</k>\n· Permet de narguer les ennemis proches pour attirer leurs attaques, chaque ennemi pouvant être nargué par le chapeau une fois toutes les 5 s.\n· La durabilité du chapeau est proportionnelle aux PV max de Lyney.\n· Lorsque le chapeau est éliminé ou expire, il tire une <k>balle d'artifice</k> sur un ennemi proche, infligeant des <e:pyro>DGT Pyro</e>.\nIl ne peut exister qu'un seul chapeau félinois à la fois.\n\n<k>Arkhe : Pneuma</k>\nRégulièrement, une épine d'inhalation descend à l'emplacement touché par une flèche postiche pour infliger des <e:pyro>DGT Pyro</e> chargés d'énergie pneuma."
+          },
+          "skill": {
+            "name": "Lumières de fioriture",
+            "desc": "Lyney agite son chapeau pour déclencher un feu d'artifice surprise.\nL'utilisation de cette capacité consomme tous les cumuls de fantasmagorie possédés et inflige des <e:pyro>DGT Pyro de zone</e> aux ennemis en face. Les DGT augmentent selon la quantité de cumuls consommés, et les PV de Lyney sont aussi restaurés selon ses PV max.\n\nLorsqu'un chapeau félinois créé par Lyney est présent sur le champ de bataille, le feu d'artifice le fait exploser pour infliger des <e:pyro>DGT Pyro de zone</e> d'une valeur équivalant aux DGT d'une balle d'artifice.\nLes DGT infligés par un chapeau félinois de cette manière sont considérés comme des DGT d'attaque chargée.\n\n<i>« Tout le monde sait que les magiciens détournent intentionnellement le public... Eh oui, pendant que vous me regardiez, mon chapeau et mon assistant là-bas ont tous deux disparu... Fascinant, n'est-ce pas ? »</i>"
+          },
+          "burst": {
+            "name": "Clou du spectacle : Parade prodigieuse",
+            "desc": "Libérant sa magie, Lyney se transforme en un félin chaponois qui peut se déplacer rapidement. (À ne pas confondre avec son chapeau félinois. Ce sont deux accessoires bien différents !)\nLorsque le félin chaponois s'approche des ennemis, il fait pleuvoir des flammes sur ces derniers, infligeant une fois des <e:pyro>DGT Pyro</e> à chaque ennemi. Une fois la durée terminée, le félin chaponois se dissipe en faisant exploser un magnifique feu d'artifice, ce qui inflige des <e:pyro>DGT Pyro de zone</e>, invoque un chapeau félinois et lui accorde un cumul de fantasmagorie.\n\nUn félin chaponois peut être dissipé manuellement.\n\n<i>« Regardez attentivement. C'est le moment du miracle, et il n'appartient qu'à nous ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Performance périlleuse",
+            "desc": "Si Lyney consomme des PV en tirant une <k>flèche postiche</k>, lorsque le chapeau félinois invoqué touche un ennemi, Lyney récupère 3 pts d'énergie élémentaire et les DGT infligés augmentent d'une valeur équivalant à 80 % de l'ATQ."
+          },
+          {
+            "name": "Ovation concluante",
+            "desc": "Les DGT infligés par Lyney aux ennemis affectés par l'<e:pyro>élément Pyro</e> bénéficient des augmentations suivantes :\n· +60 % de base.\n· +20 % pour chacun des personnages de type <e:pyro>Pyro</e> (hormis Lyney) dans l'équipe.\nLes DGT infligés par Lyney aux ennemis affectés par l'<e:pyro>élément Pyro</e> peuvent être augmentés d'un maximum de 100 % de cette manière."
+          },
+          {
+            "name": "Observation triviale",
+            "desc": "Affiche l'emplacement des <k>produits de Fontaine</k> sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Art de mysticité",
+            "desc": "Un maximum de 2 <k>chapeaux félinois</k> peut exister en même temps.\nDe plus, les flèches postiches invoquent 2 chapeaux félinois après avoir touché et accordent un cumul supplémentaire de fantasmagorie. Cet effet peut être déclenché une fois toutes les 15 s."
+          },
+          {
+            "level": 2,
+            "name": "Cajolerie affable",
+            "desc": "Lyney obtient un cumul de lucidité toutes les 2 s qu'il passe sur le terrain, augmentant ses DGT CRIT de 20 %. Cet effet peut être cumulé 3 fois maximum, et cesse lorsque Lyney quitte le champ de bataille."
+          },
+          {
+            "level": 3,
+            "name": "Dextérité d'illusionnisme",
+            "desc": "Niveau d'aptitude <k>Attaque normale : Cartomagie</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Planification de familiarité",
+            "desc": "La <e:pyro>RÉS Pyro</e> des ennemis touchés par l'attaque chargée de type <e:pyro>Pyro</e> de Lyney diminue de 20 % pendant 6 s."
+          },
+          {
+            "level": 5,
+            "name": "Malice de révélation",
+            "desc": "Niveau d'aptitude <k>Clou du spectacle : Parade prodigieuse</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Sourire diplomatique",
+            "desc": "Lorsque Lyney décoche une <k>flèche postiche</k>, il tire une balle d'artifice répliquée qui inflige des DGT d'une valeur équivalant à 80 % des DGT d'une balle d'artifice. Ces DGT sont considérés comme des DGT d'attaque chargée."
+          }
+        ]
+      }
+    }
   }
 }

@@ -200,5 +200,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000080",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Spear of Favonius - Arrow's Passage",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive strikes using his crossbow and spear.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Starfrost Swirl",
+            "desc": "Mika uses his crossbow to attack, granting all nearby characters in your party Soulwind. When characters in the Soulwind state are on the field, their ATK SPD will be increased.\nWill take effect in different ways if Tapped or Held.\n\n<k>Tap</k>\nFires a Flowfrost Arrow that can pierce through opponents, dealing <e:cryo>Cryo DMG</e> to enemies it comes into contact with.\n\n<k>Hold</k>\nGoes into Aiming Mode, locking on to an opponent and firing a Rimestar Flare at them, dealing <e:cryo>Cryo DMG</e>. When the Rimestar Flare hits, it will rise before exploding, launching Rimestar Shards into a maximum of 3 other opponents, dealing <e:cryo>Cryo DMG</e>.\n\n<i>Stars burst 'neath the frosted skies.</i>"
+          },
+          "burst": {
+            "name": "Skyfeather Song",
+            "desc": "Derives the ability to spur his teammates on from the recited prayers of the knightly order, regenerating HP for all nearby party members. This healing is based on Mika's Max HP and will grant them the Eagleplume state.\n\n<k>Eagleplume</k>\nWhen the Normal Attacks of active characters affected by Eagleplume hit an opponent, Mika will help them regenerate HP based on his Max HP.\nCharacters affected by this state can only regenerate HP in this way once per short interval of time.\n\n<i>\"Carry hope when in dire straits, and keep vigil when all is well... For that pure white plume shall at last guide the lost wayfarers.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Suppressive Barrage",
+            "desc": "Per the following circumstances, the Soulwind state caused by <k>Starfrost Swirl</k> will grant characters the Detector effect, increasing their Physical DMG by 10% when they are on the field.\n· If the Flowfrost Arrow hits more than one opponent, each additional opponent hit will generate 1 Detector stack.\n· When a Rimestar Shard hits an opponent, it will generate 1 Detector stack. Each Rimestar Shard can trigger the effect 1 time.\n\nThe Soulwind state can have a maximum of 3 Detector stacks, and if Starfrost Swirl is cast again during this duration, the pre-existing Soulwind state and all its Detector stacks will be cleared."
+          },
+          {
+            "name": "Topographical Mapping",
+            "desc": "When an active character affected by both <k>Skyfeather Song</k>'s Eagleplume and <k>Starfrost Swirl</k>'s Soulwind at once scores a CRIT Hit with their attacks, Soulwind will grant them 1 stack of Detector from the Ascension Talent Suppressive Barrage. During a single instance of Soulwind, 1 Detector stack can be gained in this manner.\nAdditionally, the maximum number of stacks that can be gained through Soulwind alone is increased by 1.\nYou must first unlock the Ascension Talent \"Suppressive Barrage.\""
+          },
+          {
+            "name": "Demarcation",
+            "desc": "Displays the location of nearby <k>resources unique to Mondstadt</k> on the mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Factor Confluence",
+            "desc": "The Soulwind state of <k>Starfrost Swirl</k> can decrease the healing interval between instances caused by <k>Skyfeather Song</k>'s Eagleplume state. This decrease percentage is equal to the ATK SPD increase provided by Soulwind."
+          },
+          {
+            "level": 2,
+            "name": "Companion's Ingress",
+            "desc": "When <k>Starfrost Swirl</k>'s Flowfrost Arrow first hits an opponent, or its Rimestar Flare hits an opponent, 1 Detector stack from the Ascension Talent \"Suppressive Barrage\" will be generated.\nYou must first unlock the Ascension Talent \"Suppressive Barrage.\""
+          },
+          {
+            "level": 3,
+            "name": "Reconnaissance Experience",
+            "desc": "Increases the Level of <k>Skyfeather Song</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Sunfrost Encomium",
+            "desc": "When Mika's own <k>Skyfeather Song</k>'s Eagleplume state heals party members, this will restore 3 Energy to Mika. This form of Energy restoration can occur 5 times during the Eagleplume state created by 1 use of Skyfeather Song."
+          },
+          {
+            "level": 5,
+            "name": "Signal Arrow",
+            "desc": "Increases the Level of <k>Starfrost Swirl</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Companion's Counsel",
+            "desc": "The maximum number of Detector stacks that <k>Starfrost Swirl</k>'s Soulwind can gain is increased by 1. You must first unlock the Ascension Talent \"Suppressive Barrage.\".\nAdditionally, active characters affected by Soulwind will deal 60% more Physical CRIT DMG."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance de Favonius : Carreau filant",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'arbalète et de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Tourbillon de givre étoilé",
+            "desc": "Utilise son arbalète pour attaquer les ennemis et accorde l'état Spirivent à tous les personnages de l'équipe à proximité, tout personnage affecté par cet état voyant sa VIT d'attaque augmenter une fois déployé.\nDifférents effets se produisent selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nTire rapidement une flèche de givreflux qui transperce les ennemis, leur infligeant des <e:cryo>DGT Cryo</e>.\n\n<k>Appui long</k>\nBascule en mode visée pour tirer une balise de givrétoile sur un ennemi verrouillé, infligeant des <e:cryo>DGT Cryo</e>. Après avoir touché, la balise de givrétoile s'envole avant d'exploser, ce qui projette des éclats de givrétoile sur un maximum de 3 autres ennemis proches, leur infligeant des <e:cryo>DGT Cryo</e>.\n\n<i>Les étoiles éclatent sous les cieux givrés.</i>"
+          },
+          "burst": {
+            "name": "Chant de plume céleste",
+            "desc": "Trouve la force d'encourager ses coéquipiers à partir des prières de l'Ordre de Favonius, restaurant les PV de tous les personnages de l'équipe à proximité selon les PV max de Mika et leur accordant l'état Plume d'alérion.\n\n<k>Plume d'alérion</k>\nLorsque l'attaque normale d'un personnage déployé affecté par l'état Plume d'alérion touche un ennemi, Mika restaure les PV de ce dernier selon ses propres PV max.\nLes personnages affectés par ce type d'état ne peuvent restaurer leurs PV de cette manière qu'une fois par court intervalle de temps.\n\n<i>« Porte l'espoir lors d'une situation désespérée, et veille quand tout va bien... Car ce panache blanc finira par guider les voyageurs perdus. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Épinglage rapide",
+            "desc": "L'état Spirivent de <k>Tourbillon de givre étoilé</k> accorde une amélioration de l'effet Localisation dans les situations suivantes afin d'augmenter les DGT physiques infligés par le personnage sur le terrain de 10 % :\n· Si la flèche de givreflux touche plus d'un ennemi, chaque ennemi supplémentaire touché accorde 1 cumul de localisation.\n· Lorsqu'un éclat de givrétoile touche un ennemi, 1 cumul de localisation est accordé. Chaque éclat de givrétoile peut déclencher cet effet une fois.\n\nL'effet Localisation de l'état Spirivent peut être cumulé 3 fois maximum. Si Tourbillon de givre étoilé est utilisé une nouvelle fois pendant la durée, l'état Spirivent existant et l'effet Localisation sont supprimés."
+          },
+          {
+            "name": "Cartographie géomorphologique",
+            "desc": "Lorsqu'un personnage déployé affecté simultanément par les états Plume d'alérion de <k>Chant de plume céleste</k> et Spirivent de <k>Tourbillon de givre étoilé</k> inflige un coup CRIT, l'état Spirivent lui accorde 1 cumul de localisation de l'aptitude d'élévation « Épinglage rapide ». Un état Spirivent peut accorder un maximum de 1 cumul de localisation de cette manière.\nDe plus, le nombre maximum de cumuls de localisation pouvant être obtenus grâce à l'état Spirivent augmente de 1.\nL'aptitude d'élévation « Épinglage rapide » doit être déjà débloquée."
+          },
+          {
+            "name": "Démarcation",
+            "desc": "Affiche l'emplacement des <k>produits de Mondstadt</k> sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Confluence de facteurs",
+            "desc": "L'état Spirivent créé par <k>Tourbillon de givre étoilé</k> permet de diminuer l'intervalle des soins de l'état Plume d'alérion de <k>Chant de plume céleste</k> d'un pourcentage équivalant au pourcentage d'augmentation de VIT d'attaque de l'état Spirivent."
+          },
+          {
+            "level": 2,
+            "name": "Entrée du compagnon",
+            "desc": "Lorsqu'une flèche de givreflux de <k>Tourbillon de givre étoilé</k> touche pour la première fois un ennemi ou lorsqu'une balise de givrétoile touche un ennemi, 1 cumul de localisation de l'aptitude d'élévation « Épinglage rapide » est généré.\nL'aptitude d'élévation « Épinglage rapide » doit être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Expérience de reconnaissance",
+            "desc": "Niveau d'aptitude <k>Chant de plume céleste</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Éloge du givre clair",
+            "desc": "Lorsque l'état Plume d'alérion de <k>Chant de plume céleste</k> de Mika soigne un personnage de l'équipe, Mika récupère 3 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée 5 fois pendant l'état Plume d'alérion créé par une utilisation de Chant de plume céleste."
+          },
+          {
+            "level": 5,
+            "name": "Flèche de signalisation",
+            "desc": "Niveau d'aptitude <k>Tourbillon de givre étoilé</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Conseil du compagnon",
+            "desc": "Augmente le nombre maximum de cumuls de localisation pouvant être obtenus grâce à l'état Spirivent de <k>Tourbillon de givre étoilé</k> de 1. L'aptitude d'élévation « Épinglage rapide » doit être déjà débloquée.\nDe plus, les personnages déployés affectés par l'état Spirivent voient les DGT CRIT de leurs DGT physiques augmenter de 60 %."
+          }
+        ]
+      }
+    }
   }
 }

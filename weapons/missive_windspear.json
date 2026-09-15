@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13419",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing...",
+        "passive": {
+          "name": "The Wind Unattained",
+          "refinements": {
+            "1": "Within 10s after an Elemental Reaction is triggered, ATK is increased by <r>12%</r> and Elemental Mastery is increased by <r>48</r>.",
+            "2": "Within 10s after an Elemental Reaction is triggered, ATK is increased by <r>15%</r> and Elemental Mastery is increased by <r>60</r>.",
+            "3": "Within 10s after an Elemental Reaction is triggered, ATK is increased by <r>18%</r> and Elemental Mastery is increased by <r>72</r>.",
+            "4": "Within 10s after an Elemental Reaction is triggered, ATK is increased by <r>21%</r> and Elemental Mastery is increased by <r>84</r>.",
+            "5": "Within 10s after an Elemental Reaction is triggered, ATK is increased by <r>24%</r> and Elemental Mastery is increased by <r>96</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une girouette qui peut guider le vent. Les idylles portées par la brise ne restent pas forcément douces...",
+        "passive": {
+          "name": "Vent de nulle part",
+          "refinements": {
+            "1": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>12 %</r> et la maîtrise élémentaire de <r>48</r> pts.",
+            "2": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>15 %</r> et la maîtrise élémentaire de <r>60</r> pts.",
+            "3": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>18 %</r> et la maîtrise élémentaire de <r>72</r> pts.",
+            "4": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>21 %</r> et la maîtrise élémentaire de <r>84</r> pts.",
+            "5": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>24 %</r> et la maîtrise élémentaire de <r>96</r> pts."
+          }
+        }
+      }
+    }
   }
 }

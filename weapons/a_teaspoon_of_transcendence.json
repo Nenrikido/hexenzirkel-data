@@ -35,5 +35,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12516",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An object of fantasy with countless definitions amidst an endless sea of stories. On the grand scale of the universe or the realm of dreams, there is no real difference between the holy sword of the brave warrior and the princess's teaspoon, or between the ice-cold clockspring and the key that will unlock the gates of transcendence...",
+        "passive": {
+          "name": "White Fairy's Queening",
+          "refinements": {
+            "1": "ATK is increased by <r>28%</r>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <r>16%</r> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+            "2": "ATK is increased by <r>35%</r>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <r>20%</r> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+            "3": "ATK is increased by <r>42%</r>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <r>24%</r> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+            "4": "ATK is increased by <r>49%</r>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <r>28%</r> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+            "5": "ATK is increased by <r>56%</r>.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by <r>32%</r> for 5s. This effect can stack once every 0.2s, max 3 stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un objet de fantaisie aux mille définitions, au sein d'un océan infini de récits. À l'échelle de l'univers ou du royaume des rêves, il n'y a guère de différence entre l'épée sacrée du brave guerrier et la cuillère à café de la princesse, ni entre le ressort glacé d'une horloge et la clé qui ouvrira les portes de la transcendance...",
+        "passive": {
+          "name": "Promotion de la fée blanche",
+          "refinements": {
+            "1": "Augmente l'ATQ du personnage équipé de l'arme de <r>28 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>16 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
+            "2": "Augmente l'ATQ du personnage équipé de l'arme de <r>35 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>20 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
+            "3": "Augmente l'ATQ du personnage équipé de l'arme de <r>42 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>24 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
+            "4": "Augmente l'ATQ du personnage équipé de l'arme de <r>49 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>28 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
+            "5": "Augmente l'ATQ du personnage équipé de l'arme de <r>56 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>32 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s."
+          }
+        }
+      }
+    }
   }
 }

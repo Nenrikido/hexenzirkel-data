@@ -64,5 +64,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14518",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A bell lantern forged from purple jade. They say it brings sweet dreams when placed beside one's pillow.",
+        "passive": {
+          "name": "Bathhouses, Hawks, and Narukami",
+          "refinements": {
+            "1": "Elemental Mastery increases by <r>120</r> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <r>96</r> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <r>32</r> for 30s after the wielder's Elemental Burst hits an opponent.",
+            "2": "Elemental Mastery increases by <r>150</r> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <r>120</r> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <r>40</r> for 30s after the wielder's Elemental Burst hits an opponent.",
+            "3": "Elemental Mastery increases by <r>180</r> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <r>144</r> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <r>48</r> for 30s after the wielder's Elemental Burst hits an opponent.",
+            "4": "Elemental Mastery increases by <r>210</r> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <r>168</r> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <r>56</r> for 30s after the wielder's Elemental Burst hits an opponent.",
+            "5": "Elemental Mastery increases by <r>240</r> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <r>192</r> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <r>64</r> for 30s after the wielder's Elemental Burst hits an opponent."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lanterne en forme de cloche forgée à partir de jade violet. On dit qu'elle fait rêver lorsqu'elle est placée à côté de l'oreiller.",
+        "passive": {
+          "name": "Bains, faucons et enfin Narukami",
+          "refinements": {
+            "1": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>120</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>96</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>32</r> pts pendant 30 s.",
+            "2": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>150</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>120</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>40</r> pts pendant 30 s.",
+            "3": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>180</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>144</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>48</r> pts pendant 30 s.",
+            "4": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>210</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>168</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>56</r> pts pendant 30 s.",
+            "5": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>240</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>192</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>64</r> pts pendant 30 s."
+          }
+        }
+      }
+    }
   }
 }

@@ -32,5 +32,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15513",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener.",
+        "passive": {
+          "name": "Dryas's Nocturne",
+          "refinements": {
+            "1": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by <r>12%/24%/40%</r>. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by <r>28%</r>. This effect will be canceled 4s after falling under 3 stacks.",
+            "2": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by <r>15%/30%/50%</r>. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by <r>35%</r>. This effect will be canceled 4s after falling under 3 stacks.",
+            "3": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by <r>18%/36%/60%</r>. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by <r>42%</r>. This effect will be canceled 4s after falling under 3 stacks.",
+            "4": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by <r>21%/42%/70%</r>. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by <r>49%</r>. This effect will be canceled 4s after falling under 3 stacks.",
+            "5": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by <r>24%/48%/80%</r>. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by <r>56%</r>. This effect will be canceled 4s after falling under 3 stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc féerique des légendes. Que ce soit sur scène ou sur le champ de bataille, il peut facilement toucher le cœur des spectateurs.",
+        "passive": {
+          "name": "Nocturne de dryas",
+          "refinements": {
+            "1": "Le personnage équipé de l'arme obtient l'effet Traitement. Avec 1/2/3 cumuls de traitement, ses PV max augmentent respectivement de <r>12 %/24 %/40 %</r>. Le personnage équipé de l'arme peut obtenir un cumul de traitement des façons suivantes : utiliser une compétence élémentaire accorde un cumul de 25 s ; augmenter la valeur d'un engagement vital accorde un cumul de 25 s ; et effectuer des soins accorde un cumul de 20 s. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé, et la durée de chaque cumul de traitement est calculée indépendamment. De plus, posséder 3 cumuls de traitement augmente le taux CRIT des déchaînements élémentaires de <r>28 %</r>, cet effet prenant fin 4 s après que le nombre de cumuls tombe en dessous de 3.",
+            "2": "Le personnage équipé de l'arme obtient l'effet Traitement. Avec 1/2/3 cumuls de traitement, ses PV max augmentent respectivement de <r>15 %/30 %/50 %</r>. Le personnage équipé de l'arme peut obtenir un cumul de traitement des façons suivantes : utiliser une compétence élémentaire accorde un cumul de 25 s ; augmenter la valeur d'un engagement vital accorde un cumul de 25 s ; et effectuer des soins accorde un cumul de 20 s. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé, et la durée de chaque cumul de traitement est calculée indépendamment. De plus, posséder 3 cumuls de traitement augmente le taux CRIT des déchaînements élémentaires de <r>35 %</r>, cet effet prenant fin 4 s après que le nombre de cumuls tombe en dessous de 3.",
+            "3": "Le personnage équipé de l'arme obtient l'effet Traitement. Avec 1/2/3 cumuls de traitement, ses PV max augmentent respectivement de <r>18 %/36 %/60 %</r>. Le personnage équipé de l'arme peut obtenir un cumul de traitement des façons suivantes : utiliser une compétence élémentaire accorde un cumul de 25 s ; augmenter la valeur d'un engagement vital accorde un cumul de 25 s ; et effectuer des soins accorde un cumul de 20 s. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé, et la durée de chaque cumul de traitement est calculée indépendamment. De plus, posséder 3 cumuls de traitement augmente le taux CRIT des déchaînements élémentaires de <r>42 %</r>, cet effet prenant fin 4 s après que le nombre de cumuls tombe en dessous de 3.",
+            "4": "Le personnage équipé de l'arme obtient l'effet Traitement. Avec 1/2/3 cumuls de traitement, ses PV max augmentent respectivement de <r>21 %/42 %/70 %</r>. Le personnage équipé de l'arme peut obtenir un cumul de traitement des façons suivantes : utiliser une compétence élémentaire accorde un cumul de 25 s ; augmenter la valeur d'un engagement vital accorde un cumul de 25 s ; et effectuer des soins accorde un cumul de 20 s. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé, et la durée de chaque cumul de traitement est calculée indépendamment. De plus, posséder 3 cumuls de traitement augmente le taux CRIT des déchaînements élémentaires de <r>49 %</r>, cet effet prenant fin 4 s après que le nombre de cumuls tombe en dessous de 3.",
+            "5": "Le personnage équipé de l'arme obtient l'effet Traitement. Avec 1/2/3 cumuls de traitement, ses PV max augmentent respectivement de <r>24 %/48 %/80 %</r>. Le personnage équipé de l'arme peut obtenir un cumul de traitement des façons suivantes : utiliser une compétence élémentaire accorde un cumul de 25 s ; augmenter la valeur d'un engagement vital accorde un cumul de 25 s ; et effectuer des soins accorde un cumul de 20 s. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé, et la durée de chaque cumul de traitement est calculée indépendamment. De plus, posséder 3 cumuls de traitement augmente le taux CRIT des déchaînements élémentaires de <r>56 %</r>, cet effet prenant fin 4 s après que le nombre de cumuls tombe en dessous de 3."
+          }
+        }
+      }
+    }
   }
 }

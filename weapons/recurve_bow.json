@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15303",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "It is said that this bow can shoot down eagles in flight, but ultimately how true that is depends on the skill of the archer.",
+        "passive": {
+          "name": "Cull the Weak",
+          "refinements": {
+            "1": "Defeating an opponent restores <r>8%</r> HP.",
+            "2": "Defeating an opponent restores <r>10%</r> HP.",
+            "3": "Defeating an opponent restores <r>12%</r> HP.",
+            "4": "Defeating an opponent restores <r>14%</r> HP.",
+            "5": "Defeating an opponent restores <r>16%</r> HP."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Avec cet arc de chasse, vous devriez pouvoir abattre un aigle en plein vol. Bien évidemment, le résultat dépend entièrement de la technique de l'archer.",
+        "passive": {
+          "name": "Moissonneur",
+          "refinements": {
+            "1": "Restaure <r>8 %</r> des PV après la défaite d'un ennemi.",
+            "2": "Restaure <r>10 %</r> des PV après la défaite d'un ennemi.",
+            "3": "Restaure <r>12 %</r> des PV après la défaite d'un ennemi.",
+            "4": "Restaure <r>14 %</r> des PV après la défaite d'un ennemi.",
+            "5": "Restaure <r>16 %</r> des PV après la défaite d'un ennemi."
+          }
+        }
+      }
+    }
   }
 }

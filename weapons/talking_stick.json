@@ -33,5 +33,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12424",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Most people will find this obsidian-inlaid club quite convincing indeed.",
+        "passive": {
+          "name": "\"The Silver Tongue\"",
+          "refinements": {
+            "1": "ATK will be increased by <r>16%</r> for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by <r>12%</r> for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s.",
+            "2": "ATK will be increased by <r>20%</r> for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by <r>15%</r> for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s.",
+            "3": "ATK will be increased by <r>24%</r> for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by <r>18%</r> for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s.",
+            "4": "ATK will be increased by <r>28%</r> for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by <r>21%</r> for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s.",
+            "5": "ATK will be increased by <r>32%</r> for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by <r>24%</r> for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "La plupart des gens trouveront cette massue incrustée d'obsidienne assez convaincante.",
+        "passive": {
+          "name": "« Don du bagou »",
+          "refinements": {
+            "1": "L'ATQ augmente de <r>16 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>12 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s.",
+            "2": "L'ATQ augmente de <r>20 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>15 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s.",
+            "3": "L'ATQ augmente de <r>24 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>18 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s.",
+            "4": "L'ATQ augmente de <r>28 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>21 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s.",
+            "5": "L'ATQ augmente de <r>32 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>24 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s."
+          }
+        }
+      }
+    }
   }
 }

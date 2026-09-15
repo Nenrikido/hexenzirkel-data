@@ -240,5 +240,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000030",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Rain of Stone",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 6 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Dominus Lapidis",
+            "desc": "Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\n\n<k>Press</k>\nCommands the power of earth to create a Stone Stele.\n\n<k>Hold</k>\nCauses nearby Geo energy to explode, causing the following effects:\n· If their maximum number hasn't been reached, creates a Stone Stele.\n· Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\n· Deals <e:geo>AoE Geo DMG</e>.\n· If there are nearby targets with the <e:geo>Geo element</e>, it will drain a large amount of <e:geo>Geo element</e> from a maximum of 2 such targets. This effect does not cause DMG.\n\n<k>Stone Stele</k>\nWhen created, deals <e:geo>AoE Geo DMG</e>.\nAdditionally, it will intermittently resonate with other nearby <e:geo>Geo constructs</e>, dealing <e:geo>Geo DMG</e> to nearby opponents.\nThe Stone Stele is considered a <e:geo>Geo construct</e> that can both be climbed and used to block attacks.\nOnly one Stele created by Zhongli himself may initially exist at any one time.\n\n<k>Jade Shield</k>\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\n\n<i>A true master of stone may carve jade and shape gold.</i>"
+          },
+          "burst": {
+            "name": "Planet Befall",
+            "desc": "Brings a falling meteor down to earth, dealing massive <e:geo>Geo DMG</e> to opponents caught in its AoE and applying the <e:geo>Petrification</e> status to them.\n\n<k>Petrification</k>\nOpponents affected by the <e:geo>Petrification</e> status cannot move.\n\n<i>The falling meteor punishes the unjust.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Resonant Waves",
+            "desc": "When the Jade Shield takes DMG, it will Fortify:\n· Fortified characters have 5% increased Shield Strength.\nCan stack up to 5 times, and lasts until the Jade Shield disappears."
+          },
+          {
+            "name": "Dominance of Earth",
+            "desc": "Zhongli deals bonus DMG based on his Max HP:\n· Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\n· <k>Dominus Lapidis'</k> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\n· <k>Planet Befall's</k> DMG is increased by 33% of Max HP."
+          },
+          {
+            "name": "Arcanum of Crystal",
+            "desc": "Refunds 15% of the ore used when crafting Polearm-type weapons."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Rock, the Backbone of Earth",
+            "desc": "Increases the maximum number of Stone Steles created by <k>Dominus Lapidis</k> that may exist simultaneously to 2."
+          },
+          {
+            "level": 2,
+            "name": "Stone, the Cradle of Jade",
+            "desc": "<k>Planet Befall</k> grants nearby characters on the field a Jade Shield when it descends."
+          },
+          {
+            "level": 3,
+            "name": "Jade, Shimmering through Darkness",
+            "desc": "Increases the Level of <k>Dominus Lapidis</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Topaz, Unbreakable and Fearless",
+            "desc": "Increases <k>Planet Befall</k>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s."
+          },
+          {
+            "level": 5,
+            "name": "Lazuli, Herald of the Order",
+            "desc": "Increases the Level of <k>Planet Befall</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Chrysos, Bounty of Dominator",
+            "desc": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\nA single instance of regeneration cannot exceed 8% of that character's Max HP."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Pluie de pierres",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 6 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger vers l'avant, faisant pleuvoir des lances de roche sur la route.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Dominus Lapidis",
+            "desc": "Le pouvoir Géo est présent dans les montagnes, sur la terre comme dans les profondeurs, et jusque dans les fissures rocailleuses. Mais rares sont ceux capables de maîtriser une telle puissance.\n\n<k>Appui simple</k>\nZhongli matérialise une Dorsale rocheuse.\n\n<k>Appui long</k>\nZhongli fait exploser l'élément Géo contenu dans les environs, entraînant les effets suivants :\n· Une Dorsale rocheuse est créée si le nombre maximum de Dorsales rocheuses sur le terrain n'est pas atteint.\n· Un bouclier de jade capable d'absorber une quantité de DGT proportionnelle aux PV max de Zhongli est généré.\n· Inflige des <e:geo>DGT Géo de zone</e>.\n· Absorbe l'<e:geo>élément Géo</e> des cibles proches affectées par l'<e:geo>élément Géo</e> (jusqu'à 2 cibles maximum). Cet effet n'inflige pas de DGT.\n\n<k>Dorsale rocheuse</k>\nUne Dorsale rocheuse inflige des <e:geo>DGT Géo de zone</e> lorsqu'elle est matérialisée.\nLa Dorsale entre en résonance avec les autres <e:geo>constructions Géo</e> présentes.\nL'amas rocheux libère l'écho de la pierre originelle de façon intermittente, infligeant des <e:geo>DGT Géo</e> aux ennemis proches.\nLa Dorsale rocheuse est une <e:geo>construction Géo</e> qui bloque les attaques et peut être escaladée. Il ne peut exister qu'une seule dorsale à la fois.\n\n<k>Bouclier de jade</k>\nLe bouclier de jade est efficace à 150 % contre les DGT élémentaires et physiques.\nLorsqu'un bouclier de jade protège un personnage, les RÉS élémentaires et physique des ennemis proches diminuent de 20 %. Cet effet est non cumulable.\n\n<i>Un vrai maître de la roche doit savoir sculpter le jade et l'or.</i>"
+          },
+          "burst": {
+            "name": "Chute de météore",
+            "desc": "Zhongli fait tomber des cieux un gigantesque météore, infligeant d'importants <e:geo>DGT Géo</e> à l'impact et <e:geo>pétrifie</e> les ennemis.\n\n<k>Pétrification</k>\nLes ennemis <e:geo>pétrifiés</e> sont immobilisés.\n\n<i>Que le météore qui transperce la voûte illumine les ténèbres de ce monde.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Ondes résonnantes",
+            "desc": "Chaque attaque touchant le bouclier de jade génère les effets suivants :\n· Augmente la force du bouclier de 5 %.\n· Cet effet peut être cumulé 5 fois maximum et dure jusqu'à la fin du bouclier."
+          },
+          {
+            "name": "Domination de la Terre",
+            "desc": "Augmente les DGT infligés par les attaques de Zhongli citées ci-dessous en fonction de ses PV max :\n· Augmentation de DGT des attaques normales, chargées et plongeantes : 1,39 % des PV max.\n· Augmentation de DGT de dorsale rocheuse, de DGT de résonance et de DGT de l'appui long de <k>Dominus Lapidis</k> : 1,9 % des PV max.\n· Augmentation de DGT de <k>Chute de météore</k> : 33 % des PV max."
+          },
+          {
+            "name": "Cristal du destin",
+            "desc": "Lorsque vous forgez une arme d'hast, 15 % du minerai utilisé vous sera rendu."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Roche, le squelette de la terre",
+            "desc": "2 Dorsales de <k>Dominus Lapidis</k> peuvent exister en même temps."
+          },
+          {
+            "level": 2,
+            "name": "Pierre, le berceau du jade",
+            "desc": "Les personnages déployés à proximité sont protégés par un bouclier de jade lors de <k>Chute de météore</k>."
+          },
+          {
+            "level": 3,
+            "name": "Jade, brillant à travers les ténèbres",
+            "desc": "Niveau d'aptitude <k>Dominus Lapidis</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Topaze, incassable et intrépide",
+            "desc": "Augmente la zone d'effet de <k>Chute de météore</k> de 20 %.\nProlonge de plus la durée de la pétrification de 2 s."
+          },
+          {
+            "level": 5,
+            "name": "Lazulite, le héraut de l'ordre divin",
+            "desc": "Niveau d'aptitude <k>Chute de météore</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Or, la générosité du dominateur",
+            "desc": "40 % des DGT subis par le bouclier de jade sont convertis en PV pour le personnage déployé.\nLa quantité de PV restaurés en une fois ne peut pas dépasser 8 % des PV max du personnage."
+          }
+        ]
+      }
+    }
   }
 }

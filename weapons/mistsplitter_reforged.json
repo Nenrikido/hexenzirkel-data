@@ -44,5 +44,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11509",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+        "passive": {
+          "name": "Mistsplitter's Edge",
+          "refinements": {
+            "1": "Gain a <r>12%</r> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <r>8/16/28%</r> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "2": "Gain a <r>15%</r> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <r>10/20/35%</r> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "3": "Gain a <r>18%</r> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <r>12/24/42%</r> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "4": "Gain a <r>21%</r> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <r>14/28/49%</r> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "5": "Gain a <r>24%</r> Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a <r>16/32/56%</r> Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of the Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée qui flamboie d'une vive lumière violacée. Son nom de « Reflet » lui vient des étincelles qu'elle a une fois projetées dans les airs lorsqu'un malheureux choc la brisa autrefois.",
+        "passive": {
+          "name": "Fourreau de tranche-brume",
+          "refinements": {
+            "1": "Confère un bonus de DGT élémentaires de <r>12 %</r>, et confère la puissance du sceau de tranche-brume. 1/2/3 cumuls de sceau de tranche-brume accordent au personnage respectivement <r>8/16/28 %</r> de bonus de DGT de son élément. Le personnage peut obtenir 1 cumul de sceau de tranche-brume dans chacune des situations suivantes : si son attaque normale inflige des DGT élémentaires, il obtient un cumul de 5 s ; s'il utilise son déchaînement élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "2": "Confère un bonus de DGT élémentaires de <r>15 %</r>, et confère la puissance du sceau de tranche-brume. 1/2/3 cumuls de sceau de tranche-brume accordent au personnage respectivement <r>10/20/35 %</r> de bonus de DGT de son élément. Le personnage peut obtenir 1 cumul de sceau de tranche-brume dans chacune des situations suivantes : si son attaque normale inflige des DGT élémentaires, il obtient un cumul de 5 s ; s'il utilise son déchaînement élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "3": "Confère un bonus de DGT élémentaires de <r>18 %</r>, et confère la puissance du sceau de tranche-brume. 1/2/3 cumuls de sceau de tranche-brume accordent au personnage respectivement <r>12/24/42 %</r> de bonus de DGT de son élément. Le personnage peut obtenir 1 cumul de sceau de tranche-brume dans chacune des situations suivantes : si son attaque normale inflige des DGT élémentaires, il obtient un cumul de 5 s ; s'il utilise son déchaînement élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "4": "Confère un bonus de DGT élémentaires de <r>21 %</r>, et confère la puissance du sceau de tranche-brume. 1/2/3 cumuls de sceau de tranche-brume accordent au personnage respectivement <r>14/28/49 %</r> de bonus de DGT de son élément. Le personnage peut obtenir 1 cumul de sceau de tranche-brume dans chacune des situations suivantes : si son attaque normale inflige des DGT élémentaires, il obtient un cumul de 5 s ; s'il utilise son déchaînement élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "5": "Confère un bonus de DGT élémentaires de <r>24 %</r>, et confère la puissance du sceau de tranche-brume. 1/2/3 cumuls de sceau de tranche-brume accordent au personnage respectivement <r>16/32/56 %</r> de bonus de DGT de son élément. Le personnage peut obtenir 1 cumul de sceau de tranche-brume dans chacune des situations suivantes : si son attaque normale inflige des DGT élémentaires, il obtient un cumul de 5 s ; s'il utilise son déchaînement élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment."
+          }
+        }
+      }
+    }
   }
 }

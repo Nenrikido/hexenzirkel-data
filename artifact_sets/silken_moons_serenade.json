@@ -20,5 +20,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15042",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Silken Moon's Serenade",
+        "bonuses": {
+          "2": "Energy Recharge +20%.",
+          "4": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
+        }
+      },
+      "fr": {
+        "name": "Sérénade de la lune soyeuse",
+        "bonuses": {
+          "2": "Augmente la recharge d'énergie de 20 %.",
+          "4": "Infliger des DGT élémentaires accorde l'effet Lune étincelante « Dévotion » pendant 8 s : augmente la maîtrise élémentaire de tous les personnages de l'équipe de 60 pts ou de 120 pts lorsque la signelune de l'équipe est respectivement de type Lueur naissante ou ascendante. L'effet ci-dessus peut être déclenché même si le personnage équipé de l'artéfact n'est pas déployé. De plus, les DGT infligés par les réactions sélènes déclenchées par tous les personnages de l'équipe augmentent de 10 % pour chaque lune étincelante de type différent des personnages de l'équipe. Les bonus accordés par l'effet Lune étincelante ne se cumulent pas."
+        }
+      }
+    }
   }
 }

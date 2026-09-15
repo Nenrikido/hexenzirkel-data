@@ -372,5 +372,139 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000095",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Targeted Treatment",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive attacks.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, the power of Hydro will continually accumulate on the arrow. After fully charging, Sigewinne will periodically fire slow-moving Mini-Stration Bubbles toward the target, dealing <e:hydro>Hydro DMG</e>. When released, an arrow imbued with torrential energy will deal <e:hydro>Hydro DMG</e> to the opponent hit.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Rebound Hydrotherapy",
+            "desc": "Blows a <k>Bolstering Bubblebalm</k> that can stimulate blood flow and help patients drift off to sleep using a bubblegun specially made in the Fortress of Meropide.\nBolstering Bubblebalms will bounce between nearby opponents, dealing <e:hydro>Hydro DMG</e> based on Sigewinne's max HP to opponents it hits. When it bounces, it will restore HP to all nearby party members except Sigewinne herself. The amount healed is based on Sigewinne's max HP.\nAfter bouncing 5 times, the Bolstering Bubblebalm will disappear and restore HP to Sigewinne based on her max HP value.\nWhen no opponents are present, the Bolstering Bubblebalm will bounce nearby. Only one Bolstering Bubblebalm created by a Sigewinne may exist at once.\nWhen Held, the Bolstering Bubblebalm can be boosted to an even bigger size.\n\n<k>Hold</k>\nEnter Aiming Mode to begin blowing an even bigger, even more breathtaking Bolstering Bubblebalm!\nThe Bolstering Bubblebalm will grow bigger the longer the skill is Held, until it grows up to two tiers in size. Each tier it grows increases its DMG by 5% and healing by 5%. When a Bolstering Bubblebalm bounces, it will drop down a tier in size, until it returns to being a normal Bolstering Bubblebalm.\nAfter weaker opponents are hit by big Bolstering Bubblebalms, they will be imprisoned and will be unable to move.\n\nIn addition, 2 Sourcewater Droplets will be created near Sigewinne when she uses this Skill. Each Sourcewater Droplet Sigewinne collects will grant her a Bond of Life worth 10% of her Max HP.\nWhen Sigewinne's Bond of Life is cleared, she regains 1 Elemental Energy for every 2,000 HP worth of the Bond of Life that was cleared. Sigewinne can regain up to 5 Elemental Energy in this way.\n\n<k>Arkhe: Ousia</k>\nBolstering Bubblebalms periodically call down a Surging Blade on the position they hit, dealing Ousia-aligned <e:hydro>Hydro DMG</e> based on Sigewinne's max HP.\n\n<i>\"What do you think? Not only can this kind of hydrotherapy stimulate the circulatory system, but it can also cheer patients up, ooh, and that's not all, it can even help patients who ought to get some rest have a nice nap...\"</i>"
+          },
+          "burst": {
+            "name": "Super Saturated Syringing",
+            "desc": "Takes out a special Fortress of Meropide-made syringe and assault the area in front with waves of kindness and medicine, dealing <e:hydro>AoE Hydro DMG</e> based on Sigewinne's max HP.\nIn addition, Sigewinne absorbs up to 2 nearby Sourcewater Droplets within a certain range when she uses this skill.\n\n<i>\"Hey, overdosing on medicine is no different from poison, you know, it's real dangerous! But patients need care and concern, and nobody can overdose on that!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Requires Appropriate Rest",
+            "desc": "Sigewinne grants herself the \"Semi-Strict Bedrest\" effect for 18s after using <k>Rebound Hydrotherapy</k>: Sigewinne gains an 8% <e:hydro>Hydro DMG Bonus</e> and 10 stacks of Convalescence. When the Elemental Skills of your nearby off-field party members other than Sigewinne deal DMG, consume 1 stack of Convalescence, and increase the DMG dealt by this instance of Elemental Skill DMG. Every 1,000 Max HP Sigewinne has above 30,000 increases the DMG by 80. The maximum DMG increase for Elemental Skills that can be gained in this way is 2,800."
+          },
+          {
+            "name": "Detailed Diagnosis, Thorough Treatment",
+            "desc": "When Sigewinne performs healing, the amount healed for this instance is increased based on the total current value of the Bonds of Life on all party members: For each 1,000 HP worth of Bonds of Life, the outgoing healing is increased by 3%. The amount of healing provided can be increased by up to 30% in this way."
+          },
+          {
+            "name": "Emergency Dose",
+            "desc": "While underwater, heals your active character over 2.5s when their HP falls under 50%. The amount healed is equal to 50% of their Max HP, and their All Elemental and Physical RES will be decreased by 10% for 10s. This effect can be triggered up to once every 20s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"Can the Happiest of Spirits Understand Anxiety?\"",
+            "desc": "<k>Rebound Hydrotherapy</k>'s Bolstering Bubblebalm can bounce 3 extra times, and the first 3 bounces will not cause big Bubblebalms to become smaller.\nThe Ascension Talent \"Requires Appropriate Rest\" is enhanced: Each Bubblebalm bounce adds 1 stack to her Convalescence tally, and the values for the Convalescence stacks' DMG bonus will be modified to: Every 1,000 max HP Sigewinne has above 30,000 increases the DMG by 100. The maximum DMG increase for Elemental Skills that can be gained in this way is 3,500. You must first unlock the Ascension Talent \"Requires Appropriate Rest.\""
+          },
+          {
+            "level": 2,
+            "name": "\"Can the Most Merciful of Spirits Defeat Its Foes?\"",
+            "desc": "When using <k>Rebound Hydrotherapy</k> and <k>Super Saturated Syringing</k>, Sigewinne can create a Bubbly Shield worth 30% of her Max HP that absorbs <e:hydro>Hydro DMG</e> with 250% efficiency. The Bubbly Shield will persist until Sigewinne finishes using relevant skills.\nAdditionally, after Rebound Hydrotherapy's Bolstering Bubblebalm or Super Saturated Syringing hits an opponent, that opponent's <e:hydro>Hydro RES</e> will be decreased by 35% for 8s."
+          },
+          {
+            "level": 3,
+            "name": "\"Can the Healthiest of Spirits Cure Fevers?\"",
+            "desc": "Increases the Level of <k>Rebound Hydrotherapy</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Can the Loveliest of Spirits Keep Decay at Bay?\"",
+            "desc": "The duration of <k>Super Saturated Syringing</k> is extended by 3s."
+          },
+          {
+            "level": 5,
+            "name": "\"Can the Most Joyful of Spirits Alleviate Agony?\"",
+            "desc": "Increases the Level of <k>Super Saturated Syringing</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "\"Can the Most Radiant of Spirits Pray For Me?\"",
+            "desc": "When Sigewinne performs healing, she will increase the CRIT Rate and CRIT DMG of her <k>Super Saturated Syringing</k> based on her Max HP. Every 1,000 Max HP she has will increase CRIT Rate by 0.4% and CRIT DMG by 2.2% for 15s. The maximum increase achievable this way is 20% CRIT Rate and 110% CRIT DMG."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Traitement ciblé",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques consécutives.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Hydro. Une fois la charge terminée, Sigewinne tire à intervalles réguliers des mini-délicabulles qui se déplacent lentement vers la cible, infligeant des <e:hydro>DGT Hydro</e>. En relâchant, une flèche imprégnée de la puissance des torrents inflige des <e:hydro>DGT Hydro</e> à l'ennemi touché.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Hydrothérapie rebondissante",
+            "desc": "Sigewinne utilise un pistolet à bulles spécialement conçu dans la Forteresse de Méropide pour souffler des <k>bulles d'eau curative</k> pouvant stimuler la circulation sanguine et aider les patients à dormir paisiblement.\nLes bulles d'eau curative rebondissent entre les ennemis proches, infligeant des <e:hydro>DGT Hydro</e> selon les PV max de Sigewinne aux ennemis touchés. En rebondissant, les bulles d'eau curative restaurent les PV de tous les personnages de l'équipe à proximité (hormis Sigewinne) selon les PV max de Sigewinne.\nUne bulle d'eau curative disparaît et restaure les PV de Sigewinne selon ses PV max après avoir rebondi 5 fois.\nSi aucun ennemi n'est à proximité, les bulles d'eau curative rebondissent aux alentours. Il ne peut exister qu'une seule bulle d'eau curative créée par Sigewinne à la fois.\nEn cas d'appui long, les bulles d'eau curative peuvent être chargées.\n\n<k>Appui long</k>\nEffectue une charge en mode visée pour souffler une bulle d'eau curative encore plus grosse et plus puissante !\nLa bulle d'eau curative grandit à mesure que l'appui long est maintenu, jusqu'à grossir deux fois, chaque fois augmentant les DGT infligés de 5 % et les soins prodigués de 5 %. Lorsqu'une grande bulle d'eau curative rebondit, elle se rapetisse d'un cran, jusqu'à ce qu'elle redevienne une bulle d'eau curative normale.\nLes ennemis les plus faibles qui se font toucher par des grandes bulles d'eau curative sont immobilisés et incapables de bouger.\n\nDe plus, utiliser cette capacité permet à Sigewinne de générer 2 gouttes d'eau de source à proximité. Chaque goutte d'eau de source que Sigewinne absorbe lui accorde un engagement vital d'une valeur équivalant à 10 % de ses PV max.\nLorsque l'engagement vital de Sigewinne est annulé, chaque tranche de 2 000 pts d'engagement vital restaure son énergie élémentaire de 1 pt. Sigewinne peut récupérer un maximum de 5 pts d'énergie élémentaire de cette manière.\n\n<k>Arkhe : Ousia</k>\nRégulièrement, une lame fluide descend à l'emplacement touché par une bulle d'eau curative pour infliger des <e:hydro>DGT Hydro</e> chargés d'énergie ousia selon les PV max de Sigewinne.\n\n<i>« Alors ? Non seulement ce type d'hydrothérapie peut stimuler le système circulatoire, mais ça peut aussi remonter le moral des patients. Oh, et ce n'est pas tout : ça aide même les patients qui devraient se reposer à faire un bon dodo... »</i>"
+          },
+          "burst": {
+            "name": "Injection sur-saturée",
+            "desc": "Sigewinne sort une seringue spécialement conçue dans la Forteresse de Méropide pour attaquer la zone en face d'elle avec des vagues de gentillesse et de médicaments, infligeant des <e:hydro>DGT Hydro de zone</e> de façon continue selon ses PV max.\nDe plus, utiliser cette capacité permet à Sigewinne d'absorber jusqu'à 2 gouttes d'eau de source à portée.\n\n<i>« Hé, prendre trop de médicaments, c'est comme prendre du poison : c'est vraiment dangereux ! Mais les patients ont aussi besoin de soins et d'attention, et avec ça au moins, pas de risque d'overdose ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Repos adéquat requis",
+            "desc": "Utiliser <k>Hydrothérapie rebondissante</k> accorde à Sigewinne l'effet Repos semi-forcé pendant 18 s : accorde un <e:hydro>bonus de DGT Hydro</e> de 8 % et 10 cumuls d'analepsie. Lorsqu'une compétence élémentaire d'un personnage faisant partie d'une équipe à proximité mais n'étant pas déployé (hormis Sigewinne) inflige des DGT, un cumul d'analepsie est consommé pour augmenter cette instance de DGT : chaque tranche de 1 000 PV max au-dessus de 30 000 que Sigewinne possède augmente les DGT de 80 pts, une instance de DGT pouvant être augmentée d'un maximum de 2 800 pts de cette manière."
+          },
+          {
+            "name": "Traitement minutieux prescrit",
+            "desc": "Lorsque Sigewinne effectue des soins, la quantité de soins augmente selon le total des engagements vitaux actuels de tous les personnages de l'équipe : chaque tranche de 1 000 pts d'engagement vital augmente les soins de 3 %. Les soins peuvent être augmentés d'un maximum de 30 % de cette manière."
+          },
+          {
+            "name": "Dose d'urgence",
+            "desc": "Sous l'eau, si les PV de votre personnage déployé tombent en dessous de 50 %, il récupère des PV pour une valeur totale équivalant à 50 % de ses PV max en 2,5 s, mais ses RÉS élémentaires et physique diminuent de 10 % pendant 10 s. Cet effet peut se déclencher une fois toutes les 20 s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "« Le plus heureux des esprits peut-il comprendre l'anxiété ? »",
+            "desc": "Les bulles d'eau curative d'<k>Hydrothérapie rebondissante</k> peuvent rebondir 3 fois supplémentaires et les 3 premiers rebonds ne font pas rapetisser les grandes bulles d'eau curative.\nDe plus, l'aptitude d'élévation « Repos adéquat requis » est améliorée : chaque rebond des bulles d'eau curative accorde 1 cumul d'analepsie à Sigewinne et le bonus de DGT généré par l'analepsie est modifié, chaque tranche de 1 000 PV max au-dessus de 30 000 que Sigewinne possède augmentant maintenant les DGT de 100 pts. Les DGT peuvent être augmentés d'un maximum de 3 500 pts de cette manière. L'aptitude d'élévation « Repos adéquat requis » doit être déjà débloquée."
+          },
+          {
+            "level": 2,
+            "name": "« Le plus miséricordieux des esprits peut-il vaincre les ennemis ? »",
+            "desc": "En utilisant <k>Hydrothérapie rebondissante</k> et <k>Injection sur-saturée</k>, Sigewinne génère un bouclier bulleux pouvant absorber des DGT équivalant à 30 % de ses PV max et efficace à 250 % contre les <e:hydro>DGT Hydro</e>, ce bouclier durant jusqu'à la fin de l'utilisation des capacités correspondantes.\nDe plus, lorsqu'une bulle d'eau curative d'Hydrothérapie rebondissante ou Injection sur-saturée a touché un ennemi, la <e:hydro>RÉS Hydro</e> de ce dernier diminue de 35 % pendant 8 s."
+          },
+          {
+            "level": 3,
+            "name": "« Le plus sain des esprits peut-il guérir la fièvre ? »",
+            "desc": "Niveau d'aptitude <k>Hydrothérapie rebondissante</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "« Le plus beau des esprits peut-il contrer la décrépitude ? »",
+            "desc": "La durée d'<k>Injection sur-saturée</k> augmente de 3 s."
+          },
+          {
+            "level": 5,
+            "name": "« Le plus joyeux des esprits peut-il soulager l'agonie ? »",
+            "desc": "Niveau d'aptitude <k>Injection sur-saturée</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "« Le plus radieux des esprits peut-il prier pour moi ? »",
+            "desc": "Lorsque Sigewinne effectue des soins, elle augmente le taux CRIT et les DGT CRIT d'<k>Injection sur-saturée</k> selon ses PV max : chaque tranche de 1 000 PV max qu'elle possède augmente le taux CRIT de 0,4 % et les DGT CRIT de 2,2 %, le tout pendant 15 s. Le taux CRIT peut être augmenté d'un maximum de 20 % et les DGT CRIT d'un maximum de 110 % de cette manière."
+          }
+        ]
+      }
+    }
   }
 }

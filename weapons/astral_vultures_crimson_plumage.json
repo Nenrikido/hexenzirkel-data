@@ -66,5 +66,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15514",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An ancient longbow crested with red feathers, a sacred relic of the Flower-Feather Clan that has been passed down from generation to generation.",
+        "passive": {
+          "name": "The Moonring Sighted",
+          "refinements": {
+            "1": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <r>24%</r>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <r>20%/48%</r>, and Elemental Burst DMG dealt is increased by <r>10%/24%</r>.",
+            "2": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <r>30%</r>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <r>25%/60%</r>, and Elemental Burst DMG dealt is increased by <r>12.5%/30%</r>.",
+            "3": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <r>36%</r>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <r>30%/72%</r>, and Elemental Burst DMG dealt is increased by <r>15%/36%</r>.",
+            "4": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <r>42%</r>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <r>35%/84%</r>, and Elemental Burst DMG dealt is increased by <r>17.5%/42%</r>.",
+            "5": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by <r>48%</r>. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by <r>40%/96%</r>, and Elemental Burst DMG dealt is increased by <r>20%/48%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Ancien arc long surmonté de plumes rouges, cette relique sacrée du Clan des fleurplumes a été transmise de génération en génération.",
+        "passive": {
+          "name": "Halo lunaire aperçu",
+          "refinements": {
+            "1": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>24 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>20 %/48 %</r> et ceux infligés par ses déchaînements élémentaires de <r>10 %/24 %</r>.",
+            "2": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>30 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>25 %/60 %</r> et ceux infligés par ses déchaînements élémentaires de <r>12,5 %/30 %</r>.",
+            "3": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>36 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>30 %/72 %</r> et ceux infligés par ses déchaînements élémentaires de <r>15 %/36 %</r>.",
+            "4": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>42 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>35 %/84 %</r> et ceux infligés par ses déchaînements élémentaires de <r>17,5 %/42 %</r>.",
+            "5": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>48 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>40 %/96 %</r> et ceux infligés par ses déchaînements élémentaires de <r>20 %/48 %</r>."
+          }
+        }
+      }
+    }
   }
 }

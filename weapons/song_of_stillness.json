@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15425",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A strange longbow that resembles a sea creature. Its string makes no sound at all.",
+        "passive": {
+          "name": "Benthic Pulse",
+          "refinements": {
+            "1": "After the wielder is healed, they will deal <r>16%</r> more DMG for 8s. This can be triggered even when the character is not on the field.",
+            "2": "After the wielder is healed, they will deal <r>20%</r> more DMG for 8s. This can be triggered even when the character is not on the field.",
+            "3": "After the wielder is healed, they will deal <r>24%</r> more DMG for 8s. This can be triggered even when the character is not on the field.",
+            "4": "After the wielder is healed, they will deal <r>28%</r> more DMG for 8s. This can be triggered even when the character is not on the field.",
+            "5": "After the wielder is healed, they will deal <r>32%</r> more DMG for 8s. This can be triggered even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc long étrange qui ressemble à une créature marine. Ses cordes ne produisent aucun son.",
+        "passive": {
+          "name": "Pulsion benthique",
+          "refinements": {
+            "1": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>16 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>20 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>24 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>28 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>32 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

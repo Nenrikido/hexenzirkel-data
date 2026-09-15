@@ -212,5 +212,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000100",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Cragbiter",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Go, Go Turbo Twirly!",
+            "desc": "Fight alongside the turbo trusty Turbo Twirly!\nSummons Turbo Twirly. When the skill is Held and released, Kachina will summon and ride Turbo Twirly.\nAfter the Skill is used, Kachina will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.\n\n<k>Nightsoul's Blessing: Kachina</k>\nTurbo Twirly's various actions consume Kachina's Nightsoul points.\nThe Nightsoul's Blessing state will end when these points have been depleted.\n\n<k>Turbo Twirly</k>\nCan exist independently or be ridden and operated by Kachina. When Turbo Twirly is present, Kachina's Elemental Skill, \"Go, Go Turbo Twirly!\", will change to an option to Mount/Dismount Turbo Twirly.\n· When present independent of Kachina, it will slam the ground at intervals, dealing Nightsoul-aligned <e:geo>AoE Geo DMG</e> based on Kachina's DEF.\n· When Kachina is riding Turbo Twirly, she can control it to move and climb swiftly, and use Normal Attacks to slam the ground, dealing Nightsoul-aligned <e:geo>AoE Geo DMG</e> based on Kachina's DEF.\n\nTurbo Twirly will disappear once Kachina's Nightsoul's Blessing state ends, and it is considered a Geo Construct. Only 1 Turbo Twirly created by Kachina herself can exist on the field at any one time.\n\n<i>Turbo Twirly only looks like a top — it is, in fact, a drill that can split even the strongest rock asunder!</i>"
+          },
+          "burst": {
+            "name": "Time to Get Serious!",
+            "desc": "Striking the ground, Kachina deals <e:geo>AoE Geo DMG</e> based on her DEF and creates a Turbo Drill Field.\nThe Field increases Turbo Twirly's attack AoE and its Movement SPD when Kachina is riding it.\n\nIf Kachina's own Turbo Twirly is present when this is used, the Turbo Twirly will be summoned to her side.\n\n<i>Just as nervous performers might imagine audience members as wooden puppets, Kachina imagines that her opponents are the loveliest of gem-bearing ores — the kind you'd be proud to bring home and hoard.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Mountain Echoes",
+            "desc": "After nearby party members trigger a Nightsoul Burst, Kachina's <e:geo>Geo DMG Bonus</e> increases by 20% for 12s."
+          },
+          {
+            "name": "The Weight of Stone",
+            "desc": "<k>Turbo Twirly</k>'s DMG is increased by 20% of Kachina's DEF."
+          },
+          {
+            "name": "Night Realm's Gift: Heart of Unity",
+            "desc": "After her Nightsoul points are depleted, Kachina will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Kachina. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Kachina: Kachina will enter the Nightsoul's Blessing state and ride <k>Turbo Twirly</k> when taking the field while gaining 30 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Kachina will consume 90% less Stamina when climbing while riding <k>Turbo Twirly</k>."
+          },
+          {
+            "name": "Boon of Crystal Flame",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, 20 Stamina will be restored when interacting with some harvestable items. Additionally, the location of nearby <k>resources unique to Natlan</k> will appear on your mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Shards Are Gems Too",
+            "desc": "When Kachina mounts or dismounts <k>Turbo Twirly</k>, she will absorb nearby Elemental Shards created by Crystallize.\nAdditionally, when a party member picks up such a Shard, or triggers Lunar-Crystallize reactions, 3 Energy will be restored to Kachina. Energy can be restored this way once every 5s."
+          },
+          {
+            "level": 2,
+            "name": "Never Leave Home Without... Turbo Twirly",
+            "desc": "When Kachina uses <k>\"Time to Get Serious!\"</k>, she will regain 20 Nightsoul points. If there is no <k>Turbo Twirly</k> belonging to her on the field, she will enter Nightsoul's Blessing and summon one."
+          },
+          {
+            "level": 3,
+            "name": "Improved Stabilizer",
+            "desc": "Increases the Level of <k>Go, Go Turbo Twirly!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "More Foes, More Caution",
+            "desc": "When there are 1/2/3/4 (or more) opponents within the Turbo Drill Field created by <k>\"Time to Get Serious!\"</k>, the active character within the field gains 8%/12%/16%/20% increased DEF."
+          },
+          {
+            "level": 5,
+            "name": "All I've Collected Till Now",
+            "desc": "Increases the Level of <k>Time to Get Serious!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "This Time, I've Gotta Win",
+            "desc": "When your active character's Shield is replaced or destroyed for any reason, Kachina will deal 200% of her DEF as <e:geo>AoE Geo DMG</e>. This effect can be triggered once every 5s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Morsure de crête",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Allez, Virevolturbo !",
+            "desc": "Combattez aux côtés du fidèle Virevolturbo !\nInvoque Virevolturbo. Avec un appui long, Kachina invoque et chevauche Virevolturbo.\nAprès utilisation, Kachina obtient 60 pts de noctâme et entre dans l'état Bénédiction noctâme.\n\n<k>Bénédiction noctâme : Kachina</k>\nLes différentes actions de Virevolturbo consomment les points de noctâme de Kachina.\nL'état Bénédiction noctâme de Kachina dure jusqu'à ce que tous les points de noctâme soient épuisés.\n\n<k>Virevolturbo</k>\nVirevolturbo peut exister indépendamment ou être chevauché et contrôlé par Kachina. Lorsque Virevolturbo est présent, la compétence élémentaire de Kachina « Allez, Virevolturbo ! » sert à monter sur Virevolturbo ou à en descendre.\n· Lorsqu'il est présent indépendamment de Kachina, Virevolturbo frappe le sol de façon intermittente, infligeant des <e:geo>DGT Géo de zone</e> infusés de noctâme selon la DÉF de Kachina.\n· Lorsque Kachina chevauche Virevolturbo, elle peut contrôler ses mouvements rapides, escalader et utiliser son attaque normale pour frapper le sol, infligeant des <e:geo>DGT Géo de zone</e> infusés de noctâme selon la DÉF de Kachina.\n\nVirevolturbo disparaît une fois la bénédiction noctâme de Kachina terminée et est considéré comme une construction Géo. Il ne peut exister qu'un seul Virevolturbo de Kachina à la fois.\n\n<i>Virevolturbo n'a que l'apparence d'une toupie : il s'agit en fait d'une perceuse pouvant briser même les roches les plus solides !</i>"
+          },
+          "burst": {
+            "name": "Un peu de sérieux !",
+            "desc": "Kachina frappe le sol, infligeant des <e:geo>DGT Géo de zone</e> selon sa DÉF et créant un super champ de forage.\nCe champ augmente la portée d'attaque de Virevolturbo, ainsi que sa VIT de déplacement lorsque Kachina le chevauche.\n\nSi un Virevolturbo de Kachina est présent lors de l'utilisation, il est invoqué à côté d'elle.\n\n<i>Tout comme les artistes nerveux aiment imaginer le public comme des pantins en bois, Kachina imagine ses adversaires comme des beaux gisements de pierres précieuses... Le genre qu'on aimerait ramener à la maison et collectionner...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Écho de la montagne",
+            "desc": "Lorsqu'un membre de l'équipe à proximité a déclenché une éruption noctâme, le <e:geo>bonus de DGT Géo</e> de Kachina augmente de 20 % pendant 12 s."
+          },
+          {
+            "name": "Poids de la roche",
+            "desc": "Augmente les DGT infligés par <k>Virevolturbo</k> d'une valeur équivalant à 20 % de la DÉF de Kachina."
+          },
+          {
+            "name": "Don de la nuit : Foyer de l'unité",
+            "desc": "Après avoir épuisé ses points de noctâme, Kachina change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Kachina » peut être utilisée. Lorsque le personnage déployé sprinte, escalade, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Kachina déclenche l'effet suivant : Kachina entre dans l'état Bénédiction noctâme, chevauche <k>Virevolturbo</k> en arrivant sur le terrain et obtient 30 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\n\nDe plus, la consommation d'endurance de Kachina lors de l'escalade diminue de 90 % lorsqu'elle chevauche <k>Virevolturbo</k> dans la région de Natlan."
+          },
+          {
+            "name": "Bénédiction des flammes cristallines",
+            "desc": "Dans une zone de Natlan avec des mécanismes phlogistiques, interagir avec certains objets récoltables restaure 20 pts d'endurance. De plus, l'emplacement des <k>produits de Natlan</k> est affiché sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Les fragments sont aussi des gemmes",
+            "desc": "Lorsque Kachina monte sur <k>Virevolturbo</k> ou en descend, elle collecte les fragments proches qui ont été générés par des réactions de Cristallisation.\nDe plus, lorsqu'un personnage de l'équipe obtient un fragment ou déclenche une réaction de Sélénocristallisation, Kachina récupère 3 pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 5 s de cette manière."
+          },
+          {
+            "level": 2,
+            "name": "Jamais sans... Virevolturbo",
+            "desc": "Lorsque Kachina utilise <k>Un peu de sérieux !</k>, elle récupère 20 pts de noctâme. Si aucun <k>Virevolturbo</k> de Kachina n'est sur le terrain lors de l'utilisation, Kachina passe en bénédiction noctâme et en invoque un."
+          },
+          {
+            "level": 3,
+            "name": "Stabilisateur optimisé",
+            "desc": "Niveau d'aptitude <k>Allez, Virevolturbo !</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Ennemis nombreux, attention redoublée",
+            "desc": "Lorsqu'il y a 1/2/3/4+ ennemis dans le super champ de forage d'<k>Un peu de sérieux !</k>, la DÉF des personnages déployés dans le champ augmente respectivement de 8 %/12 %/16 %/20 %."
+          },
+          {
+            "level": 5,
+            "name": "Ma collection jusqu'à maintenant",
+            "desc": "Niveau d'aptitude <k>Un peu de sérieux !</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Cette fois, je gagne",
+            "desc": "Lorsque le bouclier de votre personnage déployé est remplacé ou détruit pour n'importe quelle raison, Kachina inflige des <e:geo>DGT Géo de zone</e> d'une valeur équivalant à 200 % de sa DÉF. Cet effet peut être déclenché une fois toutes les 5 s."
+          }
+        ]
+      }
+    }
   }
 }

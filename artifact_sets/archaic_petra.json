@@ -20,5 +20,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15014",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Archaic Petra",
+        "bonuses": {
+          "2": "Gain a 15% <e:geo>Geo</e> DMG Bonus.",
+          "4": "Upon obtaining an Elemental Shard created through Crystallize or triggering a Lunar-Crystallize reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+        }
+      },
+      "fr": {
+        "name": "Roche ancienne",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:geo>Géo</e> de 15 %.",
+          "4": "Lorsque vous obtenez un cristal issu d'une Cristallisation ou déclenchez une réaction de Sélénocristallisation, tous les personnages de l'équipe bénéficient d'un bonus de DGT du second élément de la réaction de 35 % pendant 10 s. Cet effet ne peut s'appliquer qu'à un seul élément à la fois."
+        }
+      }
+    }
   }
 }

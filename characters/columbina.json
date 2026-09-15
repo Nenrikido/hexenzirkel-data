@@ -233,5 +233,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000125",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Moondew Cascade",
+            "desc": "<k>Normal Attack</k>\nSummons Moonlit Tides, performing up to 3 attacks that deal <e:hydro>Hydro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to deal <e:hydro>AoE Hydro DMG</e> after a short casting time.\nIf you have at least 1 <k>Verdant Dew</k>, Columbina's Charged Attacks will be replaced with the special Charged Attack <k>Moondew Cleanse</k>, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of <e:dendro>AoE Dendro DMG</e> to opponents in front. This DMG is considered Lunar-Bloom DMG.\n\n<k>Plunging Attack</k>\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:hydro>AoE Hydro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Eternal Tides",
+            "desc": "Awaken Moonbound Tides, dealing <e:hydro>AoE Hydro DMG</e> and summoning <k>Gravity Ripple</k>.\n<k>Gravity Ripple</k> will follow the active character on the field, while continuously dealing <e:hydro>AoE Hydro DMG</e> to surrounding opponents. While <k>Gravity Ripple</k> is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special <k>Gravity</k>. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most <k>Gravity</k> for Columbina.\n<k>Moonsign: Ascendant Gleam</k>: <k>Gravity Ripple</k> inflicts <e:hydro>AoE Hydro DMG</e> over a wider area."
+          },
+          "burst": {
+            "name": "Moonlit Melancholy",
+            "desc": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into <k>Lunar Domain</k>, dealing <e:hydro> AoE Hydro DMG</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Lunacy's Lure",
+            "desc": "When triggering <k>Gravity Interference</k>, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times."
+          },
+          {
+            "name": "Law of the New Moon",
+            "desc": "When characters within the <k>Lunar Domain</k> trigger Lunar reactions, they will gain the following effects respectively:\n· <k>Lunar-Charged</k>: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike.\n· <k>Lunar-Bloom</k>: When triggering Lunar-Bloom reactions, the party gains a special <k>Moonridge Dew</k>. Up to 3 Moonridge Dews can be gained every 18s.\n· <k>Lunar-Crystallize</k>: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack."
+          },
+          {
+            "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+            "desc": "When a party member triggers an Electro-Charged, Bloom, or Hydro-Crystallize reaction, it will be converted into a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction respectively. Lunar Reaction DMG inflicted by party members gain a Base DMG increase based on Columbina's Max HP. For every 1,000 points of Max HP, the Base DMG of Lunar reactions is increased by 0.2%, up to a maximum of 7%.\n\nAdditionally, when Columbina is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Lunar Vigil",
+            "desc": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Radiance Over Blossoms and Peaks",
+            "desc": "Unleashing her Elemental Skill <k>Eternal Tides</k> will immediately trigger an effect equivalent to the effect of <k>Gravity Interference</k>. This effect can be triggered once every 15s.\n<k>Moonsign: Ascendant Gleam</k>\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· <k>Lunar-Charged</k>: Your current active character will recover 6 Energy.\n· <k>Lunar-Bloom</k>: Your active character's interruption resistance will be increased for 8s.\n· <k>Lunar-Crystallize</k>: Summons a <k>Rainsea Shield</k>. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb <e:hydro>Hydro DMG</e> with 250% effectiveness for 8s.\n\nAll nearby party members' Lunar Reaction DMG is <k>elevated</k> by 1.5%."
+          },
+          {
+            "level": 2,
+            "name": "Not in Lone Splendor",
+            "desc": "Rate of accumulating <k>Gravity</k> increases by 34%.\nWhen <k>Gravity Interference</k> is triggered, Columbina will receive the <k>Lunar Brilliance</k> effect, which increases her Max HP by 40% for 8s.\n<k>Moonsign: Ascendant Gleam</k>:\nWhen <k>Lunar Brilliance</k> is active, if, during the current trigger of <k>Gravity Interference</k>, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· <k>Lunar-Charged</k>: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\n· <k>Lunar-Bloom</k>: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\n· <k>Lunar-Crystallize</k>: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\n\nAll nearby party members' Lunar Reaction DMG is <k>elevated</k> by 7%."
+          },
+          {
+            "level": 3,
+            "name": "Dreamlike Glow Across Tranquil Waters",
+            "desc": "Increases the Level of Elemental Skill <k>Eternal Tides</k> by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is <k>elevated</k> by 1.5%."
+          },
+          {
+            "level": 4,
+            "name": "Cloudveiled Ridges in Floral Mists",
+            "desc": "When <k>Gravity Interference</k> is triggered, 4 Elemental Energy will be restored to Columbina;\nAdditionally, if the Lunar reaction type that accumulates the most <k>Gravity</k> for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\n\nAll nearby party members' Lunar Reaction DMG is <k>elevated</k> by 1.5%."
+          },
+          {
+            "level": 5,
+            "name": "Silence Tending One Lone Song",
+            "desc": "Increases the Level of Elemental Burst <k>Moonlit Melancholy</k> by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is <k>elevated</k> by 1.5%."
+          },
+          {
+            "level": 6,
+            "name": "Through Darkness Led by Moonlight",
+            "desc": "For 8s after characters in the <k>Lunar Domain</k> trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\n\nAll nearby party members' Lunar Reaction DMG is <k>elevated</k> by 7%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Cascade de rosée lunaire",
+            "desc": "<k>Attaque normale</k>\nAppelle une marée de lumière lunaire pour enchaîner jusqu'à 3 attaques qui infligent des <e:hydro>DGT Hydro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:hydro>DGT Hydro de zone</e> après un court délai.\nSi Columbina possède au moins 1 <k>rosée verdoyante</k>, son attaque chargée est convertie en l'attaque chargée spéciale <k>« Lavage de rosée lunaire »</k> ne consommant pas d'endurance : consomme 1 rosée verdoyante pour infliger 3 fois des <e:dendro>DGT Dendro de zone</e> aux ennemis en avant, ces DGT étant considérés comme des DGT de réactions de Sélénofleurissement.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs, infligeant des DGT aux ennemis en chemin et des <e:hydro>DGT Hydro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Marée éternelle",
+            "desc": "Appelle une marée de mer lunaire, infligeant des <e:hydro>DGT Hydro de zone</e> et invoquant une <k>ondulation de gravité</k>.\nL'<k>ondulation de gravité</k> suit le personnage déployé et inflige des <e:hydro>DGT Hydro de zone</e> de façon continue aux ennemis proches. Pendant la durée d'une <k>ondulation de gravité</k>, Columbina cumule de la <k>force gravitationnelle</k> spéciale lorsqu'un personnage de l'équipe à proximité déclenche une réaction sélène ou inflige des DGT de réaction sélène. Une fois sa force gravitationnelle au maximum, Columbina inflige des DGT élémentaires selon le type de réaction sélène ayant permis de cumuler le plus de <k>force gravitationnelle</k>.\n<k>Signelune « Lueur ascendante »</k> : Les <k>ondulations de gravité</k> infligent des <e:hydro>DGT Hydro de zone</e> sur une zone plus étendue."
+          },
+          "burst": {
+            "name": "Mélancolie sous la lune",
+            "desc": "Collines et marées s'unissent sous la lumière argentée d'une lune nouvelle et immaculée, transformant temporairement le terrain environnant en <k>domaine lunaire</k> et infligeant des <e:hydro>DGT Hydro de zone</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Attrait lunatique",
+            "desc": "En déclenchant une <k>interférence gravitationnelle</k>, Columbina obtient l'effet Tentation lunaire, augmentant son taux CRIT de 5 % pendant 10 s. Cet effet peut être cumulé 3 fois maximum."
+          },
+          {
+            "name": "Loi de la nouvelle lune",
+            "desc": "Lorsqu'un personnage dans un <k>domaine lunaire</k> déclenche une réaction sélène, différents effets se produisent selon la réaction déclenchée :\n· <k>Réaction de Sélénocution</k> : lorsqu'un nuage d'orage déclenche un éclair sur une cible valide, il a 33 % de chances de déclencher un éclair supplémentaire.\n· <k>Réaction de Sélénofleurissement</k> : déclencher une réaction de Sélénofleurissement accorde 1 <k>rosée de crête lunaire</k> spéciale à l'équipe, l'équipe pouvant obtenir un maximum de 3 rosées toutes les 18 s de cette manière.\n· <k>Réaction de Sélénocristallisation</k> : en déclenchant une harmonie de voile lunaire, chaque voile lunaire a 33 % de chances d'effectuer une attaque supplémentaire."
+          },
+          {
+            "name": "Bénédiction de signelune : Clair de lune accordée",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Électrocution, de Fleurissement ou de Cristallisation Hydro, la réaction est convertie respectivement en réaction de Sélénocution, de Sélénofleurissement ou de Sélénocristallisation, et les DGT de base des réactions sélènes des personnages de l'équipe augmentent selon les PV max de Columbina : chaque tranche de 1 000 PV max augmente les DGT de base de 0,2 %, ces DGT pouvant être augmentés d'un maximum de 7 % de cette manière.\n\nDe plus, la <k>signelune</k> de l'équipe augmente d'un niveau lorsque Columbina fait partie de l'équipe."
+          },
+          {
+            "name": "Veillée lunaire",
+            "desc": "Lorsqu'un de vos personnages dans l'équipe est vaincu dans la région de Nod-Krai ou de la Lune de givre, Columbina le ressuscite et restaure les PV de ce dernier selon son propre Niv. d'affinité, cet effet pouvant être déclenché une fois toutes les 100 s. Cet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées.\nDe plus, Columbina semble avoir une affinité particulière avec certains petits animaux affectés par le kuuvahki..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Radiance sur les fleurs, au cœur des sommets",
+            "desc": "Utiliser la compétence élémentaire <k>Marée éternelle</k> déclenche immédiatement un effet similaire à une <k>interférence gravitationnelle</k>, cet effet pouvant être déclenché une fois toutes les 15 s.\n<k>Signelune « Lueur ascendante »</k>\nEn déclenchant une interférence gravitationnelle, divers effets ont lieu selon le type de réaction sélène ayant permis à Columbina de cumuler le plus de force gravitationnelle :\n· <k>Réaction de Sélénocution</k> : restaure 6 pts d'énergie élémentaire à votre personnage déployé.\n· <k>Réaction de Sélénofleurissement</k> : améliore la RÉS à l'interruption de votre personnage déployé pendant 8 s.\n· <k>Réaction de Sélénocristallisation</k> : invoque un <k>bouclier de pluie marine</k> pendant 8 s, bouclier dont l'absorption de DGT est égale à 12 % des PV max de Columbina et qui absorbe les <e:hydro>DGT Hydro</e> 250 % plus efficacement.\n\nLes DGT de réaction sélène infligés par tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 1,5 %."
+          },
+          {
+            "level": 2,
+            "name": "Nuit en splendeur, jamais solitaire",
+            "desc": "La vitesse de cumul de la <k>force gravitationnelle</k> augmente de 34 %.\nEn déclenchant une <k>interférence gravitationnelle</k>, Columbina obtient l'effet <k>Éclat lunaire</k>, augmentant ses PV max de 40 % pendant 8 s.\n<k>Signelune « Lueur ascendante »</k>\nPendant la durée de l'effet <k>Éclat lunaire</k>, divers effets ont lieu selon le type de réaction sélène ayant permis à Columbina de cumuler le plus de force gravitationnelle lors du déclenchement de l'<k>interférence gravitationnelle</k> :\n· <k>Réaction de Sélénocution</k> : l'ATQ de votre personnage déployé augmente d'une valeur équivalant à 1 % des PV max de Columbina.\n· <k>Réaction de Sélénofleurissement</k> : la maîtrise élémentaire de votre personnage déployé augmente d'une valeur équivalant à 0,35 % des PV max de Columbina.\n· <k>Réaction de Sélénocristallisation</k> : la DÉF de votre personnage déployé augmente d'une valeur équivalant à 1 % des PV max de Columbina.\n\nLes DGT de réaction sélène infligés par tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 7 %."
+          },
+          {
+            "level": 3,
+            "name": "Lumière en rosée, ondulation sur le lac",
+            "desc": "Niveau d'aptitude <k>Marée éternelle</k> +3.\nNiveau max : 15\n\nLes DGT de réaction sélène infligés par tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 1,5 %."
+          },
+          {
+            "level": 4,
+            "name": "Fleurs dans les brumes, crêtes sous les voiles",
+            "desc": "En déclenchant une <k>interférence gravitationnelle</k>, Columbina récupère 4 pts d'énergie élémentaire.\nDe plus, si Columbina a cumulé le plus de <k>force gravitationnelle</k> grâce à des réactions de Sélénocution, de Sélénofleurissement ou de Sélénocristallisation, les DGT de réaction sélène infligés par l'interférence gravitationnelle augmentent respectivement d'une valeur équivalant à 12,5 %, 2,5 % ou 12,5 % des PV max de Columbina. Cet effet peut être déclenché une fois toutes les 15 s.\n\nLes DGT de réaction sélène infligés par tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 1,5 %."
+          },
+          {
+            "level": 5,
+            "name": "Silence total, chant solitaire",
+            "desc": "Niveau d'aptitude <k>Mélancolie sous la lune</k> +3.\nNiveau max : 15\n\nLes DGT de réaction sélène infligés par tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 1,5 %."
+          },
+          {
+            "level": 6,
+            "name": "Nuit lugubre, lune à travers",
+            "desc": "Lorsqu'un personnage dans un <k>domaine lunaire</k> a déclenché une réaction sélène, les DGT CRIT des éléments correspondants au type de réaction infligés par tous les personnages de l'équipe augmentent de 80 % pendant 8 s. L'effet d'augmentation des DGT CRIT d'un même type élémentaire ne peut pas être cumulé.\n\nLes DGT de réaction sélène infligés par tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 7 %."
+          }
+        ]
+      }
+    }
   }
 }

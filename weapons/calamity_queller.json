@@ -38,5 +38,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13507",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+        "passive": {
+          "name": "Extinguishing Precept",
+          "refinements": {
+            "1": "Gain <r>12%</r> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <r>3.2%</r> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+            "2": "Gain <r>15%</r> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <r>4%</r> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+            "3": "Gain <r>18%</r> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <r>4.8%</r> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+            "4": "Gain <r>21%</r> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <r>5.6%</r> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.",
+            "5": "Gain <r>24%</r> All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by <r>6.4%</r> per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme finement affûtée forgée à partir d'un cristal étrange. Sa faible lumière bleue semble chuchoter d'innombrables choses du passé.",
+        "passive": {
+          "name": "Précepte d'anéantissement",
+          "refinements": {
+            "1": "Confère un bonus de DGT élémentaires de <r>12 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>3,2 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé.",
+            "2": "Confère un bonus de DGT élémentaires de <r>15 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>4 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé.",
+            "3": "Confère un bonus de DGT élémentaires de <r>18 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>4,8 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé.",
+            "4": "Confère un bonus de DGT élémentaires de <r>21 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>5,6 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé.",
+            "5": "Confère un bonus de DGT élémentaires de <r>24 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>6,4 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé."
+          }
+        }
+      }
+    }
   }
 }

@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14304",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
+        "passive": {
+          "name": "Rapids",
+          "refinements": {
+            "1": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by <r>20%</r> for 12s.",
+            "2": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by <r>25%</r> for 12s.",
+            "3": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by <r>30%</r> for 12s.",
+            "4": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by <r>35%</r> for 12s.",
+            "5": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by <r>40%</r> for 12s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un catalyseur sculpté dans la jadéite, produite au Karst Jueyun, au nord de Liyue. Petit et léger, résistant et durable, les gens l'appellent souvent « Boulette de jade ».",
+        "passive": {
+          "name": "Torrent",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>20 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro.",
+            "2": "Augmente l'ATQ de <r>25 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro.",
+            "3": "Augmente l'ATQ de <r>30 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro.",
+            "4": "Augmente l'ATQ de <r>35 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro.",
+            "5": "Augmente l'ATQ de <r>40 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro."
+          }
+        }
+      }
+    }
   }
 }

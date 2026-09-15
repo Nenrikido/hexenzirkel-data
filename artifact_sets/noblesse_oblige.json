@@ -17,5 +17,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15007",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Noblesse Oblige",
+        "bonuses": {
+          "2": "Elemental Burst DMG +20%",
+          "4": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+        }
+      },
+      "fr": {
+        "name": "Ancien rituel royal",
+        "bonuses": {
+          "2": "Augmente les DGT infligés par le déchaînement élémentaire de 20 %.",
+          "4": "Augmente l'ATQ de tous les personnages de l'équipe de 20 % pendant 12 s après un déchaînement élémentaire. Cet effet est non cumulable."
+        }
+      }
+    }
   }
 }

@@ -37,5 +37,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13406",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
+        "passive": {
+          "name": "Lithic Axiom: Unity",
+          "refinements": {
+            "1": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <r>7%</r> ATK increase and a <r>3%</r> CRIT Rate increase. This effect stacks up to 4 times.",
+            "2": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <r>8%</r> ATK increase and a <r>4%</r> CRIT Rate increase. This effect stacks up to 4 times.",
+            "3": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <r>9%</r> ATK increase and a <r>5%</r> CRIT Rate increase. This effect stacks up to 4 times.",
+            "4": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <r>10%</r> ATK increase and a <r>6%</r> CRIT Rate increase. This effect stacks up to 4 times.",
+            "5": "For every character in the party who hails from Liyue, the character who equips this weapon gains a <r>11%</r> ATK increase and a <r>7%</r> CRIT Rate increase. This effect stacks up to 4 times."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance forgée à partir des rochers de la Forêt de pierre de Guyun. Sa pointe est d'une solidité sans pareille.",
+        "passive": {
+          "name": "Axiome de la roche : Unité",
+          "refinements": {
+            "1": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>7 %</r> de bonus d'ATQ et de <r>3 %</r> de bonus de taux CRIT. Ces bonus peuvent être cumulés 4 fois maximum.",
+            "2": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>8 %</r> de bonus d'ATQ et de <r>4 %</r> de bonus de taux CRIT. Ces bonus peuvent être cumulés 4 fois maximum.",
+            "3": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>9 %</r> de bonus d'ATQ et de <r>5 %</r> de bonus de taux CRIT. Ces bonus peuvent être cumulés 4 fois maximum.",
+            "4": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>10 %</r> de bonus d'ATQ et de <r>6 %</r> de bonus de taux CRIT. Ces bonus peuvent être cumulés 4 fois maximum.",
+            "5": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>11 %</r> de bonus d'ATQ et de <r>7 %</r> de bonus de taux CRIT. Ces bonus peuvent être cumulés 4 fois maximum."
+          }
+        }
+      }
+    }
   }
 }

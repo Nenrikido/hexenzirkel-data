@@ -8,5 +8,29 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10013",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Traveling Doctor",
+        "bonuses": {
+          "2": "Increases incoming healing by 20%.",
+          "4": "Using Elemental Burst restores 20% HP."
+        }
+      },
+      "fr": {
+        "name": "Médecin itinérant",
+        "bonuses": {
+          "2": "Augmente les soins reçus par le personnage de 20 %.",
+          "4": "Le déchaînement élémentaire restaure 20 % des PV."
+        }
+      }
+    }
   }
 }

@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15417",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow that can shoot the enemies of the forest down.",
+        "passive": {
+          "name": "Labyrinth Lord's Instruction",
+          "refinements": {
+            "1": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by <r>60</r> for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal <r>100%</r> of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+            "2": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by <r>80</r> for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal <r>120%</r> of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+            "3": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by <r>100</r> for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal <r>140%</r> of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+            "4": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by <r>120</r> for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal <r>160%</r> of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+            "5": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by <r>140</r> for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal <r>180%</r> of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme que vous avez obtenue dans un conte d'aranara. Elle a pris la forme d'un arc qui peut abattre les ennemis de la forêt.",
+        "passive": {
+          "name": "Instruction du seigneur du labyrinthe",
+          "refinements": {
+            "1": "Accorde l'effet Enseignements de la forêt lors de l'utilisation d'une compétence ou d'un déchaînement élémentaires, augmentant la maîtrise élémentaire de <r>60</r> pts pendant 12 s. Cet effet est annulé lors du changement de personnage. Lorsque l'effet Enseignements de la forêt prend fin ou est annulé, il inflige des DGT équivalant à <r>100 %</r> de l'ATQ à un ennemi proche. L'effet Enseignements de la forêt peut être déclenché une fois toutes les 20 s.",
+            "2": "Accorde l'effet Enseignements de la forêt lors de l'utilisation d'une compétence ou d'un déchaînement élémentaires, augmentant la maîtrise élémentaire de <r>80</r> pts pendant 12 s. Cet effet est annulé lors du changement de personnage. Lorsque l'effet Enseignements de la forêt prend fin ou est annulé, il inflige des DGT équivalant à <r>120 %</r> de l'ATQ à un ennemi proche. L'effet Enseignements de la forêt peut être déclenché une fois toutes les 20 s.",
+            "3": "Accorde l'effet Enseignements de la forêt lors de l'utilisation d'une compétence ou d'un déchaînement élémentaires, augmentant la maîtrise élémentaire de <r>100</r> pts pendant 12 s. Cet effet est annulé lors du changement de personnage. Lorsque l'effet Enseignements de la forêt prend fin ou est annulé, il inflige des DGT équivalant à <r>140 %</r> de l'ATQ à un ennemi proche. L'effet Enseignements de la forêt peut être déclenché une fois toutes les 20 s.",
+            "4": "Accorde l'effet Enseignements de la forêt lors de l'utilisation d'une compétence ou d'un déchaînement élémentaires, augmentant la maîtrise élémentaire de <r>120</r> pts pendant 12 s. Cet effet est annulé lors du changement de personnage. Lorsque l'effet Enseignements de la forêt prend fin ou est annulé, il inflige des DGT équivalant à <r>160 %</r> de l'ATQ à un ennemi proche. L'effet Enseignements de la forêt peut être déclenché une fois toutes les 20 s.",
+            "5": "Accorde l'effet Enseignements de la forêt lors de l'utilisation d'une compétence ou d'un déchaînement élémentaires, augmentant la maîtrise élémentaire de <r>140</r> pts pendant 12 s. Cet effet est annulé lors du changement de personnage. Lorsque l'effet Enseignements de la forêt prend fin ou est annulé, il inflige des DGT équivalant à <r>180 %</r> de l'ATQ à un ennemi proche. L'effet Enseignements de la forêt peut être déclenché une fois toutes les 20 s."
+          }
+        }
+      }
+    }
   }
 }

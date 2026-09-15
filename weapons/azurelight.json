@@ -49,5 +49,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11517",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This blade was once pure and pristine as a white dawn star, but it has since been tinted a deep, dark blue.",
+        "passive": {
+          "name": "Whitehill's Bestowal",
+          "refinements": {
+            "1": "Within 12s after an Elemental Skill is used, ATK is increased by <r>24%</r>. During this time, when the equipping character has 0 Energy, ATK will be further increased by <r>24%</r>, and CRIT DMG will be increased by <r>40%</r>.",
+            "2": "Within 12s after an Elemental Skill is used, ATK is increased by <r>30%</r>. During this time, when the equipping character has 0 Energy, ATK will be further increased by <r>30%</r>, and CRIT DMG will be increased by <r>50%</r>.",
+            "3": "Within 12s after an Elemental Skill is used, ATK is increased by <r>36%</r>. During this time, when the equipping character has 0 Energy, ATK will be further increased by <r>36%</r>, and CRIT DMG will be increased by <r>60%</r>.",
+            "4": "Within 12s after an Elemental Skill is used, ATK is increased by <r>42%</r>. During this time, when the equipping character has 0 Energy, ATK will be further increased by <r>42%</r>, and CRIT DMG will be increased by <r>70%</r>.",
+            "5": "Within 12s after an Elemental Skill is used, ATK is increased by <r>48%</r>. During this time, when the equipping character has 0 Energy, ATK will be further increased by <r>48%</r>, and CRIT DMG will be increased by <r>80%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lame immaculée, qui brillait autrefois comme une étoile blanche à l'aube. Elle présente désormais une couleur bleuâtre.",
+        "passive": {
+          "name": "Munificence de la colline blanche",
+          "refinements": {
+            "1": "L'ATQ augmente de <r>24 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>24 %</r> supplémentaires et ses DGT CRIT de <r>40 %</r>.",
+            "2": "L'ATQ augmente de <r>30 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>30 %</r> supplémentaires et ses DGT CRIT de <r>50 %</r>.",
+            "3": "L'ATQ augmente de <r>36 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>36 %</r> supplémentaires et ses DGT CRIT de <r>60 %</r>.",
+            "4": "L'ATQ augmente de <r>42 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>42 %</r> supplémentaires et ses DGT CRIT de <r>70 %</r>.",
+            "5": "L'ATQ augmente de <r>48 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>48 %</r> supplémentaires et ses DGT CRIT de <r>80 %</r>."
+          }
+        }
+      }
+    }
   }
 }

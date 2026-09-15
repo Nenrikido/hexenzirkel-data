@@ -287,5 +287,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000005-anemo",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Foreign Ironwind",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Palm Vortex",
+            "desc": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <e:anemo>Anemo DMG</e> to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\n<k>Hold</k>\nDMG and AoE will gradually increase.\n\n<k>Elemental Absorption</k>\nIf the vortex comes into contact with <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You discussed the way to grasp the formless wind with Paimon.</i>"
+          },
+          "burst": {
+            "name": "Gust Surge",
+            "desc": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous <e:anemo>Anemo DMG</e>.\n\n<k>Elemental Absorption</k>\nIf the tornado comes into contact with <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Slitting Wind",
+            "desc": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as <e:anemo>Anemo DMG</e> to all opponents in its path."
+          },
+          {
+            "name": "Second Wind",
+            "desc": "<k>Palm Vortex</k> kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s."
+          },
+          {
+            "name": "Foreign Windwrath",
+            "desc": "Draw new strength from journeys past. For every element you have resonated with, you gain additional <k>buffs</k>.\n\nAdditionally, when <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e>, or <e:electro>Electro</e> attacks from nearby party members hit opponents, Traveler will receive 1 stack of Blade of the Dawn Breeze. Each Elemental Type can grant 1 Blade of the Dawn Breeze stack. After obtaining at least 2 stacks of Blade of the Dawn Breeze, performing a Charged Attack will consume all stacks of Blade of the Dawn Breeze and transform into the special <k>Charged Attack: Whirlwind</k>.\n\n<k>Charged Attack: Whirlwind</k>\n· Each Charged Attack hit deals increased <e:anemo>Anemo DMG</e>. Increase in DMG is equal to 60% of Traveler's ATK.\n· Every time a Blade of the Dawn Breeze of a certain elemental type is consumed, a Blade Wind matching this elemental type will also be summoned, dealing elemental DMG equal to 50% of Traveler's ATK. This DMG is considered Charged Attack DMG.\n· <k>Charged Attack: Whirlwind</k> can be triggered up to once every 15s.\n· For the duration of <k>Charged Attack: Whirlwind</k>, no Blade of the Dawn Breeze will be obtained."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Raging Vortex",
+            "desc": "<k>Palm Vortex</k> pulls in opponents and objects within a 5m radius."
+          },
+          {
+            "level": 2,
+            "name": "Uprising Whirlwind",
+            "desc": "Increases Energy Recharge by 16%."
+          },
+          {
+            "level": 3,
+            "name": "Sweeping Gust",
+            "desc": "Increases the Level of <k>Gust Surge</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Cherishing Breezes",
+            "desc": "Reduces DMG taken while casting <k>Palm Vortex</k> by 10%."
+          },
+          {
+            "level": 5,
+            "name": "Vortex Stellaris",
+            "desc": "Increases the Level of <k>Palm Vortex</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Intertwined Winds",
+            "desc": "Targets who take DMG from <k>Gust Surge</k> have their <e:anemo>Anemo RES</e> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Vents de la discorde",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Vortex destructeur",
+            "desc": "Un vortex de vent, tournant et tranchant, se forme dans la paume de votre main, infligeant des <e:anemo>DGT Anémo continus</e> aux ennemis en face.\nLe vortex finit par exploser à la fin de la compétence, l'explosion couvrant une zone plus large et infligeant des DGT Anémo plus importants.\n\n<k>Appui long</k>\nAugmente les DGT et la zone d'effet.\n\n<k>Absorption élémentaire</k>\nLe vortex absorbe les éléments <e:hydro>Hydro</e>, <e:pyro>Pyro</e>, <e:cryo>Cryo</e> et <e:electro>Électro</e> avec lesquels il entre en contact, ceux-ci conférant un bonus de DGT de l'élément correspondant.\nUne seule réaction d'absorption élémentaire peut avoir lieu par utilisation.\n\n<i>Vous avez discuté de la maîtrise de vos nouveaux pouvoirs Anémo avec Paimon.</i>"
+          },
+          "burst": {
+            "name": "Rafale de vent",
+            "desc": "Vous invoquez une tornade qui attire les objets et les ennemis en avançant, et qui inflige des <e:anemo>DGT Anémo continus</e>.\n\n<k>Absorption élémentaire</k>\nLa tornade absorbe les éléments <e:hydro>Hydro</e>, <e:pyro>Pyro</e>, <e:cryo>Cryo</e> et <e:electro>Électro</e> avec lesquels elle entre en contact, ceux-ci conférant leurs attributs et infligeant un bonus de DGT de l'élément correspondant.\nUn seul élément peut être absorbé à la fois.\n\n<i>Paimon et vous avez étudié les battements qui agitent les ailes des papillons...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Vent du ciel déchiré",
+            "desc": "Le dernier coup d'attaque normale libère une lame de vent, qui inflige une quantité de <e:anemo>DGT Anémo</e> équivalant à 60 % de l'ATQ aux ennemis sur sa route."
+          },
+          {
+            "name": "Vent de guérison",
+            "desc": "<k>Vortex destructeur</k> restaure 2 % des PV toutes les secondes pendant 5 s lorsqu'il élimine un ennemi.\nCet effet peut être déclenché une fois toutes les 5 s."
+          },
+          {
+            "name": "Bourrasque d'ailleurs",
+            "desc": "Permet au voyageur de puiser une force nouvelle dans ses périples passés, lui accordant un <k>effet de renforcement</k> supplémentaire pour chaque élément avec lequel il est entré en résonance.\n\nDe plus, lorsque l'attaque d'un personnage de l'équipe à proximité de type <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e> touche un ennemi, le voyageur obtient 1 lame de brise matinale de l'élément correspondant, chaque élément pouvant accorder 1 lame. Avec au moins 2 lames de brise matinale, effectuer une attaque chargée consomme toutes les lames pour déclencher une <k>attaque chargée « Tourbillon »</k> spéciale.\n\n<k>Attaque chargée « Tourbillon »</k>\n· Chaque coup de l'attaque chargée inflige des <e:anemo>DGT Anémo</e> qui sont augmentés d'une valeur équivalant à 60 % de l'ATQ du voyageur.\n· Consommer une lame de brise matinale d'un certain type élémentaire génère un vent de lame de l'élément correspondant qui inflige des DGT élémentaires d'une valeur équivalant à 50 % de l'ATQ du voyageur, ces DGT étant considérés comme des DGT d'attaque chargée.\n· Une <k>attaque chargée « Tourbillon »</k> peut être déclenchée une fois toutes les 15 s.\n· Il est impossible d'obtenir des lames de brise matinale pendant une <k>attaque chargée « Tourbillon »</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Vortex déchaîné",
+            "desc": "<k>Vortex destructeur</k> attire les ennemis et les objets dans un rayon de 5 mètres autour du personnage."
+          },
+          {
+            "level": 2,
+            "name": "Tornade de la rébellion",
+            "desc": "Augmente la recharge d'énergie de 16 %."
+          },
+          {
+            "level": 3,
+            "name": "Rafale de balayage",
+            "desc": "Niveau d'aptitude <k>Rafale de vent</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Prévenance de brise",
+            "desc": "Les DGT subis diminuent de 10 % tant que <k>Vortex destructeur</k> est actif."
+          },
+          {
+            "level": 5,
+            "name": "Vortex stellaire",
+            "desc": "Niveau d'aptitude <k>Vortex destructeur</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Vents enlacés",
+            "desc": "La <e:anemo>RÉS Anémo</e> des ennemis touchés par <k>Rafale de vent</k> diminue de 20 %.\nEn cas d'absorption élémentaire, leur RÉS à l'élément correspondant diminue également de 20 %."
+          }
+        ]
+      }
+    }
   }
 }

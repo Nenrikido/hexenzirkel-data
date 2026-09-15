@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11433",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longsword forged from metal that makes a mournful sound when swung.",
+        "passive": {
+          "name": "Solemn Silence",
+          "refinements": {
+            "1": "Upon causing an Elemental Reaction, increases Max HP by <r>16%</r> for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by <r>16%</r>. This effect can be triggered even if the equipping character is off-field.",
+            "2": "Upon causing an Elemental Reaction, increases Max HP by <r>20%</r> for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by <r>20%</r>. This effect can be triggered even if the equipping character is off-field.",
+            "3": "Upon causing an Elemental Reaction, increases Max HP by <r>24%</r> for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by <r>24%</r>. This effect can be triggered even if the equipping character is off-field.",
+            "4": "Upon causing an Elemental Reaction, increases Max HP by <r>28%</r> for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by <r>28%</r>. This effect can be triggered even if the equipping character is off-field.",
+            "5": "Upon causing an Elemental Reaction, increases Max HP by <r>32%</r> for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by <r>32%</r>. This effect can be triggered even if the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une longue épée forgée à partir de métal qui produit un son lugubre lorsqu'elle est brandie.",
+        "passive": {
+          "name": "Silence solennel",
+          "refinements": {
+            "1": "Déclencher une réaction élémentaire augmente les PV max de <r>16 %</r> pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de <r>16 %</r> supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Déclencher une réaction élémentaire augmente les PV max de <r>20 %</r> pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de <r>20 %</r> supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Déclencher une réaction élémentaire augmente les PV max de <r>24 %</r> pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de <r>24 %</r> supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Déclencher une réaction élémentaire augmente les PV max de <r>28 %</r> pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de <r>28 %</r> supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Déclencher une réaction élémentaire augmente les PV max de <r>32 %</r> pendant 12 s. Signelune « Lueur ascendante » : les PV max de cet effet augmentent de <r>32 %</r> supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

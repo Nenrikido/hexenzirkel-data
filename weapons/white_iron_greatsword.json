@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12303",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+        "passive": {
+          "name": "Cull the Weak",
+          "refinements": {
+            "1": "Defeating an opponent restores <r>8%</r> HP.",
+            "2": "Defeating an opponent restores <r>10%</r> HP.",
+            "3": "Defeating an opponent restores <r>12%</r> HP.",
+            "4": "Defeating an opponent restores <r>14%</r> HP.",
+            "5": "Defeating an opponent restores <r>16%</r> HP."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée à deux mains fabriquée dans du fer blanc, ce qui ajoute à la puissance de l'arme tout en réduisant son poids. Elle peut être maniée par tous, mais sa force reflète celle de la personne qui l'utilise.",
+        "passive": {
+          "name": "Moissonneur",
+          "refinements": {
+            "1": "Restaure <r>8 %</r> des PV après la défaite d'un ennemi.",
+            "2": "Restaure <r>10 %</r> des PV après la défaite d'un ennemi.",
+            "3": "Restaure <r>12 %</r> des PV après la défaite d'un ennemi.",
+            "4": "Restaure <r>14 %</r> des PV après la défaite d'un ennemi.",
+            "5": "Restaure <r>16 %</r> des PV après la défaite d'un ennemi."
+          }
+        }
+      }
+    }
   }
 }

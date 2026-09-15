@@ -38,5 +38,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11510",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+        "passive": {
+          "name": "Honed Flow",
+          "refinements": {
+            "1": "Obtain <r>12%</r> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <r>20%</r> for 8s.",
+            "2": "Obtain <r>15%</r> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <r>25%</r> for 8s.",
+            "3": "Obtain <r>18%</r> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <r>30%</r> for 8s.",
+            "4": "Obtain <r>21%</r> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <r>35%</r> for 8s.",
+            "5": "Obtain <r>24%</r> All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by <r>40%</r> for 8s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une œuvre célèbre des forgerons de la lignée des Futsu. Son nom renvoie aux vagues violentes de la mer qui se déchaînent sous une nuit de pleine lune.",
+        "passive": {
+          "name": "Flux aiguisé",
+          "refinements": {
+            "1": "Accorde un bonus de DGT élémentaires de <r>12 %</r>. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de <r>20 %</r> pour chaque cumul de pic de vague consommé, pendant 8 s.",
+            "2": "Accorde un bonus de DGT élémentaires de <r>15 %</r>. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de <r>25 %</r> pour chaque cumul de pic de vague consommé, pendant 8 s.",
+            "3": "Accorde un bonus de DGT élémentaires de <r>18 %</r>. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de <r>30 %</r> pour chaque cumul de pic de vague consommé, pendant 8 s.",
+            "4": "Accorde un bonus de DGT élémentaires de <r>21 %</r>. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de <r>35 %</r> pour chaque cumul de pic de vague consommé, pendant 8 s.",
+            "5": "Accorde un bonus de DGT élémentaires de <r>24 %</r>. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de pic de vague sont consommés pour accorder l'effet Tumulte, augmentant les DGT d'attaque normale de <r>40 %</r> pour chaque cumul de pic de vague consommé, pendant 8 s."
+          }
+        }
+      }
+    }
   }
 }

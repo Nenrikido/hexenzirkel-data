@@ -17,5 +17,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15018",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Pale Flame",
+        "bonuses": {
+          "2": "Physical DMG is increased by 25%.",
+          "4": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+        }
+      },
+      "fr": {
+        "name": "Flamme blême",
+        "bonuses": {
+          "2": "Augmente les DGT physiques de 25 %.",
+          "4": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de 9 % pendant 7 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Une fois 2 cumuls atteints, l'effet du set de 2 pièces augmente de 100 %."
+        }
+      }
+    }
   }
 }

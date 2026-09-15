@@ -344,5 +344,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000108",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Black Pheasant Strides on Water",
+            "desc": "<k>Normal Attack</k>\nWields her Feathermoon Rings to perform up to 4 attacks, dealing <e:anemo>Anemo DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to throw out a Feathermoon Ring, dealing <e:anemo>Anemo DMG</e>.\n\n<k>Plunging Attack</k>\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:anemo>AoE Anemo DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Swallow-Wisp Pinion Dance",
+            "desc": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.\nThe Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against <e:anemo>Anemo DMG</e>.\nWhile in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing <e:anemo>Anemo DMG</e>.\nHolding the Skill will cause it to behave differently.\n\n<k>Hold</k>\nEnter Aiming Mode to adjust the dash direction.\n\n<i>\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"</i>"
+          },
+          "burst": {
+            "name": "Lustrous Moonrise",
+            "desc": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of <e:anemo>AoE Anemo DMG</e>.\n\n<i>Strictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Four Sealing Divination Charms",
+            "desc": "When the dash from the Elemental Skill <k>Swallow-Wisp Pinion Dance</k> hits a target, if it interacts with <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, the Swallow-Wisp Shield will undergo Elemental Absorption, with the converted shield absorbing DMG from the corresponding element with 250% efficiency.\nAdditionally, if this use of <k>Swallow-Wisp Pinion Dance</k> causes the Swallow-Wisp Shield to undergo Elemental Absorption, the Feathermoon Rings that Lan Yan throws at her foes additionally deal Elemental DMG equal to 50% of the original in the corresponding Elemental Type. This DMG is considered Elemental Skill DMG."
+          },
+          {
+            "name": "Skyfeather Evil-Subduing Charm",
+            "desc": "The Elemental Skill <k>Swallow-Wisp Pinion Dance</k> and the Elemental Burst <k>Lustrous Moonrise</k> deal increased DMG equal to 309% and 774% of Lan Yan's Elemental Mastery respectively."
+          },
+          {
+            "name": "Thought and Intent, Like Silken Scent",
+            "desc": "When Lan Yan is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"As One Might Stride Betwixt the Clouds\"",
+            "desc": "After triggering the Elemental Absorption from the Ascension Talent \"Four Sealing Divination Charms,\" this instance of Lan Yan's Elemental Skill <k>Swallow-Wisp Pinion Dance</k> will produce another Feathermoon Ring when they are thrown at opponents.\nYou must first unlock the Ascension Talent \"Four Sealing Divination Charms.\""
+          },
+          {
+            "level": 2,
+            "name": "\"Dance Vestments Billow Like Rainbow Jade\"",
+            "desc": "While the <k>Swallow-Wisp Shield</k> is active, when your active party member's Normal Attacks deal DMG, 40% of the Shield's DMG absorption will be restored, up to its original maximum absorption. This effect can occur once every 2s."
+          },
+          {
+            "level": 3,
+            "name": "\"On White Wings Pierce Through Cloud and Fog\"",
+            "desc": "Increases the Level of <k>Swallow-Wisp Pinion Dance</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "\"With Drakefalcon's Blood-Pearls Adorned\"",
+            "desc": "After Lan Yan uses her Elemental Burst <k>Lustrous Moonrise</k>, the Elemental Mastery of all nearby party members increases by 60 for 12s."
+          },
+          {
+            "level": 5,
+            "name": "\"Having Met You, My Heart is Gladdened\"",
+            "desc": "Increases the Level of <k>Lustrous Moonrise</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "\"Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring\"",
+            "desc": "<k>Swallow-Wisp Pinion Dance</k> gains 1 additional charge."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Faisan noir sur eau",
+            "desc": "<k>Attaque normale</k>\nBrandit ses anneaux lunaires pour enchaîner jusqu'à 4 attaques qui infligent des <e:anemo>DGT Anémo</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour lancer un anneau lunaire et infliger des <e:anemo>DGT Anémo</e>.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Anémo, infligeant des DGT aux ennemis en chemin et des <e:anemo>DGT Anémo de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Danse plumée d'hirondelle-follet",
+            "desc": "Lan Yan invoque un bouclier d'hirondelle-follet, un art transmis de génération en génération, avant de se ruer en avant puis de rebondir en arrière dans les airs après avoir touché sa cible.\nL'absorption de DGT d'un bouclier d'hirondelle-follet est basée sur l'ATQ de Lan Yan et ce dernier absorbe les <e:anemo>DGT Anémo</e> 250 % plus efficacement.\nLorsqu'elle est dans les airs suite à l'utilisation de sa compétence élémentaire « Danse plumée d'hirondelle-follet », Lan Yan peut, avec un appui simple de sa compétence élémentaire ou de son attaque normale, envoyer un anneau lunaire sur un ennemi. Ces anneaux lunaires peuvent tournoyer entre les ennemis proches deux fois après avoir touché et infligent des <e:anemo>DGT Anémo</e>.\nEn cas d'appui long, la compétence est déclenchée différemment.\n\n<k>Appui long</k>\nBascule en mode visée, ce qui permet d'ajuster la direction de la ruée.\n\n<i>« Les nuages coupent le clair de lune comme des ombres argentées qui ornent le paysage. »</i>"
+          },
+          "burst": {
+            "name": "Lever lustré de lune",
+            "desc": "Lan Yan déploie une formation d'hirondelle lunaire, attirant les objets et ennemis proches et infligeant plusieurs fois des <e:anemo>DGT Anémo de zone</e>.\n\n<i>Strictement parlant, Lan Yan ne peut pas à elle seule constituer une « formation ». Cependant, elle peut en quelque sorte remplir cette exigence si ses figurines en rotin sont prises en compte... Probablement.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Quatre charmes divinatoires scellés",
+            "desc": "Lorsque la ruée de la compétence élémentaire <k>Danse plumée d'hirondelle-follet</k> touche une cible, tout contact avec l'élément <e:hydro>Hydro</e>, <e:pyro>Pyro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e> permet au bouclier d'hirondelle-follet de bénéficier d'une absorption élémentaire, le bouclier pouvant ensuite absorber les DGT de l'élément correspondant 250 % plus efficacement.\nDe plus, lorsque la compétence élémentaire <k>Danse plumée d'hirondelle-follet</k> permet au bouclier d'hirondelle-follet de bénéficier d'une absorption élémentaire, les anneaux lunaires que Lan Yan envoie sur les ennemis bénéficient d'un bonus de DGT de l'élément correspondant d'une valeur équivalant à 50 % des DGT d'origine, ces DGT étant considérés comme des DGT de compétence élémentaire."
+          },
+          {
+            "name": "Charme panaché d'exorcisme",
+            "desc": "Les DGT infligés par la compétence élémentaire <k>Danse plumée d'hirondelle-follet</k> et le déchaînement élémentaire <k>Lever lustré de lune</k> augmentent respectivement d'une valeur équivalant à 309 % et 774 % de la maîtrise élémentaire de Lan Yan."
+          },
+          {
+            "name": "Pensée comme un parfum soyeux",
+            "desc": "Quand Lan Yan fait partie de l'équipe, vos personnages dans l'équipe n'effraient pas certains animaux, tels que le papillon cristallin.\nPour savoir quels sont les animaux concernés, consultez l'onglet « Divers » dans la section « Faune » du Bestiaire des Archives."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "« Comme on peut marcher entre les nuages »",
+            "desc": "Après avoir déclenché l'absorption élémentaire de l'aptitude d'élévation « Quatre charmes divinatoires scellés », une utilisation de la compétence élémentaire <k>Danse plumée d'hirondelle-follet</k> permet à Lan Yan de lancer un anneau lunaire supplémentaire sur les ennemis le moment venu.\nL'aptitude d'élévation « Quatre charmes divinatoires scellés » doit être déjà débloquée."
+          },
+          {
+            "level": 2,
+            "name": "« Tenue de danse ondulant comme du jade arc-en-ciel »",
+            "desc": "Pendant la durée du <k>bouclier d'hirondelle-follet</k>, le bouclier récupère 40 % d'absorption de DGT lorsque l'attaque normale de votre personnage déployé inflige des DGT. L'absorption de DGT peut être restaurée jusqu'à sa valeur d'origine, cet effet pouvant être déclenché une fois toutes les 2 s."
+          },
+          {
+            "level": 3,
+            "name": "« Perçant nuage et brouillard sur des ailes blanches »",
+            "desc": "Niveau d'aptitude <k>Danse plumée d'hirondelle-follet</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "« Des perles de sang de faucon-dragon en ornement »",
+            "desc": "La maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 60 pts pendant 12 s après l'utilisation du déchaînement élémentaire <k>Lever lustré de lune</k>."
+          },
+          {
+            "level": 5,
+            "name": "« De vous rencontrer mon cœur est joie »",
+            "desc": "Niveau d'aptitude <k>Lever lustré de lune</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "« Sur l'aile sylphique sonnent les ornements argentés »",
+            "desc": "Confère une utilisation supplémentaire de <k>Danse plumée d'hirondelle-follet</k>."
+          }
+        ]
+      }
+    }
   }
 }

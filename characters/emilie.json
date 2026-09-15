@@ -187,5 +187,139 @@
         "states": [{ "value": "on", "modifiers": { "dendro_enemyRes_": -0.3 } }]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000099",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Shadow-Hunting Spear (Custom)",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to perform an upward slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Fragrance Extraction",
+            "desc": "Creates a Lumidouce Case that deals <e:dendro>AoE Dendro DMG</e>.\n\n<k>Lumidouce Case</k>\n· Fires Puffs of Puredew at nearby opponents at intervals, dealing <e:dendro>Dendro DMG</e>.\n· When nearby opponents are affected by Burning, they will give off Scents at intervals, and 1 Scent can be created this way every 2s. The Lumidouce Case collects nearby Scents. The Lumidouce Case will level up after gathering 2 of them, after which it will fire 1 extra Puff of Puredew when firing, while the DMG dealt by and DMG AoE of the above attack will also be increased.\n· 1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2. If the Case does not collect any Scents for 8s while it is on the field, it will go back to Level 1.\n\n<k>Arkhe: Pneuma</k>\nAt intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned <e:dendro>Dendro DMG</e>.\n\n<i>\"The world is an endless harmony of fragrance, color, and song.\"</i>"
+          },
+          "burst": {
+            "name": "Aromatic Explication",
+            "desc": "Guiding the fragrances collected within the Case, Emilie converts them into pure Dendro energy, creating a Level 3 Lumidouce Case and stowing existing Cases away.\nWhile it exists, the Level 3 Lumidouce Case will not gather nearby Scents, but it will continuously cause Scented Dew to descend, attacking opponents within range and dealing <e:dendro>Dendro DMG</e>. During this time, 1 drop of Scented Dew will descend every 0.3 seconds, and 1 opponent can become the target every 0.7 seconds.\nWhen the duration ends, a Level 1 Lumidouce Case will be recreated. If a Lumidouce Case was stowed away when using Aromatic Explication, then the Case that was stowed away will be deployed instead, and its duration will be reset.\nWhile <k>Aromatic Explication</k> is active, the Elemental Skill \"Fragrance Extraction\" will not create a Lumidouce Case.\n\n<i>No matter the perfume, it will begin to change the instant it comes into contact with the air, before finally dissipating amidst the whispers of wind, trees, and grass. In that sense, no two people will appreciate the exact same fragrance.\nSo it is for the paths taken by all who live. In that sense, you can consider perfumes an explication of human life.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Lingering Fragrance",
+            "desc": "Each time it collects 2 <k>Scents</k>, the Level 2 Lumidouce Case will consume Scents and release Cleardew Cologne that deals <e:dendro>AoE Dendro DMG</e> equal to 600% of Emilie's ATK to opponents. This DMG is not considered Elemental Skill DMG."
+          },
+          {
+            "name": "Rectification",
+            "desc": "Emilie deals increased DMG to Burning opponents based on her ATK, with every 1,000 ATK increasing DMG dealt by 15%. The maximum DMG bonus that can be gained this way is 36%."
+          },
+          {
+            "name": "Headspace Capture",
+            "desc": "When the Lumidouce Case created by Emilie is on the field, all party members gain 85% <e:pyro>Pyro RES</e> against Burning DMG."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Light Fragrance Leaching",
+            "desc": "Increases the DMG dealt by <k>Fragrance Extraction</k> and her Ascension Talent's Cleardew Cologne \"Lingering Fragrance\" by 20%. The latter requires unlocking said Ascension Talent first.\nAdditionally, when nearby party members trigger the Burning reaction on opponents or deal <e:dendro>Dendro DMG</e> to Burning opponents, they will generate an additional <k>Scent</k>. This effect can be triggered once every 2.9s."
+          },
+          {
+            "level": 2,
+            "name": "Lakelight Top Note",
+            "desc": "When <k>Fragrance Extraction</k>, <k>Aromatic Explication</k>, or Cleardew Cologne produced by the Ascension Talent \"Lingering Fragrance\" (the last of which requires Ascension Talent activation) hits opponents, those opponents' <e:dendro>Dendro RES</e> is decreased by 30% for 10s."
+          },
+          {
+            "level": 3,
+            "name": "Exquisite Essence",
+            "desc": "Increases the Level of <k>Fragrance Extraction</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Lumidouce Heart Note",
+            "desc": "<k>Aromatic Explication</k>'s duration is increased by 2s. The interval between opponents being selected as the target for Scented Dew is decreased by 0.3s."
+          },
+          {
+            "level": 5,
+            "name": "Puredew Aroma",
+            "desc": "Increases the Level of <k>Aromatic Explication</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Marcotte Sillage",
+            "desc": "When using <k>Fragrance Extraction</k> or <k>Aromatic Explication</k>, Emilie will gain Abiding Fragrance for 5s.\nWhile this is active, after Emilie uses Normal or Charged Attacks, she will generate 1 Scent, and her Normal and Charged Attack DMG will be converted into <e:dendro>Dendro DMG</e> that cannot be overridden, and the DMG dealt will be increased by 300% of Emilie's ATK.\n\nThe Abiding Fragrance effect will be removed after 4 Scents are created this way or after its duration expires. Abiding Fragrance can be triggered once every 12s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance d'éclombre (modifiée)",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher une attaque ascendante.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Extraction de fragrance",
+            "desc": "Crée un flacon de Lumidouce qui inflige des <e:dendro>DGT Dendro de zone</e>.\n\n<k>Flacon de Lumidouce</k>\n· Tire de façon intermittente des bouffées d'aiguail pur sur les ennemis proches, infligeant des <e:dendro>DGT Dendro</e>.\n· Tout ennemi brûlé à proximité dégagera de façon intermittente de la senteur, une senteur pouvant être créée de cette manière une fois toutes les 2 s. Le flacon de Lumidouce peut collecter les senteurs à proximité, et après avoir collecté 2 senteurs, il monte d'un niveau pour tirer 1 bouffée d'aiguail pur supplémentaire chaque fois qu'il en tire et augmenter les DGT infligés et la portée de ces bouffées.\n· Il ne peut exister qu'un seul flacon de Lumidouce créé par Émilie à la fois. Le flacon de Lumidouce commence au niveau 1 et peut atteindre le niveau 2. Si le flacon ne collecte aucune senteur pendant 8 s alors qu'il est sur le terrain, il passe au niveau 1.\n\n<k>Arkhe : Pneuma</k>\nRégulièrement, après qu'Émilie a créé un flacon de Lumidouce de cette façon, une épine d'inhalation qui transperce les ennemis descend devant elle pour infliger des <e:dendro>DGT Dendro</e> chargés d'énergie pneuma.\n\n<i>« Le monde est une harmonie infinie de parfums, de couleurs et de chants. »</i>"
+          },
+          "burst": {
+            "name": "Explication de parfum",
+            "desc": "Émilie guide le parfum rassemblé dans le flacon pour le convertir en énergie Dendro pure, créant ainsi un flacon de Lumidouce de niveau 3 et rangeant tout flacon présent.\nPendant sa durée, le flacon de Lumidouce de niveau 3 ne collecte pas les senteurs à proximité et fait descendre de façon continue de la rosée parfumée pour attaquer les ennemis à portée, infligeant des <e:dendro>DGT Dendro</e>. Pendant sa durée, le flacon de Lumidouce de niveau 3 fait descendre une rosée parfumée toutes les 0,3 s et chaque ennemi peut être ciblé une fois toutes les 0,7 s.\nÀ la fin de la durée, un flacon de Lumidouce de niveau 1 sera recréé. Si l'utilisation d'Explication de parfum a rangé un flacon de Lumidouce, ce flacon sera déployé à la place et sa durée sera réinitialisée.\nPendant la durée d'<k>Explication de parfum</k>, la compétence élémentaire « Extraction de fragrance » ne crée pas de flacon de Lumidouce.\n\n<i>Quel que soit le parfum, il commence à changer dès qu'il entre en contact avec l'air, avant de finalement se dissiper au milieu des murmures du vent, des arbres et de l'herbe. Ainsi, personne n'apprécie exactement la même senteur.\nIl en va de même pour les chemins empruntés par tous ceux qui vivent. En ce sens, on peut considérer les parfums comme une analogie de la vie humaine.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Arôme persistant",
+            "desc": "Chaque fois qu'il collecte 2 <k>senteurs</k>, un flacon de Lumidouce de niveau 2 consomme ses senteurs pour libérer une cologne d'aiguail clair qui inflige des <e:dendro>DGT Dendro de zone</e> d'une valeur équivalant à 600 % de l'ATQ d'Émilie aux ennemis. Ces DGT ne sont pas considérés comme des DGT de compétence élémentaire."
+          },
+          {
+            "name": "Distillat raffiné",
+            "desc": "Les DGT qu'Émilie inflige aux ennemis brûlés augmentent selon son ATQ : chaque tranche de 1 000 pts d'ATQ augmente les DGT de 15 %, les DGT pouvant être augmentés d'un maximum de 36 % de cette manière."
+          },
+          {
+            "name": "Extraction de senteur",
+            "desc": "Lorsqu'un flacon de Lumidouce créé par Émilie est sur le terrain, tous les personnages de l'équipe à proximité voient leur <e:pyro>RÉS Pyro</e> contre les DGT de Brûlure augmenter de 85 %."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Lessivage d'aromate léger",
+            "desc": "Les DGT infligés par <k>Extraction de fragrance</k> et par la cologne d'aiguail clair d'Arôme persistant augmentent de 20 %. L'aptitude d'élévation « Arôme persistant » doit être déjà débloquée pour pouvoir augmenter les DGT infligés par la cologne d'aiguail clair.\nDe plus, lorsqu'un membre de l'équipe à proximité déclenche une réaction de Brûlure sur un ennemi ou inflige des <e:dendro>DGT Dendro</e> à un ennemi brûlé, ce dernier dégage une <k>senteur</k> supplémentaire. Cet effet peut être déclenché une fois toutes les 2,9 s"
+          },
+          {
+            "level": 2,
+            "name": "Exhalaison lacmineuse",
+            "desc": "Lorsqu'<k>Extraction de fragrance</k>, <k>Explication de parfum</k> ou une cologne d'aiguail clair créée par l'aptitude d'élévation « Arôme persistant », cette aptitude devant être déjà débloquée, touche un ennemi, la <e:dendro>RÉS Dendro</e> de ce dernier diminue de 30 % pendant 10 s."
+          },
+          {
+            "level": 3,
+            "name": "Essence exquise",
+            "desc": "Niveau d'aptitude <k>Extraction de fragrance</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Extrait de Lumidouce",
+            "desc": "La durée d'<k>Explication de parfum</k> augmente de 2 s, et la durée minimum requise pour cibler à nouveau un même ennemi avec une rosée parfumée diminue de 0,3 s."
+          },
+          {
+            "level": 5,
+            "name": "Effluve d'aiguail pur",
+            "desc": "Niveau d'aptitude <k>Explication de parfum</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Soupçon de Marcotte",
+            "desc": "En utilisant <k>Extraction de fragrance</k> ou <k>Explication de parfum</k>, Émilie obtient l'effet Persistance fragrante pendant 5 s.\nPendant cette durée, Émilie génère une senteur après avoir utilisé une attaque normale ou chargée, et ses attaques normales et chargées sont converties en <e:dendro>DGT Dendro</e> ne pouvant pas être enchantés, les DGT qu'elles infligent étant de plus augmentés d'une valeur équivalant à 300 % de l'ATQ d'Émilie.\n\nLes effets de la persistance fragrante cessent après la création de 4 senteurs de cette manière ou lorsque sa durée expire. Une persistance fragrante peut être obtenue une fois toutes les 12 s."
+          }
+        ]
+      }
+    }
   }
 }

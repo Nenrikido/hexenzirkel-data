@@ -62,5 +62,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14522",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A jade pearl shrouded in the light of the moon. Even in the coldest winter night, its gentle warmth lingers like a song.",
+        "passive": {
+          "name": "Ballad of the Crossroads",
+          "refinements": {
+            "1": "Max HP increases by <r>10%</r>. When triggering Lunar reactions or inflicting Lunar Reaction DMG on opponents, the equipping character will recover <r>14</r> Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional <r>14%</r>, CRIT DMG from Lunar Reaction DMG increases by <r>60%</r>. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
+            "2": "Max HP increases by <r>12%</r>. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover <r>15</r> Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional <r>16%</r>, CRIT DMG from Lunar Reaction DMG increases by <r>80%</r>. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
+            "3": "Max HP increases by <r>14%</r>. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover <r>16</r> Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional <r>18%</r>, CRIT DMG from Lunar Reaction DMG increases by <r>100%</r>. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
+            "4": "Max HP increases by <r>16%</r>. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover <r>17</r> Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional <r>20%</r>, CRIT DMG from Lunar Reaction DMG increases by <r>120%</r>. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
+            "5": "Max HP increases by <r>18%</r>. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover <r>18</r> Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional <r>22%</r>, CRIT DMG from Lunar Reaction DMG increases by <r>140%</r>. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une perle de jade, baignée par la lumière de la lune. Même au cœur des nuits d'hiver les plus froides, sa douce chaleur persiste comme une mélodie.",
+        "passive": {
+          "name": "Ballade des intersections",
+          "refinements": {
+            "1": "Augmente les PV max de <r>10 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>14</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>14 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>60 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Augmente les PV max de <r>12 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>15</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>16 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>80 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Augmente les PV max de <r>14 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>16</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>18 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>100 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Augmente les PV max de <r>16 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>17</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>20 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>120 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Augmente les PV max de <r>18 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>18</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>22 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>140 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

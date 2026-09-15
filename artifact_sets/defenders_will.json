@@ -8,5 +8,29 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10003",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Defender's Will",
+        "bonuses": {
+          "2": "DEF +30%",
+          "4": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%."
+        }
+      },
+      "fr": {
+        "name": "Cœur du Gardien",
+        "bonuses": {
+          "2": "Augmente la DÉF de 30 %.",
+          "4": "Pour chaque personnage de l'équipe ayant un élément de type différent du personnage équipé, la RÉS élémentaire correspondante est augmentée de 30 %."
+        }
+      }
+    }
   }
 }

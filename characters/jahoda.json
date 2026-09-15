@@ -255,5 +255,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000124",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Strike While the Arrow's Hot",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal <e:anemo>Anemo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Savvy Strategy: Splitting the Spoils",
+            "desc": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly: If nearby opponents are affected by <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e>, or <e:cryo>Cryo</e>, she will quietly convert her <k>Purr-loined Treasure Flask</k> to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the <k>Purr-loined Treasure Flask</k> and deals a single instance of <e:anemo>Anemo DMG</e> to nearby opponents. When the <k>Purr-loined Treasure Flask</k> is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a more powerful instance of <e:anemo>Anemo DMG</e>.\nIf her dash fails to make contact with an opponent, Jahoda instead drops a Smoke Bomb at her location, dealing a single instance of <e:anemo>Anemo DMG</e> to nearby opponents.\n\n<k>Moonsign: Ascendant Gleam</k>: When the <k>Purr-loined Treasure Flask</k> becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires <k>Fluffy Meowballs</k> at nearby opponents, dealing DMG of the corresponding element stored in the <k>Purr-loined Treasure Flask</k>. When a <k>Fluffy Meowball</k> hits an opponent, Jahoda regenerates 2 Elemental Energy. This effect can be triggered once every 3.5s.\n\n<i>There are many ways to divide wealth in this world — but for Nod-Krai's treasure hunters — and hoarders — only one has ever proven sufficiently effective.</i>"
+          },
+          "burst": {
+            "name": "Hidden Aces: Seven Tools of the Hunter",
+            "desc": "Time to reveal those pocket aces! Jahoda retrieves 2 <k>Purrsonal Coordinated Assistance Robots</k> and deals a single instance of <e:anemo>Anemo DMG</e> to nearby opponents.\n\n<i>\"Coordinated assistance? It means you 'assist' some Mora our way, and we handle the 'coordination.' Makes purrfect sense, don't you agree?\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Plan to Get Paid",
+            "desc": "When your team has at least one <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e>, or <e:cryo>Cryo</e> character, the <k>Purrsonal Coordinated Assistance Robots</k> from the Elemental Burst <k>Hidden Aces: Seven Tools of the Hunter</k> will be enhanced based on the number of characters of each corresponding element.\nJahoda secretly keeps track of these characters. Among them, the element with the highest number of characters determines the enhancement effect:\n· <e:pyro>Pyro</e>: <k>Purrsonal Coordinated Assistance Robots</k> deal 130% of their original DMG.\n· <e:hydro>Hydro</e>: <k>Purrsonal Coordinated Assistance Robots</k> heal for 120% of their original healing amount.\n· <e:electro>Electro</e>: The number of <k>Purrsonal Coordinated Assistance Robots</k> increases by one.\n· <e:cryo>Cryo</e>: The attack interval of <k>Purrsonal Coordinated Assistance Robots</k> is reduced by 10%.\n\nIf there's a tie between elements, the order of priority that determines which enhancement takes effect is: <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e>, then <e:cryo>Cryo</e>. Only one elemental effect can initially be triggered."
+          },
+          {
+            "name": "Sweet Berry Bounty",
+            "desc": "When a <k>Purrsonal Coordinated Assistance Robot</k> from the Elemental Burst <k>Hidden Aces: Seven Tools of the Hunter</k> triggers healing on an active team member, if that character's HP is above 70%, their Elemental Mastery will be increased by 100 for 6s."
+          },
+          {
+            "name": "Moonsign Benediction: Rooftop Dash",
+            "desc": "When Jahoda is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Backstreet Guile",
+            "desc": "When dispatched on an expedition in Nod-Krai, time consumed is reduced by 25%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "One More Flask!",
+            "desc": "When a <k>Fluffy Meowball</k> fired by the <k>Purr-loined Treasure Flask</k> from the Elemental Skill <k>Savvy Strategy: Splitting the Spoils</k> hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents."
+          },
+          {
+            "level": 2,
+            "name": "Rogue's Quick Thinking",
+            "desc": "<k>Moonsign: Ascendant Gleam</k>: In the Ascension Talent <k>\"Plan to Get Paid,\"</k> Jahoda can secretly track, in addition to the element with the highest number of characters, the element with the next highest number of characters among the remaining types. This allows up to two elemental effects to be active at once. You must first unlock the Ascension Talent \"Plan to Get Paid.\""
+          },
+          {
+            "level": 3,
+            "name": "Desperate Gamble",
+            "desc": "Increases the Level of <k>Hidden Aces: Seven Tools of the Hunter</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Wild Berry Amid the Dust",
+            "desc": "When a <k>Purrsonal Coordinated Assistance Robot</k> from the Elemental Burst <k>Hidden Aces: Seven Tools of the Hunter</k> undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy."
+          },
+          {
+            "level": 5,
+            "name": "The Greatest Treasure",
+            "desc": "Increases the Level of <k>Savvy Strategy: Splitting the Spoils</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Littlest Luck",
+            "desc": "<k>Moonsign: Ascendant Gleam</k>: After the <k>Purr-loined Treasure Flask</k> from the Elemental Skill <k>Savvy Strategy: Splitting the Spoils</k> is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Flèche d'opportunité",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge de vents puissants, infligeant de considérables <e:anemo>DGT Anémo</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, attaquant les ennemis en chemin et infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Stratégie astucieuse : Partage de butin",
+            "desc": "Jahoda fonce en avant et entre dans l'état Poursuite d'ombre dès qu'elle touche un ennemi. Dans cet état, Jahoda se déplace rapidement et continuellement : si un ennemi à proximité est affecté par l'élément <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e> ou <e:cryo>Cryo</e>, Jahoda harmonise discrètement sa <k>flasque au trésor ronronnant</k> en l'élément correspondant et la remplit progressivement. À la fin de la durée ou en utilisant à nouveau sa compétence, Jahoda vide la <k>flasque au trésor ronronnant</k> pour infliger une fois des <e:anemo>DGT Anémo</e> aux ennemis proches. Lorsque la <k>flasque au trésor ronronnant</k> est pleine, Jahoda la vide immédiatement<k></k>, mettant fin à sa poursuite d'ombre et infligeant une fois des <e:anemo>DGT Anémo</e> plus importants aux ennemis proches.\nSi Jahoda ne touche aucun ennemi lorsqu'elle fonce en avant, elle laisse une bombe fumigène sur place pour infliger une fois des <e:anemo>DGT Anémo</e> aux ennemis proches.\n\n<k>Signelune « Lueur ascendante »</k> : lorsque la <k>flasque au trésor ronronnant</k> est pleine, Jahoda ne la vide pas immédiatement<k></k>, mais consomme progressivement l'énergie élémentaire stockée à l'intérieur pour tirer de façon intermittente des <k>bouboules miaou</k> sur les ennemis proches, infligeant des DGT de l'élément de la <k>flasque au trésor ronronnant</k>. Lorsqu'une <k>bouboule miaou</k> touche un ennemi, elle accorde également 2 pts d'énergie élémentaire à Jahoda, cet effet pouvant être déclenché une fois toutes les 3,5 s.\n\n<i>Il existe de nombreuses façons de diviser les richesses dans ce monde, mais pour les aventuriers et les Pilleurs de trésors de Nod-Krai, une seule s'est avérée véritablement efficace.</i>"
+          },
+          "burst": {
+            "name": "Atout secret : Sept gadgets du chasseur",
+            "desc": "Il est temps d'utiliser les babioles du fond ! Jahoda sort deux <k>chatssistants coordinateurs personnels</k> et inflige une fois des <e:anemo>DGT Anémo</e> aux ennemis proches.\n\n<i>« La coordination mutuelle, hein ? Vous sortez les moras pour la coopération, et on s'occupe de la coordination. C'est logique, non ? »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Plan pour toucher sa récompense",
+            "desc": "Si l'équipe contient au moins 1 personnage <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e> ou <e:cryo>Cryo</e>, les <k>chatssistants coordinateurs personnels</k> du déchaînement élémentaire <k>Atout secret : Sept gadgets du chasseur</k> sont renforcés selon la quantité de personnages de chaque élément.\nJahoda prend secrètement note de ces personnages, l'élément représenté par le plus grand nombre de personnages déterminant l'effet bonus :\n· <e:pyro>Pyro</e> : les <k>chatssistants coordinateurs personnels</k> infligent 130 % des DGT d'origine.\n· <e:hydro>Hydro</e> : les <k>chatssistants coordinateurs personnels</k> accordent 120 % des soins d'origine.\n· <e:electro>Électro</e> : la quantité de <k>chatssistants coordinateurs personnels</k> augmente de 1.\n· <e:cryo>Cryo</e> : l'intervalle d'attaque des <k>chatssistants coordinateurs personnels</k> diminue de 10 %.\n\nSi plusieurs éléments sont représentés par le même nombre de personnages, la priorité est : <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e>, <e:cryo>Cryo</e>. L'effet d'un seul type élémentaire peut être initialement activé."
+          },
+          {
+            "name": "Récompense de baies sucrées",
+            "desc": "Lorsqu'un <k>chatssistant coordinateur personnel</k> du déchaînement élémentaire <k>Atout secret : Sept gadgets du chasseur</k> soigne votre personnage déployé, la maîtrise élémentaire de ce dernier augmente de 100 pts pendant 6 s si ses PV sont supérieurs à 70 %."
+          },
+          {
+            "name": "Bénédiction de signelune : Ruée sur les toits",
+            "desc": "Lorsque Jahoda fait partie de l'équipe, la <k>signelune</k> de l'équipe augmente d'un niveau."
+          },
+          {
+            "name": "Ruse des ruelles",
+            "desc": "Diminue la durée d'une expédition de 25 % lorsqu'elle se déroule à Nod-Krai."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Une autre flasque !",
+            "desc": "Lorsqu'une <k>bouboule miaou</k> tirée par une <k>flasque au trésor ronronnant</k> de la compétence élémentaire <k>Stratégie astucieuse : Partage de butin</k> touche un ennemi, il y a 50 % de chances qu'elle rebondisse pour infliger des DGT de l'élément correspondant aux ennemis à proximité."
+          },
+          {
+            "level": 2,
+            "name": "Présence d'esprit du filou",
+            "desc": "<k>Signelune « Lueur ascendante »</k> : Grâce à l'aptitude d'élévation <k>Plan pour toucher sa récompense</k>, Jahoda prend également secrètement note du second élément représenté par le plus grand nombre de personnages, en plus du premier élément représenté par le plus grand nombre de personnages, ce qui permet d'activer simultanément les effets bonus d'un maximum de deux éléments. L'aptitude d'élévation « Plan pour toucher sa récompense » doit être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Pari désespéré",
+            "desc": "Niveau d'aptitude <k>Atout secret : Sept gadgets du chasseur</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Baies sauvages dans la poussière",
+            "desc": "Lorsqu'un <k>chatssistant coordinateur personnel</k> du déchaînement élémentaire <k>Atout secret : Sept gadgets du chasseur</k> subit une conversion élémentaire, Jahoda récupère 4 pts d'énergie élémentaire."
+          },
+          {
+            "level": 5,
+            "name": "Le plus grand trésor",
+            "desc": "Niveau d'aptitude <k>Stratégie astucieuse : Partage de butin</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "La chance la plus petite",
+            "desc": "<k>Signelune « Lueur ascendante »</k> : Pendant 20 s après qu'une <k>flasque au trésor ronronnant</k> de la compétence élémentaire <k>Stratégie astucieuse : Partage de butin</k> se remplit complètement, le taux CRIT des personnages signelunaires à proximité augmente de 5 % et leurs DGT CRIT augmentent de 40 %."
+          }
+        ]
+      }
+    }
   }
 }

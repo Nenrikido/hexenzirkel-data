@@ -32,5 +32,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15511",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
+        "passive": {
+          "name": "At the End of the Beast-Paths",
+          "refinements": {
+            "1": "Gain <r>12%</r> All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by <r>160%</r> of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+            "2": "Gain <r>15%</r> All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by <r>200%</r> of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+            "3": "Gain <r>18%</r> All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by <r>240%</r> of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+            "4": "Gain <r>21%</r> All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by <r>280%</r> of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+            "5": "Gain <r>24%</r> All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by <r>320%</r> of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cet arc doré a été réalisé à l'aide de branches blanches précieuses. Il a abattu d'innombrables bêtes méchantes qui tentaient de s'infiltrer dans les bois.",
+        "passive": {
+          "name": "Arrivée du sentier bestial",
+          "refinements": {
+            "1": "Accorde un bonus de DGT élémentaires de <r>12 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>160 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s.",
+            "2": "Accorde un bonus de DGT élémentaires de <r>15 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>200 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s.",
+            "3": "Accorde un bonus de DGT élémentaires de <r>18 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>240 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s.",
+            "4": "Accorde un bonus de DGT élémentaires de <r>21 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>280 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s.",
+            "5": "Accorde un bonus de DGT élémentaires de <r>24 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>320 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s."
+          }
+        }
+      }
+    }
   }
 }

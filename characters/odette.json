@@ -718,5 +718,147 @@
         "states": []
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000150",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Snow Swan Variation",
+            "desc": "<k>Normal Attack</k>\nUnleashes a sword attack of up to 5 consecutive strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash a dazzling slash on opponents in front of her.\n\n<k>Plunging Attack</k>\nAttacks opponents in her path while plunging from mid-air, then deals AoE DMG upon landing."
+          },
+          "skill": {
+            "name": "Adagio: Phantom Night Dancers",
+            "desc": "With slow, graceful dance steps, Odette deals <e:cryo>AoE Cryo DMG</e> to the opponent, and also summons her <k>Solo Dance Double</k> to the field.\nIf a <k>Dance Double</k> summoned by Odette is already on the field, this will re-summon the Dance Double and reset its duration.\n\n<k>Solo Dance Double</k>\nAlternates between the <k>Plume</k> and <k>Wing</k> dance moves, periodically attacking nearby opponents and dealing to them <e:cryo>AoE Cryo DMG</e>.\nAdditionally, for 6s after unleashing the Elemental Skill <k>Adagio: Phantom Night Dancers</k>, Odette's Elemental Skill <k>Adagio: Phantom Night Dancers</k> will become the special Elemental Skill <k>Adagio: Coda at Dawn's Tolling</k> instead, where a dance duet deals <e:cryo>AoE Cryo DMG</e> to nearby opponents over time. Then, when the duet ends, she deals another instance of <e:cryo>AoE Cryo DMG</e> that is considered Stellar-Conduct or Stellar Swirl DMG."
+          },
+          "burst": {
+            "name": "Presto: Bluebird Finale",
+            "desc": "With quick, lively dance steps, Odette deals multiple instances of <e:cryo>AoE Cryo DMG</e>, and summons her <k>Solo Dance Double</k>. She also gains <k>Snow Swan's Dream</k>, which increases the Stellar Glimmer reaction DMG Odette deals.\nAdditionally, for 6s after unleashing the Elemental Burst <k>Presto: Bluebird Finale</k>, Odette's Elemental Skill <k>Adagio: Phantom Night Dancers</k> will be replaced with the special Elemental Skill <k>Adagio: Coda at Dawn's Tolling</k> instead.\n\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed."
+          }
+        },
+        "passives": [
+          {
+            "name": "Spring Rite of the Chosen One",
+            "desc": "When Odette summons her <k>Solo Dance Double</k>, she also obtains 4 stacks of <k>Marvelous Splendor</k>."
+          },
+          {
+            "name": "Pathetique of Pateticheskaya",
+            "desc": "For every 100 ATK Odette has over 1,000, her Stellar Glimmer DMG is additionally increased by 1.5% of the original DMG. She can deal up to 30% more additional DMG in this way."
+          },
+          {
+            "name": "Stellar Jubilee: Dance of Aurore",
+            "desc": "Odette will enter the <k>Radiance: Stellar-Conduct</k> state when she is inside a <k>Polestar Field</k>, or the <k>Radiance: Stellar Swirl</k> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way."
+          },
+          {
+            "name": "Echo of Winter Daydreams",
+            "desc": "Shows the locations of <k>Snezhnaya's Local Specialties</k> on the mini-map.\nPracticing dance in one's spare time might even trigger other effects..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
+            "desc": "After unleashing the special Elemental Skill <k>Adagio: Coda at Dawn's Tolling</k>, at the dance duet's end Odette will deal an additional instance of <e:cryo>Cryo AoE DMG</e> to nearby opponents that is considered:\n<k>Radiance: Stellar-Conduct</k> or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of Odette's ATK;\n<k>Radiance: Stellar Swirl</k>: Stellar Swirl reaction DMG at 450% of Odette's ATK.\n\nAdditionally, the Ascension Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the <k>Solo Dance Double</k> is summoned, Odette also gains 2 stacks of <k>Marvelous Splendor</k>. When Odette is off-field, the rate at which <k>Marvelous Splendor</k> is removed is sped up to 2 stacks per second."
+          },
+          {
+            "level": 2,
+            "name": "\"I Must See the Snow Swan's Unseen Dream for Myself, She Thought\"",
+            "desc": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of <k>Marvelous Splendor</k> active also increases the character's ATK by 7%.\nAdditionally, if Odette is in the <k>Radiance: Stellar Glimmer</k> state when there is a <k>Solo Dance Double</k> on the field, opponents near the <k>Dance Double</k> will also have their corresponding Elemental RES lowered by 20%.\n· <k>Radiance: Stellar-Conduct</k>: <e:cryo>Cryo</e> and <e:electro>Electro</e>.\n· <k>Radiance: Stellar Swirl</k>: <e:cryo>Cryo</e> and <e:anemo>Anemo</e>."
+          },
+          {
+            "level": 3,
+            "name": "\"I'll Chase the Shouting Wind Along, Climbing Alone As I Go\"",
+            "desc": "Increases the Level of <k>Adagio: Phantom Night Dancers</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Up, Up the Long, Delirious, Burning Blue\"",
+            "desc": "The Elemental Burst <k>Presto: Bluebird Finale</k> is enhanced as follows: when Odette obtains <k>Snow Swan's Dream</k>, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of <k>Snow Swan Dream</k>'s effects.\n\nAdditionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of <e:cryo>AoE Cryo DMG</e>. This effect, which can trigger once every 3.5s, will be considered:\n· <k>Radiance: Stellar-Conduct</k> or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of Odette's ATK.\n· <k>Radiance: Stellar Swirl</k>: Stellar Swirl reaction DMG at 99% of Odette's ATK."
+          },
+          {
+            "level": 5,
+            "name": "\"Oh! I Have Slipped the Surly Bonds of Earth\"",
+            "desc": "Increases the Level of <k>Presto: Bluebird Finale </k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "\"Put Out My Hand, and Touched the Face of the Divine\"",
+            "desc": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When Odette grants <k>Marvelous Splendor</k> to all nearby party members, her own Marvelous Splendor stacks will no longer decrease.\nAdditionally, characters affected by <k>Marvelous Splendor</k> have their Stellar Glimmer reaction DMG dealt to opponents <k>elevated</k> by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Variante du cygne des neiges",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher une taillade éblouissante vers l'avant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Danse lente : Transe nocturne fantôme",
+            "desc": "Avec des pas de danse lents et gracieux, Odette inflige des <e:cryo>DGT Cryo de zone</e> et invoque sa <k>doublure de danse solo</k>.\nSi une <k>doublure de danse solo</k> invoquée par Odette est sur le terrain, elle est invoquée à nouveau et sa durée est réinitialisée.\n\n<k>Doublure de danse solo</k>\nAlterne entre la danse de type <k>Plume</k> et celle de type <k>Aile</k>, attaquant de façon intermittente les ennemis proches avec des mouvements élégants et légers afin de leur infliger des <e:cryo>DGT Cryo de zone</e>.\nDe plus, la compétence élémentaire <k>Danse lente : Transe nocturne fantôme</k> d'Odette est remplacée par la compétence élémentaire spéciale <k>Danse lente : Final de l'aube</k> pendant 6 s lorsque Odette a utilisé sa compétence élémentaire <k>Danse lente : Transe nocturne fantôme</k>. Cette nouvelle danse en duo inflige des <e:cryo>DGT Cryo de zone</e> de façon continue aux ennemis proches, puis une instance supplémentaire de <e:cryo>DGT Cryo de zone</e> considérés comme des DGT de réaction d'Astroconduction ou d'Astrodispersion est infligée à la fin de la danse en duo."
+          },
+          "burst": {
+            "name": "Danse rapide : Rêve de plumes noires",
+            "desc": "Avec des pas de danse rapides et vifs, Odette inflige plusieurs fois des <e:cryo>DGT Cryo de zone</e>, invoque sa <k>doublure de danse solo</k> et obtient l'effet <k>Rêve du cygne des neiges</k> : augmente les DGT des réactions astrales infligées par Odette.\nDe plus, la compétence élémentaire <k>Danse lente : Transe nocturne fantôme</k> d'Odette est remplacée par la compétence élémentaire spéciale <k>Danse lente : Final de l'aube</k> pendant 6 s lorsque Odette a utilisé son déchaînement élémentaire <k>Danse rapide : Rêve de plumes noires</k>.\n\nSi une doublure de danse solo invoquée par Odette est sur le terrain, elle est appelée à ses côtés et sa durée est réinitialisée."
+          }
+        },
+        "passives": [
+          {
+            "name": "Printemps de l'élue",
+            "desc": "Lorsque Odette invoque sa <k>doublure de danse solo</k>, elle obtient également 4 cumuls de <k>splendeur merveilleuse</k>."
+          },
+          {
+            "name": "Pathétique de Pateticheskaya",
+            "desc": "Chaque tranche de 100 pts d'ATQ d'Odette au-delà de 1 000 pts augmente ses DGT de réaction astrale d'une valeur équivalant à 1,5 % des DGT d'origine, les DGT pouvant être augmentés d'un maximum de 30 % supplémentaires de cette manière."
+          },
+          {
+            "name": "Jubilé stellaire : Danse du matin argenté",
+            "desc": "Odette passe en <k>radiance « Astroconduction »</k> ou en <k>radiance « Astrodispersion »</k> pendant 8 s lorsqu'elle est dans une <k>étendue polaris</k> ou lorsqu'un personnage de l'équipe a déclenché une réaction d'Astrodispersion à proximité, respectivement.\nLorsqu'un personnage de l'équipe déclenche une réaction de Supraconduction ou de Dispersion Cryo, elle est convertie en réaction d'Astroconduction ou d'Astrodispersion, dont les DGT de base augmentent selon l'ATQ d'Odette : chaque tranche de 100 pts d'ATQ augmente les DGT de base de ces réactions de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière."
+          },
+          {
+            "name": "Écho du rêve d'hiver",
+            "desc": "Affiche l'emplacement des <k>produits de Snezhnaya</k> sur la mini-carte.\nPratiquer la danse pendant le temps libre pourrait même déclencher d'autres effets..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "« En ce matin sans danse, elle contemple son double »",
+            "desc": "Après avoir utilisé sa compétence élémentaire spéciale <k>Danse lente : Final de l'aube</k>, Odette inflige, à la fin de la danse en duo, une instance supplémentaire de <e:cryo>DGT Cryo de zone</e> dont le type et la valeur dépendent aux ennemis proches :\n· <k>Radiance « Astroconduction »</k> ou sans radiance : Ces DGT sont considérés comme des DGT de réaction d'Astroconduction d'une valeur équivalant à 300 % de l'ATQ d'Odette.\n· <k>Radiance « Astrodispersion »</k> : Ces DGT sont considérés comme des DGT de réaction d'Astrodispersion d'une valeur équivalant à 450 % de l'ATQ d'Odette.\n\nDe plus, l'aptitude d'élévation « Printemps de l'élue » est renforcée : Odette obtient 2 cumuls supplémentaires de <k>splendeur merveilleuse</k> lorsqu'elle invoque sa <k>doublure de danse solo</k> et la cadence à laquelle Odette perd sa <k>splendeur merveilleuse</k> lorsqu'elle fait partie de l'équipe mais n'est pas déployée passe à 2 cumuls par seconde."
+          },
+          {
+            "level": 2,
+            "name": "« Je dois voir de mes yeux le rêve du cygne des neiges, pensa-t-elle »",
+            "desc": "L'aptitude d'élévation « Printemps de l'élue » est renforcée : chaque cumul de <k>splendeur merveilleuse</k> augmente également l'ATQ du personnage de 7 %.\nDe plus, si Odette est en <k>radiance astrale</k> alors que sa <k>doublure de danse solo</k> est sur le terrain, les RÉS élémentaires des ennemis à proximité de la <k>doublure de danse solo</k> diminuent également de 20 % :\n· <k>Radiance « Astroconduction »</k> : <e:cryo>Cryo</e> et <e:electro>Électro</e>.\n· <k>Radiance « Astrodispersion »</k> : <e:cryo>Cryo</e> et <e:anemo>Anémo</e>."
+          },
+          {
+            "level": 3,
+            "name": "« Je dois poursuivre le vent hurlant et continuer à progresser par moi-même »",
+            "desc": "Niveau d'aptitude <k>Danse lente : Transe nocturne fantôme</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "« Je monte, tandis que je tombe dans le ciel brumeux et brûlant »",
+            "desc": "Le déchaînement élémentaire <k>Danse rapide : Rêve de plumes noires</k> est renforcé : lorsque Odette obtient l'effet <k>rêve du cygne des neiges</k>, les DGT des réactions astrales des autres personnages de l'équipe à proximité augmentent également d'une valeur équivalant à 50 % de l'effet du <k>rêve du cygne des neiges</k>.\n\nDe plus, lorsqu'un personnage de l'équipe inflige des DGT de réaction astrale à un ennemi, Odette effectue également une attaque coordonnée sur ce dernier, infligeant des <e:cryo>DGT Cryo de zone</e> dont le type et la valeur dépendent, cet effet pouvant être déclenché une fois toutes les 3,5 s :\n· <k>Radiance « Astroconduction »</k> ou sans radiance : Ces DGT sont considérés comme des DGT de réaction d'Astroconduction d'une valeur équivalant à 66 % de l'ATQ d'Odette.\n· <k>Radiance « Astrodispersion »</k> : Ces DGT sont considérés comme des DGT de réaction d'Astrodispersion d'une valeur équivalant à 99 % de l'ATQ d'Odette."
+          },
+          {
+            "level": 5,
+            "name": "« Voici, car j'ai dit adieu aux souffrances terrestres »",
+            "desc": "Niveau d'aptitude <k>Danse rapide : Rêve de plumes noires</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "« Tendez la main pour toucher le visage éternel du ciel »",
+            "desc": "L'aptitude d'élévation « Printemps de l'élue » est renforcée : lorsque Odette accorde de la <k>splendeur merveilleuse</k> à tous les membres de l'équipe à proximité, sa propre splendeur merveilleuse ne diminue plus.\nDe plus, les DGT de réaction astrale des personnages sous l'effet d'une <k>splendeur merveilleuse</k> bénéficient d'une <k>élévation</k> de 25 %, tandis que les DGT de réaction astrale d'Odette bénéficient d'une élévation supplémentaire de 20 %."
+          }
+        ]
+      }
+    }
   }
 }

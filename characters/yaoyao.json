@@ -222,5 +222,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000077",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Toss 'N' Turn Spear",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Raphanus Sky Cluster",
+            "desc": "Calls upon \"Yuegui: Throwing Mode,\" a special device created by a certain adeptus to help Yaoyao solve her problems.\nThis skill will be used differently in Holding Mode.\n\n<k>Hold</k>\nEnters Aiming Mode to adjust the throw direction.\n\n<k>Yuegui: Throwing Mode</k>\nThrows out White Jade Radishes that will explode upon hitting characters or opponents, dealing <e:dendro>Dendro DMG</e> to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao's Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires.\nYuegui: Throwing Mode will choose its radish-throw targets.\n· If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.\n· If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.\n\nA maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.\n\n<i>\"A radish a day keeps trouble away! ... Oh, this isn't about a radish's medical properties, exactly, but it does have some health benefits, yeah!\"</i>"
+          },
+          "burst": {
+            "name": "Moonjade Descent",
+            "desc": "At the enjoinment of a certain adeptus, Yuegui's full potential can be unleashed in an emergency, dealing <e:dendro>Dendro DMG</e> to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.\n\n<k>Adeptal Legacy</k>\n· White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the <e:dendro>Dendro DMG</e> that they deal will be viewed as Elemental Burst DMG instead.\n· Summons \"Yuegui: Jumping Mode\" at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of \"Yuegui: Throwing Mode\" in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time.\n· Yaoyao's Movement SPD is increased by 15%.\n· Yaoyao's <e:dendro>Dendro RES</e> will be increased.\n\nThe Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.\n\n<i>\"Eh? Which one of these is actually Yuegui, you ask? Aren't they all Yuegui?\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Starscatter",
+            "desc": "While affected by the Adeptal Legacy state caused by <k>Moonjade Descent</k>, Yaoyao will constantly throw White Jade Radishes at nearby opponents when she is sprinting, jumping, or running. She can throw 1 White Jade Radish this way once every 0.6s."
+          },
+          {
+            "name": "In Others' Shoes",
+            "desc": "When <k>White Jade Radishes</k> explode, active characters within their AoE will regain HP every 1s based on 0.8% of Yaoyao's Max HP. This effect lasts 5s."
+          },
+          {
+            "name": "Tailing on Tiptoes",
+            "desc": "When Yaoyao is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Adeptus' Tutelage",
+            "desc": "When <k>White Jade Radishes</k> explode, active characters within their AoE will gain 15% <e:dendro>Dendro DMG Bonus</e> for 8s and have 15 Stamina restored to them. This form of Stamina Restoration can only be triggered every 5s."
+          },
+          {
+            "level": 2,
+            "name": "Innocent",
+            "desc": "While affected by the Adeptal Legacy state caused by <k>Moonjade Descent</k>, if White Jade Radish explosions hit opponents, 3 Energy will be restored to Yaoyao. This form of Energy regeneration can occur once every 0.8s."
+          },
+          {
+            "level": 3,
+            "name": "Loyal and Kind",
+            "desc": "Increases the Level of <k>Raphanus Sky Cluster</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Winsome",
+            "desc": "After using <k>Raphanus Sky Cluster</k> or <k>Moonjade Descent</k>, Yaoyao's Elemental Mastery will be increased based on 0.3% of her Max HP for 8s. The maximum Elemental Mastery she can gain this way is 120."
+          },
+          {
+            "level": 5,
+            "name": "Compassionate",
+            "desc": "Increases the Level of <k>Moonjade Descent</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Beneficent",
+            "desc": "For every 2 White Jade Radishes <k>Yuegui: Throwing Mode</k> throws out, the next throw will also release a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding:\n· Deals <e:dendro>AoE Dendro DMG</e> based on 75% of Yaoyao's ATK.\n· Restores HP for the active character based on 7.5% of Yaoyao's Max HP.\n\nEvery Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance virevoltante",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Amas céleste de raphanus",
+            "desc": "Fait appel à « Yuegui lanceur », un mécanisme spécial créé par un certain Adepte pour aider Yaoyao à résoudre ses problèmes.\nEn cas d'appui long, la compétence est déclenchée différemment.\n\n<k>Appui long</k>\nBascule en mode visée, ce qui permet d'ajuster la direction du lancer.\n\n<k>Yuegui lanceur</k>\nLance des radis de jade blanc qui explosent en touchant des personnages ou des ennemis, infligeant des <e:dendro>DGT Dendro</e> aux ennemis sur une certaine zone et soignant les personnages s'y trouvant selon les PV max de Yaoyao. Si un radis ne touche aucun ennemi ou personnage, il reste là où il a atterri jusqu'à exploser au contact d'un personnage ou d'un ennemi ou après l'expiration de sa durée.\nLe Yuegui lanceur choisit lui-même ses cibles lors de l'envoi de ses radis :\n· Si tous les personnages proches ont plus de 70 % de PV, il lance un radis sur un ennemi proche.\n· Si certains personnages proches ont 70 % ou moins de PV, il lance un radis sur celui ayant le pourcentage de PV restant le plus bas. S'il n'y a aucun ennemi à proximité, le Yuegui lance ses radis de jade blanc sur les personnages proches si tous ces derniers ont entre 70 % et 100 % de PV. Sinon, il lance ses radis aléatoirement.\n\nUn maximum de 2 Yueguis lanceurs peut exister en même temps.\n\n<i>« Un radis chaque matin éloigne les chagrins ! ... Oh, ce n'est pas à propos des propriétés médicales des radis, mais ils sont bénéfiques pour la santé ! »</i>"
+          },
+          "burst": {
+            "name": "Coucher de lune de jade",
+            "desc": "À la demande d'un certain Adepte, le plein potentiel des Yueguis peut être libéré en cas d'urgence, infligeant des <e:dendro>DGT Dendro</e> aux ennemis proches et faisant passer dans l'invincible (dans un certain sens) état Héritage adeptal.\n\n<k>Héritage adeptal</k>\n· Les radis de jade blanc générés sont modifiés pour soigner et infliger des DGT en fonction des attributs de cette capacité, les explosions soignent les PV de tous les personnages de l'équipe à proximité et les <e:dendro>DGT Dendro</e> infligés sont considérés comme des DGT de déchaînement élémentaire.\n· Invoque des Yueguis sauteurs de façon régulière jusqu'à la limite. La façon de lancer des radis de cette version des Yueguis est identique à celle de la compétence élémentaire Amas céleste de raphanus. Un maximum de 3 Yueguis sauteurs peut exister en même temps.\n· Augmente la VIT de déplacement de Yaoyao de 15 %.\n· Augmente la <e:dendro>RÉS Dendro</e> de Yaoyao.\n\nL'état Héritage adeptal prend fin lorsque Yaoyao quitte le champ de bataille, et tous les Yueguis sauteurs restants disparaissent à la fin de l'état.\n\n<i>« Hein ? Lequel est le vrai Yuegui ? Eh bien, ce sont tous des Yueguis, pardi ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Dispersion stellaire",
+            "desc": "Pendant l'état Héritage adeptal de <k>Coucher de lune de jade</k>, Yaoyao lance constamment des radis de jade blanc sur les ennemis proches lorsqu'elle sprinte, saute ou court. Un radis de jade blanc peut être lancé une fois toutes les 0,6 s de cette manière."
+          },
+          {
+            "name": "Empathie",
+            "desc": "Lorsqu'un <k>radis de jade blanc</k> explose, les personnages déployés dans la zone d'effet récupèrent des PV d'une valeur équivalant à 0,8 % des PV max de Yaoyao toutes les secondes pendant 5 s."
+          },
+          {
+            "name": "Sur la pointe des pieds",
+            "desc": "Quand Yaoyao fait partie de l'équipe, vos personnages dans l'équipe n'effraient pas certains animaux, tels que le papillon cristallin.\nPour savoir quels sont les animaux concernés, consultez l'onglet « Divers » dans la section « Faune » du Bestiaire des Archives."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Tutelle",
+            "desc": "Lorsqu'un <k>radis de jade blanc</k> explose, les personnages déployés dans la zone d'effet obtiennent un <e:dendro>bonus de DGT Dendro</e> de 15 % pendant 8 s et récupèrent 15 pts d'endurance. L'endurance peut être restaurée une fois toutes les 5 s de cette manière."
+          },
+          {
+            "level": 2,
+            "name": "Candeur",
+            "desc": "Pendant l'état Héritage adeptal de <k>Coucher de lune de jade</k>, Yaoyao récupère 3 pts d'énergie élémentaire lorsqu'une explosion de radis de jade blanc touche un ennemi. L'énergie élémentaire peut être restaurée une fois toutes les 0,8 s de cette manière."
+          },
+          {
+            "level": 3,
+            "name": "Loyauté",
+            "desc": "Niveau d'aptitude <k>Amas céleste de raphanus</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Attrait",
+            "desc": "Après avoir utilisé <k>Amas céleste de raphanus</k> ou <k>Coucher de lune de jade</k>, la maîtrise élémentaire de Yaoyao augmente d'une valeur équivalant à 0,3 % de ses PV max pendant 8 s. La maîtrise élémentaire peut être augmentée d'un maximum de 120 pts de cette manière."
+          },
+          {
+            "level": 5,
+            "name": "Compassion",
+            "desc": "Niveau d'aptitude <k>Coucher de lune de jade</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Bénévolence",
+            "desc": "Tous les 3 radis de jade blanc envoyés par un <k>Yuegui lanceur</k>, ce dernier envoie également un méga-radis destructeur dont la zone d'effet est plus grande que celle d'un radis normal et qui produit les effets suivants en explosant :\n· Inflige des <e:dendro>DGT Dendro de zone</e> d'une valeur équivalant à 75 % de l'ATQ de Yaoyao.\n· Restaure les PV des personnages déployés dans la zone d'une valeur équivalant à 7,5 % des PV max de Yaoyao.\n\nChaque Yuegui lanceur peut envoyer un maximum de 2 méga-radis destructeurs."
+          }
+        ]
+      }
+    }
   }
 }

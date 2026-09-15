@@ -63,5 +63,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15507",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A pristine bow that is as sharp as the glaciers of the far north.",
+        "passive": {
+          "name": "Daylight's Augury",
+          "refinements": {
+            "1": "Elemental Skill and Elemental Burst DMG increased by <r>12%</r>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <r>10/20/30/48%</r>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+            "2": "Elemental Skill and Elemental Burst DMG increased by <r>15%</r>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <r>12.5/25/37.5/60%</r>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+            "3": "Elemental Skill and Elemental Burst DMG increased by <r>18%</r>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <r>15/30/45/72%</r>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+            "4": "Elemental Skill and Elemental Burst DMG increased by <r>21%</r>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <r>17.5/35/52.5/84%</r>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+            "5": "Elemental Skill and Elemental Burst DMG increased by <r>24%</r>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by <r>20/40/60/96%</r>. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc immaculé aussi tranchant que les glaces éternelles des hivers les plus froids.",
+        "passive": {
+          "name": "Augure de la lumière du jour",
+          "refinements": {
+            "1": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <r>12 %</r>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires a touché un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <r>10/20/30/48 %</r>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres.",
+            "2": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <r>15 %</r>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires a touché un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <r>12,5/25/37,5/60 %</r>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres.",
+            "3": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <r>18 %</r>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires a touché un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <r>15/30/45/72 %</r>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres.",
+            "4": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <r>21 %</r>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires a touché un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <r>17,5/35/52,5/84 %</r>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres.",
+            "5": "Les DGT de la compétence et du déchaînement élémentaires augmentent de <r>24 %</r>. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires a touché un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de <r>20/40/60/96 %</r>. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres."
+          }
+        }
+      }
+    }
   }
 }

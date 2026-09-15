@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15201",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm."
+      },
+      "fr": {
+        "flavor": "Un arc ancien, mais bien entretenu. Il ne fait qu'un avec l'archer qui le tend."
+      }
+    }
   }
 }

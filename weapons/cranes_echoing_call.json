@@ -30,5 +30,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14515",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
+        "passive": {
+          "name": "Cloudfall Axiom",
+          "refinements": {
+            "1": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal <r>28%</r> increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore <r>2.5</r> Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+            "2": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal <r>41%</r> increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore <r>2.75</r> Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+            "3": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal <r>54%</r> increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore <r>3</r> Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+            "4": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal <r>67%</r> increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore <r>3.25</r> Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+            "5": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal <r>80%</r> increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore <r>3.5</r> Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un éventail sculpté dans du jade pur, autour duquel tourbillonne une ancienne aura d'énergie mystique.",
+        "passive": {
+          "name": "Précepte des nuages",
+          "refinements": {
+            "1": "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de <r>28 %</r> pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère <r>2,5</r> pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de <r>41 %</r> pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère <r>2,75</r> pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de <r>54 %</r> pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère <r>3</r> pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de <r>67 %</r> pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère <r>3,25</r> pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de <r>80 %</r> pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère <r>3,5</r> pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

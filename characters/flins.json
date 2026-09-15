@@ -251,5 +251,147 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000120",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Pocztowy Demonspear",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to perform a forward spear throw.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Ancient Rite: Arcane Light",
+            "desc": "Flins summons forth the ancient power concealed within his lamp and switches to his <k>Manifest Flame</k> form. This form has the following characteristics:\n· Flins's Normal and Charged Attacks deal <e:electro>Electro DMG</e> that cannot be overridden by other Elemental infusions, and he is unable to perform Plunging Attacks.\n· His interruption resistance is increased.\n· His Elemental Skill <k>Ancient Rite: Arcane Light</k> is replaced with the special Elemental Skill <k>Northland Spearstorm</k>.\n\n<k>Northland Spearstorm</k>\nFlins summons a flurry of spears in front, dealing <e:electro>AoE Electro DMG</e> and causing his Elemental Burst <k>Ancient Ritual: Cometh the Night</k> to be replaced with the special Elemental Burst <k>Thunderous Symphony</k> for the next 6s.\nThe base CD of <k>Northland Spearstorm</k> is 6s and will not be affected by other effects."
+          },
+          "burst": {
+            "name": "Ancient Ritual: Cometh the Night",
+            "desc": "Flins unleashes the true power of his lamp, dealing <e:electro>AoE Electro DMG</e> and, after a short delay, dealing 2 instances of middle-phase and 1 instance of final-phase <e:electro>AoE Electro DMG</e>, all of which are considered Lunar-Charged DMG.\n<k>Moonsign: Ascendant Gleam</k>: Flins's Skill is enhanced: If there are thunderclouds nearby, Flins will deal an additional 2 instances of middle-phase Lunar-Charged <e:electro>AoE Electro DMG</e>.\n\nAfter using the special Elemental Skill <k>Northland Spearstorm</k>, Flins's Elemental Burst <k>Ancient Ritual: Cometh the Night</k> will be replaced with the special Elemental Burst <k>Thunderous Symphony</k> for the next 6s.\n\n<k>Thunderous Symphony</k>\nConsume less Elemental Energy to unleash a special Elemental Burst. Flins deals a single instance of <e:electro>AoE Electro DMG</e> that is considered Lunar-Charged DMG.\n<k>Moonsign: Ascendant Gleam</k>: Flins's Skill is enhanced: If there are thunderclouds nearby, Flins will deal an additional instance of Lunar-Charged <e:electro>AoE Electro DMG</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Symphony of Winter",
+            "desc": "Flins will gain a corresponding buff effect based on the party's <k>Moonsign</k>.\n\n<k>Moonsign: Ascendant Gleam</k>: Lunar-Charged reactions triggered by Flins will deal an additional 20% DMG."
+          },
+          {
+            "name": "Whispering Flame",
+            "desc": "Flins's Elemental Mastery is increased by 8% of his ATK. The maximum increase obtainable this way is 160."
+          },
+          {
+            "name": "Moonsign Benediction: Old World Secrets",
+            "desc": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Flins has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Flins is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "A Light in the Dark",
+            "desc": "Displays the location of nearby <k>resources unique to Nod-Krai</k> on the mini-map.\nAdditionally, Flins appears to be able to decipher the whispers of the Wild Hunt..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Part the Veil of Snow",
+            "desc": "The basic cooldown of the special Elemental Skill <k>Northland Spearstorm</k> is reduced to 4s.\nAdditionally, when party members trigger Lunar-Charged reactions, Flins will recover 8 Elemental Energy. This effect can occur once every 5.5s."
+          },
+          {
+            "level": 2,
+            "name": "The Devil's Wall",
+            "desc": "For the next 6s after using the special Elemental Skill <k>Northland Spearstorm</k>, when Flins's next Normal Attack hits an opponent, it will deal an additional 50% of Flins's ATK as <e:electro>AoE Electro DMG</e>. This DMG is considered Lunar-Charged DMG.\n<k>Moonsign: Ascendant Gleam</k>: While Flins is on the field, after his <e:electro>Electro</e> attacks hit an opponent, that opponent's <e:electro>Electro RES</e> will be decreased by 25% for 7s."
+          },
+          {
+            "level": 3,
+            "name": "Stranger in the Night",
+            "desc": "Increases the Level of <k>Ancient Ritual: Cometh the Night</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Night on Bald Mountain",
+            "desc": "Flins's ATK is increased by 20%.\nAdditionally, his Ascension Talent <k>Whispering Flame</k> is enhanced: Flins's Elemental Mastery is increased by 10% of his ATK. The maximum increase obtainable this way is 220."
+          },
+          {
+            "level": 5,
+            "name": "Exile's Shadow",
+            "desc": "Increases the Level of <k>Ancient Rite: Arcane Light</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Songs and Dances of Death",
+            "desc": "The DMG dealt to opponents by Flins's Lunar-Charged reactions is <k>elevated</k> by 35%.\n<k>Moonsign: Ascendant Gleam</k>: All nearby party members' Lunar-Charged DMG is <k>elevated</k> by 10%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Daemolance pocztowy",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher un coup de lance vers l'avant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Rite ancien : Lumière d'arcane",
+            "desc": "Flins invoque l'ancien pouvoir caché dans sa lanterne et passe en mode <k>Flamme manifeste</k>. Ce mode possède les caractéristiques suivantes :\n· Les attaques normales et chargées de Flins sont converties pour infliger des <e:electro>DGT Électro</e> ne pouvant pas être enchantés et il ne peut plus déclencher d'attaques plongeantes.\n· La RÉS à l'interruption de Flins augmente.\n· Sa compétence élémentaire <k>Rite ancien : Lumière d'arcane</k> est remplacée par la compétence élémentaire spéciale <k>Lances du nord</k>.\n\n<k>Lances du nord</k>\nFlins invoque une salve de lances devant lui, infligeant des <e:electro>DGT Électro de zone</e> et remplaçant son déchaînement élémentaire <k>Rituel ancien : Visite de la nuit</k> par le déchaînement élémentaire spécial <k>Symphonie tonitruante</k> pendant 6 s.\nLe TdR de base de <k>Lances du nord</k> est de 6 s, ce TdR n'étant pas affecté par d'autres effets."
+          },
+          "burst": {
+            "name": "Rituel ancien : Visite de la nuit",
+            "desc": "Flins libère la véritable puissance de sa lanterne, infligeant des <e:electro>DGT Électro de zone</e> puis, après un bref délai, 3 fois des <e:electro>DGT Électro de zone</e> considérés comme des DGT de réaction de Sélénocution (2 phases intermédiaires et 1 phase finale).\n<k>Signelune « Lueur ascendante »</k> : la compétence est renforcée : si des nuages orageux sont à proximité, Flins inflige 2 fois de plus des <e:electro>DGT Électro de zone</e> considérés comme des DGT de réaction de Sélénocution (2 phases intermédiaires).\n\nPendant 6 s après l'utilisation de sa compétence élémentaire spéciale <k>Lances du nord</k>, le déchaînement élémentaire <k>Rituel ancien : Visite de la nuit</k> de Flins est remplacé par le déchaînement élémentaire spécial <k>Symphonie tonitruante</k>.\n\n<k>Symphonie tonitruante</k>\nFlins peut consommer moins d'énergie élémentaire pour déclencher un déchaînement élémentaire spécial : il inflige 1 fois des <e:electro>DGT Électro de zone</e> considérés comme des DGT de réaction de Sélénocution.\n<k>Signelune « Lueur ascendante »</k> : la compétence est renforcée : si des nuages orageux sont à proximité, Flins inflige 1 fois de plus des <e:electro>DGT Électro de zone</e> considérés comme des DGT de réaction de Sélénocution."
+          }
+        },
+        "passives": [
+          {
+            "name": "Symphonie d'hiver",
+            "desc": "Flins obtient un bonus selon la <k>signelune</k> de l'équipe.\n\n<k>Signelune « Lueur ascendante »</k> : augmente les DGT des réactions de Sélénocution déclenchées par Flins de 20 %."
+          },
+          {
+            "name": "Murmure de flamme",
+            "desc": "La maîtrise élémentaire de Flins augmente d'une valeur équivalant à 8 % de son ATQ, la maîtrise élémentaire pouvant être augmentée d'un maximum de 160 pts de cette manière."
+          },
+          {
+            "name": "Bénédiction de signelune : Secrets du vieux monde",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Électrocution, elle est convertie en réaction de Sélénocution, et les DGT de base des réactions de Sélénocution augmentent selon l'ATQ de Flins : chaque tranche de 100 pts d'ATQ augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <k>signelune</k> de l'équipe augmente d'un niveau lorsque Flins fait partie de l'équipe."
+          },
+          {
+            "name": "Lumière dans l'obscurité",
+            "desc": "Affiche l'emplacement des <k>produits de Nod-Krai</k> sur la mini-carte.\nDe plus, Flins semble être capable de déchiffrer les murmures de la Chasse sauvage..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Voile de neige écarté",
+            "desc": "Le TdR de la compétence élémentaire spéciale <k>Lances du nord</k> passe à 4 s.\nDe plus, Flins récupère 8 pts d'énergie élémentaire lorsqu'un personnage de l'équipe déclenche une réaction de Sélénocution, cet effet pouvant être déclenché une fois toutes les 5,5 s."
+          },
+          {
+            "level": 2,
+            "name": "Le mur des démoniaques",
+            "desc": "Pendant 6 s après l'utilisation de sa compétence élémentaire spéciale <k>Lances du nord</k>, la prochaine attaque normale de Flins qui touche un ennemi inflige des <e:electro>DGT Électro de zone</e> supplémentaires d'une valeur équivalant à 50 % de son ATQ, ces DGT étant considérés comme des DGT de réaction de Sélénocution.\n<k>Signelune « Lueur ascendante »</k> : lorsque Flins est déployé, la <e:electro>RÉS Électro</e> des ennemis touchés par ses attaques <e:electro>Électro</e> diminue de 25 % pendant 7 s."
+          },
+          {
+            "level": 3,
+            "name": "Étranger dans la nuit",
+            "desc": "Niveau d'aptitude <k>Rituel ancien : Visite de la nuit</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Nuit sur la montagne nue",
+            "desc": "L'ATQ de Flins augmente de 20 %.\nDe plus, son aptitude d'élévation <k>« Murmure de flamme »</k> est renforcée : la maîtrise élémentaire de Flins augmente d'une valeur équivalant à 10 % de son ATQ, la maîtrise élémentaire pouvant être augmentée d'un maximum de 220 pts de cette manière."
+          },
+          {
+            "level": 5,
+            "name": "Ombre de l'exilé",
+            "desc": "Niveau d'aptitude <k>Rite ancien : Lumière d'arcane</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Ballets et chants de la mort",
+            "desc": "Les DGT infligés aux ennemis par les réactions de Sélénocution de Flins bénéficient d'une <k>élévation</k> de 35 %.\n<k>Signelune « Lueur ascendante »</k> : les DGT infligés par les réactions de Sélénocution de tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 10 %."
+          }
+        ]
+      }
+    }
   }
 }

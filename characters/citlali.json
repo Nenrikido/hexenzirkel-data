@@ -218,5 +218,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000107",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Shadow-Stealing Spirit Vessel",
+            "desc": "<k>Normal Attack</k>\nCalls upon secret arts passed down through the Masters of the Night-Wind from generation to generation, performing up to three strikes that deal <e:cryo>Cryo DMG</e>.\n\n<k>Charged Attack</k>\nEnters Aiming Mode, and after Holding, consumes a certain amount of Stamina to call forth a Frost Star that deals <e:cryo>Cryo DMG</e> to opponents in its path.\n\n<k>Plunging Attack</k>\nGathers the power of Cryo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:cryo>Aoe Cryo DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Dawnfrost Darkstar",
+            "desc": "Invoking secret pacts passed down by her tribe over the millennia, Citlali deploys an Opal Shield and calls forth \"Obsidian Tzitzimitl: Itzpapa,\" a creature that is (reputedly) terrifying beyond compare, dealing Nightsoul-aligned <e:cryo>AoE Cryo DMG</e>.\nThe Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs <e:cryo>Cryo DMG</e> with 250% efficiency. When it is deployed, it will cause Citlali to briefly be <e:cryo>affected by Cryo</e>.\nAfter using this skill, Citlali gains 24 Nightsoul points and enters the Nightsoul's Blessing state.\n\n<k>Nightsoul's Blessing: Citlali</k>\nWhen Itzpapa leaves the field, Citlali exits the Nightsoul's Blessing state.\n\n<k>Itzpapa</k>\n· Itzpapa will follow the character.\n· If Citlali has at least 50 Nightsoul points, Itzpapa enters the Opal Fire state and continuously consumes Nightsoul points to whip up a Frostfall Storm that follows the character and attacks opponents within its AoE, dealing Nightsoul-aligned <e:cryo>Cryo DMG</e>.\n· When Citlali's Nightsoul points are fully depleted, Itzpapa's Opal Fire state also ends.\n\n<i>Usually, the wills that symbolize different stars cannot coexist, for how can purest black be reflected in purest white?\nBe that as it may, Citlali has never harbored a particular preference for colors themselves, and that is just how things played out.</i>"
+          },
+          "burst": {
+            "name": "Edict of Entwined Splendor",
+            "desc": "Summons \"allies\" from the starry skies and the vast earth, hurling forth an ice storm to bombard the area in front and deal Nightsoul-aligned <e:cryo>AoE Cryo DMG</e>. This restores a set amount of Nightsoul points for Citlali, and also summons a <k>Spiritvessel Skull</k> near a maximum of 3 opponents within the AoE, with 1 Skull for each opponent. Spiritvessel Skulls explode after some time, dealing Nightsoul-aligned <e:cryo>AoE Cryo DMG</e> and restoring a set amount of Nightsoul points for Citlali.\n\n<i>\"Ugh, enough of this 'dark star, opal star' stuff! Citlalin, Itzpapa, get 'em!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Mamaloaco's Frigid Rain",
+            "desc": "While Itzpapa is on the field, after nearby party members trigger the Frozen or Melt reactions, the <e:pyro>Pyro</e> and <e:hydro>Hydro</e> RES of opponents affected by that reaction decreases by 20% for 12s. Additionally, Citlali will regain 16 Nightsoul points. Nightsoul points can be restored this way once every 8s."
+          },
+          {
+            "name": "Itzpapalotl's Star Garments",
+            "desc": "During the Elemental Skill <k>Dawnfrost Darkstar</k>, Itzpapa's Frostfall Storm DMG is increased by 90% of Citlali's Elemental Mastery. During the Elemental Burst <k>Edict of Entwined Splendor</k>, Ice Storm DMG is increased by 1200% of Citlali's Elemental Mastery.\nIn addition, when nearby party members trigger Nightsoul Bursts, Citlali regains 4 Nightsoul points."
+          },
+          {
+            "name": "Night Realm's Gift: Smoke, Mirrors, and the Flowing Winds",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, can use Nightsoul Transmission: Citlali. When the active character is currently high enough in the air, the following will trigger when switching to Citlali: Citlali will leap up high, and will deploy \"White Obsidian Tzitzimitl: Citlalin\" to float in the air. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Citlali to enter the \"Spiritspeaker\" state, which will allow her to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Citlali to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Citlali will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Citlali can Hold her Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode and trigger Charged Attacks. When initiating Charged Attacks in mid-air, Citlali will prioritize consuming 20 Phlogiston."
+          },
+          {
+            "name": "Songs of Profound Mystery",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, triggering \"Nightsoul Burst\" restores 20 Phlogiston.\nThis cannot take effect in Domains, Trounce Domains, or the Spiral Abyss."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Radiant Blades of Centzon Mimixcoah",
+            "desc": "When she uses the Elemental Skill <k>Dawnfrost Darkstar</k>, Citlali gains the \"Opalstar Vestments\" effect until Itzpapa leaves the field. During this time, she will obtain 10 stacks of Stellar Blade. When a nearby active character other than Citlali deals DMG using Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts, 1 stack of Stellar Blade will be consumed to increase the DMG dealt by 200% of Citlali's Elemental Mastery.\nAfter nearby party members trigger Frozen or Melt, Citlali will gain another 3 stacks of Stellar Blade. This effect can trigger once every 8s.\n\nUsing the Elemental Skill <k>Dawnfrost Darkstar</k> will reset Stellar Blade stacks.\nAdditionally, when Citlali is using her leap, or is Aiming or using her Charged Attack in mid-air, her Phlogiston consumption is decreased by 45%."
+          },
+          {
+            "level": 2,
+            "name": "Heart Devourer's Travail",
+            "desc": "Citlali gains 125 Elemental Mastery, and other characters shielded by her Opal Shield, or who have Itzpapa following them, gain 250 Elemental Mastery.\nAdditionally, when the Elemental Skill <k>Dawnfrost Darkstar</k> is used, nearby active characters will also be granted an Opal Shield.\n\nAlso, the Ascension Talent \"Mamaloaco's Frigid Rain\" has its effects enhanced:\nWhile Itzpapa is on the field, after nearby party members trigger Frozen or Melt, the opponent(s) affected by this reaction will have their <e:pyro>Pyro</e> and <e:hydro>Hydro</e> RES additionally decreased by 20% for 12s. You must first unlock the Ascension Talent \"Mamaloaco's Frigid Rain\" to gain access to the above effect."
+          },
+          {
+            "level": 3,
+            "name": "Cloud Serpent's Feathered Crown",
+            "desc": "Increases the Level of <k>Dawnfrost Darkstar</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Death Defier's Spirit Skull",
+            "desc": "While the Elemental Skill <k>Dawnfrost Darkstar</k> is active, when Itzpapa's Frostfall Storm hits opponents, an additional <k>Obsidian Spiritvessel Skull</k> will be summoned. When a Spiritvessel Skull summoned this way explodes, it deals 1800% of Citlali's Elemental Mastery as Nightsoul-aligned <e:cryo>AoE Cryo DMG</e> and restores 16 Nightsoul points and 8 Energy for Citlali. This effect can trigger once every 8s. This DMG is not considered Elemental Burst DMG."
+          },
+          {
+            "level": 5,
+            "name": "Nemontemi's Hex",
+            "desc": "Increases the Level of <k>Edict of Entwined Splendor</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Teoiztac's Secret Pact",
+            "desc": "After being summoned with the Elemental Skill <k>Dawnfrost Darkstar</k>, Itzpapa will always be in the Opal Fire state, and when Nightsoul points are exhausted, this state will not end.\nAdditionally, when <k>Dawnfrost Darkstar</k> is used, Itzpapa will consume all Nightsoul points, and while it is on the field, it will continuously consume Nightsoul points. Each Nightsoul point consumed in this way will grant Citlali 1 \"Cifra of the Secret Law\" point.\nA maximum of 40 such points can be gained, and each point Citlali possesses will grant all nearby party members a 1.5% <e:pyro>Pyro</e> and <e:hydro>Hydro</e> DMG Bonus, and increase the DMG Citlali deals by 2.5%.\nWhen Itzpapa leaves the field, or upon using Citlali's Elemental Skill again, all \"Cifra of the Secret Law\" points she has will be removed."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Conduit de vol d'ombres",
+            "desc": "<k>Attaque normale</k>\nFait appel aux arts secrets transmis par les Maîtres du vent nocturne afin d'enchaîner jusqu'à 3 attaques qui infligent des <e:cryo>DGT Cryo</e>.\n\n<k>Attaque chargée</k>\nBascule en mode visée puis consomme de l'endurance à la fin de l'appui long pour invoquer une étoile glaciale dans la direction visée afin d'infliger des <e:cryo>DGT Cryo</e>.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Cryo, infligeant des DGT aux ennemis en chemin et des <e:cryo>DGT Cryo de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Étoile d'aurore givrée",
+            "desc": "Invoquant un pacte secret millénaire de sa tribu, Citlali déploie un bouclier d'opale et invoque la tzitzimitl d'obsidienne noire Itzpapa, une créature (réputée) terrifiante au-delà de toute comparaison, infligeant des <e:cryo>DGT Cryo de zone</e> infusés de noctâme.\nL'absorption de DGT d'un bouclier d'opale est basée sur la maîtrise élémentaire de Citlali. Ce dernier absorbe les <e:cryo>DGT Cryo</e> 250 % plus efficacement et, lorsqu'il est déployé, permet à Citlali d'être temporairement <e:cryo>affectée par l'élément Cryo</e>.\nAprès utilisation, Citlali obtient 24 pts de noctâme et entre dans l'état Bénédiction noctâme.\n\n<k>Bénédiction noctâme : Citlali</k>\nLa bénédiction noctâme de Citlali prend fin lorsqu'Itzpapa quitte le champ de bataille.\n\n<k>Itzpapa</k>\n· Itzpapa suit les déplacements du personnage déployé.\n· Si Citlali a au moins 50 pts de noctâme, Itzpapa entre dans l'état Feu d'opale, ce dernier consommant de façon continue des points de noctâme pour déclencher une tempête de givre suivant le personnage afin d'attaquer les ennemis à portée et de leur infliger des <e:cryo>DGT Cryo</e> infusés de noctâme.\n· Une fois les points de noctâme épuisés, l'état Feu d'opale d'Itzpapa prend fin.\n\n<i>Habituellement, les volontés qui symbolisent différentes étoiles ne peuvent coexister, car comment le noir le plus pur pourrait-il refléter le blanc le plus pur ?\nQuoi qu'il en soit, Citlali n'a jamais été particulièrement attachée aux couleurs, et c'est ainsi que les choses se sont décidées à la fin.</i>"
+          },
+          "burst": {
+            "name": "Édit de splendeur liée",
+            "desc": "Invoque des « alliés » du ciel étoilé et de la vaste terre, déclenchant une tempête glaciale en avant qui inflige des <e:cryo>DGT Cryo de zone</e> infusés de noctâme, accordant des points de noctâme à Citlali et invoquant un <k>crâne possédé</k> à proximité de chaque ennemi à portée, avec un maximum de 3 crânes possédés invoqués. Les crânes possédés explosent après un certain temps afin d'infliger des <e:cryo>DGT Cryo de zone</e> infusés de noctâme et d'accorder des points de noctâme à Citlali.\n\n<i>« Argh, ça suffit ces histoires d'étoile noire, d'étoile d'opale ! Citlalin, Itzpapa, attrapez-les ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Pluie frigide de Mamaloaco",
+            "desc": "Lorsqu'un membre de l'équipe à proximité a déclenché une réaction de Gel ou de Fonte pendant la durée d'Itzpapa, les RÉS <e:pyro>Pyro</e> et <e:hydro>Hydro</e> des ennemis affectés par la réaction diminuent de 20 % pendant 12 s et Citlali récupère 16 pts de noctâme, le noctâme pouvant être restauré une fois toutes les 8 s de cette manière."
+          },
+          {
+            "name": "Tenue étoilée d'Itzpapalotl",
+            "desc": "Pendant la compétence élémentaire <k>Étoile d'aurore givrée</k>, les DGT infligés par la tempête de givre d'Itzpapa augmentent d'une valeur équivalant à 90 % de la maîtrise élémentaire de Citlali. Pendant le déchaînement élémentaire <k>Édit de splendeur liée</k>, les DGT infligés par la tempête glaciale augmentent d'une valeur équivalant à 1 200 % de la maîtrise élémentaire de Citlali.\nDe plus, Citlali récupère 4 pts de noctâme lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme."
+          },
+          {
+            "name": "Don de la nuit : Fumée, miroir et vents",
+            "desc": "Dans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Citlali » peut être utilisée. Lorsque le personnage déployé est à une certaine hauteur dans les airs, le déploiement de Citlali déclenche l'effet suivant : Citlali fait un bond très haut et flotte dans les airs grâce à l'aide de la tzitzimitl d'obsidienne blanche Citlalin. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\n\nMaintenir pour viser fait passer Citlali dans l'état de spiritoraison, ce qui lui permet d'interagir avec les graffitis et insignes de spirinocturne pour extraire les informations et la puissance à l'intérieur. Les règles d'interaction avec ces éléments suivent les mêmes règles que celles régissant les interactions avec les iktomisaures.\n\nDe plus, maintenir le saut fait consommer 75 pts d'endurance à Citlali pour sauter. Dans une zone de Natlan avec des mécanismes phlogistiques, Citlali consomme en priorité 5 pts de phlogistique pour sauter encore plus haut.\nDans les airs, Citlali peut maintenir l'attaque normale et consommer du phlogistique ou de l'endurance pour passer en mode visée et déclencher des attaques chargées, Citlali consommant en priorité 20 pts de phlogistique en effectuant une attaque chargée dans les airs."
+          },
+          {
+            "name": "Chants de profond mystère",
+            "desc": "Dans une zone de Natlan avec des mécanismes phlogistiques, déclencher une éruption noctâme restaure 20 pts de phlogistique.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Lame lumineuse de Centzon Mimixcoah",
+            "desc": "Lorsque Citlali utilise la compétence élémentaire <k>Étoile d'aurore givrée</k>, elle obtient l'effet Tenue d'opale jusqu'à ce qu'Itzpapa quitte le terrain : pendant cet effet, Citlali obtient 10 lames stellaires, une lame étant consommée lorsqu'un membre de l'équipe déployé à proximité autre que Citlali inflige des DGT avec une attaque normale, chargée ou plongeante ou une compétence ou un déchaînement élémentaires, et ce, afin d'augmenter les DGT infligés d'une valeur équivalant à 200 % de la maîtrise élémentaire de Citlali.\nLorsqu'un membre de l'équipe déployé à proximité a déclenché une réaction de Gel ou de Fonte, Citlali obtient 3 lames stellaires, cet effet pouvant être déclenché une fois toutes les 8 s.\n\nUtiliser la compétence élémentaire <k>Étoile d'aurore givrée</k> réinitialise les cumuls de lames stellaires.\nDe plus, le phlogistique que Citlali consomme lorsqu'elle saute ou effectue une visée ou une attaque chargée dans les airs diminue de 45 %."
+          },
+          {
+            "level": 2,
+            "name": "Patrouille de dévoreur de cœurs",
+            "desc": "La maîtrise élémentaire de Citlali augmente de 125 pts et celle des autres personnages protégés par un bouclier d'opale ou ayant Itzpapa les suivant de 250 pts.\nDe plus, utiliser la compétence élémentaire <k>Étoile d'aurore givrée</k> accorde un bouclier d'opale aux membres de l'équipe déployé à proximité.\n\nL'effet de l'aptitude d'élévation « Pluie frigide de Mamaloaco » est également amélioré :\nLorsqu'un membre de l'équipe à proximité a déclenché une réaction de Gel ou de Fonte pendant la durée d'Itzpapa, les RÉS <e:pyro>Pyro</e> et <e:hydro>Hydro</e> des ennemis affectés par la réaction diminuent de 20 % supplémentaires pendant 12 s, l'aptitude d'élévation « Pluie frigide de Mamaloaco » devant être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Crête plumée de serpent des nuages",
+            "desc": "Niveau d'aptitude <k>Étoile d'aurore givrée</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Crâne spirituel de non-mortel",
+            "desc": "Pendant sa compétence élémentaire <k>Étoile d'aurore givrée</k>, toucher un ennemi avec une tempête de givre d'Itzpapa permet à Citlali d'invoquer en plus un <k>crâne possédé d'obsidienne</k>. En explosant, un crâne ainsi invoqué inflige des <e:cryo>DGT Cryo de zone</e> infusés de noctâme d'une valeur équivalant à 1 800 % de la maîtrise élémentaire de Citlali et restaure à cette dernière 16 pts de noctâme et 8 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 8 s et ces DGT n'étant pas considérés comme des DGT de déchaînement élémentaire."
+          },
+          {
+            "level": 5,
+            "name": "Malédiction de Nemontemi",
+            "desc": "Niveau d'aptitude <k>Édit de splendeur liée</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Pacte secret de Teoiztac",
+            "desc": "Invoqué par la compétence élémentaire <k>Étoile d'aurore givrée</k>, Itzpapa est constamment dans l'état Feu d'opale, l'état ne prenant pas fin lorsque les points de noctâme sont épuisés.\nDe plus, Itzpapa consomme tous les points de noctâme lors de l'utilisation de la compétence élémentaire <k>Étoile d'aurore givrée</k> et consomme de façon continue des points de noctâme tant qu'elle est sur le terrain, chaque point ainsi consommé accordant 1 pt de loi secrète à Citlali.\nCitlali peut cumuler un maximum de 40 pts de loi secrète, chaque point accordant à tous les personnages de l'équipe à proximité des bonus de DGT <e:pyro>Pyro</e> et <e:hydro>Hydro</e> de 1,5 % et augmentant les DGT infligés par Citlali de 2,5 %.\nTous les points de loi secrète de Citlali sont annulés lorsque Itzpapa quitte le terrain ou que la compétence élémentaire est à nouveau utilisée."
+          }
+        ]
+      }
+    }
   }
 }

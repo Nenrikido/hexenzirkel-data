@@ -237,5 +237,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000113",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Rite of Dispelling Winds",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 attacks, dealing <e:anemo>Anemo DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina and fires off a shot, dealing <e:anemo>AoE Anemo DMG</e>.\n\n<k>Plunging Attack</k>\nPlunges towards the ground from mid-air, damaging all opponents along the path. Deals <e:anemo>AoE Anemo DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Airborne Disease Prevention",
+            "desc": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.\nAfter using this skill, Ifa gains 80 Nightsoul points and enters the <k>Nightsoul's Blessing</k> state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of <k>Supporting Fire</k> depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.\n\nAdditionally, Holding the Elemental Skill <k>Airborne Disease Prevention</k> while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end."
+          },
+          "burst": {
+            "name": "Compound Sedation Field",
+            "desc": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned <e:anemo>AoE Anemo DMG</e>.\nWhen the Therapeutic Sedative hits an opponent affected by <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, it will apply a <k>Sedation Mark</k> to them."
+          }
+        },
+        "passives": [
+          {
+            "name": "Field Medic's Vision",
+            "desc": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 <k>Rescue Essentials</k> point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members."
+          },
+          {
+            "name": "Mutual Aid Agreement",
+            "desc": "When nearby party members trigger Nightsoul Bursts, Ifa's Elemental Mastery increases by 80 for 10s."
+          },
+          {
+            "name": "Night Realm's Gift: Focused Emergency Rescue",
+            "desc": "After his Nightsoul points are exhausted, Ifa will switch to consuming Phlogiston to maintain his Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ifa. When the active character is a certain height in the air, the following will occur when switching to Ifa: Ifa will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team."
+          },
+          {
+            "name": "Tactical Warm Compress Bandaging",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, when the current active party member or indwelt saurian has less than 40% HP, Ifa will consume 10 Phlogiston and restore 40% of their HP. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Vitiferous Elixir's Concoction",
+            "desc": "When <k>Supporting Fire</k> hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s."
+          },
+          {
+            "level": 2,
+            "name": "Guiding Spirit of Ballistic Prayer",
+            "desc": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional <k>Rescue Essentials</k> points.\nAdditionally, Ifa's Rescue Essentials limit is increased by 50.\nYou must first unlock the Ascension Talent <k>Field Medic's Vision</k>."
+          },
+          {
+            "level": 3,
+            "name": "Rebuttal in Negotiations With the Night",
+            "desc": "Increases the Level of <k>Airborne Disease Prevention</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Decayed Vessel's Permutation",
+            "desc": "The restraining wind current created by the Elemental Burst <k>Compound Sedation Field</k> has its duration extended to 3s.\nAdditionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst <k>Compound Sedation Field</k>."
+          },
+          {
+            "level": 5,
+            "name": "Vow of Universal Coexistence",
+            "desc": "Increases the Level of <k>Compound Sedation Field</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Oath on a Feathered Knot",
+            "desc": "When Ifa uses the Hold version of his <k>Supporting Fire</k>, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.\nAdditionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Rite des vents dissipateurs",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques qui infligent des <e:anemo>DGT Anémo</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour tirer en avant et infliger des <e:anemo>DGT Anémo de zone</e>.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs, infligeant des DGT aux ennemis en chemin et des <e:anemo>DGT Anémo de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Prévention des maladies aériennes",
+            "desc": "Il est temps qu'un vrai poto prenne le relais ! Ifa appelle Cacucu en renfort.\nAprès utilisation, Ifa obtient 80 pts de noctâme et entre dans l'état <k>Bénédiction noctâme</k>. Pendant sa bénédiction noctâme, Ifa flotte dans les airs avec l'aide de Cacucu et ses attaques normales sont converties en <k>tirs de soutien</k> qui diffèrent selon qu'ils sont déclenchés avec un appui simple ou un appui long, envoyant des tirs toniques qui peuvent soigner tous les personnages de l'équipe.\n\nDe plus, utiliser sa compétence élémentaire <k>Prévention des maladies aériennes</k> avec un appui long pendant sa bénédiction noctâme permet à Ifa de déclencher à la place une attaque plongeante infusée de noctâme, relâcher la compétence permettant d'interrompre l'attaque plongeante tout en continuant à flotter. La bénédiction noctâme d'Ifa prend cependant fin lorsqu'il touche terre après cette attaque plongeante."
+          },
+          "burst": {
+            "name": "Champ de sédation composé",
+            "desc": "Ifa envoie un sédatif thérapeutique sur un ennemi (temporairement agressif). Le sédatif explose à l'impact, créant un champ de vent restrictif qui attire les éléments et ennemis proches tout en infligeant des <e:anemo>DGT Anémo de zone</e> infusés de noctâme.\nEn touchant un ennemi affecté par l'élément <e:hydro>Hydro</e>, <e:pyro>Pyro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e>, le sédatif thérapeutique applique à ce dernier une <k>marque de sédation</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Vision de médecin de terrain",
+            "desc": "Pendant sa bénédiction noctâme, Ifa obtient 1 pt d'<k>Essentiels de sauvetage</k> pour chaque point de noctâme que tous les personnages de l'équipe possèdent actuellement. Les points d'Essentiels de sauvetage augmentent les DGT des réactions de Dispersion, d'Astrodispersion, d'Électrocution et de Sélénocution par les membres de l'équipe à proximité."
+          },
+          {
+            "name": "Accord d'entraide",
+            "desc": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, la maîtrise élémentaire d'Ifa augmente de 80 pts pendant 10 s."
+          },
+          {
+            "name": "Don de la nuit : Secours d'urgence ciblé",
+            "desc": "Après avoir épuisé ses points de noctâme, Ifa change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Ifa » peut être utilisée. Lorsque le personnage déployé est à une certaine hauteur dans les airs, le déploiement d'Ifa déclenche l'effet suivant : Ifa entre dans l'état Bénédiction noctâme et obtient 32 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe."
+          },
+          {
+            "name": "Bandage tactique à compresses chaudes",
+            "desc": "Lorsque votre personnage déployé ou saurien habité a moins de 40 % de PV dans une zone de Natlan avec des mécanismes phlogistiques, Ifa consomme 10 pts de phlogistique pour restaurer 40 % de ses PV. Cet effet peut être déclenché une fois toutes les 10 s et ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Concoction d'élixir vitifère",
+            "desc": "Lorsqu'un <k>tir de soutien</k> touche un ennemi, Ifa récupère 6 pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 8 s de cette manière."
+          },
+          {
+            "level": 2,
+            "name": "Esprit guide de prière balistique",
+            "desc": "Pendant sa bénédiction noctâme, Ifa obtient 4 pts d'<k>Essentiels de sauvetage</k> supplémentaires pour chaque point de noctâme que tous les personnages de l'équipe possèdent actuellement au-dessus d'un total de 60 pts.\nDe plus, la limite de points d'Essentiels de sauvetage d'Ifa augmente de 50.\nL'aptitude d'élévation « <k>Vision de médecin de terrain</k> » doit être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Réfutation des négociations avec la nuit",
+            "desc": "Niveau d'aptitude <k>Prévention des maladies aériennes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Permutation de vaisseau en décomposition",
+            "desc": "La durée du champ de vent restrictif créé par le déchaînement élémentaire <k>Champ de sédation composé</k> augmente à 3 s.\nDe plus, utiliser son déchaînement élémentaire <k>Champ de sédation composé</k> augmente la maîtrise élémentaire d'Ifa de 100 pts pendant 15 s."
+          },
+          {
+            "level": 5,
+            "name": "Vœu de coexistence universelle",
+            "desc": "Niveau d'aptitude <k>Champ de sédation composé</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Serment sur nœud à plumes",
+            "desc": "Lorsque Ifa utilise un <k>tir de soutien</k> avec un appui long, il a 50 % de chances de déclencher un tir tonique supplémentaire qui inflige des DGT Anémo d'une valeur équivalant à 120 % de l'ATQ d'Ifa, ces DGT étant considérés comme des DGT d'attaque normale.\nDe plus, la consommation de points de noctâme et de phlogistique d'Ifa pendant sa bénédiction noctâme diminue de 20 % lorsqu'il n'est pas en combat."
+          }
+        ]
+      }
+    }
   }
 }

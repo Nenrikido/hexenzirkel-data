@@ -215,5 +215,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000056",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Tengu Bowmanship",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal <e:electro>Electro DMG</e>.\nWhen in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Tengu Stormcall",
+            "desc": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather.\nGains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.\nCrowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing <e:electro>Electro DMG</e> and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.\n\nThe ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\n\n<i>The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this</i>\n<i>\"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\"</i>"
+          },
+          "burst": {
+            "name": "Subjugation: Koukou Sendou",
+            "desc": "Casts down Tengu Juurai: Titanbreaker, dealing <e:electro>AoE Electro DMG</e>. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing <e:electro>AoE Electro DMG</e>.\nTengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.\n\nThe ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.\n\n<i>Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Immovable Will",
+            "desc": "While in the Crowfeather Cover state provided by <k>Tengu Stormcall</k>, Aimed Shot charge times are decreased by 60%."
+          },
+          {
+            "name": "Decorum",
+            "desc": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s."
+          },
+          {
+            "name": "Land Survey",
+            "desc": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Crow's Eye",
+            "desc": "When Tengu Juurai grants characters ATK Bonuses or hits opponents, the CD of <k>Tengu Stormcall</k> is decreased by 1s.\nThis effect can be triggered once every 3s."
+          },
+          {
+            "level": 2,
+            "name": "Dark Wings",
+            "desc": "Unleashing <k>Tengu Stormcall</k> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG."
+          },
+          {
+            "level": 3,
+            "name": "The War Within",
+            "desc": "Increases the Level of <k>Subjugation: Koukou Sendou</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Conclusive Proof",
+            "desc": "The number of Tengu Juurai: Stormcluster released by <k>Subjugation: Koukou Sendou</k> is increased to 6."
+          },
+          {
+            "level": 5,
+            "name": "Spellsinger",
+            "desc": "Increases the Level of <k>Tengu Stormcall</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Sin of Pride",
+            "desc": "The <e:electro>Electro DMG</e> of characters who have had their ATK increased by Tengu Juurai has its CRIT DMG increased by 60%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Archerie tengu",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, des éclairs crépitants s'accumulent sur le carreau de la flèche. Une flèche complètement chargée inflige des <e:electro>DGT Électro</e>.\nSous l'effet de la protection corvidée, une flèche complètement chargée laisse une plume de corbeau à l'emplacement atteint.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Tempestrier tengu",
+            "desc": "Recule à la vitesse d'un Tengu et invoque la protection des corbeaux.\nBénéficie de la protection corvidée pendant 18 s, un effet qui est consommé lorsque Sara tire une flèche complètement chargée et laisse une plume de corbeau à l'emplacement atteint par la flèche.\nLa plume de corbeau déclenche Tengu Juurai : Embuscade après un court moment, infligeant des <e:electro>DGT Électro</e> aux ennemis proches, et accordant au personnage déployé à portée un bonus d'ATQ en fonction de l'ATQ de base de Sara.\n\nLes bonus d'ATQ des différents Tengu Juurai ne se cumulent pas, et leur effet et durée sont déterminés par le dernier Tengu Juurai actif.\n\n<i>Les Tengu n'ont jamais manqué de membres aux talents exceptionnels possédant des yeux divins Électro. D'autre part, ils ont l'habitude de chanter les louanges de l'Archon Électro lorsqu'ils manipulent son élément. Leurs paroles ressemblent à peu près à cela :</i>\n<i>« Ô digne Narukami, montre-moi ton pouvoir et accorde à cette humble supplique ta puissance fulgurante ! Sowaka ! »</i>"
+          },
+          "burst": {
+            "name": "Soumission : Chemin de lumière",
+            "desc": "Dépose un Tengu Juurai : Brise-titan à l'emplacement de l'ennemi, infligeant des <e:electro>DGT Électro de zone</e>. Puis ce Tengu Juurai : Brise-titan se divise en 4 Tengu Juurai : Tempête de pierres consécutifs, infligeant des <e:electro>DGT Électro de zone</e>.\nTengu Juurai : Brise-titan et Tengu Juurai : Tempête de pierres permettent au personnage déployé à portée de recevoir le même bonus d'ATQ que lors de la compétence élémentaire, Tempestrier tengu.\n\nLes bonus d'ATQ des différents Tengu Juurai ne se cumulent pas, et leur effet et durée sont déterminés par le dernier Tengu Juurai actif.\n\n<i>Sara a quitté son peuple, les Tengu, et a également temporairement perdu sa foi en la Commission administrative. Mais lorsque les nuages qui assombrissaient son cœur se sont dissipés, elle a retrouvé son propre éclair.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Volonté immuable",
+            "desc": "Sous l'effet de la protection corvidée de <k>Tempestrier tengu</k>, la durée de charge du tir visé diminue de 60 %."
+          },
+          {
+            "name": "Décorum",
+            "desc": "Lorsque Tengu Juurai : Embuscade a touché un ennemi, Sara restaure 1,2 pt d'énergie élémentaire à tous les personnages de l'équipe pour chaque tranche de 100 % de recharge d'énergie qu'elle possède. Cet effet peut être déclenché une fois toutes les 3 s."
+          },
+          {
+            "name": "Arpentage des terres",
+            "desc": "Diminue la durée d'une expédition de 25 % lorsqu'elle se déroule à Inazuma."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Œil de corbeau",
+            "desc": "Lorsque Tengu Juurai a accordé aux personnages des bonus d'ATQ ou touché des ennemis, le TdR de <k>Tempestrier tengu</k> diminue de 1 s.\nCet effet peut être déclenché une fois toutes les 3 s."
+          },
+          {
+            "level": 2,
+            "name": "Ailes sombres",
+            "desc": "Lorsque Sara libère <k>Tempestrier tengu</k>, elle laisse une plume de corbeau plus faible à son emplacement d'origine, cette dernière infligeant 30 % des DGT d'origine."
+          },
+          {
+            "level": 3,
+            "name": "Conflit intérieur",
+            "desc": "Niveau d'aptitude <k>Soumission : Chemin de lumière</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Preuve concluante",
+            "desc": "Le nombre de Tengu Juurai : Tempête de pierres déclenchés par <k>Soumission : Chemin de lumière</k> passe à 6."
+          },
+          {
+            "level": 5,
+            "name": "Anathémien",
+            "desc": "Niveau d'aptitude <k>Tempestrier tengu</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Péché d'orgueil",
+            "desc": "Les personnages bénéficiant d'une augmentation d'ATQ accordée par Tengu Juurai voient les DGT CRIT de leurs <e:electro>DGT Électro</e> augmenter de 60 %."
+          }
+        ]
+      }
+    }
   }
 }

@@ -29,5 +29,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14434",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north.",
+        "passive": {
+          "name": "Nocturnal Dreams",
+          "refinements": {
+            "1": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by <r>72</r>. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by <r>48</r>.",
+            "2": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by <r>90</r>. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by <r>60</r>.",
+            "3": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by <r>108</r>. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by <r>72</r>.",
+            "4": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by <r>126</r>. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by <r>84</r>.",
+            "5": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by <r>144</r>. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by <r>96</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un objet rituel en argent forgé, pur et sans défaut. On dit qu'il s'agissait d'une relique sacrée transmise de génération en génération parmi les prêtresses du grand nord.",
+        "passive": {
+          "name": "Rêve nocturne",
+          "refinements": {
+            "1": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>72</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>48</r> pts pendant 10 s.",
+            "2": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>90</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>60</r> pts pendant 10 s.",
+            "3": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>108</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>72</r> pts pendant 10 s.",
+            "4": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>126</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>84</r> pts pendant 10 s.",
+            "5": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>144</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>96</r> pts pendant 10 s."
+          }
+        }
+      }
+    }
   }
 }

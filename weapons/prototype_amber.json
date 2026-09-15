@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14406",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A dully gilded catalyst secretly guarded in the Blackcliff Forge. It seems to glow with the very light from the sky.",
+        "passive": {
+          "name": "Gilding",
+          "refinements": {
+            "1": "Using an Elemental Burst regenerates <r>4</r> Energy every 2s for 6s. All party members will regenerate <r>4%</r> HP every 2s for this duration.",
+            "2": "Using an Elemental Burst regenerates <r>4.5</r> Energy every 2s for 6s. All party members will regenerate <r>4.5%</r> HP every 2s for this duration.",
+            "3": "Using an Elemental Burst regenerates <r>5</r> Energy every 2s for 6s. All party members will regenerate <r>5%</r> HP every 2s for this duration.",
+            "4": "Using an Elemental Burst regenerates <r>5.5</r> Energy every 2s for 6s. All party members will regenerate <r>5.5%</r> HP every 2s for this duration.",
+            "5": "Using an Elemental Burst regenerates <r>6</r> Energy every 2s for 6s. All party members will regenerate <r>6%</r> HP every 2s for this duration."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un catalyseur magique découvert à la Forge de Rochenoire. La lumière du soleil, de la lune et des étoiles semble s'en dégager.",
+        "passive": {
+          "name": "Blindage d'or",
+          "refinements": {
+            "1": "Restaure <r>4</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>4 %</r> de leurs PV toutes les 2 s pendant cette durée.",
+            "2": "Restaure <r>4,5</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>4,5 %</r> de leurs PV toutes les 2 s pendant cette durée.",
+            "3": "Restaure <r>5</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>5 %</r> de leurs PV toutes les 2 s pendant cette durée.",
+            "4": "Restaure <r>5,5</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>5,5 %</r> de leurs PV toutes les 2 s pendant cette durée.",
+            "5": "Restaure <r>6</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>6 %</r> de leurs PV toutes les 2 s pendant cette durée."
+          }
+        }
+      }
+    }
   }
 }

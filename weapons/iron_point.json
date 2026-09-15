@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13201",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers."
+      },
+      "fr": {
+        "flavor": "Pointue à l'extrémité, cette épée convient aussi bien à l'attaque qu'à la défense et est très prisée des voyageurs."
+      }
+    }
   }
 }

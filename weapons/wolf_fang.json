@@ -54,5 +54,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11424",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Legend has it that this longsword was once used by a wandering knight in the distant past.",
+        "passive": {
+          "name": "Northwind Wolf",
+          "refinements": {
+            "1": "DMG dealt by Elemental Skill and Elemental Burst is increased by <r>16%</r>. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by <r>2%</r>. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by <r>2%</r>. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s.",
+            "2": "DMG dealt by Elemental Skill and Elemental Burst is increased by <r>20%</r>. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by <r>2.5%</r>. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by <r>2.5%</r>. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s.",
+            "3": "DMG dealt by Elemental Skill and Elemental Burst is increased by <r>24%</r>. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by <r>3%</r>. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by <r>3%</r>. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s.",
+            "4": "DMG dealt by Elemental Skill and Elemental Burst is increased by <r>28%</r>. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by <r>3.5%</r>. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by <r>3.5%</r>. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s.",
+            "5": "DMG dealt by Elemental Skill and Elemental Burst is increased by <r>32%</r>. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by <r>4%</r>. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by <r>4%</r>. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "La légende raconte que cette longue épée était autrefois utilisée par un chevalier nomade d'un passé lointain.",
+        "passive": {
+          "name": "Loup boréal",
+          "refinements": {
+            "1": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>16 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>2 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>2 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s.",
+            "2": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>20 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>2,5 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>2,5 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s.",
+            "3": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>24 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>3 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>3 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s.",
+            "4": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>28 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>3,5 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>3,5 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s.",
+            "5": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>32 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>4 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>4 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s."
+          }
+        }
+      }
+    }
   }
 }

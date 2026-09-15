@@ -30,5 +30,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14517",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
+        "passive": {
+          "name": "Offering Unto Wind and Sun",
+          "refinements": {
+            "1": "Increases Elemental Mastery by <r>100</r>. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals <r>28%</r> increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+            "2": "Increases Elemental Mastery by <r>125</r>. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals <r>35%</r> increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+            "3": "Increases Elemental Mastery by <r>150</r>. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals <r>42%</r> increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+            "4": "Increases Elemental Mastery by <r>175</r>. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals <r>49%</r> increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+            "5": "Increases Elemental Mastery by <r>200</r>. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals <r>56%</r> increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une statue sculptée en forme d'aigle. C'est une relique sacrée transmise par les Maîtres du vent nocturne.",
+        "passive": {
+          "name": "Offrande au vent et au soleil",
+          "refinements": {
+            "1": "La maîtrise élémentaire augmente de <r>100</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>28 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum.",
+            "2": "La maîtrise élémentaire augmente de <r>125</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>35 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum.",
+            "3": "La maîtrise élémentaire augmente de <r>150</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>42 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum.",
+            "4": "La maîtrise élémentaire augmente de <r>175</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>49 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum.",
+            "5": "La maîtrise élémentaire augmente de <r>200</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>56 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum."
+          }
+        }
+      }
+    }
   }
 }

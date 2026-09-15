@@ -26,5 +26,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15043",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Aubade of Morningstar and Moon",
+        "bonuses": {
+          "2": "Increases Elemental Mastery by 80.",
+          "4": "When the equipping character is off-field, Lunar Reaction DMG is increased by 20%. When the party's Moonsign Level is at least Ascendant Gleam, Lunar Reaction DMG will be further increased by 40%. This effect will disappear after the equipping character is active for 3s."
+        }
+      },
+      "fr": {
+        "name": "Aubade d'astre et de lune",
+        "bonuses": {
+          "2": "Augmente la maîtrise élémentaire de 80 pts.",
+          "4": "Lorsque le personnage équipé de l'artéfact fait partie de l'équipe mais n'est pas déployé, les DGT de réaction sélène augmentent de 20 %, et de 40 % supplémentaires si le cycle signelunaire de l'équipe est au moins « Lueur ascendante ». Cet effet prend fin 3 s après que le personnage concerné est déployé."
+        }
+      }
+    }
   }
 }

@@ -29,5 +29,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15002",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Viridescent Venerer",
+        "bonuses": {
+          "2": "<e:anemo>Anemo</e> DMG Bonus +15%",
+          "4": "Increases Swirl reaction DMG dealt by 60%, and Stellar Swirl reaction DMG dealt by 20%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s. Upon triggering a Stellar Swirl in the opponent, will also decrease their <e:cryo>Cryo</e> RES by 40%. RES debuffs of the same elemental type do not stack."
+        }
+      },
+      "fr": {
+        "name": "Ombre de la Verte Chasseuse",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:anemo>Anémo</e> de 15 %.",
+          "4": "Augmente les DGT infligés par les réactions de Dispersion de 60 % et ceux des réactions d'Astrodispersion de 20 %, et diminue la RÉS de l'élément dispersé correspondant des ennemis de 40 % pendant 10 s. De plus, déclencher une réaction d'Astrodispersion sur un ennemi diminue également sa RÉS <e:cryo>Cryo</e> de 40 %, les diminutions de RÉS du même type élémentaire ne se cumulant pas."
+        }
+      }
+    }
   }
 }

@@ -89,5 +89,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11511",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "One of a paired set of scepters fashioned from obsidian. They say that this can be used as a key to open the gate to a paradise that lies at the end of the ocean of sand.",
+        "passive": {
+          "name": "Sunken Song of the Sands",
+          "refinements": {
+            "1": "HP increased by <r>20%</r>. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by <r>0.12%</r> of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by <r>0.2%</r> of the equipping character's max HP for 20s.",
+            "2": "HP increased by <r>25%</r>. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by <r>0.15%</r> of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by <r>0.25%</r> of the equipping character's max HP for 20s.",
+            "3": "HP increased by <r>30%</r>. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by <r>0.18%</r> of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by <r>0.3%</r> of the equipping character's max HP for 20s.",
+            "4": "HP increased by <r>35%</r>. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by <r>0.21%</r> of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by <r>0.35%</r> of the equipping character's max HP for 20s.",
+            "5": "HP increased by <r>40%</r>. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by <r>0.24%</r> of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by <r>0.4%</r> of the equipping character's max HP for 20s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "L'un des sceptres d'une paire fabriquée à partir d'obsidiennes. On raconte qu'elle peut être utilisée comme clé pour ouvrir la porte d'un paradis qui se trouve tout au bout de l'océan de sable.",
+        "passive": {
+          "name": "Chant englouti des sables",
+          "refinements": {
+            "1": "Les PV sont augmentés de <r>20 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,12 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,2 %</r> des PV max du personnage équipé de l'arme pendant 20 s.",
+            "2": "Les PV sont augmentés de <r>25 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,15 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,25 %</r> des PV max du personnage équipé de l'arme pendant 20 s.",
+            "3": "Les PV sont augmentés de <r>30 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,18 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,3 %</r> des PV max du personnage équipé de l'arme pendant 20 s.",
+            "4": "Les PV sont augmentés de <r>35 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,21 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,35 %</r> des PV max du personnage équipé de l'arme pendant 20 s.",
+            "5": "Les PV sont augmentés de <r>40 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,24 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,4 %</r> des PV max du personnage équipé de l'arme pendant 20 s."
+          }
+        }
+      }
+    }
   }
 }

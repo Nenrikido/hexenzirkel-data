@@ -18,5 +18,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15015",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Retracing Bolide",
+        "bonuses": {
+          "2": "Increases Shield Strength by 35%.",
+          "4": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+        }
+      },
+      "fr": {
+        "name": "Météore inversé",
+        "bonuses": {
+          "2": "Augmente la force du bouclier de 35 %.",
+          "4": "Les attaques normales et chargées infligent un bonus de 40 % de DGT lorsque le personnage est sous la protection d'un bouclier."
+        }
+      }
+    }
   }
 }

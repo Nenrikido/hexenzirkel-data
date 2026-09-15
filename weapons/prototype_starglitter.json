@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13402",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+        "passive": {
+          "name": "Magic Affinity",
+          "refinements": {
+            "1": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <r>8%</r> for 12s. Max 2 stacks.",
+            "2": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <r>10%</r> for 12s. Max 2 stacks.",
+            "3": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <r>12%</r> for 12s. Max 2 stacks.",
+            "4": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <r>14%</r> for 12s. Max 2 stacks.",
+            "5": "After using an Elemental Skill, increases Normal and Charged Attack DMG by <r>16%</r> for 12s. Max 2 stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une guisarme découverte à la Forge de Rochenoire. L'éclat à la pointe de son fer est aussi brillant qu'une étoile.",
+        "passive": {
+          "name": "Soif de magie",
+          "refinements": {
+            "1": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>8 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum.",
+            "2": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>10 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum.",
+            "3": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>12 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum.",
+            "4": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>14 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum.",
+            "5": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>16 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum."
+          }
+        }
+      }
+    }
   }
 }

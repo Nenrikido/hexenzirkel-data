@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11101",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Youthful dreams and the thrill of adventure. If this isn't enough, then make it up with valiance."
+      },
+      "fr": {
+        "flavor": "Si les rêves de jeunesse et la soif d'aventure ne suffisent pas, compensez avec beaucoup de courage."
+      }
+    }
   }
 }

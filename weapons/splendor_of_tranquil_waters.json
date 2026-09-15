@@ -65,5 +65,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11513",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A scepter around which swirls pure water. In days long past, it once symbolized the highest authority over the seas.",
+        "passive": {
+          "name": "Dawn and Dusk by the Lake",
+          "refinements": {
+            "1": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by <r>8%</r> for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by <r>14%</r> for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field.",
+            "2": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by <r>10%</r> for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by <r>17.5%</r> for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field.",
+            "3": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by <r>12%</r> for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by <r>21%</r> for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field.",
+            "4": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by <r>14%</r> for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by <r>24.5%</r> for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field.",
+            "5": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by <r>16%</r> for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by <r>28%</r> for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un sceptre autour duquel tourbillonne de l'eau pure. Autrefois, il symbolisait la plus haute autorité sur les mers.",
+        "passive": {
+          "name": "Aube et crépuscule au lac",
+          "refinements": {
+            "1": "Lorsque les PV actuels du personnage équipé de l'arme augmentent ou diminuent, les DGT infligés par ses compétences élémentaires augmentent de <r>8 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s. Lorsque les PV actuels d'un autre personnage de l'équipe augmentent ou diminuent, les PV max du personnage équipé de l'arme augmentent de <r>14 %</r> pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,2 s. Ces effets peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Lorsque les PV actuels du personnage équipé de l'arme augmentent ou diminuent, les DGT infligés par ses compétences élémentaires augmentent de <r>10 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s. Lorsque les PV actuels d'un autre personnage de l'équipe augmentent ou diminuent, les PV max du personnage équipé de l'arme augmentent de <r>17,5 %</r> pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,2 s. Ces effets peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Lorsque les PV actuels du personnage équipé de l'arme augmentent ou diminuent, les DGT infligés par ses compétences élémentaires augmentent de <r>12 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s. Lorsque les PV actuels d'un autre personnage de l'équipe augmentent ou diminuent, les PV max du personnage équipé de l'arme augmentent de <r>21 %</r> pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,2 s. Ces effets peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Lorsque les PV actuels du personnage équipé de l'arme augmentent ou diminuent, les DGT infligés par ses compétences élémentaires augmentent de <r>14 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s. Lorsque les PV actuels d'un autre personnage de l'équipe augmentent ou diminuent, les PV max du personnage équipé de l'arme augmentent de <r>24,5 %</r> pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,2 s. Ces effets peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Lorsque les PV actuels du personnage équipé de l'arme augmentent ou diminuent, les DGT infligés par ses compétences élémentaires augmentent de <r>16 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s. Lorsque les PV actuels d'un autre personnage de l'équipe augmentent ou diminuent, les PV max du personnage équipé de l'arme augmentent de <r>28 %</r> pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,2 s. Ces effets peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

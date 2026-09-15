@@ -34,5 +34,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13502",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
+        "passive": {
+          "name": "Black Wing",
+          "refinements": {
+            "1": "Increases CRIT Rate by <r>8%</r> and increases Normal ATK SPD by <v>12%</v>. Additionally, Normal and Charged Attacks hits on opponents have a <v>50%</v> chance to trigger a vacuum blade that deals <r>40%</r> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+            "2": "Increases CRIT Rate by <r>10%</r> and increases Normal ATK SPD by <v>12%</v>. Additionally, Normal and Charged Attacks hits on opponents have a <v>50%</v> chance to trigger a vacuum blade that deals <r>55%</r> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+            "3": "Increases CRIT Rate by <r>12%</r> and increases Normal ATK SPD by <v>12%</v>. Additionally, Normal and Charged Attacks hits on opponents have a <v>50%</v> chance to trigger a vacuum blade that deals <r>70%</r> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+            "4": "Increases CRIT Rate by <r>14%</r> and increases Normal ATK SPD by <v>12%</v>. Additionally, Normal and Charged Attacks hits on opponents have a <v>50%</v> chance to trigger a vacuum blade that deals <r>85%</r> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.",
+            "5": "Increases CRIT Rate by <r>16%</r> and increases Normal ATK SPD by <v>12%</v>. Additionally, Normal and Charged Attacks hits on opponents have a <v>50%</v> chance to trigger a vacuum blade that deals <r>100%</r> of ATK as DMG in a small AoE. This effect can occur no more than once every 2s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance symbolisant la farouche détermination de Stormterror. Sa hampe se dresse fière vers l'azur, infusée de la volonté des cieux et du pouvoir des vents.",
+        "passive": {
+          "name": "Plume de jais",
+          "refinements": {
+            "1": "Augmente le taux CRIT de <r>8 %</r> et la VIT d'attaque normale de <v>12 %</v>. Les attaques normales et chargées ont <v>50 %</v> de chances lorsqu'elles touchent de générer une lame de vide qui inflige des DGT équivalant à <r>40 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 2 s.",
+            "2": "Augmente le taux CRIT de <r>10 %</r> et la VIT d'attaque normale de <v>12 %</v>. Les attaques normales et chargées ont <v>50 %</v> de chances lorsqu'elles touchent de générer une lame de vide qui inflige des DGT équivalant à <r>55 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 2 s.",
+            "3": "Augmente le taux CRIT de <r>12 %</r> et la VIT d'attaque normale de <v>12 %</v>. Les attaques normales et chargées ont <v>50 %</v> de chances lorsqu'elles touchent de générer une lame de vide qui inflige des DGT équivalant à <r>70 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 2 s.",
+            "4": "Augmente le taux CRIT de <r>14 %</r> et la VIT d'attaque normale de <v>12 %</v>. Les attaques normales et chargées ont <v>50 %</v> de chances lorsqu'elles touchent de générer une lame de vide qui inflige des DGT équivalant à <r>85 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 2 s.",
+            "5": "Augmente le taux CRIT de <r>16 %</r> et la VIT d'attaque normale de <v>12 %</v>. Les attaques normales et chargées ont <v>50 %</v> de chances lorsqu'elles touchent de générer une lame de vide qui inflige des DGT équivalant à <r>100 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 2 s."
+          }
+        }
+      }
+    }
   }
 }

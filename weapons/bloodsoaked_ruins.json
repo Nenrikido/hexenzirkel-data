@@ -77,5 +77,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13516",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A long spear tainted black by unrelenting battle, it shines with an ethereal glow beneath the ghostly blue light of lantern-fire.",
+        "passive": {
+          "name": "Mournful Tribute",
+          "refinements": {
+            "1": "For 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by <r>36%</r>. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by <r>28%</r> for 6s. They will also regain <r>12</r> Elemental Energy. Elemental Energy can be restored this way once every 14s.",
+            "2": "For 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by <r>48%</r>. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by <r>35%</r> for 6s. They will also regain <r>13</r> Elemental Energy. Elemental Energy can be restored this way once every 14s.",
+            "3": "For 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by <r>60%</r>. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by <r>42%</r> for 6s. They will also regain <r>14</r> Elemental Energy. Elemental Energy can be restored this way once every 14s.",
+            "4": "For 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by <r>72%</r>. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by <r>49%</r> for 6s. They will also regain <r>15</r> Elemental Energy. Elemental Energy can be restored this way once every 14s.",
+            "5": "For 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by <r>84%</r>. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by <r>56%</r> for 6s. They will also regain <r>16</r> Elemental Energy. Elemental Energy can be restored this way once every 14s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une longue lance teintée de noir par une bataille acharnée, brillant d'une lueur éthérée sous la lumière bleue fantomatique du feu de la lanterne.",
+        "passive": {
+          "name": "Louange du deuil",
+          "refinements": {
+            "1": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>36 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>28 %</r> pendant 6 s et lui restaure <r>12</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière.",
+            "2": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>48 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>35 %</r> pendant 6 s et lui restaure <r>13</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière.",
+            "3": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>60 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>42 %</r> pendant 6 s et lui restaure <r>14</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière.",
+            "4": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>72 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>49 %</r> pendant 6 s et lui restaure <r>15</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière.",
+            "5": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>84 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>56 %</r> pendant 6 s et lui restaure <r>16</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière."
+          }
+        }
+      }
+    }
   }
 }

@@ -38,5 +38,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12502",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+        "passive": {
+          "name": "Wolfish Tracker",
+          "refinements": {
+            "1": "Increases ATK by <r>20%</r>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <r>40%</r> for 12s. Can only occur once every 30s.",
+            "2": "Increases ATK by <r>25%</r>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <r>50%</r> for 12s. Can only occur once every 30s.",
+            "3": "Increases ATK by <r>30%</r>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <r>60%</r> for 12s. Can only occur once every 30s.",
+            "4": "Increases ATK by <r>35%</r>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <r>70%</r> for 12s. Can only occur once every 30s.",
+            "5": "Increases ATK by <r>40%</r>. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by <r>80%</r> for 12s. Can only occur once every 30s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée longue appartenant au chevalier aux loups. Il ne s'agissait au départ que d'une épaisse plaque de fer offerte par le forgeron de la ville, mais elle a acquis un pouvoir légendaire au côté des loups.",
+        "passive": {
+          "name": "Chasse lupicale",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>20 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>40 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "2": "Augmente l'ATQ de <r>25 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>50 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "3": "Augmente l'ATQ de <r>30 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>60 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "4": "Augmente l'ATQ de <r>35 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>70 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s.",
+            "5": "Augmente l'ATQ de <r>40 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>80 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s."
+          }
+        }
+      }
+    }
   }
 }

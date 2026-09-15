@@ -14,5 +14,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13414",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island.",
+        "passive": {
+          "name": "Samurai Conduct",
+          "refinements": {
+            "1": "Increases Elemental Skill DMG by <r>6%</r>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <r>3</r> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+            "2": "Increases Elemental Skill DMG by <r>7.5%</r>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <r>3.5</r> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+            "3": "Increases Elemental Skill DMG by <r>9%</r>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <r>4</r> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+            "4": "Increases Elemental Skill DMG by <r>10.5%</r>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <r>4.5</r> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+            "5": "Increases Elemental Skill DMG by <r>12%</r>. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates <r>5</r> Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance spéciale qui était autrefois utilisée par un célèbre guerrier qui gardait le Tatarigami sur l'Île de Yashiori.",
+        "passive": {
+          "name": "Code du samouraï",
+          "refinements": {
+            "1": "Augmente les DGT infligés par les compétences élémentaires de <r>6 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, le personnage perd 3 pts d'énergie élémentaire, mais récupère <r>3</r> pts d'énergie toutes les 2 s pendant 6 s. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Augmente les DGT infligés par les compétences élémentaires de <r>7,5 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, le personnage perd 3 pts d'énergie élémentaire, mais récupère <r>3,5</r> pts d'énergie toutes les 2 s pendant 6 s. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Augmente les DGT infligés par les compétences élémentaires de <r>9 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, le personnage perd 3 pts d'énergie élémentaire, mais récupère <r>4</r> pts d'énergie toutes les 2 s pendant 6 s. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Augmente les DGT infligés par les compétences élémentaires de <r>10,5 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, le personnage perd 3 pts d'énergie élémentaire, mais récupère <r>4,5</r> pts d'énergie toutes les 2 s pendant 6 s. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Augmente les DGT infligés par les compétences élémentaires de <r>12 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, le personnage perd 3 pts d'énergie élémentaire, mais récupère <r>5</r> pts d'énergie toutes les 2 s pendant 6 s. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

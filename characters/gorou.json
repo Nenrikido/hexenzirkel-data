@@ -69,5 +69,139 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000055",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Ripping Fang Fletching",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <e:geo>Geo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Inuzaka All-Round Defense",
+            "desc": "Deals <e:geo>AoE Geo DMG</e> and sets up a General's War Banner.\n\n<k>General's War Banner</k>\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of <e:geo>Geo</e> characters in the party at the time of casting:\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\n· 3 Geo characters: Adds \"Crunch\" - <e:geo>Geo DMG Bonus</e>.\n\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\n\n<k>Hold</k>\nAdjust the location of the skill.\n\n<i>\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>"
+          },
+          "burst": {
+            "name": "Juuga: Forward Unto Victory",
+            "desc": "Displaying his valor as a general, Gorou deals <e:geo>AoE Geo DMG</e> and creates a field known as General's Glory to embolden his comrades.\n\n<k>General's Glory</k>\nThis field has the following properties:\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <e:geo>Geo</e> characters in the party. Also moves together with your active character.\n· Generates 1 Crystal Collapse every 1.5s that deals <e:geo>AoE Geo DMG</e> to 1 opponent within the skill's AoE.\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\n\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\n If Gorou falls, the effects of General's Glory will be cleared.\n\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Heedless of the Wind and Weather",
+            "desc": "After using <k>Juuga: Forward Unto Victory</k>, all nearby party members' DEF is increased by 25% for 12s."
+          },
+          {
+            "name": "A Favor Repaid",
+            "desc": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n· <k>Inuzaka All-Round Defense</k>: Skill DMG increased by 156% of DEF\n· <k>Juuga: Forward Unto Victory</k>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF"
+          },
+          {
+            "name": "Seeker of Shinies",
+            "desc": "Displays the location of nearby <k>resources unique to Inazuma</k> on the mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Rushing Hound: Swift as the Wind",
+            "desc": "When characters (other than Gorou) within the AoE of Gorou's <k>General's War Banner</k> or <k>General's Glory</k> deal Geo DMG to opponents, the CD of Gorou's <k>Inuzaka All-Round Defense</k> is decreased by 2s.\nThis effect can occur once every 10s."
+          },
+          {
+            "level": 2,
+            "name": "Sitting Hound: Steady as a Clock",
+            "desc": "While <k>General's Glory</k> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction, or triggers a Lunar-Crystallize reaction.\nThis effect can occur once every 0.1s. Max extension is 3s."
+          },
+          {
+            "level": 3,
+            "name": "Mauling Hound: Fierce as Fire",
+            "desc": "Increases the Level of <k>Inuzaka All-Round Defense</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Lapping Hound: Warm as Water",
+            "desc": "When <k>General's Glory</k> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s."
+          },
+          {
+            "level": 5,
+            "name": "Striking Hound: Thunderous Force",
+            "desc": "Increases the Level of <k>Juuga: Forward Unto Victory</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Valiant Hound: Mountainous Fealty",
+            "desc": "For 12s after using <k>Inuzaka All-Round Defense</k> or <k>Juuga: Forward Unto Victory</k>, increases the CRIT DMG of all nearby party members' <e:geo>Geo DMG</e> based on the buff level of the skill's field at the time of use:\n· \"Standing Firm\": +10%\n· \"Impregnable\": +20%\n· \"Crunch\": +40%\n\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Empenne aux crocs acérés",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge de cristaux de pierre, infligeant des <e:geo>DGT Géo</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Défense intégrale d'Inuzaka",
+            "desc": "Inflige des <e:geo>DGT Géo de zone</e> et érige une bannière de général.\n\n<k>Bannière de général</k>\nAccorde les effets suivants aux personnages déployés dans la zone d'effet en fonction de la quantité de personnages de type <e:geo>Géo</e> dans l'équipe au moment de l'utilisation :\n· Avoir 1 personnage Géo accorde l'effet Pied ferme : bonus de DÉF.\n· Avoir 2 personnages Géo accorde l'effet Imprenabilité : effet précédent + bonus de RÉS à l'interruption.\n· Avoir 3 personnages Géo accorde l'effet Fracas : effets précédents + <e:geo>bonus de DGT Géo</e>.\n\nGorou ne peut générer qu'une bannière de général à la fois, et les personnages ne peuvent bénéficier des effets que d'une seule bannière de général à la fois. Lorsque le personnage quitte la zone, les effets continuent pendant 2 s.\n\n<k>Appui long</k>\nAjuste la zone où la compétence sera lancée.\n\n<i>« Adoptez cette formation et nous serons en sécurité, je vous le garantis ! » En tant que général et chef des troupes, la dernière chose que Gorou veut, c'est de voir ses soldats blessés.</i>"
+          },
+          "burst": {
+            "name": "Crocs bestiaux : Vers la victoire",
+            "desc": "Affichant sa bravoure de général, Gorou inflige des <e:geo>DGT Géo de zone</e> et crée un champ de prestige de général pour enhardir ses compagnons.\n\n<k>Prestige de général</k>\nLes caractéristiques suivantes s'appliquent :\n· Ce champ possède des effets identiques à ceux de la bannière de général créée par la compétence élémentaire « Défense intégrale d'Inuzaka », accordant des bonus aux personnages déployés dans la zone d'effet en fonction du nombre de personnages de type <e:geo>Géo</e> dans l'équipe. Le champ se déplace en suivant le personnage déployé.\n· Déclenche un effondrement cristallin toutes les 1,5 s qui inflige des <e:geo>DGT Géo de zone</e> à 1 ennemi dans la zone d'effet.\n· Attire 1 fragment élémentaire créé par une réaction de Cristallisation dans la zone d'effet vers l'emplacement du personnage déployé toutes les 1,5 s.\n\nSi une bannière de général créée par Gorou est présente lors de l'utilisation, elle sera détruite. De plus, si Gorou utilise sa compétence élémentaire « Défense intégrale d'Inuzaka » alors qu'un prestige de général est actif, il ne crée pas de bannière de général.\nSi Gorou est vaincu, les effets du prestige de général sont annulés.\n\n<i>« Le terrain est à notre avantage ! » Gorou peut s'approprier la topographie du champ de bataille pour faire pencher la balance en sa faveur. Cette technique lui a permis de traverser de nombreux combats contre une opposition en apparence supérieure.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Nonchalance du vent et de la pluie",
+            "desc": "Pendant 12 s après <k>Crocs bestiaux : Vers la victoire</k>, la DÉF de tous les personnages de l'équipe à proximité augmente de 25 %."
+          },
+          {
+            "name": "Faveur rendue",
+            "desc": "Les DGT des attaques suivantes de Gorou augmentent en fonction de sa DÉF :\n· Les DGT de compétence de <k>Défense intégrale d'Inuzaka</k> augmentent à hauteur de 156 % de sa DÉF.\n· Les DGT de compétence et les DGT de l'effondrement cristallin de <k>Crocs bestiaux : Vers la victoire</k> augmentent à hauteur de 15,6 % de sa DÉF."
+          },
+          {
+            "name": "Chien renifleur",
+            "desc": "Affiche l'emplacement des <k>produits d'Inazuma</k> sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Vivacité canine : Célérité du vent",
+            "desc": "Lorsqu'un personnage déployé (hormis Gorou) dans la zone d'effet de la <k>bannière de général</k> ou du champ de <k>prestige de général</k> créés par Gorou inflige des DGT Géo à un ennemi, le TdR de <k>Défense intégrale d'Inuzaka</k> de Gorou diminue de 2 s.\nCet effet peut être déclenché une fois toutes les 10 s."
+          },
+          {
+            "level": 2,
+            "name": "Repos canin : Aplomb du temps",
+            "desc": "Lorsqu'un personnage déployé à proximité obtient un fragment élémentaire généré par une réaction de Cristallisation, ou déclenche une réaction de Sélénocristallisation, alors qu'un <k>prestige de général</k> est actif, la durée du prestige de général de Gorou augmente de 1 s.\nCet effet peut être déclenché une fois toutes les 0,1 s, et sa durée peut être prolongée d'un maximum de 3 s de cette manière."
+          },
+          {
+            "level": 3,
+            "name": "Griffe canine : Frénésie du feu",
+            "desc": "Niveau d'aptitude <k>Défense intégrale d'Inuzaka</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Léchouille canine : Bonté de l'eau",
+            "desc": "Lorsque le <k>prestige de général</k> est dans l'état Imprenabilité ou Fracas, il restaure également les PV du personnage déployé dans la zone d'effet toutes les 1,5 s d'une valeur équivalant à 50 % de la DÉF de Gorou."
+          },
+          {
+            "level": 5,
+            "name": "Frappe canine : Élan du tonnerre",
+            "desc": "Niveau d'aptitude <k>Crocs bestiaux : Vers la victoire</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Vaillance canine : Fidélité de la terre",
+            "desc": "Pendant 12 s après <k>Défense intégrale d'Inuzaka</k> ou <k>Crocs bestiaux : Vers la victoire</k>, les DGT CRIT des <e:geo>DGT Géo</e> de tous les personnages de l'équipe à proximité augmentent en fonction du niveau du champ au moment de l'utilisation de la compétence :\n· Pied ferme : +10 %.\n· Imprenabilité : +20 %.\n· Fracas : +40 %.\n\nCet effet ne se cumule pas, et la dernière augmentation déclenchée sera la référence pour l'effet."
+          }
+        ]
+      }
+    }
   }
 }

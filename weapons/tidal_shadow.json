@@ -19,5 +19,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12425",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An exquisitely-crafted, standard-model sword forged for the high-ranking officers and flagship captains of Fontaine's old navy.",
+        "passive": {
+          "name": "White Cruising Wave",
+          "refinements": {
+            "1": "After the wielder is healed, ATK will be increased by <r>24%</r> for 8s. This can be triggered even when the character is not on the field.",
+            "2": "After the wielder is healed, ATK will be increased by <r>30%</r> for 8s. This can be triggered even when the character is not on the field.",
+            "3": "After the wielder is healed, ATK will be increased by <r>36%</r> for 8s. This can be triggered even when the character is not on the field.",
+            "4": "After the wielder is healed, ATK will be increased by <r>42%</r> for 8s. This can be triggered even when the character is not on the field.",
+            "5": "After the wielder is healed, ATK will be increased by <r>48%</r> for 8s. This can be triggered even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée de modèle standard à la fabrication exquise, forgée pour les officiers de haut rang et les capitaines de l'ancienne marine de Fontaine.",
+        "passive": {
+          "name": "Vague de croisière blanche",
+          "refinements": {
+            "1": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>24 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>30 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>36 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>42 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>48 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

@@ -8,5 +8,29 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10009",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "The Exile",
+        "bonuses": {
+          "2": "Energy Recharge +20%",
+          "4": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
+        }
+      },
+      "fr": {
+        "name": "Exilé",
+        "bonuses": {
+          "2": "Augmente la recharge d'énergie de 20 %.",
+          "4": "Le déchaînement élémentaire restaure 2 pts d'énergie élémentaire à tous les personnages de l'équipe (à l'exception du porteur) toutes les 2 s pendant 6 s. Cet effet est non cumulable."
+        }
+      }
+    }
   }
 }

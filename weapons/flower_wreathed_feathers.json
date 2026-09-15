@@ -27,5 +27,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15430",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longbow that burns like a flame. The feathers that adorn it are said to have come from the ancient tyrant Ngoubou.",
+        "passive": {
+          "name": "Inflorescence Unattainable",
+          "refinements": {
+            "1": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by <r>6%</r> every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+            "2": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by <r>7.5%</r> every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+            "3": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by <r>9%</r> every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+            "4": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by <r>10.5%</r> every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+            "5": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by <r>12%</r> every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc long qui brûle comme une flamme. Les plumes qui l'ornent proviendraient de l'ancien tyran Ngoubou.",
+        "passive": {
+          "name": "Inflorescence inachevée",
+          "refinements": {
+            "1": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>6 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée.",
+            "2": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>7,5 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée.",
+            "3": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>9 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée.",
+            "4": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>10,5 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée.",
+            "5": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>12 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée."
+          }
+        }
+      }
+    }
   }
 }

@@ -25,5 +25,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13430",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This polearm was once jointly forged by the craftsmen in the mines as a sacrifice to the spirits of the mountains.",
+        "passive": {
+          "name": "Hope Beyond the Peaks",
+          "refinements": {
+            "1": "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by <r>12%</r>. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by <r>12%</r> for 8s.",
+            "2": "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by <r>15%</r>. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by <r>15%</r> for 8s.",
+            "3": "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by <r>18%</r>. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by <r>18%</r> for 8s.",
+            "4": "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by <r>21%</r>. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by <r>21%</r> for 8s.",
+            "5": "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by <r>24%</r>. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by <r>24%</r> for 8s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cette arme d'hast était autrefois fabriquée par des artisans dans les mines pour servir de sacrifice aux esprits des montagnes.",
+        "passive": {
+          "name": "Espoir au-delà des sommets",
+          "refinements": {
+            "1": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>12 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>12 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire.",
+            "2": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>15 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>15 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire.",
+            "3": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>18 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>18 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire.",
+            "4": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>21 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>21 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire.",
+            "5": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>24 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>24 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire."
+          }
+        }
+      }
+    }
   }
 }

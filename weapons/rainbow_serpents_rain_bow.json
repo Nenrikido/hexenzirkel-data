@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15434",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An ancient ceremonial weapon passed down by the Masters of the Night-Wind. This dark bow is forever wreathed in an unshakable chill.",
+        "passive": {
+          "name": "Astral Whispers Beyond the Sacred Throne",
+          "refinements": {
+            "1": "ATK is increased by <r>28%</r> for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+            "2": "ATK is increased by <r>35%</r> for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+            "3": "ATK is increased by <r>42%</r> for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+            "4": "ATK is increased by <r>49%</r> for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+            "5": "ATK is increased by <r>56%</r> for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme cérémonielle ancestrale transmise par les Maîtres du vent nocturne. Cet arc ténébreux est à jamais imprégné d'un froid inébranlable.",
+        "passive": {
+          "name": "Murmures astraux d'au-delà du trône sacré",
+          "refinements": {
+            "1": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>28 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi.",
+            "2": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>35 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi.",
+            "3": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>42 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi.",
+            "4": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>49 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi.",
+            "5": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>56 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi."
+          }
+        }
+      }
+    }
   }
 }

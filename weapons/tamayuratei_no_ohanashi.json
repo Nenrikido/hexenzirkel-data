@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13432",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Once upon a time, there was a youkai that roamed Inazuma in the form of a lantern's flame. This must once have been one of its vessels.",
+        "passive": {
+          "name": "Busybody's Running Light",
+          "refinements": {
+            "1": "Increase ATK by <r>20%</r> and Movement SPD by 10% for 10s when using an Elemental Skill.",
+            "2": "Increase ATK by <r>25%</r> and Movement SPD by 10% for 10s when using an Elemental Skill.",
+            "3": "Increase ATK by <r>30%</r> and Movement SPD by 10% for 10s when using an Elemental Skill.",
+            "4": "Increase ATK by <r>35%</r> and Movement SPD by 10% for 10s when using an Elemental Skill.",
+            "5": "Increase ATK by <r>40%</r> and Movement SPD by 10% for 10s when using an Elemental Skill."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Il était une fois, un démon qui parcourait Inazuma sous la forme d'une flamme de lanterne en papier. Cela devait être l'un de ses vaisseaux.",
+        "passive": {
+          "name": "Feu vert de fouinard",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>20 %</r> et la VIT de déplacement de 10 % pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "2": "Augmente l'ATQ de <r>25 %</r> et la VIT de déplacement de 10 % pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "3": "Augmente l'ATQ de <r>30 %</r> et la VIT de déplacement de 10 % pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "4": "Augmente l'ATQ de <r>35 %</r> et la VIT de déplacement de 10 % pendant 10 s après l'utilisation d'une compétence élémentaire.",
+            "5": "Augmente l'ATQ de <r>40 %</r> et la VIT de déplacement de 10 % pendant 10 s après l'utilisation d'une compétence élémentaire."
+          }
+        }
+      }
+    }
   }
 }

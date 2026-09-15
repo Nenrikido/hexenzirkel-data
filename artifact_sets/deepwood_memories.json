@@ -17,5 +17,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15025",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Deepwood Memories",
+        "bonuses": {
+          "2": "<e:dendro>Dendro</e> DMG Bonus +15%.",
+          "4": "After Elemental Skills or Bursts hit opponents, the targets' <e:dendro>Dendro</e> RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field."
+        }
+      },
+      "fr": {
+        "name": "Souvenir de forêt",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:dendro>Dendro</e> de 15 %.",
+          "4": "Après qu'une compétence ou un déchaînement élémentaires a touché un ennemi, sa RÉS <e:dendro>Dendro</e> diminue de 30 % pendant 8 s. Cet effet peut être déclenché même si le personnage équipé de l'artéfact fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

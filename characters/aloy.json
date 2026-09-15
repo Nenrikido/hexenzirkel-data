@@ -233,5 +233,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000062",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Rapid Fire",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <e:cryo>Cryo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Frozen Wilds",
+            "desc": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing <e:cryo>Cryo DMG</e>. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing <e:cryo>Cryo DMG</e>.\nWhen a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.\nAloy can gain up to 1 Coil stack every 0.1s.\n\n<k>Coil</k>\n· Each stack increases Aloy's Normal Attack DMG.\n· When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to <e:cryo>Cryo DMG</e>.\n\nWhile in the Rushing Ice state, Aloy cannot obtain new Coil stacks.\nCoil effects will be cleared 30s after Aloy leaves combat.\n\n<i>You think that's cold? Guess you've never been to The Cut.</i>"
+          },
+          "burst": {
+            "name": "Prophecies of Dawn",
+            "desc": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing <e:cryo>AoE Cryo DMG</e>.\n\n<i>Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Combat Override",
+            "desc": "When Aloy receives the Coil effect from <k>Frozen Wilds</k>, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s."
+          },
+          {
+            "name": "Strong Strike",
+            "desc": "When Aloy is in the Rushing Ice state conferred by <k>Frozen Wilds</k>, her <e:cryo>Cryo DMG Bonus</e> increases by 3.5% every 1s. A maximum <e:cryo>Cryo DMG Bonus</e> increase of 35% can be gained in this way."
+          },
+          {
+            "name": "Easy Does It",
+            "desc": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Star of Another World",
+            "desc": "The time has not yet come for this person's corner of the night sky to light up."
+          },
+          {
+            "level": 2,
+            "name": "Star of Another World",
+            "desc": "The time has not yet come for this person's corner of the night sky to light up."
+          },
+          {
+            "level": 3,
+            "name": "Star of Another World",
+            "desc": "The time has not yet come for this person's corner of the night sky to light up."
+          },
+          {
+            "level": 4,
+            "name": "Star of Another World",
+            "desc": "The time has not yet come for this person's corner of the night sky to light up."
+          },
+          {
+            "level": 5,
+            "name": "Star of Another World",
+            "desc": "The time has not yet come for this person's corner of the night sky to light up."
+          },
+          {
+            "level": 6,
+            "name": "Star of Another World",
+            "desc": "The time has not yet come for this person's corner of the night sky to light up."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Tir rapide",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Cryo, infligeant d'importants <e:cryo>DGT Cryo</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Frozen Wilds",
+            "desc": "Aloy lance une bombe à gel qui explose à l'impact dans la direction ciblée, infligeant des <e:cryo>DGT Cryo</e>. Après avoir explosé, la bombe à gel se divise en de nombreuses petites bombes glacées qui explosent au contact des ennemis ou après un court délai, infligeant des <e:cryo>DGT Cryo</e>.\nLorsqu'une bombe à gel ou une petite bombe glacée a touché un ennemi, l'ATQ de ce dernier diminue et Aloy obtient 1 cumul de bobine.\nUn cumul de bobine peut être obtenu une fois toutes les 0,1 s.\n\n<k>Bobine</k>\n· Chaque cumul augmente les DGT des attaques normales d'Aloy.\n· Avec 4 cumuls de bobine, Aloy consomme tous les cumuls de bobine pour entrer dans l'état Glace précipitée, ce qui augmente davantage les DGT infligés par ses attaques normales et les convertit en <e:cryo>DGT Cryo</e>.\n\nQuand Aloy est dans l'état Glace précipitée, elle ne peut pas recevoir de nouveaux cumuls de bobine.\nLes effets de la bobine seront annulés après 30 s si Aloy quitte le combat.\n\n<i>Vous trouvez ça froid ? On voit bien que vous n'avez jamais mis les pieds à la Plaie !</i>"
+          },
+          "burst": {
+            "name": "Prophéties de l'aube",
+            "desc": "Aloy lance une batterie Cryo dans la direction ciblée, puis la fait exploser avec une flèche, infligeant des <e:cryo>DGT Cryo de zone</e>.\n\n<i>Que l'Aube zéro fasse référence à l'espoir ou à l'extinction n'a plus d'importance. Aloy a déjà sauvé son monde, et celui-ci a ses propres héros pour s'inquiéter de son sort.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Surcharge offensive",
+            "desc": "Lorsque Aloy est sous l'effet d'une bobine de <k>Frozen Wilds</k>, son ATQ augmente de 16 %, tandis que celle des personnages de l'équipe à proximité augmente de 8 %. Cet effet dure 10 s."
+          },
+          {
+            "name": "Frappe puissante",
+            "desc": "Lorsque Aloy est dans l'état Glace précipitée accordé par <k>Frozen Wilds</k>, son <e:cryo>bonus de DGT Cryo</e> augmente de 3,5 % toutes les secondes. Son <e:cryo>bonus de DGT Cryo</e> peut augmenter de cette manière jusqu'à 35 %."
+          },
+          {
+            "name": "Doucement mais sûrement",
+            "desc": "Quand Aloy fait partie de l'équipe, vos personnages dans l'équipe n'effraient pas les petits animaux en s'approchant, et peuvent ainsi obtenir de la volaille, de la viande crue et de la viande congelée."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Étoile d'un autre monde",
+            "desc": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu."
+          },
+          {
+            "level": 2,
+            "name": "Étoile d'un autre monde",
+            "desc": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu."
+          },
+          {
+            "level": 3,
+            "name": "Étoile d'un autre monde",
+            "desc": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu."
+          },
+          {
+            "level": 4,
+            "name": "Étoile d'un autre monde",
+            "desc": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu."
+          },
+          {
+            "level": 5,
+            "name": "Étoile d'un autre monde",
+            "desc": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu."
+          },
+          {
+            "level": 6,
+            "name": "Étoile d'un autre monde",
+            "desc": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu."
+          }
+        ]
+      }
+    }
   }
 }

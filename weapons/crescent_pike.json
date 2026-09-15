@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13403",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An exotic weapon with an extremely long blade on the top and a crescent blade at the bottom. It found its way into Liyue through foreign traders. With practice, it can deal heavy damage.",
+        "passive": {
+          "name": "Infusion Needle",
+          "refinements": {
+            "1": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <r>20%</r> of ATK for 5s.",
+            "2": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <r>25%</r> of ATK for 5s.",
+            "3": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <r>30%</r> of ATK for 5s.",
+            "4": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <r>35%</r> of ATK for 5s.",
+            "5": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to <r>40%</r> of ATK for 5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cette lance d'origine étrangère, arrivée à Liyue par les voies commerciales, possède une lame en forme de croissant à l'extrémité d'un manche fin et long. Avec un peu de pratique, vous devriez pouvoir libérer sa puissance destructrice.",
+        "passive": {
+          "name": "Aiguille énergisante",
+          "refinements": {
+            "1": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>20</r> % de l'ATQ.",
+            "2": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>25</r> % de l'ATQ.",
+            "3": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>30</r> % de l'ATQ.",
+            "4": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>35</r> % de l'ATQ.",
+            "5": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>40</r> % de l'ATQ."
+          }
+        }
+      }
+    }
   }
 }

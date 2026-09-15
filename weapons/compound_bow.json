@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15407",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
+        "passive": {
+          "name": "Infusion Arrow",
+          "refinements": {
+            "1": "Normal Attack and Charged Attack hits increase ATK by <r>4%</r> and Normal ATK SPD by <r>1.2%</r> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+            "2": "Normal Attack and Charged Attack hits increase ATK by <r>5%</r> and Normal ATK SPD by <r>1.5%</r> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+            "3": "Normal Attack and Charged Attack hits increase ATK by <r>6%</r> and Normal ATK SPD by <r>1.8%</r> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+            "4": "Normal Attack and Charged Attack hits increase ATK by <r>7%</r> and Normal ATK SPD by <r>2.1%</r> for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+            "5": "Normal Attack and Charged Attack hits increase ATK by <r>8%</r> and Normal ATK SPD by <r>2.4%</r> for 6s. Max 4 stacks. Can only occur once every 0.3s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc en alliage de métal, dont la corde est tendue par des poulies. Son étrange design le rend difficile à manier, mais une fois la flèche est partie, celle-ci s'abat sur la proie avec une force impressionnante.",
+        "passive": {
+          "name": "Flèche énergisante",
+          "refinements": {
+            "1": "Les attaques normales et chargées confèrent un bonus d'ATQ de <r>4 %</r> ainsi qu'un bonus de VIT d'attaque normale de <r>1,2 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "2": "Les attaques normales et chargées confèrent un bonus d'ATQ de <r>5 %</r> ainsi qu'un bonus de VIT d'attaque normale de <r>1,5 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "3": "Les attaques normales et chargées confèrent un bonus d'ATQ de <r>6 %</r> ainsi qu'un bonus de VIT d'attaque normale de <r>1,8 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "4": "Les attaques normales et chargées confèrent un bonus d'ATQ de <r>7 %</r> ainsi qu'un bonus de VIT d'attaque normale de <r>2,1 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "5": "Les attaques normales et chargées confèrent un bonus d'ATQ de <r>8 %</r> ainsi qu'un bonus de VIT d'attaque normale de <r>2,4 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+          }
+        }
+      }
+    }
   }
 }

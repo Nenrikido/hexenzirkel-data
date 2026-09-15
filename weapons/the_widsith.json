@@ -57,5 +57,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14402",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
+        "passive": {
+          "name": "Debut",
+          "refinements": {
+            "1": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <r>60%</r>. Aria: Increases all Elemental DMG by <r>48%</r>. Interlude: Elemental Mastery is increased by <r>240</r>.",
+            "2": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <r>75%</r>. Aria: Increases all Elemental DMG by <r>60%</r>. Interlude: Elemental Mastery is increased by <r>300</r>.",
+            "3": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <r>90%</r>. Aria: Increases all Elemental DMG by <r>72%</r>. Interlude: Elemental Mastery is increased by <r>360</r>.",
+            "4": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <r>105%</r>. Aria: Increases all Elemental DMG by <r>84%</r>. Interlude: Elemental Mastery is increased by <r>420</r>.",
+            "5": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by <r>120%</r>. Aria: Increases all Elemental DMG by <r>96%</r>. Interlude: Elemental Mastery is increased by <r>480</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un épais carnet couvert de notes. Bien qu'il soit abîmé et rongé par les vers, un grand pouvoir existe dans les mots couchés à la main.",
+        "passive": {
+          "name": "Musique d'ouverture",
+          "refinements": {
+            "1": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>60 %</r> ; Aria : augmente les DGT élémentaires de <r>48 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>240</r> pts.",
+            "2": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>75 %</r> ; Aria : augmente les DGT élémentaires de <r>60 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>300</r> pts.",
+            "3": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>90 %</r> ; Aria : augmente les DGT élémentaires de <r>72 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>360</r> pts.",
+            "4": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>105 %</r> ; Aria : augmente les DGT élémentaires de <r>84 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>420</r> pts.",
+            "5": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>120 %</r> ; Aria : augmente les DGT élémentaires de <r>96 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>480</r> pts."
+          }
+        }
+      }
+    }
   }
 }

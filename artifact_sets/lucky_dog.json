@@ -8,5 +8,29 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10011",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Lucky Dog",
+        "bonuses": {
+          "2": "DEF increased by 100.",
+          "4": "Picking up Mora restores 300 HP."
+        }
+      },
+      "fr": {
+        "name": "Chanceux",
+        "bonuses": {
+          "2": "Augmente la DÉF de 100 pts.",
+          "4": "Collecter des moras restaure 300 PV."
+        }
+      }
+    }
   }
 }

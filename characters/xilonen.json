@@ -147,5 +147,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000103",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Ehecatl's Roar",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a fixed amount of Stamina and performs a forward kick.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact, both based on Xilonen's DEF.\n\n<k>Nightsoul's Blessing: Blade Roller</k>\nWhen in the Nightsoul's Blessing state, Xilonen will enter the Blade Roller mode. While in this mode, Xilonen's Normal Attacks will allow her to perform up to 4 kicks using her roller blades, and she will be unable to use Charged Attacks.\nWhen her Normal and Plunging Attacks are used in this mode, they will switch to being based on her DEF, and Xilonen will deal Nightsoul-aligned <e:geo>Geo DMG</e> that cannot be overridden."
+          },
+          "skill": {
+            "name": "Yohual's Scratch",
+            "desc": "Let the rhythms of passion resound throughout the land! Xilonen switches to high-speed combat blading gear and rushes forward a certain distance before dealing Nightsoul-aligned <e:geo>Geo DMG</e> based on her DEF.\nAfter using this, Xilonen will gain 45 Nightsoul points and enter the Nightsoul's Blessing state. In this state, she will shift to the Blade Roller mode.\n\n<k>Source Samples</k>\nXilonen has 3 Samplers with her that can generate different Soundscapes based on her other party members' Elemental Types, decreasing nearby opponents' corresponding Elemental RES while active.\nThe initial recorded Source Sample within each Sampler will be <e:geo>Geo</e>, and for each party member who is <e:pyro>Pyro</e>/<e:hydro>Hydro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, 1 <e:geo>Geo</e> Sample will change to that corresponding Element.\nWhile Xilonen is in the Nightsoul's Blessing state, the <e:geo>Geo</e> Source Sample she carries will always be active. After unlocking her Ascension Talent, \"Netotiliztli's Echoes,\" Xilonen can trigger said Ascension Talent's effects to regenerate Nightsoul points for herself. When her Nightsoul points hit the maximum, she will consume all her Nightsoul points and activate the 3 Source Samples she has on hand for 15s.\nWhen the Source Samples are active, nearby opponents' corresponding Elemental RES will decrease. Source Sample effects of the same Elemental Type cannot stack. Xilonen can trigger these effects even when off-field.\n\n<k>Nightsoul's Blessing: Xilonen</k>\nContinuously consume Nightsoul points. When these points are depleted or if used again, this Nightsoul's Blessing state will end. This state has the following traits:\n· Switches to the Blade Roller mode, increasing Xilonen's Movement SPD and climbing speed, and she can perform high-speed leaps in Ocelot Form while climbing.\n· Xilonen's Nightsoul's Blessing has the following restrictions: When in this state, Xilonen's Nightsoul points have a 9s time limit. After this limit passes, her Nightsoul points will immediately expire.\n\nAfter Xilonen's Nightsoul points have expired while she is in the Nightsoul's Blessing state, she will no longer be able to generate Nightsoul points via the Ascension Talent \"Netotiliztli's Echoes.\"\n\n<i>In some ways, gem-craft and music-mixing share similar principles: Filtering out impurities and retaining only the most radiant things.\nXilonen isn't picky about the two, however. She enjoys both immensely, after all!</i>"
+          },
+          "burst": {
+            "name": "Ocelotlicue Point!",
+            "desc": "Activates the Phlogiston Stereo DJ Controller (Portable) at full power, dealing Nightsoul-aligned <e:geo>AoE Geo DMG</e> based on Xilonen's DEF.\n\nAdditionally, she will trigger the following effects based on her different Source Samples:\n· If she has at least 2 Source Samples that have had their Elemental Types changed, Xilonen will play an Ebullient rhythm, healing nearby active characters at intervals based on her DEF.\n· If she has fewer than 2 Source Samples that have had their Elemental Types changed, Xilonen will start up an Ardent rhythm, which will play two additional beats that deal Nightsoul-aligned <e:geo>AoE Geo DMG</e> based on her DEF.\n\n<i>\"Alright, time for a time-out!\"\n\"It's cool, I recorded those beats just now. Let's see what we get when we mix our rhythms!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Netotiliztli's Echoes",
+            "desc": "While in the Nightsoul's Blessing state:\n· If Xilonen has at least 2 Source Samples that have had their Elemental Types changed, she gains 35 Nightsoul points when her Normal or Plunging Attacks hit opponents. Can be triggered once every 0.1s.\n· If Xilonen has fewer than 2 Source Samples that have had their Elemental Types changed, her Normal and Plunging Attacks deal 30% increased DMG."
+          },
+          {
+            "name": "Portable Armored Sheath",
+            "desc": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach the maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s.\nAdditionally, when nearby party members trigger a Nightsoul Burst, Xilonen's DEF is increased by 20% for 15s."
+          },
+          {
+            "name": "Night Realm's Gift: Blessing of Forge-Fire",
+            "desc": "After her Nightsoul points are fully depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will immediately expire. After she uses <k>Yohual's Scratch</k> within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Xilonen will not consume Stamina when climbing while in the Nightsoul's Blessing state."
+          },
+          {
+            "name": "Tour of Tepeilhuitl",
+            "desc": "Triggering Nightsoul Transmission restores 15 Phlogiston."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sabbatical Phrase",
+            "desc": "Xilonen's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30%, and her Nightsoul point time limit is extended by 45%.\nAdditionally, when Xilonen's Source Samples are active, she can also increase nearby active characters' interruption resistance."
+          },
+          {
+            "level": 2,
+            "name": "Chiucue Mix",
+            "desc": "Xilonen's <e:geo>Geo</e> Source Samples will always remain active. Additionally, when her Source Samples activate, all nearby party members will gain effects corresponding to the active Source Sample that matches their Elemental Type:\n· <e:geo>Geo</e>: DMG dealt +50%.\n· <e:pyro>Pyro</e>: ATK +45%.\n· <e:hydro>Hydro</e>: Max HP +45%.\n· <e:cryo>Cryo</e>: CRIT DMG +60%.\n· <e:electro>Electro</e>: Restore 25 Energy, decrease Elemental Burst CD by 6s."
+          },
+          {
+            "level": 3,
+            "name": "Tonalpohualli's Loop",
+            "desc": "Increases the Level of <k>Yohual's Scratch</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Suchitl's Trance",
+            "desc": "After Xilonen uses <k>Yohual's Scratch</k>, she will grant all nearby party members the Blooming Blessing effect for 15s.\nCharacters with Blooming Blessing deal 65% of Xilonen's DEF as increased Normal, Charged, and Plunging Attack DMG. This effect will be removed after triggering 6 times or when the duration ends.\nWhen you hit more than one opponent, trigger counts will be consumed based on the number of opponents hit. The counts for each party member with Blooming Blessing are counted independently."
+          },
+          {
+            "level": 5,
+            "name": "Tlaltecuhtli's Crossfade",
+            "desc": "Increases the Level of <k>Ocelotlicue Point!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Imperishable Night Carnival",
+            "desc": "When Xilonen is in the Nightsoul's Blessing state, when she sprints, leaps, or uses Normal or Plunging Attacks, she will gain Imperishable Night's Blessing, ignoring the limitations of her Nightsoul's Blessing state and increasing the DMG dealt by her Normal and Plunging Attacks for 5s.\nDuring this time:\n· Her Nightsoul's Blessing time limit countdown will be paused. Xilonen's Nightsoul points, Phlogiston, and Stamina will not decrease, and when her Nightsoul points reach the maximum, her Nightsoul's Blessing state will not end either.\n· Xilonen deals 300% of her DEF as increased Normal and Plunging Attack DMG while in the Nightsoul's Blessing state.\n· She heals nearby party members for 120% of her DEF every 1.5s.\nShe can gain 1 Imperishable Night's Blessing once every 15s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Cri d'Ehecatl",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 coups.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour donner un coup de pied en avant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact, le tout selon la DÉF de Xilonen.\n\n<k>Bénédiction noctâme : Roulette de patin</k>\nPendant sa bénédiction noctâme, Xilonen passe en mode Roulette de patin. Dans ce mode, les attaques normales de Xilonen lui permettent d'effectuer 4 coups de pied continus avec ses patins à roulettes et elle ne peut pas utiliser d'attaques chargées.\nLes attaques normales et plongeantes de Xilonen pendant sa bénédiction noctâme infligent des <e:geo>DGT Géo</e> infusés de noctâme ne pouvant pas être enchantés qui dépendent de sa DÉF."
+          },
+          "skill": {
+            "name": "Scratch de Yohual",
+            "desc": "Que les rythmes de la passion résonnent à travers la nation ! Xilonen enfile ses patins de combat rapide et se rue en avant sur une certaine distance pour infliger des <e:geo>DGT Géo</e> infusés de noctâme selon sa DÉF.\nAprès utilisation, Xilonen obtient 45 pts de noctâme et entre dans l'état Bénédiction noctâme, état pendant lequel elle passe en mode Roulette de patin.\n\n<k>Échantillons sources</k>\nXilonen possède 3 échantillonneurs qui peuvent générer différentes ambiances sonores en fonction des types élémentaires des autres personnages de l'équipe, diminuant ainsi les RÉS élémentaires correspondantes des ennemis proches lorsqu'ils sont activés.\nLes échantillons sources des 3 échantillonneurs sont de l'élément <e:geo>Géo</e> d'origine et chaque personnage de l'équipe de l'élément <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e> changera le type élémentaire d'un échantillonneur <e:geo>Géo</e> en l'élément correspondant.\nLorsque Xilonen bénéficie d'une bénédiction noctâme, les échantillons sources <e:geo>Géo</e> qu'elle possède restent activés. Après avoir débloqué l'aptitude d'élévation « Écho de Netotiliztli », Xilonen peut déclencher l'effet de cette dernière pour restaurer ses points de noctâme. Lorsque ses points de noctâme atteignent le maximum, Xilonen les consomme tous pour activer les 3 échantillons sources qu'elle possède pendant 15 s.\nLorsque les échantillons sources sont activés, les RÉS élémentaires correspondantes des ennemis proches diminuent. Les effets des échantillons sources du même type élémentaire ne se cumulent pas et Xilonen peut déclencher ces effets même lorsqu'elle fait partie de l'équipe mais n'est pas déployée.\n\n<k>Bénédiction noctâme : Xilonen</k>\nLa bénédiction noctâme de Xilonen consomme de façon continue ses points de noctâme et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. L'état Bénédiction noctâme de Xilonen possède les propriétés spéciales suivantes :\n· Le mode Roulette de patin de Xilonen s'active, augmentant sa VIT de déplacement et sa VIT d'escalade et lui permettant d'effectuer des sauts à grande vitesse sous forme d'ocelot lorsqu'elle escalade.\n· La bénédiction noctâme de Xilonen a certaines restrictions : lorsque Xilonen bénéficie d'une bénédiction noctâme, ses points de noctâme ont une limite de 9 s, après quoi ils sont immédiatement épuisés.\n\nLorsque les points de noctâme de Xilonen ont été épuisés pendant sa bénédiction noctâme, elle ne peut plus en générer grâce à l'aptitude d'élévation « Écho de Netotiliztli ».\n\n<i>D'une certaine manière, la fabrication de pierres précieuses et le mixage musical partagent des principes similaires : filtrer les impuretés et ne conserver que les choses les plus rayonnantes.\nXilonen n'est pas difficile pour les deux. Et puis, elle les apprécie énormément l'un et l'autre !</i>"
+          },
+          "burst": {
+            "name": "Rythme d'Ocelotlicue !",
+            "desc": "Active la platine de mixage au phlogistique (version portable) à pleine puissance pour infliger des <e:geo>DGT Géo de zone</e> infusés de noctâme selon la DÉF de Xilonen.\n\nDe plus, les effets suivants se déclenchent selon les différents échantillons sources :\n· Si un minimum de 2 échantillons sources ont changé de type élémentaire : Xilonen joue un rythme exubérant qui soigne les personnages déployés à proximité à intervalles réguliers selon sa DÉF.\n· Si moins de 2 échantillons sources ont changé de type élémentaire : Xilonen joue un rythme fervent qui déclenche deux battements supplémentaires infligeant des <e:geo>DGT Géo de zone</e> infusés de noctâme selon sa DÉF.\n\n<i>« Bon, faisons une pause !\n— Ça ira, j'ai enregistré ces rythmes il y a un moment. Voyons ce que ça donne si on mixe nos tempos, hein ? »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Écho de Netotiliztli",
+            "desc": "Pendant la bénédiction noctâme :\n· Si un minimum de 2 échantillons sources de Xilonen ont changé de type élémentaire : elle obtient 35 pts de noctâme en touchant un ennemi avec une attaque normale ou plongeante, cet effet pouvant être déclenché une fois toutes les 0,1 s.\n· Si moins de 2 échantillons sources de Xilonen ont changé de type élémentaire : les DGT infligés par ses attaques normales et plongeantes augmentent de 30 %."
+          },
+          {
+            "name": "Gaine blindée portable",
+            "desc": "Lorsque les points de noctâme de Xilonen atteignent le maximum pendant sa bénédiction noctâme, elle déclenche un effet équivalant à une éruption noctâme, cet effet pouvant être déclenché une fois toutes les 14 s.\nDe plus, la DÉF de Xilonen augmente de 20 % pendant 15 s lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme."
+          },
+          {
+            "name": "Don de la nuit : Bénédiction des feux de forge",
+            "desc": "Après avoir épuisé ses points de noctâme, Xilonen change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Xilonen » peut être utilisée. Lorsque le personnage déployé sprinte, escalade, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Xilonen déclenche l'effet suivant : Xilonen entre dans l'état Bénédiction noctâme et obtient 20 pts de noctâme. Dans cet état, les points de noctâme de Xilonen ont une durée limite de 4 s, après quoi ils sont immédiatement épuisés, Xilonen pouvant cependant utiliser <k>Scratch de Yohual</k> pendant cette durée pour prolonger la durée de ses points de noctâme de 9 s. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\n\nDe plus, Xilonen ne consomme pas d'endurance lorsqu'elle escalade dans la région de Natlan pendant sa bénédiction noctâme."
+          },
+          {
+            "name": "Tour de Tepeilhuitl",
+            "desc": "Déclencher une transmission noctâme restaure 15 pts de phlogistique."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Phrase sabbatique",
+            "desc": "La consommation de points de noctâme et de phlogistique de Xilonen pendant sa bénédiction noctâme diminue de 30 % et la durée limite de ses points de noctâme est prolongée de 45 %.\nDe plus, lorsque ses échantillons sources sont activés, Xilonen augmente également les RÉS à l'interruption des personnages déployés de l'équipe à proximité."
+          },
+          {
+            "level": 2,
+            "name": "Arrangement de Chiucue",
+            "desc": "Les échantillons sources <e:geo>Géo</e> que Xilonen possède restent activés. De plus, lorsque ses échantillons sources sont activés, tous les personnages de l'équipe à proximité ayant un type élémentaire correspondant obtiennent l'effet concerné :\n· <e:geo>Géo</e> : augmente les DGT infligés de 50 %.\n· <e:pyro>Pyro</e> : augmente l'ATQ de 45 %.\n· <e:hydro>Hydro</e> : augmente les PV max de 45 %.\n· <e:cryo>Cryo</e> : augmente les DGT CRIT de 60 %.\n· <e:electro>Électro</e> : restaure 25 pts d'énergie élémentaire et diminue le TdR des déchaînements élémentaires de 6 s."
+          },
+          {
+            "level": 3,
+            "name": "Boucle de Tonalpohualli",
+            "desc": "Niveau d'aptitude <k>Scratch de Yohual</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Transe de Suchitl",
+            "desc": "Lorsque Xilonen a utilisé <k>Scratch de Yohual</k>, tous les personnages de l'équipe à proximité obtiennent l'effet Don fleuri pendant 15 s.\nLes DGT infligés par les attaques normales, chargées et plongeantes des personnages bénéficiant d'un don fleuri augmentent d'une valeur équivalant à 65 % de la DÉF de Xilonen, cet effet étant annulé après avoir été déclenché 6 fois ou à la fin de sa durée.\nEn touchant plusieurs ennemis en même temps, un déclenchement est comptabilisé pour chaque ennemi touché. De plus, les déclenchements des dons fleuris des personnages de l'équipe sont calculés indépendamment."
+          },
+          {
+            "level": 5,
+            "name": "Fondu enchaîné de Tlaltecuhtli",
+            "desc": "Niveau d'aptitude <k>Rythme d'Ocelotlicue !</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Carnaval de la nuit impérissable",
+            "desc": "Lorsque Xilonen bénéficie d'une bénédiction noctâme, elle obtient une bénédiction de la nuit impérissable lorsqu'elle sprinte, saute et utilise une attaque normale ou plongeante, ce qui lui permet d'ignorer les restrictions de sa bénédiction noctâme et d'augmenter les DGT infligés par ses attaques normales et plongeantes pendant 5 s.\nPendant cette durée :\n· Le compte à rebours de la durée limite des points de noctâme de Xilonen s'arrête, ses points de noctâme, son phlogistique et son endurance ne diminuent plus, et sa bénédiction noctâme ne s'arrête plus lorsque ses points de noctâme atteignent le maximum.\n· Les DGT infligés par les attaques normales et plongeantes de Xilonen lorsqu'elle bénéficie d'une bénédiction noctâme augmentent d'une valeur équivalant à 300 % de sa DÉF.\n· Xilonen soigne les PV de tous les personnages de l'équipe à proximité d'une valeur équivalant à 120 % de sa DÉF toutes les 1,5 s.\nUne bénédiction de la nuit impérissable peut être obtenue une fois toutes les 15 s."
+          }
+        ]
+      }
+    }
   }
 }

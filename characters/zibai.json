@@ -239,5 +239,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000126",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Golden Blade's Petaled Touch",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Heaven and Earth Made Manifest",
+            "desc": "Summoning a shadow of her former powers, she switches to the <k>Lunar Phase Shift</k> mode.\nIn this mode, Zibai's Normal Attacks and Charged Attacks will deal <e:geo>Geo DMG</e> that cannot be overridden by other infusions, and she can accrue special <k>Phase Shift Radiance</k> through different methods. Zibai can consume Phase Shift Radiance to unleash the special Elemental Skill <k>Spirit Steed's Stride</k>.\n\n<k>Moonsign: Ascendant Gleam</k>\nWhile in the <k>Lunar Phase Shift</k> mode, when Zibai performs Normal Attacks, the fourth attack will deal an additional instance of <e:geo>Geo DMG</e>, which is considered Lunar-Crystallize Reaction DMG."
+          },
+          "burst": {
+            "name": "Tri-Sphere Eminence",
+            "desc": "Zibai operates the Jadelight Canopy, dealing two instances of <e:geo>Geo DMG</e>, with the second damage instance being considered Lunar-Crystallize Reaction DMG.\nWhen cast, if Zibai is in the <k>Lunar Phase Shift</k>, the duration of the current Lunar Phase Shift will extend by an additional 1.7s."
+          }
+        },
+        "passives": [
+          {
+            "name": "The Selenic Adeptus Descends",
+            "desc": "When casting the Elemental Skill <k>Heaven and Earth Made Manifest</k>, or when nearby party members trigger Moondrift Harmony, Zibai gains the <k>Selenic Descent</k> effect for 4s: The DMG dealt by the 2nd hit of <k>Spirit Steed's Stride</k> is increased by 60% of Zibai's DEF."
+          },
+          {
+            "name": "Layered Peaks Pierce the Clouds",
+            "desc": "Other <e:geo>Geo</e> party members increase Zibai's DEF by 15% each. <e:hydro>Hydro</e> party members increase her Elemental Mastery by 60 each."
+          },
+          {
+            "name": "Moonsign Benediction: The Coursing Sun and Moon",
+            "desc": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Zibai has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Zibai is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Moonlit Flower Forest",
+            "desc": "At night (18:00 – 06:00), when not in combat, restore 1 Elemental Energy to Zibai every 2 seconds.\nThis effect does not work in Domains, Trounce Domains, or the Spiral Abyss."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Burst Forth With Vigor, But Enter in Silence",
+            "desc": "After using the Elemental Skill <k>Heaven and Earth Made Manifest</k>, Zibai will immediately gain 100 <k>Phase Shift Radiance</k>, and the max number of <k>Spirit Steed's Stride</k> usages per <k>Lunar Phase Shift</k> mode is increased to 5 times.\nAdditionally, each time you switch to the Lunar Phase Shift mode, the first Spirit Steed's Stride's 2nd-hit Lunar-Crystallize Reaction DMG is increased by 220%."
+          },
+          {
+            "level": 2,
+            "name": "At Birth Are Souls Born, and in Death Leave But Husks",
+            "desc": "When in the <k>Lunar Phase Shift</k> mode, all nearby party members' Lunar-Crystallize Reaction DMG is increased by 30%.\n\n<k>Moonsign: Ascendant Gleam</k>: Ascension Talent <k>The Selenic Adeptus Descends</k> is enhanced: the DMG dealt by the 2nd hit of <k>Spirit Steed's Stride</k> is further increased by 550% of Zibai's DEF. You must first unlock the Ascension Talent \"The Selenic Adeptus Descends.\""
+          },
+          {
+            "level": 3,
+            "name": "Free From Constraints and Worldly Ties",
+            "desc": "Increases the Level of Elemental Skill <k>Heaven and Earth Made Manifest</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "The Spirit Passes, Then Form Follows",
+            "desc": "While in the <k>Lunar Phase Shift</k> mode, Zibai's Normal Attack sequence will not reset, and when <k>Spirit Steed's Stride</k> hits opponents, Zibai will gain the <k>\"Scattermoon Splendor\"</k> effect: The next time she uses Normal Attacks, the additional attack from her 4th hit will deal 250% of the original damage as Lunar-Crystallize Reaction DMG."
+          },
+          {
+            "level": 5,
+            "name": "Perceive the Worthless and Debate It Not",
+            "desc": "Increases the Level of <k>Tri-Sphere Eminence</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The World, A Journey in Passing",
+            "desc": "While Zibai is in the <k>Lunar Phase Shift</k> mode, her <k>Phase Shift Radiance</k> gain rate is increased by 50%.\nAdditionally, <k>Spirit Steed's Stride</k> will change such that it will consume all Phase Shift Radiance. This will <k>elevate</k> the DMG dealt by this instance of Spirit Steed's Stride and the Lunar-Crystallize Reaction DMG dealt by Zibai within the next 3s by 1.6% for every point consumed above 70. This effect cannot stack."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Toucher pétale de la lame d'or",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Ciel et terre manifestés",
+            "desc": "Invoquant une ombre de ses anciens pouvoirs, Zibai passe en mode <k>Déphasage lunaire</k>.\nDans ce mode, les attaques normales et chargées de Zibai sont converties pour infliger des <e:geo>DGT Géo</e> ne pouvant pas être enchantés et Zibai peut accumuler du <k>rayonnage de déphasage</k> spécial via diverses méthodes, rayonnage que Zibai peut consommer pour déclencher une compétence élémentaire spéciale, <k>Foulée de destrier spirituel</k>.\n\n<k>Signelune « Lueur ascendante »</k>\nLorsque Zibai effectue une attaque normale pendant son <k>déphasage lunaire</k>, le 4e coup inflige une fois supplémentaire des <e:geo>DGT Géo</e>, ces DGT étant considérés comme des DGT de réaction de Sélénocristallisation."
+          },
+          "burst": {
+            "name": "Éminence de trisphère",
+            "desc": "Zibai utilise sa canopée de jade, infligeant deux fois des <e:geo>DGT Géo</e>, les DGT de la seconde fois étant considérés comme des DGT de réaction de Sélénocristallisation.\nSi Zibai est en <k>déphasage lunaire</k> lors de l'utilisation, la durée de ce déphasage est prolongée de 1,7 s."
+          }
+        },
+        "passives": [
+          {
+            "name": "L'Adepte de la lune arrive",
+            "desc": "En utilisant sa compétence élémentaire <k>Ciel et terre manifestés</k> ou si un personnage de l'équipe à proximité déclenche son harmonie de voile lunaire, Zibai obtient l'effet <k>Descente sélénique</k> pendant 4 s : augmente les DGT infligés par le 2e coup de ses <k>foulées de destrier spirituel</k> d'une valeur équivalant à 60 % de sa DÉF."
+          },
+          {
+            "name": "Pics stratifiés perçant les nuages",
+            "desc": "La DÉF de Zibai augmente de 15 % pour chaque autre personnage <e:geo>Géo</e> dans l'équipe, et sa maîtrise élémentaire augmente de 60 pts pour chaque autre personnage <e:hydro>Hydro</e> dans l'équipe."
+          },
+          {
+            "name": "Bénédiction de signelune : Soleil et lune en mouvement",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction de Cristallisation Hydro, elle est convertie en réaction de Sélénocristallisation, dont les DGT de base augmentent selon la DÉF de Zibai : chaque tranche de 100 pts de DÉF augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <k>signelune</k> de l'équipe augmente d'un niveau lorsque Zibai fait partie de l'équipe."
+          },
+          {
+            "name": "Forêt de fleurs au clair de lune",
+            "desc": "La nuit (18 h 00 - 06 h 00), Zibai récupère 1 pt d'énergie élémentaire toutes les 2 secondes en dehors des combats.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Avancez avec vigueur, mais entrez en silence",
+            "desc": "Après avoir utilisé la compétence élémentaire <k>Ciel et terre manifestés</k>, Zibai obtient immédiatement 100 pts de <k>rayonnage de déphasage</k> et la quantité de <k>foulées de destrier spirituel</k> qu'elle peut utiliser pendant son <k>déphasage lunaire</k> passe à 5.\nDe plus, chaque fois qu'elle passe en déphasage lunaire, les DGT de réaction de Sélénocristallisation du 2e coup de sa première foulée de destrier spirituel augmentent de 220 %."
+          },
+          {
+            "level": 2,
+            "name": "À la naissance des âmes, et à la mort des coquilles vides",
+            "desc": "Pendant son <k>déphasage lunaire</k>, les DGT de réaction de Sélénocristallisation de tous les personnages de l'équipe à proximité augmentent de 30 %.\n\n<k>Signelune « Lueur ascendante »</k> : l'effet de l'aptitude d'élévation <k>« L'Adepte de la lune arrive »</k> est renforcé : les DGT infligés par le 2e coup de ses <k>foulées de destrier spirituel</k> augmentent davantage d'une valeur équivalant à 550 % de la DÉF de Zibai, l'aptitude d'élévation « L'Adepte de la lune arrive » devant déjà être débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Libre de toute contrainte, et affranchi des liens terrestres",
+            "desc": "Niveau d'aptitude <k>Ciel et terre manifestés</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "L'esprit passe, puis la forme suit",
+            "desc": "Pendant son <k>déphasage lunaire</k>, la séquence de l'attaque normale de Zibai ne se réinitialise pas, et Zibai obtient l'effet <k>Splendeur lunaire dispersée</k> lorsque sa <k>foulée de destrier spirituel</k> touche un ennemi : la prochaine fois qu'elle effectue une attaque normale, l'attaque supplémentaire du 4e coup inflige des DGT de réaction de Sélénocristallisation d'une valeur équivalant à 250 % des DGT d'origine."
+          },
+          {
+            "level": 5,
+            "name": "Percevez ce qui est sans valeur, et ne le contestez pas",
+            "desc": "Niveau d'aptitude <k>Éminence de trisphère</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Le monde, un voyage de passage",
+            "desc": "Pendant son <k>déphasage lunaire</k>, le taux d'accumulation de <k>rayonnage de déphasage</k> de Zibai augmente de 50 %.\nDe plus, sa <k>foulée de destrier spirituel</k> est convertie pour consommer tout son rayonnage de déphasage : chaque point de rayonnage consommé au-delà de 70 pts permet aux DGT de cette foulée de destrier spirituel et aux DGT de réaction de Sélénocristallisation de Zibai des 3 prochaines secondes de bénéficier d'une <k>élévation</k> de 1,6 %, cet effet ne se cumulant pas."
+          }
+        ]
+      }
+    }
   }
 }

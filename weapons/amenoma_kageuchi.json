@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11414",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A blade custom made for a famed samurai who could strike down a tengu warrior, known for their incredible agility, in midair.",
+        "passive": {
+          "name": "Iwakura Succession",
+          "refinements": {
+            "1": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <r>6</r> Energy for each seed consumed.",
+            "2": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <r>7.5</r> Energy for each seed consumed.",
+            "3": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <r>9</r> Energy for each seed consumed.",
+            "4": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <r>10.5</r> Energy for each seed consumed.",
+            "5": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates <r>12</r> Energy for each seed consumed."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lame qui aurait été fabriquée sur commande pour un célèbre samouraï capable de trancher même le plus robuste des guerriers tengu, célèbres pour leur habileté à utiliser leur incroyable vitesse pour fendre les airs.",
+        "passive": {
+          "name": "Héritage d'Iwakura",
+          "refinements": {
+            "1": "L'utilisation d'une compétence élémentaire accorde 1 graine d'héritage. Cet effet peut être déclenché une fois toutes les 5 s. Chaque graine d'héritage dure 30 s, et un maximum de 3 graines d'héritage peut être cumulé simultanément. Après avoir utilisé un déchaînement élémentaire, toutes les graines d'héritage sont consommées et après 2 s, le personnage récupère <r>6</r> pts d'énergie élémentaire pour chaque graine consommée.",
+            "2": "L'utilisation d'une compétence élémentaire accorde 1 graine d'héritage. Cet effet peut être déclenché une fois toutes les 5 s. Chaque graine d'héritage dure 30 s, et un maximum de 3 graines d'héritage peut être cumulé simultanément. Après avoir utilisé un déchaînement élémentaire, toutes les graines d'héritage sont consommées et après 2 s, le personnage récupère <r>7,5</r> pts d'énergie élémentaire pour chaque graine consommée.",
+            "3": "L'utilisation d'une compétence élémentaire accorde 1 graine d'héritage. Cet effet peut être déclenché une fois toutes les 5 s. Chaque graine d'héritage dure 30 s, et un maximum de 3 graines d'héritage peut être cumulé simultanément. Après avoir utilisé un déchaînement élémentaire, toutes les graines d'héritage sont consommées et après 2 s, le personnage récupère <r>9</r> pts d'énergie élémentaire pour chaque graine consommée.",
+            "4": "L'utilisation d'une compétence élémentaire accorde 1 graine d'héritage. Cet effet peut être déclenché une fois toutes les 5 s. Chaque graine d'héritage dure 30 s, et un maximum de 3 graines d'héritage peut être cumulé simultanément. Après avoir utilisé un déchaînement élémentaire, toutes les graines d'héritage sont consommées et après 2 s, le personnage récupère <r>10,5</r> pts d'énergie élémentaire pour chaque graine consommée.",
+            "5": "L'utilisation d'une compétence élémentaire accorde 1 graine d'héritage. Cet effet peut être déclenché une fois toutes les 5 s. Chaque graine d'héritage dure 30 s, et un maximum de 3 graines d'héritage peut être cumulé simultanément. Après avoir utilisé un déchaînement élémentaire, toutes les graines d'héritage sont consommées et après 2 s, le personnage récupère <r>12</r> pts d'énergie élémentaire pour chaque graine consommée."
+          }
+        }
+      }
+    }
   }
 }

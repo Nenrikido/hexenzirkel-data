@@ -44,5 +44,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13501",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
+        "passive": {
+          "name": "Reckless Cinnabar",
+          "refinements": {
+            "1": "HP increased by <r>20%</r>. Additionally, provides an ATK Bonus based on <r>0.8%</r> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <r>1%</r> of Max HP.",
+            "2": "HP increased by <r>25%</r>. Additionally, provides an ATK Bonus based on <r>1%</r> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <r>1.2%</r> of Max HP.",
+            "3": "HP increased by <r>30%</r>. Additionally, provides an ATK Bonus based on <r>1.2%</r> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <r>1.4%</r> of Max HP.",
+            "4": "HP increased by <r>35%</r>. Additionally, provides an ATK Bonus based on <r>1.4%</r> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <r>1.6%</r> of Max HP.",
+            "5": "HP increased by <r>40%</r>. Additionally, provides an ATK Bonus based on <r>1.6%</r> of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional <r>1.8%</r> of Max HP."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un « bâton de feu » utilisé il y a bien longtemps dans quelque rituel ancien aujourd'hui disparu.",
+        "passive": {
+          "name": "Papillon écarlate libre",
+          "refinements": {
+            "1": "Les PV sont augmentés de <r>20 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>0,8 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1 %</r> de ses PV max.",
+            "2": "Les PV sont augmentés de <r>25 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1,2 %</r> de ses PV max.",
+            "3": "Les PV sont augmentés de <r>30 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,2 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1,4 %</r> de ses PV max.",
+            "4": "Les PV sont augmentés de <r>35 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,4 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1,6 %</r> de ses PV max.",
+            "5": "Les PV sont augmentés de <r>40 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,6 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1,8 %</r> de ses PV max."
+          }
+        }
+      }
+    }
   }
 }

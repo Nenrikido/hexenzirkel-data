@@ -21,5 +21,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15021",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Husk of Opulent Dreams",
+        "bonuses": {
+          "2": "DEF +30%",
+          "4": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a <e:geo>Geo</e> attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% <e:geo>Geo</e> DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+        }
+      },
+      "fr": {
+        "name": "Coquille des rêves opulents",
+        "bonuses": {
+          "2": "Augmente la DÉF de 30 %.",
+          "4": "Un personnage équipé de ce set d'artéfacts obtiendra 1 cumul de curiosité des façons suivantes : sur le champ de bataille, il obtient 1 cumul en touchant un ennemi avec une attaque <e:geo>Géo</e>, ceci pouvant être déclenché une fois toutes les 0,3 s ; en faisant partie de l'équipe mais en n'étant pas déployé, il obtient 1 cumul toutes les 3 s. La curiosité peut être cumulée 4 fois maximum, chaque cumul accordant 6 % de bonus de DÉF et 6 % de bonus de DGT <e:geo>Géo</e>. Si 6 s s'écoulent sans obtenir de cumul de curiosité, 1 cumul sera perdu."
+        }
+      }
+    }
   }
 }

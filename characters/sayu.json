@@ -233,5 +233,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000053",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Shuumatsuban Ninja Blade",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Yoohoo Art: Fuuin Dash",
+            "desc": "The special technique of the Yoohoo Ninja Arts!\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing <e:anemo>Anemo DMG</e>. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing <e:anemo>AoE Anemo DMG</e>.\n\n<k>Press</k>\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\n\n<k>Hold</k>\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\nThe Hold version of this skill can trigger Elemental Absorption.\n\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\n\n<k>Elemental Absorption</k>\nIf Sayu comes into contact with <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e> while in her Windwheel state, she will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use of this skill.\n\n<i>Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.</i>"
+          },
+          "burst": {
+            "name": "Yoohoo Art: Mujina Flurry",
+            "desc": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\nDeals <e:anemo>Anemo DMG</e> to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\n\n<k>Muji-Muji Daruma</k>\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\n· If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing <e:anemo>Anemo DMG</e>.\n· If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\n\n<i>People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Someone More Capable",
+            "desc": "When Sayu triggers a Swirl or Stellar Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\nThis effect can be triggered once every 2s."
+          },
+          {
+            "name": "No Work Today!",
+            "desc": "The Muji-Muji Daruma created by <k>Yoohoo Art: Mujina Flurry</k> gains the following effects:\n· When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\n· Increases the AoE of its attack against opponents."
+          },
+          {
+            "name": "Yoohoo Art: Silencer's Secret",
+            "desc": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Multi-Task no Jutsu",
+            "desc": "The Muji-Muji Daruma created by <k>Yoohoo Art: Mujina Flurry</k> will ignore HP limits and can simultaneously attack nearby opponents and heal characters."
+          },
+          {
+            "level": 2,
+            "name": "Egress Prep",
+            "desc": "<k>Yoohoo Art: Fuuin Dash</k> gains the following effects:\n· DMG of Fuufuu Whirlwind Kick in Press Mode increased by 3.3%.\n· Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%."
+          },
+          {
+            "level": 3,
+            "name": "Eh, the Bunshin Can Handle It",
+            "desc": "Increases the Level of <k>Yoohoo Art: Mujina Flurry</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Skiving: New and Improved",
+            "desc": "Sayu recovers 1.2 Energy when she triggers a Swirl or Stellar Swirl reaction while on-field.\nThis effect occurs once every 2s."
+          },
+          {
+            "level": 5,
+            "name": "Speed Comes First",
+            "desc": "Increases the Level of <k>Yoohoo Art: Fuuin Dash</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Sleep O'Clock",
+            "desc": "The Muji-Muji Daruma created by Sayu's <k>Yoohoo Art: Mujina Flurry</k> will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\n· Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum DMG increase of 400% ATK can be gained via this method.\n· Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lame ninja du Shuumatsuban",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "École Yoohoo : Course Fuuin",
+            "desc": "La technique spéciale des ninjas de l'École Yoohoo !\nSe recroqueville sous la forme d'un tourbillon Fuufuu, qui inflige des <e:anemo>DGT Anémo</e> aux ennemis qu'elle percute à grande vitesse, pour terminer sur un coup de pied Fuufuu qui inflige des <e:anemo>DGT Anémo de zone</e>.\n\n<k>Appui simple</k>\nSe met sous la forme d'un tourbillon Fuufuu et roule vers l'avant sur une courte distance avant d'exécuter son coup de pied Fuufuu.\n\n<k>Appui long</k>\nRoule continuellement en tourbillon Fuufuu, augmentant la RÉS à l'interruption de Sayu.\nSayu peut contrôler la direction dans laquelle elle roule, et utiliser à nouveau la compétence permet de sortir de cet état et d'exécuter un coup de pied Fuufuu plus puissant.\nL'appui long de cette compétence peut déclencher une absorption élémentaire.\n\nCette compétence a une durée maximum de 10 s, et entre en TdR lorsque son effet prend fin. Plus Sayu reste longtemps en tourbillon Fuufuu, plus le TdR est long.\n\n<k>Absorption élémentaire</k>\nSi Sayu entre en contact avec les éléments <e:hydro>Hydro</e>, <e:pyro>Pyro</e>, <e:cryo>Cryo</e> et <e:electro>Électro</e> lorsqu'elle est en tourbillon Fuufuu, elle obtient les attributs élémentaires correspondants, et le tourbillon Fuufuu ainsi que le coup de pied Fuufuu infligent des DGT supplémentaires de l'élément absorbé.\nUne seule réaction d'absorption élémentaire peut avoir lieu par utilisation.\n\n<i>Sayu est capable d'exécuter cette technique les yeux fermés. Technique de fuite à la base, elle peut, maintenant qu'elle possède un œil divin, l'utiliser pour faire mordre la poussière à ses ennemis.</i>"
+          },
+          "burst": {
+            "name": "École Yoohoo : Bourrasque du mujina",
+            "desc": "Une autre technique spéciale des ninjas de l'École Yoohoo, qui fait appel à une invocation pour venir en aide à Sayu.\nInflige des <e:anemo>DGT Anémo</e> aux ennemis proches, et soigne tous les personnages de l'équipe proches d'une quantité de PV proportionnelle à l'ATQ de Sayu. Invoque également un Daruma Muji-muji.\n\n<k>Daruma Muji-muji</k>\nÀ intervalles réguliers, le Daruma Muji-muji agit de l'une des manières suivantes en fonction de la situation :\n· Lorsque les PV des personnages proches sont supérieurs à 70 %, le Daruma Muji-muji attaque un ennemi proche, à qui il inflige des <e:anemo>DGT Anémo</e>.\n· Lorsqu'un personnage déployé dont les PV sont inférieurs ou égaux à 70 % se trouve à proximité, le Daruma Muji-muji soigne le personnage déployé proche ayant le plus faible pourcentage de PV d'une quantité de PV proportionnelle à l'ATQ de Sayu. Si aucun ennemi ne se trouve à proximité et que les personnages ont tous plus de 70 % de leurs PV, le Daruma Muji-muji soigne aussi les personnages.\n\n<i>Ceux qui ne comprennent rien au jujitsu adorent voir Sayu faire étalage de cette technique, et certains ont même essayé de l'apprendre auprès d'elle. Mais Sayu veut dormir et n'a aucune envie d'être dérangée.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Quelqu'un de plus efficace",
+            "desc": "Lorsque Sayu déclenche une réaction de Dispersion ou d'Astrodispersion sur le champ de bataille, elle soigne vos personnages dans l'équipe ainsi que les personnages alliés proches à hauteur de 300 PV. Sayu récupère de plus 1,2 PV supplémentaire pour chaque point de maîtrise élémentaire qu'elle possède.\nCet effet peut être déclenché une fois toutes les 2 s."
+          },
+          {
+            "name": "Pas de boulot aujourd'hui !",
+            "desc": "Confère au Daruma Muji-muji invoqué pendant <k>École Yoohoo : Bourrasque du mujina</k> les effets suivants :\n· Lorsqu'il soigne un personnage, les personnages proches de ce dernier sont soignés à hauteur de 20 % des PV récupérés par le personnage.\n· La zone de DGT infligés augmente lorsqu'il attaque un ennemi."
+          },
+          {
+            "name": "École Yoohoo : Art du silence",
+            "desc": "Quand Sayu fait partie de l'équipe, vos personnages dans l'équipe n'effraient pas certains animaux, tels que le papillon cristallin.\nPour savoir quels sont les animaux concernés, consultez l'onglet « Divers » dans la section « Faune » du Bestiaire des Archives."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Technique multitâche",
+            "desc": "Le Daruma Muji-muji invoqué par <k>École Yoohoo : Bourrasque du mujina</k> ignore les limites de PV et peut attaquer les ennemis proches et soigner les personnages en même temps."
+          },
+          {
+            "level": 2,
+            "name": "Hors de mon chemin !",
+            "desc": "<k>École Yoohoo : Course Fuuin</k> obtient les effets suivants :\n· Les DGT infligés par le coup de pied Fuufuu après un appui simple augmentent de 3,3 %.\n· Les DGT infligés par le coup de pied Fuufuu après un appui long augmentent de 3,3 % toutes les 0,5 s passées en tourbillon Fuufuu, jusqu'à un maximum de 66 %."
+          },
+          {
+            "level": 3,
+            "name": "Bah, le clone s'en occupe...",
+            "desc": "Niveau d'aptitude <k>École Yoohoo : Bourrasque du mujina</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Paresse revue et améliorée",
+            "desc": "Sayu récupère 1,2 pt d'énergie élémentaire lorsqu'elle déclenche une réaction de Dispersion ou d'Astrodispersion sur le champ de bataille.\nCet effet peut être déclenché une fois toutes les 2 s."
+          },
+          {
+            "level": 5,
+            "name": "La vitesse avant tout",
+            "desc": "Niveau d'aptitude <k>École Yoohoo : Course Fuuin</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "C'est l'heure d'un bon dodo",
+            "desc": "Les attaques et les soins du Daruma Muji-muji invoqué par Sayu lors d'<k>École Yoohoo : Bourrasque du mujina</k> augmentent avec le Niv. de maîtrise élémentaire de Sayu. Chaque point de maîtrise élémentaire que Sayu possède confère les effets suivants :\n· Augmente les DGT infligés par les attaques du Daruma Muji-muji de 0,2 % de l'ATQ, jusqu'à 400 % de l'ATQ maximum.\n· Augmente de 3 les PV soignés par le Daruma Muji-muji, jusqu'à 6 000 PV max."
+          }
+        ]
+      }
+    }
   }
 }

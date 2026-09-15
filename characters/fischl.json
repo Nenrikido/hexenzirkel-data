@@ -407,5 +407,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000031",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Bolts of Downfall",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <e:electro>Electro DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Nightrider",
+            "desc": "Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <e:electro>Electro DMG</e> in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby opponents with <e:electro>Freikugel</e>.\n\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side.\n\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"</i>\n<i>—Flowers for Princess Fischl (IV): Farewell Frau Welt</i>"
+          },
+          "burst": {
+            "name": "Midnight Phantasmagoria",
+            "desc": "Summons Oz to spread his twin wings of twilight and defend Fischl.\nHas the following properties during the ability's duration:\n· Fischl takes on Oz's form, greatly increasing her Movement Speed.\n· Strikes nearby opponents with lightning, dealing <e:electro>Electro DMG</e> to opponents she comes into contact with. Each opponent can only be struck once.\n· Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\n\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Stellar Predator",
+            "desc": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <e:electro>AoE Electro DMG</e> equal to 152.7% of the arrow's DMG."
+          },
+          {
+            "name": "Undone Be Thy Sinful Hex",
+            "desc": "If your current active character triggers an <e:electro>Electro-related Elemental Reaction</e> when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals <e:electro>Electro DMG</e> equal to 80% of Fischl's ATK."
+          },
+          {
+            "name": "Mein Hausgarten",
+            "desc": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+          },
+          {
+            "name": "Witch's Eve Rite: Phantasmal Nocturne",
+            "desc": "After completing <k>Witch's Homework: Of the Unexpected</k>, Fischl will become a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you will gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\n\n<k>Hexerei: Secret Rite</k>\nHark, Prince Nachtraben, Ozvaldo Hrafnavins, he who has witnessed the fall of countless worlds. Sing now the starry septet for your sovereign, for this is the moment of deepest sin, when the gathered souls at the end of causality shatter the darkness of fate.\nAdditionally, when Oz is on the field, party members will gain additional buff effects:\n· After a nearby party member triggers an Overloaded reaction, Fischl and other nearby active party members have their ATK increased by 22.5% for 10s.\n· After a nearby party member triggers an Electro-Charged or Lunar-Charged reaction, Fischl and other nearby active party members have their Elemental Mastery increased by 90 for 10s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Gaze of the Deep",
+            "desc": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK."
+          },
+          {
+            "level": 2,
+            "name": "Devourer of All Sins",
+            "desc": "When <k>Nightrider</k> is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%."
+          },
+          {
+            "level": 3,
+            "name": "Wings of Nightmare",
+            "desc": "Increases the Level of <k>Nightrider</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Her Pilgrimage of Bleak",
+            "desc": "When <k>Midnight Phantasmagoria</k> is used, it deals 222% of ATK as <e:electro>Electro DMG</e> to surrounding opponents.\nWhen the skill duration ends, Fischl regenerates 20% of her HP."
+          },
+          {
+            "level": 5,
+            "name": "Against the Fleeing Light",
+            "desc": "Increases the Level of <k>Midnight Phantasmagoria</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Evernight Raven",
+            "desc": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as <e:electro>Electro DMG</e>.\nAfter Oz performs a coordinated attack, the increased ATK and Elemental Mastery effects of <k>Witch's Eve Rite: Phantasmal Nocturne</k> are further increased by 100% for 10s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Flèche de culpabilité",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis et infligeant davantage de DGT.\nLors de la visée, les ténébreux esprits de la nuit convergent sur la flèche. Celle-ci se charge en élément Électro, infligeant de considérables <e:electro>DGT Électro</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Ailes de surveillance nocturne",
+            "desc": "Fischl invoque son fidèle Oz à ses côtés. Le corbeau d'ombre et de tonnerre descend sur ce monde, infligeant des <e:electro>DGT Électro</e> dans une petite zone lors de son invocation.\nOz tire de façon continue des <e:electro>balles électrifiées</e> sur les ennemis proches tant qu'il est actif.\n\n<k>Appui long</k>\nAjuste la zone où la compétence sera lancée.\nAppuyez à nouveau lorsque Oz est actif pour le faire revenir.\n\n<i>« Vous ne méritez pas que je gaspille mon pouvoir sur vous... Oz, fais pleuvoir les éclairs de la justice. »</i>\n<i>— « Fleurs pour la princesse Fischl - Tome IV : Adieu, maîtresse. »</i>"
+          },
+          "burst": {
+            "name": "Incarnation de la nuit",
+            "desc": "Répondant à l'appel de Fischl, Oz vient protéger sa maîtresse de ses ailes tel un voile nocturne.\nPendant la durée de la compétence :\n· Fischl prend la forme d'Oz, ce qui lui permet d'augmenter sa VIT de déplacement.\n· Les ennemis proches sont frappés par la foudre et subissent des <e:electro>DGT Électro</e>. Chaque ennemi ne peut être frappé qu'une fois.\nLorsque l'effet prend fin, Oz reste pour combattre les ennemis de sa maîtresse. Si Oz est déjà présent sur le terrain avant l'utilisation de cette compétence, son temps de présence sera remis à zéro.\n\n<i>« ... De toutes les bêtes suivant le sang maudit, seul le seigneur corbeau, dont les yeux ont été témoins de la destruction de mille mondes, était capable de comprendre sa grandeur. Et, la recouvrant d'un voile d'ébène, il fit le serment de la protéger à jamais. »</i>\n<i>— « Fleurs pour la princesse Fischl - Tome I : Apocalypse »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Corbeau maléfique",
+            "desc": "Oz libère sur les ennemis proches la foudre du jugement lorsque Fischl le touche d'une flèche complètement chargée, leur infligeant des <e:electro>DGT Électro de zone</e> équivalant à 152,7 % des DGT du tir."
+          },
+          {
+            "name": "Foudre divine",
+            "desc": "Lorsque votre personnage déployé déclenche une <e:electro>réaction liée à l'élément Électro</e> en la présence d'Oz, l'ennemi est frappé par la foudre du jugement divin, et subit des <e:electro>DGT Électro</e> équivalant à 80 % de l'ATQ de Fischl."
+          },
+          {
+            "name": "Jardin secret",
+            "desc": "Diminue la durée d'une expédition de 25 % lorsqu'elle se déroule à Mondstadt."
+          },
+          {
+            "name": "Veillée de la sorcière : Nocturne fantomatique",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « De l'inattendu »</k>, Fischl devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\n\n<k>Hexerei : Rituel secret</k>\nOyez, Ozvaldo von Hrafnavines le seigneur des corbeaux, celui qui a assisté à la chute d'innombrables mondes : chantez maintenant le septuor étoilé pour votre souveraine, car c'est le moment du péché le plus profond, lorsque les âmes rassemblées à la fin de la causalité brisent les ténèbres du destin.\nDe plus, les personnages de l'équipe obtiennent des bonus supplémentaires lorsque Oz est sur le terrain :\n· L'ATQ de Fischl et des autres personnages déployés de l'équipe à proximité augmente de 22,5 % pendant 10 s lorsqu'un personnage de l'équipe à proximité a déclenché une réaction de Surcharge.\n· La maîtrise élémentaire de Fischl et des autres personnages déployés de l'équipe à proximité augmente de 90 pts pendant 10 s lorsqu'un personnage de l'équipe à proximité a déclenché une réaction d'Électrocution ou de Sélénocution."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Œil du corbeau obscur",
+            "desc": "Oz garde toujours un œil de corbeau sur Fischl, même quand il ne l'accompagne pas au combat : les attaques normales de Fischl infligent un bonus de DGT équivalant à 22 % de l'ATQ."
+          },
+          {
+            "level": 2,
+            "name": "Plume de jugement",
+            "desc": "<k>Ailes de surveillance nocturne</k> inflige un bonus de DGT équivalant à 200 % de l'ATQ et sa zone d'effet augmente de 50 %."
+          },
+          {
+            "level": 3,
+            "name": "Ailes noires de l'Abîme",
+            "desc": "Niveau d'aptitude <k>Ailes de surveillance nocturne</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Les fantasmes de la princesse",
+            "desc": "<k>Incarnation de la nuit</k> inflige un bonus de <e:electro>DGT Électro</e> équivalant à 222 % de l'ATQ aux ennemis proches.\nFischl récupère 20 % de PV à la fin de la compétence."
+          },
+          {
+            "level": 5,
+            "name": "Apocalypse de la nuit",
+            "desc": "Niveau d'aptitude <k>Incarnation de la nuit</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Oiseau de la nuit éternelle",
+            "desc": "Prolonge la durée d'Oz de 2 s. De plus, Oz attaque aux côtés de votre personnage déployé, infligeant des <e:electro>DGT Électro</e> équivalant à 30 % de l'ATQ de Fischl.\nLorsque Oz a effectué une attaque coordonnée, les effets d'augmentation de l'ATQ et de la maîtrise élémentaire de <k>Veillée de la sorcière : Nocturne fantomatique</k> augmentent de 100 % de plus pendant 10 s."
+          }
+        ]
+      }
+    }
   }
 }

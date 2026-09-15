@@ -16,5 +16,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15017",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Tenacity of the Millelith",
+        "bonuses": {
+          "2": "HP +20%",
+          "4": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+        }
+      },
+      "fr": {
+        "name": "Ténacité du Millelithe",
+        "bonuses": {
+          "2": "Les PV sont augmentés de 20 %.",
+          "4": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ de tous les personnages de l'équipe à proximité augmente de 20 % et la force de leur bouclier augmente de 30 % pendant 3 s. Cet effet peut être déclenché une fois toutes les 0,5 s, même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+        }
+      }
+    }
   }
 }

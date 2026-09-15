@@ -368,5 +368,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000097",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Royal Reed Archery",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\n· Charge Level 1: Fires off an arrow carrying the power of lightning that deals <e:electro>Electro DMG</e>.\n· Charge Level 2: Fires off a <k>Shadowpiercing Shot</k> which can pierce enemies, dealing <e:electro>Electro DMG</e> to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Ancient Rite: The Thundering Sands",
+            "desc": "Gathers the might of thunder, dealing <e:electro>AoE Electro DMG</e> and quickly retreating. If this attack triggers Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.\n\n<i>\"The God indwelt Priest, the Magi who turned pits to springs, the singers of the sea of sand still spread their stories... But I know those are not legends, for they are our ancestors.\"</i>"
+          },
+          "burst": {
+            "name": "Secret Rite: Twilight Shadowpiercer",
+            "desc": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's Normal Attacks will be converted into enemy-piercing <k>Dusk Bolts</k>: Deal <e:electro>Electro DMG</e> to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.\nSethos cannot perform Aimed Shots while in this state.\nDMG dealt by Dusk Bolts is considered Charged Attack DMG.\nThis effect will be canceled when Sethos leaves the field.\n\n<i>The archives of the Temple of Silence preserve many tomes left behind by Akhtamun, from the era of King Deshret. Many secret rituals of great power are recorded within, but even among the Temple of Silence, very few could master them.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Black Kite's Enigma",
+            "desc": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy. Charging time can be reduced to a minimum of 0.3s through this method and a maximum of 20 Energy can be tallied. If a <k>Shadowpiercing Shot</k> is fired, consume the tallied amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the tallied amount of Elemental Energy."
+          },
+          {
+            "name": "The Sand King's Boon",
+            "desc": "Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by <k>Shadowpiercing Shots</k> by 700% of Sethos's Elemental Mastery.\nThe Scorching Sandshade effect will be canceled when any of the following conditions are met:\n· 5s after a Shadowpiercing Shot first hits an opponent.\n· After 4 Shadowpiercing Shots strike opponents.\n\nWhen a Shadowpiercing Shot affected by Scorching Sandshade first hits an opponent, Sethos will regain Scorching Sandshade after 15s."
+          },
+          {
+            "name": "Thoth's Revelation",
+            "desc": "Displays the location of nearby <k>resources unique to Sumeru</k> on the mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sealed Shrine's Spiritsong",
+            "desc": "The CRIT Rate of <k>Shadowpiercing Shot</k> is increased by 15%."
+          },
+          {
+            "level": 2,
+            "name": "Papyrus Scripture of Silent Secrets",
+            "desc": "When any of the following conditions are met, Sethos gains a 15% <e:electro>Electro DMG Bonus</e> for 10s that may stack twice, with each stack duration counted independently:\n· Consuming Elemental Energy through Aimed Shots. You must first unlock the Ascension Talent \"Black Kite's Enigma\" to trigger this condition.\n· Regaining Elemental Energy by triggering Elemental Reactions using <k>Ancient Rite: The Thundering Sands</k>.\n· Using <k>Secret Rite: Twilight Shadowpiercer</k>."
+          },
+          {
+            "level": 3,
+            "name": "Ode to the Moonrise Sage",
+            "desc": "Increases the Level of <k>Normal Attack: Royal Reed Archery</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Beneficent Plumage",
+            "desc": "When a <k>Shadowpiercing Shot</k> or <k>Dusk Bolt</k> strikes 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s."
+          },
+          {
+            "level": 5,
+            "name": "Record of the Desolate God's Burning Sands",
+            "desc": "Increases the Level of <k>Secret Rite: Twilight Shadowpiercer</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Pylon of the Sojourning Sun Temple",
+            "desc": "After <k>Shadowpiercing Shot</k> strikes an opponent, the Elemental Energy consumed by the Ascension Talent \"Black Kite's Enigma\" will be returned. This effect can be triggered up to once every 15s. You must first unlock the Ascension Talent \"Black Kite's Enigma.\""
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Archerie royale des roseaux",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis et infligeant davantage de DGT.\nLors du tir visé, la puissance du tonnerre vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :\n· 1 charge : Tire une flèche tonitruante qui inflige des <e:electro>DGT Électro</e>.\n· 2 charges : Tire une <k>flèche de perce-ombre</k> pouvant transpercer les ennemis qui inflige des <e:electro>DGT Électro</e> aux ennemis en chemin. Sethos ne peut pas se déplacer lorsque sa flèche de perce-ombre est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Rituel ancien : Clameur tonitruante des sables",
+            "desc": "Condense la puissance du tonnerre pour infliger des <e:electro>DGT Électro de zone</e> et reculer rapidement. Lorsque l'attaque déclenche une réaction d'Électrocution, de Sélénocution, de Supraconduction, d'Astroconduction, de Surcharge, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro sur un ennemi, Sethos récupère une certaine quantité d'énergie élémentaire.\n\n<i>« Les prêtres divinement habités et les magiciens transformant les fosses en sources... Les chanteurs des sables répandent encore leurs histoires... Mais je sais que ce ne sont pas des légendes, car ce sont nos ancêtres. »</i>"
+          },
+          "burst": {
+            "name": "Rituel secret : Percée crépusculaire des ombres",
+            "desc": "Sethos déclenche un rituel secret pour entrer dans l'état Méditation crépusculaire, ce qui convertit ses attaques normales pour lui permettre de tirer des <k>carreaux crépusculaires</k> pouvant transpercer les ennemis : inflige des <e:electro>DGT Électro</e>, qui augmentent selon la maîtrise élémentaire de Sethos, aux ennemis en chemin.\nSethos ne peut pas utiliser de tirs visés pendant cette durée.\nLes DGT infligés par les carreaux crépusculaires sont considérés comme des DGT d'attaque chargée.\nCet effet cesse lorsque Sethos quitte le champ de bataille.\n\n<i>Les archives du Temple du silence conservent de nombreux tomes laissés par Akhtamun, de l'époque du roi Deshret. De nombreux rituels secrets de grande puissance y sont consignés, mais même au sein du Temple du silence, très peu pourraient les maîtriser.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Énigme du milan noir",
+            "desc": "Pendant les tirs visés, le temps de charge diminue de 0,285 s pour chaque point d'énergie élémentaire que Sethos possède. Le temps de charge peut être diminué jusqu'à un minimum de 0,3 s de cette manière, et un maximum de 20 pts d'énergie élémentaire peut être comptabilisé. Tirer une <k>flèche de perce-ombre</k> consomme la quantité comptabilisée d'énergie élémentaire, et tirer une flèche de 1e charge consomme 50 % de la quantité comptabilisée d'énergie élémentaire."
+          },
+          {
+            "name": "Bénédiction du roi des sables",
+            "desc": "Sethos obtient l'effet Ombre sableuse : augmente les DGT infligés par les <k>flèches de perce-ombre</k> d'une valeur équivalant à 700 % de sa maîtrise élémentaire.\nL'effet Ombre sableuse prendra fin :\n· 5 s après qu'une flèche de perce-ombre touche pour la première fois un ennemi.\n· Après que 4 flèches de perce-ombre touchent un ennemi.\n\nSethos obtient un nouvel effet Ombre sableuse 15 s après qu'une flèche de perce-ombre affectée par l'effet touche pour la première fois un ennemi."
+          },
+          {
+            "name": "Révélation de Thoth",
+            "desc": "Affiche l'emplacement des <k>produits de Sumeru</k> sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Chant du sanctuaire scellé",
+            "desc": "Augmente le taux CRIT des <k>flèches de perce-ombre</k> de 15 %."
+          },
+          {
+            "level": 2,
+            "name": "Papyrus du secret silencieux",
+            "desc": "Le <e:electro>bonus de DGT Électro</e> de Sethos augmente de 15 % pendant 10 s en remplissant une des conditions suivantes (Cet effet peut être cumulé 2 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.) :\n· En consommant de l'énergie élémentaire pendant un tir visé, l'aptitude d'élévation « Énigme du milan noir » devant être déjà débloquée.\n· En restaurant de l'énergie élémentaire après avoir déclenché une réaction élémentaire avec <k>Rituel ancien : Clameur tonitruante des sables</k>.\n· En utilisant <k>Rituel secret : Percée crépusculaire des ombres</k>."
+          },
+          {
+            "level": 3,
+            "name": "Ode de la lune ascendante",
+            "desc": "Niveau d'aptitude <k>Attaque normale : Archerie royale des roseaux</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Collection de la plume bienveillante",
+            "desc": "Lorsqu'une <k>flèche de perce-ombre</k> ou un <k>carreau crépusculaire</k> touchent 2 ennemis ou plus, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 10 s."
+          },
+          {
+            "level": 5,
+            "name": "Chronique du sable divin",
+            "desc": "Niveau d'aptitude <k>Rituel secret : Percée crépusculaire des ombres</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Manuscrit du soleil vagabond",
+            "desc": "Toucher un ennemi avec une <k>flèche de perce-ombre</k> restaure l'énergie élémentaire consommée par l'aptitude d'élévation « Énigme du milan noir ». Cet effet peut être déclenché une fois toutes les 15 s. L'aptitude d'élévation « Énigme du milan noir » doit être déjà débloquée."
+          }
+        ]
+      }
+    }
   }
 }

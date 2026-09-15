@@ -20,5 +20,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15406",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+        "passive": {
+          "name": "Unreturning",
+          "refinements": {
+            "1": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <r>36%</r> for 10s.",
+            "2": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <r>45%</r> for 10s.",
+            "3": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <r>54%</r> for 10s.",
+            "4": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <r>63%</r> for 10s.",
+            "5": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by <r>72%</r> for 10s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un prototype d'arc long découvert à la Forge de Rochenoire. Les flèches qu'il décoche sont aussi brillantes que le clair de lune.",
+        "passive": {
+          "name": "Sans retour",
+          "refinements": {
+            "1": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>36 %</r> pendant 10 s.",
+            "2": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>45 %</r> pendant 10 s.",
+            "3": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>54 %</r> pendant 10 s.",
+            "4": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>63 %</r> pendant 10 s.",
+            "5": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>72 %</r> pendant 10 s."
+          }
+        }
+      }
+    }
   }
 }

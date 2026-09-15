@@ -203,5 +203,147 @@
         "states": [{ "value": "on", "modifiers": { "lunarcrystallize_dmg_": 0.25 } }]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000130",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Capture Protocol",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <e:geo>Geo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Countermeasure: Lumi's Battle Cry!",
+            "desc": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\n\n<k>Tap</k>\nLumi strikes in a <k>Super Power Form</k>, attacking nearby enemies continuously, dealing <e:geo>AoE Geo DMG</e>. If there are Moondrifts nearby, Lumi will also deal <e:geo>AoE Geo DMG</e> to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\n\n<k>Continuous Tapping</k>\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her <k>Ultimate Power Form</k>, dealing an especially powerful instance of <e:geo>AoE Geo DMG</e> that is considered Lunar-Crystallize Reaction DMG, switching to <k>Standard Power Form</k>.\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\n\n<i>\"You're up, Lumi!\"</i>"
+          },
+          "burst": {
+            "name": "Memo: Survival Guide in Extreme Conditions",
+            "desc": "Even master adventurers need proper rest! Linnea summons Lumi to strike in <k>Super Power Form</k>, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\n\n<i>\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Field Observation Notes",
+            "desc": "When Lumi is present on the field, the <e:geo>Geo RES</e> of opponents near Lumi will decrease by 15%.\n\n<k>Moonsign: Ascendant Gleam</k>: Linnea's Elemental Skill <k>Countermeasure: Lumi's Battle Cry!</k> and Elemental Burst <k>Memo: Survival Guide in Extreme Conditions</k> are enhanced. After summoning Lumi, the <e:geo>Geo RES</e> of opponents near Lumi will be further decreased by 15%."
+          },
+          {
+            "name": "Universal Naturalist Archive",
+            "desc": "Linnea will increase the Elemental Mastery of certain characters in your party according to your current active character. Increase in Elemental Mastery is based on 5% of Linnea's DEF. If your current active character:\n· Is a Moonsign character: Increase this character's Elemental Mastery.\n· Is not a Moonsign character: Increase Linnea's own Elemental Mastery."
+          },
+          {
+            "name": "Moonsign Benediction: Habitat Survey",
+            "desc": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Linnea has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Linnea is in the party, the party's <k>Moonsign</k> will increase by 1 level."
+          },
+          {
+            "name": "Master Adventurer",
+            "desc": "When Linnea is not in combat, the charge time of her <k>Aimed Shot</k> is greatly decreased, and she will shoot an <k>Ultra Convenient Quick Arrow</k> instead. Different effects will occur depending on the targets hit:\n· Specific animals: <k>Ultra Convenient Quick Arrow</k> will be transformed into a special \"Net\" that can capture the essence and form of these animals, using them as a medium to manifest the animal's physical form again. The \"Net\" can only be used for a limited number of times each week.\n· Ore veins used in forging: Linnea will dispatch Lumi, who will quickly strike at the ore marked by the <k>Ultra Convenient Quick Arrow</k>, then collect the dislodged ore. If Lumi is not on the field, Linnea will summon her for a short duration to help obtain the ore.\n\nThe DMG dealt to opponents by Linnea's <k>Ultra Convenient Quick Arrow</k> is reduced to 20% of her original Charged Arrow. Additionally, after firing a certain number of <k>Ultra Convenient Quick Arrows</k> within a short period of time, Linnea needs to take a temporary break before she can continue using them."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Provisional Classification",
+            "desc": "When unleashing Elemental Skill <k>Countermeasure: Lumi's Battle Cry!</k>, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the <k>Field Catalog</k> effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF.\nAdditionally, when Lumi uses <k>Million Ton Crush</k> in her <k>Ultimate Power Form</k>, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF."
+          },
+          {
+            "level": 2,
+            "name": "Tidings of Joy and Sorrow",
+            "desc": "Within 8s after triggering Moondrift Harmony, all <e:hydro>Hydro</e> and <e:geo>Geo</e> party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses <k>Million Ton Crush</k> in her <k>Ultimate Power Form</k>, the CRIT DMG of that attack increases by an additional 150%.\n\n<k>Moonsign: Ascendant Gleam</k>: When Lumi uses <k>Heavy Overdrive Hammer</k> in her <k>Super Power Form</k>, or when she uses <k>Million Ton Crush</k> in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all <e:hydro>Hydro</e> and <e:geo>Geo</e> characters in the party will be considered to have applied their Elements in the reaction."
+          },
+          {
+            "level": 3,
+            "name": "Eventful Log Page",
+            "desc": "Increases the Level of <k>Countermeasure: Lumi's Battle Cry!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Expert Instinct",
+            "desc": "Within 5s after Moondrift Harmony is triggered, increase the DEF of Linnea and your current active character by 25% respectively. When Linnea is on field, the DEF-increasing effect can be stacked."
+          },
+          {
+            "level": 5,
+            "name": "Fairyland's Farewell Gift",
+            "desc": "Elemental Burst <k>Memo: Survival Guide in Extreme Conditions</k> increases by 3 Levels.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Golden Beagle's Dream",
+            "desc": "The effects of the Constellation, <k>Provisional Classification</k>, are enhanced: When unleashing Elemental Skill <k>Countermeasure: Lumi's Battle Cry!</k>, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of <k>Field Catalog</k> stacks. When consuming <k>Field Catalog</k>, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value.\n\n<k>Moonsign: Ascendant Gleam</k>: Lunar-Crystallize Reaction DMG dealt by nearby party members is <k>elevated</k> by 25%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Protocole de capture",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge de cristaux de pierre, infligeant des <e:geo>DGT Géo</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Contre-mesure : Cri de guerre de Lumi !",
+            "desc": "Partez à l'aventure avec Lumi ! L'attaque de Lumi est différente selon le type d'appui simple utilisé.\n\n<k>Appui simple</k>\nLumi attaque sans cesse en <k>forme super puissante</k> les ennemis proches, infligeant des <e:geo>DGT Géo de zone</e>. Si un voile lunaire est présent à proximité, Lumi inflige également des <e:geo>DGT Géo de zone</e> considérés comme des DGT de réaction de Sélénocristallisation aux ennemis à proximité.\n\n<k>Appui simple répété</k>\nIl est temps de montrer ce dont vous êtes vraiment capables ! Après avoir utilisé une compétence élémentaire, Linnea peut utiliser un appui simple répété avec sa compétence élémentaire ou son attaque normale pour nourrir Lumi avec des gemmes scintillantes. Lumi, le ventre plein, frappe alors en <k>forme ultra puissante</k>, infligeant une fois de puissants <e:geo>DGT Géo de zone</e> considérés comme des DGT de réaction de Sélénocristallisation aux ennemis proches, puis passe en <k>forme puissante</k>.\nDe plus, utiliser sa compétence élémentaire avec un appui simple répété augmente la RÉS à l'interruption de Linnea.\n\n<i>« À toi, Lumi ! »</i>"
+          },
+          "burst": {
+            "name": "Mémo : Guide de survie en conditions extrêmes",
+            "desc": "Même les aventuriers les plus aguerris ont besoin de repos ! Linnea invoque Lumi pour frapper en <k>forme super puissante</k> : elle soigne tous les personnages de l'équipe à proximité et, pendant un certain temps, soigne de façon continue tous les personnages déployés à proximité selon la DÉF de Linnea.\nSi Lumi est déjà sur le terrain lors du déclenchement du déchaînement élémentaire, sa durée est réinitialisée, tandis que sa forme d'attaque reste inchangée.\n\n<i>« Tout aventurier professionnel digne de ce nom préfère se sortir d'une situation périlleuse plutôt que de faire des découvertes, aussi incroyables soient-elles ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Notes d'observation sur le terrain",
+            "desc": "Lorsque Lumi est sur le terrain, la <e:geo>RÉS Géo</e> des ennemis près d'elle diminue de 15 %.\n\n<k>Signelune « Lueur ascendante »</k> : la compétence élémentaire <k>Contre-mesure : Cri de guerre de Lumi !</k> et le déchaînement élémentaire <k>Mémo : Guide de survie en conditions extrêmes</k> de Linnea sont renforcés, et après avoir invoqué Lumi, la <e:geo>RÉS Géo</e> des ennemis près d'elle diminue de 15 % supplémentaires."
+          },
+          {
+            "name": "Archive naturaliste universelle",
+            "desc": "Linnea augmente la maîtrise élémentaire selon votre personnage déployé d'une valeur équivalant à 5 % de sa DÉF :\n· Si votre personnage déployé est un personnage signelunaire : la maîtrise élémentaire de ce dernier augmente.\n· Si votre personnage déployé n'est pas un personnage signelunaire : la maîtrise élémentaire de Linnea augmente."
+          },
+          {
+            "name": "Bénédiction de signelune : Enquête sur l'habitat",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction de Cristallisation Hydro, elle est convertie en réaction de Sélénocristallisation, dont les DGT de base augmentent selon la DÉF de Linnea : chaque tranche de 100 pts de DÉF augmente les DGT de base de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\n\nDe plus, la <k>signelune</k> de l'équipe augmente d'un niveau lorsque Linnea fait partie de l'équipe."
+          },
+          {
+            "name": "Aventurière experte",
+            "desc": "Lorsqu'elle n'est pas en combat, le temps de charge requis lorsque Linnea effectue un <k>tir visé</k> diminue grandement et elle tire une <k>flèche ultra-rapide</k> à la place, déclenchant divers effets selon la cible touchée :\n· Animal spécifique : la <k>flèche ultra-rapide</k> se transforme en filet spécial capable de capturer l'essence et la forme de l'animal, et de les utiliser comme support pour manifester à nouveau sa forme physique. Ce filet ne peut être utilisé qu'un nombre limité de fois par semaine.\n· Filon de minerai utilisable en forge : Linnea envoie Lumi, qui frappe rapidement le minerai marqué par la <k>flèche ultra-rapide</k> et récupère le minerai délogé. Si Lumi n'est pas sur le terrain, Linnea l'invoque brièvement pour l'aider à récupérer le minerai.\n\nLes DGT infligés aux ennemis par les <k>flèches ultra-rapides</k> diminuent à 20 % des DGT d'origine. De plus, Linnea doit se reposer un certain temps après avoir tiré un certain nombre de <k>flèches ultra-rapides</k> avant de pouvoir continuer à en tirer."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Classification provisoire",
+            "desc": "En utilisant sa compétence élémentaire <k>Contre-mesure : Cri de guerre de Lumi !</k> ou en activant une harmonie de voile lunaire, Linnea obtient 6 <k>catalogues de terrain</k> pendant 10 s, cet effet pouvant être cumulé 18 fois maximum. Lorsqu'un personnage de l'équipe à proximité inflige des DGT de réaction de Sélénocristallisation, un catalogue de terrain est consommé pour augmenter les DGT infligés d'une valeur équivalant à 75 % de la DÉF de Linnea.\nDe plus, lorsque Lumi utilise son <k>marteau d'un million de tonnes</k> en <k>forme ultra puissante</k>, Linnea peut consommer jusqu'à 5 catalogues de terrain, chaque catalogue consommé augmentant les DGT infligés d'une valeur équivalant à 150 % de sa DÉF."
+          },
+          {
+            "level": 2,
+            "name": "Présage de joie et de tristesse",
+            "desc": "Pendant 8 s après avoir activé une harmonie de voile lunaire, les DGT CRIT infligés par tous les personnages <e:hydro>Hydro</e> et <e:geo>Géo</e> de l'équipe augmentent de 40 % et les DGT CRIT infligés par le <k>marteau d'un million de tonnes</k> de Lumi en <k>forme ultra puissante</k> augmentent de 150 % supplémentaires.\n\n<k>Signelune « Lueur ascendante »</k> : lorsque Lumi utilise son <k>marteau de surcouple</k> en <k>forme super puissante</k> ou utilise son <k>marteau d'un million de tonnes</k> en forme ultra puissante, elle active une harmonie de voile lunaire, harmonie pour laquelle tous les personnages <e:hydro>Hydro</e> et <e:geo>Géo</e> de l'équipe sont considérés comme ayant appliqué leur élément lors de la réaction."
+          },
+          {
+            "level": 3,
+            "name": "Page de journal d'événements",
+            "desc": "Niveau d'aptitude <k>Contre-mesure : Cri de guerre de Lumi !</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Instinct d'experte",
+            "desc": "Pendant 5 s après avoir activé une harmonie de voile lunaire, la DÉF de Linnea et de votre personnage déployé augmente de 25 %. Cet effet d'augmentation de DÉF peut être cumulé lorsque Linnea est sur le terrain."
+          },
+          {
+            "level": 5,
+            "name": "Cadeau d'adieu du pays des fées",
+            "desc": "Niveau d'aptitude <k>Mémo : Guide de survie en conditions extrêmes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Rêve du Brachet doré",
+            "desc": "La constellation <k>Classification provisoire</k> est renforcée : Linnea obtient directement le maximum de <k>catalogues de terrain</k> en utilisant la compétence élémentaire <k>Contre-mesure : Cri de guerre de Lumi !</k> ou en déclenchant une harmonie de voile lunaire, et consommer des <k>catalogues de terrain</k> consomme une quantité de catalogues d'une valeur équivalant à 2 fois la quantité d'origine consommée afin d'augmenter l'amélioration de DGT jusqu'à 150 % de sa valeur d'origine.\n\n<k>Signelune « Lueur ascendante »</k> : les DGT de réaction de Sélénocristallisation des personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 25 %."
+          }
+        ]
+      }
+    }
   }
 }

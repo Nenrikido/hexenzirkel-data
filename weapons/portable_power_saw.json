@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12427",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around.",
+        "passive": {
+          "name": "Sea Shanty",
+          "refinements": {
+            "1": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain <r>40</r> Elemental Mastery, and 2s after the effect occurs, <r>2</r> Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "2": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain <r>50</r> Elemental Mastery, and 2s after the effect occurs, <r>2.5</r> Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "3": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain <r>60</r> Elemental Mastery, and 2s after the effect occurs, <r>3</r> Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "4": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain <r>70</r> Elemental Mastery, and 2s after the effect occurs, <r>3.5</r> Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "5": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain <r>80</r> Elemental Mastery, and 2s after the effect occurs, <r>4</r> Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une scie électrique à l'ancienne que l'on trouve rarement de nos jours. C'était autrefois un outil pour découper auquel les travailleurs du monde entier faisaient confiance.",
+        "passive": {
+          "name": "Chant de marins",
+          "refinements": {
+            "1": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque stoïque pendant 30 s, un maximum de 3 marques stoïques pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques stoïques et accorde un effet de surrection pendant 10 s : chaque marque stoïque consommée augmente la maîtrise élémentaire de <r>40</r> pts puis, 2 s après le début de l'effet, restaure l'énergie élémentaire du personnage équipé de l'arme de <r>2</r> pts. Un effet de surrection peut être déclenché une fois toutes les 15 s, et des marques stoïques peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque stoïque pendant 30 s, un maximum de 3 marques stoïques pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques stoïques et accorde un effet de surrection pendant 10 s : chaque marque stoïque consommée augmente la maîtrise élémentaire de <r>50</r> pts puis, 2 s après le début de l'effet, restaure l'énergie élémentaire du personnage équipé de l'arme de <r>2,5</r> pts. Un effet de surrection peut être déclenché une fois toutes les 15 s, et des marques stoïques peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque stoïque pendant 30 s, un maximum de 3 marques stoïques pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques stoïques et accorde un effet de surrection pendant 10 s : chaque marque stoïque consommée augmente la maîtrise élémentaire de <r>60</r> pts puis, 2 s après le début de l'effet, restaure l'énergie élémentaire du personnage équipé de l'arme de <r>3</r> pts. Un effet de surrection peut être déclenché une fois toutes les 15 s, et des marques stoïques peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque stoïque pendant 30 s, un maximum de 3 marques stoïques pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques stoïques et accorde un effet de surrection pendant 10 s : chaque marque stoïque consommée augmente la maîtrise élémentaire de <r>70</r> pts puis, 2 s après le début de l'effet, restaure l'énergie élémentaire du personnage équipé de l'arme de <r>3,5</r> pts. Un effet de surrection peut être déclenché une fois toutes les 15 s, et des marques stoïques peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque stoïque pendant 30 s, un maximum de 3 marques stoïques pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques stoïques et accorde un effet de surrection pendant 10 s : chaque marque stoïque consommée augmente la maîtrise élémentaire de <r>80</r> pts puis, 2 s après le début de l'effet, restaure l'énergie élémentaire du personnage équipé de l'arme de <r>4</r> pts. Un effet de surrection peut être déclenché une fois toutes les 15 s, et des marques stoïques peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

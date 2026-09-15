@@ -349,5 +349,147 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000104",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Phantom Feather Flurry",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal <e:anemo>Anemo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Spirit Reins, Shadow Hunt",
+            "desc": "Chasca and the will residing in her weapon resonate, dealing Nightsoul-aligned <e:anemo>AoE Anemo DMG</e>.\nAfter using this Skill, Chasca gains 80 Nightsoul points and enters the Nightsoul's Blessing state.\n\n<k>Nightsoul's Blessing: Chasca</k>\nContinually consume Nightsoul points. When Nightsoul points are fully depleted or the skill is used again, Chasca's Nightsoul's Blessing state will end. Her Nightsoul's Blessing has the following traits:\n· Mounts \"Soulsniper: Ritual Staff,\" increasing Chasca's Movement SPD and interruption resistance. In this state, Chasca will continually consume Nightsoul points to remain airborne. When Sprinting or increasing height, extra Nightsoul points will be consumed.\n· When using Normal or Charged Attacks, Tap or Hold to switch between using \"Multitarget Fire\" in different ways.\n\n<k>Multitarget Fire</k>\n<k>Tap</k>\nDeal Nightsoul-aligned <e:anemo>Anemo DMG</e> to opponents in front. This DMG is considered Normal Attack DMG.\n<k>Hold</k>\nEnter Aiming Mode and choose a certain number of opponents within a certain range, before loading up to 6 Shadowhunt Shells based on the duration for which the skill was charged. When 6 Shells have been loaded or charging is stopped, these Shells will be fired at the chosen opponents in sequence.\n\n<k>Shadowhunt Shells</k>\n· Deal Nightsoul-aligned <e:anemo>Anemo DMG</e>, which is considered Charged Attack DMG.\n· The 4th, 5th, and 6th Shells loaded into the cylinder will undergo Elemental Conversion based on the Elemental Types of the other characters in the party: For each <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e>, or <e:electro>Electro</e> character in the party, one Shadowhunt Shell will randomly be Converted into a \"Shining Shadowhunt Shell\" of one of these corresponding Elemental Types, dealing Nightsoul-aligned DMG corresponding to that Elemental Type. This DMG is considered Charged Attack DMG.\n· The Shells loaded into the cylinder are fired starting from the last Shadowhunt Shell to be loaded, in a \"last in, first out\" order.\n\nAdditionally, when Chasca is in the Nightsoul's Blessing state, Holding her Elemental Skill <k>Spirit Reins, Shadow Hunt</k> will cause her to execute a Nightsoul-aligned Plunging Attack. Release the Elemental Skill to interrupt this Plunging Attack and maintain her airborne state. Should Chasca hit the ground with her Plunging Attack, her Nightsoul's Blessing state will end.\n\n<i>In theory, as long as she's willing, those reins can bridle anything... But what could possibly be as cool as a giant hand cannon?</i>"
+          },
+          "burst": {
+            "name": "Soul Reaper's Fatal Round",
+            "desc": "Chasca concentrates her will, firing a single \"Galesplitting Soulseeker Shell\" that deals Nightsoul-aligned <e:anemo>AoE Anemo DMG</e>. Afterward, the Galesplitting Soulseeker Shell will split into 6 Soulseeker Shells, which attack nearby opponents.\n\n<k>Soulseeker Shells</k>\n· Deal Nightsoul-aligned <e:anemo>Anemo DMG</e>.\n· For each <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e>, or <e:electro>Electro</e> character in the party, two Soulseeker Shells will undergo corresponding Elemental Conversions to become \"Radiant Soulseeker Shells,\" which deal Nightsoul-aligned Elemental DMG from a randomly selected one of the corresponding Elemental Types.\n\n<i>None can escape from the moonlight or the whispers of the night, just as no foe can flee her attentive eyes once she's got them in her sights.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Bullet Trick",
+            "desc": "When the Elemental Skill <k>Spirit Reins, Shadow Hunt</k>'s <k>Multitarget Fire</k> is being charged, if there are party members who meet the Elemental Conversion Type requirements, gain the following effects based on the number of different eligible Elemental Types present:\n· There is a 33.3%/66.7%/100% chance for each Type to trigger \"Spiritbinding Conversion\" and cause the 3rd <k>Shadowhunt Shell</k> loaded into the cylinder to be randomly converted into a <k>Shining Shadowhunt Shell</k> from one of the corresponding Elemental Types.\n· Each Elemental Type will grant Chasca 1 stack of Spirit of the Radiant Shadow, increasing the DMG of Shining Shadowhunt Shell by 15%/35%/65%. This effect lasts until the current Multitarget Fire ends. Max 3 stacks."
+          },
+          {
+            "name": "Intent to Cover",
+            "desc": "When a nearby party member triggers a Nightsoul Burst, Chasca will fire a \"Burning Shadowhunt Shot\" at a nearby opponent, dealing Nightsoul-aligned <e:anemo>Anemo DMG</e> equal to 150% of the <k>Shadowhunt Shell</k> DMG from her Elemental Skill <k>Spirit Reins, Shadow Hunt</k>. If the party has <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e>, or <e:electro>Electro</e> characters, the Burning Shadowhunt Shot will be converted to deal Nightsoul-aligned Elemental DMG of the corresponding Elemental Type equal to 150% of the DMG dealt by <k>Spirit Reins, Shadow Hunt</k>'s <k>Shining Shadowhunt Shells</k>.\nThe DMG done in this way is considered Charged Attack DMG."
+          },
+          {
+            "name": "Night Realm's Gift: Everburning Heart",
+            "desc": "After her Nightsoul points are exhausted, Chasca will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Chasca. When the active character is in the air, the following will occur when switching to Chasca: Chasca will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team."
+          },
+          {
+            "name": "Mediation's True Meaning",
+            "desc": "25 Phlogiston will be restored when your own party members defeat an opponent. This effect can trigger once every 12s.\nThis has no effect in Domains, Trounce Domains, or the Spiral Abyss."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Cylinder, the Restless Roulette",
+            "desc": "When triggering the Ascension Talent \"Bullet Trick\"'s \"Spiritbinding Conversion,\" the 2nd <k>Shadowhunt Shell</k> loaded into the cylinder will be additionally converted into a <k>Shining Shadowhunt Shell</k>.\nThe chance to trigger \"Spiritbinding Conversion\" is increased: If there are party members who meet the Elemental Conversion Type requirements, the chance to trigger \"Spiritbinding Conversion\" is increased by 33.3%, up to a maximum of 100%.\n\nYou must first unlock the Ascension Talent \"Bullet Trick.\"\nIn addition, Chasca's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30% while out of combat."
+          },
+          {
+            "level": 2,
+            "name": "Muzzle, the Searing Smoke",
+            "desc": "When Chasca takes the field, she will obtain 1 stack of \"Spirit of the Radiant Shadow\" from the Ascension Talent \"Bullet Trick.\" You must first unlock the Ascension Talent \"Bullet Trick\" for this effect.\nIn addition, when the <k>Shining Shadowhunt Shells</k> from <k>Spirit Reins, Shadow Hunt</k>'s <k>Multitarget Fire</k> hit opponents, they will deal AoE Elemental DMG of the corresponding Elemental Type of the <k>Shining Shadowhunt Shells</k> equal to 400% of Chasca's ATK. This DMG is considered Charged Attack DMG. This effect can be triggered once each time Chasca uses <k>Multitarget Fire</k>."
+          },
+          {
+            "level": 3,
+            "name": "Reins, Her Careful Control",
+            "desc": "Increases the Level of <k>Spirit Reins, Shadow Hunt</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Sparks, the Sudden Shot",
+            "desc": "When the <k>Radiant Soulseeker Shells</k> from <k>Soul Reaper's Fatal Round</k> hit opponents, they will restore 1.5 Elemental Energy to Chasca, and deal AoE Elemental DMG of the corresponding Elemental Type of the <k>Radiant Soulseeker Shells</k> equal to 400% of Chasca's ATK. This DMG is considered Charged Attack DMG.\nThe aforementioned corresponding elemental AoE DMG effect can be triggered once each time Chasca uses <k>Soul Reaper's Fatal Round</k>."
+          },
+          {
+            "level": 5,
+            "name": "Brim, the Sandshadow's Silhouette",
+            "desc": "Increases the Level of <k>Soul Reaper's Fatal Round</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Showdown, the Glory of Battle",
+            "desc": "Chasca's <k>Multitarget Fire</k> charge time is decreased, and after the Ascension Talent \"Bullet Trick\"'s \"Spiritbinding Conversion\" is triggered, Chasca will gain the \"Fatal Rounds\" state: For the next 3s, the next time Chasca uses <k>Spirit Reins, Shadow Hunt</k>'s <k>Multitarget Fire</k>, the shots will finish charging instantly, and the CRIT DMG of that instance of <k>Multitarget Fire</k>'s <k>Shadowhunt Shells</k> and <k>Shining Shadowhunt Shells</k> increases by 120%. 1 \"Fatal Rounds\" effect can be gained once every 3s.\n\nYou must first unlock the Ascension Talent \"Bullet Trick\" to gain access to the above effect."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Rafale de plumes fantômes",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge de vents puissants, infligeant de considérables <e:anemo>DGT Anémo</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, attaquant les ennemis en chemin et infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Chasse des rênes spirituelles",
+            "desc": "Chasca et la volonté qui réside dans son arme résonnent, infligeant des <e:anemo>DGT Anémo de zone</e> infusés de noctâme.\nAprès utilisation, Chasca obtient 80 pts de noctâme et entre dans l'état Bénédiction noctâme.\n\n<k>Bénédiction noctâme : Chasca</k>\nLa bénédiction noctâme de Chasca consomme de façon continue ses points de noctâme et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. L'état Bénédiction noctâme de Chasca possède les propriétés spéciales suivantes :\n· En montant sur son spiribâton rituel, Chasca augmente sa VIT de déplacement et sa RÉS à l'interruption et consomme de façon continue ses points de noctâme pour flotter dans les airs, sprinter et flotter plus haut consommant des points de noctâme supplémentaires.\n· En utilisant une attaque normale ou chargée, l'appui simple et l'appui long permettent de basculer entre différentes façons d'utiliser la visée multiple.\n\n<k>Visée multiple</k>\n<k>Appui simple</k>\nChasca inflige des <e:anemo>DGT Anémo</e> infusés de noctâme aux ennemis en face, ces DGT étant considérés comme des DGT d'attaque normale.\n<k>Appui long</k>\nChasca bascule en mode visée tout en choisissant un certain nombre d'ennemis à portée, avant de recharger un maximum de 6 cartouches de chassombre, la quantité de cartouches rechargées dépendant du temps de charge. Chasca tire ces cartouches dans l'ordre une fois les 6 cartouches rechargées ou la charge interrompue.\n\n<k>Cartouche de chassombre</k>\n· Inflige des <e:anemo>DGT Anémo</e> infusés de noctâme, ces DGT étant considérés comme des DGT d'attaque chargée.\n· Les 4e, 5e et 6e cartouches de chassombre chargées dans l'arme de Chasca subissent une absorption élémentaire en fonction des types élémentaires des autres personnages de l'équipe. Chaque personnage de l'équipe de l'élément <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e> modifie aléatoirement une cartouche de chassombre en cartouche radieuse de chassombre de l'élément correspondant qui inflige des DGT élémentaires infusés de noctâme, ces DGT étant considérés comme des DGT d'attaque chargée.\n· Les cartouches de chassombre sont tirées dans l'ordre inverse de leur rechargement.\n\nDe plus, en déclenchant la compétence élémentaire <k>Chasse des rênes spirituelles</k> avec un appui long pendant sa bénédiction noctâme, Chasca effectue à la place une attaque plongeante infusée de noctâme qui peut être annulée en relâchant l'appui long tout en laissant Chasca flotter dans les airs. Frapper le sol avec cette attaque plongeante met fin à la bénédiction noctâme de Chasca.\n\n<i>En théorie, tant qu'elle le désire, ces rênes peuvent brider n'importe quoi... Mais qu'est-ce qui pourrait être aussi cool qu'un canon à main géant ?</i>"
+          },
+          "burst": {
+            "name": "Assaut de faucheur d'âmes",
+            "desc": "Chasca concentre sa volonté et tire une seule cartouche brisâme de vent qui inflige des <e:anemo>DGT Anémo de zone</e> infusés de noctâme avant de se séparer en 6 cartouches brisâmes attaquant les ennemis proches.\n\n<k>Cartouche brisâme</k>\n· Inflige des <e:anemo>DGT Anémo</e> infusés de noctâme.\n· Chaque personnage de l'équipe de l'élément <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e> modifie aléatoirement deux cartouches brisâmes en cartouches brisâmes de lumière qui infligent des DGT infusés de noctâme d'un des éléments correspondants.\n\n<i>Nul ne peut échapper aux murmures incessants de la nuit et du clair de lune, tout comme aucun ennemi ne peut fuir ses yeux attentifs une fois en vue.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Astuce balistique",
+            "desc": "En chargeant la <k>visée multiple</k> de la compétence élémentaire <k>Chasse des rênes spirituelles</k>, les effets suivants s'appliquent si l'équipe contient des personnages avec un type élémentaire convenant aux conditions d'absorption élémentaire :\n· Chaque type élémentaire a, selon le nombre de types élémentaires éligibles, 33,3 %/66,7 %/100 % de chances de déclencher une conversion spirituelle, modifiant alors aléatoirement la 3e <k>cartouche de chassombre</k> chargée dans l'arme en <k>cartouche radieuse de chassombre</k> d'un élément correspondant.\n· Chaque type d'élément accorde à Chasca 1 cumul d'esprit d'ombre radieuse, augmentant les DGT infligés par les cartouches radieuses de chassombre de 15 %/35 %/65 %. Cet effet dure jusqu'à la fin de la visée multiple et peut être cumulé 3 fois maximum."
+          },
+          {
+            "name": "Intention protectrice",
+            "desc": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, Chasca tire une cartouche brûlante de chassombre sur un ennemi proche pour infliger des <e:anemo>DGT Anémo</e> infusés de noctâme d'une valeur équivalant à 150 % des DGT d'une <k>cartouche de chassombre</k> de la compétence élémentaire <k>Chasse des rênes spirituelles</k>. Si l'équipe contient un personnage <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e>, la cartouche brûlante de chassombre subit une absorption élémentaire pour infliger des DGT infusés de noctâme de l'élément correspondant d'une valeur équivalant à 150 % des DGT d'une <k>cartouche radieuse de chassombre</k> de la compétence élémentaire <k>Chasse des rênes spirituelles</k>.\nLes DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée."
+          },
+          {
+            "name": "Don de la nuit : Âme brûlante",
+            "desc": "Après avoir épuisé ses points de noctâme, Chasca change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Chasca » peut être utilisée. Lorsque le personnage déployé est dans les airs, le déploiement de Chasca déclenche l'effet suivant : Chasca entre dans l'état Bénédiction noctâme et obtient 32 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe."
+          },
+          {
+            "name": "Méditation sensée",
+            "desc": "Restaure 25 pts de phlogistique lorsque vos personnages dans l'équipe éliminent un ennemi. Cet effet peut être déclenché une fois toutes les 12 s.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Cylindre, la roulette agitée",
+            "desc": "Déclencher une conversion spirituelle de l'aptitude d'élévation « Astuce balistique » modifie également la 2e <k>cartouche de chassombre</k> chargée dans l'arme en <k>cartouche radieuse de chassombre</k>.\nLes chances de déclencher une conversion spirituelle augmentent : si l'équipe contient un personnage avec un type élémentaire convenant aux conditions d'absorption élémentaire, les chances de déclencher une conversion spirituelle augmentent de 33,3 %, jusqu'à un maximum de 100 %.\n\nL'aptitude d'élévation « Astuce balistique » doit être déjà débloquée.\nDe plus, la consommation de points de noctâme et de phlogistique de Chasca pendant sa bénédiction noctâme diminue de 30 % lorsqu'elle n'est pas en combat."
+          },
+          {
+            "level": 2,
+            "name": "Museau, la fumée brûlante",
+            "desc": "Chasca obtient 1 cumul d'esprit d'ombre radieuse d'Astuce balistique lorsqu'elle est déployée au combat, l'aptitude d'élévation « Astuce balistique » devant être déjà débloquée.\nDe plus, lorsqu'une <k>cartouche radieuse de chassombre</k> de la <k>visée multiple</k> de la compétence élémentaire <k>Chasse des rênes spirituelles</k> touche un ennemi, elle inflige des DGT de zone de son élément <k></k>d'une valeur équivalant à 400 % de l'ATQ de Chasca. Ces DGT sont considérés comme des DGT d'attaque chargée. Cet effet peut être déclenché une fois par <k>visée multiple</k>."
+          },
+          {
+            "level": 3,
+            "name": "Rênes, le contrôle minutieux",
+            "desc": "Niveau d'aptitude <k>Chasse des rênes spirituelles</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Étincelles, le tir soudain",
+            "desc": "Lorsqu'une <k>cartouche brisâme de lumière</k> du déchaînement élémentaire <k>Assaut de faucheur d'âmes</k> touche un ennemi, Chasca récupère 1,5 pt d'énergie élémentaire et la <k>cartouche brisâme de lumière</k> inflige des DGT de zone de son élément d'une valeur équivalant à 400 % de l'ATQ de Chasca, ces DGT étant considérés comme des DGT d'attaque chargée.\nCet effet de DGT élémentaire de zone peut être déclenché une fois par <k>Assaut de faucheur d'âmes</k>."
+          },
+          {
+            "level": 5,
+            "name": "Passe, la silhouette ombrée",
+            "desc": "Niveau d'aptitude <k>Assaut de faucheur d'âmes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Affrontement, la gloire guerrière",
+            "desc": "Le temps de charge requis lorsque Chasca effectue une <k>visée multiple</k> diminue et, après avoir déclenché une conversion spirituelle de l'aptitude d'élévation « Astuce balistique », Chasca passe en état Assaut fatal : pendant les 3 prochaines secondes, la prochaine <k>visée multiple</k> de la compétence élémentaire <k>Chasse des rênes spirituelles</k> de Chasca est immédiatement chargée au maximum et les DGT des <k>cartouches de chassombre</k> et des <k>cartouches radieuses de chassombre</k> de cette <k>visée multiple</k> augmentent de 120 %. L'état Assaut fatal peut être obtenu une fois toutes les 3 s.\n\nL'aptitude d'élévation « Astuce balistique » doit être déjà débloquée."
+          }
+        ]
+      }
+    }
   }
 }

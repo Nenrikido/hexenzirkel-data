@@ -358,5 +358,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000048",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Seal of Approval",
+            "desc": "<k>Normal Attack</k>\nShoots fireballs that deal up to three counts of <e:pyro>Pyro DMG</e>.\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n<k>Charged Attack</k>\nConsumes Stamina and all Scarlet Seals before dealing <e:pyro>AoE Pyro DMG</e> to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n<k>Plunging Attack</k>\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:pyro>AoE Pyro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Signed Edict",
+            "desc": "Summons blistering flames that deal <e:pyro>AoE Pyro DMG</e>.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n\n<i>Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.</i>"
+          },
+          "burst": {
+            "name": "Done Deal",
+            "desc": "Triggers a spray of intense flames that rush at nearby opponents, dealing <e:pyro>AoE Pyro DMG</e>, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n<k>Brilliance</k>\nHas the following effects:\n· Grants Yanfei a Scarlet Seal at fixed intervals.\n· Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n\n<i>\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Proviso",
+            "desc": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's <e:pyro>Pyro DMG Bonus</e> by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect."
+          },
+          {
+            "name": "Blazing Eye",
+            "desc": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of <e:pyro>AoE Pyro DMG</e> equal to 80% of her ATK. This DMG counts as Charged Attack DMG."
+          },
+          {
+            "name": "Encyclopedic Expertise",
+            "desc": "Displays the location of nearby <k>resources unique to Liyue</k> on the mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "The Law Knows No Kindness",
+            "desc": "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release."
+          },
+          {
+            "level": 2,
+            "name": "Right of Final Interpretation",
+            "desc": "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP."
+          },
+          {
+            "level": 3,
+            "name": "Samadhi Fire-Forged",
+            "desc": "Increases the Level of <k>Signed Edict</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Supreme Amnesty",
+            "desc": "When <k>Done Deal</k> is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs <e:pyro>Pyro DMG</e> 250% more effectively."
+          },
+          {
+            "level": 5,
+            "name": "Abiding Affidavit",
+            "desc": "Increases the Level of <k>Done Deal</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Extra Clause",
+            "desc": "Increases the maximum number of Scarlet Seals by 1."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Sceau embrasé",
+            "desc": "<k>Attaque normale</k>\nTire des boules de feu qui infligent jusqu'à 3 vagues de <e:pyro>DGT Pyro</e>.\nLorsqu'une attaque normale touche un ennemi, Yanfei obtient un sceau écarlate. Yanfei peut détenir un maximum de 3 sceaux écarlates, et chaque fois que cet effet se déclenche, la durée des sceaux en sa possession est réinitialisée.\nChaque sceau écarlate diminue la consommation d'endurance de Yanfei, et disparaît lorsque Yanfei quitte le champ de bataille.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance et tous les sceaux écarlates pour infliger des <e:pyro>DGT Pyro de zone</e> aux ennemis en face de Yanfei après un court délai.\nLa portée et l'intensité de ces DGT Pyro de zone augmentent avec le nombre de sceaux écarlates consommés.\n\n<k>Attaque plongeante</k>\nYanfei concentre son énergie Pyro et plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des <e:pyro>DGT Pyro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Pacte des flammes",
+            "desc": "Yanfei en appelle aux flammes dévastatrices, infligeant des <e:pyro>DGT Pyro de zone</e>.\nLorsque des ennemis sont touchés, Yanfei gagne le nombre maximum de sceaux écarlates.\n\n<i>En plus de leur valeur juridique, les sceaux de Yanfei présentent des conditions d'utilisation très personnalisées. Après tout, ce n'est pas comme si le Bureau des affaires civiles pouvait changer les lois de la nature.</i>"
+          },
+          "burst": {
+            "name": "Application des peines",
+            "desc": "Invoque une explosion de flammes intenses qui jaillit vers les ennemis proches, infligeant des <e:pyro>DGT Pyro de zone</e> et conférant à Yanfei le nombre maximum de sceaux écarlates, tout en appliquant l'effet Brillance.\n\n<k>Brillance</k>\nConfère les effets suivants :\n· Confère à Yanfei un sceau écarlate à intervalles réguliers.\n· Augmente les DGT infligés par ses attaques chargées.\nLes effets de la brillance se dissipent lorsque Yanfei quitte le champ de bataille ou qu'elle est vaincue.\n\n<i>« Veuillez trouver ici les termes de cette question de vie ou de mort, et par là j'entends ma vie et votre mort ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Dispositions supplémentaires",
+            "desc": "Lorsque Yanfei consomme un sceau écarlate en utilisant une attaque chargée, chaque sceau écarlate augmente le <e:pyro>bonus de DGT Pyro</e> de Yanfei de 5 % pour 6 s. Utiliser une attaque chargée avant la fin de la durée d'un effet dissipe l'effet précédent."
+          },
+          {
+            "name": "Œil de la justice",
+            "desc": "Quand les attaques chargées de Yanfei infligent des coups CRIT aux ennemis, elle inflige des <e:pyro>DGT Pyro de zone</e> supplémentaires équivalant à 80 % de son ATQ. Ces DGT sont considérés comme des DGT d'attaque chargée."
+          },
+          {
+            "name": "Connaissance du terrain",
+            "desc": "Affiche l'emplacement des <k>produits de Liyue</k> sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Plaidoyer convaincant",
+            "desc": "Lorsque Yanfei utilise une attaque chargée, chaque sceau écarlate existant diminue sa consommation d'endurance de 10 % supplémentaires et augmente la RÉS à l'interruption lors de son déclenchement."
+          },
+          {
+            "level": 2,
+            "name": "Verdict final",
+            "desc": "Le taux CRIT des attaques chargées de Yanfei augmente de 20 % lorsqu'elles touchent des ennemis dont les PV sont inférieurs à 50 %."
+          },
+          {
+            "level": 3,
+            "name": "Mise sous scellés",
+            "desc": "Niveau d'aptitude <k>Pacte des flammes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Droit commun",
+            "desc": "<k>Application des peines</k> confère les effets suivants :\nGénère un bouclier qui absorbe une quantité de DGT équivalant à 45 % des PV max et dure 15 s.\nLe bouclier est efficace à 250 % contre les <e:pyro>DGT Pyro</e>."
+          },
+          {
+            "level": 5,
+            "name": "Déclaration sous serment",
+            "desc": "Niveau d'aptitude <k>Application des peines</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Clause complémentaire",
+            "desc": "Augmente le nombre maximum de sceaux écarlates de 1."
+          }
+        ]
+      }
+    }
   }
 }

@@ -207,5 +207,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000050",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Swiftshatter Spear",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Blazing Blessing",
+            "desc": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals <e:pyro>AoE Pyro DMG</e>, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies <e:pyro>Pyro</e> to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n· Absorbs <e:pyro>Pyro DMG</e> 250% more effectively.\n· When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\n<i>As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.</i>"
+          },
+          "burst": {
+            "name": "Crimson Ooyoroi",
+            "desc": "Thoma spins his polearm, slicing at his foes with roaring flames that deal <e:pyro>AoE Pyro DMG</e> and weave themselves into a Scorching Ooyoroi.\n\n<k>Scorching Ooyoroi</k>\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing <e:pyro>AoE Pyro DMG</e> and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\n\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n· Absorbs <e:pyro>Pyro DMG</e> 250% more effectively.\n· When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\n\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\n\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.\n\n<i>\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Imbricated Armor",
+            "desc": "When your current active character obtains or refreshes a <k>Blazing Barrier</k>, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3s seconds. Max 5 stacks."
+          },
+          {
+            "name": "Flaming Assault",
+            "desc": "DMG dealt by <k>Crimson Ooyoroi</k>'s Fiery Collapse is increased by 2.2% of Thoma's Max HP."
+          },
+          {
+            "name": "Snap and Swing",
+            "desc": "When you <k>fish</k> successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "A Comrade's Duty",
+            "desc": "When a character protected by Thoma's own <k>Blazing Barrier</k> (Thoma excluded) is attacked, Thoma's own <k>Blazing Blessing</k> CD is decreased by 3s, while his own <k>Crimson Ooyoroi</k>'s CD is decreased by 3s.\nThis effect can be triggered once every 20s."
+          },
+          {
+            "level": 2,
+            "name": "A Subordinate's Skills",
+            "desc": "<k>Crimson Ooyoroi</k>'s duration is increased by 3s."
+          },
+          {
+            "level": 3,
+            "name": "Fortified Resolve",
+            "desc": "Increases the Level of <k>Blazing Blessing</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Long-Term Planning",
+            "desc": "After using <k>Crimson Ooyoroi</k>, 15 Energy will be restored to Thoma."
+          },
+          {
+            "level": 5,
+            "name": "Raging Wildfire",
+            "desc": "Increases the Level of <k>Crimson Ooyoroi</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Burning Heart",
+            "desc": "When a <k>Blazing Barrier</k> is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance célère",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Bénédiction flamboyante",
+            "desc": "Thomas utilise la pointe de sa lance comme point d'appui pour canaliser les flammes et effectuer un coup de pied qui inflige des <e:pyro>DGT Pyro de zone</e> et libère une barrière défensive brûlante. Au moment où elle se déclenche, la barrière applique l'<e:pyro>élément Pyro</e> à Thomas.\nL'absorption de DGT de la barrière est fonction des PV max de Thomas.\nLa barrière brûlante possède les caractéristiques suivantes :\n· Elle absorbe les <e:pyro>DGT Pyro</e> avec 250 % d'efficacité.\n· L'absorption de DGT restante d'une barrière brûlante existante se cumulera si une autre barrière brûlante est obtenue en même temps, tandis que sa durée sera réinitialisée.\n\nL'absorption maximale de DGT de la barrière ne dépassera pas un certain pourcentage des PV max de Thomas.\n\n<i>Pour un invité venu de loin, seule la passion la plus ardente permet de maîtriser les arts si précis de la lance d'Inazuma. Les prouesses de Thomas, en effet, ne se limitent pas à être « le disciple le plus rapide » ou « un lancier hautement qualifié », il a également imprégné sa technique de sa volonté de protéger les autres et de repousser les ennemis.</i>"
+          },
+          "burst": {
+            "name": "O-yoroi écarlate",
+            "desc": "Thomas fait tournoyer sa lance, tranchant ses ennemis avec des flammes rugissantes qui infligent des <e:pyro>DGT Pyro de zone</e> et se transforment en un o-yoroi embrasé.\n\n<k>O-yoroi embrasé</k>\nL'attaque normale d'un personnage déployé affecté par un o-yoroi embrasé déclenchera un effondrement ardent qui inflige des <e:pyro>DGT Pyro de zone</e> et crée une barrière brûlante.\nUn effondrement ardent peut être déclenché une fois toutes les secondes.\n\nUne barrière brûlante créée de cette manière est identique à celle créée grâce à la compétence élémentaire « Bénédiction flamboyante » de Thomas, à l'exception de la quantité de DGT qu'elle peut absorber.\n· Elle absorbe les <e:pyro>DGT Pyro</e> avec 250 % d'efficacité.\n· L'absorption de DGT restante d'une barrière brûlante existante se cumulera si une autre barrière brûlante est obtenue en même temps, tandis que sa durée sera réinitialisée.\n\nL'absorption maximale de DGT de la barrière ne dépassera pas un certain pourcentage des PV max de Thomas.\n\nSi Thomas est vaincu, les effets de l'o-yoroi embrasé se dissiperont.\n\n<i>« Je n'oublierai pas ma promesse. Que cette flamme brûlante protège ceux que je chéris, et qu'elle ne s'éteigne jamais. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Superposition d'armures",
+            "desc": "Lorsque le personnage déployé obtient ou réinitialise une <k>barrière brûlante</k>, la force de son bouclier augmente de 5 % pendant 6 s.\nCet effet peut être déclenché une fois toutes les 0,3 s et cumulé 5 fois maximum."
+          },
+          {
+            "name": "Assaut enflammé",
+            "desc": "Les DGT infligés par l'effondrement ardent d'<k>O-yoroi écarlate</k> augmentent d'une valeur équivalant à 2,2 % des PV max de Thomas."
+          },
+          {
+            "name": "Passion pêche",
+            "desc": "Lorsque le voyageur réussit une <k>pêche</k> à Inazuma, l'aide de Thomas accorde 20 % de chances d'obtenir le double de prises."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Devoir de camarade",
+            "desc": "Lorsqu'un personnage protégé par la <k>barrière brûlante</k> de Thomas subit une attaque (hormis Thomas), les TdR de <k>Bénédiction flamboyante</k> et d'<k>O-yoroi écarlate</k> de Thomas diminuent de 3 s.\nCet effet peut être déclenché une fois toutes les 20 s."
+          },
+          {
+            "level": 2,
+            "name": "Compétences de subordonné",
+            "desc": "Prolonge la durée d'<k>O-yoroi écarlate</k> de 3 s."
+          },
+          {
+            "level": 3,
+            "name": "Résolution à toute épreuve",
+            "desc": "Niveau d'aptitude <k>Bénédiction flamboyante</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Planification à long terme",
+            "desc": "Après avoir utilisé <k>O-yoroi écarlate</k>, Thomas récupère 15 pts d'énergie élémentaire."
+          },
+          {
+            "level": 5,
+            "name": "Feu incontrôlable",
+            "desc": "Niveau d'aptitude <k>O-yoroi écarlate</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Cœur brûlant",
+            "desc": "Lorsqu'une <k>barrière brûlante</k> est obtenue ou réinitialisée, les DGT des attaques normales, chargées et plongeantes de tous les personnages de l'équipe augmentent de 15 % pendant 6 s."
+          }
+        ]
+      }
+    }
   }
 }

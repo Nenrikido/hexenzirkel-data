@@ -216,5 +216,155 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000041",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Ripple of Fate",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 water splash attacks that deal <e:hydro>Hydro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to deal <e:hydro>AoE Hydro DMG</e> after a short casting time.\n\n<k>Plunging Attack</k>\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:hydro>AoE Hydro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Mirror Reflection of Doom",
+            "desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\n\n<k>Phantom</k>\nHas the following special properties:\n· Continuously taunts nearby opponents, attracting their fire.\n· Continuously deals <e:hydro>Hydro DMG</e> to nearby opponents.\n· When its duration expires, the Phantom explodes, dealing <e:hydro>AoE Hydro DMG</e>.\n\n<k>Hold</k>\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>"
+          },
+          "burst": {
+            "name": "Stellaris Phantasm",
+            "desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\n\n<k>Illusory Bubble</k>\nTraps opponents inside a pocket of destiny and also makes them <e:hydro>Wet</e>. Renders weaker opponents immobile.\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\n· Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\n· Removes the Illusory Bubble, dealing <e:hydro>Hydro</e> DMG in the process.\n\n<k>Omen</k>\nDuring its duration, increases DMG taken by opponents.\n\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>"
+          },
+          "sprint": {
+            "name": "Illusory Torrent",
+            "desc": "<k>Alternate Sprint</k>\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\n\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\nApplies the <e:hydro>Wet</e> status to nearby opponents when she reappears.\n\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "\"Come 'n' Get Me, Hag!\"",
+            "desc": "After she has used <k>Illusory Torrent</k> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <k>Mirror Reflection of Doom</k>."
+          },
+          {
+            "name": "Waterborne Destiny",
+            "desc": "Increases Mona's <e:hydro>Hydro DMG Bonus</e> by a degree equivalent to 20% of her Energy Recharge rate."
+          },
+          {
+            "name": "Principium of Astrology",
+            "desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used."
+          },
+          {
+            "name": "Witch's Eve Rite: Genesis of Starsigns",
+            "desc": "After completing <k>Witch's Homework: Of Untested Insight</k>, Mona will become a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you will gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\n\n<k>Hexerei: Secret Rite</k>\nWhen Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of <k>Astral Glow of Mercury</k>, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%.\nAdditionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's <k>Omen</k> duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Prophecy of Submersion",
+            "desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <e:hydro>Hydro-related Elemental Reactions</e> are enhanced for 8s:\n· Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%.\n· Frozen duration is extended by 15%.\n\nAdditionally, when your off-field party members trigger the above effect, the DMG Bonus to the above Hydro-related Elemental Reactions is enhanced to 160% of its original effect."
+          },
+          {
+            "level": 2,
+            "name": "Lunar Chain",
+            "desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. Additionally, within 5s after Mona unleashes her Elemental Burst <k>Stellaris Phantasm</k>, her next Normal Attack that hits an enemy will automatically trigger a Charged Attack.\nThe aforementioned Charged Attack effect can only occur once every 5s.\nWhen Mona's Charged Attack hits an opponent, all nearby party members will have their Elemental Mastery increased by 80 for 12s."
+          },
+          {
+            "level": 3,
+            "name": "Restless Revolution",
+            "desc": "Increases the Level of <k>Stellaris Phantasm</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Prophecy of Oblivion",
+            "desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.\nWhen any Hexerei party member attacks an opponent affected by an Omen, their CRIT DMG is increased by 15%."
+          },
+          {
+            "level": 5,
+            "name": "Mockery of Fortuna",
+            "desc": "Increases the Level of <k>Mirror Reflection of Doom</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Rhetorics of Calamitas",
+            "desc": "While Mona is the active character, while she is in the <k>Illusory Torrent</k> state or there are opponents affected by an Omen nearby, she gains a 60% increase to the DMG of her next Charged Attack per second. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.\nAdditionally, the DMG Mona's Charged Attacks deal to opponents affected by an Omen will be increased to 200% of the original DMG."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Ondes du destin",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 attaques d'eau qui infligent des <e:hydro>DGT Hydro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:hydro>DGT Hydro de zone</e> après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Hydro, infligeant des DGT aux ennemis en chemin et des <e:hydro>DGT Hydro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Mirage aqueux",
+            "desc": "Mona invoque un mirage du destin créé à partir de projections aqueuses.\n\n<k>Mirage</k>\nLe mirage a les effets suivants :\n· Nargue les ennemis proches et attire leur attention.\n· Inflige des <e:hydro>DGT Hydro continus</e> aux ennemis proches.\n· Lorsque le mirage prend fin, il explose et inflige des <e:hydro>DGT Hydro de zone</e>.\n\n<k>Appui long</k>\nMona utilise la puissance de l'eau pour se propulser rapidement en arrière et invoque un mirage du destin.\nIl ne peut exister qu'un seul mirage à la fois.\n\n<i>Les astromanciens les plus doués ont toujours rêvé de pouvoir créer un sosie d'eux-mêmes pour pouvoir faire face au danger, mais Mona est sans doute la première à avoir réalisé ce tour de main.</i>"
+          },
+          "burst": {
+            "name": "Voie divine",
+            "desc": "Mona invoque des vagues chatoyantes pour créer un reflet du ciel étoilé, infligeant l'état Bulle nocturne aux ennemis dans un large rayon.\n\n<k>Bulle nocturne</k>\nEmprisonne les ennemis, et les <e:hydro>trempe</e>. Les ennemis les plus faibles sont immobilisés.\nLorsqu'un ennemi emprisonné subit des DGT, il subit également les effets suivants :\n· Un présage est appliqué à l'ennemi, qui subit alors une augmentation de DGT, y compris de l'attaque l'ayant provoqué.\n· L'effet Bulle nocturne disparaît, et inflige des <e:hydro>DGT Hydro</e> supplémentaires.\n\n<k>Présage</k>\nLe présage augmente les DGT subis par l'ennemi tant qu'il est actif.\n\n<i>C'est lorsque le regard des dieux dessina les étoiles que la notion de « destin » naquit.</i>"
+          },
+          "sprint": {
+            "name": "Vicissitude",
+            "desc": "<k>Sprint alternatif</k>\nMona consomme de l'endurance pour se déplacer aussi vite qu'un torrent sous la forme d'un courant d'eau.\n\nDans l'état Vicissitude, Mona peut se déplacer rapidement sur l'eau.\nÀ la fin de l'état, Mona <e:hydro>trempe</e> les ennemis proches lorsqu'elle réapparaît.\n\n<i>Voici une technique que Mona est capable d'effectuer, mais pas son maître. Ce n'est pas comme si cette dernière souhaitait apprendre quoi que ce soit au sujet de l'œil divin Hydro...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Leurre du fatum",
+            "desc": "Entrer dans l'état <k>Vicissitude</k> invoque automatiquement un mirage après 2 s en cas de présence d'ennemis proches.\nLe mirage ainsi invoqué dure 2 s, et ses DGT d'explosion sont équivalents à 50 % des DGT de <k>Mirage aqueux</k>."
+          },
+          {
+            "name": "Que le destin décide",
+            "desc": "Confère à Mona un <e:hydro>bonus de DGT Hydro</e> équivalant à 20 % de sa recharge d'énergie."
+          },
+          {
+            "name": "Principes d'astromancie",
+            "desc": "Lorsque vous fabriquez un matériau d'élévation d'arme, il y a 25 % de chances qu'une partie des matières premières vous soit rendue."
+          },
+          {
+            "name": "Veillée de la sorcière : Genèse des signes stellaires",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « De perspicacité inconnue »</k>, Mona devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\n\n<k>Hexerei : Rituel secret</k>\nLorsqu'une attaque normale ou chargée de Mona touche un ennemi, elle obtient un cumul de lueur astrale de Mercure pendant 8 s, cet effet pouvant être obtenu une fois toutes les 0,1 s de cette manière et pouvant se cumuler 3 fois maximum. Lorsqu'un autre personnage de votre équipe déclenche une réaction d'Évaporation sur un ennemi, tous les cumuls de lueur astrale de Mercure sont consommés pour augmenter les DGT de cette réaction de 5 % par cumul consommé.\nDe plus, lorsqu'une attaque normale ou chargée de Mona touche un ennemi, le <k>présage</k> de ce dernier est prolongé de 2 s. Cet effet peut être déclenché une fois toutes les 0,5 s, un <k>présage</k> pouvant être prolongé d'un maximum de 8 s de cette manière."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Prophétie immersive",
+            "desc": "Les effets des <e:hydro>réactions liées à l'élément Hydro</e> sont renforcés pendant 8 s lorsqu'une attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage :\n· Les DGT d'Électrocution, de Sélénocution, d'Évaporation, de Dispersion Hydro et de Sélénocristallisation augmentent de 15 %.\n· La durée de Gel augmente de 15 %.\n\nDe plus, lorsqu'un personnage de l'équipe n'étant pas déployé déclenche cet effet, l'augmentation des DGT passe à 160 % de son effet d'origine."
+          },
+          {
+            "level": 2,
+            "name": "Chaîne lunaire",
+            "desc": "Les attaques normales ont 20 % de chances d'être suivies par une attaque chargée. De plus, pendant 5 s après que Mona utilise son déchaînement élémentaire <k>Voie divine</k>, la prochaine attaque normale qui touche un ennemi déclenche automatiquement une attaque chargée.\nUne telle attaque chargée automatique peut être déclenchée une fois toutes les 5 s.\nLorsqu'une attaque chargée de Mona touche un ennemi, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 80 pts pendant 12 s."
+          },
+          {
+            "level": 3,
+            "name": "Révolution éternelle",
+            "desc": "Niveau d'aptitude <k>Voie divine</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Prophétie de la fin",
+            "desc": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage.\nLorsqu'un personnage héxère de l'équipe attaque un ennemi marqué par un présage, ses DGT CRIT augmentent de 15 %."
+          },
+          {
+            "level": 5,
+            "name": "Un tour du destin",
+            "desc": "Niveau d'aptitude <k>Mirage aqueux</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Rhétorique de l'adversité",
+            "desc": "Lorsque Mona est sur le champ de bataille, si elle est dans l'état <k>Vicissitude</k> ou si un ou plusieurs ennemis marqués par un présage sont à proximité, elle obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde, cet effet pouvant être cumulé 3 fois maximum (bonus de 180 %) et durant 8 s.\nDe plus, les DGT infligés par les attaques chargées de Mona aux ennemis marqués par un présage augmentent à une valeur équivalant à 200 % des DGT d'origine."
+          }
+        ]
+      }
+    }
   }
 }

@@ -502,5 +502,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000022",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Divine Marksmanship",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 6 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal <e:anemo>Anemo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\n\n<k>Hexerei: Secret Rite</k>\nWhile the Stormeye created by the Elemental Burst <k>Wind's Grand Ode</k> is active, Venti will gain additional buff effects:\n· Venti's Normal Attacks will be converted into enemy-piercing <k>Windsunder Arrows</k> that deal even more <e:anemo>Anemo DMG</e> to opponents along the path.\n· When Venti's Normal Attacks hit opponents, Stormeye's duration is increased by 1s, and its CD is increased by 0.5s. This effect can be triggered once every 0.1s and up to 2 times after each use of the Elemental Burst <k>Wind's Grand Ode</k>."
+          },
+          "skill": {
+            "name": "Skyward Sonnet",
+            "desc": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n<k>Press</k>\nSummons a Wind Domain at the opponent's location, dealing <e:anemo>AoE Anemo DMG</e> and launching opponents into the air.\n\n<k>Hold</k>\nSummons an even larger Wind Domain with Venti as the epicenter, dealing <e:anemo>AoE Anemo DMG</e> and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\n\nOpponents hit by Skyward Sonnet will fall to the ground slowly.\n\n<i>In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.</i>"
+          },
+          "burst": {
+            "name": "Wind's Grand Ode",
+            "desc": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous <e:anemo>Anemo DMG</e>.\n\n<k>Elemental Absorption</k>\nIf the Stormeye comes into contact with <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Embrace of Winds",
+            "desc": "Holding <k>Skyward Sonnet</k> creates an upcurrent that lasts for 20s."
+          },
+          {
+            "name": "Stormeye",
+            "desc": "Regenerates 15 Energy for Venti after the effects of <k>Wind's Grand Ode</k> end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party."
+          },
+          {
+            "name": "Windrider",
+            "desc": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+          },
+          {
+            "name": "Witch's Eve Rite: Temporal Wind's Eulogy",
+            "desc": "After completing <k>Witch's Homework: Of the Waking of Wind</k>, Venti will become a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you will gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\n\n<k>Hexerei: Secret Rite</k>\nWhile the Stormeye created by the Elemental Burst <k>Wind's Grand Ode</k> is active, for 4s after a nearby active character triggers a Swirl or Stellar Swirl reaction, that character's DMG is increased by 50%, and Venti's Stormeye deals 135% of its original DMG."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Splitting Gales",
+            "desc": "Fires 2 additional arrows per <k>Aimed Shot</k>, each dealing 33% of the original arrow's DMG.\nAdditionally, 2 extra arrows that track opponents will be fired per <k>Windsunder Arrow</k>, each dealing 20% of the original arrow's DMG. This effect can be triggered once every 0.25s."
+          },
+          {
+            "level": 2,
+            "name": "Breeze of Reminiscence",
+            "desc": "<k>Skyward Sonnet</k> decreases opponents' <e:anemo>Anemo RES</e> and Physical RES by 24% for 10s.\nAdditionally, after unleashing the Elemental Burst <k>Wind's Grand Ode</k>, Venti gains the <k>Wherever a Breeze Blows</k> effect, and the cooldown for his Elemental Skill <k>Skyward Sonnet</k> is reset. After a <k>Windsunder Arrow</k> hits an opponent, there is also a 25% chance for Venti to gain the <k>Wherever a Breeze Blows</k> effect.\n\n<k>Wherever a Breeze Blows</k>\nWhen pressing to unleash the Elemental Skill <k>Skyward Sonnet</k>, 300% of the original amount of DMG is dealt. This effect lasts for 15s and is removed after Venti presses to use the Elemental Skill <k>Skyward Sonnet</k>."
+          },
+          {
+            "level": 3,
+            "name": "Ode to Thousand Winds",
+            "desc": "Increases the Level of <k>Wind's Grand Ode</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Hurricane of Freedom",
+            "desc": "After unleashing his Elemental Skill <k>Skyward Sonnet</k> or Elemental Burst <k>Wind's Grand Ode</k>, Venti and his own active party members gain a 25% <e:anemo>Anemo DMG Bonus</e> for 10s."
+          },
+          {
+            "level": 5,
+            "name": "Concerto dal Cielo",
+            "desc": "Increases the Level of <k>Skyward Sonnet</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Storm of Defiance",
+            "desc": "Targets who take DMG from <k>Wind's Grand Ode</k> have their <e:anemo>Anemo RES</e> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.\nAdditionally, the DMG Venti deals to these opponents will gain a CRIT DMG Bonus of 100%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Archerie divine",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 6 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Anémo, infligeant de considérables <e:anemo>DGT Anémo</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.\n\n<k>Hexerei : Rituel secret</k>\nPendant la durée de l'œil de la tempête créé par son déchaînement élémentaire <k>Ode au vent</k>, Venti obtient différents bonus supplémentaires :\n· Son attaque normale est convertie pour tirer des <k>flèches de tourbillon</k> pouvant percer les ennemis, infligeant encore plus de <e:anemo>DGT Anémo</e> aux ennemis en chemin.\n· Lorsqu'une attaque normale de Venti touche un ennemi, la durée de l'œil de la tempête augmente de 1 s et son TdR de 0,5 s, cet effet pouvant être déclenché une fois toutes les 0,1 s et un maximum de 2 fois après chaque utilisation du déchaînement élémentaire <k>Ode au vent</k>."
+          },
+          "skill": {
+            "name": "Sonnet des Vents célestes",
+            "desc": "Le vent porteur de chants et de mélodies vient faire voler les êtres foulant cette terre.\n\n<k>Appui simple</k>\nVenti invoque une bourrasque sur la position de l'ennemi, infligeant des <e:anemo>DGT Anémo de zone</e> et projette les ennemis en l'air.\n\n<k>Appui long</k>\nVenti invoque une bourrasque plus puissante sur sa position, infligeant des <e:anemo>DGT Anémo de zone</e> et projette les ennemis proches en l'air.\nL'appui long permet à Venti de voler dans les airs.\n\nLes ennemis projetés en l'air retombent lentement au sol.\n\n<i>Aux temps anciens où dieux et hommes se partageaient la terre, nombreux furent les chants qui atteignirent les cieux. Ce sonnet possède une mélodie oubliée depuis longtemps.</i>"
+          },
+          "burst": {
+            "name": "Ode au Vent",
+            "desc": "Venti tire une flèche porteuse de la puissance de mille vents et de l'Œil de la tempête. Ce dernier attire les ennemis en son centre, et inflige des <e:anemo>DGT Anémo continus</e>.\n\n<k>Absorption élémentaire</k>\nL'Œil de la tempête absorbe les éléments <e:hydro>Hydro</e>, <e:pyro>Pyro</e>, <e:cryo>Cryo</e> et <e:electro>Électro</e> avec lesquels il entre en contact, ceux-ci lui conférant leurs attributs et infligeant un bonus de DGT de l'élément correspondant.\nUne seule réaction d'absorption élémentaire peut avoir lieu par utilisation.\n\n<i>Nombre de poèmes chantant la gloire de l'Archon Anémo ont été perdus. Celui-ci raconte sa puissance, et la puissance des vents.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Embrasse des vents",
+            "desc": "L'appui long de <k>Sonnet des Vents célestes</k> génère une bourrasque ascendante qui dure 20 s."
+          },
+          {
+            "name": "Œil de la tempête",
+            "desc": "Venti récupère 15 pts d'énergie élémentaire à la fin d'<k>Ode au Vent</k>.\nEn cas d'absorption élémentaire, les personnages de l'élément correspondant récupèrent également 15 pts d'énergie élémentaire."
+          },
+          {
+            "name": "Chevaucheur du vent",
+            "desc": "Diminue la consommation d'endurance de vos personnages dans l'équipe de 20 % lors du planage.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
+          },
+          {
+            "name": "Veillée de la sorcière : Éloge au vent temporel",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « Du réveil du vent »</k>, Venti devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\n\n<k>Hexerei : Rituel secret</k>\nPendant la durée de l'œil de la tempête créé par son déchaînement élémentaire <k>Ode au vent</k>, pendant 4 s après qu'un personnage déployé à proximité a déclenché une réaction de Dispersion ou d'Astrodispersion, ses DGT augmentent de 50 % et l'œil de la tempête de Venti inflige des DGT d'une valeur équivalant à 135 % des DGT d'origine."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Vent violent fractionné",
+            "desc": "Le <k>tir visé</k> tire 2 flèches supplémentaires, chacune infligeant 33 % des DGT de la flèche d'origine.\nDe plus, les <k>flèches de tourbillon</k> tirent également 2 flèches supplémentaires traquant les ennemis, chacune infligeant 20 % des DGT d'origine. Cet effet peut être déclenché une fois toutes les 0,25 s."
+          },
+          {
+            "level": 2,
+            "name": "Bise de réminiscence",
+            "desc": "<k>Sonnet des vents célestes</k> diminue la <e:anemo>RÉS Anémo</e> et la RÉS physique des ennemis de 24 % pendant 10 s.\nDe plus, après avoir utilisé son déchaînement élémentaire <k>Ode au vent</k>, Venti obtient l'effet <k>Quand la brise souffle</k> et le TdR de la compétence élémentaire <k>Sonnet des vents célestes</k> est réinitialisé. Lorsqu'une <k>flèche de tourbillon</k> a touché un ennemi, il y a également 25 % de chances d'accorder l'effet <k>Quand la brise souffle</k> à Venti.\n\n<k>Quand la brise souffle</k>\nUtiliser la compétence élémentaire <k>Sonnet des vents célestes</k> avec un appui simple permet d'infliger 300 % des DGT d'origine. Cet effet dure 15 s et s'annule lorsque Venti a utilisé sa compétence élémentaire <k>Sonnet des vents célestes</k> avec un appui simple."
+          },
+          {
+            "level": 3,
+            "name": "L'Ode aux mille vents",
+            "desc": "Niveau d'aptitude <k>Ode au Vent</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Vent glacial de liberté",
+            "desc": "Après avoir utilisé sa compétence élémentaire <k>Sonnet des vents célestes</k> ou son déchaînement élémentaire <k>Ode au vent</k>, Venti et les autres personnages déployés de son équipe obtiennent un <e:anemo>bonus de DGT Anémo</e> de 25 % pendant 10 s."
+          },
+          {
+            "level": 5,
+            "name": "Concerto céleste",
+            "desc": "Niveau d'aptitude <k>Sonnet des Vents célestes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Tempête de résistance",
+            "desc": "La <e:anemo>RÉS Anémo</e> des ennemis touchés par <k>Ode au vent</k> diminue de 20 %.\nEn cas d'absorption élémentaire, leur RÉS à l'élément correspondant diminue également de 20 %.\nDe plus, les DGT que Venti inflige à ces ennemis obtiennent un bonus de DGT CRIT de 100 %."
+          }
+        ]
+      }
+    }
   }
 }

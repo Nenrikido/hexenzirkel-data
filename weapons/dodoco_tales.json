@@ -33,5 +33,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14413",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A children's book filled with childish short stories at which one cannot help but laugh.\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+        "passive": {
+          "name": "Dodoventure!",
+          "refinements": {
+            "1": "Normal Attack hits on opponents increase Charged Attack DMG by <r>16%</r> for 6s. Charged Attack hits on opponents increase ATK by <r>8%</r> for 6s.",
+            "2": "Normal Attack hits on opponents increase Charged Attack DMG by <r>20%</r> for 6s. Charged Attack hits on opponents increase ATK by <r>10%</r> for 6s.",
+            "3": "Normal Attack hits on opponents increase Charged Attack DMG by <r>24%</r> for 6s. Charged Attack hits on opponents increase ATK by <r>12%</r> for 6s.",
+            "4": "Normal Attack hits on opponents increase Charged Attack DMG by <r>28%</r> for 6s. Charged Attack hits on opponents increase ATK by <r>14%</r> for 6s.",
+            "5": "Normal Attack hits on opponents increase Charged Attack DMG by <r>32%</r> for 6s. Charged Attack hits on opponents increase ATK by <r>16%</r> for 6s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un livre pour enfants rempli d'histoires enfantines qui font sourire petits et grands.\nMême les lecteurs passés depuis longtemps à l'âge adulte ne peuvent s'empêcher d'être absorbés par les petites aventures innocentes et naïves qui y sont dépeintes.",
+        "passive": {
+          "name": "Aventure dodo !",
+          "refinements": {
+            "1": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>16 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>8 %</r> pendant 6 s.",
+            "2": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>20 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>10 %</r> pendant 6 s.",
+            "3": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>24 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>12 %</r> pendant 6 s.",
+            "4": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>28 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>14 %</r> pendant 6 s.",
+            "5": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>32 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>16 %</r> pendant 6 s."
+          }
+        }
+      }
+    }
   }
 }

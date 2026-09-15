@@ -237,5 +237,139 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000046",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Secret Spear of Wangsheng",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 6 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Guide to Afterlife",
+            "desc": "Only an unwavering flame can cleanse the impurities of this world.\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.\n\n<k>Paramita Papilio</k>\n· Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\n· Converts attack DMG to <e:pyro>Pyro DMG</e>, which cannot be overridden by any other elemental infusion.\n· Charged Attacks apply the Blood Blossom effect to the enemies hit.\n· Increases Hu Tao's resistance to interruption.\n\n<k>Blood Blossom</k>\nEnemies affected by Blood Blossom will take <e:pyro>Pyro DMG</e> every 4s. This DMG is considered Elemental Skill DMG.\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\n<k>Paramita Papilio</k> ends when its duration is over, or Hu Tao has left the battlefield or fallen.\n\n<i>Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"</i>"
+          },
+          "burst": {
+            "name": "Spirit Soother",
+            "desc": "Commands a blazing spirit to attack, dealing <e:pyro>Pyro DMG</e> in a large AoE.\nUpon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.\n\n<i>Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Flutter By",
+            "desc": "When a <k>Paramita Papilio</k> state activated by <k>Guide to Afterlife</k> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s."
+          },
+          {
+            "name": "Sanguine Rouge",
+            "desc": "When Hu Tao's HP is equal to or less than 50%, her <e:pyro>Pyro DMG Bonus</e> is increased by 33%."
+          },
+          {
+            "name": "The More the Merrier",
+            "desc": "When Hu Tao cooks a dish perfectly, she has an 18% chance to receive an additional \"Suspicious\" dish of the same type."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Crimson Bouquet",
+            "desc": "While in a <k>Paramita Papilio</k> state activated by <k>Guide to Afterlife</k>, Hu Tao's Charged Attacks do not consume Stamina."
+          },
+          {
+            "level": 2,
+            "name": "Ominous Rainfall",
+            "desc": "Increases the <k>Blood Blossom</k> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\nAdditionally, <k>Spirit Soother</k> will also apply the <k>Blood Blossom</k> effect."
+          },
+          {
+            "level": 3,
+            "name": "Lingering Carmine",
+            "desc": "Increases the Level of <k>Guide to Afterlife</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Garden of Eternal Rest",
+            "desc": "Upon defeating an enemy affected by a <k>Blood Blossom</k> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s."
+          },
+          {
+            "level": 5,
+            "name": "Floral Incense",
+            "desc": "Increases the Level of <k>Spirit Soother</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Butterfly's Embrace",
+            "desc": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, her All Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\nThis effect triggers automatically when Hu Tao has 1 HP left.\nCan only occur once every 60s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance secrète de Wangsheng",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 6 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Chaperon de la renaissance",
+            "desc": "Seule la flamme éternelle peut purifier le mal de ce monde.\nHu Tao consomme un certain montant de PV pour repousser les ennemis proches, et entre dans l'état Paramita Papilio.\n\n<k>Paramita Papilio</k>\n· L'ATQ de Hu Tao augmente proportionnellement à ses PV max au moment où elle entre dans cet état. Le bonus ainsi conféré ne peut pas dépasser 400 % de son ATQ de base.\n· Les DGT d'attaque sont convertis en <e:pyro>DGT Pyro</e>, et ne peuvent pas être enchantés.\n· Les attaques chargées infligent l'effet Bourgeon de prune.\n· Augmente la RÉS à l'interruption de Hu Tao.\n\n<k>Bourgeon de prune</k>\nLes ennemis affectés par Bourgeon de prune subissent des <e:pyro>DGT Pyro</e> toutes les 4 s, qui sont considérés comme des DGT de compétence élémentaire.\nLa même cible ne peut être affectée que par un seul Bourgeon de prune à la fois, et la durée de cet effet ne peut être rafraîchie que par Hu Tao.\n\nL'état <k>Paramita Papilio</k> se termine à la fin de sa durée, lorsque Hu Tao quitte le champ de bataille ou lorsqu'elle est vaincue.\n\n<i>La technique de la lance secrète est basée sur plusieurs principes, dont le premier est : « la lance ouvre les portes de l'au-delà et les papillons forment un pont entre les deux mondes. »</i>"
+          },
+          "burst": {
+            "name": "Apaisement divin",
+            "desc": "Faisant appel aux âmes ardentes, Hu Tao inflige des <e:pyro>DGT Pyro</e> dans une large zone.\nHu Tao récupère à chaque ennemi touché (5 ennemis maximum) une quantité de PV proportionnelle à ses PV max.\nLes DGT infligés et les PV récupérés sont plus importants si les PV de Hu Tao sont inférieurs ou égaux à 50 % lorsque la compétence touche.\n\n<i>Le Funérarium Wangsheng ne voit pas d'un bon œil les âmes refusant de quitter ce monde. La crémation est pour Hu Tao le meilleur moyen d'avoir l'esprit tranquille – mais plus elle est anxieuse et plus son feu est puissant.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Chrysalide",
+            "desc": "Le taux CRIT de tous les personnages de l'équipe (hormis Hu Tao) augmente de 12 % pendant 8 s lorsque l'état <k>Paramita Papilio</k> conféré par <k>Chaperon de la renaissance</k> prend fin."
+          },
+          {
+            "name": "Sang bouillant",
+            "desc": "Hu Tao obtient un <e:pyro>bonus de DGT Pyro</e> de 33 % lorsque ses PV sont inférieurs ou égaux à 50 %."
+          },
+          {
+            "name": "Plus il y en a, mieux c'est",
+            "desc": "18 % de chances d'obtenir un plat suspect supplémentaire du même type lorsque vous cuisinez un plat parfait."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Bouquet écarlate",
+            "desc": "Les attaques chargées de Hu Tao ne consomment pas d'endurance tant qu'elle se trouve dans l'état <k>Paramita Papilio</k> conféré par <k>Chaperon de la renaissance</k>."
+          },
+          {
+            "level": 2,
+            "name": "Sombres auspices",
+            "desc": "<k>Bourgeon de prune</k> inflige un bonus de DGT équivalant à 10 % des PV max de Hu Tao lorsqu'elle bénéficie de l'effet.\n<k>Apaisement divin</k> applique de plus l'effet <k>Bourgeon de prune</k> lorsqu'il touche."
+          },
+          {
+            "level": 3,
+            "name": "Rituel du sang",
+            "desc": "Niveau d'aptitude <k>Chaperon de la renaissance</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Jardin du repos éternel",
+            "desc": "Lorsqu'un ennemi affecté par <k>Bourgeon de prune</k> est vaincu, le taux CRIT de tous les personnages de l'équipe proches (hormis Hu Tao) augmente de 12 % pendant 15 s."
+          },
+          {
+            "level": 5,
+            "name": "Encens floral",
+            "desc": "Niveau d'aptitude <k>Apaisement divin</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "L'envol du papillon",
+            "desc": "Lorsque les PV de Hu Tao passent sous le seuil des 25 % ou lorsqu'elle subit assez de DGT pour être vaincue :\nHu Tao n'est pas vaincue cette fois-ci. Pendant les 10 s qui suivent, ses RÉS élémentaires et physique augmentent de 200 %, son taux CRIT augmente de 100 %, et sa RÉS à l'interruption augmente considérablement.\nCet effet se déclenche automatiquement lorsqu'il ne reste qu'1 PV à Hu Tao.\nCet effet peut être déclenché une fois toutes les 60 s."
+          }
+        ]
+      }
+    }
   }
 }

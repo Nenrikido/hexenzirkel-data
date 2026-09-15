@@ -45,6 +45,7 @@ then the situational buffs are authored by hand:
 | Talent multipliers (`talent_multipliers_json`) | [GenshinOptimizer](https://github.com/frzyc/genshin-optimizer) `allStat_gen.json`, read at talent level 10. The `source` block inside the file records the exact `goCommit`, `goCharacterKey`, and assumptions used. |
 | Base stats (`base_stats_json`)                 | [Ambr.top / Project Amber](https://ambr.top) — level-90 base HP/ATK/DEF plus the ascension stat (`ascStatKey` / `ascStatValue`).                                                                                     |
 | Localized names                                | Project Amber (handled by the app, not stored here).                                                                                                                                                                 |
+| Descriptions (`descriptions_json`)             | Project Amber, English **and** French, extracted by `backend/scripts/seeds/extract_descriptions_from_amber.py`. Generated — never hand-edit; re-run the script instead.                                              |
 | Buffs & conditional modifiers                  | **Hand-authored** from the in-game talent / passive / artifact descriptions.                                                                                                                                         |
 
 When you contribute generated values, cite where they came from (a GO commit, an
@@ -257,6 +258,98 @@ constellation the builder already knows, with nothing extra to switch on.
 }
 ```
 
+### Descriptions (`descriptions_json`)
+
+Every character, weapon and artifact-set file carries the **full in-game text**
+of its talents, passives, constellations, weapon passive and set bonuses, in
+English and French. It is what the build card shows on hover.
+
+This block is **generated** — do not hand-edit it. Re-run:
+
+```bash
+poetry run python backend/scripts/seeds/extract_descriptions_from_amber.py --apply
+```
+
+The script is a pure append: it splices the block onto the end of each file and
+leaves every other byte alone, so it is safe to re-run on a dirty tree. Files
+whose text has not changed are skipped.
+
+```jsonc
+"descriptions_json": {
+  "source": {
+    "provider": "amber",
+    "amberId": "10000032",       // avatar / weapon / reliquary id it was read from
+    "retrievedAt": "2026-09-15",
+    "markupRevision": 1          // bumped when the tag vocabulary changes
+  },
+  "locales": {
+    "en": { /* shape below */ },
+    "fr": { /* same shape */ }
+  }
+}
+```
+
+Per-locale shape, by kind:
+
+```jsonc
+// characters — talent keys match the app's own auto/skill/burst
+{
+  "talents": {
+    "auto":   { "name": "Strike of Fortune", "desc": "…" },
+    "skill":  { "name": "Passion Overload",  "desc": "…" },
+    "burst":  { "name": "Fantastic Voyage",  "desc": "…" },
+    "sprint": { "name": "Illusory Torrent",  "desc": "…" }   // only Ayaka, Mona, Ororon, Citlali
+  },
+  "passives":       [ { "name": "Rekindle", "desc": "…" } ],
+  "constellations": [ { "level": 1, "name": "Grand Expectation", "desc": "…" } ]
+}
+
+// weapons — one entry per refinement the game defines
+{
+  "flavor": "This longbow's color is unpredictable…",
+  "passive": {
+    "name": "The Cleansing Form",
+    "refinements": { "1": "…", "2": "…", "3": "…", "4": "…", "5": "…" }
+  }
+}
+
+// artifact sets — keyed by the number of pieces
+{
+  "name": "Deepwood Memories",
+  "bonuses": { "2": "…", "4": "…" }   // the four "Prayers" circlets use { "1": "…" }
+}
+```
+
+#### The markup
+
+Descriptions are plain text plus a small closed tag vocabulary. Everything else,
+including the handful of literal angle brackets the game itself uses (`<Radiance:
+Stellar Swirl>`, `+18% ATK > +120 Elemental Mastery`), is content — **a renderer
+must match these tags exactly and treat anything unrecognised as literal text.**
+
+| Tag | Means | Where it comes from |
+| --- | --- | --- |
+| `<e:pyro>Pyro DMG</e>` | an elemental mention; the value is the element *key*, not a colour, so the app keeps owning the palette | the game's own per-element colour |
+| `<k>Fantastic Voyage</k>` | a talent, constellation or mechanic name | the game's gold highlight |
+| `<v>10%</v>` | a highlighted value that is the **same at every refinement** | a weapon's highlighted number |
+| `<r>32%</r>` | a highlighted value that **moves with refinement** | the same, once the five tiers are diffed |
+| `<i>…</i>` | the italic flavour line closing a talent | the game's `<i>` |
+
+Newlines are real line feeds; bullet lines start with `· `.
+
+`<v>` vs `<r>` is decided by comparing the five refinement texts span by span:
+Skyward Blade's `+10%` Movement SPD is `<v>` because it is `+10%` at R1 and at
+R5, while its CRIT Rate is `<r>`. When a weapon's text restructures between
+tiers rather than just changing numbers (Exaiphanes Blade gains a clause at R5),
+positional comparison is meaningless and every value is marked `<r>`.
+
+Artifact-set text is the one kind the game ships with **no** highlighting at
+all, so only bare element words are tagged there and numbers stay plain.
+
+Known gap: **Prized Isshin Blade** (`11419`) has no `descriptions_json` — it is
+the awakened form of Kagotsurube Isshin and neither Amber nor nanoka publishes
+it. The script reports it as unmatched on every run.
+
 ### Modifier shapes (buffs)
 
 A **flat modifier map** (`*_modifiers_json`) is just `{ statKey: value }` and is
@@ -384,3 +477,4 @@ Changes land through **GitHub pull requests** against
 - [ ] Stat/element keys reuse ones already present in other files.
 - [ ] Generated numbers captured at L90 / talents 10 / C0 / 5* weap at R1, 4* weap at R5, with sources cited.
 - [ ] JSON parses.
+- [ ] `descriptions_json` generated by `extract_descriptions_from_amber.py --apply` (not hand-written), or noted as unavailable if the source has no entry for it.

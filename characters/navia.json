@@ -407,5 +407,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000091",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Blunt Refusal",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Ceremonial Crystalshot",
+            "desc": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, or when they trigger the Lunar-Crystallize reaction, Navia will gain 1 Crystal Shrapnel stack. Navia can have up to 6 stacks of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel stacks you already have will be reset. Through the Lunar-Crystallize reaction, Navia will gain up to 1 Crystal Shrapnel stack every second.\nWhen she fires, Navia will consume all Crystal Shrapnel stacks and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing <e:geo>Geo DMG</e> to opponents hit.\nWhen 0/1/2/3 or more stacks of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.\nIn addition, when more than 3 stacks of Crystal Shrapnel are consumed, every stack consumed beyond those 3 will increase the DMG dealt by this Gunbrella attack by an additional 15%.\n\n<k>Hold</k>\nEnter Aiming Mode, continually collecting nearby Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.\n\nTwo initial charges.\n\n<k>Arkhe: Ousia</k>\nPeriodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned <e:geo>Geo DMG</e>.\n\n<i>\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"</i>"
+          },
+          "burst": {
+            "name": "As the Sunlit Sky's Singing Salute",
+            "desc": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing <e:geo>AoE Geo DMG</e> and providing Cannon Fire Support for a duration afterward, periodically dealing <e:geo>Geo DMG</e> to nearby opponents.\nWhen cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.\n\n<i>\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Undisclosed Distribution Channels",
+            "desc": "For 4s after using <k>Ceremonial Crystalshot</k>, the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be converted into <e:geo>Geo DMG</e> which cannot be overridden by other Elemental infusions, and the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be increased by 40%."
+          },
+          {
+            "name": "Mutual Assistance Network",
+            "desc": "For each <e:pyro>Pyro</e>/<e:electro>Electro</e>/<e:cryo>Cryo</e>/<e:hydro>Hydro</e> party member, Navia gains 20% increased ATK. This effect can stack up to 2 times."
+          },
+          {
+            "name": "Painstaking Transaction",
+            "desc": "Gains 25% more rewards when dispatched on a Fontaine Expedition for 20 hours."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "A Lady's Rules for Keeping a Courteous Distance",
+            "desc": "Each stack of Crystal Shrapnel consumed when Navia uses <k>Ceremonial Crystalshot</k> will restore 3 Energy to her and decrease the CD of <k>As the Sunlit Sky's Singing Salute</k> by 1s. Up to 9 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s."
+          },
+          {
+            "level": 2,
+            "name": "The President's Pursuit of Victory",
+            "desc": "Each stack of Crystal Shrapnel consumed will increase the CRIT Rate of this <k>Ceremonial Crystalshot</k> instance by 12%. CRIT Rate can be increased by up to 36% in this way.\nIn addition, when Ceremonial Crystalshot hits an opponent, one Cannon Fire Support shot from <k>As the Sunlit Sky's Singing Salute</k> will strike near the location of the hit. Up to one instance of Cannon Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by said Cannon Fire Support this way is considered Elemental Burst DMG."
+          },
+          {
+            "level": 3,
+            "name": "Businesswoman's Broad Vision",
+            "desc": "Increases the Level of <k>Ceremonial Crystalshot</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "The Oathsworn Never Capitulate",
+            "desc": "When <k>As the Sunlit Sky's Singing Salute</k> hits an opponent, that opponent's <e:geo>Geo RES</e> will be decreased by 20% for 8s."
+          },
+          {
+            "level": 5,
+            "name": "Negotiator's Resolute Negotiations",
+            "desc": "Increases the Level of <k>As the Sunlit Sky's Singing Salute</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Flexible Finesse of the Spina's President",
+            "desc": "If more than 3 stacks of Crystal Shrapnel are consumed when using <k>Ceremonial Crystalshot</k>, each stack consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 45%, and any stacks consumed beyond the first 3 are returned to Navia."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Refus direct",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Tir cristallin de cérémonie",
+            "desc": "Lorsqu'un personnage de l'équipe obtient un fragment généré par une réaction de Cristallisation ou déclenche une réaction de Sélénocristallisation, Navia obtient 1 shrapnel cristallin. Navia peut détenir un maximum de 6 shrapnels cristallins, et chaque fois que cet effet se déclenche, la durée des shrapnels en sa possession est réinitialisée. Navia peut obtenir 1 shrapnel cristallin toutes les secondes lors du déclenchement de réactions de Sélénocristallisation.\nLorsqu'elle tire, Navia consomme tous ses shrapnels cristallins et ouvre son élégante, mais néanmoins mortelle, canombrelle pour tirer plusieurs balles cristarosulées qui transpercent les ennemis, infligeant des <e:geo>DGT Géo</e> aux ennemis touchés.\nConsommer 0, 1, 2 ou au minimum 3 shrapnels cristallins permet de tirer respectivement 5, 7, 9 ou 11 balles cristarosulées. Plus le nombre de balles touchant un même ennemi est élevé, plus les DGT qu'il subit sont importants. Si toutes les 11 balles touchent, 200 % des DGT d'origine sont infligés.\nDe plus, chaque shrapnel consommé à partir du 4e augmente les DGT infligés de 15 % supplémentaires.\n\n<k>Appui long</k>\nBascule en mode visée pour collecter de façon continue les fragments proches qui ont été générés par des réactions de Cristallisation, ce qui permet, à la fin de l'appui long, de tirer des balles cristarosulées identiques à celle d'un appui simple.\n\nNavia commence avec 2 utilisations disponibles.\n\n<k>Arkhe : Ousia</k>\nRégulièrement, lorsque Navia utilise sa canombrelle pour tirer, elle déclenche une lame fluide pour infliger des <e:geo>DGT Géo</e> chargés d'énergie ousia.\n\n<i>« Se maintenir à une distance appropriée de ceux avec qui il est requis de le faire est un élément essentiel de l'étiquette. Naturellement, il existe de nombreuses façons d'y parvenir... »</i>"
+          },
+          "burst": {
+            "name": "Salut du ciel ensoleillé",
+            "desc": "Sur ordre de la présidente de la Spina di Rosula, un magnifique salut de rose d'or est déclenché : un massif bombardement de canon est alors exécuté sur les ennemis en face, ce qui inflige des <e:geo>DGT Géo de zone</e> avant de déclencher un feu d'appui de canon infligeant des <e:geo>DGT Géo</e> aux ennemis proches de façon intermittente pendant un moment.\nLorsqu'une attaque de canon touche un ennemi, Navia obtient 1 shrapnel cristallin. Cet effet peut être déclenché une fois toutes les 2,4 s.\n\n<i>« Le salut de la Spina di Rosula est une célébration anticipative de la conclusion réussie de nos négociations et est tiré juste avant le début des pourparlers. Mais ne vous méprenez pas, il ne s'agit en aucun cas d'une sorte de menace. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Canal de distribution inconnu",
+            "desc": "Pendant 4 s après avoir utilisé <k>Tir cristallin de cérémonie</k>, les DGT infligés par les attaques normales, chargées et plongeantes de Navia sont convertis en <e:geo>DGT Géo</e> ne pouvant pas être enchantés et augmentent de 40 %."
+          },
+          {
+            "name": "Réseau d'assistance mutuelle",
+            "desc": "Pour chaque personnage <e:pyro>Pyro</e>, <e:electro>Électro</e>, <e:cryo>Cryo</e> et <e:hydro>Hydro</e> présent dans l'équipe, l'ATQ de Navia augmente de 20 %. Cet effet peut être cumulé 2 fois maximum."
+          },
+          {
+            "name": "Processus de transaction minutieuse",
+            "desc": "Augmente les récompenses d'une expédition de 20 h à Fontaine de 25 %."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Règle de distanciation de la dame",
+            "desc": "Lorsque Navia utilise <k>Tir cristallin de cérémonie</k>, chaque shrapnel cristallin consommé lui accorde 3 pts d'énergie élémentaire et diminue le TdR de <k>Salut du ciel ensoleillé</k> de 1 s. L'énergie élémentaire peut être restaurée de 9 pts maximum et le TdR de Salut du ciel ensoleillé peut être diminué de 3 s maximum de cette manière."
+          },
+          {
+            "level": 2,
+            "name": "Quête de victoire de la présidente",
+            "desc": "Lorsque Navia utilise <k>Tir cristallin de cérémonie</k>, chaque shrapnel cristallin consommé en augmente le taux CRIT de 12 %, le taux CRIT pouvant être augmenté d'un maximum de 36 % de cette manière.\nDe plus, lorsque Tir cristallin de cérémonie touche un ennemi, un feu d'appui de canon de <k>Salut du ciel ensoleillé</k> est déclenché à proximité de l'ennemi touché. Un seul feu d'appui de canon peut être déclenché à chaque utilisation de Tir cristallin de cérémonie, et les DGT infligés de cette manière par le feu d'appui de canon sont considérés comme des DGT de déchaînement élémentaire."
+          },
+          {
+            "level": 3,
+            "name": "Vision globale de la femme d'affaires",
+            "desc": "Niveau d'aptitude <k>Tir cristallin de cérémonie</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Tolérance zéro de l'assermentée",
+            "desc": "Lorsque <k>Salut du ciel ensoleillé</k> touche un ennemi, sa <e:geo>RÉS Géo</e> diminue de 20 % pendant 8 s."
+          },
+          {
+            "level": 5,
+            "name": "Tractation ferme de la négociatrice",
+            "desc": "Niveau d'aptitude <k>Salut du ciel ensoleillé</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Finesse flexible de la présidente de la Spina",
+            "desc": "Lorsque Navia utilise <k>Tir cristallin de cérémonie</k>, chaque shrapnel cristallin consommé à partir du 4e en augmente les DGT CRIT de 45 %, et tous les shrapnels cristallins consommés à partir du 4e sont rendus à Navia."
+          }
+        ]
+      }
+    }
   }
 }

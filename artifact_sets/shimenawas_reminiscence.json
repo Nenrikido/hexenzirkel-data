@@ -19,5 +19,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15019",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Shimenawa's Reminiscence",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+        }
+      },
+      "fr": {
+        "name": "Réminiscence nostalgique",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Lorsque le personnage possède au minimum 15 pts d'énergie élémentaire, libérer une compétence élémentaire entraîne une perte de 15 pts d'énergie, mais les DGT infligés par son attaque normale, chargée et plongeante augmentent de 50 % pendant 10 s. Cet effet ne se déclenchera plus pendant cette durée."
+        }
+      }
+    }
   }
 }

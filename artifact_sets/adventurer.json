@@ -8,5 +8,29 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10010",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Adventurer",
+        "bonuses": {
+          "2": "Max HP increased by 1,000.",
+          "4": "Opening a chest regenerates 30% Max HP over 5s."
+        }
+      },
+      "fr": {
+        "name": "Aventurier",
+        "bonuses": {
+          "2": "Augmente les PV max de 1 000 pts.",
+          "4": "Restaure 30 % des PV pendant 5 s après l'ouverture d'un coffre."
+        }
+      }
+    }
   }
 }

@@ -33,5 +33,41 @@
         "conditionKey": "ThrillingTalesR5_atk/2"
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14302",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A fictional story of a band of five heroes who go off on a dragon hunt. It is poorly written and structurally incoherent. Its value lies in the many lessons that can be learned from failure.",
+        "passive": {
+          "name": "Heritage",
+          "refinements": {
+            "1": "When switching characters, the new character taking the field has their ATK increased by <r>24%</r> for 10s. This effect can only occur once every 20s.",
+            "2": "When switching characters, the new character taking the field has their ATK increased by <r>30%</r> for 10s. This effect can only occur once every 20s.",
+            "3": "When switching characters, the new character taking the field has their ATK increased by <r>36%</r> for 10s. This effect can only occur once every 20s.",
+            "4": "When switching characters, the new character taking the field has their ATK increased by <r>42%</r> for 10s. This effect can only occur once every 20s.",
+            "5": "When switching characters, the new character taking the field has their ATK increased by <r>48%</r> for 10s. This effect can only occur once every 20s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "L'histoire de cinq héros partant à la chasse au dragon. L'ouvrage est mal écrit et particulièrement incohérent. Sa valeur réside dans les nombreuses leçons que l'on peut tirer de l'échec.",
+        "passive": {
+          "name": "Héritage",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>24 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s.",
+            "2": "Augmente l'ATQ de <r>30 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s.",
+            "3": "Augmente l'ATQ de <r>36 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s.",
+            "4": "Augmente l'ATQ de <r>42 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s.",
+            "5": "Augmente l'ATQ de <r>48 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s."
+          }
+        }
+      }
+    }
   }
 }

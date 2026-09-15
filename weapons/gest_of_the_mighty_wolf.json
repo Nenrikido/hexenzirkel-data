@@ -115,5 +115,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12515",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Legend has it that this greatsword was forged by the hand of Ravenwood, who inherited the name of Boreas, prior to his ascension to knighthood.",
+        "passive": {
+          "name": "Indomitable Chivalry",
+          "refinements": {
+            "1": "Increase ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by <r>7.5%</r> for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.\nAdditionally, when the party has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn also increases the equipping character's CRIT DMG by <r>7.5%</r>.",
+            "2": "Increase ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by <r>9.5%</r> for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.\nAdditionally, when the party has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn also increases the equipping character's CRIT DMG by <r>9.5%</r>.",
+            "3": "Increase ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by <r>11.5%</r> for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.\nAdditionally, when the party has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn also increases the equipping character's CRIT DMG by <r>11.5%</r>.",
+            "4": "Increase ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by <r>13.5%</r> for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.\nAdditionally, when the party has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn also increases the equipping character's CRIT DMG by <r>13.5%</r>.",
+            "5": "Increase ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by <r>15.5%</r> for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.\nAdditionally, when the party has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn also increases the equipping character's CRIT DMG by <r>15.5%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "La légende raconte que cette grande épée a été forgée par la main de Ravenwood, qui hérita du nom de Borée, avant son accession à la chevalerie.",
+        "passive": {
+          "name": "Chevalerie indomptable",
+          "refinements": {
+            "1": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>7,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>7,5 %</r>.",
+            "2": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>9,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>9,5 %</r>.",
+            "3": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>11,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>11,5 %</r>.",
+            "4": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>13,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>13,5 %</r>.",
+            "5": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>15,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>15,5 %</r>."
+          }
+        }
+      }
+    }
   }
 }

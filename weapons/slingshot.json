@@ -43,5 +43,41 @@
   },
   "source": {
     "note": "Passive added 2026-08-23 — the weapon had no buffs at all."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15304",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+        "passive": {
+          "name": "Slingshot",
+          "refinements": {
+            "1": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <r>36%</r>. Otherwise, decreases DMG by 10%.",
+            "2": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <r>42%</r>. Otherwise, decreases DMG by 10%.",
+            "3": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <r>48%</r>. Otherwise, decreases DMG by 10%.",
+            "4": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <r>54%</r>. Otherwise, decreases DMG by 10%.",
+            "5": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <r>60%</r>. Otherwise, decreases DMG by 10%."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "C'est bien un arc ! Après de nombreuses modifications et améliorations, l'inventeur du lance-pierres ultime s'est finalement retrouvé avec un arc.",
+        "passive": {
+          "name": "Lance-pierres",
+          "refinements": {
+            "1": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>36 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
+            "2": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>42 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
+            "3": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>48 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
+            "4": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>54 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
+            "5": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>60 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins."
+          }
+        }
+      }
+    }
   }
 }

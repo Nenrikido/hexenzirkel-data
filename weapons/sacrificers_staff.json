@@ -15,5 +15,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13434",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A silver-white polearm, pure and completely without blemish. Legend has it that it was used by the Archpriestesses of Hyperborea in ages past to guide their flock of Frostmoon Scions.",
+        "passive": {
+          "name": "Untainted Desire",
+          "refinements": {
+            "1": "For 6s after an Elemental Skill hits an opponent, ATK is increased by <r>8%</r> and Energy Recharge is increased by <r>6%</r>. Max 3 stacks. This effect can be triggered even when the equipping character is off-field.",
+            "2": "For 6s after an Elemental Skill hits an opponent, ATK is increased by <r>10%</r> and Energy Recharge is increased by <r>7.5%</r>. Max 3 stacks. This effect can be triggered even when the equipping character is off-field.",
+            "3": "For 6s after an Elemental Skill hits an opponent, ATK is increased by <r>12%</r> and Energy Recharge is increased by <r>9%</r>. Max 3 stacks. This effect can be triggered even when the equipping character is off-field.",
+            "4": "For 6s after an Elemental Skill hits an opponent, ATK is increased by <r>14%</r> and Energy Recharge is increased by <r>10.5%</r>. Max 3 stacks. This effect can be triggered even when the equipping character is off-field.",
+            "5": "For 6s after an Elemental Skill hits an opponent, ATK is increased by <r>16%</r> and Energy Recharge is increased by <r>12%</r>. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance d'un blanc argenté, pure et sans défaut. La légende raconte qu'elle était utilisée par les grandes prêtresses de l'Hyperborée d'autrefois pour guider leur congrégation des Descendants de givrelune.",
+        "passive": {
+          "name": "Désir pur",
+          "refinements": {
+            "1": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>8 %</r> et la recharge d'énergie de <r>6 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>10 %</r> et la recharge d'énergie de <r>7,5 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>12 %</r> et la recharge d'énergie de <r>9 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>14 %</r> et la recharge d'énergie de <r>10,5 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>16 %</r> et la recharge d'énergie de <r>12 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

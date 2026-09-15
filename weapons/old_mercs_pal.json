@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12201",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A battle-tested greatsword that has seen better days and worse."
+      },
+      "fr": {
+        "flavor": "Un espadon qui a fait des ravages sur bien des champs de bataille. Il a vu des jours meilleurs, mais aussi bien pires."
+      }
+    }
   }
 }

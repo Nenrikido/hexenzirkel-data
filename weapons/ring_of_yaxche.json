@@ -19,5 +19,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14431",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This jade vessel was created by a hero of yesteryear. Legend has it that it once shot the giant dragon that dwelt in the volcano down from the skies.",
+        "passive": {
+          "name": "Echoes of the Plentiful Land",
+          "refinements": {
+            "1": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by <r>0.6%</r> for 10s. Normal Attack DMG can be increased this way by a maximum of <r>16%</r>.",
+            "2": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by <r>0.7%</r> for 10s. Normal Attack DMG can be increased this way by a maximum of <r>20%</r>.",
+            "3": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by <r>0.8%</r> for 10s. Normal Attack DMG can be increased this way by a maximum of <r>24%</r>.",
+            "4": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by <r>0.9%</r> for 10s. Normal Attack DMG can be increased this way by a maximum of <r>28%</r>.",
+            "5": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by <r>1%</r> for 10s. Normal Attack DMG can be increased this way by a maximum of <r>32%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cet objet de jade a été créé par un héros d'autrefois. La légende raconte qu'il aurait un jour abattu du ciel le dragon géant qui résidait dans le volcan.",
+        "passive": {
+          "name": "Échos des terres fertiles",
+          "refinements": {
+            "1": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>0,6 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>16 %</r> de cette manière.",
+            "2": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>0,7 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>20 %</r> de cette manière.",
+            "3": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>0,8 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>24 %</r> de cette manière.",
+            "4": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>0,9 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>28 %</r> de cette manière.",
+            "5": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>1 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>32 %</r> de cette manière."
+          }
+        }
+      }
+    }
   }
 }

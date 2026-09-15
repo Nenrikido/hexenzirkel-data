@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12101",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower."
+      },
+      "fr": {
+        "flavor": "Une épée façonnée à partir d'une lame de fer épaisse et solide. Capable de briser des montagnes si son propriétaire est suffisamment motivé."
+      }
+    }
   }
 }

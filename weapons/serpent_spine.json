@@ -35,5 +35,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12409",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+        "passive": {
+          "name": "Wavesplitter",
+          "refinements": {
+            "1": "Every 4s a character is on the field, they will deal <r>6%</r> more DMG and take <r>3%</r> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+            "2": "Every 4s a character is on the field, they will deal <r>7%</r> more DMG and take <r>2.7%</r> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+            "3": "Every 4s a character is on the field, they will deal <r>8%</r> more DMG and take <r>2.4%</r> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+            "4": "Every 4s a character is on the field, they will deal <r>9%</r> more DMG and take <r>2.2%</r> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+            "5": "Every 4s a character is on the field, they will deal <r>10%</r> more DMG and take <r>2%</r> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée rare venue des mers anciennes. Celui qui la manie peut presque entendre les vagues déferler.",
+        "passive": {
+          "name": "Brise-vagues",
+          "refinements": {
+            "1": "Les DGT infligés augmentent de <r>6 %</r> et les DGT reçus de <r>3 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT.",
+            "2": "Les DGT infligés augmentent de <r>7 %</r> et les DGT reçus de <r>2,7 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT.",
+            "3": "Les DGT infligés augmentent de <r>8 %</r> et les DGT reçus de <r>2,4 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT.",
+            "4": "Les DGT infligés augmentent de <r>9 %</r> et les DGT reçus de <r>2,2 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT.",
+            "5": "Les DGT infligés augmentent de <r>10 %</r> et les DGT reçus de <r>2 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT."
+          }
+        }
+      }
+    }
   }
 }

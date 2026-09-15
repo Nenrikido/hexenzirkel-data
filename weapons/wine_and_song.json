@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14410",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
+        "passive": {
+          "name": "Ever-Changing",
+          "refinements": {
+            "1": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by <r>14%</r> for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by <r>20%</r> for 5s.",
+            "2": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by <r>16%</r> for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by <r>25%</r> for 5s.",
+            "3": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by <r>18%</r> for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by <r>30%</r> for 5s.",
+            "4": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by <r>20%</r> for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by <r>35%</r> for 5s.",
+            "5": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by <r>22%</r> for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by <r>40%</r> for 5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un recueil de chansons de l'époque aristocratique dont le compositeur est tombé dans l'oubli. Certaines d'entre elles relatent l'histoire d'un certain brigand héroïque...",
+        "passive": {
+          "name": "Versatile",
+          "refinements": {
+            "1": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>14 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>20 %</r> pendant 5 s.",
+            "2": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>16 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>25 %</r> pendant 5 s.",
+            "3": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>18 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>30 %</r> pendant 5 s.",
+            "4": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>20 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>35 %</r> pendant 5 s.",
+            "5": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>22 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>40 %</r> pendant 5 s."
+          }
+        }
+      }
+    }
   }
 }

@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15410",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+        "passive": {
+          "name": "Oppidan Ambush",
+          "refinements": {
+            "1": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <r>2%</r> every second up to a max of <r>20%</r>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <r>4%</r> per second until it reaches 0%.",
+            "2": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <r>2.5%</r> every second up to a max of <r>25%</r>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <r>5%</r> per second until it reaches 0%.",
+            "3": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <r>3%</r> every second up to a max of <r>30%</r>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <r>6%</r> per second until it reaches 0%.",
+            "4": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <r>3.5%</r> every second up to a max of <r>35%</r>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <r>7%</r> per second until it reaches 0%.",
+            "5": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by <r>4%</r> every second up to a max of <r>40%</r>. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by <r>8%</r> per second until it reaches 0%."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc long somptueux et délicat qui appartenait autrefois à un brigand au grand cœur qui n'a jamais été capturé.",
+        "passive": {
+          "name": "Embuscade de rue",
+          "refinements": {
+            "1": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>2 %</r> toutes les secondes, jusqu'à <r>20 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>4 %</r> toutes les secondes, jusqu'à atteindre 0 %.",
+            "2": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>2,5 %</r> toutes les secondes, jusqu'à <r>25 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>5 %</r> toutes les secondes, jusqu'à atteindre 0 %.",
+            "3": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>3 %</r> toutes les secondes, jusqu'à <r>30 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>6 %</r> toutes les secondes, jusqu'à atteindre 0 %.",
+            "4": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>3,5 %</r> toutes les secondes, jusqu'à <r>35 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>7 %</r> toutes les secondes, jusqu'à atteindre 0 %.",
+            "5": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>4 %</r> toutes les secondes, jusqu'à <r>40 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>8 %</r> toutes les secondes, jusqu'à atteindre 0 %."
+          }
+        }
+      }
+    }
   }
 }

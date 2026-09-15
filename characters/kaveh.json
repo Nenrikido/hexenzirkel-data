@@ -219,5 +219,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000081",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Schematic Setup",
+            "desc": "<k>Normal Attack</k>\nUses Mehrak to perform up to 4 consecutive attacks.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Artistic Ingenuity",
+            "desc": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals <e:dendro>AoE Dendro DMG</e>. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.\n\n<i>Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work...</i>"
+          },
+          "burst": {
+            "name": "Painted Dome",
+            "desc": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing <e:dendro>AoE Dendro DMG</e> to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\n· Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to <e:dendro>Dendro DMG</e> that cannot be overridden.\n· All Dendro Cores created by all your own party members through Bloom and Lunar-Bloom reactions will deal additional DMG when they burst.\n· Increases Kaveh's resistance to interruption.\nThese effects will be canceled once Kaveh leaves the field.\n\n<i>\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "An Architect's Undertaking",
+            "desc": "When DMG dealt by a Dendro Core (including DMG from Burgeon and Hyperbloom) hits Kaveh, Kaveh will regain HP equal to 300% of his Elemental Mastery. This effect can be triggered once every 0.5s."
+          },
+          {
+            "name": "A Craftsman's Curious Conceptions",
+            "desc": "During <k>Painted Dome</k>, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery will increase by 25. This effect can be triggered once every 0.1s. Max 4 stacks.\nThis effect will be canceled when Painted Dome's effects end."
+          },
+          {
+            "name": "The Art of Budgeting",
+            "desc": "When Kaveh crafts Landscape, Building, and Courtyard-type Furnishings, he has a 100% chance to refund a portion of the materials used."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sublime Salutations",
+            "desc": "Within 3s after using <k>Artistic Ingenuity</k>, Kaveh's <e:dendro>Dendro RES</e> and Incoming Healing Bonus will be increased by 50% and 25% respectively."
+          },
+          {
+            "level": 2,
+            "name": "Grace of Royal Roads",
+            "desc": "Kaveh's Normal Attack SPD increases by 15% during <k>Painted Dome</k>."
+          },
+          {
+            "level": 3,
+            "name": "Profferings of Dur Untash",
+            "desc": "Increases the Level of <k>Painted Dome</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Feast of Apadana",
+            "desc": "Dendro Cores created from Bloom and Lunar-Bloom reactions Kaveh triggers will deal 60% more DMG when they burst."
+          },
+          {
+            "level": 5,
+            "name": "Treasures of Bonkhanak",
+            "desc": "Increases the Level of <k>Artistic Ingenuity</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Pairidaeza's Dreams",
+            "desc": "When Kaveh's Normal, Charged, or Plunging Attacks hit opponents during <k>Painted Dome</k>, they will unleash Pairidaeza's Light upon the opponent's position, dealing 61.8% of Kaveh's ATK as <e:dendro>AoE Dendro DMG</e> and causing all Dendro Cores within that AoE to burst. This effect can be triggered once every 3s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Configuration schématique",
+            "desc": "<k>Attaque normale</k>\nUtilise Mehrak pour enchaîner jusqu'à 4 attaques.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'entailles aussi rapides que tranchantes.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Ingéniosité artistique",
+            "desc": "Utilise l'énergie de cartographie de Mehrak à des fins offensives, déclenchant un balayage radial qui inflige des <e:dendro>DGT Dendro de zone</e> et scanne tous les noyaux Dendro dans sa zone d'effet pour les faire éclater immédiatement.\n\n<i>Mehrak a été créé en modifiant une technologie ancienne et peut avoir d'autres fonctions en dehors de la cartographie...</i>"
+          },
+          "burst": {
+            "name": "Dôme peint",
+            "desc": "Libère complètement l'énergie de Mehrak et crée un carroyage de topographie, infligeant des <e:dendro>DGT Dendro de zone</e> aux ennemis à l'intérieur, faisant éclater immédiatement tous les noyaux Dendro dans la zone d'effet et renforçant les capacités de combat de Kaveh pendant un certain temps :\n· Augmente la portée des attaques normales, chargées et plongeantes de Kaveh et convertit ses DGT d'attaque en <e:dendro>DGT Dendro</e> ne pouvant pas être enchantés.\n· Augmente les DGT infligés lors de l'éclatement des noyaux Dendro créés par vos personnages dans l'équipe grâce aux réactions de Fleurissement et de Sélénofleurissement.\n· Augmente la RÉS à l'interruption de Kaveh.\nCes effets cessent lorsque Kaveh quitte le champ de bataille.\n\n<i>« Chaque style de construction comprend la vision du monde unique de l'architecte, et sous cet angle, on peut dire que les bâtiments eux-mêmes sont des coalescences de souvenirs humains. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Responsabilité d'un créateur",
+            "desc": "Lorsque des DGT infligés par un noyau Dendro (incluant Bourgeonnement et Exubérance) touchent Kaveh, il récupère des PV d'une valeur équivalant à 300 % de sa maîtrise élémentaire. Cet effet peut être déclenché une fois toutes les 0,5 s."
+          },
+          {
+            "name": "Extravagance d'un artisan",
+            "desc": "Pendant la durée de <k>Dôme peint</k>, la maîtrise élémentaire de Kaveh augmente de 25 pts après avoir touché un ennemi avec une attaque normale, chargée ou plongeante. Cet effet peut être déclenché une fois toutes les 0,1 s et cumulé 4 fois maximum.\nCet effet est annulé lorsque les effets de Dôme peint prennent fin."
+          },
+          {
+            "name": "Finesse d'un financier",
+            "desc": "Lors de la fabrication de décorations de type paysage, bâtiment ou enceinte, une partie des matériaux est récupérée."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Salutation de la grande porte",
+            "desc": "Pendant 3 s après avoir utilisé <k>Ingéniosité artistique</k>, la <e:dendro>RÉS Dendro</e> de Kaveh augmente de 50 % et son bonus de soins reçus de 25 %."
+          },
+          {
+            "level": 2,
+            "name": "Grâce du sentier royal",
+            "desc": "La VIT d'attaque des attaques normales de Kaveh augmente de 15 % pendant la durée de <k>Dôme peint</k>."
+          },
+          {
+            "level": 3,
+            "name": "Encens de la tour d'or",
+            "desc": "Niveau d'aptitude <k>Dôme peint</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Banquet des cent piliers",
+            "desc": "Les DGT infligés par l'éclatement des noyaux Dendro générés lorsque Kaveh déclenche une réaction de Fleurissement ou de Sélénofleurissement augmentent de 60 %."
+          },
+          {
+            "level": 5,
+            "name": "Entreposage du saint ancien",
+            "desc": "Niveau d'aptitude <k>Ingéniosité artistique</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Idéal du jardin céleste",
+            "desc": "Pendant la durée de <k>Dôme peint</k>, lorsque Kaveh touche un ennemi avec une attaque normale, chargée ou plongeante, une lumière du pairidaeza est libérée à l'emplacement de ce dernier, infligeant des <e:dendro>DGT Dendro de zone</e> d'une valeur équivalant à 61,8 % de l'ATQ de Kaveh et faisant éclater tous les noyaux Dendro dans la zone d'effet. Cet effet peut être déclenché une fois toutes les 3 s."
+          }
+        ]
+      }
+    }
   }
 }

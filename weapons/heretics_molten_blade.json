@@ -34,5 +34,41 @@
     "nanokaVersion": "6.7.54",
     "refinementModelled": "R5",
     "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R5 (house convention: 4* at R5, 5* at R1)."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11435",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "He drew this weapon once more when he first met that God of Flame, revered by all, but it had been too long since he had last used it.",
+        "passive": {
+          "name": "Lone Light's Blessing",
+          "refinements": {
+            "1": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <r>18%</r> to <r>36%</r> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
+            "2": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <r>22.5%</r> to <r>45%</r> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
+            "3": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <r>27%</r> to <r>54%</r> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
+            "4": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <r>31.5%</r> to <r>63%</r> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
+            "5": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from <r>36%</r> to <r>72%</r> based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme inutilisée depuis longtemps qu'il a ressortie lorsqu'il a aperçu ce dieu des flammes à qui tout le monde avait souhaité du bien la première fois.",
+        "passive": {
+          "name": "Bénédiction de lumière solitaire",
+          "refinements": {
+            "1": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>18 %</r> et <r>36 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille.",
+            "2": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>22,5 %</r> et <r>45 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille.",
+            "3": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>27 %</r> et <r>54 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille.",
+            "4": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>31,5 %</r> et <r>63 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille.",
+            "5": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>36 %</r> et <r>72 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille."
+          }
+        }
+      }
+    }
   }
 }

@@ -271,5 +271,139 @@
         "states": [{ "value": "on", "modifiers": { "critRate_": 0.15 } }]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000045",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Spear of the Church",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Ravaging Confession",
+            "desc": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <e:cryo>Cryo DMG</e>.\nThis ability cannot be used to travel behind opponents of a larger build.\n\n<i>Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.</i>"
+          },
+          "burst": {
+            "name": "Rites of Termination",
+            "desc": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <e:cryo>Cryo DMG</e>.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing <e:cryo>Cryo DMG</e> to surrounding opponents.\n\n<i>Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Regina Probationum",
+            "desc": "When Rosaria strikes an opponent from behind using <k>Ravaging Confession</k>, Rosaria's CRIT Rate increases by 12% for 5s."
+          },
+          {
+            "name": "Shadow Samaritan",
+            "desc": "Casting <k>Rites of Termination</k> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%."
+          },
+          {
+            "name": "Night Walk",
+            "desc": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Unholy Revelation",
+            "desc": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s."
+          },
+          {
+            "level": 2,
+            "name": "Land Without Promise",
+            "desc": "The duration of the Ice Lance created by <k>Rites of Termination</k> is increased by 4s."
+          },
+          {
+            "level": 3,
+            "name": "The Wages of Sin",
+            "desc": "Increases the Level of <k>Ravaging Confession</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Painful Grace",
+            "desc": "<k>Ravaging Confession</k>'s CRIT Hits regenerate 5 Energy for Rosaria.\nCan only be triggered once each time Ravaging Confession is cast."
+          },
+          {
+            "level": 5,
+            "name": "Last Rites",
+            "desc": "Increases the Level of <k>Rites of Termination</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Divine Retribution",
+            "desc": "<k>Rites of Termination</k>'s attack decreases opponents' Physical RES by 20% for 10s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Lance expiatoire",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Confession des péchés",
+            "desc": "Rosalia se déplace rapidement derrière sa cible qu'elle transperce et tranche de sa lance, infligeant des <e:cryo>DGT Cryo</e>.\nCe mouvement ne fonctionne pas avec les ennemis trop grands.\n\n<i>Rosalia ne pardonne pas les péchés de ceux qui se confessent à elle. Au contraire, plus le péché est grand, plus sa punition glaciale est implacable.</i>"
+          },
+          "burst": {
+            "name": "Sacrement mortel",
+            "desc": "Rosalia officie pour une prière pas comme les autres. Après avoir exécuté une attaque circulaire balayant les ennemis à proximité, Rosalia invoque une lance de glace qui frappe le sol. Les deux actions infligent des <e:cryo>DGT Cryo</e>.\nTant que la lance de glace est active, elle émet de façon intermittente des ondes de froid, qui infligent des <e:cryo>DGT Cryo</e> aux ennemis proches.\n\n<i>Un procès est bien trop long, autant en arriver directement à la sentence et donner les derniers sacrements. Rosalia ne croyant pas à l'Archon Anémo, c'est d'autant plus accommodant.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Confession forcée",
+            "desc": "Le taux CRIT de Rosalia augmente de 12 % pendant 5 s lorsqu'elle frappe un ennemi de dos avec <k>Confession des péchés</k>."
+          },
+          {
+            "name": "Samaritain de l'ombre",
+            "desc": "Exécuter <k>Sacrement mortel</k> confère à tous les personnages de l'équipe proches (hormis Rosalia) un bonus de taux CRIT équivalant à 15 % du taux CRIT de Rosalia pendant 10 s.\nLe bonus de taux CRIT ainsi obtenu ne peut pas excéder 15 %."
+          },
+          {
+            "name": "Balade nocturne",
+            "desc": "La nuit (18 h 00 - 06 h 00), vos personnages dans l'équipe obtiennent l'effet Foulée célère : augmente la VIT de déplacement de 10 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées, et ne peut pas être cumulé."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Guide du pécheur",
+            "desc": "Lorsque les attaques de Rosalia infligent un coup CRIT, sa VIT d'attaque et les DGT des attaques normales augmentent de 10 % pendant 4 s."
+          },
+          {
+            "level": 2,
+            "name": "Terre sacrée",
+            "desc": "Prolonge la durée de la lance de glace de <k>Sacrement mortel</k> de 4 s."
+          },
+          {
+            "level": 3,
+            "name": "Rite de confession",
+            "desc": "Niveau d'aptitude <k>Confession des péchés</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Souffrance bénie",
+            "desc": "Rosalia récupère 5 pts d'énergie élémentaire lorsque <k>Confession des péchés</k> inflige un coup CRIT.\nCet effet ne peut être déclenché qu'une fois par Confession des péchés."
+          },
+          {
+            "level": 5,
+            "name": "Prière agonisante",
+            "desc": "Niveau d'aptitude <k>Sacrement mortel</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Châtiment divin",
+            "desc": "Les attaques de <k>Sacrement mortel</k> réduisent la RÉS physique des ennemis de 20 % pendant 10 s."
+          }
+        ]
+      }
+    }
   }
 }

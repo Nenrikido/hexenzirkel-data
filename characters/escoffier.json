@@ -155,5 +155,139 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000112",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Kitchen Skills",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Low-Temperature Cooking",
+            "desc": "Behold the true meaning of \"cooking\"! Escoffier will demonstrate different cooking techniques when you Tap or Hold this skill, but rest assured, each of them is Fontaine's pride and joy.\n\n<k>Tap</k>\nActivates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals <e:cryo>AoE Cryo DMG</e> to nearby opponents.\n\n<k>Cooking Mek: Cold Storage Mode</k>\nFollows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing <e:cryo>Cryo DMG</e>.\n\n<k>Arkhe: Ousia</k>\nAt intervals, Escoffier will summon a Surging Blade when activating her Cooking Mek in Cold Storage mode, dealing Ousia-aligned <e:cryo>AoE Cryo DMG</e>.\n\n<k>Hold</k>\nActivates her All-Spectrum Multi-Use Cooking Mek's <k>Off-the-Cuff Cookery Mode</k>."
+          },
+          "burst": {
+            "name": "Scoring Cuts",
+            "desc": "Displaying her exceptional knife skills, Escoffier deals <e:cryo>AoE Cryo DMG</e> and restores HP to all nearby party members based on her ATK."
+          }
+        },
+        "passives": [
+          {
+            "name": "Better to Salivate Than Medicate",
+            "desc": "After using the Elemental Burst <k>Scoring Cuts</k>, Escoffier will obtain the Rehab Diet effect for 9s: Restores HP for nearby active characters every 1s based on 138.24% of Escoffier's ATK."
+          },
+          {
+            "name": "Inspiration-Immersed Seasoning",
+            "desc": "When there are 1/2/3/4 <e:hydro>Hydro</e> or <e:cryo>Cryo</e> characters in the party, Escoffier will decrease the <e:hydro>Hydro RES</e> and <e:cryo>Cryo RES</e> of any opponents hit by her Elemental Skill, <k>Low-Temperature Cooking</k>, or her Elemental Burst, <k>Scoring Cuts</k>, by 5%/10%/15%/55% for 12s."
+          },
+          {
+            "name": "Constant Off-the-Cuff Cookery",
+            "desc": "When using the Hold form of her Elemental Skill <k>Low-Temperature Cooking</k>, Escoffier will activate her All-Spectrum Multi-Use Cooking Mek in its Off-the-Cuff Cookery mode.\n\n<k>Cooking Mek: Off-the-Cuff Cookery Mode</k>\n· Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.\n· Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM server time."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Pre-Dinner Dance for Your Taste Buds",
+            "desc": "When 4 party members are <e:hydro>Hydro</e> or <e:cryo>Cryo</e>, all nearby party members will have their <e:cryo>Cryo DMG</e> CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill <k>Low-Temperature Cooking</k> or Elemental Burst <k>Scoring Cuts</k>.\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\""
+          },
+          {
+            "level": 2,
+            "name": "Fresh, Fragrant Stew Is an Art",
+            "desc": "When Escoffier activates her Cooking Mek in its <k>Cold Storage Mode</k>, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal <e:cryo>Cryo DMG</e> with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\nIf you hit multiple opponents with a single instance of <e:cryo>Cryo DMG</e>, Cold Dish stacks will be consumed based on the number of opponents hit."
+          },
+          {
+            "level": 3,
+            "name": "The Bakery Magic of Caramel Browning",
+            "desc": "Increases the Level of <k>Low-Temperature Cooking</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Secret Rosemary Recipe",
+            "desc": "<k>Rehab Diet</k> lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through <k>Rehab Diet</k>. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one <k>Rehab Diet</k>'s duration.\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\""
+          },
+          {
+            "level": 5,
+            "name": "Symphony of a Thousand Sauces",
+            "desc": "Increases the Level of <k>Scoring Cuts</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Tea Parties Bursting With Color",
+            "desc": "<k>Cooking Mek: Cold Storage Mode</k> is enhanced:\n· When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as <e:cryo>AoE Cryo DMG</e>. This DMG is considered Elemental Skill DMG.\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Aisance culinaire",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher une attaque ascendante.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Cuisson à basse température",
+            "desc": "Contemplez le véritable sens de la « cuisine » ! Différents effets se produisent selon la méthode de déclenchement, chacun vous dévoilant les diverses techniques culinaires qui font la fierté de Fontaine.\n\n<k>Appui simple</k>\nEscoffier active son mek cuistot multi-usages à palette complète en mode « Stockage à froid », infligeant des <e:cryo>DGT Cryo de zone</e> aux ennemis proches.\n\n<k>Mek cuistot : mode « Stockage à froid »</k>\nLe mek cuistot suit le personnage déployé et tire des parfaits glacés de façon intermittente sur les ennemis proches, infligeant des <e:cryo>DGT Cryo</e>.\n\n<k>Arkhe : Ousia</k>\nRégulièrement, une lame fluide descend lorsque Escoffier active son mek cuistot en mode « Stockage à froid » pour infliger des <e:cryo>DGT Cryo de zone</e> chargés d'énergie ousia.\n\n<k>Appui long</k>\nEscoffier active son mek cuistot multi-usages à palette complète en mode « <k>Cuisson impromptue</k> »."
+          },
+          "burst": {
+            "name": "Art de la découpe",
+            "desc": "Faisant preuve de compétences exceptionnelles en matière de couteau, Escoffier inflige des <e:cryo>DGT Cryo de zone</e> et restaure les PV de tous les personnages de l'équipe à proximité selon son ATQ."
+          }
+        },
+        "passives": [
+          {
+            "name": "Mieux vaut saliver que soigner",
+            "desc": "Après avoir utilisé son déchaînement élémentaire <k>Art de la découpe</k>, Escoffier obtient l'effet Régime rééducateur pendant 9 s : restaure les PV des personnages déployés de l'équipe à proximité pour une valeur équivalant à 138,24 % de l'ATQ d'Escoffier toutes les secondes."
+          },
+          {
+            "name": "Assaisonnement plein d'inspiration",
+            "desc": "Lorsque l'équipe comprend 1/2/3/4 personnages <e:hydro>Hydro</e> ou <e:cryo>Cryo</e>, les RÉS <e:hydro>Hydro</e> et <e:cryo>Cryo</e> des ennemis touchés par la compétence élémentaire <k>Cuisson à basse température</k> d'Escoffier ou par son déchaînement élémentaire <k>Art de la découpe</k> diminuent de 5 %/10 %/15 %/55 % pendant 12 s."
+          },
+          {
+            "name": "Cuisson impromptue constante",
+            "desc": "En utilisant sa compétence élémentaire <k>Cuisson à basse température</k> avec un appui long, Escoffier active son mek cuistot multi-usages à palette complète en mode « Cuisson impromptue ».\n\n<k>Mek cuistot : mode « Cuisson impromptue »</k>\n· Place le mek cuistot sur le terrain, ce dernier pouvant absorber les attaques élémentaires. Lorsque l'énergie élémentaire absorbée atteint une certaine limite, Escoffier peut convertir les ingrédients placés à l'intérieur de son mek en délicieuse nourriture.\n· Escoffier a besoin de temps pour acheter de nouveaux ingrédients et ne peut donc préparer qu'un certain nombre de plats chaque semaine de cette manière. La quantité de plats qu'Escoffier peut préparer chaque semaine est réinitialisée tous les lundis à 04 h 00 (heure du serveur)."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Danse pour les papilles gustatives",
+            "desc": "Lorsque 4 personnages de l'équipe sont de type <e:hydro>Hydro</e> ou <e:cryo>Cryo</e>, tous les personnages de l'équipe à proximité infligeant des <e:cryo>DGT Cryo</e> voient les DGT CRIT augmenter de 60 % pendant 15 s après qu'Escoffier utilise sa compétence élémentaire <k>Cuisson à basse température</k> ou son déchaînement élémentaire <k>Art de la découpe</k>.\nL'aptitude d'élévation « Assaisonnement plein d'inspiration » doit être déjà débloquée."
+          },
+          {
+            "level": 2,
+            "name": "Un ragoût frais et parfumé est un art",
+            "desc": "Lorsque Escoffier active son mek cuistot en <k>mode « Stockage à froid »</k>, elle obtient l'effet Mets fraîchement préparé pendant 15 s : pendant cet effet, Escoffier obtient 5 cumuls de plat froid, un cumul étant consommé lorsqu'un membre de l'équipe déployé à proximité autre qu'Escoffier inflige des <e:cryo>DGT Cryo</e> avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, et ce, afin d'augmenter les DGT infligés d'une valeur équivalant à 240 % de l'ATQ d'Escoffier.\nLorsqu'une instance de <e:cryo>DGT Cryo</e> touche plusieurs ennemis en même temps, le nombre de cumuls de plat froid consommés correspond au nombre d'ennemis touchés."
+          },
+          {
+            "level": 3,
+            "name": "Magie boulangère du caramel brunissant",
+            "desc": "Niveau d'aptitude <k>Cuisson à basse température</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Recette secrète de romarin",
+            "desc": "La durée du <k>régime rééducateur</k> augmente de 6 s. De plus, déclencher des soins avec un <k>régime rééducateur</k> pendant sa durée a une chance d'augmenter les soins de 100 % et de restaurer 2 pts d'énergie élémentaire à Escoffier, cette chance équivalant au taux CRIT d'Escoffier. Cet effet peut être déclenché 7 fois maximum pendant la durée d'un <k>régime rééducateur</k>.\nL'aptitude d'élévation « Mieux vaut saliver que soigner » doit être déjà débloquée."
+          },
+          {
+            "level": 5,
+            "name": "Symphonie aux mille sauces",
+            "desc": "Niveau d'aptitude <k>Art de la découpe</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Goûters débordants de couleurs",
+            "desc": "Le <k>mode « Stockage à froid » du mek cuistot</k> est renforcé :\n· Lorsqu'une attaque normale, chargée ou plongeante de votre personnage déployé touche un ennemi, le mode « Stockage à froid » du mek cuistot tire un parfait glacé spécial supplémentaire, infligeant des <e:cryo>DGT Cryo de zone</e> d'une valeur équivalant à 500 % de l'ATQ d'Escoffier, ces DGT étant considérés comme des DGT de compétence élémentaire.\nCet effet peut être déclenché une fois toutes les 0,5 s, et un maximum de 6 fois pendant la durée d'un mode « Stockage à froid » du mek cuistot."
+          }
+        ]
+      }
+    }
   }
 }

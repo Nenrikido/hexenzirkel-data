@@ -22,5 +22,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14425",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A strangely-shaped anthology of scripts. All the scripts written by Coppelius are recorded within.",
+        "passive": {
+          "name": "Unfinished Masterpiece",
+          "refinements": {
+            "1": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by <r>8%</r> for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide <r>2%</r> All Elemental DMG Bonus, up to a maximum of <r>12%</r>. This effect lasts 15s.",
+            "2": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by <r>10%</r> for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide <r>2.5%</r> All Elemental DMG Bonus, up to a maximum of <r>15%</r>. This effect lasts 15s.",
+            "3": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by <r>12%</r> for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide <r>3%</r> All Elemental DMG Bonus, up to a maximum of <r>18%</r>. This effect lasts 15s.",
+            "4": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by <r>14%</r> for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide <r>3.5%</r> All Elemental DMG Bonus, up to a maximum of <r>21%</r>. This effect lasts 15s.",
+            "5": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by <r>16%</r> for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide <r>4%</r> All Elemental DMG Bonus, up to a maximum of <r>24%</r>. This effect lasts 15s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une anthologie de scripts à la forme étrange. Tous les scénarios écrits par Coppelius y sont consignés.",
+        "passive": {
+          "name": "Chef-d'œuvre incomplet",
+          "refinements": {
+            "1": "Libérer une compétence élémentaire augmente le bonus de DGT élémentaires de <r>8 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 24 % des PV max. Cet effet peut être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, chaque tranche de 1 000 pts de l'engagement accorde un bonus de DGT élémentaires de <r>2 %</r> pendant 15 s, un maximum de <r>12 %</r> pouvant être obtenu de cette manière.",
+            "2": "Libérer une compétence élémentaire augmente le bonus de DGT élémentaires de <r>10 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 24 % des PV max. Cet effet peut être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, chaque tranche de 1 000 pts de l'engagement accorde un bonus de DGT élémentaires de <r>2,5 %</r> pendant 15 s, un maximum de <r>15 %</r> pouvant être obtenu de cette manière.",
+            "3": "Libérer une compétence élémentaire augmente le bonus de DGT élémentaires de <r>12 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 24 % des PV max. Cet effet peut être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, chaque tranche de 1 000 pts de l'engagement accorde un bonus de DGT élémentaires de <r>3 %</r> pendant 15 s, un maximum de <r>18 %</r> pouvant être obtenu de cette manière.",
+            "4": "Libérer une compétence élémentaire augmente le bonus de DGT élémentaires de <r>14 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 24 % des PV max. Cet effet peut être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, chaque tranche de 1 000 pts de l'engagement accorde un bonus de DGT élémentaires de <r>3,5 %</r> pendant 15 s, un maximum de <r>21 %</r> pouvant être obtenu de cette manière.",
+            "5": "Libérer une compétence élémentaire augmente le bonus de DGT élémentaires de <r>16 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 24 % des PV max. Cet effet peut être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, chaque tranche de 1 000 pts de l'engagement accorde un bonus de DGT élémentaires de <r>4 %</r> pendant 15 s, un maximum de <r>24 %</r> pouvant être obtenu de cette manière."
+          }
+        }
+      }
+    }
   }
 }

@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15413",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A bow adorned with nameless flowers that bears the earnest hopes of an equally nameless person.",
+        "passive": {
+          "name": "Windblume Wish",
+          "refinements": {
+            "1": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <r>16%</r> for 6s.",
+            "2": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <r>20%</r> for 6s.",
+            "3": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <r>24%</r> for 6s.",
+            "4": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <r>28%</r> for 6s.",
+            "5": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by <r>32%</r> for 6s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc ornementé de fleurs sans nom, portant également le poids des espoirs ardents d'un inconnu.",
+        "passive": {
+          "name": "Faveur des alizées",
+          "refinements": {
+            "1": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>16 %</r> pendant 6 s.",
+            "2": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>20 %</r> pendant 6 s.",
+            "3": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>24 %</r> pendant 6 s.",
+            "4": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>28 %</r> pendant 6 s.",
+            "5": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>32 %</r> pendant 6 s."
+          }
+        }
+      }
+    }
   }
 }

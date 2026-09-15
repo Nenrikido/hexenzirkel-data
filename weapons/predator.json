@@ -24,5 +24,33 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15415",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A uniquely-designed bow. This should not belong in this world.",
+        "passive": {
+          "name": "Strong Strike",
+          "refinements": {
+            "1": "<v>Effective only on the following platform: </v>\n<v>\"PlayStation™Network\"</v>\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc à la conception unique. Il ne doit probablement pas appartenir à ce monde.",
+        "passive": {
+          "name": "Frappe puissante",
+          "refinements": {
+            "1": "<v>Uniquement pour les joueurs sur :</v>\n<v>« PlayStation™Network »</v>\nAprès avoir infligé des DGT Cryo aux ennemis, les DGT infligés par les attaques normales et chargées augmentent de 10 % pendant 6 s. Cet effet peut être cumulé 2 fois maximum. De plus, lorsque Aloy équipe le Predator, son ATQ augmente de 66 pts."
+          }
+        }
+      }
+    }
   }
 }

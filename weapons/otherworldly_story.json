@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14303",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy.",
+        "passive": {
+          "name": "Energy Shower",
+          "refinements": {
+            "1": "Picking up an Elemental Energy Orb/Particle recovers <r>1%</r> HP.",
+            "2": "Each Elemental Orb or Particle collected restores <r>1.25%</r> HP.",
+            "3": "Each Elemental Orb or Particle collected restores <r>1.5%</r> HP.",
+            "4": "Each Elemental Orb or Particle collected restores <r>1.75%</r> HP.",
+            "5": "Each Elemental Orb or Particle collected restores <r>2%</r> HP."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un roman fantastique sans aucune valeur. Toute affirmation comme quoi il possèderait un pouvoir catalysant n'est qu'affabulation.",
+        "passive": {
+          "name": "Immersion énergétique",
+          "refinements": {
+            "1": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>1 %</r> des PV.",
+            "2": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>1,25 %</r> des PV.",
+            "3": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>1,5 %</r> des PV.",
+            "4": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>1,75 %</r> des PV.",
+            "5": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>2 %</r> des PV."
+          }
+        }
+      }
+    }
   }
 }

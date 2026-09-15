@@ -47,5 +47,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13515",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A spinning mechanical blade produced by the Clink-Clank Krumkake Craftshop that seems to hide secrets from a bygone era...",
+        "passive": {
+          "name": "Purifying Crown",
+          "refinements": {
+            "1": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <r>24%</r> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <r>40%</r> more Lunar-Charged DMG.",
+            "2": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <r>30%</r> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <r>50%</r> more Lunar-Charged DMG.",
+            "3": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <r>36%</r> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <r>60%</r> more Lunar-Charged DMG.",
+            "4": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <r>42%</r> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <r>70%</r> more Lunar-Charged DMG.",
+            "5": "After an Elemental Skill or Elemental Burst is used, ATK is increased by <r>48%</r> for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal <r>80%</r> more Lunar-Charged DMG."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lame mécanique rotative produite par la Knieperterie Cling-clang qui semble cacher des secrets d'une époque révolue...",
+        "passive": {
+          "name": "Couronne de purification",
+          "refinements": {
+            "1": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>24 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>40 %</r>.",
+            "2": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>30 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>50 %</r>.",
+            "3": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>36 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>60 %</r>.",
+            "4": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>42 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>70 %</r>.",
+            "5": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>48 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>80 %</r>."
+          }
+        }
+      }
+    }
   }
 }

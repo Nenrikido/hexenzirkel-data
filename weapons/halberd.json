@@ -12,5 +12,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13302",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
+        "passive": {
+          "name": "Heavy",
+          "refinements": {
+            "1": "Normal Attacks deal an additional <r>160%</r> ATK as DMG. Can only occur once every 10s.",
+            "2": "Normal Attacks deal an additional <r>200%</r> ATK as DMG. This effect can only occur once every 10s.",
+            "3": "Normal Attacks deal an additional <r>240%</r> ATK as DMG. This effect can only occur once every 10s.",
+            "4": "Normal Attacks deal an additional <r>280%</r> ATK as DMG. This effect can only occur once every 10s.",
+            "5": "Normal Attacks deal an additional <r>320%</r> ATK as DMG. This effect can only occur once every 10s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une hampe à l'extrémité de laquelle se trouve un fer de hache. Cette arme puissante est l'une des favorites des officiers des Millelithes.",
+        "passive": {
+          "name": "Écrasement",
+          "refinements": {
+            "1": "Les attaques normales infligent <r>160 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "2": "Les attaques normales infligent <r>200 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "3": "Les attaques normales infligent <r>240 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "4": "Les attaques normales infligent <r>280 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "5": "Les attaques normales infligent <r>320 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s."
+          }
+        }
+      }
+    }
   }
 }

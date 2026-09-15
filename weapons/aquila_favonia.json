@@ -14,5 +14,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11501",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil — just like the last heroine who wielded it.",
+        "passive": {
+          "name": "Falcon's Defiance",
+          "refinements": {
+            "1": "ATK is increased by <r>20%</r>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <r>100%</r> of ATK and dealing <r>200%</r> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+            "2": "ATK is increased by <r>25%</r>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <r>115%</r> of ATK and dealing <r>230%</r> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+            "3": "ATK is increased by <r>30%</r>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <r>130%</r> of ATK and dealing <r>260%</r> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+            "4": "ATK is increased by <r>35%</r>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <r>145%</r> of ATK and dealing <r>290%</r> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
+            "5": "ATK is increased by <r>40%</r>. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to <r>160%</r> of ATK and dealing <r>320%</r> of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "L'âme de l'Ordre de Favonius. Même après des millénaires, elle continue d'appeler le vent de la justice pour venir à bout du mal – tout comme la dernière héroïne à qui elle appartenait.",
+        "passive": {
+          "name": "Résistance du Faucon de l'Ouest",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>20 %</r>. Lorsque le joueur subit des DGT, l'âme du Faucon de l'Ouest se réveille brandissant l'étendard de la résistance, qui restaure <r>100 %</r> de l'ATQ sous forme de PV, et inflige des DGT équivalant à <r>200 %</r> de l'ATQ aux ennemis proches. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "2": "Augmente l'ATQ de <r>25 %</r>. Lorsque le joueur subit des DGT, l'âme du Faucon de l'Ouest se réveille brandissant l'étendard de la résistance, qui restaure <r>115 %</r> de l'ATQ sous forme de PV, et inflige des DGT équivalant à <r>230 %</r> de l'ATQ aux ennemis proches. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "3": "Augmente l'ATQ de <r>30 %</r>. Lorsque le joueur subit des DGT, l'âme du Faucon de l'Ouest se réveille brandissant l'étendard de la résistance, qui restaure <r>130 %</r> de l'ATQ sous forme de PV, et inflige des DGT équivalant à <r>260 %</r> de l'ATQ aux ennemis proches. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "4": "Augmente l'ATQ de <r>35 %</r>. Lorsque le joueur subit des DGT, l'âme du Faucon de l'Ouest se réveille brandissant l'étendard de la résistance, qui restaure <r>145 %</r> de l'ATQ sous forme de PV, et inflige des DGT équivalant à <r>290 %</r> de l'ATQ aux ennemis proches. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "5": "Augmente l'ATQ de <r>40 %</r>. Lorsque le joueur subit des DGT, l'âme du Faucon de l'Ouest se réveille brandissant l'étendard de la résistance, qui restaure <r>160 %</r> de l'ATQ sous forme de PV, et inflige des DGT équivalant à <r>320 %</r> de l'ATQ aux ennemis proches. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        }
+      }
+    }
   }
 }

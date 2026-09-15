@@ -93,5 +93,41 @@
     "nanokaVersion": "6.7.54",
     "refinementModelled": "R3",
     "note": "7.0 weapon, added 2026-08-08 from nanoka 6.7.54 beta data (neither Amber nor GO carry it yet). Base stats derived as init x levels['90'] + last ascension add, the same derivation validated to the cent against 15 existing seed files. Buffs baked at R3 (requested explicitly; refines via Snezhnaya Statues of the Seven, not duplicates)."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11521",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era.",
+        "passive": {
+          "name": "Traveler's Path",
+          "refinements": {
+            "1": "When the Traveler equips this, their ATK will increase by <r>16%</r> for <r>8</r>s after they hit an opponent. At the same time, they will also regenerate <r>3</r> Elemental Energy. This effect can trigger once every <r>5</r>s. This can be triggered even when the character is not on the field.",
+            "2": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <r>20%</r> for 8s, and regenerate <r>3</r> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
+            "3": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <r>24%</r> for 8s, and regenerate <r>5</r> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
+            "4": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <r>32%</r> for 8s, and regenerate <r>5</r> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
+            "5": "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by <r>40%</r> for 8s, and regenerate <r>5</r> Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée longue qui, jadis, brillait de l'éclat de mille étoiles. Entre vos mains, elle devient une lumière inédite, étrangère à toute époque révolue.",
+        "passive": {
+          "name": "Voie du pèlerinage",
+          "refinements": {
+            "1": "Lorsque le voyageur équipe ceci, son ATQ augmente de <r>16 %</r> pendant <r>8</r> s et il récupère <r>3</r> pts d'énergie élémentaire lorsqu'il a touché un ennemi. Cet effet peut être déclenché une fois toutes les <r>5</r> s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de 6 % pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de <r>20 %</r> pendant 8 s et il récupère <r>3</r> pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de 6 % pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de <r>24 %</r> pendant 8 s et il récupère <r>5</r> pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de 6 % pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de <r>32 %</r> pendant 8 s et il récupère <r>5</r> pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de 6 % pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de <r>40 %</r> pendant 8 s et il récupère <r>5</r> pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

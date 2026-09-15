@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14407",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
+        "passive": {
+          "name": "Infusion Scroll",
+          "refinements": {
+            "1": "Triggering an Elemental reaction grants a <r>8%</r> Elemental DMG Bonus for 10s. Max 2 stacks.",
+            "2": "Triggering an Elemental reaction grants a <r>10%</r> Elemental DMG Bonus for 10s. Max 2 stacks.",
+            "3": "Triggering an Elemental reaction grants a <r>12%</r> Elemental DMG Bonus for 10s. Max 2 stacks.",
+            "4": "Triggering an Elemental reaction grants a <r>14%</r> Elemental DMG Bonus for 10s. Max 2 stacks.",
+            "5": "Triggering an Elemental reaction grants a <r>16%</r> Elemental DMG Bonus for 10s. Max 2 stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une carte marine très détaillée des courants et du climat de Teyvat. Un document étonnant, arrivé à Liyue par voie commerciale.",
+        "passive": {
+          "name": "Rouleau énergisant",
+          "refinements": {
+            "1": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>8 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum.",
+            "2": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>10 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum.",
+            "3": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>12 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum.",
+            "4": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>14 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum.",
+            "5": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>16 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum."
+          }
+        }
+      }
+    }
   }
 }

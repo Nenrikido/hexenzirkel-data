@@ -210,5 +210,139 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000114",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Havoc: Sunder",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive attacks.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to hurl a spinning crystal spear, dealing DMG to opponents ahead.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Havoc: Warp",
+            "desc": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\n\n<k>Tap</k>\nSkirk gains 45 <k>Serpent's Subtlety</k> and switches to <k>Seven-Phase Flash</k> mode.\n\n<k>Hold</k>\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely."
+          },
+          "burst": {
+            "name": "Havoc: Ruin",
+            "desc": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on <k>Serpent's Subtlety</k>.\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal <e:cryo>AoE Cryo DMG</e>. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\n\nWhen Skirk is in <k>Seven-Phase Flash</k> mode, Havoc: Ruin will be replaced by Havoc: Extinction.\n\n<k>Havoc: Extinction</k>\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent <k>Reason Beyond Reason</k>, she can also absorb nearby Void Rifts.\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using <k>Havoc: Extinction</k>, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\nThis effect will be canceled when it has triggered 10 times."
+          }
+        },
+        "passives": [
+          {
+            "name": "Reason Beyond Reason",
+            "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\n\nSkirk can use the following methods to absorb nearby Void Rifts:\n· When she hits an opponent with a Charged Attack in her <k>Seven-Phase Flash</k> mode.\n· When she uses the special Elemental Burst <k>Havoc: Extinction</k> while in Seven-Phase Flash mode.\n· When she Holds her Elemental Skill <k>Havoc: Warp</k> to engage in rapid movement.\n\nEach Rift absorbed will grant her 8 <k>Serpent's Subtlety</k> points."
+          },
+          {
+            "name": "Return to Oblivion",
+            "desc": "When nearby <e:hydro>Hydro</e> party members' <e:hydro>Hydro</e> attacks hit opponents, or when nearby <e:cryo>Cryo</e> party members apart from Skirk hit opponents with <e:cryo>Cryo</e> attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in <k>Seven-Phase Flash</k> mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst <k>Havoc: Ruin</k> to 105%/115%/160% of its original DMG."
+          },
+          {
+            "name": "Mutual Weapons Mentorship",
+            "desc": "When all party members are either <e:hydro>Hydro</e> or <e:cryo>Cryo</e>, and if there is at least 1 Hydro and 1 Cryo character, your own party members' <k>Elemental Skill</k> Level is increased by 1."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Far to Fall",
+            "desc": "Enhances the effects of the Ascension Talent <k>Reason Beyond Reason</k>: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as <e:cryo>Cryo DMG</e>. This DMG is considered Charged Attack DMG.\nYou must first unlock the Ascension Talent Reason Beyond Reason."
+          },
+          {
+            "level": 2,
+            "name": "Into the Abyss",
+            "desc": "After unleashing her Elemental Skill <k>Havoc: Warp</k>, Skirk will gain 10 additional <k>Serpent's Subtlety</k> points.\nWhen using her Elemental Burst <k>Havoc: Ruin</k>, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst <k>Havoc: Extinction</k> while in her <k>Seven-Phase Flash</k> mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode."
+          },
+          {
+            "level": 3,
+            "name": "Serendipitous Sin",
+            "desc": "Increases the Level of <k>Havoc: Ruin</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Fractured Flow",
+            "desc": "Enhances the effects of the Ascension Talent <k>Return to Oblivion</k>: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\nYou must first unlock the Ascension Talent Return to Oblivion."
+          },
+          {
+            "level": 5,
+            "name": "End of Wishes",
+            "desc": "Increases the Level of <k>Havoc: Warp</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "To the Source",
+            "desc": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent <k>Reason Beyond Reason</k> will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in <k>Seven-Phase Flash</k> mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\n\n<k>Havoc: Sever</k>\n· When Skirk uses the Elemental Burst <k>Havoc: Ruin</k>, she will consume all <k>Havoc: Sever</k> stacks to initiate a coordinated attack in which each <k>Havoc: Sever</k> stack will deal 750% of Skirk's ATK as <e:cryo>Cryo DMG</e>. This DMG is considered Elemental Burst DMG.\n· When she uses Normal Attacks while in Seven-Phase Flash mode, 1 <k>Havoc: Sever</k> stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as <e:cryo>Cryo DMG</e>. This damage is considered Normal Attack DMG.\n· When Skirk takes DMG while in Seven-Phase Flash mode, 1 <k>Havoc: Sever</k> stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as <e:cryo>Cryo DMG</e>. This DMG is considered Charged Attack DMG."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Ravage : Scission",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 attaques consécutives.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour lancer une lance cristalline tournoyante et infliger des DGT aux ennemis en face.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Ravage : Distorsion",
+            "desc": "Skirk imite le style de combat du Cavalier abominable : différents effets se produisent selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nSkirk obtient 45 pts de <k>finesse serpentine</k> et passe en mode <k>Flash à sept phases</k>.\n\n<k>Appui long</k>\nSkirk obtient 45 pts de finesse serpentine et se déplace continuellement à grande vitesse, cet état augmentant sa RÉS à l'interruption.\nPendant cet état, Skirk peut contrôler la direction de ses déplacements, se déplacer sur l'eau et utiliser à nouveau la compétence pour interrompre prématurément son déplacement rapide."
+          },
+          "burst": {
+            "name": "Ravage : Ruine",
+            "desc": "Le déchaînement élémentaire de Skirk ne se repose pas sur l'énergie élémentaire, mais sur la <k>finesse serpentine</k>.\nLorsque Skirk a au moins 50 pts de finesse serpentine, elle peut la consommer entièrement pour déclencher son déchaînement élémentaire : elle déchire l'espace devant elle et effectue de rapides entailles consécutives pour infliger des <e:cryo>DGT Cryo de zone</e>, DGT qui augmentent selon la quantité de finesse serpentine dépassant ce seuil de 50 pts, un maximum de 12 pts pouvant être pris en compte.\n\nLorsque Skirk est en mode <k>Flash à sept phases</k>, son déchaînement élémentaire « Ravage : Ruine » est remplacé par « Ravage : Extinction ».\n\n<k>Ravage : Extinction</k>\nCe déchaînement élémentaire spécial peut être utilisé sans consommer de finesse serpentine.\nAprès utilisation, Skirk obtient l'effet Dépérissement jusqu'à la fin du mode Flash à sept phases. Après avoir débloqué l'aptitude d'élévation « <k>Raisonnement outre-raison</k> », Skirk peut également absorber les failles du néant à proximité.\nToutes les 0,1 s pendant la durée de l'effet Dépérissement, les DGT des attaques normales de Skirk augmentent en touchant un ennemi. Si elle a absorbé des failles du néant en utilisant <k>Ravage : Extinction</k>, les DGT de l'attaque normale de Skirk augmentent davantage.\nCet effet prend fin après 10 déclenchements."
+          }
+        },
+        "passives": [
+          {
+            "name": "Raisonnement outre-raison",
+            "desc": "Lorsqu'un membre de l'équipe à proximité déclenche une réaction de Gel, de Supraconduction, d'Astroconduction, de Dispersion Cryo, d'Astrodispersion ou de Cristallisation Cryo sur un ennemi, une faille du néant apparaît à proximité de ce dernier. Cet effet peut être déclenché une fois toutes les 2,5 s et un maximum de 3 failles du néant créées par Skirk peut exister en même temps sur le terrain.\n\nSkirk peut absorber les failles du néant à proximité des manières suivantes :\n· En touchant un ennemi avec une attaque chargée pendant son mode <k>Flash à sept phases</k>.\n· En utilisant son déchaînement élémentaire spécial <k>Ravage : Extinction</k> pendant son mode Flash à sept phases.\n· En se déplaçant rapidement grâce à un appui long de sa compétence élémentaire <k>Ravage : Distorsion</k>.\n\nChaque faille du néant absorbée permet à Skirk d'obtenir 8 pts de <k>finesse serpentine</k>."
+          },
+          {
+            "name": "Retour à la désolation",
+            "desc": "Lorsqu'un personnage proche de type <e:hydro>Hydro</e> dans l'équipe touche un ennemi avec une attaque <e:hydro>Hydro</e> ou qu'un personnage proche de type <e:cryo>Cryo</e> autre que Skirk dans l'équipe touche un ennemi avec une attaque <e:cryo>Cryo</e>, Skirk obtient un cumul de l'effet Traversée de la mort pendant 20 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.\nDe plus, chaque personnage permet à Skirk d'obtenir 1 cumul de traversée de la mort maximum de cette manière.\nChaque cumul de traversée de la mort permet à l'attaque normale de Skirk d'infliger des DGT d'une valeur équivalant à 110 %/120 %/170 % des DGT d'origine en mode <k>Flash à sept phases</k> et permet à son déchaînement élémentaire <k>Ravage : Ruine</k> d'infliger des DGT d'une valeur équivalant à 105 %/115 %/160 % des DGT d'origine."
+          },
+          {
+            "name": "Mentorat mutuel d'armement",
+            "desc": "Lorsque les personnages de l'équipe sont de l'élément <e:hydro>Hydro</e> ou <e:cryo>Cryo</e> et qu'il y a au moins un personnage Hydro et un personnage Cryo, le niveau des <k>compétences élémentaires</k> de vos personnages dans l'équipe augmente de 1."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Chute longue",
+            "desc": "L'aptitude d'élévation « <k>Raisonnement outre-raison</k> » est renforcée : absorber une faille du néant invoque une lame cristalline qui attaque les ennemis proches, infligeant des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 500 % de l'ATQ de Skirk. Ces DGT sont considérés comme des DGT d'attaque chargée.\nL'aptitude d'élévation « Raisonnement outre-raison » doit être déjà débloquée."
+          },
+          {
+            "level": 2,
+            "name": "Abîme profond",
+            "desc": "Après avoir utilisé sa compétence élémentaire <k>Ravage : Distorsion</k>, Skirk obtient 10 pts de <k>finesse serpentine</k> supplémentaires.\nEn utilisant le déchaînement élémentaire <k>Ravage : Ruine</k>, les DGT augmentent en prenant en compte 10 pts de finesse serpentine supplémentaires.\nDe plus, lorsque Skirk a utilisé son déchaînement élémentaire spécial <k>Ravage : Extinction</k> pendant son mode <k>Flash à sept phases</k>, son ATQ augmente de 70 % pendant 12,5 s, cet effet prenant fin lorsqu'elle quitte le mode Flash à sept phases."
+          },
+          {
+            "level": 3,
+            "name": "Vice fortuit",
+            "desc": "Niveau d'aptitude <k>Ravage : Ruine</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Flux scindé",
+            "desc": "L'aptitude d'élévation « <k>Retour à la désolation</k> » est renforcée : chaque cumul de traversée de la mort augmente également l'ATQ de Skirk de 10 %/20 %/40 %.\nL'aptitude d'élévation « Retour à la désolation » doit être déjà débloquée."
+          },
+          {
+            "level": 5,
+            "name": "Fin des souhaits",
+            "desc": "Niveau d'aptitude <k>Ravage : Distorsion</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Source revenue",
+            "desc": "Skirk obtient un cumul de « Ravage : Section » pendant 15 s chaque fois qu'elle absorbe une faille du néant grâce à l'aptitude d'élévation « <k>Raisonnement outre-raison</k> ». Skirk peut consommer ces cumuls pour déclencher une attaque coordonnée et diminuer les DGT qu'elle subit en mode <k>Flash à sept phases</k>. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.\nL'aptitude d'élévation « Raisonnement outre-raison » doit être déjà débloquée.\n\n<k>Ravage : Section</k>\n· Lorsqu'elle utilise son déchaînement élémentaire <k>Ravage : Ruine</k>, Skirk consomme tous les cumuls de <k>Ravage : Section</k> pour déclencher une attaque coordonnée : chaque cumul<k></k> inflige des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 750 % de l'ATQ de Skirk, ces dégâts étant considérés comme des DGT de déchaînement élémentaire.\n· Lorsqu'elle est en mode Flash à sept phases et que le 3e ou 5e coup de son attaque normale touche un ennemi, Skirk consomme un cumul de <k>Ravage : Section</k> pour déclencher 3 attaques coordonnées : chaque attaque coordonnée inflige des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 180 % de l'ATQ de Skirk, ces dégâts étant considérés comme des DGT d'attaque normale.\n· Lorsqu'elle subit des DGT pendant son mode Flash à sept phases, Skirk consomme un cumul de <k>Ravage : Section</k> pour diminuer ces derniers de 80 % et déclencher 3 attaques coordonnées sur les ennemis proches : chaque attaque coordonnée inflige des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 180 % de l'ATQ de Skirk, ces dégâts étant considérés comme des DGT d'attaque chargée."
+          }
+        ]
+      }
+    }
   }
 }

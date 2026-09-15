@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13417",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear.",
+        "passive": {
+          "name": "Stillwood Moonshadow",
+          "refinements": {
+            "1": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>16%</r> ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+            "2": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>20%</r> ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+            "3": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>24%</r> ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+            "4": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>28%</r> ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.",
+            "5": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>32%</r> ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme que vous avez obtenue dans un conte d'aranara. Elle a la forme d'une flèche géante et peut être utilisée comme lance.",
+        "passive": {
+          "name": "Ombre lunaire en forêt",
+          "refinements": {
+            "1": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de <r>16 %</r> pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de <r>20 %</r> pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de <r>24 %</r> pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de <r>28 %</r> pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de renouveau est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente l'ATQ du personnage de <r>32 %</r> pendant 12 s. Une feuille de renouveau peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

@@ -339,5 +339,147 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000111",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "By the Horns",
+            "desc": "<k>Normal Attack</k>\nGotta try... to do battle like the greatest champion luchadors do! Varesa launches up to 3 strikes, dealing <e:electro>Electro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to headbutt opponents in front, dealing Nightsoul-aligned <e:electro>Electro DMG</e> and using the momentum to leap into the air.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing Nightsoul-aligned <e:electro>AoE Electro DMG</e> upon impact. If Varesa is in a combat state upon landing, or if the shockwave from her plunging attack hits an opponent, she will gain 25 Nightsoul points. She enters the Fiery Passion state upon reaching maximum Nightsoul points through this method.\n\n<k>Fiery Passion</k>\nIn this state, Varesa's Normal, Charged, and Plunging Attacks will gain corresponding buffs:\n\n<k>Normal Attack</k>\nFight like a superstar champion luchador! Launches up to 3 fierce strikes, dealing greater <e:electro>Electro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to slam into her opponents, dealing greater amounts of Nightsoul-aligned <e:electro>Electro DMG</e> and using the momentum to leap into the air.\n\n<k>Plunging Attack</k>\nConsumes all her Nightsoul points and slams down on the ground from mid-air, dealing DMG to opponents in her path and dealing greater amounts of Nightsoul-aligned <e:electro>AoE Electro DMG</e> upon hitting the ground."
+          },
+          "skill": {
+            "name": "Riding the Night-Rainbow",
+            "desc": "With footwork swift as lightning and fierce as thunder, Varesa displays the true spirit of lucha libre, rushing forward a certain distance and dealing Nightsoul-aligned <e:electro>Electro DMG</e> to opponents in her path.\nAfter using this Skill, Varesa gains 20 Nightsoul points and gains the \"Follow-Up Strike\" effect: Varesa has increased interruption resistance during this time, and upon pressing her Normal Attack, she will quickly unleash a Charged Attack that does not consume Stamina. \"Follow-Up Strike\" will be canceled after Varesa uses a Charged Attack.\nShe will use different techniques based on whether the skill is Tapped or Held.\n\n<k>Tap</k>\nQuickly rush a certain distance forward.\n\n<k>Hold</k>\nVaresa enters the Nightsoul's Blessing state and switches to Sudden Onrush mode.\n\n<k>Sudden Onrush</k>\nContinuously consumes Nightsoul points. In this state, Varesa's Movement SPD and interruption resistance are increased. She can use terrain to execute flying leaps or consume additional Nightsoul points to traverse atop water or liquid Phlogiston while remaining immune to DMG from the latter.\n\n<k>Nightsoul's Blessing: Varesa</k>\nWhen she runs out of Nightsoul points, her Nightsoul's Blessing state will be canceled. When Varesa is in the Sudden Onrush state or Fiery Passion state, she will always be counted as being in the Nightsoul's Blessing state.\n\nHas 2 charges. When Varesa enters the Fiery Passion state, she will obtain an additional Tap charge of her Elemental Skill and its DMG will be increased.\n\n<k>Fiery Passion</k>\n· While not in the Fiery Passion state, Varesa can use Plunging Attacks to gain Nightsoul points. She will enter Fiery Passion when she reaches maximum Nightsoul points via this method, or when she uses her Elemental Burst <k>Guardian Vent!</k>\n· While in the Fiery Passion state, her Normal Attacks, Elemental Skill, and Elemental Burst will gain unique buffs. She can also use a special Elemental Burst shortly after using a Plunging Attack.\n· The Fiery Passion state lasts for up to 15s and will end when she runs out of Nightsoul points or after she leaves combat for a period of time.\n\n<i>\"Right now, I'm my own hero.\"</i>"
+          },
+          "burst": {
+            "name": "Guardian Vent!",
+            "desc": "Leaps into the air before using the momentum of the drop to unleash a powerful flying kick, dealing Nightsoul-aligned <e:electro>AoE Electro DMG</e> to opponents — just like those heroes of justice in woven scrolls for kids!\nAfter using this Skill, Varesa's Nightsoul points will be restored to maximum and she will enter the Fiery Passion state.\n\nIn the Fiery Passion state, Varesa's Elemental Burst will deal a greater amount of Nightsoul-aligned <e:electro>AoE Electro DMG</e>.\n\nAdditionally, she will briefly activate Apex Drive after using a Plunging Attack while in her Fiery Passion state.\n\n<k>Apex Drive</k>\nIncreases Varesa's interruption resistance. While affected by Apex Drive, Varesa can ignore her Elemental Burst CD and consume less Energy to use her special Elemental Burst, \"Guardian Vent: Volcano Kablam\": This causes her to use the especially powerful Plunging Attack, the \"Thunderous Tornado Eruption,\" which deals Nightsoul-aligned <e:electro>AoE Electro DMG</e> upon landing before causing her to exit Apex Drive. This DMG is considered Plunging Attack DMG.\nVaresa will exit Apex Drive after using her Elemental Skill.\n\n<i>In truth, the original name Varesa gave this move was the \"Invincible Dynamic Heroic Justice Super Mega Ultimate Thundercrash Sky-Splitting Supersonic Boom Kick.\" Alas, this name proved too long, and she was too embarrassed to shout it in front of everyone, even with her mask on. As such, she changed it to its present title instead.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Tag-Team Triple Jump!",
+            "desc": "After using the Elemental Skill <k>Riding the Night-Rainbow</k>, Varesa gains \"Rainbow Crash\" for 5s.\nDuring this time, when Varesa uses a Plunging Attack, the shockwave DMG dealt when she hits the ground is increased by 50% of her ATK. If Varesa is in the Fiery Passion state, this ground impact DMG is increased by 180% of her ATK instead.\n\nThe Rainbow Crash effect will be canceled once a ground impact hits an opponent, or when its duration expires."
+          },
+          {
+            "name": "The Hero Twice-Returned!",
+            "desc": "When a nearby party member triggers a Nightsoul Burst, Varesa's ATK increases by 35% for 12s. Max 2 stacks. Each stack's duration is counted independently."
+          },
+          {
+            "name": "Night Realm's Gift: A Torch That Incinerates Evil",
+            "desc": "After Nightsoul points have been fully depleted, Varesa will switch to using Phlogiston to maintain the Sudden Onrush mode from her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Varesa can be used. When the current active character is sprinting or in movement modes caused by certain Talents, or at a certain height in the air, switching to Varesa will trigger the following: Varesa enters the Nightsoul's Blessing state, switches to Sudden Onrush mode, and obtains 20 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party.\nWhile in an area with Phlogiston Mechanics within Natlan, Varesa will not take fall DMG when using terrain differences to make leaps."
+          },
+          {
+            "name": "Blazing Heart, Singular Advance!",
+            "desc": "Varesa's Sprint speed is increased. When she is not in combat, her Sprint Stamina consumption will also increase.\nAdditionally, while in an area with Phlogiston Mechanics within Natlan, your party members will restore 20 Phlogiston when consuming food. This effect can occur once every 10s and does not take effect in Domains, Trounce Domains, or the Spiral Abyss."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Undying Passion",
+            "desc": "The effects of the Ascension Talent \"Tag-Team Triple Jump!\" are enhanced:\nWhen performing the Special Plunging Attack \"Thunderous Tornado Eruption,\" Varesa will also gain \"Rainbow Crash\" for 5s.\nWhen \"Rainbow Crash\" is in effect, Varesa's Plunging Attack ground impact DMG is increased by 180% of her ATK, whether she is in the Fiery Passion state or not. You must first unlock the Ascension Talent \"Tag-Team Triple Jump!\" to access the above effect.\n\nAdditionally, when Varesa is in the Sudden Onrush mode of her Nightsoul's Blessing, she consumes 30% less Nightsoul points or Phlogiston."
+          },
+          {
+            "level": 2,
+            "name": "Beyond the Edge of Light",
+            "desc": "Varesa will enter Apex Drive after using a Plunging Attack, regardless of whether she is in the Fiery Passion state or not.\nWhen Apex Drive is active, Varesa's interruption resistance will also further increase.\nAdditionally, Varesa will restore 11.5 Energy when her Plunging Attack ground impact hits an opponent."
+          },
+          {
+            "level": 3,
+            "name": "Unbowed Resolve",
+            "desc": "Increases the Level of <k>Guardian Vent!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "The Courage to Press On",
+            "desc": "Varesa will receive various buffs based on her state when using her Elemental Burst <k>Guardian Vent!</k> If Varesa:\n· Has neither Fiery Passion nor Apex Drive active, she will gain Diligent Refinement for 15s, which will increase her Plunging Attack ground impact DMG by 500% of her ATK, with a maximum increase of 20,000 DMG. This effect will be canceled once the ground impact hits an opponent, or if its duration ends.\n· If she has either Fiery Passion or Apex Drive active, this instance of her Elemental Burst <k>Guardian Vent!</k> deals 100% increased DMG."
+          },
+          {
+            "level": 5,
+            "name": "Thoughts Floating on the Warm Breeze",
+            "desc": "Increases the Level of <k>Normal Attack: By the Horns</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "A Hero of Justice's Triumph",
+            "desc": "Varesa restores 30 Energy when she enters Apex Drive.\nHer Plunging Attacks and Elemental Burst <k>Guardian Vent!</k> gain 10% CRIT Rate and 100% CRIT DMG.\nAdditionally, when Varesa uses the Hold version of her Elemental Skill <k>Riding the Night-Rainbow</k>, or Taps her Elemental Skill while in the Sudden Onrush mode, she will restore Nightsoul points up to her maximum."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Par les cornes",
+            "desc": "<k>Attaque normale</k>\nIl faut essayer... de combattre comme le font les plus grandes luchadoras ! Varesa enchaîne jusqu'à 3 coups infligeant des <e:electro>DGT Électro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour donner un coup de tête aux ennemis en avant, infligeant des <e:electro>DGT Électro</e> infusés de noctâme et profitant de l'élan pour bondir dans les airs.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, attaquant les ennemis en chemin et infligeant des <e:electro>DGT Électro de zone</e> infusés de noctâme à l'impact. Si Varesa est en combat à ce moment-là ou touche un ennemi lors de l'impact, elle obtient 25 pts de noctâme. Lorsque son noctâme atteint le maximum grâce à cette méthode, Varesa entre dans l'état Passion ardente.\n\n<k>Passion ardente</k>\nDans cet état, les attaques normales, plongées et chargées de Varesa sont renforcées :\n\n<k>Attaque normale</k>\nPour combattre comme une vraie luchadora championne ! Varesa enchaîne jusqu'à 3 coups violents infligeant davantage de <e:electro>DGT Électro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour percuter violemment les ennemis en avant, infligeant davantage de <e:electro>DGT Électro</e> infusés de noctâme et profitant de l'élan pour bondir dans les airs.\n\n<k>Attaque plongeante</k>\nConsomme tous les points de noctâme et plonge depuis les airs pour frapper le sol, attaquant les ennemis en chemin et infligeant davantage de <e:electro>DGT Électro de zone</e> infusés de noctâme à l'impact."
+          },
+          "skill": {
+            "name": "Sur l'arc-en-ciel nocturne",
+            "desc": "Avec un jeu de jambes rapide comme l'éclair et féroce comme le tonnerre, Varesa montre le véritable esprit de la lucha libre, se ruant vers l'avant sur une certaine distance pour infliger des <e:electro>DGT Électro</e> infusés de noctâme aux ennemis en chemin.\nAprès utilisation, Varesa obtient 20 pts de noctâme et l'effet Coup de suivi, ce dernier augmentant sa RÉS à l'interruption et lui permettant d'utiliser son attaque normale avec un appui simple pour déclencher rapidement une attaque chargée qui ne consomme pas d'endurance. L'effet Coup de suivi disparaît après l'utilisation de l'attaque chargée.\nDifférents effets se produisent selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nVaresa se rue rapidement en avant sur une certaine distance.\n\n<k>Appui long</k>\nVaresa entre dans l'état Bénédiction noctâme et passe en mode Avancée soudaine.\n\n<k>Avancée soudaine</k>\nLe mode Avancée soudaine de Varesa consomme de façon continue ses points de noctâme, augmente sa VIT de déplacement et sa RÉS à l'interruption et lui permet d'utiliser la topographie du terrain pour bondir dans les airs ou de consommer des points de noctâme supplémentaires pour se déplacer sur l'eau et sur le phlogistique liquide sans en subir les DGT.\n\n<k>Bénédiction noctâme : Varesa</k>\nLa bénédiction noctâme de Varesa prend fin une fois ses points de noctâme épuisés. Lorsque Varesa est en mode Avancée soudaine ou dans l'état Passion ardente, elle est considérée comme bénéficiant d'une bénédiction noctâme.\n\nVaresa possède 2 utilisations disponibles. Lorsqu'elle déclenche sa passion ardente, elle obtient une occasion supplémentaire d'utiliser sa compétence élémentaire avec un appui simple et en augmente les DGT.\n\n<k>Passion ardente</k>\n· Lorsqu'elle n'est pas dans l'état Passion ardente, Varesa peut utiliser ses attaques plongeantes pour restaurer ses points de noctâme. Varesa déclenche sa passion ardente lorsque son noctâme atteint le maximum grâce à cette méthode ou qu'elle utilise son déchaînement élémentaire <k>Avènement protecteur !</k>.\n· Pendant sa passion ardente, les attaques normales, les compétences élémentaires et les déchaînements élémentaires de Varesa bénéficient de renforcements distincts et elle peut également utiliser un déchaînement élémentaire spécial un court instant après avoir utilisé une attaque plongeante.\n· L'état Passion ardente dure un maximum de 15 s ou prend fin lorsque les points de noctâme sont épuisés ou après avoir été hors combat pendant un moment.\n\n<i>« Maintenant, je suis ma propre héroïne. »</i>"
+          },
+          "burst": {
+            "name": "Avènement protecteur !",
+            "desc": "Exactement comme tous ces héros que l'on voit dans les rouleaux tissés pour enfants, Varesa bondit dans les airs et utilise l'élan de sa chute pour déclencher un puissant coup de pied volant, infligeant des <e:electro>DGT Électro de zone</e> infusés de noctâme.\nAprès utilisation, Varesa restaure ses points de noctâme jusqu'à la limite et déclenche sa passion ardente.\n\nPendant sa passion ardente, le déchaînement élémentaire de Varesa inflige davantage de <e:electro>DGT Électro de zone</e> infusés de noctâme aux ennemis.\n\nDe plus, Varesa active brièvement l'état Transmission extrême après avoir utilisé une attaque plongeante pendant sa passion ardente.\n\n<k>Transmission extrême</k>\nCet état augmente la RÉS à l'interruption de Varesa et lui permet d'ignorer le TdR de ses déchaînements élémentaires, de consommer moins d'énergie élémentaire et d'utiliser le déchaînement élémentaire spécial « Avènement protecteur : Effondrement volcanique » : exécute la puissante attaque plongeante « Éruption-tornade tonitruante », infligeant des <e:electro>DGT Électro de zone</e> infusés de noctâmes à l'impact et mettant fin à la transmission extrême, ces DGT étant considérés comme des DGT d'attaque plongeante.\nUtiliser une compétence élémentaire met fin à la transmission extrême.\n\n<i>En vérité, le nom original que Varesa avait donné à ce mouvement était « Invincible coup de pied supersonique dynamique méga-giga-ultime fendant héroïquement le ciel ». Hélas, ce nom s'est avéré trop long, et elle était trop gênée pour le crier à voix haute devant tout le monde, même avec son masque. Elle a donc opté pour ce qui est maintenant son nom officiel.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Le triple saut en tag team !",
+            "desc": "Après avoir utilisé sa compétence élémentaire <k>Sur l'arc-en-ciel nocturne</k>, Varesa obtient l'effet Effondrement d'arc-en-ciel pendant 5 s.\nPendant cet effet, l'impact des attaques plongeantes de Varesa inflige des DGT supplémentaires d'une valeur équivalant à 50 % de son ATQ, ou à 180 % de son ATQ pendant sa passion ardente.\n\nL'effet Effondrement d'arc-en-ciel disparaît lorsqu'un ennemi est touché avec un impact ou à la fin de sa durée."
+          },
+          {
+            "name": "L'héroïne une nouvelle fois de retour !",
+            "desc": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, l'ATQ de Varesa augmente de 35 % pendant 12 s. Cet effet peut être cumulé 2 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+          },
+          {
+            "name": "Don de la nuit : Torche incinérant le mal",
+            "desc": "Après avoir épuisé ses points de noctâme, Varesa change pour consommer du phlogistique afin de maintenir le mode Avancée soudaine de sa bénédiction noctâme.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Varesa » peut être utilisée. Lorsque le personnage déployé sprinte, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement de Varesa déclenche l'effet suivant : Varesa entre dans l'état Bénédiction noctâme, passe en mode Avancée soudaine et obtient 20 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\nDans une zone de Natlan avec des mécanismes phlogistiques, Varesa ne subit pas de DGT de chute lorsqu'elle utilise les différences de terrain pour sauter."
+          },
+          {
+            "name": "Cœur ardent, toujours vers l'avant !",
+            "desc": "La VIT de sprint de Varesa augmente, ainsi que l'endurance consommée par ses sprints en dehors des combats.\nDe plus, vos personnages dans l'équipe récupèrent 20 pts de phlogistique lorsqu'ils utilisent de la nourriture dans une zone de Natlan avec des mécanismes phlogistiques. Cet effet peut être déclenché une fois toutes les 10 secondes et ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Passion éternelle",
+            "desc": "L'aptitude d'élévation « Le triple saut en tag team ! » est renforcée :\nLorsqu'elle effectue son attaque plongeante spéciale « Éruption-tornade tonitruante », Varesa obtient également l'effet Effondrement d'arc-en-ciel pendant 5 s.\nPendant la durée de l'effet Effondrement d'arc-en-ciel, l'impact des attaques plongeantes de Varesa inflige des DGT supplémentaires d'une valeur équivalant à 180 % de son ATQ que sa passion ardente soit activée ou non, l'aptitude d'élévation « Le triple saut en tag team ! » devant être déjà débloquée.\n\nDe plus, lorsque Varesa est dans le mode Avancée soudaine de sa bénédiction noctâme, les points de noctâme ou le phlogistique qu'elle consomme diminuent de 30 %."
+          },
+          {
+            "level": 2,
+            "name": "Au-delà des limites de la lumière",
+            "desc": "Varesa active l'état Transmission extrême après avoir utilisé une attaque plongeante, que ce soit ou non pendant sa passion ardente.\nPendant sa transmission extrême, la RÉS à l'interruption de Varesa augmente davantage.\nDe plus, Varesa récupère 11,5 pts d'énergie élémentaire lorsque l'impact de son attaque plongeante touche un ennemi."
+          },
+          {
+            "level": 3,
+            "name": "Détermination inébranlable",
+            "desc": "Niveau d'aptitude <k>Avènement protecteur !</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Le courage de continuer",
+            "desc": "Lors de l'utilisation du déchaînement élémentaire <k>Avènement protecteur !</k>, Varesa obtient différents bonus selon son état :\n· Si Varesa ne bénéficie ni d'une passion ardente ni d'une transmission extrême : elle obtient l'effet Affinage diligent pendant 15 s, ce qui augmente les DGT infligés par l'impact de ses attaques plongeantes d'une valeur équivalant à 500 % de son ATQ, les DGT pouvant être augmentés d'un maximum de 20 000 pts de cette manière. Cet effet disparaît lorsqu'un ennemi est touché avec un impact ou à la fin de sa durée.\n· Si Varesa bénéficie d'une passion ardente ou d'une transmission extrême : les DGT infligés par cette utilisation du déchaînement élémentaire <k>Avènement protecteur !</k> augmentent de 100 %."
+          },
+          {
+            "level": 5,
+            "name": "Pensées flottant dans la brise chaude",
+            "desc": "Niveau d'aptitude <k>Attaque normale : Par les cornes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Le triomphe d'une héroïne de la justice",
+            "desc": "Varesa récupère 30 pts d'énergie élémentaire lorsqu'elle active sa transmission extrême.\nLe taux CRIT de l'attaque plongeante et du déchaînement élémentaire <k>Avènement protecteur !</k> de Varesa augmente de 10 % et leurs DGT CRIT de 100 %.\nDe plus, Varesa restaure ses points de noctâme jusqu'à la limite lorsqu'elle utilise sa compétence élémentaire <k>Sur l'arc-en-ciel nocturne</k> avec un appui long ou qu'elle l'utilise avec un appui simple pendant le mode Avancée soudaine."
+          }
+        ]
+      }
+    }
   }
 }

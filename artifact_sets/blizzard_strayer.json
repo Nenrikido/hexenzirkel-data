@@ -18,5 +18,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14001",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Blizzard Strayer",
+        "bonuses": {
+          "2": "<e:cryo>Cryo</e> DMG Bonus +15%",
+          "4": "When a character attacks an opponent affected by <e:cryo>Cryo</e>, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+        }
+      },
+      "fr": {
+        "name": "Briseur de glace",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:cryo>Cryo</e> de 15 %.",
+          "4": "Augmente le taux CRIT de 20 % lorsque le personnage attaque un ennemi affecté par l'élément <e:cryo>Cryo</e>. Confère un bonus supplémentaire de 20 % de taux CRIT si l'ennemi est gelé."
+        }
+      }
+    }
   }
 }

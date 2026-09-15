@@ -53,5 +53,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11515",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A rapier once wielded by a deceiver who had forsaken everything. In the past, it was primarily used as a tool when he had to disguise his identity.",
+        "passive": {
+          "name": "Deathly Pact",
+          "refinements": {
+            "1": "CRIT DMG increased by <r>20%</r>. Increasing the value of a Bond of Life increases the DMG the equipping character deals by <r>16%</r> for 6s. Max 3 stacks.",
+            "2": "CRIT DMG increased by <r>25%</r>. Increasing the value of a Bond of Life increases the DMG the equipping character deals by <r>20%</r> for 6s. Max 3 stacks.",
+            "3": "CRIT DMG increased by <r>30%</r>. Increasing the value of a Bond of Life increases the DMG the equipping character deals by <r>24%</r> for 6s. Max 3 stacks.",
+            "4": "CRIT DMG increased by <r>35%</r>. Increasing the value of a Bond of Life increases the DMG the equipping character deals by <r>28%</r> for 6s. Max 3 stacks.",
+            "5": "CRIT DMG increased by <r>40%</r>. Increasing the value of a Bond of Life increases the DMG the equipping character deals by <r>32%</r> for 6s. Max 3 stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une rapière autrefois brandie par un menteur qui avait tout abandonné. Dans le passé, elle était principalement utilisée lorsqu'il devait dissimuler son identité.",
+        "passive": {
+          "name": "Pacte funeste",
+          "refinements": {
+            "1": "Augmente les DGT CRIT de <r>20 %</r>. Lorsque la valeur d'un engagement vital augmente, les DGT infligés par le personnage équipé de l'arme augmentent de <r>16 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum.",
+            "2": "Augmente les DGT CRIT de <r>25 %</r>. Lorsque la valeur d'un engagement vital augmente, les DGT infligés par le personnage équipé de l'arme augmentent de <r>20 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum.",
+            "3": "Augmente les DGT CRIT de <r>30 %</r>. Lorsque la valeur d'un engagement vital augmente, les DGT infligés par le personnage équipé de l'arme augmentent de <r>24 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum.",
+            "4": "Augmente les DGT CRIT de <r>35 %</r>. Lorsque la valeur d'un engagement vital augmente, les DGT infligés par le personnage équipé de l'arme augmentent de <r>28 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum.",
+            "5": "Augmente les DGT CRIT de <r>40 %</r>. Lorsque la valeur d'un engagement vital augmente, les DGT infligés par le personnage équipé de l'arme augmentent de <r>32 %</r> pendant 6 s, cet effet pouvant être cumulé 3 fois maximum."
+          }
+        }
+      }
+    }
   }
 }

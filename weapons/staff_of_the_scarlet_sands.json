@@ -53,5 +53,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13511",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "One of a paired set of scepters fashioned from obsidian. Legend has it that these staves grant the right to lead the people of the desert, but no retainer now lives who can verify the proper appearance of these regalia.",
+        "passive": {
+          "name": "Heat Haze at Horizon's End",
+          "refinements": {
+            "1": "The equipping character gains <r>52%</r> of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain <r>28%</r> of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+            "2": "The equipping character gains <r>65%</r> of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain <r>35%</r> of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+            "3": "The equipping character gains <r>78%</r> of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain <r>42%</r> of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+            "4": "The equipping character gains <r>91%</r> of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain <r>49%</r> of their Elemental Mastery as bonus ATK. Max 3 stacks.",
+            "5": "The equipping character gains <r>104%</r> of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain <r>56%</r> of their Elemental Mastery as bonus ATK. Max 3 stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "L'un des sceptres d'une paire fabriquée à partir d'obsidiennes. La légende raconte que ces bâtons accordent le droit de gouverner les peuples du désert, mais aucun courtisan pouvant vérifier la bonne apparence de ces parures ne vit aujourd'hui...",
+        "passive": {
+          "name": "Chimère de fin de mirage",
+          "refinements": {
+            "1": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>52 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>28 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum.",
+            "2": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>65 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>35 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum.",
+            "3": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>78 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>42 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum.",
+            "4": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>91 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>49 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum.",
+            "5": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>104 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>56 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum."
+          }
+        }
+      }
+    }
   }
 }

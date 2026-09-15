@@ -267,5 +267,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000131",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Allegoria",
+            "desc": "<k>Normal Attack</k>\nProclaims a decree in the primordial tongue and performs up to 3 attacks that deal <e:pyro>Pyro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to deal <e:pyro>AoE Pyro DMG</e> to opponents in front of her after a short casting time.\n\n<k>Plunging Attack</k>\nNicole plunges towards the ground from mid-air, damaging all opponents in her path. Also deals <e:pyro>AoE Pyro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Revelation: Uncreated Light",
+            "desc": "Recreates a fleeting glimpse of an age long past, when the angels acted on the authority of the heavens, bestowing the <k>Grace of Kenosis</k> effect on nearby party members. This increases their ATK and deals <e:pyro>AoE Pyro DMG</e>, as well as creates a Shield of Blazing Light.\nThe Shield of Blazing Light's DMG Absorption is based on Nicole's ATK, and it will absorb <e:pyro>Pyro DMG</e> at 250% effectiveness."
+          },
+          "burst": {
+            "name": "Revelation: Ladder of Divine Ascent",
+            "desc": "As Nicole weaves the path of anchored fate with golden threads of light, she deals <e:pyro>AoE Pyro DMG</e> and switches to Silent Contemplation mode.\nIn this mode, when nearby active party members hit an opponent, an Arcane Projection is summoned to perform a Coordinated Attack against the opponent, dealing AoE Elemental DMG of the character's corresponding Elemental Type. This DMG scales based on the corresponding character's ATK and will be considered as having been dealt by them.\nThis effect can occur once every 3s, and can be triggered up to 4 times each time Nicole switches to Silent Contemplation mode.\n\nIt is worth noting that Hexerei characters' Arcane Projections appear to differ somehow in appearance from the others..."
+          }
+        },
+        "passives": [
+          {
+            "name": "Methexis",
+            "desc": "For 20s after unleashing the Elemental Skill <k>Revelation: Uncreated Light</k>, Nicole will continuously \"observe\" the other current active party members. After the observed character has remained on the field for 3s, their <k>Grace of Kenosis</k> is upgraded to <k>Guidance of Theosis</k>, increasing their ATK by an additional 300. If the observed character is a Hexerei character, <k>Grace of Kenosis</k> is upgraded to <k>Guidance of Theosis</k> straight away.\nWhen characters other than Nicole who have <k>Guidance of Theosis</k> leave the field, their effect reverts to <k>Grace of Kenosis</k>."
+          },
+          {
+            "name": "Philokalia",
+            "desc": "When Elemental DMG from nearby active party members hits an opponent, Nicole's own <k>Grace of Kenosis</k> effect is upgraded to <k>Guidance of Theosis</k> for 8s."
+          },
+          {
+            "name": "Nepsis",
+            "desc": "When you are in Teyvat and not in combat, Nicole's Charged Attack becomes \"Emissarial Guidance\" if you have already obtained the current region's Treasure Compass. Emissarial Guidance: Calls upon nearby Seelie to show the way, triggering an effect similar to the region's Treasure Compass.\nThis effect has a cooldown time of 5 seconds and does not work in Domains, Trounce Domains, and the Spiral Abyss."
+          },
+          {
+            "name": "Witch's Eve Rite: Light in the Darkness",
+            "desc": "After completing <k>Witch's Homework: The Role of a Guide...?</k>, Nicole becomes a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\n\n<k>Hexerei: Secret Rite</k>\nIncreases the DMG dealt by Hexerei characters' <k>Arcane Projections</k> by 300% of Nicole's ATK."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"Do Not Be Afraid, Child Who Is Loved\"",
+            "desc": "When the current active character of your own in the party hits an opponent, an additional special \"Arcane Projection: Unity\" will be summoned to perform a Coordinated Attack against the opponent, dealing AoE Elemental DMG of the character's corresponding Elemental Type at 600% of their ATK. This DMG will be considered as having been dealt by the corresponding character.\nThis effect can trigger once every 6s."
+          },
+          {
+            "level": 2,
+            "name": "\"I Will Guide You and Show You the Path You Should Tread\"",
+            "desc": "Enhances the effects of the Elemental Skill <k>Revelation: Uncreated Light</k>: <k>Grace of Kenosis</k> increases ATK by an additional 300 (which does not count toward this effect's ATK Bonus limit), while <k>Guidance of Theosis</k> decreases nearby opponents' Elemental RES based on the corresponding character's Elemental Type by 25%. This effect does not stack for the same Element.\nAdditionally, when Nicole unleashes her Elemental Skill <k>Revelation: Uncreated Light</k>, nearby active party members will also gain a Shield of Blazing Light."
+          },
+          {
+            "level": 3,
+            "name": "\"A Lamp by Your Side, A Light to Shine the Way\"",
+            "desc": "Increases the Level of <k>Revelation: Uncreated Light</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Whether Left or Right, No Matter Which Way You Turn\"",
+            "desc": "When nearby party members have their <k>Grace of Kenosis</k> upgraded to <k>Guidance of Theosis</k>, Nicole also bestows upon them the Pathfinder's Blessing effect for 20s. Each character can gain this effect once every 16s.\nThe Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG of characters with Pathfinder's Blessing is increased by 70% of Nicole's ATK. This effect will be removed once it has taken effect 8 times or when its duration is over.\nWhen multiple opponents are hit at once, instances of Pathfinder's Blessing are consumed equal to the number of opponents hit. Each character's Pathfinder's Blessing is counted independently."
+          },
+          {
+            "level": 5,
+            "name": "\"You Will Hear My Voice Beside You\"",
+            "desc": "Increases the Level of <k>Revelation: Ladder of Divine Ascent</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "\"This Is the Path, Walk It Without Delay\"",
+            "desc": "When Nicole's <k>Grace of Kenosis</k> is upgraded to <k>Guidance of Theosis</k>, all nearby party members' <k>Grace of Kenosis</k> will also be upgraded to <k>Guidance of Theosis</k>. Once upgraded, <k>Guidance of Theosis</k> will no longer revert to <k>Grace of Kenosis</k>.\nAdditionally, DMG dealt by characters with <k>Guidance of Theosis</k> will ignore 40% of opponents' DEF."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Allégorie",
+            "desc": "<k>Attaque normale</k>\nProclame un décret dans la langue primordiale et enchaîne jusqu'à 3 attaques qui infligent des <e:pyro>DGT Pyro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:pyro>DGT Pyro de zone</e> vers l'avant après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs, infligeant des DGT aux ennemis en chemin et des <e:pyro>DGT Pyro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Révélation : Lumière incréée",
+            "desc": "Recrée un aperçu fugace d'une époque révolue où l'autorité des cieux pouvait encore être invoquée, conférant l'effet <k>Grâce de kénose</k> à tous les personnages de l'équipe à proximité : augmente leur ATQ, inflige des <e:pyro>DGT Pyro de zone</e> et déploie un bouclier de lumière ardente.\nL'absorption de DGT du bouclier de lumière ardente est basée sur l'ATQ de Nicole et ce dernier absorbe les <e:pyro>DGT Pyro</e> 250 % plus efficacement."
+          },
+          "burst": {
+            "name": "Révélation : Échelle de l'ascension divine",
+            "desc": "Tandis que Nicole tisse la trame d'un destin inébranlable à l'aide de fils de lumière dorés, elle inflige des <e:pyro>DGT Pyro de zone</e> et passe en mode Contemplation silencieuse.\nDans ce mode, lorsqu'un personnage déployé de l'équipe à proximité touche un ennemi, une projection arcanique est invoquée pour lancer une attaque coordonnée contre ce dernier, infligeant des DGT élémentaires de zone selon le type du personnage. Ces DGT sont basés sur l'ATQ du personnage et sont considérés comme ayant été infligés par ce dernier.\nCet effet peut être déclenché une fois toutes les 3 s et jusqu'à 4 fois à chaque passage de Nicole en mode Contemplation silencieuse.\n\nDe plus, les projections arcaniques des personnages héxères semblent avoir une apparence quelque peu différente de celles des autres..."
+          }
+        },
+        "passives": [
+          {
+            "name": "Méthexis",
+            "desc": "Après avoir utilisé sa compétence élémentaire <k>Révélation : Lumière incréée</k>, Nicole « observe » les autres personnages déployés de son équipe pendant 20 s. Lorsqu'un personnage observé est resté sur le terrain pendant 3 s, sa <k>grâce de kénose</k> est améliorée en <k>guidance de théose</k>, augmentant l'ATQ de 300 pts supplémentaires. Si le personnage observé est un personnage héxère, <k>grâce de kénose</k> est tout de suite améliorée en <k>guidance de théose</k>.\nSi un personnage autre que Nicole quitte le terrain, sa <k>guidance de théose</k> redevient une <k>grâce de kénose</k>."
+          },
+          {
+            "name": "Philocalie",
+            "desc": "Lorsqu'un personnage déployé de l'équipe à proximité a touché un ennemi avec des DGT élémentaires, la <k>grâce de kénose</k> de Nicole est améliorée en <k>guidance de théose</k> pendant 8 s."
+          },
+          {
+            "name": "Nepsis",
+            "desc": "Hors combat en Teyvat, l'attaque chargée de Nicole devient Guidance émissariale si vous avez déjà obtenu le Détecteur de trésors de la région actuelle. Guidance émissariale : Invoque les Fées proches pour indiquer la voie, déclenchant un effet similaire à celui du Détecteur de trésors de la région.\nCet effet a un TdR de 5 s et ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          },
+          {
+            "name": "Veillée des sorcières : Lumière dans les ténèbres",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « Rôle d'une guide »</k>, Nicole devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\n\n<k>Hexerei : Rituel secret</k>\nLes DGT infligés par les <k>projections arcaniques</k> des personnages héxères augmentent d'une valeur équivalant à 300 % de l'ATQ de Nicole."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "« N'aie pas peur, enfant aimé »",
+            "desc": "Lorsque l'attaque de votre personnage déployé touche un ennemi, une projection arcanique « Unité » supplémentaire est invoquée pour lancer une attaque coordonnée contre ce dernier, infligeant des DGT élémentaires de zone selon le type du personnage. Ces DGT sont d'une valeur équivalant à 600 % de l'ATQ du personnage et sont considérés comme infligés par ce même personnage.\nCet effet peut être déclenché une fois toutes les 6 s."
+          },
+          {
+            "level": 2,
+            "name": "« Je te guiderai et te montrerai le chemin à suivre »",
+            "desc": "Les effets de la compétence élémentaire <k>Révélation : Lumière incréée</k> sont renforcés : la <k>grâce de kénose</k> augmente l'ATQ de 300 pts supplémentaires, ce bonus n'étant pas compté pour la limite de bonus d'ATQ, et la <k>guidance de théose</k> diminue la RÉS élémentaire des ennemis proches de 25 % selon le type élémentaire du personnage concerné, les effets de diminution de RÉS d'un même élément ne se cumulant pas.\nDe plus, lorsque Nicole utilise sa compétence élémentaire <k>Révélation : Lumière incréée</k>, les personnages déployés de l'équipe à proximité bénéficient également d'un bouclier de lumière ardente."
+          },
+          {
+            "level": 3,
+            "name": "« Une lampe à tes côtés, une lumière pour éclairer le chemin »",
+            "desc": "Niveau d'aptitude <k>Révélation : Lumière incréée</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "« Que ce soit à gauche ou à droite, peu importe où tu te tournes »",
+            "desc": "Lorsque la <k>grâce de kénose</k> d'un personnage de l'équipe à proximité est améliorée en <k>guidance de théose</k>, Nicole lui accorde également l'effet Bénédiction de l'éclaireur pendant 20 s, chaque personnage pouvant obtenir cet effet une fois toutes les 16 s.\nLes DGT infligés par les attaques normales, les attaques chargées, les attaques plongeantes, les compétences élémentaires et les déchaînements élémentaires des personnages bénéficiant d'une bénédiction de l'éclaireur augmentent d'une valeur équivalant à 70 % de l'ATQ de Nicole, cet effet étant annulé après avoir été déclenché 8 fois ou à la fin de sa durée.\nEn touchant plusieurs ennemis en même temps, un déclenchement est comptabilisé pour chaque ennemi touché. De plus, les déclenchements des bénédiction de l'éclaireur des personnages de l'équipe sont calculés indépendamment."
+          },
+          {
+            "level": 5,
+            "name": "« Tu entendras ma voix à tes côtés »",
+            "desc": "Niveau d'aptitude <k>Révélation : Échelle de l'ascension divine</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "« Voici le chemin, emprunte-le sans délai »",
+            "desc": "Lorsque la <k>grâce de kénose</k> de Nicole est améliorée en <k>guidance de théose</k>, la <k>grâce de kénose</k> de tous les personnages de l'équipe à proximité est également améliorée en <k>guidance de théose</k>. Une fois améliorée, la <k>guidance de théose</k> ne redevient plus une <k>grâce de kénose</k>.\nDe plus, les DGT infligés par les personnages avec une <k>guidance de théose</k> ignorent 40 % de DÉF des ennemis."
+          }
+        ]
+      }
+    }
   }
 }

@@ -575,5 +575,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000109",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Pure Heart, Pure Dreams",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 attacks, dealing <e:anemo>Anemo DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina and deals <e:anemo>AoE Anemo DMG</e> after a short casting time.\n\n<k>Plunging Attack</k>\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:anemo>AoE Anemo DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Aisa Utamakura Pilgrimage",
+            "desc": "Weaves memories of lovely dreams, entering a <k>Dreamdrifter</k> state where Yumemizuki Mizuki floats above the ground, and dealing 1 instance of <e:anemo>AoE Anemo DMG</e> to nearby opponents.\n\n<k>Dreamdrifter</k>\n· While in the Dreamdrifter state, Yumemizuki Mizuki will continuously drift forward, dealing <e:anemo>AoE Anemo DMG</e> to nearby opponents at regular intervals.\n· During this time, Yumemizuki Mizuki can control her direction of drift, and the pick-up distance of <k>Yumemi Style Special Snacks</k> from the Elemental Burst <k>Anraku Secret Spring Therapy</k> will be increased.\n· Increases the Swirl DMG and Stellar Swirl reaction DMG that nearby party members deal based on Yumemizuki Mizuki's Elemental Mastery.\n· Dreamdrifter will end when Mizuki leaves the field or uses her Elemental Skill again.\n\n<i>\"Our dreams touch at midnight, their song ringing on in our hearts.\"</i>"
+          },
+          "burst": {
+            "name": "Anraku Secret Spring Therapy",
+            "desc": "Summons forth countless lovely dreams and nightmares that pull in nearby objects and opponents, dealing <e:anemo>AoE Anemo DMG</e> and summoning a Mini Baku.\n\n<k>Mini Baku:</k>\nFollows the current active character. At regular intervals, the Mini Baku will create 1 Yumemi Style Special Snack nearby. After one of your own party members picks up a Special Snack, if their HP is higher than 70%, the Snack will explode and unleash a Munen Shockwave, dealing 1 instance of <e:anemo>AoE Anemo DMG</e> to nearby opponents. Otherwise, it will heal the character who picked it up based on Yumemizuki Mizuki's Elemental Mastery. When Yumemizuki Mizuki triggers healing by picking up a Yumemi Style Special Snack, the amount of healing is increased by 100%. If a Snack is not picked up after a period of time, it will explode and release a Munen Shockwave, dealing 1 instance of <e:anemo>AoE Anemo DMG</e> to surrounding opponents.\n\n<i>\"If you bury dark emotions for too long, they will become nightmares. With that in mind, why don't we turn them into 'delicious snacks' while we've got the time?\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Bright Moon's Restless Voice",
+            "desc": "When Yumemizuki Mizuki triggers a Swirl or Stellar Swirl reaction while in her Dreamdrifter state, Dreamdrifter's duration increases by 2.5s. This effect can trigger once every 0.3s for a maximum of 2 times per Dreamdrifter state."
+          },
+          {
+            "name": "Thoughts by Day Bring Dreams by Night",
+            "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, when other nearby party members hit opponents with <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e>, or <e:electro>Electro</e> attacks, her Elemental Mastery will increase by 100 for 4s."
+          },
+          {
+            "name": "All Ailments Banished",
+            "desc": "When Yumemizuki Mizuki is in the party, party members have a chance to recover 30% additional HP when using healing foods that do not have reviving properties. The trigger chance for this effect increases with the corresponding character's Friendship Level. (This effect will always trigger if the Traveler is the character consuming healing food.)"
+          },
+          {
+            "name": "Vast Be the Dream",
+            "desc": "When Yumemizuki Mizuki triggers a Swirl or Stellar Swirl reaction while in the Dreamdrifter state, the next instance of periodic <e:anemo>AoE Anemo DMG</e> she deals to nearby enemies during that same state will be increased by 1,000% of her Elemental Mastery. The aforementioned effect can trigger once every 2.5s.\n<k>Radiance: Stellar Swirl</k>: When Yumemizuki Mizuki deals to an opponent the above enhanced <e:anemo>AoE Anemo DMG</e>, she will also deal an additional instance of <e:anemo>Anemo DMG</e> at 1,000% of her Elemental Mastery. This DMG is considered Stellar Swirl reaction DMG.\n\nAdditionally, while Yumemizuki Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is also increased by 10% of her Elemental Mastery.\nYumemizuki Mizuki will also enter the <<k>Radiance: Stellar Swirl</k> state for 8s when a nearby party member triggers a Stellar Swirl reaction."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "In Mist-Like Waters",
+            "desc": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent has a Swirl or Stellar Swirl reaction triggered against them by Anemo DMG while the aforementioned effect is active, the effect will be canceled, and this Swirl or Stellar Swirl instance has its DMG against this opponent increased by 1,100% and 550% of Mizuki's Elemental Mastery respectively. She also launches an additional attack on the same opponent, dealing <e:anemo>Anemo DMG</e> at 1,000% of Yumemizuki Mizuki's Elemental Mastery.\n<k>Radiance: Stellar Swirl</k>: The aforementioned additional DMG is changed to <e:anemo>Anemo DMG</e> at 400% of Yumemizuki Mizuki's Elemental Mastery. This DMG is considered Stellar Swirl reaction DMG."
+          },
+          {
+            "level": 2,
+            "name": "Your Echo I Meet in Dreams",
+            "desc": "When Yumemizuki Mizuki enters the Dreamdrifter state, every Elemental Mastery point she has will increase all nearby party members' <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e>, and <e:electro>Electro</e> DMG Bonuses by 0.04% until the Dreamdrifter state ends.\nAdditionally, while Yumemizuki Mizuki is in the Dreamdrifter state, the <e:pyro>Pyro RES</e>, <e:hydro>Hydro RES</e>, <e:cryo>Cryo RES</e>, <e:electro>Electro RES</e>, and <e:anemo>Anemo RES</e> of nearby opponents are lowered by 20%."
+          },
+          {
+            "level": 3,
+            "name": "Till Dawn's Moon Ends Night",
+            "desc": "Increases the Level of <k>Aisa Utamakura Pilgrimage</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Buds Warm Lucid Springs",
+            "desc": "Picking up a <k>Yumemi Style Special Snack</k> from the Elemental Burst <k>Anraku Secret Spring Therapy</k> will both deal DMG and heal. It will also heal a nearby party member with lower HP for 266% of Yumemizuki Mizuki's Elemental Mastery, as well as regenerate 5 Energy for Yumemizuki Mizuki. Energy can be restored this way 4 times per <k>Anraku Secret Spring Therapy</k> duration."
+          },
+          {
+            "level": 5,
+            "name": "As Setting Moon Brings Year's End",
+            "desc": "Increases the Level of <k>Anraku Secret Spring Therapy</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Heart Lingers Long",
+            "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%. The CRIT Rate of any Stellar Swirl DMG dealt by these party members is also increased by 10%, while CRIT DMG is increased by 20%.\nEvery point of Elemental Mastery Yumemizuki Mizuki has in excess of 500 increases her CRIT Rate by 0.04% and her CRIT DMG by 0.16%. Yumemizuki Mizuki's CRIT Rate and CRIT DMG can be increased by up to 20% and 80% in this way, respectively."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Cœur pur, rêves purs",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques qui infligent des <e:anemo>DGT Anémo</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:anemo>DGT Anémo de zone</e> après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs élémentaires, infligeant des DGT aux ennemis en chemin et des <e:anemo>DGT Anémo de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Pèlerinage d'Aisa Utamakura",
+            "desc": "Yumemizuki Mizuki tisse des souvenirs de beaux rêves, entrant dans l'état <k>Flotte-rêves</k>, pendant lequel elle flotte au-dessus du sol, et infligeant une fois des <e:anemo>DGT Anémo de zone</e> aux ennemis proches.\n\n<k>Flotte-rêves</k>\n· Lorsque Yumemizuki Mizuki est dans l'état Flotte-rêves, elle flotte de façon continue vers l'avant et inflige des <e:anemo>DGT Anémo de zone</e> de façon régulière aux ennemis proches.\n· Pendant la durée de l'état, Yumemizuki Mizuki peut contrôler la direction dans laquelle elle flotte et la portée de collecte des <k>snacks de style yumemi</k> du déchaînement élémentaire <k>Thérapie sourcière secrète d'Anraku</k> augmente.\n· Les DGT de réaction de Dispersion et les DGT de réaction d'Astrodispersion des personnages de l'équipe à proximité augmentent selon la maîtrise élémentaire de Yumemizuki Mizuki.\n· L'état Flotte-rêves prend fin lorsque Yumemizuki Mizuki quitte le champ de bataille ou utilise une nouvelle fois la capacité.\n\n<i>« Nos rêves se touchent à minuit, leur chanson résonnant dans nos cœurs. »</i>"
+          },
+          "burst": {
+            "name": "Thérapie sourcière secrète d'Anraku",
+            "desc": "Invoque d'innombrables beaux rêves et cauchemars qui attirent les objets et les ennemis à proximité, inflige des <e:anemo>DGT Anémo de zone</e> et invoque un mini-Baku pour aider.\n\n<k>Mini-Baku</k>\nLe mini-Baku suit le personnage déployé et crée 1 snack de style yumemi à proximité à intervalles réguliers : lorsqu'un de vos personnages dans l'équipe ayant plus de 70 % de PV a collecté un tel snack, ce dernier explose et libère une onde munen qui inflige une fois des <e:anemo>DGT Anémo de zone</e> aux ennemis proches ; si le personnage qui collecte un snack a 70 % de PV ou moins, le snack le soigne selon la maîtrise élémentaire de Yumemizuki Mizuki, la quantité de soins augmentant de 100 % lorsque c'est Yumemizuki Mizuki qui collecte un snack et déclenche des soins ; si un snack n'est pas collecté pendant un certain temps, il explose et libère une onde munen qui inflige une fois des <e:anemo>DGT Anémo de zone</e> aux ennemis proches.\n\n<i>« En enfouissant ses émotions sombres trop longtemps, elles se transforment en cauchemars. Ainsi, pourquoi ne pas les transformer en « délicieux snacks » pendant que c'est encore possible ? »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Voix tourmentée de la lune brillante",
+            "desc": "Lorsque Yumemizuki Mizuki déclenche une réaction de Dispersion ou d'Astrodispersion alors qu'elle est dans son état Flotte-rêves, la durée de l'état augmente de 2,5 s. Cet effet peut être déclenché une fois toutes les 0,3 seconde et un maximum de 2 fois pendant la durée d'un état Flotte-rêves."
+          },
+          {
+            "name": "Pensées de jour, rêveries de nuit",
+            "desc": "Pendant l'état Flotte-rêves, la maîtrise élémentaire de Yumemizuki Mizuki augmente de 100 pts pendant 4 s lorsqu'une attaque <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Électro</e> d'un autre personnage de l'équipe touche un ennemi."
+          },
+          {
+            "name": "Tous maux bannis",
+            "desc": "Lorsque Yumemizuki Mizuki fait partie de l'équipe, vos personnages dans l'équipe ont une chance de récupérer 30 % de PV supplémentaires en utilisant de la nourriture sans capacité de résurrection, la chance de déclencher cet effet augmentant selon le Niv. d'affinité du personnage concerné. (Cet effet se déclenche obligatoirement lorsque le voyageur utilise de la nourriture de soins.)"
+          },
+          {
+            "name": "L'immensité d'un rêve",
+            "desc": "Lorsque Yumemizuki Mizuki a déclenché une réaction de Dispersion ou d'Astrodispersion pendant l'état Flotte-rêves, la prochaine instance de <e:anemo>DGT Anémo de zone</e> qu'elle inflige de façon régulière à des ennemis proches pendant cet état augmente d'une valeur équivalant à 1 000 % de sa maîtrise élémentaire. Cet effet peut être déclenché une fois toutes les 2,5 s.\n<k>Radiance « Astrodispersion »</k> : Lorsque Yumemizuki Mizuki inflige de tels <e:anemo>DGT Anémo de zone</e> augmentés à un ennemi, elle inflige une instance supplémentaire de <e:anemo>DGT Anémo</e> d'une valeur équivalant à 1 000 % de sa maîtrise élémentaire, ces DGT étant considérés comme des DGT de réaction d'Astrodispersion.\n\nDe plus, la maîtrise élémentaire des personnages de l'équipe à proximité augmente d'une valeur équivalant à 10 % de la maîtrise élémentaire de Yumemizuki Mizuki pendant l'état Flotte-rêves.\nDe plus, Yumemizuki Mizuki passe en <k>radiance « Astrodispersion »</k> pendant 8 s lorsqu'un personnage de l'équipe a déclenché une réaction d'Astrodispersion à proximité."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Dans des eaux de brume",
+            "desc": "Pendant l'état Flotte-rêves, Yumemizuki Mizuki applique l'effet Attente de 23 nuits toutes les 3,5 s aux ennemis proches, cet effet durant 3 s. Lorsqu'un ennemi affecté par cet effet subit des DGT Anémo et déclenche une réaction de Dispersion ou d'Astrodispersion, l'effet est annulé pour augmenter les DGT de la réaction concernée d'une valeur équivalant à 1 100 % ou 550 % de la maîtrise élémentaire de Yumemizuki Mizuki, respectivement. Yumemizuki Mizuki effectue également une attaque supplémentaire sur le même ennemi qui inflige des <e:anemo>DGT Anémo</e> d'une valeur équivalant à 1 000 % de sa maîtrise élémentaire.\n<k>Radiance « Astrodispersion »</k>: Ces DGT supplémentaires sont convertis en <e:anemo>DGT Anémo</e> d'une valeur équivalant à 400 % de la maîtrise élémentaire de Yumemizuki Mizuki, ces DGT étant considérés comme des DGT de réaction d'Astrodispersion."
+          },
+          {
+            "level": 2,
+            "name": "Un écho rencontré en rêve",
+            "desc": "En entrant dans l'état Flotte-rêves, chaque point de maîtrise élémentaire de Yumemizuki Mizuki accorde à tous les autres personnages de l'équipe à proximité des bonus de DGT <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> et <e:electro>Électro</e> de 0,04 %, ces bonus durant jusqu'à la fin de l'état Flotte-rêves.\nDe plus, dans l'état Flotte-rêves, la <e:pyro>RÉS Pyro</e>, la <e:hydro>RÉS Hydro</e>, la <e:cryo>RÉS Cryo</e>, la <e:electro>RÉS Électro</e> et la <e:anemo>RÉS Anémo</e> des ennemis proches diminuent de 20 %."
+          },
+          {
+            "level": 3,
+            "name": "Jusqu'à la lune de l'aube terminant la nuit",
+            "desc": "Niveau d'aptitude <k>Pèlerinage d'Aisa Utamakura</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Bourgeons réchauffant les sources lucides",
+            "desc": "Collecter un <k>snack de style yumemi</k> du déchaînement élémentaire <k>Thérapie sourcière secrète d'Anraku</k> permet à la fois d'infliger des DGT et de soigner, soigne également un autre personnage de l'équipe à proximité ayant peu de PV pour une valeur équivalant à 266 % de la maîtrise élémentaire de Yumemizuki Mizuki et restaure 5 pts d'énergie élémentaire à Yumemizuki Mizuki. L'énergie élémentaire peut être restaurée 4 fois pendant la durée d'une <k>Thérapie sourcière secrète d'Anraku</k> de cette manière."
+          },
+          {
+            "level": 5,
+            "name": "La lune couchante apportant la fin de l'année",
+            "desc": "Niveau d'aptitude <k>Thérapie sourcière secrète d'Anraku</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Le cœur s'attardant longtemps",
+            "desc": "Lorsque Yumemizuki Mizuki est dans l'état Flotte-rêves, les DGT infligés par les réactions de Dispersion des personnages de l'équipe à proximité peuvent déclencher des coups CRIT dont le taux CRIT est fixé à 30 % et les DGT CRIT à 100 %. De plus, le taux CRIT des DGT de réaction d'Astrodispersion de ces personnages augmente de 10 %, tandis que les DGT CRIT augmentent de 20 %.\nPour chaque pt de maîtrise élémentaire que Yumemizuki Mizuki possède au-delà de 500 pts, son taux CRIT augmente de 0,04 % et ses DGT CRIT de 0,16 %. Le taux CRIT et les DGT CRIT de Yumemizuki Mizuki peuvent être respectivement augmentés d'un maximum de 20 % et de 80 % de cette manière."
+          }
+        ]
+      }
+    }
   }
 }

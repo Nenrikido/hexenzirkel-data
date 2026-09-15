@@ -33,5 +33,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15412",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A bow painted the color of transgression and nights of illusion.",
+        "passive": {
+          "name": "Evernight Duet",
+          "refinements": {
+            "1": "Normal Attack hits on opponents increase Elemental Skill DMG by <r>20%</r> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <r>20%</r> for 5s.",
+            "2": "Normal Attack hits on opponents increase Elemental Skill DMG by <r>25%</r> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <r>25%</r> for 5s.",
+            "3": "Normal Attack hits on opponents increase Elemental Skill DMG by <r>30%</r> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <r>30%</r> for 5s.",
+            "4": "Normal Attack hits on opponents increase Elemental Skill DMG by <r>35%</r> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <r>35%</r> for 5s.",
+            "5": "Normal Attack hits on opponents increase Elemental Skill DMG by <r>40%</r> for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by <r>40%</r> for 5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc peint de la couleur des nuits de péché et de fantaisie.",
+        "passive": {
+          "name": "Duetto de nuit",
+          "refinements": {
+            "1": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les compétences élémentaires sont augmentés de <r>20 %</r> pendant 5 s. Lorsque vous touchez des ennemis avec des compétences élémentaires, les DGT infligés par les attaques normales sont augmentés de <r>20 %</r> pendant 5 s.",
+            "2": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les compétences élémentaires sont augmentés de <r>25 %</r> pendant 5 s. Lorsque vous touchez des ennemis avec des compétences élémentaires, les DGT infligés par les attaques normales sont augmentés de <r>25 %</r> pendant 5 s.",
+            "3": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les compétences élémentaires sont augmentés de <r>30 %</r> pendant 5 s. Lorsque vous touchez des ennemis avec des compétences élémentaires, les DGT infligés par les attaques normales sont augmentés de <r>30 %</r> pendant 5 s.",
+            "4": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les compétences élémentaires sont augmentés de <r>35 %</r> pendant 5 s. Lorsque vous touchez des ennemis avec des compétences élémentaires, les DGT infligés par les attaques normales sont augmentés de <r>35 %</r> pendant 5 s.",
+            "5": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les compétences élémentaires sont augmentés de <r>40 %</r> pendant 5 s. Lorsque vous touchez des ennemis avec des compétences élémentaires, les DGT infligés par les attaques normales sont augmentés de <r>40 %</r> pendant 5 s."
+          }
+        }
+      }
+    }
   }
 }

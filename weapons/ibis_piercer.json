@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15419",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A golden bow forged from the description in the story. If you use it as a normal weapon, you can also view it as a part of a fictional world that has made it off the pages.",
+        "passive": {
+          "name": "Secret Wisdom's Favor",
+          "refinements": {
+            "1": "The character's Elemental Mastery will increase by <r>40</r> within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
+            "2": "The character's Elemental Mastery will increase by <r>50</r> within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
+            "3": "The character's Elemental Mastery will increase by <r>60</r> within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
+            "4": "The character's Elemental Mastery will increase by <r>70</r> within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
+            "5": "The character's Elemental Mastery will increase by <r>80</r> within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un arc en or forgé à partir de la description d'une histoire. Si vous l'utilisez comme une arme normale, vous pouvez également le considérer comme faisant partie d'un monde fictif sorti de ses pages.",
+        "passive": {
+          "name": "Faveur de la sagesse secrète",
+          "refinements": {
+            "1": "Lorsqu'une attaque chargée a touché un ennemi, la maîtrise élémentaire du personnage augmente de <r>40</r> pts pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "2": "Lorsqu'une attaque chargée a touché un ennemi, la maîtrise élémentaire du personnage augmente de <r>50</r> pts pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "3": "Lorsqu'une attaque chargée a touché un ennemi, la maîtrise élémentaire du personnage augmente de <r>60</r> pts pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "4": "Lorsqu'une attaque chargée a touché un ennemi, la maîtrise élémentaire du personnage augmente de <r>70</r> pts pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "5": "Lorsqu'une attaque chargée a touché un ennemi, la maîtrise élémentaire du personnage augmente de <r>80</r> pts pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,5 s."
+          }
+        }
+      }
+    }
   }
 }

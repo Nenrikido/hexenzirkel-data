@@ -144,5 +144,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000110",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Weighted Spike",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive spear strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\n\n<k>Nightsoul State: Swift Stormflight</k>\nWhile in the Nightsoul's Blessing state: Iansan's Charged Attack will be transformed into the formidable Swift Stormflight, consuming a certain amount of Stamina to stomp fiercely down, dealing Nightsoul-aligned <e:electro>AoE Electro DMG</e>."
+          },
+          "skill": {
+            "name": "Thunderbolt Rush",
+            "desc": "Iansan charges forward a certain distance, dealing Nightsoul-aligned <e:electro>Electro DMG</e> to all opponents in her path.\nAfter this Skill is used, Iansan will regain 54 Nightsoul points and enter the Nightsoul's Blessing state. Within 5s after this is done, using a Normal Attack will trigger 1 quick Swift Stormflight stomp from Iansan that will not consume Stamina.\n\n<k>Nightsoul's Blessing: Iansan</k>\nContinuously consumes Nightsoul points. If she runs out, or uses this Skill again, her Nightsoul's Blessing state will end. It has the following properties:\n· Increases Iansan's Movement SPD.\n· Holding sprint will switch Iansan to Rushing Thunderbolt mode, greatly increasing her Movement SPD temporarily. In this mode, Iansan can make flying leaps using terrain, or consume additional Nightsoul points to move on water or liquid Phlogiston while being immune to DMG from the latter.\n\n<i>\"Faster, stronger! That's what all that hard work is for!\"</i>"
+          },
+          "burst": {
+            "name": "The Three Principles of Power",
+            "desc": "Iansan's stomping foot shatters the very earth with \"Power,\" dealing Nightsoul-aligned <e:electro>AoE Electro DMG</e>. She then whips out her \"Limited-Edition Kinetic Energy Scale (For Workouts).\"\nWhen this Skill is used, Iansan will gain 15 Nightsoul points and enter the Nightsoul's Blessing state.\nWhen the Kinetic Energy Scale leaves the field, Iansan's Nightsoul's Blessing state will end.\n\n<k>Kinetic Energy Scale</k>\nThe Kinetic Energy Scale will follow the character around, boosting the ATK of your current active party member in different ways based on Iansan's Nightsoul points.\n· If Iansan has less than 42 Nightsoul points, the ATK bonus will be based on her Nightsoul points and ATK.\n· If Iansan has at least 42 Nightsoul points, the Kinetic Energy Scale will switch to the \"Ardent Support!\" state, in which the ATK bonus will be stronger and based on her ATK alone.\nAdditionally, the Scale will log the distance your current active character (excluding Iansan) has moved so long as it is active, restoring Nightsoul points to Iansan every second based on the distance moved in the previous second.\nThe Scale will disappear once her Nightsoul's Blessing state ends. It will also disappear after 1 second when you are not in a state of combat. While it is active, Iansan's Nightsoul's Blessing state will not end even if she is not on the field.\n\n<i>\"Power is not about natural talent. Power stems from unceasing practice. Power must be exercised correctly.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Enhanced Resistance Training",
+            "desc": "After Swift Stormflight hits opponents, Iansan will gain the Precise Movement effect for 15s.\nDuring this time, her ATK is increased by 20%, and whenever she regains Nightsoul points through the Kinetic Energy Scale in her Elemental Burst, <k>The Three Principles of Power</k>, she will gain 1 extra Nightsoul point. Additionally, when your current active party member consumes or restores Nightsoul points, the extra Nightsoul points Iansan gains the next time she restores Nightsoul points via the Scale will be increased to 4. This effect can occur once every 2.8s.\n\"Precise Movement\" will expire when Iansan's Nightsoul's Blessing state ends."
+          },
+          {
+            "name": "Kinetic Energy Gradient Test",
+            "desc": "When a nearby party member triggers a Nightsoul Burst, Iansan will obtain the Warming Up effect for 10s.\nDuring this time, when Iansan restores at least 1 Nightsoul point, she will heal your current active character for 60% of her ATK. This effect can be triggered once every 2.8s."
+          },
+          {
+            "name": "Night Realm's Gift: Hard Work and Drive",
+            "desc": "After Nightsoul points have been fully depleted and Iansan is on the field, she will switch to using Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Iansan can be used. When the current active character is sprinting or in movement modes caused by certain Talents, or at a certain height in the air, switching to Iansan will trigger the following: Iansan enters the Nightsoul's Blessing state and obtains 25 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party.\nWhile in an area with Phlogiston Mechanics within Natlan, Iansan will not take fall DMG when using terrain differences to make leaps."
+          },
+          {
+            "name": "Caloric Balancing Plan",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, regain 10 Phlogiston when Phlogiston levels drop below 50%. This can occur once every 10s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Starting's Never Easy",
+            "desc": "When Iansan is in combat and is in the Nightsoul's Blessing state, she will restore 15 Elemental Energy for every 6 Nightsoul points she consumes. This effect can trigger once every 18s."
+          },
+          {
+            "level": 2,
+            "name": "Laziness is the Enemy!",
+            "desc": "When using the Elemental Burst <k>The Three Principles of Power</k>, Iansan will also gain the Precise Movement effect from her Ascension Talent \"Enhanced Resistance Training\" for 15s. Additionally, if Iansan is off-field while Precise Movement is active, she will also increase your current active character's ATK by 30%. You must first unlock the Ascension Talent \"Enhanced Resistance Training\" to access the above effect."
+          },
+          {
+            "level": 3,
+            "name": "Scientific Diet Planning",
+            "desc": "Increases the Level of <k>Thunderbolt Rush</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Slow and Steady Wins the Race",
+            "desc": "When the Kinetic Energy Scale is present, Iansan will gain 2 stacks of Surging Force after your current active character (excluding herself) uses their Elemental Burst. The stacks last until the Scale leaves the field, and Surging Force can be gained once per Scale summoning. Whenever Iansan restores Nightsoul points via the Scale, she will consume 1 Surging Force stack and restore 4 additional Nightsoul points.\nAdditionally, if her Nightsoul restoration from the Scale overflows, Iansan will gain 50% of the overflow the next time she restores Nightsoul points via the Scale."
+          },
+          {
+            "level": 5,
+            "name": "We Can Push It Further!",
+            "desc": "Increases the Level of <k>The Three Principles of Power</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Teachings of the Collective of Plenty",
+            "desc": "The Kinetic Energy Scale's duration is increased by 3s.\nAdditionally, when Iansan triggers Nightsoul point restoration, if there is any overflow, she will gain the Extreme Force effect, which increases the DMG dealt by your current active character by 25% for 3s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Pointe lestée",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 coups de lance.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis en chemin.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.\n\n<k>Bénédiction noctâme : Volée tonitruante</k>\nPendant sa bénédiction noctâme, l'attaque chargée d'Iansan lui fait effectuer une courageuse volée tonitruante qui consomme de l'endurance, afin de piétiner violemment la zone en avant et d'infliger des <e:electro>DGT Électro de zone</e> infusés de noctâme."
+          },
+          "skill": {
+            "name": "Ruée fulminante",
+            "desc": "Iansan se rue en avant sur une certaine distance, infligeant des <e:electro>DGT Électro</e> infusés de noctâme aux ennemis en chemin.\nAprès utilisation, Iansan récupère 54 pts de noctâme et entre dans l'état Bénédiction noctâme. Pendant 5 s après cette ruée, utiliser une attaque normale avec un appui simple lui permet de déclencher rapidement le piétinement violent d'une volée tonitruante sans consommer d'endurance.\n\n<k>Bénédiction noctâme : Iansan</k>\nLa bénédiction noctâme d'Iansan consomme de façon continue ses points de noctâme et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. L'état Bénédiction noctâme d'Iansan possède les propriétés spéciales suivantes :\n· La VIT de déplacement d'Iansan augmente.\n· En utilisant le sprint avec un appui long, Iansan déclenche le mode « Fulmination rapide », ce qui augmente grandement sa VIT de déplacement de façon temporaire. Ce mode permet également à Iansan d'utiliser la topographie du terrain pour bondir dans les airs ou de consommer des points de noctâme supplémentaires pour se déplacer sur l'eau et sur le phlogistique liquide sans en subir les DGT.\n\n<i>« Plus vite, plus fort ! C'est à ça que sert tout ce dur labeur ! »</i>"
+          },
+          "burst": {
+            "name": "Triple principe de la force",
+            "desc": "La « force » d'Iansan permet à son piétinement de fracturer la terre, infligeant des <e:electro>DGT Électro de zone</e> infusés de noctâme avant qu'elle ne sorte sa jauge d'énergie cinétique en édition limitée dédiée à la musculation.\nAprès utilisation, Iansan obtient 15 pts de noctâme et entre dans l'état Bénédiction noctâme.\nLa bénédiction noctâme d'Iansan prend fin lorsque la jauge d'énergie cinétique quitte le champ de bataille.\n\n<k>Jauge d'énergie cinétique</k>\nLa jauge suit les déplacements de votre personnage déployé et augmente son ATQ de différentes manières selon les points de noctâme d'Iansan :\n· Avec moins de 42 pts, Iansan accorde un bonus d'ATQ qui dépend de son noctâme et de son ATQ.\n· Avec 42 pts ou plus, la jauge d'énergie cinétique passe en mode « Soutien Ardent ! », dans lequel elle accorde un meilleur bonus d'ATQ qui dépend de son ATQ.\nDe plus, la jauge enregistre la distance parcourue par votre personnage déployé (hormis Iansan) tant qu'elle est active, afin de restaurer les points de noctâme d'Iansan toutes les secondes selon la distance parcourue pendant la seconde précédente.\nLa jauge d'énergie cinétique disparaît lorsque la bénédiction noctâme d'Iansan prend fin, ou après 1 s si Iansan n'est pas dans un combat. Pendant que la jauge est active, la bénédiction noctâme d'Iansan ne prend pas fin lorsque cette dernière n'est pas déployée.\n\n<i>« La force n'est pas une question de talent naturel. La force naît d'une pratique incessante. La force doit être utilisée correctement. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Formation de résistance améliorée",
+            "desc": "Lorsque sa volée tonitruante a touché un ennemi, Iansan obtient l'effet Mouvement précis pendant 15 s.\nPendant la durée de l'effet, l'ATQ d'Iansan augmente de 20 % et elle récupère 1 pt de noctâme supplémentaire lorsque la jauge d'énergie cinétique du déchaînement élémentaire <k>Triple principe de la force</k> restaure du noctâme. De plus, si votre personnage déployé a consommé ou restauré des points de noctâme, Iansan récupérera 4 pts de noctâme supplémentaires au lieu de 1 la prochaine fois qu'elle restaure son noctâme avec sa jauge d'énergie cinétique, cet effet pouvant être déclenché une fois toutes les 2,8 s.\nL'effet Mouvement précis disparaît lorsque la bénédiction noctâme d'Iansan prend fin."
+          },
+          {
+            "name": "Test de gradient cinétique",
+            "desc": "Iansan obtient l'effet Étirement d'échauffement pendant 10 s lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme.\nLorsque Iansan restaure au moins 1 pt de noctâme pendant cet effet, elle restaure également les PV de votre personnage déployé d'une valeur équivalant à 60 % de son ATQ, cet effet pouvant être déclenché une fois toutes les 2,8 s."
+          },
+          {
+            "name": "Don de la nuit : Transmission vigoureuse",
+            "desc": "Après avoir épuisé ses points de noctâme alors qu'elle est déployée, Iansan change pour consommer du phlogistique afin de maintenir sa bénédiction noctâme.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Iansan » peut être utilisée. Lorsque le personnage déployé sprinte, est en plein mouvement provoqué par une aptitude particulière ou est à une certaine hauteur dans les airs, le déploiement d'Iansan déclenche l'effet suivant : Iansan entre dans l'état Bénédiction noctâme et obtient 25 pts de noctâme. La transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\nDans une zone de Natlan avec des mécanismes phlogistiques, Iansan ne subit pas de DGT de chute lorsqu'elle utilise les différences de terrain pour sauter."
+          },
+          {
+            "name": "Programme d'équilibrage calorique",
+            "desc": "Dans une zone de Natlan avec des mécanismes phlogistiques, tomber de plus de 50 % de phlogistique à moins de 50 % permet de restaurer 10 pts de phlogistique, cet effet pouvant être déclenché une fois toutes les 10 s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Le plus dur, c'est le début !",
+            "desc": "Lorsque Iansan bénéficie d'une bénédiction noctâme en combat, elle récupère 15 pts d'énergie élémentaire à chaque fois qu'elle consomme 6 pts de noctâme. Cet effet peut être déclenché une fois toutes les 18 s."
+          },
+          {
+            "level": 2,
+            "name": "Le plus dangereux, c'est la paresse !",
+            "desc": "Lors de l'utilisation du déchaînement élémentaire <k>Triple principe de la force</k>, Iansan obtient également l'effet Mouvement précis de son aptitude d'élévation « Formation de résistance améliorée » pendant 15 s. De plus, l'ATQ de votre personnage déployé augmente de 30 % si Iansan fait partie de l'équipe mais n'est pas déployée pendant la durée de l'effet Mouvement précis. L'aptitude d'élévation « Formation de résistance améliorée » doit être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Planification alimentaire scientifique",
+            "desc": "Niveau d'aptitude <k>Ruée fulminante</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Lentement mais sûrement, c'est la clé !",
+            "desc": "Tant que sa jauge d'énergie cinétique est active, Iansan obtient 2 cumuls de force inspirante lorsque votre personnage déployé (hormis Iansan) a utilisé un déchaînement élémentaire, les cumuls durant jusqu'à ce que la jauge quitte le terrain et chaque jauge ne pouvant déclencher cet effet qu'une seule fois. Lorsque Iansan restaure son noctâme grâce à sa jauge d'énergie cinétique, elle consomme un cumul de force inspirante pour obtenir 4 pts de noctâme supplémentaires.\nDe plus, si le noctâme restauré par sa jauge dépasse la quantité maximum qu'elle peut recevoir, Iansan récupérera 50 % de l'excès la prochaine fois qu'elle restaure son noctâme avec sa jauge d'énergie cinétique."
+          },
+          {
+            "level": 5,
+            "name": "Les limites, c'est fait pour être repoussé !",
+            "desc": "Niveau d'aptitude <k>Triple principe de la force</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Enseignements du Collectif de l'abondance",
+            "desc": "La durée de la jauge d'énergie cinétique augmente de 3 s.\nDe plus, si la quantité restaurée dépasse la quantité maximum qu'Iansan peut recevoir lorsqu'elle déclenche un effet de restauration de noctâme, elle obtient l'effet Effort extrême, ce qui augmente les DGT infligés par votre personnage déployé de 25 % pendant 3 s."
+          }
+        ]
+      }
+    }
   }
 }

@@ -334,5 +334,139 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000060",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Stealthy Bowshot",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal <e:hydro>Hydro DMG</e>.\n\n<k>Breakthrough</k>\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal <e:hydro>AoE Hydro DMG</e> based on Yelan's Max HP.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Lingering Lifeline",
+            "desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\nWhen this rapid movement ends, the Lifeline will explode, dealing <e:hydro>Hydro DMG</e> to the marked opponents based on Yelan's Max HP.\n\n<k>Tap</k>\nMoves a certain distance forward swiftly.\n\n<k>Hold</k>\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\n\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\n\n<i>Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.</i>"
+          },
+          "burst": {
+            "name": "Depth-Clarion Dice",
+            "desc": "Deals <e:hydro>AoE Hydro DMG</e> and creates an \"Exquisite Throw,\" which aids her in battle.\n\n<k>Exquisite Throw</k>\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing <e:hydro>Hydro DMG</e> based on Yelan's Max HP:\n· Can occur once every second when your active character uses a Normal Attack.\n· Will occur each time Yelan's Lifeline explodes and hits opponents.\n\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Turn Control",
+            "desc": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%."
+          },
+          {
+            "name": "Adapt With Ease",
+            "desc": "So long as an <k>Exquisite Throw</k> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration."
+          },
+          {
+            "name": "Necessary Calculation",
+            "desc": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Enter the Plotters",
+            "desc": "<k>Lingering Lifeline</k> gains 1 additional charge."
+          },
+          {
+            "level": 2,
+            "name": "Taking All Comers",
+            "desc": "When <k>Exquisite Throw</k> conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\nThis effect can trigger once every 1.8s."
+          },
+          {
+            "level": 3,
+            "name": "Beware the Trickster's Dice",
+            "desc": "Increases the Level of <k>Depth-Clarion Dice</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Bait-and-Switch",
+            "desc": "Increases all party members' Max HP by 10% for 25s for every opponent marked by <k>Lifeline</k> when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner."
+          },
+          {
+            "level": 5,
+            "name": "Dealer's Sleight",
+            "desc": "Increases the Level of <k>Lingering Lifeline</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Winner Takes All",
+            "desc": "After using <k>Depth-Clarion Dice</k>, Yelan will enter the Mastermind state.\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\n\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Sagette furtive",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge de flux d'eau, infligeant des <e:hydro>DGT Hydro</e> quand elle est complètement chargée.\n\n<k>Percée</k>\nSi l'équipe est hors combat pendant 5 s, Yelan entre dans l'état Percée permettant de diminuer le temps de charge de son prochain tir visé de 80 %, et une fois le tir complètement chargé, elle peut tirer une flèche perçante qui inflige des <e:hydro>DGT Hydro de zone</e> selon ses PV max.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Ligne vitale persistante",
+            "desc": "Tire une ligne vitale et court à grande vitesse, enchevêtrant et marquant les ennemis sur son chemin.\nÀ la fin du déplacement, la ligne vitale explose, infligeant des <e:hydro>DGT Hydro</e> aux ennemis marqués selon les PV max de Yelan.\n\n<k>Appui simple</k>\nAvance rapidement sur une certaine distance.\n\n<k>Appui long</k>\nAvance rapidement de façon continue, tout en augmentant la RÉS à l'interruption de Yelan pendant son mouvement.\nPendant ce déplacement, Yelan peut contrôler la direction de sa course et peut s'arrêter en utilisant à nouveau la compétence.\n\nDe plus, chaque ennemi marqué par la ligne vitale lorsqu'elle explose accorde à Yelan 34 % de chances d'obtenir l'état Percée.\n\n<i>Ce n'est que lorsqu'elle commence à tirer sur la corde que les malfaiteurs, les escrocs et les tricheurs se rendent compte qu'il n'y a pas d'échappatoire...</i>"
+          },
+          "burst": {
+            "name": "Dé exquis des profondeurs",
+            "desc": "Inflige des <e:hydro>DGT Hydro de zone</e> et crée un dé exquis pour aider en combat.\n\n<k>Dé exquis</k>\nSuit le personnage et déclenche une attaque coordonnée dans les circonstances suivantes, infligeant des <e:hydro>DGT Hydro</e> selon les PV max de Yelan :\n· Chaque fois que votre personnage déployé utilise une attaque normale, cet effet pouvant être déclenché une fois toutes les secondes.\n· Chaque fois que la ligne vitale de Yelan explose et touche des ennemis.\n\n<i>« Devenir accro au jeu ne vous fera aucun bien... Je veux dire, je suis la croupière, alors faites le calcul : selon vous, quelles sont vos chances de me battre, alors que j'ai sept dés et que vous n'en avez qu'un seul ? »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Contrôle stratégique",
+            "desc": "Si l'équipe comprend des personnages de 1/2/3/4 types élémentaires, les PV max de Yelan augmentent de 6 %/12 %/18 %/30 %."
+          },
+          {
+            "name": "Adaptation aisée",
+            "desc": "Tant qu'un <k>dé exquis</k> est en combat, les DGT infligés par votre personnage déployé augmentent de 1 %, puis de 3,5 % supplémentaires toutes les secondes. Les DGT peuvent être augmentés d'un maximum de 50 % de cette manière.\nUtiliser à nouveau Dé exquis des profondeurs pendant la durée de l'effet décrit ci-dessus dissipera ce dernier."
+          },
+          {
+            "name": "Longue considération",
+            "desc": "Augmente les récompenses d'une expédition de 20 h à Liyue de 25 %."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Tricheur en jeu",
+            "desc": "Confère une utilisation supplémentaire de <k>Ligne vitale persistante</k>."
+          },
+          {
+            "level": 2,
+            "name": "Offert par la maison",
+            "desc": "Lorsqu'un <k>dé exquis</k> déclenche une attaque coordonnée, une flèche d'eau supplémentaire est envoyée pour infliger des DGT Hydro équivalant à 14 % des PV max de Yelan.\nCet effet peut être déclenché une fois toutes les 1,8 s."
+          },
+          {
+            "level": 3,
+            "name": "Dé pipé",
+            "desc": "Niveau d'aptitude <k>Dé exquis des profondeurs</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Tour de passe-passe",
+            "desc": "Augmente les PV max de tous les personnages de l'équipe de 10 % pendant 25 s pour chaque ennemi marqué par la <k>ligne vitale</k> lorsqu'elle explose. Les PV max peuvent être augmentés jusqu'à 40 % de cette manière."
+          },
+          {
+            "level": 5,
+            "name": "Dextérité de la croupière",
+            "desc": "Niveau d'aptitude <k>Ligne vitale persistante</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Tout pour le vainqueur",
+            "desc": "Après avoir utilisé <k>Dé exquis des profondeurs</k>, Yelan entre dans l'état Stratège.\nSes attaques normales deviennent alors des flèches perçantes spéciales. Ces flèches possèdent les mêmes capacités que les flèches perçantes normales, et les DGT qu'elles infligent sont considérés comme des DGT d'attaque chargée infligeant 156 % des DGT des flèches perçantes normales.\n\nL'état Stratège dure 20 s maximum ou est annulé après avoir tiré 5 flèches."
+          }
+        ]
+      }
+    }
   }
 }

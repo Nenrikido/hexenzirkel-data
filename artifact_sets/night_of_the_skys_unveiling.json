@@ -28,5 +28,29 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15041",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Night of the Sky's Unveiling",
+        "bonuses": {
+          "2": "Increases Elemental Mastery by 80.",
+          "4": "When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
+        }
+      },
+      "fr": {
+        "name": "Nuit de la révélation céleste",
+        "bonuses": {
+          "2": "Augmente la maîtrise élémentaire de 80 pts.",
+          "4": "Lorsqu'un personnage de l'équipe à proximité déclenche une réaction sélène alors que le personnage équipé de l'artéfact est sur le terrain, ce dernier obtient l'effet Lune étincelante « Intention » pendant 4 s : augmente le taux CRIT de 15 % ou de 30 % lorsque la signelune de l'équipe est respectivement de type Lueur naissante ou ascendante. De plus, les DGT infligés par les réactions sélènes déclenchées par tous les personnages de l'équipe augmentent de 10 % pour chaque lune étincelante de type différent des personnages de l'équipe. Les bonus accordés par l'effet Lune étincelante ne se cumulent pas."
+        }
+      }
+    }
   }
 }

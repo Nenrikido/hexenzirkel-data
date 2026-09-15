@@ -235,5 +235,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000039",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Kätzlein Style",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive shots with a bow.\n\n<k>Charged Attack</k>\nPerforms a more precise <k>Aimed Shot</k> with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <e:cryo>Cryo DMG</e>.\n\n<k>Plunging Attack</k>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Icy Paws",
+            "desc": "Fires an Icy Paw that deals <e:cryo>Cryo DMG</e> to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n<k>Press</k>\nRapidly fires off 2 Icy Paws.\n\n<k>Hold</k>\nDashes back quickly before firing 5 Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% <e:cryo>Cryo DMG</e> Absorption Bonus, and will cause your active character to become affected by <e:cryo>Cryo</e> at the point of formation for a short duration.\n\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>"
+          },
+          "burst": {
+            "name": "Signature Mix",
+            "desc": "Tosses out a special cold brew that deals <e:cryo>AoE Cryo DMG</e> and creates a Drunken Mist in an AoE.\n\n<k>Drunken Mist</k>\n· Deals continuous <e:cryo>Cryo DMG</e> to opponents within the AoE.\n· Continuously regenerates the HP of characters within the AoE.\n\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Cat's Tail Secret Menu",
+            "desc": "Characters shielded by <k>Icy Paws</k> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+          },
+          {
+            "name": "Drunkards' Farce",
+            "desc": "Opponents who enter the AoE of <k>Signature Mix</k> have 10% decreased ATK for 15s."
+          },
+          {
+            "name": "Complimentary Bar Food",
+            "desc": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+          },
+          {
+            "name": "Choice Treasures",
+            "desc": "Within 20s after using the Elemental Skill <k>Icy Paws</k>, Diona will also fire off three <k>Icy Paws</k> when party members trigger Stellar-Conduct, Superconduct, Cryo Swirl, or Stellar Swirl reactions. <k>Icy Paws</k> fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\nAdditionally, Diona will also enter the <k>Radiance: Stellar-Conduct</k> state when she is inside a <k>Polestar Field</k>, or the <k>Radiance: Stellar Swirl</k> state for 8s after a nearby party member triggers a Stellar Swirl reaction."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "A Lingering Flavor",
+            "desc": "Regenerates 15 Energy for Diona after the effects of <k>Signature Mix</k> end."
+          },
+          {
+            "level": 2,
+            "name": "Shaken, Not Purred",
+            "desc": "Increases <k>Icy Paws</k>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <k>Icy Paws</k> shield's DMG Absorption for 5s."
+          },
+          {
+            "level": 3,
+            "name": "A—Another Round?",
+            "desc": "Increases the Level of <k>Signature Mix</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Wine Industry Slayer",
+            "desc": "Within the radius of <k>Signature Mix</k>, Diona's charge time for aimed shots is reduced by 60%"
+          },
+          {
+            "level": 5,
+            "name": "Double Shot, on the Rocks",
+            "desc": "Increases the Level of <k>Icy Paws</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Cat's Tail Closing Time",
+            "desc": "Characters within <k>Signature Mix</k>'s radius gain the following effects based on their HP levels:\n· The Incoming Healing Bonus is increased by 30% when HP is at, or lower than, 50%.\n· Elemental Mastery is increased by 200 when HP is above 50%.\n\nAdditionally, Diona's Max HP is increased by 25%.\n<k>Radiance: Stellar Glimmer</k>: Characters within the Signature Mix field deal increased DMG for the following reactions:\n<k>Radiance: Stellar-Conduct</k>: Superconduct, Stellar-Conduct reaction DMG increased by 40%.\n<k>Radiance: Stellar Swirl</k>: Cryo Swirl, Stellar Swirl reaction DMG increased by 40%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Archerie de chasse",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 tirs consécutifs.\n\n<k>Attaque chargée</k>\nEffectue un <k>tir visé</k> plus précis infligeant davantage de DGT.\nLors de la visée, la flèche se charge en élément Cryo, infligeant de considérables <e:cryo>DGT Cryo</e> quand elle est complètement chargée.\n\n<k>Attaque plongeante</k>\nTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Griffes Cryo",
+            "desc": "Libère des griffes de chat Cryo qui infligent des <e:cryo>DGT Cryo</e>, et génèrent un bouclier lorsqu'elles touchent.\nLe bouclier peut absorber une quantité de DGT proportionnelle aux PV max de Diona, et sa durée dépend du nombre de cibles touchées.\n\n<k>Appui simple</k>\nExécute rapidement deux attaques consécutives de Griffes Cryo.\n\n<k>Appui long</k>\nBat rapidement en retraite, et libère 5 Griffes Cryo.\nLe bouclier généré lors d'un appui long obtient un bonus de 75 % d'absorption de DGT.\n\nLe bouclier est efficace à 250 % contre les <e:cryo>DGT Cryo</e>, et applique l'<e:cryo>élément Cryo</e> au personnage déployé pendant un court instant lorsque le bouclier est généré.\n\n<i>En théorie, la glace versée dans un breuvage est sans danger pour celui qui le boit. Ceci était exact jusqu'à ce que Diona utilise son œil divin pour créer une glace capable de geler jusqu'au cerveau... 5 étoiles !</i>"
+          },
+          "burst": {
+            "name": "Cuvée spéciale",
+            "desc": "Diona lance un cocktail gelé de sa fabrication, infligeant des <e:cryo>DGT Cryo de zone</e>, et génère un champ de vapeur d'alcool.\n\n<k>Champ de vapeur d'alcool</k>\n· Inflige aux ennemis présents dans la zone des <e:cryo>DGT Cryo continus</e>.\n· Restaure les PV des personnages présents dans la zone.\n\n<i>Une recette que même Diona juge inhumaine. L'avant-goût terrifiant est mieux laissé aux ennemis... Nous ne parlerons pas de l'arrière-goût particulièrement frais qui en découle.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Menu secret de La Queue de Chat",
+            "desc": "Augmente de 10 % la VIT de déplacement des personnages sous la protection du bouclier généré par les <k>Griffes Cryo</k>. Leur consommation d'endurance diminue de plus de 10 %."
+          },
+          {
+            "name": "Joyeuse ébriété",
+            "desc": "Les ennemis entrant dans le champ de vapeur d'alcool de <k>Cuvée spéciale</k> voient leur ATQ baisser de 10 % pendant 15 s."
+          },
+          {
+            "name": "Apéritif offert",
+            "desc": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat de soins parfait."
+          },
+          {
+            "name": "Trésors de choix",
+            "desc": "Si un personnage de l'équipe déclenche une réaction de Supraconduction, d'Astroconduction, de Dispersion Cryo ou d'Astrodispersion moins de 20 s après que Diona utilise sa compétence élémentaire <k>Griffes Cryo</k>, elle tire de façon coordonnée 3 <k>griffes de chat Cryo</k>. Les <k>griffes de chat Cryo</k> tirées de cette manière ne génèrent pas de particule, ni ne créent de bouclier en touchant un ennemi. Cet effet peut être déclenché une fois toutes les 3,5 s.\nDe plus, Diona passe en <k>radiance « Astroconduction »</k> ou en <k>radiance « Astrodispersion »</k> lorsqu'elle est dans une <k>étendue polaris</k>, ou pendant 8 s lorsqu'un personnage de l'équipe a déclenché une réaction d'Astrodispersion à proximité, respectivement."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Cocktail maison",
+            "desc": "Diona récupère 15 pts d'énergie élémentaire à la fin de <k>Cuvée spéciale</k>."
+          },
+          {
+            "level": 2,
+            "name": "On the rocks",
+            "desc": "Les DGT infligés par <k>Griffes Cryo</k> augmentent de 15 %, et le bouclier absorbe 15 % de DGT en plus.\nDe plus, lorsque la compétence touche, elle confère aux personnages déployés à proximité un bouclier pendant 5 s, dont le pouvoir absorbant équivaut à la moitié de celui de <k>Griffes Cryo</k>."
+          },
+          {
+            "level": 3,
+            "name": "Un dernier pour la route",
+            "desc": "Niveau d'aptitude <k>Cuvée spéciale</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Mixologie",
+            "desc": "Le temps de charge du tir visé de Diona diminue de 60 % lorsqu'elle se trouve dans le champ de vapeur d'alcool de <k>Cuvée spéciale</k>."
+          },
+          {
+            "level": 5,
+            "name": "Un double avec glaçons",
+            "desc": "Niveau d'aptitude <k>Griffes Cryo</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Dernière tournée",
+            "desc": "Les personnages se trouvant dans le champ d'alcool de <k>Cuvée spéciale</k> bénéficient des effets suivants selon les PV qu'il leur reste :\n· Augmente le bonus de soins reçus de 30 % si les PV sont inférieurs ou égaux à 50 %.\n· Augmente la maîtrise élémentaire de 200 si les PV sont supérieurs à 50 %.\n\nDe plus, les PV max de Diona augmentent de 25 %.\n<k>Radiance astrale</k> : Les DGT des réactions correspondantes des personnages à portée de Cuvée spéciale augmentent :\n<k>Radiance « Astroconduction »</k> : Les DGT de réaction de Supraconduction et les DGT de réaction d'Astroconduction augmentent de 40 %.\n<k>Radiance « Astrodispersion »</k> : Les DGT de réaction de Dispersion Cryo et les DGT de réaction d'Astrodispersion augmentent de 40 %."
+          }
+        ]
+      }
+    }
   }
 }

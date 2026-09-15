@@ -28,5 +28,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15029",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Nymph's Dream",
+        "bonuses": {
+          "2": "<e:hydro>Hydro</e> DMG Bonus +15%",
+          "4": "After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and <e:hydro>Hydro</e> DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."
+        }
+      },
+      "fr": {
+        "name": "Rêve de la nymphe",
+        "bonuses": {
+          "2": "Confère un bonus de DGT <e:hydro>Hydro</e> de 15 %.",
+          "4": "Lorsqu'une attaque normale, chargée ou plongeante, une compétence ou un déchaînement élémentaires a touché un ennemi, un cumul de l'effet Nymphe reflétée de 8 s est généré. Avec 1, 2 ou au minimum 3 cumuls de nymphe reflétée, l'ATQ augmente respectivement de 7 %/16 %/25 % et le bonus de DGT <e:hydro>Hydro</e> de 4 %/9 %/15 %. Les cumuls de nymphe reflétée obtenus grâce aux différents types d'attaques (normales, chargées, plongeantes, compétences et déchaînements élémentaires) existent indépendamment les uns des autres."
+        }
+      }
+    }
   }
 }

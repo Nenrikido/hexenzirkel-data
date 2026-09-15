@@ -227,5 +227,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000006",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Lightning Touch",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 lightning attacks that deal <e:electro>Electro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to deal <e:electro>AoE Electro DMG</e> after a short casting time.\n\n<k>Plunging Attack</k>\nGathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:electro>AoE Electro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Violet Arc",
+            "desc": "Channels the power of lightning to sweep bothersome matters away.\n\n<k>Press</k>\nReleases a homing Lightning Orb.\nOn hit, it deals <e:electro>Electro DMG</e> and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.\n\n<k>Hold</k>\nAfter an extended casting time, calls down lightning from the heavens, dealing massive <e:electro>Electro DMG</e> to all nearby opponents.\nDeals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.\n\n<i>Electro Purple is the raiment of the Witch of Purple Rose.</i>"
+          },
+          "burst": {
+            "name": "Lightning Rose",
+            "desc": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <e:electro>Electro DMG</e>.\nThe Lightning Rose will continuously emit lightning to knock back opponents and deal <e:electro>Electro DMG</e> throughout the ability's duration.\n\n<i>This rose is beautiful, but beware its mortal thorns.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Induced Aftershock",
+            "desc": "Hits by Charged Attacks apply <k>Violet Arc</k>'s Conductive status to opponents."
+          },
+          {
+            "name": "Static Electricity Field",
+            "desc": "Opponents hit by <k>Lightning Rose</k> have their DEF decreased by 15% for 10s."
+          },
+          {
+            "name": "General Pharmaceutics",
+            "desc": "When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Infinite Circuit",
+            "desc": "Lisa regenerates 2 Energy for every opponent hit while holding <k>Violet Arc</k>.\nA maximum of 10 Energy can be regenerated in this manner at any one time."
+          },
+          {
+            "level": 2,
+            "name": "Electromagnetic Field",
+            "desc": "Holding <k>Violet Arc</k> has the following effects:\n· Increases DEF by 25%.\n· Increases Lisa's resistance to interruption."
+          },
+          {
+            "level": 3,
+            "name": "Resonant Thunder",
+            "desc": "Increases the Level of <k>Lightning Rose</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Plasma Eruption",
+            "desc": "<k>Lightning Rose</k> now unleashes 1-3 lightning bolts when it attacks."
+          },
+          {
+            "level": 5,
+            "name": "Electrocute",
+            "desc": "Increases the Level of <k>Violet Arc</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Pulsating Witch",
+            "desc": "When Lisa takes the field, she applies 3 stacks of <k>Violet Arc</k>'s Conductive status onto nearby opponents.\nThis effect can only occur once every 5s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Touche d'éclair",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 attaques électrifiées, infligeant des <e:electro>DGT Électro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:electro>DGT Électro de zone</e> après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Électro, infligeant des DGT aux ennemis en chemin et des <e:electro>DGT Électro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Arc fulminant",
+            "desc": "Canalise le pouvoir de la foudre pour nettoyer un peu le champ de bataille.\n\n<k>Appui simple</k>\nLibère un orbe électrique à tête chercheuse.\n\nLorsqu'il touche une cible, l'orbe inflige des <e:electro>DGT Électro</e>, ainsi que l'effet Conductivité aux ennemis proches, cumulable 3 fois maximum.\n\n<k>Appui long</k>\nAprès un court délai, des éclairs s'abattent des cieux et infligent des <e:electro>DGT Électro</e> à tous les ennemis proches.\nLes ennemis affectés par Conductivité subissent des DGT supplémentaires proportionnels au nombre de cumuls.\n\n<i>La couleur de la foudre est aussi la couleur de la Sorcière à la rose.</i>"
+          },
+          "burst": {
+            "name": "Rose de foudre",
+            "desc": "Invoque une rose de foudre qui libère une puissante énergie électrique repoussant les ennemis proches et leur infligeant des <e:electro>DGT Électro</e>.\nLa rose de foudre envoie des décharges électriques qui infligent des <e:electro>DGT Électro</e> aux ennemis proches tant qu'elle est active.\n\n<i>Cette rose est belle, mais possède des épines mortelles.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Relique d'électricité",
+            "desc": "Les attaques chargées infligent l'effet Conductivité d'<k>Arc fulminant</k> aux ennemis lorsqu'elles touchent."
+          },
+          {
+            "name": "Champ électrostatique",
+            "desc": "<k>Rose de foudre</k> diminue la DÉF des ennemis qu'elle touche de 15 % pendant 10 s."
+          },
+          {
+            "name": "Connaissances médicinales",
+            "desc": "Lorsque vous fabriquez des potions, il y a 20 % de chances qu'une partie des matières premières vous soit rendue."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Circuit infini",
+            "desc": "Lisa regagne 2 pts d'énergie par ennemi touché tant qu'<k>Arc fulminant</k> reste activé.\nUn maximum de 10 pts d'énergie élémentaire peut être restauré à chaque utilisation de cette manière."
+          },
+          {
+            "level": 2,
+            "name": "Champ électromagnétique",
+            "desc": "<k>Arc fulminant</k> confère les effets suivants tant qu'il reste activé :\n· DÉF augmentée de 25 %.\n· Augmente la RÉS à l'interruption de Lisa."
+          },
+          {
+            "level": 3,
+            "name": "Tonnerre résonant",
+            "desc": "Niveau d'aptitude <k>Rose de foudre</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Éruption de plasma",
+            "desc": "<k>Rose de foudre</k> permet de libérer 1 à 3 décharges."
+          },
+          {
+            "level": 5,
+            "name": "Électrification",
+            "desc": "Niveau d'aptitude <k>Arc fulminant</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Sorcière de pulse",
+            "desc": "Lisa inflige 3 cumuls de l'effet Conductivité d'<k>Arc fulminant</k> aux ennemis proches lorsqu'elle est déployée au combat.\nCet effet peut être déclenché une fois toutes les 5 s."
+          }
+        ]
+      }
+    }
   }
 }

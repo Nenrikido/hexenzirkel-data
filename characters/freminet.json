@@ -450,5 +450,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000085",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Flowing Eddies",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Pressurized Floe",
+            "desc": "Performs an upward thrust that deals <e:cryo>Cryo DMG</e> and causes Freminet to enter Pers Timer for 10s.\nWhile Pers Timer is active, his Elemental Skill will turn into Shattering Pressure.\n\n<k>Shattering Pressure</k>\nExecutes different sorts of attacks based on the Pressure Level of Pers Timer, and then cancels Pers Timer.\n· Level 0: Unleashes a vertical cut, dealing <e:cryo>Cryo DMG</e>.\n· Levels 1 to 3: Unleashes a vertical cut alongside Pers, dealing <e:cryo>Cryo DMG</e> and Physical DMG. DMG dealt scales based on Pressure Level.\n· Level 4: Borrows the power of a fully-pressurized Pers to deal Physical DMG. Meanwhile, Normal Attack: Flowing Eddies will be replaced by Shattering Pressure.\n\n<k>Pers Timer</k>\nWhen Freminet uses Normal Attacks, he will also unleash waves of frost that deal <e:cryo>Cryo DMG</e> and increase Pers's Pressure Level.\nThe accompanying <e:cryo>Cryo DMG</e> dealt this way is considered Elemental Skill DMG.\n\n<k>Arkhe: Pneuma</k>\nAt certain intervals, after using the upward thrust, a Spiritbreath Thorn in the form of another upward thrust will be created, dealing Pneuma-aligned <e:cryo>Cryo DMG</e>.\n\n<i>To immobilize one's opponent without taking their life can also be considered something of a \"survival\" strategy that one may choose.</i>\n<i>\"Pers... I leave the rest to you.\"</i>"
+          },
+          "burst": {
+            "name": "Shadowhunter's Ambush",
+            "desc": "Unleashes a wave of untouchable cold, dealing <e:cryo>AoE Cryo DMG</e>, resetting the CD of the Elemental Skill \"Pressurized Floe,\" and causing Freminet to enter the Subnautical Hunter mode for 10s.\n\nWhile in Subnautical Hunter mode, Freminet's resistance to interruption will increase, and his Elemental Skill \"Pressurized Floe\" will obtain the following buffs:\n· CD is decreased by 70%.\n· Normal Attacks will increase the Pers Timer by 1 additional Pressure Level, and the frost released by his Normal Attacks deal 200% of their original DMG.\n\nThese effects will be canceled when Freminet leaves the field.\n\n<i>\"Now... I have no need of any extraneous noise.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Saturation Deep Dive",
+            "desc": "When Freminet unleashes <k>Pressurized Floe: Shattering Pressure</k>, if Pers Timer has yet to reach Pressure Level 4, the CD of Pressurized Floe will be decreased by 1s."
+          },
+          {
+            "name": "Parallel Condensers",
+            "desc": "When Freminet triggers Shatter against opponents, the DMG dealt by <k>Pressurized Floe: Shattering Pressure</k> will be increased by 40% for 5s."
+          },
+          {
+            "name": "Deepwater Navigation",
+            "desc": "Decreases Aquatic Stamina consumption for your own party members by 35%.\nNot stackable with Passive Talents that provide the exact same effects."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Dreams of the Foamy Deep",
+            "desc": "The CRIT Rate of <k>Pressurized Floe: Shattering Pressure</k> will be increased by 15%."
+          },
+          {
+            "level": 2,
+            "name": "Penguins and the Land of Plenty",
+            "desc": "Unleashing <k>Pressurized Floe: Shattering Pressure</k> will restore 2 Energy to Freminet. If a Pressure Level 4 Shattering Pressure is unleashed, this will restore 3 Energy."
+          },
+          {
+            "level": 3,
+            "name": "Song of the Eddies and Bleached Sands",
+            "desc": "Increases the Level of <k>Normal Attack: Flowing Eddies</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Dance of the Snowy Moon and Flute",
+            "desc": "After Freminet triggers Frozen, Shatter, Superconduct, or Stellar-Conduct against opponents, his ATK will be increased by 9% for 6s. Max 2 stacks. This can be triggered once every 0.3s."
+          },
+          {
+            "level": 5,
+            "name": "Nights of Hearth and Happiness",
+            "desc": "Increases the Level of <k>Pressurized Floe</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Moment of Waking and Resolve",
+            "desc": "After Freminet triggers Frozen, Shatter, Superconduct, or Stellar-Conduct against opponents, his CRIT DMG will be increased by 12% for 6s. Max 3 stacks. This can be triggered once every 0.3s."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Tourbillon fluide",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 attaques.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Pressurisation des floes",
+            "desc": "Effectue une attaque ascendante infligeant des <e:cryo>DGT Cryo</e> et fait entrer Fréminet dans l'état Indicateur de Pers pendant 10 s.\nDans cet état, sa compétence élémentaire devient un concassage pressurisé.\n\n<k>Concassage pressurisé</k>\nExécute différentes attaques selon le niveau de pression de l'indicateur de Pers, puis annule l'état.\n· Niveau 0 : Effectue une coupe verticale infligeant des <e:cryo>DGT Cryo</e>.\n· Niveau I à III : Effectue une coupe verticale en coordination avec Pers, infligeant des <e:cryo>DGT Cryo</e> et des DGT physiques, les DGT dépendant du niveau de pression.\n· Niveau IV : Utilise la puissance d'un Pers totalement pressurisé pour infliger des DGT physiques, ce niveau remplaçant également l'attaque normale « Tourbillon fluide » par un concassage pressurisé.\n\n<k>Indicateur de Pers</k>\nLorsque Fréminet utilise une attaque normale, il libère également un frimas infligeant des <e:cryo>DGT Cryo</e> et augmente le niveau de pression de l'indicateur de Pers.\nCes <e:cryo>DGT Cryo</e> sont considérés comme des DGT de compétence élémentaire.\n\n<k>Arkhe : Pneuma</k>\nRégulièrement, après avoir effectué une attaque ascendante, une épine d'inhalation prenant la forme d'une autre attaque ascendante est libérée pour infliger des <e:cryo>DGT Cryo</e> chargés d'énergie pneuma.\n\n<i>Immobiliser son adversaire sans lui ôter la vie peut aussi être considéré comme une stratégie de « survie » que l'on peut choisir.</i>\n<i>« Pers... Je te laisse le reste. »</i>"
+          },
+          "burst": {
+            "name": "Embuscade du chassombre",
+            "desc": "Libère une vague de froid impalpable, infligeant des <e:cryo>DGT Cryo de zone</e>, réinitialisant le TdR de la compétence élémentaire « Pressurisation des floes » et faisant passer Fréminet en mode traque pendant 10 s.\n\nDans cet état, sa RÉS à l'interruption augmente, et Pressurisation des floes bénéfice des bonus suivants :\n· Son TdR diminue de 70 %.\n· Les attaques normales accordent à l'indicateur de Pers un niveau de pression supplémentaire, et leur frimas inflige des DGT d'une valeur équivalant à 200 % de leurs DGT d'origine.\n\nCet effet cesse lorsque Fréminet quitte le champ de bataille.\n\n<i>« Maintenant... Je n'ai besoin d'aucun bruit superflu. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Plongée profonde saturée",
+            "desc": "En utilisant un <k>concassage pressurisé</k>, si le niveau de pression de l'indicateur de Pers est inférieur à IV, le TdR de Pressurisation des floes diminue de 1 s."
+          },
+          {
+            "name": "Condenseur parallèle",
+            "desc": "Lorsque Fréminet a déclenché une réaction de Brise-glace sur un ennemi, les DGT infligés par le <k>concassage pressurisé</k> de Pressurisation des floes augmentent de 40 % pendant 5 s."
+          },
+          {
+            "name": "Navigation en eaux profondes",
+            "desc": "Diminue la consommation d'endurance aquatique de vos personnages dans l'équipe de 35 %.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Rêves des profondeurs mousseuses",
+            "desc": "Le taux CRIT du <k>concassage pressurisé</k> de Pressurisation des floes augmente de 15 %."
+          },
+          {
+            "level": 2,
+            "name": "Pingouins et terre d'abondance",
+            "desc": "Utiliser un <k>concassage pressurisé</k> de Pressurisation des floes restaure 2 pts d'énergie élémentaire à Fréminet. Si un concassage pressurisé avec un niveau de pression de IV est déclenché, 3 pts sont restaurés à la place."
+          },
+          {
+            "level": 3,
+            "name": "Chant de tourbillons et de sable",
+            "desc": "Niveau d'aptitude <k>Attaque normale : Tourbillon fluide</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Danse de lune et de flûte",
+            "desc": "Lorsque Fréminet a déclenché une réaction de Gel, de Brise-glace, de Supraconduction ou d'Astroconduction sur un ennemi, son ATQ augmente de 9 % pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s."
+          },
+          {
+            "level": 5,
+            "name": "Nuit de feu et de joie",
+            "desc": "Niveau d'aptitude <k>Pressurisation des floes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Instant d'aube et de détermination",
+            "desc": "Lorsque Fréminet a déclenché une réaction de Gel, de Brise-glace, de Supraconduction ou d'Astroconduction sur un ennemi, ses DGT CRIT augmentent de 12 % pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s."
+          }
+        ]
+      }
+    }
   }
 }

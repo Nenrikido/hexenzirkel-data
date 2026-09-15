@@ -34,5 +34,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12501",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.",
+        "passive": {
+          "name": "Sky-ripping Dragon Spine",
+          "refinements": {
+            "1": "Increases all DMG by <r>8%</r>. After using an Elemental Burst, a vacuum blade that does <r>80%</r> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades.",
+            "2": "Increases all DMG by <r>10%</r>. After using an Elemental Burst, a vacuum blade that does <r>100%</r> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades.",
+            "3": "Increases all DMG by <r>12%</r>. After using an Elemental Burst, a vacuum blade that does <r>120%</r> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades.",
+            "4": "Increases all DMG by <r>14%</r>. After using an Elemental Burst, a vacuum blade that does <r>140%</r> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades.",
+            "5": "Increases all DMG by <r>16%</r>. After using an Elemental Burst, a vacuum blade that does <r>160%</r> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée à deux mains symbolisant le fier envol de Dvalin dans les cieux. Elle émet un son grave lorsqu'on la brandit, invoquant la puissance du dragon Anémo qui déchaîne les vents.",
+        "passive": {
+          "name": "Échine du dragon briseur de ciel",
+          "refinements": {
+            "1": "Augmente tous les DGT infligés de <r>8 %</r>. Après un déchaînement élémentaire, les attaques normales et chargées génèrent une lame de vide qui inflige <r>80 %</r> de DGT d'ATQ aux ennemis sur sa route. Cet effet dure 20 s ou 8 lames.",
+            "2": "Augmente tous les DGT infligés de <r>10 %</r>. Après un déchaînement élémentaire, les attaques normales et chargées génèrent lorsqu'elles touchent une lame de vide qui inflige <r>100 %</r> de DGT d'ATQ aux ennemis sur sa route. Cet effet dure 20 s ou 8 lames.",
+            "3": "Augmente tous les DGT infligés de <r>12 %</r>. Après un déchaînement élémentaire, les attaques normales et chargées génèrent une lame de vide qui inflige <r>120 %</r> de DGT d'ATQ aux ennemis sur sa route. Cet effet dure 20 s ou 8 lames.",
+            "4": "Augmente tous les DGT infligés de <r>14 %</r>. Après un déchaînement élémentaire, les attaques normales et chargées génèrent une lame de vide qui inflige <r>140 %</r> de DGT d'ATQ aux ennemis sur sa route. Cet effet dure 20 s ou 8 lames.",
+            "5": "Augmente tous les DGT infligés de <r>16 %</r>. Après un déchaînement élémentaire, les attaques normales et chargées génèrent une lame de vide qui inflige <r>160 %</r> de DGT d'ATQ aux ennemis sur sa route. Cet effet dure 20 s ou 8 lames."
+          }
+        }
+      }
+    }
   }
 }

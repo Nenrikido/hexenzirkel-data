@@ -289,5 +289,147 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000128",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Favonius Bladework: Dancing Radiance",
+            "desc": "<k>Normal Attack</k>\nImitating an ancient knightly war-dance, Varka wields dual claymores to perform up to 5 consecutive strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to charge forward and perform an especially powerful dual blade slash toward the front.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Windbound Execution",
+            "desc": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\n\n<k>Tap</k>\nLeap forward and slash in one fluid motion, dealing <e:anemo>AoE Anemo DMG</e> and switching to <k>Sturm und Drang</k> mode.\nWhile in <k>Sturm und Drang</k>, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\nAdditionally, when in <k>Sturm und Drang</k>, if there are <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e> or <e:cryo>Cryo</e> characters in the party, Varka's Elemental Skill <k>Windbound Execution</k> will be converted to the special Elemental Skill, <k>Four Winds' Ascension</k>, dealing corresponding Elemental DMG and <e:anemo>Anemo DMG</e>. Additionally, Varka can also expend uses of the special Elemental Skill <k>Four Winds' Ascension</k> to perform a special Charged Attack, <k>Azure Devour</k>, that does not consume stamina to deal corresponding Elemental DMG and <e:anemo>Anemo DMG</e>.\n\n<k>Hold</k>\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap."
+          },
+          "burst": {
+            "name": "Northwind Avatar",
+            "desc": "In the name of the mightiest Knight of Boreas, unleash a powerful double slash attack toward the front, dealing 2 instances of <e:anemo>Anemo DMG</e>.\nIf there are <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e> or <e:cryo>Cryo</e> characters in the party, the first slash will be converted to deal corresponding Elemental DMG according to the aforementioned priority order of Elemental Types."
+          }
+        },
+        "passives": [
+          {
+            "name": "Dawn Wind's March",
+            "desc": "When there are <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e> or <e:cryo>Cryo</e> characters in the party, according to the aforementioned priority order of Elemental Types, every 1,000 points of Varka's ATK will grant Varka a 10% <e:anemo>Anemo DMG Bonus</e> and corresponding Elemental DMG Bonus (among the aforementioned Elemental Types, only one element can gain bonus DMG this way). Up to 25% bonus DMG can be gained this way.\n\nAdditionally, if there are at least 2 <e:anemo>Anemo</e> characters, or at least 2 characters of the same Element among <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e> or <e:cryo>Cryo</e> in the party, the Normal Attacks, Charged Attacks, Special Charged Attack <k>Azure Devour</k> and the special Elemental Skill <k>Four Winds' Ascension</k> that Varka deals or unleashes while in the <k>Sturm und Drang</k> mode will deal 140% of their original DMG. If there are at least 2 <e:anemo>Anemo</e> characters and at least 2 other characters of the same element among <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Electro</e> or <e:cryo>Cryo</e> present in the party at the same time, the aforementioned effect will be increased to 220%."
+          },
+          {
+            "name": "Wind's Vanguard",
+            "desc": "When nearby party members trigger a Swirl or Stellar Swirl reaction, Varka gains 1 stack of <k>Azure Fang's Oath</k>, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack <k>Azure Devour</k> and special Elemental Skill <k>Four Winds' Ascension</k> by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of <k>Azure Fang's Oath</k> every second this way."
+          },
+          {
+            "name": "Homebound Wind's Paean",
+            "desc": "For every party member from Mondstadt, the Hold version of Varka's Elemental Skill <k>Windbound Execution</k>'s CD is decreased by 5%.\nThis effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss."
+          },
+          {
+            "name": "Witch's Eve Rite: Dawn's Return",
+            "desc": "After completing <k>Witch's Homework: The Untitled Question</k>, Varka will become a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you will gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\n\n<k>Hexerei: Secret Rite</k>\nEnhances the special Elemental Skill <k>Four Winds' Ascension</k>: When Varka hits an opponent with Normal Attack(s) in <k>Sturm und Drang</k>, the CD of <k>Four Winds' Ascension</k> will be reduced by 1s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"Come, Friend, Let Us Dance Beneath the Moon's Soft Glow\"",
+            "desc": "When Varka switches to <k>Sturm und Drang</k>, he will obtain an additional use of the special Elemental Skill <k>Four Winds' Ascension</k>.\nAdditionally, after switching to <k>Sturm und Drang</k>, Varka will gain the <k>Lyrical Libation</k> effect: When unleashing the special Elemental Skill <k>Four Winds' Ascension</k>, or when performing the special Charged Attack <k>Azure Devour</k>, Varka will consume this effect to deal 200% of the original DMG dealt by <k>Four Winds' Ascension</k> or <k>Azure Devour</k>."
+          },
+          {
+            "level": 2,
+            "name": "\"When Dawn Breaks, Our Journey Shall Take Flight\"",
+            "desc": "When unleashing the special Elemental Skill <k>Four Winds' Ascension</k>, or when performing the special Charged Attack <k>Azure Devour</k>, Varka will perform an additional strike, dealing <e:anemo>AoE Anemo DMG</e> equal to 800% of Varka's ATK."
+          },
+          {
+            "level": 3,
+            "name": "\"O Friend, Quaff Not the Bitter Wine That Brings Tears of Woe\"",
+            "desc": "Increases Elemental Skill <k>Windbound Execution</k> Level by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "\"For None May Take From Us Our Freedom of Song\"",
+            "desc": "When Varka triggers a Swirl or Stellar Swirl reaction, based on the Elemental Types involved in the reaction, all nearby party members gain a 20% <e:anemo>Anemo DMG Bonus</e> and the corresponding Elemental DMG Bonus for 10s."
+          },
+          {
+            "level": 5,
+            "name": "\"Fill High the Cup With Fine Wine, for Tyrants Come and Go\"",
+            "desc": "Increases Elemental Burst <k>Northwind Avatar</k> Level by 3.\n Maximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "\"Beloved Mondstadt, Steadfast You Shall Shine\"",
+            "desc": "<k>Sturm und Drang</k> is enhanced:\n· For a short time after unleashing the special Elemental Skill <k>Four Winds' Ascension</k>, Tapping on Varka's Elemental Skill or Holding his Normal Attack will not expend any uses of Four Winds' Ascension, and will perform one additional instance of the special Charged Attack, <k>Azure Devour</k>.\n· For a short time after performing the special Charged Attack <k>Azure Devour</k>, tap on Varka's Elemental Skill to unleash an additional instance of <k>Four Winds' Ascension</k> without expending any uses of Four Winds' Ascension.\nWhen triggering an additional special Charged Attack, Azure Devour, or unleashing an additional special Elemental Skill, Four Winds' Ascension, in this manner, the above effect cannot be triggered.\n\nAdditionally, the <k>Azure Fang's Oath</k> effect in Ascension Talent <k>Wind's Vanguard</k> is enhanced: Every stack of <k>Azure Fang's Oath</k> will increase Varka's CRIT DMG by 20%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Escrime de Favonius - Valse radieuse",
+            "desc": "<k>Attaque normale</k>\nImite une ancienne valse chevaleresque pour enchaîner jusqu'à 5 coups avec ses lames.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour foncer en avant et exécuter une attaque puissante avec deux lames.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Exécution liée au vent",
+            "desc": "Varka déchaîne la véritable essence de l'escrime de Favonius avec une puissance absolue, différents effets se produisant selon la méthode de déclenchement :\n\n<k>Appui simple</k>\nVarka bondit en avant et frappe d'un seul mouvement fluide, infligeant des <e:anemo>DGT Anémo de zone</e> et activant son mode <k>Charge de tempête</k>.\nPendant sa <k>charge de tempête</k>, les DGT infligés par les attaques normales et chargées de Varka augmentent, Varka ne peut plus effectuer d'attaques plongeantes, et les deux lames de ses attaques normales et chargées infligent chacune des DGT élémentaires ne pouvant pas être enchantés selon les éléments des personnages de l'équipe.\nDe plus, si l'équipe contient un personnage <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e> ou <e:cryo>Cryo</e> pendant sa <k>charge de tempête</k>, la compétence élémentaire <k>Exécution liée au vent</k> de Varka est convertie en la compétence élémentaire spéciale <k>Ascension des quatre vents</k>, infligeant des DGT élémentaires correspondants et des <e:anemo>DGT Anémo</e>. Varka peut également consommer le nombre d'utilisations de sa compétence élémentaire spéciale <k>Ascension des quatre vents</k> pour effectuer une attaque chargée spéciale <k>Dévoreur azur</k> qui ne consomme pas d'endurance et inflige des DGT élémentaires correspondants et des <e:anemo>DGT Anémo</e>.\n\n<k>Appui long</k>\nAprès une période de charge, Varka effectue un bond en avant, la durée de la charge déterminant la distance du saut."
+          },
+          "burst": {
+            "name": "Avatar du vent du nord",
+            "desc": "Au nom du plus grand Chevalier de Borée, Varka lance une puissante attaque de double taillade vers l'avant, infligeant deux fois des <e:anemo>DGT Anémo</e>.\nSi l'équipe contient un personnage <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e> ou <e:cryo>Cryo</e>, la première taillade est convertie pour infliger des DGT élémentaires selon l'ordre de priorité des éléments concernés."
+          }
+        },
+        "passives": [
+          {
+            "name": "Marche du vent d'aube",
+            "desc": "Lorsque l'équipe contient un personnage <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e> ou <e:cryo>Cryo</e>, chaque tranche de 1 000 pts d'ATQ de Varka lui accorde un <e:anemo>bonus de DGT Anémo</e> et de l'élément correspondant, selon ce même ordre de priorité, de 10 % (un seul des éléments mentionnés précédemment peut bénéficier d'un bonus de DGT de cette manière), un bonus maximum de 25 % pouvant être obtenu de cette manière.\n\nDe plus, si l'équipe contient au moins 2 personnages <e:anemo>Anémo</e> ou au moins 2 personnages d'un élément identique parmi les éléments <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e> et <e:cryo>Cryo</e>, les attaques normales, les attaques chargées, les attaques chargées spéciales <k>Dévoreur azur</k> et les compétences élémentaires spéciales <k>Ascension des quatre vents</k> que Varka utilise pendant sa <k>charge de tempête</k> infligent des DGT d'une valeur équivalant à 140 % des DGT d'origine. Si l'équipe contient au moins 2 personnages <e:anemo>Anémo</e> et au moins 2 personnages d'un élément identique parmi les éléments <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:electro>Électro</e> et <e:cryo>Cryo</e>, cet effet passe à 220 %."
+          },
+          {
+            "name": "Avant-garde du vent",
+            "desc": "Lorsqu'un membre de l'équipe à proximité déclenche une réaction de Dispersion ou d'Astrodispersion, Varka obtient un cumul de <k>serment de croc azur</k>, augmentant les DGT de ses attaques normales, de ses attaques chargées, de ses attaques chargées spéciales <k>Dévoreur azur</k> et de ses compétences élémentaires spéciales <k>Ascension des quatre vents</k> de 7,5 % pendant 8 s, cet effet pouvant être cumulé 4 fois maximum. Chaque personnage peut accorder un cumul de <k>serment de croc azur</k> toutes les secondes à Varka de cette manière."
+          },
+          {
+            "name": "Péan du vent de retour",
+            "desc": "Chaque personnage de Mondstadt dans l'équipe diminue le TdR de la version déclenchée avec un appui long de la compétence élémentaire <k>Exécution liée au vent</k> de 5 %.\nCet effet ne s'applique pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          },
+          {
+            "name": "Veillée des sorcières : Retour de l'aube",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « Question sans titre »</k>, Varka devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\n\n<k>Hexerei : Rituel secret</k>\nLa compétence élémentaire spéciale <k>Ascension des quatre vents</k> est renforcée : lorsque Varka touche un ennemi avec une attaque normale pendant sa <k>charge de tempête</k>, le TdR d'<k>Ascension des quatre vents</k> diminue maintenant de 1 s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "« Viens, mon ami, dansons la valse sous la douce lueur de la lune. »",
+            "desc": "Varka obtient une utilisation supplémentaire de sa compétence élémentaire spéciale <k>Ascension des quatre vents</k> lorsqu'il active sa <k>charge de tempête</k>.\nDe plus, Varka obtient l'effet <k>Libation lyrique</k> pendant sa <k>charge de tempête</k> : cet effet est consommé en utilisant la compétence élémentaire spéciale <k>Ascension des quatre vents</k> ou en effectuant l'attaque chargée spéciale <k>Dévoreur azur</k> pour que les DGT d'<k>Ascension des quatre vents</k> ou de <k>Dévoreur azur</k> soient d'une valeur équivalant à 200 % des DGT d'origine."
+          },
+          {
+            "level": 2,
+            "name": "« Au lever du jour, notre voyage prendra son envol. »",
+            "desc": "En utilisant la compétence élémentaire spéciale <k>Ascension des quatre vents</k> et en effectuant l'attaque chargée spéciale <k>Dévoreur azur</k>, Varka déclenche une attaque supplémentaire infligeant des <e:anemo>DGT Anémo de zone</e> d'une valeur équivalant à 800 % de son ATQ."
+          },
+          {
+            "level": 3,
+            "name": "« Ô ami, ne bois pas ce vin amer qui fait couler des larmes de douleur. »",
+            "desc": "Niveau d'aptitude <k>Exécution liée au vent</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "« Car personne ne peut nous priver de notre liberté de chanter... »",
+            "desc": "Lorsque Varka déclenche une réaction de Dispersion ou d'Astrodispersion, tous les personnages de l'équipe à proximité bénéficient d'un <e:anemo>bonus de DGT Anémo</e> et de l'élément correspondant de 20 % pendant 10 s."
+          },
+          {
+            "level": 5,
+            "name": "« Remplis la coupe de bon vin, car les tyrans vont et viennent. »",
+            "desc": "Niveau d'aptitude <k>Avatar du vent du nord</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "« Ô Mondstadt bien-aimée, tu brilleras à jamais avec constance. »",
+            "desc": "La <k>charge de tempête</k> est renforcée :\n· Pendant un court moment après avoir utilisé sa compétence élémentaire spéciale <k>Ascension des quatre vents</k>, Varka peut utiliser sa compétence élémentaire avec un appui simple ou son attaque normale avec un appui long pour déclencher une fois supplémentaire une attaque chargée spéciale <k>Dévoreur azur</k> sans consommer d'utilisation d'Ascension des quatre vents.\n· Pendant un court moment après avoir effectué son attaque chargée spéciale <k>Dévoreur azur</k>, Varka peut utiliser sa compétence élémentaire avec un appui simple pour déclencher une fois supplémentaire <k>Ascension des quatre vents</k> sans consommer d'utilisation d'Ascension des quatre vents.\nLorsque vous déclenchez une fois supplémentaire une attaque chargée spéciale Dévoreur azur ou une compétence élémentaire spéciale Ascension des quatre vents de ces manières, les effets mentionnés ci-dessus ne peuvent pas être déclenchés.\n\nDe plus, l'effet du <k>serment de croc azur</k> de l'aptitude d'élévation <k>Avant-garde du vent</k> est renforcé : chaque cumul de <k>serment de croc azur</k> augmente également les DGT CRIT de Varka de 20 %."
+          }
+        ]
+      }
+    }
   }
 }

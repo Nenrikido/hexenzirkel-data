@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15418",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.",
+        "passive": {
+          "name": "Net Snapper",
+          "refinements": {
+            "1": "Triggers the Flowrider effect after using an Elemental Skill, dealing <r>80%</r> ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+            "2": "Triggers the Flowrider effect after using an Elemental Skill, dealing <r>100%</r> ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+            "3": "Triggers the Flowrider effect after using an Elemental Skill, dealing <r>120%</r> ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+            "4": "Triggers the Flowrider effect after using an Elemental Skill, dealing <r>140%</r> ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+            "5": "Triggers the Flowrider effect after using an Elemental Skill, dealing <r>160%</r> ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Cela semble être un poisson aujourd'hui disparu. Son corps est suffisamment élastique pour qu'une ficelle puisse y être attachée afin de s'en servir comme d'un arc.",
+        "passive": {
+          "name": "Délaceur",
+          "refinements": {
+            "1": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à <r>80 %</r> de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés une fois toutes les 2 s de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s.",
+            "2": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à <r>100 %</r> de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés une fois toutes les 2 s de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s.",
+            "3": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à <r>120 %</r> de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés une fois toutes les 2 s de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s.",
+            "4": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à <r>140 %</r> de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés une fois toutes les 2 s de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s.",
+            "5": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à <r>160 %</r> de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés une fois toutes les 2 s de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s."
+          }
+        }
+      }
+    }
   }
 }

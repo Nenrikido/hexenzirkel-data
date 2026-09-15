@@ -1281,5 +1281,147 @@
         ]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000123",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Radiant Wingslash",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive sword strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to perform a slash toward the front.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Binary Form: Convergence and Division",
+            "desc": "Purify the substance of souls and wishes to undergo <k>Essential Transmutation</k>. While transmuted, Durin's Elemental Skill <k>Binary Form: Convergence and Division</k> will be replaced with the special Elemental Skill <k>Transmutation: Confirmation of Purity</k>, and the Normal Attack <k>Radiant Wingslash</k> will be replaced with the special Elemental Skill <k>Transmutation: Denial of Darkness</k>.\n\n<k>Transmutation: Confirmation of Purity</k>\nDeal 1 instance of <e:pyro>AoE Pyro DMG</e> to nearby opponents, reverse Essential Transmutation, and enter the <k>Confirmation of Purity</k> state for 30s.\n\n<k>Transmutation: Denial of Darkness</k>\nDeal 3 consecutive instances of <e:pyro>Pyro DMG</e> to opponents in front, reverse Essential Transmutation, and enter the <k>Denial of Darkness</k> state for 30s.\n\nWhen Durin enters the <k>Confirmation of Purity</k> or <k>Denial of Darkness</k> state while in battle, he will restore a certain amount of Elemental Energy. Elemental Energy can be restored this way once every 6s."
+          },
+          "burst": {
+            "name": "Principle of Purity: As the Light Shifts",
+            "desc": "Unleash the power of the \"Beast\" in different ways. Durin can use different Elemental Bursts based on his <k>Essential Transmutation</k> state.\n\n<k>Principle of Purity: As the Light Shifts</k>\nWhen Durin is in the <k>Confirmation of Purity</k> state, he will use the Elemental Burst <k>Principle of Purity: As the Light Shifts</k>, dealing 3 instances of <e:pyro>AoE Pyro DMG</e> to opponents in front, and manifesting his power in the <k>Dragon of White Flame</k> form. The Dragon of White Flame will follow the current active character and attack nearby opponents at intervals, dealing <e:pyro>AoE Pyro DMG</e>. This DMG is considered Elemental Burst DMG.\n\n<k>Principle of Darkness: As the Stars Smolder</k>\nWhen Durin is in the <k>Denial of Darkness</k> state, he will use the Elemental Burst <k>Principle of Darkness: As the Stars Smolder</k>, dealing 3 instances of <e:pyro>AoE Pyro DMG</e> to opponents in front, and manifesting his power in the <k>Dragon of Dark Decay</k> form. The Dragon of Dark Decay will follow the current active character and periodically attack a single nearby opponent, dealing <e:pyro>Pyro DMG</e>. This DMG is considered Elemental Burst DMG.\n\nWhen Durin is not in a special state as a result of Essential Transmutation, he will use the Elemental Burst <k>Principle of Purity: As the Light Shifts</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Light Manifest of the Divine Calculus",
+            "desc": "Durin will trigger different buffs depending on the form that his power manifests as when he unleashes his Elemental Burst. When that form is:\n\n<k>Dragon of White Flame</k>\nAfter nearby party members trigger Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions on an opponent, or deal <e:pyro>Pyro DMG</e> or <e:dendro>Dendro DMG</e> to an opponent affected by Burning, that opponent's <e:pyro>Pyro RES</e>, and the RES for the corresponding Element involved in the reaction, are decreased by 20% for 6s.\n\n<k>Dragon of Dark Decay</k>\nDurin's Vaporize DMG is increased by 40% and his Melt DMG is increased by 40%."
+          },
+          {
+            "name": "Chaos Formed Like the Night",
+            "desc": "After unleashing an Elemental Burst, Durin gains the Primordial Fusion of Forms effect for 20s: Durin gains 10 stacks of Primordial Fusion. When a periodic attack from <k>Dragon of White Flame</k> or <k>Dragon of Dark Decay</k> deals DMG, 1 stack of Primordial Fusion will be consumed to increase the DMG dealt by 3% of the original DMG for every 100 ATK. A maximum of 75% additional DMG can be dealt this way. When a single attack from <k>Dragon of White Flame</k> or <k>Dragon of Dark Decay</k> hits multiple opponents, only one stack of Primordial Fusion is consumed.\nPrimordial Fusion stacks are reset when the Elemental Burst is unleashed again."
+          },
+          {
+            "name": "Echoes of the Surging Earth",
+            "desc": "Gains 25% more rewards when dispatched on a Mondstadt Expedition for 20 hours."
+          },
+          {
+            "name": "Witch's Eve Rite: Ode to Ascension",
+            "desc": "After completing <k>Witch's Homework: Of This World</k>, Durin will become a <k>Hexerei</k> character. When the party includes at least 2 Hexerei characters, you will gain the <k>Hexerei: Secret Rite</k> effect, which enhances Hexerei characters.\n\n<k>Hexerei: Secret Rite</k>\nIncreases all effects of the Ascension Talent <k>Light Manifest of the Divine Calculus</k> (except for Duration) by 75%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Adamah's Redemption",
+            "desc": "After casting his Elemental Burst, Durin's effects will vary depending on the form of his Elemental Burst:\n· <k>Principle of Purity: As the Light Shifts</k>: All other nearby party members gain 20 stacks of <k>Cycle of Enlightenment</k> lasting 20s. When nearby active characters deal Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst DMG, 1 stack of Cycle of Enlightenment will be consumed to increase the DMG dealt by 60% of Durin's ATK. Stack counts for characters in the party who have Cycle of Enlightenment are managed individually.\n· <k>Principle of Darkness: As the Stars Smolder</k>: Durin gains 20 stacks of <k>Cycle of Enlightenment</k> lasting 20s. When Durin deals Elemental Burst DMG, 2 stacks of Cycle of Enlightenment will be consumed to increase the DMG dealt by 150% of Durin's ATK.\n\nWhen an Elemental Burst is used, <k>Cycle of Enlightenment</k> stacks will be refreshed."
+          },
+          {
+            "level": 2,
+            "name": "Unground Visions",
+            "desc": "For 20s after Durin uses an Elemental Burst, after nearby party members trigger Vaporize, Melt, Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions, or deal <e:pyro>Pyro DMG</e> or <e:dendro>Dendro DMG</e> to an opponent affected by Burning, all nearby party members gain a 50% increase to their <e:pyro>Pyro DMG</e> and to the corresponding elemental DMG involved in the reaction for 6s."
+          },
+          {
+            "level": 3,
+            "name": "Flame Mirror's Revelation",
+            "desc": "Increases the Level of <k>Principle of Purity: As the Light Shifts</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Emanare's Source",
+            "desc": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume <k>Cycle of Enlightenment</k> stacks are triggered as part of the Constellation <k>Adamah's Redemption</k>, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed."
+          },
+          {
+            "level": 5,
+            "name": "Scouring Flame's Sundering",
+            "desc": "Increases the Level of <k>Binary Form: Convergence and Division</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Dual Birth",
+            "desc": "Durin's Elemental Burst DMG ignores 30% of opponents' DEF.\nAdditionally, Durin's Elemental Bursts <k>Principle of Purity: As the Light Shifts</k> and <k>Principle of Darkness: As the Stars Smolder</k> are each enhanced:\n· After <k>Principle of Purity: As the Light Shifts</k> and <k>Dragon of White Flame</k> hit an opponent, that opponent's DEF is decreased by 30% for 6s.\n· DMG from <k>Principle of Darkness: As the Stars Smolder</k> and <k>Dragon of Dark Decay</k> will ignore an additional 40% of opponents' DEF."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Coupe d'aile radieuse",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour exécuter une entaille vers l'avant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Forme binaire : Convergence et division",
+            "desc": "Purifie la substance des âmes et en appelle au désir de la <k>transmutation essentielle</k>. Pendant la transmutation de Durin, sa compétence élémentaire <k>Forme binaire : Convergence et division</k> est convertie en compétence élémentaire spéciale <k>Transmutation : Confirmation de pureté</k> et son attaque normale <k>Coupe d'aile radieuse</k> en la compétence élémentaire spéciale <k>Transmutation : Déni de ténèbre</k>.\n\n<k>Transmutation : Confirmation de pureté</k>\nInflige une fois des <e:pyro>DGT Pyro de zone</e> aux ennemis proches, annule la transmutation essentielle et active l'état <k>Confirmation de pureté</k> pendant 30 s.\n\n<k>Transmutation : Déni de ténèbre</k>\nInflige 3 fois de suite des <e:pyro>DGT Pyro</e> aux ennemis en face, annule la transmutation essentielle et active l'état <k>Déni de ténèbre</k> pendant 30 s.\n\nLorsque Durin entre dans l'état <k>Confirmation de pureté</k> ou <k>Déni de ténèbre</k> en combat, il récupère de l'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 6 s de cette manière."
+          },
+          "burst": {
+            "name": "Principe de pureté : Comme la lumière qui fluctue",
+            "desc": "Libère la puissance de la « bête » de différentes manières. Durin peut utiliser différents déchaînements élémentaires selon sa <k>transmutation essentielle</k>.\n\n<k>Principe de pureté : Comme la lumière qui fluctue</k>\nEn <k>confirmation de pureté</k>, Durin utilise le déchaînement élémentaire <k>Principe de pureté : Comme la lumière qui fluctue</k> pour infliger 3 fois des <e:pyro>DGT Pyro de zone</e> aux ennemis en avant et matérialiser sa puissance en un <k>dragon de flamme blanche</k>. Le dragon de flamme blanche suit le personnage déployé et attaque de façon intermittente les ennemis à portée, infligeant des <e:pyro>DGT Pyro de zone</e> considérés comme des DGT de déchaînement élémentaire.\n\n<k>Principe de ténèbre : Comme les étoiles qui brûlent</k>\nEn <k>déni de ténèbre</k>, Durin utilise le déchaînement élémentaire <k>Principe de ténèbre : Comme les étoiles qui brûlent</k> pour infliger 3 fois des <e:pyro>DGT Pyro de zone</e> aux ennemis en avant et matérialiser sa puissance en un <k>dragon de corrosion noire</k>. Le dragon de corrosion noire suit le personnage déployé et attaque de façon intermittente un ennemi à portée, infligeant des <e:pyro>DGT Pyro</e> considérés comme des DGT de déchaînement élémentaire.\n\nDe plus, Durin déclenche le déchaînement élémentaire <k>Principe de pureté : Comme la lumière qui fluctue</k> s'il n'est pas dans un état spécial de sa transmutation essentielle."
+          }
+        },
+        "passives": [
+          {
+            "name": "Manifestation lumineuse du calcul divin",
+            "desc": "Durin déclenche différents bonus selon la forme sous laquelle il matérialise son pouvoir lors de son déchaînement élémentaire :\n\n<k>Dragon de flamme blanche</k>\nLorsqu'un personnage de l'équipe à proximité a déclenché une réaction de Brûlure, de Surcharge, de Dispersion Pyro ou de Cristallisation Pyro sur un ennemi ou inflige des <e:pyro>DGT Pyro</e> ou des <e:dendro>DGT Dendro</e> sur un ennemi brûlé, la <e:pyro>RÉS Pyro</e> et la RÉS de l'élément impliqué dans la réaction de l'ennemi diminuent de 20 % pendant 6 s.\n\n<k>Dragon de corrosion noire</k>\nLes DGT infligés par les réactions d'Évaporation et de Fonte déclenchées par Durin augmentent de 40 %."
+          },
+          {
+            "name": "Chaos, semblable à la nuit",
+            "desc": "Après avoir utilisé un déchaînement élémentaire, Durin obtient l'effet Fusion primordiale des formes pendant 20 s, lui accordant 10 cumuls de fusion primordiale. Lorsqu'une attaque intermittente du <k>dragon de flamme blanche</k> ou du <k>dragon de corrosion noire</k> inflige des DGT, 1 cumul de fusion primordiale est consommé pour augmenter davantage les DGT d'une valeur équivalant à 3 % des DGT d'origine par tranche de 100 pts d'ATQ, les DGT pouvant être augmentés d'un maximum de 75 % de cette manière. Un seul cumul est consommé si un <k>dragon de flamme blanche</k> ou un <k>dragon de corrosion noire</k> touche plusieurs ennemis en même temps.\nDéclencher à nouveau un déchaînement élémentaire réinitialise la quantité de cumuls de fusion primordiale."
+          },
+          {
+            "name": "Échos de la terre jaillissante",
+            "desc": "Augmente les récompenses d'une expédition de 20 h à Mondstadt de 25 %."
+          },
+          {
+            "name": "Veillée de la sorcière : Ode à l'ascension",
+            "desc": "Après avoir terminé le <k>devoir de la sorcière « De ce monde »</k>, Durin devient un personnage <k>héxère</k>. Si l'équipe contient au moins 2 personnages héxères, elle bénéficie de l'effet <k>Hexerei : Rituel secret</k> qui améliore les personnages héxères.\n\n<k>Hexerei : Rituel secret</k>\nTous les effets, sauf la durée, de l'aptitude d'élévation <k>Manifestation lumineuse du calcul divin</k> augmentent de 75 %."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Rédemption de l'adamah",
+            "desc": "Déclencher un déchaînement élémentaire provoque divers effets en fonction du type de déchaînement élémentaire que Durin déclenche :\n· <k>Principe de pureté : Comme la lumière qui fluctue</k> : tous les autres personnages de l'équipe à proximité obtiennent 20 cumuls de <k>cycle d'illumination</k> pendant 20 s. Lorsque le personnage déployé inflige des DGT avec une attaque normale, une attaque chargée, une attaque plongeante, une compétence élémentaire ou un déchaînement élémentaire, il consomme 1 cumul de cycle d'illumination pour augmenter les DGT infligés d'une valeur équivalant à 60 % de l'ATQ de Durin. Le compte de cumuls des personnages de l'équipe possédant du cycle d'illumination est géré individuellement.\n· <k>Principe de ténèbre : Comme les étoiles qui brûlent</k> : Durin obtient 20 cumuls de <k>cycle d'illumination</k> pendant 20 s. Lorsque Durin inflige des DGT avec un déchaînement élémentaire, il consomme 2 cumuls de cycle d'illumination pour augmenter les DGT infligés d'une valeur équivalant à 150 % de l'ATQ de Durin.\n\nLorsqu'un déchaînement élémentaire est utilisé, les cumuls de <k>cycle d'illumination</k> sont réinitialisés."
+          },
+          {
+            "level": 2,
+            "name": "Visions sans fond",
+            "desc": "Si un personnage de l'équipe à proximité a déclenché une réaction d'Évaporation, de Fonte, de Brûlure, de Surcharge, de Dispersion Pyro ou de Cristallisation Pyro sur un ennemi, ou bien inflige des <e:pyro>DGT Pyro</e> ou des <e:dendro>DGT Dendro</e> sur un ennemi brûlé, pendant 20 s après que Durin utilise un déchaînement élémentaire, le personnage de l'équipe à proximité obtient un <e:pyro>bonus de DGT Pyro</e> et un bonus de DGT de l'élément impliqué dans la réaction de 50 % pendant 6 s."
+          },
+          {
+            "level": 3,
+            "name": "Révélation du miroir de flammes",
+            "desc": "Niveau d'aptitude <k>Principe de pureté : Comme la lumière qui fluctue</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Source d'emanare",
+            "desc": "Les DGT de déchaînement élémentaire infligés par Durin augmentent de 40 %. De plus, en déclenchant un effet consommant des cumuls de <k>cycle d'illumination</k> de la constellation <k>Rédemption de l'adamah</k>, il y a 30 % de chances de ne pas consommer de cycle d'illumination."
+          },
+          {
+            "level": 5,
+            "name": "Déchirure du feu purgateur",
+            "desc": "Niveau d'aptitude <k>Forme binaire : Convergence et division</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Double naissance",
+            "desc": "Les DGT de déchaînement élémentaire infligés par Durin ignorent 30 % de la DÉF des ennemis.\nDe plus, les déchaînements élémentaires <k>Principe de pureté : Comme la lumière qui fluctue</k> et <k>Principe de ténèbre : Comme les étoiles qui brûlent</k> de Durin sont renforcés :\n· Lorsque le déchaînement élémentaire <k>Principe de pureté : Comme la lumière qui fluctue</k> ou le <k>dragon de flamme blanche</k> touche un ennemi, la DÉF de ce dernier diminue de 30 % pendant 6 s.\n· Les DGT infligés par le déchaînement élémentaire <k>Principe de ténèbre : Comme les étoiles qui brûlent</k> et le <k>dragon de corrosion noire</k> ignorent 40 % de DÉF des ennemis en plus."
+          }
+        ]
+      }
+    }
   }
 }

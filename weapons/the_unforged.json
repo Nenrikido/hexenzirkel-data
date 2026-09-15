@@ -36,5 +36,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12504",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+        "passive": {
+          "name": "Golden Majesty",
+          "refinements": {
+            "1": "Increases Shield Strength by <r>20%</r>. Scoring hits on opponents increases ATK by <r>4%</r> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+            "2": "Increases Shield Strength by <r>25%</r>. Scoring hits on opponents increases ATK by <r>5%</r> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+            "3": "Increases Shield Strength by <r>30%</r>. Scoring hits on opponents increases ATK by <r>6%</r> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+            "4": "Increases Shield Strength by <r>35%</r>. Scoring hits on opponents increases ATK by <r>7%</r> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+            "5": "Increases Shield Strength by <r>40%</r>. Scoring hits on opponents increases ATK by <r>8%</r> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Capable d'éloigner les esprits et les individus mal intentionnés, cette épée à deux mains dénuée de tranchant est habitée par une puissance divine.",
+        "passive": {
+          "name": "Majesté dorée",
+          "refinements": {
+            "1": "Augmente la force du bouclier de <r>20 %</r>. Toucher un ennemi augmente l'ATQ de <r>4 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %.",
+            "2": "Augmente la force du bouclier de <r>25 %</r>. Toucher un ennemi augmente l'ATQ de <r>5 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %.",
+            "3": "Augmente la force du bouclier de <r>30 %</r>. Toucher un ennemi augmente l'ATQ de <r>6 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %.",
+            "4": "Augmente la force du bouclier de <r>35 %</r>. Toucher un ennemi augmente l'ATQ de <r>7 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %.",
+            "5": "Augmente la force du bouclier de <r>40 %</r>. Toucher un ennemi augmente l'ATQ de <r>8 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %."
+          }
+        }
+      }
+    }
   }
 }

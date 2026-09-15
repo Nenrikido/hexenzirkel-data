@@ -246,5 +246,147 @@
         "modifiers": { "stellarconduct_dmg_": 0.3 }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000133",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Formule Phenomenale: Self-Evident Proposition",
+            "desc": "<k>Normal Attack</k>\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\n\n<k>Charged Attack</k>\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"<k>Fagio</k>,\" and switches it to <k>Decoding</k> mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing <e:cryo>AoE Cryo DMG</e>.\n<k>Radiance: Stellar Glimmer</k>: The condensed beams will instead deal <e:cryo>AoE Cryo DMG</e> that is considered the corresponding Stellar Glimmer reaction DMG.\nWhile in <k>Decoding</k> mode, Fagio's <k>Decoding Power</k> will continuously increase. Firing condensed beams will also further increase its Decoding Power.\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to <k>Power Overdrive</k> mode, in which it fires at opponents with longer intervals, dealing <e:cryo>Cryo DMG</e>. It will be unable to switch to Decoding mode at this time.\nWhen not in <k>Decoding</k> mode, Fagio's <k>Decoding Power</k> gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\nFagio exits <k>Power Overdrive</k> mode when its <k>Decoding Power</k> has decreased to under 50.\n\n<k>Plunging Attack</k>\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing."
+          },
+          "skill": {
+            "name": "Formule Phenomenale: Differential Analysis",
+            "desc": "With her impeccable, ladylike poise, Sandrone boards the <k>Tea Party Tactical Assault Hovermech</k> and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\n\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing <e:cryo>Cryo DMG</e>.\n<k>Radiance: Stellar Glimmer</k>: The second Prism Shot will instead deal <e:cryo>Cryo DMG</e> that is considered the corresponding Stellar Glimmer reaction DMG.\n\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing <k>Decoding Power</k> to swiftly decrease."
+          },
+          "burst": {
+            "name": "Formule Phenomenale: Q.E.D.",
+            "desc": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing <e:cryo>AoE Cryo DMG</e>.\n<k>Radiance: Stellar Glimmer</k>: The Convective Inhibition Ray instead deals <e:cryo>AoE Cryo DMG</e> that is considered the corresponding Stellar Glimmer reaction DMG."
+          }
+        },
+        "passives": [
+          {
+            "name": "Eternal Speculation Engine",
+            "desc": "<k>Radiance: Stellar Glimmer</k>: When using the Elemental Skill <k>Formule Phenomenale: Differential Analysis</k>, if Fagio's <k>Decoding Power</k> is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\nAdditionally, for every 10 points of <k>Decoding Power</k> Fagio loses, it gains 1 stack of <k>Refined Tactics</k> for 60s (max 10 stacks). When Sandrone uses the Elemental Burst <k>Formule Phenomenale: Q.E.D.</k> while in the <k>Radiance: Stellar Glimmer</k> state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) × 10% of its original DMG."
+          },
+          {
+            "name": "A Lady's Code of Conduct",
+            "desc": "Increases Sandrone's Elemental Mastery based on her ATK. Every 100 ATK will increase her Elemental Mastery by 8. The maximum increase she can gain this way is 160."
+          },
+          {
+            "name": "Stellar Jubilee: Light of Rationalisme",
+            "desc": "Sandrone will enter the <k>Radiance: Stellar-Conduct</k> state when she is inside a <k>Polestar Field</k>, or the <k>Radiance: Stellar Swirl</k> state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of the aforementioned reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way."
+          },
+          {
+            "name": "A Caucus Prelude and a Long Tale",
+            "desc": "When Sandrone is in the party, you will gain additional snack rewards after turning in your Daily Commissions with Katheryne."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Morrow After the Golden Dusk",
+            "desc": "When in <k>Decoding</k> mode, Fagio's <k>Decoding Power</k> increases at a 50% lower rate, and all party members deal 30% increased Stellar Glimmer reaction DMG."
+          },
+          {
+            "level": 2,
+            "name": "An Heiress Gazed Into the Looking-Glass",
+            "desc": "<k>Radiance: Stellar Glimmer</k>: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this <k>Decoding</k> mode period will be further increased by 20%. Max 3 stacks."
+          },
+          {
+            "level": 3,
+            "name": "Refuse the Wake of Dusk, the Moonlit Yoke",
+            "desc": "Increases the Level of <k>Formule Phenomenale: Self-Evident Proposition</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "In Knowledge Lies the World's True Ground",
+            "desc": "When Sandrone deals Stellar-Conduct or Stellar Swirl DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals <e:cryo>Cryo DMG</e> at 125% or 187.5% of her ATK, respectively. This DMG is considered the corresponding Stellar Glimmer reaction DMG, and the effect can occur once every 4s."
+          },
+          {
+            "level": 5,
+            "name": "Of All Beside, She Takes No Part",
+            "desc": "Increases the Level of <k>Formule Phenomenale: Q.E.D.</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
+            "desc": "When Fagio fires a condensed beam for the third time while in <k>Decoding</k> mode, the beam becomes a more powerful <k>Condensed Cluster Beam</k> that fires continuously. This beam will deal up to 4 additional instances of <e:cryo>AoE Cryo DMG</e> at 100% of Sandrone's ATK on top of any subsequent original beam fired.\n<k>Radiance: Stellar Glimmer</k>: The <k>Condensed Cluster Beam</k> attack deals 4 additional instances of <e:cryo>AoE Cryo DMG</e>. The DMG dealt with this attack, which is considered the corresponding Stellar Glimmer reaction DMG, is equal to:\n<k>Radiance: Stellar-Conduct</k>: 80% of Sandrone's ATK.\n<k>Radiance: Stellar Swirl</k>: 120% of Sandrone's ATK.\nAdditionally, all Stellar Glimmer reaction DMG dealt by Sandrone is <k>elevated</k> by 20%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Formule phénoménale : Proposition auto-évidente",
+            "desc": "<k>Attaque normale</k>\nGénère des fils qui contrôlent son arme à l'aide de formules pour enchaîner jusqu'à 3 frappes consécutives.\n\n<k>Attaque chargée</k>\nInvoque la Facilitatrice automatisée généraliste interactive et omnitâche, ou <k>Fagio</k>, qui passe en mode <k>Décodage</k> : déchaîne une attaque de tir dévastatrice sur les ennemis en avant et tire périodiquement des rayons condensés, infligeant des <e:cryo>DGT Cryo de zone</e>.\n<k>Radiance astrale</k> : Les rayons condensés infligent à la place des <e:cryo>DGT Cryo de zone</e> considérés comme des DGT de réaction astrale correspondante.\nPendant le mode <k>Décodage</k>, la <k>puissance de décodage</k> de Fagio augmente continuellement, tirer des rayons condensés augmentant également sa puissance de décodage.\nUne fois sa puissance de décodage à la limite de 100 pts, Fagio passe en mode <k>Surpuissance</k>, pendant lequel elle tire sur les ennemis à intervalles plus longs, infligeant des <e:cryo>DGT Cryo</e>, et ne peut plus passer en mode Décodage.\nHors du mode <k>Décodage</k>, la <k>puissance de décodage</k> de Fagio diminue progressivement. Lorsque Sandrone fait partie de l'équipe mais n'est pas déployée, elle se concentre sur la maintenance de Fagio, ce qui accélère la diminution de sa puissance de décodage à 300 % de sa vitesse d'origine.\nFagio quitte le mode <k>Surpuissance</k> lorsque sa <k>puissance de décodage</k> tombe à moins de 50 pts.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Formule phénoménale : Analyse différentielle",
+            "desc": "Respectant les règles de conduite féminine parfaite, Sandrone monte à bord de son <k>Flotéomécha d'assaut tactique du goûteron</k> et plane vers l'avant pendant 6 s, temps pendant lequel elle peut contrôler la direction de son vol stationnaire. De plus, utiliser un sprint avec un appui simple lui permet de consommer 10 pts d'endurance pour passer dans un élégant vol stationnaire à grande vitesse, afin de se déplacer encore plus vite au prix de 15 pts d'endurance par seconde.\n\nSi un ennemi est à proximité lorsqu'elle commence son vol, Sandrone invoque également un canon à résonance prismatique qui déclenche 2 tirs prismatiques sur les ennemis qui ne se sont pas encore refroidis, infligeant des <e:cryo>DGT Cryo</e>.\n<k>Radiance astrale</k> : Le second tir prismatique inflige à la place des <e:cryo>DGT Cryo</e> considérés comme des DGT de réaction astrale correspondante.\n\nLorsqu'elle utilise son Flotéomécha d'assaut tactique du goûteron, Sandrone répare également discrètement Fagio avec élégance, ce qui diminue rapidement la <k>puissance de décodage</k> de cette dernière."
+          },
+          "burst": {
+            "name": "Formule phénoménale : CQFD",
+            "desc": "Suivant l'étiquette élégante d'une dame, Sandrone invoque un grand nombre de canons à résonance prismatique pour déclencher un bombardement étendu vers l'avant avant de tirer sur les ennemis avec un rayon convectif, infligeant des <e:cryo>DGT Cryo de zone</e>.\n<k>Radiance astrale</k> : Le rayon convectif inflige à la place des <e:cryo>DGT Cryo de zone</e> considérés comme des DGT de réaction astrale correspondante."
+          }
+        },
+        "passives": [
+          {
+            "name": "Moteur de spéculation éternelle",
+            "desc": "<k>Radiance astrale</k> : Si la <k>puissance de décodage</k> de Fagio dépasse 50 pts lors de l'utilisation de la compétence élémentaire <k>Formule phénoménale : Analyse différentielle</k>, le 2e tir prismatique sur les ennemis proches inflige des DGT d'une valeur équivalant à 400 % des DGT d'origine alors que la puissance de décodage diminue.\nDe plus, chaque fois que la <k>puissance de décodage</k> diminue de 10 pts, Sandrone obtient un cumul de <k>tactique affinée</k> de 60 s, cet effet pouvant être cumulé 10 fois maximum. Lorsque Sandrone utilise son déchaînement élémentaire <k>Formule phénoménale : CQFD</k> tout en étant en <k>radiance astrale</k>, elle consomme tous les cumuls de tactique affinée pour que son rayon convectif inflige des DGT d'une valeur équivalant à 100 % + nombre de cumuls consommés ×10 % des DGT d'origine."
+          },
+          {
+            "name": "Code de conduite d'une dame",
+            "desc": "Chaque tranche de 100 pts d'ATQ de Sandrone augmente sa maîtrise élémentaire de 8 pts, la maîtrise élémentaire pouvant être augmentée d'un maximum de 160 pts de cette manière."
+          },
+          {
+            "name": "Lumière du rationalisme",
+            "desc": "Sandrone passe en <k>radiance « Astroconduction »</k> ou en <k>radiance « Astrodispersion »</k> pendant 8 s lorsqu'elle est dans une <k>étendue polaris</k> ou lorsqu'un personnage de l'équipe a déclenché une réaction d'Astrodispersion à proximité, respectivement.\nLorsqu'un personnage de l'équipe déclenche une réaction de Supraconduction ou de Dispersion Cryo, elle est convertie en réaction d'Astroconduction ou d'Astrodispersion, dont les DGT de base augmentent selon l'ATQ de Sandrone : chaque tranche de 100 pts d'ATQ augmente les DGT de base de ces réactions de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière."
+          },
+          {
+            "name": "Prélude à un caucus et longue histoire",
+            "desc": "Lorsque Sandrone fait partie de l'équipe, vous obtenez des encas supplémentaires en récompense lorsque vous soumettez vos missions quotidiennes auprès de Catherine."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Demain après l'après-midi doré",
+            "desc": "En mode <k>Décodage</k>, la vitesse d'augmentation de la <k>puissance de décodage</k> de Fagio diminue de 50 % et les DGT de réaction astrale infligés par tous les personnages de l'équipe augmentent de 30 %."
+          },
+          {
+            "level": 2,
+            "name": "Une héritière regarda dans le miroir",
+            "desc": "<k>Radiance astrale</k> : Les DGT CRIT des rayons condensés de l'attaque chargée augmentent de 40 %, et chaque tir de rayon condensé augmente davantage les DGT CRIT infligés par les rayons condensés tirés pendant ce mode <k>Décodage</k> de 20 %, ceci pouvant être cumulé 3 fois maximum."
+          },
+          {
+            "level": 3,
+            "name": "Refusez le sillage du crépuscule, le joug au clair de lune",
+            "desc": "Niveau d'aptitude <k>Formule phénoménale : Proposition auto-évidente</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Le véritable fondement du monde réside dans la connaissance",
+            "desc": "Lorsque Sandrone touche un ennemi avec des DGT de réaction d'Astroconduction ou de réaction d'Astrodispersion, elle invoque également un canon à résonance prismatique supplémentaire pour effectuer une attaque coordonnée qui inflige des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 125 % ou 187,5 % de son ATQ, ces DGT étant considérés comme des DGT de réaction astrale correspondante. Cet effet peut être déclenché une fois toutes les 4 s."
+          },
+          {
+            "level": 5,
+            "name": "De tous les autres, elle ne prend aucune part",
+            "desc": "Niveau d'aptitude <k>Formule phénoménale : CQFD</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Narcisse s'éveille, les yeux rivés sur l'aurore",
+            "desc": "Lorsque Fagio tire un 3e rayon condensé en mode <k>Décodage</k>, le rayon est converti en <k>rayon condensé groupé</k> plus puissant et continu qui inflige jusqu'à 4 instances supplémentaires de <e:cryo>DGT Cryo de zone</e> d'une valeur équivalant à 100 % de l'ATQ de Sandrone, en plus de tout rayon original tiré ultérieurement.\n<k>Radiance astrale</k> : Le <k>rayon condensé groupé</k> est converti pour infliger 4 instances supplémentaires de <e:cryo>DGT Cryo de zone</e> considérés comme des DGT de réaction astrale, dont la valeur dépend de l'ATQ de Sandrone.\n<k>Radiance « Astroconduction »</k> : 80 %.\n<k>Radiance « Astrodispersion »</k> : 120 %.\nDe plus, tous les DGT des réactions astrales infligées par Sandrone bénéficient d'une <k>élévation</k> de 20 %."
+          }
+        ]
+      }
+    }
   }
 }

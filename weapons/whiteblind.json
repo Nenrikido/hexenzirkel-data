@@ -24,5 +24,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12407",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
+        "passive": {
+          "name": "Infusion Blade",
+          "refinements": {
+            "1": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>6%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+            "2": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>7.5%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+            "3": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>9%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+            "4": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>10.5%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.5s.",
+            "5": "On hit, Normal or Charged Attacks increase ATK and DEF by <r>12%</r> for 6s. Max 4 stacks. This effect can only occur once every 0.5s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée d'origine étrangère avec une section émoussée. Elle fut introduite par les voies commerciales à Liyue, et est un instrument de destruction puissant entre de bonnes mains.",
+        "passive": {
+          "name": "Lame énergisante",
+          "refinements": {
+            "1": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>6 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "2": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>7,5 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "3": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>9 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "4": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>10,5 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "5": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>12 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s."
+          }
+        }
+      }
+    }
   }
 }

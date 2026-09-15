@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14101",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "Notes left behind by a top student. Many useful spells are listed, and the handwriting is beautiful."
+      },
+      "fr": {
+        "flavor": "Des notes laissées par un élève brillant contenant des sortilèges efficaces, rédigés dans une belle écriture."
+      }
+    }
   }
 }

@@ -62,5 +62,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14509",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+        "passive": {
+          "name": "Kagura Dance of the Sacred Sakura",
+          "refinements": {
+            "1": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <r>12%</r> as well as their Stellar-Conduct DMG by <r>12%</r> for 24s. Max 3 stacks. This character will gain a <r>12%</r> All Elemental DMG Bonus when they possess 3 stacks.",
+            "2": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <r>15%</r> as well as their Stellar-Conduct DMG by <r>15%</r> for 24s. Max 3 stacks. This character will gain a <r>15%</r> All Elemental DMG Bonus when they possess 3 stacks.",
+            "3": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <r>18%</r> as well as their Stellar-Conduct DMG by <r>18%</r> for 24s. Max 3 stacks. This character will gain a <r>18%</r> All Elemental DMG Bonus when they possess 3 stacks.",
+            "4": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <r>21%</r> as well as their Stellar-Conduct DMG by <r>21%</r> for 24s. Max 3 stacks. This character will gain a <r>21%</r> All Elemental DMG Bonus when they possess 3 stacks.",
+            "5": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <r>24%</r> as well as their Stellar-Conduct DMG by <r>24%</r> for 24s. Max 3 stacks. This character will gain a <r>24%</r> All Elemental DMG Bonus when they possess 3 stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Les cloches utilisées lors de l'exécution de la danse Kagura, bénies par la guuji elle-même. L'odeur du cerisier sacré s'en dégage.",
+        "passive": {
+          "name": "Danse Kagura du cerisier sacré",
+          "refinements": {
+            "1": "Libérer une compétence élémentaire confère l'effet Danse Kagura, permettant d'augmenter les DGT infligés par les compétences élémentaires du personnage équipé de l'arme de <r>12 %</r> et ses DGT de réaction d'Astroconduction de <r>12 %</r>, le tout pendant 24 s. Cet effet peut être cumulé 3 fois maximum. Avec 3 cumuls, le personnage bénéficie d'un bonus de DGT élémentaires de <r>12 %</r>.",
+            "2": "Libérer une compétence élémentaire confère l'effet Danse Kagura, permettant d'augmenter les DGT infligés par les compétences élémentaires du personnage équipé de l'arme de <r>15 %</r> et ses DGT de réaction d'Astroconduction de <r>15 %</r>, le tout pendant 24 s. Cet effet peut être cumulé 3 fois maximum. Avec 3 cumuls, le personnage bénéficie d'un bonus de DGT élémentaires de <r>15 %</r>.",
+            "3": "Libérer une compétence élémentaire confère l'effet Danse Kagura, permettant d'augmenter les DGT infligés par les compétences élémentaires du personnage équipé de l'arme de <r>18 %</r> et ses DGT de réaction d'Astroconduction de <r>18 %</r>, le tout pendant 24 s. Cet effet peut être cumulé 3 fois maximum. Avec 3 cumuls, le personnage bénéficie d'un bonus de DGT élémentaires de <r>18 %</r>.",
+            "4": "Libérer une compétence élémentaire confère l'effet Danse Kagura, permettant d'augmenter les DGT infligés par les compétences élémentaires du personnage équipé de l'arme de <r>21 %</r> et ses DGT de réaction d'Astroconduction de <r>21 %</r>, le tout pendant 24 s. Cet effet peut être cumulé 3 fois maximum. Avec 3 cumuls, le personnage bénéficie d'un bonus de DGT élémentaires de <r>21 %</r>.",
+            "5": "Libérer une compétence élémentaire confère l'effet Danse Kagura, permettant d'augmenter les DGT infligés par les compétences élémentaires du personnage équipé de l'arme de <r>24 %</r> et ses DGT de réaction d'Astroconduction de <r>24 %</r>, le tout pendant 24 s. Cet effet peut être cumulé 3 fois maximum. Avec 3 cumuls, le personnage bénéficie d'un bonus de DGT élémentaires de <r>24 %</r>."
+          }
+        }
+      }
+    }
   }
 }

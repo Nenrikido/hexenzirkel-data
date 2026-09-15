@@ -15,5 +15,41 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11505",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.",
+        "passive": {
+          "name": "Protector's Virtue",
+          "refinements": {
+            "1": "HP increased by <r>20%</r>. Additionally, provides an ATK Bonus based on <r>1.2%</r> of the wielder's Max HP.",
+            "2": "HP increased by <r>25%</r>. Additionally, provides an ATK Bonus based on <r>1.5%</r> of the wielder's Max HP.",
+            "3": "HP increased by <r>30%</r>. Additionally, provides an ATK Bonus based on <r>1.8%</r> of the wielder's Max HP.",
+            "4": "HP increased by <r>35%</r>. Additionally, provides an ATK Bonus based on <r>2.1%</r> of the wielder's Max HP.",
+            "5": "HP increased by <r>40%</r>. Additionally, provides an ATK Bonus based on <r>2.4%</r> of the wielder's Max HP."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée cérémonielle taillée dans le jade le plus pur. On peut presque entendre son soupir lorsqu'elle tourne dans le vent.",
+        "passive": {
+          "name": "Vertu du protecteur",
+          "refinements": {
+            "1": "Les PV sont augmentés de <r>20 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,2 %</r> de ses PV max.",
+            "2": "Les PV sont augmentés de <r>25 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,5 %</r> de ses PV max.",
+            "3": "Les PV sont augmentés de <r>30 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,8 %</r> de ses PV max.",
+            "4": "Les PV sont augmentés de <r>35 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>2,1 %</r> de ses PV max.",
+            "5": "Les PV sont augmentés de <r>40 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>2,4 %</r> de ses PV max."
+          }
+        }
+      }
+    }
   }
 }

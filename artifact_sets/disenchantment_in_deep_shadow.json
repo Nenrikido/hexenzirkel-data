@@ -19,5 +19,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15046",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Disenchantment in Deep Shadow",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "Increases Superconduct Reaction DMG by 80% and Stellar-Conduct Reaction DMG by 40%. When the wielder attacks opponents affected by Superconduct or Stellar-Conduct, this attack's CRIT Rate is increased by 16%."
+        }
+      },
+      "fr": {
+        "name": "Désenchantement dans l'ombre profonde",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Augmente les DGT infligés par les réactions de Supraconduction de 80 % et ceux infligés par les réactions d'Astroconduction de 40 %. Lorsque le personnage équipé de l'artéfact attaque un ennemi affecté par une réaction de Supraconduction ou d'Astroconduction, le taux CRIT de cette attaque augmente de 16 %."
+        }
+      }
+    }
   }
 }

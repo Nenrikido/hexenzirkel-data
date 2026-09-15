@@ -208,5 +208,139 @@
         "states": [{ "value": "on", "modifiers": { "eleMas": 80.0 } }]
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000059",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Fudou Style Martial Arts",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 fisticuffs empowered by a mighty wind, dealing <e:anemo>Anemo DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina and performs a sweeping kick that deals <e:anemo>Anemo DMG</e>.\n\n<k>Plunging Attack</k>\nCalling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals <e:anemo>AoE Anemo DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Heartstopper Strike",
+            "desc": "<k>Tap</k>\nWields the swift winds to launch a Heartstopper Strike that deals <e:anemo>Anemo DMG</e>.\n\n<k>Hold</k>\nCharges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing <e:anemo>Anemo DMG</e>.\n\n<k>Declension</k>\nIncreases the power of the next Heartstopper Strike. Max 4 stacks.\nWhen you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.\n\n<i>This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.</i>"
+          },
+          "burst": {
+            "name": "Windmuster Kick",
+            "desc": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing <e:anemo>AoE Anemo DMG</e>.\nWhen Vacuum Slugger hits opponents affected by <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type.\nVacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.\n\n<i>A unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Paradoxical Practice",
+            "desc": "When Shikanoin Heizou activates a Swirl or Stellar Swirl reaction while on the field, he will gain 1 Declension stack for <k>Heartstopper Strike</k>. This effect can be triggered once every 0.1s."
+          },
+          {
+            "name": "Penetrative Reasoning",
+            "desc": "After Shikanoin Heizou's <k>Heartstopper Strike</k> hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s."
+          },
+          {
+            "name": "Pre-Existing Guilt",
+            "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Named Juvenile Casebook",
+            "desc": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for <k>Heartstopper Strike</k>. This effect can be triggered once every 10s."
+          },
+          {
+            "level": 2,
+            "name": "Investigative Collection",
+            "desc": "The pull effect of the Arresting Windtunnel created by <k>Windmuster Kick</k> is enhanced, and its duration is increased to 1s."
+          },
+          {
+            "level": 3,
+            "name": "Esoteric Puzzle Book",
+            "desc": "Increases the Level of <k>Heartstopper Strike</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Tome of Lies",
+            "desc": "The first Windmuster Iris explosion in each <k>Windmuster Kick</k> will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.\nOne <k>Windmuster Kick</k> can regenerate a total of 13.5 Energy for Heizou in this manner."
+          },
+          {
+            "level": 5,
+            "name": "Secret Archive",
+            "desc": "Increases the Level of <k>Windmuster Kick</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Curious Casefiles",
+            "desc": "Each Declension stack will increase the CRIT Rate of the <k>Heartstopper Strike</k> unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Arts martiaux style Fudou",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups de poing renforcés par un vent puissant, qui infligent des <e:anemo>DGT Anémo</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour exécuter un balayage qui inflige des <e:anemo>DGT Anémo</e>.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Anémo, infligeant des DGT aux ennemis en chemin et des <e:anemo>DGT Anémo de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Poing d'arrêt cardiaque",
+            "desc": "<k>Appui simple</k>\nContrôle les rafales de vent pour déclencher un Poing d'arrêt cardiaque qui inflige des <e:anemo>DGT Anémo</e>.\n\n<k>Appui long</k>\nCharge de l'énergie pour déclencher un coup de poing encore plus puissant. L'effet Détection est obtenu pendant la charge, permettant d'augmenter la puissance du Poing d'arrêt cardiaque. Lorsque vous relâchez la compétence ou que sa charge est complète, vous frappez en avant pour infliger des <e:anemo>DGT Anémo</e>.\n\n<k>Détection</k>\nAugmente les DGT du prochain Poing d'arrêt cardiaque. Cet effet peut être cumulé 4 fois maximum.\nAvec 4 cumuls de détection, vous obtenez l'effet Conviction, permettant au prochain Poing d'arrêt cardiaque d'être encore plus puissant et d'avoir une zone d'effet plus grande.\n\n<i>Ce coup apparemment ordinaire contient le désir de Heizou de pousser les criminels à se confesser et à se repentir honnêtement.</i>"
+          },
+          "burst": {
+            "name": "Coup de pied ouragan",
+            "desc": "S'élance dans les airs et utilise la bombe du vide du style Fudou pour donner un coup de pied à son ennemi. La bombe du vide explose à l'impact et crée ensuite un tunnel de vent qui attire les objets et les ennemis à proximité, infligeant des <e:anemo>DGT Anémo de zone</e>.\nLorsque la bombe du vide du style Fudou touche un ennemi affecté par l'élément <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Électro</e>, ce dernier est affligé d'un œil du cyclone qui explose après un moment en infligeant des DGT de zone de l'élément correspondant.\nLa bombe du vide du style Fudou peut affecter un maximum de 4 ennemis avec un œil du cyclone, mais un même ennemi ne peut pas subir l'effet de plusieurs yeux du cyclone de différents éléments en même temps.\n\n<i>Cette technique unique canalise l'élément Anémo en un seul endroit avant de tout déchaîner d'un seul coup. Un atout toujours disponible pour corriger tout criminel qui s'enfuit !</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Pratique paradoxale",
+            "desc": "Lorsque Shikanoin Heizou déclenche une réaction de Dispersion ou d'Astrodispersion sur le champ de bataille, il obtient 1 cumul de détection pour <k>Poing d'arrêt cardiaque</k>. Cet effet peut être déclenché une fois toutes les 0,1 s."
+          },
+          {
+            "name": "Raisonnement indéniable",
+            "desc": "Lorsque <k>Poing d'arrêt cardiaque</k> a touché un ennemi, la maîtrise élémentaire de tous les personnages de l'équipe (hormis Shikanoin Heizou) augmente de 80 pts pendant 10 s."
+          },
+          {
+            "name": "Culpabilité préexistante",
+            "desc": "Diminue la consommation d'endurance de vos personnages dans l'équipe de 20 % lors du sprint.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Justice juvénile",
+            "desc": "Pendant les 5 s qui suivent l'arrivée de Shikanoin Heizou sur le terrain, la VIT d'attaque de ses attaques normales augmente de 15 % et il obtient 1 cumul de détection pour <k>Poing d'arrêt cardiaque</k>. Cet effet peut être déclenché une fois toutes les 10 s."
+          },
+          {
+            "level": 2,
+            "name": "Recueil d'enquêtes",
+            "desc": "L'effet d'attraction du tunnel de vent créé par <k>Coup de pied ouragan</k> est amélioré, et sa durée augmente à 1 s."
+          },
+          {
+            "level": 3,
+            "name": "Énigme inextricable",
+            "desc": "Niveau d'aptitude <k>Poing d'arrêt cardiaque</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Collection de calomnies",
+            "desc": "Après l'explosion du premier œil du cyclone de chaque <k>Coup de pied ouragan</k>, Shikanoin Heizou récupère 9 pts d'énergie élémentaire, tandis que chaque explosion suivante lui permet d'en récupérer 1,5 pt supplémentaire.\nL'énergie élémentaire peut être restaurée d'un maximum de 13,5 pts de cette manière pour chaque <k>Coup de pied ouragan</k>."
+          },
+          {
+            "level": 5,
+            "name": "Archives secrètes",
+            "desc": "Niveau d'aptitude <k>Coup de pied ouragan</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Dossier étrange",
+            "desc": "Chaque cumul de détection augmente le taux CRIT de <k>Poing d'arrêt cardiaque</k> de 4 %. Sous l'effet Conviction, les DGT CRIT du Poing d'arrêt cardiaque augmentent de 32 %."
+          }
+        ]
+      }
+    }
   }
 }

@@ -203,5 +203,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000015",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Ceremonial Bladework",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Frostgnaw",
+            "desc": "Unleashes a frigid blast, dealing <e:cryo>Cryo DMG</e> to opponents in front of Kaeya.\n\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>"
+          },
+          "burst": {
+            "name": "Glacial Waltz",
+            "desc": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal <e:cryo>Cryo DMG</e> to opponents in their path for the ability's duration.\n\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Cold-Blooded Strike",
+            "desc": "Every hit with <k>Frostgnaw</k> regenerates HP for Kaeya equal to 15% of his ATK."
+          },
+          {
+            "name": "Glacial Heart",
+            "desc": "Opponents <e:cryo>Frozen</e> by <k>Frostgnaw</k> will drop additional Elemental Particles.\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
+          },
+          {
+            "name": "Hidden Strength",
+            "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Excellent Blood",
+            "desc": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <e:cryo>Cryo</e> is increased by 15%."
+          },
+          {
+            "level": 2,
+            "name": "Never-Ending Performance",
+            "desc": "While <k>Glacial Waltz</k> is in effect, for each opponent defeated, its duration is increased by 2.5s, up to a maximum of 15s."
+          },
+          {
+            "level": 3,
+            "name": "Dance of Frost",
+            "desc": "Increases the Level of <k>Frostgnaw</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Frozen Kiss",
+            "desc": "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs <e:cryo>Cryo DMG</e> with 250% efficiency.\nCan only occur once every 60s."
+          },
+          {
+            "level": 5,
+            "name": "Frostbiting Embrace",
+            "desc": "Increases the Level of <k>Glacial Waltz</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Glacial Whirlwind",
+            "desc": "<k>Glacial Waltz</k> will generate 1 additional icicle, and will regenerate 15 Energy when cast."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Passe d'armes",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Attaque givrée",
+            "desc": "Libère un blizzard gelant qui inflige des <e:cryo>DGT Cryo</e> aux ennemis en face.\n\n<i>Qui serait capable de faire fondre la glace qui se cache derrière ce masque aimable...</i>"
+          },
+          "burst": {
+            "name": "Valse glaciale",
+            "desc": "Kaeya condense les particules dans l'air pour invoquer 3 stalactites tournoyantes.\nLes stalactites suivent le personnage, et infligent des <e:cryo>DGT Cryo</e> aux ennemis sur leur route.\n\n<i>Ses dehors souriants, son ton agréable, et la glace qu'ils cachent : voici les armes de Kaeya.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Épée de la cruauté",
+            "desc": "Chaque fois qu'<k>Attaque givrée</k> touche un ennemi, Kaeya récupère une quantité de PV équivalant à 15 % de son ATQ."
+          },
+          {
+            "name": "Cœur de l'Abîme glacial",
+            "desc": "Les ennemis <e:cryo>gelés</e> par <k>Attaque givrée</k> font tomber davantage de particules élémentaires.\nAttaque givrée peut accorder un maximum de 2 particules supplémentaires de cette manière à chaque utilisation."
+          },
+          {
+            "name": "Force cachée",
+            "desc": "Diminue la consommation d'endurance de vos personnages dans l'équipe de 20 % lors du sprint.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Lignée de l'excellence",
+            "desc": "Le taux CRIT des attaques normales et chargées de Kaeya contre les ennemis affectés par l'<e:cryo>élément Cryo</e> augmente de 15 %."
+          },
+          {
+            "level": 2,
+            "name": "Danse givrée éternelle",
+            "desc": "Chaque ennemi éliminé pendant la durée de <k>Valse glaciale</k> prolonge la durée de la compétence de 2,5 s. Cumul maximum : 15 s."
+          },
+          {
+            "level": 3,
+            "name": "Ébats glacials",
+            "desc": "Niveau d'aptitude <k>Attaque givrée</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Baiser glacé",
+            "desc": "Kaeya génère un bouclier lorsque ses PV sont inférieurs à 20 %.\nLe bouclier absorbe une quantité de DGT équivalant à 30 % des PV max et dure 20 s.\nLe bouclier est efficace à 250 % contre les <e:cryo>DGT Cryo</e>.\nCet effet peut être déclenché une fois toutes les 60 s."
+          },
+          {
+            "level": 5,
+            "name": "Étreinte glaciale",
+            "desc": "Niveau d'aptitude <k>Valse glaciale</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Tourbillon glacial",
+            "desc": "Génère une stalactite supplémentaire pendant <k>Valse glaciale</k> et restaure 15 pts d'énergie élémentaire."
+          }
+        ]
+      }
+    }
   }
 }

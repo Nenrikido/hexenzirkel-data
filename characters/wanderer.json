@@ -255,5 +255,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000075",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Yuuban Meigen",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 attacks using wind blades, dealing <e:anemo>Anemo DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina, gathers a build up of high wind pressure, and deals <e:anemo>AoE Anemo DMG</e> after a short casting time.\n\n<k>Plunging Attack</k>\nCalling upon the power of Anemo, the Wanderer plunges towards the ground from mid-air, damaging all opponents in his path. Deals <e:anemo>AoE Anemo DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Hanega: Song of the Wind",
+            "desc": "Concentrates the power of the winds to break free from the shackles of the earth, dealing <e:anemo>AoE Anemo DMG</e> before leaping into the air and entering the Windfavored state.\n\n<k>Windfavored</k>\nThe Wanderer cannot perform Plunging Attacks in this state. When he uses Normal and Charged Attacks, they will be converted into Kuugo: Fushoudan and Kuugo: Toufukai respectively; the DMG they deal and their AoE will be increased, and their DMG will be considered Normal and Charged Attack DMG respectively. Kuugo: Toufukai will not consume Stamina.\nThe Wanderer will hover persistently during this time. While this state is active, the Wanderer's movements gain the following properties:\n· Persistently consumes Kuugoryoku Points to maintain this hovering state.\n· When sprinting, additional Kuugoryoku Points will be consumed for the Wanderer to accelerate mid-air. Holding sprint will cause persistent Kuugoryoku Point consumption to maintain speed. This effect will replace his default sprint.\n· Jumping expends extra Kuugoryoku Points to increase hovering height. Holding jump will cause persistent Kuugoryoku Point consumption to keep increasing hovering height.\n\nRunning out of Kuugoryoku Points will end the Windfavored state.\nA second cast during the duration of Windfavored will also end it.\n\n<i>\"The world dances in a weightless whirl, presenting a secret that can only be found in the flowers.\"</i>"
+          },
+          "burst": {
+            "name": "Kyougen: Five Ceremonial Plays",
+            "desc": "Compresses the atmosphere into a singular vacuum that grinds all troubles away, dealing multiple instances of <e:anemo>AoE Anemo DMG</e>.\nIf the character is in the Windfavored state due to the skill \"Hanega: Song of the Wind,\" Windfavored state will end after casting.\n\n<i>\"Bright be the narrowed gaze of the sky, casting its sight on dreams both past and present, like radiance washing over dust on the winds.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Jade-Claimed Flower",
+            "desc": "If <k>Hanega: Song of the Wind</k> comes into contact with <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e> when it is unleashed, this instance of the Windfavored state will obtain buffs according to the contacted element(s):\n· <e:hydro>Hydro</e>: Kuugoryoku Point cap increases by 20.\n· <e:pyro>Pyro</e>: ATK increases by 30%.\n· <e:cryo>Cryo</e>: CRIT Rate increases by 20%.\n· <e:electro>Electro</e>: When Normal and Charged Attacks hit an opponent, 0.8 Energy will be restored. Energy can be restored this way once every 0.2s.\n\nYou can have up to 2 different kinds of these buffs simultaneously."
+          },
+          {
+            "name": "Gales of Reverie",
+            "desc": "When the Wanderer hits opponents with Kuugo: Fushoudan or Kuugo: Toufukai in his <k>Windfavored</k> state, he has a 16% chance to obtain the Descent effect: The next time the Wanderer accelerates in mid-air while in this instance of the Windfavored state, this effect will be removed, this acceleration instance will not consume any Kuugoryoku Points, and he will fire off 4 wind arrows that deal 35% of his ATK as <e:anemo>Anemo DMG</e> each.\nFor each Kuugo: Fushoudan and Kuugo: Toufukai that does not produce this effect, the next attack of those types will have a 12% increased chance of producing it. The calculation of the effect production is done once every 0.1s."
+          },
+          {
+            "name": "Strum the Swirling Winds",
+            "desc": "Mora expended when ascending Bows and Catalysts is decreased by 50%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Shoban: Ostentatious Plumage",
+            "desc": "When in the <k>Windfavored</k> state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%.\nAdditionally, the wind arrows fired by the Ascension Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must first unlock the Ascension Talent \"Gales of Reverie.\""
+          },
+          {
+            "level": 2,
+            "name": "Niban: Isle Amidst White Waves",
+            "desc": "When in the <k>Windfavored</k> state, <k>Kyougen: Five Ceremonial Plays</k> will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill.\nThrough this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%."
+          },
+          {
+            "level": 3,
+            "name": "Sanban: Moonflower Kusemai",
+            "desc": "Increases the Level of <k>Kyougen: Five Ceremonial Plays</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Yonban: Set Adrift into Spring",
+            "desc": "When casting <k>Hanega: Song of the Wind</k>, should the Ascension Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously.\nYou must first unlock the Ascension Talent \"Jade-Claimed Flower.\""
+          },
+          {
+            "level": 5,
+            "name": "Matsuban: Ancient Illuminator From Abroad",
+            "desc": "Increases the Level of <k>Hanega: Song of the Wind</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Shugen: The Curtains' Melancholic Sway",
+            "desc": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the <k>Windfavored</k> state, the following effects will occur:\n· Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG.\n· When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Battement flottant",
+            "desc": "<k>Attaque normale</k>\nUtilise des lames de vent pour enchaîner jusqu'à 3 attaques qui infligent des <e:anemo>DGT Anémo</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour concentrer un champ à haute pression en avant et infliger des <e:anemo>DGT Anémo de zone</e> après un court délai.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Anémo, infligeant des DGT aux ennemis en chemin et des <e:anemo>DGT Anémo de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Hanega : Lyrisme des vents",
+            "desc": "Concentre la puissance des vents pour déjouer les contraintes de la terre, infligeant des <e:anemo>DGT Anémo</e> dans la zone avant de bondir dans les airs pour entrer dans l'état Bienfait venteux.\n\n<k>Bienfait venteux</k>\nDans cet état, le Nomade ne peut pas effectuer d'attaques plongeantes, mais ses attaques normales et chargées sont respectivement converties en Kuugo : Fushoudan et Kuugo : Toufukai, dont les DGT et la zone d'effet augmentent, les DGT étant alors respectivement considérés comme des DGT d'attaque normale ou comme des DGT d'attaque chargée. De plus, Kuugo : Toufukai ne consomme pas d'endurance.\nDans cet état, le Nomade flotte de façon continue dans les airs et ses actions déclenchent les effets suivants :\n· Il consomme de façon continue du Kuugoryoku pour maintenir l'état de flottaison.\n· Son sprint consomme une quantité de Kuugoryoku supplémentaire pour qu'il puisse accélérer dans les airs. Maintenir le sprint consomme du Kuugoryoku de façon continue afin de maintenir la vitesse. Cet effet remplace le sprint.\n· Sauter consomme une quantité de Kuugoryoku supplémentaire pour augmenter la hauteur de flottaison. Maintenir le saut consomme du Kuugoryoku de façon continue afin de continuer à monter.\n\nL'état prend fin une fois le Kuugoryoku épuisé.\nUtiliser à nouveau la compétence pendant la durée du bienfait venteux met fin à l'état.\n\n<i>« Le monde danse dans un tourbillon d'apesanteur, présentant un secret qui ne peut être décelé que dans les fleurs. »</i>"
+          },
+          "burst": {
+            "name": "Kyougen : Gobandate en cinq actes",
+            "desc": "Compresse l'atmosphère en une faille capable de mettre fin à tous les soucis, infligeant plusieurs fois des <e:anemo>DGT Anémo de zone</e>.\nSi le personnage est dans l'état Bienfait venteux accordé par « Hanega : Lyrisme des vents », l'état prend fin après l'utilisation de cette compétence.\n\n<i>« Brillant est le regard rétréci du ciel, jetant son regard sur les rêves passés et présents, comme l'éclat qui lave la poussière sous les vents. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Fleur de jade",
+            "desc": "Pendant <k>Hanega : Lyrisme des vents</k>, entrer au contact de l'élément <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Électro</e> permet à l'état Bienfait venteux qui en résulte d'obtenir un effet de renforcement selon l'élément concerné :\n· <e:hydro>Hydro</e> : la limite de Kuugoryoku augmente de 20 pts.\n· <e:pyro>Pyro</e> : l'ATQ augmente de 30 %.\n· <e:cryo>Cryo</e> : le taux CRIT augmente de 20 %.\n· <e:electro>Électro</e> : les attaques normales et chargées restaurent 0,8 pt d'énergie élémentaire après avoir touché un ennemi. L'énergie élémentaire peut être restaurée une fois toutes les 0,2 s de cette manière.\n\nUn maximum de 2 types différents de ces effets de renforcement peut être obtenu simultanément."
+          },
+          {
+            "name": "Rafales de rêverie",
+            "desc": "Lorsque le Nomade touche un ennemi avec Kuugo : Fushoudan ou Kuugo : Toufukai pendant l'état <k>Bienfait venteux</k>, il a 16 % de chances d'obtenir l'effet Descente : la prochaine fois qu'il accélère dans les airs pendant cet état Bienfait venteux, l'effet est annulé, l'accélération ne consomme aucun point de Kuugoryoku et il tire 4 flèches de vent qui infligent chacune des <e:anemo>DGT Anémo</e> d'une valeur équivalant à 35 % de son ATQ.\nSi Kuugo : Fushoudan ou Kuugo : Toufukai ne déclenche pas l'effet Descente, les chances de le déclencher la fois suivante augmentent de 12 %. Le calcul du déclenchement de l'effet se fait une fois toutes les 0,1 s."
+          },
+          {
+            "name": "Accord des vents tourbillonnants",
+            "desc": "Les moras utilisés lors de l'élévation de catalyseurs et d'arcs diminuent de 50 %."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Shoban : Pennage ostentatoire",
+            "desc": "Pendant l'état <k>Bienfait venteux</k>, la VIT d'attaque de Kuugo : Fushoudan et de Kuugo : Toufukai du Nomade augmente de 10 %.\nDe plus, les flèches de vent tirées par l'aptitude d'élévation « Rafales de rêverie » infligent des DGT supplémentaires équivalant à 25 % de l'ATQ. L'aptitude d'élévation « Rafales de rêverie » doit être déjà débloquée pour cet effet."
+          },
+          {
+            "level": 2,
+            "name": "Niban : Île dans les vagues blanches",
+            "desc": "Pendant l'état <k>Bienfait venteux</k>, les DGT infligés par <k>Kyougen : Gobandate en cinq actes</k> augmentent de 4 % pour chaque point de différence entre la quantité actuelle et maximale de Kuugoryoku.\nLes DGT infligés par Kyougen : Gobandate en cinq actes peuvent être augmentés d'un maximum de 200 % de cette manière."
+          },
+          {
+            "level": 3,
+            "name": "Sanban : Kusemai de belle-de-nuit",
+            "desc": "Niveau d'aptitude <k>Kyougen : Gobandate en cinq actes</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Yonban : Dérive vers le printemps",
+            "desc": "Si l'effet de renforcement selon le type élémentaire de l'aptitude d'élévation « Fleur de jade » est déclenché en utilisant <k>Hanega : Lyrisme des vents</k>, un effet de renforcement n'ayant pas été déclenché cette fois-ci est aléatoirement accordé. Un maximum de 3 types différents de ces effets de renforcement peut être obtenu simultanément.\nL'aptitude d'élévation « Fleur de jade » doit être déjà débloquée."
+          },
+          {
+            "level": 5,
+            "name": "Matsuban : Illustre du lointain",
+            "desc": "Niveau d'aptitude <k>Hanega : Lyrisme des vents</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Shugen : Mélancolie de la brume",
+            "desc": "Lorsque le Nomade touche un ennemi en utilisant Kuugo : Fushoudan pendant l'état <k>Bienfait venteux</k>, les effets suivants se produisent :\n· Il déclenche Kuugo : Fushoudan une fois de plus à l'emplacement touché, infligeant 40 % des DGT d'origine, ces DGT étant considérés comme des DGT d'attaque normale.\n· Si son Kuugoryoku est inférieur à 40 pts, il restaure 4 pts. Les points de Kuugoryoku peuvent être restaurés une fois toutes les 0,2 s de cette manière, et un maximum de 5 fois pour chaque durée de l'état Bienfait venteux."
+          }
+        ]
+      }
+    }
   }
 }

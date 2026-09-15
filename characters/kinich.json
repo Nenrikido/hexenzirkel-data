@@ -167,5 +167,147 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000101",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Nightsun Style",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 rapid strikes.\nAfter using his Elemental Skill \"Canopy Hunter: Riding High\"'s mid-air swing, he can perform a Normal Attack in mid-air before landing.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to spin and throw his Claymore forward to attack opponents.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Canopy Hunter: Riding High",
+            "desc": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\n\n<k>Nightsoul's Blessing: Kinich</k>\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\n· When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned <e:dendro>Dendro DMG</e> and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\n· When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned <e:dendro>Dendro DMG</e>. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.\n\n<i>\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"</i>"
+          },
+          "burst": {
+            "name": "Hail to the Almighty Dragonlord",
+            "desc": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned <e:dendro>AoE Dendro DMG</e>. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned <e:dendro>AoE Dendro DMG</e>.\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.\n\n<i>\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "The Price of Desolation",
+            "desc": "When Kinich is in Nightsoul's Blessing state, opponents hit by his Elemental Skill will enter the Desolation state, and when affected by Burning or Burgeon reaction DMG, they will restore 7 Nightsoul points to him. Nightsoul points can be gained this way once every 0.8s. The Desolation state will persist until this instance of Kinich's Nightsoul's Blessing state ends."
+          },
+          {
+            "name": "Flame Spirit Pact",
+            "desc": "After a nearby party member triggers a Nightsoul Burst, Kinich will gain 1 stack of Hunter's Experience that lasts 15s. Max 2 stacks. When Kinich uses <k>Canopy Hunter: Riding High</k>'s Scalespiker Cannon, all stacks of Hunter's Experience will be consumed, with each stack consumed increasing the DMG dealt by this Cannon shot by 320% of Kinich's ATK."
+          },
+          {
+            "name": "Night Realm's Gift: Repaid in Full",
+            "desc": "When Kinich is in the air following <k>Canopy Hunter: Riding High</k>'s mid-air swing, he can consume 10 Phlogiston points to perform another mid-air swing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Kinich. When the current active character is sprinting, in movement states that result from specific Talents, or in the air, when you switch to Kinich: Kinich will perform one of the following actions depending on the conditions met:\n· When facing a Coilgrass Sigil that can be interacted with: He will fire a grappling hook towards it to move;\n· When there are nearby opponents and you are in combat: Kinich will use Canopy Hunter: Riding High in the direction of the opponents;\nOtherwise, Kinich will fire a grappling hook and swing, prioritizing valid Coilgrass Sigils as grapple targets.\nNightsoul Transmission can be triggered once every 10s by your own party.\n\nWhen interacting with Coilgrass Sigils and other items that Yumkasaurs can interact with, \"Canopy Hunter: Riding High\" will be converted to \"Yumkasaur Mimesis,\" which causes interactions with such items to follow rules applicable to Yumkasaurs, and which will not put Canopy Hunter: Riding High on CD."
+          },
+          {
+            "name": "Swift Envoy",
+            "desc": "While in an area with Phlogiston Mechanics within Natlan, interacting with some harvestable items will increase your own party members' Movement SPD by 15% for 10s. Additionally, the location of nearby <k>resources unique to Natlan</k> will appear on your mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Parrot's Beak",
+            "desc": "After Kinich lands from <k>Canopy Hunter: Riding High</k>'s mid-air swing, his Movement SPD will increase by 30% for 6s.\nAdditionally, Scalespiker Cannon's CRIT DMG is increased by 100%."
+          },
+          {
+            "level": 2,
+            "name": "Tiger Beetle's Palm",
+            "desc": "When Kinich's Elemental Skill hits an opponent, it will decrease their <e:dendro>Dendro RES</e> by 30% for 6s.\nAdditionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%."
+          },
+          {
+            "level": 3,
+            "name": "Protosuchian's Claw",
+            "desc": "Increases the Level of <k>Canopy Hunter: Riding High</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Hummingbird's Feather",
+            "desc": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s.\nAdditionally, <k>Hail to the Almighty Dragonlord</k> deals 70% more DMG."
+          },
+          {
+            "level": 5,
+            "name": "Howler Monkey's Tail",
+            "desc": "Increases the Level of <k>Hail to the Almighty Dragonlord</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Auspicious Beast's Shape",
+            "desc": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as <e:dendro>Dendro DMG</e>.\nIf this Scalespiker Cannon triggers the buffs that Ascension Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Style du soleil nocturne",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques consécutives.\nAprès avoir utilisé l'attaque de balancement de sa compétence élémentaire « Chasse canopéenne : En altitude », Kinich peut effectuer une attaque normale en l'air avant d'atterrir.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour faire tourner et lancer sa lame en avant afin d'attaquer les ennemis.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Chasse canopéenne : En altitude",
+            "desc": "Utilisant ses talents de chasseur de gros gibier, Kinich se déplace rapidement ou déclenche une attaque sur ses ennemis.\nLorsqu'un ennemi ou un élément pouvant être attaqué se trouve à proximité, Kinich y attache son grappin et entre dans l'état Bénédiction noctâme avec 0 pt de noctâme. Sinon, il tire son grappin en avant pour se balancer dans les airs et le TdR de la compétence diminue de 60 %.\nAvec un appui long, Kinich peut viser pour décider de la direction dans laquelle tirer son grappin.\n\n<k>Bénédiction noctâme : Kinich</k>\nLa bénédiction noctâme de Kinich dure 10 s et lui accorde 2 pts de noctâme toutes les secondes.\nDans cet état, Kinich accroche son grappin sur un ennemi proche et effectue une attaque variable :\n· Utiliser une attaque normale prend en compte la direction actuelle du déplacement pour déclencher un tir circulaire avec la cible accrochée comme centre, infligeant des <e:dendro>DGT Dendro</e> infusés de noctâme et créant 3 pts de noctâme. Les DGT infligés par le tir circulaire sont considérés comme des DGT de compétence élémentaire.\n· Lorsque ses points de noctâme sont au maximum, Kinich peut utiliser la compétence élémentaire « Canon à pointe d'écailles » : consomme tous les points de noctâme pour infliger des <e:dendro>DGT Dendro</e> infusés de noctâme. Un appui long pour déclencher son canon à pointe d'écailles permet à Kinich de viser une cible. Après avoir utilisé ce canon, Kinich tente de s'accrocher à la cible.\nPendant la bénédiction noctâme, Kinich génère une zone d'angle mort à proximité de l'ennemi après en avoir accroché un ou utilisé son canon à pointe d'écailles. La zone d'angle mort disparaît et crée 4 pts de noctâme lorsque Kinich entre à l'intérieur.\nSi le grappin se décroche à cause d'une trop grande distance ou d'une autre raison, utiliser une attaque normale accroche à nouveau le grappin sur un ennemi proche avant d'effectuer le tir circulaire.\n\n<i>« Tout a un coût. J'espère que vous pourrez proposer un prix adapté... Quoi ? Non, je ne fais pas de paiements en plusieurs fois. »</i>"
+          },
+          "burst": {
+            "name": "Louée soit Sa Majesté saurienne suprême",
+            "desc": "Libère la puissance de Sa Majesté saurienne suprême Ajaw (sur une base limitée, conditionnelle, restreinte, contractuelle, partielle, temporaire), infligeant des <e:dendro>DGT Dendro de zone</e> infusés de noctâme. Ajaw déclenche son souffle de dragon de façon régulière, infligeant des <e:dendro>DGT Dendro de zone</e> infusés de noctâme.\nSi Kinich bénéficie d'une bénédiction noctâme lors de l'utilisation, la durée de cette bénédiction est prolongée de 1,7 s.\n\n<i>« Et oui ! Vous vous tenez devant K'uhul Ajaw, Sa Majesté saurienne suprême ! Alors, avancez ! Agenouillez-vous et embrassez nos pieds ! »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Le prix de la désolation",
+            "desc": "Lorsque Kinich bénéficie d'une bénédiction noctâme, les ennemis qu'il touche avec des compétences élémentaires entrent dans l'état Désolation, accordant alors 7 pts de noctâme à Kinich lorsqu'ils subissent des DGT d'une réaction de Brûlure ou de Bourgeonnement. Des points de noctâme peuvent être accordés une fois toutes les 0,8 s de cette manière. L'état Désolation dure jusqu'à la fin de la bénédiction noctâme actuelle de Kinich."
+          },
+          {
+            "name": "Pacte de l'esprit enflammé",
+            "desc": "Lorsqu'un membre de l'équipe à proximité a déclenché une éruption noctâme, Kinich obtient un cumul d'expérience de chasse pendant 15 s, cet effet pouvant être cumulé 2 fois maximum. Lorsque Kinich utilise son canon à pointe d'écailles de <k>Chasse canopéenne : En altitude</k>, il consomme tous ses cumuls d'expérience de chasse, chaque cumul augmentant les DGT infligés par ce tir de canon d'une valeur équivalant à 320 % de l'ATQ de Kinich."
+          },
+          {
+            "name": "Don de la nuit : Remboursement total",
+            "desc": "Lorsque Kinich est en plein air après s'être balancé dans les airs en utilisant <k>Chasse canopéenne : En altitude</k>, il peut consommer 10 pts de phlogistique pour se balancer une nouvelle fois.\nDans une zone de Natlan avec des mécanismes phlogistiques, la transmission noctâme « Kinich » peut être utilisée. Lorsque le personnage déployé sprinte, est en plein mouvement provoqué par une aptitude particulière ou est dans les airs, le déploiement de Kinich lui permet d'effectuer l'une des actions suivantes selon les conditions remplies :\n· En face d'un sceau de bobherbe avec lequel il peut interagir, Kinich tire son grappin vers ce dernier pour se déplacer.\n· Si des ennemis sont à proximité et que vous êtes en combat, Kinich utilise Chasse canopéenne : En altitude en direction des ennemis.\nSinon, Kinich tire son grappin pour se balancer dans les airs en visant en priorité les sceaux de bobherbe appropriés.\nLa transmission noctâme peut être déclenchée une fois toutes les 10 s par votre équipe.\n\nLorsque Kinich interagit avec des sceaux de bobherbe ou d'autres éléments pouvant interagir avec les yumkasaures, la compétence « Chasse canopéenne : En altitude » est convertie en « Mimétisme yumkasaure ». En utilisant « Mimétisme yumkasaure » pour interagir avec ces éléments, leurs règles d'interaction suivent celles applicables aux yumkasaures et la compétence « Chasse canopéenne : En altitude » n'entre pas en TdR."
+          },
+          {
+            "name": "Envoyé rapide",
+            "desc": "Dans une zone de Natlan avec des mécanismes phlogistiques, interagir avec certains objets récoltables augmente la VIT de déplacement de vos personnages dans l'équipe de 15 % pendant 10 s. De plus, l'emplacement des <k>produits de Natlan</k> est affiché sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Bec de perroquet",
+            "desc": "Lorsque Kinich a atterri après s'être balancé dans les airs en utilisant <k>Chasse canopéenne : En altitude</k>, sa VIT de déplacement augmente de 30 % pendant 6 s.\nDe plus, les DGT CRIT du canon à pointe d'écailles augmentent de 100 %."
+          },
+          {
+            "level": 2,
+            "name": "Paume de coléoptère",
+            "desc": "Lorsque la compétence élémentaire de Kinich touche un ennemi, la <e:dendro>RÉS Dendro</e> de ce dernier diminue de 30 % pendant 6 s.\nDe plus, la zone d'effet du premier canon à pointe d'écailles que Kinich tire après être passé en bénédiction noctâme est améliorée et ses DGT augmentent de 100 %."
+          },
+          {
+            "level": 3,
+            "name": "Griffe du protosuchien",
+            "desc": "Niveau d'aptitude <k>Chasse canopéenne : En altitude</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Plume de colibri",
+            "desc": "Lorsque Kinich bénéficie d'une bénédiction noctâme, il récupère 5 pts d'énergie élémentaire après avoir effectué un tir circulaire ou utilisé son canon à pointe d'écailles. L'énergie élémentaire peut être restaurée une fois toutes les 2,8 s de cette manière.\nDe plus, les DGT infligés par <k>Louée soit Sa Majesté saurienne suprême</k> augmentent de 70 %."
+          },
+          {
+            "level": 5,
+            "name": "Queue d'alouate",
+            "desc": "Niveau d'aptitude <k>Louée soit Sa Majesté saurienne suprême</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Forme de bête augurale",
+            "desc": "Après avoir touché un ennemi, le canon à pointe d'écailles rebondit une fois entre les ennemis, infligeant des <e:dendro>DGT Dendro</e> d'une valeur équivalant à 700 % de l'ATQ de Kinich.\nSi ce canon à pointe d'écailles déclenche les améliorations que l'aptitude d'élévation « Pacte de l'esprit enflammé » ou la constellation « Paume de coléoptère » peuvent lui conférer, l'attaque rebondissante en bénéficie également."
+          }
+        ]
+      }
+    }
   }
 }

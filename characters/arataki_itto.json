@@ -182,5 +182,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000057",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Fight Club Legend",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\nWhen the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively.\nMax 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.\n\nAdditionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, \"Masatsu Zetsugi: Akaushi Burst!\"\n\n<k>Charged Attack</k>\nWhen holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash.\nIf no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Masatsu Zetsugi: Akaushi Burst!",
+            "desc": "Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing <e:geo>Geo DMG</e> to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of Superlative Superstrength.\n\nUshi will remain on the field and provide support in the following ways:\n· Taunts surrounding opponents and draws their attacks.\n· Inherits HP based on a percentage of Arataki Itto's Max HP.\n· When Ushi takes DMG, Arataki Itto gains 1 stack of Superlative Superstrength. Only 1 stack can be gained in this way every 2s.\n· Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of Superlative Superstrength when it leaves.\n\n<k>Hold</k>\nAdjust throwing angle.\n\nUshi is considered a <e:geo>Geo construct</e>. Arataki Itto can only deploy 1 Ushi on the field at any one time.\n\n<i>The name of this technique is derived from Onibudou (a light novel series written by Junkichi). However, calling it \"Onisatsu Zetsugi\" probably constitutes copyright infringement — not to mention how Itto himself is an oni and all...</i>"
+          },
+          "burst": {
+            "name": "Royal Descent: Behold, Itto the Evil!",
+            "desc": "Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle.\nThis state has the following special properties:\n· Converts Itto's Normal, Charged, and Plunging Attacks to <e:geo>Geo DMG</e>. This cannot be overridden.\n· Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.\n· On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of Superlative Superstrength.\n· Decreases Itto's Elemental and Physical RES by 20%.\n\nThe Raging Oni King state will be cleared when Itto leaves the field.\n\n<i>This is the pinnacle technique of the ultimate fighting style (according to Itto). It would be pointless for Arataki Itto to reference any other fighting styles to improve his own, for he, and no other, is the strongest, most terrible oni in the land.</i>\n<i>Shouta thinks it looks really cool.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Arataki Ichiban",
+            "desc": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n· Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n· Increases his resistance to interruption.\n\nThese effects will be cleared once he stops performing consecutive slashes."
+          },
+          {
+            "name": "Bloodline of the Crimson Oni",
+            "desc": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF."
+          },
+          {
+            "name": "Woodchuck Chucked",
+            "desc": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Stay a While and Listen Up",
+            "desc": "After using <k>Royal Descent: Behold, Itto the Evil!</k>, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s."
+          },
+          {
+            "level": 2,
+            "name": "Gather 'Round, It's a Brawl!",
+            "desc": "After using <k>Royal Descent: Behold, Itto the Evil!</k>, each party member whose Element is <e:geo>Geo</e> will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto.\nCD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner."
+          },
+          {
+            "level": 3,
+            "name": "Horns Lowered, Coming Through",
+            "desc": "Increases the Level of <k>Masatsu Zetsugi: Akaushi Burst!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Jailhouse Bread and Butter",
+            "desc": "When the Raging Oni King state caused by <k>Royal Descent: Behold, Itto the Evil!</k> ends, all nearby party members gain 20% DEF and 20% ATK for 10s."
+          },
+          {
+            "level": 5,
+            "name": "10 Years of Hanamizaka Fame",
+            "desc": "Increases the Level of <k>Royal Descent: Behold, Itto the Evil!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Arataki Itto, Present!",
+            "desc": "Arataki Itto's Charged Attacks deal +70% CRIT DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Légende de la baston",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\nLorsque son 2e et 4e coup touchent un ennemi, Itto obtient respectivement 1 et 2 cumuls de mégaforce superlative.\nItto peut détenir un maximum de 5 cumuls de mégaforce superlative, et chaque fois que cet effet se déclenche, la durée des cumuls en sa possession est réinitialisée.\n\nDe plus, l'enchaînement d'attaques normales d'Itto ne sera pas réinitialisé pendant une courte période après Zetsugi anti-démon : Catapultage d'akaushi ou l'initiation d'un sprint.\n\n<k>Attaque chargée</k>\nLorsque vous maintenez appuyé pour lancer une attaque chargée tout en possédant des cumuls de mégaforce superlative, vous pouvez effectuer des kesa giri d'Arataki sans consommer d'endurance. Chaque kesa giri consommera à la place un cumul de mégaforce superlative. Lorsque le dernier cumul de mégaforce est consommé, Itto libère une attaque finale très puissante.\nSi aucun cumul de mégaforce superlative n'est disponible, Itto consommera de l'endurance pour effectuer une simple entaille de Saichimonji.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Zetsugi anti-démon : Catapultage d'akaushi",
+            "desc": "Projette Ushi, le jeune taureau akaushi et membre auxiliaire du gang Arataki, pour infliger des <e:geo>DGT Géo</e> ! Lorsqu'Ushi touche un ennemi, il accorde à Arataki Itto 1 cumul de mégaforce superlative.\n\nUshi reste ensuite sur le terrain et apporte son aide des façons suivantes :\n· Il nargue les ennemis proches et attire leur attention.\n· Il hérite d'un pourcentage des PV max d'Arataki Itto.\n· Lorsqu'il subit des DGT, il accorde à Arataki Itto 1 cumul de mégaforce superlative. Un cumul peut être obtenu une fois toutes les 2 s de cette manière.\n· Si ses PV sont épuisés ou si la durée arrive à terme, il s'enfuit tout en accordant à Arataki Itto 1 cumul de mégaforce superlative.\n\n<k>Appui long</k>\nAjuste la direction du jet.\n\nUshi est considéré comme une <e:geo>construction Géo</e>, et Arataki Itto ne peut générer qu'un seul Ushi à la fois.\n\n<i>Le nom de cette technique est dérivé d'« Onibudo », un roman écrit par Junkichi. Cependant, l'appeler « Zetsugi anti-oni » constituerait probablement une violation de droits d'auteur... Sans parler du fait qu'Itto lui-même est un Oni...</i>"
+          },
+          "burst": {
+            "name": "Roi oni maléfique : Avènement d'Itto",
+            "desc": "Il est temps de montrer la puissance du gang Arataki ! Itto laisse émerger son roi oni courroucé intérieur pendant un certain temps, utilisant son kanabo de Roi oni au combat.\nLes caractéristiques suivantes s'appliquent :\n· Les attaques normales, chargées et plongeantes sont imprégnées de <e:geo>DGT Géo</e> ne pouvant pas être enchantés.\n· La VIT d'attaque des attaques normales d'Itto augmente, et son ATQ sera augmentée en fonction de sa DÉF.\n· Lorsque le 1er ou 3e coup de son attaque normale touche un ennemi, Arataki Itto obtient 1 cumul de mégaforce superlative.\n· Les RÉS élémentaires et physique d'Arataki Itto diminuent de 20 %.\n\nLes effets du roi oni courroucé prennent fin lorsque Arataki Itto quitte le champ de bataille.\n\n<i>C'est la meilleure super technique ultime d'Itto... Enfin, d'après lui... Il est inutile pour Arataki Itto d'imiter qui que ce soit d'autre pour devenir plus fort, car il est sans conteste l'Oni le plus fort et le plus terrible de tout le pays. En gros, Itto ne prend exemple que sur lui-même !</i>\n<i>Shouta trouve que c'est super cool.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Arataki au top",
+            "desc": "Lorsque Arataki Itto effectue une série de kesa giri d'Arataki, il obtient les effets suivants :\n· Chaque frappe augmente la VIT d'attaque de la prochaine de 10 %. La VIT d'attaque peut être augmentée d'un maximum de 30 % de cette manière.\n· Sa RÉS à l'interruption augmente.\n\nCes effets prennent fin lorsque Arataki Itto arrête d'utiliser cette série d'attaques."
+          },
+          {
+            "name": "Lignée de l'Oni cramoisi",
+            "desc": "Les DGT infligés par les kesa giri d'Arataki augmentent d'une valeur équivalant à 35 % de la DÉF d'Arataki Itto."
+          },
+          {
+            "name": "Castor au rapport",
+            "desc": "Lorsqu'un de vos personnages dans l'équipe utilise des attaques pour obtenir du bois d'un arbre, il a 25 % de chances d'obtenir un morceau de bois supplémentaire."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Du calme et on écoute !",
+            "desc": "Après avoir utilisé <k>Roi oni maléfique : Avènement d'Itto</k>, Arataki Itto obtient 2 cumuls de mégaforce superlative. Après 1 s, Itto obtient 1 cumul de mégaforce superlative toutes les 0,5 s pendant 1,5 s."
+          },
+          {
+            "level": 2,
+            "name": "Baston générale !",
+            "desc": "Après avoir utilisé <k>Roi oni maléfique : Avènement d'Itto</k>, chaque personnage de l'équipe de type <e:geo>Géo</e> permet de diminuer le TdR de cette aptitude de 1,5 s et de restaurer l'énergie élémentaire d'Arataki Itto de 6 pts.\nLe TdR peut être diminué d'un maximum de 4,5 s et l'énergie élémentaire peut être restaurée d'un maximum de 18 pts de cette manière."
+          },
+          {
+            "level": 3,
+            "name": "Le taureau par les cornes !",
+            "desc": "Niveau d'aptitude <k>Zetsugi anti-démon : Catapultage d'akaushi</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Au pain sec et à l'eau !",
+            "desc": "Lorsque l'état Roi oni courroucé accordé par <k>Roi oni maléfique : Avènement d'Itto</k> prend fin, la DÉF et l'ATQ de tous les personnages de l'équipe à proximité augmentent de 20 % pendant 10 s."
+          },
+          {
+            "level": 5,
+            "name": "Une décennie de renommée à Hanamizaka",
+            "desc": "Niveau d'aptitude <k>Roi oni maléfique : Avènement d'Itto</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Arataki Itto, présent !",
+            "desc": "Les DGT CRIT des attaques chargées d'Arataki Itto augmentent de 70 %. De plus, lorsqu'il utilise une série de kesa giri d'Arataki, il a 50 % de chances de ne pas consommer de mégaforce superlative."
+          }
+        ]
+      }
+    }
   }
 }

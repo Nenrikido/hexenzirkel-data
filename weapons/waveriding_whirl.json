@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14430",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A boomerang made from the fangs of a giant sea serpent. It was a rare weapon indeed that the giant Tupac would call \"trusty.\"",
+        "passive": {
+          "name": "Fangs Flying To and Fro",
+          "refinements": {
+            "1": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by <r>20%</r>. For every Hydro Elemental Type character in the party, Max HP is increased by another <r>12%</r>, and the maximum increase that can be achieved in this way is <r>24%</r>. Can be triggered once every 15s.",
+            "2": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by <r>25%</r>. For every Hydro Elemental Type character in the party, Max HP is increased by another <r>15%</r>, and the maximum increase that can be achieved in this way is <r>30%</r>. Can be triggered once every 15s.",
+            "3": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by <r>30%</r>. For every Hydro Elemental Type character in the party, Max HP is increased by another <r>18%</r>, and the maximum increase that can be achieved in this way is <r>36%</r>. Can be triggered once every 15s.",
+            "4": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by <r>35%</r>. For every Hydro Elemental Type character in the party, Max HP is increased by another <r>21%</r>, and the maximum increase that can be achieved in this way is <r>42%</r>. Can be triggered once every 15s.",
+            "5": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by <r>40%</r>. For every Hydro Elemental Type character in the party, Max HP is increased by another <r>24%</r>, and the maximum increase that can be achieved in this way is <r>48%</r>. Can be triggered once every 15s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un boomerang fabriqué à partir des crocs d'un serpent de mer géant. C'est une arme rare que le géant Tupac qualifierait de « fidèle ».",
+        "passive": {
+          "name": "Crocs à tout-va",
+          "refinements": {
+            "1": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>20 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>12 %</r> supplémentaires jusqu'à un maximum de <r>24 %</r>. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "2": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>25 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>15 %</r> supplémentaires jusqu'à un maximum de <r>30 %</r>. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "3": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>30 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>18 %</r> supplémentaires jusqu'à un maximum de <r>36 %</r>. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "4": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>35 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>21 %</r> supplémentaires jusqu'à un maximum de <r>42 %</r>. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "5": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>40 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>24 %</r> supplémentaires jusqu'à un maximum de <r>48 %</r>. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        }
+      }
+    }
   }
 }

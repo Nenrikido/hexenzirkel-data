@@ -8,5 +8,29 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10012",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Scholar",
+        "bonuses": {
+          "2": "Energy Recharge +20%",
+          "4": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."
+        }
+      },
+      "fr": {
+        "name": "Érudit",
+        "bonuses": {
+          "2": "Augmente la recharge d'énergie de 20 %.",
+          "4": "Les personnages armés d'un arc ou d'un catalyseur récupèrent 3 pts d'énergie supplémentaire à chaque fois qu'une particule ou un orbe élémentaires sont récupérés. Cet effet peut être déclenché une fois toutes les 3 s."
+        }
+      }
+    }
   }
 }

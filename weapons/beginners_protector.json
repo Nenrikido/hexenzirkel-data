@@ -12,5 +12,21 @@
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13101",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A polearm as straight as a flag pole. Well suited to most combat situations, it has an imposing presence when swung."
+      },
+      "fr": {
+        "flavor": "Une lance droite comme un mât, idéale en situation de combat. Elle dégage une présence imposante."
+      }
+    }
   }
 }

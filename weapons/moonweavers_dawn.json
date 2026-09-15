@@ -29,5 +29,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11434",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An immaculate, sharp silver sword that can slice through armor like moonlight flowing through the empty night. According to legend, it is a divine blade, blessed by the first Moonchanter herself.",
+        "passive": {
+          "name": "Secret Silver's Testament",
+          "refinements": {
+            "1": "Increases Elemental Burst DMG by <r>20%</r>. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional <r>16%/28%</r>.",
+            "2": "Increases Elemental Burst DMG by <r>25%</r>. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional <r>20%/35%</r>.",
+            "3": "Increases Elemental Burst DMG by <r>30%</r>. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional <r>24%/42%</r>.",
+            "4": "Increases Elemental Burst DMG by <r>35%</r>. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional <r>28%/49%</r>.",
+            "5": "Increases Elemental Burst DMG by <r>40%</r>. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional <r>32%/56%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée d'argent immaculée et tranchante, capable de transpercer une armure comme la lumière de la lune traversant la nuit. Selon la légende, il s'agit d'une lame divine, bénie par la première Émissaire de chantelune en personne.",
+        "passive": {
+          "name": "Testament d'argent secret",
+          "refinements": {
+            "1": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>20 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>16 % ou 28 %</r> supplémentaires.",
+            "2": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>25 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>20 % ou 35 %</r> supplémentaires.",
+            "3": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>30 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>24 % ou 42 %</r> supplémentaires.",
+            "4": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>35 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>28 % ou 49 %</r> supplémentaires.",
+            "5": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>40 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>32 % ou 56 %</r> supplémentaires."
+          }
+        }
+      }
+    }
   }
 }

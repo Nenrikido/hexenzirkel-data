@@ -40,5 +40,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15023",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Vermillion Hereafter",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+        }
+      },
+      "fr": {
+        "name": "Au-delà cinabrin",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Lorsqu'un personnage utilise un déchaînement élémentaire, il gagne l'effet Lumière latente pendant 16 s, augmentant son ATQ de 8 %, puis de 10 % supplémentaires à chaque fois que ses PV diminuent. Cette augmentation supplémentaire peut être cumulée 4 fois maximum et déclenchée une fois toutes les 0,8 s. L'effet Lumière latente cesse lorsque le personnage quitte le champ de bataille. Si le personnage utilise à nouveau son déchaînement élémentaire alors que la Lumière latente est en effet, l'effet original de Lumière latente est dissipé."
+        }
+      }
+    }
   }
 }

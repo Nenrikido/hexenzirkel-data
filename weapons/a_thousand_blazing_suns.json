@@ -39,5 +39,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "12514",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A greatsword that dazzles like the rising sun. It has witnessed the extinguishing and rekindling of innumerable suns.",
+        "passive": {
+          "name": "Sunset Reignites the Dawn",
+          "refinements": {
+            "1": "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by <r>20%</r> and ATK increased by <r>28%</r> for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off-field.",
+            "2": "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by <r>25%</r> and ATK increased by <r>35%</r> for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off-field.",
+            "3": "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by <r>30%</r> and ATK increased by <r>42%</r> for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off-field.",
+            "4": "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by <r>35%</r> and ATK increased by <r>49%</r> for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off-field.",
+            "5": "Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by <r>40%</r> and ATK increased by <r>56%</r> for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off-field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée à deux mains qui brille comme le soleil levant. Elle a été témoin de l'extinction et du retour d'innombrables soleils.",
+        "passive": {
+          "name": "Soleil ravivant l'aube",
+          "refinements": {
+            "1": "Utiliser une compétence ou un déchaînement élémentaire accorde l'effet Brillance braisée : augmente les DGT CRIT de <r>20 %</r> et l'ATQ de <r>28 %</r> pendant 6 s, ceci pouvant être déclenché une fois toutes les 10 s.\nPendant la brillance braisée, toute attaque normale ou chargée infligeant des DGT élémentaires prolonge la durée de 2 s, cela pouvant être déclenché une fois toutes les secondes et la durée pouvant être prolongée d'un maximum de 6 s de cette manière.\nDe plus, lorsque le personnage équipé de l'arme bénéficie d'une bénédiction noctâme, l'effet Brillance braisée augmente de 75 % et sa durée ne diminue pas lorsque le personnage équipé de l'arme n'est pas déployé.",
+            "2": "Utiliser une compétence ou un déchaînement élémentaire accorde l'effet Brillance braisée : augmente les DGT CRIT de <r>25 %</r> et l'ATQ de <r>35 %</r> pendant 6 s, ceci pouvant être déclenché une fois toutes les 10 s.\nPendant la brillance braisée, toute attaque normale ou chargée infligeant des DGT élémentaires prolonge la durée de 2 s, cela pouvant être déclenché une fois toutes les secondes et la durée pouvant être prolongée d'un maximum de 6 s de cette manière.\nDe plus, lorsque le personnage équipé de l'arme bénéficie d'une bénédiction noctâme, l'effet Brillance braisée augmente de 75 % et sa durée ne diminue pas lorsque le personnage équipé de l'arme n'est pas déployé.",
+            "3": "Utiliser une compétence ou un déchaînement élémentaire accorde l'effet Brillance braisée : augmente les DGT CRIT de <r>30 %</r> et l'ATQ de <r>42 %</r> pendant 6 s, ceci pouvant être déclenché une fois toutes les 10 s.\nPendant la brillance braisée, toute attaque normale ou chargée infligeant des DGT élémentaires prolonge la durée de 2 s, cela pouvant être déclenché une fois toutes les secondes et la durée pouvant être prolongée d'un maximum de 6 s de cette manière.\nDe plus, lorsque le personnage équipé de l'arme bénéficie d'une bénédiction noctâme, l'effet Brillance braisée augmente de 75 % et sa durée ne diminue pas lorsque le personnage équipé de l'arme n'est pas déployé.",
+            "4": "Utiliser une compétence ou un déchaînement élémentaire accorde l'effet Brillance braisée : augmente les DGT CRIT de <r>35 %</r> et l'ATQ de <r>49 %</r> pendant 6 s, ceci pouvant être déclenché une fois toutes les 10 s.\nPendant la brillance braisée, toute attaque normale ou chargée infligeant des DGT élémentaires prolonge la durée de 2 s, cela pouvant être déclenché une fois toutes les secondes et la durée pouvant être prolongée d'un maximum de 6 s de cette manière.\nDe plus, lorsque le personnage équipé de l'arme bénéficie d'une bénédiction noctâme, l'effet Brillance braisée augmente de 75 % et sa durée ne diminue pas lorsque le personnage équipé de l'arme n'est pas déployé.",
+            "5": "Utiliser une compétence ou un déchaînement élémentaire accorde l'effet Brillance braisée : augmente les DGT CRIT de <r>40 %</r> et l'ATQ de <r>56 %</r> pendant 6 s, ceci pouvant être déclenché une fois toutes les 10 s.\nPendant la brillance braisée, toute attaque normale ou chargée infligeant des DGT élémentaires prolonge la durée de 2 s, cela pouvant être déclenché une fois toutes les secondes et la durée pouvant être prolongée d'un maximum de 6 s de cette manière.\nDe plus, lorsque le personnage équipé de l'arme bénéficie d'une bénédiction noctâme, l'effet Brillance braisée augmente de 75 % et sa durée ne diminue pas lorsque le personnage équipé de l'arme n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

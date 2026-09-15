@@ -33,5 +33,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "13405",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men.",
+        "passive": {
+          "name": "Gladiator",
+          "refinements": {
+            "1": "If there are at least 2 opponents nearby, ATK is increased by <r>16%</r> and DEF is increased by <r>16%</r>. If there are fewer than 2 opponents nearby, ATK is increased by <r>24%</r>.",
+            "2": "If there are at least 2 opponents nearby, ATK is increased by <r>20%</r> and DEF is increased by <r>20%</r>. If there are fewer than 2 opponents nearby, ATK is increased by <r>30%</r>.",
+            "3": "If there are at least 2 opponents nearby, ATK is increased by <r>24%</r> and DEF is increased by <r>24%</r>. If there are fewer than 2 opponents nearby, ATK is increased by <r>36%</r>.",
+            "4": "If there are at least 2 opponents nearby, ATK is increased by <r>28%</r> and DEF is increased by <r>28%</r>. If there are fewer than 2 opponents nearby, ATK is increased by <r>42%</r>.",
+            "5": "If there are at least 2 opponents nearby, ATK is increased by <r>32%</r> and DEF is increased by <r>32%</r>. If there are fewer than 2 opponents nearby, ATK is increased by <r>48%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lance rouge tranchante qui fut autrefois l'arme chérie d'un gladiateur. Le sang d'innombrables ennemis, hommes et bêtes, a teinté sa lame.",
+        "passive": {
+          "name": "Gladiateur",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>16 %</r> et la DÉF de <r>16 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>24 %</r> dans le cas contraire.",
+            "2": "Augmente l'ATQ de <r>20 %</r> et la DÉF de <r>20 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>30 %</r> dans le cas contraire.",
+            "3": "Augmente l'ATQ de <r>24 %</r> et la DÉF de <r>24 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>36 %</r> dans le cas contraire.",
+            "4": "Augmente l'ATQ de <r>28 %</r> et la DÉF de <r>28 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>42 %</r> dans le cas contraire.",
+            "5": "Augmente l'ATQ de <r>32 %</r> et la DÉF de <r>32 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>48 %</r> dans le cas contraire."
+          }
+        }
+      }
+    }
   }
 }

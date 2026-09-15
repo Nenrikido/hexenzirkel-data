@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11408",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sword made of a material known as \"blackcliff.\" It has a dark crimson glow on its black blade.",
+        "passive": {
+          "name": "Press the Advantage",
+          "refinements": {
+            "1": "After defeating an opponent, ATK is increased by <r>12%</r> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+            "2": "After defeating an opponent, ATK is increased by <r>15%</r> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+            "3": "After defeating an opponent, ATK is increased by <r>18%</r> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+            "4": "After defeating an opponent, ATK is increased by <r>21%</r> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+            "5": "After defeating an opponent, ATK is increased by <r>24%</r> for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée fabriquée en roche noire. Sa sombre lame brille d'une lueur rouge.",
+        "passive": {
+          "name": "De victoire en victoire",
+          "refinements": {
+            "1": "Augmente l'ATQ de <r>12 %</r> pendant 30 s après avoir vaincu un ennemi. Cet effet peut être cumulé 3 fois maximum et la durée de chaque cumul peut varier.",
+            "2": "Augmente l'ATQ de <r>15 %</r> pendant 30 s après avoir vaincu un ennemi. Cet effet peut être cumulé 3 fois maximum et la durée de chaque cumul peut varier.",
+            "3": "Augmente l'ATQ de <r>18 %</r> pendant 30 s après avoir vaincu un ennemi. Cet effet peut être cumulé 3 fois maximum et la durée de chaque cumul peut varier.",
+            "4": "Augmente l'ATQ de <r>21 %</r> pendant 30 s après avoir vaincu un ennemi. Cet effet peut être cumulé 3 fois maximum et la durée de chaque cumul peut varier.",
+            "5": "Augmente l'ATQ de <r>24 %</r> pendant 30 s après avoir vaincu un ennemi. Cet effet peut être cumulé 3 fois maximum et la durée de chaque cumul peut varier."
+          }
+        }
+      }
+    }
   }
 }

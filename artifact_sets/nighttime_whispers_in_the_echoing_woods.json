@@ -19,5 +19,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15034",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Nighttime Whispers in the Echoing Woods",
+        "bonuses": {
+          "2": "ATK +18%.",
+          "4": "After using an Elemental Skill, gain a 20% <e:geo>Geo</e> DMG Bonus for 10s. When under a shield granted by the Crystallize reaction, or when Moondrifts formed by Lunar-Crystallize reactions are nearby, the above effect is increased by 150%. When these conditions are no longer met, this additional increase disappears after 1s."
+        }
+      },
+      "fr": {
+        "name": "Murmure nocturne en forêt d'échos",
+        "bonuses": {
+          "2": "Augmente l'ATQ de 18 %.",
+          "4": "Après l'utilisation d'une compétence élémentaire, le bonus de DGT <e:geo>Géo</e> augmente de 20 % pendant 10 s. Sous la protection d'un bouclier généré par une réaction de Cristallisation, ou s'il existe un voile lunaire créé par une réaction de Sélénocristallisation à proximité, cet effet augmente de 150 %, cette augmentation supplémentaire disparaissant 1 s après que ces conditions ne sont pas remplies."
+        }
+      }
+    }
   }
 }

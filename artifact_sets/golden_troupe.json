@@ -18,5 +18,29 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "15032",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "name": "Golden Troupe",
+        "bonuses": {
+          "2": "Increases Elemental Skill DMG by 20%.",
+          "4": "Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."
+        }
+      },
+      "fr": {
+        "name": "Troupe dorée",
+        "bonuses": {
+          "2": "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
+          "4": "Les DGT infligés par les compétences élémentaires augmentent de 25 %. De plus, lorsque le personnage fait partie de l'équipe mais n'est pas déployé, les DGT infligés par ses compétences élémentaires augmentent de 25 % supplémentaires, cet effet prenant fin 2 s après le déploiement du personnage."
+        }
+      }
+    }
   }
 }

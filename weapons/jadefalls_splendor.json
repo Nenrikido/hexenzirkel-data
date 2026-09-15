@@ -30,5 +30,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14505",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A ritual vessel carved from jade that reflects the luster of the skies and the clear waters.",
+        "passive": {
+          "name": "Primordial Jade Regalia",
+          "refinements": {
+            "1": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <r>4.5</r> Energy every 2.5s, and gain <r>0.3%</r> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <r>12%</r>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
+            "2": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <r>5</r> Energy every 2.5s, and gain <r>0.5%</r> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <r>20%</r>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
+            "3": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <r>5.5</r> Energy every 2.5s, and gain <r>0.7%</r> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <r>28%</r>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
+            "4": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <r>6</r> Energy every 2.5s, and gain <r>0.9%</r> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <r>36%</r>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
+            "5": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore <r>6.5</r> Energy every 2.5s, and gain <r>1.1%</r> Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to <r>44%</r>. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un objet rituel sculpté dans du jade qui reflète l'éclat des cieux et des eaux claires.",
+        "passive": {
+          "name": "Tablette de jade primordial",
+          "refinements": {
+            "1": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>4,5</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>0,3 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>12 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "2": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>5</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>0,5 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>20 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "3": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>5,5</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>0,7 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>28 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "4": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>6</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>0,9 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>36 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "5": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>6,5</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>1,1 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>44 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      }
+    }
   }
 }

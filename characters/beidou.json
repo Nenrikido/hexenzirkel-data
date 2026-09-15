@@ -223,5 +223,147 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000024",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Oceanborne",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 5 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Tidecaller",
+            "desc": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n<k>Press</k>\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <e:electro>Electro DMG</e>.\n\n<k>Hold</k>\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <e:electro>Electro DMG</e>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n· Has 250% <e:electro>Electro DMG</e> Absorption Efficiency.\n· Applies the <e:electro>Electro element</e> to Beidou upon activation.\n\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>"
+          },
+          "burst": {
+            "name": "Stormbreaker",
+            "desc": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <e:electro>Electro DMG</e> to nearby opponents.\n\n<k>Thunderbeast's Targe</k>\n· When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <e:electro>Electro DMG</e>.\n· Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.\n\n<i>With a peal of thunder, Haishan is slain.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Retribution",
+            "desc": "Counterattacking with <k>Tidecaller</k> at the precise moment when the character is hit grants the maximum DMG Bonus."
+          },
+          {
+            "name": "Lightning Storm",
+            "desc": "Gain the following effects for 10s after unleashing <k>Tidecaller</k> with its maximum DMG Bonus:\n· DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n· Greatly reduced delay before unleashing Charged Attacks."
+          },
+          {
+            "name": "Conqueror of Tides",
+            "desc": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+          },
+          {
+            "name": "Polaris",
+            "desc": "When holding down on the Elemental Skill <k>Tidecaller</k>, 1 stack of power will accumulate every 0.8s, even when not under attack. This increases the DMG dealt at the point of unleashing.\nAdditionally, holding down to unleash <k>Tidecaller</k> and hitting the opponent also gives extra boosts based on the power accumulated: every stack active decreases Beidou's Elemental Skill CD by 4s, as well as regenerates 8 Elemental Energy for her. This effect can trigger once every 15s.\nAdditionally, when inside a <k>Polestar Field</k>, Beidou will enter the <k>Radiance: Stellar-Conduct</k> state."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sea Beast's Scourge",
+            "desc": "When <k>Stormbreaker</k> is used:\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\nThis shield absorbs <e:electro>Electro DMG</e> 250% more effectively."
+          },
+          {
+            "level": 2,
+            "name": "Upon the Turbulent Sea, the Thunder Arises",
+            "desc": "<k>Stormbreaker</k>'s arc lightning can jump to 2 additional targets."
+          },
+          {
+            "level": 3,
+            "name": "Summoner of Storm",
+            "desc": "Increases the Level of <k>Tidecaller</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Stunning Revenge",
+            "desc": "Upon being attacked, Beidou's Normal Attacks gain an additional instance of 20% <e:electro>Electro DMG</e> for 10s."
+          },
+          {
+            "level": 5,
+            "name": "Crimson Tidewalker",
+            "desc": "Increases the Level of <k>Stormbreaker</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Bane of Evil",
+            "desc": "While <k>Stormbreaker</k> is active, nearby opponents' <e:electro>Electro RES</e> is reduced by 15%.\n\n<k>Radiance: Stellar-Conduct</k>: The <e:cryo>Cryo RES</e> of nearby opponents is decreased by 15%, and the Elemental Mastery of the current active character is increased by 200, while Stormbreaker is active."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Conquête des mers",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 5 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'entailles aussi rapides que tranchantes.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Invocation des marées",
+            "desc": "N'ayez crainte. Que quelqu'un ose s'en prendre à Beidou ou aux siens, et sa lame et le tonnerre lui feront payer au centuple.\n\n<k>Appui simple</k>\nBeidou concentre le pouvoir de la foudre sur son épée, et exécute un coup violent qui inflige aux ennemis en face des <e:electro>DGT Électro</e>.\n\n<k>Appui long</k>\nBeidou brandit son arme, qu'elle utilise comme bouclier. La quantité de DGT absorbés est proportionnelle aux PV max de Beidou.\nLorsque vous relâchez la compétence ou que celle-ci prend fin, Beidou brandit sa longue épée et effectue une contre-attaque libérant toute l'énergie accumulée, infligeant des <e:electro>DGT Électro</e>.\nLes DGT infligés augmentent en fonction du nombre d'attaques subies par Beidou pendant la durée de la compétence. Le bonus de DGT maximum est atteint lorsque l'effet est déclenché deux fois.\nLe bouclier a les propriétés suivantes :\n· A 250 % d'efficacité contre les <e:electro>DGT Électro</e>.\n· Applique l'<e:electro>élément Électro</e> à Beidou à l'activation.\n\n<i>À l'assaut des mers ! À la poursuite des vagues et de la tempête !</i>"
+          },
+          "burst": {
+            "name": "Brisure d'orage",
+            "desc": "Se remémorant son combat contre Haishan, la bête géante, Beidou fait appel à la même force destructrice, et crée un bouclier de foudre qui inflige des <e:electro>DGT Électro</e> aux ennemis proches.\n\n<k>Bouclier de foudre</k>\n· Les attaques normales et chargées, lorsqu'elles touchent, libèrent une décharge électrique qui se propage d'ennemi en ennemi et inflige des <e:electro>DGT Électro</e>.\n· Augmente la RÉS à l'interruption du personnage et diminue les DGT subis.\n\nUne décharge peut être libérée une fois toutes les secondes.\n\n<i>Le plus puissant des éclairs peut fendre mers et montagnes.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Châtiment",
+            "desc": "La contre-attaque d'<k>Invocation des marées</k> inflige le maximum de DGT lorsqu'elle est exécutée juste après une attaque."
+          },
+          {
+            "name": "Tempête de coups de tonnerre",
+            "desc": "<k>Invocation des marées</k> confère pendant 10 s les effets suivants lorsque cette aptitude est exécutée avec le maximum de bonus de DGT :\n· Les attaques normales et chargées infligent 15 % de DGT supplémentaires.\n· La VIT des attaques normales et chargées augmente de 15 %.\n· Diminue considérablement le temps de préparation des attaques chargées."
+          },
+          {
+            "name": "Braveuse de marée",
+            "desc": "Diminue la consommation d'endurance de vos personnages dans l'équipe de 20 % lors de la nage.\nNe peut pas être cumulé avec d'autres aptitudes passives aux effets identiques."
+          },
+          {
+            "name": "En tête d'affiche",
+            "desc": "Utiliser la compétence élémentaire <k>Invocation des marées</k> avec un appui long permet d'obtenir 1 cumul de puissance toutes les 0,8 s, même hors attaque, afin d'augmenter les DGT infligés lors du déclenchement.\nDe plus, toucher un ennemi en utilisant la compétence élémentaire <k>Invocation des marées</k> avec un appui long accorde également un effet bonus supplémentaire selon la puissance cumulée : chaque cumul diminue le TdR de la compétence élémentaire de 4 s et restaure 8 pts d'énergie élémentaire à Beidou, cet effet pouvant être déclenché une fois toutes les 15 s.\nDe plus, Beidou passe en <k>radiance « Astroconduction »</k> lorsqu'elle est dans une <k>étendue polaris</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Fléau des monstres marins",
+            "desc": "L'activation de <k>Brisure d'orage</k> confère les effets suivants :\nGénère un bouclier qui absorbe une quantité de DGT équivalant à 16 % des PV max et dure 15 s.\nLe bouclier est efficace à 250 % contre les <e:electro>DGT Électro</e>."
+          },
+          {
+            "level": 2,
+            "name": "Sur la mer turbulente, le tonnerre gronde",
+            "desc": "Les décharges de <k>Brisure d'orage</k> se propagent à 2 ennemis supplémentaires."
+          },
+          {
+            "level": 3,
+            "name": "Invocateur de tonnerre",
+            "desc": "Niveau d'aptitude <k>Invocation des marées</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Vengeance étonnante",
+            "desc": "Après avoir subi une attaque, les attaques normales de Beidou infligent 20 % de <e:electro>DGT Électro</e> supplémentaires pendant 10 s."
+          },
+          {
+            "level": 5,
+            "name": "Marcheur de marée écarlate",
+            "desc": "Niveau d'aptitude <k>Brisure d'orage</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Chancre du mal",
+            "desc": "La <e:electro>RÉS Électro</e> des ennemis proches diminue de 15 % tant que <k>Brisure d'orage</k> est actif.\n\n<k>Radiance « Astroconduction »</k> : La <e:cryo>RÉS Cryo</e> des ennemis proches diminue de 15 % pendant la durée de Brisure d'orage et la maîtrise élémentaire du personnage déployé augmente de 200 pts."
+          }
+        ]
+      }
+    }
   }
 }

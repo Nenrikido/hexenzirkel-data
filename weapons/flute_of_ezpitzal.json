@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11431",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A peculiarly shaped jade longsword that has been passed down amongst the Masters of the Night-Wind as a \"priestly flute.\"",
+        "passive": {
+          "name": "Smoke-and-Mirror Mystery",
+          "refinements": {
+            "1": "Using an Elemental Skill increases DEF by <r>16%</r> for 15s.",
+            "2": "Using an Elemental Skill increases DEF by <r>20%</r> for 15s.",
+            "3": "Using an Elemental Skill increases DEF by <r>24%</r> for 15s.",
+            "4": "Using an Elemental Skill increases DEF by <r>28%</r> for 15s.",
+            "5": "Using an Elemental Skill increases DEF by <r>32%</r> for 15s."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée longue en jade de forme particulière qui a été transmise parmi les Maîtres du vent nocturne comme une « flûte sacerdotale ».",
+        "passive": {
+          "name": "Mystère d'écran de fumée",
+          "refinements": {
+            "1": "Augmente la DÉF de <r>16 %</r> pendant 15 s après l'utilisation d'une compétence élémentaire.",
+            "2": "Augmente la DÉF de <r>20 %</r> pendant 15 s après l'utilisation d'une compétence élémentaire.",
+            "3": "Augmente la DÉF de <r>24 %</r> pendant 15 s après l'utilisation d'une compétence élémentaire.",
+            "4": "Augmente la DÉF de <r>28 %</r> pendant 15 s après l'utilisation d'une compétence élémentaire.",
+            "5": "Augmente la DÉF de <r>32 %</r> pendant 15 s après l'utilisation d'une compétence élémentaire."
+          }
+        }
+      }
+    }
   }
 }

@@ -29,5 +29,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11432",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A ceremonial blade forged by Sanhaj, the great high priest of the Masters of the Night-Wind. In tales of bygone days, Sanhaj could use this curved blade to perform rituals, blurring the boundary between the Night Kingdom and the present world.",
+        "passive": {
+          "name": "Diffusing Boundary",
+          "refinements": {
+            "1": "While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by <r>20%</r>, and Normal and Charged Attack CRIT Rate is increased by <r>8%</r>.",
+            "2": "While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by <r>25%</r>, and Normal and Charged Attack CRIT Rate is increased by <r>10%</r>.",
+            "3": "While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by <r>30%</r>, and Normal and Charged Attack CRIT Rate is increased by <r>12%</r>.",
+            "4": "While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by <r>35%</r>, and Normal and Charged Attack CRIT Rate is increased by <r>14%</r>.",
+            "5": "While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by <r>40%</r>, and Normal and Charged Attack CRIT Rate is increased by <r>16%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une lame cérémonielle forgée par Sanhaj, le grand prêtre des Maîtres du vent nocturne. Dans les contes d'autrefois, Sanhaj pouvait utiliser cette lame courbée pour accomplir des rituels, brouillant ainsi la frontière entre le Fief nocturne et le monde actuel.",
+        "passive": {
+          "name": "Frontière diffuse",
+          "refinements": {
+            "1": "Lorsque le personnage est sous la protection d'un bouclier, les DGT infligés par les attaques normales et chargées augmentent de <r>20 %</r> et leur taux CRIT de <r>8 %</r>.",
+            "2": "Lorsque le personnage est sous la protection d'un bouclier, les DGT infligés par les attaques normales et chargées augmentent de <r>25 %</r> et leur taux CRIT de <r>10 %</r>.",
+            "3": "Lorsque le personnage est sous la protection d'un bouclier, les DGT infligés par les attaques normales et chargées augmentent de <r>30 %</r> et leur taux CRIT de <r>12 %</r>.",
+            "4": "Lorsque le personnage est sous la protection d'un bouclier, les DGT infligés par les attaques normales et chargées augmentent de <r>35 %</r> et leur taux CRIT de <r>14 %</r>.",
+            "5": "Lorsque le personnage est sous la protection d'un bouclier, les DGT infligés par les attaques normales et chargées augmentent de <r>40 %</r> et leur taux CRIT de <r>16 %</r>."
+          }
+        }
+      }
+    }
   }
 }

@@ -357,5 +357,139 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000016",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Tempered Sword",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 consecutive strikes.\n\n<k>Charged Attack</k>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Searing Onslaught",
+            "desc": "Performs a forward slash that deals <e:pyro>Pyro DMG</e>.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>"
+          },
+          "burst": {
+            "name": "Dawn",
+            "desc": "Releases intense flames to knock back nearby opponents, dealing <e:pyro>Pyro DMG</e>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <e:pyro>Pyro DMG</e> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <e:pyro>AoE Pyro DMG</e>.\nThe searing flames that run down his blade cause it to be infused with <e:pyro>Pyro</e>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Relentless",
+            "desc": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+          },
+          {
+            "name": "Blessing of Phoenix",
+            "desc": "The <e:pyro>Pyro Infusion</e> provided by <k>Dawn</k> lasts for 4s longer. Additionally, Diluc gains 20% <e:pyro>Pyro DMG Bonus</e> during the duration of this effect."
+          },
+          {
+            "name": "Tradition of the Dawn Knight",
+            "desc": "Refunds 15% of the ore used when crafting Claymore-type weapons."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Conviction",
+            "desc": "Diluc deals 15% more DMG to opponents whose HP is above 50%."
+          },
+          {
+            "level": 2,
+            "name": "Searing Ember",
+            "desc": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s."
+          },
+          {
+            "level": 3,
+            "name": "Fire and Steel",
+            "desc": "Increases the Level of <k>Searing Onslaught</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Flowing Flame",
+            "desc": "Casting <k>Searing Onslaught</k> in rhythm greatly increases damage dealt.\n2s after casting <k>Searing Onslaught</k>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
+          },
+          {
+            "level": 5,
+            "name": "Phoenix, Harbinger of Dawn",
+            "desc": "Increases the Level of <k>Dawn</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Flaming Sword, Nemesis of the Dark",
+            "desc": "After casting <k>Searing Onslaught</k>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Épée trempée",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance de façon continue pour exécuter une succession d'entailles aussi rapides que tranchantes.\nL'attaque chargée se termine sur un coup puissant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Assaut brûlant",
+            "desc": "Diluc fait tournoyer sa lourde épée vers l'avant, infligeant des <e:pyro>DGT Pyro</e>.\nCette attaque peut être enchaînée 3 fois de suite.\nElle entre en TdR si l'enchaînement n'est pas assez rapide.\n\n<i>Chacune de ces attaques représente les valeurs chères à Diluc : justice, courage et responsabilité.</i>"
+          },
+          "burst": {
+            "name": "Aurore",
+            "desc": "Diluc érupte en une explosion de flammes qui repoussent les ennemis et leur infligent des <e:pyro>DGT Pyro</e>. Les flammes convergent ensuite sur son arme, pour renaître en un phénix qui inflige d'importants <e:pyro>DGT Pyro</e> et repousse les ennemis sur sa route. Le phénix explose lorsqu'il atteint sa destination et inflige d'importants <e:pyro>DGT Pyro de zone</e>.\nLes flammes confèrent à l'arme de Diluc un <e:pyro>enchantement Pyro</e>.\n\n<i>Celui qui apporte la lumière doit marcher dans les ténèbres. Les flammes au loin ne sont que le prélude de l'aube à venir.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Impitoyable",
+            "desc": "Les attaques chargées de Diluc consomment 50 % d'endurance en moins, et durent 3 s de plus."
+          },
+          {
+            "name": "Bénédiction du phénix",
+            "desc": "Prolonge l'<e:pyro>enchantement Pyro</e> d'<k>Aurore</k> de 4 s. Diluc inflige 20 % de <e:pyro>DGT Pyro</e> supplémentaires pendant la durée de cet effet."
+          },
+          {
+            "name": "Légende de l'aurore",
+            "desc": "Lorsque vous forgez une épée à deux mains, 15 % du minerai utilisé vous sera rendu."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Conviction",
+            "desc": "Diluc inflige 15 % de DGT supplémentaires aux ennemis dont les PV sont supérieurs à 50 %."
+          },
+          {
+            "level": 2,
+            "name": "Chaleur des cendres",
+            "desc": "L'ATQ de Diluc augmente de 10 % et sa VIT d'attaque de 5 % pendant 10 s lorsqu'il subit des DGT.\nCet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 1,5 s."
+          },
+          {
+            "level": 3,
+            "name": "Feu et acier",
+            "desc": "Niveau d'aptitude <k>Assaut brûlant</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Flamme courante",
+            "desc": "Exécuter <k>Assaut brûlant</k> en rythme augmente considérablement les DGT infligés.\n2 s après le lancement d'<k>Assaut brûlant</k>, les DGT du prochain Assaut brûlant sont augmentés de 40 % pendant 2 s."
+          },
+          {
+            "level": 5,
+            "name": "Phénix, Messager de l'Aube",
+            "desc": "Niveau d'aptitude <k>Aurore</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "L'épée des flammes brise-nuit",
+            "desc": "Confère aux 2 attaques normales dans les 6 s suivant le lancement d'<k>Assaut brûlant</k> un bonus de 30 % de DGT et de VIT d'attaque normale.\nDe plus, Assaut brûlant n'interrompt plus les enchaînements d'attaques normales."
+          }
+        ]
+      }
+    }
   }
 }

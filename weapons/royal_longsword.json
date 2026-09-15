@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11404",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "An old longsword that belonged to the erstwhile rulers of Mondstadt. Exquisitely crafted, the carvings and embellishments testify to the stature of its owner.",
+        "passive": {
+          "name": "Focus",
+          "refinements": {
+            "1": "Upon damaging an opponent, increases CRIT Rate by <r>8%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "2": "Upon damaging an opponent, increases CRIT Rate by <r>10%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "3": "Upon damaging an opponent, increases CRIT Rate by <r>12%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "4": "Upon damaging an opponent, increases CRIT Rate by <r>14%</r>. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "5": "Upon damaging an opponent, increases CRIT Rate by <r>16%</r>. Max 5 stacks. A CRIT Hit removes all stacks."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée longue assez ancienne qui appartenait jadis aux dirigeants de Mondstadt. Sa lame est d'une excellente facture et ses ornements sont révélateurs du statut social de son propriétaire.",
+        "passive": {
+          "name": "Focus",
+          "refinements": {
+            "1": "Augmente le taux CRIT de <r>8 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "2": "Augmente le taux CRIT de <r>10 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "3": "Augmente le taux CRIT de <r>12 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "4": "Augmente le taux CRIT de <r>14 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "5": "Augmente le taux CRIT de <r>16 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+          }
+        }
+      }
+    }
   }
 }

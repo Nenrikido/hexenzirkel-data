@@ -23,5 +23,41 @@
         }
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11417",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A weapon you obtained from an Aranara tale. It has taken on the shape of a blade that can cut down the foes of the forest.",
+        "passive": {
+          "name": "Forest Sanctuary",
+          "refinements": {
+            "1": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>60</r> Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+            "2": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>75</r> Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+            "3": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>90</r> Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+            "4": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>105</r> Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+            "5": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character <r>120</r> Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une arme que vous avez obtenue dans un conte d'aranara. Elle a pris la forme d'une lame qui peut terrasser les ennemis de la forêt.",
+        "passive": {
+          "name": "Sanctuaire sylvestre",
+          "refinements": {
+            "1": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de conscience est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente la maîtrise élémentaire du personnage de <r>60</r> pts pendant 12 s. Une feuille de conscience peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. L'effet de la feuille de conscience ne se cumule pas.",
+            "2": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de conscience est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente la maîtrise élémentaire du personnage de <r>75</r> pts pendant 12 s. Une feuille de conscience peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. L'effet de la feuille de conscience ne se cumule pas.",
+            "3": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de conscience est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente la maîtrise élémentaire du personnage de <r>90</r> pts pendant 12 s. Une feuille de conscience peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. L'effet de la feuille de conscience ne se cumule pas.",
+            "4": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de conscience est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente la maîtrise élémentaire du personnage de <r>105</r> pts pendant 12 s. Une feuille de conscience peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. L'effet de la feuille de conscience ne se cumule pas.",
+            "5": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, de Sélénofleurissement, d'Exubérance ou de Bourgeonnement, une feuille de conscience est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente la maîtrise élémentaire du personnage de <r>120</r> pts pendant 12 s. Une feuille de conscience peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. L'effet de la feuille de conscience ne se cumule pas."
+          }
+        }
+      }
+    }
   }
 }

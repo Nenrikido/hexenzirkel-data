@@ -153,5 +153,139 @@
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000027",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Sparkling Scatter",
+            "desc": "<k>Normal Attack</k>\nShoots gems that deal <e:geo>Geo DMG</e>.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n<k>Charged Attack</k>\nConsumes a certain amount of stamina to fire off a giant gem that deals <e:geo>Geo DMG</e>.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n<k>Plunging Attack</k>\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <e:geo>AoE Geo DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Jade Screen",
+            "desc": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing <e:geo>AoE Geo DMG</e>.\n\n<k>Jade Screen</k>\n· Blocks opponents' projectiles.\n· Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a <e:geo>Geo Construct</e> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n<i>The canvas of stars is written upon this jade screen.</i>"
+          },
+          "burst": {
+            "name": "Starshatter",
+            "desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <e:geo>Geo DMG</e>.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n<i>Stars shatter. Silence falls.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Backup Plan",
+            "desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
+          },
+          {
+            "name": "Strategic Reserve",
+            "desc": "A character that passes through the <k>Jade Screen</k> will gain a 12% <e:geo>Geo DMG Bonus</e> for 10s."
+          },
+          {
+            "name": "Trove of Marvelous Treasures",
+            "desc": "Displays the location of nearby <k>ore veins used in forging</k> on the mini-map."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Piercing Fragments",
+            "desc": "When a Normal Attack hits, it deals AoE DMG."
+          },
+          {
+            "level": 2,
+            "name": "Shock Effect",
+            "desc": "When <k>Jade Screen</k> is shattered, its CD will reset.\nCan occur once every 6s."
+          },
+          {
+            "level": 3,
+            "name": "Majesty Be the Array of Stars",
+            "desc": "Increases the Level of <k>Starshatter</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Exquisite be the Jade, Outshining All Beneath",
+            "desc": "<k>Jade Screen</k> increases nearby characters' Elemental RES by 10%."
+          },
+          {
+            "level": 5,
+            "name": "Invincible Be the Jade Screen",
+            "desc": "Increases the Level of <k>Jade Screen</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Grandeur Be the Seven Stars",
+            "desc": "When <k>Starshatter</k> is used, Ningguang gains 7 Star Jades."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Géo-dispersion",
+            "desc": "<k>Attaque normale</k>\nTire des gemmes qui infligent des <e:geo>DGT Géo</e>.\nNingguang obtient un Jade d'étoile à chaque fois qu'une gemme touche un ennemi.\n\n<k>Attaque chargée</k>\nTire une gemme géante qui inflige des <e:geo>DGT Géo</e>.\nSi Ningguang a obtenu des Jades d'étoile, l'attaque chargée les tire tous au même moment, infligeant des DGT supplémentaires.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs en concentrant ses pouvoirs Géo, infligeant des DGT aux ennemis en chemin et des <e:geo>DGT Géo de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Paravent d'astrolabe",
+            "desc": "Ningguang puise dans son opulence pour créer un paravent d'or et d'obsidienne infligeant des <e:geo>DGT Géo de zone</e>.\n\n<k>Paravent d'astrolabe</k>\n· Bloque les projectiles ennemis.\n· Les PV du paravent sont proportionnels aux PV max de Ningguang.\n\nLe paravent d'astrolabe est une <e:geo>construction Géo</e> qui peut bloquer certaines attaques mais ne peut pas être escaladée. Il ne peut exister qu'un seul paravent à la fois.\n\n<i>Les étoiles sont dispersées dans le ciel nocturne, les pions sont prêts sur l'échiquier divin. Alors, le paravent d'astrolabe commence à s'étendre.</i>"
+          },
+          "burst": {
+            "name": "Éclatement des étoiles",
+            "desc": "Ningguang fait tournoyer plusieurs jades précieux à tête chercheuse autour d'elle, qu'elle relâche tous en même temps, infligeant ainsi d'importants <e:geo>DGT Géo</e>.\nSi le paravent d'astrolabe est actif lorsque cette attaque est exécutée, il l'accompagne de tirs de jade supplémentaires.\n\n<i>Éparses sont les ténèbres quand les étoiles sont éclatées.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Plan de reprise",
+            "desc": "L'attaque chargée de Ningguang ne consomme pas d'endurance tant que celle-ci possède des Jades d'étoile."
+          },
+          {
+            "name": "Réserve stratégique",
+            "desc": "Confère pendant 10 s un <e:geo>bonus de DGT Géo</e> de 12 % aux personnages qui traversent le <k>Paravent d'astrolabe</k>."
+          },
+          {
+            "name": "Corne d'abondance",
+            "desc": "Affiche l'emplacement des <k>filons de minerai utilisables en forge</k> sur la mini-carte."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Fragments perforants",
+            "desc": "Les attaques normales qui touchent infligent des DGT de zone."
+          },
+          {
+            "level": 2,
+            "name": "Effet de choc",
+            "desc": "Le TdR de <k>Paravent d'astrolabe</k> est annulé lorsque ce dernier est brisé.\nCet effet peut être déclenché une fois toutes les 6 s."
+          },
+          {
+            "level": 3,
+            "name": "Alignement des étoiles",
+            "desc": "Niveau d'aptitude <k>Éclatement des étoiles</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Exquis soit le Jade, éclatant de toutes parts",
+            "desc": "<k>Paravent d'astrolabe</k> augmente les RÉS élémentaires des personnages à proximité de 10 %."
+          },
+          {
+            "level": 5,
+            "name": "Invincible soit le Paravent d'astrolabe",
+            "desc": "Niveau d'aptitude <k>Paravent d'astrolabe</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Grandeur soit les Sept Étoiles",
+            "desc": "L'activation d'<k>Éclatement des étoiles</k> confère 7 Jades d'étoile à Ningguang."
+          }
+        ]
+      }
+    }
   }
 }

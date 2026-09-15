@@ -23,5 +23,41 @@
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11422",
+      "retrievedAt": "2026-09-15",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A rather special oil-paper umbrella. While long wanderings may make one used to the wind and the rain, there might be some fun in admiring a rainy scene beneath this parasol.",
+        "passive": {
+          "name": "Kaidan: Rainfall Earthbinder",
+          "refinements": {
+            "1": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <r>16%</r> more DMG to the opponent affected by Cursed Parasol.",
+            "2": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <r>20%</r> more DMG to the opponent affected by Cursed Parasol.",
+            "3": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <r>24%</r> more DMG to the opponent affected by Cursed Parasol.",
+            "4": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <r>28%</r> more DMG to the opponent affected by Cursed Parasol.",
+            "5": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal <r>32%</r> more DMG to the opponent affected by Cursed Parasol."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une ombrelle en papier huilé un peu spéciale. Bien que de longues errances puissent permettre de s'habituer au vent et à la pluie, il peut être amusant d'admirer une scène pluvieuse à l'abri sous cette ombrelle.",
+        "passive": {
+          "name": "Kaidan : Liant de terre pluviométrique",
+          "refinements": {
+            "1": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de <r>16 %</r>.",
+            "2": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de <r>20 %</r>.",
+            "3": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de <r>24 %</r>.",
+            "4": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de <r>28 %</r>.",
+            "5": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de <r>32 %</r>."
+          }
+        }
+      }
+    }
   }
 }
