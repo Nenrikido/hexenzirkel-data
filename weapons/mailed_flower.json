@@ -8,11 +8,28 @@
     "subStatValue": 110.256
   },
   "buffs": {
-    "self_modifiers_json": {
-      "atk_": 0.24,
-      "eleMas": 96.0
-    },
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "whispersOfWindAndFlower",
+        "source": "MailedFlower",
+        "description": "Whispers of Wind and Flower: within 8s after an Elemental Skill hits an opponent, ATK +12% and Elemental Mastery +48. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1). Was previously modelled as an unconditional self_modifiers_json entry holding the R5 numbers, which handed every refinement the R5 buff with no skill-hit requirement.",
+        "states": {
+          "active": {
+            "atk_": 0.12,
+            "eleMas": 48.0
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "atk_": 0.24,
+              "eleMas": 96.0
+            }
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   }

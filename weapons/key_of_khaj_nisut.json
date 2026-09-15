@@ -15,39 +15,66 @@
       {
         "conditionKey": "skillHitsStacks",
         "source": "KeyOfKhajNisut",
-        "description": "assume 75k HP, so 0.12% per stack = 90 Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "description": "Sunken Song of the Sands, 1st clause: each Elemental Skill hit grants Elemental Mastery equal to 0.12% of the wielder's Max HP for 8s, max 3 stacks. Self scope, so the wielder's HP is on the scored build: the rate is an eval-time conversion off that build's own post-buff Max HP -- including this weapon's own +20% HP -- rather than the flat 90/stack every entrant used to receive off an assumed 75,000 HP. Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
         "states": {
           "1 stack": {
-            "eleMas": 90
+            "eleMas_from_maxHp_": 0.0012
           },
           "2 stack": {
-            "eleMas": 180
+            "eleMas_from_maxHp_": 0.0024
           },
           "3 stack": {
-            "eleMas": 270
+            "eleMas_from_maxHp_": 0.0036
           }
         },
         "refinementStates": {
           "R5": {
             "1 stack": {
-              "eleMas": 180
+              "eleMas_from_maxHp_": 0.0024
             },
             "2 stack": {
-              "eleMas": 360
+              "eleMas_from_maxHp_": 0.0048
             },
             "3 stack": {
-              "eleMas": 540
+              "eleMas_from_maxHp_": 0.0072
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "skillHitsFullStacks",
+        "source": "KeyOfKhajNisut",
+        "description": "Sunken Song of the Sands, 2nd clause: at 3 stacks, all party members gain Elemental Mastery equal to 0.2% of the equipper's Max HP for 20s. Self scope, i.e. the wielder's own share of that party buff when the wielder is the scored character, so it reads their own Max HP as a conversion. A teammate-held copy is the others-scope twin below, where the buffer's HP is not on the scored build and the admin types it. Quoted values are R1; refinementStates carries R5.",
+        "states": {
+          "active": {
+            "eleMas_from_maxHp_": 0.002
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "eleMas_from_maxHp_": 0.004
             }
           }
         }
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
       {
         "conditionKey": "skillHitsFullStacks",
         "source": "KeyOfKhajNisut",
-        "description": "assume 75k HP, 0.2% at 3 stack = 150 Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "description": "Sunken Song of the Sands, 2nd clause, others scope: a teammate holds the weapon, so the equipper's Max HP is not on the scored build and the admin types it. The default 75,000 reproduces the flat +150 EM this entry granted before it was made HP-scaled. NOTE the typed box carries the R1 rate; a board that overrides this weapon to a higher refinement should pick the 'active' preset instead, which is refinement-tiered.",
+        "statInput": {
+          "stat": "hp",
+          "default": 75000,
+          "max": 200000,
+          "ratesPerUnit": {
+            "eleMas": 0.002
+          }
+        },
         "states": {
           "active": {
             "eleMas": 150

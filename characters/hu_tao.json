@@ -169,9 +169,73 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "c2OminousRainfall",
+        "source": "avatar_10000046",
+        "description": "C2 Ominous Rainfall: increases Blood Blossom DMG by 10% of Hu Tao's Max HP at the time the effect is applied. Blood Blossom is the Elemental Skill's damage instance (hit_definitions_json.skill.dmg), so this lands on skill_dmgInc -- a flat additive base-DMG term, not a DMG% bonus -- read as an eval-time conversion off the scored build's own Max HP.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "skill_dmgInc_from_maxHp_": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6ButterflysEmbrace",
+        "source": "avatar_10000046",
+        "description": "C6 Butterfly's Embrace: on taking otherwise fatal damage (once per 60s), Hu Tao gains CRIT Rate +100% for 10s, plus immunity to HP loss, +200% all RES and interruption resistance -- none of which are scoreable, so only the CRIT Rate is modelled. Situational and once-per-fight, so it is left for the admin to tick deliberately rather than assumed on.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_": 1.0
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": []
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1FlutterBy",
+        "source": "avatar_10000046",
+        "description": "A1 Flutter By: when Paramita Papilio's duration ends, all party members EXCLUDING Hu Tao gain CRIT Rate +12% for 8s. Others scope precisely because of that exclusion -- a team-scope entry would also hand it to Hu Tao herself when she is the scored character.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_": 0.12
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4GardenOfEternalRest",
+        "source": "avatar_10000046",
+        "description": "C4 Garden of Eternal Rest: upon defeating an enemy affected by Blood Blossom, all nearby party members EXCLUDING Hu Tao gain CRIT Rate +12% for 15s. Others scope for the same reason as A1 Flutter By; the two stack.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critRate_": 0.12
+            }
+          }
+        ]
+      }
+    ]
   }
 }

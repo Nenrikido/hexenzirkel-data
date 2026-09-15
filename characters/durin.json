@@ -138,34 +138,6 @@
           }
         ]
       },
-      "charged_1": {
-        "element": "pyro",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "charged_mult"
-          }
-        ]
-      },
-      "plunging_dmg": {
-        "element": "pyro",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "pyro_dmg_",
-          "all_dmg_"
-        ],
-        "components": [
-          {
-            "scalingKey": "atk",
-            "multKey": "plunge_mult"
-          }
-        ]
-      },
       "hit1Dmg": {
         "element": "pyro",
         "dmgBonusKeys": [
@@ -225,6 +197,22 @@
             "multKey": "hit4_mult"
           }
         ]
+      }
+    },
+    "charged": {
+      "charged_1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_mult"
+          }
+        ]
       },
       "chargedDmg": {
         "element": "pyro",
@@ -239,7 +227,9 @@
             "multKey": "charged_mult"
           }
         ]
-      },
+      }
+    },
+    "plunging": {
       "plungeDmg": {
         "element": "pyro",
         "dmgBonusKeys": [
@@ -251,6 +241,48 @@
           {
             "scalingKey": "atk",
             "multKey": "plunge_mult"
+          }
+        ]
+      },
+      "plunging_dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_mult"
+          }
+        ]
+      },
+      "plungeLow": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_low_mult"
+          }
+        ]
+      },
+      "plungeHigh": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_high_mult"
           }
         ]
       }
@@ -903,9 +935,13 @@
       "hit2_mult": 0.81056,
       "hit4_mult": 1.406495,
       "hit3a_mult": 0.576453,
-      "hit3b_mult": 0.576453,
+      "hit3b_mult": 0.576453
+    },
+    "charged": {
+      "charged_mult": 2.2423
+    },
+    "plunging": {
       "plunge_mult": 1.26378,
-      "charged_mult": 2.2423,
       "plunge_low_mult": 2.527025,
       "plunge_high_mult": 3.15639
     },
