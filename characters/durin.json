@@ -197,6 +197,62 @@
             "multKey": "hit4_mult"
           }
         ]
+      },
+      "0": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit2_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit3b_mult"
+          }
+        ]
+      },
+      "3": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit4_mult"
+          }
+        ]
       }
     },
     "charged": {
@@ -215,6 +271,20 @@
         ]
       },
       "chargedDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "charged_mult"
+          }
+        ]
+      },
+      "dmg": {
         "element": "pyro",
         "dmgBonusKeys": [
           "charged_dmg_",
