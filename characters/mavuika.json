@@ -384,12 +384,11 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
-    "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
+    "self_conditional_modifiers_json": [
       {
         "conditionKey": "a1AfterNightsoulBurst",
         "source": "Mavuika",
+        "description": "A1 Gift of Flaming Flowers: when a nearby party member triggers a Nightsoul Burst, MAVUIKA's ATK increases by 30% for 10s. SELF scope — the passive buffs her own ATK and nobody else's (GO has it in `premod.atk_`, not `teamBuff`). It sat in team scope until 2026-09-22, which would have handed the 30% to any teammate scored alongside her; every board using it has her as the main character, so no stored score was ever wrong.",
         "states": [
           {
             "value": "on",
@@ -402,14 +401,96 @@
       {
         "conditionKey": "burstFightingSpirit",
         "source": "Mavuika",
+        "description": "Burst Hour of Burning Skies / Crucible of Death and Life: the Fighting Spirit spent on the cast raises the DMG of MAVUIKA's own Sunfell Slice and of her Flamestrider (\"Ancient Name Unbound\") Normal and Charged Attacks, as a ratio of her ATK. At burst Lv10 that is 2.88% / 0.51% / 1.02% of ATK per point of Fighting Spirit; the \"high\" state is the 200-point maximum, i.e. 5.76 / 1.02 / 2.04. C3 takes the burst to Lv13 (3.4% / 0.618% / 1.236% per point -> 6.8 / 1.236 / 2.472), which is the constellationStates block — the values were frozen at Lv10 before 2026-09-22. SELF scope: these are her own hits. The team-wide +40% DMG from the same cast is the separate A4 entry a4KiongoziDmgBonus; enable both.",
         "states": [
           {
             "value": "high",
             "modifiers": {
-              "all_dmg_": 0.4,
               "charged_dmgIncFromAtk_": 2.04,
               "normal_dmgIncFromAtk_": 1.02,
               "burst_dmgIncFromAtk_": 5.76
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "high": {
+              "charged_dmgIncFromAtk_": 2.472,
+              "normal_dmgIncFromAtk_": 1.236,
+              "burst_dmgIncFromAtk_": 6.8
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c1GainSpiritAtk",
+        "source": "Mavuika",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 The Night-Lord's Explication: +40% ATK for 8s after gaining Fighting Spirit. She gains Fighting Spirit continuously while the party attacks, so it is effectively always up in combat. Stacks with the A1 (GO sums both into `premod.atk_`).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2FlamestriderDmgInc",
+        "source": "Mavuika",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 The Ashen Price, Flamestrider form: Mavuika's Normal Attacks, Charged Attacks and the burst's Sunfell Slice each deal an extra 60% / 90% / 120% of her ATK as DMG. Adds on top of the burstFightingSpirit ratios on the same hits. Exclusive with c2RingFormDefShred — the All-Fire Armaments take one form at a time. The same constellation's +200 BASE ATK is NOT modelled: there is no base-ATK modifier key, and writing it as flat ATK would miss the ATK% multiplication (worth roughly double the flat number on a built Mavuika).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmgIncFromAtk_": 0.6,
+              "charged_dmgIncFromAtk_": 0.9,
+              "burst_dmgIncFromAtk_": 1.2
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4KiongoziDmgBonus",
+        "source": "Mavuika",
+        "description": "A4 \"Kiongozi\": after Mavuika's burst, every point of Fighting Spirit spent on the cast increases the DMG the CURRENT ACTIVE party member deals by 0.2%, capped at +40% (the 200-point maximum), for 20s. TEAM scope — this is the only part of the burst that reaches the party (GO: `teamBuff.premod.all_dmg_`); her own Sunfell Slice / Flamestrider ATK ratios are the self entry burstFightingSpirit. At C0-C3 the bonus decays linearly to 0 over the 20s, so a board covering the whole window should set this condition's uptime to ~50%; C4 removes the decay and adds a further +10% (the constellationStates block).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "all_dmg_": 0.4
+            }
+          }
+        ],
+        "constellationStates": {
+          "C4": {
+            "on": {
+              "all_dmg_": 0.5
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c2RingFormDefShred",
+        "source": "Mavuika",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 The Ashen Price, Ring of Searing Radiance form: nearby opponents' DEF is decreased by 20%. Team scope (GO: `teamBuff.premod.enemyDefRed_`). Exclusive with c2FlamestriderDmgInc — the All-Fire Armaments take one form at a time.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "defShred_": 0.2
             }
           }
         ]
