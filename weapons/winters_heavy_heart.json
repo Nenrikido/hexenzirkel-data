@@ -1,0 +1,85 @@
+{
+  "weapon_key": "14437",
+  "rarity": 4,
+  "display_name": "Winter's Heavy Heart",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.55128
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "14437",
+        "conditionKey": "bloodPactCryoMembers",
+        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Cryo half of the base mode (EM); pair it with bloodPactElectroMembers, and do not combine either with the Radiance entry.",
+        "states": {
+          "1 Cryo": {
+            "eleMas": 48.0
+          },
+          "2 Cryo": {
+            "eleMas": 96.0
+          },
+          "3 Cryo": {
+            "eleMas": 144.0
+          },
+          "4 Cryo": {
+            "eleMas": 192.0
+          }
+        }
+      },
+      {
+        "source": "14437",
+        "conditionKey": "bloodPactElectroMembers",
+        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Electro half of the base mode (ATK); pair it with bloodPactCryoMembers, and do not combine either with the Radiance entry.",
+        "states": {
+          "1 Electro": {
+            "atk_": 0.096
+          },
+          "2 Electro": {
+            "atk_": 0.192
+          },
+          "3 Electro": {
+            "atk_": 0.288
+          },
+          "4 Electro": {
+            "atk_": 0.384
+          }
+        }
+      },
+      {
+        "source": "14437",
+        "conditionKey": "bloodPactRadianceStellarGlimmer",
+        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Radiance: Stellar Glimmer mode: count every Cryo and Electro member together. Exclusive with the two base-mode entries.",
+        "states": {
+          "1 Cryo/Electro": {
+            "eleMas": 40.0,
+            "stellarglimmer_dmg_": 0.12
+          },
+          "2 Cryo/Electro": {
+            "eleMas": 80.0,
+            "stellarglimmer_dmg_": 0.24
+          },
+          "3 Cryo/Electro": {
+            "eleMas": 120.0,
+            "stellarglimmer_dmg_": 0.36
+          },
+          "4 Cryo/Electro": {
+            "eleMas": 160.0,
+            "stellarglimmer_dmg_": 0.48
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "7.1",
+    "refinementModelled": "R5",
+    "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R5 (house convention: 4* at R5, 5* at R1). Split into three entries because the base mode needs two independent counts."
+  }
+}

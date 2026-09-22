@@ -1,0 +1,55 @@
+{
+  "weapon_key": "11437",
+  "rarity": 4,
+  "display_name": "New Bough",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.55128
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "11437",
+        "conditionKey": "verdantStacks",
+        "description": "R5 Wildgrowth: hitting an opponent within 12s of using the Elemental Skill grants a Verdant stack (6s, once per second, max 3): +8% ATK and +40 EM per stack. Under Radiance: Stellar Glimmer the stack is instead +12% ATK and +16% Stellar Glimmer reaction DMG (umbrella key, reaches both Stellar reactions). Works off-field. Pick the stack count and the mode the rotation runs in.",
+        "states": {
+          "1 stack": {
+            "atk_": 0.08,
+            "eleMas": 40.0
+          },
+          "2 stacks": {
+            "atk_": 0.16,
+            "eleMas": 80.0
+          },
+          "3 stacks": {
+            "atk_": 0.24,
+            "eleMas": 120.0
+          },
+          "1 stack (Radiance: Stellar Glimmer)": {
+            "atk_": 0.12,
+            "stellarglimmer_dmg_": 0.16
+          },
+          "2 stacks (Radiance: Stellar Glimmer)": {
+            "atk_": 0.24,
+            "stellarglimmer_dmg_": 0.32
+          },
+          "3 stacks (Radiance: Stellar Glimmer)": {
+            "atk_": 0.36,
+            "stellarglimmer_dmg_": 0.48
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "7.1",
+    "refinementModelled": "R5",
+    "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R5 (house convention: 4* at R5, 5* at R1). Verdant is one entry with both modes as states because they are exclusive."
+  }
+}

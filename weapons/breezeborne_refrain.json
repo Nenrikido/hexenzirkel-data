@@ -1,0 +1,36 @@
+{
+  "weapon_key": "15437",
+  "rarity": 4,
+  "display_name": "Breezeborne Refrain",
+  "base_stats_json": {
+    "baseAtk": 509.605949,
+    "subStatKey": "critRate_",
+    "subStatValue": 0.27564
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "enerRech_": 0.4
+    },
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "source": "15437",
+        "conditionKey": "thusLiedTheViper",
+        "description": "R5 Viper's Ballad: three Elemental Skill / Burst hits (0.03s ICD, so one multi-hit cast) convert Hymn of the Pure into Thus Lied the Viper: nearby party members deal +48% Stellar Glimmer reaction DMG for 12s (umbrella key, both Stellar reactions), during which no new stacks accrue. Works off-field. Team scope: reaches the wielder and everyone else.",
+        "states": {
+          "on": {
+            "stellarglimmer_dmg_": 0.48
+          }
+        }
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "7.1",
+    "refinementModelled": "R5",
+    "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R5 (house convention: 4* at R5, 5* at R1). The unconditional +40% ER is in self_modifiers_json."
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "weapon_key": "14524",
+  "rarity": 5,
+  "display_name": "Hymn of the Maelstrom",
+  "base_stats_json": {
+    "baseAtk": 541.829758,
+    "subStatKey": "hp_",
+    "subStatValue": 0.661536
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "14524",
+        "conditionKey": "vaticVintageMaxHp",
+        "description": "R1 Rondo of Slumber: performing healing grants Vatsamonga's Vatic Vintage (10s, max 3 stacks, works off-field): +4% Max HP per stack on the wielder, and while a nearby party member has triggered Frozen or Stellar Swirl in the last 5s the boost is 75% larger (+7% per stack). The +4% Healing Bonus is not modelled. The same stacks also raise the ACTIVE character's ATK off the wielder's HP -- that half is the others-scope vaticVintageActiveAtk* inputs (a wielder that is itself the scored on-field character would need an ATK%-from-HP-excess conversion that does not exist; her own ATK barely matters on an HP scaler). R2-R5 in refinementStates.",
+        "states": {
+          "1 stack": {
+            "hp_": 0.04
+          },
+          "2 stacks": {
+            "hp_": 0.08
+          },
+          "3 stacks": {
+            "hp_": 0.12
+          },
+          "1 stack + Frozen/Stellar Swirl boost": {
+            "hp_": 0.07
+          },
+          "2 stacks + Frozen/Stellar Swirl boost": {
+            "hp_": 0.14
+          },
+          "3 stacks + Frozen/Stellar Swirl boost": {
+            "hp_": 0.21
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "1 stack": {
+              "hp_": 0.05
+            },
+            "2 stacks": {
+              "hp_": 0.1
+            },
+            "3 stacks": {
+              "hp_": 0.15
+            },
+            "1 stack + Frozen/Stellar Swirl boost": {
+              "hp_": 0.0875
+            },
+            "2 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.175
+            },
+            "3 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.2625
+            }
+          },
+          "R3": {
+            "1 stack": {
+              "hp_": 0.06
+            },
+            "2 stacks": {
+              "hp_": 0.12
+            },
+            "3 stacks": {
+              "hp_": 0.18
+            },
+            "1 stack + Frozen/Stellar Swirl boost": {
+              "hp_": 0.105
+            },
+            "2 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.21
+            },
+            "3 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.315
+            }
+          },
+          "R4": {
+            "1 stack": {
+              "hp_": 0.07
+            },
+            "2 stacks": {
+              "hp_": 0.14
+            },
+            "3 stacks": {
+              "hp_": 0.21
+            },
+            "1 stack + Frozen/Stellar Swirl boost": {
+              "hp_": 0.1225
+            },
+            "2 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.245
+            },
+            "3 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.3675
+            }
+          },
+          "R5": {
+            "1 stack": {
+              "hp_": 0.08
+            },
+            "2 stacks": {
+              "hp_": 0.16
+            },
+            "3 stacks": {
+              "hp_": 0.24
+            },
+            "1 stack + Frozen/Stellar Swirl boost": {
+              "hp_": 0.14
+            },
+            "2 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.28
+            },
+            "3 stacks + Frozen/Stellar Swirl boost": {
+              "hp_": 0.42
+            }
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "source": "14524",
+        "conditionKey": "vaticVintageActiveAtk",
+        "description": "R1 Rondo of Slumber, others scope, 3 stacks assumed (a healer that heals every few seconds keeps them up): the currently active party member's ATK is increased by 0.4% per stack for every 1,000 Max HP the WIELDER has over 40,000, capped at 8% per stack -- i.e. 1.2% per 1,000 HP over 40,000, capped at +24% at 60,000 HP. Type the wielder's Max HP; blank assumes 50,000 (= +12% ATK). R1 rate only: at R5 the rate and cap double, which this input cannot express -- scale by hand or pick R1. Use the *ReactionBoosted twin instead when Frozen / Stellar Swirl keeps the +75% up.",
+        "statInput": {
+          "stat": "hp",
+          "default": 50000,
+          "max": 120000,
+          "offset": 40000.0,
+          "ratesPerUnit": {
+            "atk_": 1.2e-05
+          },
+          "caps": {
+            "atk_": 0.24
+          }
+        },
+        "states": {}
+      },
+      {
+        "source": "14524",
+        "conditionKey": "vaticVintageActiveAtkReactionBoosted",
+        "description": "R1 Rondo of Slumber, others scope, 3 stacks with the Frozen / Stellar Swirl +75% boost up for the whole rotation: the active character's ATK is increased by 2.1% per 1,000 Max HP the WIELDER has over 40,000, capped at +42%. Type the wielder's Max HP; blank assumes 50,000 (= +21% ATK). R1 rate only. Exclusive with vaticVintageActiveAtk.",
+        "statInput": {
+          "stat": "hp",
+          "default": 50000,
+          "max": 120000,
+          "offset": 40000.0,
+          "ratesPerUnit": {
+            "atk_": 2.1e-05
+          },
+          "caps": {
+            "atk_": 0.42
+          }
+        },
+        "states": {}
+      }
+    ]
+  },
+  "source": {
+    "nanokaVersion": "7.1",
+    "refinementModelled": "R1",
+    "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R1 (house convention: 4* at R5, 5* at R1, higher tiers in refinementStates). Vodyanitsa's signature. The ATK cap reads as per stack (0.4%/1,000 -> 8% at 60,000 HP), so 3 stacks cap at 24%; if it turns out to be a total cap, halve the caps here."
+  }
+}

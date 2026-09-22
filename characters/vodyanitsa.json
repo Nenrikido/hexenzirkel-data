@@ -1,0 +1,492 @@
+{
+  "display_name": "Vodyanitsa",
+  "go_key": "Vodyanitsa",
+  "avatar_id": 10000140,
+  "character_key": "avatar_10000140",
+  "element": "hydro",
+  "weapon_type": "catalyst",
+  "constellation_talent_boosts": {
+    "skill": 3,
+    "burst": 5
+  },
+  "base_stats_json": {
+    "baseHp": 14817.552111,
+    "baseAtk": 107.630271,
+    "baseDef": 484.189253,
+    "ascStatKey": "hp_",
+    "ascStatValue": 0.288
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      },
+      "3": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "plungeTier": "dmg"
+      },
+      "low": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ],
+        "plungeTier": "low"
+      },
+      "high": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ],
+        "plungeTier": "high"
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "skillDmg_mult"
+          }
+        ]
+      },
+      "hornDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "hornDmg_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "songOfAgesPastDmg": {
+        "element": "hydro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "hydro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "songOfAgesPastDmg_mult"
+          }
+        ]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "boosted": {
+      "skill": {
+        "skillDmg_mult": 0.06953,
+        "hornDmg_mult": 0.06953,
+        "healFlat": 741.54407,
+        "healMaxHpPct": 0.0595,
+        "hydroCryoResShred_": 0.354
+      },
+      "burst": {
+        "dmg_mult": 0.970632,
+        "songOfAgesPastDmg_mult": 1.990632
+      }
+    },
+    "normal": {
+      "0_mult": 0.780926,
+      "1_mult": 0.724176,
+      "2_mult": 0.887429,
+      "3_mult": 1.180138
+    },
+    "charged": {
+      "dmg_mult": 2.22768,
+      "stam": 50.0
+    },
+    "plunging": {
+      "dmg_mult": 1.12336,
+      "low_mult": 2.246244,
+      "high_mult": 2.80568
+    },
+    "skill": {
+      "skillDmg_mult": 0.058896,
+      "duration": 16.0,
+      "hornInterval": 3.0,
+      "hornDmg_mult": 0.058896,
+      "healFlat": 593.2278,
+      "healMaxHpPct": 0.0504,
+      "healInterval": 1.5,
+      "hydroCryoResShred_": 0.3,
+      "resShredDuration": 6.0,
+      "cooldown": 16.0
+    },
+    "burst": {
+      "dmg_mult": 0.822182,
+      "cooldown": 15.0,
+      "energy_cost": 60.0,
+      "songOfAgesPastDmg_mult": 1.686182,
+      "songOfAgesPastDmgInc_": 0.864
+    },
+    "passive": {
+      "a1_wanderingVortex_anemoResShred_": 0.35,
+      "a1_anemoResShred_duration": 6.0,
+      "a1_radianceStellarSwirl_extension": 4.0,
+      "a4_leadVocal_stacks": 25.0,
+      "a4_chorus_stacks": 10.0,
+      "a4_stacks_duration": 30.0,
+      "a4_maxHp_threshold": 40000.0,
+      "a4_stellarSwirl_dmgInc_per1000MaxHp": 260.0,
+      "a4_hydroCryo_dmgInc_per1000MaxHp": 140.0,
+      "a4_stellarSwirl_dmgInc_cap": 6500.0,
+      "a4_hydroCryo_dmgInc_cap": 3500.0
+    },
+    "constellation": {
+      "c1_atk_pctOfMaxHp": 0.008,
+      "c1_duration": 5.0,
+      "c2_hydroCryo_critDMG_": 0.5,
+      "c2_stellarSwirl_critDMG_": 0.6,
+      "c2_duration": 5.0,
+      "c2_songOfAgesPast_extension": 9.0,
+      "c4_lowHp_threshold": 0.4,
+      "c4_heal_bonus": 0.5,
+      "c4_hp_perStack": 0.2,
+      "c4_duration": 6.0,
+      "c4_maxStacks": 3.0,
+      "c6_stellarSwirl_elevation": 0.25,
+      "c6_hydroCryo_dmg_": 0.6
+    },
+    "source": {
+      "provider": "nanoka",
+      "endpoint": "https://static.nanoka.cc/gi/7.1/en/character/10000140.json",
+      "nanokaVersion": "7.1",
+      "note": "Added 2026-09-22 (7.1 release day); Amber/yatta and Genshin Optimizer had no entry yet, so hit keys are GUESSES in GO's vocabulary, to be reconciled once GO ships a Vodyanitsa sheet: normal 0-3 (catalyst, Hydro), charged dmg, plunging dmg/low/high, skill skillDmg (Rechitativ: Sonorous Dawn, % Max HP) + hornDmg (Horn of Spring's Call, % Max HP, one instance per 3s attack), burst dmg (Koda: Sink With Thee, % Max HP). The burst's 'Song of Ages Past DMG Bonus' (86.4% at Lv10, 102% at Lv13) is ADDITIVE TO THE RATIO, not a DMG% bonus, so it is a second hit key burst.songOfAgesPastDmg = 82.2% + 86.4% = 168.6% Max HP (197.1% boosted); score burst.dmg only for a cast outside Song of Ages Past. Healing is not modelled. A4 Lead Vocal / Chorus: the hyperlink glossary's {PARAM#P1402201|3S1}..|7S1} refs resolve to passive param_list[2..6] = 40000 / 260 / 140 / 6500 / 3500 with the S1 (raw) format, i.e. a flat DMG increase per 1,000 Max HP above 40,000, NOT a percentage -- see the a4LeadVocal* conditionals. Not tagged enables=stellar: she does not create Stellar reactions herself (she turns a Stellar Vortex into a Wandering Vortex and extends Radiance).",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "skillTalentLevel": 10,
+        "burstTalentLevel": 10
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4LeadVocalOwnHp",
+        "source": "avatar_10000140",
+        "description": "A4 Dirge of the Fandyr, SELF half: using her Elemental Skill grants 25 Lead Vocal stacks (30s); each Hydro/Cryo Normal/Charged/Plunging/Skill/Burst hit by the active character consumes one and its DMG is increased by a flat 140 per 1,000 Max HP VODYANITSA has above 40,000, capped at 3,500 (reached at 65,000 HP). Offered only when she is the scored character: the hydro_dmgInc_from_maxHp_excess40000_ conversion reads the build's own post-buff Max HP (so it sees C4's stacks), and her own hits are all Hydro. Continuous rather than stepped per 1,000. While a Wandering Vortex is present (or for 5s after one explodes) the stacks only trigger on Stellar Swirl DMG, which she does not deal -- leave this off for such a rotation. When she is a teammate, use the a4LeadVocal*SourceHp inputs instead.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hydro_dmgInc_from_maxHp_excess40000_": 0.14,
+              "hydro_dmgInc_from_maxHp_excess40000_cap_": 3500.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1SongOfAgesPastOwnHp",
+        "source": "avatar_10000140",
+        "description": "C1 Waters in Full Splendor, SELF half: each Song of Ages Past healing tick also increases all nearby party members' ATK by 0.8% of Vodyanitsa's Max HP for 5s (ticks every 1.5s, so effectively permanent while the skill is up). When she is the scored character this is her own build's HP: atk_from_maxHp_ reads it live. Teammates use c1SongOfAgesPastSourceHp.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_from_maxHp_": 0.008
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c4MaxHpStacks",
+        "source": "avatar_10000140",
+        "description": "C4 Melancholic Voice Upon the Gentle Waters: each Song of Ages Past healing tick on a character at 40% HP or above increases Vodyanitsa's Max HP by 20% for 6s, up to 3 independent stacks (the below-40% branch is +50% healing, not modelled). Feeds her HP-scaling hits and every '% of her Max HP' buff. Pick the average stack count.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "1 stack (+20% HP)",
+            "modifiers": {
+              "hp_": 0.2
+            }
+          },
+          {
+            "value": "2 stacks (+40% HP)",
+            "modifiers": {
+              "hp_": 0.4
+            }
+          },
+          {
+            "value": "3 stacks (+60% HP, max)",
+            "modifiers": {
+              "hp_": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "skillHydroCryoResShred",
+        "source": "avatar_10000140",
+        "description": "Rechitativ: Sonorous Dawn -- the skill hit and every Horn of Spring's Call attack decrease the Hydro RES and Cryo RES of opponents hit by 30% for 6s at skill Lv10 (35.4% from C3, where the skill reaches Lv13). The Horn attacks every 3s over 16s, so the shred is effectively permanent while Song of Ages Past is active.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hydro_enemyRes_": -0.3,
+              "cryo_enemyRes_": -0.3
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "on": {
+              "hydro_enemyRes_": -0.354,
+              "cryo_enemyRes_": -0.354
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "a1WanderingVortexAnemoResShred",
+        "source": "avatar_10000140",
+        "description": "A1 The Last Djeguako Songstress: using her Elemental Skill turns any Stellar Vortex on the field into a Wandering Vortex, and while Song of Ages Past is active the party's Stellar Swirl reactions generate Wandering Vortexes instead. Generating or detonating a Wandering Vortex reduces nearby opponents' Anemo RES by 35% for 6s. (The A1 also extends a party member's Radiance: Stellar Swirl state by 4s -- uptime, not a modifier.)",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "anemo_enemyRes_": -0.35
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2TwoVoicesCritDmg",
+        "source": "avatar_10000140",
+        "description": "C2 Echoes That Pierce the Snow: each Horn of Spring's Call attack grants 'Two Voices in Black and White' for 5s (Horn attacks every 3s, so permanent while the skill is up) to the currently active party member -- at C6 to all nearby party members. Without a Wandering Vortex it is +50% CRIT DMG on the Hydro DMG and Cryo DMG they deal; while a Wandering Vortex is present (or for 5s after one explodes) it becomes +60% CRIT DMG on Stellar Swirl reaction DMG instead. Pick the state matching the rotation. Team scope: the scored character is assumed to be the active one, or C6 to be in play.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "Hydro/Cryo CRIT DMG +50% (no Wandering Vortex)",
+            "modifiers": {
+              "hydro_critDMG_": 0.5,
+              "cryo_critDMG_": 0.5
+            }
+          },
+          {
+            "value": "Stellar Swirl CRIT DMG +60% (Wandering Vortex up)",
+            "modifiers": {
+              "stellarswirl_critDMG_": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6SongOfAgesPast",
+        "source": "avatar_10000140",
+        "description": "C6 Neverending Song of Revelry: while Song of Ages Past is active, Stellar Swirl reaction DMG dealt by nearby party members is ELEVATED by 25% (its own (1 + Elevation) bracket, stellarswirl_specialDmg_, same as Sandrone's C6 for Stellar-Conduct) and Hydro DMG and Cryo DMG dealt are increased by 60%. The C6 also extends C2's crit buff to the whole party, which c2TwoVoicesCritDmg already assumes.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarswirl_specialDmg_": 0.25,
+              "hydro_dmg_": 0.6,
+              "cryo_dmg_": 0.6
+            }
+          }
+        ]
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4LeadVocalStellarSwirlSourceHp",
+        "source": "avatar_10000140",
+        "description": "A4 Dirge of the Fandyr, OTHERS half, Stellar Swirl mode: her Elemental Skill grants 25 Lead Vocal stacks (consumed by the active character) and 10 Chorus stacks (consumed by off-field party members), 30s. While a Wandering Vortex is present or for 5s after one explodes -- which is the normal state of a Stellar Swirl team once she has cast her skill, see A1 -- a stack is consumed only by Stellar Swirl reaction DMG, which is increased by a flat 260 per 1,000 Max HP VODYANITSA has above 40,000, capped at 6,500 (reached at 65,000 HP). Type her Max HP; blank assumes 50,000 (= +2,600). Lands on stellarswirl_dmgInc, the Reaction Additive Base DMG slot outside the Stellar brackets. Continuous rather than stepped per 1,000, and the 25/10-stack pool is not enforced -- split the rotation with per-target bonusStats if it has more Stellar Swirl instances than stacks. Mutually exclusive with the Hydro/Cryo entry: in-game only one of the two modes is active at a time.",
+        "statInput": {
+          "stat": "hp",
+          "default": 50000,
+          "max": 100000,
+          "offset": 40000.0,
+          "ratesPerUnit": {
+            "stellarswirl_dmgInc": 0.26
+          },
+          "caps": {
+            "stellarswirl_dmgInc": 6500.0
+          }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "a4LeadVocalHydroCryoSourceHp",
+        "source": "avatar_10000140",
+        "description": "A4 Dirge of the Fandyr, OTHERS half, Hydro/Cryo mode (no Wandering Vortex on the field, i.e. a team that does not make Stellar Swirl): each Hydro or Cryo Normal/Charged/Plunging/Skill/Burst hit consumes a Lead Vocal (active character) or Chorus (off-field) stack and is increased by a flat 140 per 1,000 Max HP VODYANITSA has above 40,000, capped at 3,500 (reached at 65,000 HP). Type her Max HP; blank assumes 50,000 (= +1,400). Lands on hydro_dmgInc / cryo_dmgInc, so only Hydro and Cryo hits collect it. Continuous rather than stepped per 1,000; the stack pool is not enforced. Mutually exclusive with the Stellar Swirl entry.",
+        "statInput": {
+          "stat": "hp",
+          "default": 50000,
+          "max": 100000,
+          "offset": 40000.0,
+          "ratesPerUnit": {
+            "hydro_dmgInc": 0.14,
+            "cryo_dmgInc": 0.14
+          },
+          "caps": {
+            "hydro_dmgInc": 3500.0,
+            "cryo_dmgInc": 3500.0
+          }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "c1SongOfAgesPastSourceHp",
+        "source": "avatar_10000140",
+        "description": "C1 Waters in Full Splendor, OTHERS half: each Song of Ages Past healing tick (every 1.5s while her skill is up) increases all nearby party members' ATK by 0.8% of VODYANITSA's Max HP for 5s. Type her Max HP; blank assumes 50,000 (= +400 flat ATK).",
+        "gating": {
+          "constellationMin": 1
+        },
+        "statInput": {
+          "stat": "hp",
+          "default": 50000,
+          "max": 100000,
+          "ratesPerUnit": {
+            "atk": 0.008
+          }
+        },
+        "states": []
+      }
+    ]
+  }
+}

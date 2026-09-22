@@ -1,0 +1,91 @@
+{
+  "weapon_key": "11522",
+  "rarity": 5,
+  "display_name": "Beyond the Chrysalis",
+  "base_stats_json": {
+    "baseAtk": 674.3345459999999,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.441024
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "11522",
+        "conditionKey": "danceOfWingsUnbound",
+        "description": "R1 Dance of Wings Unbound: each Elemental Skill or Burst use grants the next effect in the sequence Devotion (+56% CRIT DMG, 10s) -> Defiance (+36% Stellar Swirl reaction DMG, 10s) -> Plenty (energy, not modelled), then repeats; the sequence resets on leaving the field. Two casts within 10s put Devotion and Defiance up together, which is the overlap state. Values are R1; R2-R5 are in refinementStates and the board's chosen refinement picks the tier.",
+        "states": {
+          "Winds of Devotion (CRIT DMG)": {
+            "critDMG_": 0.56
+          },
+          "Winds of Defiance (Stellar Swirl DMG)": {
+            "stellarswirl_dmg_": 0.36
+          },
+          "Devotion + Defiance overlapping": {
+            "critDMG_": 0.56,
+            "stellarswirl_dmg_": 0.36
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "Winds of Devotion (CRIT DMG)": {
+              "critDMG_": 0.72
+            },
+            "Winds of Defiance (Stellar Swirl DMG)": {
+              "stellarswirl_dmg_": 0.45
+            },
+            "Devotion + Defiance overlapping": {
+              "critDMG_": 0.72,
+              "stellarswirl_dmg_": 0.45
+            }
+          },
+          "R3": {
+            "Winds of Devotion (CRIT DMG)": {
+              "critDMG_": 0.88
+            },
+            "Winds of Defiance (Stellar Swirl DMG)": {
+              "stellarswirl_dmg_": 0.54
+            },
+            "Devotion + Defiance overlapping": {
+              "critDMG_": 0.88,
+              "stellarswirl_dmg_": 0.54
+            }
+          },
+          "R4": {
+            "Winds of Devotion (CRIT DMG)": {
+              "critDMG_": 1.04
+            },
+            "Winds of Defiance (Stellar Swirl DMG)": {
+              "stellarswirl_dmg_": 0.63
+            },
+            "Devotion + Defiance overlapping": {
+              "critDMG_": 1.04,
+              "stellarswirl_dmg_": 0.63
+            }
+          },
+          "R5": {
+            "Winds of Devotion (CRIT DMG)": {
+              "critDMG_": 1.2
+            },
+            "Winds of Defiance (Stellar Swirl DMG)": {
+              "stellarswirl_dmg_": 0.72
+            },
+            "Devotion + Defiance overlapping": {
+              "critDMG_": 1.2,
+              "stellarswirl_dmg_": 0.72
+            }
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "7.1",
+    "refinementModelled": "R1",
+    "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R1 (house convention: 4* at R5, 5* at R1, higher tiers in refinementStates). Vesna's signature."
+  }
+}

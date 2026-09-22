@@ -1,0 +1,677 @@
+{
+  "display_name": "Vesna",
+  "go_key": "Vesna",
+  "avatar_id": 10000143,
+  "character_key": "avatar_10000143",
+  "element": "anemo",
+  "weapon_type": "sword",
+  "enables": "stellar",
+  "constellation_talent_boosts": {
+    "skill": 3,
+    "burst": 5
+  },
+  "base_stats_json": {
+    "baseHp": 13262.322098,
+    "baseAtk": 353.984,
+    "baseDef": 730.126652,
+    "ascStatKey": "critRate_",
+    "ascStatValue": 0.192
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      },
+      "3": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
+      },
+      "4": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "4_mult"
+          }
+        ]
+      },
+      "5": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "5_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "plungeTier": "dmg"
+      },
+      "low": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ],
+        "plungeTier": "low"
+      },
+      "high": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ],
+        "plungeTier": "high"
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "skillDmg_mult"
+          }
+        ]
+      },
+      "windborneSword1Dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword1Dmg_mult"
+          }
+        ]
+      },
+      "windborneSword2Dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword2Dmg_mult"
+          }
+        ]
+      },
+      "windborneSword2SpiritBladeDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword2SpiritBladeDmg_mult"
+          }
+        ]
+      },
+      "windborneSword2SpiritBladeStellarswirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword2SpiritBladeStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "windborneSword3SpiritBladeDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword3SpiritBladeDmg_mult"
+          }
+        ]
+      },
+      "windborneSword3SpiritBladeStellarswirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword3SpiritBladeStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "windborneSword3SpiritBladeFinalDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword3SpiritBladeFinalDmg_mult"
+          }
+        ]
+      },
+      "windborneSword3SpiritBladeFinalStellarswirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windborneSword3SpiritBladeFinalStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "windPinionDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "windPinionDmg_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "spiritBladeDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spiritBladeDmg_mult"
+          }
+        ]
+      },
+      "spiritBladeStellarswirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spiritBladeStellarswirlDmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation6": {
+      "transposeDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "transposeDmg_mult"
+          }
+        ]
+      },
+      "transposeSpiritBladeDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "transposeSpiritBladeDmg_mult"
+          }
+        ]
+      },
+      "transposeSpiritBladeStellarswirlDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "spiritblade_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "transposeSpiritBladeStellarswirlDmg_mult"
+          }
+        ]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "boosted": {
+      "skill": {
+        "skillDmg_mult": 0.85,
+        "windborneSword1Dmg_mult": 0.85,
+        "windborneSword2Dmg_mult": 1.275,
+        "windborneSword2SpiritBladeDmg_mult": 2.38,
+        "windborneSword2SpiritBladeStellarswirlDmg_mult": 2.38,
+        "windborneSword3SpiritBladeDmg_mult": 0.952,
+        "windborneSword3SpiritBladeStellarswirlDmg_mult": 0.952,
+        "windborneSword3SpiritBladeFinalDmg_mult": 3.332,
+        "windborneSword3SpiritBladeFinalStellarswirlDmg_mult": 3.332,
+        "windPinionDmg_mult": 0.221
+      },
+      "burst": {
+        "spiritBladeDmg_mult": 5.593,
+        "spiritBladeStellarswirlDmg_mult": 5.593
+      }
+    },
+    "normal": {
+      "0_mult": 0.799,
+      "1_mult": 0.9622,
+      "2_mult": 0.55505,
+      "3_mult": 1.1696,
+      "4_mult": 1.2342,
+      "5_mult": 1.428
+    },
+    "charged": {
+      "dmg_mult": 2.6299,
+      "stam": 20.0
+    },
+    "plunging": {
+      "dmg_mult": 1.26378,
+      "low_mult": 2.527025,
+      "high_mult": 3.15639
+    },
+    "skill": {
+      "skillDmg_mult": 0.72,
+      "windborneSword1Dmg_mult": 0.72,
+      "windborneSword2Dmg_mult": 1.08,
+      "windborneSword2SpiritBladeDmg_mult": 2.016,
+      "windborneSword2SpiritBladeStellarswirlDmg_mult": 2.016,
+      "windborneSword3SpiritBladeDmg_mult": 0.8064,
+      "windborneSword3SpiritBladeStellarswirlDmg_mult": 0.8064,
+      "windborneSword3SpiritBladeFinalDmg_mult": 2.8224,
+      "windborneSword3SpiritBladeFinalStellarswirlDmg_mult": 2.8224,
+      "windPinionDmg_mult": 0.1872,
+      "armedForActionDuration": 15.0,
+      "cooldown": 18.0
+    },
+    "burst": {
+      "spiritBladeDmg_mult": 4.7376,
+      "spiritBladeStellarswirlDmg_mult": 4.7376,
+      "cooldown": 15.0,
+      "energy_cost": 60.0
+    },
+    "constellation6": {
+      "transposeDmg_mult": 1.5,
+      "transposeSpiritBladeDmg_mult": 2.0,
+      "transposeSpiritBladeStellarswirlDmg_mult": 2.0
+    },
+    "passive": {
+      "a1_disciplinaryAction_duration": 20.0,
+      "a1_disciplinaryAction_maxStacks": 6.0,
+      "a1_spiritBlade_baseDmg_perStack": 0.1,
+      "a4_atk_perCryoAnemoMember": 0.06,
+      "a4_eleMas_perOtherMember": 25.0,
+      "passive3_stellarSwirl_basedmg_per100Atk": 0.007,
+      "passive3_stellarSwirl_basedmg_cap": 0.14,
+      "passive3_radianceStellarSwirl_duration": 8.0
+    },
+    "constellation": {
+      "c1_windborneSwordMaxLevelUses": 4.0,
+      "c1_armedForAction_stellarSwirl_dmg_": 0.2,
+      "c2_maxDisciplinaryAction_atk_": 0.4,
+      "c4_truthPrevails_multiplier": 3.0,
+      "c6_transpose_window": 5.0,
+      "c6_transposeDmg_mult": 1.5,
+      "c6_transposeSpiritBladeDmg_mult": 2.0,
+      "c6_stellarSwirl_elevation": 0.2
+    },
+    "source": {
+      "provider": "nanoka",
+      "endpoint": "https://static.nanoka.cc/gi/7.1/en/character/10000143.json",
+      "nanokaVersion": "7.1",
+      "note": "Added 2026-09-22 (7.1 release day); Amber/yatta and Genshin Optimizer had no entry yet, so hit keys are GUESSES in GO's vocabulary (camelCased nanoka labels + Odette's *StellarswirlDmg spelling), to be reconciled once GO ships a Vesna sheet: normal 0-5 (GO's '3x2' convention: normal/2 is ONE 55.5% instance, weight it 2), charged dmg, plunging dmg/low/high, skill skillDmg / windborneSword1Dmg / windborneSword2Dmg / windborneSword2SpiritBladeDmg / windborneSword3SpiritBladeDmg (label says x4: ONE instance, weight it 4) / windborneSword3SpiritBladeFinalDmg / windPinionDmg, each Spirit Blade with a *StellarswirlDmg twin (same multiplier; the Radiance: Stellar Swirl form -- never score both forms of one instance), burst spiritBladeDmg + spiritBladeStellarswirlDmg, constellation6 transposeDmg + transposeSpiritBladeDmg (+ Stellar twin), 150% / 200% of ATK as fixed constants. INFUSION IS BAKED: Normal/Charged/Plunging are seeded Anemo, not physical, because Armed for Action (her Elemental Skill mode, the only state a Vesna rotation happens in) converts them and cannot be overridden -- the Cryo Traveler / Xiao exception, not the roster rule. The wind pinion (summoned alongside her attacks in that mode) and Windborne Sword are listed under the Elemental Skill in-game and are tagged skill_dmg_; the C6 Transpose strike is tagged skill_dmg_ on the same reading (it is 'the secret Vila ability', cast from the skill button) -- both are unverified classifications. Spirit Blade hits carry the spiritblade_dmg_ scope key in BOTH forms so A1 Disciplinary Action's base-DMG multiplier (spiritblade_base_dmg_) reaches them and nothing else.",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "skillTalentLevel": 10,
+        "burstTalentLevel": 10
+      }
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1DisciplinaryActionStacks",
+        "source": "avatar_10000143",
+        "description": "A1 Rite of Spring's Procession: each Windborne Sword or Elemental Burst use grants a Disciplinary Action stack (20s, max 6, cleared by casting The Art of Victory or leaving the field). With stacks up, Spirit Blades deal (100% + 10% x stacks) of their original DMG -- a base-DMG multiplier (spiritblade_base_dmg_) scoped to the Spirit Blade hits via their spiritblade_dmg_ key, in both plain and Stellar Swirl form; the sword strikes and wind pinion are untouched. Pick the average stack count over the rotation (C2 starts every Armed for Action at 6).",
+        "states": [
+          {
+            "value": "1 stack (+10%)",
+            "modifiers": {
+              "spiritblade_base_dmg_": 0.1
+            }
+          },
+          {
+            "value": "2 stacks (+20%)",
+            "modifiers": {
+              "spiritblade_base_dmg_": 0.2
+            }
+          },
+          {
+            "value": "3 stacks (+30%)",
+            "modifiers": {
+              "spiritblade_base_dmg_": 0.3
+            }
+          },
+          {
+            "value": "4 stacks (+40%)",
+            "modifiers": {
+              "spiritblade_base_dmg_": 0.4
+            }
+          },
+          {
+            "value": "5 stacks (+50%)",
+            "modifiers": {
+              "spiritblade_base_dmg_": 0.5
+            }
+          },
+          {
+            "value": "6 stacks (+60%), max",
+            "modifiers": {
+              "spiritblade_base_dmg_": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2MaxDisciplinaryActionAtk",
+        "source": "avatar_10000143",
+        "description": "C2 Kolo of Spring's Arrival: entering Armed for Action grants the maximum 6 Disciplinary Action stacks, and Vesna's ATK is increased by 40% while she has the maximum. Pair with a1DisciplinaryActionStacks at 6.",
+        "gating": {
+          "constellationMin": 2
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a4TruthPrevailsTeamComp",
+        "source": "avatar_10000143",
+        "description": "A4 Truth Prevails, active while Vesna is in Radiance: Stellar Swirl: for every Cryo or Anemo character in the party her ATK increases by 6%, and for every character of any other element her Elemental Mastery increases by 25 instead. Counted over all four slots INCLUDING Vesna herself (she is Anemo), so the two counts always add up to 4; if the in-game count turns out to exclude her, pick one Cryo/Anemo fewer. C4 triples both bonuses (the constellationStates block).",
+        "states": [
+          {
+            "value": "1 Cryo/Anemo incl. Vesna + 3 others",
+            "modifiers": {
+              "atk_": 0.06,
+              "eleMas": 75.0
+            }
+          },
+          {
+            "value": "2 Cryo/Anemo incl. Vesna + 2 others",
+            "modifiers": {
+              "atk_": 0.12,
+              "eleMas": 50.0
+            }
+          },
+          {
+            "value": "3 Cryo/Anemo incl. Vesna + 1 other",
+            "modifiers": {
+              "atk_": 0.18,
+              "eleMas": 25.0
+            }
+          },
+          {
+            "value": "4 Cryo/Anemo incl. Vesna + 0 others",
+            "modifiers": {
+              "atk_": 0.24
+            }
+          }
+        ],
+        "constellationStates": {
+          "C4": {
+            "1 Cryo/Anemo incl. Vesna + 3 others": {
+              "atk_": 0.18,
+              "eleMas": 225.0
+            },
+            "2 Cryo/Anemo incl. Vesna + 2 others": {
+              "atk_": 0.36,
+              "eleMas": 150.0
+            },
+            "3 Cryo/Anemo incl. Vesna + 1 other": {
+              "atk_": 0.54,
+              "eleMas": 75.0
+            },
+            "4 Cryo/Anemo incl. Vesna + 0 others": {
+              "atk_": 0.72
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "passive3StellarJubileeOwnAtk",
+        "source": "avatar_10000143",
+        "description": "Stellar Jubilee: Splendid Prelude -- a party member's Cryo Swirl becomes a Stellar Swirl reaction instead, and the party's Stellar Swirl BASE DMG is increased by 0.7% per 100 of VESNA's ATK, capped at +14% (reached at 2,000 ATK). SELF half, offered only when Vesna is the scored character: the stellarswirl_basedmg_from_atk_ / _cap_ conversion reads the build's own live post-buff ATK (so it sees A4 and C2). Same shape as Odette's Dance of Aurore, but targeting stellarswirl_basedmg_ rather than the Stellar Glimmer umbrella since Vesna only ever makes Stellar Swirl. Teammates use passive3StellarJubileeSourceAtk.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarswirl_basedmg_from_atk_": 7.000000000000001e-05,
+              "stellarswirl_basedmg_from_atk_cap_": 0.14
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1ArmedForActionStellarSwirl",
+        "source": "avatar_10000143",
+        "description": "C1 Winter's Farewell Feast: Vesna deals 20% increased Stellar Swirl reaction DMG while in Armed for Action (a DMG% bonus, stellarswirl_dmg_). The C1 also allows a 4th max-level Windborne Sword per Armed for Action and makes the first one free -- rotation length, not a modifier.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarswirl_dmg_": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6StellarSwirlElevation",
+        "source": "avatar_10000143",
+        "description": "C6 Unwavering Ardor: Vesna's Stellar Swirl reaction DMG is ELEVATED by 20% -- its own (1 + Elevation) bracket (stellarswirl_specialDmg_), not a DMG% bonus. The C6's Windborne Sword: Transpose hits are the constellation6 targets.",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarswirl_specialDmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "passive3StellarJubileeSourceAtk",
+        "source": "avatar_10000143",
+        "description": "Stellar Jubilee: Splendid Prelude -- a party member's Cryo Swirl becomes a Stellar Swirl reaction instead, and that reaction's BASE DMG is increased by 0.7% per 100 of VESNA's ATK, capped at +14% (reached at 2,000 ATK). OTHERS half, offered only when Vesna is a teammate: type her ATK; blank assumes the capped 2,000. When Vesna is the scored character the builder offers passive3StellarJubileeOwnAtk instead.",
+        "statInput": {
+          "stat": "atk",
+          "default": 2000,
+          "max": 6000,
+          "ratesPerUnit": {
+            "stellarswirl_basedmg_": 7.000000000000001e-05
+          },
+          "caps": {
+            "stellarswirl_basedmg_": 0.14
+          }
+        },
+        "states": []
+      }
+    ]
+  }
+}

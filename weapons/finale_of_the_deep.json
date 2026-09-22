@@ -17,17 +17,18 @@
             "atk_": 0.24
           }
         },
-        "description": "After using Elemental Skill (before it hits): ATK +24% for 15s..",
+        "description": "R5 Bond of Life Ascension: using the Elemental Skill grants +24% ATK for 15s (10s ICD) and a Bond of Life worth 25% of Max HP.",
         "conditionKey": "skill_hit"
       },
       {
         "source": "FinaleOfTheDeep",
         "states": {
           "active": {
-            "atk": 300
+            "atk_from_maxHp_": 0.012,
+            "atk_from_maxHp_cap_": 300
           }
         },
-        "description": "After bond cleared, 300 atk for 15s",
+        "description": "R5 Bond of Life Ascension: when the Bond of Life is cleared, ATK is increased by 4.8% of the Bond cleared for 15s, capped at 300. The Bond is 25% of Max HP, so this is 1.2% of the wielder's Max HP (atk_from_maxHp_ reads the build's own live Max HP) up to 300 flat ATK, reached at 25,000 HP. Was a flat 300 before 2026-09-22.",
         "conditionKey": "bond_cleared"
       }
     ],
