@@ -13,10 +13,27 @@
       {
         "source": "TheDockhandsAssistant",
         "conditionKey": "the_dockhands_assistant_roused",
-        "description": "R5 Sea Shanty: Using Elemental Skill or Burst while holding 3 Stoic's Symbols (gained from healing/being healed) consumes them and grants the Roused effect: +240 Elemental Mastery for 10s (80 EM per Symbol, max 3 Symbols).",
+        "description": "R5 Sea Shanty: Using Elemental Skill or Burst while holding 3 Stoic's Symbols (gained from healing/being healed) consumes them and grants the Roused effect: +240 Elemental Mastery for 10s (80 EM per Symbol, max 3 Symbols). refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "eleMas": 240
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "eleMas": 120.0
+            }
+          },
+          "R3": {
+            "active": {
+              "eleMas": 180.0
+            }
+          },
+          "R5": {
+            "active": {
+              "eleMas": 240
+            }
           }
         }
       }

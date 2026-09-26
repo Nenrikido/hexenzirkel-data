@@ -13,20 +13,54 @@
       {
         "source": "MitternachtsWaltz",
         "conditionKey": "mitternachts_waltz_after_normal_hit",
-        "description": "R5 Evernight Duet: Normal Attack hits on opponents increase Elemental Skill DMG by 40% for 5s.",
+        "description": "R5 Evernight Duet: Normal Attack hits on opponents increase Elemental Skill DMG by 40% for 5s. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "skill_dmg_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "skill_dmg_": 0.2
+            }
+          },
+          "R3": {
+            "active": {
+              "skill_dmg_": 0.3
+            }
+          },
+          "R5": {
+            "active": {
+              "skill_dmg_": 0.4
+            }
           }
         }
       },
       {
         "source": "MitternachtsWaltz",
         "conditionKey": "mitternachts_waltz_after_skill_hit",
-        "description": "R5 Evernight Duet: Elemental Skill hits on opponents increase Normal Attack DMG by 40% for 5s.",
+        "description": "R5 Evernight Duet: Elemental Skill hits on opponents increase Normal Attack DMG by 40% for 5s. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "normal_dmg_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "normal_dmg_": 0.2
+            }
+          },
+          "R3": {
+            "active": {
+              "normal_dmg_": 0.3
+            }
+          },
+          "R5": {
+            "active": {
+              "normal_dmg_": 0.4
+            }
           }
         }
       }

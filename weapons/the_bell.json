@@ -13,10 +13,27 @@
       {
         "source": "TheBell",
         "conditionKey": "the_bell_shielded",
-        "description": "R5 Rebellious Guardian: While protected by the shield generated on taking DMG, the character gains 24% increased DMG.",
+        "description": "R5 Rebellious Guardian: While protected by the shield generated on taking DMG, the character gains 24% increased DMG. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "all_dmg_": 0.24
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "all_dmg_": 0.12
+            }
+          },
+          "R3": {
+            "active": {
+              "all_dmg_": 0.18
+            }
+          },
+          "R5": {
+            "active": {
+              "all_dmg_": 0.24
+            }
           }
         }
       }

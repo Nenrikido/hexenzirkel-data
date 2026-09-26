@@ -8,11 +8,29 @@
     "subStatValue": 165.38400000000001
   },
   "buffs": {
-    "self_modifiers_json": {
-      "skill_dmg_": 0.48,
-      "burst_dmg_": 0.48
-    },
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "The Stringless",
+        "conditionKey": "the_stringless_passive",
+        "refinementTiered": true,
+        "description": "Elemental Skill and Burst DMG +24/36/48% (R1/R3/R5). Unconditional, so it is auto-applied (no admin toggle) at the leaderboard's chosen refinement for this weapon. Lived in self_modifiers_json at its R5 value until 2026-09-26, when gacha 4* weapons got R1/R3/R5 tiers.",
+        "states": {
+          "R1": {
+            "skill_dmg_": 0.24,
+            "burst_dmg_": 0.24
+          },
+          "R3": {
+            "skill_dmg_": 0.36,
+            "burst_dmg_": 0.36
+          },
+          "R5": {
+            "skill_dmg_": 0.48,
+            "burst_dmg_": 0.48
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   },

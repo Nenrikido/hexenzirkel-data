@@ -13,10 +13,27 @@
       {
         "source": "SturdyBone",
         "conditionKey": "sturdy_bone_trappers_pride",
-        "description": "R5 Trapper's Pride: after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 32% of ATK (expires after 18 triggers or 7s). Stamina consumption reduction not modeled (non-combat).",
+        "description": "R5 Trapper's Pride: after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 32% of ATK (expires after 18 triggers or 7s). Stamina consumption reduction not modeled (non-combat). refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "normal_dmgIncFromAtk_": 0.32
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "normal_dmgIncFromAtk_": 0.16
+            }
+          },
+          "R3": {
+            "active": {
+              "normal_dmgIncFromAtk_": 0.24
+            }
+          },
+          "R5": {
+            "active": {
+              "normal_dmgIncFromAtk_": 0.32
+            }
           }
         }
       }

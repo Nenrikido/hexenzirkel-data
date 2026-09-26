@@ -13,7 +13,7 @@
       {
         "source": "14437",
         "conditionKey": "bloodPactCryoMembers",
-        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Cryo half of the base mode (EM); pair it with bloodPactElectroMembers, and do not combine either with the Radiance entry.",
+        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Cryo half of the base mode (EM); pair it with bloodPactElectroMembers, and do not combine either with the Radiance entry. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "1 Cryo": {
             "eleMas": 48.0
@@ -27,12 +27,56 @@
           "4 Cryo": {
             "eleMas": 192.0
           }
+        },
+        "refinementStates": {
+          "R1": {
+            "1 Cryo": {
+              "eleMas": 24.0
+            },
+            "2 Cryo": {
+              "eleMas": 48.0
+            },
+            "3 Cryo": {
+              "eleMas": 72.0
+            },
+            "4 Cryo": {
+              "eleMas": 96.0
+            }
+          },
+          "R3": {
+            "1 Cryo": {
+              "eleMas": 36.0
+            },
+            "2 Cryo": {
+              "eleMas": 72.0
+            },
+            "3 Cryo": {
+              "eleMas": 108.0
+            },
+            "4 Cryo": {
+              "eleMas": 144.0
+            }
+          },
+          "R5": {
+            "1 Cryo": {
+              "eleMas": 48.0
+            },
+            "2 Cryo": {
+              "eleMas": 96.0
+            },
+            "3 Cryo": {
+              "eleMas": 144.0
+            },
+            "4 Cryo": {
+              "eleMas": 192.0
+            }
+          }
         }
       },
       {
         "source": "14437",
         "conditionKey": "bloodPactElectroMembers",
-        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Electro half of the base mode (ATK); pair it with bloodPactCryoMembers, and do not combine either with the Radiance entry.",
+        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Electro half of the base mode (ATK); pair it with bloodPactCryoMembers, and do not combine either with the Radiance entry. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "1 Electro": {
             "atk_": 0.096
@@ -46,12 +90,56 @@
           "4 Electro": {
             "atk_": 0.384
           }
+        },
+        "refinementStates": {
+          "R1": {
+            "1 Electro": {
+              "atk_": 0.048
+            },
+            "2 Electro": {
+              "atk_": 0.096
+            },
+            "3 Electro": {
+              "atk_": 0.144
+            },
+            "4 Electro": {
+              "atk_": 0.192
+            }
+          },
+          "R3": {
+            "1 Electro": {
+              "atk_": 0.072
+            },
+            "2 Electro": {
+              "atk_": 0.144
+            },
+            "3 Electro": {
+              "atk_": 0.216
+            },
+            "4 Electro": {
+              "atk_": 0.288
+            }
+          },
+          "R5": {
+            "1 Electro": {
+              "atk_": 0.096
+            },
+            "2 Electro": {
+              "atk_": 0.192
+            },
+            "3 Electro": {
+              "atk_": 0.288
+            },
+            "4 Electro": {
+              "atk_": 0.384
+            }
+          }
         }
       },
       {
         "source": "14437",
         "conditionKey": "bloodPactRadianceStellarGlimmer",
-        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Radiance: Stellar Glimmer mode: count every Cryo and Electro member together. Exclusive with the two base-mode entries.",
+        "description": "R5 Secrets of Frost, Silver-Tinged Blood Pact: the wielder gains +48 EM per Cryo party member and +9.6% ATK per Electro party member (up to 4 providers, counting the wielder). Under Radiance: Stellar Glimmer it becomes +40 EM and +12% Stellar Glimmer reaction DMG per Cryo OR Electro member instead. This entry is the Radiance: Stellar Glimmer mode: count every Cryo and Electro member together. Exclusive with the two base-mode entries. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "1 Cryo/Electro": {
             "eleMas": 40.0,
@@ -68,6 +156,62 @@
           "4 Cryo/Electro": {
             "eleMas": 160.0,
             "stellarglimmer_dmg_": 0.48
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "1 Cryo/Electro": {
+              "eleMas": 20.0,
+              "stellarglimmer_dmg_": 0.06
+            },
+            "2 Cryo/Electro": {
+              "eleMas": 40.0,
+              "stellarglimmer_dmg_": 0.12
+            },
+            "3 Cryo/Electro": {
+              "eleMas": 60.0,
+              "stellarglimmer_dmg_": 0.18
+            },
+            "4 Cryo/Electro": {
+              "eleMas": 80.0,
+              "stellarglimmer_dmg_": 0.24
+            }
+          },
+          "R3": {
+            "1 Cryo/Electro": {
+              "eleMas": 30.0,
+              "stellarglimmer_dmg_": 0.09
+            },
+            "2 Cryo/Electro": {
+              "eleMas": 60.0,
+              "stellarglimmer_dmg_": 0.18
+            },
+            "3 Cryo/Electro": {
+              "eleMas": 90.0,
+              "stellarglimmer_dmg_": 0.27
+            },
+            "4 Cryo/Electro": {
+              "eleMas": 120.0,
+              "stellarglimmer_dmg_": 0.36
+            }
+          },
+          "R5": {
+            "1 Cryo/Electro": {
+              "eleMas": 40.0,
+              "stellarglimmer_dmg_": 0.12
+            },
+            "2 Cryo/Electro": {
+              "eleMas": 80.0,
+              "stellarglimmer_dmg_": 0.24
+            },
+            "3 Cryo/Electro": {
+              "eleMas": 120.0,
+              "stellarglimmer_dmg_": 0.36
+            },
+            "4 Cryo/Electro": {
+              "eleMas": 160.0,
+              "stellarglimmer_dmg_": 0.48
+            }
           }
         }
       }

@@ -8,18 +8,58 @@
     "subStatValue": 0.27564
   },
   "buffs": {
-    "self_modifiers_json": {
-      "plunging_critRate_": 0.32
-    },
+    "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
+      {
+        "source": "Fruitful Hook",
+        "conditionKey": "fruitful_hook_passive",
+        "refinementTiered": true,
+        "description": "Plunging Attack CRIT Rate +16/24/32% (R1/R3/R5). Unconditional, so it is auto-applied (no admin toggle) at the leaderboard's chosen refinement for this weapon. Lived in self_modifiers_json at its R5 value until 2026-09-26, when gacha 4* weapons got R1/R3/R5 tiers.",
+        "states": {
+          "R1": {
+            "plunging_critRate_": 0.16
+          },
+          "R3": {
+            "plunging_critRate_": 0.24
+          },
+          "R5": {
+            "plunging_critRate_": 0.32
+          }
+        }
+      },
       {
         "source": "12430",
         "conditionKey": "after_plunging_attack_hit",
-        "description": "R5 The Weight of Falling Branches: after a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG is increased by 32% for 10s.",
-        "modifiers": {
-          "normal_dmg_": 0.32,
-          "charged_dmg_": 0.32,
-          "plunging_dmg_": 0.32
+        "description": "R5 The Weight of Falling Branches: after a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG is increased by 32% for 10s. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "normal_dmg_": 0.32,
+            "charged_dmg_": 0.32,
+            "plunging_dmg_": 0.32
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "normal_dmg_": 0.16,
+              "charged_dmg_": 0.16,
+              "plunging_dmg_": 0.16
+            }
+          },
+          "R3": {
+            "active": {
+              "normal_dmg_": 0.24,
+              "charged_dmg_": 0.24,
+              "plunging_dmg_": 0.24
+            }
+          },
+          "R5": {
+            "active": {
+              "normal_dmg_": 0.32,
+              "charged_dmg_": 0.32,
+              "plunging_dmg_": 0.32
+            }
+          }
         }
       }
     ],

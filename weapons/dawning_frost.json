@@ -13,17 +13,55 @@
       {
         "conditionKey": "afterChargedAttack",
         "source": "DawningFrost",
-        "description": "After Charged Attack: +144 EM (R5 model).",
-        "modifiers": {
-          "eleMas": 144.0
+        "description": "After Charged Attack: +144 EM (R5 model). refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "eleMas": 144.0
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "eleMas": 72.0
+            }
+          },
+          "R3": {
+            "active": {
+              "eleMas": 108.0
+            }
+          },
+          "R5": {
+            "active": {
+              "eleMas": 144.0
+            }
+          }
         }
       },
       {
         "conditionKey": "afterSkill",
         "source": "DawningFrost",
-        "description": "After Skill: +96 EM (R5 model).",
-        "modifiers": {
-          "eleMas": 96.0
+        "description": "After Skill: +96 EM (R5 model). refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "eleMas": 96.0
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "eleMas": 48.0
+            }
+          },
+          "R3": {
+            "active": {
+              "eleMas": 72.0
+            }
+          },
+          "R5": {
+            "active": {
+              "eleMas": 96.0
+            }
+          }
         }
       }
     ],

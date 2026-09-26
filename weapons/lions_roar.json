@@ -13,7 +13,7 @@
       {
         "conditionKey": "lions_roar_bane_of_fire_and_thunder",
         "source": "LionsRoar",
-        "description": "Bane of Fire and Thunder (R5): DMG dealt to opponents affected by Pyro or Electro is increased by 36%.",
+        "description": "Bane of Fire and Thunder (R5): DMG dealt to opponents affected by Pyro or Electro is increased by 36%. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": [
           {
             "value": "on",
@@ -22,7 +22,27 @@
               "electro_dmg_": 0.36
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R1": {
+            "on": {
+              "pyro_dmg_": 0.2,
+              "electro_dmg_": 0.2
+            }
+          },
+          "R3": {
+            "on": {
+              "pyro_dmg_": 0.28,
+              "electro_dmg_": 0.28
+            }
+          },
+          "R5": {
+            "on": {
+              "pyro_dmg_": 0.36,
+              "electro_dmg_": 0.36
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

@@ -8,19 +8,52 @@
     "subStatValue": 0.27564
   },
   "buffs": {
-    "self_modifiers_json": {
-      "enerRech_": 0.4
-    },
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Breezeborne Refrain",
+        "conditionKey": "breezeborne_refrain_passive",
+        "refinementTiered": true,
+        "description": "Viper's Ballad: Energy Recharge +20/30/40% (R1/R3/R5). Unconditional, so it is auto-applied (no admin toggle) at the leaderboard's chosen refinement for this weapon. Lived in self_modifiers_json at its R5 value until 2026-09-26, when gacha 4* weapons got R1/R3/R5 tiers.",
+        "states": {
+          "R1": {
+            "enerRech_": 0.2
+          },
+          "R3": {
+            "enerRech_": 0.3
+          },
+          "R5": {
+            "enerRech_": 0.4
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
         "source": "15437",
         "conditionKey": "thusLiedTheViper",
-        "description": "R5 Viper's Ballad: three Elemental Skill / Burst hits (0.03s ICD, so one multi-hit cast) convert Hymn of the Pure into Thus Lied the Viper: nearby party members deal +48% Stellar Glimmer reaction DMG for 12s (umbrella key, both Stellar reactions), during which no new stacks accrue. Works off-field. Team scope: reaches the wielder and everyone else.",
+        "description": "R5 Viper's Ballad: three Elemental Skill / Burst hits (0.03s ICD, so one multi-hit cast) convert Hymn of the Pure into Thus Lied the Viper: nearby party members deal +48% Stellar Glimmer reaction DMG for 12s (umbrella key, both Stellar reactions), during which no new stacks accrue. Works off-field. Team scope: reaches the wielder and everyone else. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "on": {
             "stellarglimmer_dmg_": 0.48
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "on": {
+              "stellarglimmer_dmg_": 0.24
+            }
+          },
+          "R3": {
+            "on": {
+              "stellarglimmer_dmg_": 0.36
+            }
+          },
+          "R5": {
+            "on": {
+              "stellarglimmer_dmg_": 0.48
+            }
           }
         }
       }

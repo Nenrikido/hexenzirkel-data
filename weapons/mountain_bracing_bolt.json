@@ -8,17 +8,49 @@
     "subStatValue": 0.30626819800000005
   },
   "buffs": {
-    "self_modifiers_json": {
-      "skill_dmg_": 0.24
-    },
+    "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
+      {
+        "source": "Mountain-Bracing Bolt",
+        "conditionKey": "mountain_bracing_bolt_passive",
+        "refinementTiered": true,
+        "description": "Elemental Skill DMG +12/18/24% (R1/R3/R5); the ally-skill bonus is the separate conditional. Unconditional, so it is auto-applied (no admin toggle) at the leaderboard's chosen refinement for this weapon. Lived in self_modifiers_json at its R5 value until 2026-09-26, when gacha 4* weapons got R1/R3/R5 tiers.",
+        "states": {
+          "R1": {
+            "skill_dmg_": 0.12
+          },
+          "R3": {
+            "skill_dmg_": 0.18
+          },
+          "R5": {
+            "skill_dmg_": 0.24
+          }
+        }
+      },
       {
         "source": "MountainBracingBolt",
         "conditionKey": "mountain_bracing_bolt_ally_skill_proc",
-        "description": "Hope Beyond the Peaks (R5): after nearby party members use Elemental Skills, the wielder's Elemental Skill DMG is further increased by 24% for 8s (stacking on top of the always-on +24%). Climbing Stamina reduction not modeled (non-combat).",
+        "description": "Hope Beyond the Peaks (R5): after nearby party members use Elemental Skills, the wielder's Elemental Skill DMG is further increased by 24% for 8s (stacking on top of the always-on +24%). Climbing Stamina reduction not modeled (non-combat). refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "skill_dmg_": 0.24
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "skill_dmg_": 0.12
+            }
+          },
+          "R3": {
+            "active": {
+              "skill_dmg_": 0.18
+            }
+          },
+          "R5": {
+            "active": {
+              "skill_dmg_": 0.24
+            }
           }
         }
       }

@@ -8,14 +8,29 @@
     "subStatValue": 0.27564
   },
   "buffs": {
-    "self_modifiers_json": {
-      "burst_dmg_": 0.4
-    },
+    "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
+      {
+        "source": "Moonweaver's Dawn",
+        "conditionKey": "moonweavers_dawn_passive",
+        "refinementTiered": true,
+        "description": "Elemental Burst DMG +20/30/40% (R1/R3/R5); the energy-capacity bonus is the separate conditional. Unconditional, so it is auto-applied (no admin toggle) at the leaderboard's chosen refinement for this weapon. Lived in self_modifiers_json at its R5 value until 2026-09-26, when gacha 4* weapons got R1/R3/R5 tiers.",
+        "states": {
+          "R1": {
+            "burst_dmg_": 0.2
+          },
+          "R3": {
+            "burst_dmg_": 0.3
+          },
+          "R5": {
+            "burst_dmg_": 0.4
+          }
+        }
+      },
       {
         "source": "MoonweaversDawn",
         "conditionKey": "moonweavers_dawn_energy_cost_tier",
-        "description": "R5 Secret Silver's Testament: if the equipping character's Energy Cost does not exceed 60, Burst DMG +32% (additional); if it does not exceed 40, +56% instead. Select the wielder's Energy Cost tier.",
+        "description": "R5 Secret Silver's Testament: if the equipping character's Energy Cost does not exceed 60, Burst DMG +32% (additional); if it does not exceed 40, +56% instead. Select the wielder's Energy Cost tier. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "none": {},
           "cost_le_60": {
@@ -23,6 +38,35 @@
           },
           "cost_le_40": {
             "burst_dmg_": 0.56
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "none": {},
+            "cost_le_60": {
+              "burst_dmg_": 0.16
+            },
+            "cost_le_40": {
+              "burst_dmg_": 0.28
+            }
+          },
+          "R3": {
+            "none": {},
+            "cost_le_60": {
+              "burst_dmg_": 0.24
+            },
+            "cost_le_40": {
+              "burst_dmg_": 0.42
+            }
+          },
+          "R5": {
+            "none": {},
+            "cost_le_60": {
+              "burst_dmg_": 0.32
+            },
+            "cost_le_40": {
+              "burst_dmg_": 0.56
+            }
           }
         }
       }

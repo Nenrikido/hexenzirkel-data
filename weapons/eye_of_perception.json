@@ -13,11 +13,31 @@
       {
         "source": "EyeOfPerception",
         "conditionKey": "eye_of_perception_bolt",
-        "description": "R5 Echo: Normal/Charged Attack hits have a 50% chance (CD 8s) to fire a Bolt of Perception dealing 360% ATK DMG, which can bounce to up to 4 additional opponents; modeled as a supplementary hit on the primary target — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses (bounce DMG to other targets not modeled).",
+        "description": "R5 Echo: Normal/Charged Attack hits have a 50% chance (CD 8s) to fire a Bolt of Perception dealing 360% ATK DMG, which can bounce to up to 4 additional opponents; modeled as a supplementary hit on the primary target — its own rotation target (weapon/normalExtraHit + weapon/chargedExtraHit), weight = how many times it procs; physical, scales with ATK and CRIT only, no DMG% bonuses (bounce DMG to other targets not modeled). refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "normal_extraHitFromAtk_": 3.6,
             "charged_extraHitFromAtk_": 3.6
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "normal_extraHitFromAtk_": 2.4,
+              "charged_extraHitFromAtk_": 2.4
+            }
+          },
+          "R3": {
+            "active": {
+              "normal_extraHitFromAtk_": 3.0,
+              "charged_extraHitFromAtk_": 3.0
+            }
+          },
+          "R5": {
+            "active": {
+              "normal_extraHitFromAtk_": 3.6,
+              "charged_extraHitFromAtk_": 3.6
+            }
           }
         }
       }

@@ -13,10 +13,27 @@
       {
         "source": "Rainslasher",
         "conditionKey": "rainslasher_vs_hydro_electro",
-        "description": "Bane of Storm and Tide (R5): Increases DMG against opponents affected by Hydro or Electro by 36%.",
+        "description": "Bane of Storm and Tide (R5): Increases DMG against opponents affected by Hydro or Electro by 36%. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "all_dmg_": 0.36
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "all_dmg_": 0.2
+            }
+          },
+          "R3": {
+            "active": {
+              "all_dmg_": 0.28
+            }
+          },
+          "R5": {
+            "active": {
+              "all_dmg_": 0.36
+            }
           }
         }
       }

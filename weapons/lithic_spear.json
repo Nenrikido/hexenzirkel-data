@@ -13,7 +13,7 @@
       {
         "source": "LithicSpear",
         "conditionKey": "lithic_spear_axiom_unity",
-        "description": "R5 Lithic Axiom: Unity: for each party member (including the wielder) who hails from Liyue, ATK +11% and CRIT Rate +7%, max 4 stacks. Select the number of Liyue party members.",
+        "description": "R5 Lithic Axiom: Unity: for each party member (including the wielder) who hails from Liyue, ATK +11% and CRIT Rate +7%, max 4 stacks. Select the number of Liyue party members. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "0": {},
           "1": {
@@ -31,6 +31,65 @@
           "4": {
             "atk_": 0.44,
             "critRate_": 0.28
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "0": {},
+            "1": {
+              "atk_": 0.07,
+              "critRate_": 0.03
+            },
+            "2": {
+              "atk_": 0.14,
+              "critRate_": 0.06
+            },
+            "3": {
+              "atk_": 0.21,
+              "critRate_": 0.09
+            },
+            "4": {
+              "atk_": 0.28,
+              "critRate_": 0.12
+            }
+          },
+          "R3": {
+            "0": {},
+            "1": {
+              "atk_": 0.09,
+              "critRate_": 0.05
+            },
+            "2": {
+              "atk_": 0.18,
+              "critRate_": 0.1
+            },
+            "3": {
+              "atk_": 0.27,
+              "critRate_": 0.15
+            },
+            "4": {
+              "atk_": 0.36,
+              "critRate_": 0.2
+            }
+          },
+          "R5": {
+            "0": {},
+            "1": {
+              "atk_": 0.11,
+              "critRate_": 0.07
+            },
+            "2": {
+              "atk_": 0.22,
+              "critRate_": 0.14
+            },
+            "3": {
+              "atk_": 0.33,
+              "critRate_": 0.21
+            },
+            "4": {
+              "atk_": 0.44,
+              "critRate_": 0.28
+            }
           }
         }
       }

@@ -13,16 +13,36 @@
       {
         "conditionKey": "baneOfTheSwirlingMortal",
         "source": "DragonsBane",
-        "description": "Bane of the Swirling Mortal (R1): DMG dealt to opponents affected by Hydro or Pyro is increased by 20%.",
+        "description": "Bane of the Swirling Mortal (R5): DMG dealt to opponents affected by Hydro or Pyro is increased by 36% (20/28/36% at R1/R3/R5). Was authored at the R1 20% until 2026-09-26, although 4* weapons are authored at R5. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": [
           {
             "value": "on",
             "modifiers": {
+              "hydro_dmg_": 0.36,
+              "pyro_dmg_": 0.36
+            }
+          }
+        ],
+        "refinementStates": {
+          "R1": {
+            "on": {
               "hydro_dmg_": 0.2,
               "pyro_dmg_": 0.2
             }
+          },
+          "R3": {
+            "on": {
+              "hydro_dmg_": 0.28,
+              "pyro_dmg_": 0.28
+            }
+          },
+          "R5": {
+            "on": {
+              "hydro_dmg_": 0.36,
+              "pyro_dmg_": 0.36
+            }
           }
-        ]
+        }
       }
     ],
     "team_modifiers_json": {},

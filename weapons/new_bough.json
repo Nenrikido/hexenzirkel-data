@@ -13,7 +13,7 @@
       {
         "source": "11437",
         "conditionKey": "verdantStacks",
-        "description": "R5 Wildgrowth: hitting an opponent within 12s of using the Elemental Skill grants a Verdant stack (6s, once per second, max 3): +8% ATK and +40 EM per stack. Under Radiance: Stellar Glimmer the stack is instead +12% ATK and +16% Stellar Glimmer reaction DMG (umbrella key, reaches both Stellar reactions). Works off-field. Pick the stack count and the mode the rotation runs in.",
+        "description": "R5 Wildgrowth: hitting an opponent within 12s of using the Elemental Skill grants a Verdant stack (6s, once per second, max 3): +8% ATK and +40 EM per stack. Under Radiance: Stellar Glimmer the stack is instead +12% ATK and +16% Stellar Glimmer reaction DMG (umbrella key, reaches both Stellar reactions). Works off-field. Pick the stack count and the mode the rotation runs in. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "1 stack": {
             "atk_": 0.08,
@@ -38,6 +38,86 @@
           "3 stacks (Radiance: Stellar Glimmer)": {
             "atk_": 0.36,
             "stellarglimmer_dmg_": 0.48
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "1 stack": {
+              "atk_": 0.04,
+              "eleMas": 20.0
+            },
+            "2 stacks": {
+              "atk_": 0.08,
+              "eleMas": 40.0
+            },
+            "3 stacks": {
+              "atk_": 0.12,
+              "eleMas": 60.0
+            },
+            "1 stack (Radiance: Stellar Glimmer)": {
+              "atk_": 0.06,
+              "stellarglimmer_dmg_": 0.08
+            },
+            "2 stacks (Radiance: Stellar Glimmer)": {
+              "atk_": 0.12,
+              "stellarglimmer_dmg_": 0.16
+            },
+            "3 stacks (Radiance: Stellar Glimmer)": {
+              "atk_": 0.18,
+              "stellarglimmer_dmg_": 0.24
+            }
+          },
+          "R3": {
+            "1 stack": {
+              "atk_": 0.06,
+              "eleMas": 30.0
+            },
+            "2 stacks": {
+              "atk_": 0.12,
+              "eleMas": 60.0
+            },
+            "3 stacks": {
+              "atk_": 0.18,
+              "eleMas": 90.0
+            },
+            "1 stack (Radiance: Stellar Glimmer)": {
+              "atk_": 0.09,
+              "stellarglimmer_dmg_": 0.12
+            },
+            "2 stacks (Radiance: Stellar Glimmer)": {
+              "atk_": 0.18,
+              "stellarglimmer_dmg_": 0.24
+            },
+            "3 stacks (Radiance: Stellar Glimmer)": {
+              "atk_": 0.27,
+              "stellarglimmer_dmg_": 0.36
+            }
+          },
+          "R5": {
+            "1 stack": {
+              "atk_": 0.08,
+              "eleMas": 40.0
+            },
+            "2 stacks": {
+              "atk_": 0.16,
+              "eleMas": 80.0
+            },
+            "3 stacks": {
+              "atk_": 0.24,
+              "eleMas": 120.0
+            },
+            "1 stack (Radiance: Stellar Glimmer)": {
+              "atk_": 0.12,
+              "stellarglimmer_dmg_": 0.16
+            },
+            "2 stacks (Radiance: Stellar Glimmer)": {
+              "atk_": 0.24,
+              "stellarglimmer_dmg_": 0.32
+            },
+            "3 stacks (Radiance: Stellar Glimmer)": {
+              "atk_": 0.36,
+              "stellarglimmer_dmg_": 0.48
+            }
           }
         }
       }

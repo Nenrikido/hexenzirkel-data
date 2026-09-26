@@ -8,11 +8,29 @@
     "subStatValue": 0.09188
   },
   "buffs": {
-    "self_modifiers_json": {
-      "atk_": 0.48,
-      "enerRech_": 0.36
-    },
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Sacrificer's Staff",
+        "conditionKey": "sacrificers_staff_passive",
+        "refinementTiered": true,
+        "description": "After an Elemental Skill hits: ATK +8/12/16% and Energy Recharge +6/9/12% per stack (R1/R3/R5), modelled at the full 3 stacks (it re-triggers off-field, so it is treated as always up). Unconditional, so it is auto-applied (no admin toggle) at the leaderboard's chosen refinement for this weapon. Lived in self_modifiers_json at its R5 value until 2026-09-26, when gacha 4* weapons got R1/R3/R5 tiers.",
+        "states": {
+          "R1": {
+            "atk_": 0.24,
+            "enerRech_": 0.18
+          },
+          "R3": {
+            "atk_": 0.36,
+            "enerRech_": 0.27
+          },
+          "R5": {
+            "atk_": 0.48,
+            "enerRech_": 0.36
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   },

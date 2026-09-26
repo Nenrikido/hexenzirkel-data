@@ -13,16 +13,114 @@
       {
         "conditionKey": "r5InflorescenceStacks",
         "source": "Flower-Wreathed Feathers",
-        "description": "R5 Inflorescence Unattainable: while using Aimed Shots, Charged Attack DMG +12% every 0.5s, stacking up to 6 times (max +72%); removed 10s after leaving Aiming Mode. Gliding stamina reduction is not damage-relevant and is not modeled. Select the stack count.",
+        "description": "R5 Inflorescence Unattainable: while using Aimed Shots, Charged Attack DMG +12% every 0.5s, stacking up to 6 times (max +72%); removed 10s after leaving Aiming Mode. Gliding stamina reduction is not damage-relevant and is not modeled. Select the stack count. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": [
-          { "value": "0", "modifiers": {} },
-          { "value": "1", "modifiers": { "charged_dmg_": 0.12 } },
-          { "value": "2", "modifiers": { "charged_dmg_": 0.24 } },
-          { "value": "3", "modifiers": { "charged_dmg_": 0.36 } },
-          { "value": "4", "modifiers": { "charged_dmg_": 0.48 } },
-          { "value": "5", "modifiers": { "charged_dmg_": 0.6 } },
-          { "value": "6", "modifiers": { "charged_dmg_": 0.72 } }
-        ]
+          {
+            "value": "0",
+            "modifiers": {}
+          },
+          {
+            "value": "1",
+            "modifiers": {
+              "charged_dmg_": 0.12
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "charged_dmg_": 0.24
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "charged_dmg_": 0.36
+            }
+          },
+          {
+            "value": "4",
+            "modifiers": {
+              "charged_dmg_": 0.48
+            }
+          },
+          {
+            "value": "5",
+            "modifiers": {
+              "charged_dmg_": 0.6
+            }
+          },
+          {
+            "value": "6",
+            "modifiers": {
+              "charged_dmg_": 0.72
+            }
+          }
+        ],
+        "refinementStates": {
+          "R1": {
+            "0": {},
+            "1": {
+              "charged_dmg_": 0.06
+            },
+            "2": {
+              "charged_dmg_": 0.12
+            },
+            "3": {
+              "charged_dmg_": 0.18
+            },
+            "4": {
+              "charged_dmg_": 0.24
+            },
+            "5": {
+              "charged_dmg_": 0.3
+            },
+            "6": {
+              "charged_dmg_": 0.36
+            }
+          },
+          "R3": {
+            "0": {},
+            "1": {
+              "charged_dmg_": 0.09
+            },
+            "2": {
+              "charged_dmg_": 0.18
+            },
+            "3": {
+              "charged_dmg_": 0.27
+            },
+            "4": {
+              "charged_dmg_": 0.36
+            },
+            "5": {
+              "charged_dmg_": 0.45
+            },
+            "6": {
+              "charged_dmg_": 0.54
+            }
+          },
+          "R5": {
+            "0": {},
+            "1": {
+              "charged_dmg_": 0.12
+            },
+            "2": {
+              "charged_dmg_": 0.24
+            },
+            "3": {
+              "charged_dmg_": 0.36
+            },
+            "4": {
+              "charged_dmg_": 0.48
+            },
+            "5": {
+              "charged_dmg_": 0.6
+            },
+            "6": {
+              "charged_dmg_": 0.72
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

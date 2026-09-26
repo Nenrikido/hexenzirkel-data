@@ -201,8 +201,24 @@ before. Tiers other than R5 are fine — Exaiphanes Blade declares R3 and R5, an
 uses an all-zero R1 tier for the half of its passive that does not exist until
 R2.
 
-Do **not** add `refinementStates` to a 4*/3* weapon: those are already authored
-at R5, which is the tier they are assumed to be at.
+**Gacha 4* weapons carry R1, R3 and R5.** Their `states` stay the **R5** tier
+(a 4* board defaults to R5), so their `refinementStates` must declare **R1, R3
+and R5** — R5 restating `states`. Leaving R5 out would make an R5 board read
+R3, and leaving R1 out would make R1 fall through to the R5 `states`;
+`tests/test_seed_weapon_refinement_tiers.py` enforces both. An entry authored
+as a bare `modifiers` map has no state name to key tiers by, so give it the
+usual single `"active"` state first.
+
+A 4* passive's **unconditional** part cannot live in `self_modifiers_json`,
+which has no refinement axis: put it in a self conditional with
+`"refinementTiered": true` and `states` keyed `R1`/`R3`/`R5` (see *Refinement-
+tiered weapon conditions* below). It is auto-applied, shown locked in the admin
+builder, and picked by the weapon's chosen refinement (The Stringless, Rust,
+The Alley Flash, Breezeborne Refrain, …).
+
+Craftable / event / Battle Pass 4* weapons (reliably R5) and 3* weapons are
+authored at R5 only; tiers are optional there. The gacha set is the fandom
+wiki's "Wish Pool Includes <weapon>" categories.
 
 **`constellationStates`** is the same idea for characters, keyed `"C<n>"`, and is
 resolved by the same helper. Use it when a buff **already applies at C0** but its
@@ -427,7 +443,12 @@ refinement tier** instead of by game state:
 
 Both are the Desert Pavilion family (Makhaira Aquamarine, Wandering Evenstar,
 Xiphos' Moonlight). For anything new, prefer `statInput` (for a source-scaled
-value) or `refinementStates` (for a plain magnitude change).
+value) or `refinementStates` (for a plain magnitude change) — except the
+unconditional part of a gacha 4* passive, which uses `refinementTiered` (see
+above). A `refinementTiered` entry is only auto-applied by the per-weapon
+main-pool pass (`build_weapon_specific_leaderboard`); the builder's compile
+skips it unless enabled, so keep it `self_` scope, where a support's copy would
+not reach the scored character anyway.
 
 #### Flat DMG increases: `_dmgInc` vs `_dmgIncFromAtk_`
 

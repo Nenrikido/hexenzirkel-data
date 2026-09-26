@@ -13,7 +13,7 @@
       {
         "source": "13416",
         "conditionKey": "partyEnergyCapacity",
-        "description": "Watatsumi Wavewalker (R5): for every point of the entire party's combined maximum Energy capacity, the wielder's Elemental Burst DMG is increased by 0.24%, up to a max of 80% (reached at ~333 combined Energy capacity across all 4 party members). Sum each equipped character's Burst Energy Cost and pick the closest state.",
+        "description": "Watatsumi Wavewalker (R5): for every point of the entire party's combined maximum Energy capacity, the wielder's Elemental Burst DMG is increased by 0.24%, up to a max of 80% (reached at ~333 combined Energy capacity across all 4 party members). Sum each equipped character's Burst Energy Cost and pick the closest state. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier. State names are the R5 bonus (0.24% per point of party Energy, cap 80%); at a lower refinement the same party Energy gives proportionally less, so e.g. the \"80%\" state is +40% at R1.",
         "states": [
           {
             "value": "10%",
@@ -63,7 +63,87 @@
               "burst_dmg_": 0.8
             }
           }
-        ]
+        ],
+        "refinementStates": {
+          "R1": {
+            "10%": {
+              "burst_dmg_": 0.05
+            },
+            "20%": {
+              "burst_dmg_": 0.1
+            },
+            "30%": {
+              "burst_dmg_": 0.15
+            },
+            "40%": {
+              "burst_dmg_": 0.2
+            },
+            "50%": {
+              "burst_dmg_": 0.25
+            },
+            "60%": {
+              "burst_dmg_": 0.3
+            },
+            "70%": {
+              "burst_dmg_": 0.35
+            },
+            "80%": {
+              "burst_dmg_": 0.4
+            }
+          },
+          "R3": {
+            "10%": {
+              "burst_dmg_": 0.075
+            },
+            "20%": {
+              "burst_dmg_": 0.15
+            },
+            "30%": {
+              "burst_dmg_": 0.225
+            },
+            "40%": {
+              "burst_dmg_": 0.3
+            },
+            "50%": {
+              "burst_dmg_": 0.375
+            },
+            "60%": {
+              "burst_dmg_": 0.45
+            },
+            "70%": {
+              "burst_dmg_": 0.525
+            },
+            "80%": {
+              "burst_dmg_": 0.6
+            }
+          },
+          "R5": {
+            "10%": {
+              "burst_dmg_": 0.1
+            },
+            "20%": {
+              "burst_dmg_": 0.2
+            },
+            "30%": {
+              "burst_dmg_": 0.3
+            },
+            "40%": {
+              "burst_dmg_": 0.4
+            },
+            "50%": {
+              "burst_dmg_": 0.5
+            },
+            "60%": {
+              "burst_dmg_": 0.6
+            },
+            "70%": {
+              "burst_dmg_": 0.7
+            },
+            "80%": {
+              "burst_dmg_": 0.8
+            }
+          }
+        }
       }
     ],
     "team_modifiers_json": {},

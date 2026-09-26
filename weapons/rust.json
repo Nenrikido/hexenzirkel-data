@@ -8,11 +8,29 @@
     "subStatValue": 0.41346
   },
   "buffs": {
-    "self_modifiers_json": {
-      "normal_dmg_": 0.8,
-      "charged_dmg_": -0.1
-    },
-    "self_conditional_modifiers_json": [],
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "Rust",
+        "conditionKey": "rust_passive",
+        "refinementTiered": true,
+        "description": "Normal Attack DMG +40/60/80% (R1/R3/R5), Charged Attack DMG -10% at every refinement. Unconditional, so it is auto-applied (no admin toggle) at the leaderboard's chosen refinement for this weapon. Lived in self_modifiers_json at its R5 value until 2026-09-26, when gacha 4* weapons got R1/R3/R5 tiers.",
+        "states": {
+          "R1": {
+            "normal_dmg_": 0.4,
+            "charged_dmg_": -0.1
+          },
+          "R3": {
+            "normal_dmg_": 0.6,
+            "charged_dmg_": -0.1
+          },
+          "R5": {
+            "normal_dmg_": 0.8,
+            "charged_dmg_": -0.1
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   },

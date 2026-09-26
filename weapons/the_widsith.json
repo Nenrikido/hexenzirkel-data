@@ -13,45 +13,152 @@
       {
         "conditionKey": "widisith_em",
         "source": "TheWidsith",
-        "description": "Interlude: +480 Elemental Mastery for 10s on switch-in. The stat key was \"em\", which no part of the evaluator reads, so this buff did nothing at all until 2026-08-23; it is \"eleMas\". One of three themes, chosen at random and mutually exclusive - set an uptime rather than enabling several.",
-        "modifiers": {
-          "eleMas": 480
+        "description": "Interlude: +480 Elemental Mastery for 10s on switch-in. The stat key was \"em\", which no part of the evaluator reads, so this buff did nothing at all until 2026-08-23; it is \"eleMas\". One of three themes, chosen at random and mutually exclusive - set an uptime rather than enabling several. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "eleMas": 480
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "eleMas": 240.0
+            }
+          },
+          "R3": {
+            "active": {
+              "eleMas": 360.0
+            }
+          },
+          "R5": {
+            "active": {
+              "eleMas": 480
+            }
+          }
         }
       },
       {
         "conditionKey": "widisith_atk",
         "source": "TheWidsith",
-        "description": "Recitative: +120% ATK for 10s on switch-in. One of three themes, chosen at random and mutually exclusive - set an uptime rather than enabling several.",
-        "modifiers": {
-          "atk_": 1.2
+        "description": "Recitative: +120% ATK for 10s on switch-in. One of three themes, chosen at random and mutually exclusive - set an uptime rather than enabling several. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "atk_": 1.2
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "atk_": 0.6
+            }
+          },
+          "R3": {
+            "active": {
+              "atk_": 0.9
+            }
+          },
+          "R5": {
+            "active": {
+              "atk_": 1.2
+            }
+          }
         }
       },
       {
         "conditionKey": "widisith_dmg",
         "source": "TheWidsith",
-        "description": "Aria: +96% Elemental DMG Bonus for 10s on switch-in. One of three themes, chosen at random and mutually exclusive - set an uptime rather than enabling several.",
-        "modifiers": {
-          "all_dmg_": 0.96
+        "description": "Aria: +96% Elemental DMG Bonus for 10s on switch-in. One of three themes, chosen at random and mutually exclusive - set an uptime rather than enabling several. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "all_dmg_": 0.96
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "all_dmg_": 0.48
+            }
+          },
+          "R3": {
+            "active": {
+              "all_dmg_": 0.72
+            }
+          },
+          "R5": {
+            "active": {
+              "all_dmg_": 0.96
+            }
+          }
         }
       },
       {
         "conditionKey": "widsith_averaged_1/6",
         "source": "TheWidsith",
-        "description": "DEPRECATED - do not use on new leaderboards. averaged each buff with every 2nd rot, 1/3 chance The Widsith grants exactly ONE of its three themes at a time, so blending a fraction of each into one stat line is not the average of the damage: E[dmg(buff)] != dmg(E[buff]), and you end up with EM and ATK the weapon can never grant together. Pick the theme the rotation actually plays around and give that condition an uptime instead.",
-        "modifiers": {
-          "atk_": 0.2,
-          "all_dmg_": 0.16,
-          "eleMas": 80.0
+        "description": "DEPRECATED - do not use on new leaderboards. averaged each buff with every 2nd rot, 1/3 chance The Widsith grants exactly ONE of its three themes at a time, so blending a fraction of each into one stat line is not the average of the damage: E[dmg(buff)] != dmg(E[buff]), and you end up with EM and ATK the weapon can never grant together. Pick the theme the rotation actually plays around and give that condition an uptime instead. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "atk_": 0.2,
+            "all_dmg_": 0.16,
+            "eleMas": 80.0
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "atk_": 0.1,
+              "all_dmg_": 0.08,
+              "eleMas": 40.0
+            }
+          },
+          "R3": {
+            "active": {
+              "atk_": 0.15,
+              "all_dmg_": 0.12,
+              "eleMas": 60.0
+            }
+          },
+          "R5": {
+            "active": {
+              "atk_": 0.2,
+              "all_dmg_": 0.16,
+              "eleMas": 80.0
+            }
+          }
         }
       },
       {
         "conditionKey": "widsith_averaged_1/9",
         "source": "TheWidsith",
-        "description": "DEPRECATED - do not use on new leaderboards. averaged each buff with 10/30s, 1/3 chance The Widsith grants exactly ONE of its three themes at a time, so blending a fraction of each into one stat line is not the average of the damage: E[dmg(buff)] != dmg(E[buff]), and you end up with EM and ATK the weapon can never grant together. Pick the theme the rotation actually plays around and give that condition an uptime instead.",
-        "modifiers": {
-          "atk_": 0.13333,
-          "all_dmg_": 0.10667,
-          "eleMas": 53.3333
+        "description": "DEPRECATED - do not use on new leaderboards. averaged each buff with 10/30s, 1/3 chance The Widsith grants exactly ONE of its three themes at a time, so blending a fraction of each into one stat line is not the average of the damage: E[dmg(buff)] != dmg(E[buff]), and you end up with EM and ATK the weapon can never grant together. Pick the theme the rotation actually plays around and give that condition an uptime instead. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "atk_": 0.13333,
+            "all_dmg_": 0.10667,
+            "eleMas": 53.3333
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "atk_": 0.066665,
+              "all_dmg_": 0.053335,
+              "eleMas": 26.66665
+            }
+          },
+          "R3": {
+            "active": {
+              "atk_": 0.099998,
+              "all_dmg_": 0.080003,
+              "eleMas": 39.999975
+            }
+          },
+          "R5": {
+            "active": {
+              "atk_": 0.13333,
+              "all_dmg_": 0.10667,
+              "eleMas": 53.3333
+            }
+          }
         }
       }
     ],

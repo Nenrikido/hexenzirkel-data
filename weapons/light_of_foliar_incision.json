@@ -15,18 +15,36 @@
       {
         "source": "LightOfFoliarIncision",
         "conditionKey": "light_of_foliar_incision_whitemoon_bristle",
-        "description": "Whitemoon Bristle (R1): after Normal Attacks deal Elemental DMG, gain the Foliar Incision effect, increasing DMG dealt by Normal Attacks and Elemental Skills by an amount equal to 120% of Elemental Mastery, for up to 28 DMG instances or 12s (obtainable once every 12s). Approximated as a flat +240 Normal Attack and Elemental Skill DMG, assuming ~200 Elemental Mastery (no eval-time EM-to-flat-dmg conversion key exists). Quoted values are R1; this entry also declares its R5 values in refinementStates, and the leaderboard's chosen weapon refinement selects between them (R2-R4 read R1).",
+        "description": "Whitemoon Bristle (R1): after Normal Attacks deal Elemental DMG, gain the Foliar Incision effect, increasing DMG dealt by Normal Attacks and Elemental Skills by an amount equal to 120% of Elemental Mastery, for up to 28 DMG instances or 12s (obtainable once every 12s). Reads the wielder's own live EM through normal_/skill_dmgIncFromEleMas_ (a flat increase inside the DMG% bracket, same shape as Hunter's Path). Was a flat +240 (~200 EM assumed) before 2026-09-26. Quoted values are R1; refinementStates carries R2-R5 and the leaderboard's chosen weapon refinement selects between them.",
         "states": {
           "active": {
-            "normal_dmgInc": 240,
-            "skill_dmgInc": 240
+            "normal_dmgIncFromEleMas_": 1.2,
+            "skill_dmgIncFromEleMas_": 1.2
           }
         },
         "refinementStates": {
+          "R2": {
+            "active": {
+              "normal_dmgIncFromEleMas_": 1.5,
+              "skill_dmgIncFromEleMas_": 1.5
+            }
+          },
+          "R3": {
+            "active": {
+              "normal_dmgIncFromEleMas_": 1.8,
+              "skill_dmgIncFromEleMas_": 1.8
+            }
+          },
+          "R4": {
+            "active": {
+              "normal_dmgIncFromEleMas_": 2.1,
+              "skill_dmgIncFromEleMas_": 2.1
+            }
+          },
           "R5": {
             "active": {
-              "normal_dmgInc": 480,
-              "skill_dmgInc": 480
+              "normal_dmgIncFromEleMas_": 2.4,
+              "skill_dmgIncFromEleMas_": 2.4
             }
           }
         }

@@ -13,10 +13,27 @@
       {
         "source": "WaveridingWhirl",
         "conditionKey": "waveriding_whirl_post_skill",
-        "description": "R5 Fangs Flying To and Fro: For 10s after using an Elemental Skill, Max HP is increased by 40% (additional +24% per Hydro character in party, up to +48%, not modeled here as it is team-comp dependent).",
+        "description": "R5 Fangs Flying To and Fro: For 10s after using an Elemental Skill, Max HP is increased by 40% (additional +24% per Hydro character in party, up to +48%, not modeled here as it is team-comp dependent). refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
         "states": {
           "active": {
             "hp_": 0.4
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "hp_": 0.2
+            }
+          },
+          "R3": {
+            "active": {
+              "hp_": 0.3
+            }
+          },
+          "R5": {
+            "active": {
+              "hp_": 0.4
+            }
           }
         }
       }
