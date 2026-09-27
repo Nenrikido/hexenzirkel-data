@@ -18,32 +18,27 @@
       "hit1Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit1_mult" }],
-        "flatDmgIncFromAtkRatioKeys": ["clorindeA1_normal_dmgIncFromAtk_"]
+        "components": [{ "scalingKey": "atk", "multKey": "hit1_mult" }]
       },
       "hit2Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit2_mult" }],
-        "flatDmgIncFromAtkRatioKeys": ["clorindeA1_normal_dmgIncFromAtk_"]
+        "components": [{ "scalingKey": "atk", "multKey": "hit2_mult" }]
       },
       "hit3Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit3_mult" }],
-        "flatDmgIncFromAtkRatioKeys": ["clorindeA1_normal_dmgIncFromAtk_"]
+        "components": [{ "scalingKey": "atk", "multKey": "hit3_mult" }]
       },
       "hit4Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit4_mult" }],
-        "flatDmgIncFromAtkRatioKeys": ["clorindeA1_normal_dmgIncFromAtk_"]
+        "components": [{ "scalingKey": "atk", "multKey": "hit4_mult" }]
       },
       "hit5Dmg": {
         "element": "physical",
         "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "hit5_mult" }],
-        "flatDmgIncFromAtkRatioKeys": ["clorindeA1_normal_dmgIncFromAtk_"]
+        "components": [{ "scalingKey": "atk", "multKey": "hit5_mult" }]
       }
     },
     "charged": {
@@ -114,6 +109,22 @@
         "components": [{ "scalingKey": "atk", "multKey": "skillDmg_mult" }],
         "flatDmgIncFromAtkRatioKeys": ["clorindeA1_burst_dmgIncFromAtk_"]
       }
+    },
+    "constellation1": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "dmg_mult" }],
+        "flatDmgIncFromAtkRatioKeys": ["clorindeA1_normal_dmgIncFromAtk_"]
+      }
+    },
+    "constellation6": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": ["normal_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "dmg_mult" }],
+        "flatDmgIncFromAtkRatioKeys": ["clorindeA1_normal_dmgIncFromAtk_"]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -152,6 +163,8 @@
       "bladeDmg_mult": 0.7776
     },
     "burst": { "skillDmg_mult": 2.28384 },
+    "constellation1": { "dmg_mult": 0.3 },
+    "constellation6": { "dmg_mult": 2.0 },
     "source": {
       "provider": "GenshinOptimizer+ProjectAmber",
       "goSheet": "libs/gi/sheets/src/Characters/Clorinde",
@@ -170,7 +183,7 @@
       {
         "conditionKey": "a1DarkShatteringFlame",
         "source": "avatar_10000098",
-        "description": "A1 Dark-Shattering Flame: After a nearby party member triggers an Electro-related reaction against an opponent, Electro DMG dealt by Clorinde's Normal Attacks and Last Lightfall (Burst) is increased by 20% of ATK for 15s. Max 3 stacks, each counted independently (select active stacks). The maximum DMG increase achievable this way is 1,800. Uses dedicated clorindeA1_*_dmgIncFromAtk_ keys (rather than the shared normal_dmgIncFromAtk_/burst_dmgIncFromAtk_ keys) so this cap only clamps Clorinde's own A1 contribution -- the shared keys are also written to by other sources (e.g. Echoes of an Offering's 4pc normal_dmgIncFromAtk_), and a cap on a shared key would incorrectly clamp their contribution too.",
+        "description": "A1 Dark-Shattering Flame: After a nearby party member triggers an Electro-related reaction against an opponent, Electro DMG dealt by Clorinde's Normal Attacks and Last Lightfall (Burst) is increased by 20% of ATK for 15s. Max 3 stacks, each counted independently (select active stacks). The maximum DMG increase achievable this way is 1,800. Uses dedicated clorindeA1_*_dmgIncFromAtk_ keys (rather than the shared normal_dmgIncFromAtk_/burst_dmgIncFromAtk_ keys) so this cap only clamps Clorinde's own A1 contribution -- the shared keys are also written to by other sources (e.g. Echoes of an Offering's 4pc normal_dmgIncFromAtk_), and a cap on a shared key would incorrectly clamp their contribution too. At C2 (constellationStates) the ratio becomes 30% of ATK per stack and the cap 2,700. Also applies to the C1 Nightvigil Shade and C6 Glimbright Shade hits, which are Electro Normal Attack DMG; not to physical Normal Attacks.",
         "states": [
           {
             "value": "1",
@@ -199,7 +212,29 @@
               "clorindeA1_burst_dmgIncFromAtk_cap_": 1800
             }
           }
-        ]
+        ],
+        "constellationStates": {
+          "C2": {
+            "1": {
+              "clorindeA1_normal_dmgIncFromAtk_": 0.3,
+              "clorindeA1_burst_dmgIncFromAtk_": 0.3,
+              "clorindeA1_normal_dmgIncFromAtk_cap_": 2700,
+              "clorindeA1_burst_dmgIncFromAtk_cap_": 2700
+            },
+            "2": {
+              "clorindeA1_normal_dmgIncFromAtk_": 0.6,
+              "clorindeA1_burst_dmgIncFromAtk_": 0.6,
+              "clorindeA1_normal_dmgIncFromAtk_cap_": 2700,
+              "clorindeA1_burst_dmgIncFromAtk_cap_": 2700
+            },
+            "3": {
+              "clorindeA1_normal_dmgIncFromAtk_": 0.9,
+              "clorindeA1_burst_dmgIncFromAtk_": 0.9,
+              "clorindeA1_normal_dmgIncFromAtk_cap_": 2700,
+              "clorindeA1_burst_dmgIncFromAtk_cap_": 2700
+            }
+          }
+        }
       },
       {
         "conditionKey": "a4BondOfLifeCritRate",
@@ -209,6 +244,31 @@
           { "value": "1", "modifiers": { "critRate_": 0.1 } },
           { "value": "2", "modifiers": { "critRate_": 0.2 } }
         ]
+      },
+      {
+        "conditionKey": "c4LastLightfallBondOfLife",
+        "source": "avatar_10000098",
+        "gating": { "constellationMin": 4 },
+        "description": "C4: Last Lightfall DMG is increased by 2% for every 1% of Clorinde's current Bond of Life (as a % of her Max HP), max +200%. Select her Bond of Life when the burst hits.",
+        "states": [
+          { "value": "10%", "modifiers": { "burst_dmg_": 0.2 } },
+          { "value": "20%", "modifiers": { "burst_dmg_": 0.4 } },
+          { "value": "30%", "modifiers": { "burst_dmg_": 0.6 } },
+          { "value": "40%", "modifiers": { "burst_dmg_": 0.8 } },
+          { "value": "50%", "modifiers": { "burst_dmg_": 1.0 } },
+          { "value": "60%", "modifiers": { "burst_dmg_": 1.2 } },
+          { "value": "70%", "modifiers": { "burst_dmg_": 1.4 } },
+          { "value": "80%", "modifiers": { "burst_dmg_": 1.6 } },
+          { "value": "90%", "modifiers": { "burst_dmg_": 1.8 } },
+          { "value": "100%", "modifiers": { "burst_dmg_": 2.0 } }
+        ]
+      },
+      {
+        "conditionKey": "c6AfterSkill",
+        "source": "avatar_10000098",
+        "gating": { "constellationMin": 6 },
+        "description": "C6: For 12s after Hunter's Vigil is used, Clorinde's CRIT Rate is increased by 10% and her CRIT DMG by 70%. The Glimbright Shade attacks (200% ATK Electro, Normal Attack DMG, up to 6 per Night Vigil) are the constellation6 rotation target.",
+        "states": [{ "value": "on", "modifiers": { "critRate_": 0.1, "critDMG_": 0.7 } }]
       }
     ],
     "team_modifiers_json": {},
