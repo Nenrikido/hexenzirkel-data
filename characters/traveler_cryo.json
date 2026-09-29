@@ -16,7 +16,8 @@
     "baseDef": 682.521525,
     "baseEleMas": 15.0,
     "ascStatKey": "atk_",
-    "ascStatValue": 0.24
+    "ascStatValue": 0.24,
+    "growCurve": "S4"
   },
   "hit_definitions_json": {
     "normal": {
