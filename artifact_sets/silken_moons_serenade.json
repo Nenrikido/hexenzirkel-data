@@ -11,12 +11,26 @@
       {
         "conditionKey": "4pc_silken_moon_team_lunarbloom_window",
         "source": "SilkenMoonsSerenade",
-        "description": "4pc Silken Moon's Serenade lunar team buff window.",
+        "description": "4pc Gleaming Moon: Devotion: all party members' Elemental Mastery +120 at Moonsign Ascendant Gleam (2+ Moonsign characters) or +60 at Nascent Gleam (1), plus Lunar Reaction DMG +10% for this Gleaming Moon effect. Pick the state matching the team's Moonsign.",
         "modifiers": {
           "eleMas": 120.0,
           "lunarbloom_dmg_": 0.1,
           "lunarcharged_dmg_": 0.1,
           "lunarcrystallize_dmg_": 0.1
+        },
+        "states": {
+          "Ascendant Gleam (2+ lunar characters)": {
+            "eleMas": 120.0,
+            "lunarbloom_dmg_": 0.1,
+            "lunarcharged_dmg_": 0.1,
+            "lunarcrystallize_dmg_": 0.1
+          },
+          "Nascent Gleam (1 lunar character)": {
+            "eleMas": 60.0,
+            "lunarbloom_dmg_": 0.1,
+            "lunarcharged_dmg_": 0.1,
+            "lunarcrystallize_dmg_": 0.1
+          }
         }
       }
     ]

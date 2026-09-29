@@ -9,9 +9,17 @@
       {
         "conditionKey": "4pc_gleaming_moon_intent_active",
         "source": "NightOfTheSkysUnveiling",
-        "description": "4pc Night of the Sky's Unveiling active window.",
+        "description": "4pc Gleaming Moon: Intent (equipping character on-field, after a party Lunar Reaction): CRIT Rate +30% at Moonsign Ascendant Gleam (2+ Moonsign characters) or +15% at Nascent Gleam (1). Pick the state matching the team's Moonsign.",
         "modifiers": {
           "critRate_": 0.3
+        },
+        "states": {
+          "Ascendant Gleam (2+ lunar characters)": {
+            "critRate_": 0.3
+          },
+          "Nascent Gleam (1 lunar character)": {
+            "critRate_": 0.15
+          }
         }
       }
     ],
