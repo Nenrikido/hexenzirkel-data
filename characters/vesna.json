@@ -182,7 +182,7 @@
           }
         ]
       },
-      "windborneSword1Dmg": {
+      "sword1Dmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "skill_dmg_",
@@ -192,11 +192,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword1Dmg_mult"
+            "multKey": "sword1Dmg_mult"
           }
         ]
       },
-      "windborneSword2Dmg": {
+      "sword2Dmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "skill_dmg_",
@@ -206,11 +206,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword2Dmg_mult"
+            "multKey": "sword2Dmg_mult"
           }
         ]
       },
-      "windborneSword2SpiritBladeDmg": {
+      "sword2SpiritDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "skill_dmg_",
@@ -221,11 +221,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword2SpiritBladeDmg_mult"
+            "multKey": "sword2SpiritDmg_mult"
           }
         ]
       },
-      "windborneSword2SpiritBladeStellarswirlDmg": {
+      "sword2SpiritStellarswirlDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "stellarswirl_dmg_",
@@ -236,11 +236,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword2SpiritBladeStellarswirlDmg_mult"
+            "multKey": "sword2SpiritStellarswirlDmg_mult"
           }
         ]
       },
-      "windborneSword3SpiritBladeDmg": {
+      "sword3SpiritDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "skill_dmg_",
@@ -251,11 +251,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword3SpiritBladeDmg_mult"
+            "multKey": "sword3SpiritDmg_mult"
           }
         ]
       },
-      "windborneSword3SpiritBladeStellarswirlDmg": {
+      "sword3SpiritStellarswirlDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "stellarswirl_dmg_",
@@ -266,11 +266,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword3SpiritBladeStellarswirlDmg_mult"
+            "multKey": "sword3SpiritStellarswirlDmg_mult"
           }
         ]
       },
-      "windborneSword3SpiritBladeFinalDmg": {
+      "sword3SpiritFinalDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "skill_dmg_",
@@ -281,11 +281,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword3SpiritBladeFinalDmg_mult"
+            "multKey": "sword3SpiritFinalDmg_mult"
           }
         ]
       },
-      "windborneSword3SpiritBladeFinalStellarswirlDmg": {
+      "sword3SpiritFinalStellarswirlDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "stellarswirl_dmg_",
@@ -296,7 +296,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "windborneSword3SpiritBladeFinalStellarswirlDmg_mult"
+            "multKey": "sword3SpiritFinalStellarswirlDmg_mult"
           }
         ]
       },
@@ -316,7 +316,7 @@
       }
     },
     "burst": {
-      "spiritBladeDmg": {
+      "spiritDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "burst_dmg_",
@@ -327,11 +327,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "spiritBladeDmg_mult"
+            "multKey": "spiritDmg_mult"
           }
         ]
       },
-      "spiritBladeStellarswirlDmg": {
+      "spiritStellarswirlDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "stellarswirl_dmg_",
@@ -342,7 +342,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "spiritBladeStellarswirlDmg_mult"
+            "multKey": "spiritStellarswirlDmg_mult"
           }
         ]
       }
@@ -351,7 +351,6 @@
       "transposeDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
-          "skill_dmg_",
           "anemo_dmg_",
           "all_dmg_"
         ],
@@ -362,10 +361,9 @@
           }
         ]
       },
-      "transposeSpiritBladeDmg": {
+      "swordDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
-          "skill_dmg_",
           "anemo_dmg_",
           "all_dmg_",
           "spiritblade_dmg_"
@@ -373,11 +371,11 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "transposeSpiritBladeDmg_mult"
+            "multKey": "swordDmg_mult"
           }
         ]
       },
-      "transposeSpiritBladeStellarswirlDmg": {
+      "swordStellarswirlDmg": {
         "element": "anemo",
         "dmgBonusKeys": [
           "stellarswirl_dmg_",
@@ -388,7 +386,7 @@
         "components": [
           {
             "scalingKey": "atk",
-            "multKey": "transposeSpiritBladeStellarswirlDmg_mult"
+            "multKey": "swordStellarswirlDmg_mult"
           }
         ]
       }
@@ -398,19 +396,19 @@
     "boosted": {
       "skill": {
         "skillDmg_mult": 0.85,
-        "windborneSword1Dmg_mult": 0.85,
-        "windborneSword2Dmg_mult": 1.275,
-        "windborneSword2SpiritBladeDmg_mult": 2.38,
-        "windborneSword2SpiritBladeStellarswirlDmg_mult": 2.38,
-        "windborneSword3SpiritBladeDmg_mult": 0.952,
-        "windborneSword3SpiritBladeStellarswirlDmg_mult": 0.952,
-        "windborneSword3SpiritBladeFinalDmg_mult": 3.332,
-        "windborneSword3SpiritBladeFinalStellarswirlDmg_mult": 3.332,
+        "sword1Dmg_mult": 0.85,
+        "sword2Dmg_mult": 1.275,
+        "sword2SpiritDmg_mult": 2.38,
+        "sword2SpiritStellarswirlDmg_mult": 2.38,
+        "sword3SpiritDmg_mult": 0.952,
+        "sword3SpiritStellarswirlDmg_mult": 0.952,
+        "sword3SpiritFinalDmg_mult": 3.332,
+        "sword3SpiritFinalStellarswirlDmg_mult": 3.332,
         "windPinionDmg_mult": 0.221
       },
       "burst": {
-        "spiritBladeDmg_mult": 5.593,
-        "spiritBladeStellarswirlDmg_mult": 5.593
+        "spiritDmg_mult": 5.593,
+        "spiritStellarswirlDmg_mult": 5.593
       }
     },
     "normal": {
@@ -432,28 +430,28 @@
     },
     "skill": {
       "skillDmg_mult": 0.72,
-      "windborneSword1Dmg_mult": 0.72,
-      "windborneSword2Dmg_mult": 1.08,
-      "windborneSword2SpiritBladeDmg_mult": 2.016,
-      "windborneSword2SpiritBladeStellarswirlDmg_mult": 2.016,
-      "windborneSword3SpiritBladeDmg_mult": 0.8064,
-      "windborneSword3SpiritBladeStellarswirlDmg_mult": 0.8064,
-      "windborneSword3SpiritBladeFinalDmg_mult": 2.8224,
-      "windborneSword3SpiritBladeFinalStellarswirlDmg_mult": 2.8224,
+      "sword1Dmg_mult": 0.72,
+      "sword2Dmg_mult": 1.08,
+      "sword2SpiritDmg_mult": 2.016,
+      "sword2SpiritStellarswirlDmg_mult": 2.016,
+      "sword3SpiritDmg_mult": 0.8064,
+      "sword3SpiritStellarswirlDmg_mult": 0.8064,
+      "sword3SpiritFinalDmg_mult": 2.8224,
+      "sword3SpiritFinalStellarswirlDmg_mult": 2.8224,
       "windPinionDmg_mult": 0.1872,
       "armedForActionDuration": 15.0,
       "cooldown": 18.0
     },
     "burst": {
-      "spiritBladeDmg_mult": 4.7376,
-      "spiritBladeStellarswirlDmg_mult": 4.7376,
+      "spiritDmg_mult": 4.7376,
+      "spiritStellarswirlDmg_mult": 4.7376,
       "cooldown": 15.0,
       "energy_cost": 60.0
     },
     "constellation6": {
       "transposeDmg_mult": 1.5,
-      "transposeSpiritBladeDmg_mult": 2.0,
-      "transposeSpiritBladeStellarswirlDmg_mult": 2.0
+      "swordDmg_mult": 2.0,
+      "swordStellarswirlDmg_mult": 2.0
     },
     "passive": {
       "a1_disciplinaryAction_duration": 20.0,
@@ -479,7 +477,7 @@
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/7.1/en/character/10000143.json",
       "nanokaVersion": "7.1",
-      "note": "Added 2026-09-22 (7.1 release day); Amber/yatta and Genshin Optimizer had no entry yet, so hit keys are GUESSES in GO's vocabulary (camelCased nanoka labels + Odette's *StellarswirlDmg spelling), to be reconciled once GO ships a Vesna sheet: normal 0-5 (GO's '3x2' convention: normal/2 is ONE 55.5% instance, weight it 2), charged dmg, plunging dmg/low/high, skill skillDmg / windborneSword1Dmg / windborneSword2Dmg / windborneSword2SpiritBladeDmg / windborneSword3SpiritBladeDmg (label says x4: ONE instance, weight it 4) / windborneSword3SpiritBladeFinalDmg / windPinionDmg, each Spirit Blade with a *StellarswirlDmg twin (same multiplier; the Radiance: Stellar Swirl form -- never score both forms of one instance), burst spiritBladeDmg + spiritBladeStellarswirlDmg, constellation6 transposeDmg + transposeSpiritBladeDmg (+ Stellar twin), 150% / 200% of ATK as fixed constants. INFUSION IS BAKED: Normal/Charged/Plunging are seeded Anemo, not physical, because Armed for Action (her Elemental Skill mode, the only state a Vesna rotation happens in) converts them and cannot be overridden -- the Cryo Traveler / Xiao exception, not the roster rule. The wind pinion (summoned alongside her attacks in that mode) and Windborne Sword are listed under the Elemental Skill in-game and are tagged skill_dmg_; the C6 Transpose strike is tagged skill_dmg_ on the same reading (it is 'the secret Vila ability', cast from the skill button) -- both are unverified classifications. Spirit Blade hits carry the spiritblade_dmg_ scope key in BOTH forms so A1 Disciplinary Action's base-DMG multiplier (spiritblade_base_dmg_) reaches them and nothing else.",
+      "note": "Hit keys reconciled 2026-10-04 with Genshin Optimizer's Vesna sheet (frzyc/genshin-optimizer PR #3316, branch van/go/7.1): skill sword1Dmg / sword2Dmg / sword2SpiritDmg / sword3SpiritDmg / sword3SpiritFinalDmg (+ *StellarswirlDmg twins), burst spiritDmg / spiritStellarswirlDmg, constellation6 transposeDmg / swordDmg / swordStellarswirlDmg; C6 hits are plain Anemo DMG in GO (no skill_dmg_). The guessed names in the original note below are superseded. Original note: Added 2026-09-22 (7.1 release day); Amber/yatta and Genshin Optimizer had no entry yet, so hit keys are GUESSES in GO's vocabulary (camelCased nanoka labels + Odette's *StellarswirlDmg spelling), to be reconciled once GO ships a Vesna sheet: normal 0-5 (GO's '3x2' convention: normal/2 is ONE 55.5% instance, weight it 2), charged dmg, plunging dmg/low/high, skill skillDmg / windborneSword1Dmg / windborneSword2Dmg / windborneSword2SpiritBladeDmg / windborneSword3SpiritBladeDmg (label says x4: ONE instance, weight it 4) / windborneSword3SpiritBladeFinalDmg / windPinionDmg, each Spirit Blade with a *StellarswirlDmg twin (same multiplier; the Radiance: Stellar Swirl form -- never score both forms of one instance), burst spiritBladeDmg + spiritBladeStellarswirlDmg, constellation6 transposeDmg + transposeSpiritBladeDmg (+ Stellar twin), 150% / 200% of ATK as fixed constants. INFUSION IS BAKED: Normal/Charged/Plunging are seeded Anemo, not physical, because Armed for Action (her Elemental Skill mode, the only state a Vesna rotation happens in) converts them and cannot be overridden -- the Cryo Traveler / Xiao exception, not the roster rule. The wind pinion (summoned alongside her attacks in that mode) and Windborne Sword are listed under the Elemental Skill in-game and are tagged skill_dmg_; the C6 Transpose strike is tagged skill_dmg_ on the same reading (it is 'the secret Vila ability', cast from the skill button) -- both are unverified classifications. Spirit Blade hits carry the spiritblade_dmg_ scope key in BOTH forms so A1 Disciplinary Action's base-DMG multiplier (spiritblade_base_dmg_) reaches them and nothing else.",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
