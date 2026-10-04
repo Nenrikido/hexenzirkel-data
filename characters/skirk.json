@@ -213,13 +213,13 @@
       {
         "conditionKey": "passive3MutualWeaponsMentorship",
         "source": "avatar_10000114",
-        "description": "Passive Mutual Weapons Mentorship: when every party member is Hydro or Cryo and there is at least one of each, ALL party members' Elemental Skill level is increased by 1 — including Skirk's own. Enable it on any board whose team meets that condition. A +1 skill level multiplies a genuine Elemental Skill DMG multiplier by exactly 1 + 1/18, verified across all 51 skill-DMG parameters of 28 five-star characters, so the skill_base_dmg_ here is exact for the scored character's skill hits whoever they are. Two things it does NOT cover. (1) Talent-scaled buff VALUES a skill grants: those sit on their own growth curve (Vodyanitsa's Hydro/Cryo RES shred grows 6% per level, not 5.56%), so each such character carries its own '+1 Skill level' state — see Vodyanitsa's skillHydroCryoResShred. (2) Normal/Charged attacks that live inside a skill talent and therefore follow the Normal-Attack curve (+7.06%): Skirk's own Seven-Phase Flash is handled by sevenphaseflash_base_dmg_ here, scoped to her skill-section hits through their sevenphaseflash_dmg_ key so it is inert for everyone else; Tartaglia's melee stance is the same shape and is not modelled.",
+        "description": "Passive Mutual Weapons Mentorship: when every party member is Hydro or Cryo and there is at least one of each, ALL party members' Elemental Skill level is increased by 1 — including Skirk's own. Enable it on any board whose team meets that condition. A +1 skill level multiplies a genuine Elemental Skill DMG multiplier by exactly 1 + 1/18, verified across all 51 skill-DMG parameters of 28 five-star characters, so the skill_talentLevel_ here is exact for the scored character's skill hits whoever they are. Two things it does NOT cover. (1) Talent-scaled buff VALUES a skill grants: those sit on their own growth curve (Vodyanitsa's Hydro/Cryo RES shred grows 6% per level, not 5.56%), so each such character carries its own '+1 Skill level' state — see Vodyanitsa's skillHydroCryoResShred. (2) Normal/Charged attacks that live inside a skill talent and therefore follow the Normal-Attack curve (+7.06%): Skirk's own Seven-Phase Flash is handled by sevenphaseflash_talentLevel_ here, scoped to her skill-section hits through their sevenphaseflash_dmg_ key so it is inert for everyone else; Tartaglia's melee stance is the same shape and is not modelled. Both keys multiply the talent multiplier (TALENT_LEVEL_MULT_KEYS), so they stack multiplicatively with 'X% of original DMG' passives such as Death's Crossing (170% x 1.0706), never additively.",
         "states": [
           {
             "value": "on",
             "modifiers": {
-              "skill_base_dmg_": 0.055556,
-              "sevenphaseflash_base_dmg_": 0.070588
+              "skill_talentLevel_": 0.055556,
+              "sevenphaseflash_talentLevel_": 0.070588
             }
           }
         ]
