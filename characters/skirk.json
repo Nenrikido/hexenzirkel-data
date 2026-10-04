@@ -68,47 +68,57 @@
     "skill": {
       "0": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_", "sevenphaseflashnormal_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
       "1": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_", "sevenphaseflashnormal_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
       },
       "2": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_", "sevenphaseflashnormal_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
       },
       "3": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_", "sevenphaseflashnormal_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
       },
       "4": {
         "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_", "sevenphaseflashnormal_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
-      },
-      "5": {
-        "element": "cryo",
-        "dmgBonusKeys": ["normal_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
       "chargedDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p_charged_mult" }]
+      },
+      "dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_mult" }]
+      },
+      "low": {
+        "element": "cryo",
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_low_mult" }]
+      },
+      "high": {
+        "element": "cryo",
+        "dmgBonusKeys": ["plunging_dmg_", "cryo_dmg_", "all_dmg_", "sevenphaseflash_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_high_mult" }]
       }
     },
     "burst": {
-      "ruin": {
+      "skillDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       },
-      "extinction": {
+      "finalDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
@@ -117,6 +127,17 @@
   },
   "talent_multipliers_json": {
     "boosted": {
+      "skill": {
+        "p0_mult": 3.181608,
+        "p1_mult": 2.869621,
+        "p2_mult": 1.81383,
+        "p3_mult": 1.92919,
+        "p4_mult": 4.70984,
+        "p_charged_mult": 1.06708,
+        "p_plunge_mult": 1.531404,
+        "p_plunge_low_mult": 3.062159,
+        "p_plunge_high_mult": 3.824802
+      },
       "burst": {
         "p0_mult": 2.60865,
         "p1_mult": 4.34775
@@ -126,11 +147,11 @@
       "p0_mult": 1.0778,
       "p1_mult": 0.9843,
       "p2_mult": 0.6409,
-      "p3_mult": 0.6409,
-      "p4_mult": 1.2019
+      "p3_mult": 1.2019,
+      "p4_mult": 1.6388
     },
     "charged": {
-      "p0_mult": 1.6388
+      "p0_mult": 1.3209
     },
     "plunging": {
       "p_plunge_mult": 1.26378,
@@ -141,10 +162,12 @@
       "p0_mult": 2.625599,
       "p1_mult": 2.368134,
       "p2_mult": 1.49685,
-      "p3_mult": 1.49685,
-      "p4_mult": 1.59205,
-      "p5_mult": 1.59205,
-      "p_charged_mult": 3.886761
+      "p3_mult": 1.59205,
+      "p4_mult": 3.886761,
+      "p_charged_mult": 0.8806,
+      "p_plunge_mult": 1.26378,
+      "p_plunge_low_mult": 2.527025,
+      "p_plunge_high_mult": 3.15639
     },
     "burst": {
       "p0_mult": 2.20968,
@@ -160,7 +183,7 @@
         "burstTalentLevel": 10
       },
       "goCharacterKey": "Skirk",
-      "notes": "skill section holds the Seven-Phase Flash (Havoc: Warp) enhanced Normal Attack chain; burst.ruin = Havoc: Ruin, burst.extinction = Havoc: Extinction. All talents are at Lv10. The Mutual Weapons Mentorship +1 Elemental Skill level is NOT baked in: it is applied at eval time by the passive3MutualWeaponsMentorship team conditional (sevenphaseflash_talentLevel_ / skill_talentLevel_), so baking Lv11 here would count it twice."
+      "notes": "skill section holds the Seven-Phase Flash (Havoc: Warp) enhanced Normal Attack chain; Hit keys follow GO's sheet (hitArr index, a 'Nx2' entry is ONE instance counted by rotation weight): normal 0-4 = N1, N2, N3 (x2), N4, N5 and charged.dmg = one of the x2 CA hits; skill 0-4 = Seven-Phase Flash N1, N2, N3 (x2), N4 (x2), N5, skill.chargedDmg = one of the x3 CA hits, skill dmg/low/high = Seven-Phase Flash plunges; burst.skillDmg = one of the x5 Havoc: Ruin slashes, burst.finalDmg = its final slash. Values verified against nanoka 7.1 (Havoc: Sunder / Havoc: Warp / Havoc: Ruin promote rows); until 2026-10-04 normal 3/4 and charged were shifted one param (charged read the N5 value), skill 4 was the first N4 hit and skill.chargedDmg read the N5 value. boosted.skill = Lv13 (C5), boosted.burst = Lv13 (C3). All talents are at Lv10. The Mutual Weapons Mentorship +1 Elemental Skill level is NOT baked in: it is applied at eval time by the passive3MutualWeaponsMentorship team conditional (sevenphaseflash_talentLevel_ / skill_talentLevel_), so baking Lv11 here would count it twice."
     }
   },
   "buffs": {
@@ -169,32 +192,40 @@
       {
         "conditionKey": "deathsCrossingDmg",
         "source": "avatar_10000114",
-        "description": "A4 Return to Oblivion: each Death's Crossing stack makes Seven-Phase Flash Normal Attacks deal 110%/120%/170% (1/2/3 stacks) and Havoc: Ruin deal 105%/115%/160% of their original DMG. Applied as a base-DMG multiplier: +10%/+20%/+70% Normal Attack base DMG and +5%/+15%/+60% Burst base DMG.",
+        "description": "A4 Return to Oblivion: each Death's Crossing stack makes Seven-Phase Flash Normal Attacks deal 110%/120%/170% (1/2/3 stacks) and Havoc: Ruin deal 105%/115%/160% of their original DMG. Applied as a base-DMG multiplier: +10%/+20%/+70% base DMG on the Seven-Phase Flash Normal Attacks only (sevenphaseflashnormal_base_dmg_ -- not her ordinary Normal Attacks and not the Seven-Phase Flash Charged Attack, matching the in-game text and GO's a4DeathStacks_skillNormal_mult_) and +5%/+15%/+60% Burst base DMG.",
         "states": [
           {
             "value": "1",
-            "modifiers": { "normal_base_dmg_": 0.1, "burst_base_dmg_": 0.05 }
+            "modifiers": { "sevenphaseflashnormal_base_dmg_": 0.1, "burst_base_dmg_": 0.05 }
           },
           {
             "value": "2",
-            "modifiers": { "normal_base_dmg_": 0.2, "burst_base_dmg_": 0.15 }
+            "modifiers": { "sevenphaseflashnormal_base_dmg_": 0.2, "burst_base_dmg_": 0.15 }
           },
           {
             "value": "3",
-            "modifiers": { "normal_base_dmg_": 0.7, "burst_base_dmg_": 0.6 }
+            "modifiers": { "sevenphaseflashnormal_base_dmg_": 0.7, "burst_base_dmg_": 0.6 }
           }
         ]
       },
       {
         "conditionKey": "allShallWither",
         "source": "avatar_10000114",
-        "description": "Burst (Havoc: Extinction) All Shall Wither: while active, Seven-Phase Flash Normal Attacks deal increased DMG, further increased by the number of Void Rifts absorbed: +8%/+12%/+16%/+20% for 0/1/2/3 Rifts.",
+        "description": "Burst (Havoc: Extinction) All Shall Wither: while active, Seven-Phase Flash Normal Attacks deal increased DMG, further increased by the number of Void Rifts absorbed: +8%/+12%/+16%/+20% for 0/1/2/3 Rifts at burst Lv10; C3 takes the burst to Lv13 (+9.5%/+13.8%/+18.4%/+23%), which is the constellationStates block.",
         "states": [
           { "value": "0", "modifiers": { "normal_dmg_": 0.08 } },
           { "value": "1", "modifiers": { "normal_dmg_": 0.12 } },
           { "value": "2", "modifiers": { "normal_dmg_": 0.16 } },
           { "value": "3", "modifiers": { "normal_dmg_": 0.2 } }
-        ]
+        ],
+        "constellationStates": {
+          "C3": {
+            "0": { "normal_dmg_": 0.095 },
+            "1": { "normal_dmg_": 0.138 },
+            "2": { "normal_dmg_": 0.184 },
+            "3": { "normal_dmg_": 0.23 }
+          }
+        }
       },
       {
         "conditionKey": "deathsCrossingAtk",
