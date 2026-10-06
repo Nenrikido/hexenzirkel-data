@@ -264,6 +264,45 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "activationDmg_mult": 1.35,
+        "pressDmg_mult": 0.81,
+        "shellDmg_mult": 1.098,
+        "shiningShellDmg_mult": 3.74787
+      },
+      "passive2": {
+        "passive2Anemo_mult": 1.647,
+        "passive2Elem_mult": 5.621805
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "hit1_mult": 1.015979,
+        "hit2_mult": 0.943615,
+        "hit3_mult": 0.628482,
+        "hit4_mult": 0.538957
+      },
+      "charged": {
+        "aimed_mult": 0.9282,
+        "fullyAimed_mult": 2.356
+      },
+      "plunging": {
+        "plunge_mult": 1.202656,
+        "plungeLow_mult": 2.404802,
+        "plungeHigh_mult": 3.003728
+      },
+      "skill": {
+        "activationDmg_mult": 1.14,
+        "pressDmg_mult": 0.684,
+        "shellDmg_mult": 0.9272,
+        "shiningShellDmg_mult": 3.164868
+      },
+      "passive2": {
+        "passive2Anemo_mult": 1.3908,
+        "passive2Elem_mult": 4.747302
+      }
+    },
     "boosted": {
       "burst": {
         "galeSplittingDmg_mult": 1.87,

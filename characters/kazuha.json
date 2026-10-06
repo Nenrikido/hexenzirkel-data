@@ -96,6 +96,34 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "p_press_mult": 4.32,
+        "p_hold_mult": 5.868
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "p0_mult": 0.961013,
+        "p1_mult": 0.966525,
+        "p2_mult": 0.55125,
+        "p3_mult": 0.6615,
+        "p4_mult": 1.297275
+      },
+      "charged": {
+        "p_cyclic_mult": 0.542063,
+        "p_final_mult": 0.91875
+      },
+      "plunging": {
+        "p_plunge_mult": 1.731825,
+        "p_plunge_low_mult": 3.462915,
+        "p_plunge_high_mult": 4.325368
+      },
+      "skill": {
+        "p_press_mult": 3.648,
+        "p_hold_mult": 4.9552
+      }
+    },
     "boosted": {
       "burst": {
         "p_slash_mult": 5.576,

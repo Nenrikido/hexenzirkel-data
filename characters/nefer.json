@@ -188,6 +188,42 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "shade1Mv_mult": 2.16,
+        "shade2Mv_mult": 2.16,
+        "shade3Mv_mult": 2.88,
+        "nefer1Atk_mult": 0.5544,
+        "nefer2Atk_mult": 0.72072,
+        "skillDmgAtk_mult": 1.71864,
+        "nefer1EleMas_mult": 1.1088,
+        "nefer2EleMas_mult": 1.44144,
+        "skillDmgEleMas_mult": 3.43728
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "hit1_mult": 0.723353,
+        "hit2_mult": 0.713716,
+        "hit4_mult": 1.158894,
+        "hit3x2_mult": 0.47956,
+        "plunge_mult": 1.202656,
+        "charged_mult": 2.48672,
+        "plunge_low_mult": 2.404802,
+        "plunge_high_mult": 3.003728
+      },
+      "skill": {
+        "shade1Mv_mult": 1.824,
+        "shade2Mv_mult": 1.824,
+        "shade3Mv_mult": 2.432,
+        "nefer1Atk_mult": 0.46816,
+        "nefer2Atk_mult": 0.608608,
+        "skillDmgAtk_mult": 1.451296,
+        "nefer1EleMas_mult": 0.93632,
+        "nefer2EleMas_mult": 1.217216,
+        "skillDmgEleMas_mult": 2.902592
+      }
+    },
     "boosted": {
       "burst": {
         "hit1Atk_mult": 4.7736,

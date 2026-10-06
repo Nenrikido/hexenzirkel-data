@@ -959,6 +959,39 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "denial1_mult": 1.6254,
+        "denial2_mult": 1.197,
+        "denial3_mult": 1.4544,
+        "energy_regen": 45.0,
+        "confirmation_mult": 2.376
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "hit1_mult": 0.966092,
+        "hit2_mult": 0.867776,
+        "hit4_mult": 1.505777,
+        "hit3a_mult": 0.617144,
+        "hit3b_mult": 0.617144
+      },
+      "charged": {
+        "charged_mult": 2.40058
+      },
+      "plunging": {
+        "plunge_mult": 1.352988,
+        "plunge_low_mult": 2.705403,
+        "plunge_high_mult": 3.379194
+      },
+      "skill": {
+        "denial1_mult": 1.37256,
+        "denial2_mult": 1.0108,
+        "denial3_mult": 1.22816,
+        "energy_regen": 36.0,
+        "confirmation_mult": 2.0064
+      }
+    },
     "boosted": {
       "burst": {
         "purity1_mult": 2.5279,

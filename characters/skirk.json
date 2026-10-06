@@ -126,6 +126,47 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "p0_mult": 3.366945,
+        "p1_mult": 3.036784,
+        "p2_mult": 1.91949,
+        "p3_mult": 2.04157,
+        "p4_mult": 4.984199,
+        "p_charged_mult": 1.12924,
+        "p_plunge_mult": 1.620612,
+        "p_plunge_low_mult": 3.240537,
+        "p_plunge_high_mult": 4.047606
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "p0_mult": 1.15388,
+        "p1_mult": 1.05378,
+        "p2_mult": 0.68614,
+        "p3_mult": 1.28674,
+        "p4_mult": 1.75448
+      },
+      "charged": {
+        "p0_mult": 1.41414
+      },
+      "plunging": {
+        "p_plunge_mult": 1.352988,
+        "p_plunge_low_mult": 2.705403,
+        "p_plunge_high_mult": 3.379194
+      },
+      "skill": {
+        "p0_mult": 2.810935,
+        "p1_mult": 2.535296,
+        "p2_mult": 1.60251,
+        "p3_mult": 1.70443,
+        "p4_mult": 4.161121,
+        "p_charged_mult": 0.94276,
+        "p_plunge_mult": 1.352988,
+        "p_plunge_low_mult": 2.705403,
+        "p_plunge_high_mult": 3.379194
+      }
+    },
     "boosted": {
       "skill": {
         "p0_mult": 3.181608,
@@ -183,7 +224,7 @@
         "burstTalentLevel": 10
       },
       "goCharacterKey": "Skirk",
-      "notes": "skill section holds the Seven-Phase Flash (Havoc: Warp) enhanced Normal Attack chain; Hit keys follow GO's sheet (hitArr index, a 'Nx2' entry is ONE instance counted by rotation weight): normal 0-4 = N1, N2, N3 (x2), N4, N5 and charged.dmg = one of the x2 CA hits; skill 0-4 = Seven-Phase Flash N1, N2, N3 (x2), N4 (x2), N5, skill.chargedDmg = one of the x3 CA hits, skill dmg/low/high = Seven-Phase Flash plunges; burst.skillDmg = one of the x5 Havoc: Ruin slashes, burst.finalDmg = its final slash. Values verified against nanoka 7.1 (Havoc: Sunder / Havoc: Warp / Havoc: Ruin promote rows); until 2026-10-04 normal 3/4 and charged were shifted one param (charged read the N5 value), skill 4 was the first N4 hit and skill.chargedDmg read the N5 value. boosted.skill = Lv13 (C5), boosted.burst = Lv13 (C3). All talents are at Lv10. The Mutual Weapons Mentorship +1 Elemental Skill level is NOT baked in: it is applied at eval time by the passive3MutualWeaponsMentorship team conditional (sevenphaseflash_talentLevel_ / skill_talentLevel_), so baking Lv11 here would count it twice."
+      "notes": "skill section holds the Seven-Phase Flash (Havoc: Warp) enhanced Normal Attack chain; Hit keys follow GO's sheet (hitArr index, a 'Nx2' entry is ONE instance counted by rotation weight): normal 0-4 = N1, N2, N3 (x2), N4, N5 and charged.dmg = one of the x2 CA hits; skill 0-4 = Seven-Phase Flash N1, N2, N3 (x2), N4 (x2), N5, skill.chargedDmg = one of the x3 CA hits, skill dmg/low/high = Seven-Phase Flash plunges; burst.skillDmg = one of the x5 Havoc: Ruin slashes, burst.finalDmg = its final slash. Values verified against nanoka 7.1 (Havoc: Sunder / Havoc: Warp / Havoc: Ruin promote rows); until 2026-10-04 normal 3/4 and charged were shifted one param (charged read the N5 value), skill 4 was the first N4 hit and skill.chargedDmg read the N5 value. boosted.skill = Lv13 (C5), boosted.burst = Lv13 (C3). All talents are at Lv10. The Mutual Weapons Mentorship +1 Elemental Skill level is NOT baked in: the leaderboard builder detects a qualifying team (TEAM_TALENT_LEVEL_SOURCES) and the evaluator switches the skill to levelUp (Lv11) / levelUpBoosted (Lv14), so baking Lv11 here would count it twice."
     }
   },
   "buffs": {
@@ -240,22 +281,7 @@
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
-      {
-        "conditionKey": "passive3MutualWeaponsMentorship",
-        "source": "avatar_10000114",
-        "description": "Passive Mutual Weapons Mentorship: when every party member is Hydro or Cryo and there is at least one of each, ALL party members' Elemental Skill level is increased by 1 — including Skirk's own. Enable it on any board whose team meets that condition. A +1 skill level multiplies a genuine Elemental Skill DMG multiplier by exactly 1 + 1/18, verified across all 51 skill-DMG parameters of 28 five-star characters, so the skill_talentLevel_ here is exact for the scored character's skill hits whoever they are. Two things it does NOT cover. (1) Talent-scaled buff VALUES a skill grants: those sit on their own growth curve (Vodyanitsa's Hydro/Cryo RES shred grows 6% per level, not 5.56%), so each such character carries its own '+1 Skill level' state — see Vodyanitsa's skillHydroCryoResShred. (2) Normal/Charged attacks that live inside a skill talent and therefore follow the Normal-Attack curve (+7.06%): Skirk's own Seven-Phase Flash is handled by sevenphaseflash_talentLevel_ here, scoped to her skill-section hits through their sevenphaseflash_dmg_ key so it is inert for everyone else; Tartaglia's melee stance is the same shape and is not modelled. Both keys multiply the talent multiplier (TALENT_LEVEL_MULT_KEYS), so they stack multiplicatively with 'X% of original DMG' passives such as Death's Crossing (170% x 1.0706), never additively.",
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "skill_talentLevel_": 0.055556,
-              "sevenphaseflash_talentLevel_": 0.070588
-            }
-          }
-        ]
-      }
-    ]
+    "team_conditional_modifiers_json": []
   },
   "descriptions_json": {
     "source": {

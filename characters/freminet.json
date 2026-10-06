@@ -331,6 +331,36 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUp": {
+      "normal": {
+        "0_mult": 2.135332,
+        "1_mult": 2.045036,
+        "2_mult": 2.583147,
+        "3_mult": 3.138306
+      },
+      "charged": {
+        "spinningDmg_mult": 1.58486,
+        "finalDmg_mult": 2.8667
+      },
+      "plunging": {
+        "dmg_mult": 1.890714,
+        "low_mult": 3.780627,
+        "high_mult": 4.722207
+      },
+      "skill": {
+        "thrustDmg_mult": 1.8684,
+        "frostDmg_mult": 0.1611,
+        "level0Dmg_mult": 4.5108,
+        "level1CryoDmg_mult": 2.2554,
+        "level1PhysDmg_mult": 1.09548,
+        "level2CryoDmg_mult": 1.57878,
+        "level2PhysDmg_mult": 1.91709,
+        "level3CryoDmg_mult": 0.90216,
+        "level3PhysDmg_mult": 2.7387,
+        "level4Dmg_mult": 5.4774,
+        "thornDmg_mult": 0.324
+      }
+    },
     "normal": {
       "0_mult": 2.017791,
       "1_mult": 1.932465,

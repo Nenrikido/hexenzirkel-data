@@ -169,6 +169,36 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "stele_mult": 0.36,
+        "resonance_mult": 0.72,
+        "holdDMG_mult": 1.8
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.657421,
+        "1_mult": 0.665598,
+        "2_mult": 0.824229,
+        "3_mult": 0.917445,
+        "4_mult": 0.229687,
+        "5_mult": 1.164387
+      },
+      "charged": {
+        "dmg_mult": 2.372212
+      },
+      "plunging": {
+        "dmg_mult": 1.352988,
+        "low_mult": 2.705403,
+        "high_mult": 3.379194
+      },
+      "skill": {
+        "stele_mult": 0.304,
+        "resonance_mult": 0.608,
+        "holdDMG_mult": 1.52
+      }
+    },
     "boosted": {
       "burst": {
         "dmg_mult": 10.84

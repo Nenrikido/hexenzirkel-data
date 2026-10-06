@@ -260,6 +260,36 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "press_mult": 3.294,
+        "hold_mult": 5.526,
+        "icewhirl_mult": 2.16
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.917248,
+        "1_mult": 1.998833,
+        "2_mult": 1.213577,
+        "3_mult": 2.406758,
+        "4_mult": 1.534818
+      },
+      "charged": {
+        "spinningDmg_mult": 1.47,
+        "finalDmg_mult": 2.657944
+      },
+      "plunging": {
+        "dmg_mult": 1.593664,
+        "low_mult": 3.186652,
+        "high_mult": 3.980301
+      },
+      "skill": {
+        "press_mult": 2.7816,
+        "hold_mult": 4.6664,
+        "icewhirl_mult": 1.824
+      }
+    },
     "boosted": {
       "burst": {
         "dmg_mult": 5.219,

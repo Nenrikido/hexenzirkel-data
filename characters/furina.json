@@ -97,6 +97,33 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "bubbleDmg_mult": 0.17694,
+        "usherDmg_mult": 0.1341,
+        "chevalDmg_mult": 0.07272,
+        "crabDmg_mult": 0.18648
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "p0_mult": 1.023987,
+        "p1_mult": 0.925434,
+        "p2_mult": 1.166493,
+        "p3_mult": 1.551186,
+        "p4_mult": 1.57066,
+        "p6_mult": 1.352988,
+        "p7_mult": 2.705403,
+        "p8_mult": 3.379194,
+        "p9_mult": 0.2002
+      },
+      "skill": {
+        "bubbleDmg_mult": 0.149416,
+        "usherDmg_mult": 0.11324,
+        "chevalDmg_mult": 0.061408,
+        "crabDmg_mult": 0.157472
+      }
+    },
     "boosted": {
       "burst": {
         "p0_mult": 0.242386,

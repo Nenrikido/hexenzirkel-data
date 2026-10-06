@@ -219,6 +219,54 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "normal": {
+        "0_mult": 1.052514,
+        "1_mult": 0.90063,
+        "2_mult": 1.267038,
+        "fp0_mult": 1.224162,
+        "fp1_mult": 1.170648,
+        "fp2_mult": 1.655694
+      },
+      "charged": {
+        "dmg_mult": 2.0088,
+        "fpDmg_mult": 2.0844
+      },
+      "plunging": {
+        "dmg_mult": 1.890714,
+        "low_mult": 3.780627,
+        "high_mult": 4.722207,
+        "fpdmg_mult": 1.890714,
+        "fplow_mult": 5.67094,
+        "fphigh_mult": 7.083311
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.88879,
+        "1_mult": 0.760532,
+        "2_mult": 1.069943,
+        "fp0_mult": 1.033737,
+        "fp1_mult": 0.988547,
+        "fp2_mult": 1.398142
+      },
+      "charged": {
+        "dmg_mult": 1.69632,
+        "fpDmg_mult": 1.76016
+      },
+      "plunging": {
+        "dmg_mult": 1.578486,
+        "low_mult": 3.156303,
+        "high_mult": 3.942393,
+        "fpdmg_mult": 1.578486,
+        "fplow_mult": 4.734455,
+        "fphigh_mult": 5.91359
+      },
+      "skill": {
+        "rushDmg_mult": 1.41512,
+        "fpRushDmg_mult": 2.0216
+      }
+    },
     "boosted": {
       "normal": {
         "0_mult": 0.994041,

@@ -401,6 +401,50 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "skillDmg_mult": 2.4318,
+        "codaDotDmg_mult": 2.1564,
+        "plumeDmg_mult": 0.9684,
+        "wingDmg_mult": 1.15794,
+        "codaStellarconductDmg_mult": 6.8796,
+        "codaStellarswirlDmg_mult": 10.3194,
+        "plumeStellarconductDmg_mult": 0.60804,
+        "plumeStellarswirlDmg_mult": 0.91188,
+        "wingStellarconductDmg_mult": 0.72702,
+        "wingStellarswirlDmg_mult": 1.09044
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.097442,
+        "1_mult": 1.090107,
+        "2_mult": 0.690144,
+        "3_mult": 0.810082,
+        "4_mult": 1.578177,
+        "5_mult": 1.909144
+      },
+      "charged": {
+        "dmg_mult": 2.27318
+      },
+      "plunging": {
+        "dmg_mult": 1.352988,
+        "low_mult": 2.705403,
+        "high_mult": 3.379194
+      },
+      "skill": {
+        "skillDmg_mult": 2.05352,
+        "codaDotDmg_mult": 1.82096,
+        "plumeDmg_mult": 0.81776,
+        "wingDmg_mult": 0.977816,
+        "codaStellarconductDmg_mult": 5.80944,
+        "codaStellarswirlDmg_mult": 8.71416,
+        "plumeStellarconductDmg_mult": 0.513456,
+        "plumeStellarswirlDmg_mult": 0.770032,
+        "wingStellarconductDmg_mult": 0.613928,
+        "wingStellarswirlDmg_mult": 0.920816
+      }
+    },
     "boosted": {
       "burst": {
         "slashDmg_mult": 2.34124,

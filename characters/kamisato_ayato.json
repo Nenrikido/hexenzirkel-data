@@ -244,6 +244,37 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "dmg0_mult": 1.3407,
+        "dmg1_mult": 1.4933,
+        "dmg2_mult": 1.6459,
+        "illusionDmg_mult": 2.5724
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.951514,
+        "1_mult": 0.997979,
+        "2_mult": 1.240403,
+        "3_mult": 0.623213,
+        "4_mult": 1.599998
+      },
+      "charged": {
+        "dmg_mult": 2.741209
+      },
+      "plunging": {
+        "dmg_mult": 1.352988,
+        "low_mult": 2.705403,
+        "high_mult": 3.379194
+      },
+      "skill": {
+        "dmg0_mult": 1.1193,
+        "dmg1_mult": 1.2467,
+        "dmg2_mult": 1.3741,
+        "illusionDmg_mult": 2.1476
+      }
+    },
     "boosted": {
       "burst": {
         "dmg_mult": 1.41219

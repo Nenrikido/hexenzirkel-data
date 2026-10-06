@@ -128,6 +128,41 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "normalDmg_mult": 0.678416,
+        "piercingDmg_mult": 0.98318,
+        "thrust1Dmg_mult": 0.835812,
+        "thrust2Dmg_mult": 1.114416,
+        "thrust3Dmg_mult": 0.63656,
+        "bladeDmg_mult": 0.972
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "hit1_mult": 1.144052,
+        "hit2_mult": 1.092601,
+        "hit3_mult": 0.72345,
+        "hit4_mult": 0.48958,
+        "hit5_mult": 1.904867
+      },
+      "charged": {
+        "charged_mult": 2.7118
+      },
+      "plunging": {
+        "plunge_mult": 1.352988,
+        "plungeLow_mult": 2.705403,
+        "plungeHigh_mult": 3.379194
+      },
+      "skill": {
+        "normalDmg_mult": 0.566384,
+        "piercingDmg_mult": 0.82082,
+        "thrust1Dmg_mult": 0.697788,
+        "thrust2Dmg_mult": 0.930384,
+        "thrust3Dmg_mult": 0.53144,
+        "bladeDmg_mult": 0.8208
+      }
+    },
     "boosted": {
       "burst": {
         "skillDmg_mult": 2.6962

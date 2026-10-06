@@ -199,6 +199,42 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "skillDmg_mult": 0.075125,
+        "dance1Dmg_mult": 0.102431,
+        "dance2Dmg_mult": 0.115751,
+        "whirl1Dmg_mult": 0.073393,
+        "whirl2Dmg_mult": 0.089111,
+        "moonDmg_mult": 0.161298,
+        "wheelDmg_mult": 0.113886
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.064645,
+        "1_mult": 0.961615,
+        "2_mult": 1.488887
+      },
+      "charged": {
+        "dmg1_mult": 1.06288,
+        "dmg2_mult": 1.15206
+      },
+      "plunging": {
+        "dmg_mult": 1.352988,
+        "low_mult": 2.705403,
+        "high_mult": 3.379194
+      },
+      "skill": {
+        "skillDmg_mult": 0.063439,
+        "dance1Dmg_mult": 0.086497,
+        "dance2Dmg_mult": 0.097745,
+        "whirl1Dmg_mult": 0.061976,
+        "whirl2Dmg_mult": 0.075249,
+        "moonDmg_mult": 0.136207,
+        "wheelDmg_mult": 0.09617
+      }
+    },
     "boosted": {
       "burst": {
         "skillDmg_mult": 0.39168,

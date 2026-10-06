@@ -214,6 +214,33 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "totalShardDmg_mult": 8.883,
+        "bladeDmg_mult": 0.81
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.979123,
+        "1_mult": 1.83072,
+        "2_mult": 0.738283,
+        "3_mult": 2.823785
+      },
+      "charged": {
+        "cyclicDmg_mult": 1.32314,
+        "finalDmg_mult": 2.3933
+      },
+      "plunging": {
+        "dmg_mult": 1.578486,
+        "low_mult": 3.156303,
+        "high_mult": 3.942393
+      },
+      "skill": {
+        "totalShardDmg_mult": 7.5012,
+        "bladeDmg_mult": 0.684
+      }
+    },
     "boosted": {
       "burst": {
         "skillDmg_mult": 1.598,

@@ -156,6 +156,28 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.3984,
+        "1_mult": 0.4482,
+        "2_mult": 0.8134,
+        "3_mult": 0.996,
+        "4_mult": 1.23836
+      },
+      "charged": {
+        "aimed_mult": 0.9282,
+        "aimedCharged_mult": 2.356
+      },
+      "plunging": {
+        "dmg_mult": 1.202656,
+        "low_mult": 2.404802,
+        "high_mult": 3.003728
+      },
+      "skill": {
+        "freezeBombDmg_mult": 3.3744,
+        "chillWaterBomblets_mult": 0.76
+      }
+    },
     "normal": {
       "0_mult": 0.3768,
       "1_mult": 0.4239,

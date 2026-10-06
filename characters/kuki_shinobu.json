@@ -149,6 +149,27 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.03194,
+        "1_mult": 0.94276,
+        "2_mult": 1.2558,
+        "3_mult": 1.6107
+      },
+      "charged": {
+        "dmg1_mult": 1.177358,
+        "dmg2_mult": 1.412939
+      },
+      "plunging": {
+        "dmg_mult": 1.352988,
+        "low_mult": 2.705403,
+        "high_mult": 3.379194
+      },
+      "skill": {
+        "pressDmg_mult": 1.70352,
+        "ringDmg_mult": 0.5679
+      }
+    },
     "normal": {
       "0_mult": 0.9639,
       "1_mult": 0.8806,

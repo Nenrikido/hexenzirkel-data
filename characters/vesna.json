@@ -393,6 +393,50 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "skillDmg_mult": 0.9,
+        "sword1Dmg_mult": 0.9,
+        "sword2Dmg_mult": 1.35,
+        "sword2SpiritDmg_mult": 2.52,
+        "sword2SpiritStellarswirlDmg_mult": 2.52,
+        "sword3SpiritDmg_mult": 1.008,
+        "sword3SpiritStellarswirlDmg_mult": 1.008,
+        "sword3SpiritFinalDmg_mult": 3.528,
+        "sword3SpiritFinalStellarswirlDmg_mult": 3.528,
+        "windPinionDmg_mult": 0.234
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.8554,
+        "1_mult": 1.03012,
+        "2_mult": 0.59423,
+        "3_mult": 1.25216,
+        "4_mult": 1.32132,
+        "5_mult": 1.5288
+      },
+      "charged": {
+        "dmg_mult": 2.81554
+      },
+      "plunging": {
+        "dmg_mult": 1.352988,
+        "low_mult": 2.705403,
+        "high_mult": 3.379194
+      },
+      "skill": {
+        "skillDmg_mult": 0.76,
+        "sword1Dmg_mult": 0.76,
+        "sword2Dmg_mult": 1.14,
+        "sword2SpiritDmg_mult": 2.128,
+        "sword2SpiritStellarswirlDmg_mult": 2.128,
+        "sword3SpiritDmg_mult": 0.8512,
+        "sword3SpiritStellarswirlDmg_mult": 0.8512,
+        "sword3SpiritFinalDmg_mult": 2.9792,
+        "sword3SpiritFinalStellarswirlDmg_mult": 2.9792,
+        "windPinionDmg_mult": 0.1976
+      }
+    },
     "boosted": {
       "skill": {
         "skillDmg_mult": 0.85,

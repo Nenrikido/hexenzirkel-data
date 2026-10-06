@@ -246,6 +246,41 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "skillDmg_mult": 1.29924,
+        "contDmg_mult": 1.01052,
+        "swirl_dmg_per_eleMas": 0.0057,
+        "stellarSwirl_dmg_per_eleMas": 0.00057
+      },
+      "lockedPassive": {
+        "contDmg_mult": 1.01052
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.993259,
+        "1_mult": 0.891374,
+        "2_mult": 1.356007
+      },
+      "charged": {
+        "dmg_mult": 2.47
+      },
+      "plunging": {
+        "dmg_mult": 1.202656,
+        "low_mult": 2.404802,
+        "high_mult": 3.003728
+      },
+      "skill": {
+        "skillDmg_mult": 1.097136,
+        "contDmg_mult": 0.853328,
+        "swirl_dmg_per_eleMas": 0.0048,
+        "stellarSwirl_dmg_per_eleMas": 0.00048
+      },
+      "lockedPassive": {
+        "contDmg_mult": 0.853328
+      }
+    },
     "boosted": {
       "burst": {
         "skillDmg_mult": 1.9992,

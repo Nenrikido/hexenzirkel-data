@@ -145,6 +145,26 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.774627,
+        "1_mult": 1.672798,
+        "2_mult": 2.256927,
+        "3_mult": 2.70776
+      },
+      "charged": {
+        "cyclicDmg_mult": 1.32314,
+        "finalDmg_mult": 2.3933
+      },
+      "plunging": {
+        "dmg_mult": 1.357502,
+        "low_mult": 2.714421,
+        "high_mult": 3.39046
+      },
+      "skill": {
+        "cloudstriderDmg_mult": 5.184
+      }
+    },
     "normal": {
       "0_mult": 1.657619,
       "1_mult": 1.562504,

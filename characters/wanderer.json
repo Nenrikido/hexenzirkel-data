@@ -173,6 +173,28 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "dmg_mult": 2.142
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.45418,
+        "1_mult": 1.37592,
+        "2_mult": 1.00828
+      },
+      "charged": {
+        "dmg_mult": 2.50952
+      },
+      "plunging": {
+        "low_mult": 1.202656,
+        "high_mult": 2.404802
+      },
+      "skill": {
+        "dmg_mult": 1.8088
+      }
+    },
     "boosted": {
       "burst": {
         "dmg_mult": 3.128

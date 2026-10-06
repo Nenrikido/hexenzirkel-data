@@ -238,6 +238,37 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "skillDmg_mult": 0.07362,
+        "hornDmg_mult": 0.07362,
+        "healFlat": 795.4773,
+        "healMaxHpPct": 0.063,
+        "hydroCryoResShred_": 0.372
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.824311,
+        "1_mult": 0.764408,
+        "2_mult": 0.93673,
+        "3_mult": 1.245701
+      },
+      "charged": {
+        "dmg_mult": 2.35144
+      },
+      "plunging": {
+        "dmg_mult": 1.202656,
+        "low_mult": 2.404802,
+        "high_mult": 3.003728
+      },
+      "skill": {
+        "skillDmg_mult": 0.062168,
+        "hornDmg_mult": 0.062168,
+        "healFlat": 640.4193,
+        "healMaxHpPct": 0.0532
+      }
+    },
     "boosted": {
       "skill": {
         "skillDmg_mult": 0.06953,
@@ -393,8 +424,13 @@
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "skillHydroCryoResShred",
+        "talentLevelStates": {
+          "skill": {
+            "on": "on, +1 Skill level (Skirk team)"
+          }
+        },
         "source": "avatar_10000140",
-        "description": "Rechitativ: Sonorous Dawn — the skill hit and every Horn of Spring's Call attack decrease the Hydro RES and Cryo RES of opponents hit by 30% for 6s at skill Lv10 (35.4% from C3, where the skill reaches Lv13). The Horn attacks every 3s over 16s, so the shred is effectively permanent while Song of Ages Past is active. Pick the '+1 Skill level' state when the team triggers Skirk's Mutual Weapons Mentorship (every member Hydro or Cryo, at least one of each), which takes the skill to Lv11 / Lv14: the shred grows on its own 6%-per-level curve rather than the 1/18 the skill's DMG multipliers use, so it needs this explicit state. Skirk's own passive3MutualWeaponsMentorship entry carries the matching boost to the skill's DAMAGE — enable both.",
+        "description": "Rechitativ: Sonorous Dawn — the skill hit and every Horn of Spring's Call attack decrease the Hydro RES and Cryo RES of opponents hit by 30% for 6s at skill Lv10 (35.4% from C3, where the skill reaches Lv13). The Horn attacks every 3s over 16s, so the shred is effectively permanent while Song of Ages Past is active. In a team that triggers Skirk's Mutual Weapons Mentorship (every member Hydro or Cryo, at least one of each) the builder switches 'on' to the '+1 Skill level' state automatically (talentLevelStates.skill), which takes the skill to Lv11 / Lv14: the shred grows on its own 6%-per-level curve rather than the 1/18 the skill's DMG multipliers use, so it needs this explicit state. The matching boost to the skill's DAMAGE needs no conditional: the builder records the +1 on the board and the evaluator reads her levelUp multipliers.",
         "states": [
           {
             "value": "on",

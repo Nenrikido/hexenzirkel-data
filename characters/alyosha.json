@@ -214,6 +214,28 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.01192,
+        "1_mult": 1.0192,
+        "2_mult": 0.72436,
+        "3_mult": 0.6734,
+        "4_mult": 1.60524
+      },
+      "charged": {
+        "dmg_mult": 2.34962
+      },
+      "plunging": {
+        "dmg_mult": 1.352988,
+        "low_mult": 2.705403,
+        "high_mult": 3.379194
+      },
+      "skill": {
+        "pressDmg_mult": 6.4512,
+        "holdDmg_mult": 8.064,
+        "huntersPrecisionAtk_": 0.26288
+      }
+    },
     "normal": {
       "0_mult": 0.9452,
       "1_mult": 0.952,

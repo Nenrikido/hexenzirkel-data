@@ -67,6 +67,19 @@
     }
   },
   "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "p0_mult": 3.114
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "p0_mult": 0.668405
+      },
+      "skill": {
+        "p0_mult": 2.6296
+      }
+    },
     "boosted": {
       "burst": {
         "p0_mult": 6.732
