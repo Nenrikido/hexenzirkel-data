@@ -156,9 +156,52 @@
           }
         ]
       }
+    },
+    "constellation1": {
+      "secondAimed": {
+        "element": "physical",
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "secondAimed_mult"
+          }
+        ]
+      },
+      "secondAimedCharged": {
+        "element": "pyro",
+        "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "secondAimedCharged_mult"
+          }
+        ]
+      }
+    },
+    "constellation2": {
+      "manualDetonationDmg": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_", "manualDetonation_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "manualDetonationDmg_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
+    "derivedFrom": {
+      "constellation1": {
+        "secondAimed_mult": { "section": "charged", "multKey": "aimed_mult", "factor": 0.2 },
+        "secondAimedCharged_mult": { "section": "charged", "multKey": "aimedCharged_mult", "factor": 0.2 }
+      },
+      "constellation2": {
+        "manualDetonationDmg_mult": { "section": "skill", "multKey": "dmg_mult", "factor": 1.0 }
+      }
+    },
     "levelUp": {
       "normal": {
         "0_mult": 0.7644,
@@ -178,6 +221,13 @@
       },
       "skill": {
         "dmg_mult": 2.772
+      },
+      "constellation1": {
+        "secondAimed_mult": 0.18564,
+        "secondAimedCharged_mult": 0.4712
+      },
+      "constellation2": {
+        "manualDetonationDmg_mult": 2.772
       }
     },
     "normal": {
@@ -203,6 +253,13 @@
       "rainDmg_mult": 10.7406,
       "dmgPerWave_mult": 0.5967
     },
+    "constellation1": {
+      "secondAimed_mult": 0.1734,
+      "secondAimedCharged_mult": 0.4464
+    },
+    "constellation2": {
+      "manualDetonationDmg_mult": 2.618
+    },
     "source": {
       "goCharacterKey": "Amber",
       "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill.inheritedHp: skipped (helper/cond formula)'].",
@@ -217,7 +274,8 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "burst_critRate_": 0.1
+      "burst_critRate_": 0.1,
+      "manualDetonation_dmg_": 2.0
     },
     "self_conditional_modifiers_json": [
       {
@@ -225,13 +283,6 @@
         "source": "Amber",
         "description": "A4 Precise Shot: hitting a weak point with a fully-charged Aimed Shot increases ATK by 15% for 10s.",
         "states": [{ "value": "on", "modifiers": { "atk_": 0.15 } }]
-      },
-      {
-        "conditionKey": "c2BunnyTriggeredSkillDmg",
-        "source": "Amber",
-        "description": "C2 Bunny Triggered: manually detonating Baron Bunny with a fully-charged Aimed Shot deals 200% additional DMG on that explosion. Approximated as a flat bonus to the existing Explosive Puppet skill-DMG hit rather than a separate detonation hit.",
-        "gating": { "constellationMin": 2 },
-        "states": [{ "value": "on", "modifiers": { "skill_dmg_": 2.0 } }]
       }
     ],
     "team_modifiers_json": {},

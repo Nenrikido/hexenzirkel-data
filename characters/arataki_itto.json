@@ -19,8 +19,8 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -29,8 +29,8 @@
         ]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -39,8 +39,8 @@
         ]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,8 +49,8 @@
         ]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["normal_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,8 +61,8 @@
     },
     "charged": {
       "sSlash": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["charged_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,8 +71,8 @@
         ]
       },
       "akSlash": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["charged_dmg_", "geo_dmg_", "all_dmg_", "kesagiri_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -81,8 +81,8 @@
         ]
       },
       "akFinal": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["charged_dmg_", "geo_dmg_", "all_dmg_", "kesagiri_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,8 +93,8 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["plunging_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -103,8 +103,8 @@
         ]
       },
       "low": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["plunging_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -113,8 +113,8 @@
         ]
       },
       "high": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "geo",
+        "dmgBonusKeys": ["plunging_dmg_", "geo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -189,7 +189,7 @@
     },
     "source": {
       "goCharacterKey": "AratakiItto",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.defConv: skipped (helper/cond formula)', 'skill.hp: skipped (helper/cond formula)'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging are seeded Geo: Royal Descent's non-overridable Geo infusion is baked in (Noelle precedent), since Itto's kit is played inside his burst. A4 (+35% of DEF) is scoped to Arataki Kesagiri through the kesagiri_dmg_ bonus key on charged.akSlash/akFinal, so Saichimonji Slash (charged.sSlash) does not get it. Unparsed GO formulas (add manually if needed): ['burst.defConv: skipped (helper/cond formula)', 'skill.hp: skipped (helper/cond formula)'].",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -201,11 +201,66 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "charged_dmgIncFromDef_": 0.35
+      "kesagiri_dmgIncFromDef_": 0.35
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstRoyalDescent",
+        "source": "AratakiItto",
+        "description": "Royal Descent: Behold, Itto the Evil!: Itto's ATK is increased by 103.68% of his DEF (burst Lv10) for the duration, and his Normal, Charged and Plunging Attacks are converted to Geo DMG (baked into the hit definitions, so this condition carries only the ATK half). C5 raises the burst to Lv13: 122.4% of DEF.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "atk_from_def_": 1.0368
+            }
+          }
+        ],
+        "constellationStates": {
+          "C5": {
+            "on": {
+              "atk_from_def_": 1.224
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c6AratakiIttoPresent",
+        "source": "AratakiItto",
+        "description": "C6 Arataki Itto, Present!: Itto's Charged Attacks deal +70% CRIT DMG (the chance not to consume Superlative Superstrength stacks is not modeled).",
+        "gating": {
+          "constellationMin": 6
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "charged_critDMG_": 0.7
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4JailhouseBreadAndButter",
+        "source": "AratakiItto",
+        "description": "C4 Jailhouse Bread and Butter: when the Raging Oni King state from Royal Descent ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "def_": 0.2,
+              "atk_": 0.2
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   },

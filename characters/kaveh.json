@@ -19,8 +19,8 @@
   "hit_definitions_json": {
     "normal": {
       "0": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -29,8 +29,8 @@
         ]
       },
       "1": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -39,8 +39,8 @@
         ]
       },
       "2": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,8 +49,8 @@
         ]
       },
       "3": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -61,8 +61,8 @@
     },
     "charged": {
       "spin": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["charged_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -71,8 +71,8 @@
         ]
       },
       "final": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["charged_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -83,8 +83,8 @@
     },
     "plunging": {
       "dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -93,8 +93,8 @@
         ]
       },
       "low": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -103,8 +103,8 @@
         ]
       },
       "high": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -129,6 +129,18 @@
       "dmg": {
         "element": "dendro",
         "dmgBonusKeys": ["burst_dmg_", "dendro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation6": {
+      "dmg": {
+        "element": "dendro",
+        "dmgBonusKeys": ["dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -180,9 +192,12 @@
     "burst": {
       "dmg_mult": 3.4
     },
+    "constellation6": {
+      "dmg_mult": 0.618
+    },
     "source": {
       "goCharacterKey": "Kaveh",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied).",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging are seeded Dendro: Painted Dome's non-overridable Dendro infusion is baked in (Diluc/Noelle/Cryo Traveler precedent), since a physical Kaveh Normal Attack is not a state that occurs in play. constellation6.dmg is Pairidaeza's Light, a separate 61.8% ATK Dendro instance with no attack-type bonus (GO's 'elemental' move), scored as its own rotation target.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -215,22 +230,6 @@
           {
             "value": "on",
             "modifiers": { "bloom_dmg_": 0.6, "lunarbloom_dmg_": 0.6 }
-          }
-        ]
-      },
-      {
-        "conditionKey": "c6PairidaezasDreams",
-        "source": "Kaveh",
-        "description": "C6 Pairidaeza's Dreams: when Kaveh's Normal, Charged, or Plunging Attacks hit opponents during Painted Dome, they unleash Pairidaeza's Light, dealing 61.8% of Kaveh's ATK as AoE Dendro DMG. Modeled as an ATK-ratio bonus folded onto those attacks (Arlecchino masqueBondOfLife-style approximation); the accompanying Dendro Core burst trigger is not modeled.",
-        "gating": { "constellationMin": 6 },
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "normal_dmgIncFromAtk_": 0.618,
-              "charged_dmgIncFromAtk_": 0.618,
-              "plunging_dmgIncFromAtk_": 0.618
-            }
           }
         ]
       }

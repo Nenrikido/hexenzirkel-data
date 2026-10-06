@@ -115,6 +115,46 @@
             "multKey": "skillDmg_mult"
           }
         ]
+      },
+      "pyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "markDmg_mult"
+          }
+        ]
+      },
+      "hydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "markDmg_mult"
+          }
+        ]
+      },
+      "electro": {
+        "element": "electro",
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "markDmg_mult"
+          }
+        ]
+      },
+      "cryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "markDmg_mult"
+          }
+        ]
       }
     }
   },
@@ -154,7 +194,8 @@
       "tonicDmg_mult": 2.8339
     },
     "burst": {
-      "skillDmg_mult": 10.8052
+      "skillDmg_mult": 10.8052,
+      "markDmg_mult": 2.3154
     },
     "source": {
       "goCharacterKey": "Ifa",
