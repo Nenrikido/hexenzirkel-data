@@ -197,6 +197,44 @@
           }
         ]
       }
+    },
+    "passive2": {
+      "a4LeadVocal_hydro_dmgIncDisp": {
+        "statKey": "hp",
+        "offset": 40000.0,
+        "ratio": 0.14,
+        "cap": 3500.0
+      },
+      "a4LeadVocal_cryo_dmgIncDisp": {
+        "statKey": "hp",
+        "offset": 40000.0,
+        "ratio": 0.14,
+        "cap": 3500.0
+      },
+      "a4LeadVocal_stellarswirl_dmgIncDisp": {
+        "statKey": "hp",
+        "offset": 40000.0,
+        "ratio": 0.26,
+        "cap": 6500.0
+      },
+      "a4Chorus_hydro_dmgIncDisp": {
+        "statKey": "hp",
+        "offset": 40000.0,
+        "ratio": 0.14,
+        "cap": 3500.0
+      },
+      "a4Chorus_cryo_dmgIncDisp": {
+        "statKey": "hp",
+        "offset": 40000.0,
+        "ratio": 0.14,
+        "cap": 3500.0
+      },
+      "a4Chorus_stellarswirl_dmgIncDisp": {
+        "statKey": "hp",
+        "offset": 40000.0,
+        "ratio": 0.26,
+        "cap": 6500.0
+      }
     }
   },
   "talent_multipliers_json": {
@@ -279,7 +317,7 @@
       "provider": "nanoka",
       "endpoint": "https://static.nanoka.cc/gi/7.1/en/character/10000140.json",
       "nanokaVersion": "7.1",
-      "note": "Hit keys reconciled 2026-10-04 with Genshin Optimizer's Vodyanitsa sheet (frzyc/genshin-optimizer PR #3316, branch van/go/7.1): burst dmg -> burst skillDmg. burst.songOfAgesPastDmg has no GO counterpart (GO applies Song of Ages Past as a conditional on burst.skillDmg) and is kept as our own key. Original note: Added 2026-09-22 (7.1 release day); Amber/yatta and Genshin Optimizer had no entry yet, so hit keys are GUESSES in GO's vocabulary, to be reconciled once GO ships a Vodyanitsa sheet: normal 0-3 (catalyst, Hydro), charged dmg, plunging dmg/low/high, skill skillDmg (Rechitativ: Sonorous Dawn, % Max HP) + hornDmg (Horn of Spring's Call, % Max HP, one instance per 3s attack), burst dmg (Koda: Sink With Thee, % Max HP). The burst's 'Song of Ages Past DMG Bonus' (86.4% at Lv10, 102% at Lv13) is ADDITIVE TO THE RATIO, not a DMG% bonus, so it is a second hit key burst.songOfAgesPastDmg = 82.2% + 86.4% = 168.6% Max HP (197.1% boosted); score burst.dmg only for a cast outside Song of Ages Past. Healing is not modelled. A4 Lead Vocal / Chorus: the hyperlink glossary's {PARAM#P1402201|3S1}..|7S1} refs resolve to passive param_list[2..6] = 40000 / 260 / 140 / 6500 / 3500 with the S1 (raw) format, i.e. a flat DMG increase per 1,000 Max HP above 40,000, NOT a percentage -- see the a4LeadVocal* conditionals. Not tagged enables=stellar: she does not create Stellar reactions herself (she turns a Stellar Vortex into a Wandering Vortex and extends Radiance).",
+      "note": "Hit keys reconciled 2026-10-04 with Genshin Optimizer's Vodyanitsa sheet (frzyc/genshin-optimizer PR #3316, branch van/go/7.1): burst dmg -> burst skillDmg. burst.songOfAgesPastDmg has no GO counterpart (GO applies Song of Ages Past as a conditional on burst.skillDmg) and is kept as our own key. Original note: Added 2026-09-22 (7.1 release day); Amber/yatta and Genshin Optimizer had no entry yet, so hit keys are GUESSES in GO's vocabulary, to be reconciled once GO ships a Vodyanitsa sheet: normal 0-3 (catalyst, Hydro), charged dmg, plunging dmg/low/high, skill skillDmg (Rechitativ: Sonorous Dawn, % Max HP) + hornDmg (Horn of Spring's Call, % Max HP, one instance per 3s attack), burst dmg (Koda: Sink With Thee, % Max HP). The burst's 'Song of Ages Past DMG Bonus' (86.4% at Lv10, 102% at Lv13) is ADDITIVE TO THE RATIO, not a DMG% bonus, so it is a second hit key burst.songOfAgesPastDmg = 82.2% + 86.4% = 168.6% Max HP (197.1% boosted); score burst.dmg only for a cast outside Song of Ages Past. Healing is not modelled. A4 Lead Vocal / Chorus: the hyperlink glossary's {PARAM#P1402201|3S1}..|7S1} refs resolve to passive param_list[2..6] = 40000 / 260 / 140 / 6500 / 3500 with the S1 (raw) format, i.e. a flat DMG increase per 1,000 Max HP above 40,000, NOT a percentage -- see the a4LeadVocal* conditionals. Not tagged enables=stellar: she does not create Stellar reactions herself (she turns a Stellar Vortex into a Wandering Vortex and extends Radiance). 2026-10-06: added GO's six A4 display nodes as stat-readout rotation targets (passive2.a4LeadVocal_/a4Chorus_ x hydro_/cryo_/stellarswirl_dmgIncDisp). Each scores the flat DMG increase ONE quill stack adds, min(max(Max HP - 40000, 0) x 0.14 (0.26 Stellar Swirl), 3500 (6500)), read off the scored build's own buffed Max HP; weight = stacks consumed. Lead Vocal and Chorus read the same value (GO's split is active vs off-field consumer).",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
