@@ -2,7 +2,9 @@
   "set_key": "TenacityOfTheMillelith",
   "display_name": "Tenacity of the Millelith",
   "buffs": {
-    "self_modifiers_json": {},
+    "self_modifiers_json": {
+      "hp_": 0.2
+    },
     "self_conditional_modifiers_json": [],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
