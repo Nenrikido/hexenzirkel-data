@@ -247,41 +247,16 @@
       {
         "conditionKey": "a1FieldMedicsVisionReactionDmg",
         "source": "Ifa",
-        "description": "A1 Field Medic's Vision: while in Nightsoul's Blessing, every Nightsoul point across the whole party grants Ifa 1 Rescue Essentials point (max 150 base), each point increasing nearby party members' Swirl and Electro-Charged DMG by 1.5% and Lunar-Charged DMG by 0.2% (values per KQM/community kit breakdown, not in the raw API text). States below approximate common party Nightsoul totals; pick the one matching the actual team. C2 Guiding Spirit of Ballistic Prayer raises the cap to 200 points: that is the 200_points_c2 state here (only valid with Ifa at C2+), not a separate condition, so the two can't be stacked.",
-        "states": [
-          {
-            "value": "50_points",
-            "modifiers": {
-              "swirl_dmg_": 0.75,
-              "electrocharged_dmg_": 0.75,
-              "lunarcharged_dmg_": 0.1
-            }
-          },
-          {
-            "value": "100_points",
-            "modifiers": {
-              "swirl_dmg_": 1.5,
-              "electrocharged_dmg_": 1.5,
-              "lunarcharged_dmg_": 0.2
-            }
-          },
-          {
-            "value": "150_points_max",
-            "modifiers": {
-              "swirl_dmg_": 2.25,
-              "electrocharged_dmg_": 2.25,
-              "lunarcharged_dmg_": 0.3
-            }
-          },
-          {
-            "value": "200_points_c2",
-            "modifiers": {
-              "swirl_dmg_": 3.0,
-              "electrocharged_dmg_": 3.0,
-              "lunarcharged_dmg_": 0.4
-            }
-          }
-        ]
+        "description": "A1 Field Medic's Vision: while in Nightsoul's Blessing, every Nightsoul point across the whole party grants Ifa 1 Rescue Essentials point, each point increasing nearby party members' Swirl and Electro-Charged DMG by 1.5% and Lunar-Charged DMG by 0.2% (values per KQM/community kit breakdown, not in the raw API text). The admin types the point total, 0-200: the cap is 150, and C2 Guiding Spirit of Ballistic Prayer raises it to 200. Blank means 150.",
+        "statInput": {
+          "stat": "rescueEssentials",
+          "default": 150,
+          "max": 200,
+          "ratesPerUnit": { "swirl_dmg_": 0.015, "electrocharged_dmg_": 0.015, "lunarcharged_dmg_": 0.002 },
+          "labelKey": "admin.lbIfaRescueEssentialsLabel",
+          "placeholderKey": "admin.lbIfaRescueEssentialsPlaceholder"
+        },
+        "states": []
       }
     ],
     "others_modifiers_json": {},
