@@ -247,7 +247,7 @@
       {
         "conditionKey": "a1FieldMedicsVisionReactionDmg",
         "source": "Ifa",
-        "description": "A1 Field Medic's Vision: while in Nightsoul's Blessing, every Nightsoul point across the whole party grants Ifa 1 Rescue Essentials point (max 150 base), each point increasing nearby party members' Swirl and Electro-Charged DMG by 1.5% and Lunar-Charged DMG by 0.2% (values per KQM/community kit breakdown, not in the raw API text). States below approximate common party Nightsoul totals; pick the one matching the actual team.",
+        "description": "A1 Field Medic's Vision: while in Nightsoul's Blessing, every Nightsoul point across the whole party grants Ifa 1 Rescue Essentials point (max 150 base), each point increasing nearby party members' Swirl and Electro-Charged DMG by 1.5% and Lunar-Charged DMG by 0.2% (values per KQM/community kit breakdown, not in the raw API text). States below approximate common party Nightsoul totals; pick the one matching the actual team. C2 Guiding Spirit of Ballistic Prayer raises the cap to 200 points: that is the 200_points_c2 state here (only valid with Ifa at C2+), not a separate condition, so the two can't be stacked.",
         "states": [
           {
             "value": "50_points",
@@ -272,19 +272,9 @@
               "electrocharged_dmg_": 2.25,
               "lunarcharged_dmg_": 0.3
             }
-          }
-        ]
-      },
-      {
-        "conditionKey": "c2GuidingSpiritExtendedReactionDmg",
-        "source": "Ifa",
-        "description": "C2 Guiding Spirit of Ballistic Prayer: raises Ifa's Rescue Essentials cap to 200 (each point still worth 1.5% Swirl/Electro-Charged DMG and 0.2% Lunar-Charged DMG to nearby party members). State below represents the extended 200-point cap; use the base a1FieldMedicsVisionReactionDmg condition for lower totals.",
-        "gating": {
-          "constellationMin": 2
-        },
-        "states": [
+          },
           {
-            "value": "200_points_max",
+            "value": "200_points_c2",
             "modifiers": {
               "swirl_dmg_": 3.0,
               "electrocharged_dmg_": 3.0,

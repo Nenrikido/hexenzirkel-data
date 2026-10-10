@@ -123,6 +123,16 @@
             "multKey": "dmg_mult"
           }
         ]
+      },
+      "lvl3Dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "lvl3Dmg_mult"
+          }
+        ]
       }
     },
     "burst": {
@@ -166,7 +176,8 @@
         "high_mult": 3.942393
       },
       "skill": {
-        "dmg_mult": 3.816
+        "dmg_mult": 3.816,
+        "lvl3Dmg_mult": 0.756
       }
     },
     "normal": {
@@ -185,7 +196,8 @@
       "high_mult": 3.682455
     },
     "skill": {
-      "dmg_mult": 3.604
+      "dmg_mult": 3.604,
+      "lvl3Dmg_mult": 0.714
     },
     "burst": {
       "pressPhysDmg_mult": 7.242,
@@ -193,7 +205,7 @@
     },
     "source": {
       "goCharacterKey": "Xinyan",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill.lvl3Dmg: dm path skill.lvl3Dmg not found', 'skill: fromEntries callback unparsed'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill: fromEntries callback unparsed'].",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,

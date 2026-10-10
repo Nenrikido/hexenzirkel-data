@@ -156,6 +156,16 @@
       }
     },
     "burst": {
+      "summon": {
+        "element": "electro",
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "summon_mult"
+          }
+        ]
+      },
       "tick": {
         "element": "electro",
         "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
@@ -190,6 +200,9 @@
         "stack2_mult": 9.54,
         "stack3_mult": 10.962,
         "press_mult": 1.8
+      },
+      "burst": {
+        "tick_mult": 0.8226
       }
     },
     "normal": {
@@ -214,11 +227,12 @@
       "press_mult": 1.7
     },
     "burst": {
+      "summon_mult": 0.1,
       "tick_mult": 0.7769
     },
     "source": {
       "goCharacterKey": "Lisa",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.summon: custom formula skipped'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.summon: custom formula skipped']. Added by hand 2026-10-10: burst.summon (Lightning Rose summon, a flat 10% ATK at every level per GO, so it has no levelUp entry) and the burst levelUp tick value.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -236,7 +250,12 @@
         "source": "Lisa",
         "description": "C2 Electromagnetic Field: while holding Violet Arc (during Lightning Rose's Elemental Burst duration), Lisa's DEF is increased by 25% (also grants interrupt resistance, not modeled).",
         "gating": { "constellationMin": 2 },
-        "states": [{ "value": "on", "modifiers": { "def_": 0.25 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "def_": 0.25 }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
@@ -245,7 +264,12 @@
         "conditionKey": "a5StaticElectricityField",
         "source": "Lisa",
         "description": "A5 Static Electricity Field: opponents hit by Lightning Rose (Elemental Burst) have their DEF decreased by 15% for 10s. Modeled as a party-wide buff so it applies whether Lisa is the scored character or a support.",
-        "states": [{ "value": "on", "modifiers": { "defShred_": 0.15 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "defShred_": 0.15 }
+          }
+        ]
       }
     ],
     "others_modifiers_json": {},

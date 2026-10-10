@@ -9,11 +9,54 @@
       {
         "conditionKey": "4pc_the_equipping_character_s_bloom_hyperbloom_and_burgeon_react",
         "source": "FlowerOfParadiseLost",
-        "description": "4pc: The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effects mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.",
-        "modifiers": {
-          "bloom_dmg_": 0.5,
-          "lunarbloom_dmg_": 0.125
-        }
+        "description": "4pc: The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effects mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field. Modeled as GO does: the 40% Bloom/Hyperbloom/Burgeon and 10% Lunar-Bloom base, plus 25% of that per Sprout stack (+10% / +2.5%), 0-4 stacks; the default is the full 4 stacks (80% / 20%), which a Bloom team holds near-permanently. States are a list, not an object: JSONB re-sorts object keys, which would make 0 stacks the default.",
+        "states": [
+          {
+            "value": "4",
+            "modifiers": {
+              "bloom_dmg_": 0.8,
+              "hyperbloom_dmg_": 0.8,
+              "burgeon_dmg_": 0.8,
+              "lunarbloom_dmg_": 0.2
+            }
+          },
+          {
+            "value": "3",
+            "modifiers": {
+              "bloom_dmg_": 0.7,
+              "hyperbloom_dmg_": 0.7,
+              "burgeon_dmg_": 0.7,
+              "lunarbloom_dmg_": 0.175
+            }
+          },
+          {
+            "value": "2",
+            "modifiers": {
+              "bloom_dmg_": 0.6,
+              "hyperbloom_dmg_": 0.6,
+              "burgeon_dmg_": 0.6,
+              "lunarbloom_dmg_": 0.15
+            }
+          },
+          {
+            "value": "1",
+            "modifiers": {
+              "bloom_dmg_": 0.5,
+              "hyperbloom_dmg_": 0.5,
+              "burgeon_dmg_": 0.5,
+              "lunarbloom_dmg_": 0.125
+            }
+          },
+          {
+            "value": "0",
+            "modifiers": {
+              "bloom_dmg_": 0.4,
+              "hyperbloom_dmg_": 0.4,
+              "burgeon_dmg_": 0.4,
+              "lunarbloom_dmg_": 0.1
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},

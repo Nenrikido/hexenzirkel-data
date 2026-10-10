@@ -143,6 +143,86 @@
             "multKey": "kickHoldDmg_mult"
           }
         ]
+      },
+      "eleWheelDmgPyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleWheelDmg_mult"
+          }
+        ]
+      },
+      "eleWheelDmgHydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleWheelDmg_mult"
+          }
+        ]
+      },
+      "eleWheelDmgElectro": {
+        "element": "electro",
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleWheelDmg_mult"
+          }
+        ]
+      },
+      "eleWheelDmgCryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleWheelDmg_mult"
+          }
+        ]
+      },
+      "eleKickDmgPyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleKickDmg_mult"
+          }
+        ]
+      },
+      "eleKickDmgHydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleKickDmg_mult"
+          }
+        ]
+      },
+      "eleKickDmgElectro": {
+        "element": "electro",
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleKickDmg_mult"
+          }
+        ]
+      },
+      "eleKickDmgCryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "eleKickDmg_mult"
+          }
+        ]
       }
     },
     "burst": {
@@ -188,7 +268,9 @@
       "skill": {
         "wheelDmg_mult": 0.81,
         "kickPressDmg_mult": 3.564,
-        "kickHoldDmg_mult": 4.896
+        "kickHoldDmg_mult": 4.896,
+        "eleWheelDmg_mult": 0.378,
+        "eleKickDmg_mult": 1.7136
       }
     },
     "normal": {
@@ -209,7 +291,9 @@
     "skill": {
       "wheelDmg_mult": 0.765,
       "kickPressDmg_mult": 3.366,
-      "kickHoldDmg_mult": 4.624
+      "kickHoldDmg_mult": 4.624,
+      "eleWheelDmg_mult": 0.357,
+      "eleKickDmg_mult": 1.6184
     },
     "burst": {
       "pressDmg_mult": 2.482,
@@ -217,7 +301,7 @@
     },
     "source": {
       "goCharacterKey": "Sayu",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.pressHeal: skipped (helper/cond formula)', 'skill.eleKickDmg: skipped (helper/cond formula)', 'skill.eleWheelDmg: skipped (helper/cond formula)', 'skill: fromEntries without dm list'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.pressHeal: skipped (helper/cond formula)', 'skill.eleKickDmg: skipped (helper/cond formula)', 'skill.eleWheelDmg: skipped (helper/cond formula)', 'skill: fromEntries without dm list']. Added by hand 2026-10-10: the absorbed-element Fuufuu Windwheel / Whirlwind Kick hits as skill.eleWheelDmg{Pyro,Hydro,Electro,Cryo} and skill.eleKickDmg{...} (GO's eleWheelDmg / eleKickDmg behind its absorption selector), Lv13 / levelUp Lv14.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -234,20 +318,24 @@
         "conditionKey": "c2EgressPrepKickDmg",
         "source": "Sayu",
         "description": "C2 Egress Prep: Fuufuu Whirlwind Kick's (part of Yoohoo Art: Fuuin Dash) DMG is increased by 3.3% per 0.5s spent in the Fuufuu Windwheel state, up to a stated maximum of 66%. Approximated at the fully-stacked 66% cap, applied broadly to skill_dmg_ since no hit-specific key isolates Fuufuu Whirlwind Kick (kickPressDmg/kickHoldDmg) from the Windwheel's own wheelDmg hit without touching hit_definitions_json (minor overestimate on wheelDmg).",
-        "gating": {
-          "constellationMin": 2
-        },
-        "states": [{ "value": "on", "modifiers": { "skill_dmg_": 0.66 } }]
+        "gating": { "constellationMin": 2 },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "skill_dmg_": 0.66 }
+          }
+        ]
       },
       {
         "conditionKey": "c6SleepOClockDarumaAtkDmg",
         "source": "Sayu",
         "description": "C6 Sleep O'Clock: the Muji-Muji Daruma's attacks (darumaDmg) deal bonus DMG equal to 0.2% of Sayu's Elemental Mastery per point, up to +400% ATK at 2,000 EM (the additional HP restored is not modeled — healing is out of scope for this evaluator). No <type>_dmg_from_eleMas_ eval-time conversion key exists for burst-scoped bonuses, so this is approximated as an ATK-ratio bonus at 1,000 EM (a representative full-EM swirl-support Sayu build) => 0.2%*1000 = 200% ATK ratio. Applied to burst_dmgIncFromAtk_ since no hit-specific key isolates darumaDmg from pressDmg without touching hit_definitions_json (minor overestimate on pressDmg); admin can override via the LB builder UI for a different EM assumption.",
-        "gating": {
-          "constellationMin": 6
-        },
+        "gating": { "constellationMin": 6 },
         "states": [
-          { "value": "on", "modifiers": { "burst_dmgIncFromAtk_": 2.0 } }
+          {
+            "value": "on",
+            "modifiers": { "burst_dmgIncFromAtk_": 2.0 }
+          }
         ]
       }
     ],

@@ -13,13 +13,25 @@
       {
         "source": "Whiteblind",
         "conditionKey": "whiteblind_stacks",
-        "description": "R5 Infusion Blade: Normal/Charged Attack hits increase ATK and DEF by 12% for 6s, max 4 stacks (48%/48% at full stacks).",
-        "states": {
-          "active": {
-            "atk_": 0.48,
-            "def_": 0.48
+        "description": "R5 Infusion Blade: Normal/Charged Attack hits increase ATK and DEF by 12% for 6s, max 4 stacks. 'active' is the full 4 stacks (48%/48%) and stays the default so saved boards keep their value; '1'-'3' model a rotation that does not reach full stacks. States are a list, not an object: JSONB re-sorts object keys (shorter first), which would make '1' the default.",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": { "atk_": 0.48, "def_": 0.48 }
+          },
+          {
+            "value": "1",
+            "modifiers": { "atk_": 0.12, "def_": 0.12 }
+          },
+          {
+            "value": "2",
+            "modifiers": { "atk_": 0.24, "def_": 0.24 }
+          },
+          {
+            "value": "3",
+            "modifiers": { "atk_": 0.36, "def_": 0.36 }
           }
-        }
+        ]
       }
     ],
     "team_modifiers_json": {},

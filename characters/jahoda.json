@@ -21,11 +21,7 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -35,11 +31,7 @@
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -49,11 +41,7 @@
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "normal_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -65,11 +53,7 @@
     "charged": {
       "aimed": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -79,11 +63,7 @@
       },
       "fullyAimed": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "charged_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["charged_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,11 +75,7 @@
     "plunging": {
       "dmg": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -109,11 +85,7 @@
       },
       "low": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -123,11 +95,7 @@
       },
       "high": {
         "element": "physical",
-        "dmgBonusKeys": [
-          "plunging_dmg_",
-          "physical_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -139,11 +107,7 @@
     "skill": {
       "bombDmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -153,15 +117,61 @@
       },
       "unfilledDmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "skill_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "unfilledDmg_mult"
+          }
+        ]
+      },
+      "filledDmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "filledDmg_mult"
+          }
+        ]
+      },
+      "meowDmgPyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["skill_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "meowDmg_mult"
+          }
+        ]
+      },
+      "meowDmgHydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["skill_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "meowDmg_mult"
+          }
+        ]
+      },
+      "meowDmgElectro": {
+        "element": "electro",
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "meowDmg_mult"
+          }
+        ]
+      },
+      "meowDmgCryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["skill_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "meowDmg_mult"
           }
         ]
       }
@@ -169,15 +179,55 @@
     "burst": {
       "dmg": {
         "element": "anemo",
-        "dmgBonusKeys": [
-          "burst_dmg_",
-          "anemo_dmg_",
-          "all_dmg_"
-        ],
+        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "robotDmgPyro": {
+        "element": "pyro",
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["jahoda_robot_mult_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "robotDmg_mult"
+          }
+        ]
+      },
+      "robotDmgHydro": {
+        "element": "hydro",
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["jahoda_robot_mult_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "robotDmg_mult"
+          }
+        ]
+      },
+      "robotDmgElectro": {
+        "element": "electro",
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["jahoda_robot_mult_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "robotDmg_mult"
+          }
+        ]
+      },
+      "robotDmgCryo": {
+        "element": "cryo",
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["jahoda_robot_mult_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "robotDmg_mult"
           }
         ]
       }
@@ -201,7 +251,13 @@
       },
       "skill": {
         "bombDmg_mult": 3.5775,
-        "unfilledDmg_mult": 4.293
+        "unfilledDmg_mult": 4.293,
+        "filledDmg_mult": 4.77,
+        "meowDmg_mult": 2.88
+      },
+      "burst": {
+        "dmg_mult": 4.662,
+        "robotDmg_mult": 0.388494
       }
     },
     "normal": {
@@ -220,14 +276,17 @@
     },
     "skill": {
       "bombDmg_mult": 3.37875,
-      "unfilledDmg_mult": 4.0545
+      "unfilledDmg_mult": 4.0545,
+      "filledDmg_mult": 4.505,
+      "meowDmg_mult": 2.72
     },
     "burst": {
-      "dmg_mult": 4.403
+      "dmg_mult": 4.403,
+      "robotDmg_mult": 0.366911
     },
     "source": {
       "goCharacterKey": "Jahoda",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.lowestHeal: skipped (helper/cond formula)', 'burst.robotDmgCryo: skipped (helper/cond formula)', 'burst.robotDmgElectro: skipped (helper/cond formula)', 'burst.robotDmgHydro: skipped (helper/cond formula)', 'burst.robotDmgPyro: skipped (helper/cond formula)', 'burst.robotHeal: skipped (helper/cond formula)', 'skill.filledDmg: skipped (helper/cond formula)', 'skill.meowDmgCryo: skipped (helper/cond formula)', 'skill.meowDmgElectro: skipped (helper/cond formula)', 'skill.meowDmgHydro: skipped (helper/cond formula)', 'skill.meowDmgPyro: skipped (helper/cond formula)'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst.lowestHeal: skipped (helper/cond formula)', 'burst.robotDmgCryo: skipped (helper/cond formula)', 'burst.robotDmgElectro: skipped (helper/cond formula)', 'burst.robotDmgHydro: skipped (helper/cond formula)', 'burst.robotDmgPyro: skipped (helper/cond formula)', 'burst.robotHeal: skipped (helper/cond formula)', 'skill.filledDmg: skipped (helper/cond formula)', 'skill.meowDmgCryo: skipped (helper/cond formula)', 'skill.meowDmgElectro: skipped (helper/cond formula)', 'skill.meowDmgHydro: skipped (helper/cond formula)', 'skill.meowDmgPyro: skipped (helper/cond formula)']. Added by hand 2026-10-10: skill.filledDmg, skill.meowDmg{Pyro,Hydro,Electro,Cryo}, burst.robotDmg{Pyro,Hydro,Electro,Cryo} (GO keys, Lv13 / levelUp Lv14). GO only enables the meow/robot hits with Moonsign >= 2 (Ascendant Gleam); here they are always resolvable, so a board adds them only for a Moonsign team. The A1 robot x1.3 is the self conditional robotPyroLead.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -239,7 +298,19 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "robotPyroLead",
+        "source": "Jahoda",
+        "description": "A1: when Pyro is the most common element in the party (or at C2 with Moonsign Ascendant Gleam), the burst's robot deals 130% DMG — a multiplier on its talent multiplier (GO's a1_pyro_robot_dmg_mult_, a dmgNode special multiplier), applied to burst.robotDmg* only. The robot-heal bonus for a Hydro lead is not modeled (healing).",
+        "states": [
+          {
+            "value": "active",
+            "modifiers": { "jahoda_robot_mult_": 1.3 }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
@@ -249,9 +320,7 @@
         "states": [
           {
             "value": "on",
-            "modifiers": {
-              "eleMas": 100.0
-            }
+            "modifiers": { "eleMas": 100.0 }
           }
         ]
       },
@@ -259,16 +328,11 @@
         "conditionKey": "c6TheLittlestLuckCritBuff",
         "source": "Jahoda",
         "description": "C6 The Littlest Luck: once the Purr-loined Treasure Flask is full, nearby Moonsign characters in the party gain 5% CRIT Rate and 40% CRIT DMG for 20s. Also requires Moonsign: Ascendant Gleam (2+ Nod-Krai party members, toggled separately via the leaderboard's special team buffs).",
-        "gating": {
-          "constellationMin": 6
-        },
+        "gating": { "constellationMin": 6 },
         "states": [
           {
             "value": "on",
-            "modifiers": {
-              "critRate_": 0.05,
-              "critDMG_": 0.4
-            }
+            "modifiers": { "critRate_": 0.05, "critDMG_": 0.4 }
           }
         ]
       }

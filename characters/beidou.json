@@ -133,6 +133,26 @@
             "multKey": "baseDmg_mult"
           }
         ]
+      },
+      "dmgOneHit": {
+        "element": "electro",
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmgOneHit_mult"
+          }
+        ]
+      },
+      "dmgTwoHits": {
+        "element": "electro",
+        "dmgBonusKeys": ["skill_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmgTwoHits_mult"
+          }
+        ]
       }
     },
     "burst": {
@@ -177,7 +197,9 @@
         "high_mult": 3.942393
       },
       "skill": {
-        "baseDmg_mult": 2.736
+        "baseDmg_mult": 2.736,
+        "dmgOneHit_mult": 6.336,
+        "dmgTwoHits_mult": 9.936
       }
     },
     "normal": {
@@ -197,7 +219,9 @@
       "high_mult": 3.682455
     },
     "skill": {
-      "baseDmg_mult": 2.584
+      "baseDmg_mult": 2.584,
+      "dmgOneHit_mult": 5.984,
+      "dmgTwoHits_mult": 9.384
     },
     "burst": {
       "burstDmg_mult": 2.584,
@@ -205,7 +229,7 @@
     },
     "source": {
       "goCharacterKey": "Beidou",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): [\"skill.dmgOneHit: non-dm ref 'skillDmgOneHit'\", \"skill.dmgTwoHits: non-dm ref 'skillDmgTwoHits'\", 'skill.electroShield: skipped (helper/cond formula)', 'skill.shield: skipped (helper/cond formula)'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): [\"skill.dmgOneHit: non-dm ref 'skillDmgOneHit'\", \"skill.dmgTwoHits: non-dm ref 'skillDmgTwoHits'\", 'skill.electroShield: skipped (helper/cond formula)', 'skill.shield: skipped (helper/cond formula)']. skill.dmgOneHit / skill.dmgTwoHits added by hand 2026-10-10: the Tidecaller counter after absorbing 1 / 2 hits = base + 1x / 2x the on-hit bonus.",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -238,7 +262,10 @@
         "description": "C6 Bane of Evil: during Stormbreaker's duration, the Electro RES of surrounding opponents is decreased by 15%.",
         "gating": { "constellationMin": 6 },
         "states": [
-          { "value": "on", "modifiers": { "electro_enemyRes_": -0.15 } }
+          {
+            "value": "on",
+            "modifiers": { "electro_enemyRes_": -0.15 }
+          }
         ]
       }
     ],

@@ -161,6 +161,7 @@
       "secondAimed": {
         "element": "physical",
         "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "damageScale": 0.2,
         "components": [
           {
             "scalingKey": "atk",
@@ -171,6 +172,7 @@
       "secondAimedCharged": {
         "element": "pyro",
         "dmgBonusKeys": ["charged_dmg_", "pyro_dmg_", "all_dmg_"],
+        "damageScale": 0.2,
         "components": [
           {
             "scalingKey": "atk",
@@ -195,8 +197,8 @@
   "talent_multipliers_json": {
     "derivedFrom": {
       "constellation1": {
-        "secondAimed_mult": { "section": "charged", "multKey": "aimed_mult", "factor": 0.2 },
-        "secondAimedCharged_mult": { "section": "charged", "multKey": "aimedCharged_mult", "factor": 0.2 }
+        "secondAimed_mult": { "section": "charged", "multKey": "aimed_mult", "factor": 1.0 },
+        "secondAimedCharged_mult": { "section": "charged", "multKey": "aimedCharged_mult", "factor": 1.0 }
       },
       "constellation2": {
         "manualDetonationDmg_mult": { "section": "skill", "multKey": "dmg_mult", "factor": 1.0 }
@@ -223,8 +225,8 @@
         "dmg_mult": 2.772
       },
       "constellation1": {
-        "secondAimed_mult": 0.18564,
-        "secondAimedCharged_mult": 0.4712
+        "secondAimed_mult": 0.9282,
+        "secondAimedCharged_mult": 2.356
       },
       "constellation2": {
         "manualDetonationDmg_mult": 2.772
@@ -254,8 +256,8 @@
       "dmgPerWave_mult": 0.5967
     },
     "constellation1": {
-      "secondAimed_mult": 0.1734,
-      "secondAimedCharged_mult": 0.4464
+      "secondAimed_mult": 0.867,
+      "secondAimedCharged_mult": 2.232
     },
     "constellation2": {
       "manualDetonationDmg_mult": 2.618

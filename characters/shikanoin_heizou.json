@@ -133,6 +133,19 @@
         ]
       }
     },
+    "skill": {
+      "dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["heizou_declension_mult_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
     "burst": {
       "slugger_dmg": {
         "element": "anemo",
@@ -141,6 +154,46 @@
           {
             "scalingKey": "atk",
             "multKey": "slugger_dmg_mult"
+          }
+        ]
+      },
+      "pyro_iris_dmg": {
+        "element": "pyro",
+        "dmgBonusKeys": ["burst_dmg_", "pyro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "iris_dmg_mult"
+          }
+        ]
+      },
+      "hydro_iris_dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["burst_dmg_", "hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "iris_dmg_mult"
+          }
+        ]
+      },
+      "electro_iris_dmg": {
+        "element": "electro",
+        "dmgBonusKeys": ["burst_dmg_", "electro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "iris_dmg_mult"
+          }
+        ]
+      },
+      "cryo_iris_dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["burst_dmg_", "cryo_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "iris_dmg_mult"
           }
         ]
       }
@@ -164,6 +217,13 @@
         "dmg_mult": 1.202656,
         "low_mult": 2.404802,
         "high_mult": 3.003728
+      },
+      "skill": {
+        "dmg_mult": 5.1192
+      },
+      "burst": {
+        "slugger_dmg_mult": 7.08048,
+        "iris_dmg_mult": 0.48276
       }
     },
     "normal": {
@@ -183,12 +243,16 @@
       "low_mult": 2.246244,
       "high_mult": 2.80568
     },
+    "skill": {
+      "dmg_mult": 4.8348
+    },
     "burst": {
-      "slugger_dmg_mult": 6.68712
+      "slugger_dmg_mult": 6.68712,
+      "iris_dmg_mult": 0.45594
     },
     "source": {
       "goCharacterKey": "ShikanoinHeizou",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['burst: fromEntries without dm list', 'skill.dmg: custom formula skipped'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Added by hand 2026-10-10: skill.dmg (Heartstopper Strike, Declension/Conviction stacks via heizou_declension_mult_) and burst.{ele}_iris_dmg (Windmuster Iris).",
       "assumptions": {
         "constellation": 6,
         "characterLevel": 90,
@@ -202,16 +266,53 @@
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
-        "conditionKey": "c6CuriousCasefilesHeartstopperCrit",
+        "conditionKey": "skillDeclensionStacks",
         "source": "Shikanoin Heizou",
-        "description": "C6 Curious Casefiles: each Declension stack increases the CRIT Rate of the unleashed Heartstopper Strike (Elemental Skill) by 4%; when Heizou possesses Conviction, that Heartstopper Strike's CRIT DMG is also increased by 32%. Approximated assuming 3 Declension stacks (=12% CRIT Rate) and Conviction active. Note: hit_definitions_json currently has no dedicated hit for Heartstopper Strike (the seed generator skipped skill.dmg as a custom/conditional formula), so this modifier targets the standard skill_critRate_/skill_critDMG_ keys and will only take effect once that hit definition is added.",
-        "gating": {
-          "constellationMin": 6
-        },
+        "description": "Heartstopper Strike: each Declension stack adds 25% of the base Heartstopper Strike multiplier (Lv13: +120.87% ATK per stack, max 4), and at 4 stacks Heizou gains Conviction, adding another 50% of it (Lv13: +241.74%). Both are additive to the hit's own multiplier, as in GO (dm.skill.declension_dmg_ / conviction_dmg_ are exactly 0.25x / 0.5x the base at every level), so they are modeled as a multiplier on it: 1 + 0.25 x stacks, 2.5 at 4 stacks. Defaults to 4 stacks (Conviction), the usual full-charge cast.",
         "states": [
           {
-            "value": "on",
-            "modifiers": { "skill_critRate_": 0.12, "skill_critDMG_": 0.32 }
+            "value": "4",
+            "modifiers": { "heizou_declension_mult_": 2.5 }
+          },
+          {
+            "value": "3",
+            "modifiers": { "heizou_declension_mult_": 1.75 }
+          },
+          {
+            "value": "2",
+            "modifiers": { "heizou_declension_mult_": 1.5 }
+          },
+          {
+            "value": "1",
+            "modifiers": { "heizou_declension_mult_": 1.25 }
+          },
+          {
+            "value": "0",
+            "modifiers": { "heizou_declension_mult_": 1.0 }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6CuriousCasefilesHeartstopperCrit",
+        "source": "Shikanoin Heizou",
+        "description": "C6 Curious Casefiles: each Declension stack increases the CRIT Rate of the unleashed Heartstopper Strike by 4%; with Conviction (4 stacks) its CRIT DMG is also increased by 32%. Pick the same stack count as Declension / Conviction stacks (GO reads both off one stack selector).",
+        "gating": { "constellationMin": 6 },
+        "states": [
+          {
+            "value": "4",
+            "modifiers": { "skill_critRate_": 0.16, "skill_critDMG_": 0.32 }
+          },
+          {
+            "value": "3",
+            "modifiers": { "skill_critRate_": 0.12 }
+          },
+          {
+            "value": "2",
+            "modifiers": { "skill_critRate_": 0.08 }
+          },
+          {
+            "value": "1",
+            "modifiers": { "skill_critRate_": 0.04 }
           }
         ]
       }
@@ -224,7 +325,12 @@
         "conditionKey": "a4PenetrativeReasoningEM",
         "source": "Shikanoin Heizou",
         "description": "A4 Penetrative Reasoning: after Heizou's Heartstopper Strike (Elemental Skill) hits an opponent, increases all party members' (excluding Heizou) Elemental Mastery by 80 for 10s.",
-        "states": [{ "value": "on", "modifiers": { "eleMas": 80.0 } }]
+        "states": [
+          {
+            "value": "on",
+            "modifiers": { "eleMas": 80.0 }
+          }
+        ]
       }
     ]
   },
