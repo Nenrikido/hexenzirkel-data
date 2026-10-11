@@ -18,28 +18,24 @@
           {
             "value": "on",
             "modifiers": {
-              "hydro_dmg_": 0.36,
-              "pyro_dmg_": 0.36
+              "all_dmg_": 0.36
             }
           }
         ],
         "refinementStates": {
           "R1": {
             "on": {
-              "hydro_dmg_": 0.2,
-              "pyro_dmg_": 0.2
+              "all_dmg_": 0.2
             }
           },
           "R3": {
             "on": {
-              "hydro_dmg_": 0.28,
-              "pyro_dmg_": 0.28
+              "all_dmg_": 0.28
             }
           },
           "R5": {
             "on": {
-              "hydro_dmg_": 0.36,
-              "pyro_dmg_": 0.36
+              "all_dmg_": 0.36
             }
           }
         }

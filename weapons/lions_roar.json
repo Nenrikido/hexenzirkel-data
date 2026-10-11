@@ -18,28 +18,24 @@
           {
             "value": "on",
             "modifiers": {
-              "pyro_dmg_": 0.36,
-              "electro_dmg_": 0.36
+              "all_dmg_": 0.36
             }
           }
         ],
         "refinementStates": {
           "R1": {
             "on": {
-              "pyro_dmg_": 0.2,
-              "electro_dmg_": 0.2
+              "all_dmg_": 0.2
             }
           },
           "R3": {
             "on": {
-              "pyro_dmg_": 0.28,
-              "electro_dmg_": 0.28
+              "all_dmg_": 0.28
             }
           },
           "R5": {
             "on": {
-              "pyro_dmg_": 0.36,
-              "electro_dmg_": 0.36
+              "all_dmg_": 0.36
             }
           }
         }
