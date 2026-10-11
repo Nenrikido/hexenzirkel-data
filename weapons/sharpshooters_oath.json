@@ -9,7 +9,35 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "SharpshootersOath",
+        "conditionKey": "sharpshooters_oath_weak_spot",
+        "description": "Precise (R5): Increases DMG against weak spots by 48%. Only aimed shots (Charged Attacks) can target weak spots, and there is no weak-spot stat in the evaluator, so this is modelled as charged_dmg_. Enable it only when the board's aimed shots are assumed to hit weak spots. refinementStates carries R1/R3/R5 (R2/R4 read R1/R3); `states` stays the R5 tier.",
+        "states": {
+          "active": {
+            "charged_dmg_": 0.48
+          }
+        },
+        "refinementStates": {
+          "R1": {
+            "active": {
+              "charged_dmg_": 0.24
+            }
+          },
+          "R3": {
+            "active": {
+              "charged_dmg_": 0.36
+            }
+          },
+          "R5": {
+            "active": {
+              "charged_dmg_": 0.48
+            }
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": []
   },
