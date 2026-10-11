@@ -139,7 +139,26 @@
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4SuchitlsTrance",
+        "source": "Xilonen",
+        "description": "C4 Suchitl's Trance: after Xilonen uses Yohual's Scratch (Elemental Skill), all nearby party members gain Blooming Blessing for 15s: Normal, Charged and Plunging Attack DMG increased by 65% of Xilonen's DEF. Self scope, so this only applies when Xilonen is the scored character: the bonus is an eval-time ratio of her own DEF, so every build gets its own value. A support Xilonen uses the others-scope twin instead. Not modelled: the blessing is removed after 6 triggers per character, so a rotation with more than 6 eligible hits per Skill over-counts it.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmgIncFromDef_": 0.65,
+              "charged_dmgIncFromDef_": 0.65,
+              "plunging_dmgIncFromDef_": 0.65
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
@@ -181,6 +200,40 @@
           { "value": "pyro", "modifiers": { "atk_": 0.45 } },
           { "value": "hydro", "modifiers": { "hp_": 0.45 } },
           { "value": "cryo", "modifiers": { "critDMG_": 0.6 } }
+        ]
+      }
+    ],
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "c4SuchitlsTrance",
+        "source": "Xilonen",
+        "description": "C4 Suchitl's Trance: after Xilonen uses Yohual's Scratch (Elemental Skill), all nearby party members gain Blooming Blessing for 15s: Normal, Charged and Plunging Attack DMG increased by 65% of Xilonen's DEF. Others scope, so this only applies when Xilonen is a teammate: her DEF is not on the scored build, so type this leaderboard's Xilonen DEF into the input; leaving it blank assumes 3,000 DEF. The preset states are coarse fallbacks. Not modelled: the blessing is removed after 6 triggers per character, so a rotation with more than 6 eligible hits per Skill over-counts it.",
+        "gating": {
+          "constellationMin": 4
+        },
+        "statInput": {
+          "stat": "def",
+          "default": 3000,
+          "max": 6000,
+          "ratesPerUnit": {
+            "normal_dmgInc": 0.65,
+            "charged_dmgInc": 0.65,
+            "plunging_dmgInc": 0.65
+          }
+        },
+        "states": [
+          {
+            "value": "xilonen_def_2500",
+            "modifiers": { "normal_dmgInc": 1625.0, "charged_dmgInc": 1625.0, "plunging_dmgInc": 1625.0 }
+          },
+          {
+            "value": "xilonen_def_3000",
+            "modifiers": { "normal_dmgInc": 1950.0, "charged_dmgInc": 1950.0, "plunging_dmgInc": 1950.0 }
+          },
+          {
+            "value": "xilonen_def_3500",
+            "modifiers": { "normal_dmgInc": 2275.0, "charged_dmgInc": 2275.0, "plunging_dmgInc": 2275.0 }
+          }
         ]
       }
     ]
