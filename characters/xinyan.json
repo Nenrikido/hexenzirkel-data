@@ -230,10 +230,10 @@
       {
         "conditionKey": "c6RockinInAFlamingWorld",
         "source": "Xinyan",
-        "description": "C6 Rockin' in a Flaming World: Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
+        "description": "C6 Rockin' in a Flaming World: Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF. Modelled as charged_atkFromDef_: the bonus is ATK, so it goes through the Charged Attack's talent multiplier (a flat DMG increase would skip it).",
         "gating": { "constellationMin": 6 },
         "states": [
-          { "value": "on", "modifiers": { "charged_dmgIncFromDef_": 0.5 } }
+          { "value": "on", "modifiers": { "charged_atkFromDef_": 0.5 } }
         ]
       }
     ],
