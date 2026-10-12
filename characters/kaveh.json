@@ -235,7 +235,21 @@
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstPaintedDomeDendroCore",
+        "source": "Kaveh",
+        "description": "Painted Dome (Elemental Burst): while it lasts, Dendro Cores created by all your party members through Bloom and Lunar-Bloom deal additional DMG when they burst: +49.48% at Lv10, +58.41% at Lv13 (C3). Effects end when Kaveh leaves the field.",
+        "states": [
+          { "value": "on", "modifiers": { "bloom_dmg_": 0.494784, "lunarbloom_dmg_": 0.494784 } }
+        ],
+        "constellationStates": {
+          "C3": {
+            "on": { "bloom_dmg_": 0.58412, "lunarbloom_dmg_": 0.58412 }
+          }
+        }
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   },
