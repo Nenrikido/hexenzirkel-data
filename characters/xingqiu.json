@@ -284,7 +284,7 @@
           {
             "value": "on",
             "modifiers": {
-              "skill_dmg_": 0.5
+              "skill_base_dmg_": 0.5
             }
           }
         ]
