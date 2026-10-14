@@ -177,6 +177,11 @@
             "multKey": "hold_mult"
           }
         ]
+      },
+      "quillDmg": {
+        "statKey": "atk",
+        "ratioMultKey": "quill_mult",
+        "description": "GO's skill.quillDmg: not a hit but the flat DMG one Icy Quill adds to a Cryo hit, Shenhe's total ATK x the skill's quill share (82.18% at Lv10). A stat readout, so no crit, DMG%, DEF or RES. The share is a talent multiplier, so C3 and Skirk's +1 skill level move it."
       }
     },
     "burst": {
@@ -214,7 +219,8 @@
     "levelUpBoosted": {
       "skill": {
         "press_mult": 3.132,
-        "hold_mult": 4.248
+        "hold_mult": 4.248,
+        "quill_mult": 1.02726
       }
     },
     "levelUp": {
@@ -235,7 +241,8 @@
       },
       "skill": {
         "press_mult": 2.6448,
-        "hold_mult": 3.5872
+        "hold_mult": 3.5872,
+        "quill_mult": 0.867464
       }
     },
     "boosted": {
@@ -245,7 +252,8 @@
       },
       "skill": {
         "press_mult": 2.958,
-        "hold_mult": 4.012
+        "hold_mult": 4.012,
+        "quill_mult": 0.97019
       }
     },
     "normal": {
@@ -265,7 +273,8 @@
     },
     "skill": {
       "press_mult": 2.5056,
-      "hold_mult": 3.3984
+      "hold_mult": 3.3984,
+      "quill_mult": 0.821808
     },
     "burst": {
       "dmg_mult": 1.8144,
@@ -273,7 +282,7 @@
     },
     "source": {
       "goCharacterKey": "Shenhe",
-      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). Unparsed GO formulas (add manually if needed): ['skill.quillDmg: skipped (helper/cond formula)'].",
+      "note": "Generated from Genshin Optimizer sheets (master) + allStat_gen skillParam. Hit keys match GO target paths; multKey = <hitKey>_mult. Levels: Lv10, except constellation-boosted talents of 4-star characters at Lv13 (C6 assumed). Normal/charged/plunging default to physical unless the sheet overrides the element (infusions are NOT applied). skill.quillDmg was added by hand as a stat readout (statKey atk x ratioMultKey quill_mult).",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,

@@ -10,14 +10,31 @@
   "buffs": {
     "self_modifiers_json": {
       "atk_from_enerRech_": 0.28,
-      "atk_from_enerRech_cap_": 0.8,
-      "enerRech_": 0.3
+      "atk_from_enerRech_cap_": 0.8
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "source": "EngulfingLightning",
+        "conditionKey": "engulfing_lightning_after_burst_er",
+        "description": "Timeless Dream: Eternal Stove (R1): gain 30% Energy Recharge for 12s after using an Elemental Burst (50% at R5). A toggle, as in GO, rather than always on. The ER it grants also feeds the passive's ATK-from-ER conversion, which reads total ER after every bonus. Boards saved before 2026-10-14 had the ER always on and were backfilled with this condition ticked so their scores did not move.",
+        "states": {
+          "active": {
+            "enerRech_": 0.3
+          }
+        },
+        "refinementStates": {
+          "R5": {
+            "active": {
+              "enerRech_": 0.5
+            }
+          }
+        }
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "source": {
-      "note": "Timeless Dream: Eternal Stove (R1, Amber affix 113509 upgrade[0]): 'ATK increased by 28% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80% ATK. Gain 30% Energy Recharge for 12s after using an Elemental Burst.' The ATK-from-ER conversion uses new eval-time stat-conversion keys atk_from_enerRech_/atk_from_enerRech_cap_ (added 2026-07-15 to damage_evaluator_service.py/damage_evaluator_batch_service.py, mirroring the existing <element>_dmg_from_enerRech_ pattern but targeting atk_ instead). The 30% ER-after-burst proc is baked unconditionally into self_modifiers_json (assumes burst-centric rotation uptime, standard for this codebase's weapon modeling), and its ER also feeds the ATK conversion since apply_bonus_modifiers merges it before apply_stat_conversions runs."
+      "note": "Timeless Dream: Eternal Stove (R1, Amber affix 113509 upgrade[0]): 'ATK increased by 28% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80% ATK. Gain 30% Energy Recharge for 12s after using an Elemental Burst.' The ATK-from-ER conversion uses new eval-time stat-conversion keys atk_from_enerRech_/atk_from_enerRech_cap_ (added 2026-07-15 to damage_evaluator_service.py/damage_evaluator_batch_service.py, mirroring the existing <element>_dmg_from_enerRech_ pattern but targeting atk_ instead). The 30% ER-after-burst proc is the self conditional engulfing_lightning_after_burst_er (always-on until 2026-10-14), and its ER also feeds the ATK conversion since apply_bonus_modifiers merges it before apply_stat_conversions runs."
     }
   },
   "descriptions_json": {
