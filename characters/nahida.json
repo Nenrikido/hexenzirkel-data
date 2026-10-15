@@ -140,6 +140,28 @@
           }
         ]
       }
+    },
+    "constellation6": {
+      "dmg": {
+        "element": "dendro",
+        "sameBuffsAs": "karmaDmg",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "dendro_dmg_",
+          "all_dmg_",
+          "karmadmg_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "atkDmg_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "eleMasDmg_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -200,6 +222,10 @@
       "dmg_mult": 1.12336,
       "low_mult": 2.246244,
       "high_mult": 2.80568
+    },
+    "constellation6": {
+      "atkDmg_mult": 2.0,
+      "eleMasDmg_mult": 4.0
     },
     "source": {
       "goCommit": "2937f8a80846b18c3495b7657c0bae5c78c82606",
@@ -268,6 +294,18 @@
               "eleMas_from_eleMas_cap_": 250.0
             }
           }
+        ]
+      },
+      {
+        "conditionKey": "nahidaC4SeedsOfSkandha",
+        "source": "avatar_10000073",
+        "description": "C4 The Stem of Manifest Inference: when 1/2/3/4 nearby opponents are affected by Seeds of Skandha, Nahida's Elemental Mastery is increased by 100/120/140/160 (GO constellation4.eleMas). The state is the number of opponents marked.",
+        "gating": { "constellationMin": 4 },
+        "states": [
+          { "value": "1", "modifiers": { "eleMas": 100.0 } },
+          { "value": "2", "modifiers": { "eleMas": 120.0 } },
+          { "value": "3", "modifiers": { "eleMas": 140.0 } },
+          { "value": "4", "modifiers": { "eleMas": 160.0 } }
         ]
       }
     ],
