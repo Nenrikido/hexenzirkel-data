@@ -179,8 +179,9 @@
     "others_conditional_modifiers_json": [
       {
         "conditionKey": "a4EmBuff",
+        "statInput": {"stat": "def", "default": 2500, "max": 6000, "ratesPerUnit": {"eleMas": 0.05}},
         "source": "avatar_10000130",
-        "description": "A4 passive: team EM equal to 5% of Linnea's DEF, evaluated at 2500 DEF (+125 EM). Applied statically to teammates; when Linnea herself is scored the buff is dynamic (eleMas_from_def_ in self_modifiers).",
+        "description": "A4 passive: team EM equal to 5% of Linnea's DEF. The admin types Linnea's DEF (blank = 2500 DEF, +125 EM). Applied statically to teammates; when Linnea herself is scored the buff is dynamic (eleMas_from_def_ in self_modifiers).",
         "modifiers": {
           "eleMas": 125.0
         }

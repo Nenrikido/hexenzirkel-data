@@ -263,8 +263,9 @@
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "burstSong",
+        "statInput": {"stat": "eleMas", "default": 1120, "max": 3000, "ratesPerUnit": {"geo_dmgInc": 0.714, "lunarcrystallize_dmgInc": 4.801}},
         "source": "avatar_10000127",
-        "description": "Burst Song active: active character gains Geo DMG increase and Lunar-Crystallize direct DMG increase scaling with Illuga's Elemental Mastery.",
+        "description": "Burst Song active: active character gains Geo DMG increase (71.4% of EM) and Lunar-Crystallize direct DMG increase (480.1% of EM) scaling with Illuga's Elemental Mastery. The admin types Illuga's EM (blank = 1120); the EM presets still apply when picked.",
         "states": [
           {
             "value": "1120 EM (SMS)",
@@ -285,7 +286,7 @@
       {
         "conditionKey": "a4SongHydroGeo",
         "source": "avatar_10000127",
-        "description": "A4: while Burst Song is active, the active character gains additional Geo DMG and Lunar-Crystallize direct DMG increase based on the number of Hydro/Geo party members.",
+        "description": "A4 (EM presets, kept for boards saved against them): while Burst Song is active, the active character gains additional Geo DMG and Lunar-Crystallize direct DMG increase based on the number of Hydro/Geo party members. For a typed EM use a4SongHydroGeo1 / 2 / 3plus instead.",
         "states": [
           {
             "value": "1 members 1120 EM",
@@ -330,6 +331,24 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "a4SongHydroGeo1",
+        "statInput": {"stat": "eleMas", "default": 1120, "max": 3000, "ratesPerUnit": {"geo_dmgInc": 0.07, "lunarcrystallize_dmgInc": 0.48}},
+        "source": "avatar_10000127",
+        "description": "A4 with 1 Hydro/Geo party member: while Burst Song is active, the active character gains Geo DMG increase (7% of Illuga's EM) and Lunar-Crystallize direct DMG increase (48% of EM). The admin types Illuga's EM (blank = 1120). Enable only the one matching the team, and not together with a4SongHydroGeo (its EM presets)."
+      },
+      {
+        "conditionKey": "a4SongHydroGeo2",
+        "statInput": {"stat": "eleMas", "default": 1120, "max": 3000, "ratesPerUnit": {"geo_dmgInc": 0.14, "lunarcrystallize_dmgInc": 0.96}},
+        "source": "avatar_10000127",
+        "description": "A4 with 2 Hydro/Geo party members: while Burst Song is active, the active character gains Geo DMG increase (14% of Illuga's EM) and Lunar-Crystallize direct DMG increase (96% of EM). The admin types Illuga's EM (blank = 1120). Enable only the one matching the team, and not together with a4SongHydroGeo (its EM presets)."
+      },
+      {
+        "conditionKey": "a4SongHydroGeo3plus",
+        "statInput": {"stat": "eleMas", "default": 1120, "max": 3000, "ratesPerUnit": {"geo_dmgInc": 0.24, "lunarcrystallize_dmgInc": 1.6}},
+        "source": "avatar_10000127",
+        "description": "A4 with 3+ Hydro/Geo party members: while Burst Song is active, the active character gains Geo DMG increase (24% of Illuga's EM) and Lunar-Crystallize direct DMG increase (160% of EM). The admin types Illuga's EM (blank = 1120). Enable only the one matching the team, and not together with a4SongHydroGeo (its EM presets)."
       },
       {
         "conditionKey": "a1AfterSkillBurst",
