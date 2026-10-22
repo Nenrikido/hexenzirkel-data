@@ -169,7 +169,8 @@
         "dmgBonusKeys": [
           "skill_dmg_",
           "pyro_dmg_",
-          "all_dmg_"
+          "all_dmg_",
+          "searingOnslaughtCombo_dmg_"
         ],
         "components": [
           {
@@ -183,7 +184,8 @@
         "dmgBonusKeys": [
           "skill_dmg_",
           "pyro_dmg_",
-          "all_dmg_"
+          "all_dmg_",
+          "searingOnslaughtCombo_dmg_"
         ],
         "components": [
           {
@@ -355,12 +357,12 @@
         "gating": {
           "constellationMin": 4
         },
-        "description": "C4 Flowing Flame: casting Searing Onslaught in rhythm — within 2s of the previous cast — makes the next Searing Onslaught in the combo deal 40% additional DMG.",
+        "description": "C4 Flowing Flame: casting Searing Onslaught in rhythm — within 2s of the previous cast — makes the next Searing Onslaught in the combo deal 40% additional DMG. Applies to the 2nd and 3rd hits of the combo only.",
         "states": [
           {
             "value": "on",
             "modifiers": {
-              "skill_dmg_": 0.4
+              "searingOnslaughtCombo_dmg_": 0.4
             }
           }
         ]

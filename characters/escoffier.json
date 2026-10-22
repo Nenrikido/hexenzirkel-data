@@ -177,6 +177,22 @@
             "modifiers": { "hydro_enemyRes_": -0.55, "cryo_enemyRes_": -0.55 }
           }
         ]
+      },
+      {
+        "conditionKey": "c1PreDinnerDanceCryoCritDmg",
+        "source": "Escoffier",
+        "description": "C1 Pre-Dinner Dance for Your Taste Buds: when all 4 party members are Hydro or Cryo, every party member's Cryo DMG CRIT DMG is increased by 60% for 15s after Escoffier uses her Elemental Skill or Burst (requires A1). Element-scoped, so it reaches every Cryo hit and nothing else; only turn it on for a 4 Hydro/Cryo team.",
+        "gating": {
+          "constellationMin": 1
+        },
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "cryo_critDMG_": 0.6
+            }
+          }
+        ]
       }
     ]
   },
