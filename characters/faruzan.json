@@ -225,66 +225,42 @@
       {
         "conditionKey": "a4HurricaneGuard",
         "source": "Faruzan",
-        "description": "A4 Lost Wisdom of the Seven Caverns: characters affected by Prayerful Wind's Benefit gain a flat DMG bonus equal to 32% of Faruzan's BASE ATK (character base + equipped weapon's base ATK, not current/buffed ATK) the next time they deal Anemo DMG. Since Base ATK depends on Faruzan's own weapon, pick the state matching her actual bow (Faruzan's own base ATK of 196.4674 is already baked into each value); other/unlisted bows should interpolate between the nearest tiers.",
+        "description": "A4 Lost Wisdom of the Seven Caverns: characters affected by Prayerful Wind's Benefit gain a flat DMG bonus equal to 32% of Faruzan's BASE ATK (character base + equipped weapon's base ATK, not current/buffed ATK) when they deal Anemo DMG. Scoped by element (anemo_dmgInc), not attack type: it applies to every Anemo hit the buffed character deals, including off-kit sources like Nicole's Arcane Projection, and to none of their non-Anemo hits. Since Base ATK depends on Faruzan's own weapon, pick the state matching her actual bow (Faruzan's own base ATK of 196.4674 is already baked into each value); other/unlisted bows should interpolate between the nearest tiers.",
         "states": [
           {
             "value": "favonius_warbow_454",
             "modifiers": {
-              "normal_dmgInc": 208.27,
-              "charged_dmgInc": 208.27,
-              "plunging_dmgInc": 208.27,
-              "skill_dmgInc": 208.27,
-              "burst_dmgInc": 208.27
+              "anemo_dmgInc": 208.27
             }
           },
           {
             "value": "stringless_tier_509",
             "modifiers": {
-              "normal_dmgInc": 225.94,
-              "charged_dmgInc": 225.94,
-              "plunging_dmgInc": 225.94,
-              "skill_dmgInc": 225.94,
-              "burst_dmgInc": 225.94
+              "anemo_dmgInc": 225.94
             }
           },
           {
             "value": "sacrificial_tier_564",
             "modifiers": {
-              "normal_dmgInc": 243.6,
-              "charged_dmgInc": 243.6,
-              "plunging_dmgInc": 243.6,
-              "skill_dmgInc": 243.6,
-              "burst_dmgInc": 243.6
+              "anemo_dmgInc": 243.6
             }
           },
           {
             "value": "aqua_simulacra_tier_541",
             "modifiers": {
-              "normal_dmgInc": 236.26,
-              "charged_dmgInc": 236.26,
-              "plunging_dmgInc": 236.26,
-              "skill_dmgInc": 236.26,
-              "burst_dmgInc": 236.26
+              "anemo_dmgInc": 236.26
             }
           },
           {
             "value": "elegy_tier_608",
             "modifiers": {
-              "normal_dmgInc": 257.45,
-              "charged_dmgInc": 257.45,
-              "plunging_dmgInc": 257.45,
-              "skill_dmgInc": 257.45,
-              "burst_dmgInc": 257.45
+              "anemo_dmgInc": 257.45
             }
           },
           {
             "value": "skyward_harp_tier_674",
             "modifiers": {
-              "normal_dmgInc": 278.66,
-              "charged_dmgInc": 278.66,
-              "plunging_dmgInc": 278.66,
-              "skill_dmgInc": 278.66,
-              "burst_dmgInc": 278.66
+              "anemo_dmgInc": 278.66
             }
           }
         ]
