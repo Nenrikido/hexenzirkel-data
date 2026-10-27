@@ -34,7 +34,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14435",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -61,6 +61,19 @@
             "3": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>30 %</r> et la maîtrise élémentaire de <r>150</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière.",
             "4": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>35 %</r> et la maîtrise élémentaire de <r>175</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière.",
             "5": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de <r>40 %</r> et la maîtrise élémentaire de <r>200</r> pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma caixa dourada ricamente incrustada com joias preciosas. Ela guarda um jogo muito apreciado pelos reis das areias.",
+        "passive": {
+          "name": "Esquecido pelo Dia e Noite",
+          "refinements": {
+            "1": "Depois que o portador lançar a Habilidade Elemental, obtém o efeito Regras do Tabuleiro por 6s: aumenta o ATQ em <r>20%</r> e a Proficiência Elemental em <r>100</r>. Esse efeito pode ser desencadeado uma vez a cada 12s, e não é acumulável. Na duração, quando o Ataque Carregado do portador atingir o inimigo, prolonga a duração desse efeito em 6s. É possível prolongar a duração do efeito dessa forma em até 6s.",
+            "2": "Depois que o portador lançar a Habilidade Elemental, obtém o efeito Regras do Tabuleiro por 6s: aumenta o ATQ em <r>25%</r> e a Proficiência Elemental em <r>125</r>. Esse efeito pode ser desencadeado uma vez a cada 12s, e não é acumulável. Na duração, quando o Ataque Carregado do portador atingir o inimigo, prolonga a duração desse efeito em 6s. É possível prolongar a duração do efeito dessa forma em até 6s.",
+            "3": "Depois que o portador lançar a Habilidade Elemental, obtém o efeito Regras do Tabuleiro por 6s: aumenta o ATQ em <r>30%</r> e a Proficiência Elemental em <r>150</r>. Esse efeito pode ser desencadeado uma vez a cada 12s, e não é acumulável. Na duração, quando o Ataque Carregado do portador atingir o inimigo, prolonga a duração desse efeito em 6s. É possível prolongar a duração do efeito dessa forma em até 6s.",
+            "4": "Depois que o portador lançar a Habilidade Elemental, obtém o efeito Regras do Tabuleiro por 6s: aumenta o ATQ em <r>35%</r> e a Proficiência Elemental em <r>175</r>. Esse efeito pode ser desencadeado uma vez a cada 12s, e não é acumulável. Na duração, quando o Ataque Carregado do portador atingir o inimigo, prolonga a duração desse efeito em 6s. É possível prolongar a duração do efeito dessa forma em até 6s.",
+            "5": "Depois que o portador lançar a Habilidade Elemental, obtém o efeito Regras do Tabuleiro por 6s: aumenta o ATQ em <r>40%</r> e a Proficiência Elemental em <r>200</r>. Esse efeito pode ser desencadeado uma vez a cada 12s, e não é acumulável. Na duração, quando o Ataque Carregado do portador atingir o inimigo, prolonga a duração desse efeito em 6s. É possível prolongar a duração do efeito dessa forma em até 6s."
           }
         }
       }

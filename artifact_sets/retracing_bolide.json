@@ -23,7 +23,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15015",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -39,6 +39,13 @@
         "bonuses": {
           "2": "Augmente la force du bouclier de 35 %.",
           "4": "Les attaques normales et chargées infligent un bonus de 40 % de DGT lorsque le personnage est sous la protection d'un bouclier."
+        }
+      },
+      "pt": {
+        "name": "Meteoro Invertido",
+        "bonuses": {
+          "2": "Aumenta a efetividade de escudos em 35%",
+          "4": "Ganha um adicional de 40% de Dano Normal e Carregado enquanto estiver sob a proteção de um escudo."
         }
       }
     }

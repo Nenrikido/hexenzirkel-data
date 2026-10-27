@@ -34,7 +34,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15002",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -50,6 +50,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:anemo>Anémo</e> de 15 %.",
           "4": "Augmente les DGT infligés par les réactions de Dispersion de 60 % et ceux des réactions d'Astrodispersion de 20 %, et diminue la RÉS de l'élément dispersé correspondant des ennemis de 40 % pendant 10 s. De plus, déclencher une réaction d'Astrodispersion sur un ennemi diminue également sa RÉS <e:cryo>Cryo</e> de 40 %, les diminutions de RÉS du même type élémentaire ne se cumulant pas."
+        }
+      },
+      "pt": {
+        "name": "Sombra Verde",
+        "bonuses": {
+          "2": "Bônus de Dano <e:anemo>Anemo</e> +15%",
+          "4": "Aumenta o Dano causado por Redemoinho em 60% e aumenta o Dano causado por Redemoinho Estelar em 20%. De acordo com o Tipo Elemental do Redemoinho, reduz a RES Elemental correspondente do inimigo afetado em 40% por 10s. Ao desencadear Redemoinho Estelar, também reduz sua RES <e:cryo>Cryo</e> em 40%. Efeitos de redução de RES de mesmo Tipo Elemental não acumulam."
         }
       }
     }

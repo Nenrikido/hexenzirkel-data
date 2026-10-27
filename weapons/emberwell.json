@@ -43,7 +43,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11436",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -70,6 +70,19 @@
             "3": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>24 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>24 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>28 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>28 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de <r>32 %</r> pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de <r>32 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada longa feita de gemas, dizem que foi feita para o caminho da justiça. Quando desembainhada, brilha como uma chama azul.",
+        "passive": {
+          "name": "Fogo Estelar sobre as Planícies Nevadas",
+          "refinements": {
+            "1": "Nos 12s após desencadear uma reação Elemental, aumenta o ATQ do portador em <r>16%</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em <r>16%</r>. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.",
+            "2": "Nos 12s após desencadear uma reação Elemental, aumenta o ATQ do portador em <r>20%</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em <r>20%</r>. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.",
+            "3": "Nos 12s após desencadear uma reação Elemental, aumenta o ATQ do portador em <r>24%</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em <r>24%</r>. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.",
+            "4": "Nos 12s após desencadear uma reação Elemental, aumenta o ATQ do portador em <r>28%</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em <r>28%</r>. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.",
+            "5": "Nos 12s após desencadear uma reação Elemental, aumenta o ATQ do portador em <r>32%</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em <r>32%</r>. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo."
           }
         }
       }

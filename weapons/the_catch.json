@@ -20,7 +20,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13415",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -47,6 +47,19 @@
             "3": "Augmente les DGT des déchaînements élémentaires de <r>24 %</r> et leur taux CRIT de <r>9 %</r>.",
             "4": "Augmente les DGT des déchaînements élémentaires de <r>28 %</r> et leur taux CRIT de <r>10,5 %</r>.",
             "5": "Augmente les DGT des déchaînements élémentaires de <r>32 %</r> et leur taux CRIT de <r>12 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Num passado distante, esta era a amada lança de um famoso bandido de Inazuma.",
+        "passive": {
+          "name": "Canção Navegante",
+          "refinements": {
+            "1": "Aumenta o Dano do Supremo em <r>16%</r> e a Taxa CRIT do Supremo em <r>6%</r>.",
+            "2": "Aumenta o Dano do Supremo em <r>20%</r> e a Taxa CRIT do Supremo em <r>7.5%</r>.",
+            "3": "Aumenta o Dano do Supremo em <r>24%</r> e a Taxa CRIT do Supremo em <r>9%</r>.",
+            "4": "Aumenta o Dano do Supremo em <r>28%</r> e a Taxa CRIT do Supremo em <r>10.5%</r>.",
+            "5": "Aumenta o Dano do Supremo em <r>32%</r> e a Taxa CRIT do Supremo em <r>12%</r>."
           }
         }
       }

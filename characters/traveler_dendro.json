@@ -268,7 +268,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000005-dendro",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -393,6 +393,68 @@
             "level": 6,
             "name": "Agrégation flétrissante",
             "desc": "Les personnages affectés par l'effet de la lumière lotiforme du <k>lotus lumineux</k> obtiennent un <e:dendro>bonus de DGT Dendro</e> de 12 %. Si le lotus lumineux a déjà fait l'objet d'une transfiguration lotumineuse, les personnages obtiennent également un bonus de DGT de 12 % pour l'élément correspondant."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Foice Exótica",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Espada da Grama Afiada",
+            "desc": "Brandindo sua espada, você desencadeia uma chuva de folhas afiadas que infligem <e:dendro>Dano Dendro</e> à frente.\n\n<i>Você e Paimon observaram as extremidades afiadas da grama e da folha.</i>"
+          },
+          "burst": {
+            "name": "Mímico Dendro",
+            "desc": "Canalizando o poder da flora a sua volta, você cria uma Lótus Luminosa.\nEssa Lótus irá infligir <e:dendro>Dano Dendro</e> contínuo contra os oponentes dentro de uma AdE.\n\n<k>Transformação da Lótus Luminosa</k>\nA Lótus Luminosa irá passar pelas seguintes mudanças depois de entrar em contato com <e:hydro>Hydro</e>/<e:electro>Electro</e>/<e:pyro>Pyro</e>:\n· <e:hydro>Hydro</e>: A AdE da Lótus Luminosa e a AdE de seus ataques são aumentadas.\n· <e:electro>Electro</e>: A Vel. de ATQ da Lótus Luminosa é aumentada.\n· <e:pyro>Pyro</e>: A Lótus Luminosa irá explodir depois de um curto período e então desaparecer, infligindo <e:dendro>Dano Dendro em uma AdE</e>.\nA Lótus Luminosa apenas poderá passar por uma única Transformação durante sua duração.\n\nApenas uma Lótus Luminosa criada pelo Viajante pode existir simultaneamente.\n\n<i>Você e Paimon estudaram os sons das plantas que florescem após a chuva.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Proliferação Exuberante",
+            "desc": "<k>Lótus Luminosa</k> irá obter um acúmulo do efeito Sobrecarga Luminosa a cada segundo em campo, aumentando a Proficiência Elemental dos personagens ativos dentro de sua AdE em 6. A Sobrecarga Luminosa pode acumular até 10 vezes."
+          },
+          {
+            "name": "Verde Luxuoso",
+            "desc": "Cada ponto de Proficiência Elemental que o Viajante possui aumenta o Dano infligido pela <k>Espada da Grama Afiada</k> em 0.15% e o Dano infligido pelo <k>Mímico Dendro</k> em 0.1%."
+          },
+          {
+            "name": "Luz Verdejante Forasteira",
+            "desc": "Reúne novas forças das jornadas do passado. Para cada elemento que você ressoou, obtém um <k>fortalecimento adicional</k>.\n\nAlém disso, quando Núcleos Dendro (incluindo Núcleo da Riqueza e Núcleo da Falsidade) aparecem próximos no campo, ou quando o grupo obtém um Orvalho Verdejante, {F#a}{M#o} Viajante obtém 1 acúmulo de Lâmina das Orquídeas. Estes dois métodos podem conceder, cada um, ao Viajante até 1 acúmulo da Lâmina das Orquídeas a cada 4s, com um máximo de 3 acúmulos. Quando possuir 3 Lâminas das Orquídeas e fizer um Ataque Carregado, consumirá todas as Lâminas das Orquídeas e realizará o especial <k>Ataque Carregado: Gentileza Verde</k>.\n\n<k>Ataque Carregado: Gentileza Verde</k>\n· Cada Ataque Carregado causa mais <e:dendro>Dano Dendro</e>, o aumento de Dano é 80% do ATQ d{F#a}{M#o} Viajante, e cria 2 <k>Plataformas de Vinhas</k> no local original que explodirão depois de 4/8s, causando 120% do ATQ d{F#a}{M#o} como <e:dendro>Dano Dendro</e>. Esse Dano é considerado Dano de Ataque Carregado.\n· É possível fazer um <k>Ataque Carregado: Gentileza Verde</k> uma vez a cada 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Videira Parasítica",
+            "desc": "Após a <k>Espada da Grama Afiada</k> acertar um oponente, ela irá gerar 3.5 de Energia ao Viajante."
+          },
+          {
+            "level": 2,
+            "name": "Resiliência Verde",
+            "desc": "Aumenta a duração da <k>Lótus Luminosa</k> em 3s."
+          },
+          {
+            "level": 3,
+            "name": "Turbilhão de Ervas Daninhas",
+            "desc": "Aumenta o nível da <k>Espada da Grama Afiada</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Erva de Melaço",
+            "desc": "Após a <k>Lótus Luminosa</k> desencadear a Transformação da Lótus Luminosa, ela irá obter 5 acúmulos do efeito de Sobrecarga Luminosa do Talento de Ascensão \"Proliferação Exuberante\".\nÉ preciso ter desbloqueado esse Talento de Ascensão primeiro."
+          },
+          {
+            "level": 5,
+            "name": "Transiência Viridiana",
+            "desc": "Aumenta o nível do <k>Mímico Dendro</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Acúmulo Envelhecido",
+            "desc": "O personagem sob o efeito da Sobrecarga Luminosa criada pela <e:dendro>Lótus Luminosa</e> ganha 12% de <k>Bônus de Dano Dendro</k>. Se a Lótus tiver passado pela Transformação da Lótus Luminosa, o personagem também ganhará 12% de Bônus de Dano ao elemento correspondente."
           }
         ]
       }

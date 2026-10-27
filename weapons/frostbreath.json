@@ -33,7 +33,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13435",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -60,6 +60,19 @@
             "3": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>30 %</r> et les autres personnages de votre équipe récupèrent <r>9</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s.",
             "4": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>35 %</r> et les autres personnages de votre équipe récupèrent <r>10,5</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s.",
             "5": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de <r>40 %</r> et les autres personnages de votre équipe récupèrent <r>12</r> pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança de gelo sólido imbuída de um frio glacial. Diz-se que outrora pertenceu ao Czar Belyi que governou Snezhnaya em tempos remotos.",
+        "passive": {
+          "name": "Arremesso Distante",
+          "refinements": {
+            "1": "Nos 15s após desencadear uma reação Cryo ou Hydro, aumenta o ATQ do portador em <r>20%</r>, e regenera <r>6</r> de Energia Elemental para os outros personagens da equipe. Esse efeito pode ser desencadeado uma vez a cada 16s.",
+            "2": "Nos 15s após desencadear uma reação Cryo ou Hydro, aumenta o ATQ do portador em <r>25%</r>, e regenera <r>7.5</r> de Energia Elemental para os outros personagens da equipe. Esse efeito pode ser desencadeado uma vez a cada 16s.",
+            "3": "Nos 15s após desencadear uma reação Cryo ou Hydro, aumenta o ATQ do portador em <r>30%</r>, e regenera <r>9</r> de Energia Elemental para os outros personagens da equipe. Esse efeito pode ser desencadeado uma vez a cada 16s.",
+            "4": "Nos 15s após desencadear uma reação Cryo ou Hydro, aumenta o ATQ do portador em <r>35%</r>, e regenera <r>10.5</r> de Energia Elemental para os outros personagens da equipe. Esse efeito pode ser desencadeado uma vez a cada 16s.",
+            "5": "Nos 15s após desencadear uma reação Cryo ou Hydro, aumenta o ATQ do portador em <r>40%</r>, e regenera <r>12</r> de Energia Elemental para os outros personagens da equipe. Esse efeito pode ser desencadeado uma vez a cada 16s."
           }
         }
       }

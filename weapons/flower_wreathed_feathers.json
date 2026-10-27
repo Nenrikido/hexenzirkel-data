@@ -130,7 +130,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15430",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -157,6 +157,19 @@
             "3": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>9 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée.",
             "4": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>10,5 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée.",
             "5": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de <r>12 %</r> toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco longo que queima como uma chama. Dizem que as penas que o decoram vieram do antigo tirano, Ngoubou.",
+        "passive": {
+          "name": "Inflorescência Inatingível",
+          "refinements": {
+            "1": "Diminui o consumo de Stamina ao Planar em 15%. Ao usar Disparo com Mira, o Dano causado por Ataques Carregados aumenta em <r>6%</r> a cada 0.5s. Esse efeito pode acumular até 6 vezes e será removido 10s após sair do Modo de Mira.",
+            "2": "Diminui o consumo de Stamina ao Planar em 15%. Ao usar Disparo com Mira, o Dano causado por Ataques Carregados aumenta em <r>7.5%</r> a cada 0.5s. Esse efeito pode acumular até 6 vezes e será removido 10s após sair do Modo de Mira.",
+            "3": "Diminui o consumo de Stamina ao Planar em 15%. Ao usar Disparo com Mira, o Dano causado por Ataques Carregados aumenta em <r>9%</r> a cada 0.5s. Esse efeito pode acumular até 6 vezes e será removido 10s após sair do Modo de Mira.",
+            "4": "Diminui o consumo de Stamina ao Planar em 15%. Ao usar Disparo com Mira, o Dano causado por Ataques Carregados aumenta em <r>10.5%</r> a cada 0.5s. Esse efeito pode acumular até 6 vezes e será removido 10s após sair do Modo de Mira.",
+            "5": "Diminui o consumo de Stamina ao Planar em 15%. Ao usar Disparo com Mira, o Dano causado por Ataques Carregados aumenta em <r>12%</r> a cada 0.5s. Esse efeito pode acumular até 6 vezes e será removido 10s após sair do Modo de Mira."
           }
         }
       }

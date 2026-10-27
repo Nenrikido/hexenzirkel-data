@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12101",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Une épée façonnée à partir d'une lame de fer épaisse et solide. Capable de briser des montagnes si son propriétaire est suffisamment motivé."
+      },
+      "pt": {
+        "flavor": "Uma chapa de ferro resistente, que pode ser boa o suficiente para separar montanhas com força de vontade suficiente."
       }
     }
   }

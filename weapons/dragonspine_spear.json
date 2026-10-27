@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13409",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Les attaques normales et chargées ont <r>80 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>110 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>280 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
             "4": "Les attaques normales et chargées ont <r>90 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>125 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>320 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
             "5": "Les attaques normales et chargées ont <r>100 %</r> de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à <r>140 %</r> de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors <r>360 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança criada a partir da presa de um dragão. É estranhamente quente ao toque.",
+        "passive": {
+          "name": "Enterro Congelante",
+          "refinements": {
+            "1": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de <r>60%</r> de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando <r>80%</r> de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem <r>200%</r> de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s.",
+            "2": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de <r>70%</r> de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando <r>95%</r> de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem <r>240%</r> de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s.",
+            "3": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de <r>80%</r> de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando <r>110%</r> de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem <r>280%</r> de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s.",
+            "4": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de <r>90%</r> de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando <r>125%</r> de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem <r>320%</r> de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s.",
+            "5": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de <r>100%</r> de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando <r>140%</r> de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem <r>360%</r> de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s."
           }
         }
       }

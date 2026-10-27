@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14101",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Des notes laissées par un élève brillant contenant des sortilèges efficaces, rédigés dans une belle écriture."
+      },
+      "pt": {
+        "flavor": "Notas deixadas por um estudante brilhante que deixou uma lista de magias muito úteis. Sua caligrafia é muito bonita."
       }
     }
   }

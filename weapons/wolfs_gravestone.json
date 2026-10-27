@@ -43,7 +43,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12502",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -70,6 +70,19 @@
             "3": "Augmente l'ATQ de <r>30 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>60 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s.",
             "4": "Augmente l'ATQ de <r>35 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>70 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s.",
             "5": "Augmente l'ATQ de <r>40 %</r>. Les attaques touchant les ennemis dont les PV sont inférieurs à 30 % augmentent l'ATQ de tous les membres de l'équipe de <r>80 %</r> pendant 12 s. Cet effet peut être déclenché une fois toutes les 30 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma grande espada que foi usada pelo Cavaleiro Lobo. Originalmente era apenas uma lâmina de ferro pesada que foi dado por um ferreiro da cidade. No entanto, recebeu poderes lendários por sua amizade com os lobos.",
+        "passive": {
+          "name": "Caçador Selvagem",
+          "refinements": {
+            "1": "Aumenta o ATQ em <r>20%</r>. Ao acertar o ataque em oponentes com Vida inferior a 30%, aumenta o ATQ de todos os companheiros em <r>40%</r> por 12s. Este efeito pode ser ativado uma vez a cada 30s.",
+            "2": "Aumenta o ATQ em <r>25%</r>. Ao acertar o ataque em oponentes com Vida inferior a 30%, aumenta o ATQ de todos os companheiros em <r>50%</r> por 12s. Este efeito pode ser ativado uma vez a cada 30s.",
+            "3": "Aumenta o ATQ em <r>30%</r>. Ao acertar o ataque em oponentes com menos de 30% de sua Vida, aumenta o ATQ de todos os companheiros em <r>60%</r> por 12s. Este efeito pode ser ativado uma vez a cada 30s.",
+            "4": "Aumenta o ATQ em <r>35%</r>. Ao acertar o ataque em oponentes com menos de 30% de sua Vida, aumenta o ATQ de todos os companheiros em <r>70%</r> por 12s. Este efeito pode ser ativado uma vez a cada 30s.",
+            "5": "Aumenta o ATQ em <r>40%</r>. Ao acertar o ataque em oponentes com Vida inferior a 30%, aumenta o ATQ de todos os companheiros em <r>80%</r> por 12s. Este efeito pode ser ativado uma vez a cada 30s."
           }
         }
       }

@@ -13,7 +13,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10012",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -29,6 +29,13 @@
         "bonuses": {
           "2": "Augmente la recharge d'énergie de 20 %.",
           "4": "Les personnages armés d'un arc ou d'un catalyseur récupèrent 3 pts d'énergie supplémentaire à chaque fois qu'une particule ou un orbe élémentaires sont récupérés. Cet effet peut être déclenché une fois toutes les 3 s."
+        }
+      },
+      "pt": {
+        "name": "O Estudioso",
+        "bonuses": {
+          "2": "Recarga de Energia +20%",
+          "4": "Obter Partículas ou Orbes Elementais confere 3 de Energia a todos os membros da equipe que possuem um arco ou catalisador equipado. Pode ser ativado uma vez a cada 3s."
         }
       }
     }

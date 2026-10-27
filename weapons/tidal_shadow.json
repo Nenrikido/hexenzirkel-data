@@ -24,7 +24,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12425",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -51,6 +51,19 @@
             "3": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>36 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "4": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>42 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "5": "Lorsque le personnage a reçu des soins, son ATQ augmente de <r>48 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada modelo padrão intrincada para os oficiais de alto-escalão e capitães da antiga marinha de Fontaine.",
+        "passive": {
+          "name": "Onda Branca do Cruzamento",
+          "refinements": {
+            "1": "Após receber cura, aumenta o ATQ em <r>24%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "2": "Após receber cura, aumenta o ATQ em <r>30%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "3": "Após receber cura, aumenta o ATQ em <r>36%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "4": "Após receber cura, aumenta o ATQ em <r>42%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "5": "Após receber cura, aumenta o ATQ em <r>48%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo."
           }
         }
       }

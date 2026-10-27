@@ -24,7 +24,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14431",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -51,6 +51,19 @@
             "3": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>0,8 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>24 %</r> de cette manière.",
             "4": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>0,9 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>28 %</r> de cette manière.",
             "5": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de <r>1 %</r> pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de <r>32 %</r> de cette manière."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um artefato de jade dos gêmeos heróis de outrora. Dizem que derrotou o dragão do céu que controlava o vulcão.",
+        "passive": {
+          "name": "Ecos da Terra Abundante",
+          "refinements": {
+            "1": "Ganha o efeito Coroa Forjada em Jade ao usar uma Habilidade Elemental: Cada 1.000 de Vida Máxima aumentará o Dano causado do Ataque Normal em <r>0.6%</r> por 10s. O Dano do Ataque Normal pode ser aumentado dessa forma em um máximo de <r>16%</r>.",
+            "2": "Ganha o efeito Coroa Forjada em Jade ao usar uma Habilidade Elemental: Cada 1.000 de Vida Máxima aumentará o Dano causado do Ataque Normal em <r>0.7%</r> por 10s. O Dano do Ataque Normal pode ser aumentado dessa forma em um máximo de <r>20%</r>.",
+            "3": "Ganha o efeito Coroa Forjada em Jade ao usar uma Habilidade Elemental: Cada 1.000 de Vida Máxima aumentará o Dano causado do Ataque Normal em <r>0.8%</r> por 10s. O Dano do Ataque Normal pode ser aumentado dessa forma em um máximo de <r>24%</r>.",
+            "4": "Ganha o efeito Coroa Forjada em Jade ao usar uma Habilidade Elemental: Cada 1.000 de Vida Máxima aumentará o Dano causado do Ataque Normal em <r>0.9%</r> por 10s. O Dano do Ataque Normal pode ser aumentado dessa forma em um máximo de <r>28%</r>.",
+            "5": "Ganha o efeito Coroa Forjada em Jade ao usar uma Habilidade Elemental: Cada 1.000 de Vida Máxima aumentará o Dano causado do Ataque Normal em <r>1%</r> por 10s. O Dano do Ataque Normal pode ser aumentado dessa forma em um máximo de <r>32%</r>."
           }
         }
       }

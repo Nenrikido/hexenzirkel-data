@@ -41,7 +41,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11514",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -68,6 +68,19 @@
             "3": "Les DGT infligés par les attaques normales augmentent de <r>24 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>36 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>30 %</r>.",
             "4": "Les DGT infligés par les attaques normales augmentent de <r>28 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>42 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>35 %</r>.",
             "5": "Les DGT infligés par les attaques normales augmentent de <r>32 %</r> et ceux infligés par les compétences élémentaires augmentent de <r>48 %</r>. Lorsqu'un personnage de l'équipe à proximité a infligé des DGT Géo, les effets susmentionnés augmentent de 100 % supplémentaires pendant 15 s. De plus, la DÉF du personnage équipé de l'arme augmente de <r>40 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada forjada sob a supervisão do ilustre Urakusai. Reza a lenda que ela nunca tirou a vida de nenhum ser vivo nos últimos séculos.",
+        "passive": {
+          "name": "Brocado Florescente, Espada do Santuário",
+          "refinements": {
+            "1": "Aumenta o Dano do Ataque Normal em <r>16%</r>. Aumenta o Dano da Habilidade Elemental em <r>24%</r>. Quando um personagem ativo próximo causa Dano Geo, os efeitos mencionados acima serão aumentados em 100% por 15s. Além disso, a DEF do personagem que está com essa arma equipada aumenta em <r>20%</r>.",
+            "2": "Aumenta o Dano do Ataque Normal em <r>20%</r>. Aumenta o Dano da Habilidade Elemental em <r>30%</r>. Quando um personagem ativo próximo causa Dano Geo, os efeitos mencionados acima serão aumentados em 100% por 15s. Além disso, a DEF do personagem que está com essa arma equipada aumenta em <r>25%</r>.",
+            "3": "Aumenta o Dano do Ataque Normal em <r>24%</r>. Aumenta o Dano da Habilidade Elemental em <r>36%</r>. Quando um personagem ativo próximo causa Dano Geo, os efeitos mencionados acima serão aumentados em 100% por 15s. Além disso, a DEF do personagem que está com essa arma equipada aumenta em <r>30%</r>.",
+            "4": "Aumenta o Dano do Ataque Normal em <r>28%</r>. Aumenta o Dano da Habilidade Elemental em <r>42%</r>. Quando um personagem ativo próximo causa Dano Geo, os efeitos mencionados acima serão aumentados em 100% por 15s. Além disso, a DEF do personagem que está com essa arma equipada aumenta em <r>35%</r>.",
+            "5": "Aumenta o Dano do Ataque Normal em <r>32%</r>. Aumenta o Dano da Habilidade Elemental em <r>48%</r>. Quando um personagem ativo próximo causa Dano Geo, os efeitos mencionados acima serão aumentados em 100% por 15s. Além disso, a DEF do personagem que está com essa arma equipada aumenta em <r>40%</r>."
           }
         }
       }

@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11306",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Augmente l'ATQ et la VIT de déplacement de <r>18 %</r> pendant 15 s après un déchaînement élémentaire.",
             "4": "Augmente l'ATQ et la VIT de déplacement de <r>21 %</r> pendant 15 s après un déchaînement élémentaire.",
             "5": "Augmente l'ATQ et la VIT de déplacement de <r>24 %</r> pendant 15 s après un déchaînement élémentaire."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada de aço confiável. Uma certa pessoa tentou usá-la como espada voadora...",
+        "passive": {
+          "name": "Determinação",
+          "refinements": {
+            "1": "Ao usar o Supremo, concede um aumento de <r>12%</r> no ATQ e Veloc. Mov. por 15s.",
+            "2": "Ao usar o Supremo, concede um aumento de <r>15%</r> no ATQ e Veloc. Mov. por 15s.",
+            "3": "Ao usar o Supremo, concede um aumento de <r>18%</r> no ATQ e Veloc. Mov. por 15s.",
+            "4": "Ao usar o Supremo, concede um aumento de <r>21%</r> no ATQ e Veloc. Mov. por 15s.",
+            "5": "Ao usar o Supremo, concede um aumento de <r>24%</r> no ATQ e Veloc. Mov. por 15s."
           }
         }
       }

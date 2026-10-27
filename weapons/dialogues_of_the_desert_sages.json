@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13426",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Effectuer des soins restaure <r>12</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "4": "Effectuer des soins restaure <r>14</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "5": "Effectuer des soins restaure <r>16</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um caduceu simbolizando a glória da alquimia, feito de ligas especiais para combinar com seu status especial. É extremamente rígido e pesado e provavelmente causaria bastante dor se usado como um porrete.",
+        "passive": {
+          "name": "Princípio do Equilíbrio",
+          "refinements": {
+            "1": "Ao curar, restaura <r>8</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "2": "Ao curar, restaura <r>10</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "3": "Ao curar, restaura <r>12</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "4": "Ao curar, restaura <r>14</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "5": "Ao curar, restaura <r>16</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo."
           }
         }
       }

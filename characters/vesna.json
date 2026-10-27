@@ -715,5 +715,213 @@
         "states": []
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000143",
+      "retrievedAt": "2026-10-27",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Vila Blade Dance",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 6 consecutive strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to trample opponents in front of her.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along her path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "The Art of Victory",
+            "desc": "Calls forth Spirit Blades passed down through generations of the Vila to deal <e:anemo>AoE Anemo DMG</e>, then switches to the <k>Armed for Action</k> mode and gains 2 stacks of <k>Sword Essence</k>.\n\n<k>Armed for Action</k>\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become <e:anemo>Anemo DMG</e> that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional <e:anemo>Anemo DMG</e>. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of <k>Sword Essence</k>.\nVesna can consume <k>Sword Essence</k> to unleash the special Elemental Skill <k>Windborne Sword</k>, which deals to the opponent <e:anemo>Anemo DMG</e>.\nEach use of the special Elemental Skill <k>Windborne Sword</k> in the same instance of <k>Armed for Action</k> will increase the level of <k>Windborne Sword</k>, beginning from Lv. 1 to Lv. 3 max, for more <e:anemo>Anemo DMG</e>. Using <k>Windborne Sword</k> at Lv. 2 and Lv. 3 will also summon <k>Spirit Blades</k> which deal <e:anemo>Anemo DMG</e>.\nVesna will exit the mode when its duration ends or when she has used <k>Windborne Sword</k> at the highest level 3 times. Exiting will clear all remaining <k>Sword Essence</k> she has accrued.\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\n<k>Radiance: Stellar Swirl</k>: DMG dealt with the <k>Spirit Blades</k> becomes <e:anemo>Anemo DMG</e> that is also considered Stellar Swirl reaction DMG."
+          },
+          "burst": {
+            "name": "For the Tsaritsa!",
+            "desc": "Summons multiple <k>Spirit Blades</k>, dealing <e:anemo>AoE Anemo DMG</e>. Also gains a stack of <k>Sword Essence</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Rite of Spring's Procession",
+            "desc": "After Vesna uses the special Elemental Skill <k>Windborne Sword</k> or the Elemental Burst <k>For the Tsaritsa!</k>, she also gains 1 stack of <k>Disciplinary Action</k> which lasts 20s. Max 6 stacks, and the duration of each stack is independent of the others'.\nWhen she has <k>Disciplinary Action</k> stacks active, the <k>Spirit Blades</k> summoned by Vesna will deal DMG equal to (100% + 10% × Disciplinary Action stack count) of the original DMG instead. All active stacks of <k>Disciplinary Action</k> are cleared when Vesna uses the Elemental Skill <k>The Art of Victory</k> or when she leaves the field."
+          },
+          {
+            "name": "Truth Prevails",
+            "desc": "<k>Radiance: Stellar Swirl</k>: Vesna will gain the corresponding effect based on the Elemental Type of her party members:\n· For every <e:cryo>Cryo</e> or <e:anemo>Anemo</e> character in her current party, Vesna's ATK increases by 6%; and\n· For every character of all other Elemental Types in her current party, Vesna's Elemental Mastery increases by 25 instead."
+          },
+          {
+            "name": "Stellar Jubilee: Splendid Prelude",
+            "desc": "When party members trigger Cryo Swirl, it will be changed to a Stellar Swirl reaction, and party members' Base DMG for the Stellar Swirl will be increased based on Vesna's ATK. Every 100 ATK she has increases the Base Stellar Swirl DMG by 0.7%. The maximum DMG increase that can be gained this way is 14%.\nAfter a party member triggers a Stellar Swirl reaction nearby, Vesna enters the <k>Radiance: Stellar Swirl</k> state for 8s."
+          },
+          {
+            "name": "The Grand Circuit",
+            "desc": "Holding on Sprint or Jump when Vesna is not in combat will cause her to enter the <k>Coursing</k> state.\n\n<k>Coursing</k>\nContinuously consumes Stamina to hover in mid-air. Sprinting or tapping Jump to go higher expends additional Stamina. Including the hold on Jump that triggers <k>Coursing</k>, Vesna can go higher up to 3 times in each instance of the <k>Coursing</k> state.\n\nAdditionally, in Snezhnaya (excluding Nod-Krai), when Vesna is switched onto the field while the currently active party member is in mid-air and not in combat, she will immediately enter the <k>Coursing</k> state and regenerate 50 Stamina. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Winter's Farewell Feast",
+            "desc": "When in the <k>Armed for Action</k> mode, Vesna can unleash <k>Windborne Sword</k> at the highest level 4 times instead of 3. Also, each time she enters the <k>Armed for Action</k> mode, she will not consume <k>Sword Essence</k> the first time she uses <k>Windborne Sword</k> at the highest level.\nAdditionally, Vesna deals 20% increased Stellar Swirl reaction DMG when in the <k>Armed for Action</k> mode."
+          },
+          {
+            "level": 2,
+            "name": "Kolo of Spring's Arrival",
+            "desc": "The Ascension Talent <k>Rite of Spring's Procession</k> is enhanced: Vesna gains the maximum number of <k>Disciplinary Action</k> stacks when she enters <k>Armed for Action</k> mode. Vesna's ATK is increased by 40% when she has maximum <k>Disciplinary Action</k> stacks.\nYou must unlock the Ascension Talent \"Rite of Spring's Procession\" to gain access to the above effects."
+          },
+          {
+            "level": 3,
+            "name": "Winter's Last Offering",
+            "desc": "Increases the Level of the Elemental Skill <k>The Art of Victory</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Glory to Our Forebears",
+            "desc": "The Ascension Talent <k>Truth Prevails</k> is enhanced: Its ATK and Elemental Mastery bonuses increase to 3 times their original values."
+          },
+          {
+            "level": 5,
+            "name": "The Nobleborn's Charge",
+            "desc": "Increases the Level of the Elemental Burst <k>For the Tsaritsa!</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Unwavering Ardor",
+            "desc": "Tapping on Normal Attack or Elemental Skill in the 5s after Vesna uses <k>Windborne Sword</k> at its highest level will unleash the secret Vila ability <k>Windborne Sword: Transpose</k>, dealing <e:anemo>Anemo DMG</e> at 150% of Vesna's ATK as well as summoning <k>Spirit Blades</k> which deal an additional instance of <e:anemo>Anemo DMG</e> at 200% of Vesna's ATK. If Vesna is in the <k>Armed for Action</k> mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents.\nAdditionally, Vesna's Stellar Swirl reaction DMG dealt is <k>elevated</k> by 20%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Danse de lame vila",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 6 attaques.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour piétiner les adversaires en avant.\n\n<k>Attaque descendante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "L'art de la victoire",
+            "desc": "Invoque une lame éthérée transmise de génération en génération chez les vila pour infliger des <e:anemo>DGT Anémo de zone</e> et passer dans l'état <k>Armée pour l'action</k>, tout en obtenant 2 cumuls d'<k>énergie d'épée</k>.\n\n<k>Armée pour l'action</k>\nLes attaques normales, chargées et plongeantes de Vesna sont converties pour infliger des <e:anemo>DGT Anémo</e> ne pouvant pas être enchantés et invoquer une penne de tempête pour une attaque coordonnée de l'ennemi, infligeant des <e:anemo>DGT Anémo</e> supplémentaires. De plus, chaque invocation de penne de tempête restaure une certaine quantité d'<k>énergie d'épée</k> à Vesna.\nVesna peut consommer son <k>énergie d'épée</k> pour déclencher la compétence élémentaire spéciale <k>Épée du vent</k> afin d'infliger des <e:anemo>DGT Anémo</e> aux ennemis.\nChaque utilisation de la compétence élémentaire spéciale <k>Épée du vent</k> pendant un état <k>Armée pour l'action</k> repousse sa limite, afin d'infliger encore plus de <e:anemo>DGT Anémo</e>. <k>Épée du vent</k> commence au Niv.1 et peut atteindre le Niv.3. Utiliser <k>Épée du vent</k> une fois sa limite repoussée invoque également une <k>lame éthérée</k> qui inflige des <e:anemo>DGT Anémo</e> aux ennemis.\nVesna quitte cet état une fois la durée écoulée ou après avoir utilisé 3 fois <k>Épée du vent</k> à la limite max, ce qui annule également tous ses cumuls d'<k>énergie d'épée</k>.\nDe plus, cet état augmente également la RÉS à l'interruption de Vesna.\n<k>Radiance « Astrodispersion »</k> : les <k>lames éthérées</k> sont converties pour infliger des <e:anemo>DGT Anémo</e> considérés comme des DGT de réaction d'Astrodispersion."
+          },
+          "burst": {
+            "name": "Pour la Tsarine !",
+            "desc": "Invoque de nombreuses <k>lames éthérées</k>, infligeant des <e:anemo>DGT Anémo de zone</e>, et accorde 1 cumul d'<k>énergie d'épée</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Rite du printemps",
+            "desc": "Lorsque Vesna a utilisé sa compétence élémentaire spéciale <k>Épée du vent</k> ou son déchaînement élémentaire <k>Pour la Tsarine !</k>, elle obtient 1 cumul d'<k>action disciplinaire</k> pendant 20 s. Cet effet peut être cumulé 6 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.\nAvec de l'<k>action disciplinaire</k>, les <k>lames éthérées</k> invoquées par Vesna infligent des DGT d'une valeur équivalant à [100 % + 10 % par cumul d'action disciplinaire] des DGT d'origine. Utiliser la compétence élémentaire <k>L'art de la victoire</k> ou quitter le terrain annule toute l'<k>action disciplinaire</k> de Vesna."
+          },
+          {
+            "name": "La vérité triomphe",
+            "desc": "<k>Radiance « Astrodispersion »</k> : Vesna obtient différents effets selon les types élémentaires des personnages de l'équipe.\n· Chaque personnage <e:cryo>Cryo</e> ou <e:anemo>Anémo</e> augmente l'ATQ de Vesna de 6 %.\n· Chaque personnage d'un autre élément augmente la maîtrise élémentaire de Vesna de 25 pts."
+          },
+          {
+            "name": "Jubilé stellaire : Splendide prélude",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction de Dispersion Cryo, elle est convertie en réaction d'Astrodispersion, dont les DGT de base augmentent selon l'ATQ de Vesna : chaque tranche de 100 pts d'ATQ augmente les DGT de base de réaction d'Astrodispersion de 0,7 %, les DGT pouvant être augmentés d'un maximum de 14 % de cette manière.\nLorsqu'un personnage de l'équipe déclenche une réaction d'Astrodispersion à proximité, Vesna passe en <k>radiance « Astrodispersion »</k> pendant 8 s."
+          },
+          {
+            "name": "Le grand circuit",
+            "desc": "Hors combat, Vesna peut utiliser un sprint ou un saut avec un appui long pour passer en <k>élan aérien</k>.\n\n<k>Élan aérien</k>\nL'élan aérien consomme continuellement de l'endurance pour flotter dans les airs. Sprinter ou utiliser un saut avec un appui simple pour monter consomme davantage d'endurance. En comptant le saut effectué avec un appui long lors du déclenchement de l'<k>élan aérien</k>, chaque <k>élan aérien</k> permet à Vesna de monter jusqu'à 3 fois.\n\nDe plus, basculer pour Vesna lorsque le personnage déployé de l'équipe est dans les airs tout en étant hors combat dans une zone de Snezhnaya, hormis Nod-Krai, permet de faire passer Vesna directement en <k>élan aérien</k> tout en lui restaurant 50 pts d'endurance, cet effet pouvant être déclenché une fois toutes les 10 s et ne s'appliquant pas dans les donjons, dans les Donjons de la conquête et dans les Profondeurs spiralées."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Fête d'adieu de l'hiver",
+            "desc": "Dans l'état <k>Armée pour l'action</k>, Vesna peut déclencher <k>Épée du vent</k> à la limite max un maximum de 4 fois au lieu de 3. De plus, la 1e utilisation d'<k>Épée du vent</k> à la limite max après chaque activation de l'état <k>Armée pour l'action</k> ne consomme pas d'<k>énergie d'épée</k>.\nLes DGT de réaction d'Astrodispersion de Vesna augmentent de 20 % pendant l'état <k>Armée pour l'action</k>."
+          },
+          {
+            "level": 2,
+            "name": "Kolo de l'arrivée du printemps",
+            "desc": "L'aptitude d'élévation <k>Rite du printemps</k> est renforcée : Vesna obtient le maximum de cumuls d'<k>action disciplinaire</k> lorsqu'elle passe dans l'état <k>Armée pour l'action</k>. Avec le maximum d'<k>action disciplinaire</k>, l'ATQ de Vesna augmente de 40 %.\nL'aptitude d'élévation « Rite du printemps » doit être déjà débloquée."
+          },
+          {
+            "level": 3,
+            "name": "Dernière offre de l'hiver",
+            "desc": "Niveau d'aptitude <k>L'art de la victoire</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Gloire à nos ancêtres",
+            "desc": "L'aptitude d'élévation <k>La vérité triomphe</k> est renforcée : les bonus d'ATQ et de maîtrise élémentaire passent à 3 fois leurs valeurs d'origine."
+          },
+          {
+            "level": 5,
+            "name": "La charge des nobles",
+            "desc": "Niveau d'aptitude <k>Pour la Tsarine !</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Ardeur inébranlable",
+            "desc": "Pendant 5 s après avoir utilisé <k>Épée du vent</k> à la limite max, Vesna peut utiliser une attaque normale ou une compétence élémentaire avec un appui simple pour déclencher une <k>épée du vent « Transposition »</k>, une technique secrète des vila qui permet d'infliger des <e:anemo>DGT Anémo</e> d'une valeur équivalant à 150 % de l'ATQ de Vesna et d'invoquer une <k>lame éthérée</k> infligeant des <e:anemo>DGT Anémo</e> supplémentaires d'une valeur équivalant à 200 % de l'ATQ de Vesna. Pendant l'état <k>Armée pour l'action</k>, Vesna invoque en plus une penne de tempête pour une attaque coordonnée de l'ennemi.\nDe plus, les DGT de réaction d'Astrodispersion de Vesna bénéficient d'une <k>élévation</k> de 20 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Dança da Lâmina dos Vilas",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 6 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para atacar os inimigos em frente.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Livro de Estratégias: Caminho da Vitória",
+            "desc": "Invoca a lendária Espada Espiritual dos Vilas, causando <e:anemo>Dano Anemo em AdE</e>, trocando para o modo <k>Pronto para a Ação</k> e obtendo dois acúmulos de <k>Espírito da Espada</k>.\n\n<k>Pronto para a Ação</k>\nQuando Vesna realizar um Ataque Normal, Carregado ou Imersivo, converterá para causar <e:anemo>Dano Anemo</e> que não pode ser substituído, e invoca uma Pena da Tempestade, causando <e:anemo>Dano Anemo</e> adicional. Cada vez que invocar uma Pena da Tempestade, regenera uma certa quantidade de <k>Espírito da Espada</k> para Vesna\nVesna pode consumir <k>Espírito da Espada</k> para lançar a Habilidade Elemental especial <k>Espada do Vento</k>, causando <e:anemo>Dano Anemo</e> contra os inimigos.\nDepois de cada vez que lançar a Habilidade Elemental especial <k>Espada do Vento</k>, aumenta a área de <k>Pronto para a Ação</k> em sua duração, causando ainda mais <e:anemo>Dano Anemo</e>. A área inicial de <k>Espada do Vento</k> é de nível 1, podendo ser elevada até nível 3. Depois de lançar a <k>Espada do Vento</k> elevada, invoca a <k>Espada Espiritual</k>, causando <e:anemo>Dano Anemo</e> contra os inimigos.\nQuando a duração acabar, ou depois de lançar <k>Espada do Vento</k> com área aumentada três vezes, Vesna sairá desse modo e removerá todos os acúmulos de <k>Espírito da Espada</k>.\nAlém disso, quando está nesse modo, aumenta a RES contra Interrupção de Vesna.\n<k>Brilho Reluzente: Redemoinho Estelar</k>: <k>Espada Espiritual</k> será convertida para causar <e:anemo>Dano Anemo</e> que é considerado Dano de Redemoinho Estelar."
+          },
+          "burst": {
+            "name": "Etiqueta Refinada: Pela Vossa Majestade, a Tsaritsa",
+            "desc": "Invoca uma legião de <k>Espadas Espirituais</k>, causando <e:anemo>Dano Anemo em AdE</e> e obtendo 1 acúmulo de <k>Espírito da Espada</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Etiqueta: Formação da Primavera",
+            "desc": "Depois que Vesna lançar sua Habilidade Elemental especial <k>Espada do Vento</k> ou o Supremo <k>Etiqueta Refinada: Pela Vossa Majestade, a Tsaritsa</k>, obtém 1 acúmulo de <k>Solenidade</k> por 20s. Máximo de 6 acúmulos. A duração de cada acúmulo é contada separadamente.\nAo possuir <k>Solenidade</k>, a <k>Espada Espiritual</k> invocada por Vesna causa 100% do Dano Original + x10% por acúmulo de Solenidade. Ao lançar a Habilidade Elemental <k>Livro de Estratégias: Caminho da Vitória</k> ou sair de campo, remove todos os acúmulos de <k>Solenidade</k> de Vesna."
+          },
+          {
+            "name": "Cânone da Razão: Vento Invernal",
+            "desc": "<k>Brilho Reluzente: Redemoinho Estelar</k>: de acordo com o Tipo Elemental dos personagens da equipe, Vesna obtém efeitos correspondentes. Quando a equipe:\n· Para cada personagem <e:cryo>Cryo</e> ou <e:anemo>Anemo</e>: aumenta o ATQ de Vesna em 6%.\n· Para cada personagem de Tipo Elemental diferente: aumenta a Proficiência Elemental de Vesna em 25."
+          },
+          {
+            "name": "Júbilo Estelar: Prelúdio Esplendoroso",
+            "desc": "Quando um personagem da equipe desencadear Redemoinho Cryo, converte para Redemoinho Estelar e, com base no ATQ de Vesna, aumenta o Dano Básico de Redemoinho Estelar dos personagens da equipe: cada 100 de ATQ aumentam o Dano Básico de Redemoinho Estelar em 0.7%. É possível aumentar até 14% dessa forma.\nNos 8s após os membros próximos da equipe desencadearem Redemoinho Estelar, Vesna entra no estado <k>Brilho Reluzente: Redemoinho Estelar</k>."
+          },
+          {
+            "name": "Perambulação Espiritual",
+            "desc": "Quando não estiver em combate, Vesna pode entrar no estado <k>Patrulha</k> ao manter pressionado para correr ou saltar.\n\n<k>Patrulha</k>\nConsome Stamina continuamente para manter esse estado flutuante. Ao correr ou pressionar para saltar, eleva a altura que flutua e aumenta o consumo de Stamina. Incluindo o salto que desencadeia <k>Patrulha</k>, Vesna pode flutuar mais alto até 3 vezes por <k>Patrulha</k>.\nAlém disso, quando estiver em regiões de Snezhnaya (exceto Nod-Krai) e não estiver em combate, quando um personagem da equipe estiver no ar, trocar para Vesna fará ela entrar imediatamente no estado <k>Patrulha</k>, e regenerará 50 de Stamina. Esse efeito pode ser desencadeado uma vez a cada 10s, e não pode ser ativado em domínios, Domínios Dizimados e Abismo do Espiral."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Banquete da Despedida do Inverno",
+            "desc": "No modo <k>Pronto para a Ação</k>, Vesna pode lançar a <k>Espada do Vento</k> de maior área até 4 vezes ao invés de 3, e cada vez que entrar no modo <k>Pronto para a Ação</k>, a primeira <k>Espada do Vento</k> de maior área lançada não consumirá <k>Espírito da Espada</k>.\nAlém disso, aumenta o Dano de Redemoinho Estelar causado por Vesna em 20% enquanto estiver em <k>Pronto para a Ação</k>."
+          },
+          {
+            "level": 2,
+            "name": "A Sagração da Primavera",
+            "desc": "O Talento de Ascensão <k>Etiqueta: Formação da Primavera</k> é fortalecido: quando Vesna entrar no modo <k>Pronto para a Ação</k>, obtém o máximo de <k>Solenidade</k>. Ao possuir o máximo de <k>Solenidade</k>, aumenta seu ATQ em 40%.\nEsse efeito requer que o Talento de Ascensão \"Etiqueta: Formação da Primavera\" esteja desbloqueado."
+          },
+          {
+            "level": 3,
+            "name": "Última Oferenda do Inverno",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Livro de Estratégias: Caminho da Vitória</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Glória aos Antepassados",
+            "desc": "Fortalece o Talento de Ascensão <k>Cânone da Razão: Vento Invernal</k>: o efeito de aumento de ATQ e aumento de Proficiência Elemental é triplicado do valor original."
+          },
+          {
+            "level": 5,
+            "name": "Avanço do Nobre",
+            "desc": "Aumenta o nível do Supremo <k>Etiqueta Refinada: Pela Vossa Majestade, a Tsaritsa</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Paixão Inabalável",
+            "desc": "Nos 5s após lançar a <k>Espada do Vento</k> de maior área, Vesna pode pressionar o Ataque Normal ou a Habilidade Elemental para lançar a <k>Espada do Vento: Transmutação</k> secreta dos Vilas: aumenta o <e:anemo>Dano Anemo</e> em 150% do ATQ de Vesna, e invoca a <k>Espada Espiritual</k> para causar 200% do ATQ dela como <e:anemo>Dano Anemo</e>. Se Vesna estiver no modo <k>Pronto para a Ação</k>, invoca uma Pena da Tempestade adicional para atacar os inimigos.\nAlém disso, o Dano de Redemoinho Estelar causado por Vesna é <k>Elevado</k> em 20%."
+          }
+        ]
+      }
+    }
   }
 }

@@ -25,7 +25,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15406",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -52,6 +52,19 @@
             "3": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>54 %</r> pendant 10 s.",
             "4": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>63 %</r> pendant 10 s.",
             "5": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de <r>72 %</r> pendant 10 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco de protótipo descoberto na Forja do Penhasco Obscuro. A flecha disparada deste arco brilha como um raio de luar.",
+        "passive": {
+          "name": "Sem Retorno",
+          "refinements": {
+            "1": "Os ataques de Ataques Carregados em pontos fracos aumentam a Veloc. Mov. em 10% e ATQ em <r>36%</r> por 10s.",
+            "2": "Os ataques de Ataques Carregados em pontos fracos aumentam a Veloc. Mov. em 10% e ATQ em <r>45%</r> por 10s.",
+            "3": "Os ataques de Ataques Carregados em pontos fracos aumentam a Veloc. Mov. em 10% e ATQ em <r>54%</r> por 10s.",
+            "4": "Os ataques de Ataques Carregados em pontos fracos aumentam a Veloc. Mov. em 10% e ATQ em <r>63%</r> por 10s.",
+            "5": "Os ataques de Ataques Carregados em pontos fracos aumentam a Veloc. Mov. em 10% e ATQ em <r>72%</r> por 10s."
           }
         }
       }

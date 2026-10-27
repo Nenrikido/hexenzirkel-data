@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15425",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>24 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "4": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>28 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "5": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de <r>32 %</r> pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco longo com uma aparência estranha, semelhante a uma criatura marinha, que parece não emitir som quando a corda é tensionada.",
+        "passive": {
+          "name": "Tremor Marinho",
+          "refinements": {
+            "1": "Ao ser curado, aumenta o Dano em <r>16%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo na batalha.",
+            "2": "Ao ser curado, aumenta o Dano em <r>20%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo na batalha.",
+            "3": "Ao ser curado, aumenta o Dano em <r>24%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo na batalha.",
+            "4": "Ao ser curado, aumenta o Dano em <r>28%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo na batalha.",
+            "5": "Ao ser curado, aumenta o Dano em <r>32%</r> por 8s. Pode ser ativado mesmo quando o personagem não estiver em campo na batalha."
           }
         }
       }

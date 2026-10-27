@@ -314,7 +314,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000025",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -439,6 +439,68 @@
             "level": 6,
             "name": "Rassemblement d'articles",
             "desc": "Les DGT du déluge d'épées d'<k>Épée Guhua : Pluie et arc-en-ciel</k> augmentent considérablement toutes les 2 pluies d'épées. Xingqiu récupère de plus 3 pts d'énergie élémentaire."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Estilo Guhua",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Espada de Guhua: Chuva Torrencial",
+            "desc": "Xingqiu realiza ataques duplos com sua espada, causando <e:hydro>Dano Hydro</e>. Ao mesmo tempo, essa habilidade cria o número máximo de Chuvas das Espadas, que orbitarão o seu próprio personagem.\nAs Chuvas das Espadas têm as seguintes propriedades:\nQuando um personagem recebe Dano, a Chuvas das Espadas se despedaça, reduzindo a quantidade de Dano recebido.\nAumenta a resistência do personagem à interrupção.\n20% do <e:hydro>Dano Hydro Adicional</e> de Xingqiu será convertido em Redução de Dano adicional para as Chuvas das Espadas.\n\nA quantidade máxima de adicional da Redução de Dano que pode ser obtida é de 24%.\nO número máximo inicial de Chuvas das Espadas é 3.\nO uso dessa habilidade aplica o estado <e:hydro>Molhado</e> ao personagem.\n\n<i>\"É Mais fácil matar um dragão da chuva do que cortar a chuva.\"</i>"
+          },
+          "burst": {
+            "name": "Espada Guhua: Retalhador de Chuva",
+            "desc": "Inicia o Trabalho com Lâminas do Arco-íris e luta usando uma chuva de espadas ilusórias, enquanto cria um número máximo de Chuvas das Espadas.\n\n<k>Trabalho com Lâminas do Arco-íris</k>\n· Os Ataques Normais do seu próprio personagem irão desencadear ataques consecutivos da Chuva das Espadas, infligindo <e:hydro>Dano Hydro</e>.\nChuva das Espadas irá continuar no número máximo ao longo da duração da habilidade.\n\n<i>O \"Caminho do Cortador de Chuva\" é uma das técnicas esotéricas secretas da Seita Guhua.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Hidropático",
+            "desc": "Quando uma espada da Chuva das Espadas é quebrada ou quando sua duração acabar, regenera a Vida do personagem atual em 6% da Vida Máxima de Xingqiu."
+          },
+          {
+            "name": "Lâminas Entre Gotas de Chuva",
+            "desc": "Xingqiu ganha 20% de <e:hydro>Dano Hydro Bônus</e>."
+          },
+          {
+            "name": "Flash do Gênio",
+            "desc": "Quando Xingqiu forja Materiais de Talento de Personagem, ele possui 25% de chance de retornar uma certa quantidade de materiais usados."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "O Aroma Remanescente",
+            "desc": "Aumenta o número máximo de Chuva das Espadas em 1."
+          },
+          {
+            "level": 2,
+            "name": "Arco-Íris Acima do Céu Azul",
+            "desc": "Estende a duração da <k>Espada de Guhua - Retalhador de Chuva</k> por 3 segundos.\nReduz a <e:hydro>RES Hydro</e> dos inimigos golpeados pelos ataques do retalhador de chuva em 15% por 4 segundos."
+          },
+          {
+            "level": 3,
+            "name": "Tecedor de Versos",
+            "desc": "Aumenta o Nível de <k>Espada de Guhua - Retalhador de Chuva</k> em 3.\nPode ser elevado até Nv.15."
+          },
+          {
+            "level": 4,
+            "name": "Abrandamento do Mal",
+            "desc": "Ao longo da duração da <k>Espada de Guhua - Retalhador de Chuva</k>, o Dano causado por <k>Espada de Guhua - Chuva Torrencial</k> é aumentado em 50%."
+          },
+          {
+            "level": 5,
+            "name": "Abrace a Chuva",
+            "desc": "Aumenta o Nível da <k>Espada de Guhua - Chuva Torrencial</k> em 3.\nPode ser elevado até Nv.15."
+          },
+          {
+            "level": 6,
+            "name": "Coleção de Poemas",
+            "desc": "A cada 2 golpes da <k>Espada de Guhua - Retalhador de Chuva</k> o ataque da chuva de espadas aumenta drasticamente o Dano do terceiro golpe, e ao atingir um inimigo, o terceiro golpe de chuva de espadas de Xingqiu regenerará 3 de Energia."
           }
         ]
       }

@@ -270,7 +270,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000125",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -403,6 +403,72 @@
             "level": 6,
             "name": "Nuit lugubre, lune à travers",
             "desc": "Lorsqu'un personnage dans un <k>domaine lunaire</k> a déclenché une réaction sélène, les DGT CRIT des éléments correspondants au type de réaction infligés par tous les personnages de l'équipe augmentent de 80 % pendant 8 s. L'effet d'augmentation des DGT CRIT d'un même type élémentaire ne peut pas être cumulé.\n\nLes DGT de réaction sélène infligés par tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 7 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Cascata do Orvalho do Luar",
+            "desc": "<k>Ataque Normal</k>\nInvoca uma maré do luar, realizando até 3 golpes consecutivos e causando <e:hydro>Dano Hydro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina e, após uma canalização, causa <e:hydro>Dano Hydro em AdE</e>.\nSe possuir pelo menos 1 <k>Orvalho Verdejante</k>, o Ataque Carregado de Columbina será substituído pelo Ataque Carregado especial <k>Lavagem do Orvalho Lunar</k> que não consome Stamina: consome 1 Orvalho Verdejante para causar <e:dendro>Dano Dendro em AdE</e> 3 vezes contra os inimigos em frente. Esse Dano é considerado Dano de Florescimento Lunar.\n\n<k>Ataque Imersivo</k>\nMergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:hydro>Dano Hydro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Maré Eterna",
+            "desc": "Invoca as marés da Lua, causando <e:hydro>Dano Hydro em AdE</e> e invocando a <k>Onda Gravitacional</k>.\n<k>Onda Gravitacional</k> segue o personagem ativo e causa <e:hydro>Dano Hydro em AdE</e> continuamente contra os inimigos próximos. Enquanto <k>Onda Gravitacional</k> existir, quando um personagem próximo desencadear Reações Lunares ou causar Dano de Reações Lunares, Columbina acumulará <k>Gravitação</k> especial. Ao acumular até o valor máximo, causará tipos de Danos diferentes contra os inimigos de acordo com o valor máximo de <k>Gravitação</k> acumulado do tipo de Reação Lunar.\n<k>Presságio Lunar: Reluzir Cheio</k>: <k>Onda Gravitacional</k> causa <e:hydro>Dano Hydro em AdE</e> de maior alcance."
+          },
+          "burst": {
+            "name": "Melancolia Sob o Luar",
+            "desc": "Colinas e marés se unem sob o luar prateado de uma lua nova. Temporariamente transforma o terreno próximo em <k>Domínio Lunar</k> e causa <e:hydro>Dano Hydro em AdE</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Mania Lunar",
+            "desc": "Ao desencadear<k>Interferência Kuuvahki</k>, Columbina obtém o efeito Indução Lunar, aumentando sua Taxa CRIT em 5% por 10s. Esse efeito pode acumular até 3 vezes."
+          },
+          {
+            "name": "Regras Próprias da Lua Nova",
+            "desc": "Quando personagens dentro do <k>Domínio Lunar</k> desencadeiam reações Lunares, eles ganham os seguintes efeitos, respectivamente:\n· <k>Carga Lunar</k>: Quando as Nuvens Trovejantes realizam golpe(s) de relâmpago contra um alvo válido, há 33% de chance de realizar um golpe de relâmpago adicional.\n· <k>Florescimento Lunar</k>: Ao desencadear reações de Florescimento Lunar, o grupo ganha um <k>Orvalho Verdejante da Montanha Lunar</k> especial. Até 3 Orvalhos Verdejantes da Montanha Lunar podem ser obtidos a cada 18s.\n· <k>Cristalização Lunar</k>: Quando a Sonata da Jaula Lunar é desencadeada, cada Jaula Lunar tem 33% de chance de aplicar um ataque extra."
+          },
+          {
+            "name": "Bênção do Presságio Lunar: Serenata sob o Luar",
+            "desc": "Quando o personagem desencadeia uma reação de Eletricamente Carregado/Florescimento/Cristalização Hydro, será convertido para Carga Lunar/Florescimento Lunar/Cristalização Lunar respectivamente, e aumenta o Dano Básico de Reações Lunares causado pelos personagens com base na Vida Máxima de Columbina: cada 1000 de Vida Máxima aumenta o Dano Básico em 0.2%. É possível aumentar o Dano até 7% dessa forma.\n\nAlém disso, quando Columbina está na equipe, aumenta o nível de <k>Presságio Lunar</k> em 1."
+          },
+          {
+            "name": "Vigília Lunar",
+            "desc": "Quando está em Nod-Krai ou na Lua Gelada e um personagem da equipe é derrotado, Columbina revive esse personagem e regenera a Vida desse personagem com base no nível de Amizade de Columbina. Esse efeito pode ser desencadeado uma vez a cada 100s. Esse efeito não funciona em domínios, domínios dizimados e no Abismo do Espiral.\nAlém disso, Columbina parece possuir afinidade especial com certos animais influenciados por Kuuvahki..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Resplendor Sobre Flores e Picos",
+            "desc": "Ao lançar a Habilidade Elemental <k>Maré Eterna</k>, desencadeia imediatamente um efeito equivalente a <k>Interferência Kuuvahki</k>. Esse efeito pode ser desencadeado uma vez a cada 15s.\n<k>Presságio Lunar: Reluzir Cheio</k>\nAo desencadear Interferência Kuuvahki, se o tipo de Reação Lunar que Columbina possui mais Gravitação for:\n· <k>Carga Lunar</k>: regenera 6 de Energia Elemental para o personagem ativo.\n· <k>Florescimento Lunar</k>: aumenta a RES contra Interrupção do personagem ativo por 8s.\n· <k>Cristalização Lunar</k>: invoca <k>Escudo da Chuva do Mar</k>, com absorção de Dano de 12% da Vida Máxima de Columbina e com 250% de eficácia contra <e:hydro>Hydro</e> por 8s.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é <k>Elevado</k> em 1.5%."
+          },
+          {
+            "level": 2,
+            "name": "Esplendor Acompanhado",
+            "desc": "Aumenta a velocidade de acumulação de <k>Gravitação</k> em 34%.\nAo desencadear <k>Interferência Kuuvahki</k>, Columbina obtém o efeito <k>Brilho Branco</k> que aumenta sua Vida Máxima em 40% por 8s.\n\n<k>Presságio Lunar: Reluzir Cheio</k>:\nNa duração do efeito <k>Brilho Branco</k>, se desencadear<k>Interferência Kuuvahki</k>, e se o Tipo de Reação Lunar que acumulou Gravitação para Columbina for:\n· <k>Carga Lunar</k>: aumenta o ATQ do personagem ativo. O aumento é equivalente a 1% da Vida Máxima de Columbina.\n· <k>Florescimento Lunar</k>: aumenta a Proficiência Elemental do personagem ativo. O aumento é equivalente a 0.35% da Vida Máxima de Columbina.\n· <k>Cristalização Lunar</k>: aumenta a DEF do personagem ativo. O aumento é equivalente a 1% da Vida Máxima de Columbina.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é <k>Elevado</k> em 7%."
+          },
+          {
+            "level": 3,
+            "name": "Brilho Onírico Sobre Águas Tranquilas",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Maré Eterna</k> em 3.\nNível máximo de elevação é 15.\n\nDano de Reações Lunares de todos os membros próximos da equipe é <k>Elevado</k> em 1.5%."
+          },
+          {
+            "level": 4,
+            "name": "Picos Entre Névoas Florais",
+            "desc": "Ao desencadear <k>Interferência Kuuvahki</k>, regenera 4 de Energia Elemental para Columbina.\nAlém disso, de acordo com o tipo de Reação Lunar que acumulou mais <k>Gravitação</k>, se for Carga Lunar/Florescimento Lunar/Cristalização Lunar, aumenta o Dano da Reação Lunar causado por essa Interferência Kuuvahki. O valor de aumento é baseado em 12.5%/2.5%/12.5% da Vida Máxima de Columbina. Esse efeito pode ser desencadeado uma vez a cada 15s.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é <k>Elevado</k> em 1.5%."
+          },
+          {
+            "level": 5,
+            "name": "Silêncio de uma Canção Solitária",
+            "desc": "Aumenta o nível do Supremo <k>Melancolia Sob o Luar</k> em 3.\nNível máximo é 15.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é <k>Elevado</k> em 1.5%."
+          },
+          {
+            "level": 6,
+            "name": "Atravessando a Escuridão com o Luar",
+            "desc": "Nos 8s após os personagens causarem uma Reação Lunar dentro de um <k>Domínio Lunar</k>, aumenta o Dano CRIT do Tipo Elemental correspondente de todos os membros da equipe de acordo com o Tipo Elemental participante em 80%. Aumentos de Dano CRIT de Tipos Elementais idênticos não acumularão.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é <k>Elevado</k> em 7%."
           }
         ]
       }

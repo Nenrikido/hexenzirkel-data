@@ -45,7 +45,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11430",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -72,6 +72,19 @@
             "3": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>24 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s.",
             "4": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>28 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s.",
             "5": "La consommation d'endurance du sprint ou du sprint alternatif diminue de 15 %. De plus, les DGT infligés par les attaques normales augmentent d'une valeur équivalant à <r>32 %</r> de l'ATQ après avoir utilisé un sprint ou un sprint alternatif, cet effet disparaissant après avoir été activé 18 fois ou après 7 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada longa feita de osso que se tornou ainda mais resistente após ter sido golpeada e balançada inúmeras vezes. Diz-se que esta era a arma fiel do herói Wanjiru.",
+        "passive": {
+          "name": "Orgulho do Armador",
+          "refinements": {
+            "1": "Reduz o consumo de Stamina de Correr ou de Habilidades que substituem Correr em 15%. Além disso, ao Correr ou usar uma Habilidade que substitui Correr, aumenta o Dano causado por Ataques Normais. O valor do aumento é baseado em <r>16%</r> do ATQ. Esse efeito desaparecerá depois ser desencadeado 18 vezes ou depois de 7s.",
+            "2": "Reduz o consumo de Stamina de Correr ou de Habilidades que substituem Correr em 15%. Além disso, ao Correr ou usar uma Habilidade que substitui Correr, aumenta o Dano causado por Ataques Normais. O valor do aumento é baseado em <r>20%</r> do ATQ. Esse efeito desaparecerá depois ser desencadeado 18 vezes ou depois de 7s.",
+            "3": "Reduz o consumo de Stamina de Correr ou de Habilidades que substituem Correr em 15%. Além disso, ao Correr ou usar uma Habilidade que substitui Correr, aumenta o Dano causado por Ataques Normais. O valor do aumento é baseado em <r>24%</r> do ATQ. Esse efeito desaparecerá depois ser desencadeado 18 vezes ou depois de 7s.",
+            "4": "Reduz o consumo de Stamina de Correr ou de Habilidades que substituem Correr em 15%. Além disso, ao Correr ou usar uma Habilidade que substitui Correr, aumenta o Dano causado por Ataques Normais. O valor do aumento é baseado em <r>28%</r> do ATQ. Esse efeito desaparecerá depois ser desencadeado 18 vezes ou depois de 7s.",
+            "5": "Reduz o consumo de Stamina de Correr ou de Habilidades que substituem Correr em 15%. Além disso, ao Correr ou usar uma Habilidade que substitui Correr, aumenta o Dano causado por Ataques Normais. O valor do aumento é baseado em <r>32%</r> do ATQ. Esse efeito desaparecerá depois ser desencadeado 18 vezes ou depois de 7s."
           }
         }
       }

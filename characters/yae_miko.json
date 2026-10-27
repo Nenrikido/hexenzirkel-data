@@ -252,7 +252,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000058",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -385,6 +385,72 @@
             "level": 6,
             "name": "Art tabou : Daisesshou",
             "desc": "Les attaques des <k>sakura dévastateurs</k> ignorent 60 % de la DÉF de l'ennemi et les DGT CRIT des DGT de réactions d'Astroconduction infligées par Yae Miko augmentent de 200 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Kitsune Devora-pecados",
+            "desc": "<k>Ataque Normal</k>\nEvoca espíritos kitsune que realizam até 3 ataques que infligem <e:electro>Dano Electro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina que inflige <e:electro>Dano Electro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do relâmpago, Yae Miko mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:electro>Dano Electro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Evocação Yakan: Sesshou Sakura",
+            "desc": "Para Yae, as coisas que podem ser resolvidas ao invocar os espíritos não precisam ser feitas pessoalmente.\nEla se move rapidamente, deixando uma Sesshou Sakura para trás.\n\n<k>Sesshou Sakura</k>\nTem as seguintes propriedades:\n· Ataca um inimigo próximo periodicamente com um relâmpago, causando <e:electro>Dano Electro</e>;\n· Quando há outras Sesshou Sakura por perto, seu nível aumenta, aumentando o Dano causado por seus ataques.\n\nEsta habilidade pode ser usada até três vezes.\nUm máximo de 3 Sesshou Sakura podem existir simultaneamente. Ao ser criada, a Sesshou Sakura iniciará no nível 1, o nível mais alto que cada Sesshou Sakura pode atingir é 3. Criar uma Sesshou Sakura muito próxima de outra já existente fará com que a Sesshou Sakura existente seja destruída.\n\n<i>\"Os espíritos kitsune selados nos ramos são todos yakan que se deterioraram até quererem ferir os humanos. Os yakan estão dois níveis abaixo de nós, Kitsunes Celestiais, e por isso não vejo qualquer problema com... pedir-lhes para cumprir minhas ordens. Agora, isso não significa que os humanos devem copiar nossos sistemas de classificação. Afinal de contas, quem é superior? Humanos ou kitsunes? Você quer realmente saber?\"</i>"
+          },
+          "burst": {
+            "name": "Grande Arte Secreta: Tenko Kenshin",
+            "desc": "A lenda da \"kitsunetsuki\", ou a manifestação do poder kitsune, é uma das lendas de Inazuma. Dentre elas, a da Kitsune Celestial é considerada especial, caindo sobre os inimigos do Grande Santuário Narukami sob a forma de relâmpagos, causando <e:electro>Dano Electro em uma AdE</e>.\nQuando ela usa esta habilidade, Yae Miko se baseará nos selos das Sesshou Sakura próximas, destruindo suas formas externas e transformando-as em Relâmpagos de Kitsunes Celestiais que caem dos céus, causando <e:electro>Dano Electro em uma AdE</e>. Cada Sesshou Sakura próxima pode fazer cair um Relâmpago de Kitsune Celestial.\n\n<i>Yae apenas usa os sinais da Kitsune Celestial em momentos assim, empunhando o próprio relâmpago. Todos que viram a cauda da Senhorita Guuji foram transformados em cinzas, portanto, lembre-se, a Senhorita Yae não tem cauda alguma.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Sombra Sagrada",
+            "desc": "Ao lançar <k>Grande Arte Secreta: Tenko Kenshin</k>, cada Sesshou Sakura envolvida redefinirá uma vez a recarga de <k>Evocação Yakan: Sesshou Sakura</k>.\nQuando houverem simultaneamente pelo menos 3 Sesshou Sakura por perto e lançar <k>Evocação Yakan: Sesshou Sakura</k>, Yae Miko realizará um ataque de relâmpago adicional, causando 40% de seu ATQ como <e:electro>Dano Electro</e>.\n<k>Brilho Reluzente: Supercondutor Estelar</k>: o ataque adicional Electro causará uma instância de <e:electro>Dano Electro</e> considerado Dano de Supercondutor Estelar. O Dano é de 50% de seu ATQ."
+          },
+          {
+            "name": "Bênção Iluminada",
+            "desc": "Cada ponto de Proficiência Elemental que Yae Miko possui aumenta o Dano infligido por <k>Sesshou Sakura</k> em 0.15%."
+          },
+          {
+            "name": "Meditações de uma Yako",
+            "desc": "Há 25% de chance de obter um Material de Talento extra aleatório da mesma região. A raridade será a mesma dos materiais consumidos ao fabricar."
+          },
+          {
+            "name": "Proclamação da Purificação",
+            "desc": "A duração de Sesshou Sakura é estendida em 10s. Depois que os personagens próximos desencadearem Supercondutor ou Supercondutor Estelar, o próximo relâmpago de Sesshou Sakura será fortalecido: aumenta o Dano causado em 80% do ATQ de Yae Miko. Esse efeito pode ser desencadeado uma vez a cada 2.5s.\n<k>Brilho Reluzente: Supercondutor Estelar</k>: quando o raio fortalecido por esse efeito atingir o inimigo, causará uma instância de <e:electro>Dano Electro</e> adicional equivalente a 200% do ATQ de Yae Miko. Esse Dano é considerado Dano de Supercondutor Estelar.\nAlém disso, quando está no <k>Campo da Estrela Polar</k>, Yae Miko entrará no estado <k>Brilho Reluzente: Supercondutor Estelar</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Oferenda Yakan",
+            "desc": "Cada vez que <k>Grande Arte Secreta: Tenko Kenshin</k> desencadeia Relâmpago de Kitsune Celestial, Yae Miko regenera para ela mesma 8 pontos de Energia Elemental. Depois que Yae Miko ativar Supercondutor, Supercondutor Estelar ou causar Dano de Supercondutor Estelar, os membros próximos da equipe ganham 50% Bônus de Dano Electro e Bônus de Dano de Supercondutor Estelar por 10s. Ativar essas reações novamente redefinirá a duração dos bônus de Dano."
+          },
+          {
+            "level": 2,
+            "name": "Uivos ao Luar",
+            "desc": "O nível inicial de <k>Sesshou Sakura</k> é elevado para Nível 2, o nível máximo é aumentado para o Nível 4 e a Área de ataque é aumentada em 60%. Além disso, quando a Sesshou Sakura estiver ativa, aumenta a Proficiência Elemental de Yae Miko e do personagem ativo próximo em 60/90/120/200 de acordo com a posição da Sesshou Sakura."
+          },
+          {
+            "level": 3,
+            "name": "Sete Transformações",
+            "desc": "Aumenta o nível de <k>Evocação Yakan: Sesshou Sakura</k> em 3.\nNível máximo é 15."
+          },
+          {
+            "level": 4,
+            "name": "Canalização da Sakura",
+            "desc": "Quando o relâmpago de <k>Sesshou Sakura</k> atinge o inimigo, todos os personagens próximos obtêm 20% de <e:electro>Bônus de Dano Electro</e> por 5s, e regeneram 8 de Energia Elemental para Yae Miko. Esse efeito de regeneração de Energia Elemental pode ser desencadeado uma vez a cada 5s. Além disso, aumenta o Dano do Supremo de Yae Miko em 100%."
+          },
+          {
+            "level": 5,
+            "name": "Escárnio Implacável",
+            "desc": "Aumenta o nível de <k>Grande Arte Secreta: Tenko Kenshin</k> em 3.\nNível máximo é 15."
+          },
+          {
+            "level": 6,
+            "name": "Técnica Proibida: Massacre",
+            "desc": "Quando a <k>Sesshou Sakura</k> atacar, ignorará 60% da DEF do inimigo. Aumenta o Dano CRIT do Dano de Supercondutor Estelar de Yae Miko em 200%."
           }
         ]
       }

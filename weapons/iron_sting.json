@@ -31,7 +31,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11407",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -58,6 +58,19 @@
             "3": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>9 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes.",
             "4": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>10,5 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes.",
             "5": "Lorsque vous infligez des DGT élémentaires à vos ennemis, tous les DGT infligés par ce personnage augmentent de <r>12 %</r> pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les secondes."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Espada exótica que de alguma forma acabou nas mãos dos comerciantes de Liyue. É leve, ágil e afiada.",
+        "passive": {
+          "name": "Ferrão Energético",
+          "refinements": {
+            "1": "Após causar Dano Elemental, aumenta todos os Danos em <r>6%</r> por 6s. Este efeito pode acumular até 2 vezes e pode ser ativado uma vez a cada 1s.",
+            "2": "6s após ao causar Dano Elemental, aumenta todos os Danos em <r>7.5%</r>. Este efeito pode acumular até 2 vezes e pode ser ativado uma vez a cada 1s.",
+            "3": "6s após ao causar Dano Elemental, aumenta todos os Danos em <r>9%</r>. Este efeito pode acumular até 2 vezes e pode ser ativado uma vez a cada 1s.",
+            "4": "6s após ao causar Dano Elemental, aumenta todos os Danos em <r>10.5%</r>. Este efeito pode acumular até 2 vezes e pode ser ativado uma vez a cada 1s.",
+            "5": "6s após ao causar Dano Elemental, aumenta todos os Danos em <r>12%</r>. Este efeito pode acumular até 2 vezes e pode ser ativado uma vez a cada 1s."
           }
         }
       }

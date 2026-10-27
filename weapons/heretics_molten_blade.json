@@ -39,7 +39,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11435",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -66,6 +66,19 @@
             "3": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>27 %</r> et <r>54 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille.",
             "4": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>31,5 %</r> et <r>63 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille.",
             "5": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre <r>36 %</r> et <r>72 %</r> selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Era a arma que ele sacou novamente ao encontrar pela primeira vez aquele Deus das Chamas abençoado por todos — uma arma que havia muito tempo não utilizava.",
+        "passive": {
+          "name": "Bênção da Luz Solitária",
+          "refinements": {
+            "1": "Depois que o portador lança a Habilidade Elemental, obtém Brilho da Primeira Luz: registra a distância percorrida pelo portador. A cada segundo, com base na distância percorrida no último segundo, o portador ganha um Bônus de ATQ mínimo de <r>18%</r> e máximo de <r>36%</r>. Esse efeito dura 14s, pode ser desencadeado uma vez a cada 14s e será removido quando o portador deixar de ser o personagem ativo.",
+            "2": "Depois que o portador lança a Habilidade Elemental, obtém Brilho da Primeira Luz: registra a distância percorrida pelo portador. A cada segundo, com base na distância percorrida no último segundo, o portador ganha um Bônus de ATQ mínimo de <r>22.5%</r> e máximo de <r>45%</r>. Esse efeito dura 14s, pode ser desencadeado uma vez a cada 14s e será removido quando o portador deixar de ser o personagem ativo.",
+            "3": "Depois que o portador lança a Habilidade Elemental, obtém Brilho da Primeira Luz: registra a distância percorrida pelo portador. A cada segundo, com base na distância percorrida no último segundo, o portador ganha um Bônus de ATQ mínimo de <r>27%</r> e máximo de <r>54%</r>. Esse efeito dura 14s, pode ser desencadeado uma vez a cada 14s e será removido quando o portador deixar de ser o personagem ativo.",
+            "4": "Depois que o portador lança a Habilidade Elemental, obtém Brilho da Primeira Luz: registra a distância percorrida pelo portador. A cada segundo, com base na distância percorrida no último segundo, o portador ganha um Bônus de ATQ mínimo de <r>31.5%</r> e máximo de <r>63%</r>. Esse efeito dura 14s, pode ser desencadeado uma vez a cada 14s e será removido quando o portador deixar de ser o personagem ativo.",
+            "5": "Depois que o portador lança a Habilidade Elemental, obtém Brilho da Primeira Luz: registra a distância percorrida pelo portador. A cada segundo, com base na distância percorrida no último segundo, o portador ganha um Bônus de ATQ mínimo de <r>36%</r> e máximo de <r>72%</r>. Esse efeito dura 14s, pode ser desencadeado uma vez a cada 14s e será removido quando o portador deixar de ser o personagem ativo."
           }
         }
       }

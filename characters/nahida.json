@@ -370,7 +370,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000073",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -495,6 +495,68 @@
             "level": 6,
             "name": "Fruit d'aboutissement rationnel",
             "desc": "Lorsque Nahida touche un ennemi affecté par une graine de Skandha d'<k>Omniscience des plans</k> avec une attaque normale ou chargée après avoir utilisé <k>Cœur illusoire</k>, elle utilise une « Purification trikarmique : Oubli karmique » sur cet ennemi et tous les autres ennemis liés, infligeant des <e:dendro>DGT Dendro</e> d'une valeur équivalant à 200 % de son ATQ et 400 % de sa maîtrise élémentaire.\nLes DGT infligés par la « Purification trikarmique : Oubli karmique » sont considérés comme des DGT de compétence élémentaire et peuvent être déclenchés une fois tous les 0,2 s.\nCet effet dure 10 s ou disparaît après avoir déclenché une « Purification trikarmique : Oubli karmique » 6 fois."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Akara",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 ataques que infligem <e:dendro>Dano Dendro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para infligir <e:dendro>Dano Dendro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Dendro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:dendro>Dano Dendro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Esquemas Universais",
+            "desc": "Envia vínculos cármicos de madeira e árvore a partir de seu lado, infligindo <e:dendro>Dano Dendro em uma AdE</e> e marcando até 8 oponentes atingidos com a Semente Skandha.\nQuando usada no modo Manter Pressionado, essa habilidade será acionada de maneira diferente.\n\n<k>Manter Pressionado</k>\nEntra no modo de mira, que permite escolher um certo número de oponentes dentro de uma certa AdE. Durante esse tempo, a Resistência contra Interrupção de Nahida será aumentada.\nQuando o modo de mira acabar, essa habilidade causará <e:dendro>Dano Dendro</e> a esses oponentes e os marcará com a Semente Skandha.\nO modo de mira durará até 5s e pode selecionar no máximo 8 oponentes.\n\n<k>Semente Skandha</k>\nOponentes que foram marcados pela Semente Skandha serão conectados uns aos outros até uma certa distância.\nDepois de causar Reações Elementais em oponentes afetados pelas Sementes Skandha ou quando eles recebem Dano de Núcleos Dendro (incluindo Dano de Germinação e Superflorescimento), Nahida irá liberar a Purificação Tricármica nesses oponentes e em todos os oponentes conectados, causando <e:dendro>Dano Dendro</e> com base em seu ATQ e Proficiência Elemental.\nSó é possível ativar até 1 Purificação Tricármica dentro de um curto período de tempo.\n\n<i>Lo, o deus da grama e das árvores, mostra sua verdade universal no vazio, iluminando a origem e a destruição dos três carmas.</i>"
+          },
+          "burst": {
+            "name": "Coração Ilusório",
+            "desc": "Manifesta o Palácio dos Sonhos, criando o campo do Santuário de Maya.\n\nSe houverem personagens dos tipos elementais abaixo quando o campo é criado, gera os seguintes efeitos:\n· <e:pyro>Pyro</e>: quando Nahida está no Santuário de Maya, aumenta o Dano infligido por Purificação Tricármica de sua Habilidade Elemental \"Esquemas Universais\";\n· <e:electro>Electro</e>: quando Nahida está no Santuário de Maya, reduz o intervalo para desencadear Purificação Tricármica de sua Habilidade Elemental \"Esquemas Universais\";\n· <e:hydro>Hydro</e>: estende a duração do Santuário de Maya.\n\nAo criar esse campo, se houverem pelo menos 2 personagens dos tipos elementais citados acima, o efeito correspondente será mais fortalecido.\n\nMesmo que Nahida não esteja ativa no campo de batalha, poderá obter os efeitos de aumento descritos acima se membros da equipe estiverem dentro do Santuário de Maya.\n\n<i>Para a Deusa da Sabedoria, talvez tudo que vive sob as árvores seja apenas um sonho passageiro de ponta-cabeça para a Deusa.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Compaixão Iluminada",
+            "desc": "Ao lançar <k>Coração Ilusório</k>, o Santuário de Maya obterá os seguintes efeitos:\nAumenta a Proficiência Elemental do personagem ativo no campo de batalha dentro da AdE baseado em 25% da Proficiência Elemental do personagem da equipe com maior Proficiência Elemental.\nÉ possível obter um aumento de até 250 pontos de Proficiência Elemental desta forma."
+          },
+          {
+            "name": "Despertar da Sabedoria",
+            "desc": "Cada 1 ponto de Proficiência Elemental de Nahida que ultrapasse 200 aumentará o Dano infligido por Purificação Tricármica de <k>Esquemas Universais</k> em 0.1% e a Taxa CRIT em 0.03%.\nÉ possível aumentar o Dano em até 80% e a Taxa CRIT em até 24% dessa forma."
+          },
+          {
+            "name": "Meditação Universal",
+            "desc": "Nahida pode usar <k>Esquemas Universais</k> para interagir com outros objetos coletáveis dentro de uma certa AdE.\nTalvez isso possua algum outro efeito..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Semente do Conhecimento",
+            "desc": "Quando o <k>Santuário de Maya</k> é lançado e conta os tipos elementais dos personagens na equipe, será contabilizado 1 personagem Pyro, Electro e Hydro a mais."
+          },
+          {
+            "level": 2,
+            "name": "Raiz da Compaixão",
+            "desc": "Oponentes marcados pelas <k>Sementes Skandha</k> aplicadas pela própria Nahida serão afetados pelos seguintes efeitos:\n· Dano de Queimadura, Florescimento, Superflorescimento e Germinação pode causar CRIT. Taxa CRIT e Dano CRIT estão fixados em 20% e 100% respectivamente. Esse efeito de aumento de Taxa CRIT pode acumular com efeitos similares de Acerto CRIT de reações elementais correspondentes.\n· Dentro de 8s após terem sido afetados por Aceleração, Intensificação e Propagação, a DEF diminui em 30%.\n· Aumenta o Dano sofrido por Taxa CRIT de Florescimento Lunar em 10%, aumenta o Dano CRIT em 20%."
+          },
+          {
+            "level": 3,
+            "name": "Brotos do Karma",
+            "desc": "Aumenta o nível do <k>Esquemas Universais</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Caules da Interferência da Manifestação",
+            "desc": "Quando houverem 1/2/3/4 ou mais inimigos próximos sob o estado Semente Skandha e de <k>Esquemas Universais</k>, a Proficiência Elemental de Nahida aumenta em 100/120/140/160."
+          },
+          {
+            "level": 5,
+            "name": "As Folhas da Essência da Sabedoria",
+            "desc": "Aumenta o nível do <k>Coração Ilusório</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Frutos da Culminação da Razão",
+            "desc": "Depois de lançar <k>Coração Ilusório</k>, quando Nahida acerta um oponente afetado pela Semente Skandha de <k>Esquemas Universais</k> com um Ataque Normal ou Ataque Carregado, ela lançará Purificação Tricármica: Eliminação do Carma nesse oponente e em todos os oponentes conectados, causando <e:dendro>Dano Dendro</e> com base em 200% do ATQ de Nahida e em 400% de sua Proficiência Elemental.\nO Dano causado por Purificação Tricármica: Eliminação do Carma é considerado Dano de Habilidade Elemental e pode ser acionado uma vez a cada 0.2s.\nEsse efeito pode durar até 10s e será removido depois que Nahida liberar 6 instâncias de Purificação Tricármica: Eliminação do Carma."
           }
         ]
       }

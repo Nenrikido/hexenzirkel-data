@@ -54,7 +54,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11517",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -81,6 +81,19 @@
             "3": "L'ATQ augmente de <r>36 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>36 %</r> supplémentaires et ses DGT CRIT de <r>60 %</r>.",
             "4": "L'ATQ augmente de <r>42 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>42 %</r> supplémentaires et ses DGT CRIT de <r>70 %</r>.",
             "5": "L'ATQ augmente de <r>48 %</r> pendant 12 s après avoir déclenché une compétence élémentaire. Si le personnage équipé de l'arme n'a plus d'énergie élémentaire pendant cette période, son ATQ augmente de <r>48 %</r> supplémentaires et ses DGT CRIT de <r>80 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "A lâmina pura e imaculada, que outrora era tão límpida quanto uma estrela da manhã, agora está tingida de um sombrio azul escuro.",
+        "passive": {
+          "name": "Dádiva da Montanha Branca",
+          "refinements": {
+            "1": "Dentro de 12s após uma Habilidade Elemental ser usada, o ATQ é aumentado em <r>24%</r>. Durante esse tempo, quando o personagem que está com essa arma equipada possui 0 de Energia, o ATQ será aumentado em mais <r>24%</r>, e o Dano CRIT será aumentado em <r>40%</r>.",
+            "2": "Dentro de 12s após uma Habilidade Elemental ser usada, o ATQ é aumentado em <r>30%</r>. Durante esse tempo, quando o personagem que está com essa arma equipada possui 0 de Energia, o ATQ será aumentado em mais <r>30%</r>, e o Dano CRIT será aumentado em <r>50%</r>.",
+            "3": "Dentro de 12s após uma Habilidade Elemental ser usada, o ATQ é aumentado em <r>36%</r>. Durante esse tempo, quando o personagem que está com essa arma equipada possui 0 de Energia, o ATQ será aumentado em mais <r>36%</r>, e o Dano CRIT será aumentado em <r>60%</r>.",
+            "4": "Dentro de 12s após uma Habilidade Elemental ser usada, o ATQ é aumentado em <r>42%</r>. Durante esse tempo, quando o personagem que está com essa arma equipada possui 0 de Energia, o ATQ será aumentado em mais <r>42%</r>, e o Dano CRIT será aumentado em <r>70%</r>.",
+            "5": "Dentro de 12s após uma Habilidade Elemental ser usada, o ATQ é aumentado em <r>48%</r>. Durante esse tempo, quando o personagem que está com essa arma equipada possui 0 de Energia, o ATQ será aumentado em mais <r>48%</r>, e o Dano CRIT será aumentado em <r>80%</r>."
           }
         }
       }

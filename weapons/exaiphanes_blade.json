@@ -98,7 +98,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11521",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -125,6 +125,19 @@
             "3": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de 6 % pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de <r>24 %</r> pendant 8 s et il récupère <r>5</r> pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "4": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de 6 % pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de <r>32 %</r> pendant 8 s et il récupère <r>5</r> pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "5": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de 6 % pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de <r>40 %</r> pendant 8 s et il récupère <r>5</r> pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada longa que outrora brilhava com o resplandecente brilho da Estrela Azul. Na mão do viajante, ela se torna uma luz inteiramente nova, sem qualquer vínculo com eras passadas.",
+        "passive": {
+          "name": "Caminho da Viagem",
+          "refinements": {
+            "1": "Quando {F#a}{M#o} Viajante equipar e atingir o inimigo, aumenta o ATQ em <r>16%</r> por <r>8</r>s e regenera <r>3</r> de Energia Elemental para {F#a}{M#o} Viajante. Esse efeito pode ser desencadeado uma vez a cada <r>5</r>s. Pode ser ativado mesmo quando o personagem não está em campo.",
+            "2": "Quando {F#a}{M#o} Viajante equipar, seu Dano CRIT aumenta em 6% para cada Elemento com o qual {F#ela}{M#ele} ressoou. Além disso, quando o ataque d{F#a}{M#o} Viajante atinge um inimigo, aumenta seu ATQ em <r>20%</r> por 8s, e regenera <r>3</r> de Energia Elemental para {F#a}{M#o} Viajante. Esse efeito pode ser desencadeado uma vez a cada 5s. Pode ser ativado mesmo quando o personagem não está em campo.",
+            "3": "Quando {F#a}{M#o} Viajante equipar, seu Dano CRIT aumenta em 6% para cada Elemento com o qual {F#ela}{M#ele} ressoou. Além disso, quando o ataque d{F#a}{M#o} Viajante atinge um inimigo, aumenta seu ATQ em <r>24%</r> por 8s, e regenera <r>5</r> de Energia Elemental para {F#a}{M#o} Viajante. Esse efeito pode ser desencadeado uma vez a cada 5s. Isso pode ser ativado mesmo quando o personagem não está em campo.",
+            "4": "Quando {F#a}{M#o} Viajante equipar, seu Dano CRIT aumenta em 6% para cada Elemento com o qual {F#ela}{M#ele} ressoou. Além disso, quando o ataque d{F#a}{M#o} Viajante atinge um inimigo, aumenta seu ATQ em <r>32%</r> por 8s, e regenera <r>5</r> de Energia Elemental para {F#a}{M#o} Viajante. Esse efeito pode ser desencadeado uma vez a cada 5s. Isso pode ser ativado mesmo quando o personagem não está em campo.",
+            "5": "Quando {F#a}{M#o} Viajante equipar, seu Dano CRIT aumenta em 6% para cada Elemento com o qual {F#ela}{M#ele} ressoou. Além disso, quando o ataque d{F#a}{M#o} Viajante atinge um inimigo, aumenta seu ATQ em <r>40%</r> por 8s, e regenera <r>5</r> de Energia Elemental para {F#a}{M#o} Viajante. Esse efeito pode ser desencadeado uma vez a cada 5s. Isso pode ser ativado mesmo quando o personagem não está em campo."
           }
         }
       }

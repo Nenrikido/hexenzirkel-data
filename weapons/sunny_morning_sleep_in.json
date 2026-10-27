@@ -69,7 +69,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14518",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -96,6 +96,19 @@
             "3": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>180</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>144</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>48</r> pts pendant 30 s.",
             "4": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>210</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>168</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>56</r> pts pendant 30 s.",
             "5": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de <r>240</r> pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de <r>192</r> pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de <r>64</r> pts pendant 30 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um sino-lanterna forjado com puro jade púrpura, diz-se que, ao ser colocado ao lado do travesseiro, pode trazer sonhos felizes.",
+        "passive": {
+          "name": "Narukami Um, Dois, Três",
+          "refinements": {
+            "1": "Aumenta a Proficiência Elemental em <r>120</r> por 6s após desencadear Redemoinho e Redemoinho Estelar. A Proficiência Elemental aumenta em <r>96</r> por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em <r>32</r> por 30s após o Supremo do portador atingir um oponente.",
+            "2": "Aumenta a Proficiência Elemental em <r>150</r> por 6s após desencadear Redemoinho e Redemoinho Estelar. A Proficiência Elemental aumenta em <r>120</r> por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em <r>40</r> por 30s após o Supremo do portador atingir um oponente.",
+            "3": "Aumenta a Proficiência Elemental em <r>180</r> por 6s após desencadear Redemoinho e Redemoinho Estelar. A Proficiência Elemental aumenta em <r>144</r> por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em <r>48</r> por 30s após o Supremo do portador atingir um oponente.",
+            "4": "Aumenta a Proficiência Elemental em <r>210</r> por 6s após desencadear Redemoinho ou Redemoinho Estelar. A Proficiência Elemental aumenta em <r>168</r> por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em <r>56</r> por 30s após o Supremo do portador atingir um oponente.",
+            "5": "Aumenta a Proficiência Elemental em <r>240</r> por 6s após desencadear Redemoinho ou Redemoinho Estelar. A Proficiência Elemental aumenta em <r>192</r> por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em <r>64</r> por 30s após o Supremo do portador atingir um oponente."
           }
         }
       }

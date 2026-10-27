@@ -41,7 +41,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11504",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -68,6 +68,19 @@
             "3": "Augmente la force du bouclier de <r>30 %</r>. Toucher un ennemi augmente l'ATQ de <r>6 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %.",
             "4": "Augmente la force du bouclier de <r>35 %</r>. Toucher un ennemi augmente l'ATQ de <r>7 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %.",
             "5": "Augmente la force du bouclier de <r>40 %</r>. Toucher un ennemi augmente l'ATQ de <r>8 %</r> pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um símbolo de um pacto lendário, esta lâmina afiada uma vez cortou o pico de uma montanha.",
+        "passive": {
+          "name": "Majestade Dourada",
+          "refinements": {
+            "1": "Aumenta a Força do Escudo em <r>20%</r>. Acertar ataques em inimigos aumenta o ataque em <r>4%</r> por 8s. Acumula até 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque é aumentado em 100%.",
+            "2": "Aumenta a força do Escudo em <r>25%</r>. Acertar ataques em inimigos aumenta o ataque em <r>5%</r> por 8s. Acumula até 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque é aumentado em 100%.",
+            "3": "Aumenta a força do Escudo em <r>30%</r>. Acertar ataques em inimigos aumenta o ataque em <r>6%</r> por 8s. Acumula até 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque é aumentado em 100%.",
+            "4": "Aumenta a força do Escudo em <r>35%</r>. Acertar ataques em inimigos aumenta o ataque em <r>7%</r> por 8s. Acumula até 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque é aumentado em 100%.",
+            "5": "Aumenta a força do Escudo em <r>40%</r>. Acertar ataques em inimigos aumenta o ataque em <r>8%</r> por 8s. Acumula até 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque é aumentado em 100%."
           }
         }
       }

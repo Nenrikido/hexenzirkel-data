@@ -48,7 +48,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15304",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -75,6 +75,19 @@
             "3": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>48 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
             "4": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>54 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
             "5": "Les DGT infligés par les flèches des attaques normales et chargées infligent <r>60 %</r> de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Na verdade, é um arco. Depois de incontáveis experimentos e melhorias, o mestre criador de estilingues acabou criando um arco.",
+        "passive": {
+          "name": "Estilingue",
+          "refinements": {
+            "1": "Se a flecha do Ataque Normal e do Ataque Carregado atingir um alvo dentro de 0.3s após o disparo, o Dano é aumentado em <r>36%</r>. Caso contrário, o Dano é diminuído em 10%.",
+            "2": "Se a flecha do Ataque Normal e do Ataque Carregado atingir um alvo dentro de 0.3s após o disparo, o Dano é aumentado em <r>42%</r>. Caso contrário, o Dano é diminuído em 10%.",
+            "3": "Se a flecha do Ataque Normal e do Ataque Carregado atingir um alvo dentro de 0.3s após o disparo, o Dano é aumentado em <r>48%</r>. Caso contrário, o Dano é diminuído em 10%.",
+            "4": "Se a flecha do Ataque Normal e do Ataque Carregado atingir um alvo dentro de 0.3s após o disparo, o Dano é aumentado em <r>54%</r>. Caso contrário, o Dano é diminuído em 10%.",
+            "5": "Se a flecha do Ataque Normal e do Ataque Carregado atingir um alvo dentro de 0.3s após o disparo, o Dano é aumentado em <r>60%</r>. Caso contrário, o Dano é diminuído em 10%."
           }
         }
       }

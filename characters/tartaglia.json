@@ -429,7 +429,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000033",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -554,6 +554,68 @@
             "level": 6,
             "name": "Ravage : Annihilation",
             "desc": "En état de mêlée, l'activation de <k>Ravage : Oblitération</k> supprime le TdR de <k>Posture du démon : Marée déchaînée</k>.\nCet effet se produit après le retour à l'état à distance."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Intercepção de Chuva",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 6 disparos consecutivos com o arco.\n\n<k>Ataque Carregado</k>\nRealiza um <k>Disparo com Mira</k> com dano aumentado.\nNa hora do Disparo com Mira, o Elemento Hydro pode se acumular na flecha. Uma flecha totalmente carregada que acertar o inimigo causará <e:hydro>Dano Hydro</e> e Interceptação de Fluxo.\n\n<k>Interceptação de Fluxo</k>\nInimigos sob a influência da Interceptação de Fluxo receberão vários tipos de ataque de Tartaglia que causarão <e:hydro>Dano Hydro AdE</e>. Os danos são considerados Ataques Normais.\n· Interceptação de Fluxo·Instantâneo: um Disparo com Mira carregado que acertar um inimigo afetado pela Interceptação de Fluxo causará Dano AdE consecutivo. A Interceptação de Fluxo·Instantâneo só pode ser ativada uma vez a cada 0.7 segundos.\n· Interceptação de Fluxo·Explosão: Derrotar um inimigo afetado pela Interceptação de Fluxo causará uma explosão Hydro que infligirá o efeito Interceptação de Fluxo nos inimigos ao redor.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas no ar antes de cair e impactar o chão, causando dano AoE no impacto.\nSe estiver no estado corpo a corpo em Legado do Mal - Ondas de Fúria, não pode apresentar o Ataque Imersivo."
+          },
+          "skill": {
+            "name": "Legado do Mal - Ondas de Fúria",
+            "desc": "Lança armas feitas de água, causando <e:hydro>Dano Hydro</e> nos inimigos ao redor e entra na Posição Corpo a Corpo.\n\nNessa posição, os ataques Normais e Carregados de Tartaglia são convertidos para <e:hydro>Dano Hydro</e> que não podem ser anulados por outros elementos e mudam para o seguinte:\n\n<k>Ataque Normal</k>\nRealiza até 6 ataques <e:hydro>Hydro</e> consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantia de Stamina para realizar dois cortes que causam <e:hydro>Dano Hydro</e>.\n\n<k>Interceptação de Fluxo - Corte</k>\nAtingir um inimigo afetado pela Interceptação de Fluxo com um ataque corpo a corpo libera um Corte de Interceptação de Fluxo que causa <e:hydro>Dano Hydro AdE</e>. Dano causado nesta maneira é considerado Dano de uma Habilidade Elemental, e só pode ocorrer uma vez a cada 1.5s.\n\nDepois de 30s, ou quando a habilidade é lançada novamente, esse efeito se encerrará. Tartaglia retornará para sua Posição À Distância e essa habilidade entrará no seu tempo de recarga. Quanto mais tempo Tartaglia permanecer na Posição Corpo a Corpo, maior a recarga.\nSe o retorno a Posição À Distância acontecer automaticamente depois de 30s, o tempo de recarga é ainda maior.\n\n<i>Ele escolheu o arco como sua arma precisamente para superar sua deficiência com ele. Mas uma luta séria exige que ele fique sério...</i>"
+          },
+          "burst": {
+            "name": "Devastação: Obliteração",
+            "desc": "Realiza ataques diferentes baseado em qual Posição Tartaglia está quando os lança.\n\n<k>Posição À Distância·Clarão da Devastação</k>\nDispara uma flecha Hydro, causando<e:hydro>Dano Hydro AoE</e> e aplicando o efeito Interceptação de Fluxo.\nRegenera uma porção de seu Consumo de Energia após o uso.\n\n<k>Posição Corpo a Corpo·Luz da Obliteração</k>\nRealiza um corte com uma grande AdE, causando <e:hydro>Dano Hydro</e> massivo para os inimigos ao redor, desencadeando Interceptação de Fluxo·Explosão.\n\n<k>Interceptação de Fluxo·Explosão</k>\nQuando as águas obliteradoras atingem inimigos afetados pela Interceptação de Fluxo, acaba com esse efeito e desencadeia Explosões Hydro que causam<e:hydro> Dano Hydro AdE</e>.\nO dano de Interceptação de Fluxo·Explosão é tratado como um dano de Supremo.\n\n<i>Raramente são vistas águas turbulentas nesta terra cheia de neve. Talvez sua habilidade de comandar água seja pelo seu entendimento de quão preciosa ela é.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Infinito Sem-fim",
+            "desc": "A duração da Interceptação de Fluxo será estendida por 8s."
+          },
+          {
+            "name": "Espada das Torrentes",
+            "desc": "Quando Tartaglia estiver na posição de corpo a corpo das <k>Legado do Mal - Ondas de Fúria</k>, ou se seus Ataques Normais ou Carregados causarem Dano Crítico, eles aplicarão o efeito de Interceptação de Fluxo no inimigo acertado."
+          },
+          {
+            "name": "Mestre do Armamento",
+            "desc": "O nível do <k>Ataque Normal</k> de seus próprios personagens da equipe aumenta 1 nível."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Legado do Mal - Ondas Calmas",
+            "desc": "Diminui a Recarga de <k>Legado do Mal - Ondas de Fúria</k> por 20%."
+          },
+          {
+            "level": 2,
+            "name": "Legado do Mal - Submarino",
+            "desc": "Quando os inimigos afetados pela Interceptação de Fluxo forem derrotados, Tartaglia ganha 4 de Energia Elemental."
+          },
+          {
+            "level": 3,
+            "name": "Caos Abissal - Vórtice da Turbulência",
+            "desc": "Aumenta o nível de <k>Legado do Mal - Ondas de Fúria</k> em 3.\nO nível máximo é Nv.15."
+          },
+          {
+            "level": 4,
+            "name": "Caos Abissal - Hydroexplosão",
+            "desc": "Quando Interceptação de Fluxo é infligida por Tartaglia a cada 4s, se Tartaglia estiver na posição corpo a corpo de <k>Legado do Mal - Ondas de Fúria</k> ativa Interceptação de Fluxo·Corte; caso contrário, ativa Dano da Interceptação de Fluxo·Instantâneo.\nA Interceptação de Fluxo·Corte e Interceptação de Fluxo·Instantâneo não têm limitações de intervalo de ativação e não são afetados por outro intervalo de ativação."
+          },
+          {
+            "level": 5,
+            "name": "Devastação - Lâmina Sem Forma",
+            "desc": "Aumenta o nível da <k>Devastação: Obliteração</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Devastação - Aniquilação",
+            "desc": "Quando <k>Devastação: Obliteração</k> é lançada na Posição Corpo a Corpo, o Tempo de Recarga de <k>Legado do Mal - Ondas de Fúria</k> termina imediatamente.\nEsse efeito só acontecerá quando Tartaglia retornar à sua Posição à Distância."
           }
         ]
       }

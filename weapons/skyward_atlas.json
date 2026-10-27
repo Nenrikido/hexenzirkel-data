@@ -43,7 +43,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14501",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -70,6 +70,19 @@
             "3": "Augmente le bonus de DGT élémentaires de <r>18 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>240 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
             "4": "Augmente le bonus de DGT élémentaires de <r>21 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>280 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
             "5": "Augmente le bonus de DGT élémentaires de <r>24 %</r>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <r>320 %</r> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um atlas das nuvens que simboliza Dvalin e o Arconte Anemo, seu antigo mestre. Detalha os ventos e as nuvens das regiões do norte e contém o poder dos céus e dos ventos.",
+        "passive": {
+          "name": "Nuvens Vagantes",
+          "refinements": {
+            "1": "Aumenta o bônus de Dano Elemental em <r>12%</r>. O Ataque Normal possui 50% de chance de obter o favor das nuvens, que busca ativamente por oponentes ao redor para atacar por 15s, causando <r>160%</r> de Dano de Ataque. Pode ser ativada uma vez a cada 30s.",
+            "2": "Aumenta o bônus de Dano Elemental em <r>15%</r>. O Ataque Normal possui 50% de chance de obter o favor das nuvens, que busca ativamente por oponentes ao redor para atacar por 15s, causando <r>200%</r> de Dano de Ataque. Pode ser ativada uma vez a cada 30s.",
+            "3": "Aumenta o bônus de Dano Elemental em <r>18%</r>. O Ataque Normal possui 50% de chance de obter o favor das nuvens, que busca ativamente por oponentes ao redor para atacar por 15s, causando <r>240%</r> de Dano de Ataque. Pode ser ativada uma vez a cada 30s.",
+            "4": "Aumenta o bônus de Dano Elemental em <r>21%</r>. O Ataque Normal possui 50% de chance de obter o favor das nuvens, que busca ativamente por oponentes ao redor para atacar por 15s, causando <r>280%</r> de Dano de Ataque. Pode ser ativada uma vez a cada 30s.",
+            "5": "Aumenta o Bônus do Dano Elemental em <r>24%</r>. O Ataque normal possui 50% de chance de ganhar a graça das nuvens, que buscam ativamente por inimigos ao redor para atacar por 15s, causando <r>320%</r> de Dano de ATQ. Este efeito pode ser ativado uma vez a cada 30s."
           }
         }
       }

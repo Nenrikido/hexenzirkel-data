@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13403",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>30</r> % de l'ATQ.",
             "4": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>35</r> % de l'ATQ.",
             "5": "Chaque particule ou orbe élémentaires obtenus confèrent pendant 5 s un bonus de DGT équivalant à <r>40</r> % de l'ATQ."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma arma exótica com uma lâmina extremamente comprida no topo e uma lâmina crescente na parte de baixo. Foi parar em Liyue através de comerciantes estrangeiros. Com prática, pode causar grandes danos.",
+        "passive": {
+          "name": "Agulha Energética",
+          "refinements": {
+            "1": "Após obter um Orbe Elemental/Partícula Elemental, os Ataques Normais e Ataques Carregados causam um adicional de <r>20%</r> de Dano Físico por 5s.",
+            "2": "Após obter um Orbe Elemental/Partícula Elemental, os Ataques Normais e Ataques Carregados causam um adicional de <r>25%</r> de Dano Físico por 5s.",
+            "3": "Após obter um Orbe Elemental/Partícula Elemental, os Ataques Normais e Ataques Carregados causam um adicional de <r>30%</r> de Dano Físico por 5s.",
+            "4": "Após obter um Orbe Elemental/Partícula Elemental, os Ataques Normais e Ataques Carregados causam um adicional de <r>35%</r> de Dano Físico por 5s.",
+            "5": "Após obter um Orbe Elemental/Partícula Elemental, os Ataques Normais e Ataques Carregados causam um adicional de <r>40%</r> de Dano Físico por 5s."
           }
         }
       }

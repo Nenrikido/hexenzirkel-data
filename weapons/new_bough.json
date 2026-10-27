@@ -131,5 +131,54 @@
     "nanokaVersion": "7.1",
     "refinementModelled": "R5",
     "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R5 (house convention: 4* at R5, 5* at R1). Verdant is one entry with both modes as states because they are exclusive."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11437",
+      "retrievedAt": "2026-10-27",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A sword made from sacred wood, said to have once turned the tide of battle.",
+        "passive": {
+          "name": "Wildgrowth",
+          "refinements": {
+            "1": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <r>4%</r> and their Elemental Mastery by <r>20</r>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <r>6%</r> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <r>8%</r>.",
+            "2": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <r>5%</r> and their Elemental Mastery by <r>25</r>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <r>7.5%</r> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <r>10%</r>.",
+            "3": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <r>6%</r> and their Elemental Mastery by <r>30</r>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <r>9%</r> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <r>12%</r>.",
+            "4": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <r>7%</r> and their Elemental Mastery by <r>35</r>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <r>10.5%</r> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <r>14%</r>.",
+            "5": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <r>8%</r> and their Elemental Mastery by <r>40</r>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <r>12%</r> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <r>16%</r>."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une épée en bois sacré, qui aurait marqué le tournant décisif d'une bataille.",
+        "passive": {
+          "name": "Croissance sauvage",
+          "refinements": {
+            "1": "Lorsque le personnage équipé de l'arme touche un ennemi avec une attaque dans les 12 s suivant l'utilisation d'une compétence élémentaire, il obtient l'effet Verdoyant : augmente l'ATQ de <r>4 %</r> et la maîtrise élémentaire de <r>20</r> pts pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les secondes. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.\nRadiance astrale : l'effet Verdoyant est converti pour augmenter l'ATQ de <r>6 %</r> et les DGT de réaction astrale infligés par le personnage équipé de l'arme de <r>8 %</r>.",
+            "2": "Lorsque le personnage équipé de l'arme touche un ennemi avec une attaque dans les 12 s suivant l'utilisation d'une compétence élémentaire, il obtient l'effet Verdoyant : augmente l'ATQ de <r>5 %</r> et la maîtrise élémentaire de <r>25</r> pts pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les secondes. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.\nRadiance astrale : l'effet Verdoyant est converti pour augmenter l'ATQ de <r>7,5 %</r> et les DGT de réaction astrale infligés par le personnage équipé de l'arme de <r>10 %</r>.",
+            "3": "Lorsque le personnage équipé de l'arme touche un ennemi avec une attaque dans les 12 s suivant l'utilisation d'une compétence élémentaire, il obtient l'effet Verdoyant : augmente l'ATQ de <r>6 %</r> et la maîtrise élémentaire de <r>30</r> pts pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les secondes. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.\nRadiance astrale : l'effet Verdoyant est converti pour augmenter l'ATQ de <r>9 %</r> et les DGT de réaction astrale infligés par le personnage équipé de l'arme de <r>12 %</r>.",
+            "4": "Lorsque le personnage équipé de l'arme touche un ennemi avec une attaque dans les 12 s suivant l'utilisation d'une compétence élémentaire, il obtient l'effet Verdoyant : augmente l'ATQ de <r>7 %</r> et la maîtrise élémentaire de <r>35</r> pts pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les secondes. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.\nRadiance astrale : l'effet Verdoyant est converti pour augmenter l'ATQ de <r>10,5 %</r> et les DGT de réaction astrale infligés par le personnage équipé de l'arme de <r>14 %</r>.",
+            "5": "Lorsque le personnage équipé de l'arme touche un ennemi avec une attaque dans les 12 s suivant l'utilisation d'une compétence élémentaire, il obtient l'effet Verdoyant : augmente l'ATQ de <r>8 %</r> et la maîtrise élémentaire de <r>40</r> pts pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les secondes. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.\nRadiance astrale : l'effet Verdoyant est converti pour augmenter l'ATQ de <r>12 %</r> et les DGT de réaction astrale infligés par le personnage équipé de l'arme de <r>16 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada feita de madeira sagrado. Dizem que foi a chave para a reviravolta de uma batalha.",
+        "passive": {
+          "name": "Nervuras da Videira",
+          "refinements": {
+            "1": "Nos 12s após lançar a Habilidade Elemental, quando o portador atinge um inimigo com um ataque, obtém o efeito Vegetação Exuberante: aumenta o ATQ em <r>4%</r>, aumenta a Proficiência Elemental em <r>20</r> por 6s. Acumula até 3 vezes. É possível desencadear uma vez por segundo. Esse efeito pode ser ativado mesmo quando o portador não for o personagem ativo.\nBrilho Reluzente: Brilho Estelar: o efeito de Vegetação Exuberante é alterado para aumentar o ATQ em <r>6%</r>, e aumenta o Dano de reações de Brilho Estelar do portador em <r>8%</r>.",
+            "2": "Nos 12s após lançar a Habilidade Elemental, quando o portador atinge um inimigo com um ataque, obtém o efeito Vegetação Exuberante: aumenta o ATQ em <r>5%</r>, aumenta a Proficiência Elemental em <r>25</r> por 6s. Acumula até 3 vezes. É possível desencadear uma vez por segundo. Esse efeito pode ser ativado mesmo quando o portador não for o personagem ativo.\nBrilho Reluzente: Brilho Estelar: o efeito de Vegetação Exuberante é alterado para aumentar o ATQ em <r>7.5%</r>, e aumenta o Dano de reações de Brilho Estelar do portador em <r>10%</r>.",
+            "3": "Nos 12s após lançar a Habilidade Elemental, quando o portador atinge um inimigo com um ataque, obtém o efeito Vegetação Exuberante: aumenta o ATQ em <r>6%</r>, aumenta a Proficiência Elemental em <r>30</r> por 6s. Acumula até 3 vezes. É possível desencadear uma vez por segundo. Esse efeito pode ser ativado mesmo quando o portador não for o personagem ativo.\nBrilho Reluzente: Brilho Estelar: o efeito de Vegetação Exuberante é alterado para aumentar o ATQ em <r>9%</r>, e aumenta o Dano de reações de Brilho Estelar do portador em <r>12%</r>.",
+            "4": "Nos 12s após lançar a Habilidade Elemental, quando o portador atinge um inimigo com um ataque, obtém o efeito Vegetação Exuberante: aumenta o ATQ em <r>7%</r>, aumenta a Proficiência Elemental em <r>35</r> por 6s. Acumula até 3 vezes. É possível desencadear uma vez por segundo. Esse efeito pode ser ativado mesmo quando o portador não for o personagem ativo.\nBrilho Reluzente: Brilho Estelar: o efeito de Vegetação Exuberante é alterado para aumentar o ATQ em <r>10.5%</r>, e aumenta o Dano de reações de Brilho Estelar do portador em <r>14%</r>.",
+            "5": "Nos 12s após lançar a Habilidade Elemental, quando o portador atinge um inimigo com um ataque, obtém o efeito Vegetação Exuberante: aumenta o ATQ em <r>8%</r>, aumenta a Proficiência Elemental em <r>40</r> por 6s. Acumula até 3 vezes. É possível desencadear uma vez por segundo. Esse efeito pode ser ativado mesmo quando o portador não for o personagem ativo.\nBrilho Reluzente: Brilho Estelar: o efeito de Vegetação Exuberante é alterado para aumentar o ATQ em <r>12%</r>, e aumenta o Dano de reações de Brilho Estelar do portador em <r>16%</r>."
+          }
+        }
+      }
+    }
   }
 }

@@ -77,7 +77,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15045",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -93,6 +93,13 @@
         "bonuses": {
           "2": "Augmente la recharge d'énergie de 20 %.",
           "4": "Si le personnage équipé de l'artéfact a terminé son devoir de la sorcière et a utilisé une compétence élémentaire, il obtient l'effet Guidance de la lumière : accorde un bonus de DGT de l'élément du personnage équipé de l'artéfact de 20 % pendant 20 s à tous les personnages de l'équipe à proximité. L'effet ci-dessus peut être déclenché même si le personnage équipé de l'artéfact n'est pas déployé, et les effets d'augmentation des DGT accordés par les sets d'artéfacts du même nom ne se cumulent pas.\nLorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, l'effet Guidance de la lumière est amélioré en Hymne mortel, accordant un bonus de DGT de l'élément du personnage équipé de l'artéfact et de l'élément de votre personnage déployé de 40 % à tous les personnages de l'équipe à proximité, ce bonus n'étant pas doublé si leurs éléments sont identiques."
+        }
+      },
+      "pt": {
+        "name": "Dádiva Celestial",
+        "bonuses": {
+          "2": "Recarga de Energia +20%",
+          "4": "Se o portador já completou a Tarefa da Bruxa, após usar uma Habilidade Elemental, obtém \"Orientação da Luz Celestial\" por 20s: todos os personagens próximos da equipe obtêm 20% de Bônus de Dano Elemental correspondente ao Tipo Elemental do portador. Esse efeito pode ser desencadeado mesmo se o portador estiver fora de campo. Bônus de Dano fornecidos por Conjuntos de Artefatos com o mesmo nome não acumulam.\n· Quando a equipe possui o efeito \"Mágico: Ritual Secreto\", \"Orientação da Luz Celestial\" é elevada para \"Cântico do Mundo Mortal\": todos os personagens próximos da equipe passam a obter 40% de Bônus de Dano Elemental correspondente tanto ao Tipo Elemental do portador quanto ao Tipo Elemental do personagem ativo atual da equipe. Se ambos os personagens tiverem o mesmo Tipo Elemental, esses bônus não acumulam."
         }
       }
     }

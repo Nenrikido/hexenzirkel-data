@@ -45,7 +45,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15410",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -72,6 +72,19 @@
             "3": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>3 %</r> toutes les secondes, jusqu'à <r>30 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>6 %</r> toutes les secondes, jusqu'à atteindre 0 %.",
             "4": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>3,5 %</r> toutes les secondes, jusqu'à <r>35 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>7 %</r> toutes les secondes, jusqu'à atteindre 0 %.",
             "5": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de <r>4 %</r> toutes les secondes, jusqu'à <r>40 %</r> maximum. 4 s après le déploiement du personnage, l'effet diminue de <r>8 %</r> toutes les secondes, jusqu'à atteindre 0 %."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco longo e opulento intrincado. Pertenceu a um ladrão de cavalheiros que nunca foi pego.",
+        "passive": {
+          "name": "Emboscada nos Becos",
+          "refinements": {
+            "1": "Quando o personagem com essa arma equipada estiver na equipe mas não no campo da batalha, o Dano causado por personagem será aumentado em <r>2%</r> a cada 1s, a quantidade máxima do aumento do Dano desta maneira é de <r>20%</r>. Depois de 4s de ficar no campo, o efeito de aumento do Dano será reduzido em <r>4%</r> a cada 1s até que seja reduzido para 0%.",
+            "2": "Quando o personagem com essa arma equipada estiver na equipe mas não no campo da batalha, o Dano causado por personagem será aumentado em <r>2.5%</r> a cada 1s, a quantidade máxima do aumento do Dano desta maneira é de <r>25%</r>. Depois de 4s de ficar no campo, o efeito de aumento do Dano será reduzido em <r>5%</r> a cada 1s até que seja reduzido para 0%.",
+            "3": "Quando o personagem com essa arma equipada estiver na equipe mas não no campo da batalha, o Dano causado por personagem será aumentado em <r>3%</r> a cada 1s, a quantidade máxima do aumento do Dano desta maneira é de <r>30%</r>. Depois de 4s de ficar no campo, o efeito de aumento do Dano será reduzido em <r>6%</r> a cada 1s até que seja reduzido para 0%.",
+            "4": "Quando o personagem com essa arma equipada estiver na equipe mas não no campo da batalha, o Dano causado por personagem será aumentado em <r>3.5%</r> a cada 1s, a quantidade máxima do aumento do Dano desta maneira é de <r>35%</r>. Depois de 4s de ficar no campo, o efeito de aumento do Dano será reduzido em <r>7%</r> a cada 1s até que seja reduzido para 0%.",
+            "5": "Quando o personagem com essa arma equipada estiver na equipe mas não no campo da batalha, o Dano causado por personagem será aumentado em <r>4%</r> a cada 1s, a quantidade máxima do aumento do Dano desta maneira é de <r>40%</r>. Depois de 4s de ficar no campo, o efeito de aumento do Dano será reduzido em <r>8%</r> a cada 1s até que seja reduzido para 0%."
           }
         }
       }

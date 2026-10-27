@@ -243,7 +243,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000041",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -384,6 +384,76 @@
             "level": 6,
             "name": "Rhétorique de l'adversité",
             "desc": "Lorsque Mona est sur le champ de bataille, si elle est dans l'état <k>Vicissitude</k> ou si un ou plusieurs ennemis marqués par un présage sont à proximité, elle obtient un bonus de 60 % de DGT pour sa prochaine attaque chargée à chaque seconde, cet effet pouvant être cumulé 3 fois maximum (bonus de 180 %) et durant 8 s.\nDe plus, les DGT infligés par les attaques chargées de Mona aux ennemis marqués par un présage augmentent à une valeur équivalant à 200 % des DGT d'origine."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Destino Desencapado",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 ataques com esguichos de água que infligem <e:hydro>Dano Hydro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para infligir <e:hydro>Dano Hydro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Hydro, Mona mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:hydro>Dano Hydro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Água Ilusória",
+            "desc": "Cria um Fantasma ilusório do destino a partir de trombas d'águas fundidas.\n\nO <k>Fantasma</k> tem as seguintes propriedades especiais:\nContinuamente provoca inimigos próximos, atraindo seus golpes.\n Continuamente inflige <e:hydro>Dano Hydro</e> nos inimigos próximos.\n Quando sua duração expira, o Fantasma explode, infligindo <e:hydro>Dano Hydro em uma AdE</e>.\n\n<k>Manter pressionado</k>\nUtiliza a corrente da água para movimentar-se rapidamente para trás antes de conjurar o Fantasma.\n\nApenas um Fantasma criado pelo Espelho do Reflexo do Apocalipse pode existir a qualquer momento.\n\n<i>Astrólogos qualificados sempre sonharam em usar uma cópia de si mesmos para se prevenirem do destino cruel iminente, mas Mona deve ser a primeira a fazer tamanho escárnio de todos em Teyvat.</i>"
+          },
+          "burst": {
+            "name": "Órbita Divina",
+            "desc": "Mona evoca as ondas cintilantes e cria um reflexo do céu estrelado, aplicando o status de Bolha Ilusória aos oponentes em uma grande AdE\n\n<k>Bolha Ilusória</k>\nPrende inimigos em um bolso do destino e também deixa eles <e:hydro>Molhados</e>. Torna oponentes mais fracos imóveis.\nQuando um oponente afetado pela Bolha Ilusória recebe Dano, os seguintes efeitos são aplicados:\nAplica um Presságio no oponente, que causa Dano Bônus, também aumentando o Dano do ataque que o ocasiona.\n Remove a Bolha Ilusória, causando Dano Elemental <e:hydro>Hydro</e> no processo.\n\n<k>Presságio</k>\nAo longo da duração, aumenta o Dano recebido pelos inimigos.\n\n<i>No momento em que os deuses traçaram pela primeira vez as luzes no céu com seus olhos, o \"destino\" nasceu.</i>"
+          },
+          "sprint": {
+            "name": "Vicissitude",
+            "desc": "<k>Arrancada Alternativa</k>\nMona se envolve dentro do fluxo da água, consumindo Stamina para se mover rapidamente.\nQuando sob o efeito de Vicissitude, Mona pode se movimentar em alta velocidade sobre a água.\nAplica o estado de <e:hydro>Molhado</e> para inimigos próximos quando ela ressurge.\n\n<i>Isso é algo que a Mona pode fazer, mas seu professor não pode. Bem, não é como se seu professor fosse seguir qualquer coisa relacionada às Visões Hydro de qualquer forma...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "\"Aquela bruxa velha veio atrás de mim!\"",
+            "desc": "Depois dela usar <k>Vicissitude</k> por 2 segundos, se existir algum inimigo próximo, Mona irá automaticamente criar um Fantasma.\nUm Fantasma criado dessa maneira dura por 2 segundos, e o Dano da sua explosão é igual a 50% da <k>Água Ilusória</k>."
+          },
+          {
+            "name": "\"Deixe nas mãos do destino!\"",
+            "desc": "Aumenta o <e:hydro>Bônus de Dano Hydro</e> de Mona em certo grau, equivalente a 20% da sua Taxa de Recarga de Energia."
+          },
+          {
+            "name": "Princípio da Astrologia",
+            "desc": "Quando Mona cria Materiais de Avanço de Armas, ela tem 25% de chance de recuperar parte do material usado para criação."
+          },
+          {
+            "name": "Presente da Noite da Bruxa: Verdade nas Estrelas",
+            "desc": "Depois de completar <k>Tarefa da Bruxa: Teste de Perspicácia</k>, Mona se torna uma personagem <k>Mágica</k>. Quando a equipe possui pelo menos 2 personagens Mágicos, obtém o efeito <k>Mágico: Ritual Secreto</k>, fortalecendo os personagens Mágicos.\n\n<k>Mágico: Ritual Secreto</k>\nQuando o Ataque Normal ou Carregado de Mona atinge um inimigo, obtém 1 acúmulo de Esplendor da Hydromancia por 8s. É possível acumular até 3 vezes. É possível obter até 1 acúmulo de Esplendor da Hydromancia a cada 0.1s dessa forma. Quando os outros personagens da equipe desencadearem Vaporização nos inimigos, consome todos os acúmulos de Esplendor da Hydromancia para aumentar o Dano causado de Vaporização em 5% por acúmulo.\nAlém disso, quando os Ataques Normais ou Carregados de Mona atingem o inimigo, prolongam a duração de <k>Presságio</k> por 2s. Esse efeito pode ser desencadeado uma vez a cada 0.5s. É possível prolongar a duração de <k>Presságio</k> dessa forma em até 8s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Profecia da Submersão",
+            "desc": "Nos 8 segundos após um Personagem da equipe atingir um inimigo afetado por Presságio, os efeitos <e:hydro>relacionados ao Hydro</e> são fortalecidos:\n· O Dano da Reação Eletricamente Carregado é aumentado em 15%, o Dano de Carga Lunar é aumentado em 15%, o Dano da Reação de Vaporização é aumentado em 15% e o Dano da Reação de Redemoinho com Hydro é aumentado em 15%; o Dano de Cristalização Lunar é aumentado em 15%.\n· A Duração da Reação Congelado é aumentada em 15%.\n\nAlém disso, se o personagem que não está ativo causar o efeito acima, o efeito de aumento de Dano será aumentado em 160% do original."
+          },
+          {
+            "level": 2,
+            "name": "Corrente Lunar",
+            "desc": "Quando atinge um Ataque Normal, possui 20% de chance de automaticamente lançar um Ataque Carregado. Além disso, nos 5s após Mona lançar seu Supremo <k>Órbita Divina</k>, quando Mona atingir um inimigo com seu próximo Ataque Normal, lançará um Ataque Carregado automaticamente.\nEsse efeito de Ataque Carregado automático pode ser desencadeado uma vez a cada 5s.\nQuando Mona atinge um inimigo com um Ataque Carregado, aumenta a Proficiência Elemental de todos os personagens próximos da equipe em 80 por 12s."
+          },
+          {
+            "level": 3,
+            "name": "Revolução Incessante",
+            "desc": "Aumenta o nível da <k>Órbita Divina</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Profecia do Fim",
+            "desc": "Quando todos os membros da equipe atacam inimigos afetados por Presságio, a Taxa CRIT é aumentada em 15%.\nOs Personagens Mágicos da equipe têm o Dano CRIT aumentado em 15% ao atacarem inimigos sob o efeito de Presságio."
+          },
+          {
+            "level": 5,
+            "name": "Zombaria da Fortuna",
+            "desc": "Aumenta o nível da <k>Água Ilusória</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Retórica da Calamidade",
+            "desc": "Quando Mona é a personagem ativa e está em <k>Vicissitude</k>, ou quando há um inimigo afetado por Presságio por perto, Mona ganha um aumento de 60% de Dano em seu próximo Ataque Carregado por segundo. Um máximo de 180% de Dano adicional pode ser atingido desta maneira, e este efeito dura por não mais que 8 segundos.\nAlém disso, quando o inimigo está sob o estado Presságio, o Ataque Carregado de Mona causa 200% de seu Dano original."
           }
         ]
       }

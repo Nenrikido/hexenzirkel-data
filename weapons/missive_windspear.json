@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13419",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>18 %</r> et la maîtrise élémentaire de <r>72</r> pts.",
             "4": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>21 %</r> et la maîtrise élémentaire de <r>84</r> pts.",
             "5": "Déclencher une réaction élémentaire augmente pendant 10 s l'ATQ de <r>24 %</r> et la maîtrise élémentaire de <r>96</r> pts."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um estandarte que pode guiar os ventos. Os ventos que sopram por lugares idílicos nem sempre são suaves.",
+        "passive": {
+          "name": "Vento Inalcançável",
+          "refinements": {
+            "1": "Nos 10s depois de desencadear uma Reação Elemental, aumenta o ATQ em <r>12%</r> e a Proficiência Elemental em <r>48</r> pontos.",
+            "2": "Nos 10s depois de desencadear uma Reação Elemental, aumenta o ATQ em <r>15%</r> e a Proficiência Elemental em <r>60</r> pontos.",
+            "3": "Nos 10s depois de desencadear uma Reação Elemental, aumenta o ATQ em <r>18%</r> e a Proficiência Elemental em <r>72</r> pontos.",
+            "4": "Nos 10s depois de desencadear uma Reação Elemental, aumenta o ATQ em <r>21%</r> e a Proficiência Elemental em <r>84</r> pontos.",
+            "5": "Nos 10s depois de desencadear uma Reação Elemental, aumenta o ATQ em <r>24%</r> e a Proficiência Elemental em <r>96</r> pontos."
           }
         }
       }

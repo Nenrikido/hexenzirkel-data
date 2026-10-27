@@ -40,7 +40,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15006",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:pyro>Pyro</e> de 15 %.",
           "4": "Augmente les DGT infligés par Surcharge, Brûlure et Bourgeonnement de 40 % et ceux d'Évaporation et de Fonte de 15 %. L'utilisation d'une compétence élémentaire augmente pendant 10 s l'effet du set de 2 pièces de 50 %. Cet effet peut être cumulé 3 fois maximum."
+        }
+      },
+      "pt": {
+        "name": "A Bruxa das Chamas Carmesim",
+        "bonuses": {
+          "2": "Bônus de Dano <e:pyro>Pyro</e> +15%",
+          "4": "Aumenta o Dano causado por Sobrecarga, Queimaduras e Germinação em 40%. Aumenta o Dano causado por Vaporização e Fusão em 15%. Usar Habilidades Elementais aumenta o efeito de Bônus de Conjunto de 2 Peças em 50% do seu valor inicial por 10s. Máximo de 3 acúmulos."
         }
       }
     }

@@ -266,7 +266,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000113",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -399,6 +399,72 @@
             "level": 6,
             "name": "Serment sur nœud à plumes",
             "desc": "Lorsque Ifa utilise un <k>tir de soutien</k> avec un appui long, il a 50 % de chances de déclencher un tir tonique supplémentaire qui inflige des DGT Anémo d'une valeur équivalant à 120 % de l'ATQ d'Ifa, ces DGT étant considérés comme des DGT d'attaque normale.\nDe plus, la consommation de points de noctâme et de phlogistique d'Ifa pendant sa bénédiction noctâme diminue de 20 % lorsqu'il n'est pas en combat."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Ritual Dispersador dos Ventos",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 ataques, infligindo <e:anemo>Dano Anemo</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para disparar em frente, causando <e:anemo>Dano Anemo em uma AdE</e>.\n\n<k>Ataque Imersivo</k>\nMergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:anemo>Dano Anemo em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Prevenção de Doenças Aéreas",
+            "desc": "É hora dos manos! Ifa invoca Cacucu como seu suporte na batalha.\nDepois de lançar, Ifa obtém 80 pontos de Espírito da Noite, e entra no estado <k>Bênção do Espírito da Noite</k>. Enquanto estiver nesse estado, Ifa flutuará com a ajuda de Cacucu, e ao fazer um Ataque Normal, realizará um <k>Disparo de Suporte</k> de maneiras diferentes caso pressione ou mantenha pressionado, disparando um Projétil Medicinal que pode regenerar Vida para todos os membros da equipe.\n\nAlém disso, quando estiver no estado Bênção do Espírito da Noite, ao manter pressionado para lançar a Habilidade Elemental <k>Prevenção de Doenças Aéreas</k>, Ifa realizará um Ataque Imersivo com alinhamento Espírito da Noite. Soltar o botão da Habilidade Elemental interromperá o Ataque Imersivo, mantendo-se no ar flutuando. Quando o Ataque Imersivo atingir o chão, o estado Bênção do Espírito da Noite de Ifa acabará."
+          },
+          "burst": {
+            "name": "Campo de Composto Sedativo",
+            "desc": "Dispara um Sedativo Terapêutico contra um (temporariamente agressivo) oponente. O sedativo explodirá ao atingir, gerando uma corrente de vento que atrai os objetos e inimigos próximos, causando <e:anemo>Dano Anemo em AdE</e> com alinhamento Espírito da Noite.\nQuando o Sedativo Terapêutico atinge um oponente afetado por <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, aplicará o efeito <k>Marca Tranquilizante</k> nele."
+          }
+        },
+        "passives": [
+          {
+            "name": "Campo de Visão Médica",
+            "desc": "Quando Ifa está no estado Bênção do Espírito da Noite, obtém 1 ponto de <k>Essencial do Resgate</k> para cada ponto de Espírito da Noite da soma total de todos os membros atuais da equipe. Essencial do Resgate pode aumentar o Dano causado por Redemoinho, Redemoinho Estelar, Eletricamente Carregado e Carga Lunar de personagens próximos."
+          },
+          {
+            "name": "Acordo de Resgate Mútuo",
+            "desc": "Quando o membro próximo da equipe desencadeia a Explosão do Espírito da Noite, aumenta a Proficiência Elemental de Ifa em 80 pontos por 10s."
+          },
+          {
+            "name": "Presente do Reino da Noite: Resgate de Emergência Focado",
+            "desc": "Depois que os pontos de Espírito da Noite de Ifa acabarem, ele mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.\nEnquanto estiver numa área de Natlan com Dispositivos de Flogisto, ele pode usar Transmissão do Espírito da Noite: Ifa. Quando o personagem estiver em uma certa altura no ar, trocar para Ifa como personagem ativo desencadeará: Ifa entra no estado Bênção do Espírito da Noite e obtém 32 pontos de Espírito da Noite. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s."
+          },
+          {
+            "name": "Compressa Quente Tática",
+            "desc": "Quando está em uma área de Natlan com Dispositivo de Flogisto, quando o personagem ativo da equipe ou um Sauriano habitado possui menos de 40% de Vida, Ifa consome 10 de Flogisto para regenerar 40% Vida para ele. Esse efeito pode ser desencadeado uma vez a cada 10s, e não surte efeito em domínios, Domínios Dizimados e Abismo do Espiral."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Concocção de Poção Vitífera",
+            "desc": "Quando o <k>Disparo de Suporte</k> atinge um inimigo, regenera 6 de Energia Elemental para Ifa. É possível regenerar Energia Elemental dessa forma uma vez a cada 8s."
+          },
+          {
+            "level": 2,
+            "name": "Espírito Guia da Oração Balística",
+            "desc": "Quando Ifa está no estado Bênção do Espírito da Noite, cada ponto de Espírito da Noite acima da soma atual total de 60 pontos de Espírito da Noite de todos os membros da equipe faz Ifa obter 4 pontos de <k>Essencial do Resgate</k>.\nAlém disso, o limite de Essencial do Resgate de Ifa é aumentado em 50 pontos.\nÉ necessário ter desbloqueado o Talento de Ascensão <k>Campo de Visão Médica</k>."
+          },
+          {
+            "level": 3,
+            "name": "Refutação em Negociações Com a Noite",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Prevenção de Doenças Aéreas</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Permutação do Recipiente Deteriorado",
+            "desc": "Prolonga a duração da corrente de vento aprisionadora gerada pelo Supremo <k>Campo de Composto Sedativo</k> por 3s.\nAlém disso, depois de lançar o Supremo <k>Campo de Composto Sedativo</k>, aumenta a Proficiência Elemental de Ifa em 100 por 15s."
+          },
+          {
+            "level": 5,
+            "name": "Voto de Coexistência Universal",
+            "desc": "Aumenta o nível do Supremo <k>Campo de Composto Sedativo</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Juramento em um Nó Emplumado",
+            "desc": "Quando Ifa mantém pressionado para fazer <k>Disparo de Suporte</k>, possui 50% de chance de disparar um Projétil Medicinal adicional, causando Dano Anemo com base em 120% do ATQ de Ifa. Esse Dano é considerado Dano de Ataque Normal.\nAlém disso, quando não está em combate, o estado Bênção do Espírito da Noite de Ifa consome 20% a menos de pontos de Espírito da Noite e de Flogisto."
           }
         ]
       }

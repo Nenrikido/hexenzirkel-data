@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12403",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Les compétences élémentaires ont <r>60 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>22</r> s.",
             "4": "Les compétences élémentaires ont <r>70 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>19</r> s.",
             "5": "Les compétences élémentaires ont <r>80 %</r> de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les <r>16</r> s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um espadão decorativo que foi petrificado com o tempo. Ainda é possível ver os seus adereços. Concede ao portador o poder de suportar os ventos do tempo.",
+        "passive": {
+          "name": "Composto",
+          "refinements": {
+            "1": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui <r>40%</r> de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada <r>30</r> segundos.",
+            "2": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui <r>50%</r> de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada <r>26</r> segundos.",
+            "3": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui <r>60%</r> de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada <r>22</r> segundos.",
+            "4": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui <r>70%</r> de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada <r>19</r> segundos.",
+            "5": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui <r>80%</r> de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada <r>16</r> segundos."
           }
         }
       }

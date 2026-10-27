@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11305",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Les attaques ont 50 % de chances d'infliger <r>320 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>13</r> s.",
             "4": "Les attaques ont 50 % de chances d'infliger <r>360 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>12</r> s.",
             "5": "Les attaques ont 50 % de chances d'infliger <r>400 %</r> de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les <r>11</r> s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma faca afiada com uma lâmina longa.",
+        "passive": {
+          "name": "Determinação",
+          "refinements": {
+            "1": "Ao acertar, possui 50% de chance de infligir <r>240%</r> de Dano de ATQ a um único alvo. Pode ocorrer uma vez a cada <r>15</r>s.",
+            "2": "Ao acertar, possui 50% de chance de infligir <r>280%</r> de Dano de ATQ a um único alvo. Pode ocorrer uma vez a cada <r>14</r>s.",
+            "3": "Ao acertar, possui 50% de chance de infligir <r>320%</r> de Dano de ATQ a um único alvo. Pode ocorrer uma vez a cada <r>13</r>s.",
+            "4": "Ao acertar, possui 50% de chance de infligir <r>360%</r> de Dano de ATQ a um único alvo. Pode ocorrer uma vez a cada <r>12</r>s.",
+            "5": "Ao acertar, possui 50% de chance de infligir <r>400%</r> de Dano de ATQ a um único alvo. Pode ocorrer uma vez a cada <r>11</r>s."
           }
         }
       }

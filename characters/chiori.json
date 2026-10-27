@@ -413,7 +413,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000094",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -538,6 +538,68 @@
             "level": 6,
             "name": "Un précepte",
             "desc": "Après avoir déclenché un effet de l'aptitude d'élévation « Sur-mesure », le TdR de <k>Caresse de plume</k> de Chiori diminue de 12 s. L'aptitude d'élévation « Sur-mesure » doit être déjà débloquée.\nDe plus, les DGT infligés par les attaques normales de Chiori augmentent d'une valeur équivalant à 235 % de sa DÉF."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lâmina Tecelã",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Carícia da Pluma Penada",
+            "desc": "Avança rapidamente para a frente com um movimento gracioso das mangas, em seguida, convoca a \"Autômata Tamoto\" e realiza um Ataque de Impulso Ascendente que causa <e:geo>Dano Geo em AdE</e> aos inimigos próximos com base no ATQ e DEF da Chiori.\nEssa habilidade é ativada de maneira diferente ao manter pressionado.\n\n<k>Manter pressionado</k>\nEntra no modo de mira para ajustar a direção do avanço.\n\n<k>Tamoto</k>\n· Realiza um ataque a oponentes próximos em intervalos, causando <e:geo>Dano Geo em AdE</e> baseado no ATQ e DEF de Chiori.\n· Quando ativa, se houverem <e:geo>Construções Geo</e>, ou <e:geo>Construções Geo</e> que foram criadas nas proximidades, uma Autômata Tamoto adicional será invocada na posição do personagem ativo. Apenas 1 Autômata Tamoto adicional pode ser invocada desta maneira. A duração desta Autômata é contada de forma independente.\n\n<i>\"O vermelho das cerejeiras tingem o brocado, a fragrância impregna as mangas, as aves estão embriagadas.\"</i>"
+          },
+          "burst": {
+            "name": "Lâminas Gêmeas: Em Voo",
+            "desc": "As espadas gêmeas saem de suas bainhas enquanto Chiori realiza cortes precisos como uma mestre alfaiate, causando <e:geo>Dano Geo em AdE</e> com base em seu ATQ e DEF.\n\n<i>\"Domine um princípio, e o caminho para todos os outros se abrirá para você.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Feito Sob Medida",
+            "desc": "Durante um curto período de tempo após executar o Ataque de Impulso Ascendente de <k>Carícia da Pluma Penada</k>, diferentes efeitos são ativados dependendo do que for feito em seguida: se pressionar a Habilidade Elemental, desencadeia \"Costura\"; se pressionar o Ataque Normal, desencadeia \"Bordado\".\n\n<k>Costura</k>\n· Muda para o próximo personagem.\n· Aplica o efeito \"Aproveite o Momento\" a todos os personagens da equipe: quando o personagem ativo atingir um inimigo próximo com um Ataque Normal, Carregado ou Imersivo, Tamoto executará um Ataque Coordenado na localização do oponente que inflige <e:geo>Dano Geo em AdE</e> equivalente a 100% do dano do Ataque de Impulso Ascendente de \"Carícia da Pluma Penada\". O Dano infligido dessa forma é considerado dano de Habilidade Elemental.\n· O efeito \"Aproveite o Momento\" dura 8s, e Tamoto só pode executar um Ataque Coordenado a cada 2s. Enquanto \"Aproveite o Momento\" estiver ativo, no máximo 2 Ataques Coordenados podem ser executados.\n\n<k>Bordado</k>· Chiori obtém<e:geo>Encantamento Geo</e> por 5s.\n\nQuando Chiori está ativa, se não pressionar a Habilidade Elemental novamente ou não executar um Ataque Normal durante o curto período de tempo após realizar o Ataque de Impulso Ascendente de \"Carícia da Pluma Penada\", o efeito de \"Bordado\" será ativado diretamente."
+          },
+          {
+            "name": "Retoque Final",
+            "desc": "Quando um aliado próximo criar uma <e:geo>Construção Geo</e>, Chiori ganha 20% de <e:geo>Bônus de Dano Geo</e> por 20s."
+          },
+          {
+            "name": "Silhueta Bela",
+            "desc": "Quando qualquer membro do grupo estiver usando um Vestuário que não seja o Vestuário padrão, ou estiver usando um Planador que não seja o \"Planador de Iniciante\", os membros do grupo receberão o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.\nEsse efeito não surte efeito em domínios, Domínios Dizimados e Abismo do Espiral. Passos Ágeis não acumula."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Seis Caminhos da Seda da Sabedoria",
+            "desc": "A AdE de Autômata Tamoto invocada por <k>Carícia da Pluma Penada</k> é aumentada em 50%.\nAlém disso, se há outro membro <e:geo>Geo</e> na equipe além de Chiori, Carícia da Pluma Penada vai desencadear o seguinte efeito após a investida:\n· Invoca outra Tamoto. Somente uma Tamoto adicional pode existir ao mesmo tempo, seja invocada por Chiori dessa forma ou através da presença de uma Construção Geo.\n· Desencadeia o Talento de Ascensão \"Retoque Final\". Esse efeito requer o desbloqueio do Talento de Ascensão \"Retoque Final\"."
+          },
+          {
+            "level": 2,
+            "name": "Em Cinco Cores Tingidas",
+            "desc": "Nos 10s após usar <k>Lâminas Gêmeas: Em Voo</k>, uma boneca Autômato Simples \"Kinu\" vai ser invocada perto do personagem ativo a cada 3s. Kinu atacará inimigos próximos, causando <e:geo>Dano Geo em AdE</e> equivalente a 170% do Dano de Tamoto. O Dano causado dessa forma é considerado Dano de Habilidade Elemental.\nKinu sairá do campo de batalha após 1 ataque ou depois de 3s."
+          },
+          {
+            "level": 3,
+            "name": "Quatro Embelezamentos de Brocado",
+            "desc": "Aumenta o nível da <k>Carícia da Pluma Penada</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Três Cortesias da Costura",
+            "desc": "Por 8s após acionar qualquer um dos efeitos subsequentes do Talento de Ascensão \"Feito Sob Medida\", quando os Ataques Normais, Carregados ou Imersivos do seu personagem ativo atual atingirem um oponente, ele convocará o Autômato Simples Kinu próximo a esse oponente. Você pode invocar 1 Kinu dessa forma a cada 1s, e até 3 Kinu podem ser invocados dessa forma em cada instância de \"Feito Sob Medida\" de \"Aproveite o Momento\" ou do efeito \"Bordado\". Esse efeito acima pode ser ativado uma vez a cada 15s.\nÉ necessário desbloquear o Talento de Ascensão \"Feito Sob Medida\" primeiro."
+          },
+          {
+            "level": 5,
+            "name": "Duas Plumas de Seda",
+            "desc": "Aumenta o Nível de <k>Lâminas Gêmeas: Em Voo</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Buscando o Princípio Universal",
+            "desc": "Depois de desencadear o efeito subsequente do Talento de Ascensão \"Feito Sob Medida\", a <k>Carícia da Pluma Penada</k> de Chiori vai ter sua recarga reduzida em 12s. É necessário ter desbloqueado o Talento de Ascensão \"Feito Sob Medida\" primeiro.\nAlém disso, o Dano causado pelo Ataque Normal de Chiori é aumentado em 235% de sua DEF."
           }
         ]
       }

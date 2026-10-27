@@ -33,7 +33,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12426",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -60,6 +60,19 @@
             "3": "Augmente l'ATQ de <r>18 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>18 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea.",
             "4": "Augmente l'ATQ de <r>21 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>21 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea.",
             "5": "Augmente l'ATQ de <r>24 %</r>. Mais ce n'est pas tout : le soutien des mélusines vous remplit de force ! Votre ATQ augmente donc d'un maximum de <r>24 %</r> supplémentaires selon la quantité de mélusines que vous avez aidées au Village Mérusea."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada mágica que só pode ser empunhada por quem comandar os mares. Como foi feita com materiais especiais à prova d'água, não ficará encharcada mesmo que seja mergulhada na água. Pode-se dizer que ela é invencível!",
+        "passive": {
+          "name": "Você consegue!",
+          "refinements": {
+            "1": "Aumenta o ATQ em <r>12%</r>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <r>12%</r> a mais.",
+            "2": "Aumenta o ATQ em <r>15%</r>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <r>15%</r> a mais.",
+            "3": "Aumenta o ATQ em <r>18%</r>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <r>18%</r> a mais.",
+            "4": "Aumenta o ATQ em <r>21%</r>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <r>21%</r> a mais.",
+            "5": "Aumenta o ATQ em <r>24%</r>. Mas não só isso! As Melusines da Vila Marusea lhe oferecem todo seu apoio, de forma que segundo a quantidade de Melusines que você já ajudou, o ATQ pode aumentar em até <r>24%</r> a mais."
           }
         }
       }

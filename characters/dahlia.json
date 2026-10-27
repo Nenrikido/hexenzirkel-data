@@ -216,7 +216,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000115",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -341,6 +341,68 @@
             "level": 6,
             "name": "Que la joie suive",
             "desc": "La VIT d'attaque du personnage déployé augmente de 10 % lorsqu'il est affecté par l'effet Faveur favonienne du déchaînement élémentaire <k>Psautier radieux</k>.\nDe plus, lorsqu'un personnage déployé affecté par une faveur favonienne est vaincu :\n· Dahlia le réanime immédiatement.\n· Les PV de ce personnage sont restaurés à 100 %.\nCet effet peut être déclenché une fois toutes les 15 min."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Técnica da Espada de Favonius - Ritual",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com sua lâmina.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Ordenança Imersiva",
+            "desc": "É hora de fazer uns truques divertidos! Lança Mistério da Chuva Neblinada de formas diferentes se pressionar ou manter pressionado.\n\n<k>Pressionar</k>\nDepois de orar por um curto tempo, invoca o Mistério da Chuva Neblinada.\n\n<k>Manter pressionado</k>\nOra por um tempo, e quando acabar, invoca o Mistério da Chuva Neblinada num certo local.\n\n<k>Mistério da Chuva Neblinada</k>\nQuando os inimigos ou personagens próximos da equipe tocam o Mistério da Chuva Neblinada, gera efeitos diferentes de acordo com o modo que foi desencadeado:\nSe for o inimigo que tocou o Mistério da Chuva Neblinada, o Mistério da Chuva Neblinada explodirá, causando <e:hydro>Dano Hydro em AdE</e> contra os inimigos próximos.\nSe for o personagem próximo da equipe que tocou o Mistério da Chuva Neblinada, o Mistério da Chuva Neblinada ricocheteará quem o tocou para alto no ar.\n\nSó é possível existir um Mistério da Chuva Neblinada criado por Dahlia simultaneamente."
+          },
+          "burst": {
+            "name": "Pregação Radiante",
+            "desc": "Apela para o divino com canções e justiça, causando <e:hydro>Dano Hydro em AdE</e> contra os inimigos próximos, e concedendo aos personagens da própria equipe o efeito Graça de Favonius, invocando o Escudo da Graça.\nA absorção de Dano do Escudo da Graça é baseada na Vida Máxima de Dahlia, e possui 250% de eficácia contra <e:hydro>Dano Hydro</e>.\n\n<k>Graça de Favonius</k>\nEm sua duração, quando o Escudo da Graça for destruído por Dano, Dahlia consumirá 1 acúmulo do efeito Bons Desejos para reinvocar o Escudo da Graça.\n\nDahlia pode obter o efeito Bons Desejos das seguintes formas:\n· Quando o personagem ativo atual estiver sob o efeito Graça de Favonius, e seu Ataque Normal atingir inimigos 4 vezes, Dahlia obtém 1 acúmulo do efeito Bons Desejos.\n· Depois que desencadear o efeito do Talento de Ascensão \"Amor Concedido Pelo Vento\" (é necessário ter desbloqueado o Talento de Ascensão \"Amor Concedido Pelo Vento\").\nDahlia pode obter até 4 acúmulos de Bons Desejos em cada duração do efeito Graça de Favonius."
+          }
+        },
+        "passives": [
+          {
+            "name": "Amor Concedido Pelo Vento",
+            "desc": "Quando o personagem sob o efeito \"Graça de Favonius\" do Supremo <k>Pregação Radiante</k> desencadeia Congelado nos inimigos, concede 2 acúmulos do efeito Bons Desejos para Dahlia. Esse efeito pode ser desencadeado uma vez a cada 8s."
+          },
+          {
+            "name": "Oração da Alegria Sincera",
+            "desc": "Quando o seu personagem ativo da equipe estiver sob o efeito Graça de Favonius do Supremo <k>Pregação Radiante</k>, aumenta a velocidade de ataque. O valor do aumento é baseado na Vida Máxima de Dahlia: aumenta a velocidade em 0.5% para cada 1.000 de Vida Máxima. É possível aumentar a velocidade de ataque em até 20% dessa forma."
+          },
+          {
+            "name": "Peregrinação Acompanhada pelo Vento Retorno",
+            "desc": "Durante o dia (06:00 - 18:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.\nNão tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Procissão Infalível",
+            "desc": "Cada vez que Dahlia obtiver 1 acúmulo de Bons Desejos do seu Supremo <k>Pregação Radiante</k>, ele recuperará 2.5 de Energia Elemental."
+          },
+          {
+            "level": 2,
+            "name": "Revelação da Misericórdia",
+            "desc": "Após Dahlia consumir o(s) acúmulo(s) de Bons Desejos do seu Supremo <k>Pregação Radiante</k> para invocar o Escudo da Graça, o personagem protegido por esse Escudo terá a Força do Escudo aumentada em 25% por 12s."
+          },
+          {
+            "level": 3,
+            "name": "Oferenda da Brisa Florescente",
+            "desc": "Aumenta o nível do Supremo <k>Pregação Radiante</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Coleta da Assembleia",
+            "desc": "A Graça de Favonius do Supremo de Dahlia, <k>Pregação Radiante</k>, dura 3 segundos a mais."
+          },
+          {
+            "level": 5,
+            "name": "Que Assim Seja, Sutilmente",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Ordenança Imersiva</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Saíreis com Alegria",
+            "desc": "O personagem ativo atual afetado pela Graça de Favonius do Supremo <k>Pregação Radiante</k> tem sua Vel. de ATQ aumentada em 10%.\nAlém disso, quando um personagem ativo afetado pela Graça de Favonius for derrotado, será imediatamente:\n· Revivido.\n· Terá sua Vida restaurada em 100%.\nEsse efeito pode ser ativado uma vez a cada 15 minutos."
           }
         ]
       }

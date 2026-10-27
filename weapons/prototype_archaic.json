@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12406",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Les attaques normales et chargées ont 50 % de chances d'infliger <r>360 %</r> de DGT d'ATQ supplémentaires dans une zone restreinte lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 15 s.",
             "4": "Les attaques normales et chargées ont 50 % de chances d'infliger <r>420 %</r> de DGT d'ATQ supplémentaires dans une zone restreinte lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 15 s.",
             "5": "Les attaques normales et chargées ont 50 % de chances d'infliger <r>480 %</r> de DGT d'ATQ supplémentaires dans une zone restreinte lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um espadão antigo descoberto no Penhasco Obscuro. Ao brandi-lo, dá a sensação de como se fosse possível cortar o espaço.",
+        "passive": {
+          "name": "Esmagar",
+          "refinements": {
+            "1": "Ao acertar um Ataque Normal ou um Ataque Carregado, possui 50% de chance de causar <r>240%</r> de Dano de ATQ adicional em uma área pequena. Este efeito pode ser ativado uma vez a cada 15s.",
+            "2": "Ao acertar um Ataque Normal ou um Ataque Carregado, possui 50% de chance de causar <r>300%</r> de Dano de ATQ adicional em uma área pequena. Este efeito pode ser ativado uma vez a cada 15s.",
+            "3": "Ao acertar um Ataque Normal ou um Ataque Carregado, possui 50% de chance de causar <r>360%</r> de Dano de ATQ adicional em uma área pequena. Este efeito pode ser ativado uma vez a cada 15s.",
+            "4": "Ao acertar um Ataque Normal ou um Ataque Carregado, possui 50% de chance de causar <r>420%</r> de Dano de ATQ adicional em uma área pequena. Este efeito pode ser ativado uma vez a cada 15s.",
+            "5": "Ao acertar um Ataque Normal ou um Ataque Carregado, possui 50% de chance de causar <r>480%</r> de Dano de ATQ adicional em uma área pequena. Este efeito pode ser ativado uma vez a cada 15s."
           }
         }
       }

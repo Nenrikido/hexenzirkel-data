@@ -72,7 +72,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14434",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -99,6 +99,19 @@
             "3": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>108</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>72</r> pts pendant 10 s.",
             "4": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>126</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>84</r> pts pendant 10 s.",
             "5": "Toucher un ennemi avec une attaque chargée augmente la maîtrise élémentaire de <r>144</r> pts pendant 10 s. Toucher un ennemi avec une compétence élémentaire augmente la maîtrise élémentaire de <r>96</r> pts pendant 10 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um recipiente de ritual forjado em prata, puro e completamente imaculado. Dizem que foi uma Relíquia Sagrada passada por gerações entre sacerdotisas do norte distante.",
+        "passive": {
+          "name": "Sonhos Noturnos",
+          "refinements": {
+            "1": "Nos 10s após um Ataque Carregado atingir um inimigo, aumenta a Proficiência Elemental em <r>72</r>. Nos 10s após a Habilidade Elemental atingir um inimigo, aumenta a Proficiência Elemental em <r>48</r>.",
+            "2": "Nos 10s após um Ataque Carregado atingir um inimigo, aumenta a Proficiência Elemental em <r>90</r>. Nos 10s após a Habilidade Elemental atingir um inimigo, aumenta a Proficiência Elemental em <r>60</r>.",
+            "3": "Nos 10s após um Ataque Carregado atingir um inimigo, aumenta a Proficiência Elemental em <r>108</r>. Nos 10s após a Habilidade Elemental atingir um inimigo, aumenta a Proficiência Elemental em <r>72</r>.",
+            "4": "Nos 10s após um Ataque Carregado atingir um inimigo, aumenta a Proficiência Elemental em <r>126</r>. Nos 10s após a Habilidade Elemental atingir um inimigo, aumenta a Proficiência Elemental em <r>84</r>.",
+            "5": "Nos 10s após um Ataque Carregado atingir um inimigo, aumenta a Proficiência Elemental em <r>144</r>. Nos 10s após a Habilidade Elemental atingir um inimigo, aumenta a Proficiência Elemental em <r>96</r>."
           }
         }
       }

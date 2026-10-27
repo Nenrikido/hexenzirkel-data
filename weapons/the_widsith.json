@@ -169,7 +169,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14402",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -196,6 +196,19 @@
             "3": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>90 %</r> ; Aria : augmente les DGT élémentaires de <r>72 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>360</r> pts.",
             "4": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>105 %</r> ; Aria : augmente les DGT élémentaires de <r>84 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>420</r> pts.",
             "5": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat. Cet effet peut être déclenché une fois toutes les 30 s. Récital : augmente l'ATQ de <r>120 %</r> ; Aria : augmente les DGT élémentaires de <r>96 %</r> ; Interlude : augmente la maîtrise élémentaire de <r>480</r> pts."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um caderno pesado cheio de partituras. Apesar de já estar bastante danificado, ainda há muito poder que pode ser encontrado nas palavras escritas.",
+        "passive": {
+          "name": "Abertura",
+          "refinements": {
+            "1": "Ao entrar no campo de batalha, o personagem ganha uma música temática aleatória por 10s. Pode ser ativada uma vez a cada 30s. Recitativa: O ATQ é aumentado em <r>60%</r>; Aria: Aumenta todos os Danos Elementais em <r>48%</r>; Interlúdio: A Proficiência Elemental é aumentada em <r>240</r>.",
+            "2": "Ao entrar no campo de batalha, o personagem ganha uma música temática aleatória por 10s. Pode ser ativada uma vez a cada 30s. Recitativa: O ATQ é aumentado em <r>75%</r>; Ária: Aumenta todos os Danos Elementais em <r>60%</r>; Interlúdio: A Proficiência Elemental é aumentada em <r>300</r>.",
+            "3": "Ao entrar no campo de batalha, o personagem ganha uma música temática aleatória por 10s. Pode ser ativada uma vez a cada 30s. Recitativa: O ATQ é aumentado em <r>90%</r>; Aria: Aumenta todos os Danos Elementais em <r>72%</r>; Interlúdio: A Proficiência Elemental é aumentada em <r>360</r>.",
+            "4": "Ao entrar no campo de batalha, o personagem ganha uma música temática aleatória por 10s. Pode ser ativada uma vez a cada 30s. Recitativa: O ATQ é aumentado em <r>105%</r>; Aria: Aumenta todos os Danos Elementais em <r>84%</r>; Interlúdio: A Proficiência Elemental é aumentada em <r>420</r>.",
+            "5": "Ao entrar no campo de batalha, o personagem ganha uma música temática aleatória por 10s. Pode ser ativada uma vez a cada 30s. Recitativa: O ATQ é aumentado em <r>120%</r>; Aria: Aumenta todos os Danos Elementais em <r>96%</r>; Interlúdio: A Proficiência Elemental é aumentada em <r>480</r>."
           }
         }
       }

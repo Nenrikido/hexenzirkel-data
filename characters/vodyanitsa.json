@@ -573,5 +573,213 @@
         "states": []
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000140",
+      "retrievedAt": "2026-10-27",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Psyshkhwe Arietta",
+            "desc": "<k>Normal Attack</k>\nSings an ancient song of the Water Imps, unleashing up to 4 strikes. This deals <e:hydro>Hydro DMG</e> to the opponent.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to hurl a water ball forward, dealing <e:hydro>Hydro DMG</e>.\n\n<k>Plunging Attack</k>\nPlunges towards the ground from mid-air, damaging all opponents along the path. Deals <e:hydro>AoE Hydro DMG</e> upon impact with the ground."
+          },
+          "skill": {
+            "name": "Rechitativ: Sonorous Dawn",
+            "desc": "Reveals her true Water Imp form, dealing <e:hydro>AoE Hydro DMG</e> and gaining the <k>Song of Ages Past</k> effect: While this effect is active, Vodyanitsa summons the ancient <k>Horn of Spring's Call</k>, periodically moving closer to an opponent in a swift movement to attack them, dealing <e:hydro>Hydro DMG</e>.\nThe above two types of attacks will also decrease the <e:hydro>Hydro RES</e> and <e:cryo>Cryo RES</e> of opponents hit. Additionally, while the <k>Song of Ages Past</k> effect is active, the party's active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP."
+          },
+          "burst": {
+            "name": "Koda: Sink With Thee",
+            "desc": "Leads a song of the Water Imps which lures its listeners to their doom. This deals <e:hydro>AoE Hydro DMG</e> to the opponent.\nWhen in the <k>Song of Ages Past</k> state, DMG dealt is further increased."
+          }
+        },
+        "passives": [
+          {
+            "name": "The Last Djeguako Songstress",
+            "desc": "When the Elemental Skill <k>Rechitativ: Sonorous Dawn</k> is used, any Stellar Vortex on the field will turn into a Wandering Vortex instead. While the <k>Song of Ages Past</k> effect is active, nearby party members' Stellar Swirl reactions will generate Wandering Vortex instead.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' <e:anemo>Anemo RES</e> by 35% for 6s.\nAdditionally, nearby party members who enter the <k>Radiance: Stellar Swirl</k> state while <k>Song of Ages Past</k> is in effect will have the <k>Radiance: Stellar Swirl</k> state extended by 4s."
+          },
+          {
+            "name": "Dirge of the Fandyr",
+            "desc": "When the Elemental Skill <k>Rechitativ: Sonorous Dawn</k> is used, Vodyanitsa will also gain 25 stacks of <k>Lead Vocal</k> as well as 10 stacks of <k>Chorus</k>.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used."
+          },
+          {
+            "name": "Echoes Over the Frozen Lake",
+            "desc": "Holding the Elemental Skill outside of combat will cause Vodyanitsa to embody her true Water Imp form and swim for up to 10s at the cost of Stamina. Naturally, as a Water Imp, she can also move across the water's surface. Vodyanitsa will exit her Water Imp form when the Elemental Skill is used again, when the duration ends, or when all Stamina is depleted.\nAdditionally, while Vodyanitsa can swim faster, her Stamina consumption rate is also increased."
+          },
+          {
+            "name": "Heartless Siren Song",
+            "desc": "As the Prima Donna of the Korolevskiy Troupe, Vodyanitsa sings in person in place of playing an instrument."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Waters in Full Splendor",
+            "desc": "Each time Vodyanitsa triggers the healing effect of <k>Song of Ages Past</k>, it also increases the ATK of all nearby party members by 0.8% of her Max HP for 5s."
+          },
+          {
+            "level": 2,
+            "name": "Echoes That Pierce the Snow",
+            "desc": "When the <k>Horn of Spring's Call</k> from the Elemental Skill <k>Rechitativ: Sonorous Dawn</k> attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from <e:hydro>Hydro DMG</e> and <e:cryo>Cryo DMG</e> dealt by the currently active party member by 50% for 5s.\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\nAdditionally, the Elemental Skill <k>Rechitativ: Sonorous Dawn</k> is enhanced as follows: the duration of the <k>Song of Ages Past</k> effect is extended by 9s."
+          },
+          {
+            "level": 3,
+            "name": "Song Lingering on a Spring Morning",
+            "desc": "Increases the Level of the Elemental Skill <k>Rechitativ: Sonorous Dawn</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Melancholic Voice Upon the Gentle Waters",
+            "desc": "When Vodyanitsa triggers the healing effect of <k>Song of Ages Past</k>, an additional effect will be triggered based on the healed character's HP.\n· If the character's HP is below 40%: The healing is increased by 50%; and\n· If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently."
+          },
+          {
+            "level": 5,
+            "name": "Together, Down Into the Deep",
+            "desc": "Increases the Level of the Elemental Burst <k>Koda: Sink With Thee</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Neverending Song of Revelry",
+            "desc": "The Constellation <k>Echoes That Pierce the Snow</k> is enhanced: \"Two Voices in Black and White\" now applies to all nearby party members.\nAdditionally, while the <k>Song of Ages Past</k> effect is active, Stellar Swirl reaction DMG dealt by nearby party members is <k>elevated</k> by 25% while <e:hydro>Hydro DMG</e> and <e:cryo>Cryo DMG</e> dealt are increased by 60%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Arietta de psyshkhwe",
+            "desc": "<k>Attaque normale</k>\nChante un chant ancestral des diableautins et enchaîne jusqu'à 4 attaques qui infligent des <e:hydro>DGT Hydro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour lancer une boule d'eau en avant, infligeant des <e:hydro>DGT Hydro</e>.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs, infligeant des DGT aux ennemis en chemin et des <e:hydro>DGT Hydro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Rechitativ : Aube sonore",
+            "desc": "Vodyanitsa révèle sa véritable forme de diableautine, infligeant des <e:hydro>DGT Hydro de zone</e> et obtenant l'effet <k>Chant d'antan</k> : pendant sa durée, Vodyanitsa invoque un ancien <k>cor du printemps</k> qui se rapproche rapidement d'un ennemi proche de façon intermittente afin de l'attaquer et de lui infliger des <e:hydro>DGT Hydro</e>.\nLa <e:hydro>RÉS Hydro</e> et la <e:cryo>RÉS Cryo</e> des ennemis touchés par ces types d'attaque diminue. De plus, pendant la durée du <k>chant d'antan</k>, la RÉS à l'interruption de vos personnages déployés augmente et ils récupèrent périodiquement des PV selon les PV max de Vodyanitsa."
+          },
+          "burst": {
+            "name": "Koda : Coule avec toi",
+            "desc": "Entonne un chant des diableautins qui attire ses auditeurs vers leur perte, infligeant des <e:hydro>DGT Hydro de zone</e>.\nDe plus, les DGT infligés pendant le <k>chant d'antan</k> augmentent davantage."
+          }
+        },
+        "passives": [
+          {
+            "name": "La dernière compositrice de djeguako",
+            "desc": "Utiliser la compétence élémentaire <k>Rechitativ : Aube sonore</k> convertit les vortex stellaires sur le terrain en vortex errants et permet aux personnages de l'équipe à proximité de créer des vortex errants à la place des vortex stellaires lorsqu'ils déclenchent des réactions d'Astrodispersion pendant la durée d'un <k>chant d'antan</k>.\nLorsqu'un vortex errant est créé ou explose, les <e:anemo>DGT Anémo</e> des ennemis proches diminuent également de 35 % pendant 6 s.\nDe plus, lorsqu'un personnage de l'équipe à proximité passe en <k>radiance « Astrodispersion »</k> pendant la durée d'un <k>chant d'antan</k>, la durée de la <k>radiance « Astrodispersion »</k> augmente de 4 s."
+          },
+          {
+            "name": "Chant funèbre du fandyr",
+            "desc": "Utiliser la compétence élémentaire <k>Rechitativ : Aube sonore</k> accorde 25 cumuls de <k>chant principal</k> et 10 cumuls de <k>chœur</k> à Vodyanitsa.\nCes effets durent 30 s et les cumuls sont actualisés en utilisant à nouveau la compétence élémentaire."
+          },
+          {
+            "name": "Échos sur le lac gelé",
+            "desc": "Hors combat, utiliser sa compétence élémentaire avec un appui long permet à Vodyanitsa de révéler sa véritable forme de diableautine et de nager pendant 10 s en consommant de l'endurance. Étant une diableautine, Vodyanitsa peut également se déplacer sur la surface de l'eau. Vodyanitsa reprend son apparence normale en utilisant à nouveau sa compétence élémentaire, à la fin de la durée ou une fois son endurance épuisée.\nDe plus, Vodyanitsa nage plus vite, mais consomme son endurance plus rapidement."
+          },
+          {
+            "name": "Chant de sirène sans cœur",
+            "desc": "Vodyanitsa, première soprano de la Troupe Korolevskiy, chantera de sa propre voix au lieu de jouer d'un instrument de musique."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Eaux dans toute leur splendeur",
+            "desc": "Chaque fois que Vodyanitsa déclenche l'effet de soin d'un <k>chant d'antan</k>, l'ATQ de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à 0,8 % de ses PV max pendant 5 s."
+          },
+          {
+            "level": 2,
+            "name": "Échos qui percent la neige",
+            "desc": "Lorsque le <k>cor du printemps</k> de la compétence élémentaire <k>Rechitativ : Aube sonore</k> attaque un ennemi, Vodyanitsa obtient l'effet Deux voix en noir et blanc : augmente les DGT CRIT des <e:hydro>DGT Hydro</e> et des <e:cryo>DGT Cryo</e> du personnage déployé de 50 % pendant 5 s.\nSi un vortex errant est présent sur le terrain et pendant les 5 s suivant l'explosion d'un vortex errant, cet effet est converti pour augmenter les DGT CRIT des DGT de réaction d'Astrodispersion du personnage déployé de 60 % pendant 5 s.\nDe plus, la compétence élémentaire <k>Rechitativ : Aube sonore</k> est renforcée : la durée du <k>chant d'antan</k> augmente de 9 s."
+          },
+          {
+            "level": 3,
+            "name": "Chant persistant un matin de printemps",
+            "desc": "Niveau d'aptitude <k>Rechitativ : Aube sonore</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Voix mélancolique sur les eaux calmes",
+            "desc": "Lorsque Vodyanitsa déclenche l'effet de soin d'un <k>chant d'antan</k>, différents effets sont appliqués selon les PV du personnage soigné :\n· S'il a moins de 40 % de PV, le soin augmente de 50 %.\n· S'il a 40 % de PV ou plus, les PV max de Vodyanitsa augmentent de 20 % pendant 6 s. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante."
+          },
+          {
+            "level": 5,
+            "name": "Ensemble, au fond des profondeurs",
+            "desc": "Niveau d'aptitude <k>Koda : Coule avec toi</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Chant de réjouissances sans fin",
+            "desc": "La constellation <k>Échos qui percent la neige</k> est renforcée : l'effet Deux voix en noir et blanc est converti pour s'appliquer à tous les personnages de l'équipe à proximité.\nDe plus, pendant un <k>chant d'antan</k>, les DGT de réaction d'Astrodispersion des personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 25 % et leurs <e:hydro>DGT Hydro</e> et <e:cryo>DGT Cryo</e> augmentent de 60 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Ária das Águas",
+            "desc": "<k>Ataque Normal</k>\nCanta uma canção antiga das sereias, realizando até 4 ataques, infligindo <e:hydro>Dano Hydro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para disparar uma bola d'água <e:hydro>Dano Hydro</e>.\n\n<k>Ataque Imersivo</k>\nMergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:hydro>Dano Hydro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Recitativo: Alvorada Sonora",
+            "desc": "Revela sua verdadeira forma de Sereia, causando <e:hydro>Dano Hydro em uma AdE</e> e obtendo o efeito <k>Canção de Outrora</k>: enquanto esse efeito estiver ativo, Vodyanitsa invocará o antigo <k>Berrante da Primavera</k>, que periodicamente avançará com rapidez em direção a um inimigo para atacá-lo, causando <e:hydro>Dano Hydro</e>.\nOs dois tipos de ataque mencionados acima também reduzem a <e:hydro>RES Hydro</e> e a <e:cryo>RES Cryo</e> dos inimigos atingidos. Além disso, enquanto o efeito <k>Canção de Outrora</k> estiver ativo, o personagem ativo da equipe terá sua Resistência contra Interrupção aumentada e recuperará Vida periodicamente com base na Vida Máxima de Vodyanitsa."
+          },
+          "burst": {
+            "name": "Finalização: Afundando Contigo",
+            "desc": "Entoa a canção das sereias, que atrai quem a escuta para as profundezas, causando <e:hydro>Dano Hydro em AdE</e>.\nQuando estiver no estado <k>Canção de Outrora</k>, aumenta ainda mais o Dano causado."
+          }
+        },
+        "passives": [
+          {
+            "name": "Último Poeta",
+            "desc": "Ao lançar a Habilidade Elemental <k>Recitativo: Alvorada Sonora</k>, faz o Vórtice do Vento Estelar ativo mudar para Vórtice Flutuante, e para personagens próximos da equipe que estejam sob a duração do efeito <k>Canção de Outrora</k>, ao desencadearem Redemoinho Estelar, passarão a criar um Vórtice Flutuante que substitui o Vórtice do Vento Estelar.\nAo criar ou explodir um Vórtice Flutuante, reduz a <e:anemo>RES Anemo</e> dos inimigos próximos em 35% por 6s.\nAlém disso, na duração de <k>Canção de Outrora</k>, quando um personagem próximo entrar em <k>Brilho Reluzente: Redemoinho Estelar</k>, a duração de <k>Brilho Reluzente: Redemoinho Estelar</k> é prolongada em 4s."
+          },
+          {
+            "name": "Lágrimas das Doze Cordas",
+            "desc": "Ao lançar a Habilidade Elemental <k>Recitativo: Alvorada Sonora</k>, Vodyanitsa obtém 25 acúmulos de <k>Primeira Cantora</k> e 10 acúmulos de <k>Concerto</k>.\nEsses efeitos duram 30s cada, e são redefinidos ao lançar a Habilidade Elemental novamente."
+          },
+          {
+            "name": "Ecos do Lago Congelado",
+            "desc": "Quando não está em combate, ao manter pressionada a Habilidade Elemental, Vodyanitsa revela sua forma de Sereia e consumindo Stamina, nada até 10s. É óbvio que ela pode nadar na água, já que é uma Sereia. Ao lançar a Habilidade Elemental novamente, quando a Duração acabar ou a Stamina acabar, Vodyanitsa não manterá mais sua forma de Sereia.\nAlém disso, aumenta a velocidade de nado de Vodyanitsa, mas também aumenta a velocidade de consumo de Stamina."
+          },
+          {
+            "name": "Música Desalmada da Sereia",
+            "desc": "Como a prima donna da Companhia Korolevskiy, quando Vodyanitsa toca um instrumento, mudará para ela mesma cantar."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Águas Esplendorosas",
+            "desc": "Sempre que Vodyanitsa aciona o efeito de cura de <k>Canção de Outrora</k>, o ATQ de todos os membros da equipe próximos também é aumentado em 0,8% da Vida Máx. dela por 5s."
+          },
+          {
+            "level": 2,
+            "name": "Ecos Perfuradores da Neve",
+            "desc": "Quando atacar o inimigo com <k>Berrante da Primavera</k> da Habilidade Elemental <k>Recitativo: Alvorada Sonora</k>, Vodyanitsa obtém o efeito \"Notas da Escuridão e Claridade\", aumentando o Dano CRIT <e:hydro>Hydro</e> e <e:cryo>Cryo</e> em 50% para o personagem ativo por 5s.\nSe houver um Vórtice Flutuante ativo, ou se dentro dos 5s após o Vórtice Flutuante explodir, ao invés disso, aumentará o Dano CRIT de Redemoinho Estelar do personagem ativo em 60% por 5s.\nAlém disso, a Habilidade Elemental <k>Recitativo: Alvorada Sonora</k> é fortalecida: a duração do efeito <k>Canção de Outrora</k> é estendida em 9s."
+          },
+          {
+            "level": 3,
+            "name": "Canção de uma Manhã Primaveril",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Recitativo: Alvorada Sonora</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Voz Melancólica Sobre Águas Serenas",
+            "desc": "Quando Vodyanitsa aciona o efeito de cura de <k>Canção de Outrora</k>, ela também aciona vários outros efeitos dependendo do nível de Vida do personagem sendo curado.\n· Se a Vida do personagem for inferior a 40%: a cura é aumentada em 50%;\n· Se a Vida do personagem for 40% ou superior: a Vida Máx. de Vodyanitsa é aumentada em 20% por 6s. Máximo de 3 acúmulos, com a duração de cada acúmulo sendo contada separadamente."
+          },
+          {
+            "level": 5,
+            "name": "Juntos Mergulhamos nas Profundezas",
+            "desc": "Aumenta o nível do Supremo <k>Finalização: Afundando Contigo</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Canção Eterna do Júbilo",
+            "desc": "O efeito da Constelação <k>Ecos Perfuradores da Neve</k> é fortalecido: Notas da Escuridão e Claridade agora afeta todos os membros próximos da equipe.\nAlém disso, na duração do efeito <k>Canção de Outrora</k>, <k>Eleva</k> o Dano de Redemoinho Estelar causado pelos personagens próximos em 25%, aumenta o <e:hydro>Dano Hydro</e> e <e:cryo>Dano Cryo</e> causado em 60%."
+          }
+        ]
+      }
+    }
   }
 }

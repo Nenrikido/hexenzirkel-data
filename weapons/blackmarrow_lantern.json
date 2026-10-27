@@ -20,7 +20,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14433",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -47,6 +47,19 @@
             "3": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>72 %</r> et ceux des réactions de Sélénofleurissement de <r>18 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>18 %</r> supplémentaires.",
             "4": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>84 %</r> et ceux des réactions de Sélénofleurissement de <r>21 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>21 %</r> supplémentaires.",
             "5": "Les DGT infligés par les réactions de Fleurissement augmentent de <r>96 %</r> et ceux des réactions de Sélénofleurissement de <r>24 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de <r>24 %</r> supplémentaires."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lanterna que emite um brilho sutil fantasmagórico, contida por uma liga metálica que lembra ossos interligados. Dizem ter sido venerada como um tesouro precioso por uma certa organização secreta.",
+        "passive": {
+          "name": "Prova do Contrato",
+          "refinements": {
+            "1": "Dano de Florescimento é aumentado em <r>48%</r>. Dano de Florescimento Lunar é aumentado em <r>12%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Florescimento Lunar em mais <r>12%</r>.",
+            "2": "Dano de Florescimento é aumentado em <r>60%</r>. Dano de Florescimento Lunar é aumentado em <r>15%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Florescimento Lunar em mais <r>15%</r>.",
+            "3": "Dano de Florescimento é aumentado em <r>72%</r>. Dano de Florescimento Lunar é aumentado em <r>18%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Florescimento Lunar em mais <r>18%</r>.",
+            "4": "Dano de Florescimento é aumentado em <r>84%</r>. Dano de Florescimento Lunar é aumentado em <r>21%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Florescimento Lunar em mais <r>21%</r>.",
+            "5": "Dano de Florescimento é aumentado em <r>96%</r>. Dano de Florescimento Lunar é aumentado em <r>24%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Florescimento Lunar em mais <r>24%</r>."
           }
         }
       }

@@ -175,7 +175,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000027",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -300,6 +300,68 @@
             "level": 6,
             "name": "Grandeur soit les Sept Étoiles",
             "desc": "L'activation d'<k>Éclatement des étoiles</k> confère 7 Jades d'étoile à Ningguang."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Dispersão Espumante",
+            "desc": "<k>Ataque Normal</k>\nDispara gemas que causam <e:geo>Dano Geo</e>.\nAo acertar, concede a Ningguang 1 Jade de Estrela.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para disparar uma gema gigante que causa <e:geo>Dano Geo</e>.\nSe Ningguang possui Jades Estelares, ao liberar um Ataque Carregado fará com que os Jades Estelares sejam disparados contra um inimigo também, causando Dano adicional.\n\n<k>Ataque Imersivo</k>\nReunindo o poder de Geo, Ningguang mergulha em direção ao solo no ar, causando Dano a todos os inimigos em seu caminho. Causa <e:geo>Dano Geo AdE</e> com o impacto no solo."
+          },
+          "skill": {
+            "name": "Tela de Jade",
+            "desc": "Ningguang cria uma Tela de Jade a partir do ouro, obsidiana e sua grande opulência, infligindo <e:geo>Dano Geo em uma AdE</e>.\n\n<k>Tela de Jade</k>\nBloqueia projéteis inimigos.\nResistência aumenta com base na Vida Máxima de Ningguang.\n\nTela de Jade é considerada uma <e:geo>Construção Geo</e> e pode ser usada para bloquear alguns ataques, mas não pode ser escalada. Apenas uma Tela de Jade pode existir ao mesmo tempo.\n\n<i>A tela das estrelas está escrita sobre essa Tela de Jade.</i>"
+          },
+          "burst": {
+            "name": "Quebrador de Estrelas",
+            "desc": "Recolhendo um grande número de gemas, Ningguang espalha todas de uma vez, enviando projéteis perseguidores em seus inimigos que causam <e:geo>Dano Geo</e> massivo.\nSe o Quebrador de Estrelas é lançado enquanto a Tela de Jade está próxima, a Tela de Jade irá disparar projéteis de gemas perseguidoras adicionais ao mesmo tempo.\n\n<i>Estrelas quebram. O silêncio recai.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Plano B",
+            "desc": "Quando Ningguang estiver em posse das Jades Estelares, seu Ataque Carregado não consome Stamina."
+          },
+          {
+            "name": "Reserva Estratégica",
+            "desc": "Um personagem que passa pela <k>Tela de Jade</k> ganhará 12% de <e:geo> Bônus de Dano GEO</e> por 10s."
+          },
+          {
+            "name": "Registro dos Tesouros Maravilhosos",
+            "desc": "Mostra a localização de <k>veias de minério utilizadas na forja</k> no mapa."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Fragmentos Perfurantes",
+            "desc": "Ao acertar um Ataque Normal, causará Dano de AdE."
+          },
+          {
+            "level": 2,
+            "name": "Efeito de Choque",
+            "desc": "Quando a <k>Tela de Jade</k> for quebrada, o tempo de recarga é redefinido.\nEste efeito pode ser ativado uma vez a cada 6s."
+          },
+          {
+            "level": 3,
+            "name": "Majestosa seja a Formação das Estrelas",
+            "desc": "Aumenta o nível do <k>Quebrador de Estrelas</k> em 3. O nível máximo da elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Requintado seja o Jade, brilhando por todo lado",
+            "desc": "A <k>Tela de Jade</k> aumenta a RES Elemental dos personagens próximos em 10%."
+          },
+          {
+            "level": 5,
+            "name": "Invencível seja a Tela de Jade",
+            "desc": "Aumenta o nível da <k>Tela de Jade</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Grandiosas sejam as Sete Estrelas",
+            "desc": "Quando o <k>Quebrador de Estrelas</k> for usado, Ningguang ganha 7 Jades Estelares."
           }
         ]
       }

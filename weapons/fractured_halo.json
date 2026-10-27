@@ -52,7 +52,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13515",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -79,6 +79,19 @@
             "3": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>36 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>60 %</r>.",
             "4": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>42 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>70 %</r>.",
             "5": "Après avoir utilisé une compétence élémentaire ou un déchaînement élémentaire, l'ATQ augmente de <r>48 %</r> pendant 20 s. Si le personnage équipé de l'arme crée un bouclier pendant cette durée, il obtient l'effet Édit électrifiant pendant 20 s : augmente les DGT des réactions de Sélénocution de tous les personnages de l'équipe à proximité de <r>80 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lâmina mecânica giratória produzida pela Oficina de Rolinho de Ovo Trilimlim que parece esconder os segredos de uma era passada...",
+        "passive": {
+          "name": "Coroa de Jade Gelado",
+          "refinements": {
+            "1": "Nos 20s depois de lançar a Habilidade Elemental ou o Supremo, aumenta o ATQ em <r>24%</r>. Nesse período, se o personagem que está com essa arma equipada criar um escudo, obterá o efeito Corrente das Ordens Sagradas nos 20s seguintes: aumenta o Dano de Carga Lunar de todos os membros próximos da equipe em <r>40%</r>.",
+            "2": "Nos 20s depois de lançar a Habilidade Elemental ou o Supremo, aumenta o ATQ em <r>30%</r>. Nesse período, se o personagem que está com essa arma equipada criar um escudo, obterá o efeito Corrente das Ordens Sagradas nos 20s seguintes: aumenta o Dano de Carga Lunar de todos os membros próximos da equipe em <r>50%</r>.",
+            "3": "Nos 20s depois de lançar a Habilidade Elemental ou o Supremo, aumenta o ATQ em <r>36%</r>. Nesse período, se o personagem que está com essa arma equipada criar um escudo, obterá o efeito Corrente das Ordens Sagradas nos 20s seguintes: aumenta o Dano de Carga Lunar de todos os membros próximos da equipe em <r>60%</r>.",
+            "4": "Nos 20s depois de lançar a Habilidade Elemental ou o Supremo, aumenta o ATQ em <r>42%</r>. Nesse período, se o personagem que está com essa arma equipada criar um escudo, obterá o efeito Corrente das Ordens Sagradas nos 20s seguintes: aumenta o Dano de Carga Lunar de todos os membros próximos da equipe em <r>70%</r>.",
+            "5": "Nos 20s depois de lançar a Habilidade Elemental ou o Supremo, aumenta o ATQ em <r>48%</r>. Nesse período, se o personagem que está com essa arma equipada criar um escudo, obterá o efeito Corrente das Ordens Sagradas nos 20s seguintes: aumenta o Dano de Carga Lunar de todos os membros próximos da equipe em <r>80%</r>."
           }
         }
       }

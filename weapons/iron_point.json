@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13201",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Pointue à l'extrémité, cette épée convient aussi bien à l'attaque qu'à la défense et est très prisée des voyageurs."
+      },
+      "pt": {
+        "flavor": "Afiada e pontiaguda em sua extremidade, é uma arma balanceada e bastante popular entre os viajantes."
       }
     }
   }

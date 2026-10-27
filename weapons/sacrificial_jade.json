@@ -24,7 +24,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14424",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -51,6 +51,19 @@
             "3": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>48 %</r> et la maîtrise élémentaire de <r>60</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain.",
             "4": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>56 %</r> et la maîtrise élémentaire de <r>70</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain.",
             "5": "Après avoir fait partie de l'équipe sans être déployé pendant plus de 5 s, les PV max augmentent de <r>64 %</r> et la maîtrise élémentaire de <r>80</r> pts. L'effet prend fin dès que le personnage équipé de l'arme est déployé et passe 10 s sur le terrain."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um antigo pingente de jade que brilha como água cristalina. Parece ter sido usado em cerimônias antigas.",
+        "passive": {
+          "name": "Circulação de Jade",
+          "refinements": {
+            "1": "Quando não estiver em campo por mais de 5s, aumenta a Vida Máxima em <r>32%</r> e a Proficiência Elemental em <r>40</r> pontos. Quando o personagem com esta arma equipada entrar no campo de batalha, este efeito desaparecerá após 10s.",
+            "2": "Quando não estiver em campo por mais de 5s, aumenta a Vida Máxima em <r>40%</r> e a Proficiência Elemental em <r>50</r> pontos. Quando o personagem com esta arma equipada entrar no campo de batalha, este efeito desaparecerá após 10s.",
+            "3": "Quando não estiver em campo por mais de 5s, aumenta a Vida Máxima em <r>48%</r> e a Proficiência Elemental em <r>60</r> pontos. Quando o personagem com esta arma equipada entrar no campo de batalha, este efeito desaparecerá após 10s.",
+            "4": "Quando não estiver em campo por mais de 5s, aumenta a Vida Máxima em <r>56%</r> e a Proficiência Elemental em <r>70</r> pontos. Quando o personagem com esta arma equipada entrar no campo de batalha, este efeito desaparecerá após 10s.",
+            "5": "Quando não estiver em campo por mais de 5s, aumenta a Vida Máxima em <r>64%</r> e a Proficiência Elemental em <r>80</r> pontos. Quando o personagem com esta arma equipada entrar no campo de batalha, este efeito desaparecerá após 10s."
           }
         }
       }

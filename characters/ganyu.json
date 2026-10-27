@@ -370,7 +370,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000037",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -495,6 +495,68 @@
             "level": 6,
             "name": "Clémence",
             "desc": "La première flèche de givre libérée dans les 30 s suivant l'activation de <k>Trace de Qilin</k> ne requiert pas de charge."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Disparo Liutian",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 6 disparos consecutivos com um arco.\n\n<k>Ataque Carregado</k>\nRealiza um <k>Disparo com Mira</k> mais preciso com Dano aumentado.\nAo mirar, uma aura congelante acumulará na ponta da flecha antes de ser disparada. Tem diferentes efeitos baseados em quanto tempo a energia foi carregada:\nCarga Nível 1: Dispara uma Flecha Congelante que causa <e:cryo>Dano Cryo</e>\nCarga Nível 2: Dispara uma Flecha Congelante que causa <e:cryo>Dano Cryo</e>. A Flecha Congelante floresce após acertar seu alvo, causando <e:cryo>Dano Cryo em uma AdE</e>.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas em pleno ar antes de cair e atingir o chão, causando Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Rastros de Qilin",
+            "desc": "Lançando uma Lótus de Gelo, Ganyu salta para trás, causando <e:cryo>Dano em uma AdE Cryo</e>.\n\n<k>Lótus de Gelo</k>\n· Provoca inimigos ao seu redor, atraindo-os para a atacar.\n· Sua resistência aumenta de acordo a Vida Máxima de Ganyu.\n· Floresce quando destruída ou quando sua duração acaba, causando <e:cryo>Dano Cryo em uma AdE</e>.\n\n<i>\"Você disse que me viu? Acho que você está enganad{F#a}{M#o}. Eu estava trabalhando horas extras\".</i>"
+          },
+          "burst": {
+            "name": "Chuva Celestial",
+            "desc": "Funde a geada e a neve atmosférica, evocando uma Gema Cryo Sagrada que exorciza o mal.\nAo longo da duração desta habilidade, a Gema Cryo Sagrada irá chover continuamente lascas de gelo, golpeando inimigos em uma AdE e infligindo <e:cryo>Dano Cryo</e>.\n\n<i>Ganyu pode trazer uma chuva agradável de forma natural. Mas contra demônios e hereges, elas viram uma desagradável neve congelante.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Com Todo Coração",
+            "desc": "Após disparar uma Flecha Congelante, a Taxa CRIT das Flechas Congelantes subsequentes e seus efeitos de florescimento resultantes é aumentada em 20% por 5s."
+          },
+          {
+            "name": "Harmonia entre o Céu e a Terra",
+            "desc": "<k>Chuva Celestial</k> concede 20% de <e:cryo>Bônus de Dano Cryo</e> aos membros ativos no grupo em uma AdE."
+          },
+          {
+            "name": "Preservado para a Caça",
+            "desc": "Retorna 15% dos minérios usados ao criar armas do tipo Arco."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Bebedor de Orvalho",
+            "desc": "Receber Dano de uma Carga Nível 2 da Flecha Congelante ou da Explosão da Flecha Congelante diminui a <e:cryo>RES Cryo</e> dos inimigos em 15% por 6s.\nUm golpe restaura 2 de Energia para Ganyu. Este efeito pode ocorrer apenas uma vez por Carga Nível 2 da Flecha Congelante, independentemente se a Flecha Congelante em si ou sua explosão acertar o alvo."
+          },
+          {
+            "level": 2,
+            "name": "O Auspicioso",
+            "desc": "Os <k>Rastros de Qilin</k> aumentam 1 Carga Adicional."
+          },
+          {
+            "level": 3,
+            "name": "Itinerante das Nuvens",
+            "desc": "Aumenta o nível da <k>Chuva Celestial</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Estadia no Oeste",
+            "desc": "Os inimigos dentro da AdE da <k>Chuva Celestial</k> recebem Dano aumentado. Este efeito fica mais forte com o tempo.\nO Dano aumentado recebido começa em 5% e aumenta 5% a cada 3s, chegando no máximo a 25%.\nEste efeito permanece por 3s após o inimigo sair da AdE."
+          },
+          {
+            "level": 5,
+            "name": "O Misericordioso",
+            "desc": "Aumenta o nível dos <k>Rastros de Qilin</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "O Clemente",
+            "desc": "Usando o <k>Rastros de Qilin</k> faz com que durante 30s seguintes a primeira Flecha Congelante não precise ser carregada."
           }
         ]
       }

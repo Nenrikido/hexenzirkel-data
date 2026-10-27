@@ -185,7 +185,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000014",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -310,6 +310,68 @@
             "level": 6,
             "name": "Toujours le meilleur pour vous",
             "desc": "Si Barbara fait partie de l'équipe mais n'est pas déployée, et qu'un de vos personnages dans l'équipe est vaincu :\n· Barbara le réanime immédiatement.\n· Les PV de ce personnage sont restaurés à 100 %.\nCet effet peut être déclenché une fois toutes les 15 min."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Suspiro da Água",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 ataques com esguichos de água que infligem <e:hydro>Dano Hydro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para infligir <e:hydro>Dano Hydro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Hydro, Barbara mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:hydro>Dano Hydro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Que Comece o Espetáculo ♪",
+            "desc": "Invoca gotículas de água que se assemelham a notas musicais que formam um Círculo Melódico, causando <e:hydro>Dano Hydro</e> aos oponentes próximos e aplicando o estado <e:hydro>Molhado</e> a eles.\n\n<k>Círculo Melódico</k>\nAo acertar, os ataques normais da Barbara curam seus próprios membros de equipe e personagens aliados próximos em uma certa quantidade de Vida, que é escalonado com a Vida Máxima de Barbara.\nAcertar o Ataque Carregado de Barbara gera 4 vezes a quantidade de cura.\nPeriodicamente regenera a Vida do seu próprio personagem ativo.\nAplica o estado <e:hydro>Molhado</e> ao personagem e aos oponentes que entram em contato com eles.\n<i>A música da Barbara é a magia que cura seus companheiros.</i>"
+          },
+          "burst": {
+            "name": "Milagre Brilhante ♪",
+            "desc": "Cura todas as forças aliadas e seu próprio personagem em uma grande quantidade de Vida que aumenta com a Vida Máxima de Barbara.\n\n<i>O desejo de Barbara de curar fortalece sua vontade de lutar e cantar.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Temporada Gloriosa",
+            "desc": "O Consumo de Stamina dos personagens dentro do loop da melodia de <k>Que Comece o Espetáculo ♪</k> é reduzido em 12%."
+          },
+          {
+            "name": "Encore",
+            "desc": "Quando seu próprio personagem ganha um Orbe/Partícula Elemental, a duração do Loop da Melodia do <k>Que Comece o Espetáculo ♪</k> é estendido em 1s.\nA extensão máxima é de 5s."
+          },
+          {
+            "name": "Com Todo o Meu Coração♪",
+            "desc": "Quando uma Culinária Perfeita é feita em uma comida com efeito de recuperação, tem uma chance de 12% de receber o dobro de produção."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Balada Alegre",
+            "desc": "Barbara regenera 1 de Energia a cada 10s."
+          },
+          {
+            "level": 2,
+            "name": "Explosão de Vitalidade",
+            "desc": "Diminui a Recarga do <k>Que Comece o Espetáculo ♪</k> em 15%.\nDurante esta habilidade, o seu próprio personagem atual ganha 15% de <e:hydro>Dano Hydro adicional</e>."
+          },
+          {
+            "level": 3,
+            "name": "Estrela de Amanhã",
+            "desc": "Aumenta o nível do <k>Milagre Brilhante ♪</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "A Atenção é o Meu Poder",
+            "desc": "Sempre que os Ataques Carregados da Barbara acertarem um inimigo ela regenera 1 de Energia.\nÉ possível regenerar um máximo de 5 de Energia desta maneira por vez."
+          },
+          {
+            "level": 5,
+            "name": "Vínculo de Inocência",
+            "desc": "Aumenta o nível do <k>Que Comece o Espetáculo♪</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Dedicando Tudo para Você",
+            "desc": "Quando a Barbara não estiver no campo de batalha e o próprio personagem da equipe for abatido:\nRevive automaticamente este personagem.\nRegenera totalmente a Vida deste personagem até 100%.\nEste efeito pode ser ativado uma vez a cada 15 mins."
           }
         ]
       }

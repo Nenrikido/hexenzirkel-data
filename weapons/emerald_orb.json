@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14304",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Augmente l'ATQ de <r>30 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro.",
             "4": "Augmente l'ATQ de <r>35 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro.",
             "5": "Augmente l'ATQ de <r>40 %</r> pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um catalisador esculpido com uma jade rígida de Relevo de Jueyun, norte de Liyue. É pequena, leve e durável.",
+        "passive": {
+          "name": "Corrente Torrencial",
+          "refinements": {
+            "1": "Após causar uma reação elemental de Vaporização, Eletricamente Carregado, Congelamento, Florescimento, Carga Lunar, Florescimento Lunar ou Redemoinho de Hydro, o ATQ é aumentado em <r>20%</r> por 12s.",
+            "2": "Após causar uma reação elemental de Vaporização, Eletricamente Carregado, Congelamento, Florescimento, Carga Lunar, Florescimento Lunar ou Redemoinho de Hydro, o ATQ é aumentado em <r>25%</r> por 12s.",
+            "3": "Após causar uma reação elemental de Vaporização, Eletricamente Carregado, Congelamento, Florescimento, Carga Lunar, Florescimento Lunar ou Redemoinho de Hydro, o ATQ é aumentado em <r>30%</r> por 12s.",
+            "4": "Após causar uma reação elemental de Vaporização, Eletricamente Carregado, Congelamento, Florescimento, Carga Lunar, Florescimento Lunar ou Redemoinho de Hydro, o ATQ é aumentado em <r>35%</r> por 12s.",
+            "5": "Após causar uma reação elemental de Vaporização, Eletricamente Carregado, Congelamento, Florescimento, Carga Lunar, Florescimento Lunar ou Redemoinho de Hydro, o ATQ é aumentado em <r>40%</r> por 12s."
           }
         }
       }

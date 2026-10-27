@@ -38,7 +38,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14413",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -65,6 +65,19 @@
             "3": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>24 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>12 %</r> pendant 6 s.",
             "4": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>28 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>14 %</r> pendant 6 s.",
             "5": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de <r>32 %</r> pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de <r>16 %</r> pendant 6 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um livro infantil com uma bela capa. Seu conteúdo é pequenas estórias infantis inofensivas, e quem as ler não poderá evitar rir.\nMesmo que seu leitor já seja um adulto, ao ler tais aventuras inocentes, também acabará fascinado por elas.",
+        "passive": {
+          "name": "Dodo-aventura!",
+          "refinements": {
+            "1": "Dentro de 6s após acertar um inimigo com o Ataque Normal, o Dano causado pelo Ataque Carregado aumenta em <r>16%</r>. Dentro de 6s após acertar um inimigo com o Ataque Carregado, o ATQ aumenta em <r>8%</r>.",
+            "2": "Dentro de 6s após acertar um inimigo com o Ataque Normal, o Dano causado pelo Ataque Carregado aumenta em <r>20%</r>. Dentro de 6s após acertar um inimigo com o Ataque Carregado, o ATQ aumenta em <r>10%</r>.",
+            "3": "Dentro de 6s após acertar um inimigo com o Ataque Normal, o Dano causado pelo Ataque Carregado aumenta em <r>24%</r>. Dentro de 6s após acertar um inimigo com o Ataque Carregado, o ATQ aumenta em <r>12%</r>.",
+            "4": "Dentro de 6s após acertar um inimigo com o Ataque Normal, o Dano causado pelo Ataque Carregado aumenta em <r>28%</r>. Dentro de 6s após acertar um inimigo com o Ataque Carregado, o ATQ aumenta em <r>14%</r>.",
+            "5": "Dentro de 6s após acertar um inimigo com o Ataque Normal, o Dano causado pelo Ataque Carregado aumenta em <r>32%</r>. Dentro de 6s após acertar um inimigo com o Ataque Carregado, o ATQ aumenta em <r>16%</r>."
           }
         }
       }

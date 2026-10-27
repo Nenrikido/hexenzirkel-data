@@ -57,7 +57,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11512",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -84,6 +84,19 @@
             "3": "Augmente le taux CRIT de <r>6 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>180 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s.",
             "4": "Augmente le taux CRIT de <r>7 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>210 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s.",
             "5": "Augmente le taux CRIT de <r>8 %</r>. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à <r>240 %</r> de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lâmina ornamentada feita de preciosos ramos brancos. No passado cortou incontáveis sujeiras que percorreram a floresta contaminada.",
+        "passive": {
+          "name": "Ponta do Galho da Lua Branca",
+          "refinements": {
+            "1": "Aumenta a Taxa CRIT em <r>4%</r>; quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a <r>120%</r> da Proficiência Elemental. Esse efeito desaparecerá depois de ser ativado 28 vezes ou após 12s. Só é possível desencadear o efeito \"Poda\" uma vez a cada 12s.",
+            "2": "Aumenta a Taxa CRIT em <r>5%</r>; quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a <r>150%</r> da Proficiência Elemental. Este efeito desaparecerá depois de ser ativado 28 vezes ou após 12s. Só é possível desencadear o efeito \"Poda\" uma vez a cada 12s.",
+            "3": "Aumenta a Taxa CRIT em <r>6%</r>; quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a <r>180%</r> da Proficiência Elemental. Este efeito desaparecerá depois de ser ativado 28 vezes ou após 12s. Só é possível desencadear o efeito \"Poda\" uma vez a cada 12s.",
+            "4": "Aumenta a Taxa CRIT em <r>7%</r>; quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a <r>210%</r> da Proficiência Elemental. Este efeito desaparecerá depois de ser ativado 28 vezes ou após 12s. Só é possível desencadear o efeito \"Poda\" uma vez a cada 12s.",
+            "5": "Aumenta a Taxa CRIT em <r>8%</r>; quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a <r>240%</r> da Proficiência Elemental. Este efeito desaparecerá depois de ser ativado 28 vezes ou após 12s. Só é possível desencadear o efeito \"Poda\" uma vez a cada 12s."
           }
         }
       }

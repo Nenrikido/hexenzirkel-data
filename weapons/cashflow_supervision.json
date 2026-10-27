@@ -41,7 +41,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14513",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -68,6 +68,19 @@
             "3": "L'ATQ augmente de <r>24 %</r>. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de <r>24 %</r>, ceux infligés par les attaques chargées augmentent de <r>21 %</r> et les DGT de réaction d'Astroconduction augmentent de <r>21 %</r>, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de <r>12 %</r>.",
             "4": "L'ATQ augmente de <r>28 %</r>. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de <r>28 %</r>, ceux infligés par les attaques chargées augmentent de <r>24,5 %</r> et les DGT de réaction d'Astroconduction augmentent de <r>24,5 %</r>, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de <r>14 %</r>.",
             "5": "L'ATQ augmente de <r>32 %</r>. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de <r>32 %</r>, ceux infligés par les attaques chargées augmentent de <r>28 %</r> et les DGT de réaction d'Astroconduction augmentent de <r>28 %</r>, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de <r>16 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um dispositivo flutuante que pode monitorar certos fenômenos. Foi pego e modificado para servir a outros usos depois de abandonado.",
+        "passive": {
+          "name": "Maré de Sangue Dourado",
+          "refinements": {
+            "1": "Aumenta o ATQ em <r>16%</r>. Quando a Vida aumentar ou reduzir, aumenta o Dano causado pelo Ataque Normal em <r>16%</r>, aumenta o Dano causado pelo Ataque Carregado em <r>14%</r>, e aumenta o Dano causado por Supercondutor Estelar em <r>14%</r> por 4s. Acumulável até 3 vezes. É possível desencadear uma vez a cada 0.3s. Ao possuir 3 acúmulos, aumenta a Vel. de ATQ em <r>8%</r>.",
+            "2": "Aumenta o ATQ em <r>20%</r>. Quando a Vida aumentar ou reduzir, aumenta o Dano causado pelo Ataque Normal em <r>20%</r>, aumenta o Dano causado pelo Ataque Carregado em <r>17.5%</r>, e aumenta o Dano causado por Supercondutor Estelar em <r>17.5%</r> por 4s. Acumulável até 3 vezes. É possível desencadear uma vez a cada 0.3s. Ao possuir 3 acúmulos, aumenta a Vel. de ATQ em <r>10%</r>.",
+            "3": "Aumenta o ATQ em <r>24%</r>. Quando a Vida aumentar ou reduzir, aumenta o Dano causado pelo Ataque Normal em <r>24%</r>, aumenta o Dano causado pelo Ataque Carregado em <r>21%</r>, e aumenta o Dano causado por Supercondutor Estelar em <r>21%</r> por 4s. Acumulável até 3 vezes. É possível desencadear uma vez a cada 0.3s. Ao possuir 3 acúmulos, aumenta a Vel. de ATQ em <r>12%</r>.",
+            "4": "Aumenta o ATQ em <r>28%</r>. Quando a Vida aumentar ou reduzir, aumenta o Dano causado pelo Ataque Normal em <r>28%</r>, aumenta o Dano causado pelo Ataque Carregado em <r>24.5%</r>, e aumenta o Dano causado por Supercondutor Estelar em <r>24.5%</r> por 4s. Acumulável até 3 vezes. É possível desencadear uma vez a cada 0.3s. Ao possuir 3 acúmulos, aumenta a Vel. de ATQ em <r>14%</r>.",
+            "5": "Aumenta o ATQ em <r>32%</r>. Quando a Vida aumentar ou reduzir, aumenta o Dano causado pelo Ataque Normal em <r>32%</r>, aumenta o Dano causado pelo Ataque Carregado em <r>28%</r>, e aumenta o Dano causado por Supercondutor Estelar em <r>28%</r> por 4s. Acumulável até 3 vezes. É possível desencadear uma vez a cada 0.3s. Ao possuir 3 acúmulos, aumenta a Vel. de ATQ em <r>16%</r>."
           }
         }
       }

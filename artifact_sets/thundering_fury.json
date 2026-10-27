@@ -27,7 +27,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15005",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -43,6 +43,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:electro>Électro</e> de 15 %.",
           "4": "Augmente les DGT infligés par les réactions de Surcharge, d'Électrocution, de Supraconduction et d'Exubérance de 40 %, le bonus de DGT accordé par les réactions de Suractivation de 20 % et les DGT infligés par les réactions de Sélénocution et d'Astroconduction de 20 %. Au déclenchement de ces réactions élémentaires ou d'une réaction de Stimulation, le TdR de la compétence élémentaire diminue de 1 s. Cet effet peut être déclenché une fois toutes les 0,8 s."
+        }
+      },
+      "pt": {
+        "name": "Trovão Furioso",
+        "bonuses": {
+          "2": "Bônus de Dano <e:electro>Electro</e> +15%",
+          "4": "Aumenta o Dano causado por Sobrecarga, Eletricamente Carregado, Supercondutor e Superflorescimento em 40%, o Bônus de Dano concedido por Intensificação em 20% e o Dano causado por Carga Lunar e Supercondutor Estelar em 20%. Quando Aceleração ou uma das Reações Elementais mencionadas for desencadeada, o Tempo de Recarga da Habilidade Elemental é reduzido em 1s. Só pode ocorrer uma vez a cada 0.8s."
         }
       }
     }

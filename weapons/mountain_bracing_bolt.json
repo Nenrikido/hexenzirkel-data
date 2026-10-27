@@ -62,7 +62,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13430",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -89,6 +89,19 @@
             "3": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>18 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>18 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire.",
             "4": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>21 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>21 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire.",
             "5": "La consommation d'endurance lors de l'escalade diminue de 15 % et les DGT infligés par les compétences élémentaires augmentent de <r>24 %</r>. De plus, les DGT infligés par les compétences élémentaires du personnage équipé de l'arme augmentent de <r>24 %</r> supplémentaires pendant 8 s lorsqu'un autre personnage de l'équipe à proximité a utilisé une compétence élémentaire."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Esta arma de haste foi feita por artesãos nas minas como um sacrifício para os espíritos das montanhas.",
+        "passive": {
+          "name": "Esperança Além dos Picos",
+          "refinements": {
+            "1": "Reduz o consumo de Stamina ao escalar em 15% e aumenta o Dano causado pela Habilidade Elemental em <r>12%</r>. Além disso, quando os outros personagens próximos da equipe lançam sua Habilidade Elemental, aumenta o Dano da Habilidade Elemental do personagem que está com essa arma equipada em mais <r>12%</r> por 8s.",
+            "2": "Reduz o consumo de Stamina ao escalar em 15% e aumenta o Dano causado pela Habilidade Elemental em <r>15%</r>. Além disso, quando os outros personagens próximos da equipe lançam sua Habilidade Elemental, aumenta o Dano da Habilidade Elemental do personagem que está com essa arma equipada em mais <r>15%</r> por 8s.",
+            "3": "Reduz o consumo de Stamina ao escalar em 15% e aumenta o Dano causado pela Habilidade Elemental em <r>18%</r>. Além disso, quando os outros personagens próximos da equipe lançam sua Habilidade Elemental, aumenta o Dano da Habilidade Elemental do personagem que está com essa arma equipada em mais <r>18%</r> por 8s.",
+            "4": "Reduz o consumo de Stamina ao escalar em 15% e aumenta o Dano causado pela Habilidade Elemental em <r>21%</r>. Além disso, quando os outros personagens próximos da equipe lançam sua Habilidade Elemental, aumenta o Dano da Habilidade Elemental do personagem que está com essa arma equipada em mais <r>21%</r> por 8s.",
+            "5": "Reduz o consumo de Stamina ao escalar em 15% e aumenta o Dano causado pela Habilidade Elemental em <r>24%</r>. Além disso, quando os outros personagens próximos da equipe lançam sua Habilidade Elemental, aumenta o Dano da Habilidade Elemental do personagem que está com essa arma equipada em mais <r>24%</r> por 8s."
           }
         }
       }

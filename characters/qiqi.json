@@ -237,7 +237,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000035",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -370,6 +370,72 @@
             "level": 6,
             "name": "Symbole de la renaissance",
             "desc": "L'activation d'<k>Arcane d'Adepte : Talisman sacré</k> réanime tous les personnages de l'équipe à proximité et restaure 50 % de leurs PV.\nCet effet peut être déclenché une fois toutes les 15 min.\nDe plus, après l'utilisation d'<k>Arcane d'Adepte : Talisman sacré</k>, Qiqi obtient également 4 cumuls de l'effet <k>Aperçu de mystère</k>, et les DGT augmentent d'une valeur équivalant à 600 % de l'ATQ de Qiqi au prix d'un cumul d'<k>Aperçu de mystère</k> lorsque votre personnage déployé (hormis Qiqi) inflige directement des DGT de réaction d'Astroconduction ou des DGT de réaction d'Astrodispersion avec une aptitude ou une compétence. L'effet <k>Aperçu de mystère</k> dure un maximum de 12 s et utiliser <k>Arcane d'Adepte : Talisman sacré</k> réinitialise ses cumuls."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Arte da Espada Antiga",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Arte do Adeptus: Arauto da Floresta",
+            "desc": "Ao usar o Talismã das Veias Congelantes, invoca o Arauto da Floresta, causando <e:cryo>Dano Cryo</e> contra os inimigos ao redor.\n\n<k>Arauto da Floresta</k>\n· O Ataque Normal e Carregado de Qiqi regenera Vida para os personagens da equipe, bem como os personagens próximos. A quantidade de Vida regenerada é baseada no ATQ de Qiqi.\n· Regenera Vida para o personagem ativo periodicamente.\n· Segue o personagem ativo, causando <e:cryo>Dano Cryo</e> contra os inimigos que tocar.\n· Quando o ataque do personagem atinge o inimigo, o Arauto da Floresta realizará um Ataque Coordenado, causando <e:cryo>Dano Cryo</e> contra o inimigo.\n\n<i>\"Eu uso isso para prevenir o calor e apodrecimento... Dos ingredientes preciosos do Dr. Baizhu. Sim, é isso.\"</i>"
+          },
+          "burst": {
+            "name": "Arte do Adeptus: Preservador da Fortuna",
+            "desc": "Qiqi libera a Força Adepti selada dentro de si, marcando inimigos próximos com o Talismã da Preservação da Fortuna que inflige <e:cryo>Dano Cryo</e>.\n<k>Brilho Reluzente: Supercondutor Estelar</k>: causa uma instância adicional de <e:cryo>Dano Cryo</e> considerado como Dano de Supercondutor Estelar.\n\n<k>Talismã da Preservação da Fortuna</k>\nQuando inimigos afetados por esse Talismã recebem Dano, o personagem que causou esse Dano regenera Vida.\n\n<i>\"Eu sou a Preservadora da Fortuna, a Criada da Ressurreição.\"</i>\n<i>— Qiqi não lembra destas palavras.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Métodos que Prolongam a Vida",
+            "desc": "Quando um personagem está sob o efeito de <k>Arte do Adeptus: Arauto da Floresta</k> aciona uma Reação Elemental, seu Bônus de Cura Recebido é aumentado em 20% por 8 segundos."
+          },
+          {
+            "name": "Um Vislumbre do Arcano",
+            "desc": "Quando Qiqi atinge um Ataque Normal ou Carregado em um inimigo, possui 50% de chance de adicionar 1 Talismã da Preservação da Fortuna nesse inimigo por 6s. Esse efeito pode ser desencadeado uma vez a cada 30s.\n<k>Brilho Reluzente: Brilho Estelar</k>: aumenta a chance desse efeito para 100%, e reduz a recarga para 15s."
+          },
+          {
+            "name": "Memórias da Vida Passada",
+            "desc": "Mostra a localização de <k>Especialidades de Liyue</k> próximos no mapa."
+          },
+          {
+            "name": "Sete Tesouros Sagrados",
+            "desc": "Reduz a recarga da Habilidade Elemental <k>Arte do Adeptus: Arauto da Floresta</k> em 15s.\n<k>Brilho Reluzente: Brilho Estelar</k>: na duração do Arauto da Floresta, aumenta o Dano causado pelas reações correspondentes dos seus personagens da equipe:\n<k>Brilho Reluzente: Supercondutor Estelar</k>: aumenta o Dano de Supercondutor e Supercondutor Estelar em 50%.\n<k>Brilho Reluzente: Redemoinho Estelar</k>: aumenta o Dano de Redemoinho Cryo e Redemoinho Estelar em 50%.\nAlém disso, quando está em <k>Campo da Estrela Polar</k>/nos 8s após um personagem próximo da equipe desencadear Redemoinho Estelar, Qiqi entra nos estados <k>Brilho Reluzente: Supercondutor Estelar</k>/<k>Brilho Reluzente: Redemoinho Estelar</k> respectivamente."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Ascéticos do Gelo",
+            "desc": "Quando o Arauto da Floresta atinge um inimigo marcado pelo Talismã da Preservação da Fortuna, regenera 2 de Energia Elemental para Qiqi.\n<k>Brilho Reluzente: Brilho Estelar</k>: quando o ataque do Arauto da Floresta atingir o inimigo com um Ataque e Ataque Coordenado, regenerará 6 de Energia Elemental para Qiqi. Pode ser desencadeado uma vez a cada 6s."
+          },
+          {
+            "level": 2,
+            "name": "Congelando até os Ossos",
+            "desc": "O Dano do Ataque Normal e Ataque Carregado de Qiqi contra os inimigos afetados por <e:cryo>Cryo</e> aumentam 15%.\n<k>Brilho Reluzente: Brilho Estelar</k>: aumenta o ATQ de Qiqi em 50%."
+          },
+          {
+            "level": 3,
+            "name": "Elogio Ascendente",
+            "desc": "Aumenta o Nível de <k>Arte do Adeptus: Preservador da Fortuna</k> em 3.\nPode ser elevado até Nv.15."
+          },
+          {
+            "level": 4,
+            "name": "Supressão Divina",
+            "desc": "Alvos marcados pelo Talismã da Preservação da Fortuna têm seu ATQ reduzido em 20%.\nAlém disso, ao desencadear o efeito de cura do Talismã da Preservação da Fortuna, regenera Vida uma vez adicional para o personagem próximo com menor proporção de Vida. A quantidade regenerada é de 180% do ATQ de Qiqi."
+          },
+          {
+            "level": 5,
+            "name": "Flor de Lótus Carmesim",
+            "desc": "Aumenta o Nível de <k>Arauto da Floresta</k> em 3.\nPode ser elevado até Nv.15."
+          },
+          {
+            "level": 6,
+            "name": "Ritual de Ressurreição",
+            "desc": "Ao lançar <k>Arte do Adeptus: Preservador da Fortuna</k>, revive todos os personagens próximos derrotados, e regenera sua Vida para 50%.\nEsse efeito pode ser desencadeado uma vez a cada 15 minutos.\nAlém disso, depois de lançar <k>Arte do Adeptus: Preservador da Fortuna</k>, Qiqi obtém 4 acúmulos de <k>Vislumbre do Mistério</k>. Quando o personagem ativo, exceto Qiqi, causar Dano de Supercondutor Estelar ou Redemoinho Estelar através do Talento e da Habilidade diretamente, consome 1 acúmulo de <k>Vislumbre do Mistério</k> e aumenta o Dano causado. O aumento de Dano é de 600% do ATQ de Qiqi. <k>Vislumbre do Mistério</k> dura até 12s, e ao lançar <k>Arte do Adeptus: Preservador da Fortuna</k>, seus acúmulos serão redefinidos."
           }
         ]
       }

@@ -43,7 +43,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13507",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -70,6 +70,19 @@
             "3": "Confère un bonus de DGT élémentaires de <r>18 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>4,8 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé.",
             "4": "Confère un bonus de DGT élémentaires de <r>21 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>5,6 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé.",
             "5": "Confère un bonus de DGT élémentaires de <r>24 %</r>. Après l'utilisation d'une compétence élémentaire, accorde 20 s d'Achèvement, augmentant l'ATQ de <r>6,4 %</r> toutes les secondes. Ce bonus d'ATQ peut être cumulé 6 fois maximum. Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, le bonus d'ATQ de l'Achèvement est doublé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma arma afiada forjada de algum cristal estranho. Sua luz azul tênue parece murmurar incontáveis histórias do passado.",
+        "passive": {
+          "name": "Preceito Extinguidor",
+          "refinements": {
+            "1": "Obtém um Bônus de Dano Elemental para todos os Elementos de <r>12%</r>; após lançar uma Habilidade Elemental, obtém Consumação por 20s, fazendo com que o Ataque aumente <r>3.2%</r> por segundo. Este efeito pode ser acumulado em até 6 vezes. Quando o personagem da equipe que estiver com esta arma equipada não for o ativo no campo de batalha, o aumento do Ataque de Consumação será duplicado.",
+            "2": "Obtém um Bônus de Dano Elemental para todos os Elementos de <r>15%</r>; após lançar uma Habilidade Elemental, obtém Consumação por 20s, fazendo com que o Ataque aumente <r>4%</r> por segundo. Este efeito pode ser acumulado em até 6 vezes. Quando o personagem da equipe que estiver com esta arma equipada não for o ativo no campo de batalha, o aumento do Ataque de Consumação será duplicado.",
+            "3": "Obtém um Bônus de Dano Elemental para todos os Elementos de <r>18%</r>; após lançar uma Habilidade Elemental, obtém Consumação por 20s, fazendo com que o Ataque aumente <r>4.8%</r> por segundo. Este efeito pode ser acumulado em até 6 vezes. Quando o personagem da equipe que estiver com esta arma equipada não for o ativo no campo de batalha, o aumento do Ataque de Consumação será duplicado.",
+            "4": "Obtém um Bônus de Dano Elemental para todos os Elementos de <r>21%</r>; após lançar uma Habilidade Elemental, obtém Consumação por 20s, fazendo com que o Ataque aumente <r>5.6%</r> por segundo. Este efeito pode ser acumulado em até 6 vezes. Quando o personagem da equipe que estiver com esta arma equipada não for o ativo no campo de batalha, o aumento do Ataque de Consumação será duplicado.",
+            "5": "Obtém um Bônus de Dano Elemental para todos os Elementos de <r>24%</r>; após lançar uma Habilidade Elemental, obtém Consumação por 20s, fazendo com que o Ataque aumente <r>6.4%</r> por segundo. Este efeito pode ser acumulado em até 6 vezes. Quando o personagem da equipe que estiver com esta arma equipada não for o ativo no campo de batalha, o aumento do Ataque de Consumação será duplicado."
           }
         }
       }

@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12301",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>80 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>40 %</r>.",
             "4": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>85 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>45 %</r>.",
             "5": "Les attaques chargées sont plus difficiles à interrompre si les PV sont inférieurs à <r>90 %</r>, et les DGT infligés par les attaques chargées augmentent de <r>50 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma réplica da espada famosa de Arundolyn, o Leão da Luz. Maneje-a e sinta o poder de um herói lendário! Aviso: Sonhar demais pode ser prejudicial para você.",
+        "passive": {
+          "name": "Implacável",
+          "refinements": {
+            "1": "Quando a Vida estiver inferior a <r>70%</r>, Ataques Carregados raramente são interrompidos e aumenta <r>30%</r> do Ataque Carregado.",
+            "2": "Quando a Vida estiver inferior a <r>75%</r>, Ataques Carregados raramente são interrompidos e aumenta <r>35%</r> do Ataque Carregado.",
+            "3": "Quando a Vida estiver inferior a <r>80%</r>, Ataques Carregados raramente são interrompidos e aumenta <r>40%</r> do Ataque Carregado.",
+            "4": "Quando a Vida estiver inferior a <r>85%</r>, Ataques Carregados raramente são interrompidos e aumenta <r>45%</r> do Ataque Carregado.",
+            "5": "Quando a Vida estiver inferior a <r>90%</r>, Ataques Carregados raramente são interrompidos e aumenta <r>50%</r> do Ataque Carregado."
           }
         }
       }

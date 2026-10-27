@@ -70,7 +70,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12430",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -97,6 +97,19 @@
             "3": "Augmente le taux CRIT des attaques plongeantes de <r>24 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>24 %</r> pendant 10 s.",
             "4": "Augmente le taux CRIT des attaques plongeantes de <r>28 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>28 %</r> pendant 10 s.",
             "5": "Augmente le taux CRIT des attaques plongeantes de <r>32 %</r>. Lorsqu'une attaque plongeante a touché un ennemi, les DGT infligés par les attaques normales, chargées et plongeantes augmentent de <r>32 %</r> pendant 10 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "O audacioso Burkina, dos Descendentes das Copas, construiu esta arma com a ajuda do herói Tenoch — tudo para obter Fogorromãs incomparáveis em Natlan.",
+        "passive": {
+          "name": "Peso dos Galhos Caídos",
+          "refinements": {
+            "1": "Aumenta a Taxa CRIT dos Ataques Imersivos em <r>16%</r>. Quando um Ataque Imersivo atinge um inimigo, aumenta o Dano causado pelos Ataques Normais, Carregados e Imersivos em <r>16%</r> por 10s.",
+            "2": "Aumenta a Taxa CRIT dos Ataques Imersivos em <r>20%</r>. Quando um Ataque Imersivo atinge um inimigo, aumenta o Dano causado pelos Ataques Normais, Carregados e Imersivos em <r>20%</r> por 10s.",
+            "3": "Aumenta a Taxa CRIT dos Ataques Imersivos em <r>24%</r>. Quando um Ataque Imersivo atinge um inimigo, aumenta o Dano causado pelos Ataques Normais, Carregados e Imersivos em <r>24%</r> por 10s.",
+            "4": "Aumenta a Taxa CRIT dos Ataques Imersivos em <r>28%</r>. Quando um Ataque Imersivo atinge um inimigo, aumenta o Dano causado pelos Ataques Normais, Carregados e Imersivos em <r>28%</r> por 10s.",
+            "5": "Aumenta a Taxa CRIT dos Ataques Imersivos em <r>32%</r>. Quando um Ataque Imersivo atinge um inimigo, aumenta o Dano causado pelos Ataques Normais, Carregados e Imersivos em <r>32%</r> por 10s."
           }
         }
       }

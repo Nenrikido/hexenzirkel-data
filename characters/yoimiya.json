@@ -498,7 +498,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000049",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -623,6 +623,68 @@
             "level": 6,
             "name": "Pluie de météores de Naganohara",
             "desc": "Tant que <k>Danse du feu « Niwabi »</k> est active, les attaques normales de Yoimiya ont 50 % de chances de libérer une flèche enflammée supplémentaire qui inflige 60 % des DGT d'origine. Ces DGT sont considérés comme des DGT d'attaque normale."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Pirotecnia",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 disparos consecutivos com um arco.\n\n<k>Ataque Carregado</k>\nRealiza um <k>Disparo com Mira</k> mais preciso com Dano aumentado.\nAo mirar, uma aura flamejante acumulará na ponta da flecha antes de ser disparada. Tem diferentes efeitos baseados em quanto tempo a energia foi carregada:\nCarga Nível 1: Dispara uma Flecha Flamejante que causa <e:pyro>Dano Pyro</e>\nCarga Nível 2: Gera um máximo de 3 Flechas Abrasadoras com base no tempo decorrido no carregamento, liberando-as como parte do Disparo com Mira. Flechas Abrasadoras irão perseguir os alvos próximos, causando <e:pyro>Dano Pyro</e> ao atingir um inimigo.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas em pleno ar antes de cair e atingir o chão, causando Dano em AdE no impacto."
+          },
+          "skill": {
+            "name": "Dança de Fogo Niwabi",
+            "desc": "Com o fogo de artifício de incenso explodindo no ar, um anel de salitre rodeia Yoimiya.\n\n<k>Niwabi Enshou</k>\nDurante o intervalo de tempo, as flechas disparadas pelo Ataque Normal de Yoimiya serão Flechas Ardentes, causando <e:pyro>Dano Pyro</e>, e aumentando o dano causado pelo Ataque Normal. A Carga Nível 2 do Ataque Normal: Pirotecnia não irá causar Flechas Ardentes durante este tempo.\n\nO efeito será desativado quando Yoimiya sair do campo.\n\n<i>\"Niwabi\" é uma forma de fogo de artifício de incenso criada por Yoimiya. Sua capacidade de poder ser acendido sem qualquer treinamento ou preparação fez dela muito popular. Depois de vários acidentes relacionados com o fogo, a Comissão Tenryou baniu o uso de \"Niwabi\", mas pequenas e brilhantes explosões ainda são frequentemente vistas durante a noite. Se vistas de cima, parecem até estrelas brilhando.</i>"
+          },
+          "burst": {
+            "name": "Saxifraga Ryuukin",
+            "desc": "Quando sua criação original, a \"Saxifraga Ryuukin\" voa no ar, Yoimiya dispara mísseis flamejantes repletos de surpresas que causam <e:pyro>Dano Pyro em uma AdE</e> e marca um dos inimigos atingidos com uma Flama Dourada.\n\n<k>Saxifraga Ryuukin</k>\nTodos os Ataques Normais, Ataques Carregados, Ataques Imersivos, Habilidades Elementais e Supremos lançados por todos os personagens na equipe (exceto a própria Yoimiya) que acertem em inimigos sob a influência da Flama Dourada causarão uma explosão, causando <e:pyro>Dano Pyro em uma AdE</e>.\nQuando um inimigo é derrotado sob a influência da Flama Dourada durante o tempo do efeito, o efeito passará para outro inimigo ao redor, que herdará a duração restante.\n\nA Flama Dourada pode ser ativada uma vez a cada 2s. Quando Yoimiya for derrotada, os efeitos da Flama Dourada criados através das suas habilidades serão desativados.\n\n<i>Os fogos de artifício são a luz estelar feitas pelo homem, cometas disparados no céu. Apesar deles durarem apenas um instante, a memória do seu brilho certamente perdura eternamente.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Truque da Encrenqueira",
+            "desc": "Enquanto a <k>Dança de Fogo Niwabi</k> estiver presente, acertos com o Ataque Normal da Yoimiya, irão aumentar 2% do <e:pyro>Bônus de Dano Pyro</e>. O efeito dura por 3s e pode ser acumulado em até 10 vezes."
+          },
+          {
+            "name": "Queimadura de Verão",
+            "desc": "Todos os personagens da equipe (com exceção da própria Yoimiya) ganharão um aumento de 10% no ATQ por 15s após usar a <k>Saxifraga Ryuukin</k>. Além disso, um bônus adicional de ATQ será adicionado com base no número de cargas do Talento de Ascensão \"Truque da Encrenqueira\" que Yoimiya possui ao usar a <k>Saxifraga Ryuukin</k>. Cada carga aumenta 1% de ATQ."
+          },
+          {
+            "name": "Correspondência Flamejante",
+            "desc": "Quando Yoimiya cria uma Decoração, Item de Decoração e Paisagem, ela tem 100% de chance de reembolsar uma parte dos materiais utilizados."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Ágata Ryuukin",
+            "desc": "A Flama Dourada criada pela <k>Saxifraga Ryuukin</k> ganha um aumento de 4s de duração.\nAlém disso, quando um inimigo afetado pela Flama Dourada é derrotado, o ATQ da Yoimiya é aumentado em 20% por 20s."
+          },
+          {
+            "level": 2,
+            "name": "Procissão de Fogueiras",
+            "desc": "Dentro de 6s após Yoimiya causar CRIT com o <e:pyro>Dano Pyro</e>, Yoimiya obtém 25% de <e:pyro>Dano Pyro Adicional</e>.\nYoimiya pode obter esse efeito mesmo fora de campo."
+          },
+          {
+            "level": 3,
+            "name": "Chamas da Malandra",
+            "desc": "Aumenta o nível da <k>Dança de Fogo Niwabi</k> em 3 níveis.\nSendo o nível máximo de elevação 15."
+          },
+          {
+            "level": 4,
+            "name": "Profissional Pirotécnica",
+            "desc": "Quando a Flama Dourada da Yoimiya explode, restaura a Recarga da <k>Dança de Fogo Niwabi</k> em 1.2s."
+          },
+          {
+            "level": 5,
+            "name": "Véspera de um Festival de Verão",
+            "desc": "Aumenta o nível da <k>Saxifraga Ryuukin</k> em 3 níveis.\nSendo o nível máximo de elevação 15."
+          },
+          {
+            "level": 6,
+            "name": "Chuva de Meteoros de Naganohara",
+            "desc": "Durante a <k>Dança de Fogo Niwabi</k>, os Ataques Normais de Yoimiya têm 50% de chance de disparar uma Flecha Ardente extra que causa 60% de seu Dano original. Este Dano é considerado Dano de Ataque Normal."
           }
         ]
       }

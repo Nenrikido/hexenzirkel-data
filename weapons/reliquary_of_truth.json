@@ -73,7 +73,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14521",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -100,6 +100,19 @@
             "3": "Le taux CRIT augmente de <r>12 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>120</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>36 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %.",
             "4": "Le taux CRIT augmente de <r>14 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>140</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>42 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %.",
             "5": "Le taux CRIT augmente de <r>16 %</r>. Lorsqu'il déclenche une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Secret du mensonge : augmente la maîtrise élémentaire de <r>160</r> pts pendant 12 s. Lorsque le personnage équipé de l'arme inflige des DGT de réaction de Sélénofleurissement à un ennemi, il obtient l'effet Lune de la vérité : augmente les DGT CRIT de <r>48 %</r> pendant 4 s. Si ces deux effets existent en même temps, leurs bonus augmentent de 50 %."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um baú de chifres cravejado de citrinitas e jade. Dizem as lendas que já foi consagrado num templo nas profundezas de Tulaytullah, a Cidade de Safira.",
+        "passive": {
+          "name": "Essência da Falsidade",
+          "refinements": {
+            "1": "Aumenta a Taxa CRIT em <r>8%</r>. Ao lançar a Habilidade Elemental, o portador obtém o efeito Segredo das Falsas Palavras: aumenta a Proficiência Elemental em <r>80</r> por 12s. Quando o portador causa Dano de Florescimento Lunar contra o inimigo, obtém o efeito Lua da Verdade: aumenta o Dano CRIT em <r>24%</r> por 4s. Quando os efeitos Segredo das Falsas Palavras e Lua da Verdade existirem simultaneamente, esses efeitos aumentarão em 50% cada.",
+            "2": "Aumenta a Taxa CRIT em <r>10%</r>. Ao lançar a Habilidade Elemental, o portador obtém o efeito Segredo das Falsas Palavras: aumenta a Proficiência Elemental em <r>100</r> por 12s. Quando o portador causa Dano de Florescimento Lunar contra o inimigo, obtém o efeito Lua da Verdade: aumenta o Dano CRIT em <r>30%</r> por 4s. Quando os efeitos Segredo das Falsas Palavras e Lua da Verdade existirem simultaneamente, esses efeitos aumentarão em 50% cada.",
+            "3": "Aumenta a Taxa CRIT em <r>12%</r>. Ao lançar a Habilidade Elemental, o portador obtém o efeito Segredo das Falsas Palavras: aumenta a Proficiência Elemental em <r>120</r> por 12s. Quando o portador causa Dano de Florescimento Lunar contra o inimigo, obtém o efeito Lua da Verdade: aumenta o Dano CRIT em <r>36%</r> por 4s. Quando os efeitos Segredo das Falsas Palavras e Lua da Verdade existirem simultaneamente, esses efeitos aumentarão em 50% cada.",
+            "4": "Aumenta a Taxa CRIT em <r>14%</r>. Ao lançar a Habilidade Elemental, o portador obtém o efeito Segredo das Falsas Palavras: aumenta a Proficiência Elemental em <r>140</r> por 12s. Quando o portador causa Dano de Florescimento Lunar contra o inimigo, obtém o efeito Lua da Verdade: aumenta o Dano CRIT em <r>42%</r> por 4s. Quando os efeitos Segredo das Falsas Palavras e Lua da Verdade existirem simultaneamente, esses efeitos aumentarão em 50% cada.",
+            "5": "Aumenta a Taxa CRIT em <r>16%</r>. Ao lançar a Habilidade Elemental, o portador obtém o efeito Segredo das Falsas Palavras: aumenta a Proficiência Elemental em <r>160</r> por 12s. Quando o portador causa Dano de Florescimento Lunar contra o inimigo, obtém o efeito Lua da Verdade: aumenta o Dano CRIT em <r>48%</r> por 4s. Quando os efeitos Segredo das Falsas Palavras e Lua da Verdade existirem simultaneamente, esses efeitos aumentarão em 50% cada."
           }
         }
       }

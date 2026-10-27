@@ -13,7 +13,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10003",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -29,6 +29,13 @@
         "bonuses": {
           "2": "Augmente la DÉF de 30 %.",
           "4": "Pour chaque personnage de l'équipe ayant un élément de type différent du personnage équipé, la RÉS élémentaire correspondante est augmentée de 30 %."
+        }
+      },
+      "pt": {
+        "name": "Guardião",
+        "bonuses": {
+          "2": "DEF +30%",
+          "4": "Aumenta a própria RES do respectivo elemento em 30% para cada elemento diferente dos seus personagens da equipe."
         }
       }
     }

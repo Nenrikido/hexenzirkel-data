@@ -536,7 +536,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000022",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -669,6 +669,72 @@
             "level": 6,
             "name": "Tempête de résistance",
             "desc": "La <e:anemo>RÉS Anémo</e> des ennemis touchés par <k>Ode au vent</k> diminue de 20 %.\nEn cas d'absorption élémentaire, leur RÉS à l'élément correspondant diminue également de 20 %.\nDe plus, les DGT que Venti inflige à ces ennemis obtiennent un bonus de DGT CRIT de 100 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Tiro com Arco Divino",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 6 disparos consecutivos com o arco.\n\n<k>Ataque Carregado</k>\nRealiza um <k>Disparo com Mira</k> mais preciso com Dano aumentado.\nEnquanto estiver mirando, ventos favoráveis irão se acumular na ponta da flecha. Uma flecha completamente carregada com o vento irá infligir <e:anemo>Dano Anemo</e>.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.\n\n<k>Mágico: Ritual Secreto</k>\nEnquanto o Olho da Tempestade criado pelo Supremo <k>Grande Ode do Vento</k> estiver ativo, Venti ganhará bônus adicionais:\n· Quando a <k>Flecha Furacão</k> do Ataque Normal convertido de Venti atingir um inimigo, causará mais <e:anemo>Dano Anemo</e> contra os inimigos que atingir no caminho.\n· Quando o Ataque Normal de Venti atingir um inimigo, prolongará a duração do Olho da Tempestade em 1s, e prolongará a recarga em 0.5s. Esse efeito pode ser desencadeado uma vez a cada 0.1s, podendo ser desencadeado até 2 vezes por Supremo <k>Grande Ode do Vento</k> lançado."
+          },
+          "skill": {
+            "name": "Sonata Celestial",
+            "desc": "Ó vento no qual voam todos os hinos e canções pelo ar, leve estes peregrinos terrestres aos céus!\n\n<k>Pressionar</k>\nEvoca um Domínio dos Ventos na localização do inimigo, causando <e:anemo>Dano Anemo em uma AdE</e> e lançando inimigos pelo ar.\n\n<k>Manter pressionado</k>\nEvoca um Domínio dos Ventos ainda maior com um Venti em seu centro, causando <e:anemo>Dano Anemo em AdE</e> e lançando inimigos afetados pelo ar.\nApós liberar a versão de Manter Pressionado dessa habilidade, Venti monta o vento pelo ar.\n\nInimigos atingidos pelo Soneto dos Céus cairão lentamente ao chão.\n\n<i>Nos dias em que deuses e homens andaram na terra juntos, os céus eram cheios de infinitas canções. Essa melodia foi esquecida há muito tempo.</i>"
+          },
+          "burst": {
+            "name": "Grande Ode do Vento",
+            "desc": "Dispara uma flecha energizada com vento, criando um grande Olho da Tempestade que suga inimigos, causando <e:anemo>Dano Anemo</e> contínuo.\n\n<k>Absorção Elemental</k>\nSe o Olho da Tempestade entrar em contato com os elementos <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, causará Dano elemental adicional daquele tipo.\nA Absorção Elemental pode ocorrer uma vez a cada uso.\n\n<i>Muitos hinos escritos para elogiar o Arconte Anemo não existem mais. Essa é a sua compreensão do vento.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Abrace os Ventos",
+            "desc": "Ao manter pressionado a <k>Sonata Celestial</k> cria uma corrente de vento que dura por 20s."
+          },
+          {
+            "name": "Olho da Tempestade",
+            "desc": "Regenera 15 de Energia para Venti após o efeito do <k>Grande Ode do Vento</k> terminar.\nSe ocorrer uma Absorção Elemental, também irá restaurar 15 de Energia a todos os personagens da equipe do elemento correspondente."
+          },
+          {
+            "name": "Viajante do Vento",
+            "desc": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+          },
+          {
+            "name": "Presente da Noite da Bruxa: Ode ao Vento",
+            "desc": "Depois de completar <k>Tarefa da Bruxa: No Despertar do Vento</k>, Venti se tornará um personagem <k>Mágico</k>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obterá o efeito <k>Mágico: Ritual Secreto</k>, fortalecendo os personagens Mágicos.\n\n<k>Mágico: Ritual Secreto</k>\nEnquanto o Olho da Tempestade criado pelo Supremo <k>Grande Ode do Vento</k> existir, e nos 4s após o personagem ativo causar Redemoinho ou Redemoinho Estelar, aumentará o Dano desse personagem em 50% e o Dano do Olho da Tempestade de Venti em 135% de seu valor original."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Vento Dividido",
+            "desc": "O <k>Disparo com Mira </k> dispara duas flechas adicionais, cada uma causando 33% de Dano original.\nAlém disso, <k>Flecha Furacão</k> também dispara duas flechas perseguidoras, cada uma causando 20% do Dano original. Esse efeito pode ser desencadeado uma vez a cada 0.25s."
+          },
+          {
+            "level": 2,
+            "name": "Brisa da Reminiscência",
+            "desc": "<k>Sonata Celestial</k> reduz a <e:anemo>RES Anemo</e> e RES Física do inimigo em 24% por 10s.\nAlém disso, depois de lançar o Supremo <k>Grande Ode do Vento</k>, Venti obtém o efeito <k>Ascensão Zéfira</k>, e redefine a recarga da Habilidade Elemental <k>Sonata Celestial</k>. Depois da <k>Flecha Furacão</k> atingir um inimigo, Venti possui 25% de chance de obter o efeito <k>Ascensão Zéfira</k>.\n\n<k>Ascensão Zéfira</k>\nAo pressionar para lançar a Habilidade Elemental <k>Sonata Celestial</k>, causa 300% do Dano original. Esse efeito dura 15s, e será removido quando Venti pressionar a Habilidade Elemental <k>Sonata Celestial</k>."
+          },
+          {
+            "level": 3,
+            "name": "Ode aos Ventos Milenares",
+            "desc": "Aumenta o nível do <k>Grande Ode do Vento</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Furacão da Liberdade",
+            "desc": "Depois que Venti lançar a Habilidade Elemental <k>Sonata Celestial</k> ou o Supremo <k>Grande Ode do Vento</k>, Venti e os demais personagens ativos da equipe obtêm 25% de <e:anemo>Bônus de Dano Anemo</e> por 10s."
+          },
+          {
+            "level": 5,
+            "name": "Concerto Celestial",
+            "desc": "Aumenta o nível da <k>Sonata Celestial</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Tempestade do Desafio",
+            "desc": "Alvos que levarem Dano da <k>Grande Ode do Vento</k> terão sua <e:anemo>RES Anemo</e> reduzida em 20%.\nSe uma Absorção Elemental ocorrer, então sua RES ao Elemento correspondente também é reduzida em 20%.\nAlém disso, o Dano que Venti causar contra esses inimigos obtém 100% de bônus de Dano CRIT."
           }
         ]
       }

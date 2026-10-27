@@ -78,7 +78,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11434",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -105,6 +105,19 @@
             "3": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>30 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>24 % ou 42 %</r> supplémentaires.",
             "4": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>35 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>28 % ou 49 %</r> supplémentaires.",
             "5": "Les DGT infligés par les déchaînements élémentaires augmentent de <r>40 %</r>. Lorsque l'énergie élémentaire du personnage équipé de l'arme ne dépasse pas 60 ou 40 pts, les DGT infligés par ses déchaînements élémentaires augmentent respectivement de <r>32 % ou 56 %</r> supplémentaires."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada prateada imaculada e afiada que pode cortar armadura como o luar rompendo a noite. As lendas dizem que é uma lâmina divina abençoada pela primeira Emissária da Canção Lunar.",
+        "passive": {
+          "name": "Testemunho da Prata Sagrada",
+          "refinements": {
+            "1": "Aumenta o Dano causado pelo Supremo em <r>20%</r>. Quando a Energia Elemental do personagem que está com essa arma equipada não é maior que 60/40, aumenta o Dano do Supremo em mais <r>16%/28%</r>.",
+            "2": "Aumenta o Dano causado pelo Supremo em <r>25%</r>. Quando a Energia Elemental do personagem que está com essa arma equipada não é maior que 60/40, aumenta o Dano do Supremo em mais <r>20%/35%</r>.",
+            "3": "Aumenta o Dano causado pelo Supremo em <r>30%</r>. Quando a Energia Elemental do personagem que está com essa arma equipada não é maior que 60/40, aumenta o Dano do Supremo em mais <r>24%/42%</r>.",
+            "4": "Aumenta o Dano causado pelo Supremo em <r>35%</r>. Quando a Energia Elemental do personagem que está com essa arma equipada não é maior que 60/40, aumenta o Dano do Supremo em mais <r>28%/49%</r>.",
+            "5": "Aumenta o Dano causado pelo Supremo em <r>40%</r>. Quando a Energia Elemental do personagem que está com essa arma equipada não é maior que 60/40, aumenta o Dano do Supremo em mais <r>32%/56%</r>."
           }
         }
       }

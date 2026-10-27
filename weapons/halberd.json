@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13302",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Les attaques normales infligent <r>240 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s.",
             "4": "Les attaques normales infligent <r>280 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s.",
             "5": "Les attaques normales infligent <r>320 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les 10 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma arma de fogo com uma lâmina de machado montada no topo que pode causar muito dano. É a arma preferida entre os Oficiais de Millelith.",
+        "passive": {
+          "name": "Pesado",
+          "refinements": {
+            "1": "Ataques Normais causam um adicional de <r>160%</r> de Dano ao oponente atingido. Este efeito pode ser ativado uma vez a cada 10s.",
+            "2": "Ataques Normais causam um adicional de <r>200%</r> de Dano ao oponente atingido. Este efeito pode ser ativado uma vez a cada 10s.",
+            "3": "Ataques Normais causam um adicional de <r>240%</r> de Dano ao oponente atingido. Este efeito pode ser ativado uma vez a cada 10s.",
+            "4": "Ataques Normais causam um adicional de <r>280%</r> de Dano ao oponente atingido. Este efeito pode ser ativado uma vez a cada 10s.",
+            "5": "Ataques Normais causam um adicional de <r>320%</r> de Dano ao oponente atingido. Este efeito pode ser ativado uma vez a cada 10s."
           }
         }
       }

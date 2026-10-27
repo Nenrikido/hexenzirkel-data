@@ -23,7 +23,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15017",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -39,6 +39,13 @@
         "bonuses": {
           "2": "Les PV sont augmentés de 20 %.",
           "4": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ de tous les personnages de l'équipe à proximité augmente de 20 % et la force de leur bouclier augmente de 30 % pendant 3 s. Cet effet peut être déclenché une fois toutes les 0,5 s, même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+        }
+      },
+      "pt": {
+        "name": "Millelith Firmes",
+        "bonuses": {
+          "2": "Aumenta a vida em 20%.",
+          "4": "Quando a Habilidade Elemental atinge um oponente, o ATQ de todos os membros da equipe próximos aumenta em 20% e sua Força do Escudo aumenta em 30% por 3s. Esse efeito pode ser ativado uma vez a cada 0,5s. Esse efeito ainda pode ser ativado mesmo quando o personagem que está usando esse conjunto de artefatos não está em campo."
         }
       }
     }

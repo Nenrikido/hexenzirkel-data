@@ -370,7 +370,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000060",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -495,6 +495,68 @@
             "level": 6,
             "name": "Tout pour le vainqueur",
             "desc": "Après avoir utilisé <k>Dé exquis des profondeurs</k>, Yelan entre dans l'état Stratège.\nSes attaques normales deviennent alors des flèches perçantes spéciales. Ces flèches possèdent les mêmes capacités que les flèches perçantes normales, et les DGT qu'elles infligent sont considérés comme des DGT d'attaque chargée infligeant 156 % des DGT des flèches perçantes normales.\n\nL'état Stratège dure 20 s maximum ou est annulé après avoir tiré 5 flèches."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Flecha Oculta",
+            "desc": "<k>Ataque Normal</k>\nRealiza até quatro disparos consecutivos com o arco.\n\n<k>Ataque Carregado</k>\nRealiza um <k>disparo com mira</k> de maior dano e precisão.\nAo mirar, o fluxo de água acumulará continuamente na ponta da flecha. Quando a flecha estiver totalmente carregada com esse fluxo torrencial, infligirá <e:hydro>Dano Hydro</e>.\n<k>Ruptura</k>\nDepois de 5s fora de batalha, Yelan entra no estado \"Ruptura\", no qual o carregamento de seu próximo Disparo com Mira terá seu tempo necessário reduzido em 80%, e quando estiver totalmente carregado, ela disparará a sua \"Flecha da Ruptura\", que infligirá <e:hydro>Dano Hydro em AdE</e> baseado em sua Vida Máxima.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Rede da Vida Salvadora",
+            "desc": "Tira seu \"Fio da Vida\" e corre, marcando os inimigos no caminho.\nQuando termina de correr, o \"Fio da Vida\" explodirá e infligirá <e:hydro>Dano Hydro</e> contra os inimigos marcados, baseado na Vida Máxima de Yelan.\n\n<k>Pressionar</k>\nCorre uma certa distância para frente rapidamente.\n\n<k>Manter Pressionado</k>\nCorre continuamente e aumenta a Resistência Contra Interrupção de Yelan enquanto estiver nesse estado.\nNesse período, Yelan poderá controlar a direção que corre. Lançar sua habilidade mais uma vez fará com que sua corrida termine.\n\nAlém disso, quando o \"Fio da Vida\" explode, Yelan possui uma chance de obter o efeito \"Ruptura\" de acordo com o número de inimigos marcados: cada inimigo marcado aumenta essa chance em 34%.\n\n<i>Quando ela captura com seus fios, os grupos de malfeitores e os discípulos de artimanhas conspiratórias serão todos descobertos, e todos sabem que não há mais escapatória</i>."
+          },
+          "burst": {
+            "name": "Dado das Profundezas Claras",
+            "desc": "Inflige <e:hydro>Dano Hydro em AdE</e> e lança um \"Dado Misterioso\" que ajuda na batalha.\n\n<k>Dado Misterioso</k>\nSegue o personagem e, nas circunstâncias específicas abaixo, realiza Ataques Coordenados que infligem <e:hydro>Dano Hydro</e> baseados na Vida Máxima de Yelan:\n· Pode ser desencadeado uma vez por segundo quando o personagem ativo de sua equipe realizar um Ataque Normal;\n· Quando o \"Fio da Vida\" de Yelan explodir e atingir os inimigos, realizará um Ataque Coordenado.\n\n<i>\"Não é bom ser um viciado em apostas. Eu sou uma banqueira de apostas, deixe-me comparar: você tem um dado, como poderia vencer os meus sete?\"</i>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Estratégia Controlada",
+            "desc": "Quando há 1/2/3/4 personagens de tipos elementais diferentes, a Vida Máxima de Yelan aumenta 6%/12%/18%/30% respectivamente."
+          },
+          {
+            "name": "Adaptação Esperta",
+            "desc": "Enquanto o <k>Dado Misterioso</k> existir, aumenta o Dano do personagem ativo no campo de batalha em 1%, e a cada 1s aumenta em 3.5%. Permite aumentar o Dano infligido pela personagem em até 50%.\nSe Dado das Profundezas Claras for lançado novamente enquanto o efeito estiver ativo, esse efeito original será eliminado."
+          },
+          {
+            "name": "Longa Consideração",
+            "desc": "Ganha 25% recompensas a mais quando enviada numa Expedição em Liyue por 20 horas."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Entram os Trapaceadores",
+            "desc": "<k>Rede da Vida Salvadora</k> pode ser utilizada mais uma vez."
+          },
+          {
+            "level": 2,
+            "name": "Quanto Mais Pessoas, Melhor",
+            "desc": "Quando <k>Dado Misterioso</k> faz um Ataque Coordenado, será disparada uma flecha d'água adicional, infligindo Dano Hydro equivalente a 14% da Vida Máxima de Yelan.\nEsse efeito pode ocorrer até uma vez a cada 1.8s."
+          },
+          {
+            "level": 3,
+            "name": "Dado Viciado",
+            "desc": "Aumenta o nível de <k>Dado das Profundezas Claras</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Blefe e Reviravolta",
+            "desc": "De acordo com a quantidade de inimigos marcados por <k>Fio da Vida</k>, a explosão de cada marca aumentará a Vida Máxima de todos os membros da equipe em 10% por 25s. É possível no máximo obter 40% de aumento da Vida Máxima desta forma."
+          },
+          {
+            "level": 5,
+            "name": "Prestidigitação da Banca",
+            "desc": "Aumenta o nível de <k>Rede da Vida Salvadora</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Vencedor Leva Tudo",
+            "desc": "Depois de lançar <k>Dado das Profundezas Claras</k>, Yelan entra no estado \"Mestra Estrategista\":\nOs Ataques Normais de Yelan serão convertidos em \"Flechas da Ruptura\" especiais. Essas flechas possuem as características similares à \"Flecha da Ruptura\", e seu Dano infligido será considerado como Dano de Ataque Carregado, infligindo 156% do Dano da Flecha da Ruptura normal.\n\nO estado \"Mestra Estrategista\" dura 20s e será eliminado quando Yelan disparar 5 flechas."
           }
         ]
       }

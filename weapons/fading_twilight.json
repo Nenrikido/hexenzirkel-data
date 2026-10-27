@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15411",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Cette arme possède trois états (crépuscule, rémanence et aube) qui augmentent respectivement les DGT infligés de <r>9 %/15 %/21 %</r>. Lorsqu'une attaque a touché un ennemi, l'arme passe à l'état suivant. Un changement d'état peut être déclenché une fois toutes les 7 s, même lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Cette arme possède trois états (crépuscule, rémanence et aube) qui augmentent respectivement les DGT infligés de <r>10,5 %/17,5 %/24,5 %</r>. Lorsqu'une attaque a touché un ennemi, l'arme passe à l'état suivant. Un changement d'état peut être déclenché une fois toutes les 7 s, même lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Cette arme possède trois états (crépuscule, rémanence et aube) qui augmentent respectivement les DGT infligés de <r>12 %/20 %/28 %</r>. Lorsqu'une attaque a touché un ennemi, l'arme passe à l'état suivant. Un changement d'état peut être déclenché une fois toutes les 7 s, même lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco precioso feito de platina, com uma gema incrustada que cintila com o brilho do crepúsculo.",
+        "passive": {
+          "name": "Brilho Abismal",
+          "refinements": {
+            "1": "Possui três estados: Entardecer, Amanhecer e Alvorada. Estes estados aumentam o Dano infligido em <r>6%/10%/14%</r> respectivamente. Ao atingir um inimigo com um ataque, se trocará para o próximo estado. Essa troca pode acontecer uma vez a cada 7s. Esse efeito também ocorrerá se o personagem que tiver esta arma equipada não estiver ativo no campo de batalha.",
+            "2": "Possui três estados: Entardecer, Amanhecer e Alvorada. Estes estados aumentam o Dano infligido em <r>7.5%/12.5%/17.5%</r> respectivamente. Ao atingir um inimigo com um ataque, se trocará para o próximo estado. Essa troca pode acontecer uma vez a cada 7s. Esse efeito também ocorrerá se o personagem que tiver esta arma equipada não estiver ativo no campo de batalha.",
+            "3": "Possui três estados: Entardecer, Amanhecer e Alvorada. Estes estados aumentam o Dano infligido em <r>9%/15%/21%</r> respectivamente. Ao atingir um inimigo com um ataque, se trocará para o próximo estado. Essa troca pode acontecer uma vez a cada 7s. Esse efeito também ocorrerá se o personagem que tiver esta arma equipada não estiver ativo no campo de batalha.",
+            "4": "Possui três estados: Entardecer, Amanhecer e Alvorada. Estes estados aumentam o Dano infligido em <r>10.5%/17.5%/24.5%</r> respectivamente. Ao atingir um inimigo com um ataque, se trocará para o próximo estado. Essa troca pode acontecer uma vez a cada 7s. Esse efeito também ocorrerá se o personagem que tiver esta arma equipada não estiver ativo no campo de batalha.",
+            "5": "Possui três estados: Entardecer, Amanhecer e Alvorada. Estes estados aumentam o Dano infligido em <r>12%/20%/28%</r> respectivamente. Ao atingir um inimigo com um ataque, se trocará para o próximo estado. Essa troca pode acontecer uma vez a cada 7s. Esse efeito também ocorrerá se o personagem que tiver esta arma equipada não estiver ativo no campo de batalha."
           }
         }
       }

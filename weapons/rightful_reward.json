@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13425",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Recevoir des soins restaure <r>12</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "4": "Recevoir des soins restaure <r>14</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "5": "Recevoir des soins restaure <r>16</r> pts d'énergie. Cet effet peut être déclenché une fois toutes les 10 s, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança afiada. Somente a ponta dela permanece recentemente manchada de sangue.",
+        "passive": {
+          "name": "Ponta da Lança",
+          "refinements": {
+            "1": "Ao ser curado, restaura <r>8</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "2": "Ao ser curado, restaura <r>10</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "3": "Ao ser curado, restaura <r>12</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "4": "Ao ser curado, restaura <r>14</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo.",
+            "5": "Ao ser curado, restaura <r>16</r> de Energia. Este efeito pode ser ativado uma vez a cada 10s e pode ser ativado mesmo quando o personagem não estiver em campo."
           }
         }
       }

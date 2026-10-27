@@ -24,7 +24,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15046",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -40,6 +40,13 @@
         "bonuses": {
           "2": "Augmente l'ATQ de 18 %.",
           "4": "Augmente les DGT infligés par les réactions de Supraconduction de 80 % et ceux infligés par les réactions d'Astroconduction de 40 %. Lorsque le personnage équipé de l'artéfact attaque un ennemi affecté par une réaction de Supraconduction ou d'Astroconduction, le taux CRIT de cette attaque augmente de 16 %."
+        }
+      },
+      "pt": {
+        "name": "Desencantamento na Sombra Profunda",
+        "bonuses": {
+          "2": "ATQ +18%",
+          "4": "Aumenta o Dano de Reação de Supercondutor em 80%. Aumenta o Dano de Supercondutor Estelar em 40%. Quando o portador ataca inimigos afetados por Supercondutor ou Supercondutor Estelar, aumenta a Taxa CRIT desse ataque em 16%."
         }
       }
     }

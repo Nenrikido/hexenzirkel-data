@@ -95,7 +95,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11516",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -122,6 +122,19 @@
             "3": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>12 %</r> et accorde un bonus de DGT élémentaires de <r>15 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>12 %</r> (jusqu'à <r>38,4 %</r> maximum) pendant 15 s.",
             "4": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>14 %</r> et accorde un bonus de DGT élémentaires de <r>17,5 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>14 %</r> (jusqu'à <r>44,8 %</r> maximum) pendant 15 s.",
             "5": "Toucher un ennemi avec une attaque normale ou plongeante accorde une ode aux fleurs : augmente la DÉF de <r>16 %</r> et accorde un bonus de DGT élémentaires de <r>20 %</r>, le tout pendant 6 s, cet effet pouvant être cumulé 2 fois maximum et déclenché une fois toutes les 0,1 s. Lorsque cet effet obtient 2 cumuls ou que la durée du 2e cumul est actualisée, chaque tranche de 1 000 pts de DÉF du personnage équipé de l'arme augmente le bonus de DGT élémentaires de tous les personnages de l'équipe à proximité de <r>16 %</r> (jusqu'à <r>51,2 %</r> maximum) pendant 15 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lâmina de obsidiana de afiação incomparável, leve como uma canção. Foi modificada por um certo artesão para vir equipada com um dispositivo de Flogisto destacável que toca discos.",
+        "passive": {
+          "name": "Juventude Eterna",
+          "refinements": {
+            "1": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em <r>8%</r> e obtém <r>10%</r> de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.1s. Quando esse efeito alcançar ou possuir 2 acúmulos, sua duração será redefinida, para então, com base em cada 1.000 de DEF do personagem que está com essa arma equipada, aumentar o bônus de Dano de todos os Elementos para todos os membros da equipe em <r>8%</r>, podendo aumentar até <r>25.6%</r> por 15s.",
+            "2": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em <r>10%</r> e obtém <r>12.5%</r> de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.1s. Quando esse efeito alcançar ou possuir 2 acúmulos, sua duração será redefinida, para então, com base em cada 1.000 de DEF do personagem que está com essa arma equipada, aumentar o bônus de Dano de todos os Elementos para todos os membros da equipe em <r>10%</r>, podendo aumentar até <r>32%</r> por 15s.",
+            "3": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em <r>12%</r> e obtém <r>15%</r> de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.1s. Quando esse efeito alcançar ou possuir 2 acúmulos, sua duração será redefinida, para então, com base em cada 1.000 de DEF do personagem que está com essa arma equipada, aumentar o bônus de Dano de todos os Elementos para todos os membros da equipe em <r>12%</r>, podendo aumentar até <r>38.4%</r> por 15s.",
+            "4": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em <r>14%</r> e obtém <r>17.5%</r> de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.1s. Quando esse efeito alcançar ou possuir 2 acúmulos, sua duração será redefinida, para então, com base em cada 1.000 de DEF do personagem que está com essa arma equipada, aumentar o bônus de Dano de todos os Elementos para todos os membros da equipe em <r>14%</r>, podendo aumentar até <r>44.8%</r> por 15s.",
+            "5": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em <r>16%</r> e obtém <r>20%</r> de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.1s. Quando esse efeito alcançar ou possuir 2 acúmulos, sua duração será redefinida, para então, com base em cada 1.000 de DEF do personagem que está com essa arma equipada, aumentar o bônus de Dano de todos os Elementos para todos os membros da equipe em <r>16%</r>, podendo aumentar até <r>51.2%</r> por 15s."
           }
         }
       }

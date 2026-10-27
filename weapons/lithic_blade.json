@@ -101,7 +101,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12410",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -128,6 +128,19 @@
             "3": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>9 %</r> de bonus d'ATQ et de <r>5 %</r> de bonus de taux CRIT pour chaque personnage de l'équipe provenant de Liyue. Ces bonus peuvent être cumulés 4 fois maximum.",
             "4": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>10 %</r> de bonus d'ATQ et de <r>6 %</r> de bonus de taux CRIT pour chaque personnage de l'équipe provenant de Liyue. Ces bonus peuvent être cumulés 4 fois maximum.",
             "5": "Pour chaque personnage de Liyue présent dans l'équipe, le personnage équipé de cette arme bénéficie de <r>11 %</r> de bonus d'ATQ et de <r>7 %</r> de bonus de taux CRIT pour chaque personnage de l'équipe provenant de Liyue. Ces bonus peuvent être cumulés 4 fois maximum."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada grande esculpida e cinzelada na própria base de Liyue.",
+        "passive": {
+          "name": "Axioma de Millelith: Unidade",
+          "refinements": {
+            "1": "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em <r>7%</r> e aumenta sua Taxa CRIT em <r>3%</r>. Esse efeito pode ser acumulado no máximo 4 vezes.",
+            "2": "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em <r>8%</r> e aumenta sua Taxa CRIT em <r>4%</r>. Esse efeito pode ser acumulado no máximo 4 vezes.",
+            "3": "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em <r>9%</r> e aumenta sua Taxa CRIT em <r>5%</r>. Esse efeito pode ser acumulado no máximo 4 vezes.",
+            "4": "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em <r>10%</r> e aumenta sua Taxa CRIT em <r>6%</r>. Esse efeito pode ser acumulado no máximo 4 vezes.",
+            "5": "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em <r>11%</r> e aumenta sua Taxa CRIT em <r>7%</r>. Esse efeito pode ser acumulado no máximo 4 vezes."
           }
         }
       }

@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12201",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Un espadon qui a fait des ravages sur bien des champs de bataille. Il a vu des jours meilleurs, mais aussi bien pires."
+      },
+      "pt": {
+        "flavor": "Uma grande espada testada em batalhas, passou por muitos momentos árduos."
       }
     }
   }

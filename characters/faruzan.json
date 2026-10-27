@@ -288,7 +288,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000076",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -413,6 +413,68 @@
             "level": 6,
             "name": "Merveilleux chemin de la vérité",
             "desc": "Les DGT CRIT des personnages sous l'effet Vent de prière de <k>Sentier secret du vent</k> augmentent de 40 % lorsqu'ils infligent des <e:anemo>DGT Anémo</e>. Lorsque le personnage déployé inflige des DGT alors qu'il est affecté par l'effet Vent de prière, il inflige l'effet Effondrement compressé à l'ennemi, cet effet pouvant être déclenché une fois toutes les 3 s et son TdR étant partagé entre tous les personnages de l'équipe."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Disparo com Reviravoltas",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 disparos consecutivos com um arco.\n\n<k>Ataque Carregado</k>\nRealiza um <k>Disparo com Mira </k>mais preciso e com Dano aumentado.\nAo mirar, ventos fortes se acumularão na ponta da flecha. Uma flecha completamente carregada com ventos fortes irá infligir <e:anemo>Dano Anemo</e>.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas no ar que atingirão o solo rapidamente, alcançando os inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Reino do Vento de Nasamjnin",
+            "desc": "Faruzan lança um poliedro que inflige <e:anemo>Dano Anemo em AdE</e> contra os inimigos próximos e obtém o efeito \"Aparição Tempestuosa\".\nEnquanto estiver no estado \"Aparição Tempestuosa\", o próximo disparo com mira totalmente carregado de Faruzan consumirá o efeito \"Aparição Tempestuosa\" para disparar uma \"Flecha do Furacão Intenso\" que contém um vórtice de alta pressão. Esse disparo infligirá <e:anemo>Dano Anemo</e> baseado no Dano de Disparo com Mira totalmente carregado de \"Ataque Normal: Disparo com Reviravoltas\".\n\n<k>Armadilha da Ventania</k>\nA Flecha do Furacão Intenso desencadeará o efeito \"Armadilha da Ventania\" na posição, inimigo ou personagem que atingir. Esse efeito será removido após um breve intervalo de tempo, gerando um vórtice Anemo que inflige <e:anemo>Dano Anemo em AdE</e> e atrai os inimigos e objetos próximos. Se não atingir inimigos ou personagens, uma Armadilha da Ventania será gerada na posição atingida.\nO Dano do vórtice Anemo é considerado Dano de Habilidade Elemental.\n\n<i>Os ventos da verdade sopram os espíritos daqueles que buscam a veracidade, dispersando o miasma do preconceito.</i>"
+          },
+          "burst": {
+            "name": "Caminhos Secretos do Vento",
+            "desc": "Faruzan rapidamente envia seu Poliedro Fantástico, lançando uma Onda Anemo Feroz que causa <e:anemo>Dano Anemo em AdE</e>.\nEnquanto existir, o Poliedro Fantástico se moverá em uma trajetória triangular. Quando alcançar cada vértice desse triângulo, lançará uma \"Onda Anemo Feroz\".\n\n<k>Onda Anemo Feroz</k>\n· Quando a Onda Anemo Feroz é lançada, marcará os inimigos ao redor com o efeito \"Calamidade da Ventania\", reduzindo sua <e:anemo>RES Anemo</e>;\n· Quando a Onda Anemo Feroz é lançada, aplicará o efeito \"Bênção da Ventania\" em todos os membros próximos da equipe, concedendo <e:anemo>Bônus de Dano Anemo</e>.\n\n<i>É necessário respeitar a sabedoria desconhecida que pode ser encontrada em ruínas antigas.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Corrente Impetuosa",
+            "desc": "Quando Faruzan se encontra no estado de \"Aparição Tempestuosa\" criado pelo <k>Reino do Vento de Nasamjnin</k>, o tempo de carregamento necessário para ela realizar o Disparo com Mira é reduzido em 60%. Além disto, ela também poderá aplicar o efeito da \"Calamidade da Ventania\" de <k>Caminhos Secretos do Vento</k> no inimigo atingido pelo vórtice criado pelo efeito \"Armadilha da Ventania\"."
+          },
+          {
+            "name": "Sabedoria Perdida das Sete Cavernas",
+            "desc": "Quando os Ataques Normais, Ataques Carregados, Ataques Imersivos, Habilidades Elementais ou Supremos de um personagem sob o efeito da \"Bênção da Ventania\" de <k>Caminhos Secretos do Vento</k> causam <e:anemo>Dano Anemo</e> nos inimigos, gerarão o efeito Proteção do Vento Feroz: aumenta o Dano causado baseado em 32% do ATQ Básico da Faruzan. Este efeito só pode ser ativado uma vez a cada 0.8s e é anulado quando o efeito da Benção da Ventania acaba ou depois que já foi ativado uma vez."
+          },
+          {
+            "name": "Vestígios de Conhecimento",
+            "desc": "Quando enviada para uma Expedição em Sumeru por 20 horas, Faruzan obtém 25% a mais de recompensas."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Busca pela Verdade",
+            "desc": "Quando estiver sob um único efeito \"Aparição Tempestuosa\" de <k>Reino do Vento de Nasamjnin</k>, Faruzan pode disparar até 2 Flechas do Furacão Intenso do Disparo com Mira totalmente carregadas."
+          },
+          {
+            "level": 2,
+            "name": "Inteligência Excessiva",
+            "desc": "A duração do Poliedro Fantástico criado por <k>Caminhos Secretos do Vento</k> é estendida por 6s."
+          },
+          {
+            "level": 3,
+            "name": "Vagando pelo Jardim Espiritual",
+            "desc": "Aumenta o nível de <k>Reino do Vento de Nasamjnin</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Compreensão Divina",
+            "desc": "Com base no número de inimigos atingidos, o vórtice Anemo criado por <k>Armadilha da Ventania</k> poderá regenerar Energia Elemental para Faruzan: ao atingir 1 inimigo, regenerará 2 de Energia Elemental para Faruzan; ao atingir cada inimigo adicional, regenerará 0.5 de Energia Elemental para Faruzan.\nFaruzan poderá regenerar até 4 de Energia Elemental por vórtice Anemo desta maneira."
+          },
+          {
+            "level": 5,
+            "name": "Maravilhas da Contemplação",
+            "desc": "Aumenta o nível de <k>Caminhos Secretos do Vento</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Essência da Verdade",
+            "desc": "Personagens sob a influência do efeito da \"Bênção da Ventania\" de <k>Caminhos Secretos do Vento</k> receberão um aumento de 40% de Dano CRIT ao infligir <e:anemo>Dano Anemo</e> nos inimigos. Quando o personagem ativo em uma equipe sob influência da \"Bênção da Ventania\" causa Dano, será lançada 1 Armadilha da Ventania adicional nos inimigos; este efeito pode ser desencadeado até 1 vez a cada 3s e compartilha a recarga entre todos os personagens."
           }
         ]
       }

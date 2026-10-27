@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15413",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>24 %</r> pendant 6 s.",
             "4": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>28 %</r> pendant 6 s.",
             "5": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de <r>32 %</r> pendant 6 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco adornado com flores desconhecidas que carrega as esperanças de uma pessoa também desconhecida.",
+        "passive": {
+          "name": "Desejo da Brisa Florescente",
+          "refinements": {
+            "1": "Ao lançar uma Habilidade Elemental, se obtém o desejo antigo da Flor do Vento, e o Ataque aumenta <r>16%</r> por 6s.",
+            "2": "Ao lançar uma Habilidade Elemental, se obtém o desejo antigo da Flor do Vento, e o Ataque aumenta <r>20%</r> por 6s.",
+            "3": "Ao lançar uma Habilidade Elemental, se obtém o desejo antigo da Flor do Vento, e o Ataque aumenta <r>24%</r> por 6s.",
+            "4": "Ao lançar uma Habilidade Elemental, se obtém o desejo antigo da Flor do Vento, e o Ataque aumenta <r>28%</r> por 6s.",
+            "5": "Ao lançar uma Habilidade Elemental, se obtém o desejo antigo da Flor do Vento, e o Ataque aumenta <r>32%</r> por 6s."
           }
         }
       }

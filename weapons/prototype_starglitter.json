@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13402",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>12 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum.",
             "4": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>14 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum.",
             "5": "Après l'utilisation d'une compétence élémentaire, les DGT des attaques normales et chargées augmentent de <r>16 %</r> pendant 12 s. Cet effet peut être cumulé 2 fois maximum."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um rancor descoberto na Forja do Penhasco Obscuro. Os vislumbres ao longo da borda afiada são como estrelas na noite.",
+        "passive": {
+          "name": "Viciado em Magia",
+          "refinements": {
+            "1": "Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em <r>8%</r> por 12s, podendo acumular até 2 vezes.",
+            "2": "Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em <r>10%</r> por 12s, podendo acumular até 2 vezes.",
+            "3": "Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em <r>12%</r> por 12s, podendo acumular até 2 vezes.",
+            "4": "Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em <r>14%</r> por 12s, podendo acumular até 2 vezes.",
+            "5": "Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em <r>16%</r> por 12s, podendo acumular até 2 vezes."
           }
         }
       }

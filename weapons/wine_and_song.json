@@ -45,7 +45,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14410",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -72,6 +72,19 @@
             "3": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>18 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>30 %</r> pendant 5 s.",
             "4": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>20 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>35 %</r> pendant 5 s.",
             "5": "Lorsqu'une attaque normale a touché un ennemi, la consommation d'endurance du sprint ou du sprint alternatif diminue de <r>22 %</r> pendant 5 s. De plus, après l'utilisation du sprint ou de l'aptitude qui le remplace, l'ATQ augmente de <r>40 %</r> pendant 5 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um livro de canções da época aristocrática passada, cujo compositor foi esquecido. Ele narra a história de um certo fora-da-lei heroico.",
+        "passive": {
+          "name": "Mudança Constante",
+          "refinements": {
+            "1": "Quando um Ataque Normal atingir um inimigo, o consumo de Stamina ao Correr ou utilizar uma habilidade que substitua Correr reduz em <r>14%</r> por 5s. Além disso, depois de Correr ou utilizar uma habilidade que substitua Correr aumenta o Ataque em <r>20%</r> durante 5s.",
+            "2": "Quando um Ataque Normal atingir um inimigo, o consumo de Stamina ao Correr ou utilizar uma habilidade que substitua Correr reduz em <r>16%</r> por 5s. Além disso, depois de Correr ou utilizar uma habilidade que substitua Correr aumenta o Ataque em <r>25%</r> durante 5s.",
+            "3": "Quando um Ataque Normal atingir um inimigo, o consumo de Stamina ao Correr ou utilizar uma habilidade que substitua Correr reduz em <r>18%</r> por 5s. Além disso, depois de Correr ou utilizar uma habilidade que substitua Correr aumenta o Ataque em <r>30%</r> durante 5s.",
+            "4": "Quando um Ataque Normal atingir um inimigo, o consumo de Stamina ao Correr ou utilizar uma habilidade que substitua Correr reduz em <r>20%</r> por 5s. Além disso, depois de Correr ou utilizar uma habilidade que substitua Correr aumenta o Ataque em <r>35%</r> durante 5s.",
+            "5": "Quando um Ataque Normal atingir um inimigo, o consumo de Stamina ao Correr ou utilizar uma habilidade que substitua Correr reduz em <r>22%</r> por 5s. Além disso, depois de Correr ou utilizar uma habilidade que substitua Correr aumenta o Ataque em <r>40%</r> durante 5s."
           }
         }
       }

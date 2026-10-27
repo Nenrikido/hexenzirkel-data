@@ -19,7 +19,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11426",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -46,6 +46,19 @@
             "3": "Le taux CRIT des compétences élémentaires augmente de <r>12 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>24 %</r> pendant 5 s.",
             "4": "Le taux CRIT des compétences élémentaires augmente de <r>14 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>28 %</r> pendant 5 s.",
             "5": "Le taux CRIT des compétences élémentaires augmente de <r>16 %</r>. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de <r>32 %</r> pendant 5 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um cano de cobre abandonado que foi usado como arma. Era famoso, ou infame, dependendo de onde se estivesse.",
+        "passive": {
+          "name": "Ossos de Aço",
+          "refinements": {
+            "1": "Aumenta a Taxa CRIT da Habilidade Elemental em <r>8%</r>. Além disso, após utilizar a Habilidade Elemental, aumenta a Recarga de Energia em <r>16%</r> por 5s.",
+            "2": "Aumenta a Taxa CRIT da Habilidade Elemental em <r>10%</r>. Além disso, após utilizar a Habilidade Elemental, aumenta a Recarga de Energia em <r>20%</r> por 5s.",
+            "3": "Aumenta a Taxa CRIT da Habilidade Elemental em <r>12%</r>. Além disso, após utilizar a Habilidade Elemental, aumenta a Recarga de Energia em <r>24%</r> por 5s.",
+            "4": "Aumenta a Taxa CRIT da Habilidade Elemental em <r>14%</r>. Além disso, após utilizar a Habilidade Elemental, aumenta a Recarga de Energia em <r>28%</r> por 5s.",
+            "5": "Aumenta a Taxa CRIT da Habilidade Elemental em <r>16%</r>. Além disso, após utilizar a Habilidade Elemental, aumenta a Recarga de Energia em <r>32%</r> por 5s."
           }
         }
       }

@@ -225,5 +225,54 @@
     "nanokaVersion": "7.1",
     "refinementModelled": "R5",
     "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R5 (house convention: 4* at R5, 5* at R1). Split into three entries because the base mode needs two independent counts."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "14437",
+      "retrievedAt": "2026-10-27",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A ceremonial artifact formed from the purest ice and snow. Legend has it that generations of Snegovik lords used it in coronation ceremonies until five hundred years ago.",
+        "passive": {
+          "name": "Secrets of Frost",
+          "refinements": {
+            "1": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <r>24</r> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <r>4.8%</r>. Up to 4 Cryo or Electro characters can provide the above buffs.\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <r>20</r>-point Elemental Mastery boost and deals <r>6%</r> increased Stellar Glimmer reaction DMG.",
+            "2": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <r>30</r> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <r>6%</r>. Up to 4 Cryo or Electro characters can provide the above buffs.\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <r>25</r>-point Elemental Mastery boost and deals <r>7.5%</r> increased Stellar Glimmer reaction DMG.",
+            "3": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <r>36</r> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <r>7.2%</r>. Up to 4 Cryo or Electro characters can provide the above buffs.\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <r>30</r>-point Elemental Mastery boost and deals <r>9%</r> increased Stellar Glimmer reaction DMG.",
+            "4": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <r>42</r> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <r>8.4%</r>. Up to 4 Cryo or Electro characters can provide the above buffs.\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <r>35</r>-point Elemental Mastery boost and deals <r>10.5%</r> increased Stellar Glimmer reaction DMG.",
+            "5": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <r>48</r> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <r>9.6%</r>. Up to 4 Cryo or Electro characters can provide the above buffs.\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <r>40</r>-point Elemental Mastery boost and deals <r>12%</r> increased Stellar Glimmer reaction DMG."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Un vase cérémoniel façonné à partir de glace et de neige des plus pures. La légende raconte qu'il était utilisé par tous les princes snegovik lors de la cérémonie de couronnement jusqu'à il y a cinq cents ans.",
+        "passive": {
+          "name": "Le secret du gel",
+          "refinements": {
+            "1": "Accorde l'effet Pacte de sang argenté au personnage équipé de l'arme : chaque personnage Cryo dans l'équipe augmente sa maîtrise élémentaire de <r>24</r> pts et chaque personnage Électro dans l'équipe augmente son ATQ de <r>4,8 %</r>, un maximum de 4 personnages Cryo ou Électro pouvant être pris en compte.\nRadiance astrale : l'effet Pacte de sang argenté est converti : chaque personnage Cryo ou Électro dans l'équipe augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>20</r> pts et ses DGT de réaction astrale de <r>6 %</r>.",
+            "2": "Accorde l'effet Pacte de sang argenté au personnage équipé de l'arme : chaque personnage Cryo dans l'équipe augmente sa maîtrise élémentaire de <r>30</r> pts et chaque personnage Électro dans l'équipe augmente son ATQ de <r>6 %</r>, un maximum de 4 personnages Cryo ou Électro pouvant être pris en compte.\nRadiance astrale : l'effet Pacte de sang argenté est converti : chaque personnage Cryo ou Électro dans l'équipe augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>25</r> pts et ses DGT de réaction astrale de <r>7,5 %</r>.",
+            "3": "Accorde l'effet Pacte de sang argenté au personnage équipé de l'arme : chaque personnage Cryo dans l'équipe augmente sa maîtrise élémentaire de <r>36</r> pts et chaque personnage Électro dans l'équipe augmente son ATQ de <r>7,2 %</r>, un maximum de 4 personnages Cryo ou Électro pouvant être pris en compte.\nRadiance astrale : l'effet Pacte de sang argenté est converti : chaque personnage Cryo ou Électro dans l'équipe augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>30</r> pts et ses DGT de réaction astrale de <r>9 %</r>.",
+            "4": "Accorde l'effet Pacte de sang argenté au personnage équipé de l'arme : chaque personnage Cryo dans l'équipe augmente sa maîtrise élémentaire de <r>42</r> pts et chaque personnage Électro dans l'équipe augmente son ATQ de <r>8,4 %</r>, un maximum de 4 personnages Cryo ou Électro pouvant être pris en compte.\nRadiance astrale : l'effet Pacte de sang argenté est converti : chaque personnage Cryo ou Électro dans l'équipe augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>35</r> pts et ses DGT de réaction astrale de <r>10,5 %</r>.",
+            "5": "Accorde l'effet Pacte de sang argenté au personnage équipé de l'arme : chaque personnage Cryo dans l'équipe augmente sa maîtrise élémentaire de <r>48</r> pts et chaque personnage Électro dans l'équipe augmente son ATQ de <r>9,6 %</r>, un maximum de 4 personnages Cryo ou Électro pouvant être pris en compte.\nRadiance astrale : l'effet Pacte de sang argenté est converti : chaque personnage Cryo ou Électro dans l'équipe augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>40</r> pts et ses DGT de réaction astrale de <r>12 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um objeto ritualístico feito de gelo e neve puros. Dizem que até quinhentos anos atrás, eram usados em coroações dos reis Snegoviks.",
+        "passive": {
+          "name": "Legado Secreto da Geada",
+          "refinements": {
+            "1": "O portador obtém Acordo de Sangue Prateado Contaminado: aumenta a Proficiência Elemental do portador em <r>24</r> para cada personagem Cryo da equipe. Aumenta o ATQ do portador em <r>4.8%</r> para cada personagem Electro da equipe. É possível que até 4 personagens Cryo ou Electro forneçam esse efeito.\nBrilho Reluzente: Brilho Estelar: o efeito Acordo de Sangue Prateado Contaminado é alterado para: aumenta a Proficiência Elemental do portador em <r>20</r> para cada personagem Cryo ou Electro da equipe, e aumenta o Dano de reações de Brilho Estelar em <r>6%</r>.",
+            "2": "O portador obtém Acordo de Sangue Prateado Contaminado: aumenta a Proficiência Elemental do portador em <r>30</r> para cada personagem Cryo da equipe. Aumenta o ATQ do portador em <r>6%</r> para cada personagem Electro da equipe. É possível que até 4 personagens Cryo ou Electro forneçam esse efeito.\nBrilho Reluzente: Brilho Estelar: o efeito Acordo de Sangue Prateado Contaminado é alterado para: aumenta a Proficiência Elemental do portador em <r>25</r> para cada personagem Cryo ou Electro da equipe, e aumenta o Dano de reações de Brilho Estelar em <r>7.5%</r>.",
+            "3": "O portador obtém Acordo de Sangue Prateado Contaminado: aumenta a Proficiência Elemental do portador em <r>36</r> para cada personagem Cryo da equipe. Aumenta o ATQ do portador em <r>7.2%</r> para cada personagem Electro da equipe. É possível que até 4 personagens Cryo ou Electro forneçam esse efeito.\nBrilho Reluzente: Brilho Estelar: o efeito Acordo de Sangue Prateado Contaminado é alterado para: aumenta a Proficiência Elemental do portador em <r>30</r> para cada personagem Cryo ou Electro da equipe, e aumenta o Dano de reações de Brilho Estelar em <r>9%</r>.",
+            "4": "O portador obtém Acordo de Sangue Prateado Contaminado: aumenta a Proficiência Elemental do portador em <r>42</r> para cada personagem Cryo da equipe. Aumenta o ATQ do portador em <r>8.4%</r> para cada personagem Electro da equipe. É possível que até 4 personagens Cryo ou Electro forneçam esse efeito.\nBrilho Reluzente: Brilho Estelar: o efeito Acordo de Sangue Prateado Contaminado é alterado para: aumenta a Proficiência Elemental do portador em <r>35</r> para cada personagem Cryo ou Electro da equipe, e aumenta o Dano de reações de Brilho Estelar em <r>10.5%</r>.",
+            "5": "O portador obtém Acordo de Sangue Prateado Contaminado: aumenta a Proficiência Elemental do portador em <r>48</r> para cada personagem Cryo da equipe. Aumenta o ATQ do portador em <r>9.6%</r> para cada personagem Electro da equipe. É possível que até 4 personagens Cryo ou Electro forneçam esse efeito.\nBrilho Reluzente: Brilho Estelar: o efeito Acordo de Sangue Prateado Contaminado é alterado para: aumenta a Proficiência Elemental do portador em <r>40</r> para cada personagem Cryo ou Electro da equipe, e aumenta o Dano de reações de Brilho Estelar em <r>12%</r>."
+          }
+        }
+      }
+    }
   }
 }

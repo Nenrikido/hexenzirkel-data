@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12432",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Déclencher une réaction d'Électrocution, de Sélénocution, de Fleurissement, de Sélénofleurissement, de Cristallisation ou de Sélénocristallisation restaure <r>18</r> pts d'énergie élémentaire et augmente la maîtrise élémentaire de <r>90</r> pts pendant 15 s. Cet effet peut être déclenché une fois toutes les 15 s et même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Déclencher une réaction d'Électrocution, de Sélénocution, de Fleurissement, de Sélénofleurissement, de Cristallisation ou de Sélénocristallisation restaure <r>21</r> pts d'énergie élémentaire et augmente la maîtrise élémentaire de <r>105</r> pts pendant 15 s. Cet effet peut être déclenché une fois toutes les 15 s et même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Déclencher une réaction d'Électrocution, de Sélénocution, de Fleurissement, de Sélénofleurissement, de Cristallisation ou de Sélénocristallisation restaure <r>24</r> pts d'énergie élémentaire et augmente la maîtrise élémentaire de <r>120</r> pts pendant 15 s. Cet effet peut être déclenché une fois toutes les 15 s et même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Histórias da tribo contam sobre uma grande lâmina forjada pelo Povo das Termas para proteger uma criança que embarcaria numa jornada para uma terra distante. Essa arma parece ser uma réplica da espada lendária.",
+        "passive": {
+          "name": "Pensamentos de Florescimento",
+          "refinements": {
+            "1": "Quando desencadeia uma reação de Eletricamente Carregado, Carga Lunar, Florescimento, Florescimento Lunar, Cristalização ou Cristalização Lunar, regenera <r>12</r> de Energia Elemental e aumenta a Proficiência Elemental em <r>60</r> nos próximos 15s. Esse efeito pode ser desencadeado uma vez a cada 15s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+            "2": "Quando desencadeia uma reação de Eletricamente Carregado, Carga Lunar, Florescimento, Florescimento Lunar, Cristalização ou Cristalização Lunar, regenera <r>15</r> de Energia Elemental e aumenta a Proficiência Elemental em <r>75</r> nos próximos 15s. Esse efeito pode ser desencadeado uma vez a cada 15s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+            "3": "Quando desencadeia uma reação de Eletricamente Carregado, Carga Lunar, Florescimento, Florescimento Lunar, Cristalização ou Cristalização Lunar, regenera <r>18</r> de Energia Elemental e aumenta a Proficiência Elemental em <r>90</r> nos próximos 15s. Esse efeito pode ser desencadeado uma vez a cada 15s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+            "4": "Quando desencadeia uma reação de Eletricamente Carregado, Carga Lunar, Florescimento, Florescimento Lunar, Cristalização ou Cristalização Lunar, regenera <r>21</r> de Energia Elemental e aumenta a Proficiência Elemental em <r>105</r> nos próximos 15s. Esse efeito pode ser desencadeado uma vez a cada 15s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+            "5": "Quando desencadeia uma reação de Eletricamente Carregado, Carga Lunar, Florescimento, Florescimento Lunar, Cristalização ou Cristalização Lunar, regenera <r>24</r> de Energia Elemental e aumenta a Proficiência Elemental em <r>120</r> nos próximos 15s. Esse efeito pode ser desencadeado uma vez a cada 15s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo."
           }
         }
       }

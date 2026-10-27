@@ -338,7 +338,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000002",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -471,6 +471,72 @@
             "level": 6,
             "name": "Danse de la lune",
             "desc": "Kamisato Ayaka s'illumine d'une gracieuseté gelée toutes les 10 s, augmentant les DGT infligés par son attaque chargée de 298 %. Cet effet s'annule 0,5 s après que l'attaque chargée d'Ayaka touche un ennemi, puis le chronomètre de cette capacité démarre."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Arte Kamisato: Naname",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome certa quantidade de Stamina para liberar o vento contínuo da espada.\n\n<k>Ataque Imersivo</k>\nMergulha do ar para atingir o chão abaixo, causando Dano aos inimigos ao longo do caminho e causando Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Arte Kamisato: Hyouka",
+            "desc": "Invoca uma flor gélida que lança os inimigos próximos para o ar, causando <e:cryo>Dano Cryo em uma AdE</e>.\n\n<i>\"As nuvens cobrem a noite iluminada pela lua. A saudade cai como uma névoa, enchendo a que está contida com o desejo de vaguear.\"</i>"
+          },
+          "burst": {
+            "name": "Arte Kamisato: Soumetsu",
+            "desc": "Ayaka acumula geada com uma pose perfeita, liberando um Granizo Seki no To que avança continuamente para frente.\n\n<k>Granizo Seki no To</k>\nCausa <e:cryo>Dano Cryo</e> ao cortar continuamente o inimigos que toca com ventos gélidos e afiados como lâminas;\nExplode após sua duração encerrar, causando <e:cryo>Dano Cryo em uma AdE</e>.\n\n<i>\"A nevasca cobre os pensamentos da garça, cujo coração está inundado por compaixão\".</i>"
+          },
+          "sprint": {
+            "name": "Arte Kamisato: Senho",
+            "desc": "<k>Corrida Alternada</k>\nAyaka consome Stamina para se esconder dentro de um rápido fluxo de granizo que se move à medida que ela se movimenta.\n\nNa forma Senho, ela se move em alta velocidade na água.\nQuando ela reaparece, os seguintes efeitos são produzidos:\n Libera uma energia fria e aplica <e:cryo>Cryo</e> aos oponentes ao redor.\nO frio condensa ao longo da lâmina da Kamisato Ayaka, obtendo por um breve período <e:cryo>Encantamento Cryo</e>.\n\n<i>\"Penas pairam molhadas, uma garça branca caminha sobre a água, é uma vista perfeita\".</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Amatsutsumi Kunitsutsumi Chinshi",
+            "desc": "Depois de usar <k>Arte Kamisato: Hyouka</k>, os danos causados pelos Ataques Normais e Carregados da Kamisato Ayaka ganham um aumento de 30% durante 6s."
+          },
+          {
+            "name": "Bênção de Kanten Senmyou",
+            "desc": "Quando a aplicação de Cryo no final da <k>Arte Kamisato: Senho</k> acerta um oponente, Kamisato Ayaka ganha os seguintes efeitos:\n· Recupera 10 de Stamina\n· Ganha 18% de <e:cryo>Bônus de Dano Cryo</e> por 10s."
+          },
+          {
+            "name": "Frutos de Shinsa",
+            "desc": "Quando Ayaka fabrica Materiais de Ascensão de Armas, ele tem 10% de chance de receber o dobro do produto."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Sosai Sumizome Sakura",
+            "desc": "Quando os Ataques Normal ou Carregado de Kamisato Ayaka infligem <e:cryo>Dano Cryo</e> aos inimigos, têm uma chance de 50% de diminuir a Recarga de <k>Arte Kamisato: Hyouka</k> em 0.3s. Esse efeito só pode ocorrer uma vez a cada 0.1s."
+          },
+          {
+            "level": 2,
+            "name": "Lâmina da Nevasca Seki no To",
+            "desc": "Ao lançar <k>Arte Kamisato: Soumetsu</k>, lança 2 Portões Souken pequenos adicionais, cada uma causando 20% do Dano da tempestade."
+          },
+          {
+            "level": 3,
+            "name": "Flor Congelada Kamifubuki",
+            "desc": "Aumenta o nível de <k>Arte Kamisato: Soumetsu</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Eiki Ryuhan",
+            "desc": "Inimigos atingidos pelo Granizo Seki no To de <k>Arte Kamisato: Soumetsu</k> terão sua DEF reduzido em 30% por 6s."
+          },
+          {
+            "level": 5,
+            "name": "Nuvem de Flores Irutsuki",
+            "desc": "Aumenta o nível de <k>Arte Kamisato: Hyouka</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Dança de Suigetsu",
+            "desc": "Kamisato Ayaka ganha Usuhari Butou a cada 10s, aumentando o Dano causado pelo seu Ataque Carregado em 298%. Esse bônus será dissipado 0.5s após o Ataque Carregado de Ayaka atingir um inimigo, em que o Tempo de Recarga dessa habilidade reiniciará."
           }
         ]
       }

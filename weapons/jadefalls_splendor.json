@@ -35,7 +35,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14505",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -62,6 +62,19 @@
             "3": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>5,5</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>0,7 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>28 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "4": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>6</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>0,9 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>36 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "5": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure <r>6,5</r> pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de <r>1,1 %</r> pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à <r>44 %</r>. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um recipiente ritualístico esculpido de jade que reflete o brilho dos céus e águas cristalinas.",
+        "passive": {
+          "name": "Presente de Jade Primordial",
+          "refinements": {
+            "1": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <r>4.5</r> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <r>0.3%</r> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <r>12%</r>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha.",
+            "2": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <r>5</r> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <r>0.5%</r> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <r>20%</r>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha.",
+            "3": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <r>5.5</r> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <r>0.7%</r> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <r>28%</r>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha.",
+            "4": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <r>6</r> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <r>0.9%</r> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <r>36%</r>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha.",
+            "5": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera <r>6.5</r> de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de <r>1.1%</r> para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até <r>44%</r>. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha."
           }
         }
       }

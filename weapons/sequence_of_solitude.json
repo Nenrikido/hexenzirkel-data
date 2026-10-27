@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15432",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>60 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s.",
             "4": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>70 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s.",
             "5": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à <r>80 %</r> des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco longo mecânico feito para disparos à longa distância e ataques silenciosos. Seu som é engolido pela noite, numa nota longa e fria.",
+        "passive": {
+          "name": "Gatilho Silencioso",
+          "refinements": {
+            "1": "Quando um ataque acerta um oponente, causa <r>40%</r> da Vida Máxima como Dano em uma AdE no local do alvo. Este efeito pode ser desencadeado uma vez a cada 15s.",
+            "2": "Quando um ataque acerta um oponente, causa <r>50%</r> da Vida Máxima como Dano em uma AdE no local do alvo. Este efeito pode ser desencadeado uma vez a cada 15s.",
+            "3": "Quando um ataque acerta um oponente, causa <r>60%</r> da Vida Máxima como Dano em uma AdE no local do alvo. Este efeito pode ser desencadeado uma vez a cada 15s.",
+            "4": "Quando um ataque acerta um oponente, causa <r>70%</r> da Vida Máxima como Dano em uma AdE no local do alvo. Este efeito pode ser desencadeado uma vez a cada 15s.",
+            "5": "Quando um ataque acerta um oponente, causa <r>80%</r> da Vida Máxima como Dano em uma AdE no local do alvo. Este efeito pode ser desencadeado uma vez a cada 15s."
           }
         }
       }

@@ -293,7 +293,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000005-anemo",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -418,6 +418,68 @@
             "level": 6,
             "name": "Vents enlacés",
             "desc": "La <e:anemo>RÉS Anémo</e> des ennemis touchés par <k>Rafale de vent</k> diminue de 20 %.\nEn cas d'absorption élémentaire, leur RÉS à l'élément correspondant diminue également de 20 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Vento de Ferro Estrangeiro",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Vórtice da Palma",
+            "desc": "Agarrando o poder do vento, você cria um vórtex de vácuo na sua palma, causando <e:anemo>Dano Anemo</e> contínuo nos inimigos à sua frente.\nO vórtex de vácuo explode quando a duração da habilidade acaba, causando um dano Anemo ainda maior em uma grande área.\n\n<k>Manter pressionado</k>\nDano em AdE irá aumentar gradualmente.\n\n<k>Absorção Elemental</k>\nSe o vórtex entrar em contato com os elementos <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, ele irá causar Dano elemental adicional baseado naquele tipo.\nAbsorção Elemental pode ocorrer apenas uma vez por uso.\n\n<i>Você conversou com a Paimon sobre a maneira de agarrar o vento sem forma.</i>"
+          },
+          "burst": {
+            "name": "Ondas de Rajadas",
+            "desc": "Guiando o caminho das correntes de vento, você evoca um tornado que se movimenta rapidamente para a frente e suga objetos e oponentes para dentro de si, causando <e:anemo>Dano Anemo</e> contínuo.\n\n<k>Absorção Elemental</k>\nSe o tornado entrar em contato com os elementos <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, ele irá causar Dano elemental adicional daquele tipo.\nAbsorção Elemental pode ocorrer apenas uma vez por uso.\n\n<i>Você e a Paimon estudaram o bater das asas de uma borboleta.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Vento Cortante",
+            "desc": "O último acerto de um combo de Ataques Normais libera uma lâmina de vento, causando 60% de <e:anemo>Dano Anemo</e> de ATQ a todos os oponentes em seu caminho."
+          },
+          {
+            "name": "Vento da Ressuscitação",
+            "desc": "Os abates com a <k>Palma da Vórtice</k> regeneram 2% de Vida por 5s. Este efeito pode ser ativado uma vez a cada 5s."
+          },
+          {
+            "name": "Fúria Zéfira Forasteira",
+            "desc": "Reúne novas forças das jornadas do passado. Para cada elemento que você ressoou, obtém um <k>fortalecimento adicional</k>.\n\nAlém disso, quando um membro próximo da equipe causa Danos Elementais <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Electro</e> que atingem o oponente, {F#a}{M#o} Viajante obtém 1 acúmulo da Lâmina Zéfira da Alvorada do Tipo Elemental correspondente. É possível acumular Lâmina Zéfira da Alvorada do Tipo Elemental correspondente uma vez. Ao possuir pelo menos 2 acúmulos de Lâmina Zéfira da Alvorada e realizar um Ataque Carregado, consome todos os acúmulos de Lâmina Zéfira da Alvorada para convertê-lo em <k>Ataque Carregado: Vórtice do Vento</k>.\n\n<k>Ataque Carregado: Vórtice do Vento</k>\n· Cada Ataque Carregado causa mais <e:anemo>Dano Anemo</e>, o aumento de Dano é de 60% do ATQ d{F#a}{M#o} Viajante.\n· Cada acúmulo de Tipo Elemental da Lâmina Zéfira da Alvorada invoca uma Lâmina de Vento do Tipo Elemental correspondente, causando 50% do ATQ d{F#a}{M#o} Viajante como Dano Elemental correspondente. Esse Dano é considerado Dano de Ataque Carregado.\n· É possível realizar um <k>Ataque Carregado: Vórtice do Vento</k> a cada 15s.\n· No período de realização de <k>Ataque Carregado: Vórtice do Vento</k>, não é possível obter Lâmina Zéfira da Alvorada."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Vórtice da Fúria",
+            "desc": "A <k>Palma da Vórtice</k> puxa os inimigos e objetos dentro de um raio de 5 metros."
+          },
+          {
+            "level": 2,
+            "name": "Turbilhão da Revolta",
+            "desc": "Aumenta a Recarga da Energia em 16%."
+          },
+          {
+            "level": 3,
+            "name": "Rajada Arrebatadora",
+            "desc": "Aumenta o nível das <k>Ondas de Rajadas</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Brisa Protetora",
+            "desc": "Reduz o Dano recebido enquanto lança a <k>Vórtice da Palma</k> em 10%."
+          },
+          {
+            "level": 5,
+            "name": "Vórtice Stellaris",
+            "desc": "Aumenta o nível da <k>Vórtice da Palma</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Ventos Entrelaçados",
+            "desc": "Os alvos que recebem Dano de <k>Ondas de Rajadas</k> possuem sua <e:anemo>RES Anemo</e> reduzido em 20%.\nSe ocorrer uma Absorção Elemental, então sua RES do Elemento correspondente também diminuirá 20%."
           }
         ]
       }

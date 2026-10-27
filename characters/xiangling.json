@@ -346,7 +346,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000023",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -471,6 +471,68 @@
             "level": 6,
             "name": "Pyrotation condensée",
             "desc": "Les <e:pyro>DGT Pyro</e> de tous les personnages de l'équipe augmentent de 15 % tant que <k>Pyrotation</k> est active."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Pastelaria Kung Fu",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes com a lança.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Ataque de Guoba",
+            "desc": "Invoca Guoba, o Panda. Guoba continua exalando fogo contra o inimigo, causando <e:pyro>Dano Pyro de AdE</e>.\n\n<i>Guoba ama comidas picantes. O problema é que seu estômago não suporta comida tão picante.</i>"
+          },
+          "burst": {
+            "name": "Pyronado",
+            "desc": "Exibindo seu domínio sobre o fogo e as armas de fogo, Xiangling envia um Pyronado girando ao seu redor.\nO Pyronado se moverá com o seu personagem enquanto a habilidade persistir, causando <e:pyro>Dano Pyro</e> a todos os inimigos em seu caminho.\n\n<i>O calor nunca será suficiente. Nunca!</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Fogo Cruzado",
+            "desc": "A distância do lança-chamas de Guoba aumenta 20%."
+          },
+          {
+            "name": "Cuidado, Está Muito Quente!",
+            "desc": "Quando o efeito do <k>Ataque de Guoba</k> terminar, Guoba deixa uma pimenta no ponto onde desapareceu. Ao pegar a pimenta, aumenta o ATQ em 10% por 10s."
+          },
+          {
+            "name": "Chefe de Cozinha",
+            "desc": "Quando uma Culinária Perfeita é feita em uma comida de aumento de ATQ, Xiangling tem uma chance de 12% de receber o dobro de produção."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Crocante por Fora, Macio por Dentro",
+            "desc": "Inimigos atingidos pelos ataques de Guoba têm sua <e:pyro>RES Pyro</e> reduzida em 15% por 6s."
+          },
+          {
+            "level": 2,
+            "name": "Esquentar o Óleo",
+            "desc": "O golpe final de um combo de Ataque Normal aplica o efeito Implosão nos inimigos por 2 segundos. Uma explosão irá ocorrer quando essa duração acabar, causando 75% do ATQ de Xiangling como <e:pyro>Dano Pyro em uma AdE</e>."
+          },
+          {
+            "level": 3,
+            "name": "Bem Passado",
+            "desc": "Aumenta o nível do <k>Pyronado</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Assando Devagar",
+            "desc": "Aumenta a duração do <k>Pyronado</k> em 40%."
+          },
+          {
+            "level": 5,
+            "name": "Guoba Furioso",
+            "desc": "Aumenta o nível do <k>Ataque de Guoba</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Pyronado Condensado",
+            "desc": "Durante a duração do <k>Pyronado</k>, todos os membros da equipe recebem 15% de <e:pyro>Bônus de Dano Pyro</e>."
           }
         ]
       }

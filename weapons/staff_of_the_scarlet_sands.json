@@ -58,7 +58,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13511",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -85,6 +85,19 @@
             "3": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>78 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>42 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum.",
             "4": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>91 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>49 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum.",
             "5": "Le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>104 %</r> de sa maîtrise élémentaire. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rêve des sables rouges est généré pendant 10 s : le personnage équipé de l'arme obtient un bonus d'ATQ équivalant à <r>56 %</r> de sa maîtrise élémentaire, cet effet pouvant être cumulé 3 fois maximum."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um dos pares de cetros feitos com obsidiana. Dizem que esses artefatos eram usados para guiar o povo do deserto, mas hoje em dia não há ninguém capaz de distinguir a aparência real desta relíquia.",
+        "passive": {
+          "name": "Sonho Ardente no Fim do Horizonte",
+          "refinements": {
+            "1": "Obtém Bônus de ATQ baseado em <r>52%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Quando a Habilidade Elemental atinge um inimigo, gera por 10s o efeito \"Sonhos de Areias Escarlates\": obtém Bônus de ATQ baseado em <r>28%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Esse efeito pode ser acumulado até 3 vezes.",
+            "2": "Obtém Bônus de ATQ baseado em <r>65%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Quando a Habilidade Elemental atinge um inimigo, gera por 10s o efeito \"Sonhos de Areias Escarlates\": obtém Bônus de ATQ baseado em <r>35%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Esse efeito pode ser acumulado até 3 vezes.",
+            "3": "Obtém Bônus de ATQ baseado em <r>78%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Quando a Habilidade Elemental atinge um inimigo, gera por 10s o efeito \"Sonhos de Areias Escarlates\": obtém Bônus de ATQ baseado em <r>42%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Esse efeito pode ser acumulado até 3 vezes.",
+            "4": "Obtém Bônus de ATQ baseado em <r>91%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Quando a Habilidade Elemental atinge um inimigo, gera por 10s o efeito \"Sonhos de Areias Escarlates\": obtém Bônus de ATQ baseado em <r>49%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Esse efeito pode ser acumulado até 3 vezes.",
+            "5": "Obtém Bônus de ATQ baseado em <r>104%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Quando a Habilidade Elemental atinge um inimigo, gera por 10s o efeito \"Sonhos de Areias Escarlates\": obtém Bônus de ATQ baseado em <r>56%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Esse efeito pode ser acumulado até 3 vezes."
           }
         }
       }

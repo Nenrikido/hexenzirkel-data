@@ -59,7 +59,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11424",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -86,6 +86,19 @@
             "3": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>24 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>3 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>3 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s.",
             "4": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>28 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>3,5 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>3,5 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s.",
             "5": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de <r>32 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de <r>4 %</r>. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de <r>4 %</r>. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Lendas dizem que essa lâmina foi usada por um cavaleiro andarilho num passado distante.",
+        "passive": {
+          "name": "Vento Setentrional do Lobo Azul",
+          "refinements": {
+            "1": "Aumenta o Dano causado pela Habilidade Elemental e Supremo em <r>16%</r>. Quando a Habilidade Elemental atingir um inimigo, aumenta a Taxa CRIT dela em <r>2%</r>. Quando o Supremo atingir um inimigo, aumenta a Taxa CRIT dele em <r>2%</r>. Esses dois efeitos duram 10s cada e podem ser acumulados até 4 vezes, podendo serem desencadeados uma vez a cada 0.1s.",
+            "2": "Aumenta o Dano causado pela Habilidade Elemental e Supremo em <r>20%</r>. Quando a Habilidade Elemental atingir um inimigo, aumenta a Taxa CRIT dela em <r>2.5%</r>. Quando o Supremo atingir um inimigo, aumenta a Taxa CRIT dele em <r>2.5%</r>. Esses dois efeitos duram 10s cada e podem ser acumulados até 4 vezes, podendo serem desencadeados uma vez a cada 0.1s.",
+            "3": "Aumenta o Dano causado pela Habilidade Elemental e Supremo em <r>24%</r>. Quando a Habilidade Elemental atingir um inimigo, aumenta a Taxa CRIT dela em <r>3%</r>. Quando o Supremo atingir um inimigo, aumenta a Taxa CRIT dele em <r>3%</r>. Esses dois efeitos duram 10s cada e podem ser acumulados até 4 vezes, podendo serem desencadeados uma vez a cada 0.1s.",
+            "4": "Aumenta o Dano causado pela Habilidade Elemental e Supremo em <r>28%</r>. Quando a Habilidade Elemental atingir um inimigo, aumenta a Taxa CRIT dela em <r>3.5%</r>. Quando o Supremo atingir um inimigo, aumenta a Taxa CRIT dele em <r>3.5%</r>. Esses dois efeitos duram 10s cada e podem ser acumulados até 4 vezes, podendo serem desencadeados uma vez a cada 0.1s.",
+            "5": "Aumenta o Dano causado pela Habilidade Elemental e Supremo em <r>32%</r>. Quando a Habilidade Elemental atingir um inimigo, aumenta a Taxa CRIT dela em <r>4%</r>. Quando o Supremo atingir um inimigo, aumenta a Taxa CRIT dele em <r>4%</r>. Esses dois efeitos duram 10s cada e podem ser acumulados até 4 vezes, podendo serem desencadeados uma vez a cada 0.1s."
           }
         }
       }

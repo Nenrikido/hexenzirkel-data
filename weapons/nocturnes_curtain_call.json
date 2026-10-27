@@ -67,7 +67,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14522",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -94,6 +94,19 @@
             "3": "Augmente les PV max de <r>14 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>16</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>18 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>100 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Augmente les PV max de <r>16 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>17</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>20 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>120 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Augmente les PV max de <r>18 %</r>. Lorsque le personnage équipé de l'arme déclenche une réaction sélène ou inflige des DGT de réaction sélène à un ennemi, il récupère <r>18</r> pts d'énergie élémentaire et obtient l'effet Ambroisie de la mer généreuse pendant 12 s : augmente les PV max de <r>22 %</r> supplémentaires et les DGT CRIT des DGT de réaction sélène de <r>140 %</r>. L'effet de restauration d'énergie peut être déclenché une fois toutes les 18 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma pérola de jade envolvida pela luz do luar. Mesmo nas noites mais frias de inverno, seu calor gentil permanece como uma canção.",
+        "passive": {
+          "name": "Canção das Encruzilhadas",
+          "refinements": {
+            "1": "Aumenta a Vida Máxima em <r>10%</r>. Quando o portador desencadear Reações Lunares ou causar Dano de Reações Lunares contra os inimigos, regenera <r>14</r> de Energia Elemental para o portador, e obtém por 12s o efeito \"Vinho Divino\": aumenta a Vida Máxima em mais <r>14%</r> e aumenta o Dano CRIT das Reações Lunares em mais <r>60%</r>. Esses efeitos de regeneração de Energia Elemental podem ser desencadeados uma vez a cada 18s. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo.",
+            "2": "Aumenta a Vida Máxima em <r>12%</r>. Quando o portador desencadear Reações Lunares ou causar Dano de Reações Lunares contra os inimigos, regenera <r>15</r> de Energia Elemental para o portador, e obtém por 12s o efeito \"Vinho Divino\": aumenta a Vida Máxima em mais <r>16%</r> e aumenta o Dano CRIT das Reações Lunares em mais <r>80%</r>. Esses efeitos de regeneração de Energia Elemental podem ser desencadeados uma vez a cada 18s. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo.",
+            "3": "Aumenta a Vida Máxima em <r>14%</r>. Quando o portador desencadear Reações Lunares ou causar Dano de Reações Lunares contra os inimigos, regenera <r>16</r> de Energia Elemental para o portador, e obtém por 12s o efeito \"Vinho Divino\": aumenta a Vida Máxima em mais <r>18%</r> e aumenta o Dano CRIT das Reações Lunares em mais <r>100%</r>. Esses efeitos de regeneração de Energia Elemental podem ser desencadeados uma vez a cada 18s. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo.",
+            "4": "Aumenta a Vida Máxima em <r>16%</r>. Quando o portador desencadear Reações Lunares ou causar Dano de Reações Lunares contra os inimigos, regenera <r>17</r> de Energia Elemental para o portador, e obtém por 12s o efeito \"Vinho Divino\": aumenta a Vida Máxima em mais <r>20%</r> e aumenta o Dano CRIT das Reações Lunares em mais <r>120%</r>. Esses efeitos de regeneração de Energia Elemental podem ser desencadeados uma vez a cada 18s. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo.",
+            "5": "Aumenta a Vida Máxima em <r>18%</r>. Quando o portador desencadear Reações Lunares ou causar Dano de Reações Lunares contra os inimigos, regenera <r>18</r> de Energia Elemental para o portador, e obtém por 12s o efeito \"Vinho Divino\": aumenta a Vida Máxima em mais <r>22%</r> e aumenta o Dano CRIT das Reações Lunares em mais <r>140%</r>. Esses efeitos de regeneração de Energia Elemental podem ser desencadeados uma vez a cada 18s. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo."
           }
         }
       }

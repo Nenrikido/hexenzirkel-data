@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15415",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -48,6 +48,15 @@
           "name": "Frappe puissante",
           "refinements": {
             "1": "<v>Uniquement pour les joueurs sur :</v>\n<v>« PlayStation™Network »</v>\nAprès avoir infligé des DGT Cryo aux ennemis, les DGT infligés par les attaques normales et chargées augmentent de 10 % pendant 6 s. Cet effet peut être cumulé 2 fois maximum. De plus, lorsque Aloy équipe le Predator, son ATQ augmente de 66 pts."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco com um design único. Isto não deve pertencer a este mundo.",
+        "passive": {
+          "name": "Ataque Poderoso",
+          "refinements": {
+            "1": "<v>Efetivo apenas para jogadores da seguinte plataforma:</v>\n<v>\"PlayStation™Network\"</v>\nCausar Dano cryo aos oponentes aumenta o Dano do Ataque Normal e Carregado do personagem em 10% por 6s. Este efeito pode ter no máximo 2 acúmulos. Adicionalmente, quando Aloy equipa o Predador, o ATQ é aumentado em 66."
           }
         }
       }

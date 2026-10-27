@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15409",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>60 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>12</r> s.",
             "4": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>70 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>11</r> s.",
             "5": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à <r>80 %</r> de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les <r>10</r> s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco de caça verde puro. Isso pertenceu a um certo caçador cuja casa era a floresta.",
+        "passive": {
+          "name": "Vento Esmeralda",
+          "refinements": {
+            "1": "Ao acertar um Ataque Normal ou Ataque com Mira, possui 50% de chance de gerar um Ciclone, que atrairá continuamente os inimigos ao redor, causando <r>40%</r> de Dano de ATQ a estes inimigos a cada 0.5s por 4s. Este efeito pode ser ativado uma vez a cada <r>14</r>s.",
+            "2": "Ao acertar um Ataque Normal ou Ataque com Mira, possui 50% de chance de gerar um Ciclone que atacará continuamente os inimigos ao redor, causando <r>50%</r> de Dano de ATQ a esses inimigos a cada 0.5s por 4s. Este efeito pode ser ativado uma vez a cada <r>13</r>s.",
+            "3": "Ao acertar um Ataque Normal ou Ataque com Mira, possui 50% de chance de gerar um Ciclone que atacará continuamente os inimigos ao redor, causando <r>60%</r> de Dano de ATQ a esses inimigos a cada 0.5s por 4s. Este efeito pode ser ativado uma vez a cada <r>12</r>s.",
+            "4": "Ao acertar um Ataque Normal ou Ataque com Mira, possui 50% de chance de gerar um Ciclone que atacará continuamente os inimigos ao redor, causando <r>70%</r> de Dano de ATQ a esses inimigos a cada 0.5s por 4s. Este efeito pode ser ativado uma vez a cada <r>11</r>s.",
+            "5": "Ao acertar um Ataque Normal ou Ataque com Mira, possui 50% de chance de gerar um Ciclone que atacará continuamente os inimigos ao redor, causando <r>80%</r> de Dano de ATQ a esses inimigos a cada 0.5s por 4s. Este efeito pode ser ativado uma vez a cada <r>10</r>s."
           }
         }
       }

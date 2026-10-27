@@ -260,7 +260,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000062",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -385,6 +385,68 @@
             "level": 6,
             "name": "Étoile d'un autre monde",
             "desc": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Disparos Rápidos",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 disparos consecutivos com o arco.\n\n<k>Ataque Carregado</k>\nRealiza um ataque <k>Disparo com Mira</k> mais preciso e com mais dano.\nEnquanto mira, gelo será acumulado na flecha. Uma flecha totalmente carregada causará <e:cryo>Dano Cryo</e>.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas no ar antes de cair e impactar o chão, causando Dano AdE no impacto."
+          },
+          "skill": {
+            "name": "Natureza Gélida",
+            "desc": "Aloy lança uma Bomba Congelante na direção desejada que explode no impacto, causando <e:cryo>Dano Cryo</e>. Depois de explodir, a Bomba Congelante se dividirá em muitas Bombinhas Congelantes que explodirão ao entrar em contato com os oponentes ou após um curto período de tempo, causando <e:cryo>Dano Cryo</e>.\nQuando a Bomba Congelante ou suas bombinhas atingem os oponentes, elas diminuirão o ATQ dos oponentes e concederão 1 acúmulo de Bobina a Aloy.\nAloy pode ganhar 1 acúmulo de Bobinas a cada 0.1s.\n\n<k>Bobina</k>\nCada acúmulo aumentará o Dano do Ataque Normal de Aloy.\nQuando ela tiver 4 acúmulos, Aloy elimina todos os efeitos de Bobina e ganha Gelo Rápido, aumentando o Dano causado pelo Ataque Normal e convertendo seus Ataques Normais para causar <e:cryo>Dano Cryo</e>.\n\nEnquanto sob o estado do Gelo Rápido, Aloy não pode obter efeitos de Bobina.\nO efeito de Bobina é excluído 30 segundos após sair da batalha.\n\n<i>Você acha que isso é frio? Acho que você nunca esteve no Corte.</i>"
+          },
+          "burst": {
+            "name": "Profecias do Alvorecer",
+            "desc": "Arremessa uma Bateria cheia com Cryo na direção do alvo antes de ligá-la com uma flecha, causando <e:cryo>Dano Cryo em uma AdE</e>.\n\n<i>Quer \"Zero Dawn\" se refira à esperança ou à extinção, não importa mais. Aloy já salvou seu mundo... E este também tem seus próprios heróis que se preocuparão com seu destino.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Percepção de Combate",
+            "desc": "Quando Aloy recebe o efeito de Natureza Gélida da <k>Bobina</k>, seu ATQ é aumentado em 16%, enquanto o ATQ de outros membros da equipe ao redor é aumentado em 8%. Este efeito dura 10s."
+          },
+          {
+            "name": "Ataque Poderoso",
+            "desc": "Quando Aloy está sob o efeito de Gelo Rápido proporcionado pela <k>Natureza Gélida</k>, seu <e:cryo>Bônus de Dano Cryo</e> aumenta em 3.5% a cada 1s. O máximo de aumento de <e:cryo>Bônus de Dano Cryo</e> ganho desta forma é de 35%."
+          },
+          {
+            "name": "Devagarinho",
+            "desc": "Quando Aloy está na equipe, os membros da equipe que se aproximarem de pequenos animais que possam produzir Carne de Ave, Carne crua ou Carne Fresca Fria, não se assustarão facilmente."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Estrela de Outro Mundo",
+            "desc": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa."
+          },
+          {
+            "level": 2,
+            "name": "Estrela de Outro Mundo",
+            "desc": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa."
+          },
+          {
+            "level": 3,
+            "name": "Estrela de Outro Mundo",
+            "desc": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa."
+          },
+          {
+            "level": 4,
+            "name": "Estrela de Outro Mundo",
+            "desc": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa."
+          },
+          {
+            "level": 5,
+            "name": "Estrela de Outro Mundo",
+            "desc": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa."
+          },
+          {
+            "level": 6,
+            "name": "Estrela de Outro Mundo",
+            "desc": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa."
           }
         ]
       }

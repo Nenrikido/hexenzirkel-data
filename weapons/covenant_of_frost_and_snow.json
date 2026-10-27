@@ -33,7 +33,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15436",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -60,6 +60,19 @@
             "3": "Lorsque le personnage équipé de l'arme a utilisé une compétence élémentaire, sa maîtrise élémentaire augmente de <r>180</r> pts pendant 12 s.",
             "4": "Lorsque le personnage équipé de l'arme a utilisé une compétence élémentaire, sa maîtrise élémentaire augmente de <r>210</r> pts pendant 12 s.",
             "5": "Lorsque le personnage équipé de l'arme a utilisé une compétence élémentaire, sa maîtrise élémentaire augmente de <r>240</r> pts pendant 12 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco longo feito para preservar a ordem. Seu brilho frio emana perfeitamente o ideal da justiça e igualdade absolutas.",
+        "passive": {
+          "name": "O Equilíbrio da Lei",
+          "refinements": {
+            "1": "Nos 12s após o portador lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>120</r>.",
+            "2": "Nos 12s após o portador lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>150</r>.",
+            "3": "Nos 12s após o portador lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>180</r>.",
+            "4": "Nos 12s após o portador lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>210</r>.",
+            "5": "Nos 12s após o portador lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>240</r>."
           }
         }
       }

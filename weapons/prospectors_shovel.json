@@ -32,7 +32,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13433",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -59,6 +59,19 @@
             "3": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>72 %</r> et ceux des réactions de Sélénocution de <r>18 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>18 %</r> supplémentaires.",
             "4": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>84 %</r> et ceux des réactions de Sélénocution de <r>21 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>21 %</r> supplémentaires.",
             "5": "Les DGT infligés par les réactions d'Électrocution augmentent de <r>96 %</r> et ceux des réactions de Sélénocution de <r>24 %</r>. Signelune « Lueur ascendante » : les DGT des réactions de Sélénocution augmentent de <r>24 %</r> supplémentaires."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança que parece ter sido criada de uma ferramenta agrícola. A primeira vista, não poderia ser mais ordinária, mas seu desenho discreto esconde truques refinados e luxuosos.",
+        "passive": {
+          "name": "Decisões Imediatas",
+          "refinements": {
+            "1": "Dano de Eletricamente Carregado é aumentado em <r>48%</r>. Dano de Carga Lunar é aumentado em <r>12%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Carga Lunar em mais <r>12%</r>.",
+            "2": "Dano de Eletricamente Carregado é aumentado em <r>60%</r>. Dano de Carga Lunar é aumentado em <r>15%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Carga Lunar em mais <r>15%</r>.",
+            "3": "Dano de Eletricamente Carregado é aumentado em <r>72%</r>. Dano de Carga Lunar é aumentado em <r>18%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Carga Lunar em mais <r>18%</r>.",
+            "4": "Dano de Eletricamente Carregado é aumentado em <r>84%</r>. Dano de Carga Lunar é aumentado em <r>21%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Carga Lunar em mais <r>21%</r>.",
+            "5": "Dano de Eletricamente Carregado é aumentado em <r>96%</r>. Dano de Carga Lunar é aumentado em <r>24%</r>. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Carga Lunar em mais <r>24%</r>."
           }
         }
       }

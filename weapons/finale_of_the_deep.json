@@ -39,7 +39,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11425",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -66,6 +66,19 @@
             "3": "Libérer une compétence élémentaire augmente l'ATQ de <r>18 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 25 % des PV max, cet effet pouvant être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, l'ATQ augmente pendant 15 s d'une valeur équivalant à <r>3,6 %</r> de la valeur de l'engagement dissipé, l'ATQ pouvant être augmentée d'un maximum de <r>225</r> pts de cette manière.",
             "4": "Libérer une compétence élémentaire augmente l'ATQ de <r>21 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 25 % des PV max, cet effet pouvant être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, l'ATQ augmente pendant 15 s d'une valeur équivalant à <r>4,2 %</r> de la valeur de l'engagement dissipé, l'ATQ pouvant être augmentée d'un maximum de <r>262,5</r> pts de cette manière.",
             "5": "Libérer une compétence élémentaire augmente l'ATQ de <r>24 %</r> pendant 15 s et accorde un engagement vital d'une valeur équivalant à 25 % des PV max, cet effet pouvant être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, l'ATQ augmente pendant 15 s d'une valeur équivalant à <r>4,8 %</r> de la valeur de l'engagement dissipé, l'ATQ pouvant être augmentée d'un maximum de <r>300</r> pts de cette manière."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Essa lâmina é silenciosa como as profundezas misteriosas do oceano. É ainda mais antiga do que sua afiliação pode insinuar.",
+        "passive": {
+          "name": "Final Sublime",
+          "refinements": {
+            "1": "Ao utilizar a Habilidade Elemental, aumenta o ATQ em <r>12%</r> por 15s e concede um Contrato de Vida equivalente a 25% da Vida Máxima. Este efeito pode ser ativado uma vez a cada 10s. Quando o Contrato de Vida é removido, o ATQ é aumentado em <r>2.4%</r> do valor removido por 15s, podendo ser aumentado até <r>150</r> pontos.",
+            "2": "Ao utilizar a Habilidade Elemental, aumenta o ATQ em <r>15%</r> por 15s e concede um Contrato de Vida equivalente a 25% da Vida Máxima. Este efeito pode ser ativado uma vez a cada 10s. Quando o Contrato de Vida é removido, o ATQ é aumentado em <r>3%</r> do valor removido por 15s, podendo ser aumentado até <r>187.5</r> pontos.",
+            "3": "Ao utilizar a Habilidade Elemental, aumenta o ATQ em <r>18%</r> por 15s e concede um Contrato de Vida equivalente a 25% da Vida Máxima. Este efeito pode ser ativado uma vez a cada 10s. Quando o Contrato de Vida é removido, o ATQ é aumentado em <r>3.6%</r> do valor removido por 15s, podendo ser aumentado até <r>225</r> pontos.",
+            "4": "Ao utilizar a Habilidade Elemental, aumenta o ATQ em <r>21%</r> por 15s e concede um Contrato de Vida equivalente a 25% da Vida Máxima. Este efeito pode ser ativado uma vez a cada 10s. Quando o Contrato de Vida é removido, o ATQ é aumentado em <r>4.2%</r> do valor removido por 15s, podendo ser aumentado até <r>262.5</r> pontos.",
+            "5": "Ao utilizar a Habilidade Elemental, aumenta o ATQ em <r>24%</r> por 15s e concede um Contrato de Vida equivalente a 25% da Vida Máxima. Este efeito pode ser ativado uma vez a cada 10s. Quando o Contrato de Vida é removido, o ATQ é aumentado em <r>4.8%</r> do valor removido por 15s, podendo ser aumentado até <r>300</r> pontos."
           }
         }
       }

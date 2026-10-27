@@ -31,7 +31,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13424",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -58,6 +58,19 @@
             "3": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>180</r> pts.",
             "4": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>210</r> pts.",
             "5": "Lorsque votre équipe contient des personnages d'au moins 3 types élémentaires différents, la maîtrise élémentaire augmente de <r>240</r> pts."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança usada por aqueles que querem pegar peixes nas tundras. Não deixa ninguém escapar.",
+        "passive": {
+          "name": "Contos das Tundras",
+          "refinements": {
+            "1": "Quando houver pelo menos 3 personagens de Tipos Elementais diferentes na equipe, aumenta a Proficiência Elemental em <r>120</r> pontos.",
+            "2": "Quando houver pelo menos 3 personagens de Tipos Elementais diferentes na equipe, aumenta a Proficiência Elemental em <r>150</r> pontos.",
+            "3": "Quando houver pelo menos 3 personagens de Tipos Elementais diferentes na equipe, aumenta a Proficiência Elemental em <r>180</r> pontos.",
+            "4": "Quando houver pelo menos 3 personagens de Tipos Elementais diferentes na equipe, aumenta a Proficiência Elemental em <r>210</r> pontos.",
+            "5": "Quando houver pelo menos 3 personagens de Tipos Elementais diferentes na equipe, aumenta a Proficiência Elemental em <r>240</r> pontos."
           }
         }
       }

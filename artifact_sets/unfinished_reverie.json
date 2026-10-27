@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15036",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Augmente l'ATQ de 18 %.",
           "4": "Après avoir été hors combat pendant 3 s, les DGT infligés augmentent de 50 %. En combat, si aucun ennemi brûlé n'est à proximité pendant plus de 6 s, cette augmentation de DGT diminue de 10 % toutes les secondes, jusqu'à atteindre 0 % ; si un ennemi brûlé est à proximité, elle augmente de 10 % toutes les secondes, jusqu'à atteindre 50 %. Cet effet peut être déclenché même lorsque le personnage équipé de ce set d'artéfacts fait partie de l'équipe mais n'est pas déployé."
+        }
+      },
+      "pt": {
+        "name": "Reminiscência Incompleta",
+        "bonuses": {
+          "2": "ATQ +18%",
+          "4": "Depois de sair do combate por 3s, aumenta o Dano causado em 50%. Em combate, se não houverem inimigos Queimando por mais que 6s, esse Bônus de Dano reduzirá 10% por segundo até 0%. Quando existir um oponente Queimando, aumentará 10% até alcançar 50%. Esse efeito pode ser desencadeado mesmo que o personagem com este conjunto de artefatos equipado não esteja ativo."
         }
       }
     }

@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14432",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Après avoir utilisé une compétence élémentaire, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>150</r> pts pendant 20 s.",
             "4": "Après avoir utilisé une compétence élémentaire, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>175</r> pts pendant 20 s.",
             "5": "Après avoir utilisé une compétence élémentaire, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>200</r> pts pendant 20 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um alaúde de cordas douradas e radiantes como o sol. Parece ser uma relíquia antiga dos Seelie.",
+        "passive": {
+          "name": "O Último Cantor",
+          "refinements": {
+            "1": "Nos 20s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental do personagem que está com essa arma equipada em <r>100</r>.",
+            "2": "Nos 20s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental do personagem que está com essa arma equipada em <r>125</r>.",
+            "3": "Nos 20s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental do personagem que está com essa arma equipada em <r>150</r>.",
+            "4": "Nos 20s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental do personagem que está com essa arma equipada em <r>175</r>.",
+            "5": "Nos 20s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental do personagem que está com essa arma equipada em <r>200</r>."
           }
         }
       }

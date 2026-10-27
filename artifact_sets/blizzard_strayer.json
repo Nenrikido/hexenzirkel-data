@@ -23,7 +23,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14001",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -39,6 +39,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:cryo>Cryo</e> de 15 %.",
           "4": "Augmente le taux CRIT de 20 % lorsque le personnage attaque un ennemi affecté par l'élément <e:cryo>Cryo</e>. Confère un bonus supplémentaire de 20 % de taux CRIT si l'ennemi est gelé."
+        }
+      },
+      "pt": {
+        "name": "Herói Invernal",
+        "bonuses": {
+          "2": "Bônus de Dano <e:cryo>Cryo</e> +15%",
+          "4": "Quando um personagem ataca um inimigo afetado por <e:cryo>Cryo</e>, a sua Taxa CRIT aumenta em 20%. Adicionalmente, se o inimigo estiver Congelado, a Taxa CRIT aumenta em mais 20%."
         }
       }
     }

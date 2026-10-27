@@ -138,7 +138,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000132",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -271,6 +271,72 @@
             "level": 6,
             "name": "Et voilà l'histoire ! À partager avec vos amis !",
             "desc": "La durée du mode Chasse-traque de la cloche de l'ensorceleuse augmente de 4 s pendant le déchaînement élémentaire <k>Le glas sonne ! La chasse est ouverte</k>.\nDe plus, lorsqu'un personnage de l'équipe avec l'effet Ralliement du glas a déclenché une réaction élémentaire sur un ennemi, l'ATQ de Prune et de l'autre personnage déployé avec l'effet Ralliement du glas augmente de 350 pts pendant 5 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Cabum! Martelo Destruidor de Magia!",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 ataques com o Martelo do Juramento Livrador, infligindo <e:anemo>Dano Anemo</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para martelar para cima, causando <e:anemo>Dano Anemo</e> contra os inimigos em frente.\n\n<k>Ataque Imersivo</k>\nConvocando os poderes do vento para si, mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:anemo>Dano Anemo em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Ding-ding! Tilintar Caçador de Magia!",
+            "desc": "Lance o poder do vento para derrotar as bruxas maléficas e salvar Descartes! Prune usa o Martelo do Juramento Livrador para golpear o Sino Chama-Bruxa, causando <e:anemo>Dano Anemo</e>.\nSe esse ataque de Prune causar uma reação de Redemoinho ou Redemoinho Estelar no inimigo, <k>Ding-ding! Tilintar Caçador de Magia!</k> será substituído por <k>Ting-Ting! Retribuição das Bruxas!</k> pelos próximos 6s.\n\n<k>Ting-Ting! Retribuição das Bruxas!</k>\nEnvolve o martelo com o Tipo Elemental do Redemoinho ou Redemoinho Estelar, e faz o <k>Martelo do Juramento Livrador</k> passar por uma Conversão Elemental. Ao pressionar para lançar, Prune salta em frente com seu Martelo do Juramento Livrador, causando Dano Elemental correspondente contra os inimigos em frente."
+          },
+          "burst": {
+            "name": "O Sino Toca! A Caçada Chegou!",
+            "desc": "Prune balança o Sino Chama-Bruxa, causando <e:anemo>Dano Anemo</e> contra os inimigos próximos. Em seguida, o Sino Chama-Bruxa entra no Modo Caçador.\n\n<k>Sino Chama-Bruxa: Modo Caçador</k>\nNesse modo, o Sino Chama-Bruxa segue o personagem ativo, e periodicamente ataca os inimigos próximos, causando <e:anemo>Dano Anemo em AdE</e>. Esse Dano é considerado Dano de Supremo."
+          }
+        },
+        "passives": [
+          {
+            "name": "Veredito e Punição",
+            "desc": "Quando causar Dano contra o inimigo no Modo Caçador do Sino Chama-Bruxa do Supremo <k>O Sino Toca! A Caçada Chegou!</k>, se esse Dano desencadear Redemoinho ou Redemoinho Estelar, invoca um <k>Martelo do Juramento Livrador</k> que passou por Conversão Elemental do tipo de Redemoinho ou Redemoinho Estelar para golpear o inimigo em frente, causando 150% do ATQ de Prune como Dano Elemental correspondente. Esse Dano é considerado Dano de Supremo."
+          },
+          {
+            "name": "Badalar Síncrono",
+            "desc": "Após Prune atingir um inimigo com <k>Martelo do Juramento Livrador</k> que passou por Conversão Elemental, os outros membros próximos da equipe obtêm o efeito Dança dos Sinos por 5s: quando o Ataque Normal, Carregado, Imersivo, Habilidade Elemental ou Supremo causarem Dano contra um inimigo, aumenta o Dano causado por esse ataque com base em parte de ATQ de Prune que seja maior que 2.000 quando ela é afetada pelo efeito de Dança dos Sinos. Cada ponto de ATQ a mais aumenta o Dano causado por esse ataque em 0.025%. É possível aumentar até no máximo 50% dessa forma."
+          },
+          {
+            "name": "Ting-tang! Clang-bang!",
+            "desc": "Ao sintetizar Materiais de Talento de Personagem, há 10% de chance de obter um Material de Talento extra aleatório da mesma região. A raridade será a mesma dos materiais obtidos ao fabricar."
+          },
+          {
+            "name": "Presente da Noite da Bruxa: Juramento do Buscador de Bruxas",
+            "desc": "Depois de completar <k>Tarefa da Bruxa: Questão de Refutação</k>, Prune se tornará uma personagem <k>Mágica</k>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <k>Mágico: Ritual Secreto</k>, fortalecendo esses personagens.\n\n<k>Mágico: Ritual Secreto</k>\nDepois que personagens Mágicos afetados pelo efeito Dança dos Sinos causarem qualquer Reação Elemental em um inimigo, aumenta o ATQ de Prune em 60% por 5s. Se esse personagem desencadear Redemoinho ou Redemoinho Estelar, o aumento de ATQ terá um aumento adicional de 30% por 5s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "A Jornada Inicia no Juramento do Resgate",
+            "desc": "Depois que o ataque de <k>Martelo do Juramento Livrador</k> que passou por uma Conversão Elemental atingir um inimigo, Prune regenerará 2 de Energia Elemental. Esse efeito pode ser desencadeado uma vez a cada 1.8s."
+          },
+          {
+            "level": 2,
+            "name": "Úteis para Limpar Bagagem, os Poderes Elementais São",
+            "desc": "Quando o Sino Chama-Bruxa do Supremo <k>O Sino Toca! A Caçada Chegou!</k> está no Modo Caçador, Prune obtém o efeito Caça às Bruxas: aumenta seu ATQ em 10%. Quando o Sino Chama-Bruxa e o <k>Martelo do Juramento Livrador</k> que passou por Conversão Elemental atingirem um inimigo, aumenta o ATQ em mais 5%. É possível aumentá-lo em até 40% dessa forma.\nLançar O Sino Toca! A Caçada Chegou! novamente na duração do efeito removerá o efeito original acima."
+          },
+          {
+            "level": 3,
+            "name": "A Caravana Cruza a Passagem da Montanha, a Paisagem Sempre Transitória",
+            "desc": "Aumenta o nível do <k>O Sino Toca! A Caçada Chegou!</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Olhando por trás do Vento, a Sombra Incompleta",
+            "desc": "Quando o <k>Martelo do Juramento Livrador</k> que passou por Conversão Elemental atinge um inimigo, ricocheteará em um inimigo próximo, causando 80% do ATQ como Dano do Tipo Elemental correspondente."
+          },
+          {
+            "level": 5,
+            "name": "100 Derrotas para Amanhã uma Vitória",
+            "desc": "Aumenta o nível da <k>Ding-ding! Tilintar Caçador de Magia!</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Essa é a História! Conte-a para seus Amigos!",
+            "desc": "Estende a duração do Modo Caçador do Sino Chama-Bruxa do Supremo <k>O Sino Toca! A Caçada Chegou!</k> em 4s.\nAlém disso, quando o personagem da equipe está sob o efeito Dança dos Sinos e causa qualquer reação Elemental no inimigo, aumenta o ATQ de Prune e dos outros membros próximos da equipe que possuem o efeito Dança dos Sinos em 350 por 5s."
           }
         ]
       }

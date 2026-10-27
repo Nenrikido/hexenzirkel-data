@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15027",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:anemo>Anémo</e> de 15 %.",
           "4": "Lorsqu'une attaque chargée a touché un ennemi, la VIT d'attaque normale du personnage augmente de 10 % et les DGT infligés par ses attaques normales, chargées et plongeantes augmentent de 40 %, pendant 15 s."
+        }
+      },
+      "pt": {
+        "name": "Crônicas do Pavilhão do Deserto",
+        "bonuses": {
+          "2": "Bônus de Dano <e:anemo>Anemo</e> +15%",
+          "4": "Quando um Ataque Carregado atinge um inimigo, aumenta a Vel. de ATQ do Ataque Normal desse Personagem em 10% e aumenta o Dano infligido por Ataques Normais, Carregados e Imersivos em 40% por 15s."
         }
       }
     }

@@ -20,7 +20,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11505",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -47,6 +47,19 @@
             "3": "Les PV sont augmentés de <r>30 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,8 %</r> de ses PV max.",
             "4": "Les PV sont augmentés de <r>35 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>2,1 %</r> de ses PV max.",
             "5": "Les PV sont augmentés de <r>40 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>2,4 %</r> de ses PV max."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada para cerimônias feita com essência de jade puro esculpido delicadamente. O ar que produz quando balança emite um som parecido a um suspiro.",
+        "passive": {
+          "name": "Pureza do Protetor",
+          "refinements": {
+            "1": "Aumenta a Vida em <r>20%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>1.2%</r> com base na Vida Máxima.",
+            "2": "Aumenta a Vida em <r>25%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>1.5%</r> com base na Vida Máxima.",
+            "3": "Aumenta a Vida em <r>30%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>1.8%</r> com base na Vida Máxima.",
+            "4": "Aumenta a Vida em <r>35%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>2.1%</r> com base na Vida Máxima.",
+            "5": "Aumenta a Vida em <r>40%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>2.4%</r> com base na Vida Máxima."
           }
         }
       }

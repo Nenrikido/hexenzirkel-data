@@ -38,7 +38,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12424",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -65,6 +65,19 @@
             "3": "L'ATQ augmente de <r>24 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>18 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s.",
             "4": "L'ATQ augmente de <r>28 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>21 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s.",
             "5": "L'ATQ augmente de <r>32 %</r> pendant 15 s après avoir été affecté par l'élément Pyro, cet effet pouvant être déclenché une fois toutes les 12 s. Le bonus de DGT élémentaires augmente de <r>24 %</r> pendant 15 s après avoir été affecté par l'élément Hydro, Cryo, Électro ou Dendro, cet effet pouvant être déclenché une fois toutes les 12 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "A maioria das pessoas acha que esse porrete com obsidiana incrustada é bem convincente.",
+        "passive": {
+          "name": "\"Bom de Papo\"",
+          "refinements": {
+            "1": "Nos 15s seguintes após ser afetado por Pyro, aumenta o ATQ em <r>16%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s. Nos 15s após ser afetado por Hydro, Cryo, Electro ou Dendro fornece Bônus de Dano de todos os Elementos de <r>12%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s.",
+            "2": "Nos 15s seguintes após ser afetado por Pyro, aumenta o ATQ em <r>20%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s. Nos 15s após ser afetado por Hydro, Cryo, Electro ou Dendro, fornece Bônus de Dano de todos os Elementos de <r>15%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s.",
+            "3": "Nos 15s seguintes após ser afetado por Pyro, aumenta o ATQ em <r>24%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s. Nos 15s após ser afetado por Hydro, Cryo, Electro ou Dendro, fornece Bônus de Dano de todos os Elementos de <r>18%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s.",
+            "4": "Nos 15s seguintes após ser afetado por Pyro, aumenta o ATQ em <r>28%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s. Nos 15s após ser afetado por Hydro, Cryo, Electro ou Dendro, fornece Bônus de Dano de todos os Elementos de <r>21%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s.",
+            "5": "Nos 15s seguintes após ser afetado por Pyro, aumenta o ATQ em <r>32%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s. Nos 15s após ser afetado por Hydro, Cryo, Electro ou Dendro, fornece Bônus de Dano de todos os Elementos de <r>24%</r>. Esse efeito pode ser desencadeado uma vez a cada 12s."
           }
         }
       }

@@ -66,7 +66,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12511",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -93,6 +93,19 @@
             "3": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>30 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>30 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>48 %</r>.",
             "4": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>35 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>35 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>56 %</r>.",
             "5": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de <r>40 %</r> pendant 8 s. Après avoir subi des DGT, l'ATQ augmente de <r>40 %</r> pendant 8 s. Les 2 effets susmentionnés peuvent être déclenchés même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. De plus, lorsqu'il n'est pas protégé par un bouclier, les PV max du personnage augmentent de <r>64 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um Espadão longo antiquado com uma ponta semicircular. Parece ser uma arma usada pela realeza para certas cerimônias.",
+        "passive": {
+          "name": "Guarda do Mar de Areia",
+          "refinements": {
+            "1": "Quando a Habilidade Elemental atinge um inimigo, aumenta o ATQ em <r>20%</r> por 8s. Ao sofrer Dano, aumenta o ATQ em <r>20%</r> por 8s. Os dois efeitos descritos acima podem ser desencadeados mesmo se o personagem não estiver ativo no campo de batalha. Além disso, personagens que não estiverem sob a proteção de um Escudo terão sua Vida Máxima aumentada em <r>32%</r>.",
+            "2": "Quando a Habilidade Elemental atinge um inimigo, aumenta o ATQ em <r>25%</r> por 8s. Ao sofrer Dano, aumenta o ATQ em <r>25%</r> por 8s. Os dois efeitos descritos acima podem ser desencadeados mesmo se o personagem não estiver ativo no campo de batalha. Além disso, personagens que não estiverem sob a proteção de um Escudo terão sua Vida Máxima aumentada em <r>40%</r>.",
+            "3": "Quando a Habilidade Elemental atinge um inimigo, aumenta o ATQ em <r>30%</r> por 8s. Ao sofrer Dano, aumenta o ATQ em <r>30%</r> por 8s. Os dois efeitos descritos acima podem ser desencadeados mesmo se o personagem não estiver ativo no campo de batalha. Além disso, personagens que não estiverem sob a proteção de um Escudo terão sua Vida Máxima aumentada em <r>48%</r>.",
+            "4": "Quando a Habilidade Elemental atinge um inimigo, aumenta o ATQ em <r>35%</r> por 8s. Ao sofrer Dano, aumenta o ATQ em <r>35%</r> por 8s. Os dois efeitos descritos acima podem ser desencadeados mesmo se o personagem não estiver ativo no campo de batalha. Além disso, personagens que não estiverem sob a proteção de um Escudo terão sua Vida Máxima aumentada em <r>56%</r>.",
+            "5": "Quando a Habilidade Elemental atinge um inimigo, aumenta o ATQ em <r>40%</r> por 8s. Ao sofrer Dano, aumenta o ATQ em <r>40%</r> por 8s. Os dois efeitos descritos acima podem ser desencadeados mesmo se o personagem não estiver ativo no campo de batalha. Além disso, personagens que não estiverem sob a proteção de um Escudo terão sua Vida Máxima aumentada em <r>64%</r>."
           }
         }
       }

@@ -37,7 +37,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15508",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -64,6 +64,19 @@
             "3": "Les PV sont augmentés de <r>24 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>30 %</r>, qu'il soit déployé ou non.",
             "4": "Les PV sont augmentés de <r>28 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>35 %</r>, qu'il soit déployé ou non.",
             "5": "Les PV sont augmentés de <r>32 %</r>. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de <r>40 %</r>, qu'il soit déployé ou non."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "A cor desse arco longo muda imprevisivelmente. Sob a luz, possui um brilho azulado como água.",
+        "passive": {
+          "name": "Forma Purificadora",
+          "refinements": {
+            "1": "Aumenta a Vida em <r>16%</r>. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de <r>20%</r>, independentemente do personagem estar ativo no campo de batalha ou não.",
+            "2": "Aumenta a Vida em <r>20%</r>. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de <r>25%</r>, independentemente do personagem estar ativo no campo de batalha ou não.",
+            "3": "Aumenta a Vida em <r>24%</r>. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de <r>30%</r>, independentemente do personagem estar ativo no campo de batalha ou não.",
+            "4": "Aumenta a Vida em <r>28%</r>. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de <r>35%</r>, independentemente do personagem estar ativo no campo de batalha ou não.",
+            "5": "Aumenta a Vida em <r>32%</r>. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de <r>40%</r>, independentemente do personagem estar ativo no campo de batalha ou não."
           }
         }
       }

@@ -45,7 +45,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15416",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -72,6 +72,19 @@
             "3": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,18 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>60 %</r> de cette manière.",
             "4": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,21 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>70 %</r> de cette manière.",
             "5": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de <r>0,24 %</r>. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à <r>80 %</r> de cette manière."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco de guerra adorável feito de conchas e coral. Um brilho lúgubre flui ao longo de seus braços coloridos à luz da lua.",
+        "passive": {
+          "name": "Dominadora de Ondas Watatsumi",
+          "refinements": {
+            "1": "O Personagem que usar esta arma terá um aumento do Dano do Supremo de <r>0.12%</r> por cada 1 ponto da soma do máximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo máximo obtível dessa maneira é de <r>40%</r>.",
+            "2": "O Personagem que usar esta arma terá um aumento do Dano do Supremo de <r>0.15%</r> por cada 1 ponto da soma do máximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo máximo obtível dessa maneira é de <r>50%</r>.",
+            "3": "O Personagem que usar esta arma terá um aumento do Dano do Supremo de <r>0.18%</r> por cada 1 ponto da soma do máximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo máximo obtível dessa maneira é de <r>60%</r>.",
+            "4": "O Personagem que usar esta arma terá um aumento do Dano do Supremo de <r>0.21%</r> por cada 1 ponto da soma do máximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo máximo obtível dessa maneira é de <r>70%</r>.",
+            "5": "O Personagem que usar esta arma terá um aumento do Dano do Supremo de <r>0.24%</r> por cada 1 ponto da soma do máximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo máximo obtível dessa maneira é de <r>80%</r>."
           }
         }
       }

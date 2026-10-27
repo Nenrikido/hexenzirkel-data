@@ -23,7 +23,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15008",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -39,6 +39,13 @@
         "bonuses": {
           "2": "Augmente les DGT physiques de 25 %.",
           "4": "L'utilisation d'attaques chargées ne consomme pas l'endurance pendant 10 s après la défaite d'un ennemi, et ces dernières infligent 50 % de DGT supplémentaires."
+        }
+      },
+      "pt": {
+        "name": "Cavaleiro Manchado de Sangue",
+        "bonuses": {
+          "2": "Dano Físico causado +25%",
+          "4": "Após derrotar um oponente, aumenta o Dano do Ataque Carregado em 50% e reduz seu custo de Stamina para 0 por 10s."
         }
       }
     }

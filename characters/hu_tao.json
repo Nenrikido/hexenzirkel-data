@@ -262,7 +262,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000046",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -387,6 +387,68 @@
             "level": 6,
             "name": "L'envol du papillon",
             "desc": "Lorsque les PV de Hu Tao passent sous le seuil des 25 % ou lorsqu'elle subit assez de DGT pour être vaincue :\nHu Tao n'est pas vaincue cette fois-ci. Pendant les 10 s qui suivent, ses RÉS élémentaires et physique augmentent de 200 %, son taux CRIT augmente de 100 %, et sa RÉS à l'interruption augmente considérablement.\nCet effet se déclenche automatiquement lorsqu'il ne reste qu'1 PV à Hu Tao.\nCet effet peut être déclenché une fois toutes les 60 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lança Secreta de Wangsheng",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 6 golpes com a lança.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Guia do Além",
+            "desc": "Somente as chamas eternas podem limpar esse mundo.\nHutao consome uma parte de Vida e repele os inimigos próximos, entrando no estado de Dança de Borboleta.\n\n<k>Dança de Borboleta</k>\n· A Dança de Borboleta aumenta o ATQ de Hutao com base em sua Vida Máxima. O ATQ obtido dessa forma não poderá ultrapassar 400% do seu ATQ Básico;\n· O Dano do ATQ é transformado em <e:pyro>Dano Pyro</e>. Esse dano elemental não pode ser substituído por outro encantamento elemental;\n· O Ataque Carregado pode causar aos inimigos atingidos o efeito de Pétalas Sangrentas;\n· Aumenta a resistência de Hutao a interrupções.\n\n<k>Pétalas Sangrentas</k>\nOs inimigos afetados pelas Pétalas Sangrentas receberão a cada 4s <e:pyro>Dano Pyro</e> uma vez. Esse dano é considerado dano de habilidade elemental.\nSó é possível existir um efeito de Pétalas Sangrentas por alvo, e sua duração só pode ser renovada por Hutao.\n\n<k>Dança de Borboleta</k> só se dissipará quando sua duração terminar ou quando Hutao for retirada do combate ou ser derrotada.\n\n<i>A primeira regra para se aprender a técnica secreta de Hutao é: \"A lança abre o caminho para a vida depois da morte, e as borboletas ligam este mundo e o próximo\".</i>"
+          },
+          "burst": {
+            "name": "Pacificadora de Espíritos",
+            "desc": "Balança a sua alma flamejante, causando <e:pyro>Dano Pyro</e> em uma grande AdE.\nAo acertar nos inimigos, restaura a Vida de Hutao baseando na sua Vida Máxima. Esse efeito pode ser aplicado até 5 inimigos acertados.\nAo acertar, se a Vida de Hutao for inferior ou igual a 50%, pode causar um maior Dano e Cura.\n\n<i>Se um falecido ainda está ativo no mundo mortal, a Funerária de Wangsheng poderia ficar inquieta. A cremação é uma maneira que pode acalmar Hutao, todavia, quanto mais preocupada ela fica, maior as suas chamas.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Crisálida",
+            "desc": "Após o estado da <k>Dança de Borboleta</k> aplicado por <k>Guia do Além</k> terminar, a Taxa CRIT de todos os personagens (menos Hutao) na equipe aumenta em 12% por 8s."
+          },
+          {
+            "name": "Sangue Fervendo",
+            "desc": "Quando a Vida de Hutao ficar inferior ou igual a 50%, obterá 33% de <e:pyro>bônus de Dano Pyro</e>."
+          },
+          {
+            "name": "Quanto Mais, Melhor",
+            "desc": "Quando uma Comida Perfeita é feita, tem uma chance de 18% de receber uma Comida Estranha de mesmo tipo."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Buquê Carmesim",
+            "desc": "Sob o estado de <k>Dança de Borboleta</k> aplicado por <k>Guia do Além</k>, o Ataque Carregado de Hutao não consome Stamina."
+          },
+          {
+            "level": 2,
+            "name": "Mau Presságio",
+            "desc": "<k>Pétalas Sangrentas</k> causa Dano adicional equivalente a 10% da Vida Máxima de Hutao.\nAlém disso, <k>Pacificadora de Espíritos</k> pode aplicar efeito de <k>Pétalas Sangrentas</k> aos inimigos acertados."
+          },
+          {
+            "level": 3,
+            "name": "Ritual de Sangria",
+            "desc": "O nível de Habilidade <k>Guia do Além</k> aumenta em 3 níveis.\nPode ser aumentado até 15 níveis."
+          },
+          {
+            "level": 4,
+            "name": "Jardim do Descanso Eterno",
+            "desc": "Quando os inimigos sob estado de <k>Pétalas Sangrentas</k> aplicado por Hutao forem derrotados, a Taxa CRIT de todos os aliados (menos Hutao) ao redor aumenta em 12% por 15s."
+          },
+          {
+            "level": 5,
+            "name": "Incenso de Flores",
+            "desc": "Aumenta o nível do <k>Pacificadora de Espíritos</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Abraço das Borboletas",
+            "desc": "O efeito será ativado quando a Vida de Hutao for inferior a 25%, ou o Dano recebido for suficiente para derrotá-la.\nO Dano recebido não irá derrubar Hutao, e nos primeiros 10s, a RES Elemental e RES Física irão aumentar em 200%, entretanto, a Taxa CRIT aumenta em 100%, e a sua Resistência contra Interrupção aumenta significativamente.\nO efeito será ativado automaticamente quando a Vida for 1.\nO efeito apenas pode ser ativado a cada 60s."
           }
         ]
       }

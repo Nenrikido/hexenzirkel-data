@@ -30,7 +30,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15035",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -46,6 +46,13 @@
         "bonuses": {
           "2": "Augmente l'ATQ de 18 %.",
           "4": "Lorsque la valeur d'un engagement vital augmente ou diminue, les DGT infligés par le personnage augmentent de 18 % pendant 6 s. Cet effet peut être cumulé 3 fois maximum."
+        }
+      },
+      "pt": {
+        "name": "Fragmento da Harmonia Fantástica",
+        "bonuses": {
+          "2": "ATQ +18%",
+          "4": "Quando o valor de um Contrato de Vida aumenta ou diminui, aumenta o Dano causado por esse personagem em 18% por 6s. Acumula até 3 vezes."
         }
       }
     }

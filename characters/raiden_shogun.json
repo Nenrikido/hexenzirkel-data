@@ -589,7 +589,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000052",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -714,6 +714,68 @@
             "level": 6,
             "name": "Porteur de souhaits",
             "desc": "Lorsqu'elles bénéficient de l'état <k>Harmonie d'idéal</k> accordé par <k>Art secret : Dogme d'idéal</k>, les attaques de la Shogun Raiden qui sont considérées comme faisant partie de son déchaînement élémentaire diminuent le TdR des déchaînements élémentaires de tous les personnages de l'équipe à proximité (hormis la Shogun Raiden) de 1 s.\nCet effet peut être déclenché une fois toutes les secondes, et un maximum de 5 fois pendant la durée de cet état."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Origem",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir um golpe com salto para cima.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Milagre: Luz Maligna",
+            "desc": "A Shogun Raiden revela um fragmento de sua Eutimia, causando <e:electro>Dano Electro</e> a inimigos próximos, e concedendo a membros da equipe próximos o Olho do Julgamento Tempestuoso.\n<k>Olho do Julgamento Tempestuoso</k>\n· Quando personagens com esse bônus atacam e causam Dano aos inimigos, o Olho lançará um Ataque Coordenado, causando <e:electro>Dano Electro em uma AdE</e> na localização dos inimigos.\n· Personagens que ganham o Olho do Julgamento Tempestuoso terão o Dano de seus Supremos aumentado baseado no custo de Energia Elemental do Supremo durante a duração do Olho.\n\nO Olho pode iniciar um Ataque Coordenado a cada 0.9s por cada equipe.\nAtaques Coordenados gerados por personagens na equipe que não são controlados por você causam 20% do Dano normal.\n\n<i>Seres de grande divindade podem afetar tudo que veem, e a Arconte Electro pode manipular as estrelas não auspiciosas para defender seus Retentores e trazer uma sentença trovejante a seus inimigos.</i>"
+          },
+          "burst": {
+            "name": "Arte Secreta: Musou Shinsetsu",
+            "desc": "Reunindo verdades não numeradas e desejos incontáveis, a Shogun Raiden liberta o Musou no Hitotachi e causa <e:electro>Dano Electro em uma AdE</e>, usando Musou Isshin em combate por um certo tempo depois. O dano de Musou no Hitotachi e dos ataques causados por Musou Isshin aumentam de acordo com o número de acúmulos de Determinação consumidos pelo Shogan Byakugen no Rin quando esta habilidade é utilizada.\n\n<k>Musou Isshin</k>\nEnquanto estiver neste estado, a Shogun Raiden usará sua tachi em batalha, enquanto seus ataques Normais, Carregados e Imersivos serão infundidos com <e:electro>Dano Electro</e>, que não pode ser substituído. Quando tais ataques atingem os oponentes, ela irá regenerar energia para todos os membros da equipe mais próxima. A energia pode ser restaurada desta forma a cada 1s, e este efeito pode ser acionado 5 vezes durante toda a duração desta habilidade.\nEnquanto neste estado, a resistência da Shogun Raiden à interrupção é aumentada, e ela fica imune a Dano de reações de <e:electro>Eletricamente Carregado</e>.\nNo estado de Musou Isshin, os danos do Ataque Normal, Ataque Carregado e Ataque Imersivo são considerados como Dano de Supremo.\n\nO efeito do Musou Isshin será removido quando a Shogun Raiden sair de campo.\n\n<k>Shogan Byakugen no Rin</k>\nQuando os membros próximos (excluindo a própria Shogun Raiden) da equipe usam seus Supremos, a Shogun Raiden irá acumular Determinação com base na Energia Elemental do Supremo.\nO máximo de acúmulos é de 60.\n\nA Determinação acumulada em Shogan Byakugen no Rin será excluída 300 segundos após sair da batalha.\n\n<i>Esta é a nova técnica secreta da Shogun Raiden. Abandonando o vazio como \"Musou\", ela agora carrega um novo \"Musou\" - os sonhos e ambições de todos. Assim como \"shinsetsu\", \"a verdade\" também significa \"o novo\", assim também Inazuma entrou em um novo capítulo.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Desejos Incontáveis",
+            "desc": "Quando Personagens próximos ganham Orbes Elementais ou Partículas Elementais, <k>Shogan Byakugen no Rin</k> ganha 2 cargas de Determinação.\nEsse efeito pode ocorrer uma vez a cada 3s."
+          },
+          {
+            "name": "Transcendência",
+            "desc": "Cada 1% acima de 100% de Recarga de Energia que a Shogun Raiden possui lhe dá:\n· 0.6% a mais de restauração de Energia Elemental de <k>Musou Isshin</k>.\n· 0.4% de <e:electro>Bônus de Dano Electro</e>."
+          },
+          {
+            "name": "Preservação Suprema",
+            "desc": "Ao ascender Espadas e Lanças, Mora gasta é reduzida em 50%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Inscrição Ameaçadora",
+            "desc": "<k>Shogan Byakugen no Rin</k> acumulará Determinação ainda mais rápido. Quando personagens <e:electro>Electro</e> usarem seus Supremos, o ganho de Determinação é aumentado em 80%. Quando personagens de outros Tipos Elementais usam seus Supremos, o ganho de Determinação é aumentado em 20%."
+          },
+          {
+            "level": 2,
+            "name": "Quebra-Aço",
+            "desc": "Sob o estado de Musou no Hitotachi e Musou Isshin, os ataques da Shogun Raiden, aplicados pela <k>Arte Secreta: Musou Shinsetsu</k>, ignoram 60% da DEF dos oponentes."
+          },
+          {
+            "level": 3,
+            "name": "Passado do Shinkage",
+            "desc": "Aumenta o Nível de <k>Arte Secreta: Musou Shinsetsu</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Juramento de Decoro",
+            "desc": "Quando o estado de <k>Musou Isshin</k> aplicado pela <k>Arte Secreta: Musou Shinsetsu</k> expira, todos os membros da equipe próximos (exceto a Shogun Raiden) ganham 30% de Bônus de ATQ por 10s."
+          },
+          {
+            "level": 5,
+            "name": "Descendência Shogun",
+            "desc": "Aumenta o Nível de <k>Milagre: Luz Maligna</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Portadora de Desejos",
+            "desc": "Durante o estado de <k>Musou Isshin</k> aplicado pela <k>Arte Secreta: Musou Shinsetsu</k>, quando o Supremo da Shogun Raiden atinge um inimigo irá reduzir o Tempo de Recarga do Supremo de todos os membros de equipe próximos em 1s (exceto o da própria Shogun Raiden).\nEste efeito pode ser desencadeado uma vez a cada 1s, e pode ser desencadeado em um total de 5 vezes durante a duração deste estado."
           }
         ]
       }

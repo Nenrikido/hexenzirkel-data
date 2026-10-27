@@ -287,7 +287,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000114",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -412,6 +412,68 @@
             "level": 6,
             "name": "Source revenue",
             "desc": "Skirk obtient un cumul de « Ravage : Section » pendant 15 s chaque fois qu'elle absorbe une faille du néant grâce à l'aptitude d'élévation « <k>Raisonnement outre-raison</k> ». Skirk peut consommer ces cumuls pour déclencher une attaque coordonnée et diminuer les DGT qu'elle subit en mode <k>Flash à sept phases</k>. Cet effet peut être cumulé 3 fois maximum, la durée de chaque cumul étant calculée de façon indépendante.\nL'aptitude d'élévation « Raisonnement outre-raison » doit être déjà débloquée.\n\n<k>Ravage : Section</k>\n· Lorsqu'elle utilise son déchaînement élémentaire <k>Ravage : Ruine</k>, Skirk consomme tous les cumuls de <k>Ravage : Section</k> pour déclencher une attaque coordonnée : chaque cumul<k></k> inflige des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 750 % de l'ATQ de Skirk, ces dégâts étant considérés comme des DGT de déchaînement élémentaire.\n· Lorsqu'elle est en mode Flash à sept phases et que le 3e ou 5e coup de son attaque normale touche un ennemi, Skirk consomme un cumul de <k>Ravage : Section</k> pour déclencher 3 attaques coordonnées : chaque attaque coordonnée inflige des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 180 % de l'ATQ de Skirk, ces dégâts étant considérés comme des DGT d'attaque normale.\n· Lorsqu'elle subit des DGT pendant son mode Flash à sept phases, Skirk consomme un cumul de <k>Ravage : Section</k> pour diminuer ces derniers de 80 % et déclencher 3 attaques coordonnées sur les ennemis proches : chaque attaque coordonnée inflige des <e:cryo>DGT Cryo</e> d'une valeur équivalant à 180 % de l'ATQ de Skirk, ces dégâts étant considérés comme des DGT d'attaque chargée."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Devastação: Destruição",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes com a espada.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para brandir uma lâmina cristalina, infligindo Dano em seu trajeto contra os inimigos.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Devastação: Lampejo",
+            "desc": "Imita o estilo de combate do \"Cavaleiro Abominável\". Produz efeitos diferentes dependendo se você Pressionar ou Manter pressionado.\n\n<k>Pressionar</k>\nSkirk obtém 45 <k>Sutileza da Serpente</k> e alterna para o modo <k>Lampejo de Sete Fases</k>.\n\n<k>Manter pressionado</k>\nSkirk obtém 45 Sutileza da Serpente e se moverá continuamente em alta velocidade. Sua Resistência contra Interrupção é aumentada nesse estado.\nDurante esse período, Skirk pode controlar a direção do movimento, e pode se mover sobre a água. Ela também pode usar novamente essa Habilidade para encerrar o movimento rápido antes do tempo."
+          },
+          "burst": {
+            "name": "Arte Apodrecida: Obliteração",
+            "desc": "O Supremo de Skirk não depende de Energia Elemental, mas sim de <k>Sutileza da Serpente</k>.\nQuando Skirk tiver pelo menos 50 de <k>Sutileza da Serpente</k>, ela poderá consumir toda a sua <k>Sutileza da Serpente</k> para liberar seu Supremo, rasgando o espaço à sua frente e realizando cortes rápidos consecutivos que causam <e:cryo>Dano Cryo em uma AdE</e>. Ao mesmo tempo, o Dano causado por cada golpe desse Supremo poderá ser aumentado por cada ponto de <k>Sutileza da Serpente</k> acima de 50 no momento da ativação. Um máximo de 12 pontos poderá ser considerado para esse aumento.\n\nQuando Skirk estiver no modo <k>Lampejo de Sete Fases</k>, o Supremo \"Arte Apodrecida: Obliteração\" será substituído por \"Devastação: Obliteração\".\n\n<k>Devastação: Obliteração</k>\nUm Supremo especial que pode ser usado mesmo sem consumir Sutileza da Serpente.\nApós usá-lo, Skirk obterá o efeito \"Tudo Há de Murchar\", que durará até o término do Lampejo de Sete Fases. Após desbloquear o Talento de Ascensão <k>Razão Além da Razão</k>, ela também poderá absorver Fendas do Vazio próximas.\nEnquanto \"Tudo Há de Murchar\" estiver ativo, a cada 0.1s, após o Ataque Normal de Skirk acertar um inimigo, esse Ataque Normal causará Dano aumentado. Se ela tiver absorvido alguma Fenda do Vazio ao usar o <k>Devastação: Obliteração</k>, o Dano desse Ataque Normal será ainda mais aumentado com base no número de Fendas absorvidas.\nEsse efeito será cancelado após ser acionado 10 vezes."
+          }
+        },
+        "passives": [
+          {
+            "name": "Razão Além da Razão",
+            "desc": "Quando membros próximos da equipe desencadearem reações de Congelado, Supercondutor, Supercondutor Estelar, Redemoinho Cryo, Redemoinho Estelar ou Cristalização Cryo contra inimigos, uma Fenda do Vazio será criada próxima a esse inimigo. Esse efeito pode ser desencadeado uma vez a cada 2.5s. Um máximo de 3 Fendas do Vazio criadas pela própria Skirk pode existir simultaneamente em campo.\n\nSkirk pode usar os seguintes métodos para absorver Fendas do Vazio próximas:\n· Ao acertar um inimigo com um Ataque Carregado no <k>modo Lampejo de Sete Fases</k>.\n· Ao usar o Supremo especial <k>Devastação: Obliteração</k> enquanto estiver no modo Lampejo de Sete Fases.\n· Ao Manter pressionada sua Habilidade Elemental <k>Devastação: Lampejo</k> para se mover rapidamente.\n\nCada Fenda absorvida concederá a ela 8 pontos de <k>Sutileza da Serpente</k>."
+          },
+          {
+            "name": "Retorno à Desolação",
+            "desc": "Quando membros próximos da equipe de Tipo Elemental <e:hydro>Hydro</e> atingirem um inimigo com um ataque <e:hydro>Hydro</e>, ou quando os outros personagens próximos da equipe de Tipo Elemental <e:cryo>Cryo</e>, exceto a própria Skirk, atingirem um inimigo com um ataque <e:cryo>Cryo</e>, Skirk receberá o efeito \"Encruzilhada da Morte\" por 20s. Máximo de 3 acúmulos, com a duração de cada acúmulo contada independentemente.\nCada personagem pode conceder no máximo 1 acúmulo de \"Encruzilhada da Morte\" para Skirk dessa maneira.\nCada acúmulo de \"Encruzilhada da Morte\" aumenta o Dano do Ataque Normal causado por Skirk no modo <k>Lampejo de Sete Fases</k> em 110%/120%/170% de seu Dano original e também aumenta o Dano causado por seu Supremo <k>Arte Apodrecida: Obliteração</k> em 105%/115%/160% de seu Dano original."
+          },
+          {
+            "name": "Mentoria Mútua de Armamentos",
+            "desc": "Quando todos os membros da equipe forem de Tipo Elemental <e:hydro>Hydro</e> ou <e:cryo>Cryo</e>, e houver pelo menos 1 personagem Hydro e 1 personagem Cryo, o Nível da <k>Habilidade Elemental</k> dos membros da equipe será aumentado em 1."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Queda Longínqua",
+            "desc": "Aprimora os efeitos do Talento de Ascensão <k>Razão Além da Razão</k>: Skirk invocará uma lâmina de cristal por cada Fenda do Vazio absorvida para atacar inimigos próximos, causando 500% de seu ATQ como <e:cryo>Dano Cryo</e>. Esse Dano é considerado como Dano de Ataque Carregado.\nÉ necessário primeiro desbloquear o Talento de Ascensão <k>Razão Além da Razão</k>."
+          },
+          {
+            "level": 2,
+            "name": "Ao Abismo",
+            "desc": "Após desencadear sua Habilidade Elemental <k>Devastação: Lampejo</k>, Skirk obterá 10 pontos adicionais de <k>Sutileza da Serpente</k>.\nAo usar seu Supremo <k>Arte Apodrecida: Obliteração</k>, o Dano dessa instância do Supremo será aumentado ao considerar até 10 pontos adicionais de Sutileza da Serpente.\nAlém disso, dentro de 12.5s após Skirk desencadear o Supremo especial <k>Devastação: Obliteração</k> enquanto estiver em seu modo <k>Lampejo de Sete Fases</k>, seu ATQ é aumentado em 70%. Este efeito será cancelado ao sair do modo Lampejo de Sete Fases."
+          },
+          {
+            "level": 3,
+            "name": "Pecado Fortuito",
+            "desc": "Aumenta o nível do Supremo <k>Arte Apodrecida: Obliteração</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Fluxo Fraturado",
+            "desc": "Aprimora os efeitos do Talento de Ascensão <k>Retorno à Desolação</k>: Cada acúmulo de Encruzilhada da Morte também aumenta o ATQ da Skirk em 10%/20%/40%.\nÉ necessário desbloquear o Talento de Ascensão <k>Retorno à Desolação</k> primeiro."
+          },
+          {
+            "level": 5,
+            "name": "Portadora de Desejos",
+            "desc": "Aumenta o Nível da Habilidade Elemental <k>Devastação: Lampejo</k> em 3.\nO nível máximo de aprimoramento é 15."
+          },
+          {
+            "level": 6,
+            "name": "Para a Fonte",
+            "desc": "Cada Fenda do Vazio absorvida por Skirk através dos efeitos do Talento de Ascensão <k>Razão Além da Razão</k> concederá a ela 1 acúmulo de Devastação: Corte. Ela pode consumir esses acúmulos para iniciar ataques coordenados e reduzir o Dano recebido enquanto estiver no modo <k>Lampejo de Sete Fases</k>. Esse efeito dura 15s, pode acumular até 3 vezes, e a duração de cada acúmulo é contada separadamente.\nÉ necessário desbloquear o Talento de Ascensão \"Razão Além da Razão\" primeiro.\n\n<k>Devastação: Corte</k>\n· Quando Skirk usa o Supremo <k>Arte Apodrecida: Obliteração</k>, ela consumirá todos os acúmulos de <k>Devastação: Corte</k> para iniciar um ataque coordenado, em que cada acúmulo causará 750% do ATQ de Skirk como <e:cryo>Dano Cryo</e>. Esse Dano é considerado Dano de Supremo.\n· Quando usa Ataques Normais enquanto estiver no modo Lampejo de Sete Fases, 1 acúmulo de <k>Devastação: Corte</k> será consumido quando o terceiro ou quinto golpe sequencial atingir um inimigo, lançando 3 ataques coordenados. Cada ataque coordenado causa 180% do ATQ de Skirk como <e:cryo>Dano Cryo</e>. Esse Dano é considerado Dano de Ataque Normal.\n· Quando Skirk recebe Dano enquanto está no modo Lampejo de Sete Fases, 1 acúmulo de <k>Devastação: Corte</k> será consumido para reduzir essa instância de Dano em 80% e atacar inimigos próximos 3 vezes. Cada ataque causa 180% do ATQ de Skirk como <e:cryo>Dano Cryo</e>. Esse Dano é considerado Dano de Ataque Carregado."
           }
         ]
       }

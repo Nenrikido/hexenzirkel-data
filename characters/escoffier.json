@@ -200,7 +200,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000112",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -325,6 +325,68 @@
             "level": 6,
             "name": "Goûters débordants de couleurs",
             "desc": "Le <k>mode « Stockage à froid » du mek cuistot</k> est renforcé :\n· Lorsqu'une attaque normale, chargée ou plongeante de votre personnage déployé touche un ennemi, le mode « Stockage à froid » du mek cuistot tire un parfait glacé spécial supplémentaire, infligeant des <e:cryo>DGT Cryo de zone</e> d'une valeur équivalant à 500 % de l'ATQ d'Escoffier, ces DGT étant considérés comme des DGT de compétence élémentaire.\nCet effet peut être déclenché une fois toutes les 0,5 s, et un maximum de 6 fois pendant la durée d'un mode « Stockage à froid » du mek cuistot."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Habilidades Culinárias",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir um Ataque de Impulso Ascendente.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Culinária ao Fogo Baixo",
+            "desc": "Contemple o verdadeiro significado de cozinhar! Demonstre as diferentes técnicas culinárias de Fontaine ao pressionar ou manter pressionado.\n\n<k>Pressionar</k>\nAtiva o Robô Culinário Multiuso no seu modo de Armazenamento Frio, causando <e:cryo>Dano Cryo em AdE</e> contra os inimigos ao redor.\n\n<k>Modo Robô Culinário: Armazenamento Frio</k>\nAcompanha o personagem ativo e periodicamente dispara um Parfait Congelado contra os inimigos próximos, causando <e:cryo>Dano Cryo.\n\n<color=#FFD780FF>Arkhe: Ousia</e></color>\nQuando Escoffier periodicamente ativar o Robô Culinário com o modo Armazenamento Frio, invoca uma Lâmina da Fluidez, causando <e:cryo>Dano Cryo em AdE</e> com Ousia.\n\n<k>Manter pressionado</k>\nUsa o modo <k>Culinária Improvisada</k> para ativar o Robô Culinário Multiuso."
+          },
+          "burst": {
+            "name": "Técnica de Corte Refinado",
+            "desc": "Demonstrando suas habilidades excepcionais com a faca, Escoffier causa <e:cryo>Dano Cryo em uma AdE</e> e restaura a Vida de todos os membros próximos da equipe com base em seu ATQ."
+          }
+        },
+        "passives": [
+          {
+            "name": "A Comida é o Melhor Remédio",
+            "desc": "Após usar o Supremo <k>Técnica de Corte Refinado</k>, Escoffier obterá o efeito de Terapia Alimentar por 9s: Restaura Vida para o personagem ativo próximo a cada 1 segundo em 138.24% do ATQ de Escoffier."
+          },
+          {
+            "name": "Inspiração Temperada",
+            "desc": "Quando o grupo tiver 1/2/3/4 personagens <e:hydro>Hydro</e> ou <e:cryo>Cryo</e>, Escoffier reduzirá a <e:hydro>RES Hydro</e> e a <e:cryo>RES Cryo</e> de inimigos atingidos por sua Habilidade Elemental, <k>Culinária ao Fogo Baixo</k>, ou por seu Supremo, <k>Técnica de Corte Refinado</k>, em 5%/10%/15%/55% por 12s."
+          },
+          {
+            "name": "A Postos para Improvisar",
+            "desc": "Ao manter pressionado para lançar a Habilidade Elemental <k>Culinária ao Fogo Baixo</k>, usará o modo Culinária Improvisada para ativar o Robô Culinário Multiuso.\n\n<k>Robô Culinário: Modo Culinária Improvisada</k>\n· Coloca o Robô Culinário no campo. O Robô Culinário pode absorver os ataques Elementais. Quando a Energia Elemental absorvida alcançar o limite, Escoffier poderá converter os ingredientes colocados dentro em comidas fantásticas.\n· Escoffier precisa de tempo para coletar ingredientes novos. É possível fazer uma certa quantidade de Pratos por semana dessa maneira. A contagem de Prato é redefinida toda segunda-feira às 04:00 da manhã horário do servidor."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Dança de Sabores para o Paladar",
+            "desc": "Quando o Tipo Elemental de 4 membros da equipe é <e:hydro>Hydro</e> ou <e:cryo>Cryo</e>, aumenta o Dano CRIT de todos os membros da equipe ao causarem <e:cryo>Dano Cryo</e> em 60% nos 15s após Escoffier lançar sua Habilidade Elemental <k>Culinária ao Fogo Baixo</k> ou seu Supremo <k>Técnica de Corte Refinado</k>.\nÉ necessário ter desbloqueado o Talento de Ascensão \"Inspiração Temperada\"."
+          },
+          {
+            "level": 2,
+            "name": "Um Ensopado Fresco e Aromático é uma Arte",
+            "desc": "Quando Escoffier usar o <k>Modo de Armazenamento Frio</k> para ativar o Robô Culinário, ela obterá o efeito \"Iguaria Fresquinha\" por 15s: nessa duração, Escoffier obtém 5 acúmulos de Prato Frio, fazendo com que quando um personagem ativo causar <e:cryo>Dano Cryo</e> com um Ataque Normal, Carregado, Imersivo, Habilidade Elemental e Supremo contra um inimigo e não seja a própria Escoffier, consome 1 acúmulo de Prato Frio e aumenta o Dano causado. O aumento de Dano é equivalente a 240% do ATQ de Escoffier.\nQuando uma instância de <e:cryo>Dano Cryo</e> de atingir mais de um inimigo ao mesmo tempo, consumirá a quantidade de acúmulos correspondente ao número de inimigos atingidos."
+          },
+          {
+            "level": 3,
+            "name": "A Magia da Panificação Caramelizada",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Culinária ao Fogo Baixo</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Receita Secreta de Alecrim",
+            "desc": "Prolonga a duração de <k>Terapia Alimentar</k> em 6s. Nessa duração, ao curar com <k>Terapia Alimentar</k>, possui uma chance de aumentar a Cura em 100%, e regenerar 2 de Energia Elemental para Escoffier. Essa chance é equivalente a Taxa CRIT de Escoffier. Esse efeito pode ser desencadeado até 7 vezes em uma duração de <k>Terapia Alimentar</k>.\nÉ necessário ter desbloqueado o Talento de Ascensão \"A Comida é o Melhor Remédio\"."
+          },
+          {
+            "level": 5,
+            "name": "Sinfonia de Mil Molhos",
+            "desc": "Aumenta o nível do Supremo <k>Técnica de Corte Refinado</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Festas do Chá Multicoloridas",
+            "desc": "<k>Modo Robô Culinário: Armazenamento Frio</k> obtém um fortalecimento:\n· Quando o Ataque Normal, Carregado ou Imersivo do personagem ativo atinge um inimigo, o Modo Robô Culinário: Armazenamento Frio dispara um Parfait Congelado especial adicional, causando 500% do ATQ de Escoffier como <e:cryo>Dano Cryo em AdE</e>. Esse Dano é considerado Dano de Habilidade Elemental.\nEsse efeito pode ser desencadeado uma vez a cada 0.5s, e pode ser desencadeado até 6 vezes em uma duração de Modo Robô Culinário: Armazenamento Frio."
           }
         ]
       }

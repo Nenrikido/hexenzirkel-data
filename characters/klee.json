@@ -251,7 +251,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000029",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -384,6 +384,72 @@
             "level": 6,
             "name": "À tout feu",
             "desc": "Klee restaure 3 pts d'énergie élémentaire à tous les personnages de l'équipe (hormis Klee) toutes les 3 s tant que <k>Fleur bombardier</k> est active.\nL'activation de <k>Fleur bombardier</k> confère un bonus de <e:pyro>DGT Pyro</e> de 10 % à tous les autres membres de l'équipe et accorde un <e:pyro>bonus de DGT Pyro</e> de 50 % à Klee, le tout pendant 25 s.\n\n<k>Hexerei : Rituel secret</k>\nEn déclenchant un effet consommant une <k>étincelle explosive</k>, il y a 50 % de chances de ne pas en consommer<k></k>. De plus, tant que <k>Fleur bombardier</k> est active, le premier et le deuxième coup de l'attaque normale de Klee ont 40 % de chances de consommer une étincelle explosive pour déclencher une attaque additionnelle équivalant à une frappe boum-boum sur l'ennemi."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Kaboom!",
+            "desc": "<k>Ataque normal</k>\nAtira coisas que fazem boom quando acertam coisas! Realiza até 3 ataques explosivos, infligindo <e:pyro>Dano Pyro em uma AdE</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina que inflige <e:pyro>Dano Pyro em uma AdE</e> em inimigos após um curto tempo de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Pyro, Klee mergulha em direção ao chão em pleno ar, causando dano a todos os inimigos em seu caminho. Inflige <e:pyro>Dano Pyro em uma AdE</e> ao entrar em contato com o chão."
+          },
+          "skill": {
+            "name": "Bomba Saltitante",
+            "desc": "A Bomba Saltitante é uma explosão de diversão!\nQuando lançada, Bomba Saltitante quica três vezes, incendiando e infligindo <e:pyro>Dano Pyro em uma AdE</e> a cada salto.\n\nNo terceiro salto, a bomba se divide em várias minas.\nAs minas irão explodir ao entrar em contato com os inimigos, ou após um curto período de tempo, infligindo <e:pyro>Dano Pyro em uma AdE</e>.\n\nComeça com 2 cargas.\n\n<i>A Bomba Saltitante é a melhor amiga de Klee! Ela não consegue deixar de apresentá-la a todos.</i>"
+          },
+          "burst": {
+            "name": "Faíscas Explosivas",
+            "desc": "Delícia Ardente de Klee! Ao longo da duração dessa habilidade, evoca continuamente os ataques de Faíscas Explosivas para atacar inimigos próximos, infligindo <e:pyro>Dano Pyro em uma AdE</e>.\n\n<i>Todos os cavaleiros acreditam que Klee deve ser uma estrela da sorte, tendo cuidado para nunca se machucarem com suas próprias bombas...</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Presente Explosivo",
+            "desc": "Quando a Habilidade Elemental <k>Bomba Saltitante</k> e o Ataque Normal causarem Dano, possui 50% de chance de conceder Lampejo Explosivo a Klee. Ao lançar a Habilidade Elemental <k>Bomba Saltitante</k> e o Supremo <k>Faíscas Explosivas</k>, também concede 1 Lampejo Explosivo a Klee. Ela pode acumular Lampejo Explosivo até 3 vezes.\nQuando Klee possui Lampejo Explosivo e faz um Ataque Carregado, consome 1 Lampejo Explosivo e passa a lançar o Ataque Carregado Especial \"Faíscas Boom Boom\" que não consome Stamina, e aumenta o Dano causado em 50%.\n\n<k>Mágico: Ritual Secreto</k>\nNa duração do Supremo <k>Faíscas Explosivas</k>, o combo de acerto do Ataque Normal de Klee não é redefinido, e quando Klee faz um Ataque Normal possuindo Lampejo Explosivo, o terceiro ataque consome 1 Lampejo Explosivo para adicionar um ataque equivalente a Faíscas Boom Boom contra o inimigo."
+          },
+          {
+            "name": "Faíscas Ilimitadas",
+            "desc": "Quando o Ataque Carregado de Klee resultar em um Crítico, todos os membros da equipe ganham 2 pontos de Energia Elemental."
+          },
+          {
+            "name": "Tem tesouros por toda parte",
+            "desc": "Mostra a localização de <k>Especialidades de Mondstadt</k> próximos no mapa."
+          },
+          {
+            "name": "Presente da Noite da Bruxa: Magia Flamejante",
+            "desc": "Depois de completar <k>Tarefa da Bruxa: Das Faíscas</k>, Klee se torna uma personagem <k>Mágica</k>. Ao possuir pelo menos 2 personagens Mágicos na equipe, obtém o efeito <k>Mágico: Ritual Secreto</k> que fortalece os personagens Mágicos.\n\n<k>Mágico: Ritual Secreto</k>\nQuando o Ataque Normal, a Habilidade Elemental ou o Supremo de Klee causam Dano, obtém 1 Medalha Boom Boom por 20s. Cada tipo de ataque pode fazer Klee obter até 1 Medalha Boom Boom dessa forma. Medalhas Boom Boom obtidas de ataques diferentes possuem sua duração contada separadamente. Quando Klee possui 1/2/3 Medalhas Boom Boom, o Ataque Carregado especial Faíscas Boom Boom causará 115%/130%/150% do Dano original."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Explosão em Cadeia",
+            "desc": "Ataques e Habilidades possuem certa chance de invocar faíscas que bombardeiam o inimigo, causando Dano igual a 120% das <k>Faíscas Explosivas</k>.\nAumenta o ATQ de Klee em 60% por 12s após desencadear esse efeito."
+          },
+          {
+            "level": 2,
+            "name": "Fragmentos Explosivos",
+            "desc": "Quando a Habilidade Elemental de Klee atinge os inimigos, reduz a DEF deles em 23% por 10 segundos."
+          },
+          {
+            "level": 3,
+            "name": "Coquetel Especial de Klee",
+            "desc": "Aumenta o nível da <k>Bomba Saltitante</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Kaboom!",
+            "desc": "Se sair do campo na duração de <k>Faíscas Explosivas</k>, ou a duração de <k>Faíscas Explosivas</k> terminar, explodirá causando 555% do ATQ como <e:pyro>Dano Pyro em AdE</e>. Se Klee estiver ativa, aumenta o Dano causado desse efeito em 100%."
+          },
+          {
+            "level": 5,
+            "name": "Estrela dos Bombardeios",
+            "desc": "Aumenta o nível das <k>Faíscas Explosivas</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Fogo Aberto",
+            "desc": "Enquanto sob o efeito de <k>Faíscas Explosivas</k>, Klee regenera 3 de Energia para todos os membros da equipe (exceto Klee) a cada 3s.\nQuando <k>Faíscas Explosivas</k> for usado, os todos os outros membros do grupo ganharão 10% de <e:pyro>Bônus de Dano Pyro</e> por 25s, e Klee obtém 50% de <e:pyro>Bônus de Dano Pyro</e>.\n\n<k>Mágico: Ritual Secreto</k>\nAo desencadear e consumir <k>Lampejo Explosivo</k>, possui 50% de chance de não consumir <k>Lampejo Explosivo</k>. Além disso, quando está no estado <k>Faíscas Explosivas</k> e Klee fizer um Ataque Normal, o primeiro e segundo acertos possuem 40% de chance de consumir 1 Lampejo Explosivo, acrescentando um ataque equivalente a Faíscas Boom Boom."
           }
         ]
       }

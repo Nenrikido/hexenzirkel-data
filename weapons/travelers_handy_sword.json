@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11303",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Chaque particule ou orbe élémentaires obtenus restaurent <r>1,5 %</r> des PV.",
             "4": "Chaque particule ou orbe élémentaires obtenus restaurent <r>1,75 %</r> des PV.",
             "5": "Chaque particule ou orbe élémentaires obtenus restaurent <r>2 %</r> des PV."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada de aço que esconde tesouras, lupas, entre outros itens úteis de viagem em sua bainha.",
+        "passive": {
+          "name": "Jornada",
+          "refinements": {
+            "1": "Cada Orbe ou Partícula Elemental coletada restaura <r>1%</r> da Vida.",
+            "2": "Cada Orbe ou Partícula Elemental coletada restaura <r>1.25%</r> da Vida.",
+            "3": "Cada Orbe ou Partícula Elemental coletada restaura <r>1.5%</r> da Vida.",
+            "4": "Cada Orbe ou Partícula Elemental coletada restaura <r>1.75%</r> da Vida.",
+            "5": "Cada Orbe ou Partícula Elemental coletada restaura <r>2%</r> da Vida."
           }
         }
       }

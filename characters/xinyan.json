@@ -262,7 +262,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000044",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -387,6 +387,68 @@
             "level": 6,
             "name": "Rock infernal",
             "desc": "Diminue la consommation d'endurance des attaques chargées de Xinyan de 30 %. Xinyan obtient de plus un bonus d'ATQ équivalant à 50 % de sa DÉF lorsqu'elle exécute une attaque chargée."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Dança do Fogo",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Fervor Arrebatador",
+            "desc": "Xinyan brande seu instrumento, causando <e:pyro>Dano Pyro</e> em inimigos próximos, criando um escudo feito a partir da paixão de seu público.\nA absorção de Dano do escudo aumenta com base na DEF de Xinyan e no número de inimigos atingidos.\nAtingir de 0-1 inimigo concede Escudo Nível 1: Improviso.\nAtingir 2 inimigos concede Escudo Nível 2: Introdução.\nAtingir 3 ou mais inimigos concede Escudo Nível 3: Rave, que também causará <e:pyro>Dano Pyro</e> periodicamente aos inimigos próximos.\n\nO escudo tem as seguintes propriedades especiais:\nQuando ativado, ele aplica o elemento <e:pyro>Pyro</e> em Xinyan.\nTem 250% de eficácia de absorção de Dano contra <e:pyro>Dano Pyro</e>.\n\n<i>Xinyan insiste que essas pirotecnias representam o ápice da arte da performance e que são fenômenos físicos que nada têm a ver com sua Visão.</i>"
+          },
+          "burst": {
+            "name": "Melodia da Rebelião",
+            "desc": "Tocando sua música rapidamente, Xinyan lança os inimigos próximos e causa Dano Físico neles, hipnotizando a multidão.\nA pura intensidade da atmosfera causará explosões que causam <e:pyro>Dano Pyro</e> aos inimigos próximos.\n\n<i>Xinyan costumava terminar todas as suas performances com esse movimento. Ela não parou porque era perigoso, mas sim porque ela não tinha um final mais épico no caso de alguém gritar \"Mais!\".</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "\"O espetáculo deve continuar...\"",
+            "desc": "Diminui o número de inimigos que <k>Fervor Arrebatador</k> precisa acertar para acionar cada nível do escudo.\nEscudo Nível 2: Introdução, requerimento reduzido a 1 inimigo atingido.\nEscudo Nível 3: Rave, requerimento reduzido a 2 inimigos atingidos ou mais."
+          },
+          {
+            "name": "\"...Isso sim é Rock 'n' Roll!\"",
+            "desc": "Personagens protegidos por <k>Fervor Arrebatador</k> causam 15% mais Dano Físico."
+          },
+          {
+            "name": "Uma Receita Radical",
+            "desc": "Quando uma Culinária Perfeita é feita em uma comida de aumento de DEF, Xinyan tem uma chance de 12% de receber o dobro de produção."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Aceleração Fatal",
+            "desc": "5s após Xinyan causar um CRIT, a Vel. de ATQ do Ataque Normal e Ataque Carregado aumenta 12%.\nEsse efeito pode ocorrer apenas uma vez a cada 5 segundos."
+          },
+          {
+            "level": 2,
+            "name": "Começo Improvisado",
+            "desc": "Taxa CRIT de Dano Físico causado pela <k>Melodia da Rebelião</k> aumenta em 100%, e ao lançar, formará um escudo Nv.3: Rave."
+          },
+          {
+            "level": 3,
+            "name": "Duplo-Stop",
+            "desc": "Aumenta o nível da <k>Fervor Arrebatador</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Ritmo Contagiante",
+            "desc": "O Dano de Balanço de <k>Fervor Arrebatador</k> irá diminuir a RES Física do inimigo em 15% por 12s."
+          },
+          {
+            "level": 5,
+            "name": "Gritos de Bis",
+            "desc": "Aumenta o nível da <k>Melodia da Rebelião</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Rockeando no inferno",
+            "desc": "Diminui o Consumo de Stamina do Ataque Carregado de Xinyan em 30%. Ao usar Ataques Carregados, Xinyan ganha um Bônus de Ataque baseado em 50% de sua defesa."
           }
         ]
       }

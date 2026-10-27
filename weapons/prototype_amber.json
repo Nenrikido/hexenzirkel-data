@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14406",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Restaure <r>5</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>5 %</r> de leurs PV toutes les 2 s pendant cette durée.",
             "4": "Restaure <r>5,5</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>5,5 %</r> de leurs PV toutes les 2 s pendant cette durée.",
             "5": "Restaure <r>6</r> pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent <r>6 %</r> de leurs PV toutes les 2 s pendant cette durée."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um catalisador dourado, guardado secretamente na Forja do Penhasco Obscuro. Parece brilhar com a própria luz do céu.",
+        "passive": {
+          "name": "Chapeamento de Ouro",
+          "refinements": {
+            "1": "Ao usar o Supremo, regenera <r>4</r> de Energia a cada 2s por 6s. Todos os membros da Equipe regenerarão <r>4%</r> de Vida a cada 2s.",
+            "2": "Ao usar o Supremo, regenera <r>4.5</r> de Energia a cada 2s por 6s. Todos os membros da Equipe regenerarão <r>4.5%</r> de Vida a cada 2s.",
+            "3": "Ao usar o Supremo, regenera <r>5</r> de Energia a cada 2s por 6s. Todos os membros da Equipe regenerarão <r>5%</r> de Vida a cada 2s.",
+            "4": "Ao usar o Supremo, regenera <r>5.5</r> de Energia a cada 2s por 6s. Todos os membros da Equipe regenerarão <r>5.5%</r> de Vida a cada 2s.",
+            "5": "Ao usar o Supremo, regenera <r>6</r> de Energia a cada 2s por 6s. Todos os membros da Equipe regenerarão <r>6%</r> de Vida a cada 2s."
           }
         }
       }

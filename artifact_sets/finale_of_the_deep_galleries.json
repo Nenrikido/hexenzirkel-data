@@ -31,7 +31,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15040",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -47,6 +47,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:cryo>Cryo</e> de 15 %.",
           "4": "Lorsque le personnage équipé de l'artéfact a 0 pt d'énergie élémentaire, les DGT infligés par les attaques normales et les déchaînements élémentaires augmentent de 60 %. Le bonus ainsi accordé aux déchaînements élémentaires s'arrête pendant 6 s après que le personnage équipé de l'artéfact inflige des DGT grâce à une attaque normale. De même, le bonus ainsi accordé aux attaques normales s'arrête pendant 6 s après que le personnage équipé de l'artéfact inflige des DGT grâce à un déchaînement élémentaire. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+        }
+      },
+      "pt": {
+        "name": "Epílogo do Corredor",
+        "bonuses": {
+          "2": "Bônus de Dano <e:cryo>Cryo</e> +15%",
+          "4": "Quando a Energia Elemental do personagem que está com esse conjunto equipado for 0, aumenta o Dano causado por seu Ataque Normal em 60%, e o Dano causado pelo Supremo em 60%. Depois que o personagem que está com esse conjunto equipado causar Dano de Ataque Normal, o efeito de aumento de Dano de Supremo desaparecerá por 6s, e o efeito de aumento de Dano de Ataque Normal também desaparecerá por 6s. Esse efeito pode ser desencadeado, ainda que o personagem não esteja ativo."
         }
       }
     }

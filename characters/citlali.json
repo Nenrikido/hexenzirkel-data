@@ -248,7 +248,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000107",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -381,6 +381,72 @@
             "level": 6,
             "name": "Pacte secret de Teoiztac",
             "desc": "Invoqué par la compétence élémentaire <k>Étoile d'aurore givrée</k>, Itzpapa est constamment dans l'état Feu d'opale, l'état ne prenant pas fin lorsque les points de noctâme sont épuisés.\nDe plus, Itzpapa consomme tous les points de noctâme lors de l'utilisation de la compétence élémentaire <k>Étoile d'aurore givrée</k> et consomme de façon continue des points de noctâme tant qu'elle est sur le terrain, chaque point ainsi consommé accordant 1 pt de loi secrète à Citlali.\nCitlali peut cumuler un maximum de 40 pts de loi secrète, chaque point accordant à tous les personnages de l'équipe à proximité des bonus de DGT <e:pyro>Pyro</e> et <e:hydro>Hydro</e> de 1,5 % et augmentant les DGT infligés par Citlali de 2,5 %.\nTous les points de loi secrète de Citlali sont annulés lorsque Itzpapa quitte le terrain ou que la compétence élémentaire est à nouveau utilisée."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Recipiente Sombrio Capturador de Almas",
+            "desc": "<k>Ataque Normal</k>\nInvoca as artes secretas transmitidas por gerações pelos Mestres do Vento Noturno, realizando até 3 golpes que causam <e:cryo>Dano Cryo</e>.\n\n<k>Ataque Carregado</k>\nEntra no modo de mira, e quando parar de Manter Pressionado consome uma certa quantidade de Stamina para disparar uma Estrela do Gelo na direção mirada que causa <e:cryo>Dano Cryo</e> contra os oponentes em seu caminho.\n\n<k>Ataque Imersivo</k>\nReúne o poder do Cryo e mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:cryo>Dano Cryo em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Estrela Escura do Alvorecer Gelado",
+            "desc": "Invocando os pactos secretos milenares de sua tribo, Citlali revela um Escudo de Opala e invoca \"Tzitzimimeh de Obsidiana\" Itzpapa, uma criatura (supostamente) assustadora, causando <e:cryo>Dano Cryo em AdE</e> com alinhamento Espírito da Noite.\nA absorção do Escudo de Opala é baseado na Proficiência Elemental de Citlali, possui 250% de eficácia contra <e:cryo>Cryo</e>, e faz Citlali obter <e:cryo>encantamento Cryo</e> por um certo tempo após revelar o escudo.\nDepois de lançar, Citlali obtém 24 pontos de Espírito da Noite, e entra no estado Bênção do Espírito da Noite.\n\n<k>Bênção do Espírito da Noite: Citlali</k>\nQuando Itzpapa sair do campo, a Bênção do Espírito da Noite de Citlali acabará.\n\n<k>Itzpapa</k>\n· Itzpapa se move seguindo o personagem.\n· Se Citlali possuir pelo menos 50 pontos de Espírito da Noite, Itzpapa entra no estado Fogo de Opala, consumindo pontos de Espírito da Noite continuamente, e criando uma Tempestade Gélida que acompanha o personagem, atacando os inimigos dentro da AdE e causando <e:cryo>Dano Cryo</e> com alinhamento Espírito da Noite.\n· Quando acabarem os pontos de Espírito da Noite, o estado Fogo de Opala de Itzpapa terminará.\n\n<i>Geralmente, as vontades que simbolizam estrelas diferentes não podem coexistir, pois como pode o negro mais escuro refletir o puro mais branco?\nDe qualquer forma, Citlali nunca teve uma preferência por cores, foi só assim que as coisas acabaram.</i>"
+          },
+          "burst": {
+            "name": "Édito do Esplendor Emaranhado",
+            "desc": "Invoca os aliados dos céus estrelados e da terra vasta, criando uma Tempestade de Gelo que causa <e:cryo>Dano Cryo em AdE</e> com alinhamento Espírito da Noite, e regenerando uma certa quantidade de pontos de Espírito da Noite para Citlali, e invocando um <k>Crânio do Receptáculo Espiritual</k> perto de até 3 inimigos dentro de uma certa AdE. O Crânio do Receptáculo Espiritual explodirá depois de um certo tempo, causando <e:cryo>Dano Cryo em AdE</e> com alinhamento Espírito da Noite, e regenerando pontos de Espírito da Noite para Citlali.\n\n<i>\"Argh, chega dessa estrela escura, estrela opala! Citlalin, Itzpapa, peguem-nos!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Cinco Dias de Temporal",
+            "desc": "Quando Itzpapa está em campo, após o membro próximo da equipe desencadear a reação de Congelamento ou de Fusão, o inimigo que sofreu essa reação terá suas RES <e:pyro>Pyro</e> e <e:hydro>Hydro</e> reduzidas em 20% por 12s. Além disso, Citlali regenera 16 pontos de Espírito da Noite. Essa regeneração de pontos de Espírito da Noite pode ocorrer uma vez a cada 8s."
+          },
+          {
+            "name": "Vestido Estelar das Borboletas de Fogo de Opala",
+            "desc": "Aumenta o Dano causado pela Tempestade Gélida de Itzpapa da Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k>. O aumento é equivalente a 90% da Proficiência Elemental de Citlali. Aumenta o Dano causado pela Tempestade de Gelo do Supremo <k>Édito do Esplendor Emaranhado</k>. O aumento é equivalente a 1200% da Proficiência Elemental de Citlali.\nAlém disso, quando o membro próximo da equipe ativar a Explosão do Espírito da Noite, Citlali regenera 4 pontos de Espírito da Noite."
+          },
+          {
+            "name": "Presente do Reino da Noite: Fumaça, Espelhos e o Fluxo do Vento",
+            "desc": "Enquanto numa área de Natlan com Dispositivos de Flogisto, pode usar Transmissão do Espírito da Noite: Citlali. Quando o personagem ativo estiver a uma certa altura no ar, trocar para Citlali como personagem ativo desencadeará: Citlali poderá saltar alto, e usará \"Obsidiana Branca Tzitzimimeh: Citlalin\" para flutuar no ar. É possível entrar em Transmissão do Espírito da Noite: Citlali uma vez a cada 10s.\n\nAlém disso, ao manter pressionado para mirar, Citlali entrará no estado Proferespírito. Enquanto nesse estado, Citlali poderá interagir com o Grafite do Espírito Noturno e o Selo do Espírito Noturno, obtendo as informações e poder deles, as regras de interação com esses itens segue as mesmas regras de interação com os Iktomissauros.\n\nAlém disso, ao manter pressionado para saltar, Citlali consome 75 de Stamina para saltar alto, e quando está em uma área de Natlan com Dispositivos de Flogisto, Citlali priorizará consumir 5 de Flogisto para fazer esse salto mais alto.\nQuando estiver no ar, Citlali pode manter pressionado seu Ataque Normal para consumir Flogisto ou Stamina e entrar no Modo de Mira e de Ataque Carregado. Quando fizer um Ataque Carregado no ar, Citlali priorizará consumir 20 de Flogisto."
+          },
+          {
+            "name": "Músicas Profundas Misteriosas",
+            "desc": "Quando estiver em uma área de Natlan com um Dispositivo de Flogisto, desencadear a Explosão do Espírito da Noite regenera 20 de Flogisto.\nEsse efeito não surtirá em domínios, Domínios Dizimados e Abismo do Espiral."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Lâmina de Luz das Quatrocentas Estrelas",
+            "desc": "Ao lançar a Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k>, Citlali obtém o efeito \"Saia da Estrela Opala\" que dura até Itzpapa sair de campo: nessa duração, Citlali obtém 10 acúmulos de Lâmina Estelar, em que quando outro personagem ativo além de Citlali causar Dano usando Ataque Normal, Carregado, Imersivo, Habilidade Elemental ou Supremo, consome 1 acúmulo de Lâmina Estelar e aumenta o Dano causado. O valor do aumento é equivalente a 200% da Proficiência Elemental de Citlali.\nQuando um membro próximo da equipe desencadeia a reação de Congelamento ou Fusão, Citlali obtém 3 acúmulos adicionais de Lâmina Estelar. Esse efeito pode ser desencadeado uma vez a cada 8s.\n\nAo lançar a Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k>, o número de acúmulos de Lâmina Estelar será redefinido.\nAlém disso, quando Citlali saltar ou estiver mirando, ou fazendo um Ataque Carregado no ar, seu consumo de Flogisto será reduzido em 45%."
+          },
+          {
+            "level": 2,
+            "name": "Jornada do Devorador de Corações",
+            "desc": "Citlali obtém 125 de Proficiência Elemental, e outros personagens protegidos por seu Escudo de Opala ou que estejam sendo seguidos por Itzpapa ganham 250 de Proficiência Elemental.\nAlém disso, ao lançar a Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k>, concede o Escudo de Opala para o personagem ativo próximo.\n\nO efeito do Talento de Ascensão \"Cinco Dias de Temporal\" obtém o seguinte aumento:\nQuando Itzpapa estiver em campo e os membros da equipe desencadearem Congelamento ou Fusão, os inimigos que sofrerem essa reação terão sua RES <e:pyro>Pyro</e> e <e:hydro>Hydro</e> reduzida em 20% adicionais por 12s. Esse efeito requer que o Talento de Ascensão \"Cinco Dias de Temporal\" tenha sido desbloqueado."
+          },
+          {
+            "level": 3,
+            "name": "Coroa Penada da Serpente Voadora",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Crânio Espiritual do Desafiador da Morte",
+            "desc": "Na Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k>, quando a Tempestade Gélida de Itzpapa atingir um inimigo, invocará um <k>Crânio do Receptáculo Espiritual: Estrela Escura</k> adicional. Quando o Crânio do Receptáculo Espiritual invocado dessa forma explodir, causará <e:cryo>Dano Cryo em uma AdE</e> com alinhamento Espírito da Noite com base em 1800% da Proficiência Elemental de Citlali, regenera 16 pontos de Espírito da Noite e 8 de Energia Elemental para Citlali. Esse efeito pode ser desencadeado uma vez a cada 8s. Esse Dano não é considerado Dano de Supremo."
+          },
+          {
+            "level": 5,
+            "name": "Maldição dos Cinco Pecados",
+            "desc": "Aumenta o nível de <k>Édito do Esplendor Emaranhado</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Pacto Secreto da Sabedoria",
+            "desc": "A Itzpapa invocada pela Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k> sempre estará no estado Fogo de Opala, e quando consumir todos os pontos de Espírito da Noite, o estado Fogo de Opala de Itzpapa também terminará.\nAlém disso, ao lançar a Habilidade Elemental <k>Estrela Escura do Alvorecer Gelado</k>, Itzpapa consumirá todos os pontos de Espírito da Noite e enquanto existir, consumirá Flogisto continuamente. Cada ponto de Espírito da Noite consumido dessa forma fará Citlali obter 1 de Soma da Lei Secreta.\nSoma da Lei Secreta possui um limite de 40 pontos, e cada ponto de Soma da Lei Secreta concede 1.5% de Bônus de Dano <e:pyro>Pyro</e> e <e:hydro>Hydro</e> para todos os membros próximos da equipe, e aumenta o Dano causado por Citlali em 2.5%.\nQuando Itzpapa sai do campo, ou quando a Habilidade Elemental é lançada novamente, a Soma da Lei Secreta que Citlali possui será removida."
           }
         ]
       }

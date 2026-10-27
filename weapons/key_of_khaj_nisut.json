@@ -94,7 +94,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11511",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -121,6 +121,19 @@
             "3": "Les PV sont augmentés de <r>30 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,18 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,3 %</r> des PV max du personnage équipé de l'arme pendant 20 s.",
             "4": "Les PV sont augmentés de <r>35 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,21 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,35 %</r> des PV max du personnage équipé de l'arme pendant 20 s.",
             "5": "Les PV sont augmentés de <r>40 %</r>. Lorsqu'une compétence élémentaire touche un ennemi, l'effet Rhapsodie est généré pendant 20 s : augmente la maîtrise élémentaire d'une valeur équivalant à <r>0,24 %</r> des PV max du personnage équipé de l'arme. Cet effet peut être déclenché une fois toutes les 0,3 s et cumulé 3 fois maximum. Lorsque cet effet obtient 3 cumuls ou que la durée du 3e cumul est actualisée, la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente d'une valeur équivalant à <r>0,4 %</r> des PV max du personnage équipé de l'arme pendant 20 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um dos pares de cetros feitos com obsidiana. Dizem que pode ser usado como chave para abrir a porta do paraíso escondido sob o mar de areia.",
+        "passive": {
+          "name": "Canção Sepultada nas Areias",
+          "refinements": {
+            "1": "Aumenta a Vida em <r>20%</r>. Quando uma Habilidade Elemental acerta os oponentes, gera o efeito \"Grande Poema\" que dura 20s. Esse efeito aumenta a Proficiência Elemental do personagem que está com essa arma equipada baseada em <r>0.12%</r> de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 0.3s, acumulando até 3 vezes. Quando acumular 3 vezes ou quando a duração do 3º acúmulo for redefinida, aumentará a Proficiência Elemental de todos os personagens da equipe próximos baseada em <r>0.2%</r> da Vida Máxima do personagem que está com essa arma equipada por 20s.",
+            "2": "Aumenta a Vida em <r>25%</r>. Quando uma Habilidade Elemental acerta os oponentes, gera o efeito \"Grande Poema\" que dura 20s. Esse efeito aumenta a Proficiência Elemental do personagem que está com essa arma equipada baseada em <r>0.15%</r> de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 0.3s, acumulando até 3 vezes. Quando acumular 3 vezes ou quando a duração do 3º acúmulo for redefinida, aumentará a Proficiência Elemental de todos os personagens da equipe próximos baseada em <r>0.25%</r> da Vida Máxima do personagem que está com essa arma equipada por 20s.",
+            "3": "Aumenta a Vida em <r>30%</r>. Quando uma Habilidade Elemental acerta os oponentes, gera o efeito \"Grande Poema\" que dura 20s. Esse efeito aumenta a Proficiência Elemental do personagem que está com essa arma equipada baseada em <r>0.18%</r> de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 0.3s, acumulando até 3 vezes. Quando acumular 3 vezes ou quando a duração do 3º acúmulo for redefinida, aumentará a Proficiência Elemental de todos os personagens da equipe próximos baseada em <r>0.3%</r> da Vida Máxima do personagem que está com essa arma equipada por 20s.",
+            "4": "Aumenta a Vida em <r>35%</r>. Quando uma Habilidade Elemental acerta os oponentes, gera o efeito \"Grande Poema\" que dura 20s. Esse efeito aumenta a Proficiência Elemental do personagem que está com essa arma equipada baseada em <r>0.21%</r> de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 0.3s, acumulando até 3 vezes. Quando acumular 3 vezes ou quando a duração do 3º acúmulo for redefinida, aumentará a Proficiência Elemental de todos os personagens da equipe próximos baseada em <r>0.35%</r> da Vida Máxima do personagem que está com essa arma equipada por 20s.",
+            "5": "Aumenta a Vida em <r>40%</r>. Quando uma Habilidade Elemental acerta os oponentes, gera o efeito \"Grande Poema\" que dura 20s. Esse efeito aumenta a Proficiência Elemental do personagem que está com essa arma equipada baseada em <r>0.24%</r> de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 0.3s, acumulando até 3 vezes. Quando acumular 3 vezes ou quando a duração do 3º acúmulo for redefinida, aumentará a Proficiência Elemental de todos os personagens da equipe próximos baseada em <r>0.4%</r> da Vida Máxima do personagem que está com essa arma equipada por 20s."
           }
         }
       }

@@ -49,7 +49,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14409",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -76,6 +76,19 @@
             "3": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>300 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>10</r> s.",
             "4": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>330 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>9</r> s.",
             "5": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à <r>360 %</r> de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les <r>8</r> s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma pérola negra esmaltada que se diz ter o poder de ler a pureza do coração.",
+        "passive": {
+          "name": "Echo",
+          "refinements": {
+            "1": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando <r>240%</r> de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada <r>12</r>s.",
+            "2": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando <r>270%</r> de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada <r>11</r>s.",
+            "3": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando <r>300%</r> de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada <r>10</r>s.",
+            "4": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando <r>330%</r> de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada <r>9</r>s.",
+            "5": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando <r>360%</r> de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada <r>8</r>s."
           }
         }
       }

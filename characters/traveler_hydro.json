@@ -256,7 +256,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000005-hydro",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -381,6 +381,68 @@
             "level": 6,
             "name": "Eau montante de justice",
             "desc": "Lorsque le voyageur récupère une goutte d'eau de source, il restaure 6 % de PV max au personnage de l'équipe à proximité ayant le pourcentage de PV le plus bas."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Corrente Estrangeira",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Sabre da Insígnia Aquática",
+            "desc": "Lança uma corrente torrencial que varre a terra.\n\n<k>Pressionar</k>\nLança uma Erupção Torrencial para frente que causa <e:hydro>Dano Hydro</e> contra os inimigos que atingir.\n\n<k>Manter Pressionado</k>\nEntra no modo de mira e lança continuamente Gotas de Orvalho na direção que se está mirando, causando <e:hydro>Dano Hydro</e> contra os inimigos que atingir.\nAo terminar, lança uma Erupção Torrencial para frente que causa <e:hydro>Dano Hydro</e> contra os inimigos que atingir.\nAbundância: ao lançar o Manter Pressionado, se a Vida do Viajante for maior que 50%, aumentará o Dano causado por Gota de Orvalho baseado na Vida Máxima do Viajante, e consumirá uma certa quantidade de Vida a cada segundo.\n\n<k>Arkhe: Pneuma</k>\nPeriodicamente, depois de lançar uma Erupção Torrencial, lançará um Espinho Espiritual que perfurará os inimigos e que causará <e:hydro>Dano Hydro</e> aplicado com Pneuma.\n\n<i>Você e Paimon observaram as ondas criadas na superfície das águas.</i>"
+          },
+          "burst": {
+            "name": "Maré Ascendente",
+            "desc": "Lança uma Bolha Aquática que se move lentamente, causando <e:hydro>Dano Hydro</e> continuamente contra os inimigos próximos.\n\n<i>Você e Paimon estudaram a subida e descida da maré.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Águas Puras",
+            "desc": "Quando a Gota de Orvalho disparada com o Manter Pressionado de <k>Sabre da Insígnia Aquática</k> atingir um inimigo, gerará uma Gota d'Água Primordial perto d{F#a}{M#o} Viajante. Quando {F#a}{M#o} Viajante coletar uma Gota d'Água Primordial, regenerará 7% de sua Vida.\nÉ possível gerar até uma Gota d'Água Primordial dessa forma. E cada vez que Sabre da Insígnia Aquática for lançado, é possível criar até 4 Gotas d'Água Primordial."
+          },
+          {
+            "name": "Água Cristalina",
+            "desc": "Se lançar com o Manter Pressionado de <k>Sabre da Insígnia Aquática</k> consumir Vida através de Abundância, aumentará o Dano causado de Erupção Torrencial no final do lançamento, o valor do aumento é igual a 45% do valor da Abundância consumido pel{F#a}{M#o} Viajante neste lançamento.\nÉ possível aumentar o Dano em até 5.000 desta forma."
+          },
+          {
+            "name": "Água Cristalina Forasteira",
+            "desc": "Reúne novas forças das jornadas do passado. Para cada elemento que você ressoou, obtém um <k>fortalecimento adicional</k>.\n\nAlém disso, quando um membro próximo da equipe aumenta ou reduz a Vida em 5%, faz {F#a}{M#o} Viajante obter 1 acúmulo de Lâmina das Águas, podendo acumular até 3 vezes. É possível obter 1 acúmulo de Lâmina das Águas desta forma a cada 4s, com um máximo de 3 acúmulos. Ao possuir 3 acúmulos de Lâmina das Águas e realizar um Ataque Carregado, consumirá todas as Lâminas das Águas para lançar o especial <k>Ataque Carregado: Inferno Aquoso</k>.\n\n<k>Ataque Carregado: Inferno Aquoso</k>\n· Cada Ataque Carregado causa mais <e:hydro>Dano Hydro</e>. O aumento de Dano é de 150% do ATQ d{F#a}{M#o} Viajante.\n· Quando a Vida d{F#a}{M#o} Viajante for maior que 50%, consome 10% da Vida Máxima e, com base em 100% do ATQ d{F#a}{M#o} Viajante, aumenta ainda mais o Dano de cada Ataque Carregado.\n· Quando a Vida d{F#a}{M#o} Viajante for maior que 50% e atingir um inimigo, regenera Vida para {F#a}{M#o} Viajante. A quantidade regenerada é 25% de sua Vida Máxima.\n· É possível realizar um <k>Ataque Carregado: Inferno Aquoso</k> a cada 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Lago Emergente",
+            "desc": "Depois de pegar uma Gota d'Água Primordial, {F#a}{M#o} Viajante recuperará 2 de Energia Elemental.\nÉ necessário ter desbloqueado o Talento de Ascensão \"Águas Puras\"."
+          },
+          {
+            "level": 2,
+            "name": "Pureza Fluente",
+            "desc": "Reduz a velocidade da Bolha Aquática de <k>Maré Ascendente</k> em 30% e prolonga sua duração por 3s."
+          },
+          {
+            "level": 3,
+            "name": "Ondas Furiosas",
+            "desc": "Aumenta o nível de <k>Sabre da Insígnia Aquática</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Descida Jorrante",
+            "desc": "Ao lançar <k>Sabre da Insígnia Aquática</k>, gerará um Escudo da Insígnia Aquática que absorverá o equivalente a 10% da Vida Máxima, e possui eficácia de 250% contra <e:hydro>Dano Hydro</e>, ele persistirá até terminar de lançar a habilidade.\nA cada 2s, depois que a Gota de Orvalho atingir um inimigo, se {F#a}{M#o} Viajante estiver sob a proteção de um Escudo da Insígnia Aquática, recuperará o poder de absorção de Dano do escudo em até 10% da Vida Máxima d{F#a}{M#o} Viajante. Se não estiver sob a proteção do Escudo da Insígnia Aquática, gerará um novo escudo."
+          },
+          {
+            "level": 5,
+            "name": "Redemoinho Aquático",
+            "desc": "Aumenta o nível de <k>Maré Ascendente</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Água da Justiça",
+            "desc": "Quando {F#a}{M#o} Viajante pega uma Gota d'Água Primordial, regenerará 6% da Vida Máxima para o personagem da equipe próximo com menor porcentagem de Vida restante."
           }
         ]
       }

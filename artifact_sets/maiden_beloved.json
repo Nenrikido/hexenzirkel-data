@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14004",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Augmente les soins effectués par le personnage de 15 %.",
           "4": "Augmente les soins reçus par tous les personnages de l'équipe de 20 % pendant 10 s après l'utilisation d'une compétence élémentaire ou d'un déchaînement élémentaire."
+        }
+      },
+      "pt": {
+        "name": "Donzela Amada",
+        "bonuses": {
+          "2": "Efeito de Cura do Personagem aumenta em 15%",
+          "4": "Ao usar uma Habilidade Elemental ou Explosão, aumenta a cura recebida por todos os membros da equipe em 20% por 10s."
         }
       }
     }

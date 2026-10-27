@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11406",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>6 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
             "4": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>7 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
             "5": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>8 %</r> pendant 6 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma antiga espada longa descoberta na Forja do Penhasco Obscuro que corta pedras como uma faca quente na manteiga.",
+        "passive": {
+          "name": "Pedra Destruída",
+          "refinements": {
+            "1": "Ao acertar um Ataque Normal ou Ataque Carregado, o ATQ e a DEF aumentam <r>4%</r>, com duração de 6s, acumulando até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.3s.",
+            "2": "Ao acertar um Ataque Normal ou Ataque Carregado, o ATQ e a DEF aumentam <r>5%</r>, com duração de 6s, acumulando até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.3s.",
+            "3": "Ao acertar um Ataque Normal ou Ataque Carregado, o ATQ e a DEF aumentam <r>6%</r>, com duração de 6s, acumulando até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.3s.",
+            "4": "Ao acertar um Ataque Normal ou Ataque Carregado, o ATQ e a DEF aumentam <r>7%</r>, com duração de 6s, acumulando até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.3s.",
+            "5": "Ao acertar um Ataque Normal ou Ataque Carregado, o ATQ e a DEF aumentam <r>8%</r>, com duração de 6s, acumulando até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.3s."
           }
         }
       }

@@ -54,7 +54,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14519",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -81,6 +81,19 @@
             "3": "Augmente l'ATQ de <r>42 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>42 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>60 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche.",
             "4": "Augmente l'ATQ de <r>49 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>49 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>70 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche.",
             "5": "Augmente l'ATQ de <r>56 %</r>. De plus, utiliser une attaque plongeante accorde l'effet Teinte d'aube, augmentant les DGT CRIT des attaques plongeantes de <r>56 %</r>, tandis qu'utiliser une compétence élémentaire ou un déchaînement élémentaire accorde l'effet Splendeur d'aurore, augmentant les DGT CRIT des attaques plongeantes de <r>80 %</r>. Chacun de ces deux effets dure 15 s et prend fin 0,1 s après qu'un impact au sol touche."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um troféu feito de gemas do Coletivo da Fartura e cristais do Clã das Plumas de Flores. Dizem que pertenceu a um lendário lutador.",
+        "passive": {
+          "name": "Desejo do Arco-Íris Cadente",
+          "refinements": {
+            "1": "Aumenta o ATQ em <r>28%</r>. Ao fazer um Ataque Imersivo, obtém o efeito \"Cores do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>28%</r>. Quando lançar uma Habilidade Elemental ou Supremo, obtém o efeito \"Esplendor do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>40%</r>. Esses efeitos possuem cada um uma duração de 15s, e serão removidos 0.1s após a Onda Mergulhadora atingir o alvo.",
+            "2": "Aumenta o ATQ em <r>35%</r>. Ao fazer um Ataque Imersivo, obtém o efeito \"Cores do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>35%</r>. Quando lançar uma Habilidade Elemental ou Supremo, obtém o efeito \"Esplendor do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>50%</r>. Esses efeitos possuem cada um uma duração de 15s, e serão removidos 0.1s após a Onda Mergulhadora atingir o alvo.",
+            "3": "Aumenta o ATQ em <r>42%</r>. Ao fazer um Ataque Imersivo, obtém o efeito \"Cores do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>42%</r>. Quando lançar uma Habilidade Elemental ou Supremo, obtém o efeito \"Esplendor do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>60%</r>. Esses efeitos possuem cada um uma duração de 15s, e serão removidos 0.1s após a Onda Mergulhadora atingir o alvo.",
+            "4": "Aumenta o ATQ em <r>49%</r>. Ao fazer um Ataque Imersivo, obtém o efeito \"Cores do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>49%</r>. Quando lançar uma Habilidade Elemental ou Supremo, obtém o efeito \"Esplendor do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>70%</r>. Esses efeitos possuem cada um uma duração de 15s, e serão removidos 0.1s após a Onda Mergulhadora atingir o alvo.",
+            "5": "Aumenta o ATQ em <r>56%</r>. Ao fazer um Ataque Imersivo, obtém o efeito \"Cores do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>56%</r>. Quando lançar uma Habilidade Elemental ou Supremo, obtém o efeito \"Esplendor do Crepúsculo\": aumenta o Dano CRIT causado pelo Ataque Imersivo em <r>80%</r>. Esses efeitos possuem cada um uma duração de 15s, e serão removidos 0.1s após a Onda Mergulhadora atingir o alvo."
           }
         }
       }

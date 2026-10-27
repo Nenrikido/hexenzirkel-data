@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14303",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>1,5 %</r> des PV.",
             "4": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>1,75 %</r> des PV.",
             "5": "Chaque orbe élémentaire ou particule élémentaire obtenue restaure <r>2 %</r> des PV."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um romance de fantasia barato sem valor referencial. Os seus poderes, obviamente, também servem apenas na sua imaginação.",
+        "passive": {
+          "name": "Imersão de Energia",
+          "refinements": {
+            "1": "Coletar um Orbe ou Partícula Elemental restaura <r>1%</r> da Vida.",
+            "2": "Coletar um Orbe ou Partícula Elemental restaura <r>1.25%</r> da Vida.",
+            "3": "Coletar um Orbe ou Partícula Elemental restaura <r>1.5%</r> da Vida.",
+            "4": "Coletar um Orbe ou Partícula Elemental restaura <r>1.75%</r> da Vida.",
+            "5": "Coletar um Orbe ou Partícula Elemental restaura <r>2%</r> da Vida."
           }
         }
       }

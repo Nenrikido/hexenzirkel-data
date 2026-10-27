@@ -41,7 +41,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13509",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -68,6 +68,19 @@
             "3": "Augmente l'ATQ d'une valeur équivalant à <r>42 %</r> de la part de recharge d'énergie supérieure à 100 %. L'ATQ peut être augmentée de <r>100 %</r> maximum de cette manière. Après l'utilisation d'un déchaînement élémentaire, la recharge d'énergie augmente de <r>40 %</r> pendant 12 s.",
             "4": "Augmente l'ATQ d'une valeur équivalant à <r>49 %</r> de la part de recharge d'énergie supérieure à 100 %. L'ATQ peut être augmentée de <r>110 %</r> maximum de cette manière. Après l'utilisation d'un déchaînement élémentaire, la recharge d'énergie augmente de <r>45 %</r> pendant 12 s.",
             "5": "Augmente l'ATQ d'une valeur équivalant à <r>56 %</r> de la part de recharge d'énergie supérieure à 100 %. L'ATQ peut être augmentée de <r>120 %</r> maximum de cette manière. Après l'utilisation d'un déchaînement élémentaire, la recharge d'énergie augmente de <r>50 %</r> pendant 12 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma naginata usada para \"cortar grama\". Qualquer exército que esteja diante desta arma provavelmente será igualmente cortado...",
+        "passive": {
+          "name": "Sonho Atemporal: Fogão Eterno",
+          "refinements": {
+            "1": "O ATQ é aumentado em <r>28%</r> da Recarga de Energia acima da base de 100%. Você pode receber um Bônus máximo de <r>80%</r> de ATQ. Ganha <r>30%</r> de Recarga de Energia por 12s depois de usar um Supremo.",
+            "2": "O ATQ é aumentado em <r>35%</r> da Recarga de Energia acima da base de 100%. Você pode receber um Bônus máximo de <r>90%</r> de ATQ. Ganha <r>35%</r> de Recarga de Energia por 12s depois de usar um Supremo.",
+            "3": "O ATQ é aumentado em <r>42%</r> da Recarga de Energia acima da base de 100%. Você pode receber um Bônus máximo de <r>100%</r> de ATQ. Ganha <r>40%</r> de Recarga de Energia por 12s depois de usar um Supremo.",
+            "4": "O ATQ é aumentado em <r>49%</r> da Recarga de Energia acima da base de 100%. Você pode receber um Bônus máximo de <r>110%</r> de ATQ. Ganha <r>45%</r> de Recarga de Energia por 12s depois de usar um Supremo.",
+            "5": "O ATQ é aumentado em <r>56%</r> da Recarga de Energia acima da base de 100%. Você pode receber um Bônus máximo de <r>120%</r> de ATQ. Ganha <r>50%</r> de Recarga de Energia por 12s depois de usar um Supremo."
           }
         }
       }

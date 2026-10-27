@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12404",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Augmente le taux CRIT de <r>12 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
             "4": "Augmente le taux CRIT de <r>14 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
             "5": "Augmente le taux CRIT de <r>16 %</r> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma velha espada grande que pertencia aos antigos governantes de Mondstadt. É fabricado com materiais da melhor qualidade e resistiu a prova do tempo. Uma arma para ser usada apenas pela realeza.",
+        "passive": {
+          "name": "Foco",
+          "refinements": {
+            "1": "Ao atingir um oponente, aumenta a Taxa Crítica em <r>8%</r>, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos.",
+            "2": "Ao atingir um oponente, aumenta a Taxa Crítica em <r>10%</r>, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos.",
+            "3": "Ao atingir um oponente, aumenta a Taxa Crítica em <r>12%</r>, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos.",
+            "4": "Ao atingir um oponente, aumenta a Taxa Crítica em <r>14%</r>, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos.",
+            "5": "Ao atingir um oponente, aumenta a Taxa Crítica em <r>16%</r>, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos."
           }
         }
       }

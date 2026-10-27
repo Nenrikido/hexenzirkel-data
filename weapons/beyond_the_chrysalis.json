@@ -87,5 +87,54 @@
     "nanokaVersion": "7.1",
     "refinementModelled": "R1",
     "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R1 (house convention: 4* at R5, 5* at R1, higher tiers in refinementStates). Vesna's signature."
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11522",
+      "retrievedAt": "2026-10-27",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longsword brimming with light and color, and as weightless as a butterfly when brandished. It was once used by a certain individual to break bonds.",
+        "passive": {
+          "name": "Dance of Wings Unbound",
+          "refinements": {
+            "1": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\nWinds of Devotion: Increases the equipping character's CRIT DMG by <r>56%</r> for 10s;\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <r>36%</r> for 10s; and\nWinds of Plenty: Regenerates <r>5</r> Elemental Energy for the equipping character. Up to <r>5</r> Elemental Energy can be regenerated in this way every 4s.\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+            "2": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\nWinds of Devotion: Increases the equipping character's CRIT DMG by <r>72%</r> for 10s;\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <r>45%</r> for 10s; and\nWinds of Plenty: Regenerates <r>5.5</r> Elemental Energy for the equipping character. Up to <r>5.5</r> Elemental Energy can be regenerated in this way every 4s.\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+            "3": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\nWinds of Devotion: Increases the equipping character's CRIT DMG by <r>88%</r> for 10s;\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <r>54%</r> for 10s; and\nWinds of Plenty: Regenerates <r>6</r> Elemental Energy for the equipping character. Up to <r>6</r> Elemental Energy can be regenerated in this way every 4s.\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+            "4": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\nWinds of Devotion: Increases the equipping character's CRIT DMG by <r>104%</r> for 10s;\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <r>63%</r> for 10s; and\nWinds of Plenty: Regenerates <r>6.5</r> Elemental Energy for the equipping character. Up to <r>6.5</r> Elemental Energy can be regenerated in this way every 4s.\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+            "5": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\nWinds of Devotion: Increases the equipping character's CRIT DMG by <r>120%</r> for 10s;\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <r>72%</r> for 10s; and\nWinds of Plenty: Regenerates <r>7</r> Elemental Energy for the equipping character. Up to <r>7</r> Elemental Energy can be regenerated in this way every 4s.\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une longue épée rayonnante de lumière et de couleurs, aussi légère qu'un papillon lorsqu'on la manie. Elle servit jadis à un individu pour se libérer de ses liens.",
+        "passive": {
+          "name": "Danse des ailes déchaînées",
+          "refinements": {
+            "1": "Chaque fois que le personnage équipé de l'arme utilise une compétence élémentaire ou un déchaînement élémentaire, il obtient l'un des effets suivants dans l'ordre :\nVent de dévotion : augmente ses DGT CRIT de <r>56 %</r> pendant 10 s.\nVent de défiance : augmente ses DGT de réaction d'Astrodispersion de <r>36 %</r> pendant 10 s.\nVent d'abondance : restaure son énergie élémentaire pour <r>5</r> pts, un maximum de <r>5</r> pts d'énergie élémentaire pouvant être restauré toutes les 4 s de cette manière.\nCes effets sont annulés et l'ordre réinitialisé lorsque le personnage équipé de l'arme quitte le terrain.",
+            "2": "Chaque fois que le personnage équipé de l'arme utilise une compétence élémentaire ou un déchaînement élémentaire, il obtient l'un des effets suivants dans l'ordre :\nVent de dévotion : augmente ses DGT CRIT de <r>72 %</r> pendant 10 s.\nVent de défiance : augmente ses DGT de réaction d'Astrodispersion de <r>45 %</r> pendant 10 s.\nVent d'abondance : restaure son énergie élémentaire pour <r>5,5</r> pts, un maximum de <r>5,5</r> pts d'énergie élémentaire pouvant être restauré toutes les 4 s de cette manière.\nCes effets sont annulés et l'ordre réinitialisé lorsque le personnage équipé de l'arme quitte le terrain.",
+            "3": "Chaque fois que le personnage équipé de l'arme utilise une compétence élémentaire ou un déchaînement élémentaire, il obtient l'un des effets suivants dans l'ordre :\nVent de dévotion : augmente ses DGT CRIT de <r>88 %</r> pendant 10 s.\nVent de défiance : augmente ses DGT de réaction d'Astrodispersion de <r>54 %</r> pendant 10 s.\nVent d'abondance : restaure son énergie élémentaire pour <r>6</r> pts, un maximum de <r>6</r> pts d'énergie élémentaire pouvant être restauré toutes les 4 s de cette manière.\nCes effets sont annulés et l'ordre réinitialisé lorsque le personnage équipé de l'arme quitte le terrain.",
+            "4": "Chaque fois que le personnage équipé de l'arme utilise une compétence élémentaire ou un déchaînement élémentaire, il obtient l'un des effets suivants dans l'ordre :\nVent de dévotion : augmente ses DGT CRIT de <r>104 %</r> pendant 10 s.\nVent de défiance : augmente ses DGT de réaction d'Astrodispersion de <r>63 %</r> pendant 10 s.\nVent d'abondance : restaure son énergie élémentaire pour <r>6,5</r> pts, un maximum de <r>6,5</r> pts d'énergie élémentaire pouvant être restauré toutes les 4 s de cette manière.\nCes effets sont annulés et l'ordre réinitialisé lorsque le personnage équipé de l'arme quitte le terrain.",
+            "5": "Chaque fois que le personnage équipé de l'arme utilise une compétence élémentaire ou un déchaînement élémentaire, il obtient l'un des effets suivants dans l'ordre :\nVent de dévotion : augmente ses DGT CRIT de <r>120 %</r> pendant 10 s.\nVent de défiance : augmente ses DGT de réaction d'Astrodispersion de <r>72 %</r> pendant 10 s.\nVent d'abondance : restaure son énergie élémentaire pour <r>7</r> pts, un maximum de <r>7</r> pts d'énergie élémentaire pouvant être restauré toutes les 4 s de cette manière.\nCes effets sont annulés et l'ordre réinitialisé lorsque le personnage équipé de l'arme quitte le terrain."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada longa repleta de luz e cor, e tão leve quanto uma borboleta ao ser empunhada. Foi usada um dia por alguém para romper laços.",
+        "passive": {
+          "name": "Dança Livre do Casulo",
+          "refinements": {
+            "1": "Cada vez que o portador lançar sua Habilidade Elemental ou o Supremo, obtém um desses efeitos na seguinte ordem:\nLealdade do Vento: aumenta o Dano CRIT do portador em <r>56%</r> por 10s.\nTraição do Vento: aumenta o Dano de Redemoinho Estelar do portador em <r>36%</r> por 10s.\nRiqueza do Vento: regenera <r>5</r> de Energia Elemental para o portador. É possível regenerar até <r>5</r> de Energia Elemental a cada 4s dessa forma.\nEsse efeito será removido e sua ordem será redefinida quando o portador sair de campo.",
+            "2": "Cada vez que o portador lançar sua Habilidade Elemental ou o Supremo, obtém um desses efeitos na seguinte ordem:\nLealdade do Vento: aumenta o Dano CRIT do portador em <r>72%</r> por 10s.\nTraição do Vento: aumenta o Dano de Redemoinho Estelar do portador em <r>45%</r> por 10s.\nRiqueza do Vento: regenera <r>5.5</r> de Energia Elemental para o portador. É possível regenerar até <r>5.5</r> de Energia Elemental a cada 4s dessa forma.\nEsse efeito será removido e sua ordem será redefinida quando o portador sair de campo.",
+            "3": "Cada vez que o portador lançar sua Habilidade Elemental ou o Supremo, obtém um desses efeitos na seguinte ordem:\nLealdade do Vento: aumenta o Dano CRIT do portador em <r>88%</r> por 10s.\nTraição do Vento: aumenta o Dano de Redemoinho Estelar do portador em <r>54%</r> por 10s.\nRiqueza do Vento: regenera <r>6</r> de Energia Elemental para o portador. É possível regenerar até <r>6</r> de Energia Elemental a cada 4s dessa forma.\nEsse efeito será removido e sua ordem será redefinida quando o portador sair de campo.",
+            "4": "Cada vez que o portador lançar sua Habilidade Elemental ou o Supremo, obtém um desses efeitos na seguinte ordem:\nLealdade do Vento: aumenta o Dano CRIT do portador em <r>104%</r> por 10s.\nTraição do Vento: aumenta o Dano de Redemoinho Estelar do portador em <r>63%</r> por 10s.\nRiqueza do Vento: regenera <r>6.5</r> de Energia Elemental para o portador. É possível regenerar até <r>6.5</r> de Energia Elemental a cada 4s dessa forma.\nEsse efeito será removido e sua ordem será redefinida quando o portador sair de campo.",
+            "5": "Cada vez que o portador lançar sua Habilidade Elemental ou o Supremo, obtém um desses efeitos na seguinte ordem:\nLealdade do Vento: aumenta o Dano CRIT do portador em <r>120%</r> por 10s.\nTraição do Vento: aumenta o Dano de Redemoinho Estelar do portador em <r>72%</r> por 10s.\nRiqueza do Vento: regenera <r>7</r> de Energia Elemental para o portador. É possível regenerar até <r>7</r> de Energia Elemental a cada 4s dessa forma.\nEsse efeito será removido e sua ordem será redefinida quando o portador sair de campo."
+          }
+        }
+      }
+    }
   }
 }

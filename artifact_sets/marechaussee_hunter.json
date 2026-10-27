@@ -34,7 +34,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15031",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -50,6 +50,13 @@
         "bonuses": {
           "2": "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
           "4": "Lorsque les PV actuels du personnage augmentent ou diminuent, son taux CRIT augmente de 12 % pendant 5 s. Cet effet peut être cumulé 3 fois maximum."
+        }
+      },
+      "pt": {
+        "name": "Caçador das Sombras",
+        "bonuses": {
+          "2": "Aumenta o Dano do Ataque Normal e do Ataque Carregado em 15%.",
+          "4": "Quando a Vida atual aumenta ou diminui, aumenta a Taxa CRIT em 12%. Esse efeito dura 5s e pode ser acumulado até 3 vezes."
         }
       }
     }

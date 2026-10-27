@@ -343,7 +343,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000020",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -476,6 +476,72 @@
             "level": 6,
             "name": "Lupus Fulguris",
             "desc": "Toutes les 10 s, l'arme de Razor se charge d'énergie électrique pour infliger des <e:electro>DGT Électro</e> d'une valeur équivalant à 100 % de l'ATQ de Razor lors de la prochaine attaque normale.\nChaque ennemi touché confère à Razor 3 sceaux Électro de la compétence élémentaire <k>Griffe et tonnerre</k> tant que <k>Croc éclair</k> n'est pas actif.\nDe plus, lorsque Razor gagne un sceau Électro grâce à sa compétence élémentaire <k>Griffe et tonnerre</k>, il obtient 3 sceaux Électro à la place.\nPendant 15 s après avoir consommé un sceau Électro, le taux CRIT de Razor augmente de 10 % et ses DGT CRIT augmentent de 50 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Presa de Aço",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Garra e Trovão",
+            "desc": "Caça sua presa usando as técnicas ensinadas para ele por seu mestre e seu Lupical.\n\n<k>Pressionar</k>\nBalança suas Garras de Lobo do Trovão, causando <e:electro>Dano Electro</e> nos inimigos em frente do Razor.\nAo atacar um inimigo, Razor ganha um Selo Electro que aumenta sua taxa de Recarga de Energia.\nRazor pode ter até 3 Selos Electro simultaneamente, e ganhar um novo Selo Electro recarrega sua duração.\n\n<k>Manter pressionado</k>\nReúne energia Electro para desencadear uma tempestade de raios em uma pequena AdE, causando <e:electro>Dano Electro</e> massivo e removendo todos os Selos Electro de Razor.\nCada Selo Electro removido dessa maneira será convertido em Energia para o Razor.\n\n<i>É quando relâmpagos caem que às vezes você pode ver de relance o olhar de um predador, analisando sua presa profundamente dentro dos olhos do Razor.</i>"
+          },
+          "burst": {
+            "name": "Dente de Relâmpago",
+            "desc": "Evoca o Lobo Interior que causa <e:electro>Dano Electro</e> a todos os inimigos ao redor. Isso remove todos os Selos Electro do Razor, que serão convertidos em energia elemental para ele.\nO Lobo Interior irá lutar ao lado de Razor durante o período de duração da habilidade.\n\n<k>O Lobo Interior</k>\n Ataca juntamente com os ataques normais do Razor, causando <e:electro>Dano Electro</e>. Aumenta a Vel. de ATQ e <e:electro>RES Electro</e>.\nCausa imunidade a Razor por Dano infligido pelo estado de <e:electro>Eletricamente Carregado</e>\nDesabilita o Ataque Carregado do Razor. Aumenta a capacidade de RES à Interrupção de Razor.\n\nEsses efeitos terminam quando Razor sai de batalha.\nQuando Razor deixa o campo, um máximo de 10 de Energia irá ser retornada para ele baseado na duração restante da habilidade.\n\n<i>O lobo acordou. A caça começou.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Despertamento",
+            "desc": "Diminui a Recarga da <k>Garra e Trovão</k> em 18%. Usar <k>Dente de Relâmpago</k> redefine a Recarga da <k>Garra e Trovão</k>."
+          },
+          {
+            "name": "Fome",
+            "desc": "Quando a Energia de Razor está abaixo de 50%, aumenta a Recarga de Energia em 30%."
+          },
+          {
+            "name": "Corrida de Lobos",
+            "desc": "Diminui o consumo de Stamina ao Correr de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+          },
+          {
+            "name": "Presente da Noite da Bruxa: Torrente Elétrica",
+            "desc": "Depois de completar <k>Tarefa da Bruxa: Dos Pequenos Lobos</k>, Razor se torna um personagem <k>Mágico</k>. Quando possuir pelo menos 2 personagens Mágicos na equipe, obtém o efeito <k>Mágico: Ritual Secreto</k>, fortalecendo os personagens Mágicos.\nAlém disso, o Supremo <k>Dente de Relâmpago</k> de Razor é fortalecido: aumenta o Dano causado de <k>Lobo do Trovão</k> em 70% do ATQ de Razor.\n\n<k>Mágico: Ritual Secreto</k>\nDurante a invocação do Lobo do Trovão do Supremo <k>Dente de Relâmpago</k>, se os Selos Electro da Habilidade Elemental de Razor <k>Garra e Trovão</k> sobre-acumularem, o Lobo do Trovão causará ataques de raios elétricos contra os inimigos próximos equivalente a 150% do ATQ de Razor como Dano Electro em AdE, e regenera 7 de Energia Elemental para Razor. Esse efeito pode ser desencadeado uma vez por segundo."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Natureza do Lobo",
+            "desc": "Ao obter um Orbe Elemental ou Partícula Elemental, aumenta o Dano de Razor em 10% por 8s."
+          },
+          {
+            "level": 2,
+            "name": "Supressão",
+            "desc": "Aumenta a Taxa Crítica contra inimigos com menos de 30% de Vida em 10%."
+          },
+          {
+            "level": 3,
+            "name": "Espírito Animal",
+            "desc": "Aumenta o nível do <k>Dente de Relâmpago</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Mordida",
+            "desc": "Ao pressionar para lançar a <k>Garra e Trovão</k>, diminui a DEF dos inimigos acertados em 15% por 7s."
+          },
+          {
+            "level": 5,
+            "name": "Garras Afiadas",
+            "desc": "Aumenta o nível da <k>Garra e Trovão</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Lupus Fulguris",
+            "desc": "A cada 10 segundos, o Espadão de Razor será recarregado automaticamente, fazendo com que o próximo Ataque Normal invoque um relâmpago que causa 100% do seu ATQ como <e:electro>Dano Electro</e>.\nQuando Razor não estiver sob o efeito de <k>Dente de Relâmpago</k>, se o relâmpago atingir um inimigo, Razor ganhará 3 Selos Electro de <k>Garra e Trovão</k>.\nAlém disso, quando Razor acumular Selo Electro através de sua Habilidade Elemental <k>Garra e Trovão</k>, fornecerá 3 Selos Electro para ele.\nPor 15s após consumir Selo Electro, a Taxa CRIT de Razor aumenta 10% e o Dano CRIT em 50%."
           }
         ]
       }

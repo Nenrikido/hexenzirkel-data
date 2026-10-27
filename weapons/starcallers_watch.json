@@ -35,7 +35,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14517",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -62,6 +62,19 @@
             "3": "La maîtrise élémentaire augmente de <r>150</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>42 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum.",
             "4": "La maîtrise élémentaire augmente de <r>175</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>49 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum.",
             "5": "La maîtrise élémentaire augmente de <r>200</r> pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de <r>56 %</r>. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma estátua esculpida na forma de uma águia. Um relicário sagrado passado de geração em geração entre os Mestres do Vento Noturno.",
+        "passive": {
+          "name": "Oferenda ao Vento e ao Sol",
+          "refinements": {
+            "1": "Aumenta a Proficiência Elemental em <r>100</r>. Nos 15s após o personagem que está com essa arma equipada criar um escudo, obtém o efeito \"Espelho da Noite\": aumenta o Dano causado pelo personagem ativo da equipe contra os inimigos próximos em <r>28%</r>. O efeito \"Espelho da Noite\" pode ser obtido uma vez a cada 14s.",
+            "2": "Aumenta a Proficiência Elemental em <r>125</r>. Nos 15s após o personagem que está com essa arma equipada criar um escudo, obtém o efeito \"Espelho da Noite\": aumenta o Dano causado pelo personagem ativo da equipe contra os inimigos próximos em <r>35%</r>. O efeito \"Espelho da Noite\" pode ser obtido uma vez a cada 14s.",
+            "3": "Aumenta a Proficiência Elemental em <r>150</r>. Nos 15s após o personagem que está com essa arma equipada criar um escudo, obtém o efeito \"Espelho da Noite\": aumenta o Dano causado pelo personagem ativo da equipe contra os inimigos próximos em <r>42%</r>. O efeito \"Espelho da Noite\" pode ser obtido uma vez a cada 14s.",
+            "4": "Aumenta a Proficiência Elemental em <r>175</r>. Nos 15s após o personagem que está com essa arma equipada criar um escudo, obtém o efeito \"Espelho da Noite\": aumenta o Dano causado pelo personagem ativo da equipe contra os inimigos próximos em <r>49%</r>. O efeito \"Espelho da Noite\" pode ser obtido uma vez a cada 14s.",
+            "5": "Aumenta a Proficiência Elemental em <r>200</r>. Nos 15s após o personagem que está com essa arma equipada criar um escudo, obtém o efeito \"Espelho da Noite\": aumenta o Dano causado pelo personagem ativo da equipe contra os inimigos próximos em <r>56%</r>. O efeito \"Espelho da Noite\" pode ser obtido uma vez a cada 14s."
           }
         }
       }

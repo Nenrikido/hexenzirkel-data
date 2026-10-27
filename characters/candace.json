@@ -242,7 +242,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000072",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -367,6 +367,68 @@
             "level": 6,
             "name": "Débordement",
             "desc": "Lorsqu'un personnage déployé (hormis Candace) affecté par l'état Prière de couronne cramoisie de <k>Liturgie : Marée de la bergeronnette</k> inflige des DGT élémentaires à un ennemi avec une attaque normale, il déclenche une marée d'impact, infligeant des <e:hydro>DGT Hydro de zone</e> d'une valeur équivalant à 15 % des PV max de Candace.\nCet effet peut être déclenché une fois toutes les 2,3 s. Les DGT infligés sont considérés comme des DGT de déchaînement élémentaire."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lança Reluzente - Postura Guardiã",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes com a lança.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Ritual Sagrado: Garça Guardiã",
+            "desc": "O estilo de luta de Candace é capaz de resistir a uma onda de inimigos.\n\n<k>Pressionar</k>\nAtaca avançando com seu escudo, infligindo <e:hydro>Dano Hydro</e> contra os inimigos em sua frente.\n\n<k>Manter Pressionado</k>\nErgue seu escudo para bloquear o ataque dos inimigos, formando um Escudo que absorve Dano baseado na Vida Máxima de Candace e possui 250% de eficiência contra <e:hydro>Dano Hydro</e>. O Escudo dura até o fim da Habilidade Elemental.\nAo Manter Pressionado por um certo tempo, Candace completará o carregamento, e quando lançar a habilidade, a duração acabar ou o escudo for destruído, realizará um ataque de salto que infligirá <e:hydro>Dano Hydro</e> contra os inimigos em sua frente.\n\n<i>\"O juramento dos guardiões deve ser ainda mais firme que o escudo que herda de seus ancestrais.\"</i>"
+          },
+          "burst": {
+            "name": "Ritual Sagrado: Maré dos Alvéolas",
+            "desc": "Candace ergue sua arma e invoca uma bênção divina que inflige <e:hydro>Dano Hydro em AdE</e> baseado em sua Vida Máxima, e aplica continuamente o estado \"Súplica da Coroa Escarlate\" no seu personagem ativo no campo de batalha.\n\n<k>Súplica da Coroa Escarlate</k>\nPossui as seguintes características:\n· Quando o Ataque Normal do personagem inflige Dano Elemental contra os inimigos, aumenta o Dano infligido;\n· Quando um personagem se torna o ativo no campo de batalha, lança uma Onda do Dilúvio que inflige <e:hydro>Dano Hydro</e> contra os inimigos próximos. Esse efeito possui um limite de vezes que pode ser desencadeado dentro da duração dessa habilidade;\n· Personagens sob esse efeito que usem Espada, Espadão ou Lança obterão <e:hydro>Encantamento Hydro</e>.\n\n<i>Esse ritual secreto foi passado de geração em geração pelo clã de Candace. Apesar da antiga fé ter se perdido com o passar do tempo, as areias ainda protegem os herdeiros do antigo reino.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Proteção Plúmea",
+            "desc": "Se Candace sofrer um ataque durante o Manter Pressionado de <k>Ritual Sagrado: Garça Guardiã</k>, carregará a habilidade completamente."
+          },
+          {
+            "name": "Arco das Areias",
+            "desc": "Personagens sob estado Súplica da Coroa Escarlate causado por <k>Ritual Sagrado: Maré dos Alvéolas</k> aumentam o Dano infligido contra os oponentes em 0,5% para cada 1.000 pontos de Vida Máxima de Candace quando causam Dano Elemental com seus Ataques Normais."
+          },
+          {
+            "name": "Aurora Primordial",
+            "desc": "Diminui o consumo de Stamina ao Escalar de todos os seus próprios personagens da equipe em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Herdeira das Areias Escarlates Ressurgida",
+            "desc": "Estende a duração do estado Súplica da Coroa Escarlate de <k>Ritual Sagrado: Maré dos Alvéolas</k> em 3s."
+          },
+          {
+            "level": 2,
+            "name": "Brilho Perfura-Luas",
+            "desc": "Quando <k>Ritual Sagrado: Garça Guardiã</k> atinge os inimigos, a Vida Máxima de Candace aumenta 20% por 15s."
+          },
+          {
+            "level": 3,
+            "name": "Devoção à Caça",
+            "desc": "Aumenta o nível de <k>Ritual Sagrado: Maré dos Alvéolas</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Juramento da Sentinela",
+            "desc": "A recarga do Manter Pressionado de <k>Ritual Sagrado: Garça Guardiã</k> é reduzida para a mesma recarga do Pressionar."
+          },
+          {
+            "level": 5,
+            "name": "Olhos Dourados",
+            "desc": "Aumenta o nível do <k>Ritual Sagrado: Garça Guardiã</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Inundação",
+            "desc": "Quando o personagem ativo no campo de batalha estiver sob o estado Súplica da Coroa Escarlate de <k>Ritual Sagrado: Maré dos Alvéolas</k> (exceto a própria Candace) e infligir Dano Elemental contra um inimigo com um Ataque Normal, lançará uma Onda Torrencial que infligirá <e:hydro>Dano Hydro em AdE</e> equivalente a 15% da Vida Máxima de Candace.\nEsse efeito só pode ser desencadeado uma vez a cada 2.3s, e o Dano infligido é considerado Dano de Supremo."
           }
         ]
       }

@@ -23,7 +23,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15020",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -39,6 +39,13 @@
         "bonuses": {
           "2": "Augmente la recharge d'énergie de 20 %.",
           "4": "Augmente les DGT infligés par le déchaînement élémentaire d'une valeur équivalant à 25 % de la recharge d'énergie. Les DGT peuvent être augmentés d'un maximum de 75 % de cette manière."
+        }
+      },
+      "pt": {
+        "name": "Selo da Insulação",
+        "bonuses": {
+          "2": "Recarga de Energia +20%",
+          "4": "Aumenta o Dano do Supremo em 25% da Recarga de Energia. No máximo é possível obter 75% de aumento de Dano dessa maneira."
         }
       }
     }

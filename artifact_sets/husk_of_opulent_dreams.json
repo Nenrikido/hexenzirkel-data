@@ -26,7 +26,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15021",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -42,6 +42,13 @@
         "bonuses": {
           "2": "Augmente la DÉF de 30 %.",
           "4": "Un personnage équipé de ce set d'artéfacts obtiendra 1 cumul de curiosité des façons suivantes : sur le champ de bataille, il obtient 1 cumul en touchant un ennemi avec une attaque <e:geo>Géo</e>, ceci pouvant être déclenché une fois toutes les 0,3 s ; en faisant partie de l'équipe mais en n'étant pas déployé, il obtient 1 cumul toutes les 3 s. La curiosité peut être cumulée 4 fois maximum, chaque cumul accordant 6 % de bonus de DÉF et 6 % de bonus de DGT <e:geo>Géo</e>. Si 6 s s'écoulent sans obtenir de cumul de curiosité, 1 cumul sera perdu."
+        }
+      },
+      "pt": {
+        "name": "Casca de Sonhos Opulentos",
+        "bonuses": {
+          "2": "DEF +30%",
+          "4": "Um personagem com este conjunto de artefatos equipado obterá o efeito de Curiosidade nas seguintes condições: Quando estiver no campo de batalha, o personagem ganha 1 carga após atingir um adversário com um ataque <e:geo>Geo</e>, isso pode ser desencadeado uma vez a cada 0.3s. Quando fora do campo de batalha, o personagem ganha 1 carga a cada 3s. A Curiosidade pode acumular em até 4 vezes, cada uma fornecendo 6% de DEF e um Bônus de Dano <e:geo>Geo</e> de também 6%. Quando 6 segundos passam sem ganhar um acúmulo de Curiosidade, 1 acúmulo é perdido."
         }
       }
     }

@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10007",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Augmente la maîtrise élémentaire de 80 pts.",
           "4": "Augmente la maîtrise élémentaire de tous les personnages de l'équipe de 120 pts pendant 8 s après avoir déclenché une réaction élémentaire."
+        }
+      },
+      "pt": {
+        "name": "Instrutor",
+        "bonuses": {
+          "2": "Proficiência Elemental +80",
+          "4": "Após uma Reação Elemental aumenta a Proficiência Elemental de todos os membros da Equipe em 120 por 8s."
         }
       }
     }

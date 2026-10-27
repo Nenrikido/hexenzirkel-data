@@ -32,7 +32,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15424",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -59,6 +59,19 @@
             "3": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>90 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>42 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s.",
             "4": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>105 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>49 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s.",
             "5": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à <r>120 %</r> de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de <r>56 %</r>. Une flèche solaire peut être déclenchée une fois toutes les 10 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um Arco Longo antigo que é um vestígio da era antiga do Rei Deshret. Um texto antigo indecifrável e padrões solenes foram entalhados nele.",
+        "passive": {
+          "name": "Caminho do Fogo Solar",
+          "refinements": {
+            "1": "Quando um Ataque Carregado atinge um inimigo, fará cair uma Flecha Solar no inimigo atingido, causando Dano equivalente a <r>60%</r> do ATQ, e aplicando o efeito \"Coração Flamejante\" no inimigo atingido pela Flecha Solar por 10s. Aumenta o Dano causado pelo personagem que está com essa arma equipada contra inimigos afetados por \"Coração Flamejante\" em <r>28%</r>. A Flecha Solar pode ser desencadeada uma vez a cada 10s.",
+            "2": "Quando um Ataque Carregado atinge um inimigo, fará cair uma Flecha Solar no inimigo atingido, causando Dano equivalente a <r>75%</r> do ATQ, e aplicando o efeito \"Coração Flamejante\" no inimigo atingido pela Flecha Solar por 10s. Aumenta o Dano causado pelo personagem que está com essa arma equipada contra inimigos afetados por \"Coração Flamejante\" em <r>35%</r>. A Flecha Solar pode ser desencadeada uma vez a cada 10s.",
+            "3": "Quando um Ataque Carregado atinge um inimigo, fará cair uma Flecha Solar no inimigo atingido, causando Dano equivalente a <r>90%</r> do ATQ, e aplicando o efeito \"Coração Flamejante\" no inimigo atingido pela Flecha Solar por 10s. Aumenta o Dano causado pelo personagem que está com essa arma equipada contra inimigos afetados por \"Coração Flamejante\" em <r>42%</r>. A Flecha Solar pode ser desencadeada uma vez a cada 10s.",
+            "4": "Quando um Ataque Carregado atinge um inimigo, fará cair uma Flecha Solar no inimigo atingido, causando Dano equivalente a <r>105%</r> do ATQ, e aplicando o efeito \"Coração Flamejante\" no inimigo atingido pela Flecha Solar por 10s. Aumenta o Dano causado pelo personagem que está com essa arma equipada contra inimigos afetados por \"Coração Flamejante\" em <r>49%</r>. A Flecha Solar pode ser desencadeada uma vez a cada 10s.",
+            "5": "Quando um Ataque Carregado atinge um inimigo, fará cair uma Flecha Solar no inimigo atingido, causando Dano equivalente a <r>120%</r> do ATQ, e aplicando o efeito \"Coração Flamejante\" no inimigo atingido pela Flecha Solar por 10s. Aumenta o Dano causado pelo personagem que está com essa arma equipada contra inimigos afetados por \"Coração Flamejante\" em <r>56%</r>. A Flecha Solar pode ser desencadeada uma vez a cada 10s."
           }
         }
       }

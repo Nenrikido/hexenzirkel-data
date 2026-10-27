@@ -313,7 +313,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000098",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -438,6 +438,68 @@
             "level": 6,
             "name": "« Ainsi, je ne désespérerai jamais plus »",
             "desc": "Pendant 12 s après avoir utilisé <k>Ronde de la nuitée</k>, le taux CRIT de Clorinde augmente de 10 % et ses DGT CRIT de 70 %.\nDe plus, des ombres bougières peuvent apparaître dans certaines circonstances lors des vigiles nocturnes, afin d'attaquer les ennemis en infligeant des <e:electro>DGT Électro</e> d'une valeur équivalant à 200 % de l'ATQ de Clorinde. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque normale.\nLes ombres bougières apparaissent dans les circonstances suivantes :\n· Lorsque Clorinde est sur le point de subir une attaque.\n· Lorsque Clorinde effectue un empalement nocturne de pacte.\nUne ombre bougière peut être invoquée une fois toutes les secondes des manières susmentionnées, et un maximum de 6 ombres bougières peut être invoqué pendant une vigile nocturne.\nAdditionnellement, les DGT subis par Clorinde diminuent de 80 % et sa RÉS à l'interruption augmente lors des vigiles nocturnes. Cet effet cesse en même temps que la vigile nocturne ou 1 s après avoir invoqué 6 ombres bougières."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Juramento do Marechalato",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina usando sua pistola para disparar Tiros Supressores no formato de um leque.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Patrulha na Escuridão",
+            "desc": "Preparando sua pistola, entra no estado \"Patrulha Noturna\", usando uma combinação de aço e disparo. Nesse estado, o Ataque Normal de Clorinde é convertido em ataques de pistola \"Caçada Selvagem\", e o Dano causado é convertido em <e:electro>Dano Electro</e> que não pode ser substituído e não pode utilizar Ataque Carregado. Ao lançar, sua Habilidade Elemental é transformada em \"Perfura-Noite\": faz um ataque de investida, causando <e:electro>Dano Electro</e>. O Dano causado dessa forma é considerado Dano de Ataque Normal.\n\n<k>Caçada Selvagem</k>\n· Quando seu Contrato de Vida é igual ou maior que 100% de sua Vida Máxima: dispara sua pistola.\nQuando seu Contrato de Vida é menor que 100% de sua Vida Máxima, disparar a pistola a concederá um Contrato de Vida, com a quantidade concedida sendo baseada na sua Vida Máxima. Os disparos que ela realizar podem perfurar os oponentes, e o Dano causado contra os oponentes em seu caminho é aumentado.\n\n<k>Perfura-Noite</k>\nBaseado numa certa porcentagem do Contrato de Vida atual, determina o efeito do Perfura-Noite atual:\n· Quando o Contrato de Vida é 0% para ser eliminado, faz um ataque de investida.\n· Quando o valor do Contrato de Vida é menor que 100% de sua Vida Máxima, cura Clorinde. A quantidade curada é baseada no valor do Contrato de Vida. Aumenta a AdE e o Dano desse Perfura-Noite\n· Quando o valor do Contrato de Vida é igual ou maior que 100% de sua Vida Máxima, faz o ataque Perfura-Noite: Ordem, regenerando uma maior proporção de Vida para Clorinde, e aumentando o Dano e AdE desse Perfura-Noite.\n\nAlém disso, quando Clorinde está no estado Patrulha Noturna, efeitos de cura que não sejam Perfura-Noite não surtirão efeito, e ao invés disso, serão convertidos em um Contrato de Vida que é uma porcentagem da cura que teria sido recebida.\n\nO estado Patrulha Noturna será removido quando Clorinde sair do campo.\n\n<k>Arkhe: Ousia</k>\nPeriodicamente, quando os disparos de Caçada Selvagem de Clorinde atingem oponentes, uma Lâmina da Fluidez cairá na posição deles, causando <e:electro>Dano Electro</e> com Ousia.\n\n<i>Apesar do mal que se escondia nas sombras da noite ter sido expurgado ao longo de milênios, a sombra que a luz não podia alcançar escurecia os corações humanos.\nAinda agora, o aviso deixado pela Caçadora Dourada estava em sua memória: aqueles da Patrulha Noturna, segurando velas contra a escuridão têm uma necessidade ainda maior de se manterem vigilantes. Não sejam cooptados pela escuridão fria.</i>"
+          },
+          "burst": {
+            "name": "Queda da Luz",
+            "desc": "Concede a si mesma um Contrato de Vida baseado em sua Vida Máxima antes de evadir rapidamente e atacar com a espada e a pistola, causando <e:electro>Dano Electro em AdE</e>.\n\n<i>Dizem que o legado da arte antiga de resistir seres não humanos, mas com um corpo mortal, remonta aos Cavaleiros da Água Pura que resistiram o império de Remuria.\nDe qualquer forma, se alguém encontrar uma forma de usar o nível da força, não é como se não pudesse ser usado em duelos contra oponentes ordinários.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Chama Dispersadora da Escuridão",
+            "desc": "Depois de um membro da equipe desencadear uma <e:electro>Reação relativa ao Electro</e> em um inimigo, o <k>Dano Electro</k> de Ataques Normais de Clorinde e <e:electro>Queda da Luz</e> será aumentado em 20% do ATQ de Clorinde por 15s. Máximo de 3 acúmulos. Cada acúmulo é contado separadamente. O aumento máximo de Dano possível desses ataques é 1.800."
+          },
+          {
+            "name": "Recompensa Legal",
+            "desc": "Se o Contrato de Vida de Clorinde é igual ou maior que 100% de sua Vida Máxima, sua Taxa CRIT aumenta em 10% por 15s quando o valor de seu Contrato de Vida aumentar ou diminuir. Máximo de 2 acúmulos. A duração de cada acúmulo é contada separadamente.\nAlém disso, o estado Patrulha Noturna de <k>Patrulha na Escuridão</k> é fortalecido: quando está ativo, a Cura é convertida em uma porcentagem do Contrato de Vida, até no máximo 100%."
+          },
+          {
+            "name": "Recompensa da Patrulha Noturna",
+            "desc": "Mostra a localização de <k>Especialidades de Fontaine</k> próximas no mapa."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"De Hoje em Diante, Passo a Vela pelas Sombras\"",
+            "desc": "Enquanto o estado Patrulha Noturna de <k>Patrulha na Escuridão</k> está ativo, e quando o <e:electro>Dano Electro</e> dos Ataques Normais de Clorinde atingir um inimigo, ativarão dois ataques coordenados da Sombra da Noite invocada perto do inimigo atingido, causando 30% do ATQ de Clorinde como <e:electro>Dano Electro</e>.\nEsse efeito pode ser desencadeado uma vez a cada 1.2s. O Dano causado dessa forma é considerado Dano de Ataque Normal."
+          },
+          {
+            "level": 2,
+            "name": "\"Até Aqui, Enquanto Enfrentamos os Perigos da Longa Noite\"",
+            "desc": "Aprimora o Talento de Ascensão \"Chama Dispersadora da Escuridão\": Após um membro próximo da equipe desencadear <e:electro>reações relacionadas a Electro</e> contra um oponente, <e:electro>Dano Electro</e> causado por Ataques Normais e <k>Queda da Luz</k> serão aumentados em 30% do ATQ de Clorinde por 15s. Máximo de 3 acúmulos. Cada acúmulo tem sua duração contada independentemente. Quando você possui 3 acúmulos, a Resistência contra Interrupção de Clorinde será aumentada. O Dano Máximo alcançável desta forma para os ataques acima é de 2.700.\nÉ necessário primeiro desbloquear o Talento de Ascensão \"Chama Dispersadora da Escuridão\"."
+          },
+          {
+            "level": 3,
+            "name": "\"Jamais Esquecerei o Juramento do Dia\"",
+            "desc": "Aumenta o nível das <k>Patrulha na Escuridão</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Lembrarei as Lágrimas, a Vida e o Amor\"",
+            "desc": "Quando <k>Queda da Luz</k> causa Dano contra os oponentes, o Dano causado será aumentado baseado na porcentagem do Contrato de Vida de Clorinde. Cada 1% de seu Contrato de Vida aumentará o Dano de <k>Queda da Luz</k> em 2%. O máximo de aumento de Dano de <k>Queda da Luz</k> alcançável desta forma é 200%."
+          },
+          {
+            "level": 5,
+            "name": "\"Lembrarei da Chegada do Amanhecer\"",
+            "desc": "Aumenta o Nível de <k>Queda da Luz</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "\"E Assim Nunca me Desesperarei\"",
+            "desc": "Por 12s depois de <k>Patrulha na Escuridão</k> ser usada, a Taxa CRIT de Clorinde será aumentada em 10% e seu Dano CRIT em 70%.\nAlém disso, enquanto o estado Patrulha Noturna estiver ativo, uma Sombra da Luz aparecerá, fazendo um ataque perseguidor e causando 200% do ATQ de Clorinde como <e:electro>Dano Electro</e>. Dano causado dessa forma é considerado Dano de Ataque Normal.\nA Sombra da Luz aparecerá nas seguintes circunstâncias:\n· Quando está para ser atacada por um oponente.\n· Quando Clorinde usa Perfura-Noite: Ordem.\n1 Luz da Sombra pode ser invocada dessa forma a cada 1s. 6 Sombras podem ser invocadas por uma única duração de Patrulha Noturna.\nAlém disso, durante o estado Patrulha Noturna, o Dano que Clorinde sofre é reduzido em 80% e sua Resistência contra interrupção é aumentada. Esse efeito será removido quando o estado Patrulha Noturna acabar, ou 1s depois de invocar Sombras da Luz 6 vezes."
           }
         ]
       }

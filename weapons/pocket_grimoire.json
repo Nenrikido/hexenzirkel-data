@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14201",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Un petit carnet rempli de notes concernant un examen de magie."
+      },
+      "pt": {
+        "flavor": "Um caderno cuidadosamente compilado com os elementos essenciais necessários para passar em um exame de mágica."
       }
     }
   }

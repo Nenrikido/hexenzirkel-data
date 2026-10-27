@@ -47,7 +47,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13512",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -74,6 +74,19 @@
             "3": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>20 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>40 %</r> supplémentaires.",
             "4": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>24 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>48 %</r> supplémentaires.",
             "5": "Toucher un ennemi avec une attaque chargée accorde un engagement vital d'une valeur équivalant à 25 % des PV max. Cet effet peut être déclenché une fois toutes les 14 s. De plus, lorsque le personnage équipé de l'arme est sous l'effet d'un engagement vital, les DGT qu'il inflige augmentent de <r>28 %</r>. Si la valeur de son engagement vital est supérieure ou égale à 30 % de ses PV max, les DGT qu'il inflige augmentent de <r>56 %</r> supplémentaires."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma arma de gume afiado, brilho deslumbrante como a Lua Carmesim. Dizem que uma antiga dinastia a considerava um objeto ritual que poderia unir dois mundos, mas ninguém mais se lembra das crenças e cerimônias daquela era passada.",
+        "passive": {
+          "name": "Sombra do Sol de Cinzas",
+          "refinements": {
+            "1": "Quando um Ataque Carregado atinge um inimigo, ganha um Contrato de Vida equivalente a 25% da Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 14s. Além disso, quando o personagem que está com essa arma equipada tem um Contrato de Vida, aumenta o Dano em <r>12%</r>. Se o valor do Contrato de Vida for maior ou igual a 30% da Vida Máxima, então ganha <r>24%</r> de aumento de Dano adicional.",
+            "2": "Quando um Ataque Carregado atinge um inimigo, ganha um Contrato de Vida equivalente a 25% da Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 14s. Além disso, quando o personagem que está com essa arma equipada tem um Contrato de Vida, aumenta o Dano em <r>16%</r>. Se o valor do Contrato de Vida for maior ou igual a 30% da Vida Máxima, então ganha <r>32%</r> de aumento de Dano adicional.",
+            "3": "Quando um Ataque Carregado atinge um inimigo, ganha um Contrato de Vida equivalente a 25% da Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 14s. Além disso, quando o personagem que está com essa arma equipada tem um Contrato de Vida, aumenta o Dano em <r>20%</r>. Se o valor do Contrato de Vida for maior ou igual a 30% da Vida Máxima, então ganha <r>40%</r> de aumento de Dano adicional.",
+            "4": "Quando um Ataque Carregado atinge um inimigo, ganha um Contrato de Vida equivalente a 25% da Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 14s. Além disso, quando o personagem que está com essa arma equipada tem um Contrato de Vida, aumenta o Dano em <r>24%</r>. Se o valor do Contrato de Vida for maior ou igual a 30% da Vida Máxima, então ganha <r>48%</r> de aumento de Dano adicional.",
+            "5": "Quando um Ataque Carregado atinge um inimigo, ganha um Contrato de Vida equivalente a 25% da Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 14s. Além disso, quando o personagem que está com essa arma equipada tem um Contrato de Vida, aumenta o Dano em <r>28%</r>. Se o valor do Contrato de Vida for maior ou igual a 30% da Vida Máxima, então ganha <r>56%</r> de aumento de Dano adicional."
           }
         }
       }

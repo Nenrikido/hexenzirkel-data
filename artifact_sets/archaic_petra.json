@@ -25,7 +25,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15014",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -41,6 +41,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:geo>Géo</e> de 15 %.",
           "4": "Lorsque vous obtenez un cristal issu d'une Cristallisation ou déclenchez une réaction de Sélénocristallisation, tous les personnages de l'équipe bénéficient d'un bonus de DGT du second élément de la réaction de 35 % pendant 10 s. Cet effet ne peut s'appliquer qu'à un seul élément à la fois."
+        }
+      },
+      "pt": {
+        "name": "Pedra Arcaica",
+        "bonuses": {
+          "2": "Obtém 15% de Bônus de Dano <e:geo>Geo</e>.",
+          "4": "Ao obter um Fragmento Elemental por meio de uma Reação de Cristalização ou ao desencadear uma Reação de Cristalização Lunar, todos os personagens na equipe ganham 35% de Bônus de Dano para esse elemento em particular por 10s. Somente uma forma de Dano Elemental pode ser obtida dessa maneira a qualquer momento."
         }
       }
     }

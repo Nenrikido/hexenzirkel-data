@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11415",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Augmente les DGT infligés par les compétences élémentaires d'une valeur équivalant à <r>60 %</r> de la DÉF. Cet effet peut être déclenché une fois toutes les 1,5 s, et est annulé 0,1 s après que la compétence élémentaire inflige des DGT.",
             "4": "Augmente les DGT infligés par les compétences élémentaires d'une valeur équivalant à <r>70 %</r> de la DÉF. Cet effet peut être déclenché une fois toutes les 1,5 s, et est annulé 0,1 s après que la compétence élémentaire inflige des DGT.",
             "5": "Augmente les DGT infligés par les compétences élémentaires d'une valeur équivalant à <r>80 %</r> de la DÉF. Cet effet peut être déclenché une fois toutes les 1,5 s, et est annulé 0,1 s après que la compétence élémentaire inflige des DGT."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada feita de materiais que não pertencem a este mundo. O poder dentro dela pode até mesmo ser capaz de resistir à corrupção de um veneno que poderia corroer um poderoso dragão.",
+        "passive": {
+          "name": "Coração Imaculado",
+          "refinements": {
+            "1": "Dano da Habilidade Elemental do personagem é aumentado em <r>40%</r> da DEF. Este efeito só pode ser ativado uma vez a cada 1,5s e é redefinido 0,1s após a habilidade elemental causar dano.",
+            "2": "Dano da Habilidade Elemental do personagem é aumentado em <r>50%</r> da DEF. Este efeito só pode ser ativado uma vez a cada 1,5s e é redefinido 0,1s após a habilidade elemental causar dano.",
+            "3": "Dano da Habilidade Elemental do personagem é aumentada em <r>60%</r> da DEF. Este efeito só pode ser ativado uma vez a cada 1,5s e é redefinido 0,1s após a habilidade elemental causar dano.",
+            "4": "Dano da Habilidade Elemental do personagem é aumentado em <r>70%</r> da DEF. Este efeito só pode ser ativado uma vez a cada 1,5s e é redefinido 0,1s após a habilidade elemental causar dano.",
+            "5": "Dano da Habilidade Elemental do personagem é aumentada em <r>80%</r> da DEF. Este efeito só pode ser ativado uma vez a cada 1,5s e é redefinido 0,1s após a habilidade elemental causar dano."
           }
         }
       }

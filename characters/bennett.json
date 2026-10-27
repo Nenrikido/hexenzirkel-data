@@ -163,7 +163,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000032",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -288,6 +288,68 @@
             "level": 6,
             "name": "Feu et courage",
             "desc": "Le champ de <k>Merveilleux voyage</k> confère à tous les personnages de l'équipe déployés et armés d'une épée à une main, à deux mains ou d'une arme d'hast qui s'y trouvent un <e:pyro>bonus de DGT Pyro</e> de 15 %, ainsi qu'un <e:pyro>enchantement Pyro</e>."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Espada da Sorte",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Sobrecarga de Paixão",
+            "desc": "Bennett coloca todo seu fogo e sua paixão por aventura em sua espada. Os resultados podem variar baseados no quão fervente ele está...\n\n<k>Pressionar</k>\nUm único e rápido ataque de chamas que causa <e:pyro>Dano Pyro</e>.\n\n<k>Manter pressionado (Brevemente)</k>\nSobrecarrega, resultando em diferentes efeitos quando liberado baseado no Nível de Carga.\n Nível 1: Ataca duas vezes, causando <e:pyro>Dano Pyro</e> e lançando inimigos.\n Nível 2: Desfere 3 ataques consecutivos que causam um incrível <e:pyro>Dano Pyro</e>, mas o último ataque desencadeia uma explosão que lança Bennett e seu inimigo.\nBennett não leva nenhum dano ao ser lançado.\n\n<i>Um ataque que combina os sonhos do Bennett e sua paixão por Pyro. Mas a paixão às vezes é muito ardente e Pyro acaba explodindo.</i>"
+          },
+          "burst": {
+            "name": "Viagem Fantástica",
+            "desc": "Bennett pula, causando <e:pyro>Dano Pyro</e>, e cria um Campo de Inspiração.\n\n<k>Campo de Inspiração</k>\n· Se a Vida dos personagens dentro da AdE for igual ou cair para menos de 70%, regenerará Vida continuamente. A regeneração de Vida se baseia na Vida Máxima de Bennett.\n· Se a Vida dos personagens dentro da AdE for maior que 70%, receberão um Bônus de ATQ proporcional ao Ataque Básico de Bennett.\n· Aplica-se aos personagens dentro da AdE <e:pyro>Elemento Pyro</e>.\n\n<i>A Equipe de Aventura de Benny sempre encontra perigos e acidentes quando parte para explorar. Apesar disso, Bennett prefere dizer que isso é \"uma jornada cheia de maravilhas, beleza e excitação\".</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Ressurgimento da Paixão",
+            "desc": "Diminui o Tempo de Recarga da <k>Sobrecarga da Paixão</k> em 20%."
+          },
+          {
+            "name": "Fervor Intrépido",
+            "desc": "Dentro da área criada pela <k>Viagem Fantástica</k>, a <k>Sobrecarga da Paixão</k> recebe os seguintes efeitos:\nA Recarga é reduzida em 50%.\nBennett não será lançado pelos efeitos da Carga Nível 2."
+          },
+          {
+            "name": "Deve Ser Seguro...",
+            "desc": "Quando despachado em uma expedição em Mondstadt, o tempo consumido é reduzido em 25%"
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Grande Expectativa",
+            "desc": "O aumento do ATQ da <k>Viagem Fantástica</k> não possui mais restrição de Vida, e aumenta numericamente 20% do ATQ Básico de Bennett."
+          },
+          {
+            "level": 2,
+            "name": "Escape da Desolação",
+            "desc": "Quando a Vida de Bennett cair abaixo de 70%, a Recarga da sua Energia é aumentada em 30%."
+          },
+          {
+            "level": 3,
+            "name": "Paixão Ardente",
+            "desc": "Aumenta o nível da <k>Sobrecarga de Paixão</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Odisseia Inesperada",
+            "desc": "Usar um Ataque Normal ao executar um segundo ataque de Carga Nível 1 da <k>Sobrecarga da Paixão</k> permite realizar um ataque adicional.\nEsse ataque adicional causa 135% do Dano do segundo ataque."
+          },
+          {
+            "level": 5,
+            "name": "O Verdadeiro Explorador",
+            "desc": "Aumenta o nível da <k>Viagem Fantástica</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Fogo e Coragem",
+            "desc": "<k>Viagem Fantástica</k> concede 15% de <e:pyro>Bônus de Dano Pyro</e> aos membros do grupo dentro da AdE. Além disso, personagens que usam Espadas, Espadões e Lanças recebem um <e:pyro>Encantamento Pyro</e>."
           }
         ]
       }

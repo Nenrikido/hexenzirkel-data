@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10004",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Augmente toutes les RÉS élémentaires de 20 %.",
           "4": "Les DGT élémentaires subis augmentent la RÉS à l'élément correspondant de 30 % pendant 10 s. Cet effet peut être déclenché une fois toutes les 10 s."
+        }
+      },
+      "pt": {
+        "name": "Pequeno Milagre",
+        "bonuses": {
+          "2": "RES de todos os Elementos +20%.",
+          "4": "O Dano elemental recebido aumenta a RES Elemental correspondente em 30% por 10s. Pode ser lançado uma vez a cada 10s."
         }
       }
     }

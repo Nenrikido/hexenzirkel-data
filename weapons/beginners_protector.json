@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13101",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Une lance droite comme un mât, idéale en situation de combat. Elle dégage une présence imposante."
+      },
+      "pt": {
+        "flavor": "Uma arma tão reta quanto uma haste de bandeira. Adequado para a maioria das situações, parece imponente quando é balançada."
       }
     }
   }

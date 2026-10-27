@@ -261,7 +261,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000039",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -394,6 +394,72 @@
             "level": 6,
             "name": "Dernière tournée",
             "desc": "Les personnages se trouvant dans le champ d'alcool de <k>Cuvée spéciale</k> bénéficient des effets suivants selon les PV qu'il leur reste :\n· Augmente le bonus de soins reçus de 30 % si les PV sont inférieurs ou égaux à 50 %.\n· Augmente la maîtrise élémentaire de 200 si les PV sont supérieurs à 50 %.\n\nDe plus, les PV max de Diona augmentent de 25 %.\n<k>Radiance astrale</k> : Les DGT des réactions correspondantes des personnages à portée de Cuvée spéciale augmentent :\n<k>Radiance « Astroconduction »</k> : Les DGT de réaction de Supraconduction et les DGT de réaction d'Astroconduction augmentent de 40 %.\n<k>Radiance « Astrodispersion »</k> : Les DGT de réaction de Dispersion Cryo et les DGT de réaction d'Astrodispersion augmentent de 40 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Pontaria do Caçador",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 disparos consecutivos com o arco.\n\n<k>Ataque Carregado</k>\nRealiza um ataque <k>Disparo com Mira</k> mais preciso e com mais dano.\nEnquanto mira, gelo será acumulado na flecha. Uma flecha totalmente carregada causará <e:cryo>Dano Cryo</e>.\n\n<k>Ataque Imersivo</k> Dispara uma chuva de flechas no ar antes de cair e impactar o chão, causando Dano AdE no impacto."
+          },
+          "skill": {
+            "name": "Garra de Gato Gelada",
+            "desc": "Dispara uma Garra de Gato Gelada que causa <e:cryo>Dano Cryo</e> e cria um escudo.\nA Absorção de Dano do escudo é baseada na Vida Máxima de Diona, e sua duração depende do número de garras que atingem seu objetivo.\n\n<k>Tocar</k>\nDispara rapidamente 2 Garras de Gato Gelada.\n\n<k>Manter Pressionado</k> Retrocede rapidamente e dispara 5 Garras de Gato Geladas.\nO escudo criado pelo ataque Manter Pressionado ganhará um bônus de 75% de Absorção de Dano.\n\nO escudo tem um bônus de 250% de Absorção de <e:cryo>Dano Cryo</e>, e ao ser formado aplica o <e:cryo>Elemento Cryo</e> em seu próprio personagem por uma curta duração.\n\n<i>Normalmente, nenhuma quantidade de gelo no copo de um bêbado faria mal algum, até que Diona usou sua Visão para criar gelo frio o suficiente para congelar o cérebro. Nota 10!</i>"
+          },
+          "burst": {
+            "name": "Coquetel Assassino",
+            "desc": "Atira um coquetel gelado especial que causa <e:cryo>Dano Cryo em uma AdE</e> e cria uma Névoa Embriagada em uma AdE.\n\n<k>Névoa Embriagada</k>\nCausa <e:cryo>Dano Cryo</e> contínuo nos inimigos dentro da AdE.\nRegenera continuamente a Vida dos personagens dentro da AdE.\n\n<i>Uma mistura horrível que até mesmo Diona considera desumana. O gosto horrível deve ser deixado apenas para os inimigos. Tem um sabor muito fresco, mas infelizmente só se pode sentir no nariz e na pele.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Menu Secreto da Cauda do Gato",
+            "desc": "Os personagens protegidos por <k>Garras de Gato Gelado</k> têm sua Veloc. Mov. aumentado em 10% e seu Consumo de Stamina diminuído em 10%."
+          },
+          {
+            "name": "Diversão dos Bêbados",
+            "desc": "Inimigos que entram na AdE do <k>Coquetel Assassino</k> tem seu ATQ reduzido em 10% por 15s."
+          },
+          {
+            "name": "Aperitivos Grátis",
+            "desc": "Quando uma Culinária Perfeita é feita em uma comida com efeito de recuperação, tem uma chance de 12% de receber o dobro de produção."
+          },
+          {
+            "name": "Seleção Refinada",
+            "desc": "Nos 20s após lançar a Habilidade Elemental <k>Garra de Gato Gelada</k>, quando um personagem da equipe desencadear Supercondutor Estelar, Supercondutor, Redemoinho Cryo ou Redemoinho Estelar, Diona disparará 3 <k>Garras de Gato Gelada</k>. As <k>Garras de Gato Gelada</k> disparadas dessa forma não geram Partículas Elementais, e ao atingir um inimigo, não geram um Escudo. Esse efeito pode ser desencadeado uma vez a cada 3.5s.\nAlém disso, quando estiver dentro de um <k>Campo da Estrela Polar</k>/nos 8s após um personagem próximo da equipe desencadear Redemoinho Estelar, Diona entra nos estados <k>Brilho Reluzente: Supercondutor Estelar</k>\n<k>Brilho Reluzente: Redemoinho Estelar</k> respectivamente."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Coquetel da Casa",
+            "desc": "Regenera 15 de Energia para Diona depois dos efeitos de <k>Coquetel Assassino</k> terminarem."
+          },
+          {
+            "level": 2,
+            "name": "Garra de Gato Tremendo de Frio",
+            "desc": "Aumenta o dano da <k>Garra de Gato Gelada</k> em 15%, e aumenta a Absorção de Dano do escudo em 15%. Quando a habilidade atinge um alvo, cria um escudo para outros personagens nos arredores que absorve até 50% do dano <k>Garra de Gato Gelada</k> por 5s."
+          },
+          {
+            "level": 3,
+            "name": "Q-quer outro copo?",
+            "desc": "Aumenta o nível do <k>Coquetel Assassino</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Assassina da indústria do vinho\"",
+            "desc": "Na AdE do <k>Coquetel Assassino</k>, o tempo do Disparo com Mira de Diona é reduzido em 60%."
+          },
+          {
+            "level": 5,
+            "name": "Dose dupla com gelo",
+            "desc": "Aumenta o nível da <k>Garra de Gato Gelada</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Encerrando o Expediente na Cauda do Gato",
+            "desc": "Os personagens dentro da AdE do <k>Coquetel Assassino</k> obtêm o seguinte efeito, de acordo com a Vida:\nQuando a Vida é igual ou inferior a 50%, o Bônus de Cura Recebida aumenta 30%;\nQuando a Vida é superior a 50%, a Proficiência Elemental aumenta 200.\n\nAlém disso, aumenta a Vida Máxima de Diona em 25%.\n\n<k>Brilho Reluzente: Brilho Estelar</k>: aumenta o Dano causado por personagens que estiverem dentro de Coquetel Assassino:\n<k>Brilho Reluzente: Supercondutor Estelar</k>: aumenta o Dano de Supercondutor e Supercondutor Estelar em 40%.\n<k>Brilho Reluzente: Redemoinho Estelar</k>: aumenta o Dano de Redemoinho Cryo e Redemoinho Estelar em 40%."
           }
         ]
       }

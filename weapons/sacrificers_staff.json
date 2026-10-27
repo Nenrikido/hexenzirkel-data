@@ -38,7 +38,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13434",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -65,6 +65,19 @@
             "3": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>12 %</r> et la recharge d'énergie de <r>9 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>14 %</r> et la recharge d'énergie de <r>10,5 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Toucher un ennemi avec une compétence élémentaire augmente l'ATQ de <r>16 %</r> et la recharge d'énergie de <r>12 %</r> pendant 6 s. Cet effet peut être cumulé 3 fois maximum et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança branca prateada, pura e completamente imaculada. Dizem as lendas que foi usada pelas Arquissacerdotisas de Hiperbórea de eras passadas para guiar seus rebanhos aos Filhos da Lua Gelada.",
+        "passive": {
+          "name": "Desejo Puro",
+          "refinements": {
+            "1": "Nos 6s depois da Habilidade Elemental atingir o inimigo, aumenta o ATQ em <r>8%</r> e a Recarga de Energia em <r>6%</r>. Esse efeito pode acumular até 3 vezes, e também surtirá se o portador não for o personagem ativo.",
+            "2": "Nos 6s depois da Habilidade Elemental atingir o inimigo, aumenta o ATQ em <r>10%</r> e a Recarga de Energia em <r>7.5%</r>. Esse efeito pode acumular até 3 vezes, e também surtirá se o portador não for o personagem ativo.",
+            "3": "Nos 6s depois da Habilidade Elemental atingir o inimigo, aumenta o ATQ em <r>12%</r> e a Recarga de Energia em <r>9%</r>. Esse efeito pode acumular até 3 vezes, e também surtirá se o portador não for o personagem ativo.",
+            "4": "Nos 6s depois da Habilidade Elemental atingir o inimigo, aumenta o ATQ em <r>14%</r> e a Recarga de Energia em <r>10.5%</r>. Esse efeito pode acumular até 3 vezes, e também surtirá se o portador não for o personagem ativo.",
+            "5": "Nos 6s depois da Habilidade Elemental atingir o inimigo, aumenta o ATQ em <r>16%</r> e a Recarga de Energia em <r>12%</r>. Esse efeito pode acumular até 3 vezes, e também surtirá se o portador não for o personagem ativo."
           }
         }
       }

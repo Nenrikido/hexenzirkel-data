@@ -39,7 +39,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14405",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -66,6 +66,19 @@
             "3": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>30 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>30 %</r> lorsqu'elles touchent.",
             "4": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>35 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>35 %</r> lorsqu'elles touchent.",
             "5": "Les attaques normales augmentent pendant 6 s les DGT des compétences et des déchaînements élémentaires de <r>40 %</r> lorsqu'elles touchent. Les compétences et déchaînements élémentaires augmentent pendant 6 s les DGT des attaques normales de <r>40 %</r> lorsqu'elles touchent."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Abriga a luz do sol e da lua, uma pérola feita de materiais desconhecidos pulsa com uma força calorosa.",
+        "passive": {
+          "name": "Brilho Celestial",
+          "refinements": {
+            "1": "Dentro de 6s após acertar um Ataque Normal, o Dano da Habilidade Elemental e do Supremo aumentam em <r>20%</r>. Dentro de 6s após acertar uma Habilidade Elemental e o Supremo, o Dano do Ataque Normal aumenta <r>20%</r>.",
+            "2": "Dentro de 6s após acertar um Ataque Normal, o Dano da Habilidade Elemental e do Supremo aumentam em <r>25%</r>. Dentro de 6s após acertar uma Habilidade Elemental e o Supremo, o Dano do Ataque Normal aumenta <r>25%</r>.",
+            "3": "Dentro de 6s após acertar um Ataque Normal, o Dano da Habilidade Elemental e do Supremo aumentam em <r>30%</r>. Dentro de 6s após acertar uma Habilidade Elemental e o Supremo, o Dano do Ataque Normal aumenta <r>30%</r>.",
+            "4": "Dentro de 6s após acertar um Ataque Normal, o Dano da Habilidade Elemental e do Supremo aumentam em <r>35%</r>. Dentro de 6s após acertar uma Habilidade Elemental e o Supremo, o Dano do Ataque Normal aumenta <r>35%</r>.",
+            "5": "Dentro de 6s após acertar um Ataque Normal, o Dano da Habilidade Elemental e do Supremo aumentam em <r>40%</r>. Dentro de 6s após acertar uma Habilidade Elemental e o Supremo, o Dano do Ataque Normal aumenta <r>40%</r>."
           }
         }
       }

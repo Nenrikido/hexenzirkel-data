@@ -53,7 +53,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12512",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -80,6 +80,19 @@
             "3": "Augmente l'ATQ de <r>30 %</r>. Lorsqu'un personnage de l'équipe obtient un fragment généré par une réaction de Cristallisation ou déclenche une réaction de Sélénocristallisation, le personnage équipé de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses compétences élémentaires de <r>27 %</r>. Un maximum de 2 sceaux peut être obtenu en même temps, tous les sceaux disparaissant 0,2 s après que le personnage équipé de l'arme inflige des DGT avec une compétence élémentaire. Un maximum de 1 sceau peut être obtenu toutes les secondes grâce aux réactions de Sélénocristallisation.",
             "4": "Augmente l'ATQ de <r>35 %</r>. Lorsqu'un personnage de l'équipe obtient un fragment généré par une réaction de Cristallisation ou déclenche une réaction de Sélénocristallisation, le personnage équipé de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses compétences élémentaires de <r>31,5 %</r>. Un maximum de 2 sceaux peut être obtenu en même temps, tous les sceaux disparaissant 0,2 s après que le personnage équipé de l'arme inflige des DGT avec une compétence élémentaire. Un maximum de 1 sceau peut être obtenu toutes les secondes grâce aux réactions de Sélénocristallisation.",
             "5": "Augmente l'ATQ de <r>40 %</r>. Lorsqu'un personnage de l'équipe obtient un fragment généré par une réaction de Cristallisation ou déclenche une réaction de Sélénocristallisation, le personnage équipé de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses compétences élémentaires de <r>36 %</r>. Un maximum de 2 sceaux peut être obtenu en même temps, tous les sceaux disparaissant 0,2 s après que le personnage équipé de l'arme inflige des DGT avec une compétence élémentaire. Un maximum de 1 sceau peut être obtenu toutes les secondes grâce aux réactions de Sélénocristallisation."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada usada por uma jovem dama que abandonou o nome de sua família, manchado com o sangue de inimigos e de familiares.",
+        "passive": {
+          "name": "Juramento dos Reinos e Crepúsculos",
+          "refinements": {
+            "1": "Aumenta o ATQ em <r>20%</r>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização ou desencadeia uma Reação de Cristalização Lunar, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <r>18%</r>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental. É possível obter 1 Selo do Juramento por segundo através de Cristalização Lunar.",
+            "2": "Aumenta o ATQ em <r>25%</r>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização ou desencadeia uma Reação de Cristalização Lunar, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <r>22.5%</r>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental. É possível obter 1 Selo do Juramento por segundo através de Cristalização Lunar.",
+            "3": "Aumenta o ATQ em <r>30%</r>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização ou desencadeia uma Reação de Cristalização Lunar, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <r>27%</r>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental. É possível obter 1 Selo do Juramento por segundo através de Cristalização Lunar.",
+            "4": "Aumenta o ATQ em <r>35%</r>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização ou desencadeia uma Reação de Cristalização Lunar, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <r>31.5%</r>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental. É possível obter 1 Selo do Juramento por segundo através de Cristalização Lunar.",
+            "5": "Aumenta o ATQ em <r>40%</r>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização ou desencadeia uma Reação de Cristalização Lunar, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <r>36%</r>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental. É possível obter 1 Selo do Juramento por segundo através de Cristalização Lunar."
           }
         }
       }

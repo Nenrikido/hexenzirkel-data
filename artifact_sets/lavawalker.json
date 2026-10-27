@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14003",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Augmente la RÉS <e:pyro>Pyro</e> de 40 %.",
           "4": "Augmente les DGT infligés aux ennemis affectés par l'élément <e:pyro>Pyro</e> de 35 %."
+        }
+      },
+      "pt": {
+        "name": "Atravessador do Fogo",
+        "bonuses": {
+          "2": "RES <e:pyro>Pyro</e> +40%",
+          "4": "Aumenta o Dano contra inimigos afetados por <e:pyro>Pyro</e> em 35%."
         }
       }
     }

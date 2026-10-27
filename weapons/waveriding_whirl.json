@@ -45,7 +45,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14430",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -72,6 +72,19 @@
             "3": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>30 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>18 %</r> supplémentaires jusqu'à un maximum de <r>36 %</r>. Cet effet peut être déclenché une fois toutes les 15 s.",
             "4": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>35 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>21 %</r> supplémentaires jusqu'à un maximum de <r>42 %</r>. Cet effet peut être déclenché une fois toutes les 15 s.",
             "5": "La consommation d'endurance lors de la nage diminue de 15 %. De plus, utiliser une compétence élémentaire augmente les PV max de <r>40 %</r> pendant 10 s, chaque personnage Hydro dans l'équipe augmentant les PV max de <r>24 %</r> supplémentaires jusqu'à un maximum de <r>48 %</r>. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um bumerangue feito das presas de uma gigantesca serpente do mar. Era uma arma rara que o gigante Tupac se referia como confiável.",
+        "passive": {
+          "name": "Presas Voando de Lá para Cá",
+          "refinements": {
+            "1": "Diminui o consumo de Stamina ao Nadar em 15%. Além disso, por 10s após usar uma Habilidade Elemental, a Vida Máxima é aumentada em <r>20%</r>. Para cada personagem Hydro na equipe, a Vida Máxima é aumentada em mais <r>12%</r>, e o aumento máximo que pode ser alcançado dessa forma é de <r>24%</r>. Pode ser ativado uma vez a cada 15s.",
+            "2": "Diminui o consumo de Stamina ao Nadar em 15%. Além disso, por 10s após usar uma Habilidade Elemental, a Vida Máxima é aumentada em <r>25%</r>. Para cada personagem Hydro na equipe, a Vida Máxima é aumentada em mais <r>15%</r>, e o aumento máximo que pode ser alcançado dessa forma é de <r>30%</r>. Pode ser ativado uma vez a cada 15s.",
+            "3": "Diminui o consumo de Stamina ao Nadar em 15%. Além disso, por 10s após usar uma Habilidade Elemental, a Vida Máxima é aumentada em <r>30%</r>. Para cada personagem Hydro na equipe, a Vida Máxima é aumentada em mais <r>18%</r>, e o aumento máximo que pode ser alcançado dessa forma é de <r>36%</r>. Pode ser ativado uma vez a cada 15s.",
+            "4": "Diminui o consumo de Stamina ao Nadar em 15%. Além disso, por 10s após usar uma Habilidade Elemental, a Vida Máxima é aumentada em <r>35%</r>. Para cada personagem Hydro na equipe, a Vida Máxima é aumentada em mais <r>21%</r>, e o aumento máximo que pode ser alcançado dessa forma é de <r>42%</r>. Pode ser ativado uma vez a cada 15s.",
+            "5": "Diminui o consumo de Stamina ao Nadar em 15%. Além disso, por 10s após usar uma Habilidade Elemental, a Vida Máxima é aumentada em <r>40%</r>. Para cada personagem Hydro na equipe, a Vida Máxima é aumentada em mais <r>24%</r>, e o aumento máximo que pode ser alcançado dessa forma é de <r>48%</r>. Pode ser ativado uma vez a cada 15s."
           }
         }
       }

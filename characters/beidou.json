@@ -276,7 +276,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000024",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -409,6 +409,72 @@
             "level": 6,
             "name": "Chancre du mal",
             "desc": "La <e:electro>RÉS Électro</e> des ennemis proches diminue de 15 % tant que <k>Brisure d'orage</k> est actif.\n\n<k>Radiance « Astroconduction »</k> : La <e:cryo>RÉS Cryo</e> des ennemis proches diminue de 15 % pendant la durée de Brisure d'orage et la maîtrise élémentaire du personnage déployé augmente de 200 pts."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Conquista do Oceano",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nDrena Stamina ao longo do tempo para realizar cortes contínuos.\nAo final da sequência, realiza um corte ainda mais poderoso.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Invocadora da Maré",
+            "desc": "Nada com que se deva preocupar. Se alguém levantar uma mão contra ela ou contra os seus homens, ela se vingará dez vezes mais com espada e trovão.\n\n<k>Pressionar</k>\nAcumulando o poder dos raios, Beidou balança sua lâmina para frente ferozmente, causando <e:electro>Dano Electro</e>.\n\n<k>Manter pressionado</k>\nLevanta sua arma como um escudo. Dano Máximo absorvido aumenta conforme a Vida Máxima de Beidou.\nAtaca usando a energia armazenada no Espadão ao soltar ou quando a duração da habilidade expira, causando <e:electro>Dano Electro</e>. Dano causado aumenta com o número de vezes em que Beidou é atacada ao longo da duração da habilidade. O maior Bônus de Dano será atingido quando esse efeito for desencadeado duas vezes.\nO escudo possui as seguintes propriedades:\nTem 250% de eficiência em absorção de <e:electro>Dano Electro</e>\nAplica o <e:electro>Elemento Electro</e> para a Beidou ao ativar.\n\n<i>Conquistar o alto-mar! Seguir as ondas e perseguir a tempestade!</i>"
+          },
+          "burst": {
+            "name": "Quebrador de Tempestades",
+            "desc": "Relembrando seu abate da grande fera Haishan, Beidou clama pela força monstruosa e relâmpagos para criar um Escudo do Trovão ao seu redor, infligindo <e:electro>Dano Electro</e> aos inimigos próximos.\n\n<k>Escudo do Trovão</k>\nQuando Ataques Normais e Carregados atingem, eles criam uma descarga elétrica que pode saltar entre os inimigos, infligindo <e:electro>Dano Electro</e>.\nAumenta a resistência do personagem a interrupções e diminui o Dano recebido.\n\nNo máximo 1 descarga de relâmpago pode ser desencadeada por segundo.\n\n<i>Com o estrondo do trovão, Haishan foi derrotado.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Retribuição",
+            "desc": "Ao atacar com <k>Invocadora da Maré</k> no exato momento em que o personagem é atingido, concede o bônus de Dano máximo."
+          },
+          {
+            "name": "Tormenta Elétrica",
+            "desc": "Obtém os seguintes efeitos por 10s após lançar a <k>Invocadora da Maré</k> com seu bônus máximo de Dano:\nO Dano causado pelos Ataques Normais e Carregados aumenta em 15%. A Vel. de Ataque dos Ataques Normais ou Carregados é aumentada em 15%.\nReduz grandemente o atraso antes de lançar Ataques Carregados."
+          },
+          {
+            "name": "Conquistadora das Marés",
+            "desc": "Diminui o consumo de Stamina ao Nadar de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+          },
+          {
+            "name": "Polaris",
+            "desc": "Ao manter pressionado para lançar a Habilidade Elemental <k>Invocadora da Maré</k>, não sofrerá o ataque, e acumulará 1 acúmulo de poder manualmente a cada 0.8s, aumentando o Dano causado ao lançar.\nAlém disso, quando o manter pressionado <k>Invocadora da Maré</k> atinge o inimigo, obtém um efeito bônus adicional de acordo com a quantidade de poder acumulado: cada acúmulo de poder reduz a recarga da Habilidade Elemental em 4s, e regenera 8 de Energia Elemental para si mesma. Esse efeito pode ser desencadeado uma vez a cada 15s.\nAlém disso, quando está em <k>Campo da Estrela Polar</k>, Beidou entrará no estado <k>Brilho Reluzente: Supercondutor Estelar</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Flagelo da Fera do Mar",
+            "desc": "Quando o <k>Quebrador de Tempestades</k> é usado:\nCria um escudo que absorve até 16% de Dano baseado na Vida Máxima de Beidou por 15 segundos.\nEsse escudo absorve 250% do <e:electro>Dano Electro</e> mais eficientemente."
+          },
+          {
+            "level": 2,
+            "name": "Sobre o Mar Turbulento, o Trovão Surge",
+            "desc": "O Arco Relâmpago do <k>Quebrador de Tempestades</k> pode rebater em 2 alvos adicionais."
+          },
+          {
+            "level": 3,
+            "name": "Invocadora da Tempestade",
+            "desc": "Aumenta o nível da <k>Invocadora da Maré</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Vingança Impressionante",
+            "desc": "Após ser atacada, os Ataques Normais de Beidou ganham 20% de <e:electro>Dano Electro</e> adicional por 10s."
+          },
+          {
+            "level": 5,
+            "name": "Caminhante da Maré Carmesim",
+            "desc": "Aumenta o nível do <k>Quebrador de Tempestades</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Destruição do Mal",
+            "desc": "Na duração de <k>Quebrador de Tempestades</k>, reduz a <e:electro>RES Electro</e> dos inimigos próximos em 15%.\n\n<k>Brilho Reluzente: Supercondutor Estelar</k>: na duração de Quebrador de Tempestades, reduz a <e:cryo>RES Cryo</e> dos inimigos ao redor em 15%, e aumenta a Proficiência Elemental do personagem ativo em 200."
           }
         ]
       }

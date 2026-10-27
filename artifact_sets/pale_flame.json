@@ -32,7 +32,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15018",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -48,6 +48,13 @@
         "bonuses": {
           "2": "Augmente les DGT physiques de 25 %.",
           "4": "Lorsqu'une compétence élémentaire a touché un ennemi, l'ATQ augmente de 9 % pendant 7 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Une fois 2 cumuls atteints, l'effet du set de 2 pièces augmente de 100 %."
+        }
+      },
+      "pt": {
+        "name": "Chama Pálida",
+        "bonuses": {
+          "2": "Dano Físico causado +25%",
+          "4": "Quando a Habilidade Elemental atinge um inimigo, o Ataque aumenta em 9% por 7s. Esse efeito acumula até 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando se possui 2 acúmulos, o efeito do conjunto de 2 Artefatos é aumentado em 100%."
         }
       }
     }

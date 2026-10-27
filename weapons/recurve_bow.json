@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15303",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Restaure <r>12 %</r> des PV après la défaite d'un ennemi.",
             "4": "Restaure <r>14 %</r> des PV après la défaite d'un ennemi.",
             "5": "Restaure <r>16 %</r> des PV après la défaite d'un ennemi."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Dizem que é possível caçar águias em pleno voo com este arco, mas, na verdade, depende muito das habilidades do arqueiro também.",
+        "passive": {
+          "name": "Colheita",
+          "refinements": {
+            "1": "Derrotar um oponente recupera <r>8%</r> da Vida.",
+            "2": "Derrotar um oponente recupera <r>10%</r> da Vida.",
+            "3": "Derrotar um oponente recupera <r>12%</r> da Vida.",
+            "4": "Derrotar um oponente recupera <r>14%</r> da Vida.",
+            "5": "Derrotar um oponente recupera <r>16%</r> da Vida."
           }
         }
       }

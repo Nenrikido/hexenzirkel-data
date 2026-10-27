@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15025",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:dendro>Dendro</e> de 15 %.",
           "4": "Après qu'une compétence ou un déchaînement élémentaires a touché un ennemi, sa RÉS <e:dendro>Dendro</e> diminue de 30 % pendant 8 s. Cet effet peut être déclenché même si le personnage équipé de l'artéfact fait partie de l'équipe mais n'est pas déployé."
+        }
+      },
+      "pt": {
+        "name": "Memórias da Floresta",
+        "bonuses": {
+          "2": "Bônus de Dano <e:dendro>Dendro</e> +15%",
+          "4": "Depois que as Habilidades Elementais ou Supremos acertam os oponentes, a RES <e:dendro>Dendro</e> dos alvos serão reduzidas em 30% por 8s. Esse efeito pode ser desencadeado mesmo se o personagem equipando este conjunto não estiver em campo."
         }
       }
     }

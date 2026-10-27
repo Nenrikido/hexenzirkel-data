@@ -72,7 +72,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13514",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -99,6 +99,19 @@
             "3": "L'ATQ augmente de <r>18 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>18 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>48 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "L'ATQ augmente de <r>21 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>21 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>56 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "L'ATQ augmente de <r>24 %</r>. Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>24 %</r> supplémentaires. Lorsque le personnage équipé de l'arme a effectué des soins, le ou les personnages soignés et lui obtiennent l'effet Doux écho, effet qui augmente l'ATQ de <r>64 %</r> pendant 3 s, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança elegante, dizem que foi a batuta de um maestro, empunhada por um grande músico para ser a ponte entre a música e o bom gosto.",
+        "passive": {
+          "name": "Sinfonia Temperada",
+          "refinements": {
+            "1": "Aumenta o ATQ em <r>12%</r>. Quando o personagem que está com essa arma equipada não estiver ativo, aumenta o ATQ em mais <r>12%</r>. Depois de curar, o personagem que está com essa arma equipada e o curado obterão o efeito \"Doce Ressonância\", aumentando o ATQ em <r>32%</r> por 3s. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "2": "Aumenta o ATQ em <r>15%</r>. Quando o personagem que está com essa arma equipada não estiver ativo, aumenta o ATQ em mais <r>15%</r>. Depois de curar, o personagem que está com essa arma equipada e o curado obterão o efeito \"Doce Ressonância\", aumentando o ATQ em <r>40%</r> por 3s. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "3": "Aumenta o ATQ em <r>18%</r>. Quando o personagem que está com essa arma equipada não estiver ativo, aumenta o ATQ em mais <r>18%</r>. Depois de curar, o personagem que está com essa arma equipada e o curado obterão o efeito \"Doce Ressonância\", aumentando o ATQ em <r>48%</r> por 3s. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "4": "Aumenta o ATQ em <r>21%</r>. Quando o personagem que está com essa arma equipada não estiver ativo, aumenta o ATQ em mais <r>21%</r>. Depois de curar, o personagem que está com essa arma equipada e o curado obterão o efeito \"Doce Ressonância\", aumentando o ATQ em <r>56%</r> por 3s. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "5": "Aumenta o ATQ em <r>24%</r>. Quando o personagem que está com essa arma equipada não estiver ativo, aumenta o ATQ em mais <r>24%</r>. Depois de curar, o personagem que está com essa arma equipada e o curado obterão o efeito \"Doce Ressonância\", aumentando o ATQ em <r>64%</r> por 3s. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não estiver ativo."
           }
         }
       }

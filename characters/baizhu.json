@@ -237,7 +237,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000082",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -362,6 +362,68 @@
             "level": 6,
             "name": "Purification du qi",
             "desc": "Les DGT infligés par la veine d'aura de <k>Reviviscence holistique</k> augmentent d'une valeur équivalant à 8 % des PV max de Baizhu.\nDe plus, lorsque l'<k>esprit de gaze</k> ou l'esprit divisé de gaze touche un ennemi, il y a 100 % de chances de créer un bouclier aseptique de <k>Reviviscence holistique</k>. Cet effet peut être déclenché une fois par esprit de gaze ou esprit divisé de gaze."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Acupuntura Dourada",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 ataques que infligem <e:dendro>Dano Dendro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para infligir <e:dendro>Dano Dendro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Dendro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:dendro>Dano Dendro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Diagnóstico Universal",
+            "desc": "Controla um Espírito Sérico, fazendo-o atacar os inimigos próximos, causando <e:dendro>Dano Dendro</e>.\nDepois de realizar até 3 ataques, ou quando não houver inimigos próximos, o Espírito Sérico retornará, regenerando Vida de todos os personagens da equipe próximos; a quantidade de Vida regenerada é baseada na Vida Máxima de Baizhu.\n\n<i>As pessoas da área médica que podem distinguir os verdadeiros sinais de uma doença dos sinais falsos, conseguem curar uma pessoa antes mesmo dos sintomas aparecerem.</i>"
+          },
+          "burst": {
+            "name": "Cura Holística",
+            "desc": "Entra no estado Édito Pulsante, criando um Escudo Impenetrável que possui um efeito de 250% de absorção de <e:dendro>Dano Dendro</e>.\nEnquanto estiver no estado Édito Pulsante, gerará um novo Escudo Impenetrável a cada 2.5s.\n\nSegundo as circunstâncias abaixo, regenerará Vida para os personagens ativos da sua equipe no campo de batalha, a quantidade regenerada é baseada na Vida Máxima de Baizhu, e atacará os inimigos lançando o Espiriveio, causando <e:dendro>Dano Dendro</e>:\n· Quando um personagem estiver protegido pelo Escudo Impenetrável e um novo Escudo Impenetrável é gerado;\n· Quando o efeito do Escudo Impenetrável acaba ou quando é destruído.\n\n<i>Se você conseguir olhar para o céu e para a terra, proteja o seu interior contra o que vem de fora e mantenha sua mente tranquila, assim nada vai poder te impedir.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Cinco Fortunas Eternas",
+            "desc": "Baizhu ganha diferentes efeitos conforme a Vida atual do personagem ativo:\n· Quando a Vida é menor do que 50%, Baizhu ganha 20% de Bônus de Cura.\n· Quando a Vida é igual ou maior do que 50%, Baizhu ganha 25% de <e:dendro>Bônus de Dano Dendro</e>."
+          },
+          {
+            "name": "Mãe Terra",
+            "desc": "Personagens curados pelo <k>Escudo Impenetrável</k> ganharão o efeito \"Era da Proteção Verdejante\": Cada 1.000 pontos de Vida Máxima de Baizhu abaixo de 50.000 aumenta o Dano das reações de Queimaduras, Florescimento, Superflorescimento e Germinação em 2%. O Dano das reações Intensificação e Propagação aumenta em 0.8%, o de Florescimento Lunar em 0.7%. A duração é de 6s."
+          },
+          {
+            "name": "Nutrição Herbal",
+            "desc": "Quando Baizhu está na equipe, interagir com certos itens coletáveis cura a equipe em 2.5% da Vida Máxima de Baizhu."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Observação Atenta",
+            "desc": "<k>Diagnóstico Universal</k> ganha 1 carga adicional."
+          },
+          {
+            "level": 2,
+            "name": "Discernimento Incisivo",
+            "desc": "Quando o personagem ativo da equipe atinge um inimigo próximo com um ataque, Baizhu lançará Espírito Sérico: Corte.\nEspírito Sérico: Corte realizará até um Ataque e retornará, causando 250% do ATQ de Baizhu como <e:dendro>Dano Dendro</e> e regenerará 20% do Espírito Sérico de <k>Diagnóstico Universal</k>.\nO Dano causado desta forma é considerado Dano de Habilidade Elemental.\nPode ser desencadeado uma vez a cada 5s."
+          },
+          {
+            "level": 3,
+            "name": "Estabilidade Total",
+            "desc": "Aumenta o nível de <k>Cura Holística</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Percepção Ancestral",
+            "desc": "Durante 15s após o uso de <k>Cura Holística</k>, Baizhu aumenta a Proficiência Elemental de todos os aliados próximos em 80."
+          },
+          {
+            "level": 5,
+            "name": "Sinais Ocultos da Mudança",
+            "desc": "Aumenta o nível de <k>Diagnóstico Universal</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Eliminação de Qi Malicioso",
+            "desc": "Aumenta o Dano causado pelo Espiriveio de <k>Cura Holística</k> em 8% da Vida Máxima de Baizhu.\nAlém disso, quando <k>Espírito Sérico</k> ou Espírito Sérico: Corte atingem um inimigo, há 100% de chance de gerar um Escudo Impenetrável de <k>Cura Holística</k>. Esse efeito pode ocorrer apenas uma vez para cada Espírito Sérico ou Espírito Sérico: Corte."
           }
         ]
       }

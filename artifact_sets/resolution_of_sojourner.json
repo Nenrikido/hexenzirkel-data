@@ -14,7 +14,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10001",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -30,6 +30,13 @@
         "bonuses": {
           "2": "Augmente l'ATQ de 18 %.",
           "4": "Augmente le taux CRIT des attaques chargées de 30 %."
+        }
+      },
+      "pt": {
+        "name": "Resolução de Sojourner",
+        "bonuses": {
+          "2": "ATQ +18%.",
+          "4": "Aumenta a Taxa Crítica do Ataque Carregado em 30%."
         }
       }
     }

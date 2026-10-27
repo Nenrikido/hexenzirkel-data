@@ -120,7 +120,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12515",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -147,6 +147,19 @@
             "3": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>11,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>11,5 %</r>.",
             "4": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>13,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>13,5 %</r>.",
             "5": "Augmente la VIT d'attaque de 10 %. Lorsqu'une attaque normale touche un ennemi, qu'une compétence élémentaire est initiée ou qu'une attaque chargée est déclenchée, le personnage équipé de l'arme obtient respectivement 1/2/2 cumuls d'hymne des quatre vents, augmentant les DGT infligés de <r>15,5 %</r> pendant 4 s. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,01 s.\nDe plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, chaque cumul d'hymne des quatre vents augmente également les DGT CRIT du personnage équipé de l'arme de <r>15,5 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Lendas dizem que esse espadão foi forjado pelas mãos de Ravenwood, que herdou o nome de Boreas antes de virar um cavaleiro.",
+        "passive": {
+          "name": "Cavalheirismo Indominável",
+          "refinements": {
+            "1": "Aumenta a Vel. de ATQ em 10%. Quando um Ataque Normal atinge um inimigo/lança Habilidade Elemental/inicia Ataque Carregado, o portador obtém 1/2/2 acúmulos de Poema dos Quatro Ventos: aumenta o Dano causado em <r>7.5%</r> por 4s. Acumulável até 4 vezes. Pode ser desencadeado uma vez a cada 0.01s.\nAlém disso, quando a equipe possuir o efeito Mágico: Ritual Secreto, cada acúmulo de Poema dos Quatro Ventos aumenta o Dano CRIT do portador em <r>7.5%</r>.",
+            "2": "Aumenta a Vel. de ATQ em 10%. Quando um Ataque Normal atinge um inimigo/lança Habilidade Elemental/inicia Ataque Carregado, o portador obtém 1/2/2 acúmulos de Poema dos Quatro Ventos: aumenta o Dano causado em <r>9.5%</r> por 4s. Acumulável até 4 vezes. Pode ser desencadeado uma vez a cada 0.01s.\nAlém disso, quando a equipe possuir o efeito Mágico: Ritual Secreto, cada acúmulo de Poema dos Quatro Ventos aumenta o Dano CRIT do portador em <r>9.5%</r>.",
+            "3": "Aumenta a Vel. de ATQ em 10%. Quando um Ataque Normal atinge um inimigo/lança Habilidade Elemental/inicia Ataque Carregado, o portador obtém 1/2/2 acúmulos de Poema dos Quatro Ventos: aumenta o Dano causado em <r>11.5%</r> por 4s. Acumulável até 4 vezes. Pode ser desencadeado uma vez a cada 0.01s.\nAlém disso, quando a equipe possuir o efeito Mágico: Ritual Secreto, cada acúmulo de Poema dos Quatro Ventos aumenta o Dano CRIT do portador em <r>11.5%</r>.",
+            "4": "Aumenta a Vel. de ATQ em 10%. Quando um Ataque Normal atinge um inimigo/lança Habilidade Elemental/inicia Ataque Carregado, o portador obtém 1/2/2 acúmulos de Poema dos Quatro Ventos: aumenta o Dano causado em <r>13.5%</r> por 4s. Acumulável até 4 vezes. Pode ser desencadeado uma vez a cada 0.01s.\nAlém disso, quando a equipe possuir o efeito Mágico: Ritual Secreto, cada acúmulo de Poema dos Quatro Ventos aumenta o Dano CRIT do portador em <r>13.5%</r>.",
+            "5": "Aumenta a Vel. de ATQ em 10%. Quando um Ataque Normal atinge um inimigo/lança Habilidade Elemental/inicia Ataque Carregado, o portador obtém 1/2/2 acúmulos de Poema dos Quatro Ventos: aumenta o Dano causado em <r>15.5%</r> por 4s. Acumulável até 4 vezes. Pode ser desencadeado uma vez a cada 0.01s.\nAlém disso, quando a equipe possuir o efeito Mágico: Ritual Secreto, cada acúmulo de Poema dos Quatro Ventos aumenta o Dano CRIT do portador em <r>15.5%</r>."
           }
         }
       }

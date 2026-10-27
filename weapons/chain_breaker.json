@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15431",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>7,2 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>36</r> pts.",
             "4": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>8,4 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>42</r> pts.",
             "5": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de <r>9,6 %</r>. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de <r>48</r> pts."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco longo adornado com jade, cujas cordas parecem estar sempre envoltas por uma brisa suave. Reza a lenda que foi forjado por artesãos Saurianos em tempos muito antigos.",
+        "passive": {
+          "name": "Canção da Flor de Penas",
+          "refinements": {
+            "1": "Para cada personagem da equipe que é de Natlan ou que tenha um Tipo Elemental diferente do personagem que está com essa arma equipada, o personagem que está com essa arma equipada ganha <r>4.8%</r> de aumento de ATQ. Quando não houver menos que 3 dos personagens mencionados, o personagem que está com essa arma equipada ganha <r>24</r> de Proficiência Elemental.",
+            "2": "Para cada personagem da equipe que é de Natlan ou que tenha um Tipo Elemental diferente do personagem que está com essa arma equipada, o personagem que está com essa arma equipada ganha <r>6%</r> de aumento de ATQ. Quando não houver menos que 3 dos personagens mencionados, o personagem que está com essa arma equipada ganha <r>30</r> de Proficiência Elemental.",
+            "3": "Para cada personagem da equipe que é de Natlan ou que tenha um Tipo Elemental diferente do personagem que está com essa arma equipada, o personagem que está com essa arma equipada ganha <r>7.2%</r> de aumento de ATQ. Quando não houver menos que 3 dos personagens mencionados, o personagem que está com essa arma equipada ganha <r>36</r> de Proficiência Elemental.",
+            "4": "Para cada personagem da equipe que é de Natlan ou que tenha um Tipo Elemental diferente do personagem que está com essa arma equipada, o personagem que está com essa arma equipada ganha <r>8.4%</r> de aumento de ATQ. Quando não houver menos que 3 dos personagens mencionados, o personagem que está com essa arma equipada ganha <r>42</r> de Proficiência Elemental.",
+            "5": "Para cada personagem da equipe que é de Natlan ou que tenha um Tipo Elemental diferente do personagem que está com essa arma equipada, o personagem que está com essa arma equipada ganha <r>9.6%</r> de aumento de ATQ. Quando não houver menos que 3 dos personagens mencionados, o personagem que está com essa arma equipada ganha <r>48</r> de Proficiência Elemental."
           }
         }
       }

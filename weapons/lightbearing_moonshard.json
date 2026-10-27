@@ -37,7 +37,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11519",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -64,6 +64,19 @@
             "3": "Augmente la DÉF de <r>30 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>96 %</r> pendant 5 s.",
             "4": "Augmente la DÉF de <r>35 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>112 %</r> pendant 5 s.",
             "5": "Augmente la DÉF de <r>40 %</r>. Lorsque le personnage équipé de l'arme a déclenché une compétence élémentaire, les DGT des réactions de Sélénocristallisation augmentent de <r>128 %</r> pendant 5 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada lendária. Dizem ter sido forjada do luar reluzente de um poço por um Adeptus escondido entre nascentes. Sua forma verdadeira é revelada somente no encontro do crepúsculo com a alvorada.",
+        "passive": {
+          "name": "Legado do Reino de Jade",
+          "refinements": {
+            "1": "Aumenta a DEF em <r>20%</r>. Nos 5s após o portador lançar a Habilidade Elemental, aumenta o Dano de Cristalização Lunar em <r>64%</r>.",
+            "2": "Aumenta a DEF em <r>25%</r>. Nos 5s após o portador lançar a Habilidade Elemental, aumenta o Dano de Cristalização Lunar em <r>80%</r>.",
+            "3": "Aumenta a DEF em <r>30%</r>. Nos 5s após o portador lançar a Habilidade Elemental, aumenta o Dano de Cristalização Lunar em <r>96%</r>.",
+            "4": "Aumenta a DEF em <r>35%</r>. Nos 5s após o portador lançar a Habilidade Elemental, aumenta o Dano de Cristalização Lunar em <r>112%</r>.",
+            "5": "Aumenta a DEF em <r>40%</r>. Nos 5s após o portador lançar a Habilidade Elemental, aumenta o Dano de Cristalização Lunar em <r>128%</r>."
           }
         }
       }

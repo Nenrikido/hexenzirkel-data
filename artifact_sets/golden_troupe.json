@@ -23,7 +23,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15032",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -39,6 +39,13 @@
         "bonuses": {
           "2": "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
           "4": "Les DGT infligés par les compétences élémentaires augmentent de 25 %. De plus, lorsque le personnage fait partie de l'équipe mais n'est pas déployé, les DGT infligés par ses compétences élémentaires augmentent de 25 % supplémentaires, cet effet prenant fin 2 s après le déploiement du personnage."
+        }
+      },
+      "pt": {
+        "name": "Trupe Dourada",
+        "bonuses": {
+          "2": "Aumenta o dano da Habilidade Elemental em 20%.",
+          "4": "Aumenta o Dano da Habilidade Elemental em 25%. Além disso, quando o personagem não está no campo de batalha, o Dano da Habilidade Elemental aumenta em mais 25%. Este efeito será removido 2s após o personagem entrar no campo de batalha."
         }
       }
     }

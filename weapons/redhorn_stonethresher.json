@@ -21,7 +21,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12510",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -48,6 +48,19 @@
             "3": "Augmente la DÉF de <r>42 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>60 %</r> de la DÉF.",
             "4": "Augmente la DÉF de <r>49 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>70 %</r> de la DÉF.",
             "5": "Augmente la DÉF de <r>56 %</r>, et augmente les DGT des attaques normales et chargées d'une valeur équivalant à <r>80 %</r> de la DÉF."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "De acordo com seu dono anterior, esta arma é o \"Leão Heroico, Poderoso e de Chifres Vermelhos Destruidores de Pedras\" que pode fazer com que qualquer monstro saia correndo com sua cauda entre suas pernas.",
+        "passive": {
+          "name": "Gokadaiou Otogibanashi",
+          "refinements": {
+            "1": "DEF é aumentada em <r>28%</r>. Dano do Ataque Normal e Carregado é aumentado em <r>40%</r> da DEF.",
+            "2": "DEF é aumentada em <r>35%</r>. Dano do Ataque Normal e Carregado é aumentado em <r>50%</r> da DEF.",
+            "3": "DEF é aumentada em <r>42%</r>. Dano do Ataque Normal e Carregado é aumentado em <r>60%</r> da DEF.",
+            "4": "DEF é aumentada em <r>49%</r>. Dano do Ataque Normal e Carregado é aumentado em <r>70%</r> da DEF.",
+            "5": "DEF é aumentada em <r>56%</r>. Dano do Ataque Normal e Carregado é aumentado em <r>80%</r> da DEF."
           }
         }
       }

@@ -244,7 +244,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000005-geo",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -369,6 +369,68 @@
             "level": 6,
             "name": "Roche de l'éternité",
             "desc": "Prolonge la durée du mur de roche de <k>Réveil de la terre</k> de 5 s.\nProlonge la durée de la météorite d'<k>Épée d'étoile déchue</k> de 10 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lâmina de Rocha Estrangeira",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Espada da Estrela Cadente",
+            "desc": "Você expele um meteorito das profundezas da terra, infligindo <e:geo>Dano Geo em uma AdE</e>.\nO meteorito é considerado uma <e:geo>Construção Geo</e>, e pode ser escalada ou usada para bloquear ataques.\n\n<k>Manter pressionado</k>\nO posicionamento dessa habilidade pode ser controlado.\n\n<i>Você conversou com a Paimon sobre o destino das estrelas cadentes.</i>"
+          },
+          "burst": {
+            "name": "Despertar da Terra",
+            "desc": "Energizando os elementos Geo no subsolo, você desencadeia ondas de choque em expansão.\nLança os inimigos ao redor e causa <e:geo>Dano AdE Geo</e>.\nUma parede de pedra é erguida nas bordas da onda de choque.\nA parede de pedra é considerada uma <e:geo>Construção Geo</e> e pode ser usada para bloquear ataques.\n\n<i>Você e Paimon investigaram a vibração das montanhas.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Rocha Quebrada",
+            "desc": "Restaura a Recarga da <k>Espada da Estrela Cadente</k> em 2s."
+          },
+          {
+            "name": "Rocha Turbulenta",
+            "desc": "O golpe final de um combo de Ataque Normal ativa um colapso, causando <e:geo>Dano AdE Geo</e> de 60% do ATQ."
+          },
+          {
+            "name": "Diamantina Forasteira",
+            "desc": "Reúne novas forças das jornadas do passado. Para cada elemento que você ressoou, obtém um <k>fortalecimento adicional</k>.\n\nAlém disso, quando um membro próximo da equipe ficar protegido por um Escudo, se o Escudo for substituído por qualquer razão, ou se gerar uma <e:geo>Construção Geo</e>, {F#a}{M#o} Viajante obtém 1 acúmulo de Lâmina da Rocha Firme. Acumula até 3 vezes. É possível obter 1 acúmulo de Lâmina da Rocha Firme por segundo dessa forma. Ao possuir 3 acúmulos de Lâmina da Rocha Firme e realizar um Ataque Carregado, consome todas as Lâminas da Rocha Firme para realizar o especial <k>Ataque Carregado: Rochoso</k>.\n\n<k>Ataque Carregado: Rochoso</k>\n· Cada Ataque Carregado causa mais <e:geo>Dano Geo</e>. O aumento de Dano é de 120% do ATQ d{F#a}{M#o} Viajante.\n· Nos 15s após atingir um inimigo, personagens próximos têm o efeito do escudo aumentado em 20%.\n· É possível realizar um <k>Ataque Carregado: Rochoso</k> a cada 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Parede de Pedra Inquebrável",
+            "desc": "Personagens de equipe dentro do raio do <k>Despertamento da Terra</k> possuem sua Taxa Crítica aumentada em 10% e possuem a resistência contra interrupção aumentada."
+          },
+          {
+            "level": 2,
+            "name": "Pedra Derretida",
+            "desc": "Quando o meteorito criado pela <k>Espada da Estrela Cadente</k> é destruído, ela também explode, causando <e:geo>Dano Geo Adicional</e> equivalente a quantidade de dano causada pela Espada da Estrela Cadente."
+          },
+          {
+            "level": 3,
+            "name": "Desejo da Pedra",
+            "desc": "Aumenta o nível do <k>Despertar da Terra</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Força de Reação",
+            "desc": "A onda de choque do <k>Despertamento da Terra</k> recupera 5 de Energia até no máximo 25 de Energia a cada oponente atingido.\nUm máximo de 25 de Energia pode ser restaurada desta maneira."
+          },
+          {
+            "level": 5,
+            "name": "Impacto de Meteorito",
+            "desc": "Aumenta o nível da <k>Espada da Estrela Cadente</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Pedregulho Eterno",
+            "desc": "Uma barreira criada pelo <k>Despertar da Terra</k> por 5 segundos extra.\nO meteorito criado pela <k>Espada da Estrela Cadente</k> se estende por 10s."
           }
         ]
       }

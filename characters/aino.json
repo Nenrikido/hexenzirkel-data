@@ -171,7 +171,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000121",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -304,6 +304,72 @@
             "level": 6,
             "name": "Fardeau du génie créatif",
             "desc": "Après l'utilisation du déchaînement élémentaire <k>Refroidisseur hydronique de précision</k>, les DGT infligés par les réactions d'Électrocution, de Sélénocution, de Fleurissement, de Sélénofleurissement et de Sélénocristallisation des personnages déployés à proximité augmentent de 15 % pendant 15 s.\n<k>Signelune « Lueur ascendante »</k> : les DGT infligés par ces réactions augmentent de 20 % supplémentaires."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Reparo Bang-Bang",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Captura de Ideias",
+            "desc": "Arremessa em frente <k>Captura de Ideias</k>, causando <e:hydro>Dano Hydro</e> e atraindo o que está em frente, e quando acabar de se mover, causa <e:hydro>Dano Hydro em AdE</e> contra os inimigos próximos.\nÉ lançado de forma diferente ao manter pressionado.\n\n<k>Manter Pressionado</k>\nEntra no modo de mira e ajusta a orientação de arremesso de Captura de Ideias."
+          },
+          "burst": {
+            "name": "Dispositivo Refrigerador Preciso",
+            "desc": "Aino joga um dispositivo disparador de água, o <k>Patinho Fica Frio</k>, criando uma <k>Zona Focada Hydro</k>.\nEm sua duração, o Patinho Fica Frio periodicamente disparará Projéteis Hydro contra os inimigos próximos, causando <e:hydro>Dano Hydro</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Protocolo de Eficiência Modular",
+            "desc": "Dependendo do <k>Presságio Lunar</k> da equipe, Aino obtém fortalecimentos correspondentes.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: fortalece o Supremo <k>Dispositivo Refrigerador Preciso</k>: o intervalo de disparo de Projéteis Hydro do <k>Patinho Fica Frio</k> é reduzido, e aumenta a AdE do <e:hydro>Dano Hydro em AdE</e>."
+          },
+          {
+            "name": "Amplificador de Resultado Estruturado",
+            "desc": "Aumenta o Dano causado pelo Supremo de Aino em 50% de sua Proficiência Elemental."
+          },
+          {
+            "name": "Bênção do Presságio Lunar: Cálculo Extremo",
+            "desc": "Quando Aino está na equipe, aumenta o nível de <k>Presságio Lunar</k> da equipe em 1 nível."
+          },
+          {
+            "name": "Sensor Detector Miniaturizado",
+            "desc": "Mostra a localização de <k>Especialidades de Nod-Krai</k> próximas no mapa.\nAlém disso, Aino parece poder alterar a aparência de seu Patinho Fica Frio..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Teoria do Equilíbrio do Campo de Cinzas",
+            "desc": "Depois que Aino lança sua Habilidade Elemental <k>Captura de Ideias</k> ou o Supremo <k>Dispositivo Refrigerador Preciso</k>, aumenta sua Proficiência Elemental em 80, e a Proficiência Elemental dos outros personagens ativos próximos em 80 por 15s.\n\nO efeito de aumento de Proficiência Elemental dessa Constelação não é acumulável."
+          },
+          {
+            "level": 2,
+            "name": "O Princípio da Transferência em Diferenciais de Engrenagens",
+            "desc": "Quando a <k>Zona Focada Hydro</k> do Supremo <k>Dispositivo Refrigerador Preciso</k> está em sua duração, se Aino não for a personagem ativa, e o personagem ativo da equipe atingir um ataque no inimigo próximo, <k>Patinho Fica Frio</k> dispara um Projétil Aquático adicional nesse inimigo, causando <e:hydro>Dano Hydro em AdE</e> equivalente a 100% da Proficiência Elemental e 25% do ATQ de Aino. Esse efeito pode ser desencadeado uma vez a cada 5s, e seu Dano é considerado Dano de Supremo."
+          },
+          {
+            "level": 3,
+            "name": "O Bolo e a Arte do Reparo Mecânico",
+            "desc": "Aumenta o nível do Supremo <k>Dispositivo Refrigerador Preciso</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Manteiga, Gatos e a Lei da Energia",
+            "desc": "Quando a Habilidade Elemental <k>Captura de Ideias</k> atinge um inimigo, regenera 10 de Energia para Aino. É possível regenerar Energia uma vez a cada 10s dessa forma."
+          },
+          {
+            "level": 5,
+            "name": "A Turbina Perpétua de Metal e Luz",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Captura de Ideias</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "A Responsabilidade de um Gênio Mecânico",
+            "desc": "Nos 15s depois de lançar o Supremo <k>Dispositivo Refrigerador Preciso</k>, se um personagem ativo próximo desencadear Eletricamente Carregado, Florescimento, Carga Lunar, Florescimento Lunar ou Cristalização Lunar aumenta o Dano causado em 15%.\n<k>Presságio Lunar: Reluzir Cheio</k>: aumenta o Dano da reação em mais 20%."
           }
         ]
       }

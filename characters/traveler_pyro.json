@@ -287,7 +287,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000005-pyro",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -412,6 +412,68 @@
             "level": 6,
             "name": "Feu d'impérissabilité sacrée",
             "desc": "Lorsque le voyageur bénéficie d'une bénédiction noctâme, ses attaques normales, chargées et plongeantes sont converties pour infliger des <e:pyro>DGT Pyro</e> infusés de noctâme ne pouvant pas être enchantés et les DGT CRIT de ces attaques augmentent de 40 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Chama Estrangeira",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Lâmina do Fluxo do Fogo",
+            "desc": "Empunha uma chama cortante que pode incinerar a terra. Possui efeitos diferentes se pressionar ou manter pressionado.\n\n<k>Pressionar</k>\nInvoca chamas furiosas. Depois de lançar, {F#a}{M#o} Viajante obtém 42 pontos de Espírito da Noite e entra no estado Bênção do Espírito da Noite, e invoca o Baluarte das Chamas que acompanha o personagem ativo.\nQuando o Baluarte das Chamas toca em um inimigo, causará <e:pyro>Dano Pyro</e> com alinhamento Espírito da Noite periodicamente contra os inimigos próximos.\n\n<k>Manter pressionado</k>\nInvoca o poder das chamas tenebrosas, causando <e:pyro>Dano Pyro em AdE</e> com alinhamento Espírito da Noite contra os inimigos próximos. Depois de lançar, obtém 42 pontos de Espírito da Noite, entra no estado Bênção do Espírito da Noite e invoca o Baluarte Flamejante que acompanha o personagem ativo.\nQuando o personagem ativo que está com o Baluarte Flamejante causa Dano contra o inimigo, o Baluarte Flamejante fará um Ataque Coordenado baseado no ATQ d{F#a}{M#o} Viajante, causando <e:pyro>Dano Pyro</e> com alinhamento Espírito da Noite. Esse efeito pode ser desencadeado uma vez a cada 3s.\n\n<k>Bênção do Espírito da Noite: Viajante</k>\nConsome os pontos de Espírito da Noite continuamente. O estado Bênção do Espírito da Noite d{F#a}{M#o} Viajante pode durar até 12s. Quando os pontos de Espírito da Noite acabarem, o estado Bênção do Espírito da Noite d{F#a}{M#o} Viajante acabará. Lançar a Habilidade Elemental novamente na duração redefinirá os pontos de Espírito da Noite d{F#a}{M#o} Viajante para 42.\nBaluarte das Chamas e Baluarte Flamejante desaparecerão quando o estado Bênção do Espírito da Noite d{F#a}{M#o} Viajante acabar. Só é possível existir um Baluarte das Chamas ou Baluarte Flamejante invocado pel{F#a}{M#o} Viajante simultaneamente.\n\n<i>Você e Paimon observaram como as chamas mudam.</i>"
+          },
+          "burst": {
+            "name": "Planícies Abrasadoras",
+            "desc": "Condensa as chamas em uma marca, causando <e:pyro>Dano Pyro em AdE</e> com alinhamento Espírito da Noite contra os inimigos em frente, e nos próximos 4s, regenera 7 pontos de Espírito da Noite para {F#a}{M#o} Viajante por segundo.\n\n<i>Você e Paimon pesquisaram como acender chamas que nunca apagam.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "A Verdadeira Chama da Incineração",
+            "desc": "Quando {F#a}{M#o} Viajante possuir mais de 20 pontos de Espírito da Noite, aumenta a AdE dos ataques do Baluarte das Chamas e Baluarte Flamejante da Habilidade Elemental <k>Lâmina do Fluxo do Fogo</k> depois de atingirem um inimigo."
+          },
+          {
+            "name": "Cinzas Restantes",
+            "desc": "Quando o personagem ativo está com <k>Baluarte das Chamas</k> ou <k>Baluarte Flamejante</k> e desencadear uma <e:pyro>reação relacionada ao Pyro</e> no inimigo, regenera 5 de Energia Elemental para {F#a}{M#o} Viajante. Esse efeito pode ser desencadeado uma vez a cada 12s. Além disso, quando um membro próximo da equipe desencadeia a Explosão do Espírito da Noite, regenera mais 4 de Energia Elemental para {F#a}{M#o} Viajante."
+          },
+          {
+            "name": "Fogo Estelar Forasteiro",
+            "desc": "Reúne novas forças das jornadas do passado. Para cada elemento que você ressoou, obtém um <k>fortalecimento adicional</k>.\n\nAlém disso, quando um membro próximo da equipe desencadeia Explosão do Espírito da Noite, {F#a}{M#o} Viajante obtém 1 acúmulo de Lâmina da Chama Sagrada, podendo acumular até 2 vezes. Ao possuir 2 acúmulos de Lâmina da Chama Sagrada e realizar um Ataque Carregado, consome todos esses acúmulos e realiza o especial <k>Ataque Carregado: Chamas Devoradoras</k>.\n\n<k>Ataque Carregado: Chamas Devoradoras</k>\n· Cada Ataque Carregado causa mais <e:pyro>Dano Pyro</e> com alinhamento Espírito da Noite. O aumento de Dano é 200% do ATQ d{F#a}{M#o} Viajante.\n· É possível realizar um <k>Ataque Carregado: Chamas Devoradoras</k> a cada 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Estrela Flamejante Reluzente",
+            "desc": "Na duração do <k>Baluarte das Chamas</k> ou <k>Baluarte Flamejante</k>, aumenta o Dano causado pelo personagem ativo em 6%. Se o personagem ativo estiver no estado Bênção do Espírito da Noite, aumenta o Dano causado em mais 9%."
+          },
+          {
+            "level": 2,
+            "name": "Vela Eternamente Acesa",
+            "desc": "Nos 12s após lançar a Habilidade Elemental <k>Lâmina do Fluxo do Fogo</k>, quando os membros próximos da equipe desencadearem uma <e:pyro>reação relacionada ao Pyro</e> no inimigo, regenera 14 pontos de Espírito da Noite para {F#a}{M#o} Viajante. É possível regenerar até 28 pontos de Espírito da Noite dessa forma por cada vez que a Habilidade Elemental <k>Lâmina do Fluxo do Fogo</k> for lançada."
+          },
+          {
+            "level": 3,
+            "name": "Sinalizador Relé",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Lâmina do Fluxo do Fogo</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Chamas Furiosas",
+            "desc": "Depois de lançar o Supremo <k>Planícies Abrasadoras</k>, {F#a}{M#o} Viajante obtém 20% de <e:pyro>Bônus de Dano Pyro</e> por 9s."
+          },
+          {
+            "level": 5,
+            "name": "Chama Inextinguível",
+            "desc": "Aumenta o nível de <k>Planícies Abrasadoras</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Chama Sagrada Eterna",
+            "desc": "Quando está no estado Bênção do Espírito da Noite, o Ataque Normal, Carregado e Imersivo {F#da}{M#do} Viajante será convertido para <e:pyro>Dano Pyro</e> com alinhamento Espírito da Noite que não pode ser substituído, e aumenta o Dano CRIT desses Ataques Normais em 40%."
           }
         ]
       }

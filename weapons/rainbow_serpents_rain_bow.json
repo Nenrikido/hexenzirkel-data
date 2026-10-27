@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15434",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>42 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi.",
             "4": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>49 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi.",
             "5": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de <r>56 %</r> pendant 8 s après que le personnage équipé de l'arme touche un ennemi."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma arma cerimonial antiga passada de geração em geração pelos Mestres do Vento Noturno. Esse arco escuro estará para sempre envolto por um frio indelével.",
+        "passive": {
+          "name": "Idioma Estelar Estrangeiro Sagrado",
+          "refinements": {
+            "1": "Quando o portador não é o personagem ativo, aumenta o ATQ em <r>28%</r> por 8s após o portador atingir um inimigo com um ataque.",
+            "2": "Quando o portador não é o personagem ativo, aumenta o ATQ em <r>35%</r> por 8s após o portador atingir um inimigo com um ataque.",
+            "3": "Quando o portador não é o personagem ativo, aumenta o ATQ em <r>42%</r> por 8s após o portador atingir um inimigo com um ataque.",
+            "4": "Quando o portador não é o personagem ativo, aumenta o ATQ em <r>49%</r> por 8s após o portador atingir um inimigo com um ataque.",
+            "5": "Quando o portador não é o personagem ativo, aumenta o ATQ em <r>56%</r> por 8s após o portador atingir um inimigo com um ataque."
           }
         }
       }

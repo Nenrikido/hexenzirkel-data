@@ -45,7 +45,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12402",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -72,6 +72,19 @@
             "3": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>26 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>18 %</r>.",
             "4": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>29 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>21 %</r>.",
             "5": "Subir des DGT génère un bouclier qui absorbe jusqu'à <r>32 %</r> des PV max pendant 10 s, cet effet pouvant être déclenché une fois toutes les <v>45</v> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <r>24 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um espadão pesado com um relógio, mas seus mecanismos internos foram danificados.",
+        "passive": {
+          "name": "Guarda da Rebelião",
+          "refinements": {
+            "1": "Ao receber dano, cria um escudo que absorve o equivalente a <r>20%</r> da Vida Máxima por 10s ou até o escudo desaparecer. Pode ser ativado uma vez a cada <v>45</v>s. Quando o personagem estiver com o escudo, o Dano causado aumenta <r>12%</r>.",
+            "2": "Ao receber dano, cria um escudo que absorve o equivalente a <r>23%</r> da Vida Máxima por 10s ou até o escudo desaparecer. Pode ser ativado uma vez a cada <v>45</v>s. Quando o personagem estiver com o escudo, o Dano causado aumenta <r>15%</r>.",
+            "3": "Ao receber dano, cria um escudo que absorve o equivalente a <r>26%</r> da Vida Máxima por 10s ou até o escudo desaparecer. Pode ser ativado uma vez a cada <v>45</v>s. Quando o personagem estiver com o escudo, o Dano causado aumenta <r>18%</r>.",
+            "4": "Ao receber dano, cria um escudo que absorve o equivalente a <r>29%</r> da Vida Máxima por 10s ou até o escudo desaparecer. Pode ser ativado uma vez a cada <v>45</v>s. Quando o personagem estiver com o escudo, o Dano causado aumenta <r>21%</r>.",
+            "5": "Ao receber dano, cria um escudo que absorve o equivalente a <r>32%</r> da Vida Máxima por 10s ou até o escudo desaparecer. Pode ser ativado uma vez a cada <v>45</v>s. Quando o personagem estiver com o escudo, o Dano causado aumenta <r>24%</r>."
           }
         }
       }

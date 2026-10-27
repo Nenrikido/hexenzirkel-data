@@ -33,5 +33,54 @@
     "nanokaVersion": "7.1",
     "refinementModelled": "R5",
     "note": "7.1 weapon, added 2026-09-22 (release day) from nanoka 7.1 data; neither Amber nor GO carry it yet. Base stats derived as init x levels['90'] + last ascension add (the derivation validated against the existing seed files for the 7.0 batch). Buffs baked at R5 (house convention: 4* at R5, 5* at R1). "
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "11438",
+      "retrievedAt": "2026-10-27",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "flavor": "A longsword left behind by Wind Reader, one of the Three Hermits of Guizang in Liyue. Legend has it that it was forged out of sacred silver descended from the heavens, and that it once cleaved flowing sea water into two.",
+        "passive": {
+          "name": "Radiance on the Water",
+          "refinements": {
+            "1": "Increases Elemental Mastery by <r>52</r> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+            "2": "Increases Elemental Mastery by <r>65</r> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+            "3": "Increases Elemental Mastery by <r>78</r> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+            "4": "Increases Elemental Mastery by <r>91</r> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+            "5": "Increases Elemental Mastery by <r>104</r> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others."
+          }
+        }
+      },
+      "fr": {
+        "flavor": "Une longue épée laissée par Sonde-Brises, l'un des trois ermites de Guizang à Liyue. La légende raconte qu'elle fut forgée d'argent sacré descendu des cieux et qu'elle fendit jadis l'eau de mer en mouvement.",
+        "passive": {
+          "name": "Éclat sur l'eau",
+          "refinements": {
+            "1": "Utiliser une compétence élémentaire augmente la maîtrise élémentaire de <r>52</r> pts pendant 12 s. Cet effet peut être cumulé 2 fois, la durée de chaque cumul étant calculée de façon indépendante.",
+            "2": "Utiliser une compétence élémentaire augmente la maîtrise élémentaire de <r>65</r> pts pendant 12 s. Cet effet peut être cumulé 2 fois, la durée de chaque cumul étant calculée de façon indépendante.",
+            "3": "Utiliser une compétence élémentaire augmente la maîtrise élémentaire de <r>78</r> pts pendant 12 s. Cet effet peut être cumulé 2 fois, la durée de chaque cumul étant calculée de façon indépendante.",
+            "4": "Utiliser une compétence élémentaire augmente la maîtrise élémentaire de <r>91</r> pts pendant 12 s. Cet effet peut être cumulé 2 fois, la durée de chaque cumul étant calculée de façon indépendante.",
+            "5": "Utiliser une compétence élémentaire augmente la maîtrise élémentaire de <r>104</r> pts pendant 12 s. Cet effet peut être cumulé 2 fois, la durée de chaque cumul étant calculée de façon indépendante."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada antiga deixada pelo Leitor do Vento, um dos Três Eremitas de Guizang de Liyue. Lendas dizem que foi forjada da prata sagrada que caiu dos céus, e que chegou a cortar a água do mar em duas.",
+        "passive": {
+          "name": "Crepúsculo Sobre as Águas",
+          "refinements": {
+            "1": "Nos 12s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>52</r>. Esse efeito pode ser acumulado até 2 vezes, e a duração de cada acúmulo é contada separadamente.",
+            "2": "Nos 12s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>65</r>. Esse efeito pode ser acumulado até 2 vezes, e a duração de cada acúmulo é contada separadamente.",
+            "3": "Nos 12s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>78</r>. Esse efeito pode ser acumulado até 2 vezes, e a duração de cada acúmulo é contada separadamente.",
+            "4": "Nos 12s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>91</r>. Esse efeito pode ser acumulado até 2 vezes, e a duração de cada acúmulo é contada separadamente.",
+            "5": "Nos 12s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental em <r>104</r>. Esse efeito pode ser acumulado até 2 vezes, e a duração de cada acúmulo é contada separadamente."
+          }
+        }
+      }
+    }
   }
 }

@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14426",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>12 %</r> et ceux infligés par les attaques chargées de <r>9 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
             "4": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>14 %</r> et ceux infligés par les attaques chargées de <r>10,5 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s.",
             "5": "Toucher un ennemi avec une attaque normale ou chargée augmente les DGT infligés par les attaques normales de <r>16 %</r> et ceux infligés par les attaques chargées de <r>12 %</r>, pendant 6 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma coleção de poesia requintada. Contém algumas poesias sobre os céus, Dandelions e outros tópicos amados pelas pessoas de Mondstadt.",
+        "passive": {
+          "name": "Céu Azul",
+          "refinements": {
+            "1": "Nos 6s após um Ataque Normal ou Carregado atingir um inimigo, aumenta o Dano causado pelo Ataque Normal em <r>8%</r> e o Dano causado pelo Ataque Carregado em <r>6%</r>. Esse efeito pode ser acumulado até 3 vezes e desencadeado uma vez a cada 0.3s.",
+            "2": "Nos 6s após um Ataque Normal ou Carregado atingir um inimigo, aumenta o Dano causado pelo Ataque Normal em <r>10%</r> e o Dano causado pelo Ataque Carregado em <r>7.5%</r>. Esse efeito pode ser acumulado até 3 vezes e desencadeado uma vez a cada 0.3s.",
+            "3": "Nos 6s após um Ataque Normal ou Carregado atingir um inimigo, aumenta o Dano causado pelo Ataque Normal em <r>12%</r> e o Dano causado pelo Ataque Carregado em <r>9%</r>. Esse efeito pode ser acumulado até 3 vezes e desencadeado uma vez a cada 0.3s.",
+            "4": "Nos 6s após um Ataque Normal ou Carregado atingir um inimigo, aumenta o Dano causado pelo Ataque Normal em <r>14%</r> e o Dano causado pelo Ataque Carregado em <r>10.5%</r>. Esse efeito pode ser acumulado até 3 vezes e desencadeado uma vez a cada 0.3s.",
+            "5": "Nos 6s após um Ataque Normal ou Carregado atingir um inimigo, aumenta o Dano causado pelo Ataque Normal em <r>16%</r> e o Dano causado pelo Ataque Carregado em <r>12%</r>. Esse efeito pode ser acumulado até 3 vezes e desencadeado uma vez a cada 0.3s."
           }
         }
       }

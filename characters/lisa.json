@@ -279,7 +279,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000006",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -404,6 +404,68 @@
             "level": 6,
             "name": "Sorcière de pulse",
             "desc": "Lisa inflige 3 cumuls de l'effet Conductivité d'<k>Arc fulminant</k> aux ennemis proches lorsqu'elle est déployée au combat.\nCet effet peut être déclenché une fois toutes les 5 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Toque do Relâmpago",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 ataques de relâmpago que infligem <e:electro>Dano Electro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina que inflige <e:electro>Dano Electro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Electro, Lisa mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:electro>Dano Electro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Arco Violeta",
+            "desc": "Canaliza o poder dos relâmpagos para se livrar de coisas incômodas.\n\n<k>Pressionar</k>\nLibera uma esfera relâmpago perseguidora.\nAo acertar, inflige <e:electro>Dano Electro</e> e aplica um acúmulo do efeito Condutor (máximo de 3 acúmulos) nos inimigos em uma pequena AdE\n\n<k>Manter pressionado</k>\nApós um longo período de canalização, convoca os relâmpagos dos céus, infligindo <e:electro>Dano Electro</e> massivo em todos os inimigos próximos baseado no número de acúmulos do efeito Condução aplicados neles, e remove seus efeitos de Condução.\n\n<i>O Electro Púrpura é a vestimenta de uma Bruxa das Rosas</i>"
+          },
+          "burst": {
+            "name": "Rosa do Relâmpago",
+            "desc": "Evoca uma Rosa Elétrica que desfere poderosos relâmpagos, lançando inimigos próximos e infligindo <e:electro>Dano Electro</e>.\nA Rosa Elétrica irá continuamente emitir raios que empurram os inimigos e infligem <e:electro>Dano Electro</e> enquanto ela permanecer.\n\n<i>Essa rosa é linda, mas tenha cuidado com seus espinhos mortais.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Indução Pós-Choque",
+            "desc": "Ao ser atingida por Ataques Carregados aplica o estado de Condutividade de <k>Arco Violeta</k> aos inimigos."
+          },
+          {
+            "name": "Campo de Eletricidade Estática",
+            "desc": "Inimigos acertados por <k>Rosa do Relâmpago</k> têm sua DEF diminuída em 15% por 10 segundos."
+          },
+          {
+            "name": "Conhecimentos Farmacêuticos",
+            "desc": "Quando a Lisa cria uma poção, ela possui 20% de chance de retornar uma porção dos materiais usados."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Circuito Infinito",
+            "desc": "Lisa regenera 2 de Energia para cada oponente atingido ao manter o <k>Arco Violeta</k> pressionado.\nÉ possível regenerar um máximo de 10 de Energia desta maneira por vez."
+          },
+          {
+            "level": 2,
+            "name": "Campo Eletromagnético",
+            "desc": "Mantendo pressionado o <k>Arco Violeta</k> possui os seguintes efeitos:\nAumenta a DEF em 25%\nAumenta a RES a interrupção de Lisa."
+          },
+          {
+            "level": 3,
+            "name": "Relâmpago Ressonante",
+            "desc": "Aumenta o nível da <k>Rosa do Relâmpago</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Erupção de Plasma",
+            "desc": "Aumenta o número de raios lançados pela <k>Rosa do Relâmpago</k> entre 1 a 3."
+          },
+          {
+            "level": 5,
+            "name": "Eletrocutar",
+            "desc": "Aumenta o nível do <k>Arco Violeta</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Bruxa Pulsante",
+            "desc": "Quando a Lisa entra em campo, ela aplica 3 cargas do estado de Condução do <k>Arco Violeta</k> nos inimigos ao redor.\nEste efeito pode ser ativado uma vez a cada 5s."
           }
         ]
       }

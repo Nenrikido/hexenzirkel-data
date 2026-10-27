@@ -247,7 +247,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000005-electro",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -372,6 +372,68 @@
             "level": 6,
             "name": "Secousse céleste",
             "desc": "Toutes les 2 Foudres majestueuses déclenchées par <k>Tonnerre hurlant</k>, la Foudre majestueuse suivante inflige 200 % de ses DGT d'origine et le personnage actuel récupère 1 pt d'énergie élémentaire supplémentaire."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Choque do Trovão Estrangeiro",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Lâmina Raikage",
+            "desc": "Libera três sombras de raio ágil, causando <e:electro>Dano Electro</e>. Quando atinge o inimigo, deixa um Amuleto da Abundância.\nNo início, podem ser criados até 2 Amuletos da Abundância. Ao lançar a Habilidade, os Amuletos da Abundância criados por você serão eliminados.\n\n<k>Amuleto da Abundância</k>\nQuando o personagem se aproxima, ele irá absorver Amuleto da Abundância, obtendo os seguintes efeitos:\n· Regenera Energia Elemental;\n· Durante a duração, aumentará a Recarga de Energia Elemental.\n\n<i>Você e Paimon falam sobre os caminhos pelos quais a energia flui.</i>"
+          },
+          "burst": {
+            "name": "Rugido do Trovão",
+            "desc": "Você pode invocar a proteção do Revestimento de Relâmpago, afastando os inimigos ao redor e causando <e:electro>Dano Electro</e>.\n\n<k>Revestimento de Relâmpago</k>\nQuando o Ataque Normal ou Ataque Carregado do seu personagem em campo atinge o inimigo, irá ser invocado um Relâmpago Poderoso, causando <e:electro>Dano Electro</e> ao inimigo.\nQuando o Relâmpago Poderoso atinge um inimigo, irá restaurar Energia Elemental para esse personagem.\nUm Relâmpago Poderoso pode ser ativado uma vez a cada 0.5s.\n\n<i>Você e Paimon estudaram a luz que ilumina por entre as nuvens.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Trovão Repentino",
+            "desc": "Quando um personagem próximo da equipe obtém um Amuleto da Abundância criado pela <k>Lâmina Raikage</k>, o tempo de recarga da <k>Lâmina Raikage</k> diminui 1,5s."
+          },
+          {
+            "name": "Rugido Estrondoso",
+            "desc": "Aumenta a Recarga de Energia da <k>Lâmina Raikage</k> do Amuleto da Abundância em 10% com base na Recarga de Energia d{F#a}{M#o} Viajante."
+          },
+          {
+            "name": "Trovão Longínquo Forasteiro",
+            "desc": "Reúne novas forças das jornadas do passado. Para cada elemento que você ressoou, obtém um <k>fortalecimento adicional</k>.\n\nAlém disso, quando um membro próximo da equipe lança seu Supremo, {F#a}{M#o} Viajante obtém 1 acúmulo de Lâmina Omnielétrica, podendo acumular até 3 vezes. Ao possuir 3 acúmulos de Lâmina Omnielétrica e realizar um Ataque Carregado, consome todos os acúmulos de Lâmina Omnielétrica para realizar o especial <k>Ataque Carregado: Trovoada</k>.\n\n<k>Ataque Carregado: Trovoada</k>\n· Cada Ataque Carregado causa mais <e:electro>Dano Electro</e>. O aumento de Dano é de 100% do ATQ d{F#a}{M#o} Viajante.\n· Nos 3s após atingir um inimigo, faz um raio adicional cair, causando 200% do ATQ d{F#a}{M#o} Viajante como <e:electro>Dano Electro</e>, e gerando um Amuleto da Abundância. Esse Dano é considerado Dano de Ataque Carregado.\n· É possível realizar um <k>Ataque Carregado: Trovoada</k> uma vez a cada 15s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Trovão Primaveril da Fertilidade",
+            "desc": "Aumenta o número de Amuletos da Abundância que podem ser gerados usando a <k>Lâmina Raikage</k> para 3."
+          },
+          {
+            "level": 2,
+            "name": "Veemência Violeta",
+            "desc": "Após o Relâmpago Poderoso do <k>Rugido do Trovão</k> acertar em um inimigo, a <e:electro>RES Electro</e> do inimigo é diminuída em 15% por 8s."
+          },
+          {
+            "level": 3,
+            "name": "Trovoada Distante",
+            "desc": "Aumenta o nível do <k>Rugido do Trovão</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Relâmpago Repentino",
+            "desc": "Quando um personagem obtém Amuleto da Abundância gerado por <k>Lâmina Raikage</k>, se a Energia Elemental do personagem for inferior a 35%, a Energia Elemental recuperada por Amuleto da Abundância aumenta em 100%."
+          },
+          {
+            "level": 5,
+            "name": "Clamor na Natureza",
+            "desc": "Aumenta o nível de habilidade da <k>Lâmina Raikage</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Agitador de Mundos",
+            "desc": "A cada 2 Relâmpagos Poderosos desencadeados pelo <k>Rugido do Trovão</k>, o Dano do próximo Relâmpago Poderoso será aumentado consideravelmente, fazendo com que cause 200% do seu Dano original, e restaurará 1 ponto de Energia Elemental adicional para o personagem atual."
           }
         ]
       }

@@ -43,7 +43,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12436",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -70,6 +70,19 @@
             "3": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>96</r> pts pendant 12 s, et déclencher une réaction astrale augmente son ATQ de <r>24 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>112</r> pts pendant 12 s, et déclencher une réaction astrale augmente son ATQ de <r>28 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire du personnage équipé de l'arme de <r>128</r> pts pendant 12 s, et déclencher une réaction astrale augmente son ATQ de <r>32 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um Espadão passado de geração em geração dos Luchkins. Dizem que só um guerreiro corajoso é capaz de empunhá-lo.",
+        "passive": {
+          "name": "Arrependimento e Redenção",
+          "refinements": {
+            "1": "Nos 12s após desencadear uma Reação Elemental, aumenta a Proficiência Elemental do portador em <r>64</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>16%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo.",
+            "2": "Nos 12s após desencadear uma Reação Elemental, aumenta a Proficiência Elemental do portador em <r>80</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>20%</r>. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo.",
+            "3": "Nos 12s após desencadear uma Reação Elemental, aumenta a Proficiência Elemental do portador em <r>96</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>24%</r>. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo.",
+            "4": "Nos 12s após desencadear uma Reação Elemental, aumenta a Proficiência Elemental do portador em <r>112</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>28%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo.",
+            "5": "Nos 12s após desencadear uma Reação Elemental, aumenta a Proficiência Elemental do portador em <r>128</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>32%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
           }
         }
       }

@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10002",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Augmente l'ATQ de 18 %.",
           "4": "Augmente les DGT infligés aux ennemis dont les PV sont supérieurs à 50 % de 30 %."
+        }
+      },
+      "pt": {
+        "name": "Coração Valente",
+        "bonuses": {
+          "2": "ATQ +18%.",
+          "4": "Aumenta o Dano em 30% contra os inimigos com mais de 50% de Vida."
         }
       }
     }

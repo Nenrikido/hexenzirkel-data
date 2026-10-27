@@ -336,7 +336,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000119",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -469,6 +469,72 @@
             "level": 6,
             "name": "« À la lune, j'offre mon sang et mes émois »",
             "desc": "Lorsque le <k>sanctuaire du givrebois</k> attaque un ennemi, elle inflige une fois supplémentaire des <e:dendro>DGT Dendro de zone</e> d'une valeur équivalant à 185 % de la maîtrise élémentaire de Lauma. Ces DGT sont considérés comme des DGT de réaction de Sélénofleurissement, ne consomment pas d'<k>hymne pâle</k> et accordent au contraire 2 cumuls d'hymne pâle à Lauma, tout en actualisant la durée de l'hymne pâle obtenu de cette manière.\nCet effet peut être déclenché un maximum de 8 fois pendant la durée d'un sanctuaire du givrebois et utiliser la compétence élémentaire <k>Runo : Repos sans aube de karsikko</k> supprime tous les cumuls d'hymne pâle obtenus de cette manière.\n\nDe plus, lorsque Lauma effectue une attaque normale alors qu'elle possède de l'hymne pâle, elle en consomme un cumul pour convertir les DGT en <e:dendro>DGT Dendro</e> d'une valeur équivalant à 150 % de sa maîtrise élémentaire, ces DGT étant considérés comme des DGT de réaction de Sélénofleurissement.\n\n<k>Signelune « Lueur ascendante »</k> : les DGT infligés par les réactions de Sélénofleurissement de tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 25 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Trilha Verdejante",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 golpes, causando <e:dendro>Dano Dendro</e>.\n\n<k>Ataque Carregado</k>\nLança Metamorfose da Emissária Espiritual. Lauma se transforma em uma Emissária Espiritual da floresta tranquila, consome uma certa quantidade de Stamina e avança em frente por até 10s. Nesse estado, aumenta a RES contra interrupção de Lauma, e pode consumir Stamina adicional para fazer até dois saltos consecutivos.\nQuando sair do estado Emissária Espiritual, entrará na recarga, e nesse período os Ataques Carregados de Lauma serão convertidos em Oração Invoca-Espírito, que após um curto tempo de canalização, causa <e:dendro>Dano Dendro em AdE</e> contra os inimigos em frente.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Dendro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:dendro>Dano Dendro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Runo: Descanso da Noite Eterna",
+            "desc": "Recita uma oração, revelando o <k>Santuário da Floresta Congelada</k>, e gera efeitos diferentes se pressionar ou manter pressionado.\n\n<k>Pressionar</k>\nRecita uma oração, causando <e:dendro>Dano Dendro em AdE</e>.\n\n<k>Manter pressionado</k>\nSe possuir pelo menos 1 <k>Orvalho Verdejante</k>, pode ser lançado. Lauma consome todos os Orvalhos Verdejantes e recita uma oração para causar uma instância de <e:dendro>Dano Dendro em AdE</e>, e uma instância de <e:dendro>Dano Dendro em AdE</e> considerado como Florescimento Lunar. De acordo com o número de Orvalhos Verdejantes consumido, cada um consumido ainda pode fornecer 1 acúmulo de <k>Canção Lunar</k> para Lauma. Consome até 3 Orvalhos por cada vez que mantém pressionado para lançar a Habilidade Elemental.\n\nAlém disso, quando a Habilidade Elemental ou Santuário da Floresta Congelada de Lauma atingem um inimigo, esse inimigo terá sua <e:dendro>RES Dendro</e> e <e:hydro>RES Hydro</e> reduzidas por 10s."
+          },
+          "burst": {
+            "name": "Runo: Todos os Corações se Tornam a Lua",
+            "desc": "Que os desejos de todos os seres vivos se torna o luar que banha a terra. Lauma canta uma canção sagrada do norte, ganhando 18 acúmulos de <k>Canção Azul</k>.\nAlém disso, quando Lauma está sob o estado <k>Canção Lunar</k> e lança seu Supremo, ou quando obtém Canção Lunar nos 15s após lançar o Supremo, Lauma consome todos os acúmulos de Canção Lunar, e obtém 6 acúmulos de Canção Azul para cada acúmulo consumido. Esse efeito pode ser ativado uma vez por Supremo lançado ou pelos 15s após lançar o Supremo.\n\n<k>Canção Azul</k>\nQuando um membro da equipe próximo causar Dano de Florescimento, Superflorescimento, Germinação e Florescimento Lunar, consome 1 acúmulo de Canção Azul para aumentar o Dano. O aumento é baseado na Proficiência Elemental de Lauma. Quando esse Dano atinge múltiplos inimigos de uma vez só, consumirá o número de acúmulos de Canção Azul correspondente ao número de inimigos atingidos.\nCada acúmulo de Canção Azul possui sua duração contada separadamente."
+          }
+        },
+        "passives": [
+          {
+            "name": "Brilho da Noite Gelada",
+            "desc": "Nos 20s depois de Lauma lançar sua Habilidade Elemental <k>Runo: Descanso da Noite Eterna</k>, gera efeitos de fortalecimento diferentes de acordo com o <k>Presságio Lunar</k> da equipe, níveis de Presságio Lunar diferentes fornecem bônus diferentes, e não acumulam.\n\n<k>Presságio Lunar: Reluzir Inicial</k>\nO Dano de Florescimento, Superflorescimento e Germinação causado por todos os personagens próximos pode causar um Acerto CRIT, com Taxa CRIT fixada em 15% e o Dano CRIT fixado em 100%. A Taxa CRIT fornecida por esse efeito pode acumular com a Taxa CRIT de efeitos similares que permitem essas reações elementais a causarem Acertos CRIT.\n\n<k>Presságio Lunar: Reluzir Cheio</k>\nAumenta a Taxa CRIT em 10% e o Dano CRIT em 20% de todos os personagens próximos que causarem Dano de Florescimento Lunar da equipe."
+          },
+          {
+            "name": "Batismo da Nascente Doce",
+            "desc": "Cada ponto de Proficiência Elemental de Lauma pode fazer ela obter os seguintes fortalecimentos:\n· Aumenta o Dano de sua Habilidade Elemental em 0.04%. É possível aumentar o Dano em até 32% dessa forma.\n· Diminui o tempo de recarga do Ataque Carregado <k>Metamorfose da Emissária Espiritual</k> em 0.02%. É possível reduzir a recarga de Metamorfose da Emissária Espiritual em até 20% dessa forma."
+          },
+          {
+            "name": "Bênção do Presságio Lunar: Graça da Cacofonia",
+            "desc": "Quando um membro da equipe desencadeia Florescimento, converte para desencadear Florescimento Lunar, e aumenta o Dano Básico causado por Florescimento Lunar para o personagem da equipe com base na Proficiência Elemental de Lauma: cada ponto de Proficiência Elemental aumenta o Dano Básico de Florescimento Lunar em 0.0175%. É possível aumentar o Dano em até 14% dessa forma.\n\nAlém disso, quando Lauma está na equipe, aumenta o <k>Presságio Lunar</k> da equipe em um nível."
+          },
+          {
+            "name": "Orações para a Floresta",
+            "desc": "Mostra a localização de <k>Especialidades de Nod-Krai</k> próximas no mapa.\nAlém disso, Lauma possui uma familiaridade e poder especial com alguns animais pequenos que podem ser afetados por Kuuvahki..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"Ó, Lábios, Recitem Salmos e Canções!\"",
+            "desc": "Após Lauma lançar a Habilidade Elemental <k>Runo: Descanso da Noite Eterna</k> ou o Supremo <k>Runo: Todos os Corações se Tornam a Lua</k>, obtém Tecimento da Vida por 20s.\nNessa duração, quando um membro próximo da equipe desencadeia Florescimento Lunar, regenera Vida para o membro próximo ativo da equipe. A quantidade regenerada é equivalente a 500% da Proficiência Elemental de Lauma. Esse efeito pode ocorrer uma vez a cada 1.9s.\nAlém disso, o consumo de Stamina de Forma de Emissária Espiritual é reduzido em 40%, e sua duração é prolongada em 5s."
+          },
+          {
+            "level": 2,
+            "name": "\"Avisos e Contos do Norte\"",
+            "desc": "Fortalece o Supremo <k>Runo: Todos os Corações se Tornam a Lua</k>:\n· Aumenta o efeito de <k>Canção Azul</k>: aumenta o Dano de quando todos os personagens próximos da equipe desencadearem Florescimento, Superflorescimento ou Germinação. O valor do aumento é 500% da Proficiência Elemental de Lauma. Aumenta o Dano causado por Florescimento Lunar por todos os membros da equipe. O valor do aumento é 400% da Proficiência Elemental de Lauma.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: aumenta o Dano causado por Florescimento Lunar por todos os personagens da equipe em 40%."
+          },
+          {
+            "level": 3,
+            "name": "\"Não Almejo Percorrer o Caminho da Raposa Astuta\"",
+            "desc": "Aumenta o nível do Supremo <k>Runo: Todos os Corações se Tornam a Lua</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Nem Desejo o Poder do Grande Urso\"",
+            "desc": "Quando <k>Santuário da Floresta Congelada</k> da Habilidade Elemental <k>Runo: Descanso da Noite Eterna</k> atinge um inimigo, regenera 4 de Energia para Lauma. Esse efeito pode ser desencadeado uma vez a cada 5s."
+          },
+          {
+            "level": 5,
+            "name": "\"Se a Verdade Puder Testemunhar\"",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Runo: Descanso da Noite Eterna</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "\"Desejo Dar o Sangue e as Lágrimas à Lua\"",
+            "desc": "Quando um ataque de <k>Santuário da Floresta Congelada</k> atinge um inimigo, causa uma instância adicional de <e:dendro>Dano Dendro em AdE</e> que é considerado Dano de Florescimento Lunar. Esse Dano é baseado em 185% da Proficiência Elemental de Lauma, não consome Canção <k>Canção Azul</k>, faz Lauma obter 2 acúmulos de Canção Azul e redefine a duração da Canção Azul obtida dessa forma.\nEsse efeito pode ser desencadeado 8 vezes na duração de uma instância de Santuário da Floresta Congelada. Ao lançar a Habilidade Elemental <k>Runo: Descanso da Noite Eterna</k>, removerá a Canção Azul obtida dessa forma.\n\nAlém disso, se Lauma realizar um Ataque Normal enquanto possuir Canção Azul, consome 1 acúmulo de Canção Azul para converter em 150% de sua Proficiência Elemental como <e:dendro>Dano Dendro</e>. Esse Dano é considerado Dano de Florescimento Lunar.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: aumenta o Dano de Florescimento Lunar de <k>Elevação</k> de todos os membros próximos da equipe em 25%."
           }
         ]
       }

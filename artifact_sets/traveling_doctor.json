@@ -13,7 +13,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10013",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -29,6 +29,13 @@
         "bonuses": {
           "2": "Augmente les soins reçus par le personnage de 20 %.",
           "4": "Le déchaînement élémentaire restaure 20 % des PV."
+        }
+      },
+      "pt": {
+        "name": "O Doutor Viajante",
+        "bonuses": {
+          "2": "Aumenta o efeito de cura em 20%.",
+          "4": "Após usar o Supremo, restaura 20% de Vida."
         }
       }
     }

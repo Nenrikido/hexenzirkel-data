@@ -13,7 +13,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10010",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -29,6 +29,13 @@
         "bonuses": {
           "2": "Augmente les PV max de 1 000 pts.",
           "4": "Restaure 30 % des PV pendant 5 s après l'ouverture d'un coffre."
+        }
+      },
+      "pt": {
+        "name": "Aventureiro",
+        "bonuses": {
+          "2": "Vida Máx. +1000",
+          "4": "Abrir um baú recupera 30% de Vida Máxima durante 5 segundos."
         }
       }
     }

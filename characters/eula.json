@@ -505,7 +505,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000051",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -630,6 +630,68 @@
             "level": 6,
             "name": "Obligations aristocratiques",
             "desc": "Confère immédiatement 5 cumuls d'énergie à l'épée de lumière créée par <k>Lame de fond</k>. De plus, lorsque vous utilisez des attaques normales, la compétence ou le déchaînement élémentaires pour obtenir des cumuls, vous avez 50 % de chances d'obtenir un cumul supplémentaire."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Técnica da Espada de Favonius - Nobreza",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nDrena Stamina ao longo do tempo para realizar cortes contínuos.\nAo final da sequência, realiza um corte ainda mais poderoso.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Vórtice Gelado",
+            "desc": "Um frio glacial e uma dança ágil de espadas.\n\n<k>Pressionar</k>\nFaz um golpe rápido que causa <e:cryo>Dano Cryo</e>.\nQuando acerta nos inimigos, Eula ganha 1 Coração Impassível que se acumula no máximo 2 vezes e só pode ser acumulado 1 vez a cada 0.3s.\n\n<k>Coração Impassível</k>\nAumenta a Resistência contra Interrupção e DEF de Eula.\n\n<k>Manter Pressionado</k>\nBalança a espada para causar um golpe para a frente, causando <e:cryo>Dano Cryo em uma AdE</e> aos inimigos em frente, e consumindo todos os acúmulos de Coração Impassível de Eula.\nCaso o efeito do Coração Impassível seja consumido, irá diminuir a RES Física e <e:cryo>RES Cryo</e> dos inimigos acertados. Cada Coração Impassível se converterá em uma Espada do Vórtice de Gelo, causando <e:cryo>Dano Cryo</e> nos inimigos ao redor.\n\n<i>\"As ondas enrolam dessa forma e engolem as coroas nobres. Depois, cada gota de espuma que cai voando das ondas congelantes reflete uma coroa dourada, cada gota de espuma do mar brilha gloriosamente.\"</i>"
+          },
+          "burst": {
+            "name": "Espada das Ondas Congeladas",
+            "desc": "Eula brande seu Espadão, causando <e:cryo>Dano Cryo</e> a oponentes próximos e criando uma Espada Luminosa que a segue por uma duração de até 7s.\nEnquanto estiver presente, a Espada Luminosa aumenta a Resistência Contra Interrupção de Eula. Quando os Ataques Normais, Habilidades Elementais e Supremos de Eula causam Dano aos inimigos, eles carregarão a Espada Luminosa, que pode ganhar uma carga de energia a cada 0.1s.\nQuando sua duração encerrar, a Espada Luminosa cairá e explodirá, causando Dano Físico a inimigos próximos.\nEsse Dano escala baseado no número de cargas de energia que a Espada Luminosa acumulou.\nSe Eula sair de campo, a Espada Luminosa explodirá imediatamente.\n\n<i>É fácil afundar. Mas ainda assim, ela deseja congelar essa maré que está vindo.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Geada Turbulenta",
+            "desc": "Se quando você mantiver pressionado para liberar o <k>Vórtice Gelado</k> e consumir 2 acúmulos de Corações Impassíveis de uma vez, criará uma Espada Luminosa fragmentada que explodirá imediatamente, causando Dano Físico em quantidade equivalente a 50% do Dano Básico da Espada Luminosa da <k>Espada das Ondas Congelantes</k>."
+          },
+          {
+            "name": "Desejo de Lutar",
+            "desc": "Quando a <k>Espada das Ondas Congeladas</k> é lançada, a Recarga do <k>Vórtice Gelado</k> é redefinida e Eula ganha 1 acúmulo de Coração Impassível."
+          },
+          {
+            "name": "Introspecção Aristocrática",
+            "desc": "Quando sintetiza Materiais para aprimoramento de Talento do Personagem, tem uma chance de 10% de obter o dobro da Produção."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Ilusão da Maré de Luz",
+            "desc": "Após consumir o efeito de Coração Impassível de <k>Vórtice Gelado</k>, o Dano Adicional do Dano Físico de Eula aumenta em 30% por 6s.\nSempre que consumir uma carga de Coração Impassível essa duração de efeito prolongará 6s, no máximo não pode exceder os 18s."
+          },
+          {
+            "level": 2,
+            "name": "Garota da Espuma do Mar",
+            "desc": "Diminui o tempo de recarga ao manter pressionado <k>Vórtice Gelado</k>, tornando esse tempo igual ao tempo de recarga de pressionar."
+          },
+          {
+            "level": 3,
+            "name": "Sangue de Lawrence",
+            "desc": "Aumenta o nível da Habilidade <k>Espada das Ondas Congeladas</k> em 3.\nO nível máximo de aumento é 15."
+          },
+          {
+            "level": 4,
+            "name": "A Obstinação da Sensação de Inferioridade",
+            "desc": "A Espada Luminosa tem um aumento de 25% de Dano contra inimigos com menos de 50% de Vida."
+          },
+          {
+            "level": 5,
+            "name": "Qualidade de Cavaleira",
+            "desc": "Aumenta o nível da Habilidade <k>Vórtice Gelado</k> em 3.\nO nível máximo de aumento é 15."
+          },
+          {
+            "level": 6,
+            "name": "Obrigações Aristocráticas",
+            "desc": "A Espada Luminosa criada pela <k>Espada das Ondas Congeladas</k> faz obter imediatamente 5 acúmulos de Energia. Quando os Ataques Normais, Habilidades Elementais ou Supremos causam Dano, seus acúmulos tem uma chance de 50% de obter um acúmulo de Energia adicional."
           }
         ]
       }

@@ -286,7 +286,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000131",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -419,6 +419,72 @@
             "level": 6,
             "name": "« Voici le chemin, emprunte-le sans délai »",
             "desc": "Lorsque la <k>grâce de kénose</k> de Nicole est améliorée en <k>guidance de théose</k>, la <k>grâce de kénose</k> de tous les personnages de l'équipe à proximité est également améliorée en <k>guidance de théose</k>. Une fois améliorée, la <k>guidance de théose</k> ne redevient plus une <k>grâce de kénose</k>.\nDe plus, les DGT infligés par les personnages avec une <k>guidance de théose</k> ignorent 40 % de DÉF des ennemis."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Allegoria",
+            "desc": "<k>Ataque Normal</k>\nProclama o decreto na língua primordial, realizando até 3 golpes que causam <e:pyro>Dano Pyro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para infligir <e:pyro>Dano Pyro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nMergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:pyro>Dano Pyro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Revelação: Luz Não Criada",
+            "desc": "Recria um vislumbre passageiro de uma era longínqua quando a autoridade dos céus ainda podia ser invocada, concedendo para todos os personagens próximos o efeito <k>Graça de Kenosis</k>, aumentando o ATQ desses personagens, causando <e:pyro>Dano Pyro em AdE</e> e revelando o Escudo da Luz Flamejante.\nA absorção de Dano do Escudo da Luz Flamejante é baseada no ATQ de Nicole, e possui 250% de eficácia contra <e:pyro>Dano Pyro</e>."
+          },
+          "burst": {
+            "name": "Revelação: Caminho da Jornada Celestial",
+            "desc": "Tece o caminho do destino ancorado com fios dourados de luz, causando <e:pyro>Dano Pyro em AdE</e>, e troca para o modo Contemplação Silenciosa.\nQuando Nicole está nesse modo e quando um ataque do personagem ativo atinge um inimigo, invoca uma Projeção Arcana que realiza um Ataque Coordenado contra o inimigo, causando Dano em AdE do Tipo Elemental correspondente ao do personagem. Esse Dano é baseado no ATQ do personagem, e é considerado Dano causado por esse personagem.\nEsse efeito pode ser desencadeado uma vez a cada 3s, e pode ser desencadeado 4 vezes por modo de Contemplação Silenciosa de Nicole.\n\nAlém disso, personagens Mágicos terão alguma diferença de aparência quando estiverem em Projeção Arcana..."
+          }
+        },
+        "passives": [
+          {
+            "name": "Methexis",
+            "desc": "Nos 20s após lançar a Habilidade Elemental <k>Revelação: Luz Não Criada</k>, Nicole continuará aplicando \"Observação\" nos outros personagens da equipe que estiverem atualmente em campo. Quando um personagem sob efeito de Observação permanecer em campo por 3s contínuos, o efeito <k>Graça de Kenosis</k> que ele possui será elevado para <k>Orientação de Theosis</k>, aumentando seu ATQ em 300 adicionais. Se o personagem sob efeito de Observação for um personagem Mágico, o efeito <k>Graça de Kenosis</k> será elevado diretamente para <k>Orientação de Theosis</k>.\nCom exceção de Nicole, quando outros personagens que possuem <k>Orientação de Theosis</k> saírem de campo, esse efeito voltará a ser <k>Graça de Kenosis</k>."
+          },
+          {
+            "name": "Philokalia",
+            "desc": "Depois que o personagem ativo próximo atingir o inimigo com Dano Elemental, a <k>Graça de Kenosis</k> de Nicole será elevada para <k>Orientação de Theosis</k> por 8s."
+          },
+          {
+            "name": "Nepsis",
+            "desc": "Em Teyvat, quando não estiver em combate, se já tiver obtido a Bússola de Tesouros da região atual, o Ataque Carregado de Nicole será convertido para Orientação da Emissária: invoca os Seelies próximos para ajudar a mostrar o caminho, e desencadeia o efeito igual ao da Bússola de Tesouros da região atual.\nEsse efeito possui uma recarga de 5s, e não pode ser ativado em Domínios, Domínios Dizimados e Abismo do Espiral."
+          },
+          {
+            "name": "Presente da Noite da Bruxa: Luz na Escuridão",
+            "desc": "Ao completar <k>Tarefa da Bruxa: Dever de uma Guia?</k>, Nicole se tornará uma personagem <k>Mágica</k>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <k>Mágico: Ritual Secreto</k>, fortalecendo os personagens Mágicos.\n\n<k>Mágico: Ritual Secreto</k>\nAumenta o Dano causado de <k>Projeção Arcana</k> de personagens mágicos. O aumento de Dano é equivalente a 300% do ATQ de Nicole."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"Não Tema, Criança Amada\"",
+            "desc": "Quando seu personagem atinge o inimigo com um ataque, invoca uma Projeção Arcana: Unidade especial adicional que realiza um Ataque Coordenado contra o inimigo, e que causa Dano Elemental em AdE contra o inimigo de acordo com o Tipo Elemental do personagem. Esse Dano é equivalente a 600% do ATQ do personagem, e é considerado Dano causado por esse personagem.\nEsse efeito pode ser desencadeado uma vez a cada 6s."
+          },
+          {
+            "level": 2,
+            "name": "\"Lhe Guiarei e Mostrarei o Caminho a Trilhar\"",
+            "desc": "O efeito da Habilidade Elemental <k>Revelação: Luz Não Criada</k> é fortalecido: <k>Graça de Kenosis</k> obtém um aumento adicional de 300 de ATQ (não é contabilizado para o limite de bônus de ATQ desse efeito). <k>Orientação de Theosis</k> reduz a RES Elemental correspondente do inimigo em 25% de acordo com o Tipo Elemental do personagem. Efeitos de redução de RES Elemental de Tipos Elementais iguais não acumulam.\nAlém disso, quando Nicole lança a Habilidade Elemental <k>Revelação: Luz Não Criada</k>, concede um Escudo da Luz Flamejante para o personagem ativo próximo."
+          },
+          {
+            "level": 3,
+            "name": "\"Uma Lanterna ao Lado, Uma Luz a Mostrar o Caminho\"",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Revelação: Luz Não Criada</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Seja a Esquerda ou Direita, Não Importa para Onde se Vire\"",
+            "desc": "Quando um personagem próximo que possui <k>Graça de Kenosis</k> é elevado para <k>Orientação de Theosis</k>, Nicole concede o efeito \"Bênção do Guia\" para ele por 20s. Cada personagem pode obter esse efeito uma vez a cada 16s.\nPersonagens que possuem Bênção do Guia terão um aumento de Dano de seus Ataques Normais, Carregados, Imersivos, Habilidades Elementais e Supremo. O aumento é equivalente a 70% do ATQ de Nicole. Esse efeito será removido depois de ativado 8 vezes, ou quando sua duração acabar.\nAo atingir múltiplos inimigos, consumirá usos de acordo com a quantidade de inimigos atingidos. Os usos do efeito são contados separadamente para cada personagem da equipe que possui Bênção do Guia."
+          },
+          {
+            "level": 5,
+            "name": "\"Você Ouvirá Minha Voz ao Seu Lado\"",
+            "desc": "Aumenta o nível de <k>Revelação: Caminho da Jornada Celestial</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "\"Este é o Caminho, Percorra-o Imediatamente\"",
+            "desc": "Quando <k>Graça de Kenosis</k> que Nicole possui for elevada para <k>Orientação de Theosis</k>, todos os personagens próximos que possuem <k>Graça de Kenosis</k> serão elevados para <k>Orientação de Theosis</k>. Depois de elevado, <k>Orientação de Theosis</k> não retornará para <k>Graça de Kenosis</k>.\nAlém disso, o Dano que o personagem que possui <k>Orientação de Theosis</k> causar contra o inimigo ignorará 40% de sua DEF."
           }
         ]
       }

@@ -23,7 +23,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15047",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -39,6 +39,13 @@
         "bonuses": {
           "2": "Augmente l'ATQ de 18 %.",
           "4": "Augmente le taux CRIT du personnage équipé de l'artéfact de 16 % et ses DGT de réaction d'Astrodispersion de 40 % pendant 10 s lorsqu'il a déclenché une réaction d'Astrodispersion."
+        }
+      },
+      "pt": {
+        "name": "Prova Escarlate",
+        "bonuses": {
+          "2": "ATQ +18%",
+          "4": "Ao desencadear uma Reação de Redemoinho Estelar, aumenta a Taxa CRIT do portador em 16% e o Dano da Reação de Redemoinho Estelar causada por ele em 40% por 10s."
         }
       }
     }

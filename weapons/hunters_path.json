@@ -37,7 +37,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15511",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -64,6 +64,19 @@
             "3": "Accorde un bonus de DGT élémentaires de <r>18 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>240 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s.",
             "4": "Accorde un bonus de DGT élémentaires de <r>21 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>280 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s.",
             "5": "Accorde un bonus de DGT élémentaires de <r>24 %</r>. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à <r>320 %</r> de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Este arco adornado foi feito usando galhos brancos preciosos. Ele já derrotou inúmeras bestas malignas que tentaram infiltrar a floresta.",
+        "passive": {
+          "name": "O Destino da Besta",
+          "refinements": {
+            "1": "Ganha <r>12%</r> de Bônus de Dano de todos os Elementos. Obtém o efeito \"Caça Incansável\" ao acertar um oponente com um Ataque Carregado. Esse efeito aumenta o Dano do Ataque Carregado em <r>160%</r> da Proficiência Elemental. Esse efeito será removido depois 12 Ataques Carregados ou após 10s. Só é possível obter 1 efeito de Caça Incansável a cada 12s.",
+            "2": "Ganha <r>15%</r> de Bônus de Dano de todos os Elementos. Obtém o efeito \"Caça Incansável\" ao acertar um oponente com um Ataque Carregado. Esse efeito aumenta o Dano do Ataque Carregado em <r>200%</r> da Proficiência Elemental. Esse efeito será removido depois 12 Ataques Carregados ou após 10s. Só é possível obter 1 efeito de Caça Incansável a cada 12s.",
+            "3": "Ganha <r>18%</r> de Bônus de Dano de todos os Elementos. Obtém o efeito \"Caça Incansável\" ao acertar um oponente com um Ataque Carregado. Esse efeito aumenta o Dano do Ataque Carregado em <r>240%</r> da Proficiência Elemental. Esse efeito será removido depois 12 Ataques Carregados ou após 10s. Só é possível obter 1 efeito de Caça Incansável a cada 12s.",
+            "4": "Ganha <r>21%</r> de Bônus de Dano de todos os Elementos. Obtém o efeito \"Caça Incansável\" ao acertar um oponente com um Ataque Carregado. Esse efeito aumenta o Dano do Ataque Carregado em <r>280%</r> da Proficiência Elemental. Esse efeito será removido depois 12 Ataques Carregados ou após 10s. Só é possível obter 1 efeito de Caça Incansável a cada 12s.",
+            "5": "Ganha <r>24%</r> de Bônus de Dano de todos os Elementos. Obtém o efeito \"Caça Incansável\" ao acertar um oponente com um Ataque Carregado. Esse efeito aumenta o Dano do Ataque Carregado em <r>320%</r> da Proficiência Elemental. Esse efeito será removido depois de 12 Ataques Carregados ou após 10s. Só é possível obter 1 efeito de Caça Incansável a cada 12s."
           }
         }
       }

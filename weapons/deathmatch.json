@@ -38,7 +38,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13405",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -65,6 +65,19 @@
             "3": "Augmente l'ATQ de <r>24 %</r> et la DÉF de <r>24 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>36 %</r> dans le cas contraire.",
             "4": "Augmente l'ATQ de <r>28 %</r> et la DÉF de <r>28 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>42 %</r> dans le cas contraire.",
             "5": "Augmente l'ATQ de <r>32 %</r> et la DÉF de <r>32 %</r> si 2 ennemis ou plus se trouvent à proximité ; augmente l'ATQ de <r>48 %</r> dans le cas contraire."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança afiada vermelho-sangue que era inestimável para um gladiador no passado. Sua ponta está manchada com o sangue de inúmeras bestas e pessoas.",
+        "passive": {
+          "name": "Gladiador",
+          "refinements": {
+            "1": "Se houver 2 inimigos ao redor, o ATQ é aumentado em <r>16%</r> e a DEF é aumentada em <r>16%</r>. Se houver menos que 2 inimigos ao redor, o ATQ é aumentado em <r>24%</r>.",
+            "2": "Se houver 2 inimigos ao redor, o ATQ é aumentado em <r>20%</r> e a DEF é aumentada em <r>20%</r>. Se houver menos que 2 inimigos ao redor, o ATQ é aumentado em <r>30%</r>.",
+            "3": "Se houver 2 inimigos ao redor, o ATQ é aumentado em <r>24%</r> e a DEF é aumentada em <r>24%</r>. Se houver menos que 2 inimigos ao redor, o ATQ é aumentado em <r>36%</r>.",
+            "4": "Se houver 2 inimigos ao redor, o ATQ é aumentado em <r>28%</r> e a DEF é aumentada em <r>28%</r>. Se houver menos que 2 inimigos ao redor, o ATQ é aumentado em <r>42%</r>.",
+            "5": "Se houver 2 inimigos ao redor, o ATQ é aumentado em <r>32%</r> e a DEF é aumentada em <r>32%</r>. Se houver menos que 2 inimigos ao redor, o ATQ é aumentado em <r>48%</r>."
           }
         }
       }

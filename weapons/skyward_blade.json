@@ -39,7 +39,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11502",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -66,6 +66,19 @@
             "3": "Augmente le taux CRIT de <r>6 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>30 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent.",
             "4": "Augmente le taux CRIT de <r>7 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>35 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent.",
             "5": "Augmente le taux CRIT de <r>8 %</r>. Le déchaînement élémentaire confère pendant 12 s l'effet Croc du Perceur de ciel : la VIT de déplacement augmente de <v>10 %</v>, la VIT d'ATQ augmente de <v>10 %</v>, et les attaques normales et chargées infligent <r>40 %</r> de DGT d'ATQ supplémentaires lorsqu'elles touchent."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "A espada de um cavaleiro que simboliza a honra restaurada de Dvalin. As bênçãos do Arconte Anemo repousam sobre a lâmina mais cheia, imbuindo a espada com os poderes do céu e do vento.",
+        "passive": {
+          "name": "Dente Perfurador do Céu",
+          "refinements": {
+            "1": "A Taxa Crítica aumenta em <r>4%</r>. Obtém a Perfuração Celestial ao usar o Supremo: Aumenta a Veloc. Mov. em <v>10%</v>, aumenta a Velocidade de Ataque em <v>10%</v>. Quando o Ataque Normal e o Ataque Carregado atingirem, causará um Dano Adicional de <r>20%</r> por 12s.",
+            "2": "A Taxa Crítica aumenta em <r>5%</r>. Obtém a Perfuração Celestial ao usar o Supremo: Aumenta a Veloc. Mov. em <v>10%</v>, aumenta a Velocidade de Ataque em <v>10%</v>. Quando o Ataque Normal e o Ataque Carregado atingirem, causará um Dano Adicional de <r>25%</r> por 12s.",
+            "3": "A Taxa Crítica aumenta em <r>6%</r>. Obtém a Perfuração Celestial ao usar o Supremo: Aumenta a Veloc. Mov. em <v>10%</v>, aumenta a Velocidade de Ataque em <v>10%</v>. Quando o Ataque Normal e o Ataque Carregado atingirem, causará um Dano Adicional de <r>30%</r> por 12s.",
+            "4": "A Taxa Crítica aumenta em <r>7%</r>. Obtém a Perfuração Celestial ao usar o Supremo: Aumenta a Veloc. Mov. em <v>10%</v>, aumenta a Velocidade de Ataque em <v>10%</v>. Quando o Ataque Normal e o Ataque Carregado atingirem, causará um Dano Adicional de <r>35%</r> por 12s.",
+            "5": "A Taxa Crítica aumenta em <r>8%</r>. Obtém a Perfuração Celestial ao usar o Supremo: Aumenta a Veloc. Mov. em <v>10%</v>, aumenta a Velocidade de Ataque em <v>10%</v>. Quando o Ataque Normal e o Ataque Carregado atingirem, causará um Dano Adicional de <r>40%</r> por 12s."
           }
         }
       }

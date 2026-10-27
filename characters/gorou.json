@@ -74,7 +74,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000055",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -199,6 +199,68 @@
             "level": 6,
             "name": "Vaillance canine : Fidélité de la terre",
             "desc": "Pendant 12 s après <k>Défense intégrale d'Inuzaka</k> ou <k>Crocs bestiaux : Vers la victoire</k>, les DGT CRIT des <e:geo>DGT Géo</e> de tous les personnages de l'équipe à proximité augmentent en fonction du niveau du champ au moment de l'utilisation de la compétence :\n· Pied ferme : +10 %.\n· Imprenabilité : +20 %.\n· Fracas : +40 %.\n\nCet effet ne se cumule pas, et la dernière augmentation déclenchée sera la référence pour l'effet."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Flechas de Garras Dilacerantes",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 tiros consecutivos com um arco.\n\n<k>Ataque Carregado</k>\nDispara um <k>Tiro com Mira</k> mais preciso e com Dano aumentado.\nAo mirar, Pedras Cristalizadas irão se acumular na ponta da flecha. Uma flecha em Pedras Cristalizadas completamente carregada inflige <e:geo>Dano Geo</e>.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Defesa Concentrada Inuzaka",
+            "desc": "Causa <e:geo>Dano Geo em uma AdE</e> e levanta o Estandarte do General.\n\n<k>Estandarte do General</k>\nFornece os seguintes bônus com base no número de membros da equipe que são do Elemento <e:geo>Geo</e>:\nTer 1 membro da equipe do Elemento Geo concede o efeito \"Robusto\": Bônus de DEF.\nTer 2 membros da equipe do Elemento Geo concede o efeito \"Inquebrável\": Resistência a interrupção, além do efeito do mencionado anteriormente.\nTer 3 membros da equipe do Elemento Geo concede o efeito \"Destruidor\": concede um <e:geo>Bônus de Dano GEO</e>, além dos efeitos mencionados anteriormente.\n\nApenas 1 Estandarte do General que Gorou criou pode existir no campo a qualquer momento. Os personagens só podem se beneficiar de 1 Estandarte do General por vez. Quando os membros da equipe deixam o campo, os efeitos do campo duram por 2s.\n\n<k>Manter Pressionado</k>\nMantenha Pressionado para designar o local que ficará a habilidade.\n\n<i>\"Assuma esta formação e estaremos seguros - eu garanto!\" Como general e líder das tropas, a última coisa que Gorou quer é ver aqueles que o seguem serem feridos.</i>"
+          },
+          "burst": {
+            "name": "Juuga: Para a Vitória",
+            "desc": "Demonstrando seu valor como general, Gorou causa <e:geo>Dano Geo em uma AdE</e> e cria um campo conhecido como a Glória do General para animar seus companheiros.\n\n<k>Glória do General</k>\nEste campo tem as seguintes propriedades:\nEste campo tem efeitos idênticos aos do Estandarte do General criado por sua Habilidade Elemental, Defesa Concentrada Inuzaka, concedendo bônus baseado no número de membros da equipe cujo elemento seja <e:geo>Geo</e>, e também se moverá junto com seu personagem ativo atual.\nCria 1 Colapso Cristalino a cada 1.5s que causa <e:geo>Dano Geo em uma AdE</e> a 1 oponente dentro de sua AdE.\n· Ele puxará 1 fragmento elemental pela Reação de Cristalização dentro de sua área de ação para a posição do seu personagem ativo a cada 1.5 s.\n\nSe um Estandarte do General criado pelo próprio Gorou existir atualmente em campo quando esta habilidade for utilizada, ele será destruído.\n\n<i>\"Nós temos a vantagem do terreno!\" Gorou pode sempre mudar ligeiramente o terreno do campo de batalha para ajudar a ganhar a vitória. Esta técnica o tem assistido através de muitas batalhas contra uma oposição aparentemente superior.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Contra o Vento e a Maré",
+            "desc": "Nos 12 segundos seguintes de lançar <k>Juuga: Para a Vitória</k>, a DEF de todos os membros da equipe ao redor será aumentada em 25%."
+          },
+          {
+            "name": "Um Favor Recíproco",
+            "desc": "Gorou recebe os seguintes Bônus de Dano aos seus ataques baseado em sua DEF:\n<k>Defesa Concentrada Inuzaka</k> aumenta o Dano da habilidade em 156% da sua DEF.\n<k>Juuga: Para a Vitória</k> aumenta o Dano da habilidade e do Colapso Cristalino em 15.6% da DEF."
+          },
+          {
+            "name": "Cãozinho Farejador",
+            "desc": "Mostra a localização de <k>recursos únicos de Inazuma</k> próximos no mapa."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Pegureiro Veloz: Rápido como o Vento",
+            "desc": "Quando um personagem (que não seja o Gorou) causar Dano Geo dentro da AdE do <k>Estandarte do General</k> ou da <k>Glória do General</k> criado por Gorou, o Tempo de Recarga da <k>Defesa Concentrada Inuzaka</k> de Gorou é reduzido em 2s.\nEste efeito pode ocorrer uma vez a cada 10s."
+          },
+          {
+            "level": 2,
+            "name": "Pegureiro Sentado: Firme Feito a Rocha",
+            "desc": "Enquanto <k>Glória do General</k> estiver ativa, sua duração é estendida em 1s quando um personagem ativo próximo obtém um Fragmento Elemental de uma reação de Cristalização, ou desencadeia uma Reação de Cristalização Lunar.\nIsso só pode ocorrer uma vez a cada 0.1s e sua duração só pode ser prolongada por um máximo de 3s."
+          },
+          {
+            "level": 3,
+            "name": "Pegureiro Feroz: Feroz como o Fogo",
+            "desc": "Aumenta o nível da <k>Defesa Concentrada Inuzaka</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Pegureiro Bebedor: Quente como a água",
+            "desc": "Quando <k>Glória do General</k> está nos estados de \"Inquebrável\" ou \"Destruidor\", ela também curará o personagem ativo dentro de sua AdE a cada 1,5s por 50% da DEF de Gorou."
+          },
+          {
+            "level": 5,
+            "name": "Pegureiro Atacante: Força Trovejante",
+            "desc": "Aumenta o nível do <k>Juuga: Para a Vitória</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Pegureiro Valente: Lealdade Montanhosa",
+            "desc": "Dentro de 12 segundos após lançar a <k>Defesa Concentrada Inuzaka</k> ou <k>Juuga: Para a Vitória</k>, de acordo com o nível da área no momento do lançamento, o Dano CRIT de <e:geo>Dano Geo</e> de todos os personagens da equipe que se encontrarem próximos, será aumentado:\nRobusto: aumentado em 10%; Inquebrável: aumentado em 20%; Destruidor: aumentado em 40%.\n\nEsse efeito não pode ser acumulado, mas será determinado com base no último efeito desencadeado."
           }
         ]
       }

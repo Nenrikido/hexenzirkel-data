@@ -227,7 +227,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000080",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -352,6 +352,68 @@
             "level": 6,
             "name": "Conseil du compagnon",
             "desc": "Augmente le nombre maximum de cumuls de localisation pouvant être obtenus grâce à l'état Spirivent de <k>Tourbillon de givre étoilé</k> de 1. L'aptitude d'élévation « Épinglage rapide » doit être déjà débloquée.\nDe plus, les personnages déployés affectés par l'état Spirivent voient les DGT CRIT de leurs DGT physiques augmenter de 60 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lança de Favonius — Ponto de Passagem",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes com a sua lança e besta de mão.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Redemoinho Estelar Gelado",
+            "desc": "Usa sua besta para atacar os inimigos, e concede aos personagens próximos o estado Alma do Vento. Quando um personagem no estado Alma do Vento está ativo no campo de batalha, aumenta a sua a Vel. de ATQ.\nGera efeitos diferentes se for lançado Pressionando ou Mantendo Pressionado.\n\n<k>Pressionar</k>\nDispara uma Flecha Gélida rapidamente que penetra os inimigos, causando <e:cryo>Dano Cryo</e>.\n\n<k>Manter Pressionado</k>\nEntra no modo de mira, e dispara um Sinal Estelar Gélido contra o inimigo fixado na mira, causando <e:cryo>Dano Cryo</e>. Quando o Sinal Estelar Gélido atinge o inimigo, ascenderá e explodirá, disparando Fragmentos Estelares Gélidos contra até 3 inimigos próximos, causando <e:cryo>Dano Cryo</e>.\n\n<i>As estrelas explodem sob os céus congelados.</i>"
+          },
+          "burst": {
+            "name": "Canção da Pena do Céu",
+            "desc": "Eleva a moral dos companheiros através das orações dos Cavaleiros de Favonius, regenerando Vida para todos os personagens próximos baseada na Vida Máxima de Mika e concedendo a eles o estado Pena do Falcão.\n\n<k>Pena do Falcão</k>\nQuando os Ataques Normais de personagens ativos sob o estado Pena do Falcão atingem um inimigo, Mika regenerará Vida para esses personagens baseada na Vida Máxima de Mika.\nOs personagens nesse estado só podem regenerar Vida desta maneira uma vez em um curto intervalo de tempo.\n\n<i>\"Leve a esperança nos momentos difíceis e não baixe a guarda que tudo ficará bem... Pois aquela pena branca pura guiará os errantes perdidos.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Supressão de Disparo Rápido",
+            "desc": "O estado Alma do Vento de <k>Redemoinho Estelar Gelado</k> concederá nas seguintes circunstâncias aos personagens ativos o efeito Detector, aumentando o Dano Físico causado em 10%:\n· Quando a Flecha Gélida atinge mais de um inimigo, gera 1 acúmulo do efeito Detector para cada inimigo adicional atingido;\n· Quando um Fragmento Estelar Gélido atinge um inimigo, gera 1 acúmulo do efeito Detector. Cada Fragmento Estelar Gélido só pode desencadear este efeito uma vez.\n\nÉ possível ter até 3 acúmulos do efeito Detector no estado Alma do Vento. Lançar Redemoinho Estelar Gelado novamente nessa duração removerá o estado Alma do Vento original e os seus acúmulos de efeito Detector."
+          },
+          {
+            "name": "Mapeamento Topográfico",
+            "desc": "Personagens ativos que estiverem simultaneamente no estado Pena do Falcão de <k>Canção da Pena do Céu</k> e Alma do Vento de <k>Redemoinho Estelar Gelado</k>, ao causarem Dano CRIT com um ataque farão o estado Alma do Vento gerar 1 acúmulo do efeito Detector do Talento de Ascensão \"Supressão de Disparo Rápido\". É possível gerar até 1 acúmulo do efeito Detector em uma duração do estado Alma do Vento.\nAlém disso, o número máximo de acúmulos do efeito Detector que podem ser obtidos no estado Alma do Vento é aumentado em 1.\nÉ necessário desbloquear o Talento de Ascensão \"Supressão de Disparo Rápido\"."
+          },
+          {
+            "name": "Demarcação",
+            "desc": "Mostra a localização de <k>Especialidades de Mondstadt</k> próximas no mapa."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Contingência Inesperada",
+            "desc": "O estado Alma do Vento criado por <k>Redemoinho Estelar Gelado</k> reduzirá o intervalo de regeneração de Vida do estado Pena do Falcão de <k>Canção da Pena do Céu</k>. A proporção da redução será equivalente a proporção de aumento de Vel. de ATQ do estado Alma do Vento."
+          },
+          {
+            "level": 2,
+            "name": "Jornada Acompanhada",
+            "desc": "Quando a Flecha Gélida de <k>Redemoinho Estelar Gelado</k> atinge o primeiro inimigo, ou quando o Sinal Estelar Gélido atinge um inimigo, gerará 1 acúmulo do efeito Detector do Talento de Ascensão \"Supressão de Disparo Rápido\".\nÉ necessário desbloquear o Talento de Ascensão \"Supressão de Disparo Rápido\"."
+          },
+          {
+            "level": 3,
+            "name": "Batedor Veterano",
+            "desc": "Aumenta o nível de <k>Canção da Pena do Céu</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Bênção do Sol Gelado",
+            "desc": "Quando o estado Pena do Falcão de <k>Canção da Pena do Céu</k> de Mika cura os outros personagens da equipe, regenerará 3 de Energia Elemental para Mika. É possível regenerar Energia Elemental em um estado Pena do Falcão de Canção da Pena do Céu até 5 vezes."
+          },
+          {
+            "level": 5,
+            "name": "Flecha Sinalizadora",
+            "desc": "Aumenta o nível do <k>Redemoinho Estelar Gelado</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Conselheiro Acompanhante",
+            "desc": "Aumenta em 1 o número máximo de acúmulos do efeito Detector do estado Alma do Vento de <k>Redemoinho Estelar Gelado</k>. É necessário desbloquear o Talento de Ascensão \"Supressão de Disparo Rápido\".\nAlém disso, personagens ativos sob o estado Alma do Vento obterão 60% de aumento de Dano Físico CRIT."
           }
         ]
       }

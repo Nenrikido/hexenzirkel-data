@@ -195,7 +195,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000054",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -328,6 +328,72 @@
             "level": 6,
             "name": "Sango Isshin",
             "desc": "Lorsque Kokomi revêt la parure cérémoniale créée par <k>Ascension de la néréide</k>, elle bénéficie d'un <e:hydro>bonus de DGT Hydro</e> de 40 % pendant 4 s après avoir effectué un soin sur un personnage dont les PV sont supérieurs ou égaux à 80 % grâce à son attaque normale ou chargée."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Forma da Água",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 ataques consecutivos que assumem a forma de peixes nadando, infligindo <e:hydro>Dano Hydro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para infligir <e:hydro>Dano Hydro em uma AdE</e> após um curto período de canalização.\n\n<k>Ataque Imersivo</k>\nReunindo o poder do Hydro, Kokomi mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <e:hydro>Dano Hydro em uma AdE</e> durante o impacto com o chão."
+          },
+          "skill": {
+            "name": "Juramento Kurage",
+            "desc": "Invoca \"Bake-Kurage\" criado a partir da água que pode curar seus aliados.\nUsar essa habilidade irá aplicar o efeito <e:hydro>Molhado</e> à Sangonomiya Kokomi.\n\n<k>Bake-Kurage</k>\nCausa <e:hydro>Dano Hydro</e> nos inimigos próximos e cura os personagens ativos ao redor com base na Vida Máxima de Sangonomiya Kokomi em intervalos de tempo.\n\n<i>Kokomi precisa de um \"refresco\" pontual a fim de manter a eficiência ideal de trabalho.</i>"
+          },
+          "burst": {
+            "name": "Cerimônia Kaijin",
+            "desc": "O poder de Watatsumi descende, causando <e:hydro>Dano Hydro</e> aos oponentes ao redor, antes de vestir Kokomi em uma Vestimenta Cerimonial feita a partir das águas correntes de Sangonomiya.\n\n<k>Vestimenta Cerimonial</k>\nO Dano do Ataque Normal, Ataque Carregado, e do Bake-Kurage da Habilidade Elemental de Sangonomiya Kokomi são aumentados com base em sua Vida Máxima.\nQuando seus Ataques Normais e Carregados atingirem os oponentes, Kokomi restaurará a Vida de todos os membros da equipe próximos e a quantidade será baseada em sua Vida Máxima.\nAumenta a resistência de Sangonomiya Kokomi à interrupção e permite que ela se mova sobre a superfície da água.\n\nEstes efeitos serão redefinidos quando Sangonomiya Kokomi deixar o campo.\n\n<i>A luz clara se une em túnicas em torno de Sua Excelência, Sangonomiya Kokomi, refletindo sua magnífica forma.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Caixão Haworthia",
+            "desc": "Se o Bake-Kurage da própria Sangonomiya Kokomi está no campo quando ela usa <k>Cerimônia Kaijin</k>, a duração do Bake-Kurage será redefinida."
+          },
+          {
+            "name": "Canção das Pérolas",
+            "desc": "Enquanto vestindo a Vestimenta Cerimonial criada pela <k>Cerimônia Kaijin</k>, o Bônus de Dano dos Ataques Normais e Carregados de Sangonomiya Kokomi ganhos baseado em sua Vida Máxima, receberão um aumento adicional com base em 15% de seu Bônus de Cura."
+          },
+          {
+            "name": "Princesa de Watatsumi",
+            "desc": "Diminui o consumo de Stamina ao Nadar de todos os membros da equipe em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+          },
+          {
+            "name": "Estratégia Infalível",
+            "desc": "Sangonomiya Kokomi obtém um Bônus de Cura de 25%. Sua Taxa CRIT diminui em 100%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "À Beira da Água",
+            "desc": "Enquanto vestindo a Vestimenta Cerimonial criada pela <k>Cerimônia Kaijin</k>, o Ataque Normal final na combinação de Sangonomiya Kokomi liberará um peixe nadador para causar 30% de sua Vida Máxima como <e:hydro>Dano Hydro</e>.\nEste Dano não é considerado como Dano de Ataque Normal."
+          },
+          {
+            "level": 2,
+            "name": "Nuvens como Ondas Ondulantes",
+            "desc": "Sangonomiya Kokomi ganha os seguintes Bônus de Cura em relação a personagens com 50% ou menos de Vida através dos seguintes métodos:\n<k>Juramento Kurage</k> Bake-Kurage: 4.5% da Vida Máxima.\n<k>Cerimônia Kaijin</k> Ataques Normais e Carregados: 0.6% da Vida Máxima."
+          },
+          {
+            "level": 3,
+            "name": "A Lua, Um Navio Sobre os Mares",
+            "desc": "Aumenta o Nível de <k>Cerimônia Kaijin</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "A Lua Contempla as Águas",
+            "desc": "Enquanto vestindo a Vestimenta Cerimonial criada pela <k>Cerimônia Kaijin</k>, a Vel. de ATQ dos Ataques Normais de Sangonomiya Kokomi é aumentado em 10%, e Ataques Normais que acertarem os oponentes recuperarão 0.8 de Energia para si mesma.\nEste efeito pode ocorrer apenas uma vez a cada 0.2s."
+          },
+          {
+            "level": 5,
+            "name": "Todos os Rios Fluem para o Mar",
+            "desc": "Aumenta o Nível de <k>Juramento Kurage</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Sango Isshin",
+            "desc": "Enquanto vestindo a Vestimenta Cerimonial criada pela <k>Cerimônia Kaijin</k>, Sangonomiya Kokomi ganha 40% de <e:hydro>Bônus de Dano Hydro</e> por 4s depois que seu Ataque Normal ou Carregado curar um personagem com 80% ou mais de Vida."
           }
         ]
       }

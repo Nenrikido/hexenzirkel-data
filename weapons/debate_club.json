@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12305",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Après l'utilisation d'une compétence élémentaire, les attaques normales et chargées infligent <r>90 %</r> de DGT d'ATQ supplémentaires dans une zone restreinte lorsqu'elles touchent. Cet effet dure 15 s, et peut être déclenché une fois toutes les 3 s.",
             "4": "Après l'utilisation d'une compétence élémentaire, les attaques normales et chargées infligent <r>105 %</r> de DGT d'ATQ supplémentaires dans une zone restreinte lorsqu'elles touchent. Cet effet dure 15 s, et peut être déclenché une fois toutes les 3 s.",
             "5": "Après l'utilisation d'une compétence élémentaire, les attaques normales et chargées infligent <r>120 %</r> de DGT d'ATQ supplémentaires dans une zone restreinte lorsqu'elles touchent. Cet effet dure 15 s, et peut être déclenché une fois toutes les 3 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um porrete feito de aço. É a base do \"convencimento racional\".",
+        "passive": {
+          "name": "Convencer",
+          "refinements": {
+            "1": "Após usar e acertar uma Habilidade Elemental, Normal ou Ataque Carregado, causa Dano de ATQ adicional de <r>60%</r> em uma área pequena por 15s. Pode ser ativado uma vez a cada 3s.",
+            "2": "Após usar e acertar uma Habilidade Elemental, Normal ou Ataque Carregado, causa Dano de ATQ adicional de <r>75%</r> em uma área pequena por 15s. Pode ser ativado uma vez a cada 3s.",
+            "3": "Após usar e acertar uma Habilidade Elemental, Normal ou Ataque Carregado, causa Dano de ATQ adicional de <r>90%</r> em uma área pequena por 15s. Pode ser ativado uma vez a cada 3s.",
+            "4": "Após usar e acertar uma Habilidade Elemental, Normal ou Ataque Carregado, causa Dano de ATQ adicional de <r>105%</r> em uma área pequena por 15s. Pode ser ativado uma vez a cada 3s.",
+            "5": "Após usar e acertar uma Habilidade Elemental, Normal ou Ataque Carregado, causa Dano de ATQ adicional de <r>120%</r> em uma área pequena por 15s. Pode ser ativado uma vez a cada 3s."
           }
         }
       }

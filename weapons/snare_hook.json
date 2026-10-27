@@ -57,7 +57,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15433",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -84,6 +84,19 @@
             "3": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>90</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>90</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>105</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>105</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de <r>120</r> pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de <r>120</r> pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Esse arco é composto de ligas metálicas, e ainda assim é surpreendentemente leve. Mesmo quando é fortemente retesado, as flechas que dispara passam sem dificuldade.",
+        "passive": {
+          "name": "Lampejo Fantasma",
+          "refinements": {
+            "1": "Nos 12s depois de causar uma reação Elemental, aumenta a Proficiência Elemental em <r>60</r>. Presságio Lunar: Reluzir Cheio: esse efeito aumenta Proficiência Elemental em mais <r>60</r>. Esse efeito pode ser ativado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "2": "Nos 12s depois de causar uma reação Elemental, aumenta a Proficiência Elemental em <r>75</r>. Presságio Lunar: Reluzir Cheio: esse efeito aumenta Proficiência Elemental em mais <r>75</r>. Esse efeito pode ser ativado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "3": "Nos 12s depois de causar uma reação Elemental, aumenta a Proficiência Elemental em <r>90</r>. Presságio Lunar: Reluzir Cheio: esse efeito aumenta Proficiência Elemental em mais <r>90</r>. Esse efeito pode ser ativado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "4": "Nos 12s depois de causar uma reação Elemental, aumenta a Proficiência Elemental em <r>105</r>. Presságio Lunar: Reluzir Cheio: esse efeito aumenta Proficiência Elemental em mais <r>105</r>. Esse efeito pode ser ativado mesmo quando o personagem que está com essa arma equipada não estiver ativo.",
+            "5": "Nos 12s depois de causar uma reação Elemental, aumenta a Proficiência Elemental em <r>120</r>. Presságio Lunar: Reluzir Cheio: esse efeito aumenta Proficiência Elemental em mais <r>120</r>. Esse efeito pode ser ativado mesmo quando o personagem que está com essa arma equipada não estiver ativo."
           }
         }
       }

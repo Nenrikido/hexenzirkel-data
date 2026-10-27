@@ -82,7 +82,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13516",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -109,6 +109,19 @@
             "3": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>60 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>42 %</r> pendant 6 s et lui restaure <r>14</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière.",
             "4": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>72 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>49 %</r> pendant 6 s et lui restaure <r>15</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière.",
             "5": "Pendant 3,5 s après avoir utilisé un déchaînement élémentaire, les DGT infligés aux ennemis par les réactions de Sélénocution du personnage équipé de l'arme augmentent de <r>84 %</r>. De plus, le personnage équipé de l'arme obtient l'effet Requiem de ruine après avoir déclenché une réaction de Sélénocution : augmente ses DGT CRIT de <r>56 %</r> pendant 6 s et lui restaure <r>16</r> pts d'énergie élémentaire, l'énergie élémentaire pouvant être restaurée une fois toutes les 14 s de cette manière."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança longa pintada de preto por causa de incontáveis batalhas, reluz com um brilho etéreo sob a luz azulada fantasmagórica do fogo da lanterna.",
+        "passive": {
+          "name": "Tributo à Lamentação",
+          "refinements": {
+            "1": "Nos 3.5s depois de lançar o Supremo, aumenta o Dano de Carga Lunar causado pelo personagem que está com essa arma equipada em <r>36%</r>. Além disso, quando o personagem que está com essa arma equipada desencadear Carga Lunar, obtém Canção Desolada: aumenta o Dano CRIT em <r>28%</r> por 6s, e regenera <r>12</r> de Energia Elemental para o personagem que está com essa arma equipada. Esse efeito de regeneração de Energia Elemental pode ser ativado uma vez a cada 14s.",
+            "2": "Nos 3.5s depois de lançar o Supremo, aumenta o Dano de Carga Lunar causado pelo personagem que está com essa arma equipada em <r>48%</r>. Além disso, quando o personagem que está com essa arma equipada desencadear Carga Lunar, obtém Canção Desolada: aumenta o Dano CRIT em <r>35%</r> por 6s, e regenera <r>13</r> de Energia Elemental para o personagem que está com essa arma equipada. Esse efeito de regeneração de Energia Elemental pode ser ativado uma vez a cada 14s.",
+            "3": "Nos 3.5s depois de lançar o Supremo, aumenta o Dano de Carga Lunar causado pelo personagem que está com essa arma equipada em <r>60%</r>. Além disso, quando o personagem que está com essa arma equipada desencadear Carga Lunar, obtém Canção Desolada: aumenta o Dano CRIT em <r>42%</r> por 6s, e regenera <r>14</r> de Energia Elemental para o personagem que está com essa arma equipada. Esse efeito de regeneração de Energia Elemental pode ser ativado uma vez a cada 14s.",
+            "4": "Nos 3.5s depois de lançar o Supremo, aumenta o Dano de Carga Lunar causado pelo personagem que está com essa arma equipada em <r>72%</r>. Além disso, quando o personagem que está com essa arma equipada desencadear Carga Lunar, obtém Canção Desolada: aumenta o Dano CRIT em <r>49%</r> por 6s, e regenera <r>15</r> de Energia Elemental para o personagem que está com essa arma equipada. Esse efeito de regeneração de Energia Elemental pode ser ativado uma vez a cada 14s.",
+            "5": "Nos 3.5s depois de lançar o Supremo, aumenta o Dano de Carga Lunar causado pelo personagem que está com essa arma equipada em <r>84%</r>. Além disso, quando o personagem que está com essa arma equipada desencadear Carga Lunar, obtém Canção Desolada: aumenta o Dano CRIT em <r>56%</r> por 6s, e regenera <r>16</r> de Energia Elemental para o personagem que está com essa arma equipada. Esse efeito de regeneração de Energia Elemental pode ser ativado uma vez a cada 14s."
           }
         }
       }

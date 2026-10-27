@@ -40,7 +40,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12409",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -67,6 +67,19 @@
             "3": "Les DGT infligés augmentent de <r>8 %</r> et les DGT reçus de <r>2,4 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT.",
             "4": "Les DGT infligés augmentent de <r>9 %</r> et les DGT reçus de <r>2,2 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT.",
             "5": "Les DGT infligés augmentent de <r>10 %</r> et les DGT reçus de <r>2 %</r> toutes les 4 s que le personnage passe en combat. Cet effet peut être cumulé 5 fois maximum et ne se réinitialise pas si le personnage quitte le combat, mais diminue d'un cumul si le personnage subit des DGT."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma arma rara cuja origem são os oceanos antigos. Ao brandi-la, é possível ouvir as ondas do mar.",
+        "passive": {
+          "name": "Divisor de Ondas",
+          "refinements": {
+            "1": "Quando o jogador está em combate, a cada 4s aumenta o dano causado em <r>6%</r> e <r>3%</r> do Dano recebido. Este efeito pode ser acumulado até 5 vezes, não sendo redefinido após o personagem sair de campo, mas reduzirá 1 camada do efeito quando o personagem receber Dano.",
+            "2": "Quando o jogador está em combate, a cada 4s aumenta o dano causado em <r>7%</r> e <r>2.7%</r> do Dano recebido. Este efeito pode ser acumulado até 5 vezes, não sendo redefinido após o personagem sair de campo, mas reduzirá 1 camada do efeito quando o personagem receber Dano.",
+            "3": "Quando o jogador está em combate, a cada 4s aumenta o dano causado em <r>8%</r> e <r>2.4%</r> do Dano recebido. Este efeito pode ser acumulado até 5 vezes, não sendo redefinido após o personagem sair de campo, mas reduzirá 1 camada do efeito quando o personagem receber Dano.",
+            "4": "Quando o jogador está em combate, a cada 4s aumenta o dano causado em <r>9%</r> e <r>2.2%</r> do Dano recebido. Este efeito pode ser acumulado até 5 vezes, não sendo redefinido após o personagem sair de campo, mas reduzirá 1 camada do efeito quando o personagem receber Dano.",
+            "5": "Quando o jogador está em combate, a cada 4s aumenta o dano causado em <r>10%</r> e <r>2%</r> do Dano recebido. Este efeito pode ser acumulado até 5 vezes, não sendo redefinido após o personagem sair de campo, mas reduzirá 1 camada do efeito quando o personagem receber Dano."
           }
         }
       }

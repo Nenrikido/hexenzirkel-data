@@ -236,7 +236,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000065",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -361,6 +361,68 @@
             "level": 6,
             "name": "Pour parer à la faiblesse",
             "desc": "Lorsque Kuki Shinobu subit des DGT mortels, elle n'est pas vaincue cette fois-ci. Cet effet se déclenche automatiquement lorsque Kuki Shinobu a 1 PV et peut être déclenché une fois toutes les 60 s.\nLorsque les PV de Kuki Shinobu passent sous le seuil des 25 %, sa maîtrise élémentaire augmente de 150 pts pendant 15 s. Cet effet peut être déclenché une fois toutes les 60 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lâmina Escondida de Shinobu",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Anel Santificador",
+            "desc": "Cria um Anel de Grama Santificada que consome parte da Vida para infligir <e:electro>Dano Electro</e> contra os inimigos ao redor.\n\n<k>Anel de Grama Santificada</k>.\nSegue o personagem ativo no campo de batalha. A cada 1.5s inflige <e:electro>Dano Electro</e> contra os inimigos ao redor e regenera Vida para personagens dentro da AdE do anel no campo de batalha. A quantidade de Vida restaurada é baseada na Vida Máxima de Kuki Shinobu.\n\nA Vida consumida para usar essa habilidade não reduzirá a Vida atual de Kuki Shinobu para menos de 20%.\n\n<i>Amarre a Erva Naku na sua cintura que ela exorcizará o mal</i>."
+          },
+          "burst": {
+            "name": "Ritual Semeador Narukami",
+            "desc": "Crava uma lâmina expurgadora do mal no chão, criando uma barreira purificadora do mal em frente, infligindo <e:electro>Dano Electro</e> contínuo contra os inimigos dentro dela baseado na Vida Máxima de Kuki Shinobu.\nAo lançar essa habilidade, se a Vida de Kuki Shinobu for menor ou igual a 50%, a duração da barreira será prolongada.\n\n<i>Originalmente isso era uma técnica usada em capina e em rituais para colheitas anuais. Apesar de sua vida como sacerdotisa ter acabado, Shinobu não esqueceu disso.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Ambição Libertadora",
+            "desc": "Quando a Vida de Kuki Shinobu não for superior a 50%, o Bônus de Cura é aumentado em 15%."
+          },
+          {
+            "name": "Local da Calma",
+            "desc": "<k>Anel Santificador</k> obtém os seguintes bônus baseados na Proficiência Elemental de Kuki Shinobu:\n· Aumento de Cura baseado em 75% da Proficiência Elemental;\n· Aumento de Dano baseado em 25% da Proficiência Elemental."
+          },
+          {
+            "name": "Rezas Prolongadas",
+            "desc": "Ganha 25% de recompensas a mais quando enviada numa Expedição em Inazuma por 20 horas."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Compaixão Renegada",
+            "desc": "Aumenta a AdE de <k>Ritual Semeador Narukami</k> em 50%."
+          },
+          {
+            "level": 2,
+            "name": "Fortuna Renegada",
+            "desc": "Aumenta a duração do <k>Anel de Grama Santificada</k> em 3s."
+          },
+          {
+            "level": 3,
+            "name": "Dor Renegada",
+            "desc": "Aumenta o nível de <k>Anel Santificador</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Reclusão Renegada",
+            "desc": "Quando o personagem está no estado de <k>Anel de Grama Santificada</k> de Kuki Shinobu e seu Ataque Normal, Ataque Carregado ou Ataque Imersivo atinge o inimigo, uma marca de Grama dos Trovões cairá na posição do adversário, e infligirá <e:electro>Dano Electro em AdE</e> baseado em 9.7% da Vida Máxima de Kuki Shinobu.\nEsse efeito pode ocorrer até uma vez a cada 5s."
+          },
+          {
+            "level": 5,
+            "name": "Sem Cortesia",
+            "desc": "Aumenta o nível de <k>Ritual Semeador Narukami</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Evitando a Fraqueza",
+            "desc": "Quando Kuki Shinobu sofre Dano que pode derrotá-la, esse Dano não a derrotará. Esse efeito será desencadeado automaticamente quando sua Vida atingir 1, e pode ocorrer uma vez a cada 60s.\nQuando a Vida de Kuki Shinobu for inferior a 25%, aumentará sua Proficiência Elemental em 150 pontos por 15s. Esse efeito pode ocorrer uma vez a cada 60s."
           }
         ]
       }

@@ -35,7 +35,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14506",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -62,6 +62,19 @@
             "3": "Augmente le bonus de soins de <r>15 %</r>, et les DGT des attaques normales d'une valeur équivalant à <r>2 %</r> des PV max du personnage équipé de l'arme. Pendant 12 s après l'utilisation d'un déchaînement élémentaire, les attaques normales qui touchent un ennemi restaurent 0,6 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,1 s de cette manière.",
             "4": "Augmente le bonus de soins de <r>17,5 %</r>, et les DGT des attaques normales d'une valeur équivalant à <r>2,5 %</r> des PV max du personnage équipé de l'arme. Pendant 12 s après l'utilisation d'un déchaînement élémentaire, les attaques normales qui touchent un ennemi restaurent 0,6 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,1 s de cette manière.",
             "5": "Augmente le bonus de soins de <r>20 %</r>, et les DGT des attaques normales d'une valeur équivalant à <r>3 %</r> des PV max du personnage équipé de l'arme. Pendant 12 s après l'utilisation d'un déchaînement élémentaire, les attaques normales qui touchent un ennemi restaurent 0,6 pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,1 s de cette manière."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um lindo cordão de jaspe das profundezas do mar. Ele brilha com um brilho puro, e igualmente distante quanto o da lua.",
+        "passive": {
+          "name": "Byakuya Kougetsu",
+          "refinements": {
+            "1": "Bônus de Cura aumentado em <r>10%</r>, o Ataque Normal é aumentado em <r>1%</r> da Vida Máxima do personagem equipando esta arma. Nos 12s após usar um Supremo, os Ataques Normais que acertarem oponentes recuperarão 0.6 de Energia Elemental. A Energia pode ser recuperada desta maneira uma vez a cada 0.1s.",
+            "2": "Bônus de Cura aumentado em <r>12.5%</r>, o Ataque Normal é aumentado em <r>1.5%</r> da Vida Máxima do personagem equipando esta arma. Nos 12s após usar um Supremo, os Ataques Normais que acertarem oponentes recuperarão 0.6 de Energia Elemental. A Energia pode ser recuperada desta maneira uma vez a cada 0.1s.",
+            "3": "Aumenta o Bônus de Cura em <r>15%</r>; aumenta o Dano do Ataque Normal em <r>2%</r> da Vida Máxima do personagem com o arma equipada. Nos 12s após utilizar o Supremo, Ataques Normais que atingirem oponentes regenerarão 0.6 pontos de Energia Elemental. Energia Elemental pode ser regenerada dessa forma uma vez a cada 0.1s.",
+            "4": "Bônus de Cura aumentado em <r>17.5%</r>, o Ataque Normal é aumentado em <r>2.5%</r> da Vida Máxima do personagem equipando esta arma. Nos 12s após usar um Supremo, os Ataques Normais que acertarem oponentes recuperarão 0.6 de Energia Elemental. A Energia pode ser recuperada desta maneira uma vez a cada 0.1s.",
+            "5": "Bônus de Cura aumentado em <r>20%</r>, o Ataque Normal é aumentado em <r>3%</r> da Vida Máxima do personagem equipando esta arma. Nos 12s após usar um Supremo, os Ataques Normais que acertarem oponentes recuperarão 0.6 de Energia Elemental. A Energia pode ser recuperada desta maneira uma vez a cada 0.1s."
           }
         }
       }

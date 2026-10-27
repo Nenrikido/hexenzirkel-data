@@ -203,63 +203,118 @@
     "self_modifiers_json": {
       "kesagiri_dmgIncFromDef_": 0.35
     },
-    "self_conditional_modifiers_json": [
-      {
-        "conditionKey": "burstRoyalDescent",
-        "source": "AratakiItto",
-        "description": "Royal Descent: Behold, Itto the Evil!: Itto's ATK is increased by 103.68% of his DEF (burst Lv10) for the duration, and his Normal, Charged and Plunging Attacks are converted to Geo DMG (baked into the hit definitions, so this condition carries only the ATK half). C5 raises the burst to Lv13: 122.4% of DEF.",
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "atk_from_def_": 1.0368
-            }
-          }
-        ],
-        "constellationStates": {
-          "C5": {
-            "on": {
-              "atk_from_def_": 1.224
-            }
-          }
-        }
-      },
-      {
-        "conditionKey": "c6AratakiIttoPresent",
-        "source": "AratakiItto",
-        "description": "C6 Arataki Itto, Present!: Itto's Charged Attacks deal +70% CRIT DMG (the chance not to consume Superlative Superstrength stacks is not modeled).",
-        "gating": {
-          "constellationMin": 6
-        },
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "charged_critDMG_": 0.7
-            }
-          }
-        ]
-      }
+    "self_conditional_modifiers_json": [
+
+      {
+
+        "conditionKey": "burstRoyalDescent",
+
+        "source": "AratakiItto",
+
+        "description": "Royal Descent: Behold, Itto the Evil!: Itto's ATK is increased by 103.68% of his DEF (burst Lv10) for the duration, and his Normal, Charged and Plunging Attacks are converted to Geo DMG (baked into the hit definitions, so this condition carries only the ATK half). C5 raises the burst to Lv13: 122.4% of DEF.",
+
+        "states": [
+
+          {
+
+            "value": "on",
+
+            "modifiers": {
+
+              "atk_from_def_": 1.0368
+
+            }
+
+          }
+
+        ],
+
+        "constellationStates": {
+
+          "C5": {
+
+            "on": {
+
+              "atk_from_def_": 1.224
+
+            }
+
+          }
+
+        }
+
+      },
+
+      {
+
+        "conditionKey": "c6AratakiIttoPresent",
+
+        "source": "AratakiItto",
+
+        "description": "C6 Arataki Itto, Present!: Itto's Charged Attacks deal +70% CRIT DMG (the chance not to consume Superlative Superstrength stacks is not modeled).",
+
+        "gating": {
+
+          "constellationMin": 6
+
+        },
+
+        "states": [
+
+          {
+
+            "value": "on",
+
+            "modifiers": {
+
+              "charged_critDMG_": 0.7
+
+            }
+
+          }
+
+        ]
+
+      }
+
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [
-      {
-        "conditionKey": "c4JailhouseBreadAndButter",
-        "source": "AratakiItto",
-        "description": "C4 Jailhouse Bread and Butter: when the Raging Oni King state from Royal Descent ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
-        "gating": {
-          "constellationMin": 4
-        },
-        "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "def_": 0.2,
-              "atk_": 0.2
-            }
-          }
-        ]
-      }
+    "team_conditional_modifiers_json": [
+
+      {
+
+        "conditionKey": "c4JailhouseBreadAndButter",
+
+        "source": "AratakiItto",
+
+        "description": "C4 Jailhouse Bread and Butter: when the Raging Oni King state from Royal Descent ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
+
+        "gating": {
+
+          "constellationMin": 4
+
+        },
+
+        "states": [
+
+          {
+
+            "value": "on",
+
+            "modifiers": {
+
+              "def_": 0.2,
+
+              "atk_": 0.2
+
+            }
+
+          }
+
+        ]
+
+      }
+
     ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
@@ -268,7 +323,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000057",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -393,6 +448,68 @@
             "level": 6,
             "name": "Arataki Itto, présent !",
             "desc": "Les DGT CRIT des attaques chargées d'Arataki Itto augmentent de 70 %. De plus, lorsqu'il utilise une série de kesa giri d'Arataki, il a 50 % de chances de ne pas consommer de mégaforce superlative."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lenda do Combate",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes consecutivos.\nQuando seu 2º e 4º ataque atingirem os oponentes, Itto vai gerar 1 e 2 cargas de Superforça Superlativa respectivamente.\nMáximo de 5 cargas. O acionamento deste efeito reiniciará a duração atual de qualquer acúmulo existente.\n\nAlém disso, mesmo quando usar a Habilidade Elemental \"Masatsu Zetsugi: Explosão Akaushi!\" ou depois de correr por um curto período de tempo, o combo do Ataque Normal de Itto não será redefinido.\n\n<k>Ataque Carregado</k>\nAo manter pressionado para iniciar um Ataque Carregado, poderá usar cortes de Arataki Kesagiri sem usar qualquer Stamina. Cada corte de Arataki Kesagiri consumirá 1 carga de Superforça Superlativa. Quando a carga final for consumida, Itto irá desencadear um ataque especialmente poderoso.\nQuando não houver cargas de Superforça Superlativa disponíveis, Itto executará um único corte Saichimonji.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Masatsu Zetsugi: Explosão Akaushi!",
+            "desc": "Lança Ushi, o jovem touro akaushi e membro auxiliar da Gangue Arataki, causando <e:geo>Dano Geo</e> nos oponentes! Quando Ushi atingir os oponentes, concederá a Arataki Itto 1 carga de Superforça Superlativa.\n\nUshi permanecerá no campo e fornecerá apoio das seguintes formas:\nChama a atenção dos oponentes ao redor e atrai seus ataques.\nHerda certa porcentagem de Vida baseada na Vida Máxima de Arataki Itto.\nQuando atacado, ele fornecerá a Arataki Itto 1 carga de Superforça Superlativa. 1 carga pode ser obtida desta forma uma vez a cada 2s.\nEle fugirá quando sua Vida chegar a 0 ou sua duração terminar. Ele concederá a Arataki Itto 1 carga de Superforça Superlativa quando ele sair de campo.\n\n<k>Manter Pressionado</k>\nAjusta o ângulo de lançamento.\n\nUshi é considerado uma <e:geo>Construção Geo</e> e Arataki Itto só pode ter 1 Ushi que ele mesmo tenha colocado em campo por vez.\n\n<i>O nome desta técnica é derivado de Onibudou (uma light novel escrita por Junkichi). Entretanto, chamá-lo de \"Onisatsu Zetsugi\" provavelmente constituiria uma violação de direitos autorais — sem mencionar como o Itto em si é um oni e tal...</i>"
+          },
+          "burst": {
+            "name": "Descendência Real: Contemplem, Itto o Maligno!",
+            "desc": "É hora de mostrar a eles o poder da Gangue Arataki! Por um tempo, Itto deixa seu Rei Oni Furioso interior emergir, usando seu Rei Oni Kanabou em batalha.\nEste estado tem as seguintes propriedades especiais:\nAtaques Normais, Carregados e Imersivos serão convertidos em <e:geo>Dano Geo</e> que não pode ser substituído.\nA velocidade do Ataque Normal de Itto será aumentada, e o ATQ será aumentado com base em sua DEF.\nO primeiro e terceiro ataque concederão cada um a Arataki Itto 1 carga de Superforça Superlativa quando eles atingirem os adversários.\nItto perde 20% de RES Elemental e Física.\n\nO estado de Rei Oni Furioso será removido quando Itto deixa o campo.\n\n<i>Esta é a maior super ultra mega técnica incrível do Itto (segundo ele). É inútil para Arataki Itto imitar qualquer outra coisa para ficar mais forte, pois ele, e nenhum outro, é o mais forte, o mais terrível oni da terra.</i>\n<i>Shouta acha isso bem legal.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Arataki Ichiban",
+            "desc": "Quando Arataki Itto usa consecutivos Arataki Kesagiri, ele obtém os seguintes efeitos:\nCada corte faz com que os cortes subsequentes tenham 10% a mais de Vel. de ATQ. Vel. de ATQ máxima é aumentada em 30%.\nAumenta sua resistência à interrupção.\n\nEstes efeitos serão dissipados quando ele parar de executar cortes consecutivos."
+          },
+          {
+            "name": "Linhagem do Oni Carmesim",
+            "desc": "Dano do Arataki Kesagiri é aumentado em 35% da DEF de Arataki Itto."
+          },
+          {
+            "name": "Itto o Lenhador",
+            "desc": "Quando um membro da equipe usa ataques para obter madeira de uma árvore, ele tem 25% de chance de conseguir madeira adicional."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Fique um Tempo e Escute",
+            "desc": "Ao lançar <k>Descendência Real: Contemplem, Itto o Maligno!</k>, Arataki Itto obtém 2 cargas de Superforça Superlativa. Após 1s, Arataki Itto obtém outra carga de Superforça Superlativa a cada 0,5s, durante 1,5s."
+          },
+          {
+            "level": 2,
+            "name": "Juntem-se, Hora da Briga!",
+            "desc": "Após usar <k>Descendência Real: Contemplem, Itto o Maligno!</k>, cada membro da equipe cujo elemento seja <e:geo>Geo</e> irá diminuir o Tempo de Recarga desta habilidade em 1.5s e restaurar 6 de Energia Elemental para Arataki Itto.\nUm máximo de 4.5s do Tempo de Recarga pode ser reduzido e 18 de Energia restaurada desta maneira."
+          },
+          {
+            "level": 3,
+            "name": "Lá Vem o Touro!",
+            "desc": "Aumenta o nível da <k>Masatsu Zetsugi: Explosão Akaushi!</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Cárcere Privado",
+            "desc": "Depois que o \"Rei Oni Furioso\" aplicado pela <k>Descendência Real: Contemplem, Itto o Maligno!</k> terminar, a DEF e o ATQ de todos os personagens da equipe que se encontrarem próximos aumentará em 20% durante 10 segundos."
+          },
+          {
+            "level": 5,
+            "name": "10 Anos de Fama de Hanamizaka",
+            "desc": "Aumenta o nível da <k>Descendência Real: Contemplem, Itto o Maligno!</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Arataki Itto, Presente!",
+            "desc": "Os Ataques Carregados de Arataki Itto causam 70% a mais de Dano CRIT. Além disso, quando ele usa Arataki Kesagiri, ele tem 50% de chance de não consumir cargas de Superforça Superlativa."
           }
         ]
       }

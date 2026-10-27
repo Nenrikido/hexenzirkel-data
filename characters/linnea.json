@@ -231,7 +231,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000130",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -364,6 +364,72 @@
             "level": 6,
             "name": "Rêve du Brachet doré",
             "desc": "La constellation <k>Classification provisoire</k> est renforcée : Linnea obtient directement le maximum de <k>catalogues de terrain</k> en utilisant la compétence élémentaire <k>Contre-mesure : Cri de guerre de Lumi !</k> ou en déclenchant une harmonie de voile lunaire, et consommer des <k>catalogues de terrain</k> consomme une quantité de catalogues d'une valeur équivalant à 2 fois la quantité d'origine consommée afin d'augmenter l'amélioration de DGT jusqu'à 150 % de sa valeur d'origine.\n\n<k>Signelune « Lueur ascendante »</k> : les DGT de réaction de Sélénocristallisation des personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 25 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Protocolo de Captura",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 tiros consecutivos com um arco.\n\n<k>Ataque Carregado</k>\nDispara um <k>Disparo de Flecha</k> mais preciso e com Dano aumentado.\nAo mirar, Pedras Cristalizadas irão se acumular na ponta da flecha. Uma flecha em Pedras Cristalizadas completamente carregada inflige <e:geo>Dano Geo</e>.\n\n<k>Ataque Imersivo</k>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Contramedida: Grito de Guerra de Lumi!",
+            "desc": "Se aventure com Lumi! Dependendo de como pressionar, Lumi ataca de formas diferentes.\n\n<k>Pressionar</k>\nLumi golpeia na <k>Forma Superpoderosa</k>, atacando inimigos próximos continuamente, causando <e:geo>Dano Geo em AdE</e>. Se houver Jaulas Lunares por perto, Lumi também causará <e:geo>Dano Geo em AdE</e> contra inimigos próximos, que será considerado Dano de Cristalização Lunar.\n\n<k>Pressionar Repetidamente</k>\nHora de mostrar do que somos capazes! Depois de usar a Habilidade Elemental, ao pressionar a Habilidade Elemental ou o Ataque Normal repetidamente, Linnea alimenta Lumi com gemas brilhantes. Uma Lumi de barriga cheia ataca na sua <k>Forma de Poder Supremo</k>, causando um golpe especialmente poderoso de <e:geo>Dano Geo em AdE</e> que é considerado Dano de Cristalização Lunar, trocando para a <k>Forma de Poder Normal</k>.\nAlém disso, pressionar a Habilidade Elemental aumenta a RES contra Interrupção de Linnea.\n\n<i>\"Sua vez, Lumi!\"</i>"
+          },
+          "burst": {
+            "name": "Lembrança: Guia de Sobrevivência Extremo",
+            "desc": "Até mestres aventureiros precisam de descanso! Linnea invoca Lumi para atacar na <k>Forma Superpoderosa</k>, curando membros próximos. Ela curará continuamente personagens ativos próximos baseado na DEF de Linnea por um curto tempo.\nSe Lumi já atacou ao lançar o Supremo, a duração ativa de Lumi será redefinida. A Forma de Ataque de Lumi não mudará.\n\n<i>\"Qualquer aventureiro profissional que se valorize sabe apreciar sair de uma enrascada com uma descoberta, não importa quão grande ela seja!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Anotações de Observação de Campo",
+            "desc": "Quando Lumi está em campo, ela reduz a <e:geo>RES Geo</e> dos inimigos próximos em 15%.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: fortalece a Habilidade Elemental <k>Contramedida: Grito de Guerra de Lumi!</k> e o Supremo <k>Lembrança: Guia de Sobrevivência Extremo</k> de Linnea. Depois de invocar Lumi, ela reduz a <e:geo>RES Geo</e> dos inimigos próximos em mais 15%."
+          },
+          {
+            "name": "Arquivo Naturalista Universal",
+            "desc": "Linnea aumenta a Proficiência Elemental de certos personagens da equipe com base em 5% de sua DEF de acordo com o personagem ativo.\n· Para personagens de Presságio Lunar: aumenta a Proficiência Elemental desse personagem.\n· Para personagens que não são de Presságio Lunar: aumenta a Proficiência Elemental de Linnea."
+          },
+          {
+            "name": "Bênção do Presságio Lunar: Inspeção Residencial",
+            "desc": "Quando um membro da equipe desencadeia Cristalização Hydro, converte para Cristalização Lunar, e aumenta o Dano Básico de Cristalização Lunar com base na DEF de Linnea: aumenta o Dano Básico de Cristalização Lunar em 0.7% a cada 100 de DEF. É possível aumentar em até 14% dessa forma.\n\nAlém disso, quando Linnea está na equipe, aumenta o nível de <k>Presságio Lunar</k> em 1."
+          },
+          {
+            "name": "Grande Mestre Aventureira",
+            "desc": "Quando não está em combate, o tempo de carregamento do <k>Disparo com Mira</k> de Linnea é reduzido consideravelmente, e ela disparará uma <k>Flecha Rápida Super Conveniente</k>. Efeitos diferentes ocorrerão dependendo do alvo atingido:\n· Certos animais: a <k>Flecha Rápida Super Conveniente</k> será transformada em uma rede que pode capturar a essência e forma dos animais, usando-as como meio para manifestar a forma física do animal novamente. A rede só pode ser utilizada uma certa quantidade de vezes por semana.\n· Veios de minérios de forjamento: Linnea envia Lumi, que rapidamente golpeia os minérios marcados pela <k>Flecha Rápida Super Conveniente</k>, e então coleta esses minérios. Se Lumi não estiver no campo, Linnea a invoca por uma curta duração para ajudar a obter os minérios.\n\nO Dano causado contra oponentes pela <k>Flecha Rápida Super Conveniente</k> de Linnea é reduzido em 20% do seu Dano de Flecha Carregada. Além disso, depois de disparar um certo número de <k>Flechas Rápidas Super Convenientes</k> dentro de um curto período de tempo, Linnea precisa descansar antes de poder usá-las novamente."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Catálogo Incompleto",
+            "desc": "Ao lançar a Habilidade Elemental <k>Contramedida: Grito de Guerra de Lumi!</k>, ou ao desencadear Sonata da Jaula Lunar, Linnea ganha 6 acúmulos de <k>Registro de Campo</k> por 10s. Máximo de 18 acúmulos. Quando um membro próximo da equipe causa Dano de Cristalização Lunar, consome 1 acúmulo de Registro de Campo para aumentar o Dano causado. O aumento de Dano é equivalente a 75% da DEF de Linnea.\nAlém disso, quando Lumi usa <k>Esmagador de Milionárias Toneladas</k> na sua <k>Forma de Poder Supremo</k>, Linnea pode consumir até 5 acúmulos de Registro de Campo. Cada acúmulo aumenta o Dano causado em 150% da DEF de Linnea."
+          },
+          {
+            "level": 2,
+            "name": "Presságios de Alegria e Sofrimento",
+            "desc": "Nos 8s após desencadear uma Sonata da Jaula Lunar, todos os membros <e:hydro>Hydro</e> e <e:geo>Geo</e> da equipe têm um aumento de 40% do Dano CRIT. Além disso, quando Lumi usa o <k>Esmagador de Milionárias Toneladas</k> na sua <k>Forma de Poder Supremo</k>, o Dano CRIT desse ataque aumenta em mais 150%.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: quando Lumi usa <k>Martelo Pesado da Sobrecarga</k> na sua <k>Forma Superpoderosa</k>, ou quando usa o <k>Esmagador de Milionárias Toneladas</k> na Forma de Poder Supremo, uma instância de Sonata da Jaula Lunar será ativada. Nessa instância de Sonata da Jaula Lunar, todos os personagens <e:hydro>Hydro</e> e <e:geo>Geo</e> na equipe serão considerados como se tivessem aplicado seus Elementos na reação."
+          },
+          {
+            "level": 3,
+            "name": "Página do Diário Marcante",
+            "desc": "Aumenta o nível da <k>Contramedida: Grito de Guerra de Lumi!</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Instinto Especialista",
+            "desc": "Nos 5s depois de desencadear a Sonata da Jaula Lunar, aumenta a DEF de Linnea e dos membros ativos da equipe 25% cada. Quando Linnea é a personagem ativa, esse aumento de DEF pode ser acumulado."
+          },
+          {
+            "level": 5,
+            "name": "Presente de Despedida da Terra Natal",
+            "desc": "Aumenta o nível do Supremo <k>Lembrança: Guia de Sobrevivência Extremo</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Sonho do Cão Dourado",
+            "desc": "Os efeitos da Constelação <k>Catálogo Incompleto</k> são fortalecidos: ao lançar a Habilidade Elemental <k>Contramedida: Grito de Guerra de Lumi!</k>, ou ao desencadear uma Sonata da Jaula Lunar, Linnea ganhará diretamente o número máximo de acúmulos de <k>Registro de Campo</k>. Ao consumir <k>Registro de Campo</k>, consome um número de acúmulos igual ao dobro do número original, de forma que o aumento de Dano será aumentado em 150% do valor original.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: o Dano de Cristalização Lunar causado por membros próximos da equipe será <k>elevado</k> em 25%."
           }
         ]
       }

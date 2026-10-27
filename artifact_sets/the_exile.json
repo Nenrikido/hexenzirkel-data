@@ -13,7 +13,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10009",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -29,6 +29,13 @@
         "bonuses": {
           "2": "Augmente la recharge d'énergie de 20 %.",
           "4": "Le déchaînement élémentaire restaure 2 pts d'énergie élémentaire à tous les personnages de l'équipe (à l'exception du porteur) toutes les 2 s pendant 6 s. Cet effet est non cumulable."
+        }
+      },
+      "pt": {
+        "name": "O Exilado",
+        "bonuses": {
+          "2": "Recarga de Energia +20%",
+          "4": "Ao usar o Supremo, regenera 2 de Energia a todos os personagens da equipe (excluindo o portador) a cada 2s por 6s. Este efeito não pode ser acumulado."
         }
       }
     }

@@ -315,7 +315,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000096",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -440,6 +440,68 @@
             "level": 6,
             "name": "« Désormais, nous vivrons ensemble une nouvelle vie. »",
             "desc": "Les DGT infligés par <k>Ascension lunatique</k> augmentent d'une valeur équivalant à l'ATQ d'Arlecchino multipliée par 700 % du pourcentage de son engagement vital actuel.\nPendant 20 s après avoir utilisé <k>Pulvérisation totale</k>, le taux CRIT des attaques normales et des déchaînements élémentaires d'Arlecchino augmente de 10 % et leurs DGT CRIT de 70 %. Cet effet peut être déclenché une fois toutes les 15 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Convite para Decapitação",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 6 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina, avançando contra os inimigos em frente e os atacando uma vez.\nQuando você mantiver pressionado, Arlecchino se moverá rapidamente, consumindo Stamina. Esse movimento durará até 5s.\n\n<k>Ataque Imersivo</k>\nMergulha no ar para atacar no chão, causando Dano contra os oponentes no caminho e causando Dano em AdE ao atingir o chão.\n\n<k>Máscara Vermelha da Morte</k>\nQuando Arlecchino tem um Contrato de Vida igual ou maior que 30% de sua Vida Máxima, o Dano do Ataque Normal, Carregado e Imersivo de Arlecchino é convertido para <e:pyro>Dano Pyro</e> que não pode ser substituído.\nQuando estiver no estado \"Máscara Vermelha da Morte\", e quando os Ataques Normais de Arlecchino atingirem um oponente, esse Ataque causará Dano adicional baseado no ATQ multiplicado por uma certa porcentagem do Contrato de Vida atual. Isso consumirá 7.5% desse Contrato de Vida. Um Contrato de Vida pode ser consumido dessa forma uma vez a cada 0.03s. Quando o Contrato de Vida é consumido dessa forma, reduz a recarga da Habilidade Elemental \"Tudo são Cinzas\" em 0.8s."
+          },
+          "skill": {
+            "name": "Tudo são Cinzas",
+            "desc": "Invoca a Lua de Sangue, causando <e:pyro>Dano Pyro</e> contra vários inimigos próximos, fazendo um golpe contra um deles que causa <e:pyro>Dano Pyro em AdE</e>.\nInimigos atingidos por esse ataque serão marcados com o Comando da Dívida de Sangue.\n\n<k>Comando da Dívida de Sangue</k>\n· Dura 30s. A cada 5s, causa 1 instância de <e:pyro>Dano Pyro</e> contra o oponente. Máximo de 2 instâncias. Esse Dano é considerado Dano de Habilidade Elemental\n· Quando Arlecchino usa um Ataque Carregado ou lança seu Supremo \"Ascensão da Lua Ominosa\", absorve e elimina os Comandos das Dívidas de Sangue que aplicou. Cada Comando absorvido a dá um Contrato de Vida equivalente a 65% de sua Vida Máxima.\n· Ela pode ganhar um Contrato de Vida equivalente a 145% de sua Vida Máxima dentro nos 35s após usar sua Habilidade Elemental. Lançar a Habilidade Elemental novamente durante esse período redefinirá a contagem da duração e o limite do Contrato de Vida que ganha de Comando da Dívida de Sangue.\n\n<i>Da forma que ela vê, não é todo grão de trigo que cai na terra que vai crescer, enquanto aqueles que ficam em seu caminho, quando queimados em chamas, podem ser usados novamente para nutrir as flores.</i>"
+          },
+          "burst": {
+            "name": "Ascensão da Lua Ominosa",
+            "desc": "Arlecchino bate as asas da Lua de Sangue, absorvendo e eliminando os Comandos da Dívida de Sangue ao seu redor, causando <e:pyro>Dano Pyro em AdE</e>, depois disso remove a recarga da Habilidade Elemental \"Tudo são Cinzas\" e regenera a própria Vida. A quantidade regenerada é baseada no valor do Contrato de Vida e no ATQ.\n\n<i>É comum se acreditar em Teyvat que as fases da lua são metáforas de presságios, usadas por àqueles que praticam a alquimia e astrologia.\nEla viu a lua carmesim muitas vezes em seus sonhos. Eram presságios de desastres? Sim, mas as catástrofes previstas eram daqueles que a haviam enfurecido.</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Somente a Dor pode ser Compensada",
+            "desc": "<k>Comando da Dívida de Sangue</k> tem as seguintes características:\n· Quando um oponente afetado por Comando da Dívida de Sangue de Arlecchino é derrotado, será concedido a ela um Contrato de Vida equivalente a 130% de sua Vida Máxima.\n· 5s depois de um Comando da Dívida de Sangue ser aplicado, ele será elevado à Comando da Dívida de Sangue: Pagamento. Ao ser absorvido, fornecerá para Arlecchino um Contrato de Vida equivalente a 130% da sua Vida Máxima.\nUm Contrato de Vida criado dessa forma não pode ultrapassar o limite original do valor do Contrato de Vida obtido através de <k>Tudo são Cinzas</k>."
+          },
+          {
+            "name": "Somente a Força Defende",
+            "desc": "Arlecchino ganha 1% de RES contra Todos os Elementos e RES Física para cada 100 pontos de ATQ que possui acima de 1.000. O aumento máximo de RES que Arlecchino pode obter dessa forma para a RES contra Todos Elementos e RES Física é de 20%."
+          },
+          {
+            "name": "Somente a Lua Ominosa Sabe",
+            "desc": "Enquanto em combate, Arlecchino ganha 40% de <e:pyro>Bônus de Dano Pyro</e> e somente pode ser curada através de <k>Ascensão da Lua Ominosa</k>."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"Todas as Vinganças e Dívidas são Minhas...\"",
+            "desc": "Máscara Vermelha da Morte é fortalecida. O valor do aumento é de 100%. Além disso, enquanto estiver no estado Máscara Vermelha da Morte, a RES contra Interrupção de Arlecchino é aumentada quando ela realiza Ataques Normais ou Carregados."
+          },
+          {
+            "level": 2,
+            "name": "\"Todas as Recompensas e Retribuições são Minhas para Dar...\"",
+            "desc": "<k>Comando da Dívida de Sangue</k> lança agora Comando da Dívida de Sangue: Pagamento\nQuando Arlecchino absorve um Comando da Dívida de Sangue: Pagamento, ela lança uma Lua de Sangue que causa 900% de seu ATQ como <e:pyro>Dano Pyro em AdE</e> e aumenta todas as suas resistências elementais e físicas em 20% por 15s. Esse efeito pode ser desencadeado uma vez a cada 10s.\nPrimeiro é necessário desbloquear o Talento de Ascensão \"Somente a Dor pode ser Compensada\"."
+          },
+          {
+            "level": 3,
+            "name": "\"Você se Tornará um Novo Membro da Nossa Família...\"",
+            "desc": "Aumenta o nível do <k>Ataque Normal: Convite para Decapitação</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "\"De Hoje em Diante, Amor e Proteção Mútua...\"",
+            "desc": "Quando Arlecchino absorve com sucesso Comando da Dívida de Sangue, a recarga de <k>Ascensão da Lua Ominosa</k> reduzirá em 2s, e regenerará 15 de Energia para ela. Esse efeito pode ocorrer uma vez a cada 10s."
+          },
+          {
+            "level": 5,
+            "name": "\"Sozinhos, Estamos Mortos...\"",
+            "desc": "Aumenta o Nível de <k>Ascensão da Lua Ominosa</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "\"De Hoje em Diante, Nos Deliciaremos numa Nova Vida.\"",
+            "desc": "O Dano do ataque de <k>Ascensão da Lua Ominosa</k> é aumentado no valor do ATQ de Arlecchino multiplicado por 700% do Contrato de Vida atual.\nNos 20s depois de Arlecchino usar <k>Tudo são Cinzas</k>, o Ataque Normal e o Supremo terão a Taxa CRIT aumentada em 10% e o Dano CRIT em 70%. Esse efeito pode ser desencadeado uma vez a cada 15s."
           }
         ]
       }

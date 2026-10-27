@@ -353,7 +353,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000089",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -478,6 +478,68 @@
             "level": 6,
             "name": "« Entends-moi, et levons les coupes de l'amour ! »",
             "desc": "Lorsqu'elle utilise <k>Salon solitaire</k>, Furina devient le centre d'attention pendant 10 s.\nPendant cette durée, les DGT de ses attaques normales, chargées et plongeantes sont convertis en <e:hydro>DGT Hydro</e> ne pouvant pas être enchantés et augmentent d'une valeur équivalant à 18 % de ses PV max.\nDe plus, après avoir touché un ennemi pendant cette durée, ses attaques normales (sauf les attaques de « Arkhe : Sacralité et sécularisation »), chargées et l'impact au sol de ses attaques plongeantes produisent divers effets toutes les 0,1 s selon l'alignement actuel de son Arkhe :\n\nArkhe : Ousia\nSoigne les PV de tous les personnages de l'équipe à proximité d'une valeur équivalant à 4 % des PV max de Furina toutes les secondes pendant 2,9 s, tout déclenchement répété prolongeant cette durée.\nArkhe : Pneuma\nLes DGT de cette attaque normale (sauf les attaques de « Arkhe : Sacralité et sécularisation »), chargée ou plongeante (lorsque cette dernière touche le sol) augmentent encore d'une valeur équivalant à 25 % des PV max de Furina. De plus, lorsqu'une de ces attaques touche un ennemi, tous les personnages de l'équipe à proximité perdent 1 % de leurs PV actuels.\n\nLes effets mentionnés ci-dessus peuvent être déclenchés un maximum de 6 fois pendant la durée d'un centre d'attention, et ce dernier prend fin après 6 déclenchements d'effet ou lorsque sa durée expire."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Solicitação da Solista",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para lançar uma dança sozinha e causar Dano Físico contra oponentes próximos e mudar seu alinhamento de Arkhe. Se Membros do Salon ou a Cantora das Correntes invocados por sua Habilidade Elemental \"Salon Solitaire\" estiverem presentes, sua formação mudará para a forma correspondente.\n\n<k>Arkhe: Trono Sagrado e Secular</k>\nPeriodicamente, quando o Ataque Normal de Furina atingir, um Espinho Espiritual ou Lâmina da Fluidez cairá segundo seu alinhamento atual, causando <e:hydro>Dano Hydro</e>.\nQuando Furina entrar no campo de batalha, seu Arkhe será Ousia.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto."
+          },
+          "skill": {
+            "name": "Salon Solitaire",
+            "desc": "Chama os convidados do Salon Solitaire a participarem da performance de Furina. Convida os Membros do Salon ou a Cantora das Correntes segundo o alinhamento <k>Arkhe</k> atual.\n\n<k>Ousia</k>\nJoga bolhas comemorativas, causa <e:hydro>Dano Hydro em AdE</e> baseado na Vida Máxima de Furina e invoca três Membros do Salon: Polvo de Bola \"Gentilshomme Usher\", Cavalo-Marinho de Bolhas \"Surintendante Chevalmarin\" e Caranguejo de Armadura \"Mademoiselle Crabaletta\".\nOs Membros do Salon periodicamente atacarão os inimigos próximos, e priorizarão atacar o alvo do personagem atual, causando <e:hydro>Dano Hydro</e> baseado na Vida Máxima.\nQuando os Membros do Salon atacarem, baseado no número de personagens próximos com mais de 50% de Vida, aumenta o poder do Ataque e consome Vida desses personagens: se 1/2/3/4 ou mais personagens cumprirem os requisitos, aumenta o Dano original de seu Ataque em 110%/120%/130%/140%.\n\n<k>Pneuma</k>\nInvoca a Cantora das Correntes que periodicamente regenera Vida para os personagens atuais próximos baseado na Vida Máxima.\nA duração dos Membros do Salon e da Cantora das Correntes é compartilhada. Quando Furina trocar a formação ao realizar um Ataque Carregado, eles continuarão herdando a duração.\nEnquanto os Membros do Salon ou a Cantora das Correntes existirem, Furina poderá se mover sobre a água.\n\n<i>Um conjunto de frequentadores regulares no Salon Solitaire de Furina. Em outras épocas, Mademoiselle Crabaletta, Surintendante Chevalmarin e Gentilshomme Usher visitavam, e em quartas-feiras tristes, era a Cantora que vinha.</i>"
+          },
+          "burst": {
+            "name": "E o Povo Vai à Loucura",
+            "desc": "Reúne o impulso da euforia, criando um palco de espuma que causa <e:hydro>Dano Hydro em AdE</e> baseado na Vida Máxima de Furina, e faz todos os personagens próximos entrarem no estado \"Euforia Universal\": em sua duração, quando a Vida de um personagem próximo aumentar ou diminuir, fará Furina obter 1 ponto de Fanfarra para cada 1% da proporção de valor do aumento ou queda da Vida Máxima.\nAo mesmo tempo, Furina aumenta o Dano causado por todos os membros próximos da equipe e aumenta bônus de Cura baseado nos pontos de Fanfarra possuídos.\nQuando a duração terminar, as Fanfarras que Furina possui serão eliminadas.\n\n<i>\"Alegrem-se! Elogiem! Choquem-se! Levantem seus copos! Cada noite de um banquete é um desperdício sórdido da luz do dia sóbria... e, hã, aqueles que ainda não têm idade podem tomar suco de fruta!\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Valsa Infinita",
+            "desc": "Quando o personagem ativo é curado, se a fonte da cura não for Furina e a quantidade curada for maior que o necessário, nos próximos 4s, Furina regenerará Vida para os personagens próximos da equipe a cada 2s. A quantidade regenerada é equivalente a 2% da Vida Máxima de cada personagem."
+          },
+          {
+            "name": "Confissão Inaudita",
+            "desc": "Cada 1.000 pontos da Vida Máxima de Furina podem dar bônus para os Arkhe diferentes de <k>Salon Solitaire</k>:\nAumenta o Dano causado pelos Membros do Salon em 0.7%. É possível aumentar o Dano causado pelos Membros do Salon em até 28% dessa forma.\nReduzirá o intervalo de cura do personagem ativo pela Cantora das Correntes em 0.4%. É possível reduzir até 16%."
+          },
+          {
+            "name": "O Mar é o meu Palco",
+            "desc": "Diminui a recarga das habilidades das Aberrações Primordiais Heterocromáticas em 30%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "\"Como um Pássaro Recalcitrante, o Amor é Surdo a Súplicas\"",
+            "desc": "Ao lançar <k>E o Povo Vai à Loucura</k>, Furina ganha 150 de Fanfarra.\nAlém disso, aumenta o limite de Fanfarra de Furina em 100."
+          },
+          {
+            "level": 2,
+            "name": "\"Uma Mulher se Adapta como Plantas na Água.\"",
+            "desc": "Na duração de <k>E o Povo Vai à Loucura</k>, o ganho de Fanfarra por aumentos ou quedas de Vida dos personagens próximos é aumentado em 250%. Cada ponto de Fanfarra acima do limite vai aumentar a Vida Máxima de Furina em 0.35%. O limite máximo de aumento de Vida Máxima com esse método é de 140%."
+          },
+          {
+            "level": 3,
+            "name": "\"Meus Segredos Eu Escondo, Desconhecidos a Todos.\"",
+            "desc": "Aumenta o nível da <k>E o Povo Vai à Loucura</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "\"Aqueles que Vivem no Limbo Não Conhecem a Vida!\"",
+            "desc": "Quando os Membros do Salon de <k>Salon Solitaire</k> atingem um inimigo, ou quando a Cantora das Correntes regenera Vida para um personagem ativo próximo, Furina obtém 4 de Energia Elemental. Esse efeito pode ser desencadeado uma vez a cada 5s."
+          },
+          {
+            "level": 5,
+            "name": "\"Agora sei seu nome, é...!\"",
+            "desc": "Aumenta o nível do <k>Salon Solitaire</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "\"Senhores, Escutem-me, Ergamos a Taça do Amor!\"",
+            "desc": "Ao lançar <k>Salon Solitaire</k>, Furina ganha \"Centro das Atenções\" por 10s.\nNesse período, os Ataques Normais, Carregados e Imersivos serão convertidos em <e:hydro>Dano Hydro</e> que não pode ser substituído, e aumenta o Dano causado em um valor equivalente a 18% da Vida Máxima de Furina.\nNa duração, a cada 0.1s, depois dos Ataques Normais (não incluindo \"Arkhe: Trono Sagrado e Secular\"), Carregados e Imersivos que atingem o chão atingirem inimigos, gerarão efeitos diferentes segundo o Arkhe atual de Furina:\n\nArkhe: Ousia\nA cada 1s, regenera Vida para todos os membros da equipe baseado em 4% da Vida Máxima de Furina por 2.9s. Desencadear o efeito novamente prolonga sua duração.\nArkhe: Pneuma\nAumenta o Dano do Ataque Normal (não incluindo \"Arkhe: Trono Sagrado e Secular\"), Carregado ou Imersivo que atingir o chão em mais 25% da Vida Máxima de Furina. Quando esse ataque atingir um inimigo, consome 1% da Vida atual de todos os membros da equipe.\n\nNa duração de \"Centro das Atenções\", esse efeito pode ser desencadeado até 6 vezes. O efeito será removido quando for ativado 6 vezes ou sua duração acabar."
           }
         ]
       }

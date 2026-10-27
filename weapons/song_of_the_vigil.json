@@ -33,7 +33,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13436",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -60,6 +60,19 @@
             "3": "Déclencher une réaction élémentaire restaure <r>6</r> pts d'énergie élémentaire au personnage équipé de l'arme, cet effet pouvant être déclenché une fois toutes les 9 s. De plus, déclencher une réaction astrale augmente l'ATQ du personnage équipé de l'arme de <r>30 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "4": "Déclencher une réaction élémentaire restaure <r>7</r> pts d'énergie élémentaire au personnage équipé de l'arme, cet effet pouvant être déclenché une fois toutes les 9 s. De plus, déclencher une réaction astrale augmente l'ATQ du personnage équipé de l'arme de <r>35 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
             "5": "Déclencher une réaction élémentaire restaure <r>8</r> pts d'énergie élémentaire au personnage équipé de l'arme, cet effet pouvant être déclenché une fois toutes les 9 s. De plus, déclencher une réaction astrale augmente l'ATQ du personnage équipé de l'arme de <r>40 %</r> pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança longa que vigiou a todos. Hoje, possui um novo propósito entre crianças e seus jogos de faz-de-conta.",
+        "passive": {
+          "name": "Cadência dos Dias Passados",
+          "refinements": {
+            "1": "Depois de desencadear uma reação Elemental, regenera <r>4</r> de Energia Elemental para o portador. Esse efeito pode ser desencadeado uma vez a cada 9s. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>20%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo.",
+            "2": "Depois de desencadear uma reação Elemental, regenera <r>5</r> de Energia Elemental para o portador. Esse efeito pode ser desencadeado uma vez a cada 9s. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>25%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo.",
+            "3": "Depois de desencadear uma reação Elemental, regenera <r>6</r> de Energia Elemental para o portador. Esse efeito pode ser desencadeado uma vez a cada 9s. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>30%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo.",
+            "4": "Depois de desencadear uma reação Elemental, regenera <r>7</r> de Energia Elemental para o portador. Esse efeito pode ser desencadeado uma vez a cada 9s. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>35%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo.",
+            "5": "Depois de desencadear uma reação Elemental, regenera <r>8</r> de Energia Elemental para o portador. Esse efeito pode ser desencadeado uma vez a cada 9s. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>40%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
           }
         }
       }

@@ -291,7 +291,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000133",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -424,6 +424,72 @@
             "level": 6,
             "name": "Narcisse s'éveille, les yeux rivés sur l'aurore",
             "desc": "Lorsque Fagio tire un 3e rayon condensé en mode <k>Décodage</k>, le rayon est converti en <k>rayon condensé groupé</k> plus puissant et continu qui inflige jusqu'à 4 instances supplémentaires de <e:cryo>DGT Cryo de zone</e> d'une valeur équivalant à 100 % de l'ATQ de Sandrone, en plus de tout rayon original tiré ultérieurement.\n<k>Radiance astrale</k> : Le <k>rayon condensé groupé</k> est converti pour infliger 4 instances supplémentaires de <e:cryo>DGT Cryo de zone</e> considérés comme des DGT de réaction astrale, dont la valeur dépend de l'ATQ de Sandrone.\n<k>Radiance « Astroconduction »</k> : 80 %.\n<k>Radiance « Astrodispersion »</k> : 120 %.\nDe plus, tous les DGT des réactions astrales infligées par Sandrone bénéficient d'une <k>élévation</k> de 20 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Fórmula Matemática: Prova Evidente",
+            "desc": "<k>Ataque Normal</k>\nGera fios que controlam sua arma usando fórmulas, realizando até 3 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nInvoca Facilitatrice Automatisee Generaliste Interactive et Omnitache, mais conhecida como <k>Fagio</k>, e troca para o modo <k>Resolução</k>: faz um Ataque de Rajada contra os inimigos em frente, disparando periodicamente um Raio Congelante, causando <e:cryo>Dano Cryo em AdE</e>.\n<k>Brilho Reluzente: Brilho Estelar</k>: o Raio Congelante é convertido para causar <e:cryo>Dano Cryo em AdE</e> que é considerado Dano de Brilho Estelar correspondente.\nQuando está no modo <k>Resolução</k>, a <k>Capacidade da Resolução</k> de Fagio será aumentada continuamente. Ao disparar um Raio Congelante, aumenta ainda mais a Capacidade da Resolução.\nQuando Capacidade da Resolução alcançar o limite máximo de 100, Fagio trocará para o modo <k>Sobrecarga de Poder</k>, disparando contra inimigos por um intervalo maior, causando <e:cryo>Dano Cryo</e>, e não podendo trocar para o modo Resolução.\nQuando não está no modo <k>Resolução</k>, a <k>Capacidade da Resolução</k> de Fagio será lentamente reduzida. Quando Sandrone não for a personagem ativa, ela focará sua atenção para reparar Fagio, fazendo com que sua velocidade de diminuição de Capacidade da Resolução acelere em 300% do valor original.\n\nQuando <k>Capacidade da Resolução</k> está com menos de 50, Fagio sairá do modo <k>Sobrecarga de Poder</k>.\n\n<k>Ataque Imersivo</k>\nSe lança do ar para atacar o chão, causando dano aos oponentes ao longo do caminho e causando Dano de AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Fórmula Matemática: Análise Abrangente",
+            "desc": "Defendendo a perfeição de uma dama, sobe na <k>Máquina Flutuante Tática de Assalto da Festa do Chá</k> e flutua em frente continuamente por 6s. Nesse período, Sandrone pode controlar a direção que flutua e, ao pressionar para correr, consome 10 de Stamina para entrar no modo refinado de Flutuação Veloz, consumindo 15 de Stamina por segundo, flutuando mais rápido.\n\nAo começar a flutuar, se houver um inimigo por perto, Sandrone invocará um Canhão Ressonante Prismático que disparará 2 Projéteis Cristalinos contra inimigos nervosos próximos, causando <e:cryo>Dano Cryo</e>.\n<k>Brilho Reluzente: Brilho Estelar</k>: o segundo Projétil Cristalino será convertido para causar <e:cryo>Dano Cryo</e> que é considerado Dano de Brilho Estelar correspondente.\n\nAo andar na Máquina Flutuante Tática de Assalto da Festa do Chá, Sandrone sofisticadamente reparará Fagio, fazendo com que sua <k>Capacidade da Resolução</k> seja reduzida rapidamente."
+          },
+          "burst": {
+            "name": "Fórmula Matemática: Prova Lógica Completa",
+            "desc": "Com a etiqueta de uma refinada dama, invoca um grande número de Canhões Ressonantes Prismáticos para dispararem bombas em frente, para em seguida disparar o Raio de Luz Energético Frio contra os oponentes, causando <e:cryo>Dano Cryo em uma AdE</e>.\n<k>Brilho Reluzente: Brilho Estelar</k>: o Raio de Luz Energético Frio será convertido para causar <e:cryo>Dano Cryo em uma AdE</e> que é considerado Dano de Brilho Estelar correspondente."
+          }
+        },
+        "passives": [
+          {
+            "name": "Calculadora Antiga",
+            "desc": "<k>Brilho Reluzente: Brilho Estelar</k>: ao lançar a Habilidade Elemental <k>Fórmula Matemática: Análise Abrangente</k>, se <k>Capacidade da Resolução</k> de Fagio ultrapassar 50 pontos, o segundo Projétil Cristalino disparado por Fagio contra inimigos próximos causará 400% de seu Dano original a medida que Capacidade da Resolução é reduzida.\nAlém disso, a cada 10 de <k>Capacidade da Resolução</k> de Fagio reduzidos, obtém 1 acúmulo do efeito <k>Melhoria Tática</k> por 60s. Esse efeito pode ser acumulado até 10 vezes. Quando Sandrone está em <k>Brilho Reluzente: Brilho Estelar</k> e lança seu Supremo <k>Fórmula Matemática: Prova Lógica Completa</k>, consumirá todos os acúmulos de Melhoria Tática para fazer com que o Dano causado pelo Raio de Luz Energético Frio seja 100% do Dano original + x10% de cada acúmulo consumido."
+          },
+          {
+            "name": "Normas de Etiqueta de uma Dama",
+            "desc": "Aumenta a Proficiência Elemental com base no ATQ de Sandrone: cada 100 de ATQ aumenta 8 de Proficiência Elemental. É possível aumentar até 160 dessa forma."
+          },
+          {
+            "name": "Bênção das Estrelas: Luz do Racionalismo",
+            "desc": "Quando estiver dentro do <k>Campo da Estrela Polar</k>/nos 8s após um personagem próximo desencadear Redemoinho Estelar, Sandrone entrará nos estados <k>Brilho Reluzente: Supercondutor Estelar</k>/<k>Brilho Reluzente: Redemoinho Estelar</k> respectivamente.\nQuando um personagem desencadear Supercondutor/Redemoinho Cryo, converterá para desencadear Supercondutor Estelar/Redemoinho Estelar, e aumenta o Dano Básico dessa reação com base no ATQ de Sandrone: cada 100 de ATQ aumenta o Dano Básico descritos acima em 0.7%. É possível acumular até 14% dessa forma."
+          },
+          {
+            "name": "Reuniões Privadas e uma Longa História",
+            "desc": "Quando Sandrone está na equipe, depois de entregar as Missões Diárias para Katheryne, você receberá um lanche como recompensa adicional."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Manhã Após o Crepúsculo Dourado",
+            "desc": "Quando está no modo <k>Resolução</k>, aumenta a Redução de Velocidade de <k>Capacidade da Resolução</k> de Fagio em 50%, e aumenta o Dano de Brilho Estelar causado por todos os membros da equipe em 30%."
+          },
+          {
+            "level": 2,
+            "name": "Herdeira que Contemplou o Espelho",
+            "desc": "<k>Brilho Reluzente: Brilho Estelar</k>: aumenta o Dano CRIT causado pelo Raio Congelante disparado pelo Ataque Carregado em 40%, e cada vez que disparar um Raio Congelante, aumenta o Dano CRIT de todos os Raios Congelantes disparados em 20% nessa duração do modo de <k>Resolução</k>. Esse efeito pode ser acumulado até 3 vezes."
+          },
+          {
+            "level": 3,
+            "name": "Recusa do Despertar do Crepúsculo, Inveja da Lua Nascente",
+            "desc": "Aumenta o nível do <k>Fórmula Matemática: Prova Evidente</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Verdade do Mundo Jaz no Conhecimento",
+            "desc": "Quando o Dano de Supercondutor Estelar/Redemoinho Estelar de Sandrone atingir um inimigo, invoca um Canhão Ressonante Prismático adicional para realizar um Ataque Coordenado que causa 125%/187.5% do ATQ de Sandrone como <e:cryo>Dano Cryo</e>. Esse Dano é considerado Dano de Brilho Estelar correspondente, e pode ser desencadeado uma vez a cada 4s."
+          },
+          {
+            "level": 5,
+            "name": "De Tudo Ela Não Participa",
+            "desc": "Aumenta o nível do <k>Fórmula Matemática: Prova Lógica Completa</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Narciso Desperto, Seus Olhos na Alvorada",
+            "desc": "No modo <k>Resolução</k>, o terceiro Raio Congelante disparado de Fagio será convertido para um <k>Raio Congelante Conjunto</k> de disparo contínuo mais perigoso, que com base no Raio Congelante disparado em sequência originalmente, cause até 4 instâncias adicionais de 100% do ATQ de Sandrone como <e:cryo>Dano Cryo em AdE</e>.\n<k>Brilho Reluzente: Brilho Estelar</k>: o <k>Raio Congelante Conjunto</k> será convertido para causar até 4 instâncias adicionais de <e:cryo>Dano Cryo em AdE</e> que é considerado Dano de Brilho Estelar. Esse Dano é baseado no ATQ de Sandrone:\n<k>Brilho Reluzente: Supercondutor Estelar</k>: 80%.\n<k>Brilho Reluzente: Redemoinho Estelar</k>: 120%.\nAlém disso, todos os Danos de Brilho Estelar de Sandrone são <k>Elevados</k> em 20%."
           }
         ]
       }

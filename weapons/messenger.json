@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15305",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>150 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
             "4": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>175 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
             "5": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à <r>200 %</r> de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco básico de madeira. Dizem que ele foi usado para comunicações de longa distância.",
+        "passive": {
+          "name": "Mensagem da Flecha Voadora",
+          "refinements": {
+            "1": "Ao acertar um ponto fraco com Ataque Carregado, causa um adicional de <r>100%</r> de Dano de ATQ como Dano Crítico. Este efeito pode ser ativado uma vez a cada 10s.",
+            "2": "Ao acertar um ponto fraco com Ataque Carregado, causa um adicional de <r>125%</r> de Dano de ATQ como Dano Crítico. Este efeito pode ser ativado uma vez a cada 10s.",
+            "3": "Ao acertar um ponto fraco com Ataque Carregado, causa um adicional de <r>150%</r> de Dano de ATQ como Dano Crítico. Este efeito pode ser ativado uma vez a cada 10s.",
+            "4": "Ao acertar um ponto fraco com Ataque Carregado, causa um adicional de <r>175%</r> de Dano de ATQ como Dano Crítico. Este efeito pode ser ativado uma vez a cada 10s.",
+            "5": "Ao acertar um ponto fraco com Ataque Carregado, causa um adicional de <r>200%</r> de Dano de ATQ como Dano Crítico. Este efeito pode ser ativado uma vez a cada 10s."
           }
         }
       }

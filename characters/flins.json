@@ -289,7 +289,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000120",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -422,6 +422,72 @@
             "level": 6,
             "name": "Ballets et chants de la mort",
             "desc": "Les DGT infligés aux ennemis par les réactions de Sélénocution de Flins bénéficient d'une <k>élévation</k> de 35 %.\n<k>Signelune « Lueur ascendante »</k> : les DGT infligés par les réactions de Sélénocution de tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 10 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lança Demoníaca Pocztowy",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir um golpe em frente.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Lei Antiga: Segredo da Lanterna Solitária",
+            "desc": "Flins invoca o poder antigo contido em sua lâmpada, e troca para o modo <k>Chama da Manifestação</k>. Nesse modo, ele possui as seguintes características:\n· Os Ataques Normais e Carregados de Flins passam a causar <e:electro>Dano Electro</e> que não pode ser substituído, e não é mais possível realizar Ataques Imersivos.\n· Aumenta a RES contra Interrupção de Flins.\n· Sua Habilidade Elemental <k>Lei Antiga: Segredo da Lanterna Solitária</k> será substituída pela Habilidade Elemental Especial <k>Lança Tempestuosa do Norte</k>.\n\n<k>Lança Tempestuosa do Norte</k>\nFlins invoca uma formação de lanças em sua frente, causando <e:electro>Dano Electro em AdE</e> e, nos próximos 6s seguintes, substitui o Supremo de Flins <k>Ritual Antigo: Visita Noturna</k> pelo Supremo especial <k>Sinfonia Trovejante</k>.\nA recarga base de <k>Lança Tempestuosa do Norte</k> é de 6s, essa recarga não é afetada por outros efeitos."
+          },
+          "burst": {
+            "name": "Ritual Antigo: Visita Noturna",
+            "desc": "Flins lança o poder real de sua lâmpada, causando <e:electro>Dano Electro em AdE</e>, e depois de um intervalo curto, causa <e:electro>Dano Electro em AdE</e> que divide-se em duas vezes de Fase Intermediária, e uma vez final é considerada Dano de Carga Lunar.\n<k>Presságio Lunar: Reluzir Cheio</k>: a Habilidade é fortalecida: se houver uma Nuvem Trovejante por perto, causa <e:electro>Dano Electro em AdE</e> de Fase Intermediária que é considerado Dano de Carga Lunar duas vezes adicionais.\n\nNos 6s depois de lançar a Habilidade Elemental especial <k>Lança Tempestuosa do Norte</k>, o Supremo de Flins <k>Ritual Antigo: Visita Noturna</k> será substituído pelo Supremo especial <k>Sinfonia Trovejante</k>.\n\n<k>Sinfonia Trovejante</k>\nUm Supremo especial que consome menos Energia Elemental para ser lançado. Flins causa <e:electro>Dano Electro em AdE</e> que é considerado Dano de Carga Lunar uma vez.\n<k>Presságio Lunar: Reluzir Cheio</k>: a Habilidade é fortalecida: se houver uma Nuvem Trovejante por perto, causa <e:electro>Dano Electro em AdE</e> que é considerado Dano de Carga Lunar uma vez adicional."
+          }
+        },
+        "passives": [
+          {
+            "name": "Sinfonia do Inverno",
+            "desc": "De acordo com o <k>Presságio Lunar</k> da equipe, Flins obtém um fortalecimento correspondente.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: aumenta o Dano de Carga Lunar de Flins em 20%."
+          },
+          {
+            "name": "Murmúrios Flamejantes",
+            "desc": "Aumenta a Proficiência Elemental de Flins em 8% de seu ATQ. O aumento máximo obtido dessa forma é 160."
+          },
+          {
+            "name": "Bênção do Presságio Lunar: Mundo Antigo Sob as Sombras",
+            "desc": "Quando um membro da equipe desencadeia uma Reação Eletricamente Carregada, ela será convertida em Carga Lunar. A cada 100 de ATQ que Flins possuir, o Dano Básico de Carga Lunar será aumentado em 0,7% para o personagem que a causou, até um máximo de 14%.\nAlém disso, quando Flins está na equipe, aumenta o <k>Presságio Lunar</k> da equipe em 1 nível."
+          },
+          {
+            "name": "Caminhada na Escuridão",
+            "desc": "Mostra a localização de <k>Especialidades de Nod-Krai</k> próximas no mapa.\nAlém disso, Flins parece poder decifrar os sussurros das Caçada Feroz..."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Abertura da Cortina da Neve",
+            "desc": "A recarga básica da Habilidade Elemental especial <k>Lança Tempestuosa do Norte</k> é reduzida para 4s.\nAlém disso, quando um ataque de um personagem desencadeia Carga Lunar, regenera 8 de Energia para Flins. Esse efeito pode ser desencadeado uma vez a cada 5.5s."
+          },
+          {
+            "level": 2,
+            "name": "A Parede do Diabo",
+            "desc": "Nos 6s após usar a Habilidade Elemental especial <k>Lança Tempestuosa do Norte</k>, quando o próximo Ataque Normal de Flins atingir um inimigo, causará <e:electro>Dano Electro em AdE</e> adicional equivalente a 50% do ATQ de Flins. Esse Dano é considerado Dano de Carga Lunar.\n<k>Presságio Lunar: Reluzir Cheio</k>: quando Flins está no campo de batalha, após um ataque Elemental seu de Tipo Elemental <e:electro>Electro</e> atingir um inimigo, reduz a <e:electro>RES Electro</e> desse inimigo em 25% por 7s."
+          },
+          {
+            "level": 3,
+            "name": "Visita Noturna do Forasteiro",
+            "desc": "Aumenta o nível do Supremo <k>Ritual Antigo: Visita Noturna</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Noite das Montanhas Desertas",
+            "desc": "Aumenta o ATQ de Flins em 20%.\nAlém disso, fortalece o Talento de Ascensão <k>Murmúrios Flamejantes</k>: aumenta a Proficiência Elemental de Flins, o valor do aumento é equivalente a 10% do ATQ de Flins. É possível aumentar a Proficiência Elemental de Flins em até 220 dessa forma."
+          },
+          {
+            "level": 5,
+            "name": "Sombra do Exílio",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Lei Antiga: Segredo da Lanterna Solitária</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Canções e Danças da Morte",
+            "desc": "Aumenta o Dano causado por Carga Lunar de <k>Elevação</k> de Flins contra os inimigos em 35%.\n<k>Presságio Lunar: Reluzir Cheio</k>: aumenta o Dano de Carga Lunar de <k>Elevação</k> de todos os membros próximos da equipe em 10%."
           }
         ]
       }

@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11304",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Augmente l'ATQ de <r>30 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro.",
             "4": "Augmente l'ATQ de <r>35 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro.",
             "5": "Augmente l'ATQ de <r>40 %</r> pendant 12 s après avoir déclenché une réaction de Surcharge, de Supraconduction, d'Astroconduction, d'Électrocution, de Sélénocution, de Stimulation, de Suractivation, d'Exubérance ou de Dispersion Électro."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Bem, na verdade é apenas uma espada de ferro um pouco escura.",
+        "passive": {
+          "name": "Sobrecarga",
+          "refinements": {
+            "1": "Após causar uma reação elemental de Sobrecarga, Supercondutor, Supercondutor Estelar, Eletricamente Carregado, Aceleração, Intensificação, Superflorescimento, Carga Lunar ou Redemoinho de Electro, o ATQ é aumentado em <r>20%</r> por 12s.",
+            "2": "Após causar uma reação elemental de Sobrecarga, Supercondutor, Supercondutor Estelar, Eletricamente Carregado, Aceleração, Intensificação, Superflorescimento, Carga Lunar ou Redemoinho de Electro, o ATQ é aumentado em <r>25%</r> por 12s.",
+            "3": "Após causar uma reação elemental de Sobrecarga, Supercondutor, Supercondutor Estelar, Eletricamente Carregado, Aceleração, Intensificação, Superflorescimento, Carga Lunar ou Redemoinho de Electro, o ATQ é aumentado em <r>30%</r> por 12s.",
+            "4": "Após causar uma reação elemental de Sobrecarga, Supercondutor, Supercondutor Estelar, Eletricamente Carregado, Aceleração, Intensificação, Superflorescimento, Carga Lunar ou Redemoinho de Electro, o ATQ é aumentado em <r>35%</r> por 12s.",
+            "5": "Após causar uma reação elemental de Sobrecarga, Supercondutor, Supercondutor Estelar, Eletricamente Carregado, Aceleração, Intensificação, Superflorescimento, Carga Lunar ou Redemoinho de Electro, o ATQ é aumentado em <r>40%</r> por 12s."
           }
         }
       }

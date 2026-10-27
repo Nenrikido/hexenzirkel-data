@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11101",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Si les rêves de jeunesse et la soif d'aventure ne suffisent pas, compensez avec beaucoup de courage."
+      },
+      "pt": {
+        "flavor": "Sonhos de juventude e muita aventura. Se isso não for suficiente, então use a coragem para compensar."
       }
     }
   }

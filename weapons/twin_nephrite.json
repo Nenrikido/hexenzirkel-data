@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14305",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -44,6 +44,19 @@
             "3": "Augmente la VIT de déplacement et l'ATQ de <r>16 %</r> pendant 15 s après la défaite d'un ennemi.",
             "4": "Augmente la VIT de déplacement et l'ATQ de <r>18 %</r> pendant 15 s après la défaite d'un ennemi.",
             "5": "Augmente la VIT de déplacement et l'ATQ de <r>20 %</r> pendant 15 s après la défaite d'un ennemi."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um pingente de jade colocado junto entre duas pedras de jade.",
+        "passive": {
+          "name": "Táticas de Invasão",
+          "refinements": {
+            "1": "Ao derrotar um inimigo, aumenta a Veloc. Mov. e o ATQ em <r>12%</r> por 15s.",
+            "2": "Ao derrotar um inimigo, aumenta a Veloc. Mov. e o ATQ em <r>14%</r> por 15s.",
+            "3": "Ao derrotar um inimigo, aumenta a Veloc. Mov. e o ATQ em <r>16%</r> por 15s.",
+            "4": "Ao derrotar um inimigo, aumenta a Veloc. Mov. e o ATQ em <r>18%</r> por 15s.",
+            "5": "Ao derrotar um inimigo, aumenta a Veloc. Mov. e o ATQ em <r>20%</r> por 15s."
           }
         }
       }

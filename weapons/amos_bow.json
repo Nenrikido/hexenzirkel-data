@@ -40,7 +40,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15502",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -67,6 +67,19 @@
             "3": "Augmente les DGT infligés par les attaques normales et les attaques chargées de <r>18 %</r>. Les DGT augmentent de <r>12 %</r> toutes les 0,1 s après avoir tiré une flèche d'attaque normale ou chargée. Cet effet peut être cumulé 5 fois maximum.",
             "4": "Augmente les DGT infligés par les attaques normales et les attaques chargées de <r>21 %</r>. Les DGT augmentent de <r>14 %</r> toutes les 0,1 s après avoir tiré une flèche d'attaque normale ou chargée. Cet effet peut être cumulé 5 fois maximum.",
             "5": "Augmente les DGT infligés par les attaques normales et les attaques chargées de <r>24 %</r>. Les DGT augmentent de <r>16 %</r> toutes les 0,1 s après avoir tiré une flèche d'attaque normale ou chargée. Cet effet peut être cumulé 5 fois maximum."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco extremamente antigo que reteve seu poder, apesar de seu mestre original ter desaparecido há muito tempo. Ele extrai poder de todos e de tudo no mundo, e quanto mais longe você estiver daquilo que seu coração deseja, mais poderoso será.",
+        "passive": {
+          "name": "Inabalável",
+          "refinements": {
+            "1": "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em <r>12%</r>. A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, terá aumento de Dano de <r>8%</r>, acumulando até um máximo de 5 vezes.",
+            "2": "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em <r>15%</r>. A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, terá aumento de Dano de <r>10%</r>, acumulando até um máximo de 5 vezes.",
+            "3": "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em <r>18%</r>. A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, terá aumento de Dano de <r>12%</r>, acumulando até um máximo de 5 vezes.",
+            "4": "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em <r>21%</r>. A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, terá aumento de Dano de <r>14%</r>, acumulando até um máximo de 5 vezes.",
+            "5": "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em <r>24%</r>. A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, terá aumento de Dano de <r>16%</r>, acumulando até um máximo de 5 vezes."
           }
         }
       }

@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14407",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>12 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum.",
             "4": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>14 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum.",
             "5": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de <r>16 %</r> pendant 10 s. Cet effet peut être cumulé 2 fois maximum."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um mapa bastante detalhado sobre as águas ao redor de Teyvat. É um documento valioso que apareceu nas rotas comerciais de Liyue.",
+        "passive": {
+          "name": "Pergaminho Infundido",
+          "refinements": {
+            "1": "Ativar uma reação Elemental concede um adicional de <r>8%</r> de Dano Elemental por 10s, podendo acumular até 2 vezes.",
+            "2": "Ativar uma reação Elemental, concede um adicional de <r>10%</r> de Dano Elemental por 10s, podendo acumular até 2 vezes.",
+            "3": "Ativar uma reação Elemental concede um adicional de <r>12%</r> de Dano Elemental por 10s, podendo acumular até 2 vezes.",
+            "4": "Ativar uma reação Elemental concede um adicional de <r>14%</r> de Dano Elemental por 10s, podendo acumular até 2 vezes.",
+            "5": "Ativar uma reação Elemental concede um adicional de <r>16%</r> de Dano Elemental por 10s, podendo acumular até 2 vezes."
           }
         }
       }

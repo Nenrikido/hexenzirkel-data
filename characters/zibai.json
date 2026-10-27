@@ -284,7 +284,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000126",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -417,6 +417,72 @@
             "level": 6,
             "name": "Le monde, un voyage de passage",
             "desc": "Pendant son <k>déphasage lunaire</k>, le taux d'accumulation de <k>rayonnage de déphasage</k> de Zibai augmente de 50 %.\nDe plus, sa <k>foulée de destrier spirituel</k> est convertie pour consommer tout son rayonnage de déphasage : chaque point de rayonnage consommé au-delà de 70 pts permet aux DGT de cette foulée de destrier spirituel et aux DGT de réaction de Sélénocristallisation de Zibai des 3 prochaines secondes de bénéficier d'une <k>élévation</k> de 1,6 %, cet effet ne se cumulant pas."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Toque de Pétalas da Lâmina Dourada",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com sua lâmina.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Céu e Terra Manifestados",
+            "desc": "Invoca uma sombra de seus antigos poderes, trocando para o modo <k>Conversão de Fase Lunar</k>.\nNesse modo, quando Zibai realizar um Ataque Normal ou Carregado, causará <e:geo>Dano Geo</e> que não pode ser substituído, e acumula a especial <k>Radiância da Conversão</k> de formas diferentes. Zibai pode consumir Radiância da Conversão para lançar a Habilidade Elemental especial <k>Passos do Alazão Espiritual</k>.\n\n<k>Presságio Lunar: Reluzir Cheio</k>\nQuando Zibai está no modo <k>Conversão de Fase Lunar</k> e realiza um Ataque Normal, o ataque do 4º golpe causará uma instância adicional de <e:geo>Dano Geo</e>. Esse Dano é considerado Dano de Cristalização Lunar."
+          },
+          "burst": {
+            "name": "Eminência das Três Esferas",
+            "desc": "Zibai opera o Dossel da Luz de Jade, causando duas instâncias de <e:geo>Dano Geo</e>, com o Dano do segundo golpe sendo considerado de Cristalização Lunar.\nAo ser usado, se Zibai estiver em <k>Conversão de Fase Lunar</k>, a duração da Conversão de Fase Lunar atual será estendida em 1.7s adicionais."
+          }
+        },
+        "passives": [
+          {
+            "name": "A Adeptus Lunar Desce",
+            "desc": "Ao lançar a Habilidade Elemental <k>Céu e Terra Manifestados</k>, ou quando aliados próximos da equipe desencadearem Sonata da Jaula Lunar, Zibai obtém o efeito <k>Descida Lunar</k> por 4s: aumenta o Dano do 2º ataque causado por <k>Passos do Alazão Espiritual</k> em 60% da DEF de Zibai."
+          },
+          {
+            "name": "Picos Cobertos Penetram as Nuvens",
+            "desc": "Outros membros <e:geo>Geo</e> da equipe aumentam a DEF de Zibai em 15% cada. Outros membros <e:hydro>Hydro</e> da equipe aumentam sua Proficiência Elemental em 60 cada."
+          },
+          {
+            "name": "Bênção do Presságio Lunar: O Sol e a Lua Errantes",
+            "desc": "Quando um membro da equipe desencadeia Cristalização Hydro, converte para Cristalização Lunar, e aumenta o Dano Básico de Cristalização Lunar com base na DEF de Zibai: aumenta o Dano Básico de Cristalização Lunar em 0.7% a cada 100 de DEF. É possível aumentar em até 14% dessa forma.\n\nAlém disso, quando Zibai está na equipe, aumenta o nível de <k>Presságio Lunar</k> em 1."
+          },
+          {
+            "name": "Floresta das Flores do Luar",
+            "desc": "Durante a noite (18:00 - 06:00), quando não estiver em combate, regenera 1 de Energia Elemental para Zibai a cada 2 segundos.\nEsse efeito não funciona em Domínios, Domínios Dizimados ou Abismo do Espiral."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Avance Vigorosa e Silenciosamente",
+            "desc": "Depois de lançar a Habilidade Elemental <k>Céu e Terra Manifestados</k>, Zibai acumula 100 de <k>Radiância da Conversão</k> e o número máximo de usos de <k>Passos do Alazão Espiritual</k> de <k>Conversão de Fase Lunar</k> é aumentado para 5.\nAlém disso, cada vez que trocar para o modo Conversão de Fase Lunar, aumenta o Dano de Cristalização Lunar do 2º Ataque da primeira vez que lançar <k>Passos do Alazão Espiritual</k> em 220%."
+          },
+          {
+            "level": 2,
+            "name": "Almas Surgem no Nascimento e na Morte Deixam Carcaças",
+            "desc": "Quando está no modo <k>Conversão de Fase Lunar</k>, aumenta o Dano de Cristalização Lunar de todos os membros próximos da equipe em 30%.\n\n<k>Presságio Lunar: Reluzir Cheio</k>: Talento de Ascensão <k>A Adeptus Lunar Desce</k> é fortalecido: aumenta ainda mais o Dano do 2º ataque de <k>Passos do Alazão Espiritual</k>, o aumento é de 550% da DEF de Zibai. Esse efeito requer que o Talento de Ascensão \"A Adeptus Lunar Desce\" seja desbloqueado."
+          },
+          {
+            "level": 3,
+            "name": "Livre das Restrições do Mundo Mortal",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Céu e Terra Manifestados</k>em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "O Espírito Passa, a Forma Segue",
+            "desc": "Quando está no modo <k>Conversão de Fase Lunar</k>, o combo de Ataque Normal de Zibai não é redefinido, e quando <k>Passos do Alazão Espiritual</k> atinge um inimigo, Zibai obtém o efeito <k>Dissipação Lunar</k>: o 4º golpe do próximo Ataque Normal realiza um ataque adicional e causa 250% do Dano original de Cristalização Lunar."
+          },
+          {
+            "level": 5,
+            "name": "Percepção da Inutilidade e Recusar-se a Engajar",
+            "desc": "Aumenta o nível do Supremo <k>Eminência das Três Esferas</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "O Mundo é uma Jornada Passageira",
+            "desc": "Quando está no modo <k>Conversão de Fase Lunar</k>, aumenta a eficiência de acúmulo de <k>Radiância da Conversão</k> em 50%.\nAlém disso, <k>Passos do Alazão Espiritual</k> passam a consumir todos os acúmulos de Radiância da Conversão, e cada 1 ponto de Radiância da Conversão acima de 70 que for consumido faz o Dano causado por esta instância de Passos do Alazão Espiritual e o Dano de Cristalização Lunar causado por Zibai ser <k>Elevado</k> em 1.6% nos próximos 3s. Esse efeito não é acumulável."
           }
         ]
       }

@@ -49,7 +49,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13501",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -76,6 +76,19 @@
             "3": "Les PV sont augmentés de <r>30 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,2 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1,4 %</r> de ses PV max.",
             "4": "Les PV sont augmentés de <r>35 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,4 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1,6 %</r> de ses PV max.",
             "5": "Les PV sont augmentés de <r>40 %</r>. Le personnage équipé de l'arme obtient également un bonus d'ATQ équivalant à <r>1,6 %</r> de ses PV max, et lorsque ses PV sont inférieurs à 50 %, il obtient un bonus d'ATQ supplémentaire équivalant à <r>1,8 %</r> de ses PV max."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um bastão vermelho utilizado em um antigo ritual que não se pratica há muito tempo.",
+        "passive": {
+          "name": "Liberdade da Borboleta Vermelha",
+          "refinements": {
+            "1": "Aumenta a Vida em <r>20%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>0.8%</r> com base na Vida Máxima. Quando a Vida do Personagem que equipar essa arma cair para abaixo de 50%, seu ATQ aumentará <r>1%</r> com base em sua Vida Máxima.",
+            "2": "Aumenta a Vida em <r>25%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>1%</r> com base na Vida Máxima. Quando a Vida do Personagem que equipar essa arma cair para abaixo de 50%, seu ATQ aumentará <r>1.2%</r> com base em sua Vida Máxima.",
+            "3": "Aumenta a Vida em <r>30%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>1.2%</r> com base na Vida Máxima. Quando a Vida do Personagem que equipar essa arma cair para abaixo de 50%, seu ATQ aumentará <r>1.4%</r> com base em sua Vida Máxima.",
+            "4": "Aumenta a Vida em <r>35%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>1.4%</r> com base na Vida Máxima. Quando a Vida do Personagem que equipar essa arma cair para abaixo de 50%, seu ATQ aumentará <r>1.6%</r> com base em sua Vida Máxima.",
+            "5": "Aumenta a Vida em <r>40%</r>. Além disso, o Personagem que equipar esta arma terá um Bônus de ATQ de <r>1.6%</r> com base na Vida Máxima. Quando a Vida do Personagem que equipar essa arma cair para abaixo de 50%, seu ATQ aumentará <r>1.8%</r> com base em sua Vida Máxima."
           }
         }
       }

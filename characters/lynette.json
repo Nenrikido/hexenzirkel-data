@@ -299,7 +299,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000083",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -424,6 +424,68 @@
             "level": 6,
             "name": "Œil perspicace",
             "desc": "Lorsque Lynette utilise une aiguille énigmatique de <k>Feinte sibylline</k>, elle bénéficie d'un <e:anemo>enchantement Anémo</e> et son <e:anemo>bonus de DGT Anémo</e> augmente de 20 %, pendant 6 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Rapieira Veloz",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Barreira das Sombras",
+            "desc": "Balança sua capa e faz um Golpe das Sombras, causando <e:anemo>Dano Anemo</e>.\nQuando o Golpe das Sombras atingir um inimigo, regenerará Vida para Lynette. A quantidade de Vida regenerada é baseada na Vida Máxima de Lynette, e depois disso, consumirá uma certa quantidade de Vida por segundo nos próximos 4s.\nFará o Golpe das Sombras de maneira diferente se Pressionar ou Manter Pressionado.\n\n<k>Pressionar</k>\nFaz um Golpe das Sombras rápido.\n\n<k>Manter Pressionado</k>\nLynette corre rapidamente no estado \"Sombra Enigmática\", e aplica \"Marca da Sombra\" nos inimigos próximos. Durante esse período, é possível controlar a direção da corrida, e lançar a Habilidade novamente fará terminar o estado de corrida mais cedo.\nQuando terminar de correr, Lynette fará um Golpe das Sombras. Se houver algum inimigo com a Marca da Sombra por perto, Lynette dará um Golpe das Sombras nele em alta velocidade.\n\nSó é possível existir até um inimigo com uma Marca da Sombra de Lynette simultaneamente. Se o inimigo que está com a Marca da Sombra estiver muito distante, a Marca da Sombra será removida.\n\n<k>Arkhe: Ousia</k>\nPeriodicamente, quando Lynette lançar um Golpe das Sombras, invocará uma Lâmina da Fluidez que causará <e:anemo>Dano Anemo</e> com Ousia.\n\n<i>\"Agora, vire seus olhos para o palco e continue a se divertir com a apresentação. Quando eu aparecer pela próxima vez, será a última coisa que você esperará.\"</i>"
+          },
+          "burst": {
+            "name": "Magia: Transformação Surpreendente",
+            "desc": "Lynette levanta um manto, causando <e:anemo>Dano Anemo em AdE</e> e usa uma técnica fantástica para se transformar numa gigantesca Caixa Surpresa Miau Miau!\n\n<k>Caixa Surpresa Miau Miau</k>\n· Provoca os inimigos próximos continuamente, atraindo seus ataques.\n· Periodicamente causa <e:anemo>Dano Anemo</e> contra os inimigos próximos.\n· Quando a Caixa Surpresa Miau Miau tocar <e:hydro>Hydro</e>/<e:pyro>Pyro</e>/<e:cryo>Cryo</e>/<e:electro>Electro</e>, obterá o Elemento correspondente e periodicamente lançará contra os inimigos ao redor um Feixe Colorido, causando o respectivo Dano Elemental.\nEssa Conversão Elemental só pode ser desencadeada uma vez na duração da habilidade.\n\n<i>\"Olhe bem nessa direção, preste bem atenção. Esse momento de magia pertence somente a nós.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Sincronia Engenhosa",
+            "desc": "Nos 10s depois de lançar <k>Magia: Transformação Surpreendente</k>, se a equipe possuir personagens de 1/2/3/4 Tipos Elementais diferentes, aumentará o ATQ de todos os membros da equipe em 8%/12%/16%/20%."
+          },
+          {
+            "name": "Item Concluído",
+            "desc": "Quando a Caixa Surpresa Miau Miau invocada de <k>Magia: Transformação Surpreendente</k> passar por uma Conversão Elemental, aumenta o Dano do Supremo de Lynette em 15%. Esse efeito é contínuo até o final da duração da Caixa Surpresa Miau Miau."
+          },
+          {
+            "name": "Pontos Mnemônicos",
+            "desc": "Mostra no Mini-mapa a localização dos <k>Orbes da Ressurreição</k> próximos. O Fôlego e Vida ganhados ao tocar um Orbe aumentará 25%."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Uma Lâmina Fria como a Água",
+            "desc": "Quando um Golpe das Sombras de <k>Barreira das Sombras</k> atingir um inimigo com Marca da Sombra, gerará um redemoinho de vento na posição desse inimigo, atraindo continuamente os inimigos próximos."
+          },
+          {
+            "level": 2,
+            "name": "Mistérios Infinitos",
+            "desc": "Quando a Caixa Surpresa Miau Miau de <k>Magia: Transformação Surpreendente</k> dispara seu Feixe Colorido, disparará um Feixe Colorido adicional."
+          },
+          {
+            "level": 3,
+            "name": "Fitar da Inversão Cognitiva",
+            "desc": "Aumenta o nível de <k>Magia: Transformação Surpreendente</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Coordenação Tácita",
+            "desc": "Aumenta o número de usos de <k>Barreira das Sombras</k> em 1."
+          },
+          {
+            "level": 5,
+            "name": "Ambiguidade Obscura",
+            "desc": "Aumenta o nível de habilidade da <k>Barreira das Sombras</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Olho da Verdade",
+            "desc": "Quando Lynette lançar o Golpe das Sombras de <k>Barreira das Sombras</k>, obterá um <e:anemo>Encantamento Anemo</e> e <e:anemo>Bônus de Dano Anemo</e> de 20% por 6s."
           }
         ]
       }

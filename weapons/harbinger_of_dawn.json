@@ -28,7 +28,7 @@
     "source": {
       "provider": "amber",
       "amberId": "11302",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -55,6 +55,19 @@
             "3": "Augmente le taux CRIT de <r>21 %</r> quand les PV sont supérieurs à 90 %.",
             "4": "Augmente le taux CRIT de <r>24,5 %</r> quand les PV sont supérieurs à 90 %.",
             "5": "Augmente le taux CRIT de <r>28 %</r> quand les PV sont supérieurs à 90 %."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada que, uma vez, brilhou como o sol. O portador desta espada será abençoado com um bônus de \"boa sensação\". O material refletivo em sua lâmina já se desgastou há muito tempo.",
+        "passive": {
+          "name": "Vigoroso",
+          "refinements": {
+            "1": "Quando a Vida estiver acima de 90%, aumenta a Taxa Crítica em <r>14%</r>.",
+            "2": "Quando a Vida estiver acima de 90%, aumenta a Taxa Crítica em <r>17.5%</r>.",
+            "3": "Quando a Vida estiver acima de 90%, aumenta a Taxa Crítica em <r>21%</r>.",
+            "4": "Quando a Vida estiver acima de 90%, aumenta a Taxa Crítica em <r>24.5%</r>.",
+            "5": "Quando a Vida estiver acima de 90%, aumenta a Taxa Crítica em <r>28%</r>."
           }
         }
       }

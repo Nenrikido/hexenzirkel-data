@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15201",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "Un arc ancien, mais bien entretenu. Il ne fait qu'un avec l'archer qui le tend."
+      },
+      "pt": {
+        "flavor": "Um arco antigo, mas bem conservado. Pode ser considerado a extensão do braço de um arqueiro quando é utilizado."
       }
     }
   }

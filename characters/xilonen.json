@@ -242,7 +242,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000103",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -375,6 +375,72 @@
             "level": 6,
             "name": "Carnaval de la nuit impérissable",
             "desc": "Lorsque Xilonen bénéficie d'une bénédiction noctâme, elle obtient une bénédiction de la nuit impérissable lorsqu'elle sprinte, saute et utilise une attaque normale ou plongeante, ce qui lui permet d'ignorer les restrictions de sa bénédiction noctâme et d'augmenter les DGT infligés par ses attaques normales et plongeantes pendant 5 s.\nPendant cette durée :\n· Le compte à rebours de la durée limite des points de noctâme de Xilonen s'arrête, ses points de noctâme, son phlogistique et son endurance ne diminuent plus, et sa bénédiction noctâme ne s'arrête plus lorsque ses points de noctâme atteignent le maximum.\n· Les DGT infligés par les attaques normales et plongeantes de Xilonen lorsqu'elle bénéficie d'une bénédiction noctâme augmentent d'une valeur équivalant à 300 % de sa DÉF.\n· Xilonen soigne les PV de tous les personnages de l'équipe à proximité d'une valeur équivalant à 120 % de sa DÉF toutes les 1,5 s.\nUne bénédiction de la nuit impérissable peut être obtenue une fois toutes les 15 s."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Rugido de Ehecatl",
+            "desc": "<k>Ataque Normal</k>\nFaz até 3 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para fazer um chute em frente.\n\n<k>Ataque Imersivo</k>\nSe lança do ar para atacar o chão, causando dano aos oponentes ao longo do caminho e causando Dano em AdE durante o impacto com base na DEF de Xilonen.\n\n<k>Estado Espírito da Noite: Lâmina Giratória</k>\nQuando está no estado Bênção do Espírito da Noite, Xilonen troca para o modo Lâmina Giratória. Nesse estado, o Ataque Normal de Xilonen é convertido para Patins Cortantes, fazendo até 4 chutes consecutivos, e não podendo mais fazer Ataques Carregados.\nNesse estado, ao fazer um Ataque Normal e Imersivo, converterá eles para causar <e:geo>Dano Geo</e> que não pode ser substituído com alinhamento de Espírito da Noite e baseados na DEF de Xilonen."
+          },
+          "skill": {
+            "name": "Arranhão de Yohual",
+            "desc": "Deixe os ritmos da paixão soarem pela terra! Xilonen troca para lâminas rápidas de combate e avança para frente, causando <e:geo>Dano Geo</e> com alinhamento de Espírito da Noite baseado na DEF de Xilonen.\nDepois de lançar, Xilonen obtém 45 pontos de Espírito da Noite e entra no estado Bênção do Espírito da Noite. Nesse estado, Xilonen troca para o modo Lâmina Giratória.\n\n<k>Amostra da Origem</k>\nXilonen possui três Dispositivos de Amostra, e pode mostrar Notas diferentes com base nos Tipos Elementais dos membros da equipe, e ao ativar reduz a RES do Elemento correspondente do inimigo.\nO início registrado dos três Dispositivos de Amostra é <e:geo>Geo</e>, e para cada personagem <e:pyro>Pyro</e>, <e:hydro>Hydro</e>, <e:cryo>Cryo</e> ou <e:electro>Electro</e> na equipe, uma amostra <e:geo>Geo</e> será convertida para o Tipo Elemental correspondente.\nQuando está no estado Bênção do Espírito da Noite, a Amostra da Origem <e:geo>Geo</e> que Xilonen carrega se manterá ativa do começo ao fim. Ao desbloquear o Talento de Ascensão \"Ecos de Netotiliztli\", Xilonen poderá regenerar seus pontos de Espírito da Noite através dos efeitos desse Talento de Ascensão. Quando seus pontos de Espírito da Noite alcançarem o máximo, Xilonen consome todos os pontos de Espírito da Noite e ativará as três Amostras da Origem de Xilonen por 15s.\nQuando Amostra da Origem é ativada, reduz a RES dos Elementos correspondentes dos inimigos próximos. Efeitos de Amostras da Origem com Tipos Elementais iguais não acumulam. Esse efeito pode ser desencadeado quando Xilonen não é a personagem ativa.\n\n<k>Bênção do Espírito da Noite</k>\nConsome pontos de Espírito da Noite continuamente. Quando os pontos de Espírito da Noite acabarem, ou quando lançar novamente, o estado Bênção do Espírito da Noite de Xilonen acabará. O estado Bênção do Espírito da Noite possui as seguintes características:\n· Troca para o modo Lâmina Giratória, aumentando a Veloc. Mov. e Veloc. de Escalada de Xilonen. Ao escalar, pode usar sua forma de Ocelote para fazer um salto alto rápido.\n· O estado Bênção do Espírito da Noite de Xilonen possui os seguintes limites: quando está nele, os pontos de Espírito da Noite de Xilonen possuem um limite de 9s. Ao ultrapassarem esse limite, serão imediatamente deduzidos.\n\nQuando está no estado Benção do Espírito da Noite e os pontos de Espírito da Noite acabarem, Xilonen não poderá gerar pontos de Espírito da Noite através do Talento de Ascensão \"Ecos de Netotiliztli\".\n\n<i>De certa forma, criar joias e fazer mix de música possuem princípios similares: filtrar as impurezas e reter só o que há de mais radiante\nXilonen não é muito exigente para escolher isso nos dois. Ela gosta bastante!</i>"
+          },
+          "burst": {
+            "name": "Ritmo Ocelotlicue!",
+            "desc": "Ativa o Mixer Estéreo de Flogisto (Edição Portátil) na potência máxima, causando <e:geo>Dano Geo em AdE</e> com alinhamento de Espírito da Noite com base na DEF de Xilonen.\n\nAlém disso, desencadeia os seguintes efeitos com base nos tipos de Amostra da Origem:\n· Quando possui pelo menos 2 Amostras da Origem que passaram por Conversão Elemental: Xilonen toca o ritmo \"Solta a Alegria\": regenera Vida para os personagens próximos ativos periodicamente, a quantidade regenerada é baseada na DEF de Xilonen.\n· Ao possuir menos de 2 Amostras da Origem que passaram por Conversão Elemental: Xilonen toca o ritmo \"Pipoco\", solta duas batidas adicionais, causando <e:geo>Dano Geo em AdE</e> com alinhamento de Espírito da Noite baseado na DEF de Xilonen.\n\n<i>\"Certo, vamos pausar aqui!\"\n\"Tranquilo, gravei essas batidas. Vamos ver o que vai sair quando fizermos o mix dos ritmos, beleza?\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Ecos de Netotiliztli",
+            "desc": "Enquanto estiver no estado de Bênção do Espírito da Noite:\n· Se Xilonen tiver pelo menos 2 Amostras da Origem que tiveram Conversão Elemental, ela ganha 35 pontos de Espírito da Noite quando seus Ataques Normais ou Imersivos atingirem os oponentes. Pode ser ativado uma vez a cada 0.1s.\n· Se Xilonen tiver menos de 2 Amostras da Origem que tiveram Conversão Elemental, seus Ataques Normais e Imersivos causam 30% a mais de Dano."
+          },
+          {
+            "name": "Bainha Armada Portátil",
+            "desc": "Quando está no estado Bênção do Espírito da Noite e quando os pontos de Espírito da Noite de Xilonen alcançam o valor máximo, desencadeia um efeito igual a Explosão do Espírito da Noite uma vez. Esse efeito pode ser desencadeado uma vez a cada 14s.\nAlém disso, quando um membro próximo da equipe desencadeia Explosão do Espírito da Noite, aumenta a DEF de Xilonen em 20% por 15s."
+          },
+          {
+            "name": "Presente do Reino da Noite: Bênção das Chamas Forjadas",
+            "desc": "Depois que os pontos de Espírito da Noite de Xilonen acabarem, ela mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.\nEnquanto estiver numa área de Natlan com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite: Xilonen. Quando o personagem ativo estiver correndo, escalando, sob um estado especial de movimento de um Talento ou em uma certa altura no ar, trocar para Xilonen como personagem ativa desencadeará: Xilonen entra no estado Bênção do Espírito da Noite e obtém 20 pontos de Espírito da Noite. Quando nessa situação, os pontos de Espírito da Noite de Xilonen possuem um limite de 4s. Depois de ultrapassarem esse tempo, os pontos de Espírito da Noite de Xilonen serão imediatamente exauridos. Depois de lançar <k>Arranhão de Yohual</k> dentro desse limite de tempo, o limite de tempo dos pontos de Espírito da Noite é estendido para 9s. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s.\n\nAlém disso, quando está em Natlan e no estado Bênção do Espírito da Noite, Xilonen não consumirá Stamina ao escalar."
+          },
+          {
+            "name": "Tour de Tepeilhuitl",
+            "desc": "Ativar Transmissão do Espírito da Noite regenera 15 de Flogisto."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Férias Sabáticas",
+            "desc": "Reduz o consumo de pontos de Espírito da Noite e de Flogisto do estado Bênção do Espírito da Noite de Xilonen em 30%, e prolonga a duração dos pontos de Espírito da Noite em 45%.\nAlém disso, quando ativa Amostra da Origem de Xilonen, aumenta RES contra Interrupção dos membros próximos ativos da equipe."
+          },
+          {
+            "level": 2,
+            "name": "Mix Chiucue",
+            "desc": "A Amostra <e:geo>Geo</e> de Xilonen ficará ativa do começo ao fim. Além disso, ao ativar Amostra da Origem de Xilonen, todos os personagens de mesmo Tipo Elemental que o Tipo Elemental da Amostra da Origem obtêm os seguintes efeitos:\n· <e:geo>Geo</e>: aumenta o Dano causado em 50%;\n· <e:pyro>Pyro</e>: aumenta o ATQ em 45%.\n· <e:hydro>Hydro</e>: aumenta a Vida Máxima em 45%;\n· <e:cryo>Cryo</e> aumenta o Dano CRIT em 60%;\n· <e:electro>Electro</e>: regenera 25 de Energia Elemental, e reduz a recarga do Supremo em 6s."
+          },
+          {
+            "level": 3,
+            "name": "Patrulha de Tonalpuhualli",
+            "desc": "Aumenta o nível do <k>Arranhão de Yohual</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Sonho de Suchitl",
+            "desc": "Depois que Xilonen lançar <k>Arranhão de Yohual</k>, aplica em todos os membros próximos da equipe o efeito \"Bênção Gloriosa\" por 15s.\nPersonagens que possuem \"Bênção Gloriosa\" ganham um aumento de Dano em seus Ataques Normal, Carregados e Imersivos de 65% da DEF de Xilonen. Esse efeito é removido depois de surtir efeito 6 vezes ou quando a duração acabar.\nAo atingir mais de um inimigo simultaneamente, consumirá vezes de surtimento de efeito de acordo com a quantidade de inimigos atingida. A contagem de surtimentos de efeitos é contada separadamente para os personagens da equipe que possuem \"Bênção Gloriosa\"."
+          },
+          {
+            "level": 5,
+            "name": "Estilo de Tlaltecuhtli",
+            "desc": "Aumenta o nível do <k>Ritmo Ocelotlicue!</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Carnaval da Noite Eterna",
+            "desc": "Quando Xilonen está no estado de Bênção do Espírito da Noite, ao correr, saltar ou usar Ataques Normais, ou Imersivos, ela ganhará a Bênção da Noite Eterna, ignorando as limitações de seu estado de Bênção do Espírito da Noite e aumentando o Dano causado por seus Ataques Normais e Imersivos por 5s.\nDurante esse tempo:\n· O cronômetro de limite de tempo da Bênção do Espírito da Noite será pausado. Os pontos de Espírito da Noite de Xilonen, Flogisto e Stamina não diminuirão, e quando seus pontos de Espírito da Noite atingirem o máximo, seu estado de Bênção do Espírito da Noite também não terminará.\n· Xilonen causa 300% de sua DEF como aumento de Dano de Ataque Normal e Imersivo enquanto estiver no estado de Bênção do Espírito da Noite.\n· Ela cura os membros da equipe próximos em 120% de sua DEF a cada 1.5s.\nEla pode ganhar 1 Bênção da Noite Eterna uma vez a cada 15s."
           }
         ]
       }

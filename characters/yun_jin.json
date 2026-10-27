@@ -291,7 +291,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000064",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -416,6 +416,68 @@
             "level": 6,
             "name": "Harmonie esthétique",
             "desc": "Lorsqu'un personnage est affecté par une <k>formation de bannière de nuagerie</k>, la VIT d'attaque de ses attaques normales augmente de 12 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Golpe das Nuvens",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 golpes com a lança.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Abertura Deslumbrante",
+            "desc": "A Srta. Yun apenas atua no palco, mas realmente sabe usar uma lança.\n\n<k>Pressionar</k>\nBrande sua lança na Forma de Corte das Nuvens, infligindo <e:geo>Dano Geo</e>.\n\n<k>Manter Pressionado</k>\nAssume a posição de Abertura Deslumbrante e inicia um carregamento, formando um escudo. A absorção de Dano do Escudo é baseado na Vida Máxima de Yunjin, e é 150% eficaz contra Dano de todos os elementos e Dano Físico. O escudo dura até o final da Habilidade.\nQuando a Habilidade é lançada, sua duração encerrar ou o escudo for destruído, Yunjin brande a lança, lançando seu poder acumulado, infligindo <e:geo>Dano Geo</e>.\nDe acordo com o tempo de carregamento, a Habilidade ao ser lançada pode ser dividida em Carga Nível 1 e Carga Nível 2.\n\n<i>Um momento glorioso no palco é uma década de preparação por detrás dele.</i>"
+          },
+          "burst": {
+            "name": "Bandeira Quebra-Rochas",
+            "desc": "Causa <e:geo>Dano Geo em uma AdE</e> e dá a todos os personagens da equipe a \"Formação da Bandeira das Nuvens\".\n\n<k>Formação da Bandeira das Nuvens</k>\nQuando causa Dano de Ataque Normal, aumenta o Dano causado com base na DEF da própria Yunjin.\n\nO efeito \"Formação da Bandeira das Nuvens\" desaparece após o fim da sua duração ou após ser ativado um determinado número de vezes.\nQuando um Ataque Normal atinge vários inimigos simultaneamente, irá consumir vezes de ativação de acordo com o número de inimigos atingidos; as vezes de ativação de \"Formação de Bandeira das Nuvens\" é contada separadamente entre os personagens que a possuem.\n\n<i>\"Com o ressoar dos tambores, espadas e alabardas balançando, uma bela mulher general segura uma bandeira.\"</i>\n<i>\"Com os instrumentos soando em uníssono, podemos ver ela limpando todos os demônios.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Fiel a si mesma",
+            "desc": "Usar <k>Abertura Deslumbrante</k> no momento correto em que estiver sendo atacada fará com que a Carga Nível 2 de Manter Pressionado seja lançada."
+          },
+          {
+            "name": "Quebradora de Convenções",
+            "desc": "Quando a equipe contém personagens de 1/2/3/4 Tipos Elementais diferentes, o Bônus de Dano do Ataque Normal de <k>Formação da Bandeira das Nuvens</k> é aumentado em 2.5%/5%/7.5%/11.5% com base na DEF de Yunjin."
+          },
+          {
+            "name": "Alimentação Leve",
+            "desc": "Ao fazer uma comida Perfeita relacionada a efeitos de Aventura, há 12% de chance de se obter o dobro de produção."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Galope Veloz",
+            "desc": "O Tempo de Recarga de <k>Abertura Deslumbrante</k> é reduzido em 18%."
+          },
+          {
+            "level": 2,
+            "name": "Miríade de Adereços",
+            "desc": "Quando a <k>Bandeira Quebra-Rochas</k> é usada, o Dano do Ataque Normal de todos os membros da equipe próximos é aumentado em 15% por 12s."
+          },
+          {
+            "level": 3,
+            "name": "Bandeira Marítima",
+            "desc": "Aumenta o nível de <k>Bandeira Quebra-rochas</k> em 3.\nNível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Flor e Lutadora",
+            "desc": "Quando Yunjin desencadeia Cristalização ou Cristalização Lunar, sua DEF aumenta 20% por 12s."
+          },
+          {
+            "level": 5,
+            "name": "Fama Mundial",
+            "desc": "Aumenta o nível de <k>Abertura Deslumbrante</k> em 3.\nNível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Harmonia e Decoro",
+            "desc": "Personagens sob o efeito de <k>Formação da Bandeira das Nuvens</k> terão a Vel. de ATQ de seus Ataques Normais aumentada em 12%."
           }
         ]
       }

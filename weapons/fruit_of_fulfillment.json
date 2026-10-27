@@ -29,7 +29,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14417",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -56,6 +56,19 @@
             "3": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>30</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "4": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>33</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
             "5": "Accorde l'effet Fluctuation après avoir déclenché une réaction élémentaire, augmentant la maîtrise élémentaire de <r>36</r> pts et diminuant l'ATQ de 5 %. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Un cumul sera déduit si aucune réaction élémentaire n'est déclenchée pendant 6 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma fruta obtida através de uma das histórias dos Aranara. Ela tem o poder de conquistar qualquer crise.",
+        "passive": {
+          "name": "Círculo Completo",
+          "refinements": {
+            "1": "Ao causar uma Reação Elemental, obtém o efeito \"Excesso e Falta\", que aumenta a Proficiência Elemental em <r>24</r> e reduz o ATQ em 5%. Apenas 1 acúmulo de Excesso e Falta poderá ser obtido a cada 0.3s. Máximo de 5 acúmulos. 1 acúmulo será perdido a cada 6s que se passar sem que uma Reação Elemental seja desencadeada. Esse efeito pode ser desencadeado mesmo se o personagem estiver fora de campo.",
+            "2": "Ao causar uma Reação Elemental, obtém o efeito \"Excesso e Falta\", que aumenta a Proficiência Elemental em <r>27</r> e reduz o ATQ em 5%. Apenas 1 acúmulo de Excesso e Falta poderá ser obtido a cada 0.3s. Máximo de 5 acúmulos. 1 acúmulo será perdido a cada 6s que se passar sem que uma Reação Elemental seja desencadeada. Esse efeito pode ser desencadeado mesmo se o personagem estiver fora de campo.",
+            "3": "Ao causar uma Reação Elemental, obtém o efeito \"Excesso e Falta\", que aumenta a Proficiência Elemental em <r>30</r> e reduz o ATQ em 5%. Apenas 1 acúmulo de Excesso e Falta poderá ser obtido a cada 0.3s. Máximo de 5 acúmulos. 1 acúmulo será perdido a cada 6s que se passar sem que uma Reação Elemental seja desencadeada. Esse efeito pode ser desencadeado mesmo se o personagem estiver fora de campo.",
+            "4": "Ao causar uma Reação Elemental, obtém o efeito \"Excesso e Falta\", que aumenta a Proficiência Elemental em <r>33</r> e reduz o ATQ em 5%. Apenas 1 acúmulo de Excesso e Falta poderá ser obtido a cada 0.3s. Máximo de 5 acúmulos. 1 acúmulo será perdido a cada 6s que se passar sem que uma Reação Elemental seja desencadeada. Esse efeito pode ser desencadeado mesmo se o personagem estiver fora de campo.",
+            "5": "Ao causar uma Reação Elemental, obtém o efeito \"Excesso e Falta\", que aumenta a Proficiência Elemental em <r>36</r> e reduz o ATQ em 5%. Apenas 1 acúmulo de Excesso e Falta poderá ser obtido a cada 0.3s. Máximo de 5 acúmulos. 1 acúmulo será perdido a cada 6s que se passar sem que uma Reação Elemental seja desencadeada. Esse efeito pode ser desencadeado mesmo se o personagem estiver fora de campo."
           }
         }
       }

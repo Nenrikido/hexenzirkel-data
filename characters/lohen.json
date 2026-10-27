@@ -231,7 +231,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10000129",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -364,6 +364,72 @@
             "level": 6,
             "name": "Se noyer, sombrer, inconscient : Joie suprême",
             "desc": "Toucher un ennemi avec la compétence élémentaire spéciale <k>Gravé dans les os et l'âme</k>, et utiliser le déchaînement élémentaire <k>Jugement manifeste</k> pendant l'effet <k>Coup de maître</k>, ne consomment pas de <k>détermination</k>, mais restaurent la <k>joie</k> de Lohen jusqu'au maximum, tout en prolongeant la durée de l'état <k>Coup de maître</k> de 1,25 s si la prochaine utilisation de la compétence élémentaire spéciale <k>Gravé dans les os et l'âme</k> touche un ennemi. Cet effet peut être déclenché une fois toutes les 7 s.\nDe plus, les DGT CRIT de tous les DGT ci-dessus augmentent de 175 %, et le nombre de fois que Lohen peut utiliser <k>Gravé dans les os et l'âme</k> pendant cet effet <k>Coup de maître</k> augmente de 2."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Lança de Favonius: Juramento Quebrado",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 5 ataques rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir um ataque em frente.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Ataque Surpresa",
+            "desc": "Procurando por fraquezas, Lohen troca para o modo <k>Golpe de Mestre</k>. Enquanto estiver nesse estado:\n· Lohen acumulará ativamente <k>Alegria</k>, e lançará sua Habilidade Elemental Especial <k>Entalhado em Alma e Osso</k>.\n· Os outros personagens próximos da equipe acumularão <k>Luta pela Vitória</k> para Lohen, aumentando o Dano de <k>Entalhado em Alma e Osso</k>.\nDepois de lançar <k>Entalhado em Alma e Osso</k> até 3 vezes durante o estado <k>Golpe de Mestre</k>, não será mais possível acumular <k>Alegria</k>.\n\n<i>\"Cavalheirismo? Haha, essa é a melhor forma de fazer a isca cair na armadilha. Quando um inimigo sonha com uma vitória honorável, sempre cairá na surpresa agradável que o aguarda.\"</i>"
+          },
+          "burst": {
+            "name": "Julgamento Manifestado",
+            "desc": "Desfere um corte rápido em frente, consumindo tudo de <k>Luta pela Vitória</k>, causando <e:cryo>Dano Cryo</e> e aumentando o Dano causado de acordo com a quantidade de <k>Luta pela Vitória</k> consumida. Ao lançar, se Lohen estiver no estado <k>Golpe de Mestre</k>, a duração do estado <k>Golpe de Mestre</k> será estendida em 1.65s.\n\n<i>\"Já terminou de falar? Eu sequer consegui me animar.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Questionamento Proibido",
+            "desc": "Quando está no estado <k>Golpe de Mestre</k>, quando o Dano causado pelos outros personagens próximos acumular <k>Luta pela Vitória</k> para Lohen, se esse Dano não for menor que 3000% do ATQ Básico de Lohen, acumula 60 pontos adicionais de <k>Luta pela Vitória</k> para Lohen."
+          },
+          {
+            "name": "Brincadeira Primorosa",
+            "desc": "Quando está no estado <k>Golpe de Mestre</k>, nos 8s após os outros membros da equipe desencadearem uma <e:cryo>reação Cryo</e> no inimigo, aumenta o ATQ desse personagem em 15% e o ATQ de Lohen em 15%."
+          },
+          {
+            "name": "Interesse Efêmero",
+            "desc": "Depois de lançar a Habilidade Elemental <k>Ataque Surpresa</k>, Lohen obtém o efeito Animado por 9s: nessa duração, aumenta o nível de sua Habilidade Elemental <k>Ataque Surpresa</k> em 1.\nAo lançar a Habilidade Elemental, se os níveis dos Ataques Normais, Habilidades Elementais ou Supremos dos outros personagens da equipe não forem menores que o nível da Habilidade Elemental de Lohen, a duração desse Animado é estendida em 6s adicionais.\nÉ possível desencadear Animado uma vez a cada 18s."
+          },
+          {
+            "name": "Presente da Noite da Bruxa: Perfuração Incurável",
+            "desc": "Depois de completar <k>Tarefa da Bruxa: Pergunta sobre Inimigos</k>, Lohen se tornará um personagem <k>Mágico</k>. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito <k>Mágico: Ritual Secreto</k>, fortalecendo esses personagens.\n\n<k>Mágico: Ritual Secreto</k>\nQuando a Habilidade Elemental especial <k>Entalhado em Alma e Osso</k> atingir um inimigo, ou lançar seu Supremo <k>Julgamento Manifestado</k>, se <k>Luta pela Vitória</k> estiver pelo menos acima de 50% do seu limite máximo, aumenta o Dano do Ataque Normal e Carregado de Lohen em 40% por 6s."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Brisa Funesta do Passado",
+            "desc": "Aumenta o limite máximo de <k>Luta pela Vitória</k> de Lohen em 300%.\nAlém disso, quando está no estado <k>Golpe de Mestre</k>, aumenta o acúmulo de <k>Luta pela Vitória</k> para Lohen através do Dano causado por outros personagens próximos em 500% a mais do que o original."
+          },
+          {
+            "level": 2,
+            "name": "Aquilo que Voa Vira Alvo",
+            "desc": "Quando está no estado <k>Golpe de Mestre</k>, nos 4s após Habilidade Elemental especial <k>Entalhado em Alma e Osso</k> acertar um oponente ou o lançar o Supremo <k>Julgamento Manifestado</k> for desencadeado, Lohen obtém o efeito Lâmina Destruidora de Demônios: quando estiver no estado Golpe de Mestre, o próximo Ataque Normal ou Carregado de Lohen que atingir o inimigo fará um ataque perseguidor adicional causando 500% do ATQ de Lohen como <e:cryo>Dano Cryo em AdE</e>, e aumenta a Proficiência Elemental dos outros membros próximos da equipe em 200 por 8s. É possível desencadear o efeito Lâmina Destruidora de Demônios uma vez a cada 4s."
+          },
+          {
+            "level": 3,
+            "name": "Apenas a Lâmina Pode Curar Esta Ferida",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Ataque Surpresa</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Amor Brilhante Passa como uma Canção",
+            "desc": "Quando Lohen está no estado <k>Golpe de Mestre</k> e lançar o Supremo <k>Julgamento Manifestado</k>, Lohen acumula o máximo de <k>Luta pela Vitória</k>., fazendo com que o efeito de aumento de Dano do Supremo seja o maior possível.\n\nAlém disso, quando Lohen troca para o estado <k>Golpe de Mestre</k>, se sua Energia Elemental:\n· Não estiver cheia: regenera 15 de Energia Elemental para Lohen.\n· Se já estiver cheia: regenera 15 de Energia Elemental para Lohen nos 15s após lançar o Supremo <k>Julgamento Manifestado</k>."
+          },
+          {
+            "level": 5,
+            "name": "Inescrutável e Inquestionável",
+            "desc": "Aumenta o nível do Supremo <k>Julgamento Manifestado</k> em 3.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Corpo Desfeito, Alma Dissipada, Alegria Sobrada",
+            "desc": "Quando a Habilidade Elemental especial <k>Entalhado em Alma e Osso</k> atingir um inimigo ou lançar o Supremo <k>Julgamento Manifestado</k> no estado <k>Golpe de Mestre</k> não consumirá <k>Luta pela Vitória</k>, mas fará Lohen acumular o máximo de <k>Alegria</k>. Quando estiver no máximo, quando ele lançar a Habilidade Elemental especial <k>Entalhado em Alma e Osso</k> novamente e caso acerte um oponente, prolonga a duração do estado <k>Golpe de Mestre</k> em 1.25s. Esse efeito pode ser desencadeado uma vez a cada 7s.\nAlém disso, aumenta o Dano CRIT de todos os Danos acima em 175%, e o número de vezes que Lohen pode desencadear <k>Entalhado em Alma e Osso</k> durante essa instância de <k>Golpe de Mestre</k> é aumentado em 2."
           }
         ]
       }

@@ -41,7 +41,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12407",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -68,6 +68,19 @@
             "3": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>9 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
             "4": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>10,5 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s.",
             "5": "Les attaques normales et chargées augmentent l'ATQ et la DÉF de <r>12 %</r> pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,5 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma espada exótica com uma lâmina que ficou sem corte. Chegou a Liyue pelas mãos de comerciantes estrangeiros. Incrivelmente poderosa nas mãos de alguém que sabe usá-la.",
+        "passive": {
+          "name": "Ponta Energética",
+          "refinements": {
+            "1": "Após acertar um Ataque Normal e um Ataque Carregado, o ATQ e a DEF aumentam <r>6%</r> por 6s, podendo ser acumulado até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.5s.",
+            "2": "Após acertar um Ataque Normal e um Ataque Carregado, o ATQ e a DEF aumentam <r>7.5%</r> por 6s, podendo ser acumulado até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.5s.",
+            "3": "Após acertar um Ataque Normal e um Ataque Carregado, o ATQ e a DEF aumentam <r>9%</r> por 6s, podendo ser acumulado até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.5s.",
+            "4": "Após acertar um Ataque Normal e um Ataque Carregado, o ATQ e a DEF aumentam <r>10.5%</r> por 6s, podendo ser acumulado até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.5s.",
+            "5": "Após acertar um Ataque Normal e um Ataque Carregado, o ATQ e a DEF aumentam <r>12%</r> por 6s, podendo ser acumulado até 4 vezes. Este efeito pode ser ativado uma vez a cada 0.5s."
           }
         }
       }

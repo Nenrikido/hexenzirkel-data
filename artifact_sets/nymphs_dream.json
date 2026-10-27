@@ -33,7 +33,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15029",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -49,6 +49,13 @@
         "bonuses": {
           "2": "Confère un bonus de DGT <e:hydro>Hydro</e> de 15 %.",
           "4": "Lorsqu'une attaque normale, chargée ou plongeante, une compétence ou un déchaînement élémentaires a touché un ennemi, un cumul de l'effet Nymphe reflétée de 8 s est généré. Avec 1, 2 ou au minimum 3 cumuls de nymphe reflétée, l'ATQ augmente respectivement de 7 %/16 %/25 % et le bonus de DGT <e:hydro>Hydro</e> de 4 %/9 %/15 %. Les cumuls de nymphe reflétée obtenus grâce aux différents types d'attaques (normales, chargées, plongeantes, compétences et déchaînements élémentaires) existent indépendamment les uns des autres."
+        }
+      },
+      "pt": {
+        "name": "Sonho da Ninfa",
+        "bonuses": {
+          "2": "Bônus de Dano <e:hydro>Hydro</e> +15%",
+          "4": "Quando um Ataque Normal, Carregado, Imersivo, Habilidade Elemental ou Supremo atingem um inimigo, gerarão um acúmulo do efeito \"Ninfa Espelhada\" por 8s. Quando possuir 1/2/3 acúmulos ou mais do efeito \"Ninfa Espelhada\", aumentará o ATQ em 7%/16%/25, e aumentará o Bônus de Dano <e:hydro>Hydro</e> em 4%/9%/15%. Os acúmulos de \"Ninfa Espelhada\" gerados por Ataques Normais, Carregados, Imersivos, Habilidade Elemental ou Supremos existem independentemente."
         }
       }
     }

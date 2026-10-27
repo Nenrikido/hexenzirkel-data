@@ -24,7 +24,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15034",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -40,6 +40,13 @@
         "bonuses": {
           "2": "Augmente l'ATQ de 18 %.",
           "4": "Après l'utilisation d'une compétence élémentaire, le bonus de DGT <e:geo>Géo</e> augmente de 20 % pendant 10 s. Sous la protection d'un bouclier généré par une réaction de Cristallisation, ou s'il existe un voile lunaire créé par une réaction de Sélénocristallisation à proximité, cet effet augmente de 150 %, cette augmentation supplémentaire disparaissant 1 s après que ces conditions ne sont pas remplies."
+        }
+      },
+      "pt": {
+        "name": "Ecos da Floresta Noturna",
+        "bonuses": {
+          "2": "ATQ +18%",
+          "4": "Nos 10s depois de usar uma Habilidade Elemental, aumenta o Bônus de Dano <e:geo>Geo</e> em 20%. Se estiver protegido por um escudo gerado pela Reação de Cristalização, ou se houver uma Jaula Lunar próxima gerada por Cristalização Lunar por perto, o efeito acima será aumentado em 150%. Quando essas circunstâncias não forem satisfeitas, esse aumento adicional de Dano desaparece após 1s."
         }
       }
     }

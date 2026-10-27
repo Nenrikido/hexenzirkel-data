@@ -40,7 +40,7 @@
     "source": {
       "provider": "amber",
       "amberId": "12516",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -67,6 +67,19 @@
             "3": "Augmente l'ATQ du personnage équipé de l'arme de <r>42 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>24 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
             "4": "Augmente l'ATQ du personnage équipé de l'arme de <r>49 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>28 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
             "5": "Augmente l'ATQ du personnage équipé de l'arme de <r>56 %</r>.\nDe plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de <r>32 %</r> pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um objeto fantástico de incontáveis definições em um mar infinito de histórias. Seja na escala do universo ou dos sonhos, a espada sagrada do herói e a xícara de chá da princesa, a máquina gelada e a chave para abrir a porta da transcendência, no fundo, nada disso possui diferença.",
+        "passive": {
+          "name": "Coroação da Fada Branca",
+          "refinements": {
+            "1": "Aumenta o ATQ em <r>28%</r>.\nAlém disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar e Redemoinho Estelar causado pelo portador em <r>16%</r> por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s.",
+            "2": "Aumenta o ATQ em <r>35%</r>.\nAlém disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar e Redemoinho Estelar causado pelo portador em <r>20%</r> por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s.",
+            "3": "Aumenta o ATQ em <r>42%</r>.\nAlém disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar e Redemoinho Estelar causado pelo portador em <r>24%</r> por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s.",
+            "4": "Aumenta o ATQ em <r>49%</r>.\nAlém disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar e Redemoinho Estelar causado pelo portador em <r>28%</r> por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s.",
+            "5": "Aumenta o ATQ em <r>56%</r>.\nAlém disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar e Redemoinho Estelar causado pelo portador em <r>32%</r> por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s."
           }
         }
       }

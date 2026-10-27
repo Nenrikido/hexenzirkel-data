@@ -38,7 +38,7 @@
     "source": {
       "provider": "amber",
       "amberId": "14302",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -65,6 +65,19 @@
             "3": "Augmente l'ATQ de <r>36 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s.",
             "4": "Augmente l'ATQ de <r>42 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s.",
             "5": "Augmente l'ATQ de <r>48 %</r> pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma história fictícia de um grupo de 5 heróis em uma viagem de caça de dragões. Possui péssima caligrafia e está mal estruturada, porém transmite a importância de não cometer erros.",
+        "passive": {
+          "name": "Herança",
+          "refinements": {
+            "1": "Ao mudar de personagem, o ATQ do novo personagem é aumentado em <r>24%</r> por 10s. Este efeito pode ser ativado uma vez a cada 20s.",
+            "2": "Ao mudar de personagem, o ATQ do novo personagem é aumentado em <r>30%</r> por 10s. Este efeito pode ser ativado uma vez a cada 20s.",
+            "3": "Ao mudar de personagem, o ATQ do novo personagem é aumentado em <r>36%</r> por 10s. Este efeito pode ser ativado uma vez a cada 20s.",
+            "4": "Ao mudar de personagem, o ATQ do novo personagem é aumentado em <r>42%</r> por 10s. Este efeito pode ser ativado uma vez a cada 20s.",
+            "5": "Ao mudar de personagem, o ATQ do novo personagem é aumentado em <r>48%</r> por 10s. Este efeito pode ser ativado uma vez a cada 20s."
           }
         }
       }

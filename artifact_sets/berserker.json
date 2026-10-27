@@ -22,7 +22,7 @@
     "source": {
       "provider": "amber",
       "amberId": "10005",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -38,6 +38,13 @@
         "bonuses": {
           "2": "Augmente le taux CRIT de 12 %.",
           "4": "Augmente le taux CRIT de 24 % lorsque les PV sont inférieurs à 70 %."
+        }
+      },
+      "pt": {
+        "name": "Berserker",
+        "bonuses": {
+          "2": "Taxa Crítica +12%",
+          "4": "Quando a Vida estiver abaixo de 70%, a Taxa Crítica aumenta 24%."
         }
       }
     }

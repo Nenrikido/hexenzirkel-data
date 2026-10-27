@@ -17,7 +17,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15101",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -26,6 +26,9 @@
       },
       "fr": {
         "flavor": "La musique jouée par les chasseurs combine deux mélodies : la tension de l'arc et le sifflement des flèches."
+      },
+      "pt": {
+        "flavor": "A melodia de um caçador consiste em dois tipos de sons: o som do tensionamento da corda do seu arco e o som da flecha atravessando o ar."
       }
     }
   }

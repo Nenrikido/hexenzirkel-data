@@ -55,7 +55,7 @@
     "source": {
       "provider": "amber",
       "amberId": "13505",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -82,6 +82,19 @@
             "3": "Les ennemis touchés confèrent un bonus d'ATQ de <r>4,6 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>18 %</r>.",
             "4": "Les ennemis touchés confèrent un bonus d'ATQ de <r>5,3 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>21 %</r>.",
             "5": "Les ennemis touchés confèrent un bonus d'ATQ de <r>6 %</r> pendant 6 s. Cet effet peut être déclenché une fois toutes les 0,3 s, et peut être cumulé 7 fois maximum. Lorsque les cumuls sont au maximum, les DGT augmentent de <r>24 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Uma lança pesada e afiada feita de jade. Usada para derrotar monstros marinhos poderosos e pré-históricos.",
+        "passive": {
+          "name": "Lança da Justiça da Águia",
+          "refinements": {
+            "1": "Ao acertar, aumenta o ATQ em <r>3.2%</r> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <r>12%</r>.",
+            "2": "Ao acertar, aumenta o ATQ em <r>3.9%</r> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <r>15%</r>.",
+            "3": "Ao acertar, aumenta o ATQ em <r>4.6%</r> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <r>18%</r>.",
+            "4": "Ao acertar, aumenta o ATQ em <r>5.3%</r> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <r>21%</r>.",
+            "5": "Ao acertar, aumenta o ATQ em <r>6%</r> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <r>24%</r>."
           }
         }
       }

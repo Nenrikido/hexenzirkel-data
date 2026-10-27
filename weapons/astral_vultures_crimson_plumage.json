@@ -71,7 +71,7 @@
     "source": {
       "provider": "amber",
       "amberId": "15514",
-      "retrievedAt": "2026-09-15",
+      "retrievedAt": "2026-10-27",
       "markupRevision": 1
     },
     "locales": {
@@ -98,6 +98,19 @@
             "3": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>36 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>30 %/72 %</r> et ceux infligés par ses déchaînements élémentaires de <r>15 %/36 %</r>.",
             "4": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>42 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>35 %/84 %</r> et ceux infligés par ses déchaînements élémentaires de <r>17,5 %/42 %</r>.",
             "5": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de <r>48 %</r> pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de <r>40 %/96 %</r> et ceux infligés par ses déchaînements élémentaires de <r>20 %/48 %</r>."
+          }
+        }
+      },
+      "pt": {
+        "flavor": "Um arco antigo com penas vermelhas. É uma relíquia sagrada do Clã das Plumas de Flores que passou de geração em geração.",
+        "passive": {
+          "name": "Vista do Brinco da Lua",
+          "refinements": {
+            "1": "Após desencadear uma reação de Redemoinho ou Redemoinho Estelar, o ATQ aumenta em <r>24%</r> por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em <r>20%/48%</r>, e o Dano causado pelo Supremo aumenta em <r>10%/24%</r>.",
+            "2": "Após desencadear uma reação de Redemoinho ou Redemoinho Estelar, o ATQ aumenta em <r>30%</r> por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em <r>25%/60%</r>, e o Dano causado pelo Supremo aumenta em <r>12.5%/30%</r>.",
+            "3": "Após desencadear uma reação de Redemoinho ou Redemoinho Estelar, o ATQ aumenta em <r>36%</r> por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em <r>30%/72%</r>, e o Dano causado pelo Supremo aumenta em <r>15%/36%</r>.",
+            "4": "Após desencadear uma reação de Redemoinho ou Redemoinho Estelar, o ATQ aumenta em <r>42%</r> por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em <r>35%/84%</r>, e o Dano causado pelo Supremo aumenta em <r>17.5%/42%</r>.",
+            "5": "Após desencadear uma reação de Redemoinho ou Redemoinho Estelar, o ATQ aumenta em <r>48%</r> por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em <r>40%/96%</r>, e o Dano causado pelo Supremo aumenta em <r>20%/48%</r>."
           }
         }
       }
