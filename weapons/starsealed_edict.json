@@ -1,0 +1,184 @@
+{
+  "weapon_key": "14525",
+  "rarity": 5,
+  "display_name": "Starsealed Edict",
+  "base_stats_json": {
+    "baseAtk": 541.829766,
+    "subStatKey": "critDMG_",
+    "subStatValue": 0.882048
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "source": "14525",
+        "conditionKey": "dawnstarCritDmg",
+        "refinementTiered": true,
+        "description": "Dawnstar's Flowing Trail: CRIT DMG +24/30/36/42/48% (R1-R5), unconditional -- auto-applied by the chosen refinement.",
+        "states": {
+          "R1": {
+            "critDMG_": 0.24
+          },
+          "R2": {
+            "critDMG_": 0.3
+          },
+          "R3": {
+            "critDMG_": 0.36
+          },
+          "R4": {
+            "critDMG_": 0.42
+          },
+          "R5": {
+            "critDMG_": 0.48
+          }
+        }
+      },
+      {
+        "source": "14525",
+        "conditionKey": "crystalCompounding",
+        "description": "R1 Dawnstar's Flowing Trail: using the Elemental Skill grants Crystal Compounding for 20s, +48 EM; while it lasts each Elemental Reaction a nearby party member triggers adds a Law of Combustion stack (max 3, cleared when Compounding ends or the skill is reused), +24 EM each. In Radiance: Stellar-Conduct each stack also gives the wielder +12% Stellar-Conduct CRIT DMG. Pick the stack count; R2-R5 in refinementStates.",
+        "states": {
+          "0 Law of Combustion stacks": {
+            "eleMas": 48.0
+          },
+          "1 Law of Combustion": {
+            "eleMas": 72.0
+          },
+          "2 Law of Combustion stacks": {
+            "eleMas": 96.0
+          },
+          "3 Law of Combustion stacks": {
+            "eleMas": 120.0
+          },
+          "1 stack + Radiance: Stellar-Conduct": {
+            "eleMas": 72.0,
+            "stellarconduct_critDMG_": 0.12
+          },
+          "2 stacks + Radiance: Stellar-Conduct": {
+            "eleMas": 96.0,
+            "stellarconduct_critDMG_": 0.24
+          },
+          "3 stacks + Radiance: Stellar-Conduct": {
+            "eleMas": 120.0,
+            "stellarconduct_critDMG_": 0.36
+          }
+        },
+        "refinementStates": {
+          "R2": {
+            "0 Law of Combustion stacks": {
+              "eleMas": 60.0
+            },
+            "1 Law of Combustion": {
+              "eleMas": 90.0
+            },
+            "2 Law of Combustion stacks": {
+              "eleMas": 120.0
+            },
+            "3 Law of Combustion stacks": {
+              "eleMas": 150.0
+            },
+            "1 stack + Radiance: Stellar-Conduct": {
+              "eleMas": 90.0,
+              "stellarconduct_critDMG_": 0.15
+            },
+            "2 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 120.0,
+              "stellarconduct_critDMG_": 0.3
+            },
+            "3 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 150.0,
+              "stellarconduct_critDMG_": 0.45
+            }
+          },
+          "R3": {
+            "0 Law of Combustion stacks": {
+              "eleMas": 72.0
+            },
+            "1 Law of Combustion": {
+              "eleMas": 108.0
+            },
+            "2 Law of Combustion stacks": {
+              "eleMas": 144.0
+            },
+            "3 Law of Combustion stacks": {
+              "eleMas": 180.0
+            },
+            "1 stack + Radiance: Stellar-Conduct": {
+              "eleMas": 108.0,
+              "stellarconduct_critDMG_": 0.18
+            },
+            "2 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 144.0,
+              "stellarconduct_critDMG_": 0.36
+            },
+            "3 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 180.0,
+              "stellarconduct_critDMG_": 0.54
+            }
+          },
+          "R4": {
+            "0 Law of Combustion stacks": {
+              "eleMas": 84.0
+            },
+            "1 Law of Combustion": {
+              "eleMas": 126.0
+            },
+            "2 Law of Combustion stacks": {
+              "eleMas": 168.0
+            },
+            "3 Law of Combustion stacks": {
+              "eleMas": 210.0
+            },
+            "1 stack + Radiance: Stellar-Conduct": {
+              "eleMas": 126.0,
+              "stellarconduct_critDMG_": 0.21
+            },
+            "2 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 168.0,
+              "stellarconduct_critDMG_": 0.42
+            },
+            "3 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 210.0,
+              "stellarconduct_critDMG_": 0.63
+            }
+          },
+          "R5": {
+            "0 Law of Combustion stacks": {
+              "eleMas": 96.0
+            },
+            "1 Law of Combustion": {
+              "eleMas": 144.0
+            },
+            "2 Law of Combustion stacks": {
+              "eleMas": 192.0
+            },
+            "3 Law of Combustion stacks": {
+              "eleMas": 240.0
+            },
+            "1 stack + Radiance: Stellar-Conduct": {
+              "eleMas": 144.0,
+              "stellarconduct_critDMG_": 0.24
+            },
+            "2 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 192.0,
+              "stellarconduct_critDMG_": 0.48
+            },
+            "3 stacks + Radiance: Stellar-Conduct": {
+              "eleMas": 240.0,
+              "stellarconduct_critDMG_": 0.72
+            }
+          }
+        }
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": []
+  },
+  "source": {
+    "nanokaVersion": "7.1.53",
+    "refinementModelled": "R1",
+    "note": "7.2 weapon (Mitya's signature), added 2026-10-31 from nanoka 7.1.53; neither Amber nor GO carry it yet. Base stats = init x levels['90'] + last ascension add (541.83 ATK, same as Hymn of the Maelstrom). The static CRIT DMG is not in param_list, so its tiers come from the R1-R5 description text."
+  }
+}

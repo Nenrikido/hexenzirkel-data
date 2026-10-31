@@ -1,0 +1,410 @@
+{
+  "display_name": "Valeriy",
+  "go_key": "Valeriy",
+  "avatar_id": 10000137,
+  "character_key": "avatar_10000137",
+  "element": "electro",
+  "weapon_type": "sword",
+  "constellation_talent_boosts": {
+    "auto": 3,
+    "skill": 5
+  },
+  "base_stats_json": {
+    "baseHp": 10004.921652,
+    "baseAtk": 254.87663,
+    "baseDef": 702.997168,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.24
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "mortarDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_",
+          "valeriyc6_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "mortarDmg_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "plungeTier": "dmg"
+      },
+      "low": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ],
+        "plungeTier": "low"
+      },
+      "high": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ],
+        "plungeTier": "high"
+      }
+    },
+    "skill": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "shellDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_",
+          "valeriyc6_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "shellDmg_mult"
+          }
+        ]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.8234300017,
+        "1_mult": 0.7433800101,
+        "2_mult": 1.1512800455,
+        "offensiveDirective_electro_atkRatio": 0.5472000241,
+        "offensiveDirective_stellarConduct_atkRatio": 1.6416000128
+      },
+      "charged": {
+        "dmg_mult": 2.5418798923,
+        "mortarDmg_mult": 5.1570000648
+      },
+      "plunging": {
+        "dmg_mult": 1.6206120253,
+        "low_mult": 3.2405369282,
+        "high_mult": 4.0476059914
+      },
+      "skill": {
+        "dmg_mult": 3.7349998951,
+        "shield_atkRatio": 4.7001600266,
+        "shield_flat": 3863.7880859375
+      }
+    },
+    "normal": {
+      "0_mult": 0.778103,
+      "1_mult": 0.70246,
+      "2_mult": 1.087907,
+      "offensiveDirective_electro_atkRatio": 0.5168,
+      "offensiveDirective_stellarConduct_atkRatio": 1.5504,
+      "offensiveDirective_stacks": 15.0,
+      "offensiveDirective_duration": 18.0
+    },
+    "charged": {
+      "dmg_mult": 2.40196,
+      "mortarDmg_mult": 4.8705,
+      "stam": 20.0
+    },
+    "plunging": {
+      "dmg_mult": 1.531404,
+      "low_mult": 3.062159,
+      "high_mult": 3.824802
+    },
+    "skill": {
+      "dmg_mult": 3.5275,
+      "shield_atkRatio": 4.43904,
+      "shield_flat": 3601.823975,
+      "shieldDuration": 18.0,
+      "cooldown": 10.0
+    },
+    "burst": {
+      "dmg_mult": 2.43216,
+      "shellDmg_mult": 0.56736,
+      "duration": 12.0,
+      "cooldown": 15.0,
+      "energy_cost": 60.0
+    },
+    "passive": {
+      "a1_impactMomentum_perElectroHit": 5.0,
+      "a1_impactMomentum_cap": 80.0,
+      "a4_offensiveDirective_atkRatio_perMomentum": 0.003,
+      "a4_offensiveDirective_radiance_atkRatio_perMomentum": 0.009
+    },
+    "constellation": {
+      "c1_energy": 6.0,
+      "c1_energyCap": 15.0,
+      "c1_firstSkillMomentumMult": 1.5,
+      "c2_partyEleMas": 100.0,
+      "c2_duration": 18.0,
+      "c4_momentumCapBonus": 30.0,
+      "c4_chargeEfficiency": 0.3,
+      "c4_a1Cap": 104.0,
+      "c6_dmg_": 1.0,
+      "c6_electroCritRate_": 0.1,
+      "c6_stellarConductCritDMG_": 0.4
+    },
+    "source": {
+      "provider": "nanoka",
+      "endpoint": "https://static.nanoka.cc/gi/7.1.53/en/character/10000137.json",
+      "nanokaVersion": "7.1.53",
+      "assumptions": {
+        "constellation": 6,
+        "characterLevel": 90,
+        "autoTalentLevel": 13,
+        "skillTalentLevel": 13,
+        "burstTalentLevel": 10,
+        "note": "4-star convention: C6 assumed, so the constellation-boosted talents (C3 Normal Attack, C5 skill) are baked at Lv13 while the burst stays Lv10. Offensive Directive is a Normal Attack parameter, so it is Lv13 too."
+      },
+      "note": "7.2 character, added 2026-10-31 from nanoka 7.1.53 (pre-release data); neither Amber nor GO carry him yet, so the hit keys are OUR names (charged.mortarDmg = Direct-Fire Mortar: Point-Blank Bombardment, burst.shellDmg = one Thunderburst Shell projectile) and must be reconciled with GO once its sheet exists. Sword NA/CA/plunge are Physical; the Mortar is Electro."
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "offensiveDirectiveOwnAtk",
+        "source": "avatar_10000137",
+        "description": "Offensive Directive, SELF half (not in Radiance): after the Mortar, Valeriy's own Electro hits (skill, burst, Thunderburst Shells) gain flat DMG = 51.68% of his ATK + A4 0.3% of his ATK per Impact Momentum the Mortar consumed, read live from his own ATK via electro_dmgIncFromAtk_. Pick the Momentum consumed. The Radiance half only buffs Stellar-Conduct DMG, which Valeriy does not deal. Offensive Directive is 15 stacks for 18s and each Electro instance consumes one (one per opponent hit) -- the pool is not enforced, so split the rotation with per-target bonusStats if it has more instances than stacks. The Mortar that grants the stacks does not consume one.",
+        "states": [
+          {
+            "value": "40 (minimum) Impact Momentum",
+            "modifiers": {
+              "electro_dmgIncFromAtk_": 0.6368
+            }
+          },
+          {
+            "value": "70 Impact Momentum",
+            "modifiers": {
+              "electro_dmgIncFromAtk_": 0.7268
+            }
+          },
+          {
+            "value": "100 (max) Impact Momentum",
+            "modifiers": {
+              "electro_dmgIncFromAtk_": 0.8168
+            }
+          },
+          {
+            "value": "130 (C4 max) Impact Momentum",
+            "modifiers": {
+              "electro_dmgIncFromAtk_": 0.9068
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6MortarShellDmg",
+        "source": "avatar_10000137",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 The Strength to Breach Enemy Lines: Direct-Fire Mortar and the Thunderburst Shells deal 100% more DMG -- read as a DMG% bonus scoped to those two hits (valeriyc6_dmg_). The opponent-side crit half is the team entry c6ElectroCrit.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "valeriyc6_dmg_": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2PartyEleMas",
+        "source": "avatar_10000137",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 Ranks That Charge as One: all nearby party members gain 100 EM for 18s after Valeriy uses his Elemental Skill (CD 10s, so permanent).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "eleMas": 100.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6ElectroCrit",
+        "source": "avatar_10000137",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 The Strength to Breach Enemy Lines: opponents hit by the Mortar or a Thunderburst Shell take Electro DMG with +10% CRIT Rate for 7s, and Electro Stellar-Conduct DMG with an additional +40% CRIT DMG. Modelled as electro_critRate_ + stellarconduct_critDMG_ (every Stellar-Conduct hit so far is Electro or Cryo; a Cryo one would wrongly get the 40% here).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "electro_critRate_": 0.1,
+              "stellarconduct_critDMG_": 0.4
+            }
+          }
+        ]
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "offensiveDirectiveElectroSourceAtk",
+        "source": "avatar_10000137",
+        "description": "Offensive Directive, OTHERS half, not in Radiance: after Valeriy's Direct-Fire Mortar, the active character's Electro DMG (Normal/Charged/Plunging/Skill/Burst) is increased by 51.68% of VALERIY's ATK (Normal Attack Lv13, C6 convention), plus A4 Into the Breach 0.3% of his ATK per Impact Momentum the Mortar consumed. The rates assume a full 100 Momentum (+30%), and 130 from C4 (constellationRates). Type his ATK; blank assumes 2,000. Offensive Directive is 15 stacks for 18s and each Electro instance consumes one (one per opponent hit) -- the pool is not enforced, so split the rotation with per-target bonusStats if it has more instances than stacks. The Mortar that grants the stacks does not consume one.",
+        "statInput": {
+          "stat": "atk",
+          "default": 2000,
+          "max": 6000,
+          "ratesPerUnit": {
+            "electro_dmgInc": 0.8168
+          },
+          "constellationRates": {
+            "C4": {
+              "electro_dmgInc": 0.9068
+            }
+          }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "offensiveDirectiveStellarConductSourceAtk",
+        "source": "avatar_10000137",
+        "description": "Offensive Directive, OTHERS half, Radiance: Stellar-Conduct: after Valeriy's Direct-Fire Mortar, the active character's Electro Stellar-Conduct DMG (lands on stellarconduct_dmgInc, outside the Stellar brackets) is increased by 155.04% of VALERIY's ATK (Normal Attack Lv13, C6 convention), plus A4 Into the Breach 0.9% of his ATK per Impact Momentum the Mortar consumed. The rates assume a full 100 Momentum (+90%), and 130 from C4 (constellationRates). Type his ATK; blank assumes 2,000. Offensive Directive is 15 stacks for 18s and each Electro instance consumes one (one per opponent hit) -- the pool is not enforced, so split the rotation with per-target bonusStats if it has more instances than stacks. The Mortar that grants the stacks does not consume one.",
+        "statInput": {
+          "stat": "atk",
+          "default": 2000,
+          "max": 6000,
+          "ratesPerUnit": {
+            "stellarconduct_dmgInc": 2.4504
+          },
+          "constellationRates": {
+            "C4": {
+              "stellarconduct_dmgInc": 2.7204
+            }
+          }
+        },
+        "states": []
+      }
+    ]
+  }
+}

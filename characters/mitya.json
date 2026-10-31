@@ -1,0 +1,593 @@
+{
+  "display_name": "Mitya",
+  "go_key": "Mitya",
+  "avatar_id": 10000136,
+  "character_key": "avatar_10000136",
+  "element": "electro",
+  "weapon_type": "catalyst",
+  "enables": "stellar",
+  "constellation_talent_boosts": {
+    "skill": 3,
+    "auto": 5
+  },
+  "base_stats_json": {
+    "baseHp": 11633.615504,
+    "baseAtk": 263.096227,
+    "baseDef": 791.611027,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ]
+      },
+      "gradientDetonationDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "gradientDetonationDmg_mult"
+          }
+        ]
+      },
+      "gradientDetonationStellarDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "gradientDetonationStellarDmg_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "plungeTier": "dmg"
+      },
+      "low": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ],
+        "plungeTier": "low"
+      },
+      "high": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ],
+        "plungeTier": "high"
+      }
+    },
+    "skill": {
+      "tapDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "tapDmg_mult"
+          }
+        ]
+      },
+      "holdDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "holdDmg_mult"
+          }
+        ]
+      },
+      "steadyCoreDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_",
+          "detectioncore_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "steadyCoreDmg_mult"
+          }
+        ]
+      },
+      "steadyCoreBeaconStellarDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "detectioncore_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "steadyCoreBeaconStellarDmg_mult"
+          }
+        ]
+      },
+      "steadyCoreDetonationStellarDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "detectioncore_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "steadyCoreDetonationStellarDmg_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          },
+          {
+            "scalingKey": "eleMas",
+            "multKey": "dmgEm_mult"
+          }
+        ]
+      }
+    },
+    "constellation4": {
+      "coreStellarDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "detectioncore_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "coreStellarDmg_mult"
+          }
+        ]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "normal": {
+        "0_mult": 1.322963953,
+        "1_mult": 1.0867680311,
+        "2_mult": 1.5530040264
+      },
+      "charged": {
+        "dmg_mult": 3.0797998905,
+        "gradientDetonationDmg_mult": 3.7799999714,
+        "gradientDetonationStellarDmg_mult": 5.0399999619
+      },
+      "plunging": {
+        "dmg_mult": 1.4405440092,
+        "low_mult": 2.8804779053,
+        "high_mult": 3.5978720188
+      },
+      "skill": {
+        "tapDmg_mult": 2.0411999226,
+        "holdDmg_mult": 2.9159998894,
+        "steadyCoreDmg_mult": 1.6200000048,
+        "steadyCoreBeaconStellarDmg_mult": 1.7999999523,
+        "steadyCoreDetonationStellarDmg_mult": 2.0699999332
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.1171699762,
+        "1_mult": 0.917715013,
+        "2_mult": 1.3114260435
+      },
+      "charged": {
+        "dmg_mult": 2.6007199287,
+        "gradientDetonationDmg_mult": 3.1919999123,
+        "gradientDetonationStellarDmg_mult": 4.256000042
+      },
+      "plunging": {
+        "dmg_mult": 1.2026560307,
+        "low_mult": 2.404802084,
+        "high_mult": 3.0037279129
+      },
+      "skill": {
+        "tapDmg_mult": 1.7236800194,
+        "holdDmg_mult": 2.4623999596,
+        "steadyCoreDmg_mult": 1.3680000305,
+        "steadyCoreBeaconStellarDmg_mult": 1.5199999809,
+        "steadyCoreDetonationStellarDmg_mult": 1.7480000257
+      }
+    },
+    "boosted": {
+      "normal": {
+        "0_mult": 1.249466,
+        "1_mult": 1.026392,
+        "2_mult": 1.466726
+      },
+      "charged": {
+        "dmg_mult": 2.9087,
+        "gradientDetonationDmg_mult": 3.57,
+        "gradientDetonationStellarDmg_mult": 4.76
+      },
+      "plunging": {
+        "dmg_mult": 1.361248,
+        "low_mult": 2.721919,
+        "high_mult": 3.399824
+      },
+      "skill": {
+        "tapDmg_mult": 1.9278,
+        "holdDmg_mult": 2.754,
+        "steadyCoreDmg_mult": 1.53,
+        "steadyCoreBeaconStellarDmg_mult": 1.7,
+        "steadyCoreDetonationStellarDmg_mult": 1.955
+      }
+    },
+    "normal": {
+      "0_mult": 1.058371,
+      "1_mult": 0.869414,
+      "2_mult": 1.242403
+    },
+    "charged": {
+      "dmg_mult": 2.46384,
+      "gradientDetonationDmg_mult": 3.024,
+      "gradientDetonationStellarDmg_mult": 4.032,
+      "stam": 50.0
+    },
+    "plunging": {
+      "dmg_mult": 1.12336,
+      "low_mult": 2.246244,
+      "high_mult": 2.80568
+    },
+    "skill": {
+      "tapDmg_mult": 1.63296,
+      "holdDmg_mult": 2.3328,
+      "steadyCoreDmg_mult": 1.296,
+      "steadyCoreBeaconStellarDmg_mult": 1.44,
+      "steadyCoreDetonationStellarDmg_mult": 1.656,
+      "detectionCoreDuration": 25.0,
+      "cooldown": 18.0
+    },
+    "burst": {
+      "dmg_mult": 6.0048,
+      "dmgEm_mult": 12.0096,
+      "gradientBeacons": 3.0,
+      "cooldown": 15.0,
+      "energy_cost": 60.0
+    },
+    "constellation4": {
+      "coreStellarDmg_mult": 3.0
+    },
+    "passive": {
+      "a1_steadyState_eleMas_perBeacon": 30.0,
+      "a4_gradientBeacon_duration": 10.0,
+      "a4_critRate_perStack": 0.05,
+      "a4_maxStacks": 4.0,
+      "a4_duration": 15.0,
+      "passive3_stellarConduct_basedmg_perEm": 0.00028,
+      "passive3_stellarConduct_basedmg_cap": 0.14
+    },
+    "constellation": {
+      "c1_maxBeacons": 5.0,
+      "c1_activeCritDMG_": 0.4,
+      "c1_energyPerBeacon": 10.0,
+      "c2_cryoElectroRes_": -0.2,
+      "c2_steadyState_partyEleMas": 123.0,
+      "c2_overloaded_activeEleMas": 234.0,
+      "c4_coreStellarDmg_emRatio": 3.0,
+      "c4_beaconsPerHit": 5.0,
+      "c6_overloaded_beaconRefundChance": 0.34,
+      "c6_steadyState_coreDmgMult": 1.15,
+      "c6_stellarConduct_elevation": 0.2
+    },
+    "source": {
+      "provider": "nanoka",
+      "endpoint": "https://static.nanoka.cc/gi/7.1.53/en/character/10000136.json",
+      "nanokaVersion": "7.1.53",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "skillTalentLevel": 10,
+        "burstTalentLevel": 10
+      },
+      "note": "7.2 character, added 2026-10-31 from nanoka 7.1.53 (pre-release data); neither Amber nor GO carry him yet, so every hit key is OUR name and must be reconciled with GO once its sheet exists. Base sections are Lv10 (5-star C0); `boosted` holds Lv13 for the skill (C3) and Normal Attack (C5). Gradient Detonation (non-Stellar) has no stat named in its label and is assumed ATK-scaled; every Stellar-Conduct hit is labelled \"% Elemental Mastery\". The Steady State Core detonation multiplier is PER Gradient Beacon consumed (label \"EM/Beacon\"): put the beacon count in the rotation weight."
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "stellarconduct_basedmg_from_eleMas_": 0.00028,
+      "stellarconduct_basedmg_from_eleMas_cap_": 0.14
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4CritRateStacks",
+        "source": "avatar_10000136",
+        "description": "A4 Explosive Reagent: Safe Limits Exceeded: creating a Gradient Beacon grants Mitya +5% CRIT Rate for 15s, up to 4 stacks (the same passive extends Beacons to 10s). Beacons come from every Stellar-Conduct reaction (and from the A1 / C1), so 4 stacks are normal in a Stellar-Conduct team.",
+        "states": [
+          {
+            "value": "1 stack (+5%)",
+            "modifiers": {
+              "critRate_": 0.05
+            }
+          },
+          {
+            "value": "2 stacks (+10%)",
+            "modifiers": {
+              "critRate_": 0.1
+            }
+          },
+          {
+            "value": "3 stacks (+15%)",
+            "modifiers": {
+              "critRate_": 0.15
+            }
+          },
+          {
+            "value": "4 stacks (+20%), max",
+            "modifiers": {
+              "critRate_": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6SteadyStateCore",
+        "source": "avatar_10000136",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Elemental Transition at the Gate of Reason, Steady State half: a Detection Core in the Steady State deals 115% of its original DMG -- a base-DMG multiplier (detectioncore_base_dmg_) on every hit the core deals: its periodic strikes, the Beacon-consumption and detonation Stellar-Conduct hits, and the C4 hit. Leave off for an Overloaded rotation (that half is a 34% Beacon refund, not modelled). The C6 Elevation is the separate team entry c6StellarConductElevation.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "detectioncore_base_dmg_": 0.15
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1SteadyStateEleMas",
+        "source": "avatar_10000136",
+        "description": "A1 Baseline Stress Test, Steady State: while a Steady State Detection Core is up, all nearby party members gain 30 Elemental Mastery per Gradient Beacon Mitya has (max 4, 5 from C1). Pick the average Beacon count. The Overloaded half generates Beacons and grants no stats.",
+        "states": [
+          {
+            "value": "1 Beacon (+30 EM)",
+            "modifiers": {
+              "eleMas": 30.0
+            }
+          },
+          {
+            "value": "2 Beacons (+60 EM)",
+            "modifiers": {
+              "eleMas": 60.0
+            }
+          },
+          {
+            "value": "3 Beacons (+90 EM)",
+            "modifiers": {
+              "eleMas": 90.0
+            }
+          },
+          {
+            "value": "4 Beacons (+120 EM)",
+            "modifiers": {
+              "eleMas": 120.0
+            }
+          },
+          {
+            "value": "5 Beacons (+150 EM) (C1)",
+            "modifiers": {
+              "eleMas": 150.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c1ActiveCritDmg",
+        "source": "avatar_10000136",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 The Observer Seeking What Is Missing: while the Detection Core is present, the ACTIVE character's CRIT DMG is increased by 40%. Team scope assumes the scored character is the one on field while the core is up.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "critDMG_": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2CoreResShredEleMas",
+        "source": "avatar_10000136",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 The Matter That Slumbers Beyond Inertness: while the Detection Core is present, opponents in the Polestar Field have Cryo and Electro RES -20%. A Steady State core also gives all nearby party members +123 EM; an Overloaded core gives the ACTIVE character +234 EM instead (team scope assumes the scored character is active).",
+        "states": [
+          {
+            "value": "Steady State (-20% Cryo/Electro RES, party +123 EM)",
+            "modifiers": {
+              "cryo_enemyRes_": -0.2,
+              "electro_enemyRes_": -0.2,
+              "eleMas": 123.0
+            }
+          },
+          {
+            "value": "Overloaded (-20% Cryo/Electro RES, active +234 EM)",
+            "modifiers": {
+              "cryo_enemyRes_": -0.2,
+              "electro_enemyRes_": -0.2,
+              "eleMas": 234.0
+            }
+          },
+          {
+            "value": "RES shred only",
+            "modifiers": {
+              "cryo_enemyRes_": -0.2,
+              "electro_enemyRes_": -0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6StellarConductElevation",
+        "source": "avatar_10000136",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Elemental Transition at the Gate of Reason: Stellar-Conduct reaction DMG dealt by all nearby party members is ELEVATED by 20% -- its own (1 + Elevation) bracket, stellarconduct_specialDmg_, the same key as Sandrone's C6.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarconduct_specialDmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "passive3StellarConductBaseDmgSourceEm",
+        "source": "avatar_10000136",
+        "description": "Stellar Jubilee: Top-Secret Protocol, OTHERS half: the Base Stellar-Conduct DMG of every nearby party member is increased by 0.028% per point of MITYA's Elemental Mastery, up to +14% (reached at 500 EM). Type his EM; blank assumes 1,000 (capped, +14%). Lands on stellarconduct_basedmg_, the Stellar base-DMG bracket Sandrone's passive also feeds (they add). When Mitya is the scored character his own EM is read live by the stellarconduct_basedmg_from_eleMas_ conversion in self_modifiers.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 5000,
+          "ratesPerUnit": {
+            "stellarconduct_basedmg_": 0.00028
+          },
+          "caps": {
+            "stellarconduct_basedmg_": 0.14
+          }
+        },
+        "states": []
+      }
+    ]
+  }
+}
