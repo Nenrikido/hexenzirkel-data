@@ -26,5 +26,105 @@
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000117",
+      "retrievedAt": "2026-11-01",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Outlander Arts: Vigilant Watch",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 4 rapid strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Punishing Barrage",
+            "desc": "The Manekin attacks nearby opponents once, dealing AoE DMG corresponding to their own Elemental Type before pulling back rapidly. After unleashing an Elemental Skill, the Manekin's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to deal the corresponding elemental DMG, which cannot be overridden by other Elemental infusions, for a period of time. This effect will disappear when the Manekin leaves the field.\n\nHas 2 charges.\n\n<i>\"A well-measured blow is a necessary warning.\"</i>"
+          },
+          "burst": {
+            "name": "No Entry",
+            "desc": "The Manekin summons a \"Restricted Area\" that follows them around, dealing 1 instance of DMG corresponding to the Manekin's Elemental Type to nearby opponents.\nAdditionally, when opponents enter the Restricted Area, they will receive 1 instance of DMG corresponding to the Manekin's Elemental Type. This effect can trigger once every 0.5s.\nThe Restricted Area will disappear when the Manekin leaves the field.\n\n<i>\"Those who insist on trespassing within the restricted area will be regarded as hostile and expelled with maximum force.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Battlelines Redrawn",
+            "desc": "When the Manekin leaves the field, if a Restricted Area that they summoned is still active, it will explode, dealing AoE DMG of the Manekin's Elemental Type equal to 200% of the Manekin's ATK."
+          },
+          {
+            "name": "Combat Readiness",
+            "desc": "When the Manekin is not on the field and their Elemental Energy is below 30%, they will recover 2 Elemental Energy per second."
+          },
+          {
+            "name": "Agile Stance",
+            "desc": "When the Manekin unleashes an Elemental Skill or Burst, it will change to one of its existing Cosmetic Plans at random."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Arcane de la frontière : Garde vigilante",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 4 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour déclencher deux coups d'épée rapides.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Bombardement punitif",
+            "desc": "Votre Mannequin attaque les ennemis proches une fois, infligeant des DGT de zone correspondant à son type élémentaire avant de reculer rapidement. Après avoir déclenché une compétence élémentaire, les attaques normales, chargées et plongeantes de votre Mannequin sont converties pour infliger des DGT de l'élément correspondant ne pouvant pas être enchantés, cet effet prenant fin lorsque votre Mannequin quitte le terrain.\n\nVotre Mannequin possède 2 utilisations disponibles.\n\n<i>« Un coup bien dosé est un avertissement nécessaire. »</i>"
+          },
+          "burst": {
+            "name": "Zone interdite",
+            "desc": "Votre Mannequin invoque une zone interdite qui le suit partout, infligeant une fois des DGT correspondant à son type élémentaire aux ennemis proches.\nDe plus, tout ennemi entrant dans la zone interdite subit une fois des DGT correspondant au type élémentaire de votre Mannequin, cet effet pouvant être déclenché une fois toutes les 0,5 s.\nLa zone interdite disparaît lorsque votre Mannequin quitte le terrain.\n\n<i>« Ceux qui persistent à pénétrer dans la zone interdite seront considérés comme hostiles et expulsés avec la plus grande force. »</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Retraçage de la bataille",
+            "desc": "Lorsque votre Mannequin quitte le terrain, toute zone interdite restante qu'il a invoquée explose, infligeant des DGT de zone de l'élément de votre Mannequin d'une valeur équivalant à 200 % de son ATQ."
+          },
+          {
+            "name": "Préparation au combat",
+            "desc": "Lorsque votre Mannequin fait partie de l'équipe mais n'est pas déployé, et s'il possède moins de 30 % d'énergie élémentaire, il en récupère 2 pts toutes les secondes."
+          },
+          {
+            "name": "Position agile",
+            "desc": "Lorsque votre Mannequin utilise une compétence élémentaire ou un déchaînement élémentaire, il change aléatoirement de combinaison vestimentaire parmi celles qu'il possède."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Arte Forasteira: Vigia Atenta",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 4 golpes rápidos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com sua lâmina.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Saraivada Punidora",
+            "desc": "O Manequim faz um ataque contra os inimigos próximos, causando Dano Elemental correspondente em AdE, e recuando rapidamente. Por um tempo depois de lançar sua Habilidade Elemental, os Ataques Normais, Carregados e Imersivos do Manequim serão convertidos em Dano Elemental que não pode ser substituído. Esse efeito será removido quando o Manequim sair do campo de batalha.\n\nPossui 2 Usos.\n\n<i>\"Um golpe preciso é um aviso necessário.\"</i>"
+          },
+          "burst": {
+            "name": "Acesso Restrito",
+            "desc": "O Manequim invoca uma Zona Restrita que o acompanha, causando uma instância de Dano correspondente ao Tipo Elemental do Manequim contra inimigos próximos.\nAlém disso, quando um inimigo entra na Zona Restrita, sofrerá uma instância de Dano do Tipo Elemental correspondente do Manequim. Esse efeito pode ser desencadeado uma vez a cada 0.5s.\nA Zona Restrita desaparecerá quando o Manequim sair do campo de batalha.\n\n<i>\"Aqueles que insistem em invadir a zona proibida serão vistos como hostis, e expulsos com o máximo de força.\"</i>"
+          }
+        },
+        "passives": [
+          {
+            "name": "Redesenho das Linhas de Frente",
+            "desc": "Quando o Manequim sair do campo de batalha, se estiver dentro de uma Zona Restrita que o Manequim criou, ela explodirá, causando 200% do ATQ do Manequim como Dano Elemental correspondente em AdE."
+          },
+          {
+            "name": "Prontidão de Combate",
+            "desc": "Quando Manequim está na equipe, mas não ativo no campo de batalha, se sua Energia Elemental for menor que 30%, ele regenerará 2 pontos de Energia Elemental para si mesmo por segundo."
+          },
+          {
+            "name": "Postura Ágil",
+            "desc": "Quando o Manequim lançar a Habilidade Elemental e o Supremo, ele mudará para um de seus planos de vestuário aleatoriamente."
+          }
+        ]
+      }
+    }
   }
 }
