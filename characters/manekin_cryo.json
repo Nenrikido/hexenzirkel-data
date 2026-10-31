@@ -1,0 +1,30 @@
+{
+  "display_name": "Manekin (Cryo)",
+  "avatar_id": 1000011705,
+  "character_key": "avatar_1000011705",
+  "element": "cryo",
+  "weapon_type": "sword",
+  "constellation_talent_boosts": {},
+  "base_stats_json": {
+    "baseHp": 10874.914859,
+    "baseAtk": 212.397192,
+    "baseDef": 682.521525,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.24,
+    "growCurve": "S4"
+  },
+  "hit_definitions_json": {},
+  "talent_multipliers_json": {
+    "source": {
+      "note": "Skeleton for build cards only (no leaderboard yet). Manekin (10000117) and Manekina (10000118) are one character per element, like the Traveler: enka_service maps skill depot 11705/11805 to this synthetic avatar_id. Base stats from Amber upgrade (S4 curves x 8.349 + last ascension), identical for both and for every element; Manekin has no constellations."
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {},
+    "self_conditional_modifiers_json": [],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": []
+  }
+}

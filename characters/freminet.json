@@ -168,6 +168,7 @@
         "element": "cryo",
         "dmgBonusKeys": [
           "skill_dmg_",
+          "frostwave_dmg_",
           "cryo_dmg_",
           "all_dmg_"
         ],
@@ -407,6 +408,19 @@
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstSubnauticalHunterFrost",
+        "source": "Freminet",
+        "description": "Burst Shadowhunter's Ambush (Subnautical Hunter mode, 10s): the frost released by his Normal Attacks during Pers Timer deals 200% of its original DMG (+100%). 'X% of its original DMG' is a base-DMG multiplier, applied as frostwave_base_dmg_ and scoped to skill.frostDmg only via the frostwave_dmg_ key in its dmgBonusKeys. Enable it when the rotation's frost waves all fall inside the burst window.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "frostwave_base_dmg_": 1.0
+            }
+          }
+        ]
+      },
       {
         "conditionKey": "a4ParallelCondensersSkillDmg",
         "source": "Freminet",
