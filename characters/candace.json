@@ -231,7 +231,13 @@
       {
         "conditionKey": "a4CelestialDomeOfSandNormalDmg",
         "source": "Candace",
-        "description": "A4 Celestial Dome of Sand: characters affected by Prayer of the Crimson Crown deal 0.5% increased DMG per 1,000 points of Candace's Max HP when dealing Elemental DMG with Normal Attacks. Approximated at 30,000 Max HP (a common HP-scaling Candace build) for a flat +15% Normal Attack DMG; the LB builder UI lets the admin tune this to Candace's actual Max HP.",
+        "description": "A4 Celestial Dome of Sand: characters affected by Prayer of the Crimson Crown deal 0.5% increased DMG per 1,000 points of Candace's Max HP when dealing Elemental DMG with Normal Attacks. The builder takes Candace's Max HP (statInput, 0.0005% per HP point); type it including her C2 +20% Max HP when the board's Candace is C2+. Blank, or the \"on\" preset, is 30,000 HP = +15%. Applied as normal_dmg_, so a Physical Normal Attack collects it too; her burst infuses melee characters' attacks with Hydro, so on the boards this matters for, those Normal Attacks are already Elemental.",
+        "statInput": {
+          "stat": "hp",
+          "default": 30000,
+          "max": 100000,
+          "ratesPerUnit": { "normal_dmg_": 0.000005 }
+        },
         "states": [{ "value": "on", "modifiers": { "normal_dmg_": 0.15 } }]
       }
     ],
