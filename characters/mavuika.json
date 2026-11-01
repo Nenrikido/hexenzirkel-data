@@ -449,7 +449,18 @@
       {
         "conditionKey": "burstFightingSpirit",
         "source": "Mavuika",
-        "description": "Burst Hour of Burning Skies / Crucible of Death and Life: the Fighting Spirit spent on the cast raises the DMG of MAVUIKA's own Sunfell Slice and of her Flamestrider (\"Ancient Name Unbound\") Normal and Charged Attacks, as a ratio of her ATK. At burst Lv10 that is 2.88% / 0.51% / 1.02% of ATK per point of Fighting Spirit; the \"high\" state is the 200-point maximum, i.e. 5.76 / 1.02 / 2.04. C3 takes the burst to Lv13 (3.4% / 0.618% / 1.236% per point -> 6.8 / 1.236 / 2.472), which is the constellationStates block — the values were frozen at Lv10 before 2026-09-22. SELF scope: these are her own hits. The team-wide +40% DMG from the same cast is the separate A4 entry a4KiongoziDmgBonus; enable both.",
+        "description": "Burst Hour of Burning Skies / Crucible of Death and Life: the Fighting Spirit spent on the cast raises the DMG of MAVUIKA's own Sunfell Slice and of her Flamestrider (\"Ancient Name Unbound\") Normal and Charged Attacks, as a ratio of her ATK. At burst Lv10 that is 2.88% / 0.51% / 1.02% of ATK per point of Fighting Spirit; the \"high\" state is the 200-point maximum, i.e. 5.76 / 1.02 / 2.04. C3 takes the burst to Lv13 (3.4% / 0.618% / 1.236% per point -> 6.8 / 1.236 / 2.472), which is the constellationStates block — the values were frozen at Lv10 before 2026-09-22. SELF scope: these are her own hits. The team-wide +40% DMG from the same cast is the separate A4 entry a4KiongoziDmgBonus; enable both. The builder takes the Fighting Spirit actually spent (0-200, statInput, constellationRates for C3); picking the \"high\" preset or leaving the box blank is the 200-point maximum. Type the same number into the A4 entry.",
+        "statInput": {
+          "stat": "fightingSpirit",
+          "default": 200,
+          "max": 200,
+          "ratesPerUnit": { "burst_dmgIncFromAtk_": 0.0288, "normal_dmgIncFromAtk_": 0.0051, "charged_dmgIncFromAtk_": 0.0102 },
+          "constellationRates": {
+            "C3": { "burst_dmgIncFromAtk_": 0.034, "normal_dmgIncFromAtk_": 0.00618, "charged_dmgIncFromAtk_": 0.01236 }
+          },
+          "labelKey": "admin.lbMavuikaFightingSpiritLabel",
+          "placeholderKey": "admin.lbMavuikaFightingSpiritPlaceholder"
+        },
         "states": [
           {
             "value": "high",
@@ -510,7 +521,16 @@
       {
         "conditionKey": "a4KiongoziDmgBonus",
         "source": "Mavuika",
-        "description": "A4 \"Kiongozi\": after Mavuika's burst, every point of Fighting Spirit spent on the cast increases the DMG the CURRENT ACTIVE party member deals by 0.2%, capped at +40% (the 200-point maximum), for 20s. TEAM scope — this is the only part of the burst that reaches the party (GO: `teamBuff.premod.all_dmg_`); her own Sunfell Slice / Flamestrider ATK ratios are the self entry burstFightingSpirit. At C0-C3 the bonus decays linearly to 0 over the 20s, so a board covering the whole window should set this condition's uptime to ~50%; C4 removes the decay and adds a further +10% (the constellationStates block).",
+        "description": "A4 \"Kiongozi\": after Mavuika's burst, every point of Fighting Spirit spent on the cast increases the DMG the CURRENT ACTIVE party member deals by 0.2%, capped at +40% (the 200-point maximum), for 20s. TEAM scope — this is the only part of the burst that reaches the party (GO: `teamBuff.premod.all_dmg_`); her own Sunfell Slice / Flamestrider ATK ratios are the self entry burstFightingSpirit. At C0-C3 the bonus decays linearly to 0 over the 20s, so a board covering the whole window should set this condition's uptime to ~50%; C4 removes the decay and adds a further +10% (the constellationStates block). The builder takes the Fighting Spirit actually spent (0-200, statInput: 0.2% per point, constellationAdd +10% from C4); picking the \"on\" preset or leaving the box blank is the 200-point maximum.",
+        "statInput": {
+          "stat": "fightingSpirit",
+          "default": 200,
+          "max": 200,
+          "ratesPerUnit": { "all_dmg_": 0.002 },
+          "constellationAdd": { "C4": { "all_dmg_": 0.1 } },
+          "labelKey": "admin.lbMavuikaFightingSpiritLabel",
+          "placeholderKey": "admin.lbMavuikaFightingSpiritPlaceholder"
+        },
         "states": [
           {
             "value": "on",
