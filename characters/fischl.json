@@ -190,7 +190,8 @@
             "scalingKey": "atk",
             "multKey": "summonDmg_mult"
           }
-        ]
+        ],
+        "flatDmgIncFromAtkRatioKeys": ["fischlC2SummonDmgIncFromAtk_"]
       }
     },
     "burst": {
@@ -362,12 +363,20 @@
       },
       "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
       "goCharacterKey": "Fischl",
-      "note": "Hit definitions rebuilt 2026-08-23 from the GO Fischl sheet: the file had only 3 of her damage instances while the multipliers for the rest were already present as an unnamed p0..p9 dump. Normals 0-4, aimed/fullyAimed, plunging, Oz + summon, burst, A1, A4 and C1/C4/C6 are now all keyed. Levels unchanged (normals Lv10, skill+burst Lv13 for skill@C3 / burst@C5). C2's +200% addition to summonDmg is NOT modelled - it changes the multiplier, not a stat."
+      "note": "Hit definitions rebuilt 2026-08-23 from the GO Fischl sheet: the file had only 3 of her damage instances while the multipliers for the rest were already present as an unnamed p0..p9 dump. Normals 0-4, aimed/fullyAimed, plunging, Oz + summon, burst, A1, A4 and C1/C4/C6 are now all keyed. Levels unchanged (normals Lv10, skill+burst Lv13 for skill@C3 / burst@C5). C2's +200% ATK on summonDmg is modelled as the C2-gated self conditional c2SummonOz (fischlC2SummonDmgIncFromAtk_ 2.0, scoped to summonDmg via flatDmgIncFromAtkRatioKeys): 245.31% -> 445.31% at Lv13."
     }
   },
   "buffs": {
     "self_modifiers_json": {},
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2SummonOz",
+        "source": "Fischl",
+        "gating": { "constellationMin": 2 },
+        "description": "C2 Evernight Raven: summoning Oz deals an additional 200% ATK as DMG. Added to the summoning hit's base DMG (skill.summonDmg) only, not to Oz's attacks.",
+        "states": [{ "value": "on", "modifiers": { "fischlC2SummonDmgIncFromAtk_": 2.0 } }]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
