@@ -116,6 +116,18 @@
           }
         ]
       }
+    },
+    "constellation1": {
+      "dmg": {
+        "element": "hydro",
+        "dmgBonusKeys": ["hydro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "hp",
+            "multKey": "dmg_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -179,13 +191,62 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       }
+    },
+    "constellation1": {
+      "dmg_mult": 0.3
     }
   },
   "buffs": {
     "self_modifiers_json": {
-      "critRate_": -1.0
+      "critRate_": -1.0,
+      "heal_": 0.25
     },
-    "self_conditional_modifiers_json": [],
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "burstCeremonialGarment",
+        "source": "avatar_10000054",
+        "description": "Nereid's Ascension, Ceremonial Garment: Normal Attack, Charged Attack and Bake-Kurage DMG are increased by 8.71% / 12.2% / 12.77% of Kokomi's Max HP (burst Lv10; C3 raises it to Lv13: 10.29% / 14.4% / 15.08%). Includes her A4 Song of Pearls: the Normal and Charged Attack increase gains a further 15% x Healing Bonus of Max HP. Applies to every Normal/Charged/Bake-Kurage target on the board, so leave it off for a rotation scoring jellyfish ticks outside the burst.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "normal_dmgInc_from_maxHp_": 0.08712,
+              "charged_dmgInc_from_maxHp_": 0.121968,
+              "skill_dmgInc_from_maxHp_": 0.127734,
+              "normal_dmgInc_from_maxHpHeal_": 0.15,
+              "charged_dmgInc_from_maxHpHeal_": 0.15
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "on": {
+              "normal_dmgInc_from_maxHp_": 0.10285,
+              "charged_dmgInc_from_maxHp_": 0.14399,
+              "skill_dmgInc_from_maxHp_": 0.150797,
+              "normal_dmgInc_from_maxHpHeal_": 0.15,
+              "charged_dmgInc_from_maxHpHeal_": 0.15
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c6SangoIsshin",
+        "source": "avatar_10000054",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 Sango Isshin: while in the Ceremonial Garment, Kokomi gains 40% Hydro DMG Bonus for 4s when her Normal and Charged Attacks heal (or would heal) a party member at 80% HP or more.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "hydro_dmg_": 0.4
+            }
+          }
+        ]
+      }
+    ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [],
     "others_modifiers_json": {},
