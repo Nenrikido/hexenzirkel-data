@@ -283,11 +283,41 @@
       }
     ],
     "team_modifiers_json": {
-      "lunarbloom_baseDmg_": 0.14,
-      "lunarbloom_critRate_": 0.1,
-      "lunarbloom_critDMG_": 0.2
+      "lunarbloom_baseDmg_": 0.14
     },
     "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1NascentGleam",
+        "source": "avatar_10000119",
+        "description": "A1 Light for the Frosty Night (Moonsign: Nascent Gleam): for 20s after her Elemental Skill, nearby party members' Bloom, Hyperbloom and Burgeon DMG can CRIT, at 15% CRIT Rate and 100% CRIT DMG. Does not stack with the Ascendant Gleam buff, so tick only one.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "bloom_reaction_critRate_": 0.15,
+              "bloom_reaction_critDMG_": 1.0,
+              "hyperbloom_reaction_critRate_": 0.15,
+              "hyperbloom_reaction_critDMG_": 1.0,
+              "burgeon_reaction_critRate_": 0.15,
+              "burgeon_reaction_critDMG_": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "a1AscendantGleam",
+        "source": "avatar_10000119",
+        "description": "A1 Light for the Frosty Night (Moonsign: Ascendant Gleam): for 20s after her Elemental Skill, nearby party members' Lunar-Bloom DMG gains +10% CRIT Rate and +20% CRIT DMG. Does not stack with the Nascent Gleam buff, so tick only one.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "lunarbloom_critRate_": 0.1,
+              "lunarbloom_critDMG_": 0.2
+            }
+          }
+        ]
+      },
       {
         "conditionKey": "skillAfterHit",
         "source": "avatar_10000119",
