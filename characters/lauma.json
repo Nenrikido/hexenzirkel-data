@@ -279,7 +279,9 @@
           "constellationMin": 6,
           "requiresMoonsign": true
         },
-        "states": [{ "value": "on", "modifiers": { "lunarbloom_specialDmg_": 0.25 } }]
+        "states": [
+          { "value": "on", "modifiers": { "lunarbloom_specialDmg_": 0.25 } }
+        ]
       }
     ],
     "team_modifiers_json": {
@@ -289,10 +291,10 @@
       {
         "conditionKey": "a1NascentGleam",
         "source": "avatar_10000119",
-        "description": "A1 Light for the Frosty Night (Moonsign: Nascent Gleam): for 20s after her Elemental Skill, nearby party members' Bloom, Hyperbloom and Burgeon DMG can CRIT, at 15% CRIT Rate and 100% CRIT DMG. Does not stack with the Ascendant Gleam buff, so tick only one.",
+        "description": "A1 Light for the Frosty Night (Moonsign: Nascent Gleam): for 20s after her Elemental Skill, nearby party members' Bloom, Hyperbloom and Burgeon DMG can CRIT, at 15% CRIT Rate and 100% CRIT DMG. The CRIT Rate stacks with similar effects but the CRIT DMG is fixed at 100%, and the evaluator adds these keys up, so pick the 100% CRIT DMG state only if Nahida's C2 is not up (it already supplies that 100%). Does not stack with the Ascendant Gleam buff, so tick only one.",
         "states": [
           {
-            "value": "on",
+            "value": "15% CRIT Rate + 100% CRIT DMG (only without Nahida C2)",
             "modifiers": {
               "bloom_reaction_critRate_": 0.15,
               "bloom_reaction_critDMG_": 1.0,
@@ -300,6 +302,14 @@
               "hyperbloom_reaction_critDMG_": 1.0,
               "burgeon_reaction_critRate_": 0.15,
               "burgeon_reaction_critDMG_": 1.0
+            }
+          },
+          {
+            "value": "15% CRIT Rate only (with Nahida C2)",
+            "modifiers": {
+              "bloom_reaction_critRate_": 0.15,
+              "hyperbloom_reaction_critRate_": 0.15,
+              "burgeon_reaction_critRate_": 0.15
             }
           }
         ]
