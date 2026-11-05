@@ -589,5 +589,213 @@
         "states": []
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000136",
+      "retrievedAt": "2026-11-05",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Chain Reaction",
+            "desc": "<k>Normal Attack</k>\nPerforms a maximum of 3 attacks that deal <e:electro>Electro DMG</e>.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to deal <e:electro>AoE Electro DMG</e> to the area in front after a short casting time.\nMitya will instead perform the special Charged Attack <k>Gradient Detonation</k>, which consumes no Stamina, if a <k>Detection Core: Overload</k> created by Mitya himself is currently on the field and he has at least 1 <k>Gradient Beacon</k>: Deals 1 instance of <e:electro>AoE Electro DMG</e> to the area in front and continuously consumes <k>Gradient Beacons</k> while held. Each <k>Gradient Beacon</k> consumed deals 1 instance of <e:electro>AoE Electro DMG</e> to the area in front that is considered Stellar-Conduct reaction DMG.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing <e:electro>AoE Electro DMG</e> upon impact."
+          },
+          "skill": {
+            "name": "Principle: Variable Detection",
+            "desc": "Conducts a theoretically relatively safe experiment at a theoretically relatively safe yield, dealing <e:electro>AoE Electro DMG</e> and creating a <k>Detection Core</k> in different ways depending on whether the Skill is tapped or held.\n\nTapping the Elemental Skill <k>Principle: Variable Detection</k> again within 6s after using it changes the <k>Detection Core</k>'s state. The Detection Core's state can be changed in this way every 1.5s."
+          },
+          "burst": {
+            "name": "Analysis: Gradient Theory",
+            "desc": "Let the elements burst forth like inspiration itself! Deals <e:electro>AoE Electro DMG</e> and creates 3 <k>Gradient Beacons</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Baseline Stress Test",
+            "desc": "The <k>Detection Core</k> created by the Elemental Skill <k>Principle: Variable Detection</k> is enhanced. Depending on the state of the <k>Detection Core</k> created:\n· Steady State: All nearby party members gain 30 Elemental Mastery for each <k>Gradient Beacon</k> Mitya has;\n· Overloaded: After nearby party members trigger Stellar-Conduct reactions, instead obtain 1 <k>Gradient Beacon</k> every 1.5s for 6s."
+          },
+          {
+            "name": "Explosive Reagent: Safe Limits Exceeded",
+            "desc": "The duration of <k>Gradient Beacons</k> is increased to 10s. Additionally, Mitya's CRIT Rate increases by 5% for 15s after creating a <k>Gradient Beacon</k>. This effect can stack up to 4 times."
+          },
+          {
+            "name": "Stellar Jubilee: Top-Secret Protocol",
+            "desc": "When party members trigger Superconduct, it will be changed to Stellar-Conduct. Stellar-Conduct reactions will no longer create <k>Starlight Prisms</k>, and will instead create 1 <k>Gradient Beacon</k> nearby every 1.5s for 3s. These Beacons can be carried by Mitya and transform the area around them into an even larger <k>Polestar Field</k>. Triggering another Stellar-Conduct reaction will refresh the duration of the aforementioned effects.\nAdditionally, the Base Stellar-Conduct DMG dealt by all nearby party members will be increased based on Mitya's Elemental Mastery: Every point of Elemental Mastery he has increases Base Stellar-Conduct DMG by 0.028%. The maximum Base DMG increase that can be gained this way is 14%. While within a <k>Polestar Field</k>, Mitya will also enter the <k>Radiance: Stellar-Conduct</k> state."
+          },
+          {
+            "name": "Energy Catalysis",
+            "desc": "When destructible rocks are nearby, <k>Detection Core: Steady State</k> can quickly clear them.\nAdditionally, when Mitya is in the party, creating <k>Prime Ice Construct: Basic Heat Source</k> does not consume Kresnik Energy."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "The Observer Seeking What Is Missing",
+            "desc": "The maximum number of <k>Gradient Beacons</k> Mitya can carry is increased to 5. Using the Elemental Skill <k>Principle: Variable Detection</k> additionally creates 1 <k>Gradient Beacon</k>.\nWhile the <k>Detection Core</k> is present, your own active character's CRIT DMG is increased by 40%.\nAdditionally, Mitya regenerates 10 Elemental Energy when a <k>Gradient Beacon</k> is created. This effect can be triggered once every 8s."
+          },
+          {
+            "level": 2,
+            "name": "The Matter That Slumbers Beyond Inertness",
+            "desc": "While the <k>Detection Core</k> is present, all opponents within the <k>Polestar Field</k> have their <e:cryo>Cryo RES</e> and <e:electro>Electro RES</e> decreased by 20%.\nAdditionally, if the <k>Detection Core</k> created is:\n· Steady State: All nearby party members gain 123 Elemental Mastery;\n· Overloaded: Your own active character gains 234 Elemental Mastery."
+          },
+          {
+            "level": 3,
+            "name": "The Knotted String of Invariant Topology",
+            "desc": "Increases the Level of the Elemental Skill <k>Principle: Variable Detection</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "The Isotopes Born of Decay",
+            "desc": "<k>Detection Cores</k> created by Mitya himself deals 1 instance of <e:electro>AoE Electro DMG</e> equal to 300% of Mitya's Elemental Mastery to nearby opponents for every 5 <k>Gradient Beacons</k> consumed while it is on the field. This DMG is considered Stellar-Conduct reaction DMG."
+          },
+          {
+            "level": 5,
+            "name": "The Periodic Law That Orders All",
+            "desc": "Increases the Level of Normal Attack: <k>Chain Reaction</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "Elemental Transition at the Gate of Reason",
+            "desc": "<k>Detection Core</k> is enhanced. If the <k>Detection Core</k>:\n · Is in the Steady State: <k>Detection Core</k> deals 115% of its original DMG.\n· Is Overloaded: There is a 34% chance to create 1 new <k>Gradient Beacon</k> whenever Mitya consumes a <k>Gradient Beacon</k> with the <k>Detection Core</k>.\nAdditionally, Stellar-Conduct reaction DMG dealt by all nearby party members is <k>Elevated</k> by 20%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Réaction en chaîne",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 attaques qui infligent des <e:electro>DGT Électro</e>.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour infliger des <e:electro>DGT Électro de zone</e> vers l'avant après un court délai.\nSi un <k>noyau de détection surchargé</k> créé par Mitya est présent sur le terrain et qu'il possède au moins 1 <k>balise de gradient</k>, Mitya effectue à la place l'attaque chargée spéciale <k>Détonation de gradient</k> sans consommer d'endurance : inflige une fois des <e:electro>DGT Électro de zone</e> vers l'avant, tandis qu'un appui long consomme de façon continue les <k>balises de gradient</k>, chaque <k>balise</k> consommée infligeant une fois des <e:electro>DGT Électro de zone</e> considérés comme des DGT d'Astroconduction vers l'avant.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs, infligeant des DGT aux ennemis en chemin et des <e:electro>DGT Électro de zone</e> à l'impact."
+          },
+          "skill": {
+            "name": "Principe : Détection de variables",
+            "desc": "Mène une expérience théoriquement relativement sûre avec un rendement théoriquement relativement sûr, infligeant des <e:electro>DGT Électro de zone</e> et créant différents <k>noyaux de détection</k> selon la méthode de déclenchement.\n\nUtiliser à nouveau la compétence élémentaire <k>Principe : Détection de variables</k> avec un appui simple dans les 6 s après l'avoir utilisée modifie l'état des <k>noyaux de détection</k>, leur état pouvant être modifié une fois toutes les 1,5 s de cette manière."
+          },
+          "burst": {
+            "name": "Analyse : Théorie de gradient",
+            "desc": "Laissez les éléments jaillir comme l'inspiration elle-même ! Inflige des <e:electro>DGT Électro de zone</e> et crée 3 <k>balises de gradient</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Test de stress de base",
+            "desc": "Les <k>noyaux de détection</k> créés par la compétence élémentaire <k>Principe : Détection de variables</k> sont renforcés selon le type de <k>noyau</k> créé :\n· Noyau stable : chaque <k>balise de gradient</k> possédée accorde 30 pts de maîtrise élémentaire à tous les personnages de l'équipe à proximité.\n· Noyau surchargé : lorsqu'un personnage de l'équipe à proximité déclenche une réaction d'Astroconduction, la quantité de <k>balises de gradient</k> obtenues passe à 1 <k>balise</k> toutes les 1,5 s pendant 6 s."
+          },
+          {
+            "name": "Réactif explosif : Limites de sécurité dépassées",
+            "desc": "La durée des <k>balises de gradient</k> passe à 10 s. De plus, le taux CRIT de Mitya augmente de 5 % pendant 15 s après avoir créé une <k>balise de gradient</k>, cet effet pouvant être cumulé 4 fois."
+          },
+          {
+            "name": "Jubilé stellaire : Protocole top secret",
+            "desc": "Lorsqu'un personnage de l'équipe déclenche une réaction de Supraconduction, elle est convertie en réaction d'Astroconduction. Les réactions d'Astroconduction ne créent plus de <k>prismes de lumière stellaire</k>, mais créent à la place des <k>balises de gradient</k> à proximité toutes les 1,5 s pendant 3 s, balises que Mitya peut transporter et qui transforment la zone environnante en <k>étendue polaris</k> plus grande. Déclencher à nouveau une réaction d'Astroconduction actualise la durée de ces effets.\nDe plus, les DGT de base des réactions d'Astroconduction infligées par tous les personnages de l'équipe à proximité augmentent selon la maîtrise élémentaire de Mitya : chaque point de maîtrise élémentaire augmente les DGT de base de 0,028 %, les DGT de base pouvant être augmentés d'un maximum de 14 % de cette manière. Mitya passe en <k>radiance « Astroconduction »</k> lorsqu'il se trouve dans une <k>étendue polaris</k>."
+          },
+          {
+            "name": "Catalyse énergétique",
+            "desc": "Lorsque des rochers destructibles sont à proximité, le <k>noyau de détection stable</k> peut les éliminer rapidement.\nDe plus, créer une <k>structure de glace primale « Source de chaleur de base »</k> lorsque Mitya est dans l'équipe ne consomme pas d'énergie de Kresnik."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "L'observateur à la recherche de ce qui manque",
+            "desc": "La limite de <k>balises de gradient</k> que Mitya peut avoir passe à 5, et utiliser la compétence élémentaire <k>Principe : Détection de variables</k> crée une <k>balise de gradient</k> supplémentaire.\nPendant un <k>noyau de détection</k>, les DGT CRIT de tous vos personnages déployés dans l'équipe à proximité augmentent de 40 %.\nDe plus, créer une <k>balise de gradient</k> accorde 10 pts d'énergie élémentaire à Mitya, cet effet pouvant être déclenché une fois toutes les 8 s."
+          },
+          {
+            "level": 2,
+            "name": "La matière qui sommeille au-delà de l'inertie",
+            "desc": "Pendant la durée d'un <k>noyau de détection</k>, la <e:cryo>RÉS Cryo</e> et la <e:electro>RÉS Électro</e> des ennemis dans l'<k>étendue polaris</k> diminuent de 20 %.\nDe plus, si le <k>noyau de détection</k> est :\n· Stable : la maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 123 pts.\n· Surchargé : la maîtrise élémentaire de votre personnage déployé augmente de 234 pts."
+          },
+          {
+            "level": 3,
+            "name": "La chaîne nouée de la topologie invariante",
+            "desc": "Niveau d'aptitude <k>Principe : Détection de variables</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Les isotopes issus de la désintégration",
+            "desc": "Si un <k>noyau de détection</k> créé par Mitya est sur le terrain, il<k></k> inflige une fois des <e:electro>DGT Électro de zone</e> d'une valeur équivalant à 300 % de la maîtrise élémentaire de Mitya aux ennemis proches à chaque fois que 5 <k>balises de gradient</k> sont consommées, ces DGT étant considérés comme des DGT d'Astroconduction."
+          },
+          {
+            "level": 5,
+            "name": "La loi périodique qui ordonne tout",
+            "desc": "Niveau d'aptitude <k>Réaction en chaîne</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Transition élémentaire à la porte de la raison",
+            "desc": "Les <k>noyaux de détection</k> sont renforcés :<k></k>\n· Si le noyau créé est stable : le <k>noyau de détection</k> inflige des DGT d'une valeur équivalant à 115 % des DGT d'origine.\n· Si le noyau créé est surchargé : consommer une <k>balise de gradient</k> a 34 % de chances de créer une nouvelle <k>balise de gradient</k>.\nDe plus, les DGT de réaction d'Astroconduction de tous les personnages de l'équipe à proximité bénéficient d'une <k>élévation</k> de 20 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Reação em Cadeia",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 golpes consecutivos, causando <e:electro>Dano Electro</e>.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina e, após uma breve canalização, causa <e:electro>Dano Electro em AdE</e> numa área em frente.\nSe houver um <k>Núcleo Detector: Sobrecarregado</k> criado por Mitya ativo, e Mitya possuir pelo menos 1 de <k>Sinalizador Alternado</k>, Mitya realizará o Ataque Carregado especial <k>Explosão Concentrada Alternada</k> que não consome Stamina: causa <e:electro>Dano Electro em AdE</e> uma vez contra os inimigos em frente, e consome continuamente <k>Sinalizador Alternado</k> baseado no tempo que manter pressionado. Cada <k>Sinalizador Alternado</k> consumido causa <e:electro>Dano Electro em AdE</e> que é considerado Dano de Supercondutor Estelar uma vez numa área em frente.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo <e:electro>Dano Electro em AdE</e> durante o impacto."
+          },
+          "skill": {
+            "name": "Lógica: Detecção de Variáveis",
+            "desc": "Usando um equivalente teórico relativamente seguro, realiza um experimento teórico relativamente seguro para causar <e:electro>Dano Electro em AdE</e>, criando um <k>Núcleo Detector</k> de formas diferentes se pressionar ou manter pressionado.\n\nAo pressionar para lançar a Habilidade Elemental novamente dentro dos 6s após lançar a Habilidade Elemental <k>Lógica: Detecção de Variáveis</k>, é possível trocar para o estado <k>Núcleo Detector</k>. É possível trocar dessa forma uma vez a cada 1.5s."
+          },
+          "burst": {
+            "name": "Análise: Princípio da Alternância",
+            "desc": "Que os elementos sejam como uma explosão de inspiração! Causa <e:electro>Dano Electro em AdE</e> e cria 3 <k>Sinalizadores Alternados</k>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Teste Básico de Estresse",
+            "desc": "O <k>Núcleo Detector</k> criado pela Habilidade Elemental <k>Lógica: Detecção de Variáveis</k> é fortalecido. Se o <k>Núcleo Detector</k> criado for:\n· Estável: cada <k>Sinalizador Alternado</k> carregado aumenta a Proficiência Elemental de todos os membros da equipe em 30.\n· Sobrecarregado: aumenta o número de <k>Sinalizadores Alternados</k> obtidos quando todos os membros próximos da equipe desencadearem Supercondutor Estelar: obtém 1 <k>Sinalizador Alternado</k> a cada 1.5s por 6s."
+          },
+          {
+            "name": "Reagente Ultraexplosivo",
+            "desc": "Aumenta a duração do <k>Sinalizador Alternado</k> para 10s. Além disso, nos 15s após criar um <k>Sinalizador Alternado</k>, aumenta a Taxa CRIT de Mitya em 5%. Esse efeito pode ser acumulado até 4 vezes."
+          },
+          {
+            "name": "Bênção das Estrelas: Acordo Confidencial",
+            "desc": "Quando um membro da equipe desencadear Supercondutor, causará Supercondutor Estelar. Ao causar Supercondutor Estelar, não criará <k>Prisma de Brilho Estelar</k>, mas passará a criar um <k>Sinalizador Alternado</k> próximo que Mitya pode carregar a cada 1.5s nos 3s após causar a reação de Supercondutor Estelar, e mudará a área próxima para <k>Campo da Estrela Polar</k> maior, ao ativar novamente este efeito, o tempo de duração será redefinido.\nAlém disso, aumenta o Dano Básico de Supercondutor Estelar causado por todos os personagens próximos com base na Proficiência Elemental de Mitya: cada ponto de Proficiência Elemental aumenta o Dano Básico de Supercondutor Estelar em 0.028%. É possível aumentar o Dano Básico até 14% dessa forma. Mitya entrará no estado <k>Brilho Reluzente: Supercondutor Estelar</k> quando estiver dentro do <k>Campo da Estrela Polar</k>."
+          },
+          {
+            "name": "Catálise Ativa Energética",
+            "desc": "Quando houver uma construção Geo que pode ser destruída por perto, <k>Núcleo Detector: Estável</k> poderá destruí-la rapidamente.\nAlém disso, quando Mitya estiver na equipe e criar um <k>Constructo Glacial: Fonte de Calor Básica</k>, não consumirá Energia Kresnik."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Observador do Ausente",
+            "desc": "Aumenta o máximo de <k>Sinalizadores Alternados</k> carregáveis para 5. Ao lançar a Habilidade Elemental <k>Lógica: Detecção de Variáveis</k>, cria um <k>Sinalizador Alternado</k> adicional.\nEnquanto existir um <k>Núcleo Detector</k>, aumenta o Dano CRIT do personagem ativo em 40%.\nAlém disso, ao criar um <k>Sinalizador Alternado</k>, regenera 10 de Energia Elemental para Mitya. Esse efeito pode ser desencadeado uma vez a cada 8s."
+          },
+          {
+            "level": 2,
+            "name": "Matéria Silenciosa Inerte",
+            "desc": "Quando houver um <k>Núcleo Detector</k>, reduz a <e:cryo>RES Cryo</e> e <e:electro>RES Electro</e> de todos os inimigos dentro do <k>Campo da Estrela Polar</k> em 20%.\nAlém disso, se o <k>Núcleo Detector</k> for:\n· Estável: aumenta a Proficiência Elemental de todos os personagens próximos em 123.\n· Sobrecarregado: aumenta a Proficiência Elemental do personagem ativo em 234."
+          },
+          {
+            "level": 3,
+            "name": "Cordas e Nós de Topologia Invariável",
+            "desc": "Aumenta o nível da Habilidade Elemental<k>Lógica: Detecção de Variáveis</k> em 3.\nNível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Isótopos de Decadência",
+            "desc": "Quando houver um <k>Núcleo Detector</k> criado por Mitya ativo, a cada 5 <k>Sinalizadores Alternados</k> consumidos, o <k>Núcleo Detector</k> causará 300% da Proficiência Elemental de Mitya como <e:electro>Dano Electro em AdE</e> que é considerado Dano de Supercondutor Estelar uma vez contra os inimigos próximos."
+          },
+          {
+            "level": 5,
+            "name": "Lei Periódica da Ordem Universal",
+            "desc": "Aumenta o nível do Ataque Normal<k>Reação em Cadeia</k> em 3.\nNível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Transição Elemental nos Portões da Razão",
+            "desc": "<k>Núcleo Detector</k> é fortalecido. Se o <k>Núcleo Detector</k> criado for:\n· Estável: aumenta o Dano original do <k>Núcleo Detector</k> em 115%.\n· Sobrecarregado: ao consumir <k>Sinalizadores Alternados</k>, possui 34% de chance de criar um novo <k>Sinalizador Alternado</k>.\nAlém disso, <k>Eleva</k> o Dano de Supercondutor Estelar de todos os membros próximos da equipe em 20%."
+          }
+        ]
+      }
+    }
   }
 }

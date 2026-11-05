@@ -406,5 +406,213 @@
         "states": []
       }
     ]
+  },
+  "descriptions_json": {
+    "source": {
+      "provider": "amber",
+      "amberId": "10000137",
+      "retrievedAt": "2026-11-05",
+      "markupRevision": 1
+    },
+    "locales": {
+      "en": {
+        "talents": {
+          "auto": {
+            "name": "Guard Tactics: Sword and Shield",
+            "desc": "<k>Normal Attack</k>\nPerforms up to 3 consecutive sword strikes.\n\n<k>Charged Attack</k>\nConsumes a certain amount of Stamina to leap forward and slam the ground, dealing Physical DMG to nearby opponents.\nWhen Valeriy has at least 40 <k>Impact Momentum</k>, he will consume all <k>Impact Momentum</k> to instead perform the special Charged Attack <k>Direct-Fire Mortar: Point-Blank Bombardment</k>.\n\n<k>Plunging Attack</k>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+          },
+          "skill": {
+            "name": "Active Defense: Bastion Charge",
+            "desc": "Valeriy raises his shield cannon and charges forward, dealing <e:electro>AoE Electro DMG</e>, gaining 40 <k>Impact Momentum</k>, and deploying a Supercharged Shield.\nThe Supercharged Shield's DMG Absorption scales with Valeriy's ATK, and has 250% absorption efficiency against <e:electro></e>Electro DMG<e:electro></e>."
+          },
+          "burst": {
+            "name": "Focused Fire: Lightning Salvo",
+            "desc": "Deals <e:electro>AoE Electro DMG</e> to nearby opponents and fires a <k>Thunderburst Shell</k> high into the air. The <k>Thunderburst Shell</k> disperses into a barrage of projectiles that rain down, dealing <e:electro>AoE Electro DMG</e> to nearby opponents."
+          }
+        },
+        "passives": [
+          {
+            "name": "Advance With the Creeping Barrage",
+            "desc": "Valeriy gains 5 <k>Impact Momentum</k> whenever another nearby active character in the party hits an opponent with an <e:electro>Electro</e> attack while the <k>Thunderburst Shells</k> from his Elemental Burst <k>Focused Fire: Lightning Salvo</k> are falling. He can gain up to 80 <k>Impact Momentum</k> in this way after each use of his Elemental Burst."
+          },
+          {
+            "name": "Into the Breach",
+            "desc": "<k>Offensive Directive</k> is enhanced based on the amount of <k>Impact Momentum</k> consumed when performing his special Charged Attack <k>Direct-Fire Mortar: Point-Blank Bombardment</k>. Each point consumed further increases the DMG Bonus granted by <k>Offensive Directive</k>. If Valeriy is:\n· In the <k>Radiance: Stellar-Conduct</k> state: Each point of <k>Impact Momentum</k> consumed increases this DMG Bonus by an amount equal to 0.9% of Valeriy's ATK;\n· Not in the <k>Radiance: Stellar-Conduct</k> state: Each point of <k>Impact Momentum</k> consumed increases this DMG Bonus by an amount equal to 0.3% of Valeriy's ATK."
+          },
+          {
+            "name": "Subzero Conditioning",
+            "desc": "Valeriy enters the <k>Radiance: Stellar-Conduct</k> state while within a <k>Polestar Field</k>."
+          },
+          {
+            "name": "Tundra Operational Intelligence",
+            "desc": "Gains 25% more rewards when dispatched on a Snezhnaya (not including Nod-Krai) Expedition for 20 hours."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "The Cadence of Suppressive Fire",
+            "desc": "Valeriy regenerates 6 Elemental Energy after performing the special Charged Attack <k>Direct-Fire Mortar: Point-Blank Bombardment</k>. For every 10 <k>Impact Momentum</k> consumed beyond 40 when performing this special Charged Attack, he regenerates an additional 1.5 Elemental Energy. Each time he performs <k>Direct-Fire Mortar: Point-Blank Bombardment</k>, he can regenerate up to 15 Elemental Energy in this way. This effect can trigger once every 15s.\nAdditionally, each time Valeriy enters combat, the first time he uses his Elemental Skill <k>Active Defense: Bastion Charge</k>, he gains an additional amount of <k>Impact Momentum</k> equal to 150% of the amount normally gained."
+          },
+          {
+            "level": 2,
+            "name": "Ranks That Charge as One",
+            "desc": "All nearby party members gain 100 Elemental Mastery for 18s after Valeriy uses his Elemental Skill <k>Active Defense: Bastion Charge</k>.\nAdditionally, while protected by a Supercharged Shield, if Valeriy is already at maximum <k>Impact Momentum</k>, any further <k>Impact Momentum</k> he would gain is instead converted into increased DMG Absorption for the shield. Each point of excess <k>Impact Momentum</k> increases the Supercharged Shield's DMG Absorption by an amount equal to 8% of Valeriy's ATK. Up to 20 excess <k>Impact Momentum</k> can be converted in this way."
+          },
+          {
+            "level": 3,
+            "name": "Vigilance at Close Quarters",
+            "desc": "Increases the Level of Normal Attack <k>Guard Tactics: Sword and Shield</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 4,
+            "name": "Fortitude Unshaken by Attrition",
+            "desc": "<k>Impact Momentum</k>'s limit is increased by 30, and its charging efficiency is increased by 30%.\nAdditionally, the Ascension Talent <k>Advance With the Creeping Barrage</k> is enhanced: The maximum amount of <k>Impact Momentum</k> that can be gained from this Talent after using the Elemental Burst is 104. You must unlock the Ascension Talent <k>Advance With the Creeping Barrage</k> to gain access to this effect."
+          },
+          {
+            "level": 5,
+            "name": "Resolve to Divide and Destroy",
+            "desc": "Increases the Level of the Elemental Skill <k>Active Defense: Bastion Charge</k> by 3.\nMaximum upgrade level is 15."
+          },
+          {
+            "level": 6,
+            "name": "The Strength to Breach Enemy Lines",
+            "desc": "The special Charged Attack <k>Direct-Fire Mortar: Point-Blank Bombardment</k> and <k>Thunderburst Shells</k> from Elemental Burst <k>Focused Fire: Lightning Salvo</k> are enhanced: Their DMG is increased by 100%, and opponents they hit have the CRIT Rate of <e:electro>Electro DMG</e> they take increased by 10% for 7s. If the <e:electro>Electro DMG</e> taken is Stellar-Conduct reaction DMG, that DMG instance's CRIT DMG is also increased by 40%."
+          }
+        ]
+      },
+      "fr": {
+        "talents": {
+          "auto": {
+            "name": "Tactique de garde : Épée et bouclier",
+            "desc": "<k>Attaque normale</k>\nEnchaîne jusqu'à 3 coups d'épée.\n\n<k>Attaque chargée</k>\nConsomme de l'endurance pour bondir en avant et frapper le sol, infligeant des DGT physiques aux ennemis proches.\nLorsque Valeriy possède au moins 40 pts d'<k>élan d'impact</k>, il consomme tout l'<k>élan d'impact</k> pour déclencher à la place l'attaque chargée spéciale <k>Mortier à tir direct : Bombardement à bout portant</k>.\n\n<k>Attaque plongeante</k>\nPlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact."
+          },
+          "skill": {
+            "name": "Défense active : Charge de bastion",
+            "desc": "Valeriy brandit son canon-bouclier et charge en avant, infligeant des <e:electro>DGT Électro de zone</e>, gagnant 40 pts d'<k>élan d'impact</k> et déployant un bouclier super-chargé.\nL'absorption de DGT du bouclier super-chargé est basée sur l'ATQ de Valeriy et ce dernier absorbe les <e:electro>DGT Électro</e> 250 % plus efficacement."
+          },
+          "burst": {
+            "name": "Tir concentré : Salve éclair",
+            "desc": "Inflige des <e:electro>DGT Électro de zone</e> aux ennemis proches et tire un <k>obus foudroyant</k> en l'air. L'<k>obus foudroyant</k> se divise ensuite en une pluie de projectiles qui infligent des <e:electro>DGT Électro de zone</e> aux ennemis proches."
+          }
+        },
+        "passives": [
+          {
+            "name": "Avancer avec le barrage rampant",
+            "desc": "Valeriy obtient 5 pts d'<k>élan d'impact</k> lorsqu'un autre personnage déployé de l'équipe à proximité touche un ennemi avec une attaque <e:electro>Électro</e> pendant la chute d'un <k>obus foudroyant</k> du déchaînement élémentaire <k>Tir concentré : Salve éclair</k>. Un maximum de 80 pts d'<k>élan d'impact</k> peut être obtenu de cette manière après chaque déchaînement élémentaire."
+          },
+          {
+            "name": "Dans la brèche",
+            "desc": "L'<k>ordre d'assaut</k> est renforcé selon la quantité d'<k>élan d'impact</k> consommée lors de l'attaque chargée spéciale <k>Mortier à tir direct : Bombardement à bout portant</k>, chaque pt d'<k>élan d'impact</k> augmentant davantage le bonus de DGT de l'<k>ordre d'assaut</k> :\n· Si Valeriy est en <k>radiance « Astroconduction »</k> : chaque pt d'<k>élan d'impact</k> consommé augmente le bonus de DGT de l'<k>ordre d'assaut</k> d'une valeur équivalant à 0,9 % de l'ATQ de Valeriy.\n· Si Valeriy n'est pas en <k>radiance « Astroconduction »</k> : chaque pt d'<k>élan d'impact</k> consommé augmente le bonus de DGT de l'<k>ordre d'assaut</k> d'une valeur équivalant à 0,3 % de l'ATQ de Valeriy."
+          },
+          {
+            "name": "Conditionnement sous zéro",
+            "desc": "Valeriy passe en <k>radiance « Astroconduction »</k> dans une <k>étendue polaris</k>."
+          },
+          {
+            "name": "Renseignements opérationnels sur la toundra",
+            "desc": "Augmente les récompenses d'une expédition de 20 h à Snezhnaya (hors Nod-Krai) de 25 %."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "La cadence des tirs de suppression",
+            "desc": "Valeriy récupère 6 pts d'énergie élémentaire après avoir utilisé son attaque chargée spéciale <k>Mortier à tir direct : Bombardement à bout portant</k>, et 1,5 pts d'énergie élémentaire tous les 10 pts d'<k>élan d'impact</k> consommés par son attaque chargée spéciale au-dessus de 40. Valeriy peut récupérer un maximum de 15 pts d'énergie élémentaire de cette manière à chaque utilisation de son attaque chargée spéciale <k>Mortier à tir direct : Bombardement à bout portant</k>. Cet effet peut être déclenché une fois toutes les 15 s.\nLa première fois que Valeriy utilise sa compétence élémentaire <k>Défense active : Charge de bastion</k> au début d'un combat, il obtient en plus 150 % des pts d'<k>élan d'impact</k> d'origine."
+          },
+          {
+            "level": 2,
+            "name": "Des rangs qui chargent à l'unisson",
+            "desc": "La maîtrise élémentaire de tous les personnages de l'équipe à proximité augmente de 100 pts pendant 18 s après l'utilisation de la compétence élémentaire <k>Défense active : Charge de bastion</k>.\nDe plus, lorsque Valeriy est à la limite d'<k>élan d'impact</k> tout en étant protégé par un bouclier super-chargé, déclencher un effet accordant de l'<k>élan d'impact</k> augmente à la place l'absorption de DGT du bouclier super-chargé : chaque point d'<k>élan d'impact</k> en trop augmente l'absorption de DGT d'une valeur équivalant à 8 % de l'ATQ de Valeriy, un maximum de 20 pts d'<k>élan d'impact</k> en trop pouvant être converti de cette manière."
+          },
+          {
+            "level": 3,
+            "name": "Vigilance à courte distance",
+            "desc": "Niveau d'aptitude <k>Tactique de garde : Épée et bouclier</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 4,
+            "name": "Force inébranlable face à l'usure",
+            "desc": "La limite d'<k>élan d'impact</k> augmente de 30 pts et son taux d'obtention augmente de 30 %.\nDe plus, l'effet de l'aptitude d'élévation <k>« Avancer avec le barrage rampant »</k> est renforcé : la limite d'<k>élan d'impact</k> pouvant être obtenu après chaque déchaînement élémentaire grâce à cette aptitude passe à 104 pts. L'aptitude d'élévation <k>« Avancer avec le barrage rampant »</k> doit être déjà débloquée."
+          },
+          {
+            "level": 5,
+            "name": "Résolution de diviser et de détruire",
+            "desc": "Niveau d'aptitude <k>Défense active : Charge de bastion</k> +3.\nNiveau max : 15"
+          },
+          {
+            "level": 6,
+            "name": "Force de percer les lignes ennemies",
+            "desc": "L'attaque chargée spéciale <k>Mortier à tir direct : Bombardement à bout portant</k> et les <k>obus foudroyants</k> du déchaînement élémentaire <k>Tir concentré : Salve éclair</k> sont renforcés : les DGT infligés augmentent de 100 % et toucher un ennemi augmente le taux CRIT des <e:electro>DGT Électro</e> qu'il subit de 10 % pendant 7 s. Si les <e:electro>DGT Électro</e> subis sont considérés comme des DGT d'Astroconduction, leurs DGT CRIT augmentent également de 40 %."
+          }
+        ]
+      },
+      "pt": {
+        "talents": {
+          "auto": {
+            "name": "Táticas Druzhina: Ofensiva de Escudo e Espada",
+            "desc": "<k>Ataque Normal</k>\nRealiza até 3 golpes consecutivos.\n\n<k>Ataque Carregado</k>\nConsome uma certa quantidade de Stamina para saltar em frente, golpeando o chão e causando Dano Físico contra os inimigos próximos.\nQuando Valeriy possuir pelo menos 40 de <k>Energia de Choque</k>, consumirá tudo de <k>Energia de Choque</k> para realizar o Ataque Carregado especial <k>Disparo de Morteiro: Bombardeio de Curta Distância</k>.\n\n<k>Ataque Imersivo</k>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+          },
+          "skill": {
+            "name": "Defesa de Ofensiva: Ataque Relâmpago da Fortaleza",
+            "desc": "Ergue o escudo e avança em frente, causando <e:electro>Dano Electro em AdE</e>, obtendo 40 de <k>Energia de Choque</k> e criando seu Escudo Eletrificado.\nA absorção de Dano do Escudo Eletrificado é baseada no ATQ de Valeriy e possui 250% de eficácia contra <e:electro>Dano Electro</e>."
+          },
+          "burst": {
+            "name": "Ponto de Fogo: Invasão Relâmpago",
+            "desc": "Causa <e:electro>Dano Electro em AdE</e> contra os inimigos próximos, e dispara para o alto o <k>Projétil Pesado Relampejante</k>. O <k>Projétil Pesado Relampejante</k> se separará em vários projéteis que cairão para o chão, causando <e:electro>Dano Electro em AdE</e>."
+          }
+        },
+        "passives": [
+          {
+            "name": "Na Companhia de Balas",
+            "desc": "Na duração dos <k>Projéteis Pesados Relampejantes</k> que caem do Supremo <k>Ponto de Fogo: Invasão Relâmpago</k>, quando o ataque dos outros personagens ativos <e:electro>Electro</e> atingirem um inimigo, Valeriy obtém 5 de <k>Energia de Choque</k>. É possível obter até 80 de <k>Energia de Choque</k> por vez que lançar o Supremo dessa forma."
+          },
+          {
+            "name": "Investida na Lacuna da Defesa",
+            "desc": "<k>Ordem de Ataque</k> é fortalecida: baseado no consumo de <k>Energia de Choque</k> ao lançar o Ataque Carregado Especial <k>Disparo de Morteiro: Bombardeio de Curta Distância</k>, aumenta o Bônus de Dano de <k>Ordem de Ataque</k> para cada ponto de <k>Energia de Choque consumido</k>. Se Valeriy:\n· Se estiver em <k>Brilho Reluzente: Supercondutor Estelar</k>: cada ponto de <k>Energia de Choque</k> consumido aumenta o Bônus de Dano de <k>Ordem de Ataque</k> em 0.9% do ATQ de Valeriy.\n· Se não estiver em <k>Brilho Reluzente: Supercondutor Estelar</k>: cada ponto de <k>Energia de Choque</k> aumenta o Bônus de Dano de <k>Ordem de Ataque</k> em 0.3% do ATQ de Valeriy."
+          },
+          {
+            "name": "Condicionamento Subzero",
+            "desc": "Valeriy entra no estado <k>Brilho Reluzente: Supercondutor Estelar</k> enquanto estiver dentro de um <k>Campo da Estrela Polar</k>."
+          },
+          {
+            "name": "Inteligência sobre Operações na Tundra",
+            "desc": "Ganha 25% de recompensas a mais quando enviada numa Expedição em Snezhnaya (exceto Nod-Krai) por 20 horas."
+          }
+        ],
+        "constellations": [
+          {
+            "level": 1,
+            "name": "Cadência do Fogo Supressor",
+            "desc": "Depois de realizar o Ataque Carregado especial <k>Disparo de Morteiro: Bombardeio de Curta Distância</k>, regenera 6 de Energia Elemental para Valeriy. Regenera mais 1.5 de Energia Elemental para cada 10 pontos consumidos de <k>Energia de Choque</k> acima de 40 ao realizar o Ataque Carregado especial. É possível regenerar até 15 de Energia Elemental para Valeriy por cada Ataque Carregado especial <k>Disparo de Morteiro: Bombardeio de Curta Distância</k>. Esse efeito pode ser desencadeado uma vez a cada 15s.\nAlém disso, na primeira vez que Valeriy lançar sua Habilidade Elemental <k>Defesa de Ofensiva: Ataque Relâmpago da Fortaleza</k> por vez que entrar em combate, obtém uma quantidade adicional de <k>Energia de Choque</k> equivalente a 150% da quantidade original."
+          },
+          {
+            "level": 2,
+            "name": "Formação Acompanhante",
+            "desc": "Nos 18s após lançar a Habilidade Elemental <k>Defesa de Ofensiva: Ataque Relâmpago da Fortaleza</k>, aumenta a Proficiência Elemental de todos os membros próximos da equipe em 100.\nAlém disso, se estiver sob a proteção do Escudo Eletrificado e se Valeriy já tiver alcançado o máximo de <k>Energia de Choque</k>, ao ativar o efeito de obtenção de <k>Energia de Choque</k>, aumenta a absorção de Dano do Escudo Eletrificado. Cada 1 de <k>Energia de Choque</k> acima do máximo aumentam a absorção de Dano do Escudo Eletrificado em 8% do ATQ de Valeriy. É possível converter até 20 de <k>Energia de Choque</k> acima do máximo dessa forma."
+          },
+          {
+            "level": 3,
+            "name": "Cautela de Combate Corpo-a-Corpo",
+            "desc": "Aumenta o nível do Ataque Normal <k>Táticas Druzhina: Ofensiva de Escudo e Espada</k> em 3.\nNível máximo de elevação é 15."
+          },
+          {
+            "level": 4,
+            "name": "Resistência Destemida",
+            "desc": "Aumenta o máximo de <k>Energia de Choque</k> em 30, e aumenta a chance de obter em 30%.\nAlém disso, fortalece o efeito do Talento de Ascensão <k>Na Companhia de Balas</k>: é possível obter até 104 de <k>Energia de Choque</k> por vez que lançar o Supremo. É necessário desbloquear o Talento de Ascensão <k>Na Companhia de Balas</k>."
+          },
+          {
+            "level": 5,
+            "name": "Determinação Destruidora",
+            "desc": "Aumenta o nível da Habilidade Elemental <k>Defesa de Ofensiva: Ataque Relâmpago da Fortaleza</k> em 3 níveis.\nO nível máximo de elevação é 15."
+          },
+          {
+            "level": 6,
+            "name": "Poder da Operação de Infiltração",
+            "desc": "O<k>Projétil Pesado Relampejante</k> do Ataque Carregado especial <k>Disparo de Morteiro: Bombardeio de Curta Distância</k> e do Supremo <k>Ponto de Fogo: Invasão Relâmpago</k> é fortalecido: aumenta o Dano causado em 100%, e aumenta a Taxa CRIT em 10% do <e:electro>Dano Electro</e> sofrido pelo inimigo por 7s após ele ser atingido. Se o <e:electro>Dano Electro</e> for Dano de Supercondutor Estelar, aumenta o Dano CRIT em 40%."
+          }
+        ]
+      }
+    }
   }
 }
