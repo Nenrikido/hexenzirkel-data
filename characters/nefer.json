@@ -17,8 +17,8 @@
   "hit_definitions_json": {
     "normal": {
       "hit1Dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -27,8 +27,8 @@
         ]
       },
       "hit2Dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -37,8 +37,8 @@
         ]
       },
       "hit3Dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -47,8 +47,8 @@
         ]
       },
       "hit4Dmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["normal_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -57,8 +57,8 @@
         ]
       },
       "chargedDmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "dmgBonusKeys": ["charged_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -67,12 +67,35 @@
         ]
       },
       "plungeDmg": {
-        "element": "physical",
-        "dmgBonusKeys": ["plunging_dmg_", "physical_dmg_", "all_dmg_"],
+        "element": "dendro",
+        "plungeTier": "dmg",
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
         "components": [
           {
             "scalingKey": "atk",
             "multKey": "plunge_mult"
+          }
+        ]
+      },
+      "plungeLowDmg": {
+        "element": "dendro",
+        "plungeTier": "low",
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_low_mult"
+          }
+        ]
+      },
+      "plungeHighDmg": {
+        "element": "dendro",
+        "plungeTier": "high",
+        "dmgBonusKeys": ["plunging_dmg_", "dendro_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plunge_high_mult"
           }
         ]
       }
@@ -81,7 +104,6 @@
       "skillDmg": {
         "element": "dendro",
         "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
-        "mvMultiplierKeys": ["pp_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -95,7 +117,7 @@
       },
       "nefer1Dmg": {
         "element": "dendro",
-        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["charged_dmg_", "dendro_dmg_", "all_dmg_"],
         "mvMultiplierKeys": ["pp_mult_"],
         "components": [
           {
@@ -110,7 +132,8 @@
       },
       "nefer2Dmg": {
         "element": "dendro",
-        "dmgBonusKeys": ["skill_dmg_", "dendro_dmg_", "all_dmg_"],
+        "dmgBonusKeys": ["charged_dmg_", "dendro_dmg_", "all_dmg_"],
+        "mvMultiplierKeys": ["pp_mult_"],
         "components": [
           {
             "scalingKey": "atk",
@@ -129,7 +152,8 @@
         "components": [
           {
             "scalingKey": "eleMas",
-            "multKey": "shade1Mv_mult"
+            "multKey": "shade1Mv_mult",
+            "multBonusKeys": ["pp_lunarbloom_mv_"]
           }
         ]
       },
@@ -140,7 +164,8 @@
         "components": [
           {
             "scalingKey": "eleMas",
-            "multKey": "shade2Mv_mult"
+            "multKey": "shade2Mv_mult",
+            "multBonusKeys": ["pp_lunarbloom_mv_"]
           }
         ]
       },
@@ -151,7 +176,8 @@
         "components": [
           {
             "scalingKey": "eleMas",
-            "multKey": "shade3Mv_mult"
+            "multKey": "shade3Mv_mult",
+            "multBonusKeys": ["pp_lunarbloom_mv_"]
           }
         ]
       }
@@ -182,6 +208,32 @@
           {
             "scalingKey": "eleMas",
             "multKey": "hit2EleMas_mult"
+          }
+        ]
+      }
+    },
+    "constellation6": {
+      "nefer2Dmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "nefer2_mult",
+            "multBonusKeys": ["pp_lunarbloom_mv_"]
+          }
+        ]
+      },
+      "dmg": {
+        "specialType": "direct_lunarbloom",
+        "element": "dendro",
+        "dmgBonusKeys": ["lunarbloom_dmg_", "reaction_dmg_", "all_dmg_"],
+        "components": [
+          {
+            "scalingKey": "eleMas",
+            "multKey": "dmg_mult",
+            "multBonusKeys": ["pp_lunarbloom_mv_"]
           }
         ]
       }
@@ -290,6 +342,10 @@
       "a0LunarBloomBasePct_perEm": 0.000175,
       "a1PhantasmVeilMult_perStack": 0.08
     },
+    "constellation6": {
+      "nefer2_mult": 0.85,
+      "dmg_mult": 1.2
+    },
     "constellation": {
       "c2NewEleMas": 200.0,
       "c4DendroEnemyRes_mult": -0.2,
@@ -299,22 +355,27 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "isMoonsign": 1
+      "isMoonsign": 1,
+      "lunarbloom_baseDmg_from_eleMas_": 0.000175,
+      "lunarbloom_baseDmg_from_eleMas_cap_": 0.14
+    },
+    "others_modifiers_json": {
+      "lunarbloom_baseDmg_": 0.14
     },
     "self_conditional_modifiers_json": [
       {
         "conditionKey": "c1LunarbloomDirectDmg",
         "source": "Nefer",
-        "description": "C1: Nefer's Lunar-Bloom DMG gains an additional +60% direct (additive) multiplier. Unconditional in-game once C1 is unlocked — the constellation gate is the entry's `gating`.",
+        "description": "C1: Phantasm Performance's Lunar-Bloom hits gain +60% of her EM as talent scaling, which Veil of Falsehood also boosts. Unconditional in-game once C1 is unlocked; the constellation gate is the entry's `gating`.",
         "gating": {
           "constellationMin": 1
         },
-        "states": [{ "value": "on", "modifiers": { "lunarbloom_directDmg_": 0.6 } }]
+        "states": [{ "value": "on", "modifiers": { "pp_lunarbloom_mv_": 0.6 } }]
       },
       {
         "conditionKey": "a1VeilStacks",
         "source": "Nefer",
-        "description": "A1 veil stacks (Moonsign required): each stack adds +8% to the Pyre-Petal multiplier (pp_mult_, base 1), and 3+ stacks also grant +100 EM (+200 at 5 stacks with C2). Stacks cap at 3 below C2, hence the per-state constellation gates on 4 and 5.",
+        "description": "A1 veil stacks (Moonsign required): each stack adds +8% to Phantasm Performance's talent DMG (pp_mult_, base 1), and 3 stacks grant +100 EM. C2 raises the cap to 5 and moves the EM trigger to 5 stacks for +200 instead, so 3-4 stacks grant no EM at C2+ (GO's reading of 'instead'). Stacks cap at 3 below C2, hence the per-state constellation gates on 4 and 5.",
         "gating": {
           "ascMin": 1,
           "requiresMoonsign": true
@@ -325,7 +386,7 @@
           { "value": "3", "modifiers": { "pp_mult_": 1.24, "eleMas": 100.0 } },
           {
             "value": "4",
-            "modifiers": { "pp_mult_": 1.32, "eleMas": 100.0 },
+            "modifiers": { "pp_mult_": 1.32 },
             "gating": { "constellationMin": 2 }
           },
           {
@@ -333,12 +394,15 @@
             "modifiers": { "pp_mult_": 1.4, "eleMas": 200.0 },
             "gating": { "constellationMin": 2 }
           }
-        ]
+        ],
+        "constellationStates": {
+          "C2": { "3": { "pp_mult_": 1.24 } }
+        }
       },
       {
         "conditionKey": "burstVeilsAbsorbed",
         "source": "Nefer",
-        "description": "Burst veils absorbed (Moonsign required): +40% Burst DMG per veil absorbed. Absorption caps at 3 veils below C2, hence the per-state constellation gates on 4 and 5.",
+        "description": "Burst veils absorbed (Moonsign required): +40% Burst DMG per veil absorbed at Lv10, +49% at Lv13 (C5). Absorption caps at 3 veils below C2, hence the per-state constellation gates on 4 and 5.",
         "gating": {
           "ascMin": 1,
           "requiresMoonsign": true
@@ -357,7 +421,16 @@
             "modifiers": { "burst_dmg_": 2.0 },
             "gating": { "constellationMin": 2 }
           }
-        ]
+        ],
+        "constellationStates": {
+          "C5": {
+            "1": { "burst_dmg_": 0.49 },
+            "2": { "burst_dmg_": 0.98 },
+            "3": { "burst_dmg_": 1.47 },
+            "4": { "burst_dmg_": 1.96 },
+            "5": { "burst_dmg_": 2.45 }
+          }
+        }
       },
       {
         "conditionKey": "c6Gleam",
@@ -370,10 +443,7 @@
         "states": [{ "value": "on", "modifiers": { "lunarbloom_specialDmg_": 0.15 } }]
       }
     ],
-    "team_modifiers_json": {
-      "lunarbloom_baseDmg_": 0.14,
-      "lunarbloom_dmg_": 0.14
-    },
+    "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "c4ShadowDance",
