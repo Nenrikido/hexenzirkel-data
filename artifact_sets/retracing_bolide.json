@@ -47,6 +47,13 @@
           "2": "Aumenta a efetividade de escudos em 35%",
           "4": "Ganha um adicional de 40% de Dano Normal e Carregado enquanto estiver sob a proteção de um escudo."
         }
+      },
+      "zh": {
+        "name": "逆飞的流星",
+        "bonuses": {
+          "2": "护盾强效提高35%。",
+          "4": "处于护盾庇护下时，额外获得40%普通攻击和重击伤害加成。"
+        }
       }
     }
   }

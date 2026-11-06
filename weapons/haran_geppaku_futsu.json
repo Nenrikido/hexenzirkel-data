@@ -85,6 +85,19 @@
             "5": "Obtém <r>24%</r> de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em <r>40%</r> por 8s."
           }
         }
+      },
+      "zh": {
+        "flavor": "经津传奉命锻造的名作。因其如汹涌海涛般的气度，而得「波乱」之名。",
+        "passive": {
+          "name": "白刃流转",
+          "refinements": {
+            "1": "获得<r>12%</r>所有元素伤害加成；队伍中附近的其他角色在施放元素战技时，会为装备该武器的角色产生1层「波穗」效果，至多叠加2层，每0.3秒最多触发1次。装备该武器的角色施放元素战技时，如果有积累的「波穗」效果，则将消耗已有的「波穗」，获得「波乱」：根据消耗的层数，每层提升<r>20%</r>普通攻击伤害，持续8秒。",
+            "2": "获得<r>15%</r>所有元素伤害加成；队伍中附近的其他角色在施放元素战技时，会为装备该武器的角色产生1层「波穗」效果，至多叠加2层，每0.3秒最多触发1次。装备该武器的角色施放元素战技时，如果有积累的「波穗」效果，则将消耗已有的「波穗」，获得「波乱」：根据消耗的层数，每层提升<r>25%</r>普通攻击伤害，持续8秒。",
+            "3": "获得<r>18%</r>所有元素伤害加成；队伍中附近的其他角色在施放元素战技时，会为装备该武器的角色产生1层「波穗」效果，至多叠加2层，每0.3秒最多触发1次。装备该武器的角色施放元素战技时，如果有积累的「波穗」效果，则将消耗已有的「波穗」，获得「波乱」：根据消耗的层数，每层提升<r>30%</r>普通攻击伤害，持续8秒。",
+            "4": "获得<r>21%</r>所有元素伤害加成；队伍中附近的其他角色在施放元素战技时，会为装备该武器的角色产生1层「波穗」效果，至多叠加2层，每0.3秒最多触发1次。装备该武器的角色施放元素战技时，如果有积累的「波穗」效果，则将消耗已有的「波穗」，获得「波乱」：根据消耗的层数，每层提升<r>35%</r>普通攻击伤害，持续8秒。",
+            "5": "获得<r>24%</r>所有元素伤害加成；队伍中附近的其他角色在施放元素战技时，会为装备该武器的角色产生1层「波穗」效果，至多叠加2层，每0.3秒最多触发1次。装备该武器的角色施放元素战技时，如果有积累的「波穗」效果，则将消耗已有的「波穗」，获得「波乱」：根据消耗的层数，每层提升<r>40%</r>普通攻击伤害，持续8秒。"
+          }
+        }
       }
     }
   }

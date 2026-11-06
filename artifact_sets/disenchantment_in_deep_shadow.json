@@ -48,6 +48,13 @@
           "2": "ATQ +18%",
           "4": "Aumenta o Dano de Reação de Supercondutor em 80%. Aumenta o Dano de Supercondutor Estelar em 40%. Quando o portador ataca inimigos afetados por Supercondutor ou Supercondutor Estelar, aumenta a Taxa CRIT desse ataque em 16%."
         }
+      },
+      "zh": {
+        "name": "影中沉凝的幻灭",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "超导反应造成的伤害提升80%，星超导反应造成的伤害提升40%；装备者攻击受到超导或星超导反应影响的敌人时，本次攻击的暴击率提高16%。"
+        }
       }
     }
   }

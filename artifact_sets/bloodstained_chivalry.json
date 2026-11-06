@@ -47,6 +47,13 @@
           "2": "Dano Físico causado +25%",
           "4": "Após derrotar um oponente, aumenta o Dano do Ataque Carregado em 50% e reduz seu custo de Stamina para 0 por 10s."
         }
+      },
+      "zh": {
+        "name": "染血的骑士道",
+        "bonuses": {
+          "2": "造成的物理伤害提高25%。",
+          "4": "击败敌人后的10秒内，施放重击时不消耗体力，且重击造成的伤害提升50%。"
+        }
       }
     }
   }

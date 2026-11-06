@@ -55,6 +55,13 @@
           "2": "Bônus de Dano <e:cryo>Cryo</e> +15%",
           "4": "Quando a Energia Elemental do personagem que está com esse conjunto equipado for 0, aumenta o Dano causado por seu Ataque Normal em 60%, e o Dano causado pelo Supremo em 60%. Depois que o personagem que está com esse conjunto equipado causar Dano de Ataque Normal, o efeito de aumento de Dano de Supremo desaparecerá por 6s, e o efeito de aumento de Dano de Ataque Normal também desaparecerá por 6s. Esse efeito pode ser desencadeado, ainda que o personagem não esteja ativo."
         }
+      },
+      "zh": {
+        "name": "深廊终曲",
+        "bonuses": {
+          "2": "获得15%<e:cryo>冰元素</e>伤害加成。",
+          "4": "装备者的元素能量为0时，普通攻击造成的伤害提升60%，元素爆发造成的伤害提升60%。装备者的普通攻击造成伤害后，上述元素爆发伤害提升效果将失效6秒；装备者的元素爆发造成伤害后，上述普通攻击伤害提升效果将失效6秒。角色处于队伍后台也能触发。"
+        }
       }
     }
   }

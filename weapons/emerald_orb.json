@@ -59,6 +59,19 @@
             "5": "Após causar uma reação elemental de Vaporização, Eletricamente Carregado, Congelamento, Florescimento, Carga Lunar, Florescimento Lunar ou Redemoinho de Hydro, o ATQ é aumentado em <r>40%</r> por 12s."
           }
         }
+      },
+      "zh": {
+        "flavor": "由璃月北郊绝云间出产的硬玉雕琢而成的法器。小巧轻盈，经久耐用，江湖人称「翡玉丸」。",
+        "passive": {
+          "name": "激流",
+          "refinements": {
+            "1": "触发蒸发、感电、冰冻、绽放、月感电、月绽放或水元素扩散后的12秒内，攻击力提高<r>20%</r>。",
+            "2": "触发蒸发、感电、冰冻、绽放、月感电、月绽放或水元素扩散后的12秒内，攻击力提高<r>25%</r>。",
+            "3": "触发蒸发、感电、冰冻、绽放、月感电、月绽放或水元素扩散后的12秒内，攻击力提高<r>30%</r>。",
+            "4": "触发蒸发、感电、冰冻、绽放、月感电、月绽放或水元素扩散后的12秒内，攻击力提高<r>35%</r>。",
+            "5": "触发蒸发、感电、冰冻、绽放、月感电、月绽放或水元素扩散后的12秒内，攻击力提高<r>40%</r>。"
+          }
+        }
       }
     }
   }

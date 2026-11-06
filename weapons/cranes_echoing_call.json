@@ -77,6 +77,19 @@
             "5": "Após o personagem que está com essa arma equipada atingir um inimigo com um Ataque Imersivo, aumenta o Dano do Ataque Imersivo de todos os membros próximos da equipe em <r>80%</r> por 20s. Quando o Ataque Imersivo dos personagens próximos atinge um inimigo, regenera <r>3.5</r> de Energia Elemental para o personagem que está com essa arma equipada. É possível regenerar Energia Elemental uma vez a cada 0.7s dessa forma. O personagem que está com essa arma equipada pode regenerar Energia Elemental mesmo não estando ativo no campo de batalha."
           }
         }
+      },
+      "zh": {
+        "flavor": "由纯净的翡玉琢刻而成的宝扇，萦绕着古老的仙力气息。",
+        "passive": {
+          "name": "云笈降真要诀",
+          "refinements": {
+            "1": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高<r>28%</r>，持续20秒；队伍中附近的角色的下落攻击命中敌人时，为装备者恢复<r>2.5</r>点元素能量，每0.7秒至多通过这种方式恢复一次元素能量，装备者处于队伍后台时依然能通过这种方式恢复元素能量。",
+            "2": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高<r>41%</r>，持续20秒；队伍中附近的角色的下落攻击命中敌人时，为装备者恢复<r>2.75</r>点元素能量，每0.7秒至多通过这种方式恢复一次元素能量，装备者处于队伍后台时依然能通过这种方式恢复元素能量。",
+            "3": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高<r>54%</r>，持续20秒；队伍中附近的角色的下落攻击命中敌人时，为装备者恢复<r>3</r>点元素能量，每0.7秒至多通过这种方式恢复一次元素能量，装备者处于队伍后台时依然能通过这种方式恢复元素能量。",
+            "4": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高<r>67%</r>，持续20秒；队伍中附近的角色的下落攻击命中敌人时，为装备者恢复<r>3.25</r>点元素能量，每0.7秒至多通过这种方式恢复一次元素能量，装备者处于队伍后台时依然能通过这种方式恢复元素能量。",
+            "5": "装备者下落攻击命中敌人后，队伍中附近的所有角色下落攻击造成的伤害提高<r>80%</r>，持续20秒；队伍中附近的角色的下落攻击命中敌人时，为装备者恢复<r>3.5</r>点元素能量，每0.7秒至多通过这种方式恢复一次元素能量，装备者处于队伍后台时依然能通过这种方式恢复元素能量。"
+          }
+        }
       }
     }
   }

@@ -75,6 +75,19 @@
             "5": "Depois de desencadear uma reação Elemental, regenera <r>8</r> de Energia Elemental para o portador. Esse efeito pode ser desencadeado uma vez a cada 9s. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em <r>40%</r>. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "曾为众人守望的长枪，如今在孩子们的扮演游戏里担任重要角色。",
+        "passive": {
+          "name": "旧日和弦",
+          "refinements": {
+            "1": "触发元素反应后，为装备者恢复<r>4</r>点元素能量，该效果每9秒至多触发一次；触发星烁反应的12秒内，装备者的攻击力提升<r>20%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "触发元素反应后，为装备者恢复<r>5</r>点元素能量，该效果每9秒至多触发一次；触发星烁反应的12秒内，装备者的攻击力提升<r>25%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "触发元素反应后，为装备者恢复<r>6</r>点元素能量，该效果每9秒至多触发一次；触发星烁反应的12秒内，装备者的攻击力提升<r>30%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "触发元素反应后，为装备者恢复<r>7</r>点元素能量，该效果每9秒至多触发一次；触发星烁反应的12秒内，装备者的攻击力提升<r>35%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "触发元素反应后，为装备者恢复<r>8</r>点元素能量，该效果每9秒至多触发一次；触发星烁反应的12秒内，装备者的攻击力提升<r>40%</r>。装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

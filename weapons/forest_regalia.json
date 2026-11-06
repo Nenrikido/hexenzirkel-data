@@ -70,6 +70,19 @@
             "5": "Após desencadear Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Florescimento Lunar, Superflorescimento ou Germinação, uma Folha da Consciência será criada em volta do personagem por no máximo 10s. Quando coletada, a Folha da Consciência aumentará a Proficiência Elemental do personagem em <r>120</r> por 12s. Apenas 1 Folha da Consciência pode ser criada dessa forma a cada 20s. Esse efeito ainda pode ser desencadeado mesmo se o personagem não estiver em campo. O efeito da Folha da Consciência não pode ser acumulado."
           }
         }
+      },
+      "zh": {
+        "flavor": "从兰那罗的故事中得到的武器。具有大剑的形制，能够粉碎森林的敌人。",
+        "passive": {
+          "name": "森林的瑞佑",
+          "refinements": {
+            "1": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升<r>60</r>点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。",
+            "2": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升<r>75</r>点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。",
+            "3": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升<r>90</r>点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。",
+            "4": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升<r>105</r>点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。",
+            "5": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升<r>120</r>点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。"
+          }
+        }
       }
     }
   }

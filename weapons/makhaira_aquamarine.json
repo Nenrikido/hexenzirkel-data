@@ -85,6 +85,19 @@
             "5": "A cada 10s, gera os seguintes efeitos: aumenta o ATQ do personagem que está com essa arma equipada baseado em <r>48%</r> da sua Proficiência Elemental. Os demais personagens próximos da equipe ganham 30% desse bônus. Esses efeitos duram 12s. É possível acumular esses efeitos equipando vários exemplares desta mesma arma. Esse efeito será desencadeado mesmo que o personagem não esteja ativo no campo de batalha."
           }
         }
+      },
+      "zh": {
+        "flavor": "一柄光泽如水的古老大剑，经过千年流沙磨洗，锋刃依然锐利异常。",
+        "passive": {
+          "name": "沙上楼阁",
+          "refinements": {
+            "1": "每10秒，产生如下效果：基于装备者的元素精通的<r>24%</r>，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "2": "每10秒，产生如下效果：基于装备者的元素精通的<r>30%</r>，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "3": "每10秒，产生如下效果：基于装备者的元素精通的<r>36%</r>，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "4": "每10秒，产生如下效果：基于装备者的元素精通的<r>42%</r>，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "5": "每10秒，产生如下效果：基于装备者的元素精通的<r>48%</r>，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。"
+          }
+        }
       }
     }
   }

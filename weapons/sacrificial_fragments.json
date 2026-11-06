@@ -59,6 +59,19 @@
             "5": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui <r>80%</r> de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada <r>16</r> segundos."
           }
         }
+      },
+      "zh": {
+        "flavor": "经历漫长岁月的剧本，记载着的颂词和剧本已经无法辨认。被下了受时间之风侵蚀毁坏的诅咒。",
+        "passive": {
+          "name": "气定神闲",
+          "refinements": {
+            "1": "元素战技造成伤害时，有<r>40%</r>的概率重置该技能的冷却时间，该效果每<r>30</r>秒只能触发一次。",
+            "2": "元素战技造成伤害时，有<r>50%</r>的概率重置该技能的冷却时间，该效果每<r>26</r>秒只能触发一次。",
+            "3": "元素战技造成伤害时，有<r>60%</r>的概率重置该技能的冷却时间，该效果每<r>22</r>秒只能触发一次。",
+            "4": "元素战技造成伤害时，有<r>70%</r>的概率重置该技能的冷却时间，该效果每<r>19</r>秒只能触发一次。",
+            "5": "元素战技造成伤害时，有<r>80%</r>的概率重置该技能的冷却时间，该效果每<r>16</r>秒只能触发一次。"
+          }
+        }
       }
     }
   }

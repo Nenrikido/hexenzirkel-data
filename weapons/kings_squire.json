@@ -70,6 +70,19 @@
             "5": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em <r>140</r> por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar <r>180%</r> de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
           }
         }
+      },
+      "zh": {
+        "flavor": "从兰那罗的故事中得到的武器。具有弓的形制，能够射落森林的敌人。",
+        "passive": {
+          "name": "迷宫之王的教导",
+          "refinements": {
+            "1": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<r>60</r>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<r>100%</r>攻击力的伤害。森林教诲每20秒至多触发一次。",
+            "2": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<r>80</r>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<r>120%</r>攻击力的伤害。森林教诲每20秒至多触发一次。",
+            "3": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<r>100</r>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<r>140%</r>攻击力的伤害。森林教诲每20秒至多触发一次。",
+            "4": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<r>120</r>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<r>160%</r>攻击力的伤害。森林教诲每20秒至多触发一次。",
+            "5": "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<r>140</r>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<r>180%</r>攻击力的伤害。森林教诲每20秒至多触发一次。"
+          }
+        }
       }
     }
   }

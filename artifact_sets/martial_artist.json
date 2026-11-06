@@ -48,6 +48,13 @@
           "2": "Aumenta o Dano do Ataque Normal e do Ataque Carregado em 15%.",
           "4": "Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em 25% por 8s."
         }
+      },
+      "zh": {
+        "name": "武人",
+        "bonuses": {
+          "2": "普通攻击与重击造成的伤害提高15%。",
+          "4": "施放元素战技后的8秒内，普通攻击和重击造成的伤害提升25%。"
+        }
       }
     }
   }

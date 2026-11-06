@@ -65,6 +65,13 @@
           "2": "Aumenta a Proficiência Elemental em 80.",
           "4": "Quando um personagem próximo da equipe desencadear Reações Lunares, se o personagem que está com esse conjunto equipado estiver ativo, obtém por 4s o efeito \"Resplandecer Lunar: Memórias Cheias\": quando o Presságio Lunar da equipe estiver no Reluzir Inicial/Cheio, aumenta a Taxa CRIT em 15%/30%. Para cada efeito Resplandecer Lunar diferente que o membro da equipe possuir, aumenta o Dano causado pelas Reações Lunares em 10% para todos os membros da equipe. O efeito gerado por Resplandecer Lunar não é acumulável."
         }
+      },
+      "zh": {
+        "name": "穹境示现之夜",
+        "bonuses": {
+          "2": "元素精通提高80点。",
+          "4": "队伍中附近的角色触发月曜反应时，若装备者在场上，将获得持续4秒的「月辉明光·蓄念」效果：队伍的月兆为初辉/满辉时，暴击率提升15%/30%。队伍中的角色每拥有一种不同的「月辉明光」效果，队伍中的所有角色触发的月曜反应造成的伤害提升10%。由「月辉明光」产生的效果无法叠加。"
+        }
       }
     }
   }

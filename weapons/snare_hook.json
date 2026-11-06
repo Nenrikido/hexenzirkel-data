@@ -99,6 +99,19 @@
             "5": "Nos 12s depois de causar uma reação Elemental, aumenta a Proficiência Elemental em <r>120</r>. Presságio Lunar: Reluzir Cheio: esse efeito aumenta Proficiência Elemental em mais <r>120</r>. Esse efeito pode ser ativado mesmo quando o personagem que está com essa arma equipada não estiver ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "弓身由合金构件所组成，却意外轻盈。即便面对重重罗网，所发的箭矢依然能灵巧穿梭，自由无碍。",
+        "passive": {
+          "name": "矫捷无影",
+          "refinements": {
+            "1": "触发元素反应后的12秒内，元素精通提升<r>60</r>点。月兆·满辉：该效果中的元素精通额外提升<r>60</r>点。装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "触发元素反应后的12秒内，元素精通提升<r>75</r>点。月兆·满辉：该效果中的元素精通额外提升<r>75</r>点。装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "触发元素反应后的12秒内，元素精通提升<r>90</r>点。月兆·满辉：该效果中的元素精通额外提升<r>90</r>点。装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "触发元素反应后的12秒内，元素精通提升<r>105</r>点。月兆·满辉：该效果中的元素精通额外提升<r>105</r>点。装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "触发元素反应后的12秒内，元素精通提升<r>120</r>点。月兆·满辉：该效果中的元素精通额外提升<r>120</r>点。装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

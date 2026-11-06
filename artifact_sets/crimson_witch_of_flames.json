@@ -64,6 +64,13 @@
           "2": "Bônus de Dano <e:pyro>Pyro</e> +15%",
           "4": "Aumenta o Dano causado por Sobrecarga, Queimaduras e Germinação em 40%. Aumenta o Dano causado por Vaporização e Fusão em 15%. Usar Habilidades Elementais aumenta o efeito de Bônus de Conjunto de 2 Peças em 50% do seu valor inicial por 10s. Máximo de 3 acúmulos."
         }
+      },
+      "zh": {
+        "name": "炽烈的炎之魔女",
+        "bonuses": {
+          "2": "获得15%<e:pyro>火元素</e>伤害加成。",
+          "4": "超载、燃烧、烈绽放反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，2件套的效果提高50%，该效果最多叠加3次。"
+        }
       }
     }
   }

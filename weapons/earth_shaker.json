@@ -68,6 +68,19 @@
             "5": "Após um membro da equipe desencadear uma reação relacionada ao Pyro, o Dano da Habilidade Elemental do personagem que está com essa arma equipada é aumentado em <r>32%</r> por 8s. Esse efeito também pode ser desencadeado quando o personagem que causou a reação não está em campo."
           }
         }
+      },
+      "zh": {
+        "flavor": "人称「窃火者」的英杰爱用的重剑，据说就连烬城之王的烈火也未能将其焚断。",
+        "passive": {
+          "name": "苍翠之路的誓言",
+          "refinements": {
+            "1": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<r>16%</r>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+            "2": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<r>20%</r>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+            "3": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<r>24%</r>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+            "4": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<r>28%</r>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+            "5": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升<r>32%</r>，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。"
+          }
+        }
       }
     }
   }

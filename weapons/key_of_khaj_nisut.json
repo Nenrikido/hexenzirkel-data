@@ -136,6 +136,19 @@
             "5": "Aumenta a Vida em <r>40%</r>. Quando uma Habilidade Elemental acerta os oponentes, gera o efeito \"Grande Poema\" que dura 20s. Esse efeito aumenta a Proficiência Elemental do personagem que está com essa arma equipada baseada em <r>0.24%</r> de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 0.3s, acumulando até 3 vezes. Quando acumular 3 vezes ou quando a duração do 3º acúmulo for redefinida, aumentará a Proficiência Elemental de todos os personagens da equipe próximos baseada em <r>0.4%</r> da Vida Máxima do personagem que está com essa arma equipada por 20s."
           }
         }
+      },
+      "zh": {
+        "flavor": "黑曜石塑造的一对的权杖中的一件。在传说中，隐藏在沙海尽头的乐园门扉是由这柄密钥开启的。",
+        "passive": {
+          "name": "沉入沙海的史诗",
+          "refinements": {
+            "1": "生命值提升<r>20%</r>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<r>0.12%</r>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<r>0.2%</r>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+            "2": "生命值提升<r>25%</r>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<r>0.15%</r>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<r>0.25%</r>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+            "3": "生命值提升<r>30%</r>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<r>0.18%</r>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<r>0.3%</r>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+            "4": "生命值提升<r>35%</r>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<r>0.21%</r>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<r>0.35%</r>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+            "5": "生命值提升<r>40%</r>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<r>0.24%</r>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<r>0.4%</r>，为队伍中附近所有角色提供元素精通提升，持续20秒。"
+          }
+        }
       }
     }
   }

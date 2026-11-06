@@ -73,6 +73,19 @@
             "5": "Quando houver pelo menos 3 personagens de Tipos Elementais diferentes na equipe, aumenta a Proficiência Elemental em <r>240</r> pontos."
           }
         }
+      },
+      "zh": {
+        "flavor": "在冰原捕鱼的人会使用的长枪，绝对不会放跑猎物。",
+        "passive": {
+          "name": "冰原的诸多故事",
+          "refinements": {
+            "1": "队伍中存在至少三种不同元素类型的角色时，元素精通提升<r>120</r>点。",
+            "2": "队伍中存在至少三种不同元素类型的角色时，元素精通提升<r>150</r>点。",
+            "3": "队伍中存在至少三种不同元素类型的角色时，元素精通提升<r>180</r>点。",
+            "4": "队伍中存在至少三种不同元素类型的角色时，元素精通提升<r>210</r>点。",
+            "5": "队伍中存在至少三种不同元素类型的角色时，元素精通提升<r>240</r>点。"
+          }
+        }
       }
     }
   }

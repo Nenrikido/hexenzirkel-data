@@ -95,6 +95,19 @@
             "5": "Aumenta o ATQ em <r>40%</r>. Quando o personagem da equipe obtém um Fragmento gerado por Cristalização ou desencadeia uma Reação de Cristalização Lunar, concede ao personagem que está com essa arma equipada 1 \"Selo do Juramento\", aumentando o Dano causado por sua Habilidade Elemental em <r>36%</r>. O Selo do Juramento dura 15s e pode ser acumulado até duas vezes. Todos os Selos do Juramento serão removidos 0.2s após o personagem que está com essa arma equipada causar Dano de Habilidade Elemental. É possível obter 1 Selo do Juramento por segundo através de Cristalização Lunar."
           }
         }
+      },
+      "zh": {
+        "flavor": "曾经抛弃家名的贵族少女使用过的武器，过去沾染了敌人与挚爱的血液。",
+        "passive": {
+          "name": "诸多朝与暮的誓约",
+          "refinements": {
+            "1": "攻击力提升<r>20%</r>；队伍中的角色获取结晶反应产生的晶片或触发月结晶反应时，会为装备者赋予1枚「约印」，使元素战技造成的伤害提升<r>18%</r>，约印持续15秒，至多同时持有2枚。所有约印将在装备者的元素战技造成伤害后的0.2秒后移除。每1秒至多通过月结晶反应获取1枚「约印」。",
+            "2": "攻击力提升<r>25%</r>；队伍中的角色获取结晶反应产生的晶片或触发月结晶反应时，会为装备者赋予1枚「约印」，使元素战技造成的伤害提升<r>22.5%</r>，约印持续15秒，至多同时持有2枚。所有约印将在装备者的元素战技造成伤害后的0.2秒后移除。每1秒至多通过月结晶反应获取1枚「约印」。",
+            "3": "攻击力提升<r>30%</r>；队伍中的角色获取结晶反应产生的晶片或触发月结晶反应时，会为装备者赋予1枚「约印」，使元素战技造成的伤害提升<r>27%</r>，约印持续15秒，至多同时持有2枚。所有约印将在装备者的元素战技造成伤害后的0.2秒后移除。每1秒至多通过月结晶反应获取1枚「约印」。",
+            "4": "攻击力提升<r>35%</r>；队伍中的角色获取结晶反应产生的晶片或触发月结晶反应时，会为装备者赋予1枚「约印」，使元素战技造成的伤害提升<r>31.5%</r>，约印持续15秒，至多同时持有2枚。所有约印将在装备者的元素战技造成伤害后的0.2秒后移除。每1秒至多通过月结晶反应获取1枚「约印」。",
+            "5": "攻击力提升<r>40%</r>；队伍中的角色获取结晶反应产生的晶片或触发月结晶反应时，会为装备者赋予1枚「约印」，使元素战技造成的伤害提升<r>36%</r>，约印持续15秒，至多同时持有2枚。所有约印将在装备者的元素战技造成伤害后的0.2秒后移除。每1秒至多通过月结晶反应获取1枚「约印」。"
+          }
+        }
       }
     }
   }

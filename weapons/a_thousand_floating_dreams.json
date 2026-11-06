@@ -206,6 +206,19 @@
             "5": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em <r>64</r>. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em <r>26%</r>. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos exceto pelo personagem com esta arma equipada terão sua Proficiência Elemental aumentada em <r>48</r>. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
           }
         }
+      },
+      "zh": {
+        "flavor": "浮映千夜之梦的灯盏，苍翠的光中流溢着遥世的歌。",
+        "passive": {
+          "name": "千夜的曙歌",
+          "refinements": {
+            "1": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<r>32</r>点；不同：装备者元素类型的元素伤害加成提升<r>10%</r>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<r>40</r>点，多件同名武器产生的此效果可以叠加。",
+            "2": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<r>40</r>点；不同：装备者元素类型的元素伤害加成提升<r>14%</r>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<r>42</r>点，多件同名武器产生的此效果可以叠加。",
+            "3": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<r>48</r>点；不同：装备者元素类型的元素伤害加成提升<r>18%</r>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<r>44</r>点，多件同名武器产生的此效果可以叠加。",
+            "4": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<r>56</r>点；不同：装备者元素类型的元素伤害加成提升<r>22%</r>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<r>46</r>点，多件同名武器产生的此效果可以叠加。",
+            "5": "队伍中每个其他角色，都会依据元素类型与装备者相同与否，为装备者提供提升效果。相同：元素精通提升<r>64</r>点；不同：装备者元素类型的元素伤害加成提升<r>26%</r>。上述提升效果每种至多叠加3层。此外，队伍中装备者以外的附近角色的元素精通提升<r>48</r>点，多件同名武器产生的此效果可以叠加。"
+          }
+        }
       }
     }
   }

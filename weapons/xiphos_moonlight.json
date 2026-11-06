@@ -83,6 +83,19 @@
             "5": "Os seguintes efeitos serão desencadeados a cada 10s: o personagem com esta arma equipada terá sua Recarga de Energia aumentada em <r>0.072%</r> para cada ponto de Proficiência Elemental que ele possuir, com os membros da equipe próximos ganhando 30% desse bônus, esses efeitos duram 12s. É possível acumular esse efeito ao equipar vários exemplares desta arma. Esse efeito será desencadeado mesmo que o personagem não esteja ativo no campo de batalha."
           }
         }
+      },
+      "zh": {
+        "flavor": "闪着月色光彩的古老双刃剑。据说其中寄寓着如今已经沉默的镇灵。",
+        "passive": {
+          "name": "镇灵的低语",
+          "refinements": {
+            "1": "每10秒，产生如下效果：装备者的每点元素精通，都会为该角色提升<r>0.036%</r>元素充能效率，并基于该提升的30%为队伍中附近的其他角色提升元素充能效率，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "2": "每10秒，产生如下效果：装备者的每点元素精通，都会为该角色提升<r>0.045%</r>元素充能效率，并基于该提升的30%为队伍中附近的其他角色提升元素充能效率，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "3": "每10秒，产生如下效果：装备者的每点元素精通，都会为该角色提升<r>0.054%</r>元素充能效率，并基于该提升的30%为队伍中附近的其他角色提升元素充能效率，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "4": "每10秒，产生如下效果：装备者的每点元素精通，都会为该角色提升<r>0.063%</r>元素充能效率，并基于该提升的30%为队伍中附近的其他角色提升元素充能效率，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+            "5": "每10秒，产生如下效果：装备者的每点元素精通，都会为该角色提升<r>0.072%</r>元素充能效率，并基于该提升的30%为队伍中附近的其他角色提升元素充能效率，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。"
+          }
+        }
       }
     }
   }

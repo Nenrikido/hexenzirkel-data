@@ -227,6 +227,19 @@
             "5": "Aumenta o Dano CRIT em <r>48%</r>. Ao lançar a Habilidade Elemental, o portador obtém o efeito Coro Cristalino: aumenta a Proficiência Elemental em <r>96</r> por 20s. Nessa duração, quando um membro próximo da equipe desencadear uma Reação Elemental, o portador obtém 1 acúmulo de Lei da Tocha, aumentando a Proficiência Elemental em mais <r>48</r>. Esse efeito pode ser acumulado até 3 vezes, e dura até o efeito Coro Cristalino acabar ou lançar a Habilidade Elemental novamente.\nBrilho Reluzente: Supercondutor Estelar: cada acúmulo de Lei da Tocha aumenta o Dano CRIT de Supercondutor Estelar do portador em <r>24%</r>.\nEsses efeitos podem ser desencadeados, mesmo quando o portador não for o personagem ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "记载皇家能源协会内部工作法则的厚重书籍，条目繁多，历史悠久。",
+        "passive": {
+          "name": "辰星的流迹",
+          "refinements": {
+            "1": "暴击伤害提升<r>24%</r>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<r>48</r>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<r>24</r>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<r>12%</r>。\n装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "暴击伤害提升<r>30%</r>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<r>60</r>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<r>30</r>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<r>15%</r>。\n装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "暴击伤害提升<r>36%</r>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<r>72</r>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<r>36</r>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<r>18%</r>。\n装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "暴击伤害提升<r>42%</r>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<r>84</r>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<r>42</r>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<r>21%</r>。\n装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "暴击伤害提升<r>48%</r>。施放元素战技时，装备者获得「晶质调合」效果：元素精通提升<r>96</r>点，持续20秒；持续期间，队伍中附近的角色触发元素反应时，装备者还会获得一层「炬中法度」，使元素精通进一步提升<r>48</r>点，该效果至多叠加3层，持续至「晶质调合」效果结束或再次施放元素战技。\n辉映·星超导：每层「炬中法度」还会使装备者造成的星超导反应伤害的暴击伤害提升<r>24%</r>。\n装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

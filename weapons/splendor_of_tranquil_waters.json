@@ -112,6 +112,19 @@
             "5": "Quando a Vida do personagem que está com essa arma equipada aumenta ou cai, aumenta o Dano causado por sua Habilidade Elemental em <r>16%</r>. Esse efeito dura 6s, pode ser acumulado 3 vezes e pode ser desencadeado uma vez a cada 0.2s. Quando a Vida dos outros personagens da equipe aumenta ou cai, aumenta a Vida Máxima do personagem que está com essa arma equipada em <r>28%</r>. Esse efeito dura 6s, pode ser acumulado até 2 vezes e pode ser desencadeado uma vez a cada 0.2s. O efeito pode ser ativado mesmo que o personagem com a arma equipada não esteja ativo no campo de batalha."
           }
         }
+      },
+      "zh": {
+        "flavor": "萦绕着至纯之水的权杖，在遥远的昔日曾象征着海原之上至高的权威。",
+        "passive": {
+          "name": "湖光的朝与暮",
+          "refinements": {
+            "1": "装备者的当前生命值提升或降低时，元素战技造成的伤害提升<r>8%</r>，该效果持续6秒，至多叠加3次，每0.2秒至多触发一次；队伍中其他角色的当前生命值提升或降低时，装备者的生命值上限提升<r>14%</r>，该效果持续6秒，至多叠加2次，每0.2秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "装备者的当前生命值提升或降低时，元素战技造成的伤害提升<r>10%</r>，该效果持续6秒，至多叠加3次，每0.2秒至多触发一次；队伍中其他角色的当前生命值提升或降低时，装备者的生命值上限提升<r>17.5%</r>，该效果持续6秒，至多叠加2次，每0.2秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "装备者的当前生命值提升或降低时，元素战技造成的伤害提升<r>12%</r>，该效果持续6秒，至多叠加3次，每0.2秒至多触发一次；队伍中其他角色的当前生命值提升或降低时，装备者的生命值上限提升<r>21%</r>，该效果持续6秒，至多叠加2次，每0.2秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "装备者的当前生命值提升或降低时，元素战技造成的伤害提升<r>14%</r>，该效果持续6秒，至多叠加3次，每0.2秒至多触发一次；队伍中其他角色的当前生命值提升或降低时，装备者的生命值上限提升<r>24.5%</r>，该效果持续6秒，至多叠加2次，每0.2秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "装备者的当前生命值提升或降低时，元素战技造成的伤害提升<r>16%</r>，该效果持续6秒，至多叠加3次，每0.2秒至多触发一次；队伍中其他角色的当前生命值提升或降低时，装备者的生命值上限提升<r>28%</r>，该效果持续6秒，至多叠加2次，每0.2秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

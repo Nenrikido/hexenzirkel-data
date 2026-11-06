@@ -86,6 +86,19 @@
             "5": "Para cada membro da equipe que não seja o portador: se possuir o mesmo Tipo Elemental que o portador: a Proficiência Elemental do portador aumenta em <r>128</r>; se não possuir o mesmo Tipo Elemental que o portador: o ATQ do portador aumenta em <r>24%</r>. Os dois efeitos descritos acima podem acumular até 3 vezes no total, com os bônus de Proficiência Elemental sendo aplicados primeiro."
           }
         }
+      },
+      "zh": {
+        "flavor": "力夺千钧的长弓，即便是在至深至暗的夜中，也放射着梦色的光华。",
+        "passive": {
+          "name": "缀夜为烛",
+          "refinements": {
+            "1": "除装备者外，队伍中每有一名角色：元素类型与装备者相同：装备者的元素精通提升<r>64</r>点；元素类型与装备者不同：装备者的攻击力提升<r>12%</r>。上述两种效果总共至多叠加3层，元素类型相同的效果优先生效。",
+            "2": "除装备者外，队伍中每有一名角色：元素类型与装备者相同：装备者的元素精通提升<r>80</r>点；元素类型与装备者不同：装备者的攻击力提升<r>15%</r>。上述两种效果总共至多叠加3层，元素类型相同的效果优先生效。",
+            "3": "除装备者外，队伍中每有一名角色：元素类型与装备者相同：装备者的元素精通提升<r>96</r>点；元素类型与装备者不同：装备者的攻击力提升<r>18%</r>。上述两种效果总共至多叠加3层，元素类型相同的效果优先生效。",
+            "4": "除装备者外，队伍中每有一名角色：元素类型与装备者相同：装备者的元素精通提升<r>112</r>点；元素类型与装备者不同：装备者的攻击力提升<r>21%</r>。上述两种效果总共至多叠加3层，元素类型相同的效果优先生效。",
+            "5": "除装备者外，队伍中每有一名角色：元素类型与装备者相同：装备者的元素精通提升<r>128</r>点；元素类型与装备者不同：装备者的攻击力提升<r>24%</r>。上述两种效果总共至多叠加3层，元素类型相同的效果优先生效。"
+          }
+        }
       }
     }
   }

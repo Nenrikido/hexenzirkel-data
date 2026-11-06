@@ -70,6 +70,19 @@
             "5": "Nos 12s depois de desencadear uma reação Elemental, aumenta a Vida Máxima em <r>32%</r>. Presságio Lunar: Reluzir Cheio: aumenta a Vida Máxima nesse efeito em mais <r>32%</r>. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não esteja ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "金属打造的长剑，挥动时会发出沉郁的哨音。",
+        "passive": {
+          "name": "沉声止语",
+          "refinements": {
+            "1": "触发元素反应后的12秒内，生命值上限提高<r>16%</r>。月兆·满辉：该效果中的生命值上限额外提高<r>16%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "触发元素反应后的12秒内，生命值上限提高<r>20%</r>。月兆·满辉：该效果中的生命值上限额外提高<r>20%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "触发元素反应后的12秒内，生命值上限提高<r>24%</r>。月兆·满辉：该效果中的生命值上限额外提高<r>24%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "触发元素反应后的12秒内，生命值上限提高<r>28%</r>。月兆·满辉：该效果中的生命值上限额外提高<r>28%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "触发元素反应后的12秒内，生命值上限提高<r>32%</r>。月兆·满辉：该效果中的生命值上限额外提高<r>32%</r>。装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

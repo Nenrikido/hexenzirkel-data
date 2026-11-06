@@ -37,6 +37,13 @@
           "2": "Bônus de Cura +15%",
           "4": "Quando o personagem que equipa este conjunto de artefatos cura outro personagem da sua equipe, ele cria o efeito de \"Bolha de Espuma do Mar\" durante 3s, que registra a quantidade de vida regenerada (incluindo a regenerada acima de 100%). No final da duração do efeito, a Bolha de Espuma do Mar explode, causando dano aos inimigos ao redor com base em 90% da vida regenerada. (Esse Dano é calculado de forma semelhante a reações como Eletricamente Carregado e Supercondutor, mas não é afetado pela Proficiência Elemental, níveis de personagens ou dano bônus de reações.) Apenas se pode criar uma Bolha de Espuma do Mar a cada 3.5s, e esta poderá registrar no máximo 30.000 pontos de vida, incluindo aqueles regenerados acima de 100%. Além disso, apenas uma Bolha de Espuma do Mar pode existir em sua equipe de cada vez. Quando o personagem equipando este conjunto de artefatos está na equipe, mas não em combate, poderá ainda assim ativar este efeito."
         }
+      },
+      "zh": {
+        "name": "海染砗磲",
+        "bonuses": {
+          "2": "治疗加成提高15%。",
+          "4": "装备此圣遗物套装的角色对队伍中的角色进行治疗时，将产生持续3秒的海染泡沫，记录治疗的生命值回复量（包括溢出值）。持续时间结束时，海染泡沫将会爆炸，对周围的敌人造成90%累计回复量的伤害（该伤害结算方式同感电、超导等元素反应，但不受元素精通、等级或反应伤害加成效果影响）。每3.5秒至多产生一个海染泡沫；海染泡沫至多记录30000点回复量，含溢出部分的治疗量；自己的队伍中同时至多存在一个海染泡沫。装备此圣遗物套装的角色处于队伍后台时，依然能触发该效果。"
+        }
       }
     }
   }

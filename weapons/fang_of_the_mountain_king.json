@@ -82,6 +82,19 @@
             "5": "Ganha 1 acúmulo de Favor da Copa ao acertar um oponente com uma Habilidade Elemental. Isso pode ser desencadeado uma vez a cada 0.5s; após um membro da equipe próximo desencadear uma reação de Queimadura ou Germinação, o personagem que está com essa arma equipada ganhará 3 acúmulos de Favor da Copa. Este efeito pode ser desencadeado uma vez a cada 2s e pode ser desencadeado mesmo quando o personagem não é o personagem ativo. Favor da Copa: o Dano da Habilidade Elemental e do Supremo é aumentado em <r>20%</r> por 6s. Máximo de 6 acúmulos. A duração de cada acúmulo é contabilizada de forma independente."
           }
         }
+      },
+      "zh": {
+        "flavor": "由纯然的绿松石锻造而成的巨剑，因其远超一般兵刃的重量而被冠以「山王」康加玛托之名。",
+        "passive": {
+          "name": "绿松石之狩",
+          "refinements": {
+            "1": "元素战技命中敌人后，会获得1层「悬木祝赐」，该效果每0.5秒至多触发1次；队伍中附近的角色触发了燃烧或烈绽放反应后，装备者会获得3层悬木祝赐，该效果每2秒至多触发1次，队伍中的角色处于队伍后台时也能触发。悬木祝赐：元素战技伤害和元素爆发伤害提升<r>10%</r>，持续6秒，至多叠加6层，每层持续时间独立计算。",
+            "2": "元素战技命中敌人后，会获得1层「悬木祝赐」，该效果每0.5秒至多触发1次；队伍中附近的角色触发了燃烧或烈绽放反应后，装备者会获得3层悬木祝赐，该效果每2秒至多触发1次，队伍中的角色处于队伍后台时也能触发。悬木祝赐：元素战技伤害和元素爆发伤害提升<r>12.5%</r>，持续6秒，至多叠加6层，每层持续时间独立计算。",
+            "3": "元素战技命中敌人后，会获得1层「悬木祝赐」，该效果每0.5秒至多触发1次；队伍中附近的角色触发了燃烧或烈绽放反应后，装备者会获得3层悬木祝赐，该效果每2秒至多触发1次，队伍中的角色处于队伍后台时也能触发。悬木祝赐：元素战技伤害和元素爆发伤害提升<r>15%</r>，持续6秒，至多叠加6层，每层持续时间独立计算。",
+            "4": "元素战技命中敌人后，会获得1层「悬木祝赐」，该效果每0.5秒至多触发1次；队伍中附近的角色触发了燃烧或烈绽放反应后，装备者会获得3层悬木祝赐，该效果每2秒至多触发1次，队伍中的角色处于队伍后台时也能触发。悬木祝赐：元素战技伤害和元素爆发伤害提升<r>17.5%</r>，持续6秒，至多叠加6层，每层持续时间独立计算。",
+            "5": "元素战技命中敌人后，会获得1层「悬木祝赐」，该效果每0.5秒至多触发1次；队伍中附近的角色触发了燃烧或烈绽放反应后，装备者会获得3层悬木祝赐，该效果每2秒至多触发1次，队伍中的角色处于队伍后台时也能触发。悬木祝赐：元素战技伤害和元素爆发伤害提升<r>20%</r>，持续6秒，至多叠加6层，每层持续时间独立计算。"
+          }
+        }
       }
     }
   }

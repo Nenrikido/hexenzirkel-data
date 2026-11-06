@@ -87,6 +87,19 @@
             "5": "Reduz o consumo de Stamina de Correr ou de Habilidades que substituem Correr em 15%. Além disso, ao Correr ou usar uma Habilidade que substitui Correr, aumenta o Dano causado por Ataques Normais. O valor do aumento é baseado em <r>32%</r> do ATQ. Esse efeito desaparecerá depois ser desencadeado 18 vezes ou depois de 7s."
           }
         }
+      },
+      "zh": {
+        "flavor": "在千万次敲打和挥舞中变得越发坚硬的骨制长剑，据传曾是英杰万杰鲁趁手的武器。",
+        "passive": {
+          "name": "陷阵者的自矜",
+          "refinements": {
+            "1": "冲刺或替代冲刺的能力消耗的体力降低15%；此外，使用冲刺或替代冲刺的能力后，普通攻击造成的伤害提高，提高数值相当于攻击力的<r>16%</r>，该效果在生效18次或7秒后消失。",
+            "2": "冲刺或替代冲刺的能力消耗的体力降低15%；此外，使用冲刺或替代冲刺的能力后，普通攻击造成的伤害提高，提高数值相当于攻击力的<r>20%</r>，该效果在生效18次或7秒后消失。",
+            "3": "冲刺或替代冲刺的能力消耗的体力降低15%；此外，使用冲刺或替代冲刺的能力后，普通攻击造成的伤害提高，提高数值相当于攻击力的<r>24%</r>，该效果在生效18次或7秒后消失。",
+            "4": "冲刺或替代冲刺的能力消耗的体力降低15%；此外，使用冲刺或替代冲刺的能力后，普通攻击造成的伤害提高，提高数值相当于攻击力的<r>28%</r>，该效果在生效18次或7秒后消失。",
+            "5": "冲刺或替代冲刺的能力消耗的体力降低15%；此外，使用冲刺或替代冲刺的能力后，普通攻击造成的伤害提高，提高数值相当于攻击力的<r>32%</r>，该效果在生效18次或7秒后消失。"
+          }
+        }
       }
     }
   }

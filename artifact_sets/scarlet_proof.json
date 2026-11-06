@@ -47,6 +47,13 @@
           "2": "ATQ +18%",
           "4": "Ao desencadear uma Reação de Redemoinho Estelar, aumenta a Taxa CRIT do portador em 16% e o Dano da Reação de Redemoinho Estelar causada por ele em 40% por 10s."
         }
+      },
+      "zh": {
+        "name": "血红之证",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "装备者触发星扩散反应后的10秒内，暴击率提升16%，星扩散反应伤害提升40%。"
+        }
       }
     }
   }

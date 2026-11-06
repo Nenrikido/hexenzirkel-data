@@ -74,6 +74,19 @@
             "5": "Quando um Ataque Carregado atinge um inimigo, fará cair uma Flecha Solar no inimigo atingido, causando Dano equivalente a <r>120%</r> do ATQ, e aplicando o efeito \"Coração Flamejante\" no inimigo atingido pela Flecha Solar por 10s. Aumenta o Dano causado pelo personagem que está com essa arma equipada contra inimigos afetados por \"Coração Flamejante\" em <r>56%</r>. A Flecha Solar pode ser desencadeada uma vez a cada 10s."
           }
         }
+      },
+      "zh": {
+        "flavor": "赤王国度的古老时代所留下的古代长弓，其上雕刻着不可理解的古老文字与庄严图案。",
+        "passive": {
+          "name": "阳炎古道",
+          "refinements": {
+            "1": "重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力<r>60%</r>的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升<r>28%</r>。阳炎矢每10秒至多触发一次。",
+            "2": "重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力<r>75%</r>的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升<r>35%</r>。阳炎矢每10秒至多触发一次。",
+            "3": "重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力<r>90%</r>的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升<r>42%</r>。阳炎矢每10秒至多触发一次。",
+            "4": "重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力<r>105%</r>的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升<r>49%</r>。阳炎矢每10秒至多触发一次。",
+            "5": "重击命中敌人后，会向命中的敌人降下阳炎矢，造成攻击力<r>120%</r>的伤害，并为受到阳炎矢伤害的敌人施加持续10秒的灼心效果。装备者的重击对处于灼心状态下的敌人造成的伤害提升<r>56%</r>。阳炎矢每10秒至多触发一次。"
+          }
+        }
       }
     }
   }

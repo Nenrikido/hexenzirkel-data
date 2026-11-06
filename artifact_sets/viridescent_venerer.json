@@ -58,6 +58,13 @@
           "2": "Bônus de Dano <e:anemo>Anemo</e> +15%",
           "4": "Aumenta o Dano causado por Redemoinho em 60% e aumenta o Dano causado por Redemoinho Estelar em 20%. De acordo com o Tipo Elemental do Redemoinho, reduz a RES Elemental correspondente do inimigo afetado em 40% por 10s. Ao desencadear Redemoinho Estelar, também reduz sua RES <e:cryo>Cryo</e> em 40%. Efeitos de redução de RES de mesmo Tipo Elemental não acumulam."
         }
+      },
+      "zh": {
+        "name": "翠绿之影",
+        "bonuses": {
+          "2": "获得15%<e:anemo>风元素</e>伤害加成。",
+          "4": "扩散反应造成的伤害提升60%，星扩散反应造成的伤害提升20%。根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。对敌人触发星扩散反应时，也会降低其40%的<e:cryo>冰元素</e>抗性。同元素类型的抗性降低效果无法叠加。"
+        }
       }
     }
   }

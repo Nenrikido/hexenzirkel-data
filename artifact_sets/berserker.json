@@ -46,6 +46,13 @@
           "2": "Taxa Crítica +12%",
           "4": "Quando a Vida estiver abaixo de 70%, a Taxa Crítica aumenta 24%."
         }
+      },
+      "zh": {
+        "name": "战狂",
+        "bonuses": {
+          "2": "暴击率提高12%。",
+          "4": "生命值低于70%时，暴击率额外提升24%。"
+        }
       }
     }
   }

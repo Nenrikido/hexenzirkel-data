@@ -63,6 +63,13 @@
           "2": "Recarga de Energia +20%",
           "4": "Ao causar Dano Elemental, obtém por 8s o efeito Resplandecer Lunar: Missiva Sublime: quando o Presságio Lunar da equipe estiver no Reluzir Inicial/Cheio, aumenta a Proficiência Elemental de todos os personagens em 60/120. Esse efeito pode ser desencadeado, mesmo se o personagem que está com esse conjunto equipado não estiver ativo. Quando um personagem possuir efeitos de Resplandecer Lunar diferentes, aumenta o Dano causado pelas Reações Lunares em 10% para todos os personagens. O efeito gerado por Resplandecer Lunar não é acumulável."
         }
+      },
+      "zh": {
+        "name": "纺月的夜歌",
+        "bonuses": {
+          "2": "元素充能效率提高20%。",
+          "4": "造成元素伤害时，获得持续8秒的「月辉明光·崇信」效果：队伍的月兆为初辉/满辉时，队伍中的所有角色的元素精通提高60点/120点。装备者处于后台时也能触发上述效果。队伍中的角色每拥有一种不同的「月辉明光」效果，队伍中的所有角色触发的月曜反应造成的伤害提升10%。由「月辉明光」产生的效果无法叠加。"
+        }
       }
     }
   }

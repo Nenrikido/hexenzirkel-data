@@ -118,6 +118,19 @@
             "5": "Quando a Habilidade Elemental causa Dano Hydro ou Dendro, o personagem que está com essa arma equipada obtém o efeito Palavras Sagradas do Norte: aumenta a Proficiência Elemental em <r>120</r> por 4.5s. Quando os personagens próximos da equipe desencadeiam Florescimento Lunar, o personagem que está com essa arma equipada obtém o efeito Poema da Lua Nova: aumenta a Proficiência Elemental em <r>120</r> por 10s. Quando os efeitos Palavras Sagradas do Norte e Poema da Lua Nova existirem simultaneamente, aumenta o Dano de Florescimento causado por todos os membros próximos da equipe em <r>240%</r>, o Dano causado por Superflorescimento e Germinação em <r>160%</r> e o Dano de Florescimento Lunar em <r>80%</r>. Esse efeito não acumula. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não estiver ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "由无瑕的白银铸就的明镜，传说见证了月之少女的诞生，因而被霜月之子视作至高的圣物。",
+        "passive": {
+          "name": "千年的祷咏歌",
+          "refinements": {
+            "1": "元素战技造成水元素或草元素伤害时，装备者获得「终北圣言」效果：元素精通提升<r>60</r>点，持续4.5秒；队伍中附近的角色触发月绽放反应时，装备者获得「朔月诗篇」效果：元素精通提升<r>60</r>点，持续10秒；「终北圣言」效果与「朔月诗篇」效果同时存在时，队伍中附近的所有角色触发的绽放反应造成的伤害提升<r>120%</r>，超绽放、烈绽放反应造成的伤害提升<r>80%</r>，月绽放反应伤害提升<r>40%</r>，该效果无法叠加。装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "元素战技造成水元素或草元素伤害时，装备者获得「终北圣言」效果：元素精通提升<r>75</r>点，持续4.5秒；队伍中附近的角色触发月绽放反应时，装备者获得「朔月诗篇」效果：元素精通提升<r>75</r>点，持续10秒；「终北圣言」效果与「朔月诗篇」效果同时存在时，队伍中附近的所有角色触发的绽放反应造成的伤害提升<r>150%</r>，超绽放、烈绽放反应造成的伤害提升<r>100%</r>，月绽放反应伤害提升<r>50%</r>，该效果无法叠加。装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "元素战技造成水元素或草元素伤害时，装备者获得「终北圣言」效果：元素精通提升<r>90</r>点，持续4.5秒；队伍中附近的角色触发月绽放反应时，装备者获得「朔月诗篇」效果：元素精通提升<r>90</r>点，持续10秒；「终北圣言」效果与「朔月诗篇」效果同时存在时，队伍中附近的所有角色触发的绽放反应造成的伤害提升<r>180%</r>，超绽放、烈绽放反应造成的伤害提升<r>120%</r>，月绽放反应伤害提升<r>60%</r>，该效果无法叠加。装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "元素战技造成水元素或草元素伤害时，装备者获得「终北圣言」效果：元素精通提升<r>105</r>点，持续4.5秒；队伍中附近的角色触发月绽放反应时，装备者获得「朔月诗篇」效果：元素精通提升<r>105</r>点，持续10秒；「终北圣言」效果与「朔月诗篇」效果同时存在时，队伍中附近的所有角色触发的绽放反应造成的伤害提升<r>210%</r>，超绽放、烈绽放反应造成的伤害提升<r>140%</r>，月绽放反应伤害提升<r>70%</r>，该效果无法叠加。装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "元素战技造成水元素或草元素伤害时，装备者获得「终北圣言」效果：元素精通提升<r>120</r>点，持续4.5秒；队伍中附近的角色触发月绽放反应时，装备者获得「朔月诗篇」效果：元素精通提升<r>120</r>点，持续10秒；「终北圣言」效果与「朔月诗篇」效果同时存在时，队伍中附近的所有角色触发的绽放反应造成的伤害提升<r>240%</r>，超绽放、烈绽放反应造成的伤害提升<r>160%</r>，月绽放反应伤害提升<r>80%</r>，该效果无法叠加。装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

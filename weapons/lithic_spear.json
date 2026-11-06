@@ -143,6 +143,19 @@
             "5": "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em <r>11%</r> e aumenta sua Taxa CRIT em <r>7%</r>. Esse efeito pode ser acumulado no máximo 4 vezes."
           }
         }
+      },
+      "zh": {
+        "flavor": "取孤云阁的岩片精工打造的长枪，枪尖坚固无比。",
+        "passive": {
+          "name": "千岩诀·同心",
+          "refinements": {
+            "1": "队伍中每有一位璃月角色，装备此武器的角色便获得<r>7%</r>攻击力提升与<r>3%</r>暴击率提升。至多获得4层提升效果。",
+            "2": "队伍中每有一位璃月角色，装备此武器的角色便获得<r>8%</r>攻击力提升与<r>4%</r>暴击率提升。至多获得4层提升效果。",
+            "3": "队伍中每有一位璃月角色，装备此武器的角色便获得<r>9%</r>攻击力提升与<r>5%</r>暴击率提升。至多获得4层提升效果。",
+            "4": "队伍中每有一位璃月角色，装备此武器的角色便获得<r>10%</r>攻击力提升与<r>6%</r>暴击率提升。至多获得4层提升效果。",
+            "5": "队伍中每有一位璃月角色，装备此武器的角色便获得<r>11%</r>攻击力提升与<r>7%</r>暴击率提升。至多获得4层提升效果。"
+          }
+        }
       }
     }
   }

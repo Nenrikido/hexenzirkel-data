@@ -87,6 +87,13 @@
           "2": "Aumenta a vida em 20%.",
           "4": "Aumenta o Dano da Habilidade Elemental e do Supremo em 10%. Nos 5s após o personagem que tem este artefato equipado sofrer Dano, o efeito de aumento de Dano mencionado acima será de 80%. Esse efeito de aumento pode ser acumulado até 5 vezes, com cada acúmulo tendo sua duração contada independentemente. Esse efeito pode ser desencadeado mesmo se o personagem não estiver ativo no campo de batalha."
         }
+      },
+      "zh": {
+        "name": "花海甘露之光",
+        "bonuses": {
+          "2": "生命值提升20%。",
+          "4": "元素战技与元素爆发造成的伤害提升10%；装备者受到伤害后的5秒内，上述伤害提升效果提高80%，该提高效果至多叠加5层，每层持续时间独立计算，处于队伍后台时依然能触发该效果。"
+        }
       }
     }
   }

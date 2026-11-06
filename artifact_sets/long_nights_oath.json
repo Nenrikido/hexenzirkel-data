@@ -65,6 +65,13 @@
           "2": "Dano do Ataque Imersivo aumenta em 25%.",
           "4": "Quando o personagem que está com esse conjunto equipado atinge um Ataque Imersivo/Carregado/Habilidade Elemental no inimigo, obtém 1/2/2 acúmulo(s) de Brilho Eterno. Ataques Imersivos, Carregados ou Habilidades Elementais podem gerar esse efeito uma vez por segundo. Brilho Eterno: aumenta o Dano causado por Ataques Imersivos em 15% por 6s, acumula até 5 vezes. A duração de cada acúmulo é contada independentemente."
         }
+      },
+      "zh": {
+        "name": "长夜之誓",
+        "bonuses": {
+          "2": "下落攻击造成的伤害提升25%。",
+          "4": "装备者的下落攻击/重击/元素战技命中敌人后，获得1/2/2层「永照的流辉」，由下落攻击、重击或元素战技产生的该效果分别每1秒至多触发一次。永照的流辉：下落攻击造成的伤害提升15%，持续6秒，至多叠加5层，每层持续时间独立计算。"
+        }
       }
     }
   }

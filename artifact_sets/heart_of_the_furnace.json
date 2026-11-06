@@ -55,6 +55,13 @@
           "2": "ATQ +18%",
           "4": "Nos 12s após o portador desencadear Brilho Estelar ou causar Dano de Brilho Estelar, aumenta o ATQ em 12% e o Dano de Brilho Estelar de todos os membros próximos da equipe em 50%. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo. O efeito de bônus de Dano de conjuntos de Artefatos iguais não acumula."
         }
+      },
+      "zh": {
+        "name": "炉火融炼之心",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "装备者触发星烁反应或造成星烁反应伤害后的12秒内，攻击力提升12%，队伍中附近的所有角色造成的星烁反应伤害提升50%。装备者处于后台时也能触发上述效果。同名圣遗物套装产生的伤害加成效果无法叠加。"
+        }
       }
     }
   }

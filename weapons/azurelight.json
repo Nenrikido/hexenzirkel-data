@@ -96,6 +96,19 @@
             "5": "Dentro de 12s após uma Habilidade Elemental ser usada, o ATQ é aumentado em <r>48%</r>. Durante esse tempo, quando o personagem que está com essa arma equipada possui 0 de Energia, o ATQ será aumentado em mais <r>48%</r>, e o Dano CRIT será aumentado em <r>80%</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "原本如同拂晓的白星般纯净的无垢之刃，如今已被染上幽蓝的黯色。",
+        "passive": {
+          "name": "白山的馈赐",
+          "refinements": {
+            "1": "施放元素战技后的12秒内，攻击力提升<r>24%</r>。持续期间，装备者的元素能量为0时，攻击力还会提升<r>24%</r>，且暴击伤害提升<r>40%</r>。",
+            "2": "施放元素战技后的12秒内，攻击力提升<r>30%</r>。持续期间，装备者的元素能量为0时，攻击力还会提升<r>30%</r>，且暴击伤害提升<r>50%</r>。",
+            "3": "施放元素战技后的12秒内，攻击力提升<r>36%</r>。持续期间，装备者的元素能量为0时，攻击力还会提升<r>36%</r>，且暴击伤害提升<r>60%</r>。",
+            "4": "施放元素战技后的12秒内，攻击力提升<r>42%</r>。持续期间，装备者的元素能量为0时，攻击力还会提升<r>42%</r>，且暴击伤害提升<r>70%</r>。",
+            "5": "施放元素战技后的12秒内，攻击力提升<r>48%</r>。持续期间，装备者的元素能量为0时，攻击力还会提升<r>48%</r>，且暴击伤害提升<r>80%</r>。"
+          }
+        }
       }
     }
   }

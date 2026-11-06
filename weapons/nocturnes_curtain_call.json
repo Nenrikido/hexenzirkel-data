@@ -109,6 +109,19 @@
             "5": "Aumenta a Vida Máxima em <r>18%</r>. Quando o portador desencadear Reações Lunares ou causar Dano de Reações Lunares contra os inimigos, regenera <r>18</r> de Energia Elemental para o portador, e obtém por 12s o efeito \"Vinho Divino\": aumenta a Vida Máxima em mais <r>22%</r> e aumenta o Dano CRIT das Reações Lunares em mais <r>140%</r>. Esses efeitos de regeneração de Energia Elemental podem ser desencadeados uma vez a cada 18s. Esses efeitos podem ser desencadeados, mesmo quando o portador não é o personagem ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "笼着月色轻纱的玉珠，即便是在冬日的寒夜中也萦绕着如歌的温存。",
+        "passive": {
+          "name": "十字路的旅歌",
+          "refinements": {
+            "1": "生命值上限提高<r>10%</r>。装备者触发月曜反应或对敌人造成月曜反应伤害时，将为装备者恢复<r>14</r>点元素能量，并获得持续12秒的「丰饶海的神酒」效果：生命值上限进一步提高<r>14%</r>，月曜反应伤害的暴击伤害提升<r>60%</r>。恢复元素能量效果每18秒至多触发一次，装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "生命值上限提高<r>12%</r>。装备者触发月曜反应或对敌人造成月曜反应伤害时，将为装备者恢复<r>15</r>点元素能量，并获得持续12秒的「丰饶海的神酒」效果：生命值上限进一步提高<r>16%</r>，月曜反应伤害的暴击伤害提升<r>80%</r>。恢复元素能量效果每18秒至多触发一次，装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "生命值上限提高<r>14%</r>。装备者触发月曜反应或对敌人造成月曜反应伤害时，将为装备者恢复<r>16</r>点元素能量，并获得持续12秒的「丰饶海的神酒」效果：生命值上限进一步提高<r>18%</r>，月曜反应伤害的暴击伤害提升<r>100%</r>。恢复元素能量效果每18秒至多触发一次，装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "生命值上限提高<r>16%</r>。装备者触发月曜反应或对敌人造成月曜反应伤害时，将为装备者恢复<r>17</r>点元素能量，并获得持续12秒的「丰饶海的神酒」效果：生命值上限进一步提高<r>20%</r>，月曜反应伤害的暴击伤害提升<r>120%</r>。恢复元素能量效果每18秒至多触发一次，装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "生命值上限提高<r>18%</r>。装备者触发月曜反应或对敌人造成月曜反应伤害时，将为装备者恢复<r>18</r>点元素能量，并获得持续12秒的「丰饶海的神酒」效果：生命值上限进一步提高<r>22%</r>，月曜反应伤害的暴击伤害提升<r>140%</r>。恢复元素能量效果每18秒至多触发一次，装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

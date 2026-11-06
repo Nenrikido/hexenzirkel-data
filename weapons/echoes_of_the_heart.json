@@ -85,6 +85,19 @@
             "5": "Nos 12s após desencadear uma reação Elemental, aumenta a Proficiência Elemental do portador em <r>120</r>. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em <r>32%</r>. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "用以凝定声音的法器，似乎还封存了一段关乎忠诚的誓言，以及一颗被人遗忘的心。",
+        "passive": {
+          "name": "誓言的回音",
+          "refinements": {
+            "1": "触发元素反应的12秒内，装备者的元素精通提升<r>60</r>点；触发星烁反应的12秒内，装备者造成的星烁反应伤害提升<r>16%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "2": "触发元素反应的12秒内，装备者的元素精通提升<r>75</r>点；触发星烁反应的12秒内，装备者造成的星烁反应伤害提升<r>20%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "3": "触发元素反应的12秒内，装备者的元素精通提升<r>90</r>点；触发星烁反应的12秒内，装备者造成的星烁反应伤害提升<r>24%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "4": "触发元素反应的12秒内，装备者的元素精通提升<r>105</r>点；触发星烁反应的12秒内，装备者造成的星烁反应伤害提升<r>28%</r>。装备者处于队伍后台时，依然能触发上述效果。",
+            "5": "触发元素反应的12秒内，装备者的元素精通提升<r>120</r>点；触发星烁反应的12秒内，装备者造成的星烁反应伤害提升<r>32%</r>。装备者处于队伍后台时，依然能触发上述效果。"
+          }
+        }
       }
     }
   }

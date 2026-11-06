@@ -149,6 +149,19 @@
             "5": "O portador obtém Prenúncio da Alvorada: 3s depois de sair de batalha, aumenta o Dano do Ataque Normal, Habilidade Elemental e Supremo em <r>120%</r>. Em batalha, esse efeito de aumento de Dano é reduzido em <r>20%</r> por segundo até alcançar 0%. Quando o Ataque Normal, Habilidade Elemental ou Supremo do portador atinge o inimigo, aumenta o efeito de aumento de Dano correspondente em <r>20%</r> até alcançar <r>120%</r>, esse efeito pode ser desencadeado uma vez a cada 0.1s para cada tipo de ataque acima. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.\nAlém disso, quando a equipe possui o efeito Mágico: Ritual Secreto e o portador atinge o inimigo com um Ataque Normal, Habilidade Elemental ou Supremo, o efeito de aumento para todos os tipos de Dano passa a ser <r>40%</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "一切抗争的诗歌都将乘风而来，落为弦上的轻音。而其中汇聚的力量如同撕开无边黑夜的破晓之光。",
+        "passive": {
+          "name": "悠远的流颂之歌",
+          "refinements": {
+            "1": "装备者获得「渐起的晓风」：脱离战斗状态3秒后，普通攻击、元素战技和元素爆发造成的伤害提升<r>60%</r>。在战斗状态下，上述伤害提升效果每秒降低<r>10%</r>，直到降低至0%；装备者的普通攻击、元素战技或元素爆发命中敌人时，对应类别的伤害提升效果提升<r>10%</r>，直到提升至<r>60%</r>，上述每种类别的攻击每0.1秒至多触发一次该效果。装备者处于队伍后台时，依然能触发上述效果。\n此外，队伍拥有「魔导·秘仪」效果时，装备者的普通攻击、元素战技或元素爆发命中敌人时，改为使所有类别的伤害提升效果提升<r>20%</r>。",
+            "2": "装备者获得「渐起的晓风」：脱离战斗状态3秒后，普通攻击、元素战技和元素爆发造成的伤害提升<r>75%</r>。在战斗状态下，上述伤害提升效果每秒降低<r>12.5%</r>，直到降低至0%；装备者的普通攻击、元素战技或元素爆发命中敌人时，对应类别的伤害提升效果提升<r>12.5%</r>，直到提升至<r>75%</r>，上述每种类别的攻击每0.1秒至多触发一次该效果。装备者处于队伍后台时，依然能触发上述效果。\n此外，队伍拥有「魔导·秘仪」效果时，装备者的普通攻击、元素战技或元素爆发命中敌人时，改为使所有类别的伤害提升效果提升<r>25%</r>。",
+            "3": "装备者获得「渐起的晓风」：脱离战斗状态3秒后，普通攻击、元素战技和元素爆发造成的伤害提升<r>90%</r>。在战斗状态下，上述伤害提升效果每秒降低<r>15%</r>，直到降低至0%；装备者的普通攻击、元素战技或元素爆发命中敌人时，对应类别的伤害提升效果提升<r>15%</r>，直到提升至<r>90%</r>，上述每种类别的攻击每0.1秒至多触发一次该效果。装备者处于队伍后台时，依然能触发上述效果。\n此外，队伍拥有「魔导·秘仪」效果时，装备者的普通攻击、元素战技或元素爆发命中敌人时，改为使所有类别的伤害提升效果提升<r>30%</r>。",
+            "4": "装备者获得「渐起的晓风」：脱离战斗状态3秒后，普通攻击、元素战技和元素爆发造成的伤害提升<r>105%</r>。在战斗状态下，上述伤害提升效果每秒降低<r>17.5%</r>，直到降低至0%；装备者的普通攻击、元素战技或元素爆发命中敌人时，对应类别的伤害提升效果提升<r>17.5%</r>，直到提升至<r>105%</r>，上述每种类别的攻击每0.1秒至多触发一次该效果。装备者处于队伍后台时，依然能触发上述效果。\n此外，队伍拥有「魔导·秘仪」效果时，装备者的普通攻击、元素战技或元素爆发命中敌人时，改为使所有类别的伤害提升效果提升<r>35%</r>。",
+            "5": "装备者获得「渐起的晓风」：脱离战斗状态3秒后，普通攻击、元素战技和元素爆发造成的伤害提升<r>120%</r>。在战斗状态下，上述伤害提升效果每秒降低<r>20%</r>，直到降低至0%；装备者的普通攻击、元素战技或元素爆发命中敌人时，对应类别的伤害提升效果提升<r>20%</r>，直到提升至<r>120%</r>，上述每种类别的攻击每0.1秒至多触发一次该效果。装备者处于队伍后台时，依然能触发上述效果。\n此外，队伍拥有「魔导·秘仪」效果时，装备者的普通攻击、元素战技或元素爆发命中敌人时，改为使所有类别的伤害提升效果提升<r>40%</r>。"
+          }
+        }
       }
     }
   }

@@ -37,6 +37,13 @@
           "2": "Recarga de Energia +20%",
           "4": "Ao usar o Supremo, regenera 2 de Energia a todos os personagens da equipe (excluindo o portador) a cada 2s por 6s. Este efeito não pode ser acumulado."
         }
+      },
+      "zh": {
+        "name": "流放者",
+        "bonuses": {
+          "2": "元素充能效率提高20%。",
+          "4": "施放元素爆发后，每2秒为队伍中所有角色（不包括自己）恢复2点元素能量。该效果持续6秒，无法叠加。"
+        }
       }
     }
   }

@@ -47,6 +47,13 @@
           "2": "Aumenta a vida em 20%.",
           "4": "Quando a Habilidade Elemental atinge um oponente, o ATQ de todos os membros da equipe próximos aumenta em 20% e sua Força do Escudo aumenta em 30% por 3s. Esse efeito pode ser ativado uma vez a cada 0,5s. Esse efeito ainda pode ser ativado mesmo quando o personagem que está usando esse conjunto de artefatos não está em campo."
         }
+      },
+      "zh": {
+        "name": "千岩牢固",
+        "bonuses": {
+          "2": "生命值提升20%。",
+          "4": "元素战技命中敌人后，使队伍中附近的所有角色攻击力提升20%，护盾强效提升30%，持续3秒。该效果每0.5秒至多触发一次。装备此圣遗物套装的角色处于队伍后台时，依然能触发该效果。"
+        }
       }
     }
   }

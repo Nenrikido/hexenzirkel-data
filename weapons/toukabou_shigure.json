@@ -70,6 +70,19 @@
             "5": "Ao atingir os inimigos com um ataque, aplicará o estado de \"Assombração do Guarda-Chuva\" em um inimigo por 10s. Esse efeito pode ser desencadeado uma vez a cada 15s; caso esse inimigo seja derrotado na duração do efeito, redefinirá o tempo de recarga dele. Personagens com esta arma equipada causam <r>32%</r> a mais de Dano contra inimigos no estado \"Assombração do Guarda-Chuva\"."
           }
         }
+      },
+      "zh": {
+        "flavor": "稍微有些特别的油纸伞。尽管长久的旅行中已经习惯风雨，与之一同静赏雨景或许也有其中妙趣。",
+        "passive": {
+          "name": "怪谭·时雨心地一本足",
+          "refinements": {
+            "1": "攻击命中敌人后，会为命中的一名敌人施加「纸伞作祟」状态，持续10秒。该效果每15秒至多触发一次；持续期间该敌人被击败时，将清除该效果的冷却时间。装备者对处于「纸伞作祟」状态下的敌人造成的伤害提升<r>16%</r>。",
+            "2": "攻击命中敌人后，会为命中的一名敌人施加「纸伞作祟」状态，持续10秒。该效果每15秒至多触发一次；持续期间该敌人被击败时，将清除该效果的冷却时间。装备者对处于「纸伞作祟」状态下的敌人造成的伤害提升<r>20%</r>。",
+            "3": "攻击命中敌人后，会为命中的一名敌人施加「纸伞作祟」状态，持续10秒。该效果每15秒至多触发一次；持续期间该敌人被击败时，将清除该效果的冷却时间。装备者对处于「纸伞作祟」状态下的敌人造成的伤害提升<r>24%</r>。",
+            "4": "攻击命中敌人后，会为命中的一名敌人施加「纸伞作祟」状态，持续10秒。该效果每15秒至多触发一次；持续期间该敌人被击败时，将清除该效果的冷却时间。装备者对处于「纸伞作祟」状态下的敌人造成的伤害提升<r>28%</r>。",
+            "5": "攻击命中敌人后，会为命中的一名敌人施加「纸伞作祟」状态，持续10秒。该效果每15秒至多触发一次；持续期间该敌人被击败时，将清除该效果的冷却时间。装备者对处于「纸伞作祟」状态下的敌人造成的伤害提升<r>32%</r>。"
+          }
+        }
       }
     }
   }

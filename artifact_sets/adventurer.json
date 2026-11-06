@@ -37,6 +37,13 @@
           "2": "Vida Máx. +1000",
           "4": "Abrir um baú recupera 30% de Vida Máxima durante 5 segundos."
         }
+      },
+      "zh": {
+        "name": "冒险家",
+        "bonuses": {
+          "2": "生命值上限提高1000点。",
+          "4": "开启各类宝箱后的5秒内，持续恢复30%生命值。"
+        }
       }
     }
   }

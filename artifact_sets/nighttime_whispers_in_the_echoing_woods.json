@@ -48,6 +48,13 @@
           "2": "ATQ +18%",
           "4": "Nos 10s depois de usar uma Habilidade Elemental, aumenta o Bônus de Dano <e:geo>Geo</e> em 20%. Se estiver protegido por um escudo gerado pela Reação de Cristalização, ou se houver uma Jaula Lunar próxima gerada por Cristalização Lunar por perto, o efeito acima será aumentado em 150%. Quando essas circunstâncias não forem satisfeitas, esse aumento adicional de Dano desaparece após 1s."
         }
+      },
+      "zh": {
+        "name": "回声之林夜话",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "施放元素战技后的10秒内，<e:geo>岩元素</e>伤害加成提升20%；若处于结晶反应产生的护盾庇护下，或附近存在月结晶反应产生的月笼，上述效果提高150%，进一步提高的效果将在不满足上述条件的1秒后移除。"
+        }
       }
     }
   }

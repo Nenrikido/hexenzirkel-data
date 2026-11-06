@@ -272,6 +272,19 @@
             "5": "O portador obtém Acordo de Sangue Prateado Contaminado: aumenta a Proficiência Elemental do portador em <r>48</r> para cada personagem Cryo da equipe. Aumenta o ATQ do portador em <r>9.6%</r> para cada personagem Electro da equipe. É possível que até 4 personagens Cryo ou Electro forneçam esse efeito.\nBrilho Reluzente: Brilho Estelar: o efeito Acordo de Sangue Prateado Contaminado é alterado para: aumenta a Proficiência Elemental do portador em <r>40</r> para cada personagem Cryo ou Electro da equipe, e aumenta o Dano de reações de Brilho Estelar em <r>12%</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "至纯的冰雪凝结而成的礼器，传说直到五百年前，都被历任雪精王公用于加冕仪式。",
+        "passive": {
+          "name": "寒霜的遗秘",
+          "refinements": {
+            "1": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<r>24</r>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<r>4.8%</r>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<r>20</r>点，造成的星烁反应伤害提升<r>6%</r>。",
+            "2": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<r>30</r>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<r>6%</r>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<r>25</r>点，造成的星烁反应伤害提升<r>7.5%</r>。",
+            "3": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<r>36</r>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<r>7.2%</r>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<r>30</r>点，造成的星烁反应伤害提升<r>9%</r>。",
+            "4": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<r>42</r>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<r>8.4%</r>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<r>35</r>点，造成的星烁反应伤害提升<r>10.5%</r>。",
+            "5": "装备者获得「银染的血契」：队伍中每存在一位冰元素类型的角色，装备者的元素精通提升<r>48</r>点；队伍中每存在一位雷元素类型的角色，装备者的攻击力提升<r>9.6%</r>。至多4位冰元素类型或雷元素类型的角色可以提供上述效果。\n辉映·星烁：「银染的血契」效果改为：队伍中每存在一位冰元素类型或雷元素类型的角色，装备者的元素精通提升<r>40</r>点，造成的星烁反应伤害提升<r>12%</r>。"
+          }
+        }
       }
     }
   }

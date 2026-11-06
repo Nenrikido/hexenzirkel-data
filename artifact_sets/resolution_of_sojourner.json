@@ -38,6 +38,13 @@
           "2": "ATQ +18%.",
           "4": "Aumenta a Taxa Crítica do Ataque Carregado em 30%."
         }
+      },
+      "zh": {
+        "name": "行者之心",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "重击的暴击率提升30%。"
+        }
       }
     }
   }

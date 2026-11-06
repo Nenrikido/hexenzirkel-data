@@ -115,6 +115,19 @@
             "5": "Aumenta a Taxa CRIT em <r>16%</r>. Ao lançar a Habilidade Elemental, o portador obtém o efeito Segredo das Falsas Palavras: aumenta a Proficiência Elemental em <r>160</r> por 12s. Quando o portador causa Dano de Florescimento Lunar contra o inimigo, obtém o efeito Lua da Verdade: aumenta o Dano CRIT em <r>48%</r> por 4s. Quando os efeitos Segredo das Falsas Palavras e Lua da Verdade existirem simultaneamente, esses efeitos aumentarão em 50% cada."
           }
         }
+      },
+      "zh": {
+        "flavor": "黄金与玉石雕琢而成的角匣，传说曾供奉于蓝宝石之城图莱杜拉深处的神殿。",
+        "passive": {
+          "name": "伪言的真意",
+          "refinements": {
+            "1": "暴击率提升<r>8%</r>。施放元素战技时，装备者获得「伪言之秘」效果：元素精通提升<r>80</r>点，持续12秒。装备者对敌人造成月绽放反应伤害时，装备者获得「真识之月」效果：暴击伤害提升<r>24%</r>，持续4秒。「伪言之秘」效果与「真识之月」效果同时存在时，这些效果分别提升50%。",
+            "2": "暴击率提升<r>10%</r>。施放元素战技时，装备者获得「伪言之秘」效果：元素精通提升<r>100</r>点，持续12秒。装备者对敌人造成月绽放反应伤害时，装备者获得「真识之月」效果：暴击伤害提升<r>30%</r>，持续4秒。「伪言之秘」效果与「真识之月」效果同时存在时，这些效果分别提升50%。",
+            "3": "暴击率提升<r>12%</r>。施放元素战技时，装备者获得「伪言之秘」效果：元素精通提升<r>120</r>点，持续12秒。装备者对敌人造成月绽放反应伤害时，装备者获得「真识之月」效果：暴击伤害提升<r>36%</r>，持续4秒。「伪言之秘」效果与「真识之月」效果同时存在时，这些效果分别提升50%。",
+            "4": "暴击率提升<r>14%</r>。施放元素战技时，装备者获得「伪言之秘」效果：元素精通提升<r>140</r>点，持续12秒。装备者对敌人造成月绽放反应伤害时，装备者获得「真识之月」效果：暴击伤害提升<r>42%</r>，持续4秒。「伪言之秘」效果与「真识之月」效果同时存在时，这些效果分别提升50%。",
+            "5": "暴击率提升<r>16%</r>。施放元素战技时，装备者获得「伪言之秘」效果：元素精通提升<r>160</r>点，持续12秒。装备者对敌人造成月绽放反应伤害时，装备者获得「真识之月」效果：暴击伤害提升<r>48%</r>，持续4秒。「伪言之秘」效果与「真识之月」效果同时存在时，这些效果分别提升50%。"
+          }
+        }
       }
     }
   }

@@ -47,6 +47,13 @@
           "2": "Bônus de Dano <e:cryo>Cryo</e> +15%",
           "4": "Quando um personagem ataca um inimigo afetado por <e:cryo>Cryo</e>, a sua Taxa CRIT aumenta em 20%. Adicionalmente, se o inimigo estiver Congelado, a Taxa CRIT aumenta em mais 20%."
         }
+      },
+      "zh": {
+        "name": "冰风迷途的勇士",
+        "bonuses": {
+          "2": "获得15%<e:cryo>冰元素</e>伤害加成。",
+          "4": "攻击处于<e:cryo>冰元素</e>影响下的敌人时，暴击率提高20%；若敌人处于冻结状态下，则暴击率额外提高20%。"
+        }
       }
     }
   }

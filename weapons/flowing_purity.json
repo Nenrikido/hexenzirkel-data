@@ -69,6 +69,19 @@
             "5": "Ao utilizar a Habilidade Elemental, aumenta todos os Bônus de Dano Elemental em <r>16%</r> por 15s e concede um Contrato de Vida equivalente a 24% da Vida Máxima. Este efeito pode ser ativado uma vez a cada 10s. Quando o Contrato de Vida é removido, aumenta em <r>4%</r> o Bônus de Dano Elemental de todos os Elementos a cada 1.000 pontos removidos. Em um máximo de <r>24%</r> de Bônus de Dano Elemental de todos os Elementos, esse efeito dura 15s."
           }
         }
+      },
+      "zh": {
+        "flavor": "造型奇特的剧本集，其中收录了科培琉司创作的所有剧本。",
+        "passive": {
+          "name": "未完的杰作",
+          "refinements": {
+            "1": "施放元素战技时，所有元素伤害加成提升<r>8%</r>，持续15秒，并赋予生命值上限24%的生命之契，该效果每10秒至多触发一次。生命之契清除时，每清除1000点将会提供<r>2%</r>所有元素伤害加成，至多通过这种方式获得<r>12%</r>所有元素伤害加成，持续15秒。",
+            "2": "施放元素战技时，所有元素伤害加成提升<r>10%</r>，持续15秒，并赋予生命值上限24%的生命之契，该效果每10秒至多触发一次。生命之契清除时，每清除1000点将会提供<r>2.5%</r>所有元素伤害加成，至多通过这种方式获得<r>15%</r>所有元素伤害加成，持续15秒。",
+            "3": "施放元素战技时，所有元素伤害加成提升<r>12%</r>，持续15秒，并赋予生命值上限24%的生命之契，该效果每10秒至多触发一次。生命之契清除时，每清除1000点将会提供<r>3%</r>所有元素伤害加成，至多通过这种方式获得<r>18%</r>所有元素伤害加成，持续15秒。",
+            "4": "施放元素战技时，所有元素伤害加成提升<r>14%</r>，持续15秒，并赋予生命值上限24%的生命之契，该效果每10秒至多触发一次。生命之契清除时，每清除1000点将会提供<r>3.5%</r>所有元素伤害加成，至多通过这种方式获得<r>21%</r>所有元素伤害加成，持续15秒。",
+            "5": "施放元素战技时，所有元素伤害加成提升<r>16%</r>，持续15秒，并赋予生命值上限24%的生命之契，该效果每10秒至多触发一次。生命之契清除时，每清除1000点将会提供<r>4%</r>所有元素伤害加成，至多通过这种方式获得<r>24%</r>所有元素伤害加成，持续15秒。"
+          }
+        }
       }
     }
   }

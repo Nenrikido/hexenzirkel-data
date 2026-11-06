@@ -178,6 +178,19 @@
             "5": "Nos 12s após lançar a Habilidade Elemental, quando o portador atinge um inimigo com um ataque, obtém o efeito Vegetação Exuberante: aumenta o ATQ em <r>8%</r>, aumenta a Proficiência Elemental em <r>40</r> por 6s. Acumula até 3 vezes. É possível desencadear uma vez por segundo. Esse efeito pode ser ativado mesmo quando o portador não for o personagem ativo.\nBrilho Reluzente: Brilho Estelar: o efeito de Vegetação Exuberante é alterado para aumentar o ATQ em <r>12%</r>, e aumenta o Dano de reações de Brilho Estelar do portador em <r>16%</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "以圣木所制的宝剑，据闻曾在一场战役里成为扭转胜负的关键。",
+        "passive": {
+          "name": "叶脉蔓生",
+          "refinements": {
+            "1": "施放元素战技后的12秒内，装备者的攻击命中敌人时，会获得「蓊郁」：攻击力提升<r>4%</r>，元素精通提升<r>20</r>点。该效果持续6秒，至多叠加3层，每1秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。\n辉映·星烁：「蓊郁」效果改为攻击力提升<r>6%</r>，且装备者造成的星烁反应伤害提升<r>8%</r>。",
+            "2": "施放元素战技后的12秒内，装备者的攻击命中敌人时，会获得「蓊郁」：攻击力提升<r>5%</r>，元素精通提升<r>25</r>点。该效果持续6秒，至多叠加3层，每1秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。\n辉映·星烁：「蓊郁」效果改为攻击力提升<r>7.5%</r>，且装备者造成的星烁反应伤害提升<r>10%</r>。",
+            "3": "施放元素战技后的12秒内，装备者的攻击命中敌人时，会获得「蓊郁」：攻击力提升<r>6%</r>，元素精通提升<r>30</r>点。该效果持续6秒，至多叠加3层，每1秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。\n辉映·星烁：「蓊郁」效果改为攻击力提升<r>9%</r>，且装备者造成的星烁反应伤害提升<r>12%</r>。",
+            "4": "施放元素战技后的12秒内，装备者的攻击命中敌人时，会获得「蓊郁」：攻击力提升<r>7%</r>，元素精通提升<r>35</r>点。该效果持续6秒，至多叠加3层，每1秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。\n辉映·星烁：「蓊郁」效果改为攻击力提升<r>10.5%</r>，且装备者造成的星烁反应伤害提升<r>14%</r>。",
+            "5": "施放元素战技后的12秒内，装备者的攻击命中敌人时，会获得「蓊郁」：攻击力提升<r>8%</r>，元素精通提升<r>40</r>点。该效果持续6秒，至多叠加3层，每1秒至多触发一次。装备者处于队伍后台时，依然能触发上述效果。\n辉映·星烁：「蓊郁」效果改为攻击力提升<r>12%</r>，且装备者造成的星烁反应伤害提升<r>16%</r>。"
+          }
+        }
       }
     }
   }

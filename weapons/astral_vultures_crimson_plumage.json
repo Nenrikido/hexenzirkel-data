@@ -113,6 +113,19 @@
             "5": "Após desencadear uma reação de Redemoinho ou Redemoinho Estelar, o ATQ aumenta em <r>48%</r> por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em <r>40%/96%</r>, e o Dano causado pelo Supremo aumenta em <r>20%/48%</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "饰以赤色翎羽的古老长弓，花羽会世代传承的圣物之一。",
+        "passive": {
+          "name": "眸中的月珥",
+          "refinements": {
+            "1": "触发扩散或星扩散反应后的12秒内，攻击力提高<r>24%</r>。此外，队伍中存在至少1/2名与装备者元素类型不同的角色时，装备者重击造成的伤害提高<r>20%/48%</r>，元素爆发造成的伤害提高<r>10%/24%</r>。",
+            "2": "触发扩散或星扩散反应后的12秒内，攻击力提高<r>30%</r>。此外，队伍中存在至少1/2名与装备者元素类型不同的角色时，装备者重击造成的伤害提高<r>25%/60%</r>，元素爆发造成的伤害提高<r>12.5%/30%</r>。",
+            "3": "触发扩散或星扩散反应后的12秒内，攻击力提高<r>36%</r>。此外，队伍中存在至少1/2名与装备者元素类型不同的角色时，装备者重击造成的伤害提高<r>30%/72%</r>，元素爆发造成的伤害提高<r>15%/36%</r>。",
+            "4": "触发扩散或星扩散反应后的12秒内，攻击力提高<r>42%</r>。此外，队伍中存在至少1/2名与装备者元素类型不同的角色时，装备者重击造成的伤害提高<r>35%/84%</r>，元素爆发造成的伤害提高<r>17.5%/42%</r>。",
+            "5": "触发扩散或星扩散反应后的12秒内，攻击力提高<r>48%</r>。此外，队伍中存在至少1/2名与装备者元素类型不同的角色时，装备者重击造成的伤害提高<r>40%/96%</r>，元素爆发造成的伤害提高<r>20%/48%</r>。"
+          }
+        }
       }
     }
   }

@@ -52,6 +52,13 @@
           "2": "Bônus de Dano <e:anemo>Anemo</e> +15%",
           "4": "Quando um Ataque Carregado atinge um inimigo, aumenta a Vel. de ATQ do Ataque Normal desse Personagem em 10% e aumenta o Dano infligido por Ataques Normais, Carregados e Imersivos em 40% por 15s."
         }
+      },
+      "zh": {
+        "name": "沙上楼阁史话",
+        "bonuses": {
+          "2": "获得15%<e:anemo>风元素</e>伤害加成。",
+          "4": "重击命中敌人后，该角色的普通攻击速度提升10%，普通攻击、重击与下落攻击造成的伤害提升40%，持续15秒。"
+        }
       }
     }
   }

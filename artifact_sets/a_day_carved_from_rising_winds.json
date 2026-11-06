@@ -52,6 +52,13 @@
           "2": "ATQ +18%",
           "4": "Quando o Ataque Normal, Carregado, Habilidade Elemental ou Supremo atingem o inimigo, obtém o efeito Piedade do Vento e Pastoreio por 6s: aumenta o ATQ em 25%. Se o portador já tiver concluído a Tarefa da Bruxa, Piedade do Vento e Pastoreio será elevado para Determinação do Vento e Pastoreio, aumentando a Taxa CRIT do portador que passou pelo teste em 20%. Esse efeito pode ser desencadeado mesmo quando o portador não é o personagem ativo."
         }
+      },
+      "zh": {
+        "name": "风起之日",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "普通攻击、重击、元素战技或元素爆发命中敌人后，将获得持续6秒的「风与牧歌的眷怜」：攻击力提高25%。若装备者已经完成了「魔女的课业」，则「风与牧歌的眷怜」将会升级为「风与牧歌的决意」，额外使通过考验的装备者的暴击率提升20%。装备者处于队伍后台时，也能触发上述效果。"
+        }
       }
     }
   }

@@ -46,6 +46,13 @@
           "2": "Bônus de Dano <e:dendro>Dendro</e> +15%",
           "4": "Depois que as Habilidades Elementais ou Supremos acertam os oponentes, a RES <e:dendro>Dendro</e> dos alvos serão reduzidas em 30% por 8s. Esse efeito pode ser desencadeado mesmo se o personagem equipando este conjunto não estiver em campo."
         }
+      },
+      "zh": {
+        "name": "深林的记忆",
+        "bonuses": {
+          "2": "获得15%<e:dendro>草元素</e>伤害加成。",
+          "4": "元素战技或元素爆发命中敌人后，使命中目标的<e:dendro>草元素</e>抗性降低30%，持续8秒。装备者处于队伍后台时，依然能触发该效果。"
+        }
       }
     }
   }

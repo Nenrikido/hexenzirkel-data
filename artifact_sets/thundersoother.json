@@ -46,6 +46,13 @@
           "2": "RES <e:electro>Electro</e> +40%",
           "4": "Aumenta o Dano contra inimigos afetados por <e:electro>Electro</e> em 35%."
         }
+      },
+      "zh": {
+        "name": "平息鸣雷的尊者",
+        "bonuses": {
+          "2": "<e:electro>雷元素</e>抗性提高40%。",
+          "4": "对处于<e:electro>雷元素</e>影响下的敌人造成的伤害提升35%。"
+        }
       }
     }
   }

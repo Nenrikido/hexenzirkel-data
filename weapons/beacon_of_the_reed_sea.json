@@ -108,6 +108,19 @@
             "5": "Quando a Habilidade Elemental atinge um inimigo, aumenta o ATQ em <r>40%</r> por 8s. Ao sofrer Dano, aumenta o ATQ em <r>40%</r> por 8s. Os dois efeitos descritos acima podem ser desencadeados mesmo se o personagem não estiver ativo no campo de batalha. Além disso, personagens que não estiverem sob a proteção de um Escudo terão sua Vida Máxima aumentada em <r>64%</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "造型古旧的平头大剑，似乎曾是王器与某种仪式用的武器。",
+        "passive": {
+          "name": "沙海守望",
+          "refinements": {
+            "1": "元素战技命中敌人后，攻击力提升<r>20%</r>，持续8秒；受到伤害后，攻击力提升<r>20%</r>，持续8秒。上述2种效果角色处于队伍后台时也能触发。此外，不处于护盾庇护下时，生命值上限提高<r>32%</r>。",
+            "2": "元素战技命中敌人后，攻击力提升<r>25%</r>，持续8秒；受到伤害后，攻击力提升<r>25%</r>，持续8秒。上述2种效果角色处于队伍后台时也能触发。此外，不处于护盾庇护下时，生命值上限提高<r>40%</r>。",
+            "3": "元素战技命中敌人后，攻击力提升<r>30%</r>，持续8秒；受到伤害后，攻击力提升<r>30%</r>，持续8秒。上述2种效果角色处于队伍后台时也能触发。此外，不处于护盾庇护下时，生命值上限提高<r>48%</r>。",
+            "4": "元素战技命中敌人后，攻击力提升<r>35%</r>，持续8秒；受到伤害后，攻击力提升<r>35%</r>，持续8秒。上述2种效果角色处于队伍后台时也能触发。此外，不处于护盾庇护下时，生命值上限提高<r>56%</r>。",
+            "5": "元素战技命中敌人后，攻击力提升<r>40%</r>，持续8秒；受到伤害后，攻击力提升<r>40%</r>，持续8秒。上述2种效果角色处于队伍后台时也能触发。此外，不处于护盾庇护下时，生命值上限提高<r>64%</r>。"
+          }
+        }
       }
     }
   }

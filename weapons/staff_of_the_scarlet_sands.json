@@ -100,6 +100,19 @@
             "5": "Obtém Bônus de ATQ baseado em <r>104%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Quando a Habilidade Elemental atinge um inimigo, gera por 10s o efeito \"Sonhos de Areias Escarlates\": obtém Bônus de ATQ baseado em <r>56%</r> da Proficiência Elemental do personagem que está com essa arma equipada. Esse efeito pode ser acumulado até 3 vezes."
           }
         }
+      },
+      "zh": {
+        "flavor": "黑曜石塑造的一对的权杖中的一件。在传说中，具有引领沙之民的权威，但如今已经没有能辨别出这件王器形象的臣子了。",
+        "passive": {
+          "name": "蜃气尽头的热梦",
+          "refinements": {
+            "1": "基于装备者元素精通的<r>52%</r>，获得攻击力加成。元素战技命中敌人时，将产生持续10秒的「赤沙之梦」效果：基于装备者元素精通的<r>28%</r>，获得攻击力加成，该效果至多叠加3层。",
+            "2": "基于装备者元素精通的<r>65%</r>，获得攻击力加成。元素战技命中敌人时，将产生持续10秒的「赤沙之梦」效果：基于装备者元素精通的<r>35%</r>，获得攻击力加成，该效果至多叠加3层。",
+            "3": "基于装备者元素精通的<r>78%</r>，获得攻击力加成。元素战技命中敌人时，将产生持续10秒的「赤沙之梦」效果：基于装备者元素精通的<r>42%</r>，获得攻击力加成，该效果至多叠加3层。",
+            "4": "基于装备者元素精通的<r>91%</r>，获得攻击力加成。元素战技命中敌人时，将产生持续10秒的「赤沙之梦」效果：基于装备者元素精通的<r>49%</r>，获得攻击力加成，该效果至多叠加3层。",
+            "5": "基于装备者元素精通的<r>104%</r>，获得攻击力加成。元素战技命中敌人时，将产生持续10秒的「赤沙之梦」效果：基于装备者元素精通的<r>56%</r>，获得攻击力加成，该效果至多叠加3层。"
+          }
+        }
       }
     }
   }

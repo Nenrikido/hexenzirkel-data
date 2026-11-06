@@ -85,6 +85,19 @@
             "5": "Uma parte do \"Concerto Milenar\" que flutua no vento. Aumenta o Dano causado em <r>20%</r>. Quando ativa a Reação Elemental, o personagem obterá um Símbolo da Resistência, que pode ser ativado uma vez a cada 0.5s, mesmo quando o personagem não está no campo de batalha. Possuir 2 Símbolos da Resistência faz consumir todos eles, e faz todos os personagens da equipe obterem o efeito de \"Concerto Milenar: Canção da Resistência\" por 12s: Aumenta o Dano de Ataque Normal, Ataque Carregado, Ataque Imersivo em <r>32%</r>, além disso o ATQ será aumentado em <r>40%</r>. Dentro de 20s depois da ativação, não é possível obter os Símbolos da Resistência de novo. Entre todos os efeitos de vários valores, os efeitos do mesmo valor não podem ser acumulados."
           }
         }
+      },
+      "zh": {
+        "flavor": "如同悠古的歌声一般苍蓝的直剑，如同风之国土自由的誓言一般锐利的武器。",
+        "passive": {
+          "name": "抗争的践行之歌",
+          "refinements": {
+            "1": "飘游风中的「千年的大乐章」的一部分。造成的伤害提高<r>10%</r>；触发元素反应时，角色获得一枚奋起之符，每0.5秒内至多触发一次，角色处于队伍后台也能触发。拥有2枚奋起之符时，将消耗所有奋起之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·抗争之歌」效果：普通攻击、重击、下落攻击造成的伤害提高<r>16%</r>，攻击力提升<r>20%</r>。触发后20秒内，无法再次获得奋起之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。",
+            "2": "飘游风中的「千年的大乐章」的一部分。造成的伤害提高<r>12.5%</r>；触发元素反应时，角色获得一枚奋起之符，每0.5秒内至多触发一次，角色处于队伍后台也能触发。拥有2枚奋起之符时，将消耗所有奋起之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·抗争之歌」效果：普通攻击、重击、下落攻击造成的伤害提高<r>20%</r>，攻击力提升<r>25%</r>。触发后20秒内，无法再次获得奋起之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。",
+            "3": "飘游风中的「千年的大乐章」的一部分。造成的伤害提高<r>15%</r>；触发元素反应时，角色获得一枚奋起之符，每0.5秒内至多触发一次，角色处于队伍后台也能触发。拥有2枚奋起之符时，将消耗所有奋起之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·抗争之歌」效果：普通攻击、重击、下落攻击造成的伤害提高<r>24%</r>，攻击力提升<r>30%</r>。触发后20秒内，无法再次获得奋起之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。",
+            "4": "飘游风中的「千年的大乐章」的一部分。造成的伤害提高<r>17.5%</r>；触发元素反应时，角色获得一枚奋起之符，每0.5秒内至多触发一次，角色处于队伍后台也能触发。拥有2枚奋起之符时，将消耗所有奋起之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·抗争之歌」效果：普通攻击、重击、下落攻击造成的伤害提高<r>28%</r>，攻击力提升<r>35%</r>。触发后20秒内，无法再次获得奋起之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。",
+            "5": "飘游风中的「千年的大乐章」的一部分。造成的伤害提高<r>20%</r>；触发元素反应时，角色获得一枚奋起之符，每0.5秒内至多触发一次，角色处于队伍后台也能触发。拥有2枚奋起之符时，将消耗所有奋起之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·抗争之歌」效果：普通攻击、重击、下落攻击造成的伤害提高<r>32%</r>，攻击力提升<r>40%</r>。触发后20秒内，无法再次获得奋起之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。"
+          }
+        }
       }
     }
   }

@@ -104,6 +104,19 @@
             "5": "Reduz o consumo de Stamina ao escalar em 15% e aumenta o Dano causado pela Habilidade Elemental em <r>24%</r>. Além disso, quando os outros personagens próximos da equipe lançam sua Habilidade Elemental, aumenta o Dano da Habilidade Elemental do personagem que está com essa arma equipada em mais <r>24%</r> por 8s."
           }
         }
+      },
+      "zh": {
+        "flavor": "矿山的工匠们合力锻造的长枪，在过去是献给群山之灵的贡物。",
+        "passive": {
+          "name": "越峰之望",
+          "refinements": {
+            "1": "攀爬消耗的体力降低15%，元素战技造成的伤害提升<r>12%</r>；此外，队伍中附近的其他角色施放元素战技后，装备者的元素战技造成的伤害还会提升<r>12%</r>，持续8秒。",
+            "2": "攀爬消耗的体力降低15%，元素战技造成的伤害提升<r>15%</r>；此外，队伍中附近的其他角色施放元素战技后，装备者的元素战技造成的伤害还会提升<r>15%</r>，持续8秒。",
+            "3": "攀爬消耗的体力降低15%，元素战技造成的伤害提升<r>18%</r>；此外，队伍中附近的其他角色施放元素战技后，装备者的元素战技造成的伤害还会提升<r>18%</r>，持续8秒。",
+            "4": "攀爬消耗的体力降低15%，元素战技造成的伤害提升<r>21%</r>；此外，队伍中附近的其他角色施放元素战技后，装备者的元素战技造成的伤害还会提升<r>21%</r>，持续8秒。",
+            "5": "攀爬消耗的体力降低15%，元素战技造成的伤害提升<r>24%</r>；此外，队伍中附近的其他角色施放元素战技后，装备者的元素战技造成的伤害还会提升<r>24%</r>，持续8秒。"
+          }
+        }
       }
     }
   }

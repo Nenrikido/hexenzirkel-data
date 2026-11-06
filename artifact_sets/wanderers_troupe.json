@@ -46,6 +46,13 @@
           "2": "Proficiência Elemental +80",
           "4": "Aumenta o Dano do Ataque Carregado em 35% se o personagem estiver usando Catalisador ou Arco."
         }
+      },
+      "zh": {
+        "name": "流浪大地的乐团",
+        "bonuses": {
+          "2": "元素精通提高80点。",
+          "4": "装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。"
+        }
       }
     }
   }

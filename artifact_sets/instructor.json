@@ -46,6 +46,13 @@
           "2": "Proficiência Elemental +80",
           "4": "Após uma Reação Elemental aumenta a Proficiência Elemental de todos os membros da Equipe em 120 por 8s."
         }
+      },
+      "zh": {
+        "name": "教官",
+        "bonuses": {
+          "2": "元素精通提高80点。",
+          "4": "触发元素反应后，队伍中所有角色的元素精通提高120点，持续8秒。"
+        }
       }
     }
   }

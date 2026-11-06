@@ -101,6 +101,19 @@
             "5": "Aumenta o Dano causado pela Habilidade Elemental e Supremo em <r>32%</r>. Quando a Habilidade Elemental atingir um inimigo, aumenta a Taxa CRIT dela em <r>4%</r>. Quando o Supremo atingir um inimigo, aumenta a Taxa CRIT dele em <r>4%</r>. Esses dois efeitos duram 10s cada e podem ser acumulados até 4 vezes, podendo serem desencadeados uma vez a cada 0.1s."
           }
         }
+      },
+      "zh": {
+        "flavor": "传说中，遥远过去的流浪骑士所使用的长剑。",
+        "passive": {
+          "name": "苍狼北风",
+          "refinements": {
+            "1": "元素战技与元素爆发造成的伤害提升<r>16%</r>。元素战技命中敌人时，元素战技的暴击率提升<r>2%</r>；元素爆发命中敌人时，元素爆发的暴击率提升<r>2%</r>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+            "2": "元素战技与元素爆发造成的伤害提升<r>20%</r>。元素战技命中敌人时，元素战技的暴击率提升<r>2.5%</r>；元素爆发命中敌人时，元素爆发的暴击率提升<r>2.5%</r>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+            "3": "元素战技与元素爆发造成的伤害提升<r>24%</r>。元素战技命中敌人时，元素战技的暴击率提升<r>3%</r>；元素爆发命中敌人时，元素爆发的暴击率提升<r>3%</r>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+            "4": "元素战技与元素爆发造成的伤害提升<r>28%</r>。元素战技命中敌人时，元素战技的暴击率提升<r>3.5%</r>；元素爆发命中敌人时，元素爆发的暴击率提升<r>3.5%</r>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+            "5": "元素战技与元素爆发造成的伤害提升<r>32%</r>。元素战技命中敌人时，元素战技的暴击率提升<r>4%</r>；元素爆发命中敌人时，元素爆发的暴击率提升<r>4%</r>。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。"
+          }
+        }
       }
     }
   }

@@ -114,6 +114,19 @@
             "5": "Nos 10s após um Ataque Carregado atingir um inimigo, aumenta a Proficiência Elemental em <r>144</r>. Nos 10s após a Habilidade Elemental atingir um inimigo, aumenta a Proficiência Elemental em <r>96</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "纯净无垢的银锻礼器，据说曾是终北的圣女们世代传承的圣物。",
+        "passive": {
+          "name": "深宵的胎梦",
+          "refinements": {
+            "1": "重击命中敌人后的10秒内，元素精通提升<r>72</r>点；元素战技命中敌人后的10秒内，元素精通提升<r>48</r>点。",
+            "2": "重击命中敌人后的10秒内，元素精通提升<r>90</r>点；元素战技命中敌人后的10秒内，元素精通提升<r>60</r>点。",
+            "3": "重击命中敌人后的10秒内，元素精通提升<r>108</r>点；元素战技命中敌人后的10秒内，元素精通提升<r>72</r>点。",
+            "4": "重击命中敌人后的10秒内，元素精通提升<r>126</r>点；元素战技命中敌人后的10秒内，元素精通提升<r>84</r>点。",
+            "5": "重击命中敌人后的10秒内，元素精通提升<r>144</r>点；元素战技命中敌人后的10秒内，元素精通提升<r>96</r>点。"
+          }
+        }
       }
     }
   }

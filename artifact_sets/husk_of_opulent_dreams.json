@@ -50,6 +50,13 @@
           "2": "DEF +30%",
           "4": "Um personagem com este conjunto de artefatos equipado obterá o efeito de Curiosidade nas seguintes condições: Quando estiver no campo de batalha, o personagem ganha 1 carga após atingir um adversário com um ataque <e:geo>Geo</e>, isso pode ser desencadeado uma vez a cada 0.3s. Quando fora do campo de batalha, o personagem ganha 1 carga a cada 3s. A Curiosidade pode acumular em até 4 vezes, cada uma fornecendo 6% de DEF e um Bônus de Dano <e:geo>Geo</e> de também 6%. Quando 6 segundos passam sem ganhar um acúmulo de Curiosidade, 1 acúmulo é perdido."
         }
+      },
+      "zh": {
+        "name": "华馆梦醒形骸记",
+        "bonuses": {
+          "2": "防御力提高30%。",
+          "4": "装备此圣遗物套装的角色在以下情况下，将获得「问答」效果：在场上用<e:geo>岩元素</e>攻击命中敌人后获得一层，每0.3秒至多触发一次；在队伍后台中，每3秒获得一层。问答至多叠加4层，每层能提供6%防御力与6%<e:geo>岩元素</e>伤害加成。每6秒，若未获得问答效果，将损失一层。"
+        }
       }
     }
   }

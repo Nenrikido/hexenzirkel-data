@@ -77,6 +77,19 @@
             "5": "Aumenta a Proficiência Elemental em <r>200</r>. Nos 15s após o personagem que está com essa arma equipada criar um escudo, obtém o efeito \"Espelho da Noite\": aumenta o Dano causado pelo personagem ativo da equipe contra os inimigos próximos em <r>56%</r>. O efeito \"Espelho da Noite\" pode ser obtido uma vez a cada 14s."
           }
         }
+      },
+      "zh": {
+        "flavor": "以鹰之形雕刻的造像，烟谜主世代传承的圣物之一。",
+        "passive": {
+          "name": "奉予风阳的禋祀",
+          "refinements": {
+            "1": "元素精通提升<r>100</r>点。装备者创造护盾后的15秒内，获得「照夜之镜」效果：队伍中自己的当前场上角色对附近的敌人造成的伤害提升<r>28%</r>，每14秒至多获得一次「照夜之镜」效果。",
+            "2": "元素精通提升<r>125</r>点。装备者创造护盾后的15秒内，获得「照夜之镜」效果：队伍中自己的当前场上角色对附近的敌人造成的伤害提升<r>35%</r>，每14秒至多获得一次「照夜之镜」效果。",
+            "3": "元素精通提升<r>150</r>点。装备者创造护盾后的15秒内，获得「照夜之镜」效果：队伍中自己的当前场上角色对附近的敌人造成的伤害提升<r>42%</r>，每14秒至多获得一次「照夜之镜」效果。",
+            "4": "元素精通提升<r>175</r>点。装备者创造护盾后的15秒内，获得「照夜之镜」效果：队伍中自己的当前场上角色对附近的敌人造成的伤害提升<r>49%</r>，每14秒至多获得一次「照夜之镜」效果。",
+            "5": "元素精通提升<r>200</r>点。装备者创造护盾后的15秒内，获得「照夜之镜」效果：队伍中自己的当前场上角色对附近的敌人造成的伤害提升<r>56%</r>，每14秒至多获得一次「照夜之镜」效果。"
+          }
+        }
       }
     }
   }

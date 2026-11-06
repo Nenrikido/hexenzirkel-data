@@ -70,6 +70,19 @@
             "5": "Após desencadear Queimadura, Aceleração, Intensificação, Propagação, Florescimento, Florescimento Lunar, Superflorescimento ou Germinação, uma Folha do Renascimento será criada em volta do personagem por no máximo 10s. Quando coletada, a Folha do Renascimento aumentará o ATQ do personagem em <r>32%</r> por 12s. Apenas 1 Folha do Renascimento pode ser criada dessa forma a cada 20s. Esse efeito ainda pode ser desencadeado mesmo se o personagem não estiver em campo."
           }
         }
+      },
+      "zh": {
+        "flavor": "从兰那罗的故事中得到的武器。形制如同巨大的箭矢，能够作为枪矛使用。",
+        "passive": {
+          "name": "幽林月影",
+          "refinements": {
+            "1": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「苏生之叶」。拾取苏生之叶的角色攻击力提升<r>16%</r>，持续12秒。每20秒至多通过这种方式产生一枚苏生之叶。角色处于队伍后台时也能触发。",
+            "2": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「苏生之叶」。拾取苏生之叶的角色攻击力提升<r>20%</r>，持续12秒。每20秒至多通过这种方式产生一枚苏生之叶。角色处于队伍后台时也能触发。",
+            "3": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「苏生之叶」。拾取苏生之叶的角色攻击力提升<r>24%</r>，持续12秒。每20秒至多通过这种方式产生一枚苏生之叶。角色处于队伍后台时也能触发。",
+            "4": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「苏生之叶」。拾取苏生之叶的角色攻击力提升<r>28%</r>，持续12秒。每20秒至多通过这种方式产生一枚苏生之叶。角色处于队伍后台时也能触发。",
+            "5": "触发燃烧、原激化、超激化、蔓激化、绽放、月绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「苏生之叶」。拾取苏生之叶的角色攻击力提升<r>32%</r>，持续12秒。每20秒至多通过这种方式产生一枚苏生之叶。角色处于队伍后台时也能触发。"
+          }
+        }
       }
     }
   }

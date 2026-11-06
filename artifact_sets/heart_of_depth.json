@@ -46,6 +46,13 @@
           "2": "Bônus de Dano <e:hydro>Hydro</e> +15%",
           "4": "Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Carregado em 30% por 15s."
         }
+      },
+      "zh": {
+        "name": "沉沦之心",
+        "bonuses": {
+          "2": "获得15%<e:hydro>水元素</e>伤害加成。",
+          "4": "施放元素战技后的15秒内，普通攻击与重击造成的伤害提高30%。"
+        }
       }
     }
   }

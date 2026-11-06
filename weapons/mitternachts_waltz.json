@@ -114,6 +114,19 @@
             "5": "Dentro de 5s após acertar um inimigo com o Ataque Normal, o Dano causado pela Habilidade Elemental aumenta em <r>40%</r>. Dentro de 5s após acertar um inimigo com a Habilidade Elemental, o Dano do Ataque Normal aumenta <r>40%</r>."
           }
         }
+      },
+      "zh": {
+        "flavor": "有着如同罪与幻想之夜一般颜色的弓。",
+        "passive": {
+          "name": "极夜二重奏",
+          "refinements": {
+            "1": "普通攻击命中敌人后的5秒内，元素战技造成的伤害提升<r>20%</r>；元素战技命中敌人后的5秒内，普通攻击造成的伤害提升<r>20%</r>。",
+            "2": "普通攻击命中敌人后的5秒内，元素战技造成的伤害提升<r>25%</r>；元素战技命中敌人后的5秒内，普通攻击造成的伤害提升<r>25%</r>。",
+            "3": "普通攻击命中敌人后的5秒内，元素战技造成的伤害提升<r>30%</r>；元素战技命中敌人后的5秒内，普通攻击造成的伤害提升<r>30%</r>。",
+            "4": "普通攻击命中敌人后的5秒内，元素战技造成的伤害提升<r>35%</r>；元素战技命中敌人后的5秒内，普通攻击造成的伤害提升<r>35%</r>。",
+            "5": "普通攻击命中敌人后的5秒内，元素战技造成的伤害提升<r>40%</r>；元素战技命中敌人后的5秒内，普通攻击造成的伤害提升<r>40%</r>。"
+          }
+        }
       }
     }
   }

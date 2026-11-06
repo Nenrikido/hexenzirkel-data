@@ -70,6 +70,19 @@
             "5": "Depois que a Energia Elemental diminui, a Proficiência Elemental do personagem que está com essa arma equipada aumenta em <r>80</r>. Esse efeito dura 18s e pode ser acumulado até 2 vezes."
           }
         }
+      },
+      "zh": {
+        "flavor": "解析昔日拱卫天衡的仙家机关后，由玉衡星委托黑岩厂锻造的实验型制式兵器。",
+        "passive": {
+          "name": "镌岩为坊",
+          "refinements": {
+            "1": "元素能量减少后，装备者的元素精通提升<r>40</r>点。该效果持续18秒，至多叠加2层。",
+            "2": "元素能量减少后，装备者的元素精通提升<r>50</r>点。该效果持续18秒，至多叠加2层。",
+            "3": "元素能量减少后，装备者的元素精通提升<r>60</r>点。该效果持续18秒，至多叠加2层。",
+            "4": "元素能量减少后，装备者的元素精通提升<r>70</r>点。该效果持续18秒，至多叠加2层。",
+            "5": "元素能量减少后，装备者的元素精通提升<r>80</r>点。该效果持续18秒，至多叠加2层。"
+          }
+        }
       }
     }
   }

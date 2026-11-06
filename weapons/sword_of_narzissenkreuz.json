@@ -72,6 +72,19 @@
             "5": "Quando o personagem com esta arma equipada não possui um Arkhe: quando Ataques Normais, Ataques Carregados ou Ataques Imersivos acertam, uma explosão de energia Pneuma ou Ousia será liberada, causando <r>320%</r> do ATQ como Dano. Este efeito pode ser ativado uma vez a cada 12 segundos. O tipo de explosão de energia é determinado pelo tipo atual da Espada da Cruz de Narcissus."
           }
         }
+      },
+      "zh": {
+        "flavor": "意志与力量随故事的结束而消褪的长剑，它将要再次踏上新的旅途。其中残余着一些力量，纪念着一场宏大的梦。",
+        "passive": {
+          "name": "勇者之剑",
+          "refinements": {
+            "1": "装备者不具备「始基力」时：普通攻击、重击、下落攻击命中时，会释放芒性或荒性的能量冲击，造成<r>160%</r>攻击力的伤害。该效果每12秒至多触发一次，能量冲击的类型由水仙十字之剑当前的属性决定。",
+            "2": "装备者不具备「始基力」时：普通攻击、重击、下落攻击命中时，会释放芒性或荒性的能量冲击，造成<r>200%</r>攻击力的伤害。该效果每12秒至多触发一次，能量冲击的类型由水仙十字之剑当前的属性决定。",
+            "3": "装备者不具备「始基力」时：普通攻击、重击、下落攻击命中时，会释放芒性或荒性的能量冲击，造成<r>240%</r>攻击力的伤害。该效果每12秒至多触发一次，能量冲击的类型由水仙十字之剑当前的属性决定。",
+            "4": "装备者不具备「始基力」时：普通攻击、重击、下落攻击命中时，会释放芒性或荒性的能量冲击，造成<r>280%</r>攻击力的伤害。该效果每12秒至多触发一次，能量冲击的类型由水仙十字之剑当前的属性决定。",
+            "5": "装备者不具备「始基力」时：普通攻击、重击、下落攻击命中时，会释放芒性或荒性的能量冲击，造成<r>320%</r>攻击力的伤害。该效果每12秒至多触发一次，能量冲击的类型由水仙十字之剑当前的属性决定。"
+          }
+        }
       }
     }
   }

@@ -46,6 +46,13 @@
           "2": "Efeito de Cura do Personagem aumenta em 15%",
           "4": "Ao usar uma Habilidade Elemental ou Explosão, aumenta a cura recebida por todos os membros da equipe em 20% por 10s."
         }
+      },
+      "zh": {
+        "name": "被怜爱的少女",
+        "bonuses": {
+          "2": "角色造成的治疗效果提升15%。",
+          "4": "施放元素战技或元素爆发后的10秒内，队伍中所有角色受治疗效果加成提高20%。"
+        }
       }
     }
   }

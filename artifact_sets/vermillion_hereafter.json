@@ -69,6 +69,13 @@
           "2": "ATQ +18%.",
           "4": "Depois do Supremo ser usado, será desencadeado o efeito de \"Luz Nascente\" por 16s: o ATQ será aumentado em 8% e quando a Vida do personagem diminuir, o ATQ aumentará mais 10%. Esse aumento pode ocorrer desta forma no máximo 4 vezes, e pode ser desencadeado 1 vez a cada 0.8s. O efeito de \"Luz Nascente\" desaparece quando o personagem sai do campo de batalha. Quando o personagem lança novamente o Supremo durante o efeito, o efeito original de \"Luz Nascente\" será removido."
         }
+      },
+      "zh": {
+        "name": "辰砂往生录",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "施放元素爆发后，将产生持续16秒的「潜光」效果：攻击力提升8%；并在角色的生命值降低时，攻击力进一步提升10%，至多通过这种方式提升4次，每0.8秒至多触发一次。「潜光」效果将在角色退场时消失；持续期间再次施放元素爆发，将移除原有的「潜光」。"
+        }
       }
     }
   }

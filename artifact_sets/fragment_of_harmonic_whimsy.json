@@ -54,6 +54,13 @@
           "2": "ATQ +18%",
           "4": "Quando o valor de um Contrato de Vida aumenta ou diminui, aumenta o Dano causado por esse personagem em 18% por 6s. Acumula até 3 vezes."
         }
+      },
+      "zh": {
+        "name": "谐律异想断章",
+        "bonuses": {
+          "2": "攻击力提高18%。",
+          "4": "生命之契的数值提升或降低时，角色造成的伤害提升18%，该效果持续6秒，至多叠加3次。"
+        }
       }
     }
   }

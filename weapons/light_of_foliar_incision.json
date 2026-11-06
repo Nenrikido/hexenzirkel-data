@@ -99,6 +99,19 @@
             "5": "Aumenta a Taxa CRIT em <r>8%</r>; quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a <r>240%</r> da Proficiência Elemental. Este efeito desaparecerá depois de ser ativado 28 vezes ou após 12s. Só é possível desencadear o efeito \"Poda\" uma vez a cada 12s."
           }
         }
+      },
+      "zh": {
+        "flavor": "以珍贵的白枝制成的饰金之刃，曾经斩断无数浸染森林的黯毒。",
+        "passive": {
+          "name": "白月枝芒",
+          "refinements": {
+            "1": "暴击率提升<r>4%</r>；普通攻击造成元素伤害后，获得「裁叶」效果：普通攻击和元素战技造成的伤害提高，提高值相当于元素精通的<r>120%</r>。该效果在生效28次或12秒后消失，每12秒至多获得一次「裁叶」效果。",
+            "2": "暴击率提升<r>5%</r>；普通攻击造成元素伤害后，获得「裁叶」效果：普通攻击和元素战技造成的伤害提高，提高值相当于元素精通的<r>150%</r>。该效果在生效28次或12秒后消失，每12秒至多获得一次「裁叶」效果。",
+            "3": "暴击率提升<r>6%</r>；普通攻击造成元素伤害后，获得「裁叶」效果：普通攻击和元素战技造成的伤害提高，提高值相当于元素精通的<r>180%</r>。该效果在生效28次或12秒后消失，每12秒至多获得一次「裁叶」效果。",
+            "4": "暴击率提升<r>7%</r>；普通攻击造成元素伤害后，获得「裁叶」效果：普通攻击和元素战技造成的伤害提高，提高值相当于元素精通的<r>210%</r>。该效果在生效28次或12秒后消失，每12秒至多获得一次「裁叶」效果。",
+            "5": "暴击率提升<r>8%</r>；普通攻击造成元素伤害后，获得「裁叶」效果：普通攻击和元素战技造成的伤害提高，提高值相当于元素精通的<r>240%</r>。该效果在生效28次或12秒后消失，每12秒至多获得一次「裁叶」效果。"
+          }
+        }
       }
     }
   }

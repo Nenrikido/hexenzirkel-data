@@ -91,6 +91,19 @@
             "5": "Ganha um Dano adicional elemental para todos os elementos de <r>24%</r> e pode também ganhar o poder do Selo Quebra-nuvens. Selo Quebra-nuvens: Nos acúmulos 1/2/3 do Selo Quebra-nuvens obtém Dano adicional do próprio Elemento em <r>16/32/56%</r>. Nas situações abaixo, cada personagem obtém 1 acúmulo de Selo Quebra-nuvens: quando o ATQ Normal causa Dano Elemental, dura 5s; quando libera Supremo, dura 10s; além disso, quando a Energia Elemental do personagem é inferior a 100%, irá obter 1 acúmulo do Selo Quebra-nuvens, que desaparecerá quando a Energia Elemental do personagem estiver cheia. O tempo de cada acúmulo de Selo Quebra-nuvens é contado individualmente."
           }
         }
+      },
+      "zh": {
+        "flavor": "闪烁着凄烈紫光的太刀。名之为「回光」是因为一度破碎的过去。",
+        "passive": {
+          "name": "雾切御腰物",
+          "refinements": {
+            "1": "获得<r>12%</r>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<r>8/16/28%</r>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+            "2": "获得<r>15%</r>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<r>10/20/35%</r>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+            "3": "获得<r>18%</r>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<r>12/24/42%</r>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+            "4": "获得<r>21%</r>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<r>14/28/49%</r>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+            "5": "获得<r>24%</r>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<r>16/32/56%</r>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。"
+          }
+        }
       }
     }
   }

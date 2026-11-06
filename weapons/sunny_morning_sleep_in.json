@@ -111,6 +111,19 @@
             "5": "Aumenta a Proficiência Elemental em <r>240</r> por 6s após desencadear Redemoinho ou Redemoinho Estelar. A Proficiência Elemental aumenta em <r>192</r> por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em <r>64</r> por 30s após o Supremo do portador atingir um oponente."
           }
         }
+      },
+      "zh": {
+        "flavor": "由澄澈的紫玉锻造而成的铃灯，据说置于枕边便能唤来幸福的美梦。",
+        "passive": {
+          "name": "一汤二鹰三鸣神",
+          "refinements": {
+            "1": "触发扩散、星扩散反应后的6秒内，元素精通提升<r>120</r>点；元素战技命中敌人后的9秒内，元素精通提升<r>96</r>点；元素爆发命中敌人后的30秒内，元素精通提升<r>32</r>点。",
+            "2": "触发扩散、星扩散反应后的6秒内，元素精通提升<r>150</r>点；元素战技命中敌人后的9秒内，元素精通提升<r>120</r>点；元素爆发命中敌人后的30秒内，元素精通提升<r>40</r>点。",
+            "3": "触发扩散、星扩散反应后的6秒内，元素精通提升<r>180</r>点；元素战技命中敌人后的9秒内，元素精通提升<r>144</r>点；元素爆发命中敌人后的30秒内，元素精通提升<r>48</r>点。",
+            "4": "触发扩散、星扩散反应后的6秒内，元素精通提升<r>210</r>点；元素战技命中敌人后的9秒内，元素精通提升<r>168</r>点；元素爆发命中敌人后的30秒内，元素精通提升<r>56</r>点。",
+            "5": "触发扩散、星扩散反应后的6秒内，元素精通提升<r>240</r>点；元素战技命中敌人后的9秒内，元素精通提升<r>192</r>点；元素爆发命中敌人后的30秒内，元素精通提升<r>64</r>点。"
+          }
+        }
       }
     }
   }

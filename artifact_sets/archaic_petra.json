@@ -49,6 +49,13 @@
           "2": "Obtém 15% de Bônus de Dano <e:geo>Geo</e>.",
           "4": "Ao obter um Fragmento Elemental por meio de uma Reação de Cristalização ou ao desencadear uma Reação de Cristalização Lunar, todos os personagens na equipe ganham 35% de Bônus de Dano para esse elemento em particular por 10s. Somente uma forma de Dano Elemental pode ser obtida dessa maneira a qualquer momento."
         }
+      },
+      "zh": {
+        "name": "悠古的磐岩",
+        "bonuses": {
+          "2": "获得15%<e:geo>岩元素</e>伤害加成。",
+          "4": "获得结晶反应形成的晶片或触发月结晶反应时，队伍中所有角色获得35%对应元素伤害加成，持续10秒。同时只能通过该效果获得一种元素伤害加成。"
+        }
       }
     }
   }

@@ -97,6 +97,19 @@
             "5": "Aumenta a Veloc. Mov. em 10%. Durante a batalha, ganha um adicional de <r>16%</r> de Dano Elemental a cada 4s, sendo capaz de acumular até 4 vezes. Dura até o último personagem ser abatido ou trocar de personagem."
           }
         }
+      },
+      "zh": {
+        "flavor": "崇信风的无名先民所写的教典珍本。数千年流传的信仰之力得到了风的青睐，饱含祝福与力量。",
+        "passive": {
+          "name": "无边际的眷顾",
+          "refinements": {
+            "1": "移动速度提高10%；在场上每4秒获得<r>8%</r>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
+            "2": "移动速度提高10%；在场上每4秒获得<r>10%</r>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
+            "3": "移动速度提高10%；在场上每4秒获得<r>12%</r>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
+            "4": "移动速度提高10%；在场上每4秒获得<r>14%</r>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。",
+            "5": "移动速度提高10%；在场上每4秒获得<r>16%</r>元素伤害加成。该效果最多叠加4层，持续直到角色倒下或离场。"
+          }
+        }
       }
     }
   }

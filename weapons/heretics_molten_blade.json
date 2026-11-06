@@ -81,6 +81,19 @@
             "5": "Depois que o portador lança a Habilidade Elemental, obtém Brilho da Primeira Luz: registra a distância percorrida pelo portador. A cada segundo, com base na distância percorrida no último segundo, o portador ganha um Bônus de ATQ mínimo de <r>36%</r> e máximo de <r>72%</r>. Esse efeito dura 14s, pode ser desencadeado uma vez a cada 14s e será removido quando o portador deixar de ser o personagem ativo."
           }
         }
+      },
+      "zh": {
+        "flavor": "那是他在初次见到那位受众人祝福的火焰之神时再度拔出的，却已太久未曾使用的武器。",
+        "passive": {
+          "name": "独光的赐坠",
+          "refinements": {
+            "1": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<r>18%</r>、最高<r>36%</r>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+            "2": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<r>22.5%</r>、最高<r>45%</r>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+            "3": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<r>27%</r>、最高<r>54%</r>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+            "4": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<r>31.5%</r>、最高<r>63%</r>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。",
+            "5": "装备者施放元素战技后，获得「映落瞳中的初光」：持续期间，将记录装备者的移动距离，每秒都将基于上一秒记录的移动距离，使装备者获得最低<r>36%</r>、最高<r>72%</r>的攻击力加成。该效果持续14秒，每14秒至多触发一次，并会在装备者退场时移除。"
+          }
+        }
       }
     }
   }
