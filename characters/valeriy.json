@@ -140,7 +140,7 @@
       }
     },
     "skill": {
-      "dmg": {
+      "skillDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "skill_dmg_",
@@ -156,7 +156,7 @@
       }
     },
     "burst": {
-      "dmg": {
+      "skillDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "burst_dmg_",
@@ -275,7 +275,7 @@
         "burstTalentLevel": 10,
         "note": "4-star convention: C6 assumed, so the constellation-boosted talents (C3 Normal Attack, C5 skill) are baked at Lv13 while the burst stays Lv10. Offensive Directive is a Normal Attack parameter, so it is Lv13 too."
       },
-      "note": "7.2 character, added 2026-10-31 from nanoka 7.1.53 (pre-release data); neither Amber nor GO carry him yet, so the hit keys are OUR names (charged.mortarDmg = Direct-Fire Mortar: Point-Blank Bombardment, burst.shellDmg = one Thunderburst Shell projectile) and must be reconciled with GO once its sheet exists. Sword NA/CA/plunge are Physical; the Mortar is Electro."
+      "note": "7.2 character, added 2026-10-31 from nanoka 7.1.53 (pre-release data); hit keys match GO's sheet (reconciled 2026-11-12: skill.skillDmg, burst.skillDmg; charged.mortarDmg = Direct-Fire Mortar: Point-Blank Bombardment, burst.shellDmg = one Thunderburst Shell projectile). Sword NA/CA/plunge are Physical; the Mortar is Electro."
     }
   },
   "buffs": {

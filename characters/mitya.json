@@ -77,7 +77,7 @@
           }
         ]
       },
-      "gradientDetonationDmg": {
+      "detonationDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "charged_dmg_",
@@ -91,7 +91,7 @@
           }
         ]
       },
-      "gradientDetonationStellarDmg": {
+      "detonationStellarDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "stellarconduct_dmg_",
@@ -182,7 +182,7 @@
           }
         ]
       },
-      "steadyCoreDmg": {
+      "steadyDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "skill_dmg_",
@@ -197,7 +197,7 @@
           }
         ]
       },
-      "steadyCoreBeaconStellarDmg": {
+      "steadyConsumptionDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "stellarconduct_dmg_",
@@ -212,7 +212,7 @@
           }
         ]
       },
-      "steadyCoreDetonationStellarDmg": {
+      "steadyDetonationDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "stellarconduct_dmg_",
@@ -229,7 +229,7 @@
       }
     },
     "burst": {
-      "dmg": {
+      "skillDmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "burst_dmg_",
@@ -249,7 +249,7 @@
       }
     },
     "constellation4": {
-      "coreStellarDmg": {
+      "dmg": {
         "element": "electro",
         "dmgBonusKeys": [
           "stellarconduct_dmg_",
@@ -407,7 +407,7 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       },
-      "note": "7.2 character, added 2026-10-31 from nanoka 7.1.53 (pre-release data); neither Amber nor GO carry him yet, so every hit key is OUR name and must be reconciled with GO once its sheet exists. Base sections are Lv10 (5-star C0); `boosted` holds Lv13 for the skill (C3) and Normal Attack (C5). Gradient Detonation (non-Stellar) has no stat named in its label and is assumed ATK-scaled; every Stellar-Conduct hit is labelled \"% Elemental Mastery\". The Steady State Core detonation multiplier is PER Gradient Beacon consumed (label \"EM/Beacon\"): put the beacon count in the rotation weight."
+      "note": "7.2 character, added 2026-10-31 from nanoka 7.1.53 (pre-release data); hit keys renamed to GO's sheet on 2026-11-12 (charged.detonationDmg/detonationStellarDmg, skill.steadyDmg/steadyConsumptionDmg/steadyDetonationDmg, burst.skillDmg, constellation4.dmg). Base sections are Lv10 (5-star C0); `boosted` holds Lv13 for the skill (C3) and Normal Attack (C5). Gradient Detonation (non-Stellar) has no stat named in its label and is assumed ATK-scaled; every Stellar-Conduct hit is labelled \"% Elemental Mastery\". The Steady State Core detonation multiplier is PER Gradient Beacon consumed (label \"EM/Beacon\"): put the beacon count in the rotation weight."
     }
   },
   "buffs": {
