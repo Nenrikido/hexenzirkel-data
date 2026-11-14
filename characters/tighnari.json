@@ -316,13 +316,15 @@
       {
         "conditionKey": "tighnariA4ScholarlyBlade",
         "source": "Tighnari",
-        "description": "A4 Scholarly Blade: for every point of Elemental Mastery Tighnari has, his Charged Attack and Fashioner's Tanglevine Shaft (Elemental Burst) DMG are increased by 0.06%, capped at +60% (reached at 1000 EM). Approximated at 200 EM (a representative crit/EM-hybrid Tighnari build) => +12%; admin can override via the LB builder UI for a different EM assumption.",
+        "description": "A4 Scholarly Blade: for every point of Elemental Mastery Tighnari has, his Charged Attack and Fashioner's Tanglevine Shaft (Elemental Burst) DMG are increased by 0.06%, capped at +60% (reached at 1000 EM). Reads the scored build's own live EM (A1 Keen Sight and team EM buffs included) through the charged_/burst_dmg_from_eleMas conversions. It was previously a flat +12%, standing in for a hardcoded 200 EM.",
         "states": [
           {
             "value": "active",
             "modifiers": {
-              "charged_dmg_": 0.12,
-              "burst_dmg_": 0.12
+              "charged_dmg_from_eleMas": 0.0006,
+              "charged_dmg_from_eleMas_cap_": 0.6,
+              "burst_dmg_from_eleMas": 0.0006,
+              "burst_dmg_from_eleMas_cap_": 0.6
             }
           }
         ]
