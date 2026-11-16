@@ -222,6 +222,22 @@
           }
         ]
       }
+    },
+    "constellation6": {
+      "cluster": {
+        "element": "dendro",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "dendro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "cluster_mult"
+          }
+        ]
+      }
     }
   },
   "talent_multipliers_json": {
@@ -295,6 +311,9 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       }
+    },
+    "constellation6": {
+      "cluster_mult": 1.5
     }
   },
   "buffs": {
@@ -328,10 +347,65 @@
             }
           }
         ]
+      },
+      {
+        "conditionKey": "tighnariC1ChargedCritRate",
+        "source": "Tighnari",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 Beginnings Determined at the Roots: Tighnari's Charged Attack CRIT Rate is increased by 15%.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "charged_critRate_": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "tighnariC2OpponentsInField",
+        "source": "Tighnari",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 Origins Known From the Stem: when opponents are within the Vijnana-Khanda field created by Vijnana-Phala Mine, Tighnari gains 20% Dendro DMG Bonus (lasts 6s after they leave it).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "dendro_dmg_": 0.2
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
-    "team_conditional_modifiers_json": [],
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "tighnariC4PartyEleMas",
+        "source": "Tighnari",
+        "gating": {
+          "constellationMin": 4
+        },
+        "description": "C4 Fortunes Read Amidst the Branches: when Tighnari casts Fashioner's Tanglevine Shaft, all nearby party members gain 60 Elemental Mastery for 8s; if the Tanglevine Shafts trigger a Burning, Bloom, Quicken or Spread reaction, their Elemental Mastery is increased by a further 60 (120 total). The C6 Karma Adjudged From the Leaden Fruit extra Clusterbloom Arrow (150% ATK Dendro, Charged Attack DMG) is the constellation6 rotation target.",
+        "states": [
+          {
+            "value": "after burst",
+            "modifiers": {
+              "eleMas": 60
+            }
+          },
+          {
+            "value": "after reaction",
+            "modifiers": {
+              "eleMas": 120
+            }
+          }
+        ]
+      }
+    ],
     "others_modifiers_json": {},
     "others_conditional_modifiers_json": []
   },
