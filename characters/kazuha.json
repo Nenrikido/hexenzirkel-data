@@ -437,6 +437,22 @@
           "charged_dmg_from_eleMas": 0.002,
           "plunging_dmg_from_eleMas": 0.002
         }
+      },
+      {
+        "conditionKey": "poeticsOfFuubutsuOwnEm",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu, SELF half: after a Swirl, Kazuha's own Pyro/Hydro/Cryo/Electro DMG Bonus rises by 0.04% per point of his Elemental Mastery, read live per build (post-buff EM, incl. his C2 and team EM buffs) through the <element>_dmg_from_eleMas conversions. Offered when Kazuha is the scored character; as a teammate the builder offers poeticsOfFuubutsu (others scope, typed EM) instead.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "pyro_dmg_from_eleMas": 0.0004,
+              "hydro_dmg_from_eleMas": 0.0004,
+              "cryo_dmg_from_eleMas": 0.0004,
+              "electro_dmg_from_eleMas": 0.0004
+            }
+          }
+        ]
       }
     ],
     "team_modifiers_json": {},
@@ -447,11 +463,13 @@
         "gating": { "constellationMin": 2 },
         "description": "C2 Yamaarashi Tailwind: the Autumn Whirlwind field from Kazuha Slash increases Kazuha's own Elemental Mastery by 200 and that of characters within the field by 200; the two do not stack (GO: c2 self + c2p others). Team scope covers both.",
         "modifiers": { "eleMas": 200 }
-      },
+      }
+    ],
+    "others_conditional_modifiers_json": [
       {
         "conditionKey": "poeticsOfFuubutsu",
         "source": "avatar_10000047",
-        "description": "A4 Poetics of Fuubutsu: triggering a Swirl reaction grants party members +0.04% Elemental DMG Bonus to the Swirled element per point of Kazuha's Elemental Mastery for 8s. Type Kazuha's real EM into the input (0.0004 per EM on Pyro/Hydro/Cryo/Electro DMG, blank = 1000 EM); the preset state 'on' keeps the old 1000 EM = +40% figure and wins when selected.",
+        "description": "A4 Poetics of Fuubutsu, OTHERS half (Kazuha as a teammate): triggering a Swirl reaction grants party members +0.04% Elemental DMG Bonus to the Swirled element per point of Kazuha's Elemental Mastery for 8s. Type Kazuha's real EM into the input (0.0004 per EM on Pyro/Hydro/Cryo/Electro DMG, blank = 1000 EM); the preset state 'on' keeps the old 1000 EM = +40% figure and wins when selected. When Kazuha is the scored character the builder offers poeticsOfFuubutsuOwnEm instead, which reads his live EM.",
         "statInput": {
           "stat": "eleMas",
           "default": 1000,
