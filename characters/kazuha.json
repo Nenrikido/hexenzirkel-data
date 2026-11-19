@@ -439,19 +439,35 @@
         }
       },
       {
-        "conditionKey": "poeticsOfFuubutsuOwnEm",
+        "conditionKey": "poeticsOfFuubutsuOwnEmPyro",
         "source": "avatar_10000047",
-        "description": "A4 Poetics of Fuubutsu, SELF half: after a Swirl, Kazuha's own Pyro/Hydro/Cryo/Electro DMG Bonus rises by 0.04% per point of his Elemental Mastery, read live per build (post-buff EM, incl. his C2 and team EM buffs) through the <element>_dmg_from_eleMas conversions. Offered when Kazuha is the scored character; as a teammate the builder offers poeticsOfFuubutsu (others scope, typed EM) instead.",
+        "description": "A4 Poetics of Fuubutsu, SELF half, Pyro Swirl: Kazuha's own Pyro DMG Bonus rises by 0.04% per point of his Elemental Mastery, read live per build (post-buff EM, incl. his C2 and team EM buffs). Only the Swirled element is buffed, so enable one entry per element the rotation actually Swirls. As a teammate the builder offers poeticsOfFuubutsuPyro (typed EM) instead.",
         "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "pyro_dmg_from_eleMas": 0.0004,
-              "hydro_dmg_from_eleMas": 0.0004,
-              "cryo_dmg_from_eleMas": 0.0004,
-              "electro_dmg_from_eleMas": 0.0004
-            }
-          }
+          { "value": "on", "modifiers": { "pyro_dmg_from_eleMas": 0.0004 } }
+        ]
+      },
+      {
+        "conditionKey": "poeticsOfFuubutsuOwnEmHydro",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu, SELF half, Hydro Swirl: Kazuha's own Hydro DMG Bonus rises by 0.04% per point of his Elemental Mastery, read live per build (post-buff EM, incl. his C2 and team EM buffs). Only the Swirled element is buffed, so enable one entry per element the rotation actually Swirls. As a teammate the builder offers poeticsOfFuubutsuHydro (typed EM) instead.",
+        "states": [
+          { "value": "on", "modifiers": { "hydro_dmg_from_eleMas": 0.0004 } }
+        ]
+      },
+      {
+        "conditionKey": "poeticsOfFuubutsuOwnEmElectro",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu, SELF half, Electro Swirl: Kazuha's own Electro DMG Bonus rises by 0.04% per point of his Elemental Mastery, read live per build (post-buff EM, incl. his C2 and team EM buffs). Only the Swirled element is buffed, so enable one entry per element the rotation actually Swirls. As a teammate the builder offers poeticsOfFuubutsuElectro (typed EM) instead.",
+        "states": [
+          { "value": "on", "modifiers": { "electro_dmg_from_eleMas": 0.0004 } }
+        ]
+      },
+      {
+        "conditionKey": "poeticsOfFuubutsuOwnEmCryo",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu, SELF half, Cryo Swirl: Kazuha's own Cryo DMG Bonus rises by 0.04% per point of his Elemental Mastery, read live per build (post-buff EM, incl. his C2 and team EM buffs). Only the Swirled element is buffed, so enable one entry per element the rotation actually Swirls. As a teammate the builder offers poeticsOfFuubutsuCryo (typed EM) instead.",
+        "states": [
+          { "value": "on", "modifiers": { "cryo_dmg_from_eleMas": 0.0004 } }
         ]
       }
     ],
@@ -467,25 +483,59 @@
     ],
     "others_conditional_modifiers_json": [
       {
-        "conditionKey": "poeticsOfFuubutsu",
+        "conditionKey": "poeticsOfFuubutsuPyro",
         "source": "avatar_10000047",
-        "description": "A4 Poetics of Fuubutsu, OTHERS half (Kazuha as a teammate): triggering a Swirl reaction grants party members +0.04% Elemental DMG Bonus to the Swirled element per point of Kazuha's Elemental Mastery for 8s. Type Kazuha's real EM into the input (0.0004 per EM on Pyro/Hydro/Cryo/Electro DMG, blank = 1000 EM); the preset state 'on' keeps the old 1000 EM = +40% figure and wins when selected. When Kazuha is the scored character the builder offers poeticsOfFuubutsuOwnEm instead, which reads his live EM.",
+        "description": "A4 Poetics of Fuubutsu, OTHERS half (Kazuha as a teammate), Pyro Swirl: party members gain +0.04% Pyro DMG Bonus per point of Kazuha's Elemental Mastery for 8s. Only the Swirled element is buffed, so enable one entry per element the rotation Swirls. Type Kazuha's real EM into the input (blank = 1000 EM); the preset state 'on' keeps 1000 EM = +40% and wins when selected. When Kazuha is the scored character the builder offers poeticsOfFuubutsuOwnEmPyro instead, which reads his live EM.",
         "statInput": {
           "stat": "eleMas",
           "default": 1000,
           "max": 4000,
-          "ratesPerUnit": { "pyro_dmg_": 0.0004, "hydro_dmg_": 0.0004, "cryo_dmg_": 0.0004, "electro_dmg_": 0.0004 }
+          "ratesPerUnit": { "pyro_dmg_": 0.0004 }
         },
         "states": [
-          {
-            "value": "on",
-            "modifiers": {
-              "pyro_dmg_": 0.4,
-              "hydro_dmg_": 0.4,
-              "cryo_dmg_": 0.4,
-              "electro_dmg_": 0.4
-            }
-          }
+          { "value": "on", "modifiers": { "pyro_dmg_": 0.4 } }
+        ]
+      },
+      {
+        "conditionKey": "poeticsOfFuubutsuHydro",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu, OTHERS half (Kazuha as a teammate), Hydro Swirl: party members gain +0.04% Hydro DMG Bonus per point of Kazuha's Elemental Mastery for 8s. Only the Swirled element is buffed, so enable one entry per element the rotation Swirls. Type Kazuha's real EM into the input (blank = 1000 EM); the preset state 'on' keeps 1000 EM = +40% and wins when selected. When Kazuha is the scored character the builder offers poeticsOfFuubutsuOwnEmHydro instead, which reads his live EM.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 4000,
+          "ratesPerUnit": { "hydro_dmg_": 0.0004 }
+        },
+        "states": [
+          { "value": "on", "modifiers": { "hydro_dmg_": 0.4 } }
+        ]
+      },
+      {
+        "conditionKey": "poeticsOfFuubutsuElectro",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu, OTHERS half (Kazuha as a teammate), Electro Swirl: party members gain +0.04% Electro DMG Bonus per point of Kazuha's Elemental Mastery for 8s. Only the Swirled element is buffed, so enable one entry per element the rotation Swirls. Type Kazuha's real EM into the input (blank = 1000 EM); the preset state 'on' keeps 1000 EM = +40% and wins when selected. When Kazuha is the scored character the builder offers poeticsOfFuubutsuOwnEmElectro instead, which reads his live EM.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 4000,
+          "ratesPerUnit": { "electro_dmg_": 0.0004 }
+        },
+        "states": [
+          { "value": "on", "modifiers": { "electro_dmg_": 0.4 } }
+        ]
+      },
+      {
+        "conditionKey": "poeticsOfFuubutsuCryo",
+        "source": "avatar_10000047",
+        "description": "A4 Poetics of Fuubutsu, OTHERS half (Kazuha as a teammate), Cryo Swirl: party members gain +0.04% Cryo DMG Bonus per point of Kazuha's Elemental Mastery for 8s. Only the Swirled element is buffed, so enable one entry per element the rotation Swirls. Type Kazuha's real EM into the input (blank = 1000 EM); the preset state 'on' keeps 1000 EM = +40% and wins when selected. When Kazuha is the scored character the builder offers poeticsOfFuubutsuOwnEmCryo instead, which reads his live EM.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 4000,
+          "ratesPerUnit": { "cryo_dmg_": 0.0004 }
+        },
+        "states": [
+          { "value": "on", "modifiers": { "cryo_dmg_": 0.4 } }
         ]
       }
     ]
