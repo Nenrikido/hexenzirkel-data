@@ -18,13 +18,34 @@
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
-        "conditionKey": "4pc_after_swirling_element",
+        "conditionKey": "4pc_after_swirling_pyro",
         "source": "ViridescentVenerer",
-        "description": "4pc: After swirling an element",
+        "description": "4pc: after Swirling Pyro, opponents' Pyro RES -40% for 10s. Only the Swirled element is shredded, so enable one entry per element the rotation actually Swirls.",
         "modifiers": {
-          "pyro_enemyRes_": -0.4,
-          "electro_enemyRes_": -0.4,
-          "hydro_enemyRes_": -0.4,
+          "pyro_enemyRes_": -0.4
+        }
+      },
+      {
+        "conditionKey": "4pc_after_swirling_hydro",
+        "source": "ViridescentVenerer",
+        "description": "4pc: after Swirling Hydro, opponents' Hydro RES -40% for 10s. Only the Swirled element is shredded, so enable one entry per element the rotation actually Swirls.",
+        "modifiers": {
+          "hydro_enemyRes_": -0.4
+        }
+      },
+      {
+        "conditionKey": "4pc_after_swirling_electro",
+        "source": "ViridescentVenerer",
+        "description": "4pc: after Swirling Electro, opponents' Electro RES -40% for 10s. Only the Swirled element is shredded, so enable one entry per element the rotation actually Swirls.",
+        "modifiers": {
+          "electro_enemyRes_": -0.4
+        }
+      },
+      {
+        "conditionKey": "4pc_after_swirling_cryo",
+        "source": "ViridescentVenerer",
+        "description": "4pc: after Swirling Cryo, opponents' Cryo RES -40% for 10s. Only the Swirled element is shredded, so enable one entry per element the rotation actually Swirls.",
+        "modifiers": {
           "cryo_enemyRes_": -0.4
         }
       }
