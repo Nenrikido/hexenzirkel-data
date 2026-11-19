@@ -324,6 +324,7 @@
       },
       "absorb": {
         "element": "pyro",
+        "absorbsElement": true,
         "dmgBonusKeys": [
           "burst_dmg_",
           "pyro_dmg_",

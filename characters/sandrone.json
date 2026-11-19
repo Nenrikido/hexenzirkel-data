@@ -49,6 +49,12 @@
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p5_mult" }]
       },
+      "beamSsDmg": {
+        "element": "cryo",
+        "sameBuffsAs": "beamStellarDmg",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
+      },
       "overdriveDmg": {
         "element": "cryo",
         "dmgBonusKeys": ["charged_dmg_", "cryo_dmg_", "all_dmg_"],
@@ -87,6 +93,11 @@
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "prismshot_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
+      },
+      "prismSsDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "prismshot_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
       }
     },
     "burst": {
@@ -104,6 +115,42 @@
         "element": "cryo",
         "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "inhibitionray_dmg_"],
         "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
+      },
+      "raySsDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_", "inhibitionray_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
+      }
+    },
+    "constellation4": {
+      "dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "dmg_mult" }]
+      },
+      "ssDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "ssDmg_mult" }]
+      }
+    },
+    "constellation6": {
+      "dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": ["cryo_dmg_", "all_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "dmg_mult" }]
+      },
+      "dmg2": {
+        "element": "cryo",
+        "sameBuffsAs": "beamStellarDmg",
+        "dmgBonusKeys": ["stellarconduct_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "dmg2_mult" }]
+      },
+      "ssDmg": {
+        "element": "cryo",
+        "sameBuffsAs": "beamStellarDmg",
+        "dmgBonusKeys": ["stellarswirl_dmg_", "stellarglimmer_dmg_", "reaction_dmg_"],
+        "components": [{ "scalingKey": "atk", "multKey": "ssDmg_mult" }]
       }
     }
   },
@@ -221,29 +268,47 @@
       "c4CoordinatedAttack_atk": 1.25,
       "c6ClusterBeam_atk": 0.8,
       "c6StellarConductElevated": 0.2
+    },
+    "constellation4": {
+      "dmg_mult": 1.25,
+      "ssDmg_mult": 1.875
+    },
+    "constellation6": {
+      "dmg_mult": 1.0,
+      "dmg2_mult": 0.8,
+      "ssDmg_mult": 1.2
     }
   },
   "buffs": {
     "self_modifiers_json": {
       "eleMas_from_atk_": 0.08,
-      "eleMas_from_atk_cap_": 160.0
+      "eleMas_from_atk_cap_": 160.0,
+      "stellarglimmer_basedmg_from_atk_": 0.00007,
+      "stellarglimmer_basedmg_from_atk_cap_": 0.14
     },
     "self_conditional_modifiers_json": [
       {
         "conditionKey": "c2CondensedBeamCritDmg",
         "source": "avatar_10000133",
         "gating": { "constellationMin": 2 },
-        "description": "C2 (Radiance: Stellar-Conduct): Charged Attack condensed beam CRIT DMG +40%; each beam fired further increases all condensed beam CRIT DMG by 20% this Decoding period (max 3 stacks = +60%). Modeled on charged-attack CRIT DMG; applies only to the condensed beams.",
+        "description": "C2: condensed beam CRIT DMG +40%; under Radiance, each beam fired further increases all condensed beam CRIT DMG by 20% this Decoding period (max 3 stacks = +60%). Scoped to the beams by hit-specific crit keys (charged.beamDmg, charged.beamStellarDmg; the C6 Cluster Beam Stellar hits alias beamStellarDmg via sameBuffsAs), as GO's beamAddl does -- NOT charged_critDMG_, which missed the Stellar beam and leaked onto the sweep and overdrive hits.",
         "states": [
           {
             "value": "base",
-            "modifiers": { "charged_critDMG_": 0.4 }
+            "modifiers": { "beamdmg_critDMG_": 0.4, "beamstellardmg_critDMG_": 0.4 }
           },
           {
             "value": "3 stacks",
-            "modifiers": { "charged_critDMG_": 1.0 }
+            "modifiers": { "beamdmg_critDMG_": 0.4, "beamstellardmg_critDMG_": 1.0 }
           }
         ]
+      },
+      {
+        "conditionKey": "c6StellarGlimmerElevation",
+        "source": "avatar_10000133",
+        "gating": { "constellationMin": 6 },
+        "description": "C6: all Stellar Glimmer reaction DMG dealt by Sandrone is elevated by 20% (GO: c6_stellar_specialDmg_ on every Stellar reaction key, self only). The Condensed Cluster Beam's extra instances are rotation targets: constellation6.dmg (100% ATK Cryo, no Radiance), constellation6.dmg2 (Radiance: Stellar-Conduct, 80% ATK) and constellation6.ssDmg (Radiance: Stellar Swirl, 120% ATK) -- the same instances under different Radiance states, use only one.",
+        "modifiers": { "stellarglimmer_specialDmg_": 0.2 }
       },
       {
         "conditionKey": "a1DecodedPrismShot",
@@ -274,16 +339,23 @@
         ]
       }
     ],
-    "team_modifiers_json": {
-      "stellarconduct_basedmg_": 0.14
-    },
+    "team_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "passive3StellarJubileeSourceAtk",
+        "source": "avatar_10000133",
+        "description": "Stellar Jubilee: Light of Rationalisme -- a party member's Superconduct or Cryo Swirl becomes a Stellar-Conduct or Stellar Swirl reaction instead, and that reaction's BASE DMG is increased by 0.7% per 100 of SANDRONE's ATK, capped at +14% (reached at 2,000 ATK). Umbrella stellarglimmer_basedmg_ since it covers either reaction (GO: a0_stellarconduct_baseDmg_ + a0_stellarswirl_baseDmg_ teamBuff). This is the OTHERS-scope half, offered when Sandrone is a teammate: type Sandrone's ATK into the input (clamped at 2,000 where the cap lands; blank assumes 2,000). When Sandrone is the scored character, her self_modifiers conversion reads her live ATK instead. Same shape as Odette's passive3StellarJubileeSourceAtk; the two are separate sources and stack.",
+        "statInput": { "stat": "atk", "default": 2000, "max": 2000, "ratesPerUnit": { "stellarglimmer_basedmg_": 7e-05 } },
+        "states": []
+      }
+    ],
     "team_conditional_modifiers_json": [
       {
         "conditionKey": "c1PartyStellarConduct",
         "source": "avatar_10000133",
         "gating": { "constellationMin": 1 },
-        "description": "C1: while in Decoding mode, all party members deal 30% increased Stellar-Conduct DMG. Stellar-Conduct is a dedicated DMG type; recorded for reference (no standard stat key).",
-        "modifiers": { "stellarconduct_dmg_": 0.3 }
+        "description": "C1: while in Decoding mode, all party members deal 30% increased Stellar Glimmer reaction DMG -- the umbrella, so both Stellar-Conduct and Stellar Swirl (GO applies it to every Stellar reaction key).",
+        "modifiers": { "stellarglimmer_dmg_": 0.3 }
       }
     ]
   },

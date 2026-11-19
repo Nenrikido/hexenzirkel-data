@@ -17,81 +17,324 @@
     "normal": {
       "0": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p0_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p0_mult"
+          }
+        ]
       },
       "1": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p1_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p1_mult"
+          }
+        ]
       },
       "2": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p2_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p2_mult"
+          }
+        ]
       },
       "3": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p3_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p3_mult"
+          }
+        ]
       },
       "4": {
         "element": "physical",
-        "dmgBonusKeys": ["normal_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p4_mult" }]
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p4_mult"
+          }
+        ]
+      },
+      "5": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p5_mult"
+          }
+        ]
       }
     },
     "charged": {
-      "cyclic": {
+      "dmg1": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_cyclic_mult" }]
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg1_mult"
+          }
+        ]
       },
-      "final": {
+      "dmg2": {
         "element": "physical",
-        "dmgBonusKeys": ["charged_dmg_", "physical_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_final_mult" }]
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg2_mult"
+          }
+        ]
       }
     },
     "plunging": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_plunge_mult"
+          }
+        ]
+      },
       "plunge": {
-        "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_mult" }]
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_plunge_mult"
+          }
+        ]
       },
       "low": {
-        "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_low_mult" }]
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_plunge_low_mult"
+          }
+        ]
       },
       "high": {
-        "element": "anemo",
-        "dmgBonusKeys": ["plunging_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_plunge_high_mult" }]
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_plunge_high_mult"
+          }
+        ]
       }
     },
     "skill": {
       "press": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_press_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_press_mult"
+          }
+        ]
       },
       "hold": {
         "element": "anemo",
-        "dmgBonusKeys": ["skill_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_hold_mult" }]
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_hold_mult"
+          }
+        ]
+      },
+      "pdmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "pdmg_mult"
+          }
+        ]
+      },
+      "plow": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "plow_mult"
+          }
+        ]
+      },
+      "phigh": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "phigh_mult"
+          }
+        ]
       }
     },
     "burst": {
+      "dmg": {
+        "element": "anemo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_slash_mult"
+          }
+        ]
+      },
       "slash": {
         "element": "anemo",
-        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_slash_mult" }]
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_slash_mult"
+          }
+        ]
       },
       "dot": {
         "element": "anemo",
-        "dmgBonusKeys": ["burst_dmg_", "anemo_dmg_", "all_dmg_"],
-        "components": [{ "scalingKey": "atk", "multKey": "p_dot_mult" }]
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "anemo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "p_dot_mult"
+          }
+        ]
+      },
+      "absorb": {
+        "element": "pyro",
+        "absorbsElement": true,
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "absorb_mult"
+          }
+        ]
+      }
+    },
+    "passive1": {
+      "absorb": {
+        "element": "pyro",
+        "absorbsElement": true,
+        "plungeTier": "high",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "pyro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "absorb_mult"
+          }
+        ]
       }
     }
   },
@@ -108,11 +351,12 @@
         "p1_mult": 0.966525,
         "p2_mult": 0.55125,
         "p3_mult": 0.6615,
-        "p4_mult": 1.297275
+        "p4_mult": 1.297275,
+        "p5_mult": 0.542063
       },
       "charged": {
-        "p_cyclic_mult": 0.542063,
-        "p_final_mult": 0.91875
+        "dmg1_mult": 0.91875,
+        "dmg2_mult": 1.59495
       },
       "plunging": {
         "p_plunge_mult": 1.731825,
@@ -127,7 +371,8 @@
     "boosted": {
       "burst": {
         "p_slash_mult": 5.576,
-        "p_dot_mult": 2.55
+        "p_dot_mult": 2.55,
+        "absorb_mult": 0.765
       },
       "skill": {
         "p_press_mult": 4.08,
@@ -139,16 +384,33 @@
       "p1_mult": 0.8942,
       "p2_mult": 0.51,
       "p3_mult": 0.612,
-      "p4_mult": 1.2002
+      "p4_mult": 1.2002,
+      "p5_mult": 0.5015
     },
-    "charged": { "p_cyclic_mult": 0.5015, "p_final_mult": 0.85 },
+    "charged": {
+      "dmg1_mult": 0.85,
+      "dmg2_mult": 1.4756
+    },
     "plunging": {
       "p_plunge_mult": 1.617638,
       "p_plunge_low_mult": 3.234591,
       "p_plunge_high_mult": 4.040179
     },
-    "skill": { "p_press_mult": 3.456, "p_hold_mult": 4.6944 },
-    "burst": { "p_slash_mult": 4.7232, "p_dot_mult": 2.16 },
+    "skill": {
+      "p_press_mult": 3.456,
+      "p_hold_mult": 4.6944,
+      "pdmg_mult": 1.617638,
+      "plow_mult": 3.234591,
+      "phigh_mult": 4.040179
+    },
+    "burst": {
+      "p_slash_mult": 4.7232,
+      "p_dot_mult": 2.16,
+      "absorb_mult": 0.648
+    },
+    "passive1": {
+      "absorb_mult": 2.0
+    },
     "source": {
       "goAllStatFile": "libs/gi/stats/src/allStat_gen.json",
       "assumptions": {
@@ -158,30 +420,44 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       },
-      "goCharacterKey": "KaedeharaKazuha"
+      "goCharacterKey": "KaedeharaKazuha",
+      "note": "Hit keys follow GO's KaedeharaKazuha sheet. 2026-11-19: the old charged.cyclic (0.5015) was really the 5th normal hit (normal.5, x3 instances) and charged.final (0.85) was charged hit 1; charged hit 2 (1.4756) was missing. Plain plunges are Physical (a teammate's infusionAura converts them); only Midare Ranzan after the skill (skill.pdmg/plow/phigh) is Anemo -- those read the plunging multipliers, copied into the skill section (a skill C3 boost does not move them). burst.absorb and passive1.absorb (A1, 200% ATK, Plunge impact) are absorbsElement hits: set the target's infusionAura to the absorbed element (default placeholder Pyro)."
     }
   },
   "buffs": {
     "self_modifiers_json": {},
     "self_conditional_modifiers_json": [
       {
-        "conditionKey": "a1SoumonSwordsmanship",
-        "source": "Kaedehara Kazuha",
-        "description": "A1 Soumon Swordsmanship: if Chihayaburu (Elemental Skill) comes into contact with Pyro/Hydro/Cryo/Electro when cast, it absorbs that element; if Plunging Attack: Midare Ranzan is used before the effect expires, it deals an additional 200% ATK of the absorbed element as DMG, counted as Plunging Attack DMG. No bespoke hit key isolates this bonus hit from Kazuha's other plunging hits in hit_definitions_json, so it is modeled as a flat ATK-ratio addition applied to all plunging hits (dmg/low/high) via plunging_dmgIncFromAtk_ — a minor over-buff outside of Midare Ranzan itself.",
-        "states": [
-          {
-            "value": "on",
-            "modifiers": { "plunging_dmgIncFromAtk_": 2.0 }
-          }
-        ]
+        "conditionKey": "c6CrimsonMomiji",
+        "source": "avatar_10000047",
+        "gating": { "constellationMin": 6 },
+        "description": "C6 Crimson Momiji: for 5s after Chihayaburu or Kazuha Slash, Kazuha's Normal, Charged and Plunging Attack DMG is increased by 0.2% per point of Elemental Mastery (GO: constellation6.auto_ x EM, uncapped). The Anemo Infusion half is per hit: set infusionAura \"anemo\" on the infused rotation targets.",
+        "modifiers": {
+          "normal_dmg_from_eleMas": 0.002,
+          "charged_dmg_from_eleMas": 0.002,
+          "plunging_dmg_from_eleMas": 0.002
+        }
       }
     ],
     "team_modifiers_json": {},
     "team_conditional_modifiers_json": [
       {
+        "conditionKey": "c2YamaarashiTailwind",
+        "source": "avatar_10000047",
+        "gating": { "constellationMin": 2 },
+        "description": "C2 Yamaarashi Tailwind: the Autumn Whirlwind field from Kazuha Slash increases Kazuha's own Elemental Mastery by 200 and that of characters within the field by 200; the two do not stack (GO: c2 self + c2p others). Team scope covers both.",
+        "modifiers": { "eleMas": 200 }
+      },
+      {
         "conditionKey": "poeticsOfFuubutsu",
         "source": "avatar_10000047",
-        "description": "A4 Poetics of Fuubutsu: triggering a Swirl reaction grants party members +0.04% Elemental DMG Bonus to the Swirled element per point of Kazuha's Elemental Mastery for 8s. Counted here at 1000 EM = +40% Pyro/Hydro/Cryo/Electro DMG.",
+        "description": "A4 Poetics of Fuubutsu: triggering a Swirl reaction grants party members +0.04% Elemental DMG Bonus to the Swirled element per point of Kazuha's Elemental Mastery for 8s. Type Kazuha's real EM into the input (0.0004 per EM on Pyro/Hydro/Cryo/Electro DMG, blank = 1000 EM); the preset state 'on' keeps the old 1000 EM = +40% figure and wins when selected.",
+        "statInput": {
+          "stat": "eleMas",
+          "default": 1000,
+          "max": 4000,
+          "ratesPerUnit": { "pyro_dmg_": 0.0004, "hydro_dmg_": 0.0004, "cryo_dmg_": 0.0004, "electro_dmg_": 0.0004 }
+        },
         "states": [
           {
             "value": "on",

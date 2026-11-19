@@ -1118,7 +1118,7 @@
       {
         "conditionKey": "c6BurstDefIgnore",
         "source": "avatar_10000123",
-        "description": "C6: Dual Birth — Durin's Elemental Burst DMG ignores 30% of opponents' DEF; Elemental Burst DMG from Principle of Darkness: As the Stars Smolder/Dragon of Dark Decay ignores an additional 40% (70% total). Applied as defIgnore_ (affects all of Durin's hits, matching the existing defIgnore_ convention used elsewhere in this codebase, e.g. Raiden/Yae Miko C6). Pick the state matching which burst form the rotation uses.",
+        "description": "C6: Dual Birth — Durin's Elemental Burst DMG ignores 30% of opponents' DEF; Elemental Burst DMG from Principle of Darkness: As the Stars Smolder/Dragon of Dark Decay ignores an additional 40% (70% total). Applied as burst_defIgnore_ 0.3 (every hit carrying burst_dmg_) plus, in the darkness_form state, a further 0.4 on the Principle of Darkness / Dragon of Dark Decay hits only via hit-specific <hitKey>_defIgnore_ keys, so a rotation mixing both forms is scored right. Pick darkness_form whenever the rotation uses the Darkness form.",
         "gating": {
           "constellationMin": 6
         },
@@ -1126,13 +1126,23 @@
           {
             "value": "purity_form",
             "modifiers": {
-              "defIgnore_": 0.3
+              "burst_defIgnore_": 0.3
             }
           },
           {
             "value": "darkness_form",
             "modifiers": {
-              "defIgnore_": 0.7
+              "burst_defIgnore_": 0.3,
+              "darkness_defIgnore_": 0.4,
+              "dark_decay_defIgnore_": 0.4,
+              "darkdmg1_defIgnore_": 0.4,
+              "darkdmg2_defIgnore_": 0.4,
+              "darkdmg3_defIgnore_": 0.4,
+              "decaydmg_defIgnore_": 0.4,
+              "principleofdarknessdmg_defIgnore_": 0.4,
+              "dragonofdarkdecaydmg_defIgnore_": 0.4,
+              "principle_of_darkness_as_the_stars_smolder_defIgnore_": 0.4,
+              "dragon_of_dark_decay_defIgnore_": 0.4
             }
           }
         ]

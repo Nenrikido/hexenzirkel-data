@@ -509,12 +509,12 @@
         "gating": {
           "constellationMin": 2
         },
-        "description": "C2 Steelbreaker: while using Musou no Hitotachi and in the Musou Isshin state, Raiden's attacks ignore 60% of opponents' DEF. Applies to the burst.dmg nuke and the Musou Isshin-infused NA/CA/Plunge hits (burst.hit1-5/charged1-2/plunge*).",
+        "description": "C2 Steelbreaker: while using Musou no Hitotachi and in the Musou Isshin state, Raiden's attacks ignore 60% of opponents' DEF. Applies to the burst.dmg nuke and the Musou Isshin-infused NA/CA/Plunge hits (burst.hit1-5/charged1-2/plunge*) -- all of them carry burst_dmg_, so it is burst_defIgnore_: her skill and normal-mode hits no longer get it.",
         "states": [
           {
             "value": "active",
             "modifiers": {
-              "defIgnore_": 0.6
+              "burst_defIgnore_": 0.6
             }
           }
         ]

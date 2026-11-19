@@ -216,13 +216,27 @@
         "conditionKey": "c6SakuraDefIgnore",
         "source": "avatar_10000058",
         "gating": { "constellationMin": 6 },
-        "description": "C6 Forbidden Art: Daisesshou: the Sesshou Sakura's attacks ignore 60% of opponents' DEF. Applied as defIgnore_ (affects the skill/Sakura hits).",
+        "description": "C6 Forbidden Art: Daisesshou: the Sesshou Sakura's attacks ignore 60% of opponents' DEF. Applied as skill_defIgnore_, which reaches only hits carrying skill_dmg_ (every Sakura hit, incl. the lockedPassive ones), as GO does -- not her Burst or normals.",
         "states": [
           {
             "value": "on",
-            "modifiers": { "defIgnore_": 0.6 }
+            "modifiers": { "skill_defIgnore_": 0.6 }
           }
         ]
+      },
+      {
+        "conditionKey": "c4BurstDmg",
+        "source": "avatar_10000058",
+        "gating": { "constellationMin": 4 },
+        "description": "C4 Sakura Channeling (second half): Yae Miko's Elemental Burst DMG is increased by 100%. Self only (GO: constellation4.burst_dmg_).",
+        "modifiers": { "burst_dmg_": 1.0 }
+      },
+      {
+        "conditionKey": "c6StellarConductCritDmg",
+        "source": "avatar_10000058",
+        "gating": { "constellationMin": 6 },
+        "description": "C6 Forbidden Art: Daisesshou (second half): the CRIT DMG of Yae Miko's Stellar-Conduct DMG is increased by 200%. Self only (GO: constellation6.stellarconduct_critDMG_).",
+        "modifiers": { "stellarconduct_critDMG_": 2.0 }
       }
     ],
     "team_modifiers_json": {},
@@ -231,7 +245,7 @@
         "conditionKey": "c1RadianceStellarConduct",
         "source": "avatar_10000058",
         "gating": { "constellationMin": 1 },
-        "description": "C1 (6.7 Stellar-Conduct): after Yae Miko triggers a Superconduct or Stellar-Conduct reaction, or deals Stellar-Conduct DMG, nearby party members gain +40% Electro DMG and +40% Stellar-Conduct DMG for 8s.",
+        "description": "C1 (6.7 Stellar-Conduct): after Yae Miko triggers a Superconduct or Stellar-Conduct reaction, or deals Stellar-Conduct DMG, nearby party members gain +50% Electro DMG and +50% Stellar-Conduct DMG for 10s.",
         "states": [
           {
             "value": "on",
@@ -245,6 +259,17 @@
         "gating": { "constellationMin": 4 },
         "description": "C4 Sakura Channeling: when Sesshou Sakura lightning hits opponents, all nearby party members gain +20% Electro DMG Bonus for 5s.",
         "modifiers": { "electro_dmg_": 0.2 }
+      },
+      {
+        "conditionKey": "c2FoxsMooncallEleMas",
+        "source": "avatar_10000058",
+        "gating": { "constellationMin": 2 },
+        "description": "C2 Fox's Mooncall: while Sesshou Sakura are on the field, Yae Miko's AND the current active character's Elemental Mastery is increased by 60/90/120/200 depending on the Sakura level; at C2 the Sakura start at Lv2 and cap at Lv4, so 90/120/200 (GO: constellation2.eleMas[level-1], applied to Yae and to the active character only). Enable it on a teammate's slot only when the scored character is on-field during its hits -- an off-field sub DPS does not get it.",
+        "states": [
+          { "value": "Lv2 Sakura (+90 EM)", "modifiers": { "eleMas": 90 } },
+          { "value": "Lv3 Sakura (+120 EM)", "modifiers": { "eleMas": 120 } },
+          { "value": "Lv4 Sakura (+200 EM)", "modifiers": { "eleMas": 200 } }
+        ]
       }
     ]
   },
