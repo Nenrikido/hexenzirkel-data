@@ -431,7 +431,8 @@
         "conditionKey": "c6CrimsonMomiji",
         "source": "avatar_10000047",
         "gating": { "constellationMin": 6 },
-        "description": "C6 Crimson Momiji: for 5s after Chihayaburu or Kazuha Slash, Kazuha's Normal, Charged and Plunging Attack DMG is increased by 0.2% per point of Elemental Mastery (GO: constellation6.auto_ x EM, uncapped). The Anemo Infusion half is per hit: set infusionAura \"anemo\" on the infused rotation targets.",
+        "description": "C6 Crimson Momiji: for 5s after Chihayaburu or Kazuha Slash, Kazuha's Normal, Charged and Plunging Attack DMG is increased by 0.2% per point of Elemental Mastery (GO: constellation6.auto_ x EM, uncapped). The Anemo Infusion is `infusion` (GO overridableSelf): Physical Normal/Charged/Plunging targets turn Anemo, unless the target sets its own infusionAura (a team infusion such as Bennett's C6 wins).",
+        "infusion": "anemo",
         "modifiers": {
           "normal_dmg_from_eleMas": 0.002,
           "charged_dmg_from_eleMas": 0.002,
