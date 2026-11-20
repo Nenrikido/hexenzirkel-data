@@ -133,11 +133,36 @@
       {
         "conditionKey": "burstInspirationField",
         "source": "Bennett",
+        "description": "Burst Fantastic Voyage: characters in the Inspiration Field gain flat ATK equal to a percentage of Bennett's BASE ATK (character + weapon base ATK, no ATK% or flat ATK): 100.8% at talent Lv10, 119% at Lv13 (C5), +20% from C1. The builder takes Bennett's base ATK (statInput); blank is 866 (Lv90 Bennett 191 + a 674 base ATK sword such as Mistsplitter or Aquila Favonia). Presets, computed at C5+C1 (139%): \"on\" = 866 base ATK = 1,204 ATK, \"Freedom-Sworn\" = 191 + 608 = 799 base ATK = 1,111 ATK.",
+        "statInput": {
+          "stat": "baseAtk",
+          "default": 866,
+          "max": 1500,
+          "ratesPerUnit": {
+            "atk": 1.008
+          },
+          "constellationRates": {
+            "C1": {
+              "atk": 1.208
+            },
+            "C5": {
+              "atk": 1.39
+            }
+          },
+          "labelKey": "admin.lbBennettBurstBaseAtkLabel",
+          "placeholderKey": "admin.lbBennettBurstBaseAtkPlaceholder"
+        },
         "states": [
           {
             "value": "on",
             "modifiers": {
               "atk": 1204.0
+            }
+          },
+          {
+            "value": "Freedom-Sworn",
+            "modifiers": {
+              "atk": 1110.9
             }
           }
         ]
