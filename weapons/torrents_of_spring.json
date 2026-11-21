@@ -1,0 +1,127 @@
+{
+ "weapon_key": "12517",
+ "rarity": 5,
+ "display_name": "Torrents of Spring",
+ "base_stats_json": {
+  "baseAtk": 740.580154,
+  "subStatKey": "atk_",
+  "subStatValue": 0.165384
+ },
+ "buffs": {
+  "self_modifiers_json": {},
+  "self_conditional_modifiers_json": [
+   {
+    "source": "12517",
+    "conditionKey": "wavebreakingThunderAtk",
+    "refinementTiered": true,
+    "description": "Wavebreaking Thunder: ATK +16/20/24/28/32% (R1-R5), unconditional -- auto-applied at the chosen refinement.",
+    "states": {
+     "R1": {
+      "atk_": 0.16
+     },
+     "R2": {
+      "atk_": 0.2
+     },
+     "R3": {
+      "atk_": 0.24
+     },
+     "R4": {
+      "atk_": 0.28
+     },
+     "R5": {
+      "atk_": 0.32
+     }
+    }
+   },
+   {
+    "source": "12517",
+    "conditionKey": "attendantsMeasureEnhancedAtk",
+    "description": "R1 Wavebreaking Thunder, wielder half of the ENHANCED Attendant's Measure: while it is up, the wielder's own Stellar-Conduct hits grant the wielder a further +16% ATK. Pair with the team entry attendantsMeasure on its 'enhanced' state. R2-R5 in refinementStates.",
+    "states": {
+     "enhanced": {
+      "atk_": 0.16
+     }
+    },
+    "refinementStates": {
+     "R2": {
+      "enhanced": {
+       "atk_": 0.2
+      }
+     },
+     "R3": {
+      "enhanced": {
+       "atk_": 0.24
+      }
+     },
+     "R4": {
+      "enhanced": {
+       "atk_": 0.28
+      }
+     },
+     "R5": {
+      "enhanced": {
+       "atk_": 0.32
+      }
+     }
+    }
+   }
+  ],
+  "team_modifiers_json": {},
+  "team_conditional_modifiers_json": [
+   {
+    "source": "12517",
+    "conditionKey": "attendantsMeasure",
+    "description": "R1 Wavebreaking Thunder: when the wielder's Electro attacks hit, they gain Attendant's Measure for 15s: the ACTIVE character's Stellar-Conduct reaction DMG +20%; while it lasts, the wielder's own Stellar-Conduct hits enhance it, a further +20% (+40%). Works off-field. Team scope, assuming the scored character is the active one. R2-R5 in refinementStates.",
+    "states": {
+     "on (Electro hit)": {
+      "stellarconduct_dmg_": 0.2
+     },
+     "enhanced (wielder dealt Stellar-Conduct DMG)": {
+      "stellarconduct_dmg_": 0.4
+     }
+    },
+    "refinementStates": {
+     "R2": {
+      "on (Electro hit)": {
+       "stellarconduct_dmg_": 0.25
+      },
+      "enhanced (wielder dealt Stellar-Conduct DMG)": {
+       "stellarconduct_dmg_": 0.5
+      }
+     },
+     "R3": {
+      "on (Electro hit)": {
+       "stellarconduct_dmg_": 0.3
+      },
+      "enhanced (wielder dealt Stellar-Conduct DMG)": {
+       "stellarconduct_dmg_": 0.6
+      }
+     },
+     "R4": {
+      "on (Electro hit)": {
+       "stellarconduct_dmg_": 0.35
+      },
+      "enhanced (wielder dealt Stellar-Conduct DMG)": {
+       "stellarconduct_dmg_": 0.7
+      }
+     },
+     "R5": {
+      "on (Electro hit)": {
+       "stellarconduct_dmg_": 0.4
+      },
+      "enhanced (wielder dealt Stellar-Conduct DMG)": {
+       "stellarconduct_dmg_": 0.8
+      }
+     }
+    }
+   }
+  ],
+  "others_modifiers_json": {},
+  "others_conditional_modifiers_json": []
+ },
+ "source": {
+  "nanokaVersion": "7.2.52",
+  "refinementModelled": "R1",
+  "note": "7.3 weapon (Danica's signature), added 2026-11-21 from nanoka 7.2.52 pre-release data; GO and Amber carry nothing yet. Base stats = init x levels['90'] + last ascension add (741 ATK / 16.5% ATK, matching nanoka's weapon index). The unconditional ATK has no param of its own: it is param[2] like the enhanced ATK (16/32% at R1/R5 in both the text and the params)."
+ }
+}

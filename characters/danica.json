@@ -1,0 +1,686 @@
+{
+  "display_name": "Danica",
+  "go_key": "Danica",
+  "avatar_id": 10000147,
+  "character_key": "avatar_10000147",
+  "element": "electro",
+  "weapon_type": "claymore",
+  "enables": "stellar",
+  "constellation_talent_boosts": {
+    "burst": 3,
+    "skill": 5
+  },
+  "base_stats_json": {
+    "baseHp": 13041.895106,
+    "baseAtk": 337.241514,
+    "baseDef": 776.239914,
+    "ascStatKey": "atk_",
+    "ascStatValue": 0.288
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      },
+      "3": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "spinningDmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spinningDmg_mult"
+          }
+        ]
+      },
+      "finalDmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "finalDmg_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "plungeTier": "dmg"
+      },
+      "low": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ],
+        "plungeTier": "low"
+      },
+      "high": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ],
+        "plungeTier": "high"
+      }
+    },
+    "skill": {
+      "skillDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "skillDmg_mult"
+          }
+        ]
+      },
+      "coordinatedDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "coordinatedDmg_mult"
+          }
+        ]
+      },
+      "protectDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "protectDmg_mult"
+          }
+        ]
+      },
+      "purgeDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "purgeDmg_mult"
+          }
+        ]
+      },
+      "anchorNormal0": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "anchorNormal0_mult"
+          }
+        ]
+      },
+      "anchorNormal1": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "anchorNormal1_mult"
+          }
+        ]
+      },
+      "anchorNormal2": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "anchorNormal2_mult"
+          }
+        ]
+      },
+      "anchorNormal3": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "anchorNormal3_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "hit1Dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1Dmg_mult"
+          }
+        ]
+      },
+      "hit234Dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit234Dmg_mult"
+          }
+        ]
+      },
+      "hit5Dmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "electro_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit5Dmg_mult"
+          }
+        ]
+      },
+      "hit1StellarDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit1StellarDmg_mult"
+          }
+        ]
+      },
+      "hit5StellarDmg": {
+        "element": "electro",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "hit5StellarDmg_mult"
+          }
+        ]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "skillDmg_mult": 0.96192,
+        "protectDmg_mult": 1.5264,
+        "purgeDmg_mult": 1.79568,
+        "coordinatedDmg_mult": 0.8568,
+        "anchorNormal0_mult": 1.65762,
+        "anchorNormal1_mult": 1.516374,
+        "anchorNormal2_mult": 0.988857,
+        "anchorNormal3_mult": 2.423214
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 1.343852,
+        "1_mult": 1.229337,
+        "2_mult": 0.801683,
+        "3_mult": 1.964526
+      },
+      "charged": {
+        "spinningDmg_mult": 1.32314,
+        "finalDmg_mult": 2.3933
+      },
+      "plunging": {
+        "dmg_mult": 1.578486,
+        "low_mult": 3.156303,
+        "high_mult": 3.942393
+      },
+      "skill": {
+        "skillDmg_mult": 0.812288,
+        "protectDmg_mult": 1.28896,
+        "purgeDmg_mult": 1.516352,
+        "coordinatedDmg_mult": 0.72352,
+        "anchorNormal0_mult": 1.399768,
+        "anchorNormal1_mult": 1.280494,
+        "anchorNormal2_mult": 0.835035,
+        "anchorNormal3_mult": 2.04627,
+        "shieldAtk_ratio": 4.435968,
+        "shieldFlat": 3476.599
+      }
+    },
+    "boosted": {
+      "skill": {
+        "skillDmg_mult": 0.90848,
+        "protectDmg_mult": 1.4416,
+        "purgeDmg_mult": 1.69592,
+        "coordinatedDmg_mult": 0.8092,
+        "anchorNormal0_mult": 1.56553,
+        "anchorNormal1_mult": 1.432131,
+        "anchorNormal2_mult": 0.93392,
+        "anchorNormal3_mult": 2.288591
+      },
+      "burst": {
+        "hit1Dmg_mult": 1.58916,
+        "hit1StellarDmg_mult": 0.93959,
+        "hit234Dmg_mult": 0.25092,
+        "hit5Dmg_mult": 1.84008,
+        "hit5StellarDmg_mult": 1.40879
+      }
+    },
+    "normal": {
+      "0_mult": 1.255246,
+      "1_mult": 1.148282,
+      "2_mult": 0.748825,
+      "3_mult": 1.834997
+    },
+    "charged": {
+      "spinningDmg_mult": 1.2359,
+      "finalDmg_mult": 2.2355,
+      "stam": 40.0
+    },
+    "plunging": {
+      "dmg_mult": 1.47441,
+      "low_mult": 2.948195,
+      "high_mult": 3.682455
+    },
+    "skill": {
+      "skillDmg_mult": 0.769536,
+      "protectDmg_mult": 1.22112,
+      "purgeDmg_mult": 1.436544,
+      "coordinatedDmg_mult": 0.68544,
+      "anchorNormal0_mult": 1.326096,
+      "anchorNormal1_mult": 1.213099,
+      "anchorNormal2_mult": 0.791086,
+      "anchorNormal3_mult": 1.938571,
+      "shieldAtk_ratio": 4.202496,
+      "shieldFlat": 3220.4138,
+      "anchorDuration": 25.0,
+      "protectCooldown": 16.0,
+      "cooldown": 18.0
+    },
+    "burst": {
+      "hit1Dmg_mult": 1.346112,
+      "hit1StellarDmg_mult": 0.795888,
+      "hit234Dmg_mult": 0.212544,
+      "hit5Dmg_mult": 1.558656,
+      "hit5StellarDmg_mult": 1.193328,
+      "royalGuardAtkRatio": 0.1,
+      "royalGuardAtkMax": 400.0,
+      "cleanerPurgeDmgInc": 0.70272,
+      "buffDuration": 20.0,
+      "cooldown": 18.0,
+      "energy_cost": 60.0
+    },
+    "passive": {
+      "a1_electroRes_": -0.15,
+      "a1_radiance_extraElectroRes_": -0.15,
+      "a1_radiance_cryoRes_": -0.3,
+      "a4_atkSpd_perStack": 0.2,
+      "a4_royalGuardAtk_": 0.2,
+      "passive3_stellarConduct_basedmg_perAtk": 7e-05,
+      "passive3_stellarConduct_basedmg_cap": 0.14
+    },
+    "constellation": {
+      "c1_energy": 20.0,
+      "c1_cleanerEnhance": 1.2,
+      "c1_royalGuardEnhance_text": 0.8,
+      "c2_letUsToastStacks": 7.0,
+      "c2_othersFlatAtkRatio": 1.0,
+      "c2_cleanerFlatAtkRatio": 1.5,
+      "c6_stellarConduct_elevation": 0.2
+    },
+    "source": {
+      "provider": "nanoka",
+      "endpoint": "https://static.nanoka.cc/gi/7.2.52/en/character/10000147.json",
+      "nanokaVersion": "7.2.52",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "skillTalentLevel": 10,
+        "burstTalentLevel": 10
+      },
+      "note": "7.3 character, added 2026-11-21 from nanoka 7.2.52 (pre-release data under the 7.2 build; neither GO nor Amber carry her yet). EVERY hit key is our guess in GO style and must be reconciled with GO when it ships her sheet. Base sections are Lv10 (5-star C0); `boosted` holds Lv13 for the burst (C3) and the skill (C5). No label names a stat, so every hit is ATK-scaled (her whole kit scales on ATK). Storm Anchor Normal Attacks (on-field with the anchor out) come from the SKILL table but are Normal Attack DMG, Electro, uninfusable: skill.anchorNormal0..3, the 3rd hit is x2 (one instance, weight 2). Will to Protect / Will to Purge are Stellar-Conduct reaction DMG. The burst 2/3/4-hit is one multiplier (weight 3); hit1StellarDmg / hit5StellarDmg are the EXTRA Stellar-Conduct instances under Radiance only. Text-vs-param mismatches in the pre-release data (text used): C1 says Royal Guard enhancements +80% but param_list has 1.0."
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "stellarconduct_basedmg_from_atk_": 7e-05,
+      "stellarconduct_basedmg_from_atk_cap_": 0.14
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "a4RoyalGuardAtk",
+        "source": "avatar_10000147",
+        "description": "A4 Time to Clean House, second half: Danica gains +20% ATK after using Will to Protect (switched in at max Will to Cleanse), until she leaves Maid: Royal Guard form. The Maid: Cleaner half is ATK SPD and extra Will to Cleanse, not modelled.",
+        "states": [
+          {
+            "value": "Maid: Royal Guard (+20% ATK)",
+            "modifiers": {
+              "atk_": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "burstCleanerPurgeDmg",
+        "source": "avatar_10000147",
+        "description": "Burst, Radiance: Stellar-Conduct half: for 20s after the burst, while in Maid: Cleaner form, Will to Purge DMG is increased by 70.27% (burst Lv10) -- read as a DMG% bonus scoped to that one hit (purgedmg_stellarconduct_dmg_, the Wriothesley C1 hit-scoped mechanism), not a ratio add; revisit when GO ships her sheet. Talent-scaled, so C3 (burst +3) takes it to Lv13, and C1 raises the Cleaner enhancements by 120% (x2.2); constellationStates carries both. Requires Danica to be in Radiance: Stellar-Conduct (inside a Polestar Field).",
+        "states": [
+          {
+            "value": "Maid: Cleaner after burst",
+            "modifiers": {
+              "purgedmg_stellarconduct_dmg_": 0.70272
+            }
+          }
+        ],
+        "constellationStates": {
+          "C1": {
+            "Maid: Cleaner after burst": {
+              "purgedmg_stellarconduct_dmg_": 1.545984
+            }
+          },
+          "C3": {
+            "Maid: Cleaner after burst": {
+              "purgedmg_stellarconduct_dmg_": 1.82512
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c6CleanerPurgeCrit",
+        "source": "avatar_10000147",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6, Maid: Cleaner half: Will to Purge gains +2.5% CRIT Rate and +25% CRIT DMG per 500 of Danica's ATK, capped at +10% / +100% (reached at 2,000 ATK). Hit-scoped crit keys (purgedmg_*). Pick her ATK band; any real C6 Danica is past 2,000.",
+        "states": [
+          {
+            "value": "1000 ATK",
+            "modifiers": {
+              "purgedmg_critRate_": 0.05,
+              "purgedmg_critDMG_": 0.5
+            }
+          },
+          {
+            "value": "1500 ATK",
+            "modifiers": {
+              "purgedmg_critRate_": 0.075,
+              "purgedmg_critDMG_": 0.75
+            }
+          },
+          {
+            "value": "2,000+ ATK (capped)",
+            "modifiers": {
+              "purgedmg_critRate_": 0.1,
+              "purgedmg_critDMG_": 1.0
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1StormAnchorResShred",
+        "source": "avatar_10000147",
+        "description": "A1 Hymn of Ancient Waves: the Storm Anchor reduces nearby opponents' Electro RES by 15%; under Radiance: Stellar-Conduct, opponents near it lose a further 15% Electro RES and 30% Cryo RES.",
+        "states": [
+          {
+            "value": "Storm Anchor (-15% Electro RES)",
+            "modifiers": {
+              "electro_enemyRes_": -0.15
+            }
+          },
+          {
+            "value": "Radiance: Stellar-Conduct (-30% Electro, -30% Cryo RES)",
+            "modifiers": {
+              "electro_enemyRes_": -0.3,
+              "cryo_enemyRes_": -0.3
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6StellarConductElevation",
+        "source": "avatar_10000147",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6 The Star That Wakes Ere Dawn Breaks: nearby party members' Stellar-Conduct reaction DMG is ELEVATED by 20% while the Storm Anchor is present (stellarconduct_specialDmg_, its own bracket; same key as Sandrone's / Mitya's C6).",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarconduct_specialDmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "passive3StellarConductBaseDmgSourceAtk",
+        "source": "avatar_10000147",
+        "description": "Stellar Jubilee: Nothing Overlooked, OTHERS half: party members' Base Stellar-Conduct DMG +0.7% per 100 of DANICA's ATK, max +14% (reached at 2,000 ATK). Type her ATK (clamped at 2,000; blank = 2,000, capped). Conduct only, unlike Odette's / Sandrone's umbrella. When Danica is the scored character her live ATK feeds stellarconduct_basedmg_from_atk_ in self_modifiers.",
+        "statInput": {
+          "stat": "atk",
+          "default": 2000,
+          "max": 2000,
+          "ratesPerUnit": {
+            "stellarconduct_basedmg_": 7e-05
+          },
+          "caps": {
+            "stellarconduct_basedmg_": 0.14
+          }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "burstRoyalGuardPartyAtk",
+        "source": "avatar_10000147",
+        "description": "Burst, Radiance: Stellar-Conduct half: for 20s after the burst, while Danica is in Maid: Royal Guard form, party members gain ATK equal to 10% of her ATK, max 400 (burst Lv10). Type her ATK. Talent-scaled (C3: 11.8% / max 472) and C1 raises the Royal Guard enhancements by 80% (x1.8, applied to the ratio AND the ceiling); constellationRates / constellationCaps carry it. When Danica is the scored character she is in Cleaner form for her own damage, so no self entry.",
+        "statInput": {
+          "stat": "atk",
+          "default": 3000,
+          "max": 8000,
+          "ratesPerUnit": {
+            "atk": 0.1
+          },
+          "caps": {
+            "atk": 400.0
+          },
+          "constellationRates": {
+            "C1": {
+              "atk": 0.18
+            },
+            "C3": {
+              "atk": 0.2124
+            }
+          },
+          "constellationCaps": {
+            "C1": {
+              "atk": 720.0
+            },
+            "C3": {
+              "atk": 849.6
+            }
+          }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "c2LetUsToastSourceAtk",
+        "source": "avatar_10000147",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2 Stillness Amid Searing Sands, OTHERS half: Danica's skill gives every party member 7 Let Us Toast stacks; each Stellar-Conduct hit consumes one and gains flat DMG equal to 100% of DANICA's ATK (stellarconduct_dmgInc, outside the Stellar brackets). Type her ATK. This entry applies to EVERY Stellar-Conduct hit of the scored character: use it only when the rotation's Stellar-Conduct hits are covered by the 7 stacks (plus the 1 refunded per 6 consumed), otherwise put stellarconduct_dmgInc on the hits that consume a stack via bonusStats. Danica's OWN half (Cleaner form, all stacks on her next Stellar-Conduct hit, +150% of her ATK) is one hit: give that rotation target bonusStats {\"stellarconduct_dmgInc_from_atk_\": 1.5}.",
+        "statInput": {
+          "stat": "atk",
+          "default": 3000,
+          "max": 8000,
+          "ratesPerUnit": {
+            "stellarconduct_dmgInc": 1.0
+          }
+        },
+        "states": []
+      },
+      {
+        "conditionKey": "c6RoyalGuardActiveStellarDmg",
+        "source": "avatar_10000147",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6, Maid: Royal Guard half: the active character's Stellar-Conduct reaction DMG +10% per 1,000 of DANICA's ATK, max +40% (reached at 4,000 ATK). Type her ATK. Assumes the scored character is the active one.",
+        "statInput": {
+          "stat": "atk",
+          "default": 4000,
+          "max": 8000,
+          "ratesPerUnit": {
+            "stellarconduct_dmg_": 0.0001
+          },
+          "caps": {
+            "stellarconduct_dmg_": 0.4
+          }
+        },
+        "states": []
+      }
+    ]
+  }
+}

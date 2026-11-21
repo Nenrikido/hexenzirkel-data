@@ -1,0 +1,22 @@
+{
+ "weapon_key": "12438",
+ "rarity": 4,
+ "display_name": "Blazing Lionfang",
+ "base_stats_json": {
+  "baseAtk": 509.605949,
+  "subStatKey": "enerRech_",
+  "subStatValue": 0.4594
+ },
+ "buffs": {
+  "self_modifiers_json": {},
+  "self_conditional_modifiers_json": [],
+  "team_modifiers_json": {},
+  "team_conditional_modifiers_json": [],
+  "others_modifiers_json": {},
+  "others_conditional_modifiers_json": []
+ },
+ "source": {
+  "nanokaVersion": "7.2.52",
+  "note": "7.3 4-star claymore, added 2026-11-21 from nanoka 7.2.52 as BASE STATS ONLY (510 ATK / 45.9% ER). The passive 'Song of Our Covenant' has no text in any nanoka locale yet (the JP name still carries a placeholder suffix), so it cannot be modelled; the R1..R5 params are [5.0, 0.2, 2.8, 14.0, 10.0] .. [5.0, 0.4, 5.6, 14.0, 10.0] (the 0.2..0.4 and 2.8..5.6 rows scale with refinement). Fill the buffs once the text ships."
+ }
+}

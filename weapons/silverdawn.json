@@ -1,0 +1,61 @@
+{
+ "weapon_key": "15517",
+ "rarity": 5,
+ "display_name": "Silverdawn",
+ "base_stats_json": {
+  "baseAtk": 674.334546,
+  "subStatKey": "critDMG_",
+  "subStatValue": 0.441024
+ },
+ "buffs": {
+  "self_modifiers_json": {},
+  "self_conditional_modifiers_json": [
+   {
+    "source": "15517",
+    "conditionKey": "whiteCrownsBequest",
+    "description": "R1 White Star Overture: for 6s after an Elemental Skill or Burst, White Crown's Bequest: ATK +40% and Stellar Glimmer reaction CRIT DMG +40% (umbrella crit key, both reactions); each Stellar Glimmer reaction / DMG the wielder deals extends it by 3s (0.1s ICD, max 8 extensions), so it is effectively permanent in a Stellar rotation. Energy not modelled. R2-R5 in refinementStates.",
+    "states": {
+     "on": {
+      "atk_": 0.4,
+      "stellarglimmer_critDMG_": 0.4
+     }
+    },
+    "refinementStates": {
+     "R2": {
+      "on": {
+       "atk_": 0.52,
+       "stellarglimmer_critDMG_": 0.52
+      }
+     },
+     "R3": {
+      "on": {
+       "atk_": 0.64,
+       "stellarglimmer_critDMG_": 0.64
+      }
+     },
+     "R4": {
+      "on": {
+       "atk_": 0.76,
+       "stellarglimmer_critDMG_": 0.76
+      }
+     },
+     "R5": {
+      "on": {
+       "atk_": 0.88,
+       "stellarglimmer_critDMG_": 0.88
+      }
+     }
+    }
+   }
+  ],
+  "team_modifiers_json": {},
+  "team_conditional_modifiers_json": [],
+  "others_modifiers_json": {},
+  "others_conditional_modifiers_json": []
+ },
+ "source": {
+  "nanokaVersion": "7.2.52",
+  "refinementModelled": "R1",
+  "note": "7.3 weapon (Anastasya's signature), added 2026-11-21 from nanoka 7.2.52 pre-release data. Base stats = init x levels['90'] + last ascension add (674 ATK / 44.1% CRIT DMG, matching nanoka's index)."
+ }
+}

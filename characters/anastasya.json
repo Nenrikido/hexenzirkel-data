@@ -1,0 +1,1224 @@
+{
+  "display_name": "Anastasya",
+  "go_key": "Anastasya",
+  "avatar_id": 10000149,
+  "character_key": "avatar_10000149",
+  "element": "cryo",
+  "weapon_type": "bow",
+  "enables": "stellar",
+  "constellation_talent_boosts": {
+    "burst": 3,
+    "skill": 5
+  },
+  "base_stats_json": {
+    "baseHp": 12735.747219,
+    "baseAtk": 356.375782,
+    "baseDef": 778.545577,
+    "ascStatKey": "critDMG_",
+    "ascStatValue": 0.384
+  },
+  "hit_definitions_json": {
+    "normal": {
+      "0": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "0_mult"
+          }
+        ]
+      },
+      "1": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "1_mult"
+          }
+        ]
+      },
+      "2": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "2_mult"
+          }
+        ]
+      },
+      "3": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "3_mult"
+          }
+        ]
+      },
+      "4": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "4_mult"
+          }
+        ]
+      }
+    },
+    "charged": {
+      "aimed": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "aimed_mult"
+          }
+        ]
+      },
+      "fullyAimed": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "charged_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "fullyAimed_mult"
+          }
+        ]
+      }
+    },
+    "plunging": {
+      "dmg": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "dmg_mult"
+          }
+        ],
+        "plungeTier": "dmg"
+      },
+      "low": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "low_mult"
+          }
+        ],
+        "plungeTier": "low"
+      },
+      "high": {
+        "element": "physical",
+        "dmgBonusKeys": [
+          "plunging_dmg_",
+          "physical_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "high_mult"
+          }
+        ],
+        "plungeTier": "high"
+      }
+    },
+    "skill": {
+      "tapDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "tapDmg_mult"
+          }
+        ]
+      },
+      "holdDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "holdDmg_mult"
+          }
+        ]
+      },
+      "crownDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "crownDmg_mult"
+          }
+        ]
+      },
+      "crownStellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "crownStellarconductDmg_mult"
+          }
+        ]
+      },
+      "crownStellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "crownStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "spear0Dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear0Dmg_mult"
+          }
+        ]
+      },
+      "spear0StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear0StellarconductDmg_mult"
+          }
+        ]
+      },
+      "spear0StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear0StellarswirlDmg_mult"
+          }
+        ]
+      },
+      "spear1Dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear1Dmg_mult"
+          }
+        ]
+      },
+      "spear1StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear1StellarconductDmg_mult"
+          }
+        ]
+      },
+      "spear1StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear1StellarswirlDmg_mult"
+          }
+        ]
+      },
+      "spear2Dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear2Dmg_mult"
+          }
+        ]
+      },
+      "spear2StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear2StellarconductDmg_mult"
+          }
+        ]
+      },
+      "spear2StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear2StellarswirlDmg_mult"
+          }
+        ]
+      },
+      "spear3Dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear3Dmg_mult"
+          }
+        ]
+      },
+      "spear3StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear3StellarconductDmg_mult"
+          }
+        ]
+      },
+      "spear3StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear3StellarswirlDmg_mult"
+          }
+        ]
+      },
+      "spear4Dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "normal_dmg_",
+          "cryo_dmg_",
+          "all_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear4Dmg_mult"
+          }
+        ]
+      },
+      "spear4StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear4StellarconductDmg_mult"
+          }
+        ]
+      },
+      "spear4StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "spear4StellarswirlDmg_mult"
+          }
+        ]
+      }
+    },
+    "burst": {
+      "loveDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "burst_dmg_",
+          "cryo_dmg_",
+          "all_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "loveDmg_mult"
+          }
+        ]
+      },
+      "crownBurstStellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "crownBurstStellarconductDmg_mult"
+          }
+        ]
+      },
+      "crownBurstStellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "crownBurstStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "triumphStellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "triumphStellarconductDmg_mult"
+          }
+        ]
+      },
+      "triumphStellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "triumphStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "evernightStellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "evernightStellarconductDmg_mult"
+          }
+        ]
+      },
+      "evernightStellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "evernightStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "doom1Dmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "skill_dmg_",
+          "cryo_dmg_",
+          "all_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom1Dmg_mult"
+          }
+        ]
+      },
+      "doom1StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom1StellarconductDmg_mult"
+          }
+        ]
+      },
+      "doom1StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom1StellarswirlDmg_mult"
+          }
+        ]
+      },
+      "doom2StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom2StellarconductDmg_mult"
+          }
+        ]
+      },
+      "doom2StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom2StellarswirlDmg_mult"
+          }
+        ]
+      },
+      "doom3StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom3StellarconductDmg_mult"
+          }
+        ]
+      },
+      "doom3StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom3StellarswirlDmg_mult"
+          }
+        ]
+      }
+    },
+    "constellation6": {
+      "triumphStellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "triumphStellarconductDmg_mult"
+          }
+        ]
+      },
+      "triumphStellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "triumphStellarswirlDmg_mult"
+          }
+        ]
+      },
+      "doom3StellarconductDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarconduct_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom3StellarconductDmg_mult"
+          }
+        ]
+      },
+      "doom3StellarswirlDmg": {
+        "element": "cryo",
+        "dmgBonusKeys": [
+          "stellarswirl_dmg_",
+          "stellarglimmer_dmg_",
+          "reaction_dmg_",
+          "honorc2_dmg_"
+        ],
+        "components": [
+          {
+            "scalingKey": "atk",
+            "multKey": "doom3StellarswirlDmg_mult"
+          }
+        ]
+      }
+    }
+  },
+  "talent_multipliers_json": {
+    "levelUpBoosted": {
+      "skill": {
+        "tapDmg_mult": 2.6595,
+        "holdDmg_mult": 3.546,
+        "crownDmg_mult": 1.44,
+        "crownStellarconductDmg_mult": 0.756,
+        "crownStellarswirlDmg_mult": 1.134,
+        "spear0Dmg_mult": 1.410714,
+        "spear0StellarconductDmg_mult": 1.16079,
+        "spear0StellarswirlDmg_mult": 1.741185,
+        "spear1Dmg_mult": 0.739098,
+        "spear1StellarconductDmg_mult": 1.21632,
+        "spear1StellarswirlDmg_mult": 1.82448,
+        "spear2Dmg_mult": 1.794366,
+        "spear2StellarconductDmg_mult": 1.47648,
+        "spear2StellarswirlDmg_mult": 2.21472,
+        "spear3Dmg_mult": 0.661896,
+        "spear3StellarconductDmg_mult": 1.61085,
+        "spear3StellarswirlDmg_mult": 2.416275,
+        "spear4Dmg_mult": 0.797238,
+        "spear4StellarconductDmg_mult": 1.96545,
+        "spear4StellarswirlDmg_mult": 2.948175
+      }
+    },
+    "levelUp": {
+      "normal": {
+        "0_mult": 0.838456,
+        "1_mult": 0.852725,
+        "2_mult": 0.534297,
+        "3_mult": 0.38766,
+        "4_mult": 1.39068
+      },
+      "charged": {
+        "aimed_mult": 0.9282,
+        "fullyAimed_mult": 2.356
+      },
+      "plunging": {
+        "dmg_mult": 1.202656,
+        "low_mult": 2.404802,
+        "high_mult": 3.003728
+      },
+      "skill": {
+        "tapDmg_mult": 2.2458,
+        "holdDmg_mult": 2.9944,
+        "crownDmg_mult": 1.216,
+        "crownStellarconductDmg_mult": 0.6384,
+        "crownStellarswirlDmg_mult": 0.9576,
+        "spear0Dmg_mult": 1.19127,
+        "spear0StellarconductDmg_mult": 0.980223,
+        "spear0StellarswirlDmg_mult": 1.470334,
+        "spear1Dmg_mult": 0.624127,
+        "spear1StellarconductDmg_mult": 1.027115,
+        "spear1StellarswirlDmg_mult": 1.540672,
+        "spear2Dmg_mult": 1.515242,
+        "spear2StellarconductDmg_mult": 1.246805,
+        "spear2StellarswirlDmg_mult": 1.870208,
+        "spear3Dmg_mult": 0.558934,
+        "spear3StellarconductDmg_mult": 1.360273,
+        "spear3StellarswirlDmg_mult": 2.04041,
+        "spear4Dmg_mult": 0.673223,
+        "spear4StellarconductDmg_mult": 1.659713,
+        "spear4StellarswirlDmg_mult": 2.48957
+      }
+    },
+    "boosted": {
+      "skill": {
+        "tapDmg_mult": 2.51175,
+        "holdDmg_mult": 3.349,
+        "crownDmg_mult": 1.36,
+        "crownStellarconductDmg_mult": 0.714,
+        "crownStellarswirlDmg_mult": 1.071,
+        "spear0Dmg_mult": 1.332341,
+        "spear0StellarconductDmg_mult": 1.096302,
+        "spear0StellarswirlDmg_mult": 1.644452,
+        "spear1Dmg_mult": 0.698037,
+        "spear1StellarconductDmg_mult": 1.148747,
+        "spear1StellarswirlDmg_mult": 1.72312,
+        "spear2Dmg_mult": 1.694679,
+        "spear2StellarconductDmg_mult": 1.394453,
+        "spear2StellarswirlDmg_mult": 2.09168,
+        "spear3Dmg_mult": 0.625124,
+        "spear3StellarconductDmg_mult": 1.521358,
+        "spear3StellarswirlDmg_mult": 2.282037,
+        "spear4Dmg_mult": 0.752947,
+        "spear4StellarconductDmg_mult": 1.856258,
+        "spear4StellarswirlDmg_mult": 2.784387
+      },
+      "burst": {
+        "loveDmg_mult": 4.2585,
+        "crownBurstStellarconductDmg_mult": 0.238,
+        "crownBurstStellarswirlDmg_mult": 0.357,
+        "triumphStellarconductDmg_mult": 4.731667,
+        "triumphStellarswirlDmg_mult": 7.0975,
+        "evernightStellarconductDmg_mult": 6.624333,
+        "evernightStellarswirlDmg_mult": 9.9365,
+        "doom1Dmg_mult": 0.5678,
+        "doom1StellarconductDmg_mult": 2.365833,
+        "doom1StellarswirlDmg_mult": 3.54875,
+        "doom2StellarconductDmg_mult": 2.839,
+        "doom2StellarswirlDmg_mult": 4.2585,
+        "doom3StellarconductDmg_mult": 3.312167,
+        "doom3StellarswirlDmg_mult": 4.96825
+      },
+      "constellation6": {
+        "triumphStellarconductDmg_mult": 11.829168,
+        "triumphStellarswirlDmg_mult": 17.74375,
+        "doom3StellarconductDmg_mult": 6.624334,
+        "doom3StellarswirlDmg_mult": 9.9365
+      }
+    },
+    "derivedFrom": {
+      "constellation6": {
+        "triumphStellarconductDmg_mult": {
+          "section": "burst",
+          "multKey": "triumphStellarconductDmg_mult",
+          "factor": 2.5
+        },
+        "triumphStellarswirlDmg_mult": {
+          "section": "burst",
+          "multKey": "triumphStellarswirlDmg_mult",
+          "factor": 2.5
+        },
+        "doom3StellarconductDmg_mult": {
+          "section": "burst",
+          "multKey": "doom3StellarconductDmg_mult",
+          "factor": 2.0
+        },
+        "doom3StellarswirlDmg_mult": {
+          "section": "burst",
+          "multKey": "doom3StellarswirlDmg_mult",
+          "factor": 2.0
+        }
+      }
+    },
+    "normal": {
+      "0_mult": 0.783173,
+      "1_mult": 0.796501,
+      "2_mult": 0.499069,
+      "3_mult": 0.3621,
+      "4_mult": 1.298987
+    },
+    "charged": {
+      "aimed_mult": 0.867,
+      "fullyAimed_mult": 2.232
+    },
+    "plunging": {
+      "dmg_mult": 1.12336,
+      "low_mult": 2.246244,
+      "high_mult": 2.80568
+    },
+    "skill": {
+      "tapDmg_mult": 2.1276,
+      "holdDmg_mult": 2.8368,
+      "crownDmg_mult": 1.152,
+      "crownStellarconductDmg_mult": 0.6048,
+      "crownStellarswirlDmg_mult": 0.9072,
+      "spear0Dmg_mult": 1.128571,
+      "spear0StellarconductDmg_mult": 0.928632,
+      "spear0StellarswirlDmg_mult": 1.392948,
+      "spear1Dmg_mult": 0.591278,
+      "spear1StellarconductDmg_mult": 0.973056,
+      "spear1StellarswirlDmg_mult": 1.459584,
+      "spear2Dmg_mult": 1.435493,
+      "spear2StellarconductDmg_mult": 1.181184,
+      "spear2StellarswirlDmg_mult": 1.771776,
+      "spear3Dmg_mult": 0.529517,
+      "spear3StellarconductDmg_mult": 1.28868,
+      "spear3StellarswirlDmg_mult": 1.93302,
+      "spear4Dmg_mult": 0.63779,
+      "spear4StellarconductDmg_mult": 1.57236,
+      "spear4StellarswirlDmg_mult": 2.35854,
+      "crownDuration": 20.0,
+      "honorDuration": 15.0,
+      "cooldown": 15.0
+    },
+    "burst": {
+      "loveDmg_mult": 3.6072,
+      "crownBurstStellarconductDmg_mult": 0.2016,
+      "crownBurstStellarswirlDmg_mult": 0.3024,
+      "triumphStellarconductDmg_mult": 4.008,
+      "triumphStellarswirlDmg_mult": 6.012,
+      "evernightStellarconductDmg_mult": 5.6112,
+      "evernightStellarswirlDmg_mult": 8.4168,
+      "doom1Dmg_mult": 0.48096,
+      "doom1StellarconductDmg_mult": 2.004,
+      "doom1StellarswirlDmg_mult": 3.006,
+      "doom2StellarconductDmg_mult": 2.4048,
+      "doom2StellarswirlDmg_mult": 3.6072,
+      "doom3StellarconductDmg_mult": 2.8056,
+      "doom3StellarswirlDmg_mult": 4.2084,
+      "loveStellarGlimmerDmg_": 0.3,
+      "loveDuration": 20.0,
+      "evernightDuration": 14.0,
+      "cooldown": 18.0,
+      "energy_cost": 50.0
+    },
+    "constellation6": {
+      "triumphStellarconductDmg_mult": 10.02,
+      "triumphStellarswirlDmg_mult": 15.03,
+      "doom3StellarconductDmg_mult": 5.6112,
+      "doom3StellarswirlDmg_mult": 8.4168
+    },
+    "passive": {
+      "a1_accolade_critDMG_": 0.12,
+      "a1_duration": 20.0,
+      "a4_stellarswirl_mult_text": 0.15,
+      "passive3_basedmg_perAtk": 7e-05,
+      "passive3_basedmg_cap": 0.14
+    },
+    "constellation": {
+      "c1_cryoAtk_": 0.15,
+      "c1_otherEleMas": 60.0,
+      "c1_sealedGrantMult": 3.0,
+      "c2_love_stellarglimmer_critDMG_text": 0.6,
+      "c2_honor_originalDmg": 1.25,
+      "c2_stellarglimmer_elevation": 0.05,
+      "c4_accoladeMult": 1.3,
+      "c6_love_triumphMult": 2.5,
+      "c6_love_elevation": 0.1,
+      "c6_honor_doom3Mult": 2.0,
+      "c6_honor_selfElevation": 0.2
+    },
+    "source": {
+      "provider": "nanoka",
+      "endpoint": "https://static.nanoka.cc/gi/7.2.52/en/character/10000149.json",
+      "nanokaVersion": "7.2.52",
+      "assumptions": {
+        "constellation": 0,
+        "characterLevel": 90,
+        "autoTalentLevel": 10,
+        "skillTalentLevel": 10,
+        "burstTalentLevel": 10
+      },
+      "note": "7.3 character (the Tsaritsa), added 2026-11-21 from nanoka 7.2.52 (pre-release data; GO and Amber have nothing). EVERY hit key is our guess and must be reconciled with GO. Lv10 base, `boosted` Lv13 for burst (C3) and skill (C5). All hits ATK-scaled (no label names a stat). Every Stellar instance has a Stellar-Conduct and a Stellar Swirl twin (*StellarconductDmg / *StellarswirlDmg): the Radiance state picks one, never both. skill.crownDmg is the Palestar Crown's Cryo instance (x2 per attack; under Radiance the 2nd becomes crownStellar*). skill.spear0..4Dmg are the Blessing of Honor Blessed Spear Normal Attacks (Normal Attack DMG, uninfusable Cryo; 2nd x2, 4th x3, 5th x3 instances) and spear{n}Stellar* the final instance of each under Radiance. Burst: loveDmg (To the New World), crownBurstStellar* (the extra Crown instance during it), triumphStellar* (Palestar Edict: Triumph), evernightStellar* (The Evernight Yields to Dawn), doom1Dmg (x5, Elemental Skill DMG per the glossary) + doom1/2/3Stellar*. constellation6.* = Triumph x2.5 / Doom 3rd x2.0, borrowed from the burst table (derivedFrom). Text-vs-param mismatches in the pre-release data (TEXT used): A4 Stellar Swirl base multiplier +15% (param 0.1), C2 Love Stellar Glimmer CRIT DMG +60% (param 0.5)."
+    }
+  },
+  "buffs": {
+    "self_modifiers_json": {
+      "stellarglimmer_basedmg_from_atk_": 7e-05,
+      "stellarglimmer_basedmg_from_atk_cap_": 0.14
+    },
+    "self_conditional_modifiers_json": [
+      {
+        "conditionKey": "c2HonorOriginalDmg",
+        "source": "avatar_10000149",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2, Honor half: for 15s after a HELD skill, Anastasya's Normal Attacks (the Blessed Spear sequence), The Evernight Yields to Dawn and Palestar Edict: Doom deal 125% of their original DMG -- a base-DMG multiplier on exactly those hits (honorc2_dmg_ scope, both Cryo and Stellar forms).",
+        "states": [
+          {
+            "value": "Honor (held skill)",
+            "modifiers": {
+              "honorc2_base_dmg_": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6HonorSelfElevation",
+        "source": "avatar_10000149",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6, Honor half: Stellar Glimmer reaction DMG dealt by Anastasya is ELEVATED by 20% (stellarglimmer_specialDmg_, either reaction). The extra Doom 3rd attack (200%) is the rotation target constellation6.doom3Stellar*; 'possesses every party member's Accolades for this attack' is not modelled.",
+        "states": [
+          {
+            "value": "Honor (held skill)",
+            "modifiers": {
+              "stellarglimmer_specialDmg_": 0.2
+            }
+          }
+        ]
+      }
+    ],
+    "team_modifiers_json": {},
+    "team_conditional_modifiers_json": [
+      {
+        "conditionKey": "a1Accolades",
+        "source": "avatar_10000149",
+        "description": "A1 The Radiant Reign of Night: all party members gain Accolades for 20s after her skill, +12% CRIT DMG each. A Sealed member's Accolades are shared equally among the un-Sealed ones. Love: Anastasya Seals herself off-field, so each ally keeps its own and gets a third of hers (+16%); from C1 the share she grants is worth 300% (+24%). Honor: she Seals the 3 others and holds all 4 (+48%, for Anastasya herself). C4 makes every Accolade worth 130%. constellationStates carries C1 / C4. Pair with c1AccoladesAtkEm from C1.",
+        "states": [
+          {
+            "value": "1 Accolade (+CRIT DMG)",
+            "modifiers": {
+              "critDMG_": 0.12
+            }
+          },
+          {
+            "value": "Love, Anastasya Sealed: ally's own + share of hers",
+            "modifiers": {
+              "critDMG_": 0.16
+            }
+          },
+          {
+            "value": "Honor, 3 allies Sealed: Anastasya holds all 4",
+            "modifiers": {
+              "critDMG_": 0.48
+            }
+          }
+        ],
+        "constellationStates": {
+          "C1": {
+            "1 Accolade (+CRIT DMG)": {
+              "critDMG_": 0.12
+            },
+            "Love, Anastasya Sealed: ally's own + share of hers": {
+              "critDMG_": 0.24
+            },
+            "Honor, 3 allies Sealed: Anastasya holds all 4": {
+              "critDMG_": 0.48
+            }
+          },
+          "C4": {
+            "1 Accolade (+CRIT DMG)": {
+              "critDMG_": 0.156
+            },
+            "Love, Anastasya Sealed: ally's own + share of hers": {
+              "critDMG_": 0.312
+            },
+            "Honor, 3 allies Sealed: Anastasya holds all 4": {
+              "critDMG_": 0.624
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "c1AccoladesAtkEm",
+        "source": "avatar_10000149",
+        "gating": {
+          "constellationMin": 1
+        },
+        "description": "C1 To Years Past, To Hearts Still Alight: each Accolade also gives Cryo characters +15% ATK and others +60 EM, with the same sharing as a1Accolades (an ally of a Sealed Love Anastasya ends with 2 Accolades' worth from C1). Pick the receiver's element and the case. C4 makes it 130% (constellationStates).",
+        "states": [
+          {
+            "value": "1 Accolade, Cryo receiver",
+            "modifiers": {
+              "atk_": 0.15
+            }
+          },
+          {
+            "value": "1 Accolade, other element",
+            "modifiers": {
+              "eleMas": 60.0
+            }
+          },
+          {
+            "value": "Love, Anastasya Sealed, Cryo ally",
+            "modifiers": {
+              "atk_": 0.3
+            }
+          },
+          {
+            "value": "Love, Anastasya Sealed, non-Cryo ally",
+            "modifiers": {
+              "eleMas": 120.0
+            }
+          },
+          {
+            "value": "Honor, 3 allies Sealed (Anastasya, Cryo)",
+            "modifiers": {
+              "atk_": 0.6
+            }
+          }
+        ],
+        "constellationStates": {
+          "C4": {
+            "1 Accolade, Cryo receiver": {
+              "atk_": 0.195
+            },
+            "1 Accolade, other element": {
+              "eleMas": 78.0
+            },
+            "Love, Anastasya Sealed, Cryo ally": {
+              "atk_": 0.39
+            },
+            "Love, Anastasya Sealed, non-Cryo ally": {
+              "eleMas": 156.0
+            },
+            "Honor, 3 allies Sealed (Anastasya, Cryo)": {
+              "atk_": 0.78
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "burstLoveStellarGlimmerDmg",
+        "source": "avatar_10000149",
+        "description": "Burst To the New World (Blessing of Love): all nearby party members deal +30% Stellar Glimmer reaction DMG (burst Lv10; umbrella key, both reactions) while it lasts. C3 takes the burst to Lv13 (constellationStates).",
+        "states": [
+          {
+            "value": "To the New World active",
+            "modifiers": {
+              "stellarglimmer_dmg_": 0.3
+            }
+          }
+        ],
+        "constellationStates": {
+          "C3": {
+            "To the New World active": {
+              "stellarglimmer_dmg_": 0.354
+            }
+          }
+        }
+      },
+      {
+        "conditionKey": "a4LamentStellarSwirl",
+        "source": "avatar_10000149",
+        "description": "A4 Lament for the Lost, Stellar Swirl half: Stellar Swirl's base reaction multiplier +15% (GO-style additive stellarswirl_mult_; the pinned Stellar Vortex instances ignore it). Text says 15%, the pre-release param_list says 0.1: re-check on release. NOT modelled: vortices spawning at Level 2 (pick the Lv2 vortex target in the rotation) and the Stellar-Conduct half (Polestar Field buffs faster -- set the field's hit count accordingly).",
+        "states": [
+          {
+            "value": "Stellar Swirl team",
+            "modifiers": {
+              "stellarswirl_mult_": 0.15
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2LoveStellarGlimmerCrit",
+        "source": "avatar_10000149",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2, Love half: for 30s after a TAPPED skill, the CRIT DMG of Stellar Glimmer reaction DMG dealt by all party members +60% (stellarglimmer_critDMG_). Text 60% vs pre-release param 0.5: re-check on release.",
+        "states": [
+          {
+            "value": "Love (tapped skill)",
+            "modifiers": {
+              "stellarglimmer_critDMG_": 0.6
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c2StellarGlimmerElevation",
+        "source": "avatar_10000149",
+        "gating": {
+          "constellationMin": 2
+        },
+        "description": "C2, last line: Stellar Glimmer reaction DMG dealt by all nearby party members is ELEVATED by 5% (stellarglimmer_specialDmg_). Unconditional from C2.",
+        "states": [
+          {
+            "value": "on",
+            "modifiers": {
+              "stellarglimmer_specialDmg_": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "conditionKey": "c6LoveElevation",
+        "source": "avatar_10000149",
+        "gating": {
+          "constellationMin": 6
+        },
+        "description": "C6, Love half: Stellar Glimmer reaction DMG dealt by all nearby party members is ELEVATED by a further 10% for 30s after a tapped skill. The 250% Triumph on the next switch-in is the rotation target constellation6.triumphStellar*.",
+        "states": [
+          {
+            "value": "Love (tapped skill)",
+            "modifiers": {
+              "stellarglimmer_specialDmg_": 0.1
+            }
+          }
+        ]
+      }
+    ],
+    "others_modifiers_json": {},
+    "others_conditional_modifiers_json": [
+      {
+        "conditionKey": "passive3StellarJubileeSourceAtk",
+        "source": "avatar_10000149",
+        "description": "Stellar Jubilee: Immaculate Return, OTHERS half: party members' Stellar-Conduct AND Stellar Swirl base DMG +0.7% per 100 of ANASTASYA's ATK, max +14% (2,000 ATK) -- umbrella stellarglimmer_basedmg_, same shape as Odette's / Sandrone's. Type her ATK (blank = 2,000, capped). Her own half reads her live ATK via self_modifiers.",
+        "statInput": {
+          "stat": "atk",
+          "default": 2000,
+          "max": 2000,
+          "ratesPerUnit": {
+            "stellarglimmer_basedmg_": 7e-05
+          },
+          "caps": {
+            "stellarglimmer_basedmg_": 0.14
+          }
+        },
+        "states": []
+      }
+    ]
+  }
+}
