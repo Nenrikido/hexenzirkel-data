@@ -26,7 +26,7 @@
         "description": "R5 \"The Silver Tongue\": All Elemental DMG Bonus is increased by 24% for 15s after being affected by Hydro, Cryo, Electro, or Dendro (once every 12s).",
         "states": {
           "active": {
-            "all_dmg_": 0.24
+            "elemental_dmg_": 0.24
           }
         }
       }

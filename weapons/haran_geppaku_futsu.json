@@ -9,7 +9,7 @@
   },
   "buffs": {
     "self_modifiers_json": {
-      "all_dmg_": 0.12
+      "elemental_dmg_": 0.12
     },
     "self_conditional_modifiers_json": [
       {

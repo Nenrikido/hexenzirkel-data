@@ -13,10 +13,10 @@
       {
         "source": "MappaMare",
         "conditionKey": "mappa_mare_infusion_scroll",
-        "description": "R5 Infusion Scroll: triggering an Elemental Reaction grants +16% Elemental DMG Bonus for 10s, max 2 stacks. Modeled at max stacks (32% all_dmg_).",
+        "description": "R5 Infusion Scroll: triggering an Elemental Reaction grants +16% Elemental DMG Bonus for 10s, max 2 stacks. Modeled at max stacks (32% elemental_dmg_, which skips Physical hits).",
         "states": {
           "active": {
-            "all_dmg_": 0.32
+            "elemental_dmg_": 0.32
           }
         }
       }

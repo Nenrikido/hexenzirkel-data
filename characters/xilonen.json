@@ -191,12 +191,12 @@
       {
         "conditionKey": "c2SourceSampleMatch",
         "source": "Xilonen",
-        "description": "C2: Chiucue Mix — Xilonen's Geo Source Sample always stays active, and while a Source Sample is active, party members whose Elemental Type matches it gain a bonus: Geo DMG +50%, Pyro ATK +45%, Hydro Max HP +45%, Cryo CRIT DMG +60% (Electro's energy/CD effect is not damage-relevant and is not modeled). Select the state matching the scored character's element.",
+        "description": "C2: Chiucue Mix — Xilonen's Geo Source Sample always stays active, and while a Source Sample is active, party members whose Elemental Type matches it gain a bonus: Geo: DMG dealt +50% (a common DMG bonus, all_dmg_, so it also reaches a Geo character's Physical hits; it was geo_dmg_ until 2026-11-21), Pyro ATK +45%, Hydro Max HP +45%, Cryo CRIT DMG +60% (Electro's energy/CD effect is not damage-relevant and is not modeled). Select the state matching the scored character's element.",
         "gating": {
           "constellationMin": 2
         },
         "states": [
-          { "value": "geo", "modifiers": { "geo_dmg_": 0.5 } },
+          { "value": "geo", "modifiers": { "all_dmg_": 0.5 } },
           { "value": "pyro", "modifiers": { "atk_": 0.45 } },
           { "value": "hydro", "modifiers": { "hp_": 0.45 } },
           { "value": "cryo", "modifiers": { "critDMG_": 0.6 } }

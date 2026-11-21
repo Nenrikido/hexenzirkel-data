@@ -274,7 +274,7 @@
         "gating": { "constellationMin": 6 },
         "description": "C6 Countless Sights to See: All nearby party members gain a 12% All Elemental DMG Bonus for 15s after Kirara uses her Elemental Skill or Burst.",
         "modifiers": {
-          "all_dmg_": 0.12
+          "elemental_dmg_": 0.12
         }
       }
     ],
