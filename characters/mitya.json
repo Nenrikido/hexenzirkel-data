@@ -14,6 +14,7 @@
     "baseHp": 11633.615504,
     "baseAtk": 263.096227,
     "baseDef": 791.611027,
+    "baseEleMas": 100.0,
     "ascStatKey": "critDMG_",
     "ascStatValue": 0.384
   },

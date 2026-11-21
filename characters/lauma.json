@@ -11,6 +11,7 @@
     "baseHp": 10653.9424276,
     "baseAtk": 254.96415188000003,
     "baseDef": 668.6423019,
+    "baseEleMas": 200.0,
     "ascStatKey": "eleMas",
     "ascStatValue": 115.2
   },
