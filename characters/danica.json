@@ -457,16 +457,18 @@
     "constellation": {
       "c1_energy": 20.0,
       "c1_cleanerEnhance": 1.2,
-      "c1_royalGuardEnhance_text": 0.8,
-      "c2_letUsToastStacks": 7.0,
-      "c2_othersFlatAtkRatio": 1.0,
-      "c2_cleanerFlatAtkRatio": 1.5,
-      "c6_stellarConduct_elevation": 0.2
+      "c1_royalGuardEnhance": 1.0,
+      "c2_raiseAChorusStacks": 10.0,
+      "c2_othersFlatAtkRatio": 0.8,
+      "c2_cleanerFlatAtkRatio_text": 3.5,
+      "c2_cleanerMaxStacks": 2.0,
+      "c2_cleansingEdictPurgeMult": 1.5,
+      "c6_stellarConduct_elevation": 0.15
     },
     "source": {
       "provider": "nanoka",
-      "endpoint": "https://static.nanoka.cc/gi/7.2.52/en/character/10000147.json",
-      "nanokaVersion": "7.2.52",
+      "endpoint": "https://static.nanoka.cc/gi/7.2.53/en/character/10000147.json",
+      "nanokaVersion": "7.2.53",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -474,7 +476,7 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       },
-      "note": "7.3 character, added 2026-11-21 from nanoka 7.2.52 (pre-release data under the 7.2 build; neither GO nor Amber carry her yet). EVERY hit key is our guess in GO style and must be reconciled with GO when it ships her sheet. Base sections are Lv10 (5-star C0); `boosted` holds Lv13 for the burst (C3) and the skill (C5). No label names a stat, so every hit is ATK-scaled (her whole kit scales on ATK). Storm Anchor Normal Attacks (on-field with the anchor out) come from the SKILL table but are Normal Attack DMG, Electro, uninfusable: skill.anchorNormal0..3, the 3rd hit is x2 (one instance, weight 2). Will to Protect / Will to Purge are Stellar-Conduct reaction DMG. The burst 2/3/4-hit is one multiplier (weight 3); hit1StellarDmg / hit5StellarDmg are the EXTRA Stellar-Conduct instances under Radiance only. Text-vs-param mismatches in the pre-release data (text used): C1 says Royal Guard enhancements +80% but param_list has 1.0."
+      "note": "7.3 character, added 2026-11-21 from nanoka 7.2.52, updated 2026-11-23 to 7.2.53 (beta v4) (pre-release data under the 7.2 build; neither GO nor Amber carry her yet). EVERY hit key is our guess in GO style and must be reconciled with GO when it ships her sheet. Base sections are Lv10 (5-star C0); `boosted` holds Lv13 for the burst (C3) and the skill (C5). No label names a stat, so every hit is ATK-scaled (her whole kit scales on ATK). Storm Anchor Normal Attacks (on-field with the anchor out) come from the SKILL table but are Normal Attack DMG, Electro, uninfusable: skill.anchorNormal0..3, the 3rd hit is x2 (one instance, weight 2). Will to Protect / Will to Purge are Stellar-Conduct reaction DMG. The burst 2/3/4-hit is one multiplier (weight 3); hit1StellarDmg / hit5StellarDmg are the EXTRA Stellar-Conduct instances under Radiance only. 7.2.53: talents unchanged; C1 Royal Guard +100% (text now matches the param), C6 elevation 20% -> 15%, C2 reworked (Raise a Chorus). Text-vs-param mismatch left (text used): C2 Cleaner bonus 350% of ATK, param_list[4] = 5.0."
     }
   },
   "buffs": {
@@ -581,12 +583,12 @@
         "gating": {
           "constellationMin": 6
         },
-        "description": "C6 The Star That Wakes Ere Dawn Breaks: nearby party members' Stellar-Conduct reaction DMG is ELEVATED by 20% while the Storm Anchor is present (stellarconduct_specialDmg_, its own bracket; same key as Sandrone's / Mitya's C6).",
+        "description": "C6 The Star That Wakes Ere Dawn Breaks: nearby party members' Stellar-Conduct reaction DMG is ELEVATED by 15% while the Storm Anchor is present (stellarconduct_specialDmg_, its own bracket; same key as Sandrone's / Mitya's C6).",
         "states": [
           {
             "value": "on",
             "modifiers": {
-              "stellarconduct_specialDmg_": 0.2
+              "stellarconduct_specialDmg_": 0.15
             }
           }
         ]
@@ -614,7 +616,7 @@
       {
         "conditionKey": "burstRoyalGuardPartyAtk",
         "source": "avatar_10000147",
-        "description": "Burst, Radiance: Stellar-Conduct half: for 20s after the burst, while Danica is in Maid: Royal Guard form, party members gain ATK equal to 10% of her ATK, max 400 (burst Lv10). Type her ATK. Talent-scaled (C3: 11.8% / max 472) and C1 raises the Royal Guard enhancements by 80% (x1.8, applied to the ratio AND the ceiling); constellationRates / constellationCaps carry it. When Danica is the scored character she is in Cleaner form for her own damage, so no self entry.",
+        "description": "Burst, Radiance: Stellar-Conduct half: for 20s after the burst, while Danica is in Maid: Royal Guard form, party members gain ATK equal to 10% of her ATK, max 400 (burst Lv10). Type her ATK. Talent-scaled (C3: 11.8% / max 472) and C1 raises the Royal Guard enhancements by 100% (x2.0, applied to the ratio AND the ceiling); constellationRates / constellationCaps carry it. When Danica is the scored character she is in Cleaner form for her own damage, so no self entry.",
         "statInput": {
           "stat": "atk",
           "default": 3000,
@@ -627,18 +629,18 @@
           },
           "constellationRates": {
             "C1": {
-              "atk": 0.18
+              "atk": 0.2
             },
             "C3": {
-              "atk": 0.2124
+              "atk": 0.236
             }
           },
           "constellationCaps": {
             "C1": {
-              "atk": 720.0
+              "atk": 800.0
             },
             "C3": {
-              "atk": 849.6
+              "atk": 944.0
             }
           }
         },
@@ -650,13 +652,13 @@
         "gating": {
           "constellationMin": 2
         },
-        "description": "C2 Stillness Amid Searing Sands, OTHERS half: Danica's skill gives every party member 7 Let Us Toast stacks; each Stellar-Conduct hit consumes one and gains flat DMG equal to 100% of DANICA's ATK (stellarconduct_dmgInc, outside the Stellar brackets). Type her ATK. This entry applies to EVERY Stellar-Conduct hit of the scored character: use it only when the rotation's Stellar-Conduct hits are covered by the 7 stacks (plus the 1 refunded per 6 consumed), otherwise put stellarconduct_dmgInc on the hits that consume a stack via bonusStats. Danica's OWN half (Cleaner form, all stacks on her next Stellar-Conduct hit, +150% of her ATK) is one hit: give that rotation target bonusStats {\"stellarconduct_dmgInc_from_atk_\": 1.5}.",
+        "description": "C2 Stillness Amid Searing Sands, OTHERS half (7.2.53 rework; conditionKey kept from the old 'Let Us Toast' name so saved boards still resolve): summoning the Storm Anchor gives every nearby party member 10 Raise a Chorus stacks; each Stellar-Conduct hit consumes one and gains flat DMG equal to 80% of DANICA's ATK (stellarconduct_dmgInc, outside the Stellar brackets). Type her ATK. This entry applies to EVERY Stellar-Conduct hit of the scored character: use it only when the rotation's Stellar-Conduct hits are covered by the 10 stacks (re-summoning the anchor or a held-NA Will to Purge resets them), otherwise put stellarconduct_dmgInc on the hits that consume a stack via bonusStats. Danica's OWN half (Maid: Cleaner form, consumes up to 2 stacks on a Stellar-Conduct hit, +350% of her ATK per the text; param_list says 5.0) is one hit: give that rotation target bonusStats {\"stellarconduct_dmgInc_from_atk_\": 3.5}. Not modelled: the once-per-battle Cleansing Edict (enter combat with Will to Protect, then a held-NA Will to Purge at 150% of its original DMG).",
         "statInput": {
           "stat": "atk",
           "default": 3000,
           "max": 8000,
           "ratesPerUnit": {
-            "stellarconduct_dmgInc": 1.0
+            "stellarconduct_dmgInc": 0.8
           }
         },
         "states": []

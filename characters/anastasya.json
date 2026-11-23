@@ -741,20 +741,20 @@
         "crownStellarconductDmg_mult": 0.756,
         "crownStellarswirlDmg_mult": 1.134,
         "spear0Dmg_mult": 1.410714,
-        "spear0StellarconductDmg_mult": 1.16079,
-        "spear0StellarswirlDmg_mult": 1.741185,
+        "spear0StellarconductDmg_mult": 0.975064,
+        "spear0StellarswirlDmg_mult": 1.462595,
         "spear1Dmg_mult": 0.739098,
-        "spear1StellarconductDmg_mult": 1.21632,
-        "spear1StellarswirlDmg_mult": 1.82448,
+        "spear1StellarconductDmg_mult": 1.021709,
+        "spear1StellarswirlDmg_mult": 1.532563,
         "spear2Dmg_mult": 1.794366,
-        "spear2StellarconductDmg_mult": 1.47648,
-        "spear2StellarswirlDmg_mult": 2.21472,
+        "spear2StellarconductDmg_mult": 1.240243,
+        "spear2StellarswirlDmg_mult": 1.860365,
         "spear3Dmg_mult": 0.661896,
-        "spear3StellarconductDmg_mult": 1.61085,
-        "spear3StellarswirlDmg_mult": 2.416275,
+        "spear3StellarconductDmg_mult": 1.417548,
+        "spear3StellarswirlDmg_mult": 2.126322,
         "spear4Dmg_mult": 0.797238,
-        "spear4StellarconductDmg_mult": 1.96545,
-        "spear4StellarswirlDmg_mult": 2.948175
+        "spear4StellarconductDmg_mult": 1.729596,
+        "spear4StellarswirlDmg_mult": 2.594394
       }
     },
     "levelUp": {
@@ -781,20 +781,20 @@
         "crownStellarconductDmg_mult": 0.6384,
         "crownStellarswirlDmg_mult": 0.9576,
         "spear0Dmg_mult": 1.19127,
-        "spear0StellarconductDmg_mult": 0.980223,
-        "spear0StellarswirlDmg_mult": 1.470334,
+        "spear0StellarconductDmg_mult": 0.823387,
+        "spear0StellarswirlDmg_mult": 1.235081,
         "spear1Dmg_mult": 0.624127,
-        "spear1StellarconductDmg_mult": 1.027115,
-        "spear1StellarswirlDmg_mult": 1.540672,
+        "spear1StellarconductDmg_mult": 0.862776,
+        "spear1StellarswirlDmg_mult": 1.294164,
         "spear2Dmg_mult": 1.515242,
-        "spear2StellarconductDmg_mult": 1.246805,
-        "spear2StellarswirlDmg_mult": 1.870208,
+        "spear2StellarconductDmg_mult": 1.047316,
+        "spear2StellarswirlDmg_mult": 1.570975,
         "spear3Dmg_mult": 0.558934,
-        "spear3StellarconductDmg_mult": 1.360273,
-        "spear3StellarswirlDmg_mult": 2.04041,
+        "spear3StellarconductDmg_mult": 1.197041,
+        "spear3StellarswirlDmg_mult": 1.795561,
         "spear4Dmg_mult": 0.673223,
-        "spear4StellarconductDmg_mult": 1.659713,
-        "spear4StellarswirlDmg_mult": 2.48957
+        "spear4StellarconductDmg_mult": 1.460548,
+        "spear4StellarswirlDmg_mult": 2.190822
       }
     },
     "boosted": {
@@ -805,20 +805,20 @@
         "crownStellarconductDmg_mult": 0.714,
         "crownStellarswirlDmg_mult": 1.071,
         "spear0Dmg_mult": 1.332341,
-        "spear0StellarconductDmg_mult": 1.096302,
-        "spear0StellarswirlDmg_mult": 1.644452,
+        "spear0StellarconductDmg_mult": 0.920893,
+        "spear0StellarswirlDmg_mult": 1.38134,
         "spear1Dmg_mult": 0.698037,
-        "spear1StellarconductDmg_mult": 1.148747,
-        "spear1StellarswirlDmg_mult": 1.72312,
+        "spear1StellarconductDmg_mult": 0.964947,
+        "spear1StellarswirlDmg_mult": 1.447421,
         "spear2Dmg_mult": 1.694679,
-        "spear2StellarconductDmg_mult": 1.394453,
-        "spear2StellarswirlDmg_mult": 2.09168,
+        "spear2StellarconductDmg_mult": 1.171341,
+        "spear2StellarswirlDmg_mult": 1.757011,
         "spear3Dmg_mult": 0.625124,
-        "spear3StellarconductDmg_mult": 1.521358,
-        "spear3StellarswirlDmg_mult": 2.282037,
+        "spear3StellarconductDmg_mult": 1.338795,
+        "spear3StellarswirlDmg_mult": 2.008193,
         "spear4Dmg_mult": 0.752947,
-        "spear4StellarconductDmg_mult": 1.856258,
-        "spear4StellarswirlDmg_mult": 2.784387
+        "spear4StellarconductDmg_mult": 1.633507,
+        "spear4StellarswirlDmg_mult": 2.450261
       },
       "burst": {
         "loveDmg_mult": 4.2585,
@@ -829,18 +829,18 @@
         "evernightStellarconductDmg_mult": 6.624333,
         "evernightStellarswirlDmg_mult": 9.9365,
         "doom1Dmg_mult": 0.5678,
-        "doom1StellarconductDmg_mult": 2.365833,
-        "doom1StellarswirlDmg_mult": 3.54875,
-        "doom2StellarconductDmg_mult": 2.839,
-        "doom2StellarswirlDmg_mult": 4.2585,
+        "doom1StellarconductDmg_mult": 1.4195,
+        "doom1StellarswirlDmg_mult": 2.12925,
+        "doom2StellarconductDmg_mult": 2.365833,
+        "doom2StellarswirlDmg_mult": 3.54875,
         "doom3StellarconductDmg_mult": 3.312167,
         "doom3StellarswirlDmg_mult": 4.96825
       },
       "constellation6": {
-        "triumphStellarconductDmg_mult": 11.829168,
-        "triumphStellarswirlDmg_mult": 17.74375,
-        "doom3StellarconductDmg_mult": 6.624334,
-        "doom3StellarswirlDmg_mult": 9.9365
+        "triumphStellarconductDmg_mult": 9.463334,
+        "triumphStellarswirlDmg_mult": 14.195,
+        "doom3StellarconductDmg_mult": 8.280418,
+        "doom3StellarswirlDmg_mult": 12.420625
       }
     },
     "derivedFrom": {
@@ -848,22 +848,22 @@
         "triumphStellarconductDmg_mult": {
           "section": "burst",
           "multKey": "triumphStellarconductDmg_mult",
-          "factor": 2.5
+          "factor": 2.0
         },
         "triumphStellarswirlDmg_mult": {
           "section": "burst",
           "multKey": "triumphStellarswirlDmg_mult",
-          "factor": 2.5
+          "factor": 2.0
         },
         "doom3StellarconductDmg_mult": {
           "section": "burst",
           "multKey": "doom3StellarconductDmg_mult",
-          "factor": 2.0
+          "factor": 2.5
         },
         "doom3StellarswirlDmg_mult": {
           "section": "burst",
           "multKey": "doom3StellarswirlDmg_mult",
-          "factor": 2.0
+          "factor": 2.5
         }
       }
     },
@@ -890,20 +890,20 @@
       "crownStellarconductDmg_mult": 0.6048,
       "crownStellarswirlDmg_mult": 0.9072,
       "spear0Dmg_mult": 1.128571,
-      "spear0StellarconductDmg_mult": 0.928632,
-      "spear0StellarswirlDmg_mult": 1.392948,
+      "spear0StellarconductDmg_mult": 0.780051,
+      "spear0StellarswirlDmg_mult": 1.170076,
       "spear1Dmg_mult": 0.591278,
-      "spear1StellarconductDmg_mult": 0.973056,
-      "spear1StellarswirlDmg_mult": 1.459584,
+      "spear1StellarconductDmg_mult": 0.817367,
+      "spear1StellarswirlDmg_mult": 1.226051,
       "spear2Dmg_mult": 1.435493,
-      "spear2StellarconductDmg_mult": 1.181184,
-      "spear2StellarswirlDmg_mult": 1.771776,
+      "spear2StellarconductDmg_mult": 0.992195,
+      "spear2StellarswirlDmg_mult": 1.488292,
       "spear3Dmg_mult": 0.529517,
-      "spear3StellarconductDmg_mult": 1.28868,
-      "spear3StellarswirlDmg_mult": 1.93302,
+      "spear3StellarconductDmg_mult": 1.134038,
+      "spear3StellarswirlDmg_mult": 1.701058,
       "spear4Dmg_mult": 0.63779,
-      "spear4StellarconductDmg_mult": 1.57236,
-      "spear4StellarswirlDmg_mult": 2.35854,
+      "spear4StellarconductDmg_mult": 1.383677,
+      "spear4StellarswirlDmg_mult": 2.075515,
       "crownDuration": 20.0,
       "honorDuration": 15.0,
       "cooldown": 15.0
@@ -917,10 +917,10 @@
       "evernightStellarconductDmg_mult": 5.6112,
       "evernightStellarswirlDmg_mult": 8.4168,
       "doom1Dmg_mult": 0.48096,
-      "doom1StellarconductDmg_mult": 2.004,
-      "doom1StellarswirlDmg_mult": 3.006,
-      "doom2StellarconductDmg_mult": 2.4048,
-      "doom2StellarswirlDmg_mult": 3.6072,
+      "doom1StellarconductDmg_mult": 1.2024,
+      "doom1StellarswirlDmg_mult": 1.8036,
+      "doom2StellarconductDmg_mult": 2.004,
+      "doom2StellarswirlDmg_mult": 3.006,
       "doom3StellarconductDmg_mult": 2.8056,
       "doom3StellarswirlDmg_mult": 4.2084,
       "loveStellarGlimmerDmg_": 0.3,
@@ -930,15 +930,15 @@
       "energy_cost": 50.0
     },
     "constellation6": {
-      "triumphStellarconductDmg_mult": 10.02,
-      "triumphStellarswirlDmg_mult": 15.03,
-      "doom3StellarconductDmg_mult": 5.6112,
-      "doom3StellarswirlDmg_mult": 8.4168
+      "triumphStellarconductDmg_mult": 8.016,
+      "triumphStellarswirlDmg_mult": 12.024,
+      "doom3StellarconductDmg_mult": 7.014,
+      "doom3StellarswirlDmg_mult": 10.521
     },
     "passive": {
       "a1_accolade_critDMG_": 0.12,
       "a1_duration": 20.0,
-      "a4_stellarswirl_mult_text": 0.15,
+      "a4_stellarswirl_mult": 0.1,
       "passive3_basedmg_perAtk": 7e-05,
       "passive3_basedmg_cap": 0.14
     },
@@ -946,19 +946,19 @@
       "c1_cryoAtk_": 0.15,
       "c1_otherEleMas": 60.0,
       "c1_sealedGrantMult": 3.0,
-      "c2_love_stellarglimmer_critDMG_text": 0.6,
+      "c2_love_stellarglimmer_critDMG_": 0.5,
       "c2_honor_originalDmg": 1.25,
       "c2_stellarglimmer_elevation": 0.05,
       "c4_accoladeMult": 1.3,
-      "c6_love_triumphMult": 2.5,
+      "c6_love_triumphMult": 2.0,
       "c6_love_elevation": 0.1,
-      "c6_honor_doom3Mult": 2.0,
+      "c6_honor_doom3Mult": 2.5,
       "c6_honor_selfElevation": 0.2
     },
     "source": {
       "provider": "nanoka",
-      "endpoint": "https://static.nanoka.cc/gi/7.2.52/en/character/10000149.json",
-      "nanokaVersion": "7.2.52",
+      "endpoint": "https://static.nanoka.cc/gi/7.2.53/en/character/10000149.json",
+      "nanokaVersion": "7.2.53",
       "assumptions": {
         "constellation": 0,
         "characterLevel": 90,
@@ -966,7 +966,7 @@
         "skillTalentLevel": 10,
         "burstTalentLevel": 10
       },
-      "note": "7.3 character (the Tsaritsa), added 2026-11-21 from nanoka 7.2.52 (pre-release data; GO and Amber have nothing). EVERY hit key is our guess and must be reconciled with GO. Lv10 base, `boosted` Lv13 for burst (C3) and skill (C5). All hits ATK-scaled (no label names a stat). Every Stellar instance has a Stellar-Conduct and a Stellar Swirl twin (*StellarconductDmg / *StellarswirlDmg): the Radiance state picks one, never both. skill.crownDmg is the Palestar Crown's Cryo instance (x2 per attack; under Radiance the 2nd becomes crownStellar*). skill.spear0..4Dmg are the Blessing of Honor Blessed Spear Normal Attacks (Normal Attack DMG, uninfusable Cryo; 2nd x2, 4th x3, 5th x3 instances) and spear{n}Stellar* the final instance of each under Radiance. Burst: loveDmg (To the New World), crownBurstStellar* (the extra Crown instance during it), triumphStellar* (Palestar Edict: Triumph), evernightStellar* (The Evernight Yields to Dawn), doom1Dmg (x5, Elemental Skill DMG per the glossary) + doom1/2/3Stellar*. constellation6.* = Triumph x2.5 / Doom 3rd x2.0, borrowed from the burst table (derivedFrom). Text-vs-param mismatches in the pre-release data (TEXT used): A4 Stellar Swirl base multiplier +15% (param 0.1), C2 Love Stellar Glimmer CRIT DMG +60% (param 0.5)."
+      "note": "7.3 character (the Tsaritsa), added 2026-11-21 from nanoka 7.2.52, updated 2026-11-23 to 7.2.53 (beta v4) (pre-release data; GO and Amber have nothing). EVERY hit key is our guess and must be reconciled with GO. Lv10 base, `boosted` Lv13 for burst (C3) and skill (C5). All hits ATK-scaled (no label names a stat). Every Stellar instance has a Stellar-Conduct and a Stellar Swirl twin (*StellarconductDmg / *StellarswirlDmg): the Radiance state picks one, never both. skill.crownDmg is the Palestar Crown's Cryo instance (x2 per attack; under Radiance the 2nd becomes crownStellar*). skill.spear0..4Dmg are the Blessing of Honor Blessed Spear Normal Attacks (Normal Attack DMG, uninfusable Cryo; 2nd x2, 4th x3, 5th x3 instances) and spear{n}Stellar* the final instance of each under Radiance. Burst: loveDmg (To the New World), crownBurstStellar* (the extra Crown instance during it), triumphStellar* (Palestar Edict: Triumph), evernightStellar* (The Evernight Yields to Dawn), doom1Dmg (x5, Elemental Skill DMG per the glossary) + doom1/2/3Stellar*. constellation6.* = Triumph x2.0 / Doom 3rd x2.5, borrowed from the burst table (derivedFrom). 7.2.53 cut the Blessed Spear Stellar instances (x0.84 spears 1-3, x0.88 spears 4-5) and Doom 1st/2nd Stellar (x0.6 / x0.833), swapped C6 to Triumph 200% / Doom 250%, and its text now agrees with the params on A4 (+10%) and C2 (+50%)."
     }
   },
   "buffs": {
@@ -997,7 +997,7 @@
         "gating": {
           "constellationMin": 6
         },
-        "description": "C6, Honor half: Stellar Glimmer reaction DMG dealt by Anastasya is ELEVATED by 20% (stellarglimmer_specialDmg_, either reaction). The extra Doom 3rd attack (200%) is the rotation target constellation6.doom3Stellar*; 'possesses every party member's Accolades for this attack' is not modelled.",
+        "description": "C6, Honor half: Stellar Glimmer reaction DMG dealt by Anastasya is ELEVATED by 20% (stellarglimmer_specialDmg_, either reaction). The extra Doom 3rd attack (250%) is the rotation target constellation6.doom3Stellar*; 'possesses every party member's Accolades for this attack' is not modelled.",
         "states": [
           {
             "value": "Honor (held skill)",
@@ -1141,12 +1141,12 @@
       {
         "conditionKey": "a4LamentStellarSwirl",
         "source": "avatar_10000149",
-        "description": "A4 Lament for the Lost, Stellar Swirl half: Stellar Swirl's base reaction multiplier +15% (GO-style additive stellarswirl_mult_; the pinned Stellar Vortex instances ignore it). Text says 15%, the pre-release param_list says 0.1: re-check on release. NOT modelled: vortices spawning at Level 2 (pick the Lv2 vortex target in the rotation) and the Stellar-Conduct half (Polestar Field buffs faster -- set the field's hit count accordingly).",
+        "description": "A4 Lament for the Lost, Stellar Swirl half: Stellar Swirl's base reaction multiplier +10% (GO-style additive stellarswirl_mult_; the pinned Stellar Vortex instances ignore it). (7.2.53 text and param agree on 10%; 7.2.52's text said 15%.) NOT modelled: vortices spawning at Level 2 (pick the Lv2 vortex target in the rotation) and the Stellar-Conduct half (Polestar Field buffs faster -- set the field's hit count accordingly).",
         "states": [
           {
             "value": "Stellar Swirl team",
             "modifiers": {
-              "stellarswirl_mult_": 0.15
+              "stellarswirl_mult_": 0.1
             }
           }
         ]
@@ -1157,12 +1157,12 @@
         "gating": {
           "constellationMin": 2
         },
-        "description": "C2, Love half: for 30s after a TAPPED skill, the CRIT DMG of Stellar Glimmer reaction DMG dealt by all party members +60% (stellarglimmer_critDMG_). Text 60% vs pre-release param 0.5: re-check on release.",
+        "description": "C2, Love half: for 30s after a TAPPED skill, the CRIT DMG of Stellar Glimmer reaction DMG dealt by all nearby party members +50% (stellarglimmer_critDMG_). (7.2.53; 7.2.52's text said 60%.)",
         "states": [
           {
             "value": "Love (tapped skill)",
             "modifiers": {
-              "stellarglimmer_critDMG_": 0.6
+              "stellarglimmer_critDMG_": 0.5
             }
           }
         ]
@@ -1189,7 +1189,7 @@
         "gating": {
           "constellationMin": 6
         },
-        "description": "C6, Love half: Stellar Glimmer reaction DMG dealt by all nearby party members is ELEVATED by a further 10% for 30s after a tapped skill. The 250% Triumph on the next switch-in is the rotation target constellation6.triumphStellar*.",
+        "description": "C6, Love half: Stellar Glimmer reaction DMG dealt by all nearby party members is ELEVATED by a further 10% for 30s after a tapped skill. The 200% Triumph on the next switch-in is the rotation target constellation6.triumphStellar*.",
         "states": [
           {
             "value": "Love (tapped skill)",
