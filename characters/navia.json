@@ -382,19 +382,19 @@
           {
             "value": "1",
             "modifiers": {
-              "critRate_": 0.12
+              "totalsharddmg_critRate_": 0.12
             }
           },
           {
             "value": "2",
             "modifiers": {
-              "critRate_": 0.24
+              "totalsharddmg_critRate_": 0.24
             }
           },
           {
             "value": "3",
             "modifiers": {
-              "critRate_": 0.36
+              "totalsharddmg_critRate_": 0.36
             }
           }
         ],
